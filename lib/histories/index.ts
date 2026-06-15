@@ -34,6 +34,18 @@ import qatar from "./data/qatar.json";
 import kazakhstan from "./data/kazakhstan.json";
 import uzbekistan from "./data/uzbekistan.json";
 import turkmenistan from "./data/turkmenistan.json";
+import armenia from "./data/armenia.json";
+import azerbaijan from "./data/azerbaijan.json";
+import georgia from "./data/georgia.json";
+import kyrgyzstan from "./data/kyrgyzstan.json";
+import tajikistan from "./data/tajikistan.json";
+import taiwan from "./data/taiwan.json";
+import northerncyprus from "./data/northerncyprus.json";
+import colombia from "./data/colombia.json";
+import venezuela from "./data/venezuela.json";
+import peru from "./data/peru.json";
+import chile from "./data/chile.json";
+import bolivia from "./data/bolivia.json";
 import italy from "./data/italy.json";
 import spain from "./data/spain.json";
 import uk from "./data/uk.json";
@@ -186,6 +198,18 @@ const registry: Record<string, CountryHistory> = {
   KAZ: H(kazakhstan),
   UZB: H(uzbekistan),
   TKM: H(turkmenistan),
+  ARM: H(armenia),
+  AZE: H(azerbaijan),
+  GEO: H(georgia),
+  KGZ: H(kyrgyzstan),
+  TJK: H(tajikistan),
+  TWN: H(taiwan),
+  CYN: H(northerncyprus),
+  COL: H(colombia),
+  VEN: H(venezuela),
+  PER: H(peru),
+  CHL: H(chile),
+  BOL: H(bolivia),
   ITA: H(italy),
   ESP: H(spain),
   GBR: H(uk),
