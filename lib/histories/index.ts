@@ -10,6 +10,18 @@ import mongolia from "./data/mongolia.json";
 import india from "./data/india.json";
 import nepal from "./data/nepal.json";
 import srilanka from "./data/srilanka.json";
+import cambodia from "./data/cambodia.json";
+import laos from "./data/laos.json";
+import myanmar from "./data/myanmar.json";
+import malaysia from "./data/malaysia.json";
+import philippines from "./data/philippines.json";
+import bangladesh from "./data/bangladesh.json";
+import pakistan from "./data/pakistan.json";
+import brunei from "./data/brunei.json";
+import bhutan from "./data/bhutan.json";
+import timorleste from "./data/timorleste.json";
+import afghanistan from "./data/afghanistan.json";
+import northkorea from "./data/northkorea.json";
 import italy from "./data/italy.json";
 import spain from "./data/spain.json";
 import uk from "./data/uk.json";
@@ -138,6 +150,18 @@ const registry: Record<string, CountryHistory> = {
   IND: H(india),
   NPL: H(nepal),
   LKA: H(srilanka),
+  KHM: H(cambodia),
+  LAO: H(laos),
+  MMR: H(myanmar),
+  MYS: H(malaysia),
+  PHL: H(philippines),
+  BGD: H(bangladesh),
+  PAK: H(pakistan),
+  BRN: H(brunei),
+  BTN: H(bhutan),
+  TLS: H(timorleste),
+  AFG: H(afghanistan),
+  PRK: H(northkorea),
   ITA: H(italy),
   ESP: H(spain),
   GBR: H(uk),
