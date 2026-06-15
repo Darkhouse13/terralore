@@ -16,13 +16,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { code } = await params;
   const meta = getCountry(code);
-  if (!meta) return { title: "Unknown territory — Terra Historica" };
+  if (!meta) return { title: "Unknown territory — Terralore" };
   const history = getHistory(code);
   return {
-    title: `${meta.name} — ${history ? history.tagline : "Terra Historica"}`,
+    title: `${meta.name} — ${history ? history.tagline : "Terralore"}`,
     description:
       history?.summary ??
-      `The history of ${meta.name}, in the Terra Historica archive.`,
+      `The history of ${meta.name}, in the Terralore archive.`,
   };
 }
 
@@ -83,7 +83,7 @@ function StubScreen({
           Archive in progress
         </p>
         <p className="mx-auto mt-5 max-w-lg font-serif text-[1.15rem] leading-relaxed text-chalk-soft">
-          {`The time-journey through ${meta.name} is being charted and verified. Terra Historica publishes a nation's chapters only once each claim can be traced to a reliable source — so this one will arrive complete rather than quickly.`}
+          {`The time-journey through ${meta.name} is being charted and verified. Terralore publishes a nation's chapters only once each claim can be traced to a reliable source — so this one will arrive complete rather than quickly.`}
         </p>
 
         <dl className="mx-auto mt-9 inline-flex flex-wrap items-center justify-center gap-x-9 gap-y-4">

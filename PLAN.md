@@ -1,4 +1,4 @@
-# Terra Historica — Build Plan
+# Terralore — Build Plan
 
 An interactive 3D globe encyclopedia of world history. Click a country → basic
 info card → "Explore History" → a deep, sourced, interactive history page.

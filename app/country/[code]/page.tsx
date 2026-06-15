@@ -16,9 +16,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { code } = await params;
   const meta = getCountry(code);
-  if (!meta) return { title: "Unknown territory — Terra Historica" };
+  if (!meta) return { title: "Unknown territory — Terralore" };
   return {
-    title: `${meta.name} — Terra Historica`,
+    title: `${meta.name} — Terralore`,
     description: `A sourced dossier on ${meta.name}: economy, society, geography, and the long history of how it became a nation.`,
   };
 }

@@ -1,4 +1,4 @@
-// Canonical country-code reconciliation for Terra Historica.
+// Canonical country-code reconciliation for Terralore.
 //
 // Canonical code = Natural Earth ADM0_A3 (ISO_A3 is "-99" for France, Norway…).
 // Everything in the app keys on this: the globe geojson, data/countries.json,

@@ -1,4 +1,4 @@
-# Terra Historica
+# Terralore
 
 An interactive globe and living archive of world history. Spin the globe, choose a
 nation, read its basic facts, then open a long-form, **sourced** account of the path

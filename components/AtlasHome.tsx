@@ -80,7 +80,7 @@ export default function AtlasHome({
         <div className="pointer-events-auto">
           <div className="flex items-center gap-3">
             <Compass />
-            <span className="eyebrow text-brass">Terra Historica</span>
+            <span className="eyebrow text-brass">Terralore</span>
           </div>
           <h1 className="mt-3 max-w-md font-display text-[1.9rem] font-medium leading-[1.08] text-chalk md:text-[2.4rem]">
             An atlas of how nations came to be.

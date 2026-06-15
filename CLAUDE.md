@@ -1,6 +1,6 @@
 @AGENTS.md
 
-# Terra Historica — architecture notes
+# Terralore — architecture notes
 
 Interactive 3D-globe encyclopedia of nations. Spin globe → click country →
 basic-info card → **dossier** (multi-domain, sourced data) → optional cinematic

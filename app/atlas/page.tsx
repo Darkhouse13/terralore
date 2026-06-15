@@ -4,7 +4,7 @@ import { allCountries } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 
 export const metadata: Metadata = {
-  title: "The Index — Terra Historica",
+  title: "The Index — Terralore",
   description: "Every nation on the globe, with its archive status.",
 };
 

@@ -34,7 +34,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Terra Historica — An Atlas of How Nations Came to Be",
+  title: "Terralore — An Atlas of How Nations Came to Be",
   description:
     "An interactive globe and living archive of world history. Explore any nation and trace the long path it took to become a country — every claim sourced.",
 };
