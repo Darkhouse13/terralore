@@ -6,7 +6,10 @@ import mexico from "./data/mexico.json";
 import germany from "./data/germany.json";
 import usa from "./data/usa.json";
 import china from "./data/china.json";
+import mongolia from "./data/mongolia.json";
 import india from "./data/india.json";
+import nepal from "./data/nepal.json";
+import srilanka from "./data/srilanka.json";
 import italy from "./data/italy.json";
 import spain from "./data/spain.json";
 import uk from "./data/uk.json";
@@ -22,6 +25,7 @@ import canada from "./data/canada.json";
 import argentina from "./data/argentina.json";
 import indonesia from "./data/indonesia.json";
 import vietnam from "./data/vietnam.json";
+import thailand from "./data/thailand.json";
 import saudiarabia from "./data/saudiarabia.json";
 import palestine from "./data/palestine.json";
 import ethiopia from "./data/ethiopia.json";
@@ -130,7 +134,10 @@ const registry: Record<string, CountryHistory> = {
   DEU: H(germany),
   USA: H(usa),
   CHN: H(china),
+  MNG: H(mongolia),
   IND: H(india),
+  NPL: H(nepal),
+  LKA: H(srilanka),
   ITA: H(italy),
   ESP: H(spain),
   GBR: H(uk),
@@ -146,6 +153,7 @@ const registry: Record<string, CountryHistory> = {
   ARG: H(argentina),
   IDN: H(indonesia),
   VNM: H(vietnam),
+  THA: H(thailand),
   SAU: H(saudiarabia),
   PSE: H(palestine),
   ETH: H(ethiopia),
