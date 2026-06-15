@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter, Newsreader, JetBrains_Mono } from "next/font/google";
+import { Fraunces, Hanken_Grotesk, Newsreader, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 // Editorial display serif with character (optical sizing + a touch of "soft").
@@ -18,8 +18,9 @@ const newsreader = Newsreader({
   display: "swap",
 });
 
-// UI / interface sans — labels, navigation, data.
-const inter = Inter({
+// UI / interface sans — labels, navigation, data. Meridian recasts off Inter to
+// Hanken Grotesk for a touch more character without losing legibility.
+const hanken = Hanken_Grotesk({
   variable: "--ff-sans",
   subsets: ["latin"],
   display: "swap",
@@ -46,7 +47,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${newsreader.variable} ${inter.variable} ${mono.variable} h-full antialiased`}
+      className={`${fraunces.variable} ${newsreader.variable} ${hanken.variable} ${mono.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
     </html>

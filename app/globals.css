@@ -22,15 +22,23 @@
   --color-ink-soft: #5c5343;
   --color-ink-faint: #8a7f6a;
 
-  /* Chalk (text on void) */
-  --color-chalk: #ece6d8;
-  --color-chalk-soft: #a7a193;
-  --color-chalk-faint: #6c6a64;
+  /* Chalk (text on void) — Meridian tonal ramp */
+  --color-chalk: #ece4d3;
+  --color-chalk-bright: #f7f0e1; /* headings, big metric values */
+  --color-chalk-soft: #a89e8a;
+  --color-chalk-faint: #8c8472; /* mono eyebrows / labels */
+  --color-chalk-dim: #6f6857; /* micro source / year text */
+  --color-chalk-mute: #5b5343; /* no-data / disabled */
+  --color-reading: #cabfa8; /* serif reading on void (tooltips) */
 
-  /* Brass — the one accent (aged maps, brass instruments) */
+  /* Brass — the one warm accent (aged maps, brass instruments) */
   --color-brass: #bf9550;
-  --color-brass-bright: #dcb56e;
+  --color-brass-bright: #d8b56e;
   --color-brass-deep: #8a6a32;
+
+  /* Steel — the cool data-pole secondary; gives data-viz the contrast a
+     single-accent build lacks (used in ranking bars, choropleth low end). */
+  --color-steel: #5f7796;
 
   /* Verdigris — oxidized-copper secondary, used sparingly on the globe/map */
   --color-verdigris: #4b7d72;

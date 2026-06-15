@@ -3,13 +3,21 @@
 import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import type { Comparison, CountryDossier, CountryMeta, DomainKey } from "@/lib/types";
+import type {
+  Comparison,
+  CountryDossier,
+  CountryMeta,
+  DataSource,
+  DomainKey,
+  Metric,
+} from "@/lib/types";
 import { DOMAIN_META } from "@/lib/types";
 import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
 import DomainPanel from "./DomainPanel";
-import MetricCard from "./MetricCard";
 
 type Tab = "overview" | DomainKey;
+
+const ALL_DOMAINS = Object.keys(DOMAIN_META) as DomainKey[];
 
 export default function Dossier({
   meta,
@@ -26,73 +34,89 @@ export default function Dossier({
   hasHistory: boolean;
   historyTagline: string | null;
 }) {
-  const domains = dossier
-    ? (Object.keys(dossier.sections) as DomainKey[])
+  const available = dossier
+    ? ALL_DOMAINS.filter((d) => dossier.sections[d])
     : [];
   const [tab, setTab] = useState<Tab>("overview");
   const sources = dossier?.sources ?? {};
+  const isOverview = tab === "overview";
+
+  // Overview highlights: a curated mix — the first two metrics of each domain.
+  const highlights: Metric[] = available.flatMap(
+    (d) => dossier!.sections[d]!.metrics.slice(0, 2),
+  );
+  const gridMetrics =
+    isOverview || !dossier ? highlights : dossier.sections[tab as DomainKey]?.metrics ?? [];
+  const gridLabel = isOverview ? "Highlights" : DOMAIN_META[tab as DomainKey].label;
 
   return (
     <main
-      className="relative min-h-[100dvh] w-full overflow-x-hidden bg-void text-chalk"
+      className="relative min-h-[100dvh] w-full overflow-x-hidden text-chalk"
       style={{
         background:
-          "radial-gradient(120% 80% at 50% 0%, #14110b 0%, #0a0a0c 55%, #07070a 100%)",
+          "radial-gradient(120% 80% at 50% -8%, #15141d 0%, #0c0b11 46%, #09080d 100%)",
       }}
     >
-      <div className="mx-auto max-w-5xl px-5 pb-24 pt-6 md:px-8 md:pt-9">
+      <div className="mx-auto max-w-[1180px] px-[7vw] pb-24 pt-9">
         {/* back to the globe */}
         <Link
           href="/"
-          className="group inline-flex items-center gap-2 text-chalk-soft transition hover:text-chalk"
+          className="group inline-flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-soft transition-colors hover:text-chalk"
         >
-          <svg width="16" height="16" viewBox="0 0 20 20" fill="none" className="transition-transform group-hover:-translate-x-0.5">
-            <path d="M16 10H4m0 0l5 5m-5-5l5-5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="font-mono text-[0.66rem] uppercase tracking-[0.16em]">The Globe</span>
+          <span className="text-[15px] transition-transform group-hover:-translate-x-0.5">←</span>
+          The globe
         </Link>
 
-        {/* title */}
-        <header className="mt-7 flex items-start gap-5">
-          <div className="text-6xl leading-none drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-            {meta.flag ?? "🏳️"}
+        {/* header */}
+        <header className="mt-8">
+          <div className="font-mono text-[12px] uppercase tracking-[0.26em] text-brass sm:ml-[96px]">
+            {meta.code}
+            {(meta.subregion ?? meta.region) && ` · ${meta.subregion ?? meta.region}`}
+            {meta.continent && ` · ${meta.continent}`}
           </div>
-          <div className="min-w-0 flex-1">
-            <div className="eyebrow flex flex-wrap items-center gap-2 text-brass">
-              <span>{meta.code}</span>
-              <span className="text-brass/40">·</span>
-              <span>{meta.subregion ?? meta.region}</span>
-              {meta.continent && (
-                <>
-                  <span className="text-brass/40">·</span>
-                  <span>{meta.continent}</span>
-                </>
+          <div className="mt-2 flex items-center gap-[22px]">
+            <div className="flex h-[54px] w-[74px] flex-none items-center justify-center rounded-[4px] border border-brass/20 bg-void-soft text-[34px] leading-none shadow-[0_6px_18px_-8px_rgba(0,0,0,0.7)]">
+              {meta.flag ?? "🏳️"}
+            </div>
+            <div className="min-w-0">
+              <h1 className="font-display text-[clamp(46px,7vw,82px)] font-[350] leading-[0.92] tracking-[-0.02em] text-chalk-bright">
+                {meta.name}
+              </h1>
+              {meta.officialName !== meta.name && (
+                <div className="mt-1.5 font-mono text-[13px] tracking-[0.06em] text-chalk-faint">
+                  {meta.officialName}
+                </div>
               )}
             </div>
-            <h1 className="mt-2 font-display text-[2.6rem] font-medium leading-[1.02] text-chalk md:text-[3.4rem]">
-              {meta.name}
-            </h1>
-            {meta.officialName !== meta.name && (
-              <p className="mt-1 font-mono text-[0.74rem] text-chalk-soft">{meta.officialName}</p>
-            )}
           </div>
         </header>
 
-        {/* tabs */}
-        <nav className="mt-9 flex items-center gap-1 overflow-x-auto border-b border-void-line">
-          <TabButton label="Overview" active={tab === "overview"} onClick={() => setTab("overview")} />
-          {domains.map((d) => (
+        {/* tab bar — wraps rather than scrolls; no-data domains are dimmed */}
+        <nav className="mt-9">
+          <div className="flex flex-wrap gap-x-[30px] border-b border-brass/15">
             <TabButton
-              key={d}
-              label={DOMAIN_META[d].label}
-              active={tab === d}
-              onClick={() => setTab(d)}
+              label="Overview"
+              active={isOverview}
+              enabled
+              onClick={() => setTab("overview")}
             />
-          ))}
+            {ALL_DOMAINS.map((d) => {
+              const enabled = available.includes(d);
+              return (
+                <TabButton
+                  key={d}
+                  label={DOMAIN_META[d].label}
+                  active={tab === d}
+                  enabled={enabled}
+                  onClick={enabled ? () => setTab(d) : undefined}
+                />
+              );
+            })}
+          </div>
         </nav>
 
-        {/* panel */}
-        <div className="mt-7 min-h-[12rem]">
+        {/* tab content */}
+        <div className="mt-11 min-h-[16rem]">
           <AnimatePresence mode="wait">
             <motion.div
               key={tab}
@@ -101,17 +125,21 @@ export default function Dossier({
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.22 }}
             >
-              {tab === "overview" ? (
-                <Overview
+              {isOverview && (
+                <OverviewTop
                   meta={meta}
-                  dossier={dossier}
                   comparisons={comparisons}
                   regionLabel={regionLabel}
                 />
-              ) : (
-                dossier && (
-                  <DomainPanel section={dossier.sections[tab]!} sources={sources} />
-                )
+              )}
+
+              {gridMetrics.length > 0 && (
+                <section>
+                  <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-faint">
+                    {gridLabel}
+                  </div>
+                  <DomainPanel metrics={gridMetrics} sources={sources} />
+                </section>
               )}
             </motion.div>
           </AnimatePresence>
@@ -127,31 +155,7 @@ export default function Dossier({
 
         {/* sources & methodology */}
         {Object.keys(sources).length > 0 && (
-          <footer className="mt-14 border-t border-void-line pt-6">
-            <div className="eyebrow text-chalk-faint">Sources &amp; methodology</div>
-            <ul className="mt-3 space-y-1.5">
-              {Object.values(sources).map((s) => (
-                <li key={s.id} className="text-[0.82rem] leading-snug text-chalk-soft">
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-chalk transition hover:text-brass hover:underline"
-                  >
-                    {s.label}
-                  </a>{" "}
-                  — {s.publisher} · {s.license} · accessed {s.accessed}
-                </li>
-              ))}
-            </ul>
-            {dossier && (
-              <p className="mt-4 max-w-2xl text-[0.78rem] leading-relaxed text-chalk-faint">
-                Figures show the latest year with data for each indicator; gaps appear as “—”.
-                Disputed and non-UN territories may be partially or wholly absent from these
-                datasets. Data last refreshed {dossier.updated}.
-              </p>
-            )}
-          </footer>
+          <SourcesFooter sources={sources} updated={dossier?.updated ?? null} />
         )}
       </div>
     </main>
@@ -161,95 +165,86 @@ export default function Dossier({
 function TabButton({
   label,
   active,
+  enabled,
   onClick,
 }: {
   label: string;
   active: boolean;
-  onClick: () => void;
+  enabled: boolean;
+  onClick?: () => void;
 }) {
   return (
     <button
+      type="button"
       onClick={onClick}
-      className={`relative whitespace-nowrap px-4 py-2.5 text-[0.92rem] transition ${
-        active ? "text-chalk" : "text-chalk-soft hover:text-chalk"
+      disabled={!enabled}
+      aria-current={active ? "page" : undefined}
+      className={`-mb-px flex-none border-b-2 px-0.5 pb-4 text-[16px] transition-colors ${
+        active
+          ? "border-brass font-semibold text-chalk-bright"
+          : enabled
+            ? "border-transparent font-normal text-chalk-soft hover:text-chalk-bright"
+            : "cursor-default border-transparent font-normal text-chalk-mute"
       }`}
     >
       {label}
-      {active && (
-        <motion.span
-          layoutId="dossier-tab"
-          className="absolute inset-x-2 -bottom-px h-0.5 rounded-full bg-brass"
-        />
-      )}
     </button>
   );
 }
 
-function Overview({
+function OverviewTop({
   meta,
-  dossier,
   comparisons,
   regionLabel,
 }: {
   meta: CountryMeta;
-  dossier: CountryDossier | null;
   comparisons: Comparison[];
   regionLabel: string | null;
 }) {
-  // A few highlight metrics drawn from across the available domains.
-  const highlights = dossier
-    ? (Object.values(dossier.sections).flatMap((s) =>
-        s!.metrics.slice(0, 2).map((m) => ({ metric: m, source: dossier.sources[m.sourceId] })),
-      ))
-    : [];
-
   return (
-    <div className="space-y-9">
-      <section>
-        <div className="eyebrow text-chalk-faint">Quick facts</div>
-        <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3 md:grid-cols-4">
-          <Fact label="Capital" value={meta.capital[0] ?? "—"} />
-          <Fact label="Population" value={formatPopulation(meta.population)} />
-          <Fact label="Area" value={formatArea(meta.area)} />
-          <Fact label="Region" value={meta.subregion ?? meta.region ?? "—"} />
-          <Fact label="Languages" value={meta.languages.slice(0, 3).join(", ") || "—"} />
-          <Fact
-            label="Currency"
-            value={
-              meta.currencies[0]
-                ? `${meta.currencies[0].name}${
-                    meta.currencies[0].symbol ? ` (${meta.currencies[0].symbol})` : ""
-                  }`
-                : "—"
-            }
-          />
-          <Fact label="Demonym" value={meta.demonym ?? "—"} />
-          <Fact label="UN member" value={meta.unMember == null ? "—" : meta.unMember ? "Yes" : "No"} />
-        </dl>
-      </section>
+    <div>
+      {/* quick facts */}
+      <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-faint">Quick facts</div>
+      <dl className="mb-[54px] grid gap-x-[30px] gap-y-[26px] [grid-template-columns:repeat(auto-fit,minmax(160px,1fr))]">
+        <Fact label="Capital" value={meta.capital[0] ?? "—"} />
+        <Fact label="Population" value={formatPopulation(meta.population)} />
+        <Fact label="Area" value={formatArea(meta.area)} />
+        <Fact label="Region" value={meta.subregion ?? meta.region ?? "—"} />
+        <Fact label="Languages" value={meta.languages.slice(0, 3).join(", ") || "—"} />
+        <Fact
+          label="Currency"
+          value={
+            meta.currencies[0]
+              ? `${meta.currencies[0].name}${
+                  meta.currencies[0].symbol ? ` (${meta.currencies[0].symbol})` : ""
+                }`
+              : "—"
+          }
+        />
+        <Fact label="Demonym" value={meta.demonym ?? "—"} />
+        <Fact
+          label="UN member"
+          value={meta.unMember == null ? "—" : meta.unMember ? "Yes" : "No"}
+        />
+      </dl>
 
+      {/* how this nation compares */}
       {comparisons.length > 0 && (
-        <section>
-          <div className="eyebrow text-chalk-faint">
+        <>
+          <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-faint">
             How {meta.name} compares
           </div>
-          <div className="mt-3 divide-y divide-void-line/70 rounded-[var(--radius-card)] border border-void-line bg-void-panel/40">
-            {comparisons.map((c) => (
-              <ComparisonRow key={`${c.domain}-${c.key}`} c={c} regionLabel={regionLabel} />
+          <div className="mb-[54px] rounded-none border border-brass/15 px-[26px]">
+            {comparisons.map((c, i) => (
+              <ComparisonRow
+                key={`${c.domain}-${c.key}`}
+                c={c}
+                regionLabel={regionLabel}
+                last={i === comparisons.length - 1}
+              />
             ))}
           </div>
-        </section>
-      )}
-
-      {highlights.length > 0 && (
-        <section>
-          <div className="eyebrow text-chalk-faint">Highlights</div>
-          <div className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-3">
-            {highlights.map(({ metric, source }) => (
-              <MetricCard key={metric.key} metric={metric} source={source} />
-            ))}
-          </div>
-        </section>
+        </>
       )}
     </div>
   );
@@ -258,8 +253,16 @@ function Overview({
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="eyebrow text-chalk-faint">{label}</dt>
-      <dd className="mt-1 text-[0.95rem] leading-snug text-chalk">{value}</dd>
+      <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-chalk-faint">
+        {label}
+      </dt>
+      <dd
+        className={`mt-2 text-[18px] font-semibold leading-snug ${
+          value === "—" ? "text-chalk-mute" : "text-chalk"
+        }`}
+      >
+        {value}
+      </dd>
     </div>
   );
 }
@@ -270,34 +273,51 @@ const ordinal = (n: number) => {
   return `${n}${s}`;
 };
 
-function ComparisonRow({ c, regionLabel }: { c: Comparison; regionLabel: string | null }) {
+function ComparisonRow({
+  c,
+  regionLabel,
+  last,
+}: {
+  c: Comparison;
+  regionLabel: string | null;
+  last: boolean;
+}) {
   // Fill = how high it ranks worldwide (rank 1 → full bar).
   const fill =
     c.global.total > 1 ? (c.global.total - c.global.rank) / (c.global.total - 1) : 1;
   return (
-    <div className="flex items-center gap-4 px-4 py-3">
-      <div className="min-w-0 flex-1">
-        <div className="flex items-baseline justify-between gap-3">
-          <span className="text-[0.92rem] text-chalk">{c.label}</span>
-          <span className="font-display text-[1.05rem] leading-none text-chalk">
-            {formatMetric(c.value, c.unit)}
-          </span>
-        </div>
-        <div className="mt-2 h-1 overflow-hidden rounded-full bg-void-line">
-          <div
-            className="h-full rounded-full bg-brass/80"
-            style={{ width: `${Math.max(3, fill * 100)}%` }}
-          />
-        </div>
-        <div className="mt-1.5 font-mono text-[0.62rem] uppercase tracking-[0.1em] text-chalk-faint">
-          {ordinal(c.global.rank)} of {c.global.total} worldwide
-          {c.regional && regionLabel && (
-            <>
-              {" · "}
-              {ordinal(c.regional.rank)} of {c.regional.total} in {regionLabel}
-            </>
-          )}
-        </div>
+    <div
+      className="py-[22px]"
+      style={{
+        borderBottom: last ? "1px solid transparent" : "1px solid rgba(216,181,110,0.1)",
+      }}
+    >
+      <div className="mb-[11px] flex items-baseline justify-between gap-3">
+        <span className="whitespace-nowrap text-[16px] text-chalk">{c.label}</span>
+        <span className="font-display text-[20px] text-chalk-bright">
+          {formatMetric(c.value, c.unit)}
+        </span>
+      </div>
+      <div
+        className="h-[5px] overflow-hidden rounded-[2px]"
+        style={{ background: "rgba(95,119,150,0.22)" }}
+      >
+        <div
+          className="h-full"
+          style={{
+            width: `${Math.max(3, fill * 100)}%`,
+            background: "linear-gradient(90deg,#bf9550,#d8b56e)",
+          }}
+        />
+      </div>
+      <div className="mt-[9px] font-mono text-[10px] uppercase tracking-[0.08em] text-chalk-dim">
+        {ordinal(c.global.rank)} of {c.global.total} worldwide
+        {c.regional && regionLabel && (
+          <>
+            {" · "}
+            {ordinal(c.regional.rank)} of {c.regional.total} in {regionLabel}
+          </>
+        )}
       </div>
     </div>
   );
@@ -316,10 +336,11 @@ function HistoryHero({
 }) {
   if (!hasHistory) {
     return (
-      <div className="mt-12 rounded-[var(--radius-card)] border border-void-line bg-void-panel/40 px-6 py-5">
-        <div className="eyebrow text-chalk-faint">History</div>
-        <p className="mt-1.5 text-[0.95rem] text-chalk-soft">
-          The sourced time-journey through {name} is being charted and verified — it will arrive complete.
+      <div className="mt-[54px] rounded-[8px] border border-brass/15 bg-void-soft/40 px-[34px] py-[26px]">
+        <div className="eyebrow tracking-[0.26em] text-chalk-faint">History</div>
+        <p className="mt-2 text-[15px] text-chalk-soft">
+          The sourced time-journey through {name} is being charted and verified — it will
+          arrive complete.
         </p>
       </div>
     );
@@ -327,22 +348,67 @@ function HistoryHero({
   return (
     <Link
       href={`/country/${code}/history`}
-      className="group mt-12 flex items-center justify-between gap-5 rounded-[var(--radius-card)] border border-brass/30 bg-brass/[0.07] px-6 py-6 transition hover:border-brass/60 hover:bg-brass/[0.12]"
+      className="group mt-[54px] flex items-center justify-between gap-6 rounded-[8px] border border-brass/30 px-[34px] py-[30px] transition-colors hover:border-brass"
+      style={{
+        background: "linear-gradient(120deg,rgba(191,149,80,0.1),rgba(191,149,80,0.02))",
+      }}
     >
       <div className="min-w-0">
-        <div className="eyebrow text-brass">The history journey</div>
-        <p className="mt-1.5 font-display text-[1.4rem] leading-tight text-chalk">
+        <div className="eyebrow tracking-[0.26em] text-brass">The history journey</div>
+        <p className="mt-3 font-display text-[clamp(24px,3vw,34px)] font-[360] leading-tight tracking-[-0.01em] text-parchment">
           {tagline ?? `How ${name} came to be`}
         </p>
-        <p className="mt-1 text-[0.86rem] text-chalk-soft">
+        <p className="mt-2 font-serif text-[17px] text-chalk-soft">
           Pilot a cinematic, sourced journey through its eras — moment by moment.
         </p>
       </div>
-      <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-brass text-void transition-transform group-hover:translate-x-1">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+      <span
+        className="grid h-[60px] w-[60px] flex-none place-items-center rounded-full text-[24px] text-[#1a140a] transition-transform group-hover:translate-x-1"
+        style={{
+          background: "linear-gradient(180deg,#d8b56e,#bf9550)",
+          boxShadow: "0 12px 30px -14px rgba(216,181,110,0.8)",
+        }}
+      >
+        →
       </span>
     </Link>
+  );
+}
+
+function SourcesFooter({
+  sources,
+  updated,
+}: {
+  sources: Record<string, DataSource>;
+  updated: string | null;
+}) {
+  return (
+    <footer className="mt-16 border-t border-brass/[0.12] pt-8">
+      <div className="eyebrow mb-5 tracking-[0.26em] text-chalk-faint">
+        Sources &amp; methodology
+      </div>
+      <ul className="mb-6 flex flex-col gap-[11px]">
+        {Object.values(sources).map((s) => (
+          <li key={s.id} className="text-[14px] leading-snug text-chalk-soft">
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-reading transition-colors hover:text-brass hover:underline"
+            >
+              {s.label}
+            </a>{" "}
+            — {s.publisher} · {s.license} · accessed {s.accessed}
+          </li>
+        ))}
+      </ul>
+      {updated && (
+        <p className="max-w-[680px] font-serif text-[15px] italic leading-relaxed text-chalk-dim">
+          Figures show the latest year with data for each indicator; gaps appear as “—”.
+          Disputed and non-UN territories may be partially or wholly absent from these
+          datasets. Data last refreshed {updated}.
+        </p>
+      )}
+    </footer>
   );
 }
