@@ -3,26 +3,49 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import GlobeScene from "./GlobeScene";
+import GlobeScene, { CHORO_LOW, CHORO_HIGH } from "./GlobeScene";
 import CountryCard from "./CountryCard";
 import Starfield from "./Starfield";
+import { formatMetric } from "@/lib/format";
 import type { CountryMeta } from "@/lib/types";
+
+export interface ChoroLayer {
+  key: string;
+  label: string;
+  unit: string;
+  values: Record<string, number>;
+}
+
+const gradientCss = `linear-gradient(90deg, rgb(${CHORO_LOW.join(",")}), rgb(${CHORO_HIGH.join(",")}))`;
 
 export default function AtlasHome({
   historyCodes,
   foundingNotes,
   headlines,
+  layers,
   publishedCount,
 }: {
   historyCodes: string[];
   foundingNotes: Record<string, string>;
   headlines: Record<string, { gdp: string; gdpPerCapita: string }>;
+  layers: ChoroLayer[];
   publishedCount: number;
 }) {
   const historySet = useMemo(() => new Set(historyCodes), [historyCodes]);
   const [selected, setSelected] = useState<CountryMeta | null>(null);
+  const [activeKey, setActiveKey] = useState<string | null>(null);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
+
+  const activeLayer = useMemo(
+    () => layers.find((l) => l.key === activeKey) ?? null,
+    [layers, activeKey],
+  );
+  const range = useMemo(() => {
+    if (!activeLayer) return null;
+    const vs = Object.values(activeLayer.values);
+    return { min: Math.min(...vs), max: Math.max(...vs) };
+  }, [activeLayer]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setSelected(null);
@@ -39,6 +62,7 @@ export default function AtlasHome({
         selectedCode={selected?.code ?? null}
         onSelect={setSelected}
         hasHistory={hasHistory}
+        choroplethValues={activeLayer?.values ?? null}
       />
 
       {/* soft vignette to seat the globe in the void */}
@@ -94,6 +118,57 @@ export default function AtlasHome({
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Choropleth layer control + legend */}
+      <div className="pointer-events-none absolute bottom-6 left-6 z-20 hidden md:block">
+        <div className="pointer-events-auto max-w-xs">
+          <AnimatePresence>
+            {activeLayer && range && (
+              <motion.div
+                key={activeLayer.key}
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 6 }}
+                transition={{ duration: 0.2 }}
+                className="mb-2 rounded-xl border border-void-line bg-void-soft/70 px-3 py-2.5 backdrop-blur"
+              >
+                <div className="eyebrow text-chalk-faint">{activeLayer.label}</div>
+                <div className="mt-2 flex items-center gap-2">
+                  <span className="font-mono text-[0.62rem] text-chalk-soft">
+                    {formatMetric(range.min, activeLayer.unit)}
+                  </span>
+                  <div className="h-2 w-28 rounded-full" style={{ background: gradientCss }} />
+                  <span className="font-mono text-[0.62rem] text-chalk-soft">
+                    {formatMetric(range.max, activeLayer.unit)}
+                  </span>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          <div className="flex flex-wrap items-center gap-1.5 rounded-full border border-void-line bg-void-soft/50 px-3 py-2 backdrop-blur">
+            <span className="font-mono text-[0.62rem] uppercase tracking-[0.14em] text-chalk-faint">
+              Color by
+            </span>
+            {layers.map((l) => {
+              const active = l.key === activeKey;
+              return (
+                <button
+                  key={l.key}
+                  onClick={() => setActiveKey(active ? null : l.key)}
+                  className={`rounded-full px-2.5 py-1 text-[0.72rem] transition ${
+                    active
+                      ? "bg-brass text-void"
+                      : "text-chalk-soft hover:bg-void-line/60 hover:text-chalk"
+                  }`}
+                >
+                  {l.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
 
       {/* Selection card */}
       <div className="pointer-events-none fixed inset-0 z-30 flex items-end justify-center p-4 md:items-center md:justify-end md:p-10">

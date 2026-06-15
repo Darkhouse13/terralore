@@ -19,13 +19,31 @@ interface Props {
   onSelect: (meta: CountryMeta | null) => void;
   /** Notifies parent which codes have an authored history (for badge). */
   hasHistory?: (code: string) => boolean;
+  /** When set, colour each country by its value (a choropleth layer). */
+  choroplethValues?: Record<string, number> | null;
 }
 
 const OCEAN = "#0a1422";
 const LAND = [205, 191, 161] as const; // parchment relief
 const LAND_DIM = "rgba(150, 139, 116, 0.55)";
 
-export default function GlobeScene({ selectedCode, onSelect, hasHistory }: Props) {
+// Choropleth ramp: cool/recessive (low) → warm brass (high). Exported so the
+// legend in AtlasHome draws the exact same gradient.
+export const CHORO_LOW = [86, 112, 138] as const;
+export const CHORO_HIGH = [233, 198, 120] as const;
+const CHORO_NODATA = "rgba(120, 120, 132, 0.30)";
+
+function choroColor(t: number) {
+  const c = (i: number) => Math.round(CHORO_LOW[i] + (CHORO_HIGH[i] - CHORO_LOW[i]) * t);
+  return `rgb(${c(0)}, ${c(1)}, ${c(2)})`;
+}
+
+export default function GlobeScene({
+  selectedCode,
+  onSelect,
+  hasHistory,
+  choroplethValues,
+}: Props) {
   const { ref, width, height } = useElementSize<HTMLDivElement>();
   const globeRef = useRef<any>(null);
   const [features, setFeatures] = useState<Feature[]>([]);
@@ -99,14 +117,29 @@ export default function GlobeScene({ selectedCode, onSelect, hasHistory }: Props
     }
   }, [selectedCode, ready, metaMap]);
 
+  // Rank each country's value into [0,1] so colour spreads evenly even when the
+  // underlying values are heavily skewed (e.g. GDP per capita).
+  const pct = useMemo(() => {
+    if (!choroplethValues) return null;
+    const entries = Object.entries(choroplethValues).sort((a, b) => a[1] - b[1]);
+    const n = entries.length;
+    const m = new Map<string, number>();
+    entries.forEach(([code], i) => m.set(code, n <= 1 ? 1 : i / (n - 1)));
+    return m;
+  }, [choroplethValues]);
+
   const capColor = useMemo(
     () => (o: object) => {
       const code = (o as Feature).properties.code;
       if (code === selectedCode) return "#d8b56e";
       if (code === hoverCode) return "#e7c98c";
+      if (pct) {
+        const t = pct.get(code);
+        return t == null ? CHORO_NODATA : choroColor(t);
+      }
       return `rgba(${LAND[0]}, ${LAND[1]}, ${LAND[2]}, 0.92)`;
     },
-    [selectedCode, hoverCode]
+    [selectedCode, hoverCode, pct]
   );
 
   const altitude = useMemo(

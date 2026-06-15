@@ -3,6 +3,16 @@ import { allHistories, publishedCodes } from "@/lib/histories";
 import { allCodes } from "@/lib/countries";
 import { getMetric } from "@/lib/domains";
 import { formatUSD } from "@/lib/format";
+import type { DomainKey } from "@/lib/types";
+
+// Indicators selectable as a globe colour layer (one per domain group).
+const LAYERS: { key: string; domain: DomainKey; label: string }[] = [
+  { key: "gdpPerCapita", domain: "economy", label: "Income per person" },
+  { key: "lifeExpectancy", domain: "society", label: "Life expectancy" },
+  { key: "internetUsers", domain: "technology", label: "Internet access" },
+  { key: "co2PerCapita", domain: "geography", label: "CO₂ per person" },
+  { key: "milExpPctGdp", domain: "military", label: "Military burden" },
+];
 
 export default function Home() {
   const codes = publishedCodes();
@@ -23,11 +33,26 @@ export default function Home() {
     };
   }
 
+  // Choropleth layers: code → value maps the globe can colour by.
+  const layers = LAYERS.map((l) => {
+    const values: Record<string, number> = {};
+    let unit = "";
+    for (const code of allCodes()) {
+      const m = getMetric(code, l.domain, l.key);
+      if (m?.value != null) {
+        values[code] = m.value;
+        unit = m.unit;
+      }
+    }
+    return { key: l.key, label: l.label, unit, values };
+  });
+
   return (
     <AtlasHome
       historyCodes={codes}
       foundingNotes={foundingNotes}
       headlines={headlines}
+      layers={layers}
       publishedCount={codes.length}
     />
   );
