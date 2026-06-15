@@ -71,14 +71,18 @@ keyed on canonical ADM0_A3, shaped `{ domain, updated, sources, data: { CODE: { 
 - Builders: `scripts/build-<domain>.mjs`. Most use `scripts/lib/domain.mjs` →
   `buildWbDomain(domain, indicators, source)`, which pulls each indicator via
   `scripts/lib/wb.mjs` (World Bank Indicators API — free, no key, retry-hardened) and
-  keeps the latest non-null value + a trailing series for sparklines.
+  keeps the latest non-null value + a trailing series for sparklines. An indicator may
+  carry its own `source` (the true upstream provider WB redistributes) to override the
+  domain default; only sources actually referenced are written to the file.
 - Code reconciliation lives in `scripts/lib/codes.mjs` (one source of truth, shared with
   `build-data.mjs`). World Bank ISO3 ≈ ADM0_A3; the exceptions are `XKX→KOS`, `SSD→SDS`,
   `ESH→SAH`. **`build-data.mjs` must run before the domain builders** (they read `data/countries.json`).
-- Domains live: economy, society, geography, resources (all World Bank WDI), military
-  (World Bank series sourced from **SIPRI** — attributed via the `wb-sipri` source).
-  Resources is a first cut from WB resource-rents + electricity access; USGS physical
-  mineral production/reserves can enrich it later.
+- Domains live (tab order): economy, society, technology, geography, resources, military.
+  Economy/society/geography use World Bank WDI; military is WB series sourced from **SIPRI**
+  (attributed via `wb-sipri`); technology attributes each indicator to its real upstream —
+  R&D/researchers to **UNESCO UIS** (`wb-unesco`), connectivity to **ITU** (`wb-itu`),
+  high-tech exports to WB WDI. Resources is a first cut from WB resource-rents + electricity
+  access; USGS physical mineral production/reserves can enrich it later.
 - Register a new domain by importing its JSON in `lib/domains/index.ts` and adding it to
   `FILES` (insertion order = dossier tab order).
 - **Refresh:** `npm run build-domains` (rebuilds all domain files + validates). WB updates

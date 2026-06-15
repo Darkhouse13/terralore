@@ -26,7 +26,13 @@ export type CountryMetaMap = Record<string, CountryMeta>;
 // Every nation has a multi-domain "dossier" of sourced, dated metrics drawn
 // from open data (World Bank, UN, USGS…). History is one domain among these.
 
-export type DomainKey = "economy" | "society" | "geography" | "resources" | "military";
+export type DomainKey =
+  | "economy"
+  | "society"
+  | "technology"
+  | "geography"
+  | "resources"
+  | "military";
 
 export interface DataSource {
   id: string; // short key, referenced by Metric.sourceId
@@ -63,6 +69,7 @@ export interface CountryDossier {
 export const DOMAIN_META: Record<DomainKey, { label: string }> = {
   economy: { label: "Economy" },
   society: { label: "Society" },
+  technology: { label: "Technology" },
   geography: { label: "Geography" },
   resources: { label: "Resources" },
   military: { label: "Military" },

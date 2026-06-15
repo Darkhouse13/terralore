@@ -28,8 +28,10 @@ export function writeDomain(domain, payload) {
 /**
  * Build a domain whose metrics all come from the World Bank Indicators API.
  * @param domain     domain key, e.g. "economy"
- * @param indicators [{ key, label, unit, id }]
- * @param source     DataSource describing the World Bank dataset
+ * @param indicators [{ key, label, unit, id, source? }] — an indicator may carry
+ *                   its own `source` (the true upstream provider WB redistributes,
+ *                   e.g. UNESCO/ITU); otherwise the domain `source` is used.
+ * @param source     default DataSource describing the World Bank dataset
  */
 export async function buildWbDomain(domain, indicators, source, { seriesLen = 16 } = {}) {
   const codes = loadCountryCodes();
@@ -40,12 +42,15 @@ export async function buildWbDomain(domain, indicators, source, { seriesLen = 16
     console.log(`${fetched[ind.key].size} territories`);
   }
 
+  const sources = {};
   const data = {};
   for (const code of codes) {
     const metrics = [];
     for (const ind of indicators) {
       const e = fetched[ind.key].get(code);
       if (!e) continue; // no observation for this country → omit (UI shows "—")
+      const src = ind.source ?? source;
+      sources[src.id] ??= src; // only sources actually referenced make the file
       metrics.push({
         key: ind.key,
         label: ind.label,
@@ -53,13 +58,13 @@ export async function buildWbDomain(domain, indicators, source, { seriesLen = 16
         unit: ind.unit,
         year: e.year,
         series: e.series.slice(-seriesLen),
-        sourceId: source.id,
+        sourceId: src.id,
       });
     }
     if (metrics.length) data[code] = { metrics };
   }
 
-  const payload = { domain, updated: today(), sources: { [source.id]: source }, data };
+  const payload = { domain, updated: today(), sources, data };
   writeDomain(domain, payload);
   return payload;
 }
