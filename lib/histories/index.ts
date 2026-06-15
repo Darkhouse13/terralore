@@ -59,6 +59,20 @@ import jamaica from "./data/jamaica.json";
 import bahamas from "./data/bahamas.json";
 import trinidadandtobago from "./data/trinidadandtobago.json";
 import panama from "./data/panama.json";
+import costarica from "./data/costarica.json";
+import guatemala from "./data/guatemala.json";
+import honduras from "./data/honduras.json";
+import nicaragua from "./data/nicaragua.json";
+import elsalvador from "./data/elsalvador.json";
+import belize from "./data/belize.json";
+import puertorico from "./data/puertorico.json";
+import greenland from "./data/greenland.json";
+import fiji from "./data/fiji.json";
+import newcaledonia from "./data/newcaledonia.json";
+import newzealand from "./data/newzealand.json";
+import papuanewguinea from "./data/papuanewguinea.json";
+import solomonislands from "./data/solomonislands.json";
+import vanuatu from "./data/vanuatu.json";
 import italy from "./data/italy.json";
 import spain from "./data/spain.json";
 import uk from "./data/uk.json";
@@ -236,6 +250,20 @@ const registry: Record<string, CountryHistory> = {
   BHS: H(bahamas),
   TTO: H(trinidadandtobago),
   PAN: H(panama),
+  CRI: H(costarica),
+  GTM: H(guatemala),
+  HND: H(honduras),
+  NIC: H(nicaragua),
+  SLV: H(elsalvador),
+  BLZ: H(belize),
+  PRI: H(puertorico),
+  GRL: H(greenland),
+  FJI: H(fiji),
+  NCL: H(newcaledonia),
+  NZL: H(newzealand),
+  PNG: H(papuanewguinea),
+  SLB: H(solomonislands),
+  VUT: H(vanuatu),
   ITA: H(italy),
   ESP: H(spain),
   GBR: H(uk),
