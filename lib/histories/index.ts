@@ -46,6 +46,19 @@ import venezuela from "./data/venezuela.json";
 import peru from "./data/peru.json";
 import chile from "./data/chile.json";
 import bolivia from "./data/bolivia.json";
+import ecuador from "./data/ecuador.json";
+import falklands from "./data/falklands.json";
+import guyana from "./data/guyana.json";
+import paraguay from "./data/paraguay.json";
+import suriname from "./data/suriname.json";
+import uruguay from "./data/uruguay.json";
+import cuba from "./data/cuba.json";
+import haiti from "./data/haiti.json";
+import dominicanrepublic from "./data/dominicanrepublic.json";
+import jamaica from "./data/jamaica.json";
+import bahamas from "./data/bahamas.json";
+import trinidadandtobago from "./data/trinidadandtobago.json";
+import panama from "./data/panama.json";
 import italy from "./data/italy.json";
 import spain from "./data/spain.json";
 import uk from "./data/uk.json";
@@ -210,6 +223,19 @@ const registry: Record<string, CountryHistory> = {
   PER: H(peru),
   CHL: H(chile),
   BOL: H(bolivia),
+  ECU: H(ecuador),
+  FLK: H(falklands),
+  GUY: H(guyana),
+  PRY: H(paraguay),
+  SUR: H(suriname),
+  URY: H(uruguay),
+  CUB: H(cuba),
+  HTI: H(haiti),
+  DOM: H(dominicanrepublic),
+  JAM: H(jamaica),
+  BHS: H(bahamas),
+  TTO: H(trinidadandtobago),
+  PAN: H(panama),
   ITA: H(italy),
   ESP: H(spain),
   GBR: H(uk),

@@ -1,0 +1,181 @@
+{
+  "code": "HTI",
+  "name": "Haiti",
+  "tagline": "From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.",
+  "summary": "Haiti occupies the western third of Hispaniola, the Caribbean island the Taino called Quisqueya, where Christopher Columbus landed in 1492 and where Spanish and then French colonisers built Saint-Domingue, the richest colony on earth, on sugar, coffee, and the mass enslavement of Africans. Between 1791 and 1804 the enslaved majority waged the only successful large-scale slave revolt in history, and on 1 January 1804 Jean-Jacques Dessalines proclaimed independence, making Haiti the second sovereign nation in the Americas and the first Black republic. Its sovereignty was burdened by a crippling 1825 indemnity demanded by France, chronic instability, a United States occupation (1915-1934), and the Duvalier dictatorships (1957-1986). The catastrophic 2010 earthquake and, since the 2021 assassination of President Jovenel Moise, a spiral of state collapse and gang violence have defined Haiti's recent history.",
+  "founding": {
+    "label": "Declaration of Independence",
+    "yearLabel": "1 January 1804",
+    "year": 1804,
+    "detail": "On 1 January 1804 at Gonaives, Jean-Jacques Dessalines proclaimed the independence of the former French colony of Saint-Domingue, restoring the Taino-derived name Haiti. It followed thirteen years of revolution (1791-1804) in which the colony's enslaved majority defeated French, Spanish, and British forces and a large expedition sent by Napoleon. Haiti became the second independent nation in the Americas after the United States and the first republic in history founded by formerly enslaved people."
+  },
+  "quickFacts": [
+    { "label": "Indigenous island", "value": "Quisqueya, home of the Taino; Columbus landed 1492" },
+    { "label": "Colonial era", "value": "French Saint-Domingue, ceded by Spain in 1697" },
+    { "label": "Independence", "value": "1 January 1804 - first Black republic" },
+    { "label": "Founding leaders", "value": "Toussaint Louverture, Jean-Jacques Dessalines, Henry Christophe" },
+    { "label": "Indemnity to France", "value": "150 million francs demanded in 1825" },
+    { "label": "U.S. occupation", "value": "1915-1934" }
+  ],
+  "eras": [
+    {
+      "id": "taino-spanish-hispaniola",
+      "title": "Quisqueya: The Taino and Spanish Hispaniola",
+      "period": "c. 600 - 1697",
+      "startYear": 600,
+      "endYear": 1697,
+      "standfirst": "The Arawak-speaking Taino had settled the island they called Quisqueya long before Columbus's 1492 landing inaugurated Spanish colonisation and the rapid destruction of the Indigenous population.",
+      "body": [
+        "The island that today holds Haiti and the Dominican Republic was first inhabited thousands of years before European contact, with farming villages established in the centuries around 300 BCE. By the fifteenth century the dominant people were the Taino, an Arawak group, who called the island Quisqueya and organised it into chiefdoms. Their economy rested on cassava cultivation, fishing, and inter-island trade in gold ornaments and pottery. Estimates of the Indigenous population at contact vary widely, from around one hundred thousand to several million.",
+        "On 6 December 1492 the Genoese navigator Christopher Columbus, sailing under the Spanish crown, reached the island and named it La Isla Espanola, later anglicised as Hispaniola. The Spanish established the first permanent European settlements in the Americas here and forced the Taino to labour in the search for gold. Within a generation, brutal working conditions, violence, and Old World epidemic diseases to which the Taino had no immunity devastated the Indigenous population, which had collapsed to a small fraction of its former size by the 1510s.",
+        "As the gold gave out and the Taino population disappeared, Spanish attention shifted to the mainland and to the eastern part of Hispaniola around Santo Domingo. The mountainous, less-settled western third of the island became a haven for French and other buccaneers operating from the island of Tortuga. France gradually extended its control over this region, setting the stage for its formal cession by Spain at the close of the seventeenth century."
+      ],
+      "events": [
+        { "year": 1492, "yearLabel": "6 Dec 1492", "title": "Columbus lands on Hispaniola", "summary": "Christopher Columbus reaches the Taino island of Quisqueya and names it La Isla Espanola, beginning Spanish colonisation of the Americas.", "category": "colonization", "sources": ["loc-columbus-taino", "britannica-hispaniola"] },
+        { "year": 1500, "yearLabel": "early 16th c.", "endYear": 1520, "title": "Collapse of the Taino", "summary": "Forced labour, violence, and Old World disease devastate the Indigenous population within a generation of contact.", "category": "disaster", "sources": ["britannica-history-haiti", "loc-columbus-taino"] }
+      ],
+      "figures": [],
+      "pullquote": { "text": "The island the Taino called Quisqueya, renamed Hispaniola, was the site of the first Spanish settlements in the New World.", "attribution": "After Encyclopaedia Britannica" },
+      "sources": ["loc-columbus-taino", "britannica-hispaniola", "britannica-history-haiti"]
+    },
+    {
+      "id": "saint-domingue",
+      "title": "Saint-Domingue: The Richest Colony on Earth",
+      "period": "1697 - 1791",
+      "startYear": 1697,
+      "endYear": 1791,
+      "standfirst": "Spain ceded the western third of Hispaniola to France in 1697, and the colony of Saint-Domingue grew into the world's wealthiest plantation economy, built on sugar, coffee, and the mass enslavement of Africans.",
+      "body": [
+        "Under the Treaty of Rijswijk of 1697 that ended the War of the Grand Alliance, Spain formally ceded the western third of Hispaniola to France. The new colony of Saint-Domingue was developed into the most productive plantation economy in the world. By the eve of the French Revolution it supplied a large share of the sugar and coffee consumed in Europe and ranked as France's single most valuable overseas possession, its trade enriching the Atlantic ports of the mother country.",
+        "This wealth was extracted through the labour of enslaved Africans imported in enormous numbers across the Atlantic. By 1789 the colony held roughly half a million enslaved people, the great majority of its population, alongside a minority of white colonists and a class of free people of colour, the gens de couleur, who owned property yet were denied full political rights. The regime of slavery in Saint-Domingue was notoriously lethal, with mortality so high that the enslaved population could not reproduce itself and was sustained only by continuous new arrivals.",
+        "Colonial society was riven by deep tensions: between planters and the French crown, between whites and the free people of colour, and above all between the enslaved majority and their enslavers. The ideals of liberty and equality unleashed by the French Revolution of 1789 reverberated through the colony, sharpening these divisions. Within two years the contradictions of the richest colony on earth would erupt into the largest slave revolt the Atlantic world had ever seen."
+      ],
+      "events": [
+        { "year": 1697, "yearLabel": "1697 CE", "title": "France gains Saint-Domingue", "summary": "The Treaty of Rijswijk transfers the western third of Hispaniola from Spain to France, creating the colony of Saint-Domingue.", "category": "colonization", "sources": ["britannica-rijswijk", "britannica-saint-domingue"] },
+        { "year": 1789, "yearLabel": "by 1789", "title": "World's richest colony", "summary": "Saint-Domingue, with roughly half a million enslaved Africans, has become the leading producer of sugar and coffee and France's most valuable colony.", "category": "economy", "sources": ["britannica-saint-domingue", "britannica-haitian-revolution"] }
+      ],
+      "figures": [],
+      "pullquote": { "text": "Saint-Domingue soon became the most important producer of sugar and coffee in the Western Hemisphere, France's richest overseas possession by far.", "attribution": "After Encyclopaedia Britannica" },
+      "sources": ["britannica-rijswijk", "britannica-saint-domingue", "britannica-haitian-revolution"]
+    },
+    {
+      "id": "haitian-revolution-independence",
+      "title": "The Haitian Revolution and Independence",
+      "period": "1791 - 1804",
+      "startYear": 1791,
+      "endYear": 1804,
+      "standfirst": "The only successful large-scale slave revolt in history overthrew French rule, defeated Napoleon's army, and on 1 January 1804 created the world's first Black republic.",
+      "body": [
+        "In August 1791 a massive uprising erupted among the enslaved people of the northern plain, igniting a revolution that would last thirteen years. Leadership soon passed to Toussaint Louverture, himself formerly enslaved, a gifted military and political strategist who built a disciplined army, fought off Spanish and British interventions, and by 1801 controlled the whole of Hispaniola. Governing as governor-general, he abolished slavery in fact and promulgated a constitution, while still nominally tied to France.",
+        "Determined to restore both French authority and slavery, Napoleon Bonaparte dispatched a large expedition under General Charles Leclerc in 1802. Toussaint was seized under a flag of truce, deported to France, and died in 1803 a prisoner in the fortress of Fort-de-Joux in the Jura mountains. His arrest, far from ending the revolution, convinced his lieutenants that only complete independence could secure their freedom. Yellow fever ravaged the French forces, and the surviving Haitian commanders united against them.",
+        "Jean-Jacques Dessalines, who had served as Toussaint's lieutenant, took command of the final struggle alongside leaders such as Henry Christophe. The French were decisively defeated, and on 1 January 1804 Dessalines proclaimed independence at Gonaives, restoring the Indigenous name Haiti. Later that year he assumed the title of emperor as Jacques I. Haiti was now the second independent state in the Americas and the first nation founded by formerly enslaved people, an event without precedent in world history."
+      ],
+      "events": [
+        { "year": 1791, "yearLabel": "Aug 1791", "title": "The slave uprising begins", "summary": "A massive revolt of the enslaved erupts on the northern plain of Saint-Domingue, opening the Haitian Revolution.", "category": "war", "sources": ["britannica-haitian-revolution"] },
+        { "year": 1802, "yearLabel": "1802 CE", "title": "Napoleon's expedition; Toussaint deported", "summary": "Napoleon sends an army to restore slavery; Toussaint Louverture is seized and deported to France, where he dies in 1803.", "category": "war", "sources": ["britannica-toussaint", "britannica-haitian-revolution"] },
+        { "year": 1804, "yearLabel": "1 Jan 1804", "title": "Independence proclaimed", "summary": "Jean-Jacques Dessalines declares independence at Gonaives, founding Haiti as the world's first Black republic.", "category": "independence", "sources": ["britannica-dessalines", "britannica-history-haiti"] }
+      ],
+      "figures": [
+        { "name": "Toussaint Louverture", "role": "Revolutionary leader, governor-general", "life": "c. 1743-1803", "blurb": "Formerly enslaved military genius who led the revolution to the brink of independence, abolished slavery in the colony, and governed Saint-Domingue before being deported by Napoleon to die in a French prison.", "sources": ["britannica-toussaint"] },
+        { "name": "Jean-Jacques Dessalines", "role": "Independence leader, first ruler of Haiti", "life": "c. 1758-1806", "blurb": "Toussaint's lieutenant who led the final defeat of the French and proclaimed Haitian independence on 1 January 1804, ruling as Emperor Jacques I until his assassination in 1806.", "sources": ["britannica-dessalines"] }
+      ],
+      "pullquote": { "text": "On January 1, 1804, Dessalines proclaimed the entire island an independent country under the Arawak-derived name Haiti.", "attribution": "After Encyclopaedia Britannica" },
+      "sources": ["britannica-haitian-revolution", "britannica-toussaint", "britannica-dessalines", "britannica-history-haiti"]
+    },
+    {
+      "id": "kingdom-republic-indemnity",
+      "title": "Kingdom, Republic, and the Indemnity",
+      "period": "1804 - 1915",
+      "startYear": 1804,
+      "endYear": 1915,
+      "standfirst": "After Dessalines's death the young nation split between Christophe's northern kingdom and a southern republic, while a crippling 1825 indemnity demanded by France and chronic instability shaped the nineteenth century.",
+      "body": [
+        "Dessalines was assassinated in 1806, and Haiti divided. In the north, Henry Christophe ruled, declaring himself King Henry I in 1811 and building a hereditary nobility and a chain of fortifications, the greatest of which was the Citadelle Laferriere on a mountain peak, raised to defend the nation against any French return. In the south and west, Alexandre Petion led a republic. The two states were reunited only after Christophe's death in 1820, under President Jean-Pierre Boyer, who also brought the eastern part of the island under Haitian control for more than two decades.",
+        "Haiti's independence went unrecognised by the powers that had profited from slavery. In 1825 King Charles X of France offered recognition only on payment of an indemnity of 150 million francs to compensate former slave-owners for their lost human property, a sum many times the young nation's annual revenue. Confronted by a French naval squadron, Boyer accepted. To meet the burden Haiti borrowed heavily from French banks, and although the principal was later reduced, servicing this debt drained the treasury for generations and entrenched poverty and dependence.",
+        "The remainder of the nineteenth century brought recurring political turbulence: a succession of presidents, emperors, and strongmen, frequent coups, and a persistent gulf between a small elite and the rural majority of subsistence farmers. The eastern part of the island broke away in 1844 to become the Dominican Republic. By the early twentieth century, mounting foreign debt and political violence had drawn the close attention of foreign creditors and of the United States."
+      ],
+      "events": [
+        { "year": 1811, "yearLabel": "1811 CE", "title": "Christophe crowned King Henry I", "summary": "Henry Christophe proclaims a kingdom in northern Haiti and builds the Citadelle Laferriere; the south remains a republic under Petion.", "category": "politics", "sources": ["britannica-christophe", "unesco-national-history-park"] },
+        { "year": 1825, "yearLabel": "1825 CE", "title": "The French indemnity", "summary": "France recognises Haitian independence only in exchange for an indemnity of 150 million francs, burdening Haiti with crippling debt.", "category": "economy", "sources": ["britannica-history-haiti"] },
+        { "year": 1844, "yearLabel": "1844 CE", "title": "Dominican Republic secedes", "summary": "The eastern, Spanish-speaking part of Hispaniola breaks from Haitian rule to form the independent Dominican Republic.", "category": "politics", "sources": ["britannica-hispaniola"] }
+      ],
+      "figures": [
+        { "name": "Henry Christophe", "role": "King Henry I of northern Haiti", "life": "1767-1820", "blurb": "Revolutionary general who ruled the north as King Henry I from 1811, creating a court and nobility and ordering the building of the colossal Citadelle Laferriere before his death in 1820.", "sources": ["britannica-christophe"] }
+      ],
+      "pullquote": { "text": "The Citadelle and Sans-Souci stand as universal symbols of liberty, the first monuments built by formerly enslaved people who had won their freedom.", "attribution": "After UNESCO World Heritage Centre" },
+      "sources": ["britannica-christophe", "unesco-national-history-park", "britannica-history-haiti", "britannica-hispaniola"]
+    },
+    {
+      "id": "occupation-duvaliers",
+      "title": "Occupation and Dictatorship",
+      "period": "1915 - 1986",
+      "startYear": 1915,
+      "endYear": 1986,
+      "standfirst": "A United States military occupation lasting nineteen years was followed, after decades of instability, by the long and repressive Duvalier dictatorships of Papa Doc and Baby Doc.",
+      "body": [
+        "After years of political violence and amid concern over European influence and unpaid debts, the United States landed Marines in Haiti in 1915 following the assassination of the Haitian president, beginning an occupation that lasted until 1934. American officials took control of customs and finances, built roads, bridges, and ports, and trained a Haitian gendarmerie, but the occupation was widely resented, met with armed resistance, and reinforced existing social hierarchies. The last Marines withdrew in 1934, leaving institutions that did not long outlast their departure.",
+        "In 1957 Francois Duvalier, a physician known as Papa Doc, won the presidency and proceeded to turn the government into a personal dictatorship, declaring himself president for life. He ruled through fear, relying on a feared paramilitary force, the Tontons Macoutes, and a cult of personality drawing on Vodou symbolism. His rule, treated soberly by historians, is associated with the killing of an estimated tens of thousands of Haitians and the flight into exile of much of the educated class.",
+        "On Papa Doc's death in 1971, power passed to his nineteen-year-old son, Jean-Claude Duvalier, known as Baby Doc, who continued the dictatorship and the apparatus of repression while presiding over deepening poverty and corruption. Mounting popular protest, economic crisis, and the withdrawal of foreign support culminated in a mass uprising, and on 7 February 1986 Baby Doc fled into exile, ending nearly three decades of Duvalier rule."
+      ],
+      "events": [
+        { "year": 1915, "yearLabel": "1915-1934", "endYear": 1934, "title": "United States occupation", "summary": "U.S. Marines occupy Haiti for nineteen years, controlling its finances and building infrastructure amid widespread resentment and resistance.", "category": "war", "sources": ["history-state-occupation"] },
+        { "year": 1957, "yearLabel": "1957 CE", "title": "Papa Doc Duvalier takes power", "summary": "Francois Duvalier becomes president and establishes a personal dictatorship enforced by the Tontons Macoutes, declaring himself president for life.", "category": "politics", "sources": ["britannica-duvaliers"] },
+        { "year": 1986, "yearLabel": "7 Feb 1986", "title": "Fall of Baby Doc", "summary": "A popular uprising drives Jean-Claude 'Baby Doc' Duvalier into exile, ending the Duvalier dictatorships.", "category": "politics", "sources": ["britannica-duvaliers"] }
+      ],
+      "figures": [
+        { "name": "Francois Duvalier (Papa Doc)", "role": "President-for-life of Haiti", "life": "1907-1971", "blurb": "Physician who seized dictatorial power in 1957 and ruled until his death through the Tontons Macoutes and a cult of personality, in a regime associated with widespread repression.", "sources": ["britannica-duvaliers"] }
+      ],
+      "pullquote": { "text": "On Feb. 7, 1986, Jean-Claude Duvalier fled Haiti, ending nearly three decades of family dictatorship.", "attribution": "After Encyclopaedia Britannica" },
+      "sources": ["history-state-occupation", "britannica-duvaliers"]
+    },
+    {
+      "id": "democracy-earthquake-crisis",
+      "title": "Democracy, Disaster, and Collapse",
+      "period": "1986 - present",
+      "startYear": 1986,
+      "endYear": 2026,
+      "standfirst": "Turbulent transitions around Jean-Bertrand Aristide, the catastrophic 2010 earthquake, and the post-2021 collapse into gang rule have defined Haiti's most recent decades.",
+      "body": [
+        "The fall of the Duvaliers opened a turbulent era of attempted democratisation. In December 1990 Jean-Bertrand Aristide, a former priest, won Haiti's first free presidential election by a large margin, only to be overthrown by a military coup in 1991. He was restored to office in 1994 with the backing of a United States-led intervention, was re-elected in 2000, and left office again in 2004 amid disputed circumstances and an armed revolt. United Nations peacekeepers were deployed to stabilise the country through the years that followed.",
+        "On 12 January 2010 a magnitude 7.0 earthquake struck near Port-au-Prince, devastating the capital and surrounding towns. Casualty figures remain disputed and are best treated as estimates: Haiti's government put the dead in the hundreds of thousands, while independent estimates ranged considerably lower, into the low hundreds of thousands or below. Around three million people, roughly a third of the population, were affected, and over a million were left homeless, while the disaster crippled an already fragile state.",
+        "Political fragility deepened through the 2010s, and on 7 July 2021 President Jovenel Moise was assassinated at his residence by a group of mainly foreign mercenaries. In the vacuum that followed, armed gangs seized control of much of Port-au-Prince. After the resignation of the prime minister in 2024, a transitional presidential council took office, and a Kenyan-led multinational security mission deployed to support the Haitian police. Yet by the mid-2020s gangs controlled most of the capital, violence had killed thousands and displaced many more, and the United Nations moved to authorise a strengthened international force to confront the crisis."
+      ],
+      "events": [
+        { "year": 1990, "yearLabel": "Dec 1990", "title": "Aristide elected", "summary": "Jean-Bertrand Aristide wins Haiti's first free presidential election; he is overthrown in 1991 and restored in 1994.", "category": "politics", "sources": ["britannica-aristide"] },
+        { "year": 2010, "yearLabel": "12 Jan 2010", "title": "Catastrophic earthquake", "summary": "A magnitude 7.0 earthquake devastates Port-au-Prince; death-toll estimates vary widely and remain disputed, with around three million people affected.", "category": "disaster", "sources": ["britannica-earthquake"] },
+        { "year": 2021, "yearLabel": "7 Jul 2021", "title": "Assassination of President Moise", "summary": "President Jovenel Moise is assassinated at his home, accelerating Haiti's slide into gang rule and state collapse.", "category": "politics", "sources": ["un-news-haiti-2025"] },
+        { "year": 2024, "yearLabel": "2024-2026", "endYear": 2026, "title": "Transitional council and security mission", "summary": "A transitional presidential council and a Kenyan-led security mission seek to restore order as gangs control most of the capital and a strengthened UN-authorised force is approved.", "category": "politics", "sources": ["un-news-haiti-2025"] }
+      ],
+      "figures": [
+        { "name": "Jean-Bertrand Aristide", "role": "President of Haiti", "life": "born 1953", "blurb": "Former Catholic priest and Haiti's first freely elected president, twice ousted from power, whose turbulent career framed the country's fraught transition to democracy.", "sources": ["britannica-aristide"] }
+      ],
+      "pullquote": { "text": "Some three million people, nearly a third of Haiti's population, were affected by the 2010 earthquake.", "attribution": "After Encyclopaedia Britannica" },
+      "sources": ["britannica-aristide", "britannica-earthquake", "un-news-haiti-2025", "loc-country-study"]
+    }
+  ],
+  "figures": [
+    { "name": "Toussaint Louverture", "role": "Revolutionary leader", "life": "c. 1743-1803", "blurb": "Formerly enslaved commander whose military and political genius drove the Haitian Revolution to the threshold of independence before Napoleon deported him to die in a French prison.", "sources": ["britannica-toussaint"] },
+    { "name": "Jean-Jacques Dessalines", "role": "Founder of independent Haiti", "life": "c. 1758-1806", "blurb": "Leader of the final victory over France who proclaimed Haitian independence on 1 January 1804 and ruled as Emperor Jacques I.", "sources": ["britannica-dessalines"] },
+    { "name": "Henry Christophe", "role": "King Henry I of Haiti", "life": "1767-1820", "blurb": "Revolutionary general who ruled northern Haiti as king and built the Citadelle Laferriere, now a UNESCO World Heritage site.", "sources": ["britannica-christophe", "unesco-national-history-park"] }
+  ],
+  "sources": [
+    { "id": "britannica-history-haiti", "label": "History of Haiti", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/history-of-Haiti", "kind": "encyclopedia" },
+    { "id": "britannica-hispaniola", "label": "Hispaniola", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Hispaniola", "kind": "encyclopedia" },
+    { "id": "loc-columbus-taino", "label": "Columbus and the Taino", "publisher": "Library of Congress", "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html", "kind": "gov" },
+    { "id": "britannica-rijswijk", "label": "Treaty of Rijswijk", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Treaty-of-Rijswijk", "kind": "encyclopedia" },
+    { "id": "britannica-saint-domingue", "label": "Saint-Domingue", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Saint-Domingue", "kind": "encyclopedia" },
+    { "id": "britannica-haitian-revolution", "label": "Haitian Revolution", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Haitian-Revolution", "kind": "encyclopedia" },
+    { "id": "britannica-toussaint", "label": "Toussaint Louverture", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Toussaint-Louverture", "kind": "encyclopedia" },
+    { "id": "britannica-dessalines", "label": "Jean-Jacques Dessalines", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Jean-Jacques-Dessalines", "kind": "encyclopedia" },
+    { "id": "britannica-christophe", "label": "Henry Christophe", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Henry-Christophe", "kind": "encyclopedia" },
+    { "id": "unesco-national-history-park", "label": "National History Park - Citadel, Sans Souci, Ramiers", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/180/", "kind": "gov" },
+    { "id": "history-state-occupation", "label": "U.S. Invasion and Occupation of Haiti, 1915-34", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/milestones/1914-1920/haiti", "kind": "gov" },
+    { "id": "britannica-duvaliers", "label": "Haiti: Military regimes and the Duvaliers", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Haiti/Military-regimes-and-the-Duvaliers", "kind": "encyclopedia" },
+    { "id": "britannica-aristide", "label": "Jean-Bertrand Aristide", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Jean-Bertrand-Aristide", "kind": "encyclopedia" },
+    { "id": "britannica-earthquake", "label": "2010 Haiti earthquake", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/2010-Haiti-earthquake", "kind": "encyclopedia" },
+    { "id": "un-news-haiti-2025", "label": "UN Security Council approves new force for Haiti amid gang violence", "publisher": "United Nations News", "url": "https://news.un.org/en/story/2025/09/1166006", "kind": "gov" },
+    { "id": "loc-country-study", "label": "Dominican Republic and Haiti: Country Studies", "publisher": "Library of Congress, Federal Research Division", "url": "https://www.loc.gov/item/2001023524", "kind": "gov" }
+  ],
+  "status": "published",
+  "updated": "2026-06-15"
+}
