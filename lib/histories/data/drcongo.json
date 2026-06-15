@@ -1,0 +1,548 @@
+{
+  "code": "COD",
+  "name": "DR Congo",
+  "tagline": "From the savanna kingdoms to Africa's heart",
+  "summary": "The Democratic Republic of the Congo occupies the vast forested basin of the Congo River, a land that gave rise to the Christian kingdom of Kongo and the savanna empires of Luba, Lunda and Kuba. Drawn into the Atlantic and eastern slave trades, the region was seized in the 1880s by King Leopold II of Belgium as a private possession whose rubber regime killed on a catastrophic scale. Independence in 1960 opened onto crisis, the assassination of Patrice Lumumba, the long dictatorship of Mobutu, and two devastating wars whose aftershocks still rack the eastern provinces.",
+  "founding": {
+    "label": "Independence from Belgium",
+    "yearLabel": "30 June 1960",
+    "year": 1960,
+    "detail": "The Belgian Congo became the independent Republic of the Congo on 30 June 1960, with Patrice Lumumba as prime minister and Joseph Kasa-Vubu as president. Within weeks the new state was plunged into the Congo Crisis."
+  },
+  "quickFacts": [
+    { "label": "Capital", "value": "Kinshasa (formerly Léopoldville)" },
+    { "label": "Independence", "value": "30 June 1960 (from Belgium)" },
+    { "label": "Earliest states", "value": "Kingdom of Kongo (c. 1390); Luba & Lunda empires" },
+    { "label": "Colonial rule", "value": "Congo Free State 1885; Belgian Congo from 1908" },
+    { "label": "Renamed Zaire", "value": "1971–1997 (under Mobutu Sese Seko)" },
+    { "label": "Area", "value": "c. 2.34 million km² (largest in sub-Saharan Africa)" }
+  ],
+  "eras": [
+    {
+      "id": "savanna-kingdoms",
+      "title": "Kongo & the Savanna Kingdoms",
+      "period": "c. 1390 – c. 1700",
+      "startYear": 1390,
+      "endYear": 1700,
+      "standfirst": "Before any colony there were sophisticated African states — the kingdom of Kongo near the Atlantic, and the Luba, Lunda and Kuba kingdoms of the southern savanna.",
+      "body": [
+        "On the lower Congo River the kingdom of Kongo coalesced around 1390 under Lukeni lua Nimi, ruling from its capital Mbanza Kongo. When the Portuguese navigator Diogo Cão reached the coast in 1483, Kongo was a centralised state of provinces and royal officials. Its king Nzinga a Nkuwu accepted baptism in 1491, taking the name João I; his son Nzinga Mbemba ruled from about 1509 as Afonso I, making Kongo a Christian kingdom and exchanging ambassadors and letters with Lisbon.",
+        "Those same Portuguese ties bound Kongo into the Atlantic slave trade. Afonso, who had welcomed missionaries and literacy, protested in correspondence to João III of Portugal in 1526 against traders who seized free subjects, though slaving continued to expand. Kongo's power waned through the 17th century and was broken at the Battle of Mbwila on 29 October 1665, where Portuguese forces killed King António I and the kingdom fragmented into rival factions.",
+        "Deeper inland, on the grasslands and lakes of the Upemba Depression, the Luba empire took shape, and from its political traditions grew the Lunda empire under the title Mwaant Yaav (Mwata Yamvo). Between the Sankuru and Kasai rivers, Shyaam a-Mbul a Ngoong founded the Bushong dynasty of the Kuba kingdom around 1625, a state celebrated for its art, woven raffia and ordered court. These savanna kingdoms organised trade, tribute and craft across the heart of the continent long before any European set foot there."
+      ],
+      "events": [
+        {
+          "year": 1390,
+          "yearLabel": "c. 1390",
+          "title": "Kingdom of Kongo founded",
+          "summary": "Lukeni lua Nimi establishes the kingdom of Kongo on the lower Congo River, ruling from Mbanza Kongo.",
+          "category": "founding",
+          "sources": ["eb-kongo", "wiki-kongo"]
+        },
+        {
+          "year": 1491,
+          "title": "Kongo's king baptised as João I",
+          "summary": "After Diogo Cão's 1483 landfall, King Nzinga a Nkuwu accepts Catholic baptism, taking the name João I and opening close ties with Portugal.",
+          "category": "religion",
+          "sources": ["wiki-kongo", "eb-afonso"]
+        },
+        {
+          "year": 1526,
+          "title": "Afonso I protests the slave trade",
+          "summary": "King Afonso I (Nzinga Mbemba) writes to João III of Portugal complaining that traders are illegally enslaving his subjects, even as the Atlantic trade expands.",
+          "category": "migration",
+          "sources": ["eb-afonso", "wiki-kongo", "metmuseum-savanna"]
+        },
+        {
+          "year": 1625,
+          "yearLabel": "c. 1625",
+          "title": "Kuba kingdom unified by Shyaam",
+          "summary": "Shyaam a-Mbul a Ngoong founds the Bushong dynasty, uniting chiefdoms between the Sankuru and Kasai into the Kuba kingdom famed for its art.",
+          "category": "founding",
+          "sources": ["wiki-kuba", "metmuseum-savanna"]
+        },
+        {
+          "year": 1665,
+          "yearLabel": "29 Oct 1665",
+          "title": "Battle of Mbwila breaks Kongo",
+          "summary": "Portuguese forces defeat Kongo and kill King António I at Mbwila (Ambuila); the kingdom splinters into rival factions and a long civil war.",
+          "category": "war",
+          "sources": ["wiki-kongo", "eb-kongo"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Afonso I (Nzinga Mbemba)",
+          "role": "Manikongo (King of Kongo)",
+          "life": "c. 1460–1542",
+          "blurb": "Christian king of Kongo who built ties with Portugal, fostered literacy and the Church, yet protested the illegal enslavement of his subjects.",
+          "sources": ["eb-afonso", "wiki-kongo"]
+        }
+      ],
+      "pullquote": {
+        "text": "Each day the traders are kidnapping our people — children of this country, sons of our nobles and vassals.",
+        "attribution": "King Afonso I to João III of Portugal, 1526 (as commonly cited)"
+      },
+      "sources": ["eb-kongo", "wiki-kongo", "eb-afonso", "wiki-kuba", "metmuseum-savanna", "eb-lunda"]
+    },
+    {
+      "id": "slave-trades",
+      "title": "The Slave Trades & the Scramble",
+      "period": "c. 1700 – 1885",
+      "startYear": 1700,
+      "endYear": 1885,
+      "standfirst": "Two slaving systems — Atlantic to the west, Swahili-Arab to the east — bled the Congo basin, even as European explorers mapped the river for empire.",
+      "body": [
+        "For two centuries the western kingdoms fed captives into the transatlantic trade that carried millions of Central Africans across the ocean, much of it through ports south of the Congo mouth. The trade enriched coastal middlemen, fractured inland polities and depopulated whole districts long before any colonial flag was raised over the interior.",
+        "From the east a second system reached deep into the basin in the 19th century. Swahili-Arab traders from the Indian Ocean coast pushed up the caravan routes for ivory and slaves; the most powerful, Hamad bin Muhammad — known as Tippu Tip — built a personal domain centred on Kasongo in the Maniema country, leading armed expeditions of thousands and raiding the Manyema region so relentlessly that it became notorious to outsiders as a slaving 'El Dorado'.",
+        "It was into this world that the Welsh-American journalist Henry Morton Stanley descended the Congo River from 1874 to 1877, the first European to trace its course to the sea. His reports drew the attention of King Leopold II of Belgium, who hired Stanley from 1879 to establish stations and sign treaties with local rulers — the groundwork for a colonial claim that the European powers would soon sanction."
+      ],
+      "events": [
+        {
+          "year": 1700,
+          "yearLabel": "18th century",
+          "title": "Atlantic slave trade at its height",
+          "summary": "Central African captives are funnelled in vast numbers into the transatlantic trade, hollowing out communities across the lower Congo.",
+          "category": "migration",
+          "sources": ["wiki-kongo", "blackpast-cfs"]
+        },
+        {
+          "year": 1869,
+          "yearLabel": "c. 1860s–1880s",
+          "title": "Tippu Tip's eastern slaving state",
+          "summary": "Swahili-Arab trader Tippu Tip builds a domain around Kasongo in Maniema, raiding the eastern Congo for ivory and slaves.",
+          "category": "migration",
+          "sources": ["eb-tippu", "wiki-tippu"]
+        },
+        {
+          "year": 1877,
+          "title": "Stanley descends the Congo River",
+          "summary": "Henry Morton Stanley completes the first European traverse of the Congo from interior to the Atlantic, mapping the basin for would-be colonisers.",
+          "category": "colonization",
+          "sources": ["blackpast-cfs", "wiki-cfs"]
+        },
+        {
+          "year": 1879,
+          "yearLabel": "1879–1884",
+          "title": "Leopold hires Stanley for the Congo",
+          "summary": "King Leopold II commissions Stanley to build stations and obtain treaties from local chiefs, laying the basis for a private colonial claim.",
+          "category": "colonization",
+          "sources": ["wiki-cfs", "blackpast-cfs"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Tippu Tip (Hamad bin Muhammad)",
+          "role": "Swahili-Arab trader and warlord",
+          "life": "c. 1832–1905",
+          "blurb": "Zanzibar-born ivory and slave trader of Omani and African descent who carved out a domain in the eastern Congo basin, centred on Kasongo.",
+          "sources": ["eb-tippu", "wiki-tippu"]
+        }
+      ],
+      "sources": ["wiki-kongo", "blackpast-cfs", "eb-tippu", "wiki-tippu", "wiki-cfs"]
+    },
+    {
+      "id": "congo-free-state",
+      "title": "The Congo Free State",
+      "period": "1885 – 1908",
+      "startYear": 1885,
+      "endYear": 1908,
+      "standfirst": "Recognised at the Berlin Conference as King Leopold II's personal possession, the Congo Free State became one of history's most lethal colonial regimes.",
+      "body": [
+        "At the Berlin Conference of 1884–85 the European powers recognised Leopold II's claim to the Congo basin, and in 1885 he proclaimed the Congo Free State — not a Belgian colony but the king's own private domain, some 2.3 million square kilometres ruled in his personal name. Its purpose was extraction: first ivory, then, as world demand surged in the 1890s, wild rubber.",
+        "To force villagers to gather rubber, the state's armed force, the Force Publique, imposed quotas backed by terror. Hostages were taken, villages burned, and soldiers required to account for ammunition by bringing back severed human hands — a practice that made mutilation a notorious emblem of the regime. Death came through violence, famine, overwork and disease; estimates of the resulting population loss range widely, from over a million to figures as high as ten million, and remain debated by historians.",
+        "The abuses were exposed to the world by the British consul Roger Casement, whose 1904 report documented the killing and mutilation first-hand, and by the journalist E. D. Morel, whose Congo Reform Association mounted an international campaign. Under mounting pressure the Belgian parliament took the territory out of Leopold's hands, annexing it as the Belgian Congo on 15 November 1908."
+      ],
+      "events": [
+        {
+          "year": 1885,
+          "title": "Congo Free State proclaimed",
+          "summary": "Following the Berlin Conference, Leopold II establishes the Congo Free State as his personal possession, recognised by the European powers.",
+          "category": "colonization",
+          "sources": ["wiki-cfs", "blackpast-cfs", "eb-leopold"]
+        },
+        {
+          "year": 1891,
+          "yearLabel": "1890s",
+          "title": "The rubber regime and the Force Publique",
+          "summary": "Monopoly decrees and rubber quotas, enforced by the Force Publique through hostage-taking and mutilation, drive a system of forced labour and mass death.",
+          "category": "disaster",
+          "sources": ["wiki-cfs", "blackpast-cfs"]
+        },
+        {
+          "year": 1904,
+          "title": "The Casement Report",
+          "summary": "British consul Roger Casement publishes a report documenting atrocities; E. D. Morel's Congo Reform Association amplifies the outcry.",
+          "category": "politics",
+          "sources": ["wiki-casement", "wiki-cfs"]
+        },
+        {
+          "year": 1908,
+          "yearLabel": "15 Nov 1908",
+          "title": "Belgium annexes the Belgian Congo",
+          "summary": "Under international pressure, Belgium takes the territory from Leopold II, ending the Free State and creating the Belgian Congo colony.",
+          "category": "colonization",
+          "sources": ["wiki-cfs", "blackpast-cfs"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Leopold II of Belgium",
+          "role": "King of the Belgians; ruler of the Congo Free State",
+          "life": "1835–1909",
+          "blurb": "Held the Congo basin as his private possession from 1885; his rubber regime caused catastrophic loss of life before Belgium annexed the colony in 1908.",
+          "sources": ["eb-leopold", "wiki-cfs"]
+        }
+      ],
+      "pullquote": {
+        "text": "The abuses were exposed by Roger Casement's report and E. D. Morel's reform campaign.",
+        "attribution": "On the Congo Reform movement"
+      },
+      "sources": ["wiki-cfs", "blackpast-cfs", "eb-leopold", "wiki-casement"]
+    },
+    {
+      "id": "belgian-congo-independence",
+      "title": "Belgian Congo & Independence",
+      "period": "1908 – 1965",
+      "startYear": 1908,
+      "endYear": 1965,
+      "standfirst": "Half a century of Belgian rule ended abruptly in 1960 — and independence opened onto secession, mutiny and the murder of the first prime minister.",
+      "body": [
+        "Belgian rule combined paternalist administration, Catholic missions and the mining of vast copper and mineral wealth in Katanga with rigid racial controls and almost no preparation of Congolese for self-government. Pressure for independence built rapidly in the late 1950s, and Belgium, eager to avoid a colonial war, agreed to a swift handover.",
+        "On 30 June 1960 the Belgian Congo became independent, with Patrice Lumumba as prime minister and Joseph Kasa-Vubu as president. Within days the new state unravelled: the army mutinied on 5 July, and on 11 July the mineral-rich province of Katanga declared secession under Moïse Tshombe with Belgian backing. Belgium sent troops and the United Nations deployed a peacekeeping force into what became known as the Congo Crisis.",
+        "The crisis consumed Lumumba. Dismissed by Kasa-Vubu in September 1960 amid a power struggle, sidelined by Colonel Joseph-Désiré Mobutu's intervention, he was captured and handed to his Katangan enemies, who killed him on 17 January 1961 — an act in which Belgian officers were present and Western intelligence interest is widely documented. After years of turmoil, Mobutu seized full power in a coup in 1965."
+      ],
+      "events": [
+        {
+          "year": 1908,
+          "title": "Belgian Congo established",
+          "summary": "The colony is administered by Belgium for half a century, its economy built on Katangan copper and other minerals.",
+          "category": "colonization",
+          "sources": ["wiki-cfs", "factbook-drc"]
+        },
+        {
+          "year": 1960,
+          "yearLabel": "30 June 1960",
+          "title": "Independence from Belgium",
+          "summary": "The Congo becomes independent with Lumumba as prime minister and Kasa-Vubu as president.",
+          "category": "independence",
+          "sources": ["wiki-lumumba", "factbook-drc"]
+        },
+        {
+          "year": 1960,
+          "yearLabel": "11 July 1960",
+          "title": "Katanga secedes; the Congo Crisis",
+          "summary": "An army mutiny and Moïse Tshombe's Belgian-backed secession of Katanga plunge the new state into crisis and UN intervention.",
+          "category": "war",
+          "sources": ["wiki-lumumba"]
+        },
+        {
+          "year": 1961,
+          "yearLabel": "17 Jan 1961",
+          "title": "Assassination of Lumumba",
+          "summary": "Captured and transferred to Katanga, Patrice Lumumba is killed; Belgian officers were present and foreign involvement is widely documented.",
+          "category": "politics",
+          "sources": ["wiki-lumumba"]
+        },
+        {
+          "year": 1965,
+          "title": "Mobutu seizes power",
+          "summary": "Colonel Joseph-Désiré Mobutu takes full control in a military coup, beginning a three-decade dictatorship.",
+          "category": "politics",
+          "sources": ["eb-mobutu", "wiki-mobutu"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Patrice Lumumba",
+          "role": "First Prime Minister of independent Congo",
+          "life": "1925–1961",
+          "blurb": "Nationalist leader and first prime minister; dismissed amid the Congo Crisis and assassinated in January 1961, he became a symbol of African independence.",
+          "sources": ["wiki-lumumba"]
+        }
+      ],
+      "sources": ["wiki-cfs", "factbook-drc", "wiki-lumumba", "eb-mobutu", "wiki-mobutu"]
+    },
+    {
+      "id": "zaire",
+      "title": "Mobutu's Zaire",
+      "period": "1965 – 1997",
+      "startYear": 1965,
+      "endYear": 1997,
+      "standfirst": "For more than three decades Mobutu Sese Seko ruled a country he renamed Zaire — a single-party state of pageantry, plunder and Cold War patronage.",
+      "body": [
+        "Having seized power in 1965, Mobutu consolidated a one-party state. In 1971, under a doctrine of 'authenticité' that purged colonial names and symbols, he renamed the country Zaire and himself Mobutu Sese Seko. Backed by Western powers as a Cold War ally, he ruled through a cult of personality while the state's mineral wealth was siphoned into private hands — a system later dubbed kleptocracy.",
+        "Decades of corruption hollowed out the economy and infrastructure even as Mobutu projected absolute authority. By the 1990s his grip was weakening, and the 1994 Rwandan genocide spilled over the eastern border as more than a million Hutu refugees, including génocidaires, crowded into the Kivu provinces, destabilising the region.",
+        "In 1996 a rebellion led by the veteran guerrilla Laurent-Désiré Kabila, backed by Rwanda and Uganda, swept across the country in the First Congo War. Mobutu, gravely ill, fled in May 1997 and died in exile in Morocco that September. Kabila took the capital, declared himself president and restored the name Democratic Republic of the Congo."
+      ],
+      "events": [
+        {
+          "year": 1971,
+          "title": "Congo renamed Zaire",
+          "summary": "Under his 'authenticité' campaign, Mobutu renames the country Zaire and adopts the name Mobutu Sese Seko.",
+          "category": "politics",
+          "sources": ["eb-mobutu", "wiki-mobutu"]
+        },
+        {
+          "year": 1994,
+          "title": "Rwandan refugee crisis in the Kivus",
+          "summary": "The Rwandan genocide drives over a million refugees into eastern Zaire, destabilising the Kivu provinces.",
+          "category": "migration",
+          "sources": ["wiki-second-congo", "eb-mobutu"]
+        },
+        {
+          "year": 1996,
+          "yearLabel": "1996–1997",
+          "title": "First Congo War",
+          "summary": "A Rwanda- and Uganda-backed rebellion under Laurent-Désiré Kabila advances across the country against the collapsing Mobutu regime.",
+          "category": "war",
+          "sources": ["blackpast-kabila", "wiki-mobutu"]
+        },
+        {
+          "year": 1997,
+          "yearLabel": "May 1997",
+          "title": "Mobutu falls; Kabila takes power",
+          "summary": "Mobutu flees into exile and dies months later; Kabila seizes Kinshasa and restores the name Democratic Republic of the Congo.",
+          "category": "politics",
+          "sources": ["blackpast-kabila", "eb-mobutu", "wiki-mobutu"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Mobutu Sese Seko",
+          "role": "President of Zaire (1965–1997)",
+          "life": "1930–1997",
+          "blurb": "Seized power in 1965 and ruled for over three decades, renaming the country Zaire; his rule became a byword for kleptocracy before his fall in 1997.",
+          "sources": ["eb-mobutu", "wiki-mobutu"]
+        }
+      ],
+      "sources": ["eb-mobutu", "wiki-mobutu", "wiki-second-congo", "blackpast-kabila"]
+    },
+    {
+      "id": "congo-wars",
+      "title": "Africa's World War & After",
+      "period": "1998 – present",
+      "startYear": 1998,
+      "endYear": 2026,
+      "standfirst": "A second, far deadlier war drew in nine nations, and despite peace agreements the eastern Kivus have never known lasting calm.",
+      "body": [
+        "In August 1998 Laurent-Désiré Kabila turned on his Rwandan and Ugandan backers, igniting the Second Congo War. Drawing in some nine African states — Angola, Zimbabwe and Namibia among Kabila's allies, Rwanda and Uganda backing the rebels — and dozens of armed groups, it became known as 'Africa's World War.' It was the deadliest conflict since the Second World War, with widely cited estimates of several million deaths, most from disease and starvation rather than combat.",
+        "Kabila was assassinated in Kinshasa on 16 January 2001 and succeeded by his son Joseph Kabila, who pursued peace. A series of agreements in 2002 — at Sun City and Pretoria — and a transitional government brought the war to a formal close in 2003, and the country adopted a new constitution and held elections in 2006.",
+        "Peace on paper did not reach the east. The mineral-rich Kivu provinces remained a battleground for armed groups, including the M23 rebellion, which seized Goma in 2012 and, after re-emerging in 2021, again captured the city in early 2025 amid Rwandan involvement and a renewed humanitarian catastrophe. The struggle over the eastern Congo's people and resources remains unresolved."
+      ],
+      "events": [
+        {
+          "year": 1998,
+          "yearLabel": "Aug 1998",
+          "title": "Second Congo War begins",
+          "summary": "Kabila breaks with Rwanda and Uganda; nine nations and many militias are drawn into 'Africa's World War,' the deadliest conflict since 1945.",
+          "category": "war",
+          "sources": ["wiki-second-congo"]
+        },
+        {
+          "year": 2001,
+          "yearLabel": "16 Jan 2001",
+          "title": "Laurent Kabila assassinated",
+          "summary": "President Laurent-Désiré Kabila is shot dead in Kinshasa; his son Joseph Kabila succeeds him and seeks peace.",
+          "category": "politics",
+          "sources": ["wiki-second-congo", "blackpast-kabila"]
+        },
+        {
+          "year": 2003,
+          "title": "Peace agreements end the war",
+          "summary": "The 2002 Sun City and Pretoria accords and a transitional government formally end the Second Congo War in 2003.",
+          "category": "politics",
+          "sources": ["wiki-second-congo"]
+        },
+        {
+          "year": 2012,
+          "title": "M23 rebellion seizes Goma",
+          "summary": "The M23 rebel movement briefly captures Goma in North Kivu before being pushed back; conflict festers across the east.",
+          "category": "war",
+          "sources": ["crisisgroup-m23", "wiki-second-congo"]
+        },
+        {
+          "year": 2025,
+          "title": "M23 retakes Goma",
+          "summary": "After re-emerging in 2021, M23 — with Rwandan backing — captures Goma again in early 2025, deepening the humanitarian crisis.",
+          "category": "war",
+          "sources": ["crisisgroup-m23"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Laurent-Désiré Kabila",
+          "role": "President (1997–2001)",
+          "life": "1939–2001",
+          "blurb": "Veteran guerrilla who ousted Mobutu in 1997, then fell out with his foreign backers, triggering the Second Congo War; assassinated in 2001.",
+          "sources": ["blackpast-kabila", "wiki-second-congo"]
+        }
+      ],
+      "pullquote": {
+        "text": "It became known as 'Africa's World War' — nine nations and dozens of armed groups, the deadliest conflict since 1945.",
+        "attribution": "On the Second Congo War"
+      },
+      "sources": ["wiki-second-congo", "blackpast-kabila", "crisisgroup-m23"]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Afonso I (Nzinga Mbemba)",
+      "role": "King of Kongo",
+      "life": "c. 1460–1542",
+      "blurb": "Christian king who allied Kongo with Portugal and protested the illegal enslavement of his people.",
+      "sources": ["eb-afonso", "wiki-kongo"]
+    },
+    {
+      "name": "Patrice Lumumba",
+      "role": "First Prime Minister of independent Congo",
+      "life": "1925–1961",
+      "blurb": "Nationalist leader of the independence era, assassinated in 1961 and remembered as a martyr of African liberation.",
+      "sources": ["wiki-lumumba"]
+    },
+    {
+      "name": "Mobutu Sese Seko",
+      "role": "President of Zaire (1965–1997)",
+      "life": "1930–1997",
+      "blurb": "Dictator who renamed the country Zaire and ruled it for over three decades as a Cold War client.",
+      "sources": ["eb-mobutu", "wiki-mobutu"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "eb-kongo",
+      "label": "Kongo (historical kingdom, Africa)",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/place/Kongo-historical-kingdom-Africa",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-kongo",
+      "label": "Kingdom of Kongo",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+      "kind": "reference"
+    },
+    {
+      "id": "eb-afonso",
+      "label": "Afonso I, king of Kongo kingdom",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Afonso-I-king-of-Kongo-kingdom",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-kuba",
+      "label": "Kuba Kingdom",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kuba_Kingdom",
+      "kind": "reference"
+    },
+    {
+      "id": "metmuseum-savanna",
+      "label": "Kingdoms of the Savanna: the Luba and Lunda Empires",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/kingdoms-of-the-savanna-the-luba-and-lunda-empires",
+      "kind": "museum"
+    },
+    {
+      "id": "eb-lunda",
+      "label": "Lunda empire",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/place/Lunda-empire",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "eb-tippu",
+      "label": "Tippu Tib, African slave trader and explorer",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Tippu-Tib",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-tippu",
+      "label": "Tippu Tip",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tippu_Tip",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-cfs",
+      "label": "Congo Free State",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Congo_Free_State",
+      "kind": "reference"
+    },
+    {
+      "id": "blackpast-cfs",
+      "label": "Congo Free State (1885–1908)",
+      "publisher": "BlackPast.org",
+      "url": "https://www.blackpast.org/global-african-history/congo-free-state-1885-1908/",
+      "kind": "reference"
+    },
+    {
+      "id": "eb-leopold",
+      "label": "Leopold II, king of the Belgians",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Leopold-II-king-of-Belgium",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-casement",
+      "label": "Casement Report (1904)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casement_Report",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-lumumba",
+      "label": "Patrice Lumumba",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Patrice_Lumumba",
+      "kind": "reference"
+    },
+    {
+      "id": "eb-mobutu",
+      "label": "Mobutu Sese Seko, president of Zaire",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Mobutu-Sese-Seko",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-mobutu",
+      "label": "Mobutu Sese Seko",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mobutu_Sese_Seko",
+      "kind": "reference"
+    },
+    {
+      "id": "blackpast-kabila",
+      "label": "Kabila, Laurent-Désiré (1939–2001)",
+      "publisher": "BlackPast.org",
+      "url": "https://www.blackpast.org/global-african-history/kabila-laurent-desire-kabila-laurent-1939-2001/",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-second-congo",
+      "label": "Second Congo War",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Second_Congo_War",
+      "kind": "reference"
+    },
+    {
+      "id": "crisisgroup-m23",
+      "label": "The M23 Offensive: Elusive Peace in the Great Lakes",
+      "publisher": "International Crisis Group",
+      "url": "https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo",
+      "kind": "reference"
+    },
+    {
+      "id": "factbook-drc",
+      "label": "Congo, Democratic Republic of the",
+      "publisher": "CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/",
+      "kind": "gov"
+    }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

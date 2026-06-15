@@ -1,0 +1,710 @@
+{
+  "code": "PSE",
+  "name": "Palestine",
+  "tagline": "An ancient and contested land at the crossroads of three continents and three faiths, whose people declared an independent state in 1988 and whose modern history is defined by dispossession and the struggle for self-determination.",
+  "summary": "Palestine is a land at the eastern shore of the Mediterranean whose history stretches back to the Bronze Age city-states of Canaan and the Philistines from whom the name ultimately derives. Over millennia the region passed through Egyptian, Assyrian, Babylonian, Persian, Hellenistic, Roman, Byzantine, Arab Islamic, Crusader, Ayyubid, Mamluk, and Ottoman rule, becoming a holy land for Jews, Christians, and Muslims. Four centuries of Ottoman governance ended with the First World War, after which Britain's 1917 Balfour Declaration and the ensuing Mandate set in motion the conflict between Zionism and Palestinian Arab nationalism. The 1947 UN partition plan and the 1948 war produced the Nakba, the expulsion and flight of some 700,000 Palestinians and the destruction of hundreds of villages. Israel's 1967 occupation of the West Bank and Gaza, the rise of the Palestine Liberation Organization, the Intifadas, and the Oslo process followed. On 15 November 1988 the Palestinian National Council in Algiers proclaimed the State of Palestine, and in 2012 the UN General Assembly recognised it as a non-member observer state. The blockade of Gaza from 2007 and the catastrophic war of 2023 to 2025, which leading international institutions have determined amounts to genocide, frame the present.",
+  "founding": {
+    "label": "Palestinian Declaration of Independence",
+    "yearLabel": "15 November 1988",
+    "year": 1988,
+    "detail": "On 15 November 1988, at a session of the Palestinian National Council in Algiers, PLO Chairman Yasser Arafat proclaimed the Declaration of Independence of the State of Palestine, with Jerusalem named as its capital, on the basis of the 1947 UN partition resolution and the Palestinian people's right to self-determination. The declaration rests on the land's deep historical roots, where settled life reaches back to ancient Canaan and the name 'Palestine' derives from the Philistines by way of Greek and Roman usage. On 29 November 2012 the UN General Assembly, in resolution 67/19, recognised the State of Palestine as a non-member observer state of the United Nations by 138 votes to 9 with 41 abstentions. The State of Palestine is today recognised by a large majority of UN member states, more than 140 of the 193 members."
+  },
+  "quickFacts": [
+    { "label": "Declaration of independence", "value": "15 November 1988, Algiers (proclaimed by Yasser Arafat for the PLO)" },
+    { "label": "Claimed capital", "value": "Jerusalem (East Jerusalem; status disputed and under Israeli control)" },
+    { "label": "UN status", "value": "Non-member observer state since 29 November 2012 (GA Res. 67/19)" },
+    { "label": "International recognition", "value": "Recognised by more than 140 of 193 UN member states" },
+    { "label": "Major religions", "value": "Islam (majority), Christianity; the land is holy to Judaism, Christianity, and Islam" },
+    { "label": "Territories", "value": "West Bank (incl. East Jerusalem) and the Gaza Strip; occupied/blockaded" }
+  ],
+  "eras": [
+    {
+      "id": "ancient-palestine",
+      "title": "Ancient Palestine: Canaan, the Philistines, and the Empires",
+      "period": "c. 3000 BCE - 332 BCE",
+      "startYear": -3000,
+      "endYear": -332,
+      "standfirst": "From the walled towns of Bronze Age Canaan to the seafaring Philistines of the coast, the land's early peoples developed alongside the great empires of the Near East, falling in turn under Egyptian, Assyrian, Babylonian, and Persian dominion.",
+      "body": [
+        "By the third millennium BCE the southern Levant supported a network of Canaanite city-states whose people spoke a Semitic language and traded across the eastern Mediterranean. Canaan lay between the powers of Egypt to the south and Mesopotamia to the north-east, and for long stretches of the Bronze Age the Egyptian New Kingdom exercised control or suzerainty over its towns. The Israelites and Judahites emerged in the central highlands toward the end of this period, while along the southern coast a distinct people, the Philistines, established a league of cities including Gaza, Ashkelon, and Ashdod around the twelfth century BCE.",
+        "It is from the Philistines (Peleset in Egyptian records, Philistia in the Hebrew Bible) that the name later applied to the whole region ultimately descends. The Greek historian Herodotus, writing in the fifth century BCE, used the term 'Palaistine Syria' for the coastal land between Phoenicia and Egypt, broadening a local name into a geographical label that would endure for more than two millennia.",
+        "The land's small kingdoms could rarely resist the empires that swept through it. The Neo-Assyrian Empire absorbed the region in the eighth century BCE; the Neo-Babylonians under Nebuchadnezzar II destroyed Jerusalem and its Temple in 586 BCE; and the Persian king Cyrus the Great, conquering Babylon in 539 BCE, brought the region into the vast Achaemenid Empire, under which it remained until the arrival of Alexander the Great."
+      ],
+      "events": [
+        {
+          "year": -3000,
+          "yearLabel": "c. 3000 BCE",
+          "title": "Canaanite city-states of the Bronze Age",
+          "summary": "Walled Canaanite towns flourished across the southern Levant, trading with Egypt and Mesopotamia and forming the region's earliest urban civilisation.",
+          "category": "founding",
+          "sources": ["britannica-palestine", "wiki-canaan"]
+        },
+        {
+          "year": -1175,
+          "yearLabel": "c. 12th century BCE",
+          "title": "Arrival of the Philistines",
+          "summary": "The Philistines settled the southern coastal plain, founding cities such as Gaza, Ashkelon, and Ashdod; their name would later give the land the name 'Palestine'.",
+          "category": "migration",
+          "sources": ["britannica-philistines", "wiki-philistines"]
+        },
+        {
+          "year": -586,
+          "yearLabel": "586 BCE",
+          "title": "Babylonian conquest of Jerusalem",
+          "summary": "Neo-Babylonian forces under Nebuchadnezzar II captured Jerusalem and destroyed the First Temple, deporting much of the population to Babylon.",
+          "category": "war",
+          "sources": ["britannica-palestine"]
+        },
+        {
+          "year": -539,
+          "yearLabel": "539 BCE",
+          "title": "Persian rule under the Achaemenids",
+          "summary": "Cyrus the Great conquered Babylon and incorporated the region into the Persian Empire, permitting exiled communities to return.",
+          "category": "politics",
+          "sources": ["britannica-palestine"]
+        }
+      ],
+      "figures": [],
+      "pullquote": {
+        "text": "The name endured from the Philistines through Herodotus to the Romans, a geographical label that long outlived the people who first bore it.",
+        "attribution": "Synthesis of classical and archaeological sources"
+      },
+      "sources": ["britannica-palestine", "wiki-canaan", "britannica-philistines", "wiki-philistines"]
+    },
+    {
+      "id": "roman-byzantine-palaestina",
+      "title": "Roman, Byzantine, and the Name \"Palaestina\"",
+      "period": "332 BCE - 636 CE",
+      "startYear": -332,
+      "endYear": 636,
+      "standfirst": "Under Hellenistic and then Roman rule the region became formally known as Palaestina; as a holy land for Jews and the cradle of Christianity, and later revered in Islam, it drew pilgrims and rulers alike.",
+      "body": [
+        "Alexander the Great's conquest in 332 BCE brought the region into the Hellenistic world, after which it passed between the Ptolemaic and Seleucid successor kingdoms and saw the brief independence of the Hasmonean state before Roman power arrived in 63 BCE. Rome governed the territory as the province of Judaea. After the Jewish revolts against Rome, culminating in the Bar Kokhba revolt of 132 to 135 CE, the emperor Hadrian reorganised the province and renamed it Syria Palaestina, fixing in official Roman usage the name that derived from the ancient Philistines and that Greek writers had long applied to the coast.",
+        "The land was sacred to Judaism, the homeland of its scriptures and Temple, and it became the birthplace of Christianity. After the conversion of the Roman Empire under Constantine in the fourth century, Palestine grew into a major centre of Christian pilgrimage and monasticism; the Church of the Holy Sepulchre and the Church of the Nativity were built, and Jerusalem became a holy city of Christendom. Under the Byzantine Empire the region was divided into the provinces of Palaestina Prima, Secunda, and Tertia.",
+        "The land would soon acquire a third sacred dimension. In Islamic tradition Jerusalem is associated with the Prophet Muhammad's Night Journey and Ascension, making it the third holiest city of Islam after Mecca and Medina, a significance that would shape its history once Arab Muslim armies reached the region in the seventh century."
+      ],
+      "events": [
+        {
+          "year": -332,
+          "yearLabel": "332 BCE",
+          "title": "Hellenistic conquest",
+          "summary": "Alexander the Great's conquest brought the region into the Hellenistic world of the Ptolemaic and Seleucid kingdoms.",
+          "category": "war",
+          "sources": ["britannica-palestine"]
+        },
+        {
+          "year": -63,
+          "yearLabel": "63 BCE",
+          "title": "Roman conquest",
+          "summary": "The Roman general Pompey took Jerusalem, bringing the region under Roman authority as the province of Judaea.",
+          "category": "war",
+          "sources": ["britannica-palestine"]
+        },
+        {
+          "year": 135,
+          "yearLabel": "c. 135 CE",
+          "title": "Province renamed Syria Palaestina",
+          "summary": "After crushing the Bar Kokhba revolt, the emperor Hadrian renamed the province Syria Palaestina, formalising the name 'Palestine' in Roman administration.",
+          "category": "politics",
+          "sources": ["wiki-syria-palaestina", "britannica-palestine"]
+        },
+        {
+          "year": 326,
+          "yearLabel": "4th century CE",
+          "title": "A Christian holy land",
+          "summary": "Following Constantine's conversion, Palestine became a centre of Christian pilgrimage; churches were built over sites venerated as those of Jesus's life, death, and resurrection.",
+          "category": "religion",
+          "sources": ["britannica-palestine"]
+        }
+      ],
+      "figures": [],
+      "pullquote": {
+        "text": "Hadrian abolished the name Judaea and renamed the province Syria Palaestina, the name by which the land has been known ever since.",
+        "attribution": "Synthesis of Roman administrative history"
+      },
+      "sources": ["britannica-palestine", "wiki-syria-palaestina"]
+    },
+    {
+      "id": "islamic-palestine",
+      "title": "Islamic Palestine: Conquest, Caliphates, Crusades, and Mamluks",
+      "period": "636 - 1516",
+      "startYear": 636,
+      "endYear": 1516,
+      "standfirst": "Arab Muslim armies took the region in 637 to 638, beginning nearly a millennium of predominantly Islamic rule; the Umayyads adorned Jerusalem with the Dome of the Rock, the Crusaders seized and lost it, and Ayyubid and Mamluk dynasties governed thereafter.",
+      "body": [
+        "Following the death of the Prophet Muhammad, the armies of the Rashidun Caliphate advanced into Byzantine Syria. After the defeat of Byzantine forces and the siege of Jerusalem, the city surrendered to the second caliph, Umar ibn al-Khattab, in 637 to 638. The conquest brought the region into the Arab Islamic world, and over the following centuries the population gradually adopted the Arabic language and, increasingly, Islam, while substantial Christian and Jewish communities remained.",
+        "Under the Umayyad Caliphate, Jerusalem was endowed with monuments that proclaimed the new faith. The caliph Abd al-Malik built the Dome of the Rock on the Haram al-Sharif (the Temple Mount) in 691 to 692, one of the earliest and greatest works of Islamic architecture, and the al-Aqsa Mosque was raised nearby. The region passed in turn to the Abbasids and the Fatimids.",
+        "In 1099 the armies of the First Crusade captured Jerusalem with great slaughter and established the Crusader Kingdom of Jerusalem. The Muslim reconquest came under Saladin, founder of the Ayyubid dynasty, who defeated the Crusaders at Hattin and retook Jerusalem in 1187. After further Crusader campaigns, the Mamluk sultanate of Egypt expelled the last Crusaders from the Levant by 1291 and governed Palestine until the Ottoman conquest of 1516 to 1517."
+      ],
+      "events": [
+        {
+          "year": 638,
+          "yearLabel": "637-638 CE",
+          "title": "Arab Muslim conquest of Jerusalem",
+          "summary": "Jerusalem surrendered to the caliph Umar ibn al-Khattab, beginning nearly a millennium of predominantly Islamic rule and the region's gradual Arabisation.",
+          "category": "war",
+          "sources": ["wiki-muslim-conquest-jerusalem", "britannica-palestine"]
+        },
+        {
+          "year": 691,
+          "yearLabel": "691-692 CE",
+          "title": "Building of the Dome of the Rock",
+          "summary": "The Umayyad caliph Abd al-Malik built the Dome of the Rock in Jerusalem, an early masterpiece of Islamic architecture on the Haram al-Sharif.",
+          "category": "religion",
+          "sources": ["britannica-dome-of-the-rock"]
+        },
+        {
+          "year": 1099,
+          "yearLabel": "1099 CE",
+          "title": "Crusaders capture Jerusalem",
+          "summary": "The First Crusade seized Jerusalem and founded the Crusader Kingdom of Jerusalem, holding the city until 1187.",
+          "category": "war",
+          "sources": ["britannica-crusades"]
+        },
+        {
+          "year": 1187,
+          "yearLabel": "1187 CE",
+          "title": "Saladin retakes Jerusalem",
+          "summary": "Saladin, founder of the Ayyubid dynasty, defeated the Crusaders and recaptured Jerusalem, largely ending Crusader rule over the city.",
+          "category": "war",
+          "sources": ["britannica-saladin", "britannica-crusades"]
+        },
+        {
+          "year": 1291,
+          "yearLabel": "1291 CE",
+          "title": "Mamluk rule established",
+          "summary": "The Mamluk sultanate of Egypt expelled the last Crusaders from the Levant and governed Palestine until the Ottoman conquest.",
+          "category": "politics",
+          "sources": ["britannica-palestine"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Saladin (Salah al-Din)",
+          "role": "Sultan and founder of the Ayyubid dynasty",
+          "life": "1137-1193",
+          "blurb": "A Kurdish Muslim commander, Saladin united Egypt and Syria, defeated the Crusaders at Hattin in 1187, and recaptured Jerusalem, becoming an enduring figure in Islamic and world history.",
+          "sources": ["britannica-saladin"]
+        }
+      ],
+      "pullquote": {
+        "text": "For nearly a thousand years after 638, with the interlude of the Crusades, Palestine was governed within the Islamic world.",
+        "attribution": "Synthesis of medieval Near Eastern history"
+      },
+      "sources": ["wiki-muslim-conquest-jerusalem", "britannica-palestine", "britannica-dome-of-the-rock", "britannica-crusades", "britannica-saladin"]
+    },
+    {
+      "id": "ottoman-palestine",
+      "title": "Ottoman Palestine",
+      "period": "1516 - 1917",
+      "startYear": 1516,
+      "endYear": 1917,
+      "standfirst": "For four centuries Palestine was a province of the Ottoman Empire, home to a predominantly Arab Muslim society with Christian and Jewish communities; in the empire's final decades the first waves of Zionist immigration began to arrive.",
+      "body": [
+        "In 1516 to 1517 the Ottoman sultan Selim I defeated the Mamluks and incorporated Syria, Palestine, and Egypt into the Ottoman Empire, beginning four centuries of Ottoman rule. Palestine was administered as part of the larger provinces of Ottoman Syria, governed from district capitals such as Jerusalem, Nablus, and Acre. Its population was overwhelmingly Arab, mostly Muslim with significant Christian minorities, alongside long-established Jewish communities in cities such as Jerusalem, Safed, Hebron, and Tiberias.",
+        "Ottoman Palestine was a society of farming villages, towns, and a network of urban notable families who mediated between the population and the imperial state. Agriculture (olives, grain, citrus), crafts, and trade through ports such as Jaffa and Acre sustained the economy. In the nineteenth century Ottoman administrative reforms, European economic penetration, and the growth of Christian and foreign institutions reshaped the region, while a distinct Palestinian Arab identity developed alongside broader Arab and Ottoman loyalties.",
+        "From the 1880s, against this background, the first organised waves of Zionist immigration began, as Jews fleeing persecution in the Russian Empire and elsewhere in Europe established agricultural colonies. The First Zionist Congress, convened by Theodor Herzl in Basel in 1897, set the goal of a Jewish national home in Palestine. By the eve of the First World War the great majority of the population remained Arab, but the demographic and political contest that would define the twentieth century had begun."
+      ],
+      "events": [
+        {
+          "year": 1517,
+          "yearLabel": "1516-1517",
+          "title": "Ottoman conquest",
+          "summary": "Sultan Selim I defeated the Mamluks and incorporated Palestine into the Ottoman Empire, beginning four centuries of Ottoman rule.",
+          "category": "politics",
+          "sources": ["britannica-palestine"]
+        },
+        {
+          "year": 1882,
+          "yearLabel": "1882 onward",
+          "title": "First waves of Zionist immigration",
+          "summary": "From the 1880s organised Jewish immigration (the aliyot) began establishing agricultural colonies in Ottoman Palestine, driven by persecution in Europe and an emerging national idea.",
+          "category": "migration",
+          "sources": ["britannica-palestine", "un-origins-palestine"]
+        },
+        {
+          "year": 1897,
+          "yearLabel": "1897",
+          "title": "First Zionist Congress",
+          "summary": "Theodor Herzl convened the First Zionist Congress in Basel, founding the World Zionist Organization and adopting the aim of a Jewish national home in Palestine.",
+          "category": "politics",
+          "sources": ["un-origins-palestine"]
+        }
+      ],
+      "figures": [],
+      "pullquote": {
+        "text": "On the eve of the First World War, Palestine was an overwhelmingly Arab land within the Ottoman Empire, where a new contest over its future had only just begun.",
+        "attribution": "Synthesis of late-Ottoman history"
+      },
+      "sources": ["britannica-palestine", "un-origins-palestine"]
+    },
+    {
+      "id": "mandate-and-nakba",
+      "title": "The British Mandate and the Nakba",
+      "period": "1917 - 1949",
+      "startYear": 1917,
+      "endYear": 1949,
+      "standfirst": "Britain's 1917 Balfour Declaration and its subsequent Mandate set Zionism and Palestinian nationalism on a collision course; the 1936-39 Arab revolt, the 1947 UN partition plan, and the 1948 war culminated in the Nakba, the dispossession of most of Palestine's Arab population.",
+      "body": [
+        "During the First World War, as British forces took Palestine from the Ottomans, the British government issued the Balfour Declaration of 2 November 1917, expressing support for the establishment in Palestine of a national home for the Jewish people, while stipulating that nothing should prejudice the civil and religious rights of the existing non-Jewish communities, who were then the overwhelming majority. After the war the League of Nations entrusted Britain with the Mandate for Palestine, formalised in 1922, which incorporated the Balfour Declaration's commitment.",
+        "Mandate rule was marked by rising Jewish immigration and land purchase, by the growth of Palestinian Arab national consciousness, and by recurring intercommunal violence. The Arab Revolt of 1936 to 1939, a sustained Palestinian uprising against British policy and Zionist immigration, was suppressed by British forces with great severity, weakening Palestinian society on the eve of the decisive years. The Holocaust in Europe lent new urgency to Zionist demands, and in 1947 Britain referred the future of Palestine to the United Nations.",
+        "On 29 November 1947 the UN General Assembly adopted Resolution 181, recommending the partition of Palestine into Jewish and Arab states with Jerusalem under international administration. Zionist leaders accepted the plan; Palestinian and Arab leaders rejected it, objecting that it allotted most of the land to a Jewish state when Arabs were the majority. War followed: first between the two communities, then, after Israel declared statehood on 14 May 1948 and the Mandate ended, between Israel and neighbouring Arab states. For Palestinians the war was the Nakba, the catastrophe: around 700,000 were expelled or fled, and the United Nations records that more than 500 Palestinian villages were depopulated and destroyed, creating a refugee population whose status remains unresolved."
+      ],
+      "events": [
+        {
+          "year": 1917,
+          "yearLabel": "2 November 1917",
+          "title": "Balfour Declaration",
+          "summary": "Britain declared its support for a Jewish national home in Palestine while affirming the rights of the existing, overwhelmingly Arab, non-Jewish communities.",
+          "category": "colonization",
+          "sources": ["un-origins-palestine", "britannica-balfour"]
+        },
+        {
+          "year": 1922,
+          "yearLabel": "1920-1923",
+          "title": "British Mandate for Palestine",
+          "summary": "The League of Nations entrusted Britain with governing Palestine; the Mandate incorporated the Balfour Declaration's commitment to a Jewish national home.",
+          "category": "colonization",
+          "sources": ["un-origins-palestine", "britannica-palestine"]
+        },
+        {
+          "year": 1936,
+          "yearLabel": "1936-1939",
+          "title": "Arab Revolt in Palestine",
+          "summary": "A sustained Palestinian Arab uprising against British rule and Zionist immigration was suppressed with great severity, leaving Palestinian society weakened.",
+          "category": "war",
+          "sources": ["britannica-palestine"]
+        },
+        {
+          "year": 1947,
+          "yearLabel": "29 November 1947",
+          "title": "UN Partition Plan (Resolution 181)",
+          "summary": "The UN General Assembly recommended partition into Jewish and Arab states with Jerusalem internationalised; accepted by Zionist leaders and rejected by Palestinian and Arab leaders.",
+          "category": "politics",
+          "sources": ["un-resolution-181", "britannica-palestine"]
+        },
+        {
+          "year": 1948,
+          "yearLabel": "1947-1949",
+          "title": "The Nakba",
+          "summary": "During the war surrounding Israel's establishment, around 700,000 Palestinians were expelled or fled and, per UN figures, more than 500 villages were depopulated and destroyed.",
+          "category": "war",
+          "sources": ["un-about-nakba", "wiki-nakba", "britannica-palestine"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Hajj Amin al-Husseini",
+          "role": "Grand Mufti of Jerusalem and Palestinian nationalist leader",
+          "life": "c. 1897-1974",
+          "blurb": "As Grand Mufti and head of the Arab Higher Committee, al-Husseini was the leading Palestinian Arab political figure of the Mandate era, prominent in opposition to British policy and Zionism; his record, including wartime alignment with the Axis, remains contested.",
+          "sources": ["britannica-husseini"]
+        }
+      ],
+      "pullquote": {
+        "text": "His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people... it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities.",
+        "attribution": "Balfour Declaration, 2 November 1917"
+      },
+      "sources": ["un-origins-palestine", "britannica-balfour", "britannica-palestine", "un-resolution-181", "un-about-nakba", "wiki-nakba", "britannica-husseini"]
+    },
+    {
+      "id": "occupation-and-present",
+      "title": "Occupation, Dispossession, and the Present",
+      "period": "1949 - present",
+      "startYear": 1949,
+      "endYear": 2026,
+      "standfirst": "Israel's 1967 occupation of the West Bank and Gaza, the rise of the PLO, the Intifadas, the Oslo process, and the 1988 declaration of independence frame a half-century of dispossession that culminated in the blockade of Gaza and the catastrophic war of 2023 to 2025, which leading international institutions have determined amounts to genocide.",
+      "body": [
+        "After 1948 the West Bank came under Jordanian control and the Gaza Strip under Egyptian administration, while Palestinian refugees were dispersed across the region. In June 1967 Israel, in the Six-Day War, captured the West Bank, East Jerusalem, and the Gaza Strip, placing the great majority of the Palestinian population under military occupation, a status the international community has not recognised as legitimate. The Palestine Liberation Organization, founded in 1964 and led from 1969 by Yasser Arafat, became the principal embodiment of Palestinian national aspirations.",
+        "The first Intifada, a popular uprising against the occupation, erupted in December 1987. Against its backdrop, the Palestinian National Council meeting in Algiers proclaimed the Declaration of Independence of the State of Palestine on 15 November 1988. The Oslo Accords of 1993 established mutual recognition between Israel and the PLO and created the Palestinian Authority with limited self-rule, but the promised final settlement never came; settlement expansion continued, and the second Intifada from 2000 brought renewed bloodshed. In 2007, after Hamas took control of Gaza, Israel and Egypt imposed a blockade on the territory that, with recurrent wars, persisted for years. In 2012 the UN General Assembly recognised the State of Palestine as a non-member observer state.",
+        "On 7 October 2023 Hamas-led fighters attacked southern Israel, killing about 1,200 people and taking some 250 hostages. Israel launched a massive military campaign in Gaza. By figures from the Gaza Health Ministry, cited and treated as reliable by United Nations bodies, tens of thousands of Palestinians have been killed, the majority of them women and children, with the great majority of Gaza's population displaced, its housing, hospitals, and infrastructure devastated, and famine conditions induced by the siege.",
+        "Multiple authoritative international institutions have determined that Israel's conduct in Gaza amounts to genocide. In the case South Africa v. Israel, the International Court of Justice, in its provisional-measures order of 26 January 2024, found that at least some of the rights South Africa sought to protect under the Genocide Convention are plausible and that there was a real and imminent risk of irreparable prejudice to them, ordering Israel to take all measures within its power to prevent genocidal acts, to prevent and punish incitement to genocide, and to enable humanitarian assistance; the Court issued further orders in March and May 2024, and the case remains under adjudication. In March 2024 the UN Special Rapporteur on the occupied Palestinian territory, Francesca Albanese, published a report titled 'Anatomy of a Genocide' finding reasonable grounds to believe genocide was being committed. In December 2024 Amnesty International and Human Rights Watch each published reports concluding that Israel had committed, respectively, genocide and acts of genocide. In September 2025 the UN Independent International Commission of Inquiry concluded that Israel had committed genocide in Gaza. Israel rejects the genocide characterisation as false."
+      ],
+      "events": [
+        {
+          "year": 1964,
+          "yearLabel": "1964",
+          "title": "Founding of the PLO",
+          "summary": "The Palestine Liberation Organization was established as the umbrella body of the Palestinian national movement, later led by Yasser Arafat.",
+          "category": "politics",
+          "sources": ["britannica-plo"]
+        },
+        {
+          "year": 1967,
+          "yearLabel": "5-10 June 1967",
+          "title": "Israeli occupation of the West Bank and Gaza",
+          "summary": "In the Six-Day War Israel captured the West Bank, East Jerusalem, and the Gaza Strip, placing most Palestinians under a military occupation that endures.",
+          "category": "war",
+          "sources": ["britannica-six-day-war", "britannica-palestine"]
+        },
+        {
+          "year": 1987,
+          "yearLabel": "1987-1993",
+          "title": "First Intifada",
+          "summary": "A sustained popular uprising against the Israeli occupation of the West Bank and Gaza brought the Palestinian cause to renewed international attention.",
+          "category": "war",
+          "sources": ["britannica-intifada"]
+        },
+        {
+          "year": 1988,
+          "yearLabel": "15 November 1988",
+          "title": "Declaration of the State of Palestine",
+          "summary": "The Palestinian National Council in Algiers, chaired by Yasser Arafat, proclaimed the independent State of Palestine with Jerusalem as its capital.",
+          "category": "independence",
+          "sources": ["wiki-declaration-independence", "britannica-palestine"]
+        },
+        {
+          "year": 1993,
+          "yearLabel": "1993",
+          "title": "Oslo Accords",
+          "summary": "Israel and the PLO exchanged mutual recognition and agreed a framework for Palestinian interim self-government, creating the Palestinian Authority.",
+          "category": "politics",
+          "sources": ["britannica-palestine"]
+        },
+        {
+          "year": 2000,
+          "yearLabel": "2000-2005",
+          "title": "Second Intifada",
+          "summary": "A second Palestinian uprising brought years of violence and Israeli military operations, ending the optimism of the Oslo era.",
+          "category": "war",
+          "sources": ["britannica-intifada"]
+        },
+        {
+          "year": 2007,
+          "yearLabel": "2007",
+          "title": "Blockade of the Gaza Strip",
+          "summary": "After Hamas took control of Gaza, Israel and Egypt imposed a blockade restricting the movement of people and goods, with severe humanitarian consequences.",
+          "category": "politics",
+          "sources": ["britannica-gaza-blockade", "wiki-gaza-blockade"]
+        },
+        {
+          "year": 2012,
+          "yearLabel": "29 November 2012",
+          "title": "UN recognition as non-member observer state",
+          "summary": "The UN General Assembly, by resolution 67/19, recognised the State of Palestine as a non-member observer state by 138 votes to 9 with 41 abstentions.",
+          "category": "independence",
+          "sources": ["un-res-67-19", "wiki-res-67-19"]
+        },
+        {
+          "year": 2023,
+          "yearLabel": "from 7 October 2023",
+          "title": "The Gaza war",
+          "summary": "After a Hamas-led attack on southern Israel killed about 1,200 people, Israel launched a massive campaign in Gaza; by Gaza Health Ministry figures cited by the UN, tens of thousands of Palestinians, mostly women and children, have been killed.",
+          "category": "war",
+          "sources": ["wiki-gaza-war", "ohchr-coi-genocide"]
+        },
+        {
+          "year": 2024,
+          "yearLabel": "26 January 2024",
+          "title": "ICJ provisional-measures order in South Africa v. Israel",
+          "summary": "The International Court of Justice found at least some rights under the Genocide Convention plausible and a real and imminent risk to them, ordering Israel to prevent genocidal acts; the case remains under adjudication.",
+          "category": "disaster",
+          "sources": ["icj-order-26jan2024", "icj-case-192"]
+        },
+        {
+          "year": 2024,
+          "yearLabel": "March 2024",
+          "title": "UN Special Rapporteur's 'Anatomy of a Genocide'",
+          "summary": "UN Special Rapporteur Francesca Albanese reported reasonable grounds to believe genocide was being committed against Palestinians in Gaza (A/HRC/55/73).",
+          "category": "disaster",
+          "sources": ["un-anatomy-genocide", "ohchr-albanese-report"]
+        },
+        {
+          "year": 2024,
+          "yearLabel": "December 2024",
+          "title": "Amnesty International and Human Rights Watch findings",
+          "summary": "Amnesty International (5 December) concluded Israel was committing genocide; Human Rights Watch (19 December) found acts of genocide and the crime against humanity of extermination.",
+          "category": "disaster",
+          "sources": ["amnesty-genocide-report", "hrw-genocide-water"]
+        },
+        {
+          "year": 2025,
+          "yearLabel": "16 September 2025",
+          "title": "UN Commission of Inquiry finds genocide",
+          "summary": "The UN Independent International Commission of Inquiry on the Occupied Palestinian Territory concluded that Israel had committed genocide in the Gaza Strip; Israel rejected the findings.",
+          "category": "disaster",
+          "sources": ["ohchr-coi-genocide"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Yasser Arafat",
+          "role": "PLO chairman and first president of the Palestinian Authority",
+          "life": "1929-2004",
+          "blurb": "Leader of the PLO from 1969, Arafat proclaimed the Palestinian Declaration of Independence in 1988, signed the Oslo Accords, and shared the 1994 Nobel Peace Prize; he became the foremost symbol of Palestinian national aspirations.",
+          "sources": ["britannica-arafat"]
+        },
+        {
+          "name": "Francesca Albanese",
+          "role": "UN Special Rapporteur on the occupied Palestinian territory",
+          "life": "born 1977",
+          "blurb": "An international lawyer appointed Special Rapporteur in 2022, Albanese authored the 2024 report 'Anatomy of a Genocide', finding reasonable grounds to believe genocide was being committed in Gaza.",
+          "sources": ["un-anatomy-genocide"]
+        }
+      ],
+      "pullquote": {
+        "text": "The Court considers that at least some of the rights claimed by South Africa and for which it is seeking protection are plausible.",
+        "attribution": "International Court of Justice, Order of 26 January 2024, South Africa v. Israel"
+      },
+      "sources": ["britannica-plo", "britannica-six-day-war", "britannica-palestine", "britannica-intifada", "wiki-declaration-independence", "britannica-gaza-blockade", "wiki-gaza-blockade", "un-res-67-19", "wiki-res-67-19", "wiki-gaza-war", "icj-order-26jan2024", "icj-case-192", "un-anatomy-genocide", "ohchr-albanese-report", "amnesty-genocide-report", "hrw-genocide-water", "ohchr-coi-genocide", "britannica-arafat"]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Yasser Arafat",
+      "role": "PLO chairman and first president of the Palestinian Authority",
+      "life": "1929-2004",
+      "blurb": "Proclaimed the Palestinian Declaration of Independence in 1988 and signed the Oslo Accords; the leading symbol of the Palestinian national movement for decades.",
+      "sources": ["britannica-arafat"]
+    },
+    {
+      "name": "Saladin (Salah al-Din)",
+      "role": "Sultan who recaptured Jerusalem from the Crusaders",
+      "life": "1137-1193",
+      "blurb": "Founder of the Ayyubid dynasty, he retook Jerusalem in 1187, an event of lasting significance in the region's history.",
+      "sources": ["britannica-saladin"]
+    },
+    {
+      "name": "Mahmoud Darwish",
+      "role": "National poet of Palestine",
+      "life": "1941-2008",
+      "blurb": "Palestine's most celebrated poet, Darwish gave literary voice to exile and dispossession and drafted the text of the 1988 Declaration of Independence.",
+      "sources": ["britannica-darwish"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-palestine",
+      "label": "Palestine - region, history",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Palestine",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-canaan",
+      "label": "Canaan",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canaan",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-philistines",
+      "label": "Philistine - people",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Philistine-people",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-philistines",
+      "label": "Philistines",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philistines",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-syria-palaestina",
+      "label": "Syria Palaestina",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Syria_Palaestina",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-muslim-conquest-jerusalem",
+      "label": "First Muslim conquest of Jerusalem",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_Muslim_conquest_of_Jerusalem",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-dome-of-the-rock",
+      "label": "Dome of the Rock",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Dome-of-the-Rock",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-crusades",
+      "label": "Crusades",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Crusades",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-saladin",
+      "label": "Saladin",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Saladin",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "un-origins-palestine",
+      "label": "Origins and Evolution of the Palestine Problem, Part I (1917-1947)",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-i-1917-1947/",
+      "kind": "gov"
+    },
+    {
+      "id": "britannica-balfour",
+      "label": "Balfour Declaration",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Balfour-Declaration",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "un-resolution-181",
+      "label": "General Assembly Resolution 181 (II): Future Government of Palestine",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/unispal/document/auto-insert-185393/",
+      "kind": "primary"
+    },
+    {
+      "id": "un-about-nakba",
+      "label": "About the Nakba",
+      "publisher": "United Nations (Question of Palestine)",
+      "url": "https://www.un.org/unispal/about-the-nakba/",
+      "kind": "gov"
+    },
+    {
+      "id": "wiki-nakba",
+      "label": "Nakba",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nakba",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-husseini",
+      "label": "Amin al-Husayni",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Amin-al-Husayni",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-plo",
+      "label": "Palestine Liberation Organization (PLO)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Palestine-Liberation-Organization",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-six-day-war",
+      "label": "Six-Day War",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Six-Day-War",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-intifada",
+      "label": "Intifada",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/intifada",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-declaration-independence",
+      "label": "Palestinian Declaration of Independence",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Palestinian_Declaration_of_Independence",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-gaza-blockade",
+      "label": "Gaza Strip - Blockade",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Gaza-Strip",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-gaza-blockade",
+      "label": "Blockade of the Gaza Strip",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip",
+      "kind": "reference"
+    },
+    {
+      "id": "un-res-67-19",
+      "label": "General Assembly Resolution 67/19: Status of Palestine in the United Nations",
+      "publisher": "United Nations (Security Council Report archive)",
+      "url": "https://www.securitycouncilreport.org/un-documents/document/ares6719.php",
+      "kind": "primary"
+    },
+    {
+      "id": "wiki-res-67-19",
+      "label": "United Nations General Assembly resolution 67/19",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_resolution_67/19",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-gaza-war",
+      "label": "Gaza war (2023-present)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war",
+      "kind": "reference"
+    },
+    {
+      "id": "icj-order-26jan2024",
+      "label": "Summary of the Order of 26 January 2024 (South Africa v. Israel)",
+      "publisher": "International Court of Justice",
+      "url": "https://www.icj-cij.org/node/203454",
+      "kind": "primary"
+    },
+    {
+      "id": "icj-case-192",
+      "label": "Application of the Genocide Convention in the Gaza Strip (South Africa v. Israel) - case overview",
+      "publisher": "International Court of Justice",
+      "url": "https://www.icj-cij.org/case/192",
+      "kind": "primary"
+    },
+    {
+      "id": "un-anatomy-genocide",
+      "label": "Anatomy of a Genocide - Report of the Special Rapporteur (A/HRC/55/73)",
+      "publisher": "United Nations (Question of Palestine)",
+      "url": "https://www.un.org/unispal/document/anatomy-of-a-genocide-report-of-the-special-rapporteur-on-the-situation-of-human-rights-in-the-palestinian-territory-occupied-since-1967-to-human-rights-council-advance-unedited-version-a-hrc-55/",
+      "kind": "gov"
+    },
+    {
+      "id": "ohchr-albanese-report",
+      "label": "Rights expert finds 'reasonable grounds' genocide is being committed in Gaza",
+      "publisher": "UN Office at Geneva / OHCHR",
+      "url": "https://www.ungeneva.org/en/news-media/news/2024/03/91946/rights-expert-finds-reasonable-grounds-genocide-being-committed-gaza",
+      "kind": "gov"
+    },
+    {
+      "id": "amnesty-genocide-report",
+      "label": "Amnesty International concludes Israel is committing genocide against Palestinians in Gaza",
+      "publisher": "Amnesty International",
+      "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
+      "kind": "gov"
+    },
+    {
+      "id": "hrw-genocide-water",
+      "label": "Extermination and Acts of Genocide: Israel Deliberately Depriving Palestinians in Gaza of Water",
+      "publisher": "Human Rights Watch",
+      "url": "https://www.hrw.org/report/2024/12/19/extermination-and-acts-genocide/israel-deliberately-depriving-palestinians-gaza",
+      "kind": "gov"
+    },
+    {
+      "id": "ohchr-coi-genocide",
+      "label": "Israel has committed genocide in the Gaza Strip, UN Commission finds",
+      "publisher": "United Nations (OHCHR)",
+      "url": "https://www.ohchr.org/en/press-releases/2025/09/israel-has-committed-genocide-gaza-strip-un-commission-finds",
+      "kind": "gov"
+    },
+    {
+      "id": "britannica-arafat",
+      "label": "Yasser Arafat",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Yasser-Arafat",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-darwish",
+      "label": "Mahmoud Darwish",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Mahmoud-Darwish",
+      "kind": "encyclopedia"
+    }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

@@ -1,0 +1,211 @@
+{
+  "code": "GBR",
+  "name": "United Kingdom",
+  "tagline": "From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.",
+  "summary": "The history of the United Kingdom reaches back through Roman Britannia, the Anglo-Saxon and Viking kingdoms, and the unification of England in the tenth century. The Norman Conquest of 1066 bound the island to continental Europe and reshaped its language, law, and ruling class, while later struggles between crown and parliament — from Magna Carta in 1215 to the Glorious Revolution of 1688 — laid the foundations of constitutional government. The Acts of Union of 1707 joined England and Scotland into the Kingdom of Great Britain, which a further union with Ireland in 1801 turned into the United Kingdom. Powered by an early industrial revolution and naval supremacy, Britain built the largest empire in history — an achievement inseparable from the transatlantic slave trade, colonial conquest, and famine. The twentieth century brought two world wars, the creation of a welfare state, and the loss of empire, leaving a smaller but still influential nation negotiating its place in a changed world.",
+  "founding": {
+    "label": "Acts of Union (Kingdom of Great Britain)",
+    "yearLabel": "1 May 1707",
+    "year": 1707,
+    "detail": "The state took its modern shape when the Acts of Union, passed by the English and Scottish parliaments, came into force on 1 May 1707, merging the two kingdoms into a single Kingdom of Great Britain governed by one Parliament at Westminster. A further union with Ireland, effective 1 January 1801, created the United Kingdom of Great Britain and Ireland (reduced to Great Britain and Northern Ireland after most of Ireland left in 1922). These unions rested on far older foundations: Roman Britannia from AD 43, the unification of England under the West Saxon kings by 927, the Norman Conquest of 1066, and centuries of constitutional development from Magna Carta in 1215 onward."
+  },
+  "quickFacts": [
+    { "label": "Founding union", "value": "Acts of Union 1707, effective 1 May 1707" },
+    { "label": "United Kingdom formed", "value": "Union with Ireland, effective 1 January 1801" },
+    { "label": "England unified", "value": "By 927 under the West Saxon kings (Athelstan)" },
+    { "label": "Government", "value": "Constitutional monarchy with a parliament at Westminster" },
+    { "label": "Empire at its peak", "value": "Largest in history; about a quarter of the world's land and people by the 1920s" },
+    { "label": "Left the European Union", "value": "31 January 2020 (referendum 23 June 2016)" }
+  ],
+  "eras": [
+    {
+      "id": "roman-and-anglo-saxon-britain",
+      "title": "Roman Britain and the Anglo-Saxon kingdoms",
+      "period": "AD 43 – 1066",
+      "startYear": 43,
+      "endYear": 1066,
+      "standfirst": "A Roman province for nearly four centuries, Britain fragmented after Rome's withdrawal into competing Anglo-Saxon kingdoms that, under pressure from Viking invasion, slowly coalesced into a single Kingdom of England.",
+      "body": [
+        "The Roman conquest of Britain began in earnest in AD 43 under the emperor Claudius, drawing the lowland zone of the island into the Roman world for almost four hundred years. Roman Britannia built towns, roads, villas, and a frontier marked by Hadrian's Wall, before imperial authority was withdrawn around AD 410 as Rome itself came under strain. The departure of the legions left the province exposed and its Romanised order in decline.",
+        "Over the following centuries Germanic-speaking peoples — Angles, Saxons, and Jutes — settled across what became England, forming a patchwork of kingdoms such as Wessex, Mercia, and Northumbria. From the late eighth century onward, Viking raids and then large-scale Scandinavian settlement transformed the political map, overrunning most of the Anglo-Saxon kingdoms. Alfred the Great of Wessex (reigned 871–899) checked the Viking advance, most decisively at the Battle of Edington in 878, and laid the groundwork for a unified English realm.",
+        "Alfred's successors pressed northward, and his grandson Athelstan is widely regarded as the first king to rule all of England after he took the Viking kingdom of York in 927. The kingdom that emerged was wealthy, literate, and administratively sophisticated, but it remained a prize fought over by rival dynasties. In 1066 the death of Edward the Confessor without a clear heir set off the succession crisis that would end Anglo-Saxon England."
+      ],
+      "events": [
+        { "year": 43, "yearLabel": "AD 43", "title": "Roman conquest of Britain begins", "summary": "The emperor Claudius launched the Roman invasion of Britain, beginning nearly four centuries of Roman rule over the province of Britannia, with its towns, roads, and the frontier of Hadrian's Wall.", "category": "war", "sources": ["brit-roman-britain", "english-heritage"] },
+        { "year": 410, "yearLabel": "c. AD 410", "title": "End of Roman Britain", "summary": "Roman authority was effectively withdrawn from Britain around 410, after which the former province fragmented and Germanic-speaking peoples gradually settled across what became England.", "category": "politics", "sources": ["brit-roman-britain"] },
+        { "year": 878, "yearLabel": "878", "title": "Alfred defeats the Vikings at Edington", "summary": "Alfred the Great of Wessex won a decisive victory over the Viking 'Great Heathen Army' at Edington, securing the survival of Anglo-Saxon rule in southern England and beginning the path to unification.", "category": "war", "sources": ["brit-alfred", "bl-overview"] },
+        { "year": 927, "yearLabel": "927", "title": "England unified under Athelstan", "summary": "By capturing Viking-held York and securing the submission of other rulers, Athelstan became the first king to rule over all of England, forging a single English kingdom.", "category": "founding", "sources": ["brit-athelstan", "english-heritage"] }
+      ],
+      "figures": [
+        { "name": "Alfred the Great", "role": "King of Wessex", "life": "c. 849–899", "blurb": "Defended Wessex against Viking conquest, reformed law, learning, and defence, and is remembered as the architect of the eventual unification of England.", "sources": ["brit-alfred"] },
+        { "name": "Athelstan", "role": "King of the Anglo-Saxons and first King of England", "life": "c. 894–939", "blurb": "Grandson of Alfred who extended West Saxon power over the whole of England by 927, making him widely regarded as the first king of a unified English realm.", "sources": ["brit-athelstan"] }
+      ],
+      "pullquote": { "text": "By 927 the West Saxon dynasty had forged a single Kingdom of England out of the wreckage of Roman Britannia and the Viking wars." },
+      "sources": ["brit-roman-britain", "brit-alfred", "brit-athelstan", "english-heritage", "bl-overview"]
+    },
+    {
+      "id": "norman-conquest-and-medieval-england",
+      "title": "The Norman Conquest and medieval England",
+      "period": "1066 – 1485",
+      "startYear": 1066,
+      "endYear": 1485,
+      "standfirst": "William of Normandy's victory in 1066 imposed a new French-speaking ruling class, tied England to continental Europe, and began the long medieval struggle over the limits of royal power.",
+      "body": [
+        "On 14 October 1066 Duke William of Normandy defeated King Harold II at the Battle of Hastings; Harold was killed and, on Christmas Day, William was crowned in Westminster Abbey. The Norman Conquest replaced the Anglo-Saxon aristocracy almost wholesale with Norman lords, introduced feudal landholding and castle-building, and infused English with thousands of French words. The great land survey known as Domesday Book, compiled in 1086, recorded the conquerors' grip on their new kingdom.",
+        "Norman and later Angevin kings ruled lands on both sides of the Channel, embroiling England in continental politics and war. Tension between the crown and its barons came to a head in 1215, when rebellious nobles forced King John to seal Magna Carta at Runnymede. Though John promptly repudiated it, the charter's principle that the king was subject to the law endured, and it became a touchstone of later constitutional argument. The thirteenth and fourteenth centuries also saw the emergence of Parliament as an institution that the crown needed to consult, especially over taxation.",
+        "The later Middle Ages were scarred by catastrophe and conflict. The Black Death, which reached England in 1348, killed a large share of the population within a few years and reshaped the economy and the bonds of serfdom. The Hundred Years' War with France (1337–1453) and the dynastic Wars of the Roses (1455–1487) drained the realm, until Henry Tudor's victory at Bosworth in 1485 ended the Plantagenet line and opened a new chapter."
+      ],
+      "events": [
+        { "year": 1066, "yearLabel": "14 October 1066", "title": "Battle of Hastings and the Norman Conquest", "summary": "William of Normandy defeated and killed King Harold II at Hastings and was crowned king on Christmas Day, beginning Norman rule and transforming England's language, law, and aristocracy.", "category": "war", "sources": ["brit-norman-conquest", "english-heritage"] },
+        { "year": 1086, "yearLabel": "1086", "title": "Domesday Book compiled", "summary": "William the Conqueror ordered a comprehensive survey of landholding in England, producing Domesday Book, an unparalleled record of the kingdom's wealth and the new Norman order.", "category": "politics", "sources": ["bl-overview"] },
+        { "year": 1215, "yearLabel": "15 June 1215", "title": "Magna Carta sealed at Runnymede", "summary": "Rebel barons compelled King John to seal Magna Carta, asserting that the monarch was bound by law; though soon annulled, it became a lasting symbol of limits on royal power.", "category": "politics", "sources": ["bl-overview", "brit-magna-carta"] },
+        { "year": 1348, "yearLabel": "1348–1349", "endYear": 1349, "title": "The Black Death reaches England", "summary": "The plague pandemic killed a large proportion of England's population within a few years, devastating communities and accelerating long-term changes in labour and society.", "category": "disaster", "sources": ["bl-overview"] },
+        { "year": 1485, "yearLabel": "22 August 1485", "title": "Battle of Bosworth ends the Wars of the Roses", "summary": "Henry Tudor defeated Richard III at Bosworth Field, ending the Plantagenet dynasty and the Wars of the Roses and founding the Tudor line as Henry VII.", "category": "war", "sources": ["brit-tudors"] }
+      ],
+      "figures": [
+        { "name": "William the Conqueror", "role": "Duke of Normandy and King of England", "life": "c. 1028–1087", "blurb": "Led the Norman invasion of 1066, seized the English crown, and remade the kingdom's ruling class, landholding, and ties to continental Europe.", "sources": ["brit-norman-conquest"] }
+      ],
+      "pullquote": { "text": "No free man shall be seized or imprisoned... except by the lawful judgment of his equals or by the law of the land.", "attribution": "Magna Carta, 1215" },
+      "sources": ["brit-norman-conquest", "bl-overview", "brit-magna-carta", "english-heritage", "brit-tudors"]
+    },
+    {
+      "id": "tudors-reformation-first-empire",
+      "title": "Tudors, the Reformation, and the first empire",
+      "period": "1485 – 1603",
+      "startYear": 1485,
+      "endYear": 1603,
+      "standfirst": "Under the Tudors, England broke with Rome, forged a national Church, defied Spanish sea power, and made its first ventures into overseas trade and colonisation.",
+      "body": [
+        "The Tudor century opened with Henry VII restoring royal authority after decades of civil war. His son Henry VIII set in motion the English Reformation when the pope refused to annul his marriage to Catherine of Aragon. The Act of Supremacy of 1534 declared the king Supreme Head of the Church of England, severing papal jurisdiction; the dissolution of the monasteries that followed transferred vast wealth and land to the crown and its supporters and reshaped religious life across the realm.",
+        "Religion remained bitterly contested through the short reigns of the Protestant Edward VI and the Catholic Mary I before Elizabeth I (reigned 1558–1603) established a lasting, if disputed, settlement that fixed England as a Protestant nation. Elizabeth's reign became associated with a flowering of English culture — above all the theatre of William Shakespeare and Christopher Marlowe — and with rising national confidence.",
+        "That confidence was sealed by the defeat of the Spanish Armada in 1588, when England repelled Philip II's great invasion fleet. The Elizabethan age also saw the first stirrings of English overseas expansion: chartered companies, privateering voyages, and early, often failed, attempts at colonisation. These ventures drew England — and soon Britain — into the Atlantic world of trade, settlement, and, increasingly, the traffic in enslaved Africans that would define the empire to come."
+      ],
+      "events": [
+        { "year": 1534, "yearLabel": "1534", "title": "Act of Supremacy and the break with Rome", "summary": "Parliament declared Henry VIII Supreme Head of the Church of England, ending papal authority in England and launching the English Reformation and the dissolution of the monasteries.", "category": "religion", "sources": ["brit-henry-viii", "brit-reformation"] },
+        { "year": 1559, "yearLabel": "1559", "title": "The Elizabethan Religious Settlement", "summary": "Elizabeth I's settlement re-established royal headship of the Church and a Protestant order, ending decades of religious upheaval and shaping the Church of England for centuries.", "category": "religion", "sources": ["brit-elizabeth-i"] },
+        { "year": 1588, "yearLabel": "1588", "title": "Defeat of the Spanish Armada", "summary": "England repelled the Spanish Armada sent by Philip II, a decisive check to Spanish ambitions that bolstered English naval confidence and national identity.", "category": "war", "sources": ["brit-spanish-armada"] },
+        { "year": 1600, "yearLabel": "31 December 1600", "title": "Founding of the East India Company", "summary": "A royal charter created the East India Company for trade with Asia; over the following centuries it grew into an instrument of conquest that brought much of India under British control.", "category": "economy", "sources": ["brit-east-india-company"] }
+      ],
+      "figures": [
+        { "name": "Henry VIII", "role": "King of England", "life": "1491–1547", "blurb": "Broke with the Roman Catholic Church, established royal supremacy over the Church of England, and dissolved the monasteries, transforming English religion and politics.", "sources": ["brit-henry-viii"] },
+        { "name": "Elizabeth I", "role": "Queen of England and Ireland", "life": "1533–1603", "blurb": "Stabilised a Protestant religious settlement, presided over a cultural renaissance, and saw off the Spanish Armada during a reign that became a byword for national confidence.", "sources": ["brit-elizabeth-i"] }
+      ],
+      "sources": ["brit-henry-viii", "brit-reformation", "brit-elizabeth-i", "brit-spanish-armada", "brit-east-india-company"]
+    },
+    {
+      "id": "union-revolution-rise-of-britain",
+      "title": "Union, revolution, and the rise of Britain",
+      "period": "1603 – 1783",
+      "startYear": 1603,
+      "endYear": 1783,
+      "standfirst": "Civil war, regicide, and the Glorious Revolution settled the supremacy of Parliament, while the 1707 union of England and Scotland created the Kingdom of Great Britain and a growing transatlantic empire.",
+      "body": [
+        "When Elizabeth I died childless in 1603, James VI of Scotland inherited the English throne as James I, uniting the two crowns in one person while the kingdoms remained legally separate. Conflict between the Stuart kings and Parliament over money, religion, and the limits of royal authority erupted into the English Civil War in 1642. Parliament's victory led to an extraordinary act: the public trial and execution of King Charles I in 1649, followed by a republican Commonwealth under Oliver Cromwell. The monarchy was restored in 1660, but the fundamental dispute remained unresolved.",
+        "It was settled by the Glorious Revolution of 1688, when the Catholic James II was driven out and Parliament invited William of Orange and Mary to take the throne on terms. The Bill of Rights of 1689 limited the crown's powers and affirmed the authority of Parliament, establishing the constitutional monarchy that endures in modified form today. In 1707 the Acts of Union joined the parliaments and kingdoms of England and Scotland into the single Kingdom of Great Britain, governed from Westminster.",
+        "The eighteenth century saw Britain rise as a commercial and naval power, financed in part by Atlantic trade. British ships carried enslaved Africans in vast numbers across the Atlantic to plantation colonies in the Caribbean and the Americas, and the profits of slave-grown sugar, tobacco, and cotton enriched British ports and merchants. Victory in the Seven Years' War (1756–1763) made Britain the dominant European power in North America and India, even as taxation disputes with the thirteen American colonies pushed them toward revolt — a revolt that, by 1783, cost Britain its most populous overseas possessions."
+      ],
+      "events": [
+        { "year": 1603, "yearLabel": "1603", "title": "Union of the Crowns", "summary": "James VI of Scotland succeeded Elizabeth I as James I of England, uniting the English and Scottish crowns under one monarch while the two kingdoms remained separate states.", "category": "politics", "sources": ["bl-overview"] },
+        { "year": 1649, "yearLabel": "30 January 1649", "title": "Execution of Charles I", "summary": "After defeat in the English Civil War, Charles I was tried and beheaded, and a republican Commonwealth was established — a singular assertion of Parliament's power over the crown.", "category": "war", "sources": ["brit-english-civil-wars"] },
+        { "year": 1688, "yearLabel": "1688", "title": "The Glorious Revolution", "summary": "James II was deposed and William and Mary took the throne on Parliament's terms; the Bill of Rights of 1689 entrenched parliamentary authority and constitutional monarchy.", "category": "politics", "sources": ["brit-glorious-revolution"] },
+        { "year": 1707, "yearLabel": "1 May 1707", "title": "Acts of Union create Great Britain", "summary": "The Acts of Union merged the kingdoms and parliaments of England and Scotland into a single Kingdom of Great Britain, governed by one Parliament at Westminster.", "category": "founding", "sources": ["ukparl-union-1707", "brit-act-of-union"] },
+        { "year": 1783, "yearLabel": "1783", "title": "Loss of the American colonies", "summary": "The Treaty of Paris recognised the independence of the United States, ending the American Revolutionary War and stripping Britain of its thirteen mainland colonies.", "category": "independence", "sources": ["bl-overview"] }
+      ],
+      "figures": [
+        { "name": "Oliver Cromwell", "role": "Lord Protector of the Commonwealth", "life": "1599–1658", "blurb": "Parliamentary general in the Civil War who, after the execution of Charles I, ruled as Lord Protector over a republican England, Scotland, and Ireland.", "sources": ["brit-english-civil-wars"] }
+      ],
+      "pullquote": { "text": "The 1707 union merged two ancient kingdoms into one Parliament of Great Britain at Westminster." },
+      "sources": ["bl-overview", "brit-english-civil-wars", "brit-glorious-revolution", "ukparl-union-1707", "brit-act-of-union"]
+    },
+    {
+      "id": "empire-industry-victorian-age",
+      "title": "Empire, industry, and the Victorian age",
+      "period": "1783 – 1914",
+      "startYear": 1783,
+      "endYear": 1914,
+      "standfirst": "Pioneering the Industrial Revolution and dominating the seas, Britain assembled the largest empire in history — a power built on factories and capital but also on slavery, conquest, and famine.",
+      "body": [
+        "From around 1760 Britain underwent an industrial revolution that, over the following century, transformed it into the 'workshop of the world'. Coal, steam power, mechanised textile manufacture, railways, and ironworking concentrated people in fast-growing industrial cities and made Britain the world's leading manufacturing economy. Industrialisation brought immense wealth and new technologies, but also harsh factory conditions, child labour, and squalid urban poverty that spurred reform movements over the nineteenth century.",
+        "Britain's overseas empire expanded enormously, and a second union reshaped the state at home: the union with Ireland, effective 1 January 1801, created the United Kingdom of Great Britain and Ireland. The empire's foundations were deeply entangled with slavery. Britain had been a leading slave-trading nation; Parliament abolished the British transatlantic slave trade in 1807 and then slavery itself across most of the empire under the Slavery Abolition Act of 1833, which took effect in 1834 and compensated slave-owners — not the enslaved — for their losses.",
+        "Under Queen Victoria (reigned 1837–1901) the empire reached its zenith, eventually covering roughly a quarter of the world's land and population. Imperial rule could be catastrophic for colonised peoples. In Ireland, the Great Famine of 1845–1852 killed about a million people and drove a million more to emigrate, a disaster made far worse by the inadequacy and ideology of the government's response. In India, the East India Company's rule gave way to direct Crown control after the rebellion of 1857. British power abroad rested on industrial strength, financial dominance, and the Royal Navy — supremacy that would be tested by the rivalries leading to the First World War."
+      ],
+      "events": [
+        { "year": 1801, "yearLabel": "1 January 1801", "title": "Union with Ireland forms the United Kingdom", "summary": "The Acts of Union 1800 merged the kingdoms of Great Britain and Ireland, creating the United Kingdom of Great Britain and Ireland and abolishing the separate Irish parliament.", "category": "founding", "sources": ["ukparl-union-ireland", "brit-act-of-union-1801"] },
+        { "year": 1807, "yearLabel": "1807", "title": "Abolition of the British slave trade", "summary": "The Slave Trade Act prohibited the Atlantic slave trade across the British Empire, though it did not free those already enslaved in British colonies.", "category": "politics", "sources": ["brit-slavery-abolition"] },
+        { "year": 1833, "yearLabel": "1833", "title": "Slavery Abolition Act", "summary": "Parliament abolished slavery across most of the British Empire, effective 1834, freeing more than 800,000 people while compensating former slave-owners rather than the enslaved.", "category": "politics", "sources": ["brit-slavery-abolition"] },
+        { "year": 1845, "yearLabel": "1845–1852", "endYear": 1852, "title": "The Great Irish Famine", "summary": "Potato blight and an inadequate, laissez-faire government response caused mass starvation in Ireland, killing roughly a million people and forcing about a million more to emigrate.", "category": "disaster", "sources": ["ukparl-irish-famine", "brit-irish-famine"] },
+        { "year": 1837, "yearLabel": "1837–1901", "endYear": 1901, "title": "The Victorian era and the height of empire", "summary": "During Queen Victoria's long reign Britain became the world's foremost industrial and imperial power, its empire eventually spanning about a quarter of the globe.", "category": "politics", "sources": ["brit-victoria", "brit-british-empire"] }
+      ],
+      "figures": [
+        { "name": "Queen Victoria", "role": "Queen of the United Kingdom; Empress of India", "life": "1819–1901", "blurb": "Reigned for over 63 years during the empire's industrial and imperial zenith, lending her name to an age of profound economic, scientific, and social change.", "sources": ["brit-victoria"] },
+        { "name": "William Wilberforce", "role": "Member of Parliament and abolitionist", "life": "1759–1833", "blurb": "Led the long parliamentary campaign against the slave trade, helping secure its abolition in 1807 and living to see slavery itself abolished in 1833.", "sources": ["brit-slavery-abolition"] }
+      ],
+      "pullquote": { "text": "The empire reached roughly a quarter of the world's land and people — a dominance inseparable from slavery, conquest, and famine." },
+      "sources": ["ukparl-union-ireland", "brit-act-of-union-1801", "brit-slavery-abolition", "ukparl-irish-famine", "brit-irish-famine", "brit-victoria", "brit-british-empire"]
+    },
+    {
+      "id": "world-wars-decolonisation-modern-uk",
+      "title": "World wars, decolonisation, and the modern UK",
+      "period": "1914 – present",
+      "startYear": 1914,
+      "endYear": 2026,
+      "standfirst": "Two world wars, the loss of empire, and the building of a welfare state remade Britain into a smaller but still influential democracy, negotiating its identity from the partition of Ireland to its departure from the European Union.",
+      "body": [
+        "The First World War (1914–1918) cost Britain and its empire enormous numbers of lives and accelerated political change at home, including the extension of the vote to women. In its aftermath, most of Ireland broke away: after the War of Independence, the Anglo-Irish settlement created the Irish Free State in 1922, leaving Northern Ireland within the United Kingdom and renaming the state the United Kingdom of Great Britain and Northern Ireland.",
+        "The Second World War (1939–1945) saw Britain stand against Nazi Germany, endure the Blitz, and emerge victorious but financially exhausted. The war also exposed the brutal costs of empire: the Bengal famine of 1943 killed an estimated two to three million people in British India, worsened by wartime policy and administrative failure. At home, the post-war Labour government built a welfare state, founding the National Health Service in 1948 to provide healthcare free at the point of use.",
+        "The decades after 1945 brought the rapid dismantling of empire. India and Pakistan became independent in 1947, followed by dozens of colonies across Asia, Africa, and the Caribbean, many of them joining the Commonwealth. Post-war labour shortages were met partly by immigration from the Caribbean and South Asia, reshaping British society. Britain joined the European Communities in 1973.",
+        "In recent decades the United Kingdom devolved power to Scotland, Wales, and Northern Ireland, where the Good Friday Agreement of 1998 brought a hard-won peace after the long conflict known as the Troubles. In a 2016 referendum the UK voted to leave the European Union, which it formally did on 31 January 2020. The country remains a constitutional monarchy and parliamentary democracy, a permanent member of the UN Security Council, and an actor of global reach, while continuing to debate the shape of its union and its place in the world."
+      ],
+      "events": [
+        { "year": 1914, "yearLabel": "1914–1918", "endYear": 1918, "title": "The First World War", "summary": "Britain and its empire fought in the First World War at enormous human cost; the war accelerated social and political change, including votes for women, and led to the partition of Ireland and the Irish Free State in 1922.", "category": "war", "sources": ["iwm-decolonisation", "brit-act-of-union-1801"] },
+        { "year": 1939, "yearLabel": "1939–1945", "endYear": 1945, "title": "The Second World War", "summary": "Britain fought Nazi Germany and the Axis, endured the Blitz, and emerged victorious but economically drained; the wartime Bengal famine of 1943 killed millions in British India.", "category": "war", "sources": ["iwm-decolonisation", "brit-bengal-famine"] },
+        { "year": 1948, "yearLabel": "5 July 1948", "title": "Founding of the National Health Service", "summary": "The post-war Labour government launched the NHS, providing healthcare free at the point of use and forming the centrepiece of Britain's new welfare state.", "category": "politics", "sources": ["natarchives-nhs"] },
+        { "year": 1947, "yearLabel": "1947", "title": "Independence of India and the start of decolonisation", "summary": "India and Pakistan became independent, beginning the rapid dismantling of the British Empire as dozens of colonies gained independence over the following decades.", "category": "independence", "sources": ["iwm-decolonisation"] },
+        { "year": 2020, "yearLabel": "31 January 2020", "title": "The United Kingdom leaves the European Union", "summary": "Following the 2016 referendum, the UK formally withdrew from the European Union, ending nearly half a century of membership in the European project.", "category": "politics", "sources": ["brit-brexit"] }
+      ],
+      "figures": [
+        { "name": "Winston Churchill", "role": "Prime Minister of the United Kingdom", "life": "1874–1965", "blurb": "Led Britain through the Second World War as a defiant wartime leader; his record also includes the contested wartime policies surrounding the 1943 Bengal famine.", "sources": ["brit-bengal-famine"] },
+        { "name": "Clement Attlee", "role": "Prime Minister of the United Kingdom", "life": "1883–1967", "blurb": "Headed the 1945 Labour government that built the welfare state and the National Health Service and oversaw the independence of India.", "sources": ["natarchives-nhs", "iwm-decolonisation"] }
+      ],
+      "pullquote": { "text": "Two world wars and the end of empire left Britain a smaller, but still globally engaged, democracy." },
+      "sources": ["iwm-decolonisation", "brit-bengal-famine", "natarchives-nhs", "brit-brexit", "bl-overview", "brit-act-of-union-1801"]
+    }
+  ],
+  "figures": [
+    { "name": "Athelstan", "role": "First King of England", "life": "c. 894–939", "blurb": "Unified the English kingdoms by 927, creating the realm whose later union with Scotland and Ireland would form the United Kingdom.", "sources": ["brit-athelstan"] },
+    { "name": "William the Conqueror", "role": "King of England", "life": "c. 1028–1087", "blurb": "His 1066 conquest reshaped English law, language, and aristocracy and bound the kingdom to continental Europe.", "sources": ["brit-norman-conquest"] },
+    { "name": "Queen Victoria", "role": "Queen and Empress", "life": "1819–1901", "blurb": "Reigned over Britain at the height of its industrial and imperial power, giving her name to the Victorian era.", "sources": ["brit-victoria"] }
+  ],
+  "sources": [
+    { "id": "brit-roman-britain", "label": "Roman Britain", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/United-Kingdom", "kind": "encyclopedia" },
+    { "id": "brit-alfred", "label": "Alfred the Great", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Alfred-the-Great", "kind": "encyclopedia" },
+    { "id": "brit-athelstan", "label": "Athelstan, King of England", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Athelstan-king-of-England", "kind": "encyclopedia" },
+    { "id": "english-heritage", "label": "Story of England: 1066 and the Norman Conquest", "publisher": "English Heritage", "url": "https://www.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/", "kind": "museum" },
+    { "id": "bl-overview", "label": "The British Library: history and collections", "publisher": "The British Library", "url": "https://www.bl.uk/", "kind": "archive" },
+    { "id": "brit-norman-conquest", "label": "Norman Conquest", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Norman-Conquest", "kind": "encyclopedia" },
+    { "id": "brit-magna-carta", "label": "Magna Carta", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Magna-Carta", "kind": "encyclopedia" },
+    { "id": "brit-tudors", "label": "House of Tudor", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/house-of-Tudor", "kind": "encyclopedia" },
+    { "id": "brit-henry-viii", "label": "Henry VIII", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Henry-VIII-king-of-England", "kind": "encyclopedia" },
+    { "id": "brit-reformation", "label": "The Reformation in England", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Reformation", "kind": "encyclopedia" },
+    { "id": "brit-elizabeth-i", "label": "Elizabeth I", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Elizabeth-I", "kind": "encyclopedia" },
+    { "id": "brit-spanish-armada", "label": "Spanish Armada", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Spanish-Armada", "kind": "encyclopedia" },
+    { "id": "brit-east-india-company", "label": "East India Company", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/East-India-Company", "kind": "encyclopedia" },
+    { "id": "brit-english-civil-wars", "label": "English Civil Wars", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/English-Civil-Wars", "kind": "encyclopedia" },
+    { "id": "brit-glorious-revolution", "label": "Glorious Revolution", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Glorious-Revolution", "kind": "encyclopedia" },
+    { "id": "ukparl-union-1707", "label": "Act of Union 1707", "publisher": "UK Parliament", "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/", "kind": "gov" },
+    { "id": "brit-act-of-union", "label": "Act of Union, 1707", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Act-of-Union-Great-Britain-1707", "kind": "encyclopedia" },
+    { "id": "ukparl-union-ireland", "label": "Act for the Union of Great Britain and Ireland", "publisher": "UK Parliament", "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/collections/ireland/act-of-union-1800/", "kind": "gov" },
+    { "id": "brit-act-of-union-1801", "label": "Act of Union (United Kingdom, 1801)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Act-of-Union-United-Kingdom-1801", "kind": "encyclopedia" },
+    { "id": "brit-slavery-abolition", "label": "Slavery Abolition Act", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Slavery-Abolition-Act", "kind": "encyclopedia" },
+    { "id": "ukparl-irish-famine", "label": "The Great Famine", "publisher": "UK Parliament", "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/the-great-famine/", "kind": "gov" },
+    { "id": "brit-irish-famine", "label": "Great Famine (Irish history)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Great-Famine-Irish-history", "kind": "encyclopedia" },
+    { "id": "brit-victoria", "label": "Victoria, Queen of the United Kingdom", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Victoria-queen-of-United-Kingdom", "kind": "encyclopedia" },
+    { "id": "brit-british-empire", "label": "British Empire", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/British-Empire", "kind": "encyclopedia" },
+    { "id": "iwm-decolonisation", "label": "The end of the British Empire after the Second World War", "publisher": "Imperial War Museums", "url": "https://www.iwm.org.uk/history/the-end-of-the-british-empire-after-the-second-world-war", "kind": "museum" },
+    { "id": "brit-bengal-famine", "label": "Bengal famine of 1943", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Bengal-famine-of-1943", "kind": "encyclopedia" },
+    { "id": "natarchives-nhs", "label": "The foundation of the NHS", "publisher": "The National Archives", "url": "https://www.nationalarchives.gov.uk/", "kind": "gov" },
+    { "id": "brit-brexit", "label": "Brexit", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Brexit", "kind": "encyclopedia" }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

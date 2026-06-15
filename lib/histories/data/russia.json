@@ -1,0 +1,806 @@
+{
+  "code": "RUS",
+  "name": "Russia",
+  "tagline": "From the Viking princes of Kiev to a continental empire spanning eleven time zones.",
+  "summary": "Russia traces its political origins to Kievan Rus', the medieval federation of Slavic and Varangian (Viking) principalities conventionally dated to 882, when the prince Oleg seized Kiev and made it his capital. After the Mongol invasion of 1237-1240 shattered the Kievan realm and subjected the Russian lands to the Golden Horde, the principality of Moscow slowly gathered the scattered territories, threw off Mongol overlordship in 1480, and in 1547 saw Ivan IV crowned the first tsar. Peter the Great proclaimed the Russian Empire in 1721, and under him and Catherine the Great Russia became a European great power stretching from the Baltic to the Pacific. The empire collapsed in the revolutions of 1917; the Bolsheviks founded the Union of Soviet Socialist Republics in 1922, a one-party communist state whose history includes forced collectivization, the man-made famine of 1932-33, the Great Terror, the gulag, and the staggering sacrifice and victory of the Great Patriotic War. The Soviet Union dissolved in December 1991, leaving the Russian Federation as its principal successor state.",
+  "founding": {
+    "label": "Oleg's seizure of Kiev and the founding of Kievan Rus'",
+    "yearLabel": "882 CE",
+    "year": 882,
+    "detail": "Russia's conventional founding is dated to 882, when, according to the Russian Primary Chronicle, the Varangian prince Oleg captured Kiev and made it the capital of a unified realm along the Dnieper-Volkhov river route, the state known as Kievan Rus'. Later constitutional milestones mark the evolution of the Russian state: the Tsardom of Russia under Ivan IV (the Terrible), who was crowned the first tsar in 1547; the Russian Empire, proclaimed by Peter I (the Great) in 1721 after victory in the Great Northern War; and the modern Russian Federation, which emerged as the successor to the Soviet Union when the USSR dissolved on 25-26 December 1991."
+  },
+  "quickFacts": [
+    {
+      "label": "Conventional founding",
+      "value": "Kievan Rus', 882 (Oleg's seizure of Kiev)"
+    },
+    {
+      "label": "First tsar",
+      "value": "Ivan IV, crowned 'Tsar of All Russia' in 1547"
+    },
+    {
+      "label": "Empire proclaimed",
+      "value": "Russian Empire under Peter the Great, 1721"
+    },
+    {
+      "label": "Soviet era",
+      "value": "USSR, 1922-1991"
+    },
+    {
+      "label": "Modern state",
+      "value": "Russian Federation, successor to the USSR from December 1991"
+    },
+    {
+      "label": "Dominant religion",
+      "value": "Russian Orthodox Christianity (adopted 988)"
+    }
+  ],
+  "eras": [
+    {
+      "id": "kievan-rus-and-the-mongol-yoke",
+      "title": "Kievan Rus' and the Mongol Yoke",
+      "period": "882-1480",
+      "startYear": 882,
+      "endYear": 1480,
+      "standfirst": "Viking princes built a river-borne realm on the Dnieper, embraced Byzantine Christianity, then bowed for two centuries to the Mongol khans.",
+      "body": [
+        "According to the twelfth-century Russian Primary Chronicle, the eastern Slavic and Finnic tribes invited the Varangian (Viking) prince Rurik to rule Novgorod around 862, and in 882 his kinsman Oleg moved south, captured Kiev, and proclaimed it the 'mother of Russian cities.' This union of the northern and southern river towns along the Dnieper-Volkhov trade route, linking the Baltic to Byzantium, is conventionally taken as the founding of Kievan Rus', the first East Slavic state and the common ancestor of modern Russia, Ukraine, and Belarus.",
+        "The realm reached its height under Vladimir the Great and his son Yaroslav the Wise. In about 988 Vladimir accepted Orthodox Christianity from Constantinople, was baptized, and ordered the mass baptism of the people of Kiev in the Dnieper, binding the Rus' to Byzantine religion, art, and law for a thousand years. Yaroslav (r. 1019-1054) promulgated the first written law code, the Russkaya Pravda, and made Kiev a center of learning and church-building. After his death the realm fragmented into competing principalities.",
+        "In 1237-1240 a Mongol army under Batu Khan, grandson of Genghis Khan, stormed across the Rus' lands, sacking Ryazan, Vladimir, and finally Kiev in December 1240. The Russian principalities became tributaries of the Golden Horde, the western division of the Mongol Empire, an overlordship later remembered as the 'Mongol yoke' or 'Tatar yoke.' Princes had to travel to the Horde to receive a patent (yarlyk) to rule, and the devastation isolated the Rus' from western Europe for generations.",
+        "Under Mongol suzerainty the small principality of Moscow rose by serving as tax-collector for the Horde and patron of the Orthodox Church. Grand Prince Dmitry Donskoy defeated a Mongol army at Kulikovo in 1380, and in 1480 Ivan III (the Great), having ceased paying tribute, faced down the Horde at the Great Stand on the Ugra River, an event traditionally marking the end of the Mongol yoke and the emergence of a sovereign, Moscow-centered Russian state."
+      ],
+      "events": [
+        {
+          "year": 882,
+          "yearLabel": "882 CE",
+          "title": "Oleg seizes Kiev and founds Kievan Rus'",
+          "summary": "The Varangian prince Oleg, successor to Rurik of Novgorod, captures Kiev and makes it his capital, uniting the river towns of the Dnieper-Volkhov route into the first East Slavic state.",
+          "category": "founding",
+          "sources": [
+            "britannica-russia",
+            "britannica-kyivan-rus"
+          ]
+        },
+        {
+          "year": 988,
+          "yearLabel": "c. 988 CE",
+          "title": "Vladimir the Great adopts Orthodox Christianity",
+          "summary": "Vladimir of Kiev is baptized and orders the mass baptism of his people in the Dnieper, adopting Byzantine Orthodox Christianity as the state religion and binding the Rus' to Constantinople's faith and culture.",
+          "category": "religion",
+          "sources": [
+            "britannica-russia",
+            "wiki-christianization-rus"
+          ]
+        },
+        {
+          "year": 1019,
+          "yearLabel": "1019-1054",
+          "endYear": 1054,
+          "title": "Yaroslav the Wise and the Russkaya Pravda",
+          "summary": "Under Yaroslav the Wise, Kievan Rus' reaches a cultural peak; he issues the Russkaya Pravda, the earliest East Slavic written law code, and patronizes churches and learning in Kiev.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia",
+            "britannica-kyivan-rus"
+          ]
+        },
+        {
+          "year": 1237,
+          "yearLabel": "1237-1240",
+          "endYear": 1240,
+          "title": "Mongol invasion and the fall of Kiev",
+          "summary": "Batu Khan's Mongol army sacks the Rus' principalities, destroying Ryazan and Vladimir and storming Kiev in December 1240; the Russian lands become tributaries of the Golden Horde.",
+          "category": "war",
+          "sources": [
+            "britannica-russia",
+            "wiki-batu-khan"
+          ]
+        },
+        {
+          "year": 1480,
+          "yearLabel": "1480",
+          "title": "The Great Stand on the Ugra ends the Mongol yoke",
+          "summary": "Ivan III, having stopped paying tribute, faces down the Great Horde at the Ugra River; the bloodless standoff is traditionally regarded as the end of Mongol overlordship and the rise of a sovereign Muscovite state.",
+          "category": "independence",
+          "sources": [
+            "britannica-russia"
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Vladimir the Great (Vladimir I)",
+          "role": "Grand Prince of Kiev",
+          "life": "c. 958-1015",
+          "blurb": "Grand Prince of Kiev who adopted Byzantine Orthodox Christianity around 988 and presided over the mass baptism of the Rus', a decision that shaped Russian religion, art, and identity for a millennium. He is venerated as a saint by the Orthodox Church.",
+          "sources": [
+            "britannica-russia",
+            "wiki-christianization-rus"
+          ]
+        },
+        {
+          "name": "Ivan III (Ivan the Great)",
+          "role": "Grand Prince of Moscow",
+          "life": "1440-1505",
+          "blurb": "Grand Prince of Moscow who tripled the territory under Muscovite control, ended tribute to the Golden Horde at the Ugra in 1480, and adopted the title of sovereign of 'all Rus'', laying the foundations of a centralized Russian state.",
+          "sources": [
+            "britannica-russia"
+          ]
+        }
+      ],
+      "pullquote": {
+        "text": "Oleg set himself up as prince in Kiev, and declared that it would be the mother of Russian cities.",
+        "attribution": "Paraphrase of the Russian Primary Chronicle, twelfth century"
+      },
+      "sources": [
+        "britannica-russia",
+        "britannica-kyivan-rus",
+        "wiki-christianization-rus",
+        "wiki-batu-khan"
+      ]
+    },
+    {
+      "id": "muscovy-and-the-tsardom",
+      "title": "Muscovy and the Tsardom of Russia",
+      "period": "1480-1721",
+      "startYear": 1480,
+      "endYear": 1721,
+      "standfirst": "Moscow's grand princes became tsars, weathered a near-fatal Time of Troubles, and pushed Russian power across Siberia to the Pacific.",
+      "body": [
+        "With Mongol overlordship cast off, Moscow's rulers styled themselves heirs of both the Kievan princes and the fallen Byzantine Empire, embracing the idea of Moscow as a 'Third Rome' and protector of Orthodoxy. In 1547 the sixteen-year-old Ivan IV was crowned 'Tsar of All Russia' in the Cathedral of the Dormition in the Moscow Kremlin, the first Russian ruler to take the imperial title of tsar (from the Latin caesar), formally transforming the Grand Principality of Moscow into the Tsardom of Russia.",
+        "Ivan IV, remembered as 'the Terrible' (Grozny, 'the Awesome' or 'the Dread'), conquered the Tatar khanates of Kazan (1552) and Astrakhan (1556), opening the Volga to Russian expansion, and his reign saw the first Cossack penetration of Siberia. But his later years brought the oprichnina, a brutal campaign of terror against the nobility, and in a rage he killed his own heir. His death in 1584 without a capable successor helped plunge Russia into the Time of Troubles (1598-1613), a period of dynastic crisis, famine, civil war, and Polish invasion that nearly destroyed the state.",
+        "Russia recovered when a national assembly elected Michael Romanov tsar in 1613, founding the Romanov dynasty that would rule until 1917. Through the seventeenth century Cossacks and traders pushed the frontier ever eastward, reaching the Pacific coast by the 1640s and giving Russia a Eurasian span unmatched by any contemporary state. The same century saw the schism (raskol) of the Russian Orthodox Church under Patriarch Nikon, which produced the dissident Old Believers, and the consolidation of serfdom binding peasants to the land.",
+        "The era closed with the early reign of Peter I, who seized sole power in the 1690s, traveled incognito through western Europe, and launched a sweeping program of modernization. His victory over Sweden in the Great Northern War secured a Baltic coastline and the new capital of St. Petersburg, setting the stage for Russia's elevation to an empire."
+      ],
+      "events": [
+        {
+          "year": 1547,
+          "yearLabel": "16 January 1547",
+          "title": "Ivan IV crowned first Tsar of All Russia",
+          "summary": "Ivan IV is crowned 'Tsar of All Russia' in the Cathedral of the Dormition in the Moscow Kremlin, becoming the first Russian ruler to hold the imperial title and converting the Grand Principality of Moscow into the Tsardom of Russia.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia",
+            "britannica-ivan-iv"
+          ]
+        },
+        {
+          "year": 1552,
+          "yearLabel": "1552",
+          "title": "Conquest of the Khanate of Kazan",
+          "summary": "Ivan IV captures Kazan, and in 1556 Astrakhan, destroying the successor states of the Golden Horde on the Volga and opening the river and the route to Siberia to Russian colonization.",
+          "category": "war",
+          "sources": [
+            "britannica-russia",
+            "britannica-ivan-iv"
+          ]
+        },
+        {
+          "year": 1598,
+          "yearLabel": "1598-1613",
+          "endYear": 1613,
+          "title": "The Time of Troubles",
+          "summary": "After the Rurikid line dies out, Russia descends into the Time of Troubles, a period of famine, civil war, pretenders, and Polish occupation of Moscow that nearly destroys the Russian state.",
+          "category": "war",
+          "sources": [
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 1613,
+          "yearLabel": "1613",
+          "title": "Michael Romanov elected tsar",
+          "summary": "A national assembly (Zemsky Sobor) elects sixteen-year-old Michael Romanov as tsar, ending the Time of Troubles and founding the Romanov dynasty that will rule Russia for three centuries.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 1639,
+          "yearLabel": "by 1640s",
+          "title": "Russian explorers reach the Pacific",
+          "summary": "Cossacks and fur traders crossing Siberia reach the Pacific coast, extending the Russian state across northern Asia and giving it a vast Eurasian dominion within a single century of expansion.",
+          "category": "colonization",
+          "sources": [
+            "britannica-russia"
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Ivan IV (Ivan the Terrible)",
+          "role": "First Tsar of Russia",
+          "life": "1530-1584",
+          "blurb": "Crowned the first 'Tsar of All Russia' in 1547, Ivan IV expanded the realm by conquering Kazan and Astrakhan and began the eastward push into Siberia, but his later reign of terror, the oprichnina, and the killing of his own son left the dynasty fatally weakened.",
+          "sources": [
+            "britannica-russia",
+            "britannica-ivan-iv"
+          ]
+        }
+      ],
+      "pullquote": {
+        "text": "Moscow is the Third Rome, and a fourth there shall not be.",
+        "attribution": "Attributed to the monk Philotheus of Pskov, early sixteenth century"
+      },
+      "sources": [
+        "britannica-russia",
+        "britannica-ivan-iv"
+      ]
+    },
+    {
+      "id": "the-russian-empire",
+      "title": "The Russian Empire: Peter, Catherine, and the Romanov Zenith",
+      "period": "1721-1917",
+      "startYear": 1721,
+      "endYear": 1917,
+      "standfirst": "Two sovereigns called 'the Great' forged a European empire of palaces and serfs that crushed Napoleon yet failed to reform itself in time.",
+      "body": [
+        "On 22 October (2 November, New Style) 1721, following Russia's decisive victory over Sweden in the Great Northern War and the Treaty of Nystad, the Senate proclaimed Peter I 'Emperor of All Russia' and 'the Great,' formally creating the Russian Empire. Peter had already remade the state: he built a navy, reorganized the army and administration on European models, founded St. Petersburg as a 'window on the West' in 1703, and forced Westernizing reforms on a reluctant nobility, dragging Russia into the ranks of the European great powers.",
+        "Catherine II (the Great), a German princess who took the throne in 1762 after a coup against her husband, presided over the empire's golden age of expansion and Enlightenment culture. Through victorious wars against the Ottomans she gained the northern Black Sea coast and Crimea, and in the three Partitions of Poland (1772, 1793, 1795), conducted with Prussia and Austria, she absorbed vast territories and erased Poland from the map. She corresponded with Voltaire and Diderot and built the art collection at the heart of the Hermitage, even as serfdom reached its harshest extent and the Pugachev rebellion (1773-75) was crushed.",
+        "In 1812 Napoleon invaded with a Grande Armee of some 600,000 men; the Russians traded space for time, burned Moscow, and let the winter and attrition destroy the invader, a national triumph that made Russia a dominant power at the Congress of Vienna. Yet the nineteenth-century empire was increasingly torn between its great-power status and its archaic social order. Defeat in the Crimean War (1853-56) exposed Russia's backwardness and prompted Tsar Alexander II to emancipate more than twenty million serfs in 1861, the most sweeping reform of the era.",
+        "Reform proved too little and too slow. Alexander II was assassinated by revolutionaries in 1881; his successors reverted to autocracy and repression. Rapid industrialization created a restive urban working class, defeat in the Russo-Japanese War triggered the Revolution of 1905, and the catastrophic strains of the First World War, with millions of casualties and collapsing supplies, finally shattered the dynasty's legitimacy."
+      ],
+      "events": [
+        {
+          "year": 1721,
+          "yearLabel": "1721",
+          "title": "Peter the Great proclaims the Russian Empire",
+          "summary": "After victory over Sweden in the Great Northern War and the Treaty of Nystad, the Senate proclaims Peter I 'Emperor of All Russia,' transforming the Tsardom into the Russian Empire and confirming Russia as a European great power.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia",
+            "britannica-peter"
+          ]
+        },
+        {
+          "year": 1762,
+          "yearLabel": "1762-1796",
+          "endYear": 1796,
+          "title": "The reign of Catherine the Great",
+          "summary": "Catherine II expands the empire to the Black Sea and through the three Partitions of Poland, patronizes the arts and Enlightenment ideas, and founds the Hermitage collection, while serfdom reaches its most oppressive extent.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia",
+            "britannica-catherine"
+          ]
+        },
+        {
+          "year": 1812,
+          "yearLabel": "1812",
+          "title": "Napoleon's invasion and retreat from Moscow",
+          "summary": "Napoleon's Grande Armee invades Russia and reaches a burning Moscow, but is destroyed by attrition, scorched earth, and the Russian winter; the catastrophe makes Russia a leading power of post-Napoleonic Europe.",
+          "category": "war",
+          "sources": [
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 1861,
+          "yearLabel": "3 March 1861",
+          "title": "Emancipation of the serfs",
+          "summary": "Tsar Alexander II issues the Emancipation Manifesto, freeing more than twenty million serfs of the Russian Empire; the landmark reform grants legal freedom but leaves peasants burdened by redemption payments and land hunger.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia",
+            "britannica-emancipation"
+          ]
+        },
+        {
+          "year": 1905,
+          "yearLabel": "1905",
+          "title": "The Revolution of 1905",
+          "summary": "Defeat by Japan and the 'Bloody Sunday' shooting of demonstrators spark strikes, mutinies, and unrest across the empire, forcing Nicholas II to grant a parliament (Duma) and limited civil liberties in the October Manifesto.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia",
+            "britannica-russian-revolution"
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Peter I (Peter the Great)",
+          "role": "Tsar and first Emperor of Russia",
+          "life": "1672-1725",
+          "blurb": "The reforming tsar who modernized Russia's army, navy, and administration on European lines, founded St. Petersburg, defeated Sweden, and in 1721 was proclaimed Emperor of All Russia, raising the Tsardom to the rank of a European empire.",
+          "sources": [
+            "britannica-russia",
+            "britannica-peter"
+          ]
+        },
+        {
+          "name": "Catherine II (Catherine the Great)",
+          "role": "Empress of Russia",
+          "life": "1729-1796",
+          "blurb": "German-born empress whose long reign expanded Russia to the Black Sea and partitioned Poland, while she corresponded with Enlightenment philosophers and amassed the art that anchors the Hermitage, presiding over the empire's cultural golden age.",
+          "sources": [
+            "britannica-russia",
+            "britannica-catherine"
+          ]
+        }
+      ],
+      "pullquote": {
+        "text": "It is better to abolish serfdom from above than to wait until it begins to abolish itself from below.",
+        "attribution": "Tsar Alexander II, addressing the nobility, 1856"
+      },
+      "sources": [
+        "britannica-russia",
+        "britannica-peter",
+        "britannica-catherine",
+        "britannica-emancipation",
+        "britannica-russian-revolution"
+      ]
+    },
+    {
+      "id": "revolution-and-the-fall-of-the-romanovs",
+      "title": "Revolution and the Fall of the Romanovs",
+      "period": "1917-1922",
+      "startYear": 1917,
+      "endYear": 1922,
+      "standfirst": "War and hunger toppled a three-hundred-year dynasty; in eight months the Bolsheviks turned a democratic revolution into the world's first communist state.",
+      "body": [
+        "By early 1917 the First World War had exhausted Russia: millions of soldiers were dead or wounded, cities went hungry, and confidence in Tsar Nicholas II had collapsed. In late February (early March, New Style) bread riots and strikes in the capital, Petrograd, swelled into a general uprising; when the garrison mutinied rather than fire on the crowds, the regime fell. On 15 March 1917 Nicholas II abdicated, ending the Romanov dynasty and over three centuries of tsarist rule, and a liberal Provisional Government took power alongside the socialist-led Petrograd Soviet.",
+        "The Provisional Government's fatal decision to continue the war, amid land hunger and economic chaos, opened the way for the Bolsheviks. Led by Vladimir Lenin, who returned from exile promising 'peace, land, and bread,' they seized power in the near-bloodless October Revolution of 7 November 1917 (25 October, Old Style), storming the Winter Palace and proclaiming a government of soviets. Lenin pulled Russia out of the war with the harsh Treaty of Brest-Litovsk in March 1918, ceding vast western territories.",
+        "Opposition to Bolshevik rule erupted into a brutal civil war (1918-1922) between the Red Army, organized by Leon Trotsky, and the loose anti-communist 'White' forces, foreign interventionists, and nationalist movements. The Bolsheviks imposed 'war communism' and unleashed the Red Terror through the Cheka secret police. In the early hours of 17 July 1918, as White forces approached, the imprisoned Nicholas II, his wife, their five children, and their attendants were shot and bayoneted in a cellar in Yekaterinburg.",
+        "The Reds' control of the central heartland, railways, and industry, together with disunity among their enemies, brought them victory by 1922 at a cost of millions of lives from combat, famine, and disease. Out of the wreckage the victors built a new kind of state, and on 30 December 1922 the Russian, Ukrainian, Belarusian, and Transcaucasian Soviet republics joined to form the Union of Soviet Socialist Republics."
+      ],
+      "events": [
+        {
+          "year": 1917,
+          "yearLabel": "15 March 1917",
+          "title": "February Revolution and the abdication of Nicholas II",
+          "summary": "Bread riots, strikes, and a garrison mutiny in Petrograd force Nicholas II to abdicate, ending the Romanov dynasty and over three centuries of tsarist rule; a Provisional Government takes power alongside the Petrograd Soviet.",
+          "category": "politics",
+          "sources": [
+            "britannica-russian-revolution",
+            "britannica-nicholas-ii"
+          ]
+        },
+        {
+          "year": 1917,
+          "yearLabel": "7 November 1917",
+          "title": "The October Revolution",
+          "summary": "Lenin's Bolsheviks overthrow the Provisional Government in a near-bloodless coup in Petrograd, proclaim a government of soviets, and establish the world's first communist state, withdrawing Russia from the First World War.",
+          "category": "politics",
+          "sources": [
+            "britannica-russian-revolution"
+          ]
+        },
+        {
+          "year": 1918,
+          "yearLabel": "17 July 1918",
+          "title": "Execution of the Romanov family",
+          "summary": "Bolshevik guards shoot and bayonet the deposed Nicholas II, his wife, their five children, and their servants in a cellar in Yekaterinburg, eliminating any rallying point for the monarchist cause.",
+          "category": "politics",
+          "sources": [
+            "britannica-nicholas-ii",
+            "britannica-russian-revolution"
+          ]
+        },
+        {
+          "year": 1918,
+          "yearLabel": "1918-1922",
+          "endYear": 1922,
+          "title": "The Russian Civil War",
+          "summary": "Trotsky's Red Army battles the anti-communist Whites, foreign interventionists, and nationalist forces in a devastating civil war marked by the Red Terror and mass famine, leaving millions dead before the Bolsheviks prevail.",
+          "category": "war",
+          "sources": [
+            "britannica-russian-revolution",
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 1922,
+          "yearLabel": "30 December 1922",
+          "title": "Founding of the Soviet Union",
+          "summary": "The Russian, Ukrainian, Belarusian, and Transcaucasian Soviet republics formally unite to create the Union of Soviet Socialist Republics, a federal one-party communist state with its capital at Moscow.",
+          "category": "founding",
+          "sources": [
+            "britannica-soviet-union",
+            "britannica-russia"
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Vladimir Lenin",
+          "role": "Leader of the Bolsheviks; head of Soviet government",
+          "life": "1870-1924",
+          "blurb": "Marxist revolutionary who led the Bolsheviks to power in October 1917, took Russia out of the First World War, founded the Soviet state, and established the one-party dictatorship and ideology that would govern the country for seventy years.",
+          "sources": [
+            "britannica-russian-revolution"
+          ]
+        },
+        {
+          "name": "Nicholas II",
+          "role": "Last Emperor of Russia",
+          "life": "1868-1918",
+          "blurb": "The last Romanov tsar, whose autocratic rule, military failures in two wars, and detachment from his people's suffering culminated in his abdication in 1917 and the murder of his entire family by the Bolsheviks in 1918.",
+          "sources": [
+            "britannica-nicholas-ii"
+          ]
+        }
+      ],
+      "pullquote": {
+        "text": "Peace, land, and bread.",
+        "attribution": "Bolshevik slogan of 1917, associated with Lenin"
+      },
+      "sources": [
+        "britannica-russian-revolution",
+        "britannica-nicholas-ii",
+        "britannica-soviet-union",
+        "britannica-russia"
+      ]
+    },
+    {
+      "id": "the-soviet-union",
+      "title": "The Soviet Union",
+      "period": "1922-1991",
+      "startYear": 1922,
+      "endYear": 1991,
+      "standfirst": "A communist superpower industrialized at terrible human cost, broke Nazi Germany at a staggering price, and reached for the stars before collapsing under its own contradictions.",
+      "body": [
+        "After Lenin's death in 1924, Joseph Stalin outmaneuvered his rivals to become dictator. From 1928 his Five-Year Plans drove crash industrialization and the forced collectivization of agriculture, which provoked mass resistance and catastrophic famine. The famine of 1932-33 killed millions across the Soviet Union; in Ukraine, where requisition quotas and the sealing of borders turned hunger into mass death, the man-made famine known as the Holodomor claimed an estimated 3.5 to 5 million lives and is recognized by many states as a genocide.",
+        "Stalin's rule rested on terror. The Great Terror of 1937-38 saw the secret police arrest, imprison, and execute Soviet citizens on a vast scale; historians estimate that at least 750,000 people were shot during these two years alone, while millions more were swept into the gulag, the sprawling system of forced-labor camps where countless prisoners died of exhaustion, cold, and starvation. Old Bolsheviks, military officers, intellectuals, and ordinary citizens perished in waves of denunciation and show trials.",
+        "On 22 June 1941 Nazi Germany launched Operation Barbarossa, the largest invasion in history. The resulting Great Patriotic War became the deadliest theater of the Second World War: cities such as Leningrad endured a 900-day siege, and the turning point came at Stalingrad, where the encirclement and destruction of the German Sixth Army between 1942 and February 1943 cost well over a million casualties on the Soviet side alone. Soviet forces drove the Germans back to Berlin by May 1945, but at a cost of roughly 27 million Soviet dead, military and civilian, the highest of any nation in the war.",
+        "Victory made the USSR a nuclear superpower and the rival of the United States in a Cold War that divided Europe and the globe. The Soviets launched the first satellite, Sputnik, in 1957 and put the first human, Yuri Gagarin, in space in 1961. Yet the command economy stagnated under Stalin's successors. When Mikhail Gorbachev's reforms of glasnost (openness) and perestroika (restructuring) loosened controls in the late 1980s, suppressed nationalisms and demands for freedom surged; a failed hardline coup in August 1991 fatally discredited the center, and on 25 December 1991 Gorbachev resigned and the Soviet Union was dissolved."
+      ],
+      "events": [
+        {
+          "year": 1932,
+          "yearLabel": "1932-1933",
+          "endYear": 1933,
+          "title": "The Holodomor and the Soviet famine",
+          "summary": "Forced collectivization and ruthless grain requisitioning produce a man-made famine across the USSR; in Ukraine the Holodomor kills an estimated 3.5 to 5 million people and is recognized by many countries as a genocide.",
+          "category": "disaster",
+          "sources": [
+            "britannica-holodomor",
+            "britannica-soviet-union"
+          ]
+        },
+        {
+          "year": 1937,
+          "yearLabel": "1937-1938",
+          "endYear": 1938,
+          "title": "The Great Terror",
+          "summary": "Stalin's secret police carry out mass arrests, deportations, and executions; at least 750,000 people are shot in two years and millions more sent to the gulag, as old revolutionaries, officers, and ordinary citizens perish in the purges.",
+          "category": "politics",
+          "sources": [
+            "britannica-great-purge",
+            "britannica-soviet-union"
+          ]
+        },
+        {
+          "year": 1941,
+          "yearLabel": "1941-1945",
+          "endYear": 1945,
+          "title": "The Great Patriotic War",
+          "summary": "Nazi Germany's invasion of 22 June 1941 begins the war's deadliest theater; after the siege of Leningrad and the decisive victory at Stalingrad, Soviet forces reach Berlin in 1945 at a cost of roughly 27 million Soviet dead.",
+          "category": "war",
+          "sources": [
+            "britannica-stalingrad",
+            "ushmm-eastern-front",
+            "wiki-soviet-casualties"
+          ]
+        },
+        {
+          "year": 1961,
+          "yearLabel": "12 April 1961",
+          "title": "Yuri Gagarin becomes the first human in space",
+          "summary": "Cosmonaut Yuri Gagarin orbits the Earth aboard Vostok 1, a triumph of the Soviet space program that followed the launch of Sputnik in 1957 and symbolized Soviet scientific power in the Cold War.",
+          "category": "culture",
+          "sources": [
+            "britannica-soviet-union",
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 1991,
+          "yearLabel": "25 December 1991",
+          "title": "Dissolution of the Soviet Union",
+          "summary": "Weakened by economic stagnation, nationalist movements, and a failed August coup, the USSR is dissolved; Mikhail Gorbachev resigns on 25 December 1991 and the Soviet flag is lowered over the Kremlin for the last time.",
+          "category": "independence",
+          "sources": [
+            "britannica-collapse-ussr",
+            "britannica-soviet-union"
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Joseph Stalin",
+          "role": "Leader of the Soviet Union",
+          "life": "1878-1953",
+          "blurb": "Dictator who industrialized the USSR through the Five-Year Plans and collectivization, presided over the man-made famine, the Great Terror, and the gulag at the cost of millions of lives, and led the country to victory over Nazi Germany in the Second World War.",
+          "sources": [
+            "britannica-soviet-union",
+            "britannica-great-purge"
+          ]
+        },
+        {
+          "name": "Mikhail Gorbachev",
+          "role": "Last leader of the Soviet Union",
+          "life": "1931-2022",
+          "blurb": "General secretary whose reforms of glasnost and perestroika sought to revitalize the Soviet system but instead unleashed forces that ended the Cold War and led to the dissolution of the USSR in 1991.",
+          "sources": [
+            "britannica-collapse-ussr",
+            "britannica-soviet-union"
+          ]
+        }
+      ],
+      "pullquote": {
+        "text": "Roughly 27 million Soviet citizens died in the Second World War, the highest national toll of any combatant.",
+        "attribution": "Consensus of historical estimates"
+      },
+      "sources": [
+        "britannica-soviet-union",
+        "britannica-holodomor",
+        "britannica-great-purge",
+        "britannica-stalingrad",
+        "ushmm-eastern-front",
+        "wiki-soviet-casualties",
+        "britannica-collapse-ussr",
+        "britannica-russia"
+      ]
+    },
+    {
+      "id": "post-soviet-russia",
+      "title": "Post-Soviet Russia",
+      "period": "1991-present",
+      "startYear": 1991,
+      "endYear": 2026,
+      "standfirst": "A wrenching decade of collapse and oligarchy gave way to a centralized, energy-fueled state increasingly at odds with its neighbors and the West.",
+      "body": [
+        "The Russian Federation emerged from the Soviet collapse as the USSR's principal successor state, inheriting its UN Security Council seat and its nuclear arsenal. Under President Boris Yeltsin the 1990s brought painful 'shock therapy': the rapid liberalization of prices and mass privatization triggered hyperinflation, the collapse of industrial output, and a steep fall in living standards, while a handful of well-connected 'oligarchs' acquired former state assets. A violent constitutional crisis in October 1993, ending with tanks shelling the parliament, produced a new constitution with a powerful presidency.",
+        "Boris Yeltsin resigned on the last day of 1999, handing power to his prime minister, Vladimir Putin, who won the presidency in 2000. Putin's first decade coincided with a surge in world oil and gas prices that stabilized the economy and restored living standards, while he steadily centralized power, curtailed independent media, and reasserted state control over strategic industries. The brutal Second Chechen War reestablished Moscow's grip on the breakaway republic.",
+        "Russia's relations with the West deteriorated sharply over the following years. In 2014, following the ouster of Ukraine's pro-Russian president, Russia seized and annexed Crimea, an act recognized by almost no other state, and backed armed separatists in eastern Ukraine. In February 2022 Russia launched a full-scale invasion of Ukraine, the largest war in Europe since 1945, triggering sweeping Western sanctions, international isolation, and an arrest warrant for President Putin from the International Criminal Court.",
+        "More than three decades after the Soviet collapse, Russia remains a vast, resource-rich, nuclear-armed power whose politics are dominated by a centralized presidency. Its trajectory, from the chaos of the 1990s through the consolidation of the 2000s to the confrontation of the 2010s and 2020s, continues to shape the security of Europe and the wider world."
+      ],
+      "events": [
+        {
+          "year": 1991,
+          "yearLabel": "December 1991",
+          "title": "Birth of the Russian Federation",
+          "summary": "As the USSR dissolves, the Russian Federation becomes its principal successor state, inheriting the Soviet UN Security Council seat and nuclear arsenal, with Boris Yeltsin as its first president.",
+          "category": "independence",
+          "sources": [
+            "britannica-russia",
+            "britannica-collapse-ussr"
+          ]
+        },
+        {
+          "year": 1993,
+          "yearLabel": "October 1993",
+          "title": "Constitutional crisis and new constitution",
+          "summary": "A standoff between President Yeltsin and parliament ends with the army shelling the legislature; a referendum in December 1993 adopts a new constitution that concentrates power in a strong presidency.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 2000,
+          "yearLabel": "2000",
+          "title": "Vladimir Putin becomes president",
+          "summary": "After Yeltsin's resignation, Vladimir Putin wins the presidency and, aided by rising oil and gas revenues, stabilizes the economy while progressively centralizing political power and curbing independent media.",
+          "category": "politics",
+          "sources": [
+            "britannica-russia"
+          ]
+        },
+        {
+          "year": 2014,
+          "yearLabel": "March 2014",
+          "title": "Annexation of Crimea",
+          "summary": "Following the fall of Ukraine's pro-Russian president, Russian forces seize Crimea and Moscow annexes the peninsula, an action recognized by almost no other state, while Russia backs separatists in eastern Ukraine.",
+          "category": "war",
+          "sources": [
+            "britannica-russia",
+            "wiki-annexation-crimea"
+          ]
+        },
+        {
+          "year": 2022,
+          "yearLabel": "February 2022",
+          "title": "Full-scale invasion of Ukraine",
+          "summary": "Russia launches a full-scale invasion of Ukraine, the largest war in Europe since 1945, prompting sweeping Western sanctions, international isolation, and an International Criminal Court arrest warrant for President Putin.",
+          "category": "war",
+          "sources": [
+            "britannica-russia",
+            "wiki-annexation-crimea"
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Boris Yeltsin",
+          "role": "First President of the Russian Federation",
+          "life": "1931-2007",
+          "blurb": "Reformist leader who helped end Soviet rule and became Russia's first president, presiding over the turbulent transition to a market economy, the 1993 constitutional crisis, and the rise of the oligarchs before handing power to Vladimir Putin.",
+          "sources": [
+            "britannica-russia"
+          ]
+        },
+        {
+          "name": "Vladimir Putin",
+          "role": "President of the Russian Federation",
+          "life": "born 1952",
+          "blurb": "Dominant figure of post-Soviet Russia who, as president and prime minister since 2000, stabilized the economy on energy revenues, centralized state power, annexed Crimea in 2014, and launched the full-scale invasion of Ukraine in 2022.",
+          "sources": [
+            "britannica-russia"
+          ]
+        }
+      ],
+      "pullquote": {
+        "text": "The collapse of the Soviet Union was the greatest geopolitical catastrophe of the century.",
+        "attribution": "Vladimir Putin, address to the Federal Assembly, 2005"
+      },
+      "sources": [
+        "britannica-russia",
+        "britannica-collapse-ussr",
+        "wiki-annexation-crimea"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Peter the Great",
+      "role": "Tsar and first Emperor of Russia",
+      "life": "1672-1725",
+      "blurb": "Modernizing ruler who reformed the Russian state and military, founded St. Petersburg, defeated Sweden, and in 1721 proclaimed the Russian Empire, lifting Russia into the European great-power system.",
+      "sources": [
+        "britannica-peter"
+      ]
+    },
+    {
+      "name": "Catherine the Great",
+      "role": "Empress of Russia",
+      "life": "1729-1796",
+      "blurb": "Enlightenment-influenced empress who expanded the empire to the Black Sea, partitioned Poland, and oversaw a cultural golden age, while serfdom reached its harshest extent.",
+      "sources": [
+        "britannica-catherine"
+      ]
+    },
+    {
+      "name": "Joseph Stalin",
+      "role": "Leader of the Soviet Union",
+      "life": "1878-1953",
+      "blurb": "Dictator whose forced industrialization, collectivization, famine, terror, and gulags cost millions of lives, but who led the USSR to victory over Nazi Germany and to superpower status.",
+      "sources": [
+        "britannica-soviet-union",
+        "britannica-great-purge"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-russia",
+      "label": "Russia",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Russia",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-kyivan-rus",
+      "label": "Kyivan Rus",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Kyivan-Rus",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-christianization-rus",
+      "label": "Christianization of Kievan Rus'",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-batu-khan",
+      "label": "Batu Khan",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Batu_Khan",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-ivan-iv",
+      "label": "Ivan the Terrible",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Ivan-the-Terrible",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-peter",
+      "label": "Peter the Great",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Peter-the-Great",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-catherine",
+      "label": "Catherine the Great",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Catherine-the-Great",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-emancipation",
+      "label": "Emancipation Manifesto",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Emancipation-Manifesto",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-russian-revolution",
+      "label": "Russian Revolution",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Russian-Revolution",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-nicholas-ii",
+      "label": "Nicholas II, Emperor of Russia",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Nicholas-II-tsar-of-Russia",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-soviet-union",
+      "label": "Soviet Union",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Soviet-Union",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-holodomor",
+      "label": "Holodomor",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Holodomor",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-great-purge",
+      "label": "Great Purge",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Great-Purge",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-stalingrad",
+      "label": "Battle of Stalingrad",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Battle-of-Stalingrad",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "ushmm-eastern-front",
+      "label": "The Eastern Front: The German War against the Soviet Union",
+      "publisher": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front",
+      "kind": "museum"
+    },
+    {
+      "id": "wiki-soviet-casualties",
+      "label": "World War II casualties of the Soviet Union",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_War_II_casualties_of_the_Soviet_Union",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-collapse-ussr",
+      "label": "The collapse of the Soviet Union",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-annexation-crimea",
+      "label": "Annexation of Crimea by the Russian Federation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
+      "kind": "encyclopedia"
+    }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

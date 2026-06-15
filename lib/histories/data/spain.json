@@ -1,0 +1,195 @@
+{
+  "code": "ESP",
+  "name": "Spain",
+  "tagline": "From the crossroads of Iberia to a modern European democracy.",
+  "summary": "Spain's history is one of overlapping civilisations layered across the Iberian Peninsula. Celtic, Phoenician, Greek and Carthaginian peoples gave way to six centuries of Roman Hispania and then to the Visigothic kingdom centred on Toledo. From 711 most of the peninsula fell under Muslim rule as Al-Andalus, whose Caliphate of Córdoba was among the most brilliant cultures of medieval Europe, even as Christian kingdoms in the north pressed a centuries-long Reconquista. The dynastic union of Isabella of Castile and Ferdinand of Aragon, and their conquest of Granada in 1492, forged the core of a unified Spain that, with Columbus's voyage that same year, became the centre of a vast global empire and a Golden Age of art and letters. Imperial overreach, religious persecution through the Inquisition, and dynastic crisis brought long decline, the Bourbon succession and the trauma of the Napoleonic invasion. The nineteenth and twentieth centuries saw the loss of empire, deep political instability, a devastating civil war and the long dictatorship of Francisco Franco, before Spain's peaceful transition to democracy and its 1978 constitution restored it as a parliamentary monarchy and a member of the European Union.",
+  "founding": {
+    "label": "Dynastic union of the Catholic Monarchs and the fall of Granada",
+    "yearLabel": "1492 CE",
+    "year": 1492,
+    "detail": "The marriage of Isabella I of Castile and Ferdinand II of Aragon in 1469 joined the two largest Iberian crowns, and their joint rule as the 'Catholic Monarchs' created the dynastic core of a unified Spain. On 2 January 1492 the last Muslim ruler of Granada, Muhammad XII (Boabdil), surrendered the city, completing the Reconquista and ending nearly eight centuries of Muslim rule in the peninsula. The same year saw Christopher Columbus's first transatlantic voyage and the Alhambra Decree expelling the Jews. These foundations rested on far older roots, including six centuries of Roman Hispania and the Visigothic kingdom of Toledo. The modern Spanish state took its present democratic form with the constitution ratified by referendum on 6 December 1978 and promulgated on 29 December 1978, establishing a parliamentary monarchy after the Franco dictatorship."
+  },
+  "quickFacts": [
+    { "label": "Roman Hispania", "value": "Iberia incorporated into the Roman world from 218 BCE over roughly two centuries of conquest" },
+    { "label": "Al-Andalus", "value": "Muslim rule from 711; the Caliphate of Córdoba proclaimed in 929" },
+    { "label": "Completion of unification", "value": "Fall of Granada, 2 January 1492, ending the Reconquista" },
+    { "label": "Global empire", "value": "Columbus's first voyage in 1492 began a worldwide empire spanning the Americas, the Philippines and beyond" },
+    { "label": "Constitutional democracy", "value": "Constitution of 1978 established a parliamentary monarchy after the Franco dictatorship" },
+    { "label": "European Union", "value": "Joined the European Communities on 1 January 1986" }
+  ],
+  "eras": [
+    {
+      "id": "iberia-rome-and-the-visigoths",
+      "title": "Iberia: Celts, Phoenicians, Rome and the Visigoths",
+      "period": "c. 1100 BCE – 711 CE",
+      "startYear": -1100,
+      "endYear": 711,
+      "standfirst": "Successive Mediterranean peoples settled the Iberian Peninsula before Rome absorbed it as Hispania, leaving a Latin, Christian inheritance that passed to the Germanic Visigoths.",
+      "body": [
+        "Long before any unified Spain existed, the Iberian Peninsula was a meeting point of peoples. Indigenous Iberians and, in the interior and north, Celtic groups shared the land with seafaring traders: Phoenicians founded Gadir (Cádiz) and other coastal colonies from around the start of the first millennium BCE, while Greeks established trading posts on the eastern coast. By the third century BCE Carthage had built a powerful sphere of influence in the south and east.",
+        "Rome entered Iberia during the Second Punic War, landing in 218 BCE, and over roughly two centuries of hard fighting conquered the whole peninsula, organising it as the provinces of Hispania. Romanisation was profound: cities, roads, aqueducts, law and the Latin language took root, and Hispania produced emperors such as Trajan and Hadrian and the philosopher Seneca. Christianity spread through the Roman period and became the dominant faith.",
+        "As western Roman authority collapsed in the fifth century, Germanic peoples crossed into the peninsula. The Visigoths, federated allies of Rome, came to dominate Hispania and established a kingdom that, by the sixth century, was centred on Toledo. The Visigothic kings eventually converted from Arianism to Catholic Christianity, fusing Roman, Christian and Germanic traditions. Weakened by internal division and a disputed succession after the death of King Wittiza, the kingdom proved fatally vulnerable in the early eighth century."
+      ],
+      "events": [
+        { "year": -1100, "yearLabel": "c. 1100 BCE", "title": "Phoenician colonisation of the coast", "summary": "Phoenician traders founded Gadir (modern Cádiz) and other settlements, drawing Iberia into Mediterranean commerce and bringing eastern goods, writing and urban contact to the peninsula.", "category": "founding", "sources": ["spain-britannica"] },
+        { "year": -218, "yearLabel": "218 BCE", "title": "Rome enters Hispania", "summary": "During the Second Punic War, Roman forces landed in Iberia; over roughly two centuries Rome conquered the entire peninsula and organised it as the provinces of Hispania.", "category": "war", "sources": ["spain-britannica"] },
+        { "year": 409, "yearLabel": "409 CE", "title": "Germanic peoples enter Iberia", "summary": "As Roman power waned, Germanic groups crossed into the peninsula; the Visigoths emerged as the dominant power and built a kingdom on the Roman and Christian inheritance.", "category": "migration", "sources": ["spain-britannica", "visigoths-britannica"] },
+        { "year": 589, "yearLabel": "589 CE", "title": "Visigothic kingdom of Toledo turns Catholic", "summary": "At the Third Council of Toledo, King Reccared and the Visigoths converted from Arian to Catholic Christianity, binding the ruling Germanic elite to the Hispano-Roman Catholic population.", "category": "religion", "sources": ["visigoths-britannica"] }
+      ],
+      "figures": [
+        { "name": "Trajan", "role": "Roman emperor born in Hispania", "life": "53 – 117 CE", "blurb": "Born at Italica near modern Seville, Trajan rose to become Roman emperor and presided over the empire's greatest territorial extent, exemplifying how thoroughly Romanised Hispania had become.", "sources": ["spain-britannica"] }
+      ],
+      "sources": ["spain-britannica", "visigoths-britannica"]
+    },
+    {
+      "id": "al-andalus-and-the-reconquista",
+      "title": "Al-Andalus and the Reconquista",
+      "period": "711 – 1492",
+      "startYear": 711,
+      "endYear": 1492,
+      "standfirst": "Muslim armies overran the Visigothic kingdom in 711, founding Al-Andalus and the brilliant Caliphate of Córdoba, while Christian kingdoms in the north fought a centuries-long reconquest.",
+      "body": [
+        "In 711 an Umayyad army of Arabs and Berbers under Tariq ibn Ziyad crossed from North Africa and destroyed the Visigothic king Roderic at the Battle of Guadalete. Within a few years Muslim forces controlled most of the peninsula, which became known as Al-Andalus, governed at first on behalf of the Umayyad caliphate in Damascus from a capital at Córdoba. Only mountainous fringes in the north, notably Asturias, remained outside Muslim control.",
+        "When the Abbasids overthrew the Umayyads in the east, a surviving prince, Abd al-Rahman I, established an independent emirate at Córdoba in 756. In 929 Abd al-Rahman III proclaimed himself caliph, and tenth-century Córdoba became one of the largest and most cultured cities in Europe, a centre of learning, science, philosophy, poetry and architecture where Muslims, Christians and Jews interacted. The Great Mosque of Córdoba remains a monument of this age.",
+        "The caliphate fragmented in the eleventh century into rival taifa kingdoms, opening the way for the gradual expansion of the Christian realms of the north, Castile, León, Aragón, Navarre and the County of Barcelona, in the long, intermittent process later called the Reconquista. The capture of Toledo in 1085 and the decisive Christian victory at Las Navas de Tolosa in 1212 shifted the balance permanently. By the later Middle Ages, only the Nasrid Emirate of Granada survived as a Muslim state, paying tribute to Castile until its fall in 1492."
+      ],
+      "events": [
+        { "year": 711, "yearLabel": "711 CE", "title": "Umayyad conquest and the Battle of Guadalete", "summary": "An Umayyad army under Tariq ibn Ziyad defeated and killed the Visigothic king Roderic, opening the way to the rapid Muslim conquest of most of the peninsula and the creation of Al-Andalus.", "category": "war", "sources": ["alandalus-britannica", "met-umayyad-spain"] },
+        { "year": 929, "yearLabel": "929 CE", "title": "Caliphate of Córdoba proclaimed", "summary": "Abd al-Rahman III declared himself caliph at Córdoba, marking the political and cultural zenith of Al-Andalus, whose capital became a leading centre of learning and the arts in Europe.", "category": "politics", "sources": ["alandalus-britannica", "met-umayyad-spain"] },
+        { "year": 1085, "yearLabel": "1085 CE", "title": "Christian capture of Toledo", "summary": "Alfonso VI of León and Castile took the former Visigothic capital of Toledo, a major advance of the Reconquista and a centre where Arabic, Hebrew and Latin learning was later translated.", "category": "war", "sources": ["spain-britannica"] },
+        { "year": 1212, "yearLabel": "1212 CE", "title": "Battle of Las Navas de Tolosa", "summary": "A coalition of Christian kingdoms decisively defeated the Almohad caliphate, breaking Muslim power in the peninsula and accelerating the southward Christian advance.", "category": "war", "sources": ["spain-britannica"] },
+        { "year": 1492, "yearLabel": "2 Jan 1492", "title": "Fall of Granada", "summary": "Muhammad XII (Boabdil) surrendered Granada, the last Muslim state in Iberia, to the Catholic Monarchs, completing the Reconquista after nearly eight centuries.", "category": "war", "sources": ["alandalus-britannica", "alhambra-unesco"] }
+      ],
+      "figures": [
+        { "name": "Abd al-Rahman III", "role": "First caliph of Córdoba", "life": "891 – 961", "blurb": "Proclaiming himself caliph in 929, Abd al-Rahman III brought Al-Andalus to its political and cultural height, presiding over a prosperous, tolerant and learned Córdoba that rivalled Baghdad and Constantinople.", "sources": ["alandalus-britannica"] },
+        { "name": "Averroes (Ibn Rushd)", "role": "Philosopher and jurist of Córdoba", "life": "1126 – 1198", "blurb": "Born in Córdoba, Averroes was a leading commentator on Aristotle whose works, translated into Latin, deeply influenced medieval European philosophy and the Christian universities.", "sources": ["alandalus-britannica"] }
+      ],
+      "pullquote": { "text": "Sir, these are the keys of this paradise.", "attribution": "Words traditionally attributed to Boabdil on surrendering Granada, 1492" },
+      "sources": ["alandalus-britannica", "met-umayyad-spain", "spain-britannica", "alhambra-unesco"]
+    },
+    {
+      "id": "catholic-monarchs-and-golden-age",
+      "title": "The Catholic Monarchs and the Golden Age Empire",
+      "period": "1469 – 1598",
+      "startYear": 1469,
+      "endYear": 1598,
+      "standfirst": "The union of Isabella and Ferdinand forged a unified Spain that, through conquest in the Americas and the wealth of empire, became Europe's foremost power and the heart of a cultural Golden Age, even as the Inquisition enforced religious uniformity.",
+      "body": [
+        "The marriage in 1469 of Isabella of Castile and Ferdinand of Aragon united the crowns that formed the nucleus of modern Spain. As the 'Catholic Monarchs' they completed the Reconquista with the fall of Granada in 1492 and pursued religious uniformity with grim severity. The Spanish Inquisition, established under their authority in 1478, prosecuted suspected heretics, especially conversos accused of secretly practising Judaism, through trials, torture and execution. In March 1492 the Alhambra Decree ordered the expulsion of all Jews who would not convert, ending centuries of Jewish life in Spain and scattering the Sephardic diaspora; Muslims later faced forced conversion and, in the seventeenth century, mass expulsion.",
+        "The year 1492 also opened a new world. Financed by the crown of Castile, Christopher Columbus reached the Caribbean in October 1492, beginning Spanish expansion into the Americas. Over the following decades conquistadors such as Hernán Cortés and Francisco Pizarro overthrew the Aztec and Inca empires, conquests that brought immense silver wealth but also war, enslavement and catastrophic population collapse among Indigenous peoples through violence and disease. Spain built the first global empire, stretching from the Americas to the Philippines.",
+        "Under the Habsburg dynasty, Spain reached the height of its power. Charles I (the emperor Charles V) and his son Philip II ruled a sprawling empire on which, it was said, the sun never set. Philip II made Madrid his capital, built the monastery-palace of El Escorial, and championed Catholicism in Europe's religious wars, though his Armada against England failed in 1588. This was the Siglo de Oro, the Golden Age, when Spanish letters and art flourished: Cervantes wrote Don Quixote, often called the first modern novel, and painters such as El Greco worked in a Spain that was Europe's dominant cultural force."
+      ],
+      "events": [
+        { "year": 1469, "yearLabel": "1469", "title": "Marriage of Isabella and Ferdinand", "summary": "The union of Isabella of Castile and Ferdinand of Aragon joined the two leading Iberian crowns, creating the dynastic foundation of a unified Spain under the 'Catholic Monarchs'.", "category": "politics", "sources": ["spain-britannica"] },
+        { "year": 1478, "yearLabel": "1478", "title": "Establishment of the Spanish Inquisition", "summary": "Authorised under the Catholic Monarchs, the Spanish Inquisition prosecuted suspected heretics, especially conversos, through trials, torture and executions, enforcing religious uniformity for centuries.", "category": "religion", "sources": ["inquisition-britannica"] },
+        { "year": 1492, "yearLabel": "1492", "title": "Columbus's first voyage and the Alhambra Decree", "summary": "Columbus reached the Americas under the crown of Castile, beginning Spain's overseas empire; the same year the Alhambra Decree expelled Spain's Jews who refused conversion.", "category": "colonization", "sources": ["spain-britannica", "alhambra-decree-loc"] },
+        { "year": 1519, "yearLabel": "1519–1521", "endYear": 1521, "title": "Conquest of the Aztec Empire", "summary": "Hernán Cortés and allied forces overthrew the Aztec empire, a conquest that brought vast wealth to Spain alongside war, subjugation and a catastrophic collapse of Indigenous populations.", "category": "colonization", "sources": ["spain-britannica"] },
+        { "year": 1556, "yearLabel": "1556–1598", "endYear": 1598, "title": "Reign of Philip II", "summary": "Philip II ruled Spain at the height of its imperial power, made Madrid the capital and defended Catholicism in Europe's wars, presiding over the cultural Golden Age despite the defeat of the Armada in 1588.", "category": "politics", "sources": ["spain-britannica"] }
+      ],
+      "figures": [
+        { "name": "Isabella I of Castile", "role": "Queen of Castile, co-ruler of the Catholic Monarchs", "life": "1451 – 1504", "blurb": "With Ferdinand, Isabella completed the Reconquista, sponsored Columbus and unified the Spanish crowns. Her reign also brought the Inquisition and the expulsion of the Jews, joining state-building to harsh religious enforcement.", "sources": ["spain-britannica"] },
+        { "name": "Miguel de Cervantes", "role": "Writer", "life": "1547 – 1616", "blurb": "Author of Don Quixote (1605 and 1615), widely regarded as the first modern novel and a masterpiece of world literature, Cervantes is the towering figure of Spain's literary Golden Age.", "sources": ["spain-britannica"] }
+      ],
+      "pullquote": { "text": "In a village of La Mancha, the name of which I have no desire to call to mind...", "attribution": "Miguel de Cervantes, Don Quixote (1605)" },
+      "sources": ["spain-britannica", "inquisition-britannica", "alhambra-decree-loc", "prado"]
+    },
+    {
+      "id": "decline-bourbons-and-napoleonic-crisis",
+      "title": "Decline, the Bourbons and the Napoleonic Crisis",
+      "period": "1598 – 1814",
+      "startYear": 1598,
+      "endYear": 1814,
+      "standfirst": "Imperial overreach and dynastic failure ended Habsburg rule, the War of the Spanish Succession installed the Bourbons, and Napoleon's invasion ignited a war of independence and Spain's first liberal constitution.",
+      "body": [
+        "The seventeenth century brought slow decline. Costly wars, the expulsion of the Moriscos, financial strain and the loss of the Dutch and Portuguese eroded Spanish power even as the Golden Age of art continued with masters such as Velázquez. When the last Habsburg king, Charles II, died childless in 1700, he willed the throne to Philip of Anjou, grandson of Louis XIV of France.",
+        "Philip's accession triggered the War of the Spanish Succession (1701–1714), as Britain, the Dutch Republic and Austria fought to prevent a union of the French and Spanish crowns. The Treaty of Utrecht of 1713 confirmed Philip V as the first Bourbon king of Spain but stripped Spain of its European possessions and ceded Gibraltar to Britain. The Bourbons pursued centralising reforms that strengthened the monarchy and curtailed regional privileges.",
+        "Spain's order shattered when Napoleon invaded. In 1808 French forces occupied the country and Napoleon installed his brother Joseph on the throne. The uprising of the people of Madrid on 2 May 1808 (the Dos de Mayo) sparked a fierce national resistance, the Peninsular War (1808–1814), fought by Spanish guerrillas alongside British and Portuguese armies and immortalised in Goya's paintings of its horrors. Amid the war, liberal deputies meeting in Cádiz promulgated the Constitution of 1812, Spain's first, proclaiming national sovereignty, though the restored king Ferdinand VII abolished it in 1814."
+      ],
+      "events": [
+        { "year": 1700, "yearLabel": "1700", "title": "Death of Charles II and end of the Spanish Habsburgs", "summary": "The childless death of Charles II ended Habsburg rule in Spain. His will bequeathed the throne to the Bourbon Philip of Anjou, triggering a European war of succession.", "category": "politics", "sources": ["spain-britannica", "utrecht-britannica"] },
+        { "year": 1701, "yearLabel": "1701–1714", "endYear": 1714, "title": "War of the Spanish Succession", "summary": "A European war over the Spanish throne ended with the Bourbon Philip V confirmed as king by the Treaty of Utrecht (1713), which stripped Spain of its European territories and Gibraltar.", "category": "war", "sources": ["utrecht-britannica"] },
+        { "year": 1808, "yearLabel": "2 May 1808", "title": "Dos de Mayo uprising", "summary": "The people of Madrid rose against the occupying French army; the brutal repression that followed ignited the Peninsular War, Spain's war of independence against Napoleon.", "category": "war", "sources": ["spain-britannica"] },
+        { "year": 1812, "yearLabel": "19 Mar 1812", "title": "Constitution of Cádiz", "summary": "Liberal deputies meeting in besieged Cádiz promulgated Spain's first constitution, asserting national sovereignty and a separation of powers, though it was abolished by Ferdinand VII in 1814.", "category": "politics", "sources": ["cadiz-constitution-loc"] },
+        { "year": 1814, "yearLabel": "1814", "title": "End of the Peninsular War", "summary": "Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution.", "category": "war", "sources": ["spain-britannica"] }
+      ],
+      "figures": [
+        { "name": "Philip V", "role": "First Bourbon king of Spain", "life": "1683 – 1746", "blurb": "Grandson of Louis XIV, Philip V won the War of the Spanish Succession and founded the Bourbon dynasty that, with interruptions, still reigns. His centralising reforms reshaped Spanish government.", "sources": ["utrecht-britannica"] },
+        { "name": "Francisco de Goya", "role": "Painter", "life": "1746 – 1828", "blurb": "Court painter turned unflinching witness, Goya recorded the violence of the Napoleonic war in works such as The Third of May 1808, bridging the old masters and modern art.", "sources": ["prado"] }
+      ],
+      "sources": ["spain-britannica", "utrecht-britannica", "cadiz-constitution-loc", "prado"]
+    },
+    {
+      "id": "loss-of-empire-republic-and-civil-war",
+      "title": "Loss of Empire, Republic and Civil War",
+      "period": "1814 – 1939",
+      "startYear": 1814,
+      "endYear": 1939,
+      "standfirst": "The nineteenth century brought the loss of the American empire and chronic instability, culminating in the disaster of 1898, a short-lived republic and the catastrophe of the Spanish Civil War.",
+      "body": [
+        "The nineteenth century was an age of turmoil. Spain lost most of its American empire as its mainland colonies won independence in the 1810s and 1820s, while at home liberals and conservatives clashed in repeated coups, civil wars and constitutional changes. What remained of empire was largely swept away in 1898, when defeat in the Spanish-American War cost Spain Cuba, Puerto Rico, the Philippines and Guam in the Treaty of Paris, a national trauma remembered as 'the Disaster' that prompted deep soul-searching among the 'Generation of '98'.",
+        "Political instability deepened in the twentieth century. A monarchy discredited by colonial war in Morocco gave way to the dictatorship of Miguel Primo de Rivera in the 1920s, and then, after King Alfonso XIII left the country, to the proclamation of the Second Republic in 1931. The Republic attempted ambitious reforms, including land reform, secularisation and regional autonomy, but in a deeply polarised society it faced fierce opposition from the right, the Church and the military.",
+        "In July 1936 a group of generals, soon led by Francisco Franco, launched a coup against the Republic. It failed to win quickly and instead plunged Spain into the Spanish Civil War (1936–1939). The conflict became a brutal proxy struggle: Nazi Germany and Fascist Italy backed Franco's Nationalists, while the Soviet Union and international volunteers aided the Republic. Marked by mass killings, aerial bombing of civilians, as at Guernica, and atrocities on both sides, the war killed hundreds of thousands. Franco's forces triumphed on 1 April 1939, inaugurating a dictatorship that would last until his death."
+      ],
+      "events": [
+        { "year": 1810, "yearLabel": "1810s–1820s", "endYear": 1826, "title": "Loss of the American mainland empire", "summary": "Independence movements across Spanish America broke away during and after the Napoleonic crisis, ending Spain's three-century rule over most of the Americas.", "category": "independence", "sources": ["spain-britannica"] },
+        { "year": 1898, "yearLabel": "1898", "title": "The Disaster of 1898", "summary": "Defeat in the Spanish-American War ended Spain's overseas empire; under the Treaty of Paris it lost Cuba, Puerto Rico, the Philippines and Guam, a trauma that shaped a generation.", "category": "war", "sources": ["loc-1898"] },
+        { "year": 1931, "yearLabel": "1931", "title": "Proclamation of the Second Republic", "summary": "After King Alfonso XIII left Spain, republicans proclaimed the Second Spanish Republic, which pursued reform amid intense political and social polarisation.", "category": "politics", "sources": ["spain-britannica"] },
+        { "year": 1936, "yearLabel": "1936–1939", "endYear": 1939, "title": "Spanish Civil War", "summary": "A military coup against the Republic led by Franco failed to seize power outright and triggered a devastating civil war, fuelled by foreign intervention and marked by mass atrocities; the Nationalists won in 1939.", "category": "war", "sources": ["ushmm-spanish-civil-war"] }
+      ],
+      "figures": [
+        { "name": "Manuel Azaña", "role": "Prime minister and last president of the Second Republic", "life": "1880 – 1940", "blurb": "A leading liberal reformer, Azaña helped shape the Second Republic and served as its wartime president, embodying the democratic project that the civil war destroyed.", "sources": ["spain-britannica"] },
+        { "name": "Pablo Picasso", "role": "Painter", "life": "1881 – 1973", "blurb": "Spain's most influential modern artist, Picasso responded to the bombing of Guernica in 1937 with his monumental anti-war painting of that name, a defining image of the century's violence.", "sources": ["spain-britannica"] }
+      ],
+      "pullquote": { "text": "The Spanish Civil War was the bloodiest conflict western Europe had experienced since the end of the First World War.", "attribution": "United States Holocaust Memorial Museum" },
+      "sources": ["spain-britannica", "loc-1898", "ushmm-spanish-civil-war"]
+    },
+    {
+      "id": "franco-dictatorship-and-democratic-spain",
+      "title": "The Franco Dictatorship and Democratic Spain",
+      "period": "1939 – present",
+      "startYear": 1939,
+      "endYear": 2026,
+      "standfirst": "Franco ruled Spain as an authoritarian dictator for nearly four decades; after his death in 1975 the country undertook a peaceful transition to democracy, adopting the 1978 constitution and joining Europe.",
+      "body": [
+        "Francisco Franco governed Spain as an authoritarian dictator from 1939 until 1975. His regime suppressed political opposition and regional identities, censored the press, executed and imprisoned tens of thousands of opponents in the war's aftermath, and bound the state closely to the Catholic Church. Spain remained neutral in the Second World War but was isolated internationally in its early years, before Cold War strategic interest brought a gradual rapprochement with the West and, from the late 1950s, rapid economic growth and tourism.",
+        "Franco designated Prince Juan Carlos, grandson of Alfonso XIII, as his successor, intending to perpetuate the regime under a restored monarchy. When Franco died on 20 November 1975, however, the new King Juan Carlos I worked with reformers, above all Prime Minister Adolfo Suárez, to dismantle the dictatorship from within. Political parties were legalised, and Spain held its first free elections since the 1930s in June 1977.",
+        "The new democracy was consolidated by the Spanish Constitution of 1978, ratified by referendum on 6 December and promulgated on 29 December, which established a parliamentary monarchy, fundamental rights and an order of autonomous regional communities. Democracy survived an attempted military coup in February 1981. Spain joined the European Communities in 1986 and the eurozone, becoming a prosperous, decentralised European democracy. It has continued to debate the legacy of the civil war and dictatorship, including the memory of Franco's victims, while managing tensions such as Catalan and Basque demands for greater autonomy."
+      ],
+      "events": [
+        { "year": 1939, "yearLabel": "1939–1975", "endYear": 1975, "title": "The Franco dictatorship", "summary": "Franco ruled Spain as an authoritarian dictator for nearly four decades, repressing opponents and regional identities, before later decades brought economic growth and cautious opening to the West.", "category": "politics", "sources": ["ushmm-spanish-civil-war", "spain-britannica"] },
+        { "year": 1975, "yearLabel": "20 Nov 1975", "title": "Death of Franco and accession of Juan Carlos I", "summary": "Franco's death brought King Juan Carlos I to the throne; rather than continue the dictatorship, the king became a key figure in steering Spain toward democracy.", "category": "politics", "sources": ["spain-britannica"] },
+        { "year": 1977, "yearLabel": "15 Jun 1977", "title": "First free elections since the Civil War", "summary": "Spain held its first democratic elections in over four decades, producing a parliament that would draft a new constitution under Prime Minister Adolfo Suárez.", "category": "politics", "sources": ["spain-britannica", "spain-constitution-gov"] },
+        { "year": 1978, "yearLabel": "6 Dec 1978", "title": "Spanish Constitution of 1978", "summary": "Ratified by referendum on 6 December and promulgated on 29 December 1978, the constitution established a parliamentary monarchy, fundamental rights and a state of autonomous communities.", "category": "politics", "sources": ["spain-constitution-gov"] },
+        { "year": 1986, "yearLabel": "1 Jan 1986", "title": "Accession to the European Communities", "summary": "Spain joined the European Communities (now the European Union), anchoring its democracy in European integration and ushering in decades of modernisation and growth.", "category": "economy", "sources": ["spain-britannica"] }
+      ],
+      "figures": [
+        { "name": "Francisco Franco", "role": "Dictator of Spain", "life": "1892 – 1975", "blurb": "Leader of the Nationalist forces in the civil war, Franco ruled Spain as an authoritarian dictator from 1939 until his death in 1975, suppressing dissent and regional identities through a repressive one-party state.", "sources": ["ushmm-spanish-civil-war", "spain-britannica"] },
+        { "name": "Adolfo Suárez", "role": "Prime minister of the democratic transition", "life": "1932 – 2014", "blurb": "As Spain's first democratically elected prime minister of the post-Franco era, Suárez dismantled the institutions of the dictatorship, legalised political parties and guided the country to the 1978 constitution.", "sources": ["spain-britannica"] }
+      ],
+      "pullquote": { "text": "The Crown symbolises the unity and permanence of the State.", "attribution": "Spanish Constitution of 1978, Title II" },
+      "sources": ["ushmm-spanish-civil-war", "spain-britannica", "spain-constitution-gov"]
+    }
+  ],
+  "figures": [
+    { "name": "Isabella I and Ferdinand II (the Catholic Monarchs)", "role": "Joint sovereigns who unified Spain", "life": "Isabella 1451–1504; Ferdinand 1452–1516", "blurb": "Their dynastic union joined Castile and Aragón, completed the Reconquista in 1492 and launched Spanish expansion into the Americas, forging the core of the unified Spanish state.", "sources": ["spain-britannica"] },
+    { "name": "Philip II", "role": "Habsburg king at the height of empire", "life": "1527 – 1598", "blurb": "Ruler of a global empire and champion of Catholicism, Philip II made Madrid the capital and presided over the Golden Age, despite the failure of the Armada against England in 1588.", "sources": ["spain-britannica"] },
+    { "name": "Francisco Franco", "role": "Dictator, 1939–1975", "life": "1892 – 1975", "blurb": "Victor of the civil war, Franco imposed a long authoritarian dictatorship whose end in 1975 opened the way to Spain's democratic transition.", "sources": ["ushmm-spanish-civil-war"] }
+  ],
+  "sources": [
+    { "id": "spain-britannica", "label": "Spain", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Spain", "kind": "encyclopedia" },
+    { "id": "visigoths-britannica", "label": "Visigoth", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Visigoth", "kind": "encyclopedia" },
+    { "id": "alandalus-britannica", "label": "Al-Andalus", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Al-Andalus", "kind": "encyclopedia" },
+    { "id": "met-umayyad-spain", "label": "The Art of the Umayyad Period in Spain (711–1031)", "publisher": "The Metropolitan Museum of Art", "url": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-in-spain-711-1031", "kind": "museum" },
+    { "id": "alhambra-unesco", "label": "Alhambra, Generalife and Albayzín, Granada", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/314", "kind": "gov" },
+    { "id": "inquisition-britannica", "label": "Spanish Inquisition", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Spanish-Inquisition", "kind": "encyclopedia" },
+    { "id": "alhambra-decree-loc", "label": "Alhambra Decree / Edict of Expulsion of the Jews (1492)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Alhambra-Decree", "kind": "encyclopedia" },
+    { "id": "prado", "label": "Museo Nacional del Prado", "publisher": "Museo Nacional del Prado", "kind": "museum" },
+    { "id": "utrecht-britannica", "label": "Treaties of Utrecht", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/treaties-of-Utrecht", "kind": "encyclopedia" },
+    { "id": "cadiz-constitution-loc", "label": "Constitution of the Spanish Monarchy, enacted in Cádiz, 19 March 1812", "publisher": "Library of Congress", "url": "https://www.loc.gov/item/2021667002/", "kind": "gov" },
+    { "id": "loc-1898", "label": "The World of 1898: The Spanish-American War", "publisher": "Library of Congress", "url": "https://guides.loc.gov/world-of-1898", "kind": "gov" },
+    { "id": "ushmm-spanish-civil-war", "label": "Spanish Civil War", "publisher": "United States Holocaust Memorial Museum", "url": "https://encyclopedia.ushmm.org/content/en/article/spanish-civil-war", "kind": "museum" },
+    { "id": "spain-constitution-gov", "label": "The Spanish Constitution of 1978", "publisher": "Government of Spain (La Moncloa)", "url": "https://www.lamoncloa.gob.es/lang/en/espana/paginas/constitution.aspx", "kind": "gov" }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

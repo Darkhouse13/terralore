@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Terra Historica
 
-## Getting Started
+An interactive globe and living archive of world history. Spin the globe, choose a
+nation, read its basic facts, then open a long-form, **sourced** account of the path
+it took to become a country — empires, ruptures, revolutions. Every claim is traceable
+to a cited reference.
 
-First, run the development server:
+## What it does
+
+- **The globe** — a 3D, antique-atlas globe (parchment landmasses on a deep-ocean
+  sphere, brass atmosphere). Hover to highlight a country; click to select it.
+- **The country card** — flag, capital, population, region, area, languages, currency,
+  and an "Explore the history" button.
+- **The time-journey** (`/country/[code]`) — the main product, and deliberately *not*
+  an article. A full-screen, cinematic experience you **pilot** moment-by-moment
+  (arrow keys, scroll, swipe, or click the timeline rail): intro → era "chapters" →
+  individual events → a "today" outro. Each moment is a single focused card — a giant
+  year, the event, its category, its sources. The full sourced prose lives in an
+  opt-in parchment **"chapter drawer"** for depth without forcing reading. Nations not
+  yet authored show a graceful "archive in progress" screen.
+- **The index** (`/atlas`) — every nation, searchable, grouped by continent, with
+  published archives featured.
+
+Seeded with deep, verified histories for **29 nations across every inhabited
+continent** — France, Egypt, Japan, Mexico, Germany, the United States, China, India,
+the United Kingdom, Italy, Spain, Russia, Brazil, Greece, Turkey, Iran, South Korea,
+Nigeria, Australia, Canada, Argentina, Indonesia, Vietnam, Saudi Arabia, Israel,
+Ethiopia, South Africa, Poland and the Netherlands — each with 6 eras and ~20–30
+sourced events. The archive is designed to scale to every country.
+
+## Stack
+
+- **Next.js 16** (App Router) + **React 19** + **TypeScript**
+- **Tailwind v4** (CSS-based theme tokens)
+- **react-globe.gl** / three.js for the globe (client-only)
+- **motion** for animation
+- Fonts: Fraunces (display), Newsreader (reading), Inter (UI), JetBrains Mono (labels)
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # static-generates all country pages
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Data pipeline
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Geographic + basic metadata are merged from open sources into clean app artifacts:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+node scripts/build-data.mjs         # raw sources -> public/data + data/countries.json
+node scripts/validate-histories.mjs # integrity-check authored histories
+```
 
-## Learn More
+- `scripts/raw/` — Natural Earth country polygons + the mledoze/countries dataset.
+- `public/data/countries.geo.json` — slim polygons (code + name) for the globe.
+- `data/countries.json` — basic-info metadata keyed by ADM0_A3 code.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See `CLAUDE.md` for architecture notes and how to author a new nation.

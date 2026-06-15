@@ -1,0 +1,578 @@
+{
+  "code": "MLI",
+  "name": "Mali",
+  "tagline": "From the gold of Wagadou to the Sahelian republic",
+  "summary": "On the bend of the upper Niger rose three of Africa's greatest medieval states — the Ghana (Wagadou), Mali and Songhai empires — grown wealthy on the trans-Saharan gold and salt trade and famed for the scholarship of Timbuktu and Djenné. Conquered piecemeal in the nineteenth century and absorbed into French Soudan, the territory became the independent Republic of Mali on 22 September 1960. A democratic opening in 1991 gave way after 2012 to insurgency in the north and a return to military rule.",
+  "founding": {
+    "label": "Independence from France",
+    "yearLabel": "22 September 1960",
+    "year": 1960,
+    "detail": "After the short-lived Mali Federation with Senegal broke apart, the former French Soudan declared itself the independent Republic of Mali, with Modibo Keïta as its first president."
+  },
+  "quickFacts": [
+    { "label": "Capital", "value": "Bamako (on the Niger River)" },
+    { "label": "Independence", "value": "22 September 1960 (from France)" },
+    { "label": "Official languages", "value": "13 national languages (since 2023); French is a working language" },
+    { "label": "Currency", "value": "West African CFA franc (XOF)" },
+    { "label": "Medieval capitals", "value": "Niani, Gao, Timbuktu, Djenné" },
+    { "label": "UNESCO World Heritage", "value": "Timbuktu and Old Towns of Djenné (both 1988)" }
+  ],
+  "eras": [
+    {
+      "id": "ghana-wagadou",
+      "title": "The Ghana Empire (Wagadou)",
+      "period": "c. 8th–11th century CE",
+      "startYear": 700,
+      "endYear": 1100,
+      "standfirst": "A Soninke trading state on the desert's edge grows rich as the broker of West Africa's gold.",
+      "body": [
+        "The first of the great Sahelian empires was the realm its rulers called Wagadou, known to Arab writers as Ghana — centred not on the modern country of that name but on the borderlands of present-day southeastern Mauritania, western Mali and eastern Senegal. It was built by the Soninke, a Mandé-speaking people, and most scholars place its consolidation in the eighth or ninth century, tied to the intensifying trans-Saharan trade.",
+        "Ghana's wealth lay in its position as middleman between the gold-bearing lands to the south and the Arab and Berber merchants of North Africa, who brought salt across the desert. Gold from sources such as the Bambuk fields moved north; salt and goods moved south. The Soninke guarded the location of their gold mines closely. By the tenth century the empire was famous abroad, and the traveller Ibn Hawqal, who visited the region around 950, called its ruler one of the richest kings in the world.",
+        "Ghana's dominance did not last. In 1076 the Berber Almoravids, sweeping out of the western desert, took the city of Kumbi Saleh, disrupting the empire at its height. Ghana fragmented over the following century, its trade and its mantle of regional power passing in time to a new Mandé state rising further up the Niger."
+      ],
+      "events": [
+        {
+          "year": 950,
+          "yearLabel": "c. 950",
+          "title": "Ibn Hawqal records Ghana's wealth",
+          "summary": "The Arab geographer Ibn Hawqal, visiting the western Sudan, describes Ghana's ruler as among the richest kings in the world on account of his gold.",
+          "category": "economy",
+          "sources": ["met-transsaharan", "ebsco-ghana"]
+        },
+        {
+          "year": 1000,
+          "yearLabel": "by c. 1000",
+          "title": "Apogee of the gold-and-salt trade",
+          "summary": "Ghana controls a broad swathe of the western Sahel, acting as the broker between southern goldfields and North African salt caravans.",
+          "category": "economy",
+          "sources": ["met-transsaharan", "lumen-ghana"]
+        },
+        {
+          "year": 1076,
+          "title": "Almoravids take Kumbi Saleh",
+          "summary": "Berber Almoravids from present-day Mauritania capture Ghana's chief city, weakening the empire and the trade routes it controlled.",
+          "category": "war",
+          "sources": ["met-transsaharan", "lumen-ghana"]
+        }
+      ],
+      "pullquote": {
+        "text": "The richest king in the world because of his gold.",
+        "attribution": "attributed to Ibn Hawqal, c. 950, on the ruler of Ghana"
+      },
+      "sources": ["met-transsaharan", "ebsco-ghana", "lumen-ghana"]
+    },
+    {
+      "id": "mali-empire",
+      "title": "The Mali Empire",
+      "period": "c. 1235–1450s",
+      "startYear": 1235,
+      "endYear": 1460,
+      "standfirst": "Sundiata Keita forges an empire on the upper Niger; Mansa Musa makes its gold legendary.",
+      "body": [
+        "According to tradition recorded in the Epic of Sundiata, Mali's national epic, the empire was founded by Sundiata Keita, who united the Malinke chiefdoms and defeated Sumanguru Kanté of the Soso at the Battle of Kirina around 1235. Sundiata took the title mansa (king of kings), established his capital at Niani on the upper Niger, and made the Keita clan the ruling dynasty. He is traditionally said to have died around 1255.",
+        "Mali reached its height under Mansa Musa, who came to the throne in the early fourteenth century. His pilgrimage to Mecca in 1324 became legendary: he travelled with an enormous retinue and so much gold that his lavish giving is said to have depressed the value of gold in Egypt for years. The pilgrimage announced Mali's wealth to the wider world and drew the empire onto European and Middle Eastern maps.",
+        "Under Musa and his successors, the Niger cities of Timbuktu and Djenné flourished as hubs of trans-Saharan trade and centres of Islamic learning. Mali's commerce ran on gold, salt, copper and the trade in books, and its mansas patronised mosques and scholars. From the fifteenth century, however, internal disputes and pressure from rivals eroded the empire, opening the way for a new power downriver at Gao."
+      ],
+      "events": [
+        {
+          "year": 1235,
+          "yearLabel": "c. 1235",
+          "title": "Battle of Kirina and the founding of Mali",
+          "summary": "Sundiata Keita defeats Sumanguru Kanté of the Soso, unifying the Malinke and establishing the Mali Empire with its capital at Niani.",
+          "category": "founding",
+          "sources": ["britannica-sundiata", "natgeo-mali", "wiki-mali-empire"]
+        },
+        {
+          "year": 1324,
+          "title": "Mansa Musa's pilgrimage to Mecca",
+          "summary": "Mansa Musa journeys to Mecca with a vast retinue and quantities of gold so great his almsgiving is said to have disrupted Egypt's gold prices, spreading Mali's fame abroad.",
+          "category": "religion",
+          "sources": ["ebsco-mansamusa", "natgeo-mali", "wiki-mali-empire"]
+        },
+        {
+          "year": 1325,
+          "yearLabel": "14th century",
+          "title": "Timbuktu and Djenné flourish",
+          "summary": "Under Mali's mansas the Niger cities grow into major centres of trans-Saharan trade and Islamic scholarship, attracting merchants and scholars.",
+          "category": "culture",
+          "sources": ["unesco-timbuktu", "natgeo-mali"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Sundiata Keita",
+          "role": "Founder and first mansa of Mali",
+          "life": "c. 1217 – c. 1255",
+          "blurb": "United the Malinke chiefdoms, defeated Sumanguru Kanté at Kirina around 1235, and founded the Mali Empire; his life is celebrated in the Epic of Sundiata.",
+          "sources": ["britannica-sundiata", "wiki-mali-empire"]
+        }
+      ],
+      "pullquote": {
+        "text": "His gifts of gold were so lavish they were said to have unsettled the markets of Cairo.",
+        "attribution": "on Mansa Musa's 1324 pilgrimage"
+      },
+      "sources": ["britannica-sundiata", "ebsco-mansamusa", "natgeo-mali", "wiki-mali-empire", "unesco-timbuktu"]
+    },
+    {
+      "id": "songhai-empire",
+      "title": "The Songhai Empire and Its Fall",
+      "period": "c. 1464–1591",
+      "startYear": 1464,
+      "endYear": 1591,
+      "standfirst": "From Gao, the Songhai build the Sahel's largest empire — until Moroccan muskets end it at Tondibi.",
+      "body": [
+        "As Mali declined, the Songhai of Gao rose to dominate the middle Niger. Sonni Ali, who reigned from about 1464 to 1492, built a powerful state through conquest, taking Timbuktu in 1468 and the trading city of Djenné in 1473 with the aid of cavalry and a fleet of war canoes. Under his rule Songhai eclipsed the remnants of Mali as the region's leading power.",
+        "After Sonni Ali's death, one of his generals seized the throne in 1493 as Askia Muhammad (Askia the Great), founding the Askiya dynasty. A devout Muslim who himself made the pilgrimage to Mecca, Askia Muhammad reorganised the administration, encouraged scholarship, and presided over the golden age of Timbuktu, where the Sankoré mosque and its associated learning drew students from across the Islamic world.",
+        "The empire's end came suddenly. In late 1590 a Moroccan army under Judar Pasha set out across the Sahara, and on 12 or 13 April 1591 it shattered the far larger Songhai forces of Askia Ishaq II at the Battle of Tondibi, near Gao. The Moroccans' firearms decided a contest against troops armed mainly with spears and arrows. The Moroccans sacked the great cities, dismantled Songhai's political order, and the era of large indigenous Sahelian empires on the Niger came to a close."
+      ],
+      "events": [
+        {
+          "year": 1468,
+          "title": "Sonni Ali takes Timbuktu",
+          "summary": "Sonni Ali captures Timbuktu, and in 1473 Djenné, bringing the Niger trade cities under Songhai control and laying the foundation of the empire.",
+          "category": "war",
+          "sources": ["saylor-songhai", "wiki-sonni-ali"]
+        },
+        {
+          "year": 1493,
+          "title": "Askia Muhammad founds the Askiya dynasty",
+          "summary": "A former general seizes power as Askia Muhammad, reorganising the empire and ushering in the golden age of Timbuktu's scholarship.",
+          "category": "politics",
+          "sources": ["saylor-songhai", "wiki-askia"]
+        },
+        {
+          "year": 1591,
+          "yearLabel": "April 1591",
+          "title": "Battle of Tondibi ends the Songhai Empire",
+          "summary": "Moroccan forces under Judar Pasha, armed with firearms, rout the Songhai army at Tondibi near Gao, collapsing the last of the great Niger empires.",
+          "category": "war",
+          "sources": ["ebsco-songhai-fall", "wiki-moroccan-invasion"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Askia Muhammad I",
+          "role": "Emperor of Songhai, founder of the Askiya dynasty",
+          "life": "reigned 1493–1528",
+          "blurb": "Reorganised Songhai's administration, made the pilgrimage to Mecca, and patronised the scholarship that made Timbuktu's golden age.",
+          "sources": ["saylor-songhai", "wiki-askia"]
+        }
+      ],
+      "sources": ["saylor-songhai", "wiki-sonni-ali", "wiki-askia", "ebsco-songhai-fall", "wiki-moroccan-invasion", "unesco-timbuktu"]
+    },
+    {
+      "id": "kingdoms-and-resistance",
+      "title": "Segou, the Tukulor and Samori",
+      "period": "c. 1712–1898",
+      "startYear": 1712,
+      "endYear": 1898,
+      "standfirst": "Bambara kings, a jihadist empire and a Malinke resister contest the upper Niger as France advances.",
+      "body": [
+        "After the fall of Songhai, no single power held the region. On the middle Niger the Bambara (Bamana) built the kingdom of Segou, consolidated as a centralised state from about 1712 by Mamari (Bitòn) Coulibaly, who turned a youth association into an army and a fleet of war canoes patrolling the river. The Segou state remained one of West Africa's largest until the mid-nineteenth century.",
+        "In the 1850s a new force swept in from the west: the Tukulor jihad of Al-Hajj Umar Tal, a Tijaniyya Sufi scholar from Futa Toro. Launching his holy war in the early 1850s, he carved out an empire between the upper Senegal and Niger rivers, conquering the Bambara kingdom of Segou in 1861. Umar Tal died in 1864 near Hamdallahi, and his successors struggled to hold the realm against rebellion and the advancing French.",
+        "The last great resistance came from Samori Touré, a Malinke leader who built the Wassoulou Empire from about 1878. A gifted commander, he fought the French for nearly two decades and defeated them on several occasions, but was steadily worn down. The French captured him on 29 September 1898 and exiled him to Gabon, where he died in 1900 — clearing the way for colonial rule over the lands that would become Mali."
+      ],
+      "events": [
+        {
+          "year": 1712,
+          "yearLabel": "c. 1712",
+          "title": "Bitòn Coulibaly consolidates the Bambara kingdom of Segou",
+          "summary": "Mamari (Bitòn) Coulibaly transforms a youth society into an army, founding the centralised Bambara state of Segou on the middle Niger.",
+          "category": "founding",
+          "sources": ["newworld-bamana", "wiki-segou"]
+        },
+        {
+          "year": 1861,
+          "title": "Umar Tal's Tukulor empire conquers Segou",
+          "summary": "Al-Hajj Umar Tal, leading the Tijaniyya jihad begun in the 1850s, overthrows the Bambara kingdom of Segou and extends the Tukulor empire across the upper Niger.",
+          "category": "religion",
+          "sources": ["britannica-umartal", "wiki-segou"]
+        },
+        {
+          "year": 1864,
+          "title": "Death of Umar Tal",
+          "summary": "The Tukulor leader dies in 1864 near Hamdallahi amid revolt; his successors face mounting French pressure.",
+          "category": "war",
+          "sources": ["britannica-umartal"]
+        },
+        {
+          "year": 1898,
+          "yearLabel": "29 September 1898",
+          "title": "Capture of Samori Touré",
+          "summary": "French forces seize Samori Touré, founder of the Wassoulou Empire and Mali's last great armed resister, ending nearly two decades of war.",
+          "category": "colonization",
+          "sources": ["blackpast-samori", "britannica-samory", "wiki-samori"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Samori Touré",
+          "role": "Founder of the Wassoulou Empire; resistance leader",
+          "life": "c. 1830 – 1900",
+          "blurb": "Malinke commander who built an empire across present-day Guinea, Mali and Côte d'Ivoire and resisted French conquest for almost twenty years before his capture in 1898.",
+          "sources": ["blackpast-samori", "wiki-samori"]
+        }
+      ],
+      "pullquote": {
+        "text": "He defeated the French on several occasions before famine and desertion wore his army down.",
+        "attribution": "on Samori Touré's long resistance"
+      },
+      "sources": ["newworld-bamana", "wiki-segou", "britannica-umartal", "blackpast-samori", "britannica-samory", "wiki-samori"]
+    },
+    {
+      "id": "french-soudan-independence",
+      "title": "French Soudan and Independence",
+      "period": "1898–1968",
+      "startYear": 1898,
+      "endYear": 1968,
+      "standfirst": "Colony of French Soudan, then a brief federation, then the Republic of Mali under Modibo Keïta.",
+      "body": [
+        "With Samori's defeat, France completed its conquest of the upper Niger and the territory was governed as French Soudan within French West Africa. For some six decades it was administered from afar as a colonial possession, its trade reoriented toward the coast and the metropole, until the post-war wave of decolonisation reached the Sahel.",
+        "In January 1959 French Soudan joined Senegal in the Mali Federation, a pan-African project led on the Soudanese side by Modibo Keïta. The federation proved fragile: differences between the partners broke it apart in August 1960. On 22 September 1960 the former French Soudan declared itself the independent Republic of Mali, taking the name of the medieval empire, and Modibo Keïta became its first president the next day.",
+        "Keïta governed as a socialist, establishing a one-party state under the US-RDA and pursuing nationalisation. Economic strain and discontent grew, and on 19 November 1968 a group of officers led by Lieutenant Moussa Traoré overthrew him, opening more than two decades of military-backed rule."
+      ],
+      "events": [
+        {
+          "year": 1920,
+          "yearLabel": "early 20th century",
+          "title": "Colony of French Soudan",
+          "summary": "The conquered upper Niger is administered as French Soudan within French West Africa, its economy reoriented toward the colonial metropole.",
+          "category": "colonization",
+          "sources": ["britannica-modibo", "wiki-mali-federation"]
+        },
+        {
+          "year": 1959,
+          "yearLabel": "January 1959",
+          "title": "The Mali Federation with Senegal",
+          "summary": "French Soudan and Senegal join in the short-lived Mali Federation, with Modibo Keïta as a leading figure; it dissolves in August 1960.",
+          "category": "politics",
+          "sources": ["wiki-mali-federation", "britannica-modibo"]
+        },
+        {
+          "year": 1960,
+          "yearLabel": "22 September 1960",
+          "title": "Independence of the Republic of Mali",
+          "summary": "The former French Soudan becomes the independent Republic of Mali; Modibo Keïta becomes its first president the following day.",
+          "category": "independence",
+          "sources": ["blackpast-modibo", "britannica-modibo", "wiki-mali-federation"]
+        },
+        {
+          "year": 1968,
+          "yearLabel": "19 November 1968",
+          "title": "Military coup ousts Modibo Keïta",
+          "summary": "Lieutenant Moussa Traoré leads a coup against the socialist one-party government, beginning 23 years of his rule.",
+          "category": "politics",
+          "sources": ["wiki-moussa-traore", "aljazeera-timeline"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Modibo Keïta",
+          "role": "First President of Mali",
+          "life": "1915–1977",
+          "blurb": "Pan-Africanist and socialist who led French Soudan to independence in 1960 and governed as a one-party president until his overthrow in 1968.",
+          "sources": ["britannica-modibo", "blackpast-modibo"]
+        }
+      ],
+      "sources": ["britannica-modibo", "blackpast-modibo", "wiki-mali-federation", "wiki-moussa-traore", "aljazeera-timeline"]
+    },
+    {
+      "id": "modern-mali",
+      "title": "Dictatorship, Democracy and Crisis",
+      "period": "1968–present",
+      "startYear": 1968,
+      "endYear": 2026,
+      "standfirst": "From Traoré's long rule to the 1991 opening, then northern insurgency and a return to military government.",
+      "body": [
+        "Moussa Traoré ruled Mali for 23 years, presiding over a repressive single-party state. Pro-democracy agitation surged in early 1991; on 22 March a mass march in Bamako was crushed with heavy loss of life, and days later Lieutenant Colonel Amadou Toumani Touré seized power and oversaw a transition. In June 1992 he handed authority to Alpha Oumar Konaré, Mali's first democratically elected president, beginning a decade in which the country was widely seen as a democratic example in the region.",
+        "That stability unravelled in 2012. In January, Tuareg separatists of the MNLA — many of them fighters returned from Libya — launched a rebellion in the north. A mutiny in Bamako on 22 March 2012 toppled the government, and in the ensuing collapse jihadist groups, including AQIM and Ansar Dine, pushed the MNLA aside and seized the northern cities, including Timbuktu, where they damaged shrines and threatened the manuscript heritage. As the militants advanced south in January 2013, France launched Operation Serval on 11 January, halting them and retaking the north.",
+        "Insecurity nonetheless persisted across the Sahel. On 18 August 2020 the military overthrew President Ibrahim Boubacar Keïta amid protests over corruption and the insurgency; in a second coup on 24–26 May 2021, Colonel Assimi Goïta removed the transitional civilian leaders and took the presidency himself. The country's medieval heritage remained at risk: Timbuktu and the Old Towns of Djenné, inscribed by UNESCO in 1988, were placed on the List of World Heritage in Danger in 2012."
+      ],
+      "events": [
+        {
+          "year": 1991,
+          "yearLabel": "March 1991",
+          "title": "Fall of Moussa Traoré and democratic transition",
+          "summary": "After a deadly crackdown on protesters on 22 March, officers led by Amadou Toumani Touré oust Traoré; a transition leads to multiparty rule under Alpha Oumar Konaré in 1992.",
+          "category": "politics",
+          "sources": ["wiki-1991-coup", "nvc-mali-1991", "aljazeera-timeline"]
+        },
+        {
+          "year": 2012,
+          "title": "Tuareg rebellion, coup and jihadist seizure of the north",
+          "summary": "The MNLA's January rebellion and a 22 March coup precipitate collapse; AQIM, Ansar Dine and allied jihadists take Timbuktu, Gao and Kidal.",
+          "category": "war",
+          "sources": ["aljazeera-timeline", "ctc-serval", "unesco-timbuktu"]
+        },
+        {
+          "year": 2013,
+          "yearLabel": "11 January 2013",
+          "title": "France launches Operation Serval",
+          "summary": "As jihadist forces drive toward Bamako, France intervenes militarily, stopping the advance and recapturing the northern cities.",
+          "category": "war",
+          "sources": ["ctc-serval", "aljazeera-timeline"]
+        },
+        {
+          "year": 2020,
+          "yearLabel": "18 August 2020",
+          "title": "Coup ousts President Ibrahim Boubacar Keïta",
+          "summary": "Amid mass protests and a worsening insurgency, military officers arrest President Keïta, who resigns; a transitional government is formed.",
+          "category": "politics",
+          "sources": ["wiki-2020-coup", "crisisgroup-mali", "aljazeera-timeline"]
+        },
+        {
+          "year": 2021,
+          "yearLabel": "May 2021",
+          "title": "Second coup brings Assimi Goïta to power",
+          "summary": "Colonel Assimi Goïta removes the transitional civilian president and prime minister and takes the presidency himself.",
+          "category": "politics",
+          "sources": ["crisisgroup-mali", "aljazeera-timeline"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Amadou Toumani Touré",
+          "role": "Soldier and President of Mali",
+          "life": "1948–2020",
+          "blurb": "Led the 1991 coup that ended Traoré's rule and oversaw the transition to democracy, then served as elected president (2002–2012) until himself ousted in the 2012 coup.",
+          "sources": ["wiki-1991-coup", "aljazeera-timeline"]
+        }
+      ],
+      "pullquote": {
+        "text": "Once seen as a model of African democracy, Mali after 2012 slid into insurgency and military rule.",
+        "attribution": "on Mali's recent trajectory"
+      },
+      "sources": ["wiki-1991-coup", "nvc-mali-1991", "aljazeera-timeline", "ctc-serval", "unesco-timbuktu", "wiki-2020-coup", "crisisgroup-mali"]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Mansa Musa",
+      "role": "Emperor (mansa) of Mali",
+      "life": "reigned early 14th century, d. c. 1337",
+      "blurb": "Ruler whose 1324 pilgrimage to Mecca, laden with gold, broadcast Mali's wealth across the Islamic world and Europe and adorned Timbuktu with mosques and scholars.",
+      "sources": ["ebsco-mansamusa", "natgeo-mali"]
+    },
+    {
+      "name": "Al-Hajj Umar Tal",
+      "role": "Tukulor jihad leader and empire-builder",
+      "life": "c. 1797–1864",
+      "blurb": "Tijaniyya Sufi scholar who launched a jihad in the 1850s and built the Tukulor empire between the Senegal and Niger, conquering the Bambara kingdom of Segou in 1861.",
+      "sources": ["britannica-umartal"]
+    },
+    {
+      "name": "Assimi Goïta",
+      "role": "Military leader and transitional President",
+      "life": "born 1983",
+      "blurb": "Army colonel who led the August 2020 coup against Ibrahim Boubacar Keïta and, in a second coup in May 2021, assumed the transitional presidency.",
+      "sources": ["crisisgroup-mali", "aljazeera-timeline"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "met-transsaharan",
+      "label": "The Trans-Saharan Gold Trade (7th–14th Century)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century",
+      "kind": "museum"
+    },
+    {
+      "id": "ebsco-ghana",
+      "label": "Rise and Fall of Ghana",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/rise-and-fall-ghana",
+      "kind": "reference"
+    },
+    {
+      "id": "lumen-ghana",
+      "label": "The Ghana Empire — World Civilization",
+      "publisher": "Lumen Learning",
+      "url": "https://courses.lumenlearning.com/suny-hccc-worldcivilization/chapter/the-ghana-empire/",
+      "kind": "academic"
+    },
+    {
+      "id": "britannica-sundiata",
+      "label": "Sundiata Keita — Biography, Facts, & Empire",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Sundiata-Keita",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "natgeo-mali",
+      "label": "The Mali Empire",
+      "publisher": "National Geographic Education",
+      "url": "https://education.nationalgeographic.org/resource/mali-empire/",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-mali-empire",
+      "label": "History of the Mali Empire",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Mali_Empire",
+      "kind": "reference"
+    },
+    {
+      "id": "ebsco-mansamusa",
+      "label": "Mansa Mūsā's Pilgrimage to Mecca",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/mansa-musas-pilgrimage-mecca",
+      "kind": "reference"
+    },
+    {
+      "id": "unesco-timbuktu",
+      "label": "Timbuktu — World Heritage Centre",
+      "publisher": "UNESCO",
+      "url": "https://whc.unesco.org/en/list/119/",
+      "kind": "gov"
+    },
+    {
+      "id": "saylor-songhai",
+      "label": "The Songhai Empire (HIST103)",
+      "publisher": "Saylor Academy",
+      "url": "https://learn.saylor.org/mod/page/view.php?id=70583",
+      "kind": "academic"
+    },
+    {
+      "id": "wiki-sonni-ali",
+      "label": "Sonni Ali",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonni_Ali",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-askia",
+      "label": "Askia Muhammad I",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Askia_Muhammad_I",
+      "kind": "reference"
+    },
+    {
+      "id": "ebsco-songhai-fall",
+      "label": "Fall of the Songhai Empire",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/fall-songhai-empire",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-moroccan-invasion",
+      "label": "Moroccan invasion of the Songhai Empire",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moroccan_invasion_of_the_Songhai_Empire",
+      "kind": "reference"
+    },
+    {
+      "id": "newworld-bamana",
+      "label": "Bamana Empire",
+      "publisher": "New World Encyclopedia",
+      "url": "https://www.newworldencyclopedia.org/entry/Bamana_Empire",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-segou",
+      "label": "Bamana (Ségou) Empire",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bamana_Empire",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-umartal",
+      "label": "ʿUmar Tal — West African Tukulor Leader & Jihadist",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Umar-Tal",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "blackpast-samori",
+      "label": "Samori Touré (1830–1900)",
+      "publisher": "BlackPast.org",
+      "url": "https://blackpast.org/global-african-history/toure-samori-1830-1900/",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-samory",
+      "label": "Samory — Mandingo Empire, Jihad, Abolitionist",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Samory",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wiki-samori",
+      "label": "Samori Ture",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Samori_Ture",
+      "kind": "reference"
+    },
+    {
+      "id": "britannica-modibo",
+      "label": "Modibo Keita — 1st President of Mali",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Modibo-Keita",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "blackpast-modibo",
+      "label": "Modibo Keita (1915–1977)",
+      "publisher": "BlackPast.org",
+      "url": "https://blackpast.org/global-african-history/people-global-african-history/modibo-keita-1915-1977/",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-mali-federation",
+      "label": "Mali Federation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mali_Federation",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-moussa-traore",
+      "label": "Moussa Traoré",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moussa_Traor%C3%A9",
+      "kind": "reference"
+    },
+    {
+      "id": "aljazeera-timeline",
+      "label": "Timeline: How Mali went from democracy beacon to instability",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/4/27/timeline-how-mali-went-from-democracy-beacon-to-instability",
+      "kind": "reference"
+    },
+    {
+      "id": "wiki-1991-coup",
+      "label": "1991 Malian coup d'état",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1991_Malian_coup_d%27%C3%A9tat",
+      "kind": "reference"
+    },
+    {
+      "id": "nvc-mali-1991",
+      "label": "Mali's March Revolution (1991)",
+      "publisher": "International Center on Nonviolent Conflict",
+      "url": "https://www.nonviolent-conflict.org/malis-march-revolution-1991/",
+      "kind": "reference"
+    },
+    {
+      "id": "ctc-serval",
+      "label": "A Review of the French-led Military Campaign in Northern Mali",
+      "publisher": "Combating Terrorism Center at West Point",
+      "url": "https://ctc.westpoint.edu/a-review-of-the-french-led-military-campaign-in-northern-mali/",
+      "kind": "academic"
+    },
+    {
+      "id": "wiki-2020-coup",
+      "label": "2020 Malian coup d'état",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2020_Malian_coup_d%27%C3%A9tat",
+      "kind": "reference"
+    },
+    {
+      "id": "crisisgroup-mali",
+      "label": "Mali, a Coup within a Coup",
+      "publisher": "International Crisis Group",
+      "url": "https://www.crisisgroup.org/qna/africa/mali/mali-coup-within-coup",
+      "kind": "reference"
+    }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

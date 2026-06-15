@@ -1,0 +1,618 @@
+{
+  "code": "CHN",
+  "name": "China",
+  "tagline": "Four thousand years of civilization, from oracle-bone kings to the world's second-largest economy.",
+  "summary": "China is one of the world's oldest continuous civilizations, with a written record reaching back to the Bronze Age Shang dynasty around 1600 BCE. From the philosophical ferment of the Zhou and the imperial unification under the First Emperor of Qin in 221 BCE, China developed an enduring tradition of centralized bureaucratic government that outlasted dozens of dynasties. Golden ages under the Tang and Song produced printing, gunpowder, paper money, and a flourishing of art and poetry, while later the Mongol Yuan, Han-Chinese Ming, and Manchu Qing dynasties governed a vast multiethnic empire. The collapse of the empire in 1911-12 gave way to a republic, warlordism, devastating war with Japan, and civil war, ending with the proclamation of the People's Republic of China on 1 October 1949. After the upheavals of the Mao era, market reforms launched in 1978 transformed China into a global economic power.",
+  "founding": {
+    "label": "Imperial unification under the First Emperor of Qin",
+    "yearLabel": "221 BCE",
+    "year": -221,
+    "detail": "China's conventional founding is dated to 221 BCE, when the state of Qin completed its conquest of the rival Warring States and its king assumed the title Shi Huangdi, First Sovereign Emperor, creating the first unified Chinese empire and the bureaucratic template that shaped every later dynasty. The modern state, the People's Republic of China, was proclaimed by Mao Zedong from the Tiananmen gate in Beijing on 1 October 1949."
+  },
+  "quickFacts": [
+    { "label": "Conventional founding", "value": "Qin unification, 221 BCE" },
+    { "label": "Earliest written records", "value": "Shang oracle bones, c. 1200 BCE" },
+    { "label": "Modern state", "value": "People's Republic of China, proclaimed 1 Oct 1949" },
+    { "label": "Official language", "value": "Standard Chinese (Mandarin / Putonghua)" },
+    { "label": "UNESCO landmarks", "value": "Great Wall; Mausoleum of the First Qin Emperor (both inscribed 1987)" },
+    { "label": "Government", "value": "Communist Party single-party socialist republic" }
+  ],
+  "eras": [
+    {
+      "id": "shang-zhou-foundations",
+      "title": "Bronze Age Kingdoms and the Hundred Schools",
+      "period": "c. 1600-256 BCE",
+      "startYear": -1600,
+      "endYear": -256,
+      "standfirst": "Diviners cracked ox bones to read the will of heaven while sages debated how a kingdom should be ruled.",
+      "body": [
+        "The earliest Chinese dynasty to leave a securely documented historical record is the Shang, conventionally dated from about 1600 to 1046 BCE. From its late capital at Anyang in the Yellow River valley, Shang kings ruled a Bronze Age society remembered for spectacular ritual bronzes and for the oracle bones, inscribed turtle plastrons and ox shoulder blades used in divination, that carry the oldest recognizable Chinese writing, dating to roughly 1200 BCE. These inscriptions, of which more than 150,000 have been recovered, are the foundation of Chinese historical and linguistic memory.",
+        "Around 1046 BCE the Zhou, a people from the western frontier, defeated the Shang at the Battle of Muye and founded a dynasty that would last in name nearly eight centuries, the longest in Chinese history. To justify their conquest the Zhou advanced the doctrine of the Mandate of Heaven, the idea that the right to rule was granted by heaven to virtuous kings and could be withdrawn from tyrants. This concept of conditional, morally accountable sovereignty became a permanent feature of Chinese political thought.",
+        "The Zhou is divided into the Western Zhou (1046-771 BCE), the period of strongest royal authority centered near modern Xi'an, and the Eastern Zhou (770-256 BCE), when the court moved east to Luoyang and royal power steadily dissolved into competing states. The later Eastern Zhou, the eras of the Spring and Autumn period and the Warring States, was politically chaotic but intellectually brilliant: it produced the 'Hundred Schools of Thought,' including the Confucianism of Confucius (551-479 BCE), Daoism, Mohism, and Legalism, whose ideas shaped Chinese civilization ever after."
+      ],
+      "events": [
+        {
+          "year": -1600,
+          "yearLabel": "c. 1600 BCE",
+          "endYear": -1046,
+          "title": "Shang dynasty rules the Yellow River valley",
+          "summary": "The Shang, the first Chinese dynasty with historical records, governs from cities such as Anyang and produces ritual bronzes and the oracle-bone script, the earliest known Chinese writing.",
+          "category": "founding",
+          "sources": ["britannica-china", "si-zhou", "metmuseum-han"]
+        },
+        {
+          "year": -1200,
+          "yearLabel": "c. 1200 BCE",
+          "title": "Oracle-bone divination records",
+          "summary": "Shang diviners inscribe questions to ancestors and deities on ox bones and turtle shells; these inscriptions are the oldest unambiguous Chinese writing and a primary source for early history.",
+          "category": "culture",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": -1046,
+          "yearLabel": "c. 1046 BCE",
+          "title": "Zhou conquest and the Mandate of Heaven",
+          "summary": "King Wu of Zhou defeats the Shang at the Battle of Muye and founds the Zhou dynasty, justifying the overthrow with the Mandate of Heaven, a doctrine of morally conditional rule that endures for millennia.",
+          "category": "politics",
+          "sources": ["si-zhou", "worldhistory-zhou"]
+        },
+        {
+          "year": -771,
+          "yearLabel": "771 BCE",
+          "title": "Western Zhou collapses; Eastern Zhou begins",
+          "summary": "Nomadic invasions force the Zhou court to flee east to Luoyang in 771 BCE, beginning the Eastern Zhou and a long decline of royal authority into the Spring and Autumn and Warring States periods.",
+          "category": "war",
+          "sources": ["si-zhou", "worldhistory-zhou"]
+        },
+        {
+          "year": -551,
+          "yearLabel": "551 BCE",
+          "endYear": -479,
+          "title": "Lifetime of Confucius",
+          "summary": "Confucius (551-479 BCE) teaches that social order rests on moral cultivation, ritual, and proper human relationships; his thought becomes the dominant ethical tradition of imperial China.",
+          "category": "culture",
+          "sources": ["si-zhou", "britannica-china"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Confucius (Kongzi)",
+          "role": "Philosopher and teacher",
+          "life": "551-479 BCE",
+          "blurb": "An itinerant teacher of the late Spring and Autumn period whose emphasis on virtue, filial piety, ritual propriety, and benevolent government became the ethical backbone of Chinese statecraft and education for more than two thousand years.",
+          "sources": ["si-zhou", "britannica-china"]
+        }
+      ],
+      "pullquote": {
+        "text": "Heaven sees as the people see; heaven hears as the people hear.",
+        "attribution": "Attributed to the Book of Documents, a classic of the Zhou tradition"
+      },
+      "sources": ["britannica-china", "si-zhou", "worldhistory-zhou", "metmuseum-han"]
+    },
+    {
+      "id": "qin-han-empire",
+      "title": "Imperial Unification: Qin and Han",
+      "period": "221 BCE-220 CE",
+      "startYear": -221,
+      "endYear": 220,
+      "standfirst": "One emperor standardized a continent's script, roads, and weights; the next four centuries gave China its lasting name and ideal of government.",
+      "body": [
+        "In 221 BCE the state of Qin completed a decade-long conquest of the rival Warring States, and its king proclaimed himself Shi Huangdi, First Sovereign Emperor. With his chancellor Li Si, the First Emperor abolished the old feudal order, divided the realm into centrally administered prefectures and counties, and standardized the writing system, currency, weights, measures, and axle widths. He linked and extended earlier frontier walls into a precursor of the Great Wall and was buried near Xi'an in a vast funerary complex guarded by an army of some 8,000 life-sized terracotta soldiers. The bureaucratic structure he institutionalized became the foundation of every subsequent dynasty.",
+        "The Qin's harsh laws and forced labor provoked revolt, and the dynasty fell in 207 BCE, soon replaced by the Han (206 BCE-220 CE), which gave its name to China's majority ethnicity. Under the Han the imperial system matured: an educated bureaucracy loyal to the state, recruited increasingly through examinations on Confucian texts, governed the empire, and Confucianism was adopted as the official ideology under Emperor Wu (reigned 141-87 BCE).",
+        "Emperor Wu's armies drove back the Xiongnu nomads and pushed Chinese power deep into Central Asia, opening the network of overland trade routes later known as the Silk Road, which carried silk, ideas, and religions between China and the Mediterranean world. The Han is divided by a brief usurpation into the Western Han (206 BCE-9 CE) and the Eastern Han (25-220 CE); its collapse in 220 CE ushered in centuries of division, but its institutions and its very name remained the model of a unified Chinese state."
+      ],
+      "events": [
+        {
+          "year": -221,
+          "yearLabel": "221 BCE",
+          "title": "Qin unifies China; the First Emperor is proclaimed",
+          "summary": "Qin completes its conquest of the Warring States and its king takes the title Shi Huangdi, founding the first unified Chinese empire and the centralized bureaucratic system that defines imperial China.",
+          "category": "founding",
+          "sources": ["britannica-qin-shi-huang", "britannica-china"]
+        },
+        {
+          "year": -214,
+          "yearLabel": "c. 214 BCE",
+          "title": "Frontier walls joined into the Great Wall",
+          "summary": "Under the First Emperor, earlier northern fortifications are connected into a unified defense against steppe invasions, the origin of the Great Wall that later dynasties would expand.",
+          "category": "war",
+          "sources": ["unesco-great-wall", "britannica-qin-shi-huang"]
+        },
+        {
+          "year": -210,
+          "yearLabel": "210 BCE",
+          "title": "Death of the First Emperor and the terracotta army",
+          "summary": "Qin Shi Huang dies and is entombed near Xi'an in a colossal mausoleum guarded by roughly 8,000 terracotta warriors, rediscovered in 1974 and now a UNESCO World Heritage site.",
+          "category": "culture",
+          "sources": ["unesco-qin-mausoleum", "britannica-qin-shi-huang"]
+        },
+        {
+          "year": -206,
+          "yearLabel": "206 BCE",
+          "endYear": 220,
+          "title": "Han dynasty consolidates the empire",
+          "summary": "After the Qin collapse, the Han dynasty (206 BCE-220 CE) institutionalizes Confucian-trained bureaucracy and the civil service, giving China its enduring model of imperial government and the name of its majority people.",
+          "category": "politics",
+          "sources": ["si-han", "metmuseum-han", "britannica-china"]
+        },
+        {
+          "year": -138,
+          "yearLabel": "c. 138 BCE",
+          "title": "Silk Road trade routes open under Emperor Wu",
+          "summary": "Emperor Wu's campaigns against the Xiongnu and missions into Central Asia open the overland Silk Road, linking China to India, Persia, and the Mediterranean in exchange of goods and ideas.",
+          "category": "economy",
+          "sources": ["si-han", "metmuseum-han"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Qin Shi Huang",
+          "role": "First Emperor of unified China",
+          "life": "259-210 BCE",
+          "blurb": "King of Qin who conquered the Warring States and proclaimed himself First Emperor in 221 BCE. He standardized script, coinage, and measures, built road and wall networks, and ordered the terracotta army for his tomb, founding the imperial system that lasted until 1912.",
+          "sources": ["britannica-qin-shi-huang"]
+        },
+        {
+          "name": "Emperor Wu of Han (Han Wudi)",
+          "role": "Han emperor",
+          "life": "reigned 141-87 BCE",
+          "blurb": "Expansionist emperor who made Confucianism the state ideology, professionalized the bureaucracy, drove back the Xiongnu, and opened the Silk Road, roughly doubling the territory and prestige of the Han empire.",
+          "sources": ["si-han", "britannica-china"]
+        }
+      ],
+      "pullquote": {
+        "text": "When Qin succeeded in unifying China in 221 BCE, its king claimed the title of First Sovereign Emperor.",
+        "attribution": "Encyclopaedia Britannica, on the founding of imperial China"
+      },
+      "sources": ["britannica-qin-shi-huang", "britannica-china", "unesco-great-wall", "unesco-qin-mausoleum", "si-han", "metmuseum-han"]
+    },
+    {
+      "id": "division-tang-song",
+      "title": "Division, Reunification, and the Tang-Song Golden Age",
+      "period": "220-1279",
+      "startYear": 220,
+      "endYear": 1279,
+      "standfirst": "After centuries of fracture, a cosmopolitan empire and a commercial revolution gave the world printing, paper money, and gunpowder.",
+      "body": [
+        "The fall of the Han in 220 CE opened nearly four centuries of division, the Three Kingdoms and the Northern and Southern Dynasties, during which Buddhism spread widely through China. The short-lived Sui dynasty (581-618) reunified the realm and built the Grand Canal linking north and south, but exhausted itself in labor and war, paving the way for the Tang.",
+        "The Tang dynasty (618-907), founded by Li Yuan, is remembered as one of China's most brilliant and cosmopolitan ages. From its capital at Chang'an, then perhaps the largest city in the world, the Tang projected power across Central Asia, welcomed foreign merchants and religions along the Silk Road, refined the civil service examinations, and presided over a golden age of poetry. Woodblock printing emerged in this period, and gunpowder was first formulated.",
+        "After a half-century of fragmentation, the Song dynasty (960-1279) reunified most of China and presided over a commercial and technological revolution. The Song saw movable-type printing, the world's first government-issued paper money, the magnetic compass applied to navigation, advances in shipbuilding, and the military use of gunpowder in bombs and fire-arrows. Together the Tang and Song are often called China's golden age, an era of unmatched cultural and economic sophistication, even as the Song were eventually pressed and then overrun by powerful northern empires."
+      ],
+      "events": [
+        {
+          "year": 220,
+          "yearLabel": "220 CE",
+          "endYear": 589,
+          "title": "Collapse of the Han and centuries of division",
+          "summary": "The Han empire fragments into the Three Kingdoms and successive Northern and Southern Dynasties, a long era of disunion during which Buddhism takes deep root in China.",
+          "category": "war",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": 589,
+          "yearLabel": "589 CE",
+          "title": "Sui dynasty reunifies China",
+          "summary": "The Sui (581-618) reunite north and south and build the Grand Canal, restoring a centralized empire after centuries of division and setting the stage for the Tang golden age.",
+          "category": "politics",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": 618,
+          "yearLabel": "618 CE",
+          "endYear": 907,
+          "title": "Tang dynasty and a cosmopolitan golden age",
+          "summary": "The Tang dynasty (618-907) builds a vast, outward-looking empire centered on Chang'an, refining the examination system and producing a flowering of poetry; woodblock printing and gunpowder first appear.",
+          "category": "culture",
+          "sources": ["si-tang", "afe-columbia"]
+        },
+        {
+          "year": 960,
+          "yearLabel": "960 CE",
+          "endYear": 1279,
+          "title": "Song dynasty and a commercial revolution",
+          "summary": "The Song dynasty (960-1279) presides over an economic and technological boom, introducing movable-type printing, government paper money, the navigational compass, and gunpowder weapons.",
+          "category": "economy",
+          "sources": ["afe-columbia", "britannica-china"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Emperor Taizong of Tang (Li Shimin)",
+          "role": "Tang emperor",
+          "life": "reigned 626-649",
+          "blurb": "A founding ruler of the Tang whose reign, the Zhenguan era, became the model of effective and benevolent government, consolidating the dynasty's power and inaugurating its cosmopolitan golden age.",
+          "sources": ["si-tang", "afe-columbia"]
+        }
+      ],
+      "pullquote": {
+        "text": "The Song dynasty follows the Tang, and the two together constitute what is often called China's Golden Age.",
+        "attribution": "Asia for Educators, Columbia University"
+      },
+      "sources": ["britannica-china", "si-tang", "afe-columbia"]
+    },
+    {
+      "id": "yuan-ming-qing",
+      "title": "Empires of Conquest and Restoration: Yuan, Ming, Qing",
+      "period": "1271-1912",
+      "startYear": 1271,
+      "endYear": 1912,
+      "standfirst": "Mongol and Manchu conquerors and a restored Han dynasty governed the largest empire China had ever known.",
+      "body": [
+        "In 1271 Kublai Khan, grandson of Genghis Khan, declared the Yuan dynasty (1271-1368) and by 1279 had completed the Mongol conquest of the Song, making China for the first time part of a vast Eurasian empire. The Yuan moved the capital to Dadu, modern Beijing, opened China to greater overland exchange, and is the era in which the Venetian Marco Polo claimed to have traveled. Mongol rule, however, rested on a small foreign elite over a resentful Han majority and was undone within a century by rebellion and natural disaster.",
+        "In 1368 the rebel leader Zhu Yuanzhang expelled the Mongols and founded the Ming dynasty (1368-1644), restoring Han Chinese rule. The Ming rebuilt and largely completed the Great Wall in its familiar stone form, constructed the Forbidden City in Beijing, and in the early fifteenth century dispatched the admiral Zheng He on seven grand maritime expeditions across the Indian Ocean before retreating into a more inward stance.",
+        "In 1644 the Manchus, a people from the northeast, seized Beijing and established the Qing dynasty (1644-1912), China's last imperial house. Under emperors such as Kangxi and Qianlong the Qing expanded the empire to its greatest territorial extent and oversaw cultural flowering and population growth. From the nineteenth century, however, the dynasty was battered by internal rebellions such as the catastrophic Taiping Rebellion, by the Opium Wars and unequal treaties imposed by Western powers, and by defeat to Japan, leaving the empire weakened and exposed to revolution."
+      ],
+      "events": [
+        {
+          "year": 1271,
+          "yearLabel": "1271 CE",
+          "endYear": 1368,
+          "title": "Kublai Khan founds the Mongol Yuan dynasty",
+          "summary": "Kublai Khan declares the Yuan dynasty in 1271 and completes the conquest of the Song by 1279, ruling China from Dadu (Beijing) as the first foreign-led dynasty to govern all of China.",
+          "category": "war",
+          "sources": ["britannica-yuan", "worldhistory-yuan"]
+        },
+        {
+          "year": 1368,
+          "yearLabel": "1368 CE",
+          "endYear": 1644,
+          "title": "Ming dynasty restores Han rule",
+          "summary": "Zhu Yuanzhang overthrows the Yuan and founds the Ming dynasty (1368-1644), which rebuilds the Great Wall in stone, constructs the Forbidden City, and revives Han Chinese imperial governance.",
+          "category": "founding",
+          "sources": ["britannica-china", "worldhistory-yuan"]
+        },
+        {
+          "year": 1405,
+          "yearLabel": "1405 CE",
+          "endYear": 1433,
+          "title": "Zheng He's maritime voyages",
+          "summary": "The Ming admiral Zheng He leads seven vast treasure-fleet expeditions across Southeast Asia, the Indian Ocean, and the coast of Africa, projecting Chinese power before the dynasty turns inward.",
+          "category": "economy",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": 1644,
+          "yearLabel": "1644 CE",
+          "endYear": 1912,
+          "title": "Manchus establish the Qing dynasty",
+          "summary": "The Manchus capture Beijing and found the Qing dynasty (1644-1912), China's last imperial dynasty, which expands the empire to its greatest extent under the Kangxi and Qianlong emperors.",
+          "category": "politics",
+          "sources": ["britannica-china", "worldhistory-yuan"]
+        },
+        {
+          "year": 1839,
+          "yearLabel": "1839 CE",
+          "endYear": 1842,
+          "title": "First Opium War and the 'unequal treaties'",
+          "summary": "War with Britain over the opium trade ends in Qing defeat and the Treaty of Nanjing (1842), ceding Hong Kong and opening treaty ports, the start of a century of foreign encroachment China calls its century of humiliation.",
+          "category": "colonization",
+          "sources": ["britannica-china"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Kublai Khan",
+          "role": "Founder of the Yuan dynasty",
+          "life": "1215-1294",
+          "blurb": "Grandson of Genghis Khan who completed the Mongol conquest of China, proclaimed the Yuan dynasty in 1271, and ruled a Eurasian empire from Dadu (Beijing), the first non-Han sovereign to rule all of China.",
+          "sources": ["britannica-yuan", "worldhistory-yuan"]
+        },
+        {
+          "name": "Zheng He",
+          "role": "Ming admiral and explorer",
+          "life": "c. 1371-1433",
+          "blurb": "A Muslim eunuch admiral who commanded seven enormous Ming treasure-fleet voyages across the Indian Ocean in the early fifteenth century, reaching Arabia and East Africa decades before European ocean exploration.",
+          "sources": ["britannica-china"]
+        }
+      ],
+      "pullquote": {
+        "text": "The Qing dynasty (1644-1911/12) continued the administrative centrality of the Yuan.",
+        "attribution": "Encyclopaedia Britannica"
+      },
+      "sources": ["britannica-china", "britannica-yuan", "worldhistory-yuan", "unesco-great-wall"]
+    },
+    {
+      "id": "republic-and-war",
+      "title": "The Fall of the Empire: Republic, Warlords, and War",
+      "period": "1912-1949",
+      "startYear": 1912,
+      "endYear": 1949,
+      "standfirst": "Two thousand years of monarchy ended in 1912, but a fragile republic gave way to warlords, invasion, and civil war.",
+      "body": [
+        "The Wuchang Uprising of 10 October 1911 triggered the Xinhai Revolution, which swept aside the Qing dynasty. On 1 January 1912 Sun Yat-sen was inaugurated provisional president of the new Republic of China at Nanjing, and on 12 February 1912 the child emperor Puyi abdicated, ending more than two thousand years of imperial rule. Sun soon ceded the presidency to the general Yuan Shikai in a bid for unity.",
+        "Yuan's death in 1916 left no legitimate central authority, and China fractured into the Warlord Era, a period of regional military rule and instability. The Nationalist Party (Kuomintang), reorganized by Sun Yat-sen and later led by Chiang Kai-shek, nominally reunified much of the country by 1928 but was locked in a bitter rivalry with the young Chinese Communist Party.",
+        "From 1937 Japan launched a full-scale invasion, the Second Sino-Japanese War, marked by atrocities including the Nanjing Massacre of December 1937, in which Japanese forces killed many tens of thousands of civilians and prisoners and committed mass rape. The war devastated China and merged into World War II. Japan's defeat in 1945 reopened the Chinese Civil War between Nationalists and Communists, which the Communists won in 1949, driving Chiang Kai-shek's government to Taiwan."
+      ],
+      "events": [
+        {
+          "year": 1911,
+          "yearLabel": "1911 CE",
+          "title": "Xinhai Revolution erupts",
+          "summary": "The Wuchang Uprising of 10 October 1911 sparks the Xinhai Revolution against the Qing, rapidly spreading across the provinces and bringing down China's last imperial dynasty.",
+          "category": "independence",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": 1912,
+          "yearLabel": "1912 CE",
+          "title": "Republic of China founded; last emperor abdicates",
+          "summary": "Sun Yat-sen becomes provisional president of the Republic of China on 1 January 1912, and on 12 February the child emperor Puyi abdicates, ending more than two millennia of imperial rule.",
+          "category": "founding",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": 1916,
+          "yearLabel": "1916 CE",
+          "endYear": 1928,
+          "title": "Warlord Era of political fragmentation",
+          "summary": "The death of Yuan Shikai in 1916 plunges China into the Warlord Era, with regional militarists ruling much of the country until the Nationalists reassert partial unity by 1928.",
+          "category": "war",
+          "sources": ["britannica-china"]
+        },
+        {
+          "year": 1937,
+          "yearLabel": "1937 CE",
+          "endYear": 1945,
+          "title": "Second Sino-Japanese War and the Nanjing Massacre",
+          "summary": "Japan's full-scale invasion from July 1937 brings catastrophic violence, including the December 1937 Nanjing Massacre, in which Japanese forces murdered many tens of thousands of civilians and prisoners and committed mass rape.",
+          "category": "war",
+          "sources": ["britannica-sino-japanese", "britannica-china"]
+        },
+        {
+          "year": 1946,
+          "yearLabel": "1946 CE",
+          "endYear": 1949,
+          "title": "Chinese Civil War resumes; Communist victory",
+          "summary": "After Japan's surrender, full-scale civil war between Nationalists and Communists resumes, ending in 1949 with Communist victory and the retreat of Chiang Kai-shek's Nationalist government to Taiwan.",
+          "category": "war",
+          "sources": ["britannica-china"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Sun Yat-sen",
+          "role": "Revolutionary leader and first provisional president of the Republic",
+          "life": "1866-1925",
+          "blurb": "The principal architect of the 1911 revolution and founder of the Nationalist Party, revered in both mainland China and Taiwan as the father of the Chinese republic for his role in ending imperial rule.",
+          "sources": ["britannica-china"]
+        }
+      ],
+      "pullquote": {
+        "text": "The Qing dynasty, the ancient monarchy, and the Chinese empire had officially come to an end.",
+        "attribution": "On the abdication of the last emperor, 1912"
+      },
+      "sources": ["britannica-china", "britannica-sino-japanese"]
+    },
+    {
+      "id": "peoples-republic",
+      "title": "The People's Republic: Revolution, Upheaval, and Reform",
+      "period": "1949-present",
+      "startYear": 1949,
+      "endYear": 2026,
+      "standfirst": "From the Tiananmen proclamation through famine and turmoil to market reform, China became the world's second-largest economy.",
+      "body": [
+        "On 1 October 1949 Mao Zedong stood atop the Tiananmen gate in Beijing and proclaimed the founding of the People's Republic of China, with Zhou Enlai as premier. The new state consolidated Communist Party control, redistributed land, and aligned with the Soviet Union, while the defeated Nationalists held Taiwan.",
+        "Mao's drive to accelerate socialism brought catastrophe. The Great Leap Forward, launched in 1958 to industrialize the countryside through collectivization and backyard furnaces, triggered one of the deadliest famines in history from 1959 to 1961, with scholarly death-toll estimates ranging from roughly 15 million to tens of millions. From 1966 Mao launched the Cultural Revolution, a decade of political terror, persecution, and social chaos aimed at purging perceived enemies and bourgeois influences, that lasted until his death in 1976.",
+        "After Mao's death, Deng Xiaoping emerged as paramount leader and from 1978 launched the policy of 'reform and opening,' dismantling collective farming, welcoming foreign investment, and unleashing market forces while keeping the Communist Party's monopoly on power. The reforms produced decades of extraordinary growth that lifted hundreds of millions out of poverty and made China the world's second-largest economy. The era has also been marked by tight political control, exemplified by the violent suppression of pro-democracy protests in Tiananmen Square in 1989, and by China's rise to global power under later leaders including Xi Jinping."
+      ],
+      "events": [
+        {
+          "year": 1949,
+          "yearLabel": "1949 CE",
+          "title": "People's Republic of China proclaimed",
+          "summary": "Mao Zedong proclaims the People's Republic of China from the Tiananmen gate in Beijing on 1 October 1949, with Zhou Enlai as premier, after Communist victory in the civil war.",
+          "category": "founding",
+          "sources": ["britannica-china", "ebsco-prc-founding"]
+        },
+        {
+          "year": 1958,
+          "yearLabel": "1958 CE",
+          "endYear": 1962,
+          "title": "Great Leap Forward and the great famine",
+          "summary": "Mao's Great Leap Forward forces rapid collectivization and crude industrialization, causing a famine from 1959 to 1961 that killed an estimated 15 million to tens of millions of people.",
+          "category": "disaster",
+          "sources": ["britannica-great-leap", "ebsco-great-leap"]
+        },
+        {
+          "year": 1966,
+          "yearLabel": "1966 CE",
+          "endYear": 1976,
+          "title": "Cultural Revolution",
+          "summary": "Mao launches the Cultural Revolution, a decade of political persecution, purges, and social upheaval that convulses Chinese society until his death in 1976.",
+          "category": "politics",
+          "sources": ["britannica-china", "nationalarchives-cultural-rev"]
+        },
+        {
+          "year": 1978,
+          "yearLabel": "1978 CE",
+          "title": "Deng Xiaoping launches reform and opening",
+          "summary": "Under Deng Xiaoping, China begins 'reform and opening' in 1978, decollectivizing agriculture and embracing markets and foreign investment, igniting decades of rapid economic growth.",
+          "category": "economy",
+          "sources": ["britannica-china", "cfr-mao-deng"]
+        },
+        {
+          "year": 1989,
+          "yearLabel": "1989 CE",
+          "title": "Tiananmen Square crackdown",
+          "summary": "The army violently suppresses pro-democracy demonstrations centered on Beijing's Tiananmen Square in June 1989, killing many protesters and reasserting tight Communist Party political control.",
+          "category": "politics",
+          "sources": ["britannica-china"]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Mao Zedong",
+          "role": "Founding leader of the People's Republic",
+          "life": "1893-1976",
+          "blurb": "Chairman of the Chinese Communist Party who led the Communists to victory in 1949 and ruled until 1976. He unified the country under party control but his campaigns, the Great Leap Forward and the Cultural Revolution, caused tens of millions of deaths and vast suffering.",
+          "sources": ["britannica-china", "cfr-mao-deng"]
+        },
+        {
+          "name": "Deng Xiaoping",
+          "role": "Architect of China's economic reform",
+          "life": "1904-1997",
+          "blurb": "Paramount leader who launched the 'reform and opening' policies from 1978, transforming China's economy while preserving one-party rule. His era lifted hundreds of millions out of poverty but also saw the 1989 Tiananmen crackdown.",
+          "sources": ["britannica-china", "cfr-mao-deng"]
+        }
+      ],
+      "pullquote": {
+        "text": "On October 1, 1949, Mao Zedong proclaimed the birth of the People's Republic of China from the Tiananmen gate overlooking Beijing.",
+        "attribution": "On the founding of the modern Chinese state"
+      },
+      "sources": ["britannica-china", "ebsco-prc-founding", "britannica-great-leap", "ebsco-great-leap", "nationalarchives-cultural-rev", "cfr-mao-deng"]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Qin Shi Huang",
+      "role": "First Emperor of unified China (reigned 221-210 BCE)",
+      "life": "259-210 BCE",
+      "blurb": "Unified the Warring States in 221 BCE and founded the imperial system, standardizing script, currency, and measures and ordering the terracotta army for his tomb.",
+      "sources": ["britannica-qin-shi-huang"]
+    },
+    {
+      "name": "Mao Zedong",
+      "role": "Founding leader of the People's Republic (1949-1976)",
+      "life": "1893-1976",
+      "blurb": "Led the Communist Party to power and proclaimed the People's Republic in 1949; his rule reunified China but his mass campaigns caused tens of millions of deaths.",
+      "sources": ["britannica-china", "ebsco-prc-founding"]
+    },
+    {
+      "name": "Deng Xiaoping",
+      "role": "Reform-era paramount leader",
+      "life": "1904-1997",
+      "blurb": "From 1978 launched the market reforms that turned China into a global economic power while maintaining one-party rule.",
+      "sources": ["britannica-china", "cfr-mao-deng"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-china",
+      "label": "China",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/China",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-qin-shi-huang",
+      "label": "Qin Shi Huang",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Qin-Shi-Huang",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-yuan",
+      "label": "Yuan dynasty",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Yuan-dynasty",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-sino-japanese",
+      "label": "Second Sino-Japanese War",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Second-Sino-Japanese-War",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "britannica-great-leap",
+      "label": "Great Leap Forward",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Great-Leap-Forward",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "unesco-great-wall",
+      "label": "The Great Wall (World Heritage List)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/438",
+      "kind": "gov"
+    },
+    {
+      "id": "unesco-qin-mausoleum",
+      "label": "Mausoleum of the First Qin Emperor (World Heritage List)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/441",
+      "kind": "gov"
+    },
+    {
+      "id": "si-zhou",
+      "label": "Zhou dynasty (ca. 1050-221 BCE), Teaching China with the Smithsonian",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/",
+      "kind": "museum"
+    },
+    {
+      "id": "si-han",
+      "label": "Han dynasty (206 BCE-220 CE), Teaching China with the Smithsonian",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/han-dynasty/",
+      "kind": "museum"
+    },
+    {
+      "id": "si-tang",
+      "label": "Tang dynasty, Teaching China with the Smithsonian",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/tang-dynasty/",
+      "kind": "museum"
+    },
+    {
+      "id": "metmuseum-han",
+      "label": "Han Dynasty (206 B.C.-220 A.D.)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/han-dynasty-206-b-c-220-a-d",
+      "kind": "museum"
+    },
+    {
+      "id": "worldhistory-zhou",
+      "label": "Zhou Dynasty",
+      "publisher": "World History Encyclopedia",
+      "url": "https://www.worldhistory.org/Zhou_Dynasty/",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "worldhistory-yuan",
+      "label": "Yuan Dynasty",
+      "publisher": "World History Encyclopedia",
+      "url": "https://www.worldhistory.org/Yuan_Dynasty/",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "afe-columbia",
+      "label": "Song Dynasty and the golden age (Asia for Educators)",
+      "publisher": "Columbia University, Asia for Educators",
+      "url": "https://afe.easia.columbia.edu/main_pop/kpct/kp_1000-1450ce.htm",
+      "kind": "academic"
+    },
+    {
+      "id": "ebsco-prc-founding",
+      "label": "Mao Zedong Proclaims a Communist People's Republic in China",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/politics-and-government/mao-zedong-proclaims-communist-peoples-republic-china",
+      "kind": "reference"
+    },
+    {
+      "id": "ebsco-great-leap",
+      "label": "Great Leap Forward famine",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/great-leap-forward-famine",
+      "kind": "reference"
+    },
+    {
+      "id": "nationalarchives-cultural-rev",
+      "label": "The Cultural Revolution",
+      "publisher": "The National Archives (UK)",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/the-cultural-revolution/",
+      "kind": "archive"
+    },
+    {
+      "id": "cfr-mao-deng",
+      "label": "How China Transformed Under Mao Zedong and Deng Xiaoping",
+      "publisher": "Council on Foreign Relations (CFR Education)",
+      "url": "https://education.cfr.org/learn/reading/china-mao-zedong-deng-xiaoping",
+      "kind": "academic"
+    }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

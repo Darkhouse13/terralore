@@ -1,0 +1,183 @@
+{
+  "code": "USA",
+  "name": "United States",
+  "tagline": "From Indigenous homelands to a continental republic and global superpower.",
+  "summary": "The history of the United States spans the deep antiquity of Indigenous nations who peopled the continent for many thousands of years, the violent disruption of European colonisation, and the birth of a self-governing republic in the late eighteenth century. Founded on a Declaration that proclaimed human equality while tolerating slavery and the dispossession of Native peoples, the nation expanded across a continent, fractured in a civil war over human bondage, and reconstructed itself around abolition and citizenship. Industrialisation, mass immigration, and two world wars carried the United States to the centre of world affairs, where its mid-twentieth-century civil rights struggles and Cold War rivalry reshaped both its domestic order and the international system.",
+  "founding": {
+    "label": "Declaration of Independence",
+    "yearLabel": "4 July 1776",
+    "year": 1776,
+    "detail": "On 4 July 1776 the Second Continental Congress adopted the Declaration of Independence, announcing the separation of thirteen British colonies from Great Britain. A durable framework of government followed: the Constitution was signed on 17 September 1787 and, after New Hampshire became the ninth state to ratify on 21 June 1788, took effect when the new federal government convened on 4 March 1789, with George Washington inaugurated as first president on 30 April 1789."
+  },
+  "quickFacts": [
+    { "label": "Founding document", "value": "Declaration of Independence, adopted 4 July 1776" },
+    { "label": "Constitution", "value": "Signed 1787; ratified 1788; government began 1789" },
+    { "label": "Original states", "value": "Thirteen former British colonies" },
+    { "label": "Slavery abolished", "value": "Thirteenth Amendment, ratified 6 December 1865" },
+    { "label": "Civil War", "value": "1861–1865, the deadliest conflict in U.S. history" },
+    { "label": "Government", "value": "Federal constitutional republic" }
+  ],
+  "eras": [
+    {
+      "id": "indigenous-americas",
+      "title": "Indigenous America before contact",
+      "period": "c. 15,000 BCE – 1492 CE",
+      "startYear": -15000,
+      "endYear": 1492,
+      "standfirst": "For millennia before any European sail appeared, the land that would become the United States was home to hundreds of distinct nations, languages, and civilisations.",
+      "body": [
+        "Human beings reached the Americas during the last Ice Age, most likely by way of Beringia, the land and coastal corridor that joined eastern Siberia to Alaska when sea levels were low. Archaeological and genetic evidence places the earliest secure occupations of the Americas at least 13,000 to 15,000 years ago, with some sites and DNA studies pointing to an even earlier presence. Over thousands of years these populations spread across two continents and developed an extraordinary diversity of cultures adapted to deserts, forests, plains, and coasts.",
+        "Within the bounds of the future United States, agriculture based on maize, beans, and squash transformed many societies. The Ancestral Puebloans of the Southwest built masonry towns and cliff dwellings; the Mississippian peoples raised great earthen mounds and, at Cahokia near present-day St. Louis, sustained a city that around 1100 CE rivalled contemporary European centres in population. In the Eastern Woodlands, confederacies such as the Haudenosaunee (Iroquois) governed through sophisticated political compacts.",
+        "These were not static or empty lands but densely woven human worlds, with trade networks, oral histories, and systems of law and diplomacy. The arrival of Europeans after 1492 would bring catastrophic epidemics and dispossession, but the continent's Indigenous nations long predated, and would long survive, that encounter."
+      ],
+      "events": [
+        { "year": -13000, "yearLabel": "c. 13,000 BCE", "title": "Peopling of the Americas", "summary": "Humans were established across the Americas by at least 13,000–15,000 years ago, having entered via the Beringian land bridge and Pacific coast from Asia during the last Ice Age.", "category": "migration", "sources": ["loc-overview"] },
+        { "year": 1100, "yearLabel": "c. 1100 CE", "title": "Cahokia at its height", "summary": "The Mississippian city of Cahokia, near present-day St. Louis, reached its peak as one of the largest urban centres north of Mexico, anchored by monumental earthen mounds.", "category": "culture", "sources": ["loc-overview"] },
+        { "year": 1492, "yearLabel": "1492 CE", "title": "Columbus reaches the Caribbean", "summary": "Christopher Columbus's landfall opened sustained contact between Europe and the Americas, beginning an era of conquest, colonisation, and devastating disease for Indigenous peoples.", "category": "colonization", "sources": ["brit-jamestown"] }
+      ],
+      "sources": ["loc-overview", "brit-jamestown"]
+    },
+    {
+      "id": "colonisation-thirteen-colonies",
+      "title": "European colonisation and the Thirteen Colonies",
+      "period": "1492 – 1763",
+      "startYear": 1492,
+      "endYear": 1763,
+      "standfirst": "European empires planted rival colonies along the Atlantic seaboard, building societies on Indigenous land and, increasingly, on the labour of enslaved Africans.",
+      "body": [
+        "After tentative beginnings, England secured its first permanent foothold at Jamestown, Virginia, in 1607, a private venture financed by the Virginia Company of London. The colony survived disease, hunger, and conflict with the Powhatan peoples partly by turning to tobacco cultivation, which created an insatiable demand for labour. In 1620 a separate group of religious dissenters, the Pilgrims, founded Plymouth in New England, the first lasting colony in that region.",
+        "The future United States took shape as a chain of thirteen British colonies, each with its own character: Puritan New England, the commercial and ethnically mixed middle colonies, and the plantation societies of the South. From 1619, when an English ship landed 'twenty and odd' captive Africans at Point Comfort in Virginia, the colonies were drawn into the transatlantic slave trade. Over the colonial era slavery hardened into a hereditary, racialised system of chattel bondage, especially in the South, that would shape American life for centuries.",
+        "Colonisation came at the expense of Indigenous nations, who lost land through warfare, treaty, and the demographic collapse caused by introduced diseases. By the mid-eighteenth century the British colonies were populous, prosperous, and accustomed to a large measure of self-government through their own assemblies—an autonomy that imperial authorities in London would soon try to curb."
+      ],
+      "events": [
+        { "year": 1607, "yearLabel": "1607", "title": "Founding of Jamestown", "summary": "English settlers established Jamestown in Virginia, the first permanent English settlement in North America, financed by the Virginia Company of London.", "category": "colonization", "sources": ["brit-jamestown"] },
+        { "year": 1619, "yearLabel": "August 1619", "title": "First Africans landed in Virginia", "summary": "An English ship brought roughly twenty enslaved Africans to Point Comfort, Virginia, marking the beginning of African slavery in the English mainland colonies.", "category": "migration", "sources": ["nps-1619"] },
+        { "year": 1620, "yearLabel": "1620", "title": "Pilgrims found Plymouth", "summary": "Separatist Pilgrims aboard the Mayflower established Plymouth Colony, the first enduring European settlement in New England.", "category": "religion", "sources": ["brit-plymouth", "brit-mayflower"] },
+        { "year": 1754, "yearLabel": "1754–1763", "endYear": 1763, "title": "French and Indian War", "summary": "Britain's victory in the North American theatre of the Seven Years' War expelled France from the continent but left Britain heavily indebted, prompting new colonial taxes.", "category": "war", "sources": ["loc-overview"] }
+      ],
+      "figures": [
+        { "name": "Powhatan (Wahunsenacawh)", "role": "Paramount chief of the Powhatan confederacy", "life": "d. 1618", "blurb": "Leader of the alliance of Algonquian-speaking peoples whose lands surrounded Jamestown, navigating trade, diplomacy, and conflict with the early English colonists.", "sources": ["brit-jamestown"] }
+      ],
+      "sources": ["brit-jamestown", "nps-1619", "brit-plymouth", "brit-mayflower", "loc-overview"]
+    },
+    {
+      "id": "revolution-and-republic",
+      "title": "Revolution and the founding of the Republic",
+      "period": "1763 – 1815",
+      "startYear": 1763,
+      "endYear": 1815,
+      "standfirst": "Resistance to British taxation grew into a war of independence and the creation of a new kind of state: a large federal republic governed by a written constitution.",
+      "body": [
+        "After 1763, parliamentary taxes imposed without colonial consent—the Stamp Act, the Townshend duties, and others—ignited protest under the slogan 'no taxation without representation.' Confrontation escalated to bloodshed at Lexington and Concord in April 1775. On 4 July 1776 the Second Continental Congress adopted the Declaration of Independence, drafted chiefly by Thomas Jefferson, which proclaimed that 'all men are created equal' and possessed unalienable rights—an ideal starkly at odds with the slavery the new nation tolerated.",
+        "The War of Independence, won with crucial French assistance, ended with British recognition of American sovereignty in the Treaty of Paris (1783). The first national framework, the Articles of Confederation, proved too weak, and in 1787 a convention in Philadelphia drafted the Constitution of the United States. After fierce debate it was ratified once New Hampshire became the ninth state to approve it on 21 June 1788; the new federal government convened on 4 March 1789, and George Washington was inaugurated as first president on 30 April 1789. A Bill of Rights, ratified in 1791, guaranteed fundamental liberties.",
+        "The young republic established national institutions, asserted federal authority, and pursued continental expansion. The Louisiana Purchase of 1803 doubled the nation's territory by acquiring vast French claims west of the Mississippi, and the Lewis and Clark expedition (1804–1806) explored the new lands—accelerating a westward drive that would intensify pressure on Indigenous nations. The War of 1812 against Britain confirmed American independence and fostered a sense of national identity."
+      ],
+      "events": [
+        { "year": 1776, "yearLabel": "4 July 1776", "title": "Declaration of Independence", "summary": "The Second Continental Congress adopted the Declaration of Independence, formally announcing the separation of the thirteen colonies from Great Britain.", "category": "independence", "sources": ["nara-declaration"] },
+        { "year": 1783, "yearLabel": "1783", "title": "Treaty of Paris", "summary": "Great Britain recognised the independence of the United States, ending the Revolutionary War and ceding territory east of the Mississippi.", "category": "war", "sources": ["loc-overview"] },
+        { "year": 1788, "yearLabel": "21 June 1788", "endYear": 1789, "title": "Constitution ratified", "summary": "With New Hampshire's ratification the Constitution took effect; the federal government began operating on 4 March 1789 and Washington was inaugurated that April.", "category": "founding", "sources": ["nara-declaration"] },
+        { "year": 1803, "yearLabel": "1803", "title": "Louisiana Purchase", "summary": "The United States bought France's Louisiana territory for $15 million, roughly doubling the nation's size and opening the trans-Mississippi West.", "category": "politics", "sources": ["brit-lewis-clark"] }
+      ],
+      "figures": [
+        { "name": "George Washington", "role": "Commander-in-chief and first U.S. president", "life": "1732–1799", "blurb": "Led the Continental Army to victory in the Revolution and, as the nation's first president (1789–1797), set enduring precedents for the office before relinquishing power voluntarily.", "sources": ["nara-declaration"] },
+        { "name": "Thomas Jefferson", "role": "Principal author of the Declaration; third president", "life": "1743–1826", "blurb": "Drafted the Declaration of Independence and, as president, completed the Louisiana Purchase. A champion of liberty who nonetheless held people in slavery, he embodied the new republic's central contradiction.", "sources": ["nara-declaration", "brit-lewis-clark"] }
+      ],
+      "pullquote": { "text": "We hold these truths to be self-evident, that all men are created equal.", "attribution": "Declaration of Independence, 1776" },
+      "sources": ["nara-declaration", "brit-lewis-clark", "loc-overview"]
+    },
+    {
+      "id": "expansion-slavery-civil-war",
+      "title": "Expansion, slavery, and the Civil War",
+      "period": "1815 – 1865",
+      "startYear": 1815,
+      "endYear": 1865,
+      "standfirst": "Continental expansion, the displacement of Native nations, and an irrepressible conflict over slavery culminated in the bloodiest war in American history.",
+      "body": [
+        "In the decades after 1815 the United States surged westward, driven by a belief in 'Manifest Destiny.' Expansion meant the forced removal of Indigenous nations—most notoriously the Cherokee Trail of Tears of 1838—and, after the U.S.–Mexican War (1846–1848), the annexation of vast southwestern territories. Each new acquisition reopened the explosive question of whether slavery would expand with the nation.",
+        "Slavery had become the foundation of the Southern economy, producing cotton for global markets on the labour of millions of enslaved people. A succession of fragile compromises—the Missouri Compromise of 1820, the Compromise of 1850, the Kansas–Nebraska Act of 1854—failed to settle the issue, and a militant abolitionist movement and a free-soil political coalition rose against the institution. The election of Abraham Lincoln in 1860 prompted eleven Southern states to secede and form the Confederacy.",
+        "The Civil War (1861–1865) began when Confederate forces fired on Fort Sumter in April 1861 and became a total war that killed an estimated 750,000 or more soldiers. Lincoln's Emancipation Proclamation of 1 January 1863 declared enslaved people in the rebelling states free and turned the war into a struggle for abolition. The Union victory, sealed by Robert E. Lee's surrender at Appomattox in April 1865, preserved the nation and led to the Thirteenth Amendment, ratified on 6 December 1865, which abolished slavery throughout the United States."
+      ],
+      "events": [
+        { "year": 1838, "yearLabel": "1838", "title": "Trail of Tears", "summary": "Under the Indian Removal Act, the United States forcibly marched the Cherokee and other southeastern nations west of the Mississippi; thousands died en route.", "category": "migration", "sources": ["loc-overview"] },
+        { "year": 1861, "yearLabel": "1861–1865", "endYear": 1865, "title": "American Civil War", "summary": "War between the Union and the secessionist Confederacy, ignited at Fort Sumter, became the deadliest conflict in U.S. history and decided the fate of slavery.", "category": "war", "sources": ["brit-civil-war"] },
+        { "year": 1863, "yearLabel": "1 January 1863", "title": "Emancipation Proclamation", "summary": "President Lincoln declared enslaved people in the rebelling states 'forever free,' redefining the war's purpose and clearing the way for Black enlistment in the Union army.", "category": "politics", "sources": ["nara-emancipation"] },
+        { "year": 1865, "yearLabel": "6 December 1865", "title": "Thirteenth Amendment abolishes slavery", "summary": "Ratified after the Union victory, the Thirteenth Amendment abolished slavery and involuntary servitude throughout the United States.", "category": "politics", "sources": ["nara-13th"] }
+      ],
+      "figures": [
+        { "name": "Abraham Lincoln", "role": "16th president of the United States", "life": "1809–1865", "blurb": "Led the Union through the Civil War, issued the Emancipation Proclamation, and championed the Thirteenth Amendment before his assassination in April 1865.", "sources": ["nara-emancipation", "brit-civil-war"] },
+        { "name": "Frederick Douglass", "role": "Abolitionist, orator, and statesman", "life": "c. 1818–1895", "blurb": "Escaped from slavery to become the era's foremost Black abolitionist, advancing emancipation and equal citizenship through his writing, speeches, and counsel to Lincoln.", "sources": ["loc-overview"] }
+      ],
+      "pullquote": { "text": "All persons held as slaves... shall be then, thenceforward, and forever free.", "attribution": "Emancipation Proclamation, 1863" },
+      "sources": ["brit-civil-war", "nara-emancipation", "nara-13th", "loc-overview"]
+    },
+    {
+      "id": "reconstruction-industry-world-wars",
+      "title": "Reconstruction, industrial rise, and the World Wars",
+      "period": "1865 – 1945",
+      "startYear": 1865,
+      "endYear": 1945,
+      "standfirst": "Emancipation gave way to a contested Reconstruction, an industrial transformation fed by mass immigration, and two world wars that propelled the nation to global power.",
+      "body": [
+        "Reconstruction (1865–1877) attempted to rebuild the South and secure rights for freed people: the Fourteenth Amendment guaranteed citizenship and equal protection, and the Fifteenth barred denial of the vote on grounds of race. But the withdrawal of federal troops and a violent white backlash overturned these gains, ushering in decades of racial segregation under 'Jim Crow' laws and disenfranchisement that endured well into the twentieth century.",
+        "The later nineteenth century brought breakneck industrialisation. Railroads bound the continent together, steel and oil empires arose, and tens of millions of immigrants—from Ireland, Italy, eastern Europe, China, and beyond—poured into expanding cities. This 'Gilded Age' generated immense wealth alongside sharp inequality, labour conflict, and movements for reform. The completion of continental conquest was marked by the closing of the frontier and the final subjugation of the Plains nations.",
+        "In the twentieth century the United States stepped onto the world stage. It entered the First World War in 1917, helping to decide the conflict. The prosperity of the 1920s collapsed into the Great Depression after the 1929 stock market crash, prompting Franklin D. Roosevelt's New Deal, which dramatically enlarged the federal government's role in economic life. The Japanese attack on Pearl Harbor on 7 December 1941 brought the United States into the Second World War, which it helped win in 1945, emerging as the world's preeminent economic and military power and entering the nuclear age."
+      ],
+      "events": [
+        { "year": 1868, "yearLabel": "1868", "title": "Fourteenth Amendment", "summary": "Ratified during Reconstruction, it granted citizenship to all persons born in the United States and guaranteed equal protection of the laws.", "category": "politics", "sources": ["loc-overview"] },
+        { "year": 1869, "yearLabel": "1869", "title": "Transcontinental railroad completed", "summary": "The joining of the rails at Promontory, Utah, linked the Atlantic and Pacific coasts, accelerating settlement, commerce, and industrial growth.", "category": "economy", "sources": ["loc-overview"] },
+        { "year": 1929, "yearLabel": "1929", "endYear": 1939, "title": "Great Depression", "summary": "The stock market crash of 1929 triggered a decade-long economic collapse, answered by Roosevelt's New Deal programmes of relief, recovery, and reform.", "category": "economy", "sources": ["loc-overview"] },
+        { "year": 1941, "yearLabel": "7 December 1941", "title": "Attack on Pearl Harbor", "summary": "Japan's surprise attack on the U.S. naval base in Hawaii brought the United States into the Second World War.", "category": "war", "sources": ["nara-pearl-harbor"] }
+      ],
+      "figures": [
+        { "name": "Franklin D. Roosevelt", "role": "32nd president of the United States", "life": "1882–1945", "blurb": "Led the nation through the Great Depression with the New Deal and through most of the Second World War, the only president elected to four terms.", "sources": ["loc-overview"] }
+      ],
+      "sources": ["loc-overview", "nara-pearl-harbor"]
+    },
+    {
+      "id": "superpower-civil-rights-modern",
+      "title": "Superpower, civil rights, and the modern era",
+      "period": "1945 – present",
+      "startYear": 1945,
+      "endYear": 2026,
+      "standfirst": "A Cold War superpower wrestled with its unfinished promise of equality, reshaping itself through the civil rights movement and decades of social and technological change.",
+      "body": [
+        "After 1945 the United States led the Western bloc in a Cold War rivalry with the Soviet Union that spanned proxy conflicts in Korea and Vietnam, a nuclear arms race, and the space race that culminated in the 1969 Moon landing. At home, postwar prosperity expanded a vast middle class, while suburbanisation and consumer culture transformed everyday life.",
+        "The most profound domestic struggle was the civil rights movement, which dismantled the legal architecture of segregation. The Supreme Court's Brown v. Board of Education (1954) ruled school segregation unconstitutional; mass nonviolent protest led by figures such as Martin Luther King Jr. pressed the cause; and Congress enacted the Civil Rights Act of 1964, barring discrimination in public life, and the Voting Rights Act of 1965, protecting the franchise. These laws transformed American democracy even as struggles over racial and economic justice continued.",
+        "The Cold War ended with the dissolution of the Soviet Union in 1991, leaving the United States the world's sole superpower. The decades since have been marked by globalisation, a digital and information revolution, the shock of the 11 September 2001 terrorist attacks and ensuing wars, and intense debate over immigration, inequality, and national identity. The United States remains a nation continually contesting the meaning of the ideals proclaimed at its founding."
+      ],
+      "events": [
+        { "year": 1954, "yearLabel": "1954", "title": "Brown v. Board of Education", "summary": "The Supreme Court ruled that racial segregation in public schools was unconstitutional, a landmark in the legal assault on Jim Crow.", "category": "politics", "sources": ["loc-overview"] },
+        { "year": 1964, "yearLabel": "2 July 1964", "title": "Civil Rights Act", "summary": "Signed by President Johnson, the Act outlawed discrimination based on race, colour, religion, sex, or national origin in employment and public accommodations.", "category": "politics", "sources": ["brit-civil-rights-act"] },
+        { "year": 1965, "yearLabel": "6 August 1965", "title": "Voting Rights Act", "summary": "The Act banned racial discrimination in voting and authorised federal oversight of elections, dramatically expanding Black political participation.", "category": "politics", "sources": ["brit-civil-rights-act"] },
+        { "year": 1969, "yearLabel": "1969", "title": "Apollo 11 Moon landing", "summary": "American astronauts became the first humans to walk on the Moon, a defining achievement of the Cold War space race.", "category": "culture", "sources": ["loc-overview"] },
+        { "year": 1991, "yearLabel": "1991", "title": "End of the Cold War", "summary": "The dissolution of the Soviet Union left the United States as the world's sole superpower and reshaped the international order.", "category": "politics", "sources": ["loc-overview"] }
+      ],
+      "figures": [
+        { "name": "Martin Luther King Jr.", "role": "Civil rights leader", "life": "1929–1968", "blurb": "The most prominent leader of the nonviolent civil rights movement, whose campaigns helped secure the Civil Rights and Voting Rights Acts before his assassination in 1968.", "sources": ["brit-civil-rights-act"] }
+      ],
+      "pullquote": { "text": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.", "attribution": "Martin Luther King Jr., 1963" },
+      "sources": ["brit-civil-rights-act", "loc-overview"]
+    }
+  ],
+  "figures": [
+    { "name": "George Washington", "role": "First president of the United States", "life": "1732–1799", "blurb": "Commander of the Continental Army and the first president, he anchored the new republic's institutions and set the precedent of peaceful transfer of power.", "sources": ["nara-declaration"] },
+    { "name": "Abraham Lincoln", "role": "16th president; emancipator", "life": "1809–1865", "blurb": "Preserved the Union through the Civil War and moved the nation toward the abolition of slavery before his assassination.", "sources": ["nara-emancipation"] },
+    { "name": "Martin Luther King Jr.", "role": "Civil rights leader", "life": "1929–1968", "blurb": "Led the nonviolent movement that ended legal segregation and reshaped American democracy.", "sources": ["brit-civil-rights-act"] }
+  ],
+  "sources": [
+    { "id": "nara-declaration", "label": "The Declaration of Independence", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/founding-docs/declaration", "kind": "gov" },
+    { "id": "nara-13th", "label": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/milestone-documents/13th-amendment", "kind": "gov" },
+    { "id": "nara-emancipation", "label": "The Emancipation Proclamation", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation", "kind": "gov" },
+    { "id": "nara-pearl-harbor", "label": "Joint Address to Congress Leading to a Declaration of War Against Japan (1941)", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan", "kind": "gov" },
+    { "id": "brit-jamestown", "label": "Jamestown Colony", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Jamestown-Colony", "kind": "encyclopedia" },
+    { "id": "brit-plymouth", "label": "Plymouth, Massachusetts", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Plymouth-Massachusetts", "kind": "encyclopedia" },
+    { "id": "brit-mayflower", "label": "Mayflower", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Mayflower-ship", "kind": "encyclopedia" },
+    { "id": "brit-civil-war", "label": "American Civil War", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/American-Civil-War", "kind": "encyclopedia" },
+    { "id": "brit-lewis-clark", "label": "Lewis and Clark Expedition", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Lewis-and-Clark-Expedition", "kind": "encyclopedia" },
+    { "id": "brit-civil-rights-act", "label": "Civil Rights Act (United States, 1964)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Civil-Rights-Act-United-States-1964", "kind": "encyclopedia" },
+    { "id": "nps-1619", "label": "Arrival of the First Africans in 1619", "publisher": "U.S. National Park Service", "url": "https://www.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm", "kind": "gov" },
+    { "id": "loc-overview", "label": "Abraham Lincoln and Emancipation; U.S. History Collections", "publisher": "Library of Congress", "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/", "kind": "gov" }
+  ],
+  "status": "published",
+  "updated": "2026-06-13"
+}

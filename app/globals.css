@@ -1,26 +1,151 @@
 @import "tailwindcss";
 
+/* ────────────────────────────────────────────────────────────────────────
+   Terra Historica — design tokens
+   An archival atlas: deep cosmic void for the globe, warm parchment for
+   long-form reading, a single restrained brass accent throughout.
+   ──────────────────────────────────────────────────────────────────────── */
+@theme {
+  /* Cosmic / dark surfaces (the globe lives here) */
+  --color-void: #06070b;
+  --color-void-soft: #0a0c13;
+  --color-void-panel: #11141d;
+  --color-void-line: #232838;
+
+  /* Parchment / light surfaces (reading) */
+  --color-parchment: #f3ecdd;
+  --color-parchment-deep: #e8ddc8;
+  --color-parchment-line: #d8cbb0;
+
+  /* Ink (text on parchment) */
+  --color-ink: #211c14;
+  --color-ink-soft: #5c5343;
+  --color-ink-faint: #8a7f6a;
+
+  /* Chalk (text on void) */
+  --color-chalk: #ece6d8;
+  --color-chalk-soft: #a7a193;
+  --color-chalk-faint: #6c6a64;
+
+  /* Brass — the one accent (aged maps, brass instruments) */
+  --color-brass: #bf9550;
+  --color-brass-bright: #dcb56e;
+  --color-brass-deep: #8a6a32;
+
+  /* Verdigris — oxidized-copper secondary, used sparingly on the globe/map */
+  --color-verdigris: #4b7d72;
+
+  --color-crimson: #9e3b32; /* used only for "war / rupture" markers */
+
+  --font-display: var(--ff-display);
+  --font-serif: var(--ff-serif);
+  --font-sans: var(--ff-sans);
+  --font-mono: var(--ff-mono);
+
+  --radius-card: 14px;
+
+  --shadow-lift: 0 1px 2px rgba(33, 28, 20, 0.06), 0 12px 32px -12px rgba(33, 28, 20, 0.22);
+  --shadow-float: 0 2px 6px rgba(0, 0, 0, 0.3), 0 30px 60px -24px rgba(0, 0, 0, 0.6);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv05";
+}
+
+/* ── Reusable editorial primitives ─────────────────────────────────────── */
+
+/* Small uppercase cartographic label */
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* Hairline rule, parchment context */
+@utility rule {
+  height: 1px;
+  background: var(--color-parchment-line);
+}
+
+/* Paper grain, layered behind reading content */
+.paper-grain {
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+
+/* Drop-cap for the opening paragraph of a history */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 500;
+  float: left;
+  font-size: 4.1rem;
+  line-height: 0.78;
+  padding: 0.06em 0.1em 0 0;
+  color: var(--color-brass-deep);
+}
+
+/* Long-form reading prose */
+.prose-history {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  line-height: 1.72;
+  color: #2c2519;
+}
+.prose-history p + p {
+  margin-top: 1.15em;
+}
+.prose-history em {
+  font-style: italic;
+}
+
+/* Custom scrollbar (subtle, brass thumb) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(191, 149, 80, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(191, 149, 80, 0.45);
+  border-radius: 9px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(191, 149, 80, 0.7);
+}
+
+::selection {
+  background: rgba(191, 149, 80, 0.28);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }
