@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getCountry, allCodes } from "@/lib/countries";
-import { getDossier } from "@/lib/domains";
+import { getCountry, allCodes, regionPeers } from "@/lib/countries";
+import { getDossier, getComparisons } from "@/lib/domains";
 import { getHistory } from "@/lib/histories";
 import Dossier from "@/components/dossier/Dossier";
 
@@ -34,11 +34,14 @@ export default async function CountryDossierPage({
 
   const dossier = getDossier(code);
   const history = getHistory(code);
+  const comparisons = getComparisons(code, regionPeers(code));
 
   return (
     <Dossier
       meta={meta}
       dossier={dossier}
+      comparisons={comparisons}
+      regionLabel={meta.subregion ?? meta.region}
       hasHistory={!!history}
       historyTagline={history?.tagline ?? null}
     />

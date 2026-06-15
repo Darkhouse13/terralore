@@ -66,6 +66,24 @@ export interface CountryDossier {
   updated: string; // most recent domain refresh
 }
 
+// Cross-domain synthesis: where a nation stands on a signature metric, both
+// worldwide and among its regional peers. Computed at build time from the full
+// dataset (see lib/domains getComparisons).
+export interface RankSlot {
+  rank: number; // 1 = highest
+  total: number; // peers with data
+}
+export interface Comparison {
+  domain: DomainKey;
+  key: string;
+  label: string;
+  value: number;
+  unit: string;
+  year: number | null;
+  global: RankSlot;
+  regional: RankSlot | null; // null when the peer group is too small to be meaningful
+}
+
 export const DOMAIN_META: Record<DomainKey, { label: string }> = {
   economy: { label: "Economy" },
   society: { label: "Society" },

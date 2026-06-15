@@ -3,9 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import type { CountryDossier, CountryMeta, DomainKey } from "@/lib/types";
+import type { Comparison, CountryDossier, CountryMeta, DomainKey } from "@/lib/types";
 import { DOMAIN_META } from "@/lib/types";
-import { formatPopulation, formatArea } from "@/lib/format";
+import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
 import DomainPanel from "./DomainPanel";
 import MetricCard from "./MetricCard";
 
@@ -14,11 +14,15 @@ type Tab = "overview" | DomainKey;
 export default function Dossier({
   meta,
   dossier,
+  comparisons,
+  regionLabel,
   hasHistory,
   historyTagline,
 }: {
   meta: CountryMeta;
   dossier: CountryDossier | null;
+  comparisons: Comparison[];
+  regionLabel: string | null;
   hasHistory: boolean;
   historyTagline: string | null;
 }) {
@@ -98,7 +102,12 @@ export default function Dossier({
               transition={{ duration: 0.22 }}
             >
               {tab === "overview" ? (
-                <Overview meta={meta} dossier={dossier} />
+                <Overview
+                  meta={meta}
+                  dossier={dossier}
+                  comparisons={comparisons}
+                  regionLabel={regionLabel}
+                />
               ) : (
                 dossier && (
                   <DomainPanel section={dossier.sections[tab]!} sources={sources} />
@@ -179,9 +188,13 @@ function TabButton({
 function Overview({
   meta,
   dossier,
+  comparisons,
+  regionLabel,
 }: {
   meta: CountryMeta;
   dossier: CountryDossier | null;
+  comparisons: Comparison[];
+  regionLabel: string | null;
 }) {
   // A few highlight metrics drawn from across the available domains.
   const highlights = dossier
@@ -215,6 +228,19 @@ function Overview({
         </dl>
       </section>
 
+      {comparisons.length > 0 && (
+        <section>
+          <div className="eyebrow text-chalk-faint">
+            How {meta.name} compares
+          </div>
+          <div className="mt-3 divide-y divide-void-line/70 rounded-[var(--radius-card)] border border-void-line bg-void-panel/40">
+            {comparisons.map((c) => (
+              <ComparisonRow key={`${c.domain}-${c.key}`} c={c} regionLabel={regionLabel} />
+            ))}
+          </div>
+        </section>
+      )}
+
       {highlights.length > 0 && (
         <section>
           <div className="eyebrow text-chalk-faint">Highlights</div>
@@ -234,6 +260,45 @@ function Fact({ label, value }: { label: string; value: string }) {
     <div>
       <dt className="eyebrow text-chalk-faint">{label}</dt>
       <dd className="mt-1 text-[0.95rem] leading-snug text-chalk">{value}</dd>
+    </div>
+  );
+}
+
+const ordinal = (n: number) => {
+  const t = n % 100;
+  const s = t >= 11 && t <= 13 ? "th" : ["th", "st", "nd", "rd"][n % 10] ?? "th";
+  return `${n}${s}`;
+};
+
+function ComparisonRow({ c, regionLabel }: { c: Comparison; regionLabel: string | null }) {
+  // Fill = how high it ranks worldwide (rank 1 → full bar).
+  const fill =
+    c.global.total > 1 ? (c.global.total - c.global.rank) / (c.global.total - 1) : 1;
+  return (
+    <div className="flex items-center gap-4 px-4 py-3">
+      <div className="min-w-0 flex-1">
+        <div className="flex items-baseline justify-between gap-3">
+          <span className="text-[0.92rem] text-chalk">{c.label}</span>
+          <span className="font-display text-[1.05rem] leading-none text-chalk">
+            {formatMetric(c.value, c.unit)}
+          </span>
+        </div>
+        <div className="mt-2 h-1 overflow-hidden rounded-full bg-void-line">
+          <div
+            className="h-full rounded-full bg-brass/80"
+            style={{ width: `${Math.max(3, fill * 100)}%` }}
+          />
+        </div>
+        <div className="mt-1.5 font-mono text-[0.62rem] uppercase tracking-[0.1em] text-chalk-faint">
+          {ordinal(c.global.rank)} of {c.global.total} worldwide
+          {c.regional && regionLabel && (
+            <>
+              {" · "}
+              {ordinal(c.regional.rank)} of {c.regional.total} in {regionLabel}
+            </>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
