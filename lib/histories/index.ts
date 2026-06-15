@@ -22,6 +22,18 @@ import bhutan from "./data/bhutan.json";
 import timorleste from "./data/timorleste.json";
 import afghanistan from "./data/afghanistan.json";
 import northkorea from "./data/northkorea.json";
+import iraq from "./data/iraq.json";
+import jordan from "./data/jordan.json";
+import lebanon from "./data/lebanon.json";
+import syria from "./data/syria.json";
+import yemen from "./data/yemen.json";
+import oman from "./data/oman.json";
+import uae from "./data/uae.json";
+import kuwait from "./data/kuwait.json";
+import qatar from "./data/qatar.json";
+import kazakhstan from "./data/kazakhstan.json";
+import uzbekistan from "./data/uzbekistan.json";
+import turkmenistan from "./data/turkmenistan.json";
 import italy from "./data/italy.json";
 import spain from "./data/spain.json";
 import uk from "./data/uk.json";
@@ -162,6 +174,18 @@ const registry: Record<string, CountryHistory> = {
   TLS: H(timorleste),
   AFG: H(afghanistan),
   PRK: H(northkorea),
+  IRQ: H(iraq),
+  JOR: H(jordan),
+  LBN: H(lebanon),
+  SYR: H(syria),
+  YEM: H(yemen),
+  OMN: H(oman),
+  ARE: H(uae),
+  KWT: H(kuwait),
+  QAT: H(qatar),
+  KAZ: H(kazakhstan),
+  UZB: H(uzbekistan),
+  TKM: H(turkmenistan),
   ITA: H(italy),
   ESP: H(spain),
   GBR: H(uk),
