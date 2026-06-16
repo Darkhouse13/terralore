@@ -90,7 +90,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
-              placeholder="Search 185 nations by name or code…"
+              placeholder={`Search ${total} nations by name or code…`}
               className="w-full bg-transparent text-[16px] text-parchment placeholder:text-chalk-dim focus:outline-none"
             />
           </div>
