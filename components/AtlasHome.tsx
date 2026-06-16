@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import GlobeScene, { CHORO_LOW, CHORO_HIGH } from "./GlobeScene";
+import GlobeScene from "./GlobeScene";
 import CountryCard from "./CountryCard";
 import Starfield from "./Starfield";
 import { formatMetric } from "@/lib/format";
@@ -16,7 +16,9 @@ export interface ChoroLayer {
   values: Record<string, number>;
 }
 
-const gradientCss = `linear-gradient(90deg, rgb(${CHORO_LOW.join(",")}), rgb(${CHORO_HIGH.join(",")}))`;
+// The choropleth ramp shown in the legend — cool steel → warm brass, matching
+// the globe's data tint (see GlobeScene choroColor).
+const RAMP = "linear-gradient(90deg,#3c4f63,#5f7796,#9a9a86,#bf9550,#d8b56e)";
 
 export default function AtlasHome({
   historyCodes,
@@ -54,7 +56,13 @@ export default function AtlasHome({
   }, []);
 
   return (
-    <main className="relative h-[100dvh] w-full overflow-hidden bg-void text-chalk">
+    <main
+      className="relative h-[100dvh] w-full overflow-hidden text-chalk"
+      style={{
+        background:
+          "radial-gradient(135% 110% at 60% 46%, #141a2e 0%, #0b0c18 44%, #06060c 100%)",
+      }}
+    >
       <Starfield />
 
       {/* The globe */}
@@ -75,32 +83,32 @@ export default function AtlasHome({
         }}
       />
 
-      {/* Header */}
-      <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between p-6 md:p-9">
-        <div className="pointer-events-auto">
-          <div className="flex items-center gap-3">
-            <Compass />
-            <span className="eyebrow text-brass">Terralore</span>
-          </div>
-          <h1 className="mt-3 max-w-md font-display text-[1.9rem] font-medium leading-[1.08] text-chalk md:text-[2.4rem]">
-            An atlas of how nations came to be.
-          </h1>
-          <p className="mt-2 max-w-sm text-sm leading-relaxed text-chalk-soft">
-            Turn the globe. Choose a country. Trace the long path — empires,
-            ruptures and revolutions — that made it a nation. Every claim sourced.
-          </p>
-        </div>
+      {/* Logo */}
+      <div className="absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8">
+        <Compass />
+        <span className="font-mono text-[13px] uppercase tracking-[0.28em] text-brass">
+          Terralore
+        </span>
+      </div>
 
-        <Link
-          href="/atlas"
-          className="pointer-events-auto hidden items-center gap-2 rounded-full border border-void-line
-            bg-void-soft/60 px-4 py-2 text-sm text-chalk-soft backdrop-blur
-            transition hover:border-brass/40 hover:text-chalk md:flex"
-        >
-          <span className="font-mono text-[0.7rem] uppercase tracking-[0.14em]">Index</span>
-          <span className="text-brass">{publishedCount}</span>
-        </Link>
-      </header>
+      {/* Index link */}
+      <Link
+        href="/atlas"
+        className="absolute right-6 top-6 z-20 inline-flex items-center gap-2.5 rounded-[4px] border border-brass/28 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.2em] text-chalk-soft backdrop-blur transition-colors hover:border-brass hover:text-chalk md:right-11 md:top-7"
+      >
+        Index <span className="text-brass-bright">{publishedCount}</span>
+      </Link>
+
+      {/* Hero */}
+      <div className="absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11">
+        <h1 className="font-display text-[clamp(34px,5.4vw,68px)] font-[330] leading-none tracking-[-0.02em] text-chalk-bright">
+          An atlas of how nations came to be.
+        </h1>
+        <p className="mt-5 max-w-[380px] font-serif text-[clamp(16px,1.5vw,20px)] font-[340] leading-[1.55] text-[#b6ad99]">
+          Turn the globe. Choose a country. Trace the long path — empires, ruptures and
+          revolutions — that made it a nation. Every claim sourced.
+        </p>
+      </div>
 
       {/* Hint */}
       <AnimatePresence>
@@ -110,9 +118,9 @@ export default function AtlasHome({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ delay: 0.6 }}
-            className="pointer-events-none absolute inset-x-0 bottom-6 z-10 flex justify-center"
+            className="pointer-events-none absolute inset-x-0 bottom-7 z-10 flex justify-center"
           >
-            <span className="rounded-full border border-void-line bg-void-soft/50 px-4 py-1.5 font-mono text-[0.68rem] uppercase tracking-[0.18em] text-chalk-faint backdrop-blur">
+            <span className="rounded-none border border-brass/15 bg-[rgba(10,11,20,0.4)] px-5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-chalk-dim backdrop-blur">
               Drag to spin · Scroll to zoom · Click a nation
             </span>
           </motion.div>
@@ -120,46 +128,44 @@ export default function AtlasHome({
       </AnimatePresence>
 
       {/* Choropleth layer control + legend */}
-      <div className="pointer-events-none absolute bottom-6 left-6 z-20 hidden md:block">
-        <div className="pointer-events-auto max-w-xs">
-          <AnimatePresence>
-            {activeLayer && range && (
-              <motion.div
-                key={activeLayer.key}
-                initial={{ opacity: 0, y: 6 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: 6 }}
-                transition={{ duration: 0.2 }}
-                className="mb-2 rounded-xl border border-void-line bg-void-soft/70 px-3 py-2.5 backdrop-blur"
-              >
-                <div className="eyebrow text-chalk-faint">{activeLayer.label}</div>
-                <div className="mt-2 flex items-center gap-2">
-                  <span className="font-mono text-[0.62rem] text-chalk-soft">
-                    {formatMetric(range.min, activeLayer.unit)}
-                  </span>
-                  <div className="h-2 w-28 rounded-full" style={{ background: gradientCss }} />
-                  <span className="font-mono text-[0.62rem] text-chalk-soft">
-                    {formatMetric(range.max, activeLayer.unit)}
-                  </span>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+      <div className="absolute bottom-9 left-6 z-20 hidden w-[min(360px,40vw)] md:left-11 md:block">
+        <AnimatePresence>
+          {activeLayer && range && (
+            <motion.div
+              key={activeLayer.key}
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 6 }}
+              transition={{ duration: 0.3 }}
+              className="mb-3.5 rounded-none border border-brass/15 bg-[rgba(10,11,20,0.6)] px-4 py-3.5 backdrop-blur"
+            >
+              <div className="mb-2.5 font-mono text-[11px] uppercase tracking-[0.2em] text-chalk-soft">
+                {activeLayer.label}
+              </div>
+              <div className="h-3 rounded-[2px]" style={{ background: RAMP }} />
+              <div className="mt-2 flex justify-between font-mono text-[11px] text-chalk-soft">
+                <span>{formatMetric(range.min, activeLayer.unit)}</span>
+                <span>{formatMetric(range.max, activeLayer.unit)}</span>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
 
-          <div className="flex flex-wrap items-center gap-1.5 rounded-full border border-void-line bg-void-soft/50 px-3 py-2 backdrop-blur">
-            <span className="font-mono text-[0.62rem] uppercase tracking-[0.14em] text-chalk-faint">
-              Color by
-            </span>
+        <div className="rounded-none border border-brass/15 bg-[rgba(10,11,20,0.6)] px-[18px] py-3.5 backdrop-blur">
+          <div className="mb-2.5 font-mono text-[11px] uppercase tracking-[0.2em] text-chalk-faint">
+            Color by
+          </div>
+          <div className="flex flex-wrap gap-2">
             {layers.map((l) => {
               const active = l.key === activeKey;
               return (
                 <button
                   key={l.key}
                   onClick={() => setActiveKey(active ? null : l.key)}
-                  className={`rounded-full px-2.5 py-1 text-[0.72rem] transition ${
+                  className={`whitespace-nowrap rounded-[4px] border px-3 py-1.5 text-[13px] transition-colors ${
                     active
-                      ? "bg-brass text-void"
-                      : "text-chalk-soft hover:bg-void-line/60 hover:text-chalk"
+                      ? "border-brass-bright bg-brass-bright font-semibold text-[#1a140a]"
+                      : "border-brass/25 text-chalk-soft hover:border-brass/50 hover:text-chalk"
                   }`}
                 >
                   {l.label}
@@ -171,7 +177,7 @@ export default function AtlasHome({
       </div>
 
       {/* Selection card */}
-      <div className="pointer-events-none fixed inset-0 z-30 flex items-end justify-center p-4 md:items-center md:justify-end md:p-10">
+      <div className="pointer-events-none fixed inset-0 z-30 flex items-end justify-center p-4 md:items-end md:justify-end md:p-9">
         <AnimatePresence mode="wait">
           {selected && (
             <CountryCard
@@ -190,9 +196,11 @@ export default function AtlasHome({
 
 function Compass() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
-      <circle cx="12" cy="12" r="9.2" stroke="var(--color-brass)" strokeWidth="1.1" opacity="0.7" />
-      <path d="M12 4.5l2.1 5.4L19.5 12l-5.4 2.1L12 19.5l-2.1-5.4L4.5 12l5.4-2.1z" fill="var(--color-brass)" opacity="0.85" />
+    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden>
+      <circle cx="13" cy="13" r="11" fill="none" stroke="var(--color-brass)" strokeWidth="1.2" />
+      <path d="M13 2 L15.4 13 L13 24 L10.6 13 Z" fill="var(--color-brass-bright)" />
+      <path d="M2 13 L13 10.6 L24 13 L13 15.4 Z" fill="rgba(216,181,110,0.45)" />
+      <circle cx="13" cy="13" r="1.6" fill="#06060c" />
     </svg>
   );
 }
