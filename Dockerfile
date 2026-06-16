@@ -4,6 +4,8 @@
 # syntax=docker/dockerfile:1
 
 FROM node:22-alpine AS base
+# libc6-compat: the canonical shim so Next's SWC / native addons load on alpine.
+RUN apk add --no-cache libc6-compat
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
 # playwright is a dev-only tool (local screenshots) — never fetch browsers here.
