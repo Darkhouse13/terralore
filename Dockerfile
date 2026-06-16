@@ -6,6 +6,8 @@
 FROM node:22-alpine AS base
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
+# playwright is a dev-only tool (local screenshots) — never fetch browsers here.
+ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
 
 # ── deps: install from the lockfile only (better layer caching) ──────────────
 FROM base AS deps
