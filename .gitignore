@@ -44,6 +44,9 @@ next-env.d.ts
 *.png
 shot-*.png
 tsconfig.tsbuildinfo
+# ...but the brand icon set must be tracked
+!app/icon.png
+!app/apple-icon.png
 
 # Claude Design handoff bundle + local screenshot artifacts (reference only)
 /design/
