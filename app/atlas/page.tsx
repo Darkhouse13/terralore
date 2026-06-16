@@ -4,32 +4,27 @@ import { allCountries } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 
 export const metadata: Metadata = {
-  title: "The Index — Terralore",
-  description: "Every nation on the globe, with its archive status.",
+  title: "The Atlas — Terralore",
+  description: "Every nation on the globe — searchable by name, code or region.",
 };
 
 export default function AtlasPage() {
   const entries: IndexEntry[] = allCountries()
-    .map((c) => ({
-      code: c.code,
-      name: c.name,
-      flag: c.flag,
-      continent: c.continent,
-      subregion: c.subregion,
-      hasHistory: hasHistory(c.code),
-    }))
+    .map((c) => {
+      const h = hasHistory(c.code) ? getHistory(c.code) : null;
+      return {
+        code: c.code,
+        name: c.name,
+        flag: c.flag,
+        continent: c.continent,
+        subregion: c.subregion,
+        population: c.population,
+        unMember: c.unMember,
+        hasHistory: !!h,
+        foundingYear: h?.founding.yearLabel,
+      };
+    })
     .filter((e) => e.name && e.name !== "-99");
 
-  const featured: IndexEntry[] = entries
-    .filter((e) => e.hasHistory)
-    .map((e) => {
-      const h = getHistory(e.code)!;
-      return { ...e, tagline: h.tagline, foundingYear: h.founding.yearLabel };
-    });
-
-  return (
-    <main className="paper-grain min-h-screen bg-parchment">
-      <AtlasIndex entries={entries} featured={featured} />
-    </main>
-  );
+  return <AtlasIndex entries={entries} />;
 }
