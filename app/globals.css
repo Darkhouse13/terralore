@@ -148,6 +148,25 @@ body {
   background: rgba(191, 149, 80, 0.28);
 }
 
+/* Starfield — twinkle + a slow autonomous drift behind the globe */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: var(--tw-lo, 0.3);
+  }
+  50% {
+    opacity: var(--tw-hi, 0.95);
+  }
+}
+@keyframes nebula-drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1.06);
+  }
+  to {
+    transform: translate3d(-2.2%, 1.6%, 0) scale(1.06);
+  }
+}
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,

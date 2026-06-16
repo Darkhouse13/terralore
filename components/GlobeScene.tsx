@@ -38,6 +38,24 @@ function choroColor(t: number) {
   return `rgb(${c(0)}, ${c(1)}, ${c(2)})`;
 }
 
+// Brass graticule — meridians + parallels every 30°, drawn as paths that hug the
+// sphere. Turns the globe into a cartographer's instrument (echoing the logo).
+const GRATICULE: [number, number][][] = (() => {
+  const lines: [number, number][][] = [];
+  const step = 3;
+  for (let lng = -180; lng < 180; lng += 30) {
+    const pts: [number, number][] = [];
+    for (let lat = -90; lat <= 90; lat += step) pts.push([lat, lng]);
+    lines.push(pts);
+  }
+  for (let lat = -60; lat <= 60; lat += 30) {
+    const pts: [number, number][] = [];
+    for (let lng = -180; lng <= 180; lng += step) pts.push([lat, lng]);
+    lines.push(pts);
+  }
+  return lines;
+})();
+
 export default function GlobeScene({
   selectedCode,
   onSelect,
@@ -71,8 +89,8 @@ export default function GlobeScene({
   // Deep-ocean sphere material (no photographic texture — an atlas, not a satellite).
   const globeMaterial = useMemo(() => {
     const m = new THREE.MeshPhongMaterial({ color: new THREE.Color(OCEAN) });
-    m.shininess = 8;
-    m.specular = new THREE.Color("#22405e");
+    m.shininess = 16;
+    m.specular = new THREE.Color("#2c4e74");
     return m;
   }, []);
 
@@ -128,6 +146,13 @@ export default function GlobeScene({
     return m;
   }, [choroplethValues]);
 
+  // A pulsing brass ring on the selected nation — a "locked target" readout.
+  const selectedRing = useMemo(() => {
+    if (!selectedCode) return [];
+    const meta = metaMap[selectedCode];
+    return meta?.latlng ? [{ lat: meta.latlng[0], lng: meta.latlng[1] }] : [];
+  }, [selectedCode, metaMap]);
+
   const capColor = useMemo(
     () => (o: object) => {
       const code = (o as Feature).properties.code;
@@ -157,21 +182,31 @@ export default function GlobeScene({
       const d = o as Feature;
       const meta = metaMap[d.properties.code];
       const name = meta?.name ?? d.properties.name;
+      const region = meta?.subregion ?? meta?.region ?? "";
       const badge = hasHistory?.(d.properties.code)
-        ? `<span style="color:#dcb56e">● archive ready</span>`
-        : `<span style="color:#8a8a8a">○ stub</span>`;
-      return `<div style="font-family:var(--ff-sans),sans-serif;background:rgba(8,10,16,.92);
-        border:1px solid rgba(191,149,80,.4);padding:7px 11px;border-radius:8px;
-        box-shadow:0 8px 24px rgba(0,0,0,.5);transform:translateY(-6px)">
-        <div style="color:#ece6d8;font-weight:600;font-size:13px;letter-spacing:.01em">${name}</div>
-        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;margin-top:3px;
-          font-family:var(--ff-mono),monospace">${badge}</div></div>`;
+        ? `<span style="color:#d8b56e">● archive ready</span>`
+        : `<span style="color:#8c8472">○ in progress</span>`;
+      return `<div style="font-family:var(--ff-sans),sans-serif;background:rgba(8,9,14,.94);
+        border:1px solid rgba(216,181,110,.34);padding:9px 13px;border-radius:6px;
+        box-shadow:0 12px 30px rgba(0,0,0,.6);transform:translateY(-8px);min-width:120px">
+        <div style="font-family:var(--ff-display),serif;color:#f7f0e1;font-size:16px;line-height:1.1">${name}</div>
+        <div style="font-family:var(--ff-mono),monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#bf9550;margin-top:5px">${d.properties.code}${region ? " · " + region : ""}</div>
+        <div style="font-family:var(--ff-mono),monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;margin-top:5px">${badge}</div></div>`;
     },
     [metaMap, hasHistory]
   );
 
   return (
     <div ref={ref} className="absolute inset-0">
+      {/* brass glow bloom — seats the globe in light, not on black */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(38% 38% at 50% 50%, rgba(216,181,110,0.13), rgba(216,181,110,0.04) 55%, transparent 72%)",
+        }}
+      />
       {width > 0 && height > 0 && (
         <Globe
           ref={globeRef}
@@ -182,8 +217,22 @@ export default function GlobeScene({
           showGlobe
           globeMaterial={globeMaterial}
           showAtmosphere
-          atmosphereColor="#c79a55"
-          atmosphereAltitude={0.17}
+          atmosphereColor="#cfa45f"
+          atmosphereAltitude={0.22}
+          pathsData={GRATICULE}
+          pathPoints={(d: object) => d as [number, number][]}
+          pathPointLat={(p: object) => (p as [number, number])[0]}
+          pathPointLng={(p: object) => (p as [number, number])[1]}
+          pathPointAlt={0.005}
+          pathColor={() => "rgba(216,181,110,0.34)"}
+          pathStroke={0.35}
+          pathTransitionDuration={0}
+          ringsData={selectedRing}
+          ringColor={() => (t: number) => `rgba(216,181,110,${(0.5 * (1 - t)).toFixed(3)})`}
+          ringMaxRadius={4.5}
+          ringPropagationSpeed={1.6}
+          ringRepeatPeriod={1500}
+          ringAltitude={0.012}
           polygonsData={features}
           polygonAltitude={altitude}
           polygonCapColor={capColor}
