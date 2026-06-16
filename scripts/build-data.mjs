@@ -43,9 +43,11 @@ for (const f of geo.features) {
     geometry: f.geometry,
   });
 
-  // The relabeled Israel polygon contributes geometry only; Palestine's
-  // metadata comes from the PSX polygon joined to the Palestine record.
-  if (rawCode === 'ISR') continue;
+  // Relabeled polygons that contribute geometry only:
+  //  - ISR → Palestine's metadata comes from the PSX polygon.
+  //  - SAH → the Western Sahara polygon renders as part of Morocco (MAR);
+  //    Morocco's metadata (incl. its own population) comes from the real MAR polygon.
+  if (rawCode === 'ISR' || rawCode === 'SAH') continue;
 
   metadata[code] = {
     code,

@@ -98,7 +98,6 @@ import netherlands from "./data/netherlands.json";
 import ghana from "./data/ghana.json";
 import kenya from "./data/kenya.json";
 import morocco from "./data/morocco.json";
-import westernsahara from "./data/westernsahara.json";
 import algeria from "./data/algeria.json";
 import tunisia from "./data/tunisia.json";
 import libya from "./data/libya.json";
@@ -289,7 +288,6 @@ const registry: Record<string, CountryHistory> = {
   GHA: H(ghana),
   KEN: H(kenya),
   MAR: H(morocco),
-  SAH: H(westernsahara),
   DZA: H(algeria),
   TUN: H(tunisia),
   LBY: H(libya),

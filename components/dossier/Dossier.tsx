@@ -13,6 +13,7 @@ import type {
 } from "@/lib/types";
 import { DOMAIN_META } from "@/lib/types";
 import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
+import { TERRITORY_NOTES } from "@/lib/territory-notes";
 import DomainPanel from "./DomainPanel";
 
 type Tab = "overview" | DomainKey;
@@ -201,14 +202,37 @@ function OverviewTop({
   comparisons: Comparison[];
   regionLabel: string | null;
 }) {
+  const note = TERRITORY_NOTES[meta.code];
   return (
-    <div
-      className={`mb-[54px] ${
-        comparisons.length > 0
-          ? "lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-12"
-          : ""
-      }`}
-    >
+    <>
+      {note && (
+        <div className="mb-[40px] rounded-[4px] border border-brass/15 bg-brass/[0.04] px-[18px] py-3.5">
+          <div className="eyebrow tracking-[0.26em] text-chalk-faint">Territory</div>
+          <p className="mt-2 text-[14px] leading-relaxed text-chalk-soft">
+            {note.text}
+            {note.source && (
+              <>
+                {" · "}
+                <a
+                  href={note.source.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-reading underline-offset-2 transition-colors hover:text-brass hover:underline"
+                >
+                  {note.source.label}
+                </a>
+              </>
+            )}
+          </p>
+        </div>
+      )}
+      <div
+        className={`mb-[54px] ${
+          comparisons.length > 0
+            ? "lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-12"
+            : ""
+        }`}
+      >
       {/* quick facts */}
       <section className="mb-[54px] lg:mb-0">
         <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-faint">Quick facts</div>
@@ -254,7 +278,8 @@ function OverviewTop({
           </div>
         </section>
       )}
-    </div>
+      </div>
+    </>
   );
 }
 
