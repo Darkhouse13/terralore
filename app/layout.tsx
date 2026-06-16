@@ -6,7 +6,7 @@ import "./globals.css";
 const fraunces = Fraunces({
   variable: "--ff-display",
   subsets: ["latin"],
-  axes: ["opsz", "SOFT", "WONK"],
+  axes: ["opsz"], // drop SOFT/WONK — unused, and they bloat the variable font
   display: "swap",
 });
 
