@@ -25,17 +25,20 @@ export default function AtlasHome({
   foundingNotes,
   headlines,
   layers,
+  metaIndex,
   publishedCount,
 }: {
   historyCodes: string[];
   foundingNotes: Record<string, string>;
   headlines: Record<string, { gdp: string; gdpPerCapita: string }>;
   layers: ChoroLayer[];
+  metaIndex: Record<string, { name: string; flag: string | null }>;
   publishedCount: number;
 }) {
   const historySet = useMemo(() => new Set(historyCodes), [historyCodes]);
   const [selected, setSelected] = useState<CountryMeta | null>(null);
   const [activeKey, setActiveKey] = useState<string | null>(null);
+  const [hoveredCode, setHoveredCode] = useState<string | null>(null);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
 
@@ -71,6 +74,7 @@ export default function AtlasHome({
         onSelect={setSelected}
         hasHistory={hasHistory}
         choroplethValues={activeLayer?.values ?? null}
+        onHover={setHoveredCode}
       />
 
       {/* soft vignette to seat the globe in the void */}
@@ -128,25 +132,23 @@ export default function AtlasHome({
       </AnimatePresence>
 
       {/* Choropleth layer control + legend */}
-      <div className="absolute bottom-9 left-6 z-20 hidden w-[min(360px,40vw)] md:left-11 md:block">
+      <div className="absolute bottom-9 left-6 z-20 hidden w-[min(420px,46vw)] md:left-11 md:block">
         <AnimatePresence>
           {activeLayer && range && (
             <motion.div
               key={activeLayer.key}
-              initial={{ opacity: 0, y: 6 }}
+              initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 6 }}
-              transition={{ duration: 0.3 }}
-              className="mb-3.5 rounded-none border border-brass/15 bg-[rgba(10,11,20,0.6)] px-4 py-3.5 backdrop-blur"
+              exit={{ opacity: 0, y: 8 }}
+              transition={{ duration: 0.32, ease: [0.16, 1, 0.3, 1] }}
+              className="mb-3.5"
             >
-              <div className="mb-2.5 font-mono text-[11px] uppercase tracking-[0.2em] text-chalk-soft">
-                {activeLayer.label}
-              </div>
-              <div className="h-3 rounded-[2px]" style={{ background: RAMP }} />
-              <div className="mt-2 flex justify-between font-mono text-[11px] text-chalk-soft">
-                <span>{formatMetric(range.min, activeLayer.unit)}</span>
-                <span>{formatMetric(range.max, activeLayer.unit)}</span>
-              </div>
+              <ChoroInstrument
+                layer={activeLayer}
+                range={range}
+                metaIndex={metaIndex}
+                hoveredCode={hoveredCode}
+              />
             </motion.div>
           )}
         </AnimatePresence>
@@ -202,5 +204,120 @@ function Compass() {
       <path d="M2 13 L13 10.6 L24 13 L13 15.4 Z" fill="rgba(216,181,110,0.45)" />
       <circle cx="13" cy="13" r="1.6" fill="#06060c" />
     </svg>
+  );
+}
+
+// The choropleth ramp as discrete stops, so the histogram bars can be tinted to
+// match the gradient.
+const RAMP_STOPS = [
+  [60, 79, 99],
+  [95, 119, 150],
+  [154, 154, 134],
+  [191, 149, 80],
+  [216, 181, 110],
+] as const;
+
+function rampColor(t: number) {
+  const x = Math.max(0, Math.min(1, t)) * (RAMP_STOPS.length - 1);
+  const i = Math.min(RAMP_STOPS.length - 2, Math.floor(x));
+  const f = x - i;
+  const a = RAMP_STOPS[i];
+  const b = RAMP_STOPS[i + 1];
+  const c = (k: number) => Math.round(a[k] + (b[k] - a[k]) * f);
+  return `rgb(${c(0)},${c(1)},${c(2)})`;
+}
+
+// The "Color by" gauge: a value-distribution histogram over the choropleth ramp,
+// the extreme nations anchored at each end, and a marker that tracks the nation
+// hovered on the globe.
+function ChoroInstrument({
+  layer,
+  range,
+  metaIndex,
+  hoveredCode,
+}: {
+  layer: ChoroLayer;
+  range: { min: number; max: number };
+  metaIndex: Record<string, { name: string; flag: string | null }>;
+  hoveredCode: string | null;
+}) {
+  const { min, max } = range;
+  const span = max - min || 1;
+  const entries = Object.entries(layer.values);
+
+  const BINS = 28;
+  const counts = new Array(BINS).fill(0);
+  let loCode = entries[0]?.[0] ?? "";
+  let hiCode = entries[0]?.[0] ?? "";
+  for (const [code, v] of entries) {
+    const idx = Math.min(BINS - 1, Math.max(0, Math.floor(((v - min) / span) * BINS)));
+    counts[idx]++;
+    if (v < layer.values[loCode]) loCode = code;
+    if (v > layer.values[hiCode]) hiCode = code;
+  }
+  const maxCount = Math.max(...counts, 1);
+
+  const hv = hoveredCode != null ? layer.values[hoveredCode] : undefined;
+  const hoverPct = hv != null ? Math.max(0, Math.min(1, (hv - min) / span)) : null;
+  const hoverName = hoveredCode != null ? metaIndex[hoveredCode]?.name : null;
+
+  const fmt = (v: number) => formatMetric(v, layer.unit);
+  const short = (s?: string | null) => (s && s.length > 13 ? s.slice(0, 12) + "…" : s ?? "—");
+
+  return (
+    <div className="rounded-none border border-brass/15 bg-[rgba(10,11,20,0.62)] px-4 py-3.5 backdrop-blur">
+      <div className="mb-6 flex items-baseline justify-between">
+        <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-chalk-soft">
+          {layer.label}
+        </span>
+        <span className="font-mono text-[10px] tracking-[0.06em] text-chalk-dim">
+          {entries.length} nations
+        </span>
+      </div>
+
+      {/* histogram + ramp + hover marker */}
+      <div className="relative">
+        <div className="flex h-[30px] items-end gap-px">
+          {counts.map((c, i) => (
+            <div
+              key={i}
+              className="flex-1"
+              style={{
+                height: `${Math.max(7, (c / maxCount) * 100)}%`,
+                background: rampColor((i + 0.5) / BINS),
+                opacity: 0.5,
+              }}
+            />
+          ))}
+        </div>
+        <div className="mt-1 h-2.5 rounded-[2px]" style={{ background: RAMP }} />
+
+        {hoverPct != null && (
+          <div
+            className="pointer-events-none absolute -top-1 bottom-[2px] z-10 w-px bg-chalk-bright"
+            style={{ left: `${hoverPct * 100}%`, transition: "left .25s cubic-bezier(.16,1,.3,1)" }}
+          >
+            <div className="absolute -top-[18px] left-1/2 -translate-x-1/2 whitespace-nowrap rounded-[3px] border border-brass/45 bg-[rgba(8,9,14,0.96)] px-2 py-0.5 font-mono text-[10px] text-chalk">
+              {short(hoverName)} · <span className="text-brass-bright">{fmt(hv!)}</span>
+            </div>
+            <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rounded-full border border-[rgba(8,9,14,0.9)] bg-chalk-bright" />
+          </div>
+        )}
+      </div>
+
+      {/* extreme nations */}
+      <div className="mt-2.5 flex items-center justify-between gap-2 font-mono text-[10px] text-chalk-dim">
+        <span className="flex min-w-0 items-center gap-1.5">
+          <span className="text-[12px] leading-none">{metaIndex[loCode]?.flag ?? "🏳️"}</span>
+          <span className="truncate text-chalk-soft">{short(metaIndex[loCode]?.name)}</span>
+          <span>{fmt(layer.values[loCode])}</span>
+        </span>
+        <span className="flex min-w-0 items-center justify-end gap-1.5 text-right">
+          <span>{fmt(layer.values[hiCode])}</span>
+          <span className="truncate text-chalk-soft">{short(metaIndex[hiCode]?.name)}</span>
+          <span className="text-[12px] leading-none">{metaIndex[hiCode]?.flag ?? "🏳️"}</span>
+        </span>
+      </div>
+    </div>
   );
 }

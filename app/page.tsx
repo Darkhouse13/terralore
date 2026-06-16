@@ -1,6 +1,6 @@
 import AtlasHome from "@/components/AtlasHome";
 import { allHistories, publishedCodes } from "@/lib/histories";
-import { allCodes } from "@/lib/countries";
+import { allCodes, allCountries } from "@/lib/countries";
 import { getMetric } from "@/lib/domains";
 import { formatUSD } from "@/lib/format";
 import type { DomainKey } from "@/lib/types";
@@ -47,12 +47,17 @@ export default function Home() {
     return { key: l.key, label: l.label, unit, values };
   });
 
+  // Lightweight name/flag index so the legend can name the extreme + hovered nations.
+  const metaIndex: Record<string, { name: string; flag: string | null }> = {};
+  for (const c of allCountries()) metaIndex[c.code] = { name: c.name, flag: c.flag };
+
   return (
     <AtlasHome
       historyCodes={codes}
       foundingNotes={foundingNotes}
       headlines={headlines}
       layers={layers}
+      metaIndex={metaIndex}
       publishedCount={codes.length}
     />
   );

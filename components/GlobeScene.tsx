@@ -21,6 +21,8 @@ interface Props {
   hasHistory?: (code: string) => boolean;
   /** When set, colour each country by its value (a choropleth layer). */
   choroplethValues?: Record<string, number> | null;
+  /** Reports the hovered country code so the legend can react. */
+  onHover?: (code: string | null) => void;
 }
 
 const OCEAN = "#0a1422";
@@ -61,6 +63,7 @@ export default function GlobeScene({
   onSelect,
   hasHistory,
   choroplethValues,
+  onHover,
 }: Props) {
   const { ref, width, height } = useElementSize<HTMLDivElement>();
   const globeRef = useRef<any>(null);
@@ -243,6 +246,7 @@ export default function GlobeScene({
           onPolygonHover={(o: object | null) => {
             const code = (o as Feature | null)?.properties.code ?? null;
             setHoverCode(code);
+            onHover?.(code);
             const c = globeRef.current?.controls();
             if (c) c.autoRotate = o ? false : !interacted.current;
           }}
