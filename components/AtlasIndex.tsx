@@ -55,7 +55,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
           "radial-gradient(120% 70% at 50% -10%, #15141d 0%, #0c0b11 44%, #09080d 100%)",
       }}
     >
-      <div className="mx-auto max-w-[1180px] px-[7vw] pb-24 pt-9">
+      <div className="mx-auto max-w-[1340px] px-6 pb-24 pt-9 md:px-10 lg:px-14">
         {/* back */}
         <Link
           href="/"

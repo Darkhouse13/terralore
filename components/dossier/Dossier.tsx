@@ -57,7 +57,7 @@ export default function Dossier({
           "radial-gradient(120% 80% at 50% -8%, #15141d 0%, #0c0b11 46%, #09080d 100%)",
       }}
     >
-      <div className="mx-auto max-w-[1180px] px-[7vw] pb-24 pt-9">
+      <div className="mx-auto max-w-[1340px] px-6 pb-24 pt-9 md:px-10 lg:px-14">
         {/* back to the globe */}
         <Link
           href="/"
@@ -202,10 +202,17 @@ function OverviewTop({
   regionLabel: string | null;
 }) {
   return (
-    <div>
+    <div
+      className={`mb-[54px] ${
+        comparisons.length > 0
+          ? "lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-12"
+          : ""
+      }`}
+    >
       {/* quick facts */}
-      <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-faint">Quick facts</div>
-      <dl className="mb-[54px] grid gap-x-[30px] gap-y-[26px] [grid-template-columns:repeat(auto-fit,minmax(160px,1fr))]">
+      <section className="mb-[54px] lg:mb-0">
+        <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-faint">Quick facts</div>
+        <dl className="grid gap-x-[30px] gap-y-[26px] [grid-template-columns:repeat(auto-fit,minmax(150px,1fr))]">
         <Fact label="Capital" value={meta.capital[0] ?? "—"} />
         <Fact label="Population" value={formatPopulation(meta.population)} />
         <Fact label="Area" value={formatArea(meta.area)} />
@@ -226,15 +233,16 @@ function OverviewTop({
           label="UN member"
           value={meta.unMember == null ? "—" : meta.unMember ? "Yes" : "No"}
         />
-      </dl>
+        </dl>
+      </section>
 
       {/* how this nation compares */}
       {comparisons.length > 0 && (
-        <>
+        <section>
           <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-faint">
             How {meta.name} compares
           </div>
-          <div className="mb-[54px] rounded-none border border-brass/15 px-[26px]">
+          <div className="rounded-none border border-brass/15 px-[26px]">
             {comparisons.map((c, i) => (
               <ComparisonRow
                 key={`${c.domain}-${c.key}`}
@@ -244,7 +252,7 @@ function OverviewTop({
               />
             ))}
           </div>
-        </>
+        </section>
       )}
     </div>
   );
