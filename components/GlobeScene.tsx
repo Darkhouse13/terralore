@@ -140,6 +140,15 @@ export default function GlobeScene({
     }
   }, [selectedCode, ready, metaMap]);
 
+  // While a selection card is open, force-hide the globe's hover tooltip — the
+  // card already names the country, and react-globe.gl can't clear a tooltip it
+  // already rendered (the suppressing accessor only affects the next hover).
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    const tip = document.querySelector<HTMLElement>(".float-tooltip-kap");
+    if (tip) tip.style.visibility = selectedCode ? "hidden" : "";
+  }, [selectedCode]);
+
   // Rank each country's value into [0,1] so colour spreads evenly even when the
   // underlying values are heavily skewed (e.g. GDP per capita).
   const pct = useMemo(() => {
@@ -182,9 +191,21 @@ export default function GlobeScene({
     [selectedCode, hoverCode]
   );
 
+  // Crisper highlight: a brass edge on the hovered / selected nation.
+  const strokeColor = useMemo(
+    () => (o: object) => {
+      const code = (o as Feature).properties.code;
+      return code === selectedCode || code === hoverCode
+        ? "rgba(216,181,110,0.6)"
+        : "rgba(6,7,11,0.55)";
+    },
+    [selectedCode, hoverCode]
+  );
+
   const label = useMemo(
     () => (o: object) => {
       const d = o as Feature;
+      if (selectedCode) return ""; // a selection card is open — don't double up with tooltips
       const meta = metaMap[d.properties.code];
       const name = meta?.name ?? d.properties.name;
       const region = meta?.subregion ?? meta?.region ?? "";
@@ -198,7 +219,7 @@ export default function GlobeScene({
         <div style="font-family:var(--ff-mono),monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#bf9550;margin-top:5px">${d.properties.code}${region ? " · " + region : ""}</div>
         <div style="font-family:var(--ff-mono),monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;margin-top:5px">${badge}</div></div>`;
     },
-    [metaMap, hasHistory]
+    [metaMap, hasHistory, selectedCode]
   );
 
   return (
@@ -213,7 +234,7 @@ export default function GlobeScene({
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(38% 38% at 50% 50%, rgba(216,181,110,0.13), rgba(216,181,110,0.04) 55%, transparent 72%)",
+            "radial-gradient(38% 38% at 50% 50%, rgba(216,181,110,0.11), rgba(216,181,110,0.035) 55%, transparent 72%)",
         }}
       />
       {width > 0 && height > 0 && (
@@ -246,7 +267,7 @@ export default function GlobeScene({
           polygonAltitude={altitude}
           polygonCapColor={capColor}
           polygonSideColor={() => LAND_DIM}
-          polygonStrokeColor={() => "rgba(6,7,11,0.55)"}
+          polygonStrokeColor={strokeColor}
           polygonsTransitionDuration={320}
           polygonLabel={label}
           onPolygonHover={(o: object | null) => {

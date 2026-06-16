@@ -40,6 +40,7 @@ export default function AtlasHome({
   const [activeKey, setActiveKey] = useState<string | null>(null);
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
   const [entered, setEntered] = useState(false);
+  const [hintDismissed, setHintDismissed] = useState(false);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
 
@@ -47,6 +48,16 @@ export default function AtlasHome({
   useEffect(() => {
     const t = setTimeout(() => setEntered(true), 80);
     return () => clearTimeout(t);
+  }, []);
+  // The onboarding hint bows out after the first interaction (or a fallback).
+  useEffect(() => {
+    const dismiss = () => setHintDismissed(true);
+    const t = setTimeout(dismiss, 10000);
+    window.addEventListener("pointerdown", dismiss, { once: true });
+    return () => {
+      clearTimeout(t);
+      window.removeEventListener("pointerdown", dismiss);
+    };
   }, []);
   const reveal = (delay: number): CSSProperties => ({
     opacity: entered ? 1 : 0,
@@ -104,6 +115,18 @@ export default function AtlasHome({
         }}
       />
 
+      {/* focus scrim — gently draws the eye to a selected nation */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 z-[5]"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 46%, transparent 26%, rgba(4,5,9,0.5) 96%)",
+          opacity: selected ? 1 : 0,
+          transition: "opacity .5s ease",
+        }}
+      />
+
       {/* Logo */}
       <div
         className="absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8"
@@ -126,7 +149,7 @@ export default function AtlasHome({
 
       {/* Hero */}
       <div className="absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11" style={reveal(0.55)}>
-        <h1 className="font-display text-[clamp(34px,5.4vw,68px)] font-[330] leading-none tracking-[-0.02em] text-chalk-bright">
+        <h1 className="font-display text-[clamp(27px,5.4vw,68px)] font-[330] leading-none tracking-[-0.02em] text-chalk-bright">
           An atlas of how nations came to be.
         </h1>
         <p className="mt-5 max-w-[380px] font-serif text-[clamp(16px,1.5vw,20px)] font-[340] leading-[1.55] text-[#b6ad99]">
@@ -137,13 +160,13 @@ export default function AtlasHome({
 
       {/* Hint */}
       <AnimatePresence>
-        {!selected && (
+        {!selected && !hintDismissed && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ delay: 0.6 }}
-            className="pointer-events-none absolute inset-x-0 bottom-7 z-10 flex justify-center"
+            className="pointer-events-none absolute inset-x-0 bottom-7 z-10 hidden justify-center md:flex"
           >
             <span className="rounded-none border border-brass/15 bg-[rgba(10,11,20,0.4)] px-5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-chalk-dim backdrop-blur">
               Drag to spin · Scroll to zoom · Click a nation
@@ -201,6 +224,45 @@ export default function AtlasHome({
           </div>
         </div>
       </div>
+
+      {/* Color by — compact mobile control */}
+      {!selected && (
+        <div className="absolute inset-x-0 bottom-0 z-20 md:hidden" style={reveal(0.75)}>
+          <div className="border-t border-brass/15 bg-[rgba(10,11,20,0.72)] px-4 pb-[max(env(safe-area-inset-bottom),12px)] pt-3 backdrop-blur">
+            {activeLayer && range && (
+              <div className="mb-2.5">
+                <div className="mb-1.5 flex items-center justify-between">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-chalk-soft">
+                    {activeLayer.label}
+                  </span>
+                  <span className="font-mono text-[10px] text-chalk-dim">
+                    {formatMetric(range.min, activeLayer.unit)} – {formatMetric(range.max, activeLayer.unit)}
+                  </span>
+                </div>
+                <div className="h-2 rounded-[2px]" style={{ background: RAMP }} />
+              </div>
+            )}
+            <div className="flex gap-2 overflow-x-auto pb-0.5 [scrollbar-width:none]">
+              {layers.map((l) => {
+                const active = l.key === activeKey;
+                return (
+                  <button
+                    key={l.key}
+                    onClick={() => setActiveKey(active ? null : l.key)}
+                    className={`shrink-0 whitespace-nowrap rounded-[4px] border px-3 py-1.5 text-[13px] transition-colors ${
+                      active
+                        ? "border-brass-bright bg-brass-bright font-semibold text-[#1a140a]"
+                        : "border-brass/25 text-chalk-soft"
+                    }`}
+                  >
+                    {l.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Selection card */}
       <div className="pointer-events-none fixed inset-0 z-30 flex items-end justify-center p-4 md:items-end md:justify-end md:p-9">

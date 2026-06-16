@@ -28,9 +28,9 @@ type Star = {
 
 // Depth layers: far stars (slow parallax, dim) → near stars (fast, bright).
 const LAYERS = [
-  { seed: 101, n: 64, depth: 4, rMin: 0.035, rMax: 0.1, opLo: 0.12, opHi: 0.45, tw: 0.18 },
-  { seed: 202, n: 44, depth: 11, rMin: 0.06, rMax: 0.16, opLo: 0.2, opHi: 0.7, tw: 0.34 },
-  { seed: 303, n: 26, depth: 22, rMin: 0.09, rMax: 0.24, opLo: 0.3, opHi: 1, tw: 0.55 },
+  { seed: 101, n: 64, depth: 6, rMin: 0.035, rMax: 0.1, opLo: 0.12, opHi: 0.45, tw: 0.2 },
+  { seed: 202, n: 44, depth: 15, rMin: 0.06, rMax: 0.16, opLo: 0.2, opHi: 0.7, tw: 0.38 },
+  { seed: 303, n: 26, depth: 30, rMin: 0.09, rMax: 0.24, opLo: 0.3, opHi: 1, tw: 0.58 },
 ];
 
 function buildLayer(cfg: (typeof LAYERS)[number]): Star[] {
