@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, type CSSProperties } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import GlobeScene from "./GlobeScene";
@@ -39,8 +39,20 @@ export default function AtlasHome({
   const [selected, setSelected] = useState<CountryMeta | null>(null);
   const [activeKey, setActiveKey] = useState<string | null>(null);
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
+  const [entered, setEntered] = useState(false);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
+
+  // Cinematic entrance: trigger the staggered reveal just after mount.
+  useEffect(() => {
+    const t = setTimeout(() => setEntered(true), 80);
+    return () => clearTimeout(t);
+  }, []);
+  const reveal = (delay: number): CSSProperties => ({
+    opacity: entered ? 1 : 0,
+    transform: entered ? "none" : "translateY(10px)",
+    transition: `opacity .8s ease ${delay}s, transform .9s cubic-bezier(.16,1,.3,1) ${delay}s`,
+  });
 
   const activeLayer = useMemo(
     () => layers.find((l) => l.key === activeKey) ?? null,
@@ -66,7 +78,12 @@ export default function AtlasHome({
           "radial-gradient(135% 110% at 60% 46%, #141a2e 0%, #0b0c18 44%, #06060c 100%)",
       }}
     >
-      <Starfield />
+      <div
+        className="absolute inset-0"
+        style={{ opacity: entered ? 1 : 0, transition: "opacity 1.5s ease" }}
+      >
+        <Starfield />
+      </div>
 
       {/* The globe */}
       <GlobeScene
@@ -88,7 +105,10 @@ export default function AtlasHome({
       />
 
       {/* Logo */}
-      <div className="absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8">
+      <div
+        className="absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8"
+        style={reveal(0.35)}
+      >
         <Compass />
         <span className="font-mono text-[13px] uppercase tracking-[0.28em] text-brass">
           Terralore
@@ -98,13 +118,14 @@ export default function AtlasHome({
       {/* Index link */}
       <Link
         href="/atlas"
+        style={reveal(0.45)}
         className="absolute right-6 top-6 z-20 inline-flex items-center gap-2.5 rounded-[4px] border border-brass/28 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.2em] text-chalk-soft backdrop-blur transition-colors hover:border-brass hover:text-chalk md:right-11 md:top-7"
       >
         Index <span className="text-brass-bright">{publishedCount}</span>
       </Link>
 
       {/* Hero */}
-      <div className="absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11">
+      <div className="absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11" style={reveal(0.55)}>
         <h1 className="font-display text-[clamp(34px,5.4vw,68px)] font-[330] leading-none tracking-[-0.02em] text-chalk-bright">
           An atlas of how nations came to be.
         </h1>
@@ -132,7 +153,10 @@ export default function AtlasHome({
       </AnimatePresence>
 
       {/* Choropleth layer control + legend */}
-      <div className="absolute bottom-9 left-6 z-20 hidden w-[min(420px,46vw)] md:left-11 md:block">
+      <div
+        className="absolute bottom-9 left-6 z-20 hidden w-[min(420px,46vw)] md:left-11 md:block"
+        style={reveal(0.75)}
+      >
         <AnimatePresence>
           {activeLayer && range && (
             <motion.div

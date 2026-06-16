@@ -101,7 +101,9 @@ export default function GlobeScene({
   useEffect(() => {
     const g = globeRef.current;
     if (!g || !ready) return;
-    g.pointOfView({ lat: 24, lng: 14, altitude: 2.5 }, 0);
+    // Ease the globe into place on first load (camera pulls in from far).
+    g.pointOfView({ lat: 24, lng: 14, altitude: 3.6 }, 0);
+    g.pointOfView({ lat: 24, lng: 14, altitude: 2.5 }, 1700);
     const controls = g.controls();
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.32;
@@ -200,7 +202,11 @@ export default function GlobeScene({
   );
 
   return (
-    <div ref={ref} className="absolute inset-0">
+    <div
+      ref={ref}
+      className="absolute inset-0"
+      style={{ opacity: ready ? 1 : 0, transition: "opacity 1.3s ease" }}
+    >
       {/* brass glow bloom — seats the globe in light, not on black */}
       <div
         aria-hidden
