@@ -58,7 +58,7 @@ function StubScreen({
       className="relative grid h-[100dvh] w-full place-items-center overflow-hidden bg-void px-6 text-chalk"
       style={{
         background:
-          "radial-gradient(120% 100% at 50% 0%, #14110b 0%, #0a0a0c 55%, #07070a 100%)",
+          "radial-gradient(125% 100% at 50% -10%, #14131c 0%, #0b0a10 42%, #07060a 100%)",
       }}
     >
       <Link

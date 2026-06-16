@@ -11,12 +11,14 @@ interface Props {
   onJump: (i: number) => void;
 }
 
+// Meridian timeline rail — a single 48px scrubber: a brass baseline, era bands
+// with mono labels (the active era spells out its title), category-tinted ticks
+// that fill as you pass them, and a glowing brass playhead.
 export default function TimelineRail({ moments, current, activeEra, onJump }: Props) {
   const [hover, setHover] = useState<number | null>(null);
   const total = moments.length;
   const pos = (i: number) => (total > 1 ? (i / (total - 1)) * 100 : 0);
 
-  // Era bands: span from each era's first moment to its last.
   const bands = useMemo(() => {
     const map = new Map<number, { first: number; last: number; title: string }>();
     moments.forEach((m, i) => {
@@ -29,11 +31,14 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
     return [...map.entries()].map(([eraIndex, b]) => ({ eraIndex, ...b }));
   }, [moments]);
 
-  const tickMeta = (m: Moment) => {
-    if (m.kind === "event") return { tint: CATEGORY_META[m.event.category].tint, big: false };
-    if (m.kind === "era") return { tint: "var(--color-brass)", big: true };
-    return { tint: "var(--color-chalk-faint)", big: false };
-  };
+  const tickColor = (m: Moment) =>
+    m.kind === "event"
+      ? CATEGORY_META[m.event.category].tint
+      : m.kind === "era"
+        ? "var(--color-brass)"
+        : "var(--color-chalk-faint)";
+
+  const tickBig = (m: Moment) => m.kind !== "event";
 
   const label = (m: Moment) => {
     if (m.kind === "intro") return "Overview";
@@ -43,88 +48,92 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
   };
 
   return (
-    <div className="select-none">
-      {/* era markers: number always; full title only for the active era */}
-      <div className="relative mb-2 hidden h-4 sm:block">
-        {bands.map((b) => {
-          const left = (pos(b.first) + pos(b.last)) / 2;
-          const on = b.eraIndex === activeEra;
-          const width = Math.max(8, pos(b.last) - pos(b.first));
-          return (
+    <div className="relative h-12 select-none">
+      {/* baseline */}
+      <div className="absolute inset-x-0 top-[34px] h-px bg-brass/15" />
+
+      {/* era bands + labels */}
+      {bands.map((b) => {
+        const left = pos(b.first);
+        const width = Math.max(pos(b.last) - left, 0.5);
+        const on = b.eraIndex === activeEra;
+        return (
+          <div key={`band-${b.eraIndex}`}>
+            <div
+              className="absolute top-[33px] h-[2px]"
+              style={{
+                left: `${left}%`,
+                width: `${width}%`,
+                background: on ? "rgba(216,181,110,0.45)" : "rgba(216,181,110,0.16)",
+              }}
+            />
             <button
-              key={b.eraIndex}
               onClick={() => onJump(b.first)}
-              className={`absolute -translate-x-1/2 overflow-hidden whitespace-nowrap font-mono text-[0.58rem] uppercase tracking-[0.14em] transition ${
-                on ? "text-brass" : "text-chalk-faint hover:text-chalk-soft"
-              }`}
-              style={{ left: `${left}%`, maxWidth: on ? "32%" : `${width}%`, textOverflow: "ellipsis" }}
               title={b.title}
+              className={`absolute top-[8px] max-w-[34%] truncate font-mono text-[10px] uppercase tracking-[0.14em] transition-colors ${
+                on ? "text-brass" : "text-chalk-dim hover:text-chalk-soft"
+              }`}
+              style={{ left: `${left}%` }}
             >
               {String(b.eraIndex + 1).padStart(2, "0")}
               {on ? ` · ${b.title}` : ""}
             </button>
-          );
-        })}
-      </div>
-
-      {/* track */}
-      <div className="relative h-9">
-        {/* base line */}
-        <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-void-line" />
-        {/* traversed */}
-        <div
-          className="absolute top-1/2 left-0 h-px -translate-y-1/2 bg-gradient-to-r from-brass-deep to-brass transition-[width] duration-500"
-          style={{ width: `${pos(current)}%` }}
-        />
-        {/* era band underlines */}
-        {bands.map((b) => (
-          <div
-            key={b.eraIndex}
-            className="absolute bottom-0 h-[2px] rounded bg-brass/15"
-            style={{ left: `${pos(b.first)}%`, width: `${pos(b.last) - pos(b.first)}%` }}
-          />
-        ))}
-
-        {/* ticks */}
-        {moments.map((m, i) => {
-          const { tint, big } = tickMeta(m);
-          const active = i === current;
-          const passed = i <= current;
-          return (
-            <button
-              key={i}
-              onClick={() => onJump(i)}
-              onMouseEnter={() => setHover(i)}
-              onMouseLeave={() => setHover((h) => (h === i ? null : h))}
-              aria-label={label(m)}
-              className="group absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-2"
-              style={{ left: `${pos(i)}%` }}
-            >
-              <span
-                className="block rounded-full transition-all duration-300"
-                style={{
-                  width: active ? 13 : big ? 9 : 6,
-                  height: active ? 13 : big ? 9 : 6,
-                  background: passed || active ? tint : "transparent",
-                  border: `1.5px solid ${tint}`,
-                  opacity: passed ? 1 : 0.5,
-                  boxShadow: active ? `0 0 0 4px color-mix(in srgb, ${tint} 22%, transparent)` : "none",
-                }}
-              />
-            </button>
-          );
-        })}
-
-        {/* hover preview */}
-        {hover != null && hover !== current && (
-          <div
-            className="pointer-events-none absolute bottom-full z-10 mb-2 -translate-x-1/2 whitespace-nowrap rounded-md border border-brass/30 bg-void-soft/95 px-2.5 py-1 text-[0.72rem] text-chalk shadow-lg backdrop-blur"
-            style={{ left: `${pos(hover)}%`, maxWidth: 280 }}
-          >
-            <span className="truncate">{label(moments[hover])}</span>
           </div>
-        )}
-      </div>
+        );
+      })}
+
+      {/* ticks */}
+      {moments.map((m, idx) => {
+        const col = tickColor(m);
+        const big = tickBig(m);
+        const passed = idx <= current;
+        const active = idx === current;
+        return (
+          <button
+            key={idx}
+            onClick={() => onJump(idx)}
+            onMouseEnter={() => setHover(idx)}
+            onMouseLeave={() => setHover((h) => (h === idx ? null : h))}
+            title={label(m)}
+            aria-label={label(m)}
+            className="absolute top-[27px] -ml-2 flex h-4 w-4 items-center justify-center"
+            style={{ left: `${pos(idx)}%` }}
+          >
+            <span
+              className="block rounded-full transition-all duration-300"
+              style={{
+                width: big ? 9 : 7,
+                height: big ? 9 : 7,
+                background: passed ? col : "transparent",
+                border: passed
+                  ? "0"
+                  : `1px solid ${m.kind === "event" ? "rgba(168,158,138,0.4)" : "rgba(216,181,110,0.45)"}`,
+                boxShadow: active ? `0 0 12px ${col}` : "none",
+              }}
+            />
+          </button>
+        );
+      })}
+
+      {/* playhead */}
+      <div
+        className="absolute top-[26px] -ml-[9px] h-[18px] w-[18px] rounded-full bg-brass-bright"
+        style={{
+          left: `${pos(current)}%`,
+          boxShadow: "0 0 0 5px rgba(216,181,110,0.16), 0 0 18px rgba(216,181,110,0.7)",
+          transition: "left .5s cubic-bezier(.2,.8,.2,1)",
+        }}
+      />
+
+      {/* hover preview */}
+      {hover != null && hover !== current && (
+        <div
+          className="pointer-events-none absolute bottom-[44px] z-10 -translate-x-1/2 truncate rounded-[4px] border border-brass/30 bg-void-soft/95 px-2.5 py-1 text-[0.72rem] text-chalk shadow-lg backdrop-blur"
+          style={{ left: `${pos(hover)}%`, maxWidth: 280 }}
+        >
+          {label(moments[hover])}
+        </div>
+      )}
     </div>
   );
 }

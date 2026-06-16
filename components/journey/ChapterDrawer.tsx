@@ -9,6 +9,8 @@ function initials(name: string) {
   return picked.map((p) => p[0]?.toUpperCase()).join("").slice(0, 2);
 }
 
+// The Meridian "archive page" — a warm parchment sheet that slides in from the
+// left over the darkened stage, carrying the full sourced prose on demand.
 export default function ChapterDrawer({
   era,
   n,
@@ -21,38 +23,40 @@ export default function ChapterDrawer({
   onClose: () => void;
 }) {
   const used = era ? sources.filter((s) => era.sources.includes(s.id)) : [];
+  const body = era?.body ?? [];
+  const firstCap = body[0]?.charAt(0) ?? "";
+  const firstRest = body[0]?.slice(1) ?? "";
+
   return (
     <AnimatePresence>
       {era && (
-        <>
+        <div className="fixed inset-0 z-40">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            transition={{ duration: 0.45 }}
             onClick={onClose}
-            className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
+            className="absolute inset-0 bg-[rgba(7,6,10,0.55)] backdrop-blur-[3px]"
           />
           <motion.aside
-            initial={{ x: "100%" }}
+            initial={{ x: "-102%" }}
             animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ type: "spring", stiffness: 260, damping: 32 }}
-            className="paper-grain fixed inset-y-0 right-0 z-50 w-full max-w-2xl overflow-y-auto bg-parchment shadow-[var(--shadow-float)]"
+            exit={{ x: "-102%" }}
+            transition={{ type: "tween", ease: [0.16, 1, 0.3, 1], duration: 0.6 }}
+            className="absolute inset-y-0 left-0 flex w-[min(620px,90vw)] flex-col overflow-y-auto shadow-[40px_0_90px_-30px_rgba(0,0,0,0.7)]"
+            style={{ background: "linear-gradient(160deg,#f7f0e1,#efe4cf)" }}
           >
-            <div className="relative z-10 px-7 py-10 md:px-12">
-              <div className="flex items-start justify-between">
-                <div>
-                  <div className="eyebrow text-brass-deep">
-                    Chapter {String(n).padStart(2, "0")} · {era.period}
-                  </div>
-                  <h2 className="mt-2 font-display text-[2.4rem] font-medium leading-[1.02] text-ink">
-                    {era.title}
-                  </h2>
+            <div className="relative px-7 py-12 md:px-14">
+              {/* header */}
+              <div className="flex items-start justify-between gap-5">
+                <div className="font-mono text-[12px] uppercase tracking-[0.22em] text-[#a07b32]">
+                  Chapter {String(n).padStart(2, "0")} · {era.period}
                 </div>
                 <button
                   onClick={onClose}
                   aria-label="Close chapter"
-                  className="ml-4 grid h-9 w-9 shrink-0 place-items-center rounded-full border border-parchment-line text-ink-soft transition hover:border-brass/50 hover:text-ink"
+                  className="grid h-[38px] w-[38px] shrink-0 place-items-center rounded-full border border-[rgba(120,90,40,0.35)] text-[#7a5e2e] transition-colors hover:border-[#7a5e2e] hover:bg-[rgba(120,90,40,0.08)]"
                 >
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                     <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="1.5" />
@@ -60,74 +64,113 @@ export default function ChapterDrawer({
                 </button>
               </div>
 
-              <p className="mt-5 max-w-xl font-serif text-[1.3rem] italic leading-snug text-ink-soft">
+              <h2 className="mt-[18px] font-display text-[clamp(38px,6vw,58px)] font-[380] leading-none tracking-[-0.01em] text-[#221a0e]">
+                {era.title}
+              </h2>
+              <p className="mt-[22px] font-serif text-[21px] font-[340] italic leading-[1.5] text-[#6a5836]">
                 {era.standfirst}
               </p>
 
-              <div className="prose-history dropcap mt-7">
-                {era.body.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-              </div>
+              <hr className="my-[30px] border-0 border-t border-[rgba(120,90,40,0.2)]" />
+
+              {/* body with drop-cap first paragraph */}
+              {body[0] && (
+                <p className="font-serif text-[18px] font-[340] leading-[1.68] text-[#3a2f1d]">
+                  <span className="float-left mr-3.5 mt-[7px] font-display text-[74px] font-[400] leading-[0.74] text-brass">
+                    {firstCap}
+                  </span>
+                  {firstRest}
+                </p>
+              )}
+              {body.slice(1).map((p, i) => (
+                <p
+                  key={i}
+                  className="mt-[18px] font-serif text-[18px] font-[340] leading-[1.68] text-[#3a2f1d]"
+                >
+                  {p}
+                </p>
+              ))}
 
               {era.pullquote && (
                 <figure className="my-9 border-l-2 border-brass/60 pl-6">
-                  <blockquote className="font-display text-[1.5rem] font-medium leading-snug text-ink">
+                  <blockquote className="font-display text-[1.5rem] font-medium leading-snug text-[#221a0e]">
                     “{era.pullquote.text}”
                   </blockquote>
                   {era.pullquote.attribution && (
-                    <figcaption className="mt-3 font-mono text-[0.72rem] uppercase tracking-[0.1em] text-ink-faint">
+                    <figcaption className="mt-3 font-mono text-[0.72rem] uppercase tracking-[0.1em] text-[#8a7142]">
                       {era.pullquote.attribution}
                     </figcaption>
                   )}
                 </figure>
               )}
 
+              {/* figures of the age */}
               {era.figures && era.figures.length > 0 && (
-                <div className="mt-10 border-t border-parchment-line pt-8">
-                  <div className="eyebrow text-ink-faint">Figures of the age</div>
-                  <div className="mt-5 grid gap-6 sm:grid-cols-2">
+                <>
+                  <div className="mb-[18px] mt-[42px] border-t border-[rgba(120,90,40,0.2)] pt-6 font-mono text-[11px] uppercase tracking-[0.26em] text-[#a07b32]">
+                    Figures of the age
+                  </div>
+                  <div className="grid gap-5 sm:grid-cols-2">
                     {era.figures.map((f) => (
                       <div key={f.name} className="flex gap-4">
-                        <div className="grid h-12 w-12 shrink-0 place-items-center rounded-full border border-brass/40 bg-parchment-deep font-display text-ink-soft">
+                        <div
+                          className="grid h-[52px] w-[52px] shrink-0 place-items-center rounded-full border border-[rgba(120,90,40,0.3)] font-display text-[22px] text-[#7a5e2e]"
+                          style={{
+                            background:
+                              "repeating-linear-gradient(45deg,#e3d4b6,#e3d4b6 4px,#dccba8 4px,#dccba8 8px)",
+                          }}
+                        >
                           {initials(f.name)}
                         </div>
                         <div className="min-w-0">
-                          <div className="font-sans font-semibold leading-tight text-ink">{f.name}</div>
-                          <div className="font-mono text-[0.64rem] uppercase tracking-[0.1em] text-ink-faint">
+                          <div className="font-semibold leading-tight text-[#221a0e]">{f.name}</div>
+                          <div className="mt-0.5 font-mono text-[11px] text-[#8a7142]">
                             {f.role}
                             {f.life ? ` · ${f.life}` : ""}
                           </div>
-                          <p className="mt-1.5 text-[0.9rem] leading-relaxed text-ink-soft">{f.blurb}</p>
+                          {f.blurb && (
+                            <p className="mt-1.5 text-[0.9rem] leading-relaxed text-[#5a4a2c]">
+                              {f.blurb}
+                            </p>
+                          )}
                         </div>
                       </div>
                     ))}
                   </div>
-                </div>
+                </>
               )}
 
+              {/* sources */}
               {used.length > 0 && (
-                <div className="mt-10 border-t border-parchment-line pt-6">
-                  <div className="eyebrow text-ink-faint">Sources for this chapter</div>
-                  <ul className="mt-4 space-y-2">
-                    {used.map((s) => (
-                      <li key={s.id} className="text-[0.86rem] leading-snug text-ink-soft">
-                        {s.url ? (
-                          <a href={s.url} target="_blank" rel="noreferrer" className="text-ink underline decoration-brass/40 underline-offset-2 hover:decoration-brass">
-                            {s.label}
-                          </a>
-                        ) : (
-                          <span className="text-ink">{s.label}</span>
-                        )}
-                        {s.publisher && <span className="text-ink-faint"> — {s.publisher}</span>}
-                      </li>
-                    ))}
-                  </ul>
+                <div className="mt-[30px] flex flex-wrap items-center gap-3 border-t border-[rgba(120,90,40,0.2)] pt-6">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#a07b32]">
+                    Sources
+                  </span>
+                  {used.map((s) =>
+                    s.url ? (
+                      <a
+                        key={s.id}
+                        href={s.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded-[4px] border border-[rgba(120,90,40,0.35)] px-3 py-1.5 font-mono text-[11px] text-[#5a4a2c] transition-colors hover:border-[#7a5e2e]"
+                      >
+                        {s.label}
+                      </a>
+                    ) : (
+                      <span
+                        key={s.id}
+                        className="rounded-[4px] border border-[rgba(120,90,40,0.35)] px-3 py-1.5 font-mono text-[11px] text-[#5a4a2c]"
+                      >
+                        {s.label}
+                      </span>
+                    ),
+                  )}
                 </div>
               )}
             </div>
           </motion.aside>
-        </>
+        </div>
       )}
     </AnimatePresence>
   );
