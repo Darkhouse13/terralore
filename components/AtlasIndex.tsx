@@ -127,7 +127,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
                 href={`/country/${e.code}`}
                 className="group flex items-center gap-4 rounded-[6px] border border-brass/12 bg-white/[0.012] px-[18px] py-[15px] transition-colors hover:border-brass/40 hover:bg-brass/[0.05]"
               >
-                <span className="grid h-7 w-10 flex-none place-items-center rounded-[3px] border border-brass/20 bg-void-soft text-[15px] leading-none">
+                <span className="grid h-7 w-10 flex-none place-items-center text-[15px] leading-none">
                   {e.flag ?? "🏳️"}
                 </span>
                 <div className="min-w-0 flex-1">

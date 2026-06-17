@@ -85,8 +85,26 @@ keyed on canonical ADM0_A3, shaped `{ domain, updated, sources, data: { CODE: { 
   access; USGS physical mineral production/reserves can enrich it later.
 - Register a new domain by importing its JSON in `lib/domains/index.ts` and adding it to
   `FILES` (insertion order = dossier tab order).
-- **Refresh:** `npm run build-domains` (rebuilds all domain files + validates). WB updates
-  ~annually. `npm run validate` runs history + domain validators.
+- **Refresh:** `npm run build-domains` (rebuilds all domain files + validates + rebuilds the
+  series index). WB updates ~annually. `npm run validate` runs history + domain validators.
+- **Metric window:** a metric card opens the `MetricDetail` modal (`components/dossier/`) with
+  the full interactive `MetricChart`. Two lenses: **value** over time, or **world rank** over
+  time (`#1` = highest, axis inverted). Readers can overlay other nations or the world average.
+  Those series are lazy-fetched client-side from `public/data/series/<metricKey>.json` — one
+  small file per metric, built by `scripts/build-series-index.mjs` (chained into
+  `build-domains`, or `npm run build-series`), mirroring how the globe fetches `/data/*.json`.
+  **Metric `key`s must be globally unique across domains** (the file name + the client's only
+  lookup handle) — the builder throws on collision.
+- **Spatial map:** the window's `🗺 Map` toggle reveals `MetricMap` — a flat, dependency-free
+  SVG world choropleth coloured by the open metric (equirectangular projection of the same
+  `public/data/countries.geo.json` the globe uses). The home nation glows brass, compared
+  nations are outlined in their chart colours, and **clicking a nation toggles it in the
+  comparison** — map, chart and legend move together. The ramp + percentile scale live in
+  `lib/choropleth.ts` (pure, no three.js), shared with `GlobeScene` so both views tint identically.
+- The modal is rendered **once at the `Dossier` level** (not per card): the Dossier owns the
+  open metric + comparison + lens + map state so it can mirror them to the URL hash
+  (`#m=<key>&tab=<tab>&c=<codes>&v=rank&map=1`) via `replaceState` — shareable deep links that
+  reopen the window in-state on load. `MetricCard` is presentational and just calls `onOpenMetric`.
 - Every `Metric` carries `value`, `year` (vintage), `unit`, and a `sourceId` that **must
   resolve** in the file's `sources` — `scripts/validate-domains.mjs` enforces this, the
   same trust rule as histories. Missing data is `null` → renders "—"; non-UN/contested

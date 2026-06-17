@@ -21,12 +21,16 @@ export default function CountryCard({
   hasHistory,
   foundingNote,
   headline,
+  activeMetric,
   onClose,
 }: {
   meta: CountryMeta;
   hasHistory: boolean;
   foundingNote?: string;
   headline?: { gdp: string; gdpPerCapita: string };
+  /** The metric the globe is currently coloured by (if any), pre-formatted —
+   * lets the card jump straight into that metric's window on the dossier. */
+  activeMetric?: { key: string; label: string; value: string };
   onClose: () => void;
 }) {
   return (
@@ -45,7 +49,7 @@ export default function CountryCard({
       {/* header */}
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3.5">
-          <span className="grid h-8 w-11 flex-none place-items-center rounded-[3px] border border-brass/20 bg-void-soft text-[18px] leading-none">
+          <span className="grid h-8 w-11 flex-none place-items-center text-[18px] leading-none">
             {meta.flag ?? "🏳️"}
           </span>
           <div className="min-w-0">
@@ -78,6 +82,29 @@ export default function CountryCard({
         )}
         <Stat label="Region" value={meta.subregion ?? meta.region ?? "—"} />
       </div>
+
+      {/* the layer you're colouring by — a one-click jump into its metric window */}
+      {activeMetric && (
+        <Link
+          href={`/country/${meta.code}#m=${activeMetric.key}&map=1`}
+          className="group mt-4 flex items-center justify-between gap-3 rounded-[4px] border border-brass/30 bg-brass/[0.06] px-4 py-3 transition-colors hover:border-brass hover:bg-brass/[0.1]"
+        >
+          <div className="min-w-0">
+            <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-brass/80">
+              {activeMetric.label}
+            </div>
+            <div className="mt-1 font-display text-[20px] leading-none text-parchment">
+              {activeMetric.value}
+            </div>
+          </div>
+          <span className="flex-none whitespace-nowrap font-mono text-[10px] uppercase tracking-[0.12em] text-chalk-soft transition-colors group-hover:text-chalk">
+            Explore{" "}
+            <span className="inline-block text-[14px] transition-transform group-hover:translate-x-0.5">
+              →
+            </span>
+          </span>
+        </Link>
+      )}
 
       {foundingNote && (
         <div className="mt-4 rounded-[4px] border border-brass/20 bg-brass/[0.06] px-4 py-3">

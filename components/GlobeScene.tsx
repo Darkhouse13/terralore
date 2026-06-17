@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import { useElementSize } from "./useElementSize";
+import { CHORO_NODATA, choroColor, percentileRanks } from "@/lib/choropleth";
 import type { CountryMeta, CountryMetaMap } from "@/lib/types";
 
 // react-globe.gl touches `window` on import — load it client-only.
@@ -29,18 +30,8 @@ const OCEAN = "#0a1422";
 const LAND = [205, 191, 161] as const; // parchment relief
 const LAND_DIM = "rgba(150, 139, 116, 0.55)";
 
-// Choropleth ramp: cool/recessive (low) → warm brass (high). Exported so the
-// legend in AtlasHome draws the exact same gradient.
-export const CHORO_LOW = [86, 112, 138] as const;
-export const CHORO_HIGH = [233, 198, 120] as const;
-const CHORO_NODATA = "rgba(120, 120, 132, 0.30)";
-
-function choroColor(t: number) {
-  const c = (i: number) => Math.round(CHORO_LOW[i] + (CHORO_HIGH[i] - CHORO_LOW[i]) * t);
-  return `rgb(${c(0)}, ${c(1)}, ${c(2)})`;
-}
-
-// Brass graticule — meridians + parallels every 30°, drawn as paths that hug the
+// Choropleth ramp + percentile logic live in lib/choropleth (shared with the
+// metric window's flat map). Brass graticule — meridians + parallels every 30°, drawn as paths that hug the
 // sphere. Turns the globe into a cartographer's instrument (echoing the logo).
 const GRATICULE: [number, number][][] = (() => {
   const lines: [number, number][][] = [];
@@ -151,14 +142,10 @@ export default function GlobeScene({
 
   // Rank each country's value into [0,1] so colour spreads evenly even when the
   // underlying values are heavily skewed (e.g. GDP per capita).
-  const pct = useMemo(() => {
-    if (!choroplethValues) return null;
-    const entries = Object.entries(choroplethValues).sort((a, b) => a[1] - b[1]);
-    const n = entries.length;
-    const m = new Map<string, number>();
-    entries.forEach(([code], i) => m.set(code, n <= 1 ? 1 : i / (n - 1)));
-    return m;
-  }, [choroplethValues]);
+  const pct = useMemo(
+    () => (choroplethValues ? percentileRanks(choroplethValues) : null),
+    [choroplethValues],
+  );
 
   // A pulsing brass ring on the selected nation — a "locked target" readout.
   const selectedRing = useMemo(() => {

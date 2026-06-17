@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "build-data": "node scripts/build-data.mjs",
-    "build-domains": "node scripts/build-economy.mjs && node scripts/build-society.mjs && node scripts/build-technology.mjs && node scripts/build-geography.mjs && node scripts/build-resources.mjs && node scripts/build-military.mjs && node scripts/validate-domains.mjs",
+    "build-domains": "node scripts/build-economy.mjs && node scripts/build-society.mjs && node scripts/build-technology.mjs && node scripts/build-geography.mjs && node scripts/build-resources.mjs && node scripts/build-military.mjs && node scripts/validate-domains.mjs && node scripts/build-series-index.mjs",
+    "build-series": "node scripts/build-series-index.mjs",
     "validate": "node scripts/validate-histories.mjs && node scripts/validate-domains.mjs"
   },
   "dependencies": {

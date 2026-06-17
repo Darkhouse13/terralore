@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import type {
@@ -15,6 +15,7 @@ import { DOMAIN_META } from "@/lib/types";
 import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
 import { TERRITORY_NOTES } from "@/lib/territory-notes";
 import DomainPanel from "./DomainPanel";
+import MetricDetail, { type ChartMode } from "./MetricDetail";
 
 type Tab = "overview" | DomainKey;
 
@@ -35,12 +36,95 @@ export default function Dossier({
   hasHistory: boolean;
   historyTagline: string | null;
 }) {
-  const available = dossier
-    ? ALL_DOMAINS.filter((d) => dossier.sections[d])
-    : [];
+  const available = useMemo(
+    () => (dossier ? ALL_DOMAINS.filter((d) => dossier.sections[d]) : []),
+    [dossier],
+  );
   const [tab, setTab] = useState<Tab>("overview");
   const sources = dossier?.sources ?? {};
   const isOverview = tab === "overview";
+
+  // ── The shared metric window (one instance, state-owned here so it can drive
+  // the URL for shareable deep links) ──────────────────────────────────────
+  const metricByKey = useMemo(() => {
+    const m = new Map<string, { metric: Metric; domain: DomainKey }>();
+    if (dossier) {
+      for (const d of available) {
+        for (const metric of dossier.sections[d]!.metrics) {
+          m.set(metric.key, { metric, domain: d });
+        }
+      }
+    }
+    return m;
+  }, [dossier, available]);
+
+  const [openMetric, setOpenMetric] = useState<string | null>(null);
+  const [lastMetric, setLastMetric] = useState<string | null>(null); // kept for exit anim
+  const [compare, setCompare] = useState<string[]>([]);
+  const [chartMode, setChartMode] = useState<ChartMode>("value");
+  const [mapOpen, setMapOpen] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
+
+  const openModal = (key: string) => {
+    setOpenMetric(key);
+    setLastMetric(key);
+    setCompare([]);
+    setChartMode("value");
+    setMapOpen(false);
+  };
+
+  // Restore view state from the URL hash on first mount (deep link), then flip
+  // `hydrated` so the URL-writer below runs — never clobbering the incoming hash.
+  // Must be an effect: URL fragments aren't sent to the server, so SSR can't know.
+  useEffect(() => {
+    /* eslint-disable react-hooks/set-state-in-effect -- one-time external (URL) read */
+    const h = window.location.hash;
+    if (h.length >= 2) {
+      const p = new URLSearchParams(h.slice(1));
+      const m = p.get("m");
+      const t = p.get("tab") as Tab | null;
+      if (t && (t === "overview" || available.includes(t as DomainKey))) setTab(t);
+      if (m && metricByKey.has(m)) {
+        if (!t) setTab(metricByKey.get(m)!.domain);
+        setOpenMetric(m);
+        setLastMetric(m);
+        const c = p.get("c");
+        if (c) setCompare(c.split(",").filter(Boolean));
+        if (p.get("v") === "rank") setChartMode("rank");
+        if (p.get("map") === "1") setMapOpen(true);
+      }
+    }
+    setHydrated(true);
+    /* eslint-enable react-hooks/set-state-in-effect */
+    // mount-only: dossier/lookup are stable for a given page
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // mirror the open window to the URL (clean URL when closed)
+  useEffect(() => {
+    if (!hydrated) return;
+    let hash = "";
+    if (openMetric) {
+      const p = new URLSearchParams();
+      p.set("m", openMetric);
+      p.set("tab", tab);
+      if (compare.length) p.set("c", compare.join(","));
+      if (chartMode === "rank") p.set("v", "rank");
+      if (mapOpen) p.set("map", "1");
+      hash = "#" + p.toString();
+    }
+    if (hash !== window.location.hash) {
+      window.history.replaceState(
+        null,
+        "",
+        window.location.pathname + window.location.search + hash,
+      );
+    }
+  }, [hydrated, openMetric, tab, compare, chartMode, mapOpen]);
+
+  const openInfo = (openMetric ?? lastMetric)
+    ? metricByKey.get((openMetric ?? lastMetric)!) ?? null
+    : null;
 
   // Overview highlights: a curated mix — the first two metrics of each domain.
   const highlights: Metric[] = available.flatMap(
@@ -76,7 +160,7 @@ export default function Dossier({
             {meta.continent && ` · ${meta.continent}`}
           </div>
           <div className="mt-2 flex items-center gap-[22px]">
-            <div className="flex h-[54px] w-[74px] flex-none items-center justify-center rounded-[4px] border border-brass/20 bg-void-soft text-[34px] leading-none shadow-[0_6px_18px_-8px_rgba(0,0,0,0.7)]">
+            <div className="flex h-[54px] w-[74px] flex-none items-center justify-center text-[34px] leading-none">
               {meta.flag ?? "🏳️"}
             </div>
             <div className="min-w-0">
@@ -139,7 +223,11 @@ export default function Dossier({
                   <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-faint">
                     {gridLabel}
                   </div>
-                  <DomainPanel metrics={gridMetrics} sources={sources} />
+                  <DomainPanel
+                    metrics={gridMetrics}
+                    sources={sources}
+                    onOpenMetric={openModal}
+                  />
                 </section>
               )}
             </motion.div>
@@ -159,6 +247,23 @@ export default function Dossier({
           <SourcesFooter sources={sources} updated={dossier?.updated ?? null} />
         )}
       </div>
+
+      {/* the shared metric window */}
+      {openInfo && (
+        <MetricDetail
+          open={openMetric != null}
+          onClose={() => setOpenMetric(null)}
+          metric={openInfo.metric}
+          source={sources[openInfo.metric.sourceId]}
+          country={{ code: meta.code, name: meta.name, flag: meta.flag }}
+          compare={compare}
+          onCompareChange={setCompare}
+          mode={chartMode}
+          onModeChange={setChartMode}
+          mapOpen={mapOpen}
+          onMapToggle={() => setMapOpen((v) => !v)}
+        />
+      )}
     </main>
   );
 }

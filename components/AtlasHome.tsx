@@ -69,6 +69,18 @@ export default function AtlasHome({
     () => layers.find((l) => l.key === activeKey) ?? null,
     [layers, activeKey],
   );
+  // The active layer's value for the selected nation — lets the card deep-link
+  // straight into that metric's window on the dossier (closing the globe→dossier loop).
+  const activeMetric = useMemo(() => {
+    if (!activeLayer || !selected) return undefined;
+    const v = activeLayer.values[selected.code];
+    if (v == null) return undefined;
+    return {
+      key: activeLayer.key,
+      label: activeLayer.label,
+      value: formatMetric(v, activeLayer.unit),
+    };
+  }, [activeLayer, selected]);
   const range = useMemo(() => {
     if (!activeLayer) return null;
     const vs = Object.values(activeLayer.values);
@@ -273,6 +285,7 @@ export default function AtlasHome({
               hasHistory={hasHistory(selected.code)}
               foundingNote={foundingNotes[selected.code]}
               headline={headlines[selected.code]}
+              activeMetric={activeMetric}
               onClose={() => setSelected(null)}
             />
           )}
