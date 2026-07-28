@@ -5,6 +5,7 @@ import { getCountry, allCodes } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbLd, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
+import { periodFor, themeSlug } from "@/lib/chronology";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
 
@@ -94,6 +95,19 @@ export default async function ChroniclePage({
     .filter((c): c is NonNullable<typeof c> => Boolean(c) && hasHistory(c!.code))
     .slice(0, 8);
 
+  // The cross-nation reads this nation's own events sit inside. Ranked by how
+  // much of its history lands there, so the links lead somewhere dense rather
+  // than to a period this nation barely touches.
+  const events = history.eras.flatMap((e) => e.events);
+  const periods = rankBy(events, (ev) => {
+    const p = periodFor(ev.year);
+    return [p.slug, p.label];
+  }).slice(0, 5);
+  const themes = rankBy(events, (ev) => [
+    themeSlug(ev.category),
+    CATEGORY_META[ev.category]?.label ?? ev.category,
+  ]).slice(0, 5);
+
   return (
     <>
       <JsonLd
@@ -137,6 +151,8 @@ export default async function ChroniclePage({
             history={history}
             meta={meta}
             neighbours={neighbours}
+            periods={periods}
+            themes={themes}
           />
         </div>
       </main>
@@ -551,10 +567,14 @@ function ChronicleFooter({
   history,
   meta,
   neighbours,
+  periods,
+  themes,
 }: {
   history: CountryHistory;
   meta: NonNullable<ReturnType<typeof getCountry>>;
   neighbours: NonNullable<ReturnType<typeof getCountry>>[];
+  periods: { slug: string; label: string }[];
+  themes: { slug: string; label: string }[];
 }) {
   return (
     <footer className="pt-11">
@@ -572,6 +592,33 @@ function ChronicleFooter({
           Browse the atlas
         </Link>
       </div>
+
+      {/* The same events, read across every nation instead of one. */}
+      <nav aria-label="Read across nations" className="mt-10">
+        <h2 className="eyebrow text-ink-faint">Read across nations</h2>
+        <ul className="mt-3.5 flex flex-wrap gap-2.5">
+          {periods.map((p) => (
+            <li key={p.slug}>
+              <Link
+                href={`/timeline/${p.slug}`}
+                className="inline-flex items-center rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
+              >
+                {p.label}
+              </Link>
+            </li>
+          ))}
+          {themes.map((t) => (
+            <li key={t.slug}>
+              <Link
+                href={`/themes/${t.slug}`}
+                className="inline-flex items-center rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
+              >
+                {t.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
 
       {neighbours.length > 0 && (
         <nav aria-label="Neighbouring chronicles" className="mt-10">
@@ -621,6 +668,21 @@ function collectFigures(history: CountryHistory): Figure[] {
 
 function formatYear(y: number): string {
   return y < 0 ? `${Math.abs(y)} BCE` : String(y);
+}
+
+/** Group events by a [slug, label] key and return the keys, densest first. */
+function rankBy(
+  events: TimelineEvent[],
+  key: (ev: TimelineEvent) => [string, string],
+): { slug: string; label: string }[] {
+  const counts = new Map<string, { slug: string; label: string; n: number }>();
+  for (const ev of events) {
+    const [slug, label] = key(ev);
+    const hit = counts.get(slug);
+    if (hit) hit.n += 1;
+    else counts.set(slug, { slug, label, n: 1 });
+  }
+  return [...counts.values()].sort((a, b) => b.n - a.n).map(({ slug, label }) => ({ slug, label }));
 }
 
 function formatDate(iso: string): string {

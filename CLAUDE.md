@@ -18,7 +18,21 @@ spatial view. See the `vision-nations-encyclopedia` memory.
 - `app/country/[code]/history/page.tsx` → the cinematic history journey (SSG).
   Renders `TimeJourney` if a history exists, else a dark `StubScreen`. Launched from
   the dossier's history hero.
+- `app/country/[code]/chronicle/page.tsx` → **the reading depth** (SSG, server-only).
+  The same history as one long-form document: every era, event, figure and reference
+  in the initial HTML. The journey paints one moment at a time, so it is a good
+  experience and a nearly invisible document — before this route, ~6.6% of the
+  corpus's ~600k authored words reached the HTML at all. Both routes are two
+  presentations of one entity; the JSON-LD `Article` keeps its canonical `@id` on
+  the chronicle so engines consolidate onto the readable one.
+- `app/timeline/` + `app/themes/` → the corpus read **across** nations: events
+  bucketed by period and by category. Derived at build time from the same verified
+  history files (`lib/chronology.ts`) — nothing here is authored separately, so a
+  chronology entry is always the same record, with the same sources, as the one on
+  its nation's chronicle.
 - `app/atlas/page.tsx` → searchable index of all nations.
+- `app/sitemap.ts`, `app/robots.ts`, `app/opengraph-image.tsx` → the discovery
+  surface. All three derive from `lib/seo.ts`.
 - `components/GlobeScene.tsx` → client-only globe (react-globe.gl). Antique-atlas look:
   parchment land polygons on a deep-ocean sphere, brass atmosphere. Accessor callbacks
   are typed `(o: object)` and cast to `Feature` (the lib types accessors as `object`).
@@ -34,6 +48,14 @@ spatial view. See the `vision-nations-encyclopedia` memory.
   - `ChapterDrawer.tsx` — a parchment "archive page" that slides in for the full,
     sourced prose on demand (depth without forcing reading).
 - `lib/journey.ts` → `buildMoments(history)` flattens eras → navigable moments.
+- `lib/chronology.ts` → flattens the whole corpus into nation-tagged `WorldEvent`s,
+  bucketed into `Period`s (centuries; millennia before 1000 BCE; one `deep-prehistory`
+  bucket below 10,000 BCE, since the corpus reaches the Laetoli footprints at 3.6 Ma
+  and per-millennium pages there would hold one event each) and `Theme`s (by
+  `EventCategory`). Memoised; build-time only.
+- `lib/seo.ts` → the single definition of the origin, route shapes and JSON-LD
+  builders. Anything emitting a URL — canonical tags, sitemap, structured data —
+  goes through here so the three cannot drift apart.
 - `lib/types.ts` → `CountryMeta` + `CountryHistory` + `CATEGORY_META` + the dossier
   schema (`Metric`, `DomainSection`, `DataSource`, `CountryDossier`, `DOMAIN_META`).
 - `lib/countries.ts` → metadata access (imports `data/countries.json`).
@@ -121,5 +143,14 @@ history corpus's neutral, primary-sourced treatment of disputes.
   define pseudo-elements (use a plain class, e.g. `.paper-grain::before`).
 - react-globe.gl touches `window`; it's loaded via `next/dynamic` `{ ssr: false }`.
 - Turbopack dev does NOT type-check — always run `npx tsc --noEmit` before declaring done.
+- The landing page's staggered entrance is a **CSS animation** (`.reveal` /
+  `.reveal-fade` in `globals.css`, stagger via `--reveal-delay`), not React state.
+  It used to be `useState(entered)`, which held every element at `opacity: 0` until
+  hydration — and an `opacity: 0` element is not LCP-eligible, so the hero paragraph
+  measured a 7.6s LCP on text that was server-rendered all along. Do not reintroduce
+  a JS-gated entrance.
+- `public/data/countries.geo.json` is emitted at 2-decimal coordinate precision
+  (~1.1 km, invisible at globe zoom) — 257 KB → 176 KB. Raise `COORD_DP` in
+  `scripts/build-data.mjs` if a view ever needs true coastline detail.
 - A stray `pnpm-lock.yaml` in the home dir confuses Turbopack's root inference; pinned
   via `turbopack.root` in `next.config.ts`.

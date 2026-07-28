@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { allCountries } from "@/lib/countries";
 import { getHistory } from "@/lib/histories";
 import { abs, routes, SITE_URL } from "@/lib/seo";
+import { allPeriods, allThemes } from "@/lib/chronology";
 
 /**
  * Canonical origin and route shapes both come from `lib/seo.ts`, so the sitemap
@@ -42,6 +43,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    // The cross-nation reads. Derived from the same corpus, but they are the
+    // only pages that answer "what happened everywhere in X" — which is both
+    // the most interesting question here and the one most likely to be asked.
+    {
+      url: abs("/timeline"),
+      lastModified: BUILT_AT,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: abs("/themes"),
+      lastModified: BUILT_AT,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...allPeriods().map((p) => ({
+      url: abs(`/timeline/${p.slug}`),
+      lastModified: BUILT_AT,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...allThemes().map((t) => ({
+      url: abs(`/themes/${t.slug}`),
+      lastModified: BUILT_AT,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
   ];
 
   for (const country of allCountries()) {

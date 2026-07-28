@@ -11,22 +11,56 @@ to a cited reference.
   sphere, brass atmosphere). Hover to highlight a country; click to select it.
 - **The country card** — flag, capital, population, region, area, languages, currency,
   and an "Explore the history" button.
-- **The time-journey** (`/country/[code]`) — the main product, and deliberately *not*
-  an article. A full-screen, cinematic experience you **pilot** moment-by-moment
-  (arrow keys, scroll, swipe, or click the timeline rail): intro → era "chapters" →
-  individual events → a "today" outro. Each moment is a single focused card — a giant
-  year, the event, its category, its sources. The full sourced prose lives in an
-  opt-in parchment **"chapter drawer"** for depth without forcing reading. Nations not
-  yet authored show a graceful "archive in progress" screen.
+- **The time-journey** (`/country/[code]/history`) — deliberately *not* an article.
+  A full-screen, cinematic experience you **pilot** moment-by-moment (arrow keys,
+  scroll, swipe, or click the timeline rail): intro → era "chapters" → individual
+  events → a "today" outro. Each moment is a single focused card — a giant year, the
+  event, its category, its sources. Nations not yet authored show a graceful
+  "archive in progress" screen.
+- **The chronicle** (`/country/[code]/chronicle`) — the reading depth, and the same
+  verified material as one server-rendered document: every era, event, figure and
+  reference in the initial HTML, no JavaScript required. The journey is the
+  experience; the chronicle is the record you can read, quote and cite.
+- **The chronology** (`/timeline`, `/themes`) — the archive read *across* nations
+  rather than one at a time. Every sourced event grouped by period ("what was
+  happening everywhere in the 15th century?") and by theme (independence,
+  colonisation, catastrophe…).
 - **The index** (`/atlas`) — every nation, searchable, grouped by continent, with
   published archives featured.
 
-Seeded with deep, verified histories for **29 nations across every inhabited
-continent** — France, Egypt, Japan, Mexico, Germany, the United States, China, India,
-the United Kingdom, Italy, Spain, Russia, Brazil, Greece, Turkey, Iran, South Korea,
-Nigeria, Australia, Canada, Argentina, Indonesia, Vietnam, Saudi Arabia, Israel,
-Ethiopia, South Africa, Poland and the Netherlands — each with 6 eras and ~20–30
-sourced events. The archive is designed to scale to every country.
+The archive currently holds verified histories for **184 nations across every
+inhabited continent**, each with 5–6 eras and ~20–30 sourced events: **1,080 eras,
+4,452 events and 3,583 references** — roughly 600,000 words of authored, sourced
+prose. Every UN member state in the dataset has a published history.
+
+## Three depths
+
+The same subject meets a reader wherever they are, and the routes are built around
+that rather than around one canonical page:
+
+| Depth | Route | What it is |
+|---|---|---|
+| Glance | `/country/[code]` | The dossier — sourced indicators across six domains |
+| Journey | `/country/[code]/history` | The cinematic, piloted time-journey |
+| Read | `/country/[code]/chronicle` | The full sourced document, server-rendered |
+
+## Machine visibility
+
+The corpus exists to be cited, which means it has to be readable by something that
+does not run JavaScript. That is a deliberate, load-bearing constraint here:
+
+- Every chronicle, timeline and theme page is a **server component** — the full text
+  is in the initial response.
+- **JSON-LD** on every route (`lib/seo.ts`): `Article` carrying its complete
+  `citation` list, `Dataset` for the dossier metrics, `Country`, `BreadcrumbList`.
+  Citations name the *originating* publisher so an answer engine can attribute the
+  chain rather than flattening it.
+- `app/sitemap.ts` (556 URLs) and `app/robots.ts`, which names answer-engine
+  crawlers as an explicit opt-in.
+- Canonical URLs, OG/Twitter metadata and a generated social card.
+
+`lib/seo.ts` is the single definition of the origin, the route shapes and the
+structured data, so canonical tags, sitemap and JSON-LD cannot drift apart.
 
 ## Stack
 

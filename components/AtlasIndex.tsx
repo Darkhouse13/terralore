@@ -81,6 +81,23 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
             </div>
           </div>
 
+          {/* The other two ways in: the corpus read across nations rather than
+              one at a time. */}
+          <nav aria-label="Browse the archive" className="mt-6 flex flex-wrap gap-2.5">
+            <Link
+              href="/timeline"
+              className="inline-flex items-center gap-2 rounded-[4px] border border-brass/25 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.16em] text-chalk-soft transition-colors hover:border-brass hover:text-chalk"
+            >
+              Chronology <span className="text-brass-bright">by period</span>
+            </Link>
+            <Link
+              href="/themes"
+              className="inline-flex items-center gap-2 rounded-[4px] border border-brass/25 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.16em] text-chalk-soft transition-colors hover:border-brass hover:text-chalk"
+            >
+              Themes <span className="text-brass-bright">by subject</span>
+            </Link>
+          </nav>
+
           {/* search */}
           <div className="mt-[30px] flex items-center gap-3.5 rounded-[4px] border border-brass/20 bg-white/[0.02] px-[22px] py-3.5">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>

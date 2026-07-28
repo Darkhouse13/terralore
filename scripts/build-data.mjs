@@ -28,6 +28,28 @@ const pickContinent = (m, p) => {
 const slimFeatures = [];
 const metadata = {};
 
+/**
+ * Natural Earth ships 6-decimal coordinates — roughly 10 cm of precision. The
+ * globe renders these polygons at a scale where one screen pixel spans several
+ * kilometres, so all but the first two decimals are bytes the client downloads
+ * and parses to draw nothing. 2 dp is ~1.1 km at the equator: invisible at
+ * globe zoom, and it takes the file from ~257 KB to ~176 KB.
+ *
+ * If a future view ever zooms in far enough to show coastline detail, raise
+ * this rather than removing it.
+ */
+const COORD_DP = 2;
+
+function roundGeometry(geometry) {
+  if (!geometry) return geometry;
+  const round = (n) => Number(n.toFixed(COORD_DP));
+  // Coordinate arrays nest to different depths by geometry type, so recurse
+  // until we hit the [lon, lat] pairs at the bottom.
+  const walk = (coords) =>
+    typeof coords[0] === 'number' ? coords.map(round) : coords.map(walk);
+  return { ...geometry, coordinates: walk(geometry.coordinates) };
+}
+
 for (const f of geo.features) {
   const p = f.properties;
   const rawCode = p.ADM0_A3 && p.ADM0_A3 !== '-99' ? p.ADM0_A3 : p.ISO_A3;
@@ -40,7 +62,7 @@ for (const f of geo.features) {
   slimFeatures.push({
     type: 'Feature',
     properties: { code, name },
-    geometry: f.geometry,
+    geometry: roundGeometry(f.geometry),
   });
 
   // Relabeled polygons that contribute geometry only:

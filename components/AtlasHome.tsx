@@ -39,16 +39,9 @@ export default function AtlasHome({
   const [selected, setSelected] = useState<CountryMeta | null>(null);
   const [activeKey, setActiveKey] = useState<string | null>(null);
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
-  const [entered, setEntered] = useState(false);
   const [hintDismissed, setHintDismissed] = useState(false);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
-
-  // Cinematic entrance: trigger the staggered reveal just after mount.
-  useEffect(() => {
-    const t = setTimeout(() => setEntered(true), 80);
-    return () => clearTimeout(t);
-  }, []);
   // The onboarding hint bows out after the first interaction (or a fallback).
   useEffect(() => {
     const dismiss = () => setHintDismissed(true);
@@ -59,11 +52,12 @@ export default function AtlasHome({
       window.removeEventListener("pointerdown", dismiss);
     };
   }, []);
-  const reveal = (delay: number): CSSProperties => ({
-    opacity: entered ? 1 : 0,
-    transform: entered ? "none" : "translateY(10px)",
-    transition: `opacity .8s ease ${delay}s, transform .9s cubic-bezier(.16,1,.3,1) ${delay}s`,
-  });
+  // The entrance is a CSS animation (`.reveal` in globals.css) — it starts at
+  // style-parse time rather than waiting on hydration, which is what keeps the
+  // hero eligible to be the largest contentful paint. This only supplies the
+  // per-element stagger.
+  const reveal = (delay: number): CSSProperties =>
+    ({ "--reveal-delay": `${delay}s` }) as CSSProperties;
 
   const activeLayer = useMemo(
     () => layers.find((l) => l.key === activeKey) ?? null,
@@ -102,8 +96,7 @@ export default function AtlasHome({
       }}
     >
       <div
-        className="absolute inset-0"
-        style={{ opacity: entered ? 1 : 0, transition: "opacity 1.5s ease" }}
+        className="reveal-fade absolute inset-0"
       >
         <Starfield />
       </div>
@@ -141,7 +134,7 @@ export default function AtlasHome({
 
       {/* Logo */}
       <div
-        className="absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8"
+        className="reveal absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8"
         style={reveal(0.35)}
       >
         <Compass />
@@ -153,14 +146,22 @@ export default function AtlasHome({
       {/* Index link */}
       <Link
         href="/atlas"
+        // The atlas index is a large payload and this link sits on the landing
+        // page, so the default viewport prefetch fires several RSC requests at
+        // exactly the moment the globe chunk is downloading — competing for
+        // bandwidth to preload a page most visitors reach later, if at all.
+        prefetch={false}
         style={reveal(0.45)}
-        className="absolute right-6 top-6 z-20 inline-flex items-center gap-2.5 rounded-[4px] border border-brass/28 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.2em] text-chalk-soft backdrop-blur transition-colors hover:border-brass hover:text-chalk md:right-11 md:top-7"
+        className="reveal absolute right-6 top-6 z-20 inline-flex items-center gap-2.5 rounded-[4px] border border-brass/28 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.2em] text-chalk-soft backdrop-blur transition-colors hover:border-brass hover:text-chalk md:right-11 md:top-7"
       >
         Index <span className="text-brass-bright">{publishedCount}</span>
       </Link>
 
       {/* Hero */}
-      <div className="absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11" style={reveal(0.55)}>
+      <div
+        className="reveal absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11"
+        style={reveal(0.55)}
+      >
         <h1 className="font-display text-[clamp(27px,5.4vw,68px)] font-[330] leading-none tracking-[-0.02em] text-chalk-bright">
           An atlas of how nations came to be.
         </h1>
@@ -189,7 +190,7 @@ export default function AtlasHome({
 
       {/* Choropleth layer control + legend */}
       <div
-        className="absolute bottom-9 left-6 z-20 hidden w-[min(420px,46vw)] md:left-11 md:block"
+        className="reveal absolute bottom-9 left-6 z-20 hidden w-[min(420px,46vw)] md:left-11 md:block"
         style={reveal(0.75)}
       >
         <AnimatePresence>
@@ -239,7 +240,7 @@ export default function AtlasHome({
 
       {/* Color by — compact mobile control */}
       {!selected && (
-        <div className="absolute inset-x-0 bottom-0 z-20 md:hidden" style={reveal(0.75)}>
+        <div className="reveal absolute inset-x-0 bottom-0 z-20 md:hidden" style={reveal(0.75)}>
           <div className="border-t border-brass/15 bg-[rgba(10,11,20,0.72)] px-4 pb-[max(env(safe-area-inset-bottom),12px)] pt-3 backdrop-blur">
             {activeLayer && range && (
               <div className="mb-2.5">

@@ -148,6 +148,49 @@ body {
   background: rgba(191, 149, 80, 0.28);
 }
 
+/* ── Entrance reveal ───────────────────────────────────────────────────────
+   The staggered entrance used to be driven by React state (`entered`), which
+   meant every element on the landing page sat at opacity:0 until hydration
+   finished — around 2s on a throttled phone. An opacity:0 element is not
+   LCP-eligible, so the hero paragraph could not become the largest contentful
+   paint until hydration + an 0.55s stagger had elapsed: a measured LCP of
+   7.6s on server-rendered text that was in the HTML all along.
+
+   As a CSS animation the same choreography starts at style-parse time instead,
+   with no JavaScript involved. `both` holds the from-state before the delay
+   elapses, so nothing flashes in early. Set `--reveal-delay` per element.
+   The reduced-motion block below collapses the duration, as it does for every
+   other animation here. */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.reveal {
+  animation: reveal-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: var(--reveal-delay, 0s);
+}
+
+@keyframes reveal-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.reveal-fade {
+  animation: reveal-fade 1.5s ease both;
+  animation-delay: var(--reveal-delay, 0s);
+}
+
 /* Starfield — twinkle + a slow autonomous drift behind the globe */
 @keyframes twinkle {
   0%,
