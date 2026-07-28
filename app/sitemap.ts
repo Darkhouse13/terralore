@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { allCountries } from "@/lib/countries";
 import { getHistory } from "@/lib/histories";
 import { abs, routes, SITE_URL } from "@/lib/seo";
-import { allPeriods, allThemes } from "@/lib/chronology";
+import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
 
 /**
  * Canonical origin and route shapes both come from `lib/seo.ts`, so the sitemap
@@ -70,6 +70,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
+    // A theme within a period ("Independence in the 1960s") is where the full
+    // text of a large theme lives, so these carry the detail — and they are the
+    // specific thing a reader searches for. Only pairs that actually hold
+    // events are emitted.
+    ...allThemes().flatMap((t) => {
+      const slugs = new Set(t.events.map((ev) => periodFor(ev.year).slug));
+      return [...slugs].map((period) => ({
+        url: abs(`/themes/${t.slug}/${period}`),
+        lastModified: BUILT_AT,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      }));
+    }),
   ];
 
   for (const country of allCountries()) {
