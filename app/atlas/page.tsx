@@ -4,8 +4,16 @@ import { allCountries } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 
 export const metadata: Metadata = {
-  title: "The Atlas — Terralore",
-  description: "Every nation on the globe — searchable by name, code or region.",
+  title: "The Atlas",
+  description:
+    "Every nation on the globe — searchable by name, code or region. Each entry opens a sourced dossier and, where the archive is published, the full chronicle of how that nation came to be.",
+  alternates: { canonical: "/atlas" },
+  openGraph: {
+    type: "website",
+    title: "The Atlas — every nation, searchable",
+    description: "Every nation on the globe — searchable by name, code or region.",
+    url: "/atlas",
+  },
 };
 
 export default function AtlasPage() {

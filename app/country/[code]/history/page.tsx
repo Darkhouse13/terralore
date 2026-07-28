@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { getCountry, allCodes, formatPopulation, formatArea } from "@/lib/countries";
 import { getHistory } from "@/lib/histories";
 import TimeJourney from "@/components/journey/TimeJourney";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbLd, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
@@ -16,13 +18,39 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { code } = await params;
   const meta = getCountry(code);
-  if (!meta) return { title: "Unknown territory — Terralore" };
+  if (!meta) return { title: "Unknown territory" };
   const history = getHistory(code);
+  const path = routes.journey(code);
+
+  // Nations still being charted render a thin "archive in progress" screen —
+  // real for a visitor, but nothing worth putting in an index.
+  if (!history) {
+    return {
+      title: `${meta.name} — archive in progress`,
+      description: `The sourced history of ${meta.name} is being charted and verified for the Terralore archive.`,
+      alternates: { canonical: path },
+      robots: { index: false, follow: true },
+    };
+  }
+
+  const title = `${meta.name} — the time-journey`;
   return {
-    title: `${meta.name} — ${history ? history.tagline : "Terralore"}`,
-    description:
-      history?.summary ??
-      `The history of ${meta.name}, in the Terralore archive.`,
+    title,
+    description: history.summary,
+    alternates: { canonical: path },
+    openGraph: {
+      type: "article",
+      title: `${meta.name} — ${history.tagline}`,
+      description: history.summary,
+      url: path,
+      modifiedTime: history.updated,
+      siteName: SITE_NAME,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${meta.name} — ${history.tagline}`,
+      description: history.summary,
+    },
   };
 }
 
@@ -45,7 +73,27 @@ export default async function CountryHistoryPage({
     .slice(0, 6)
     .map((nb) => ({ code: nb!.code, name: nb!.name, flag: nb!.flag }));
 
-  return <TimeJourney history={history} meta={meta} neighbours={neighbours} />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          // The journey paints one moment at a time, so its DOM carries little
+          // text. We still describe the underlying work here, but the Article
+          // node keeps its canonical @id and url on the chronicle — the two
+          // routes are two presentations of one entity, and this is what tells
+          // an engine to consolidate them onto the readable one.
+          chronicleLd(history, meta),
+          breadcrumbLd([
+            { name: SITE_NAME, path: routes.home() },
+            { name: "The Atlas", path: routes.atlas() },
+            { name: meta.name, path: routes.dossier(meta.code) },
+            { name: "Time-journey", path: routes.journey(meta.code) },
+          ]),
+        ]}
+      />
+      <TimeJourney history={history} meta={meta} neighbours={neighbours} />
+    </>
+  );
 }
 
 function StubScreen({

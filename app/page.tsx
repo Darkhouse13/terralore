@@ -1,4 +1,6 @@
 import AtlasHome from "@/components/AtlasHome";
+import JsonLd from "@/components/JsonLd";
+import { organizationLd, websiteLd } from "@/lib/seo";
 import { allHistories, publishedCodes } from "@/lib/histories";
 import { allCodes, allCountries } from "@/lib/countries";
 import { getMetric } from "@/lib/domains";
@@ -52,13 +54,16 @@ export default function Home() {
   for (const c of allCountries()) metaIndex[c.code] = { name: c.name, flag: c.flag };
 
   return (
-    <AtlasHome
-      historyCodes={codes}
-      foundingNotes={foundingNotes}
-      headlines={headlines}
-      layers={layers}
-      metaIndex={metaIndex}
-      publishedCount={codes.length}
-    />
+    <>
+      <JsonLd data={[websiteLd(), organizationLd()]} />
+      <AtlasHome
+        historyCodes={codes}
+        foundingNotes={foundingNotes}
+        headlines={headlines}
+        layers={layers}
+        metaIndex={metaIndex}
+        publishedCount={codes.length}
+      />
+    </>
   );
 }

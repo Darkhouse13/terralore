@@ -484,9 +484,10 @@ function HistoryHero({
     );
   }
   return (
+    <div className="mt-[54px]">
     <Link
       href={`/country/${code}/history`}
-      className="group mt-[54px] flex items-center justify-between gap-6 rounded-[8px] border border-brass/30 px-[34px] py-[30px] transition-colors hover:border-brass"
+      className="group flex items-center justify-between gap-6 rounded-[8px] border border-brass/30 px-[34px] py-[30px] transition-colors hover:border-brass"
       style={{
         background: "linear-gradient(120deg,rgba(191,149,80,0.1),rgba(191,149,80,0.02))",
       }}
@@ -510,6 +511,27 @@ function HistoryHero({
         →
       </span>
     </Link>
+
+      {/* The reading depth. The journey above is the experience; this is the
+          same sourced material as one long-form document — and the version
+          search engines and answer engines can actually read. */}
+      <Link
+        href={`/country/${code}/chronicle`}
+        className="group mt-3 flex items-center justify-between gap-4 rounded-[8px] border border-brass/[0.14] px-[34px] py-[18px] transition-colors hover:border-brass/40 hover:bg-brass/[0.04]"
+      >
+        <span className="min-w-0">
+          <span className="eyebrow block tracking-[0.26em] text-chalk-faint">
+            Prefer to read?
+          </span>
+          <span className="mt-1.5 block font-serif text-[16px] text-chalk-soft">
+            The full chronicle of {name} — every era, event and reference on one page.
+          </span>
+        </span>
+        <span className="flex-none font-mono text-[13px] text-brass transition-transform group-hover:translate-x-0.5">
+          →
+        </span>
+      </Link>
+    </div>
   );
 }
 
