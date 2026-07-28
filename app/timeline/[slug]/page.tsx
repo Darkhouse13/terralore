@@ -162,13 +162,13 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
           <nav aria-label="Breadcrumb" className="eyebrow text-ink-faint">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" className="transition-colors hover:text-brass-deep">
+                <Link href="/" prefetch={false} className="transition-colors hover:text-brass-deep">
                   Terralore
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
               <li>
-                <Link href="/timeline" className="transition-colors hover:text-brass-deep">
+                <Link href="/timeline" prefetch={false} className="transition-colors hover:text-brass-deep">
                   Chronology
                 </Link>
               </li>
@@ -336,6 +336,7 @@ function EventItem({ event, yearLabel }: { event: WorldEvent; yearLabel: string 
         <p className="font-mono text-[0.66rem] uppercase tracking-[0.12em]">
           <Link
             href={routes.chronicle(event.code)}
+            prefetch={false}
             className="text-brass-deep transition-colors hover:underline"
           >
             {event.nation}
@@ -402,6 +403,7 @@ function PeriodFooter({
         {previous ? (
           <Link
             href={`/timeline/${previous.slug}`}
+            prefetch={false}
             className="group block rounded-[var(--radius-card)] border border-[rgba(120,90,40,0.28)] px-5 py-4 transition-colors hover:bg-[rgba(191,149,80,0.1)]"
           >
             <span className="eyebrow text-ink-faint">← Earlier</span>
@@ -419,6 +421,7 @@ function PeriodFooter({
         {next && (
           <Link
             href={`/timeline/${next.slug}`}
+            prefetch={false}
             className="group block rounded-[var(--radius-card)] border border-[rgba(120,90,40,0.28)] px-5 py-4 text-right transition-colors hover:bg-[rgba(191,149,80,0.1)] sm:col-start-2"
           >
             <span className="eyebrow text-ink-faint">Later →</span>
@@ -435,12 +438,14 @@ function PeriodFooter({
       <div className="mt-9 flex flex-wrap gap-3">
         <Link
           href="/timeline"
+          prefetch={false}
           className="inline-flex items-center gap-2 rounded-full bg-[#221a0e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-parchment transition-colors hover:bg-[#3a2f1d]"
         >
           All periods
         </Link>
         <Link
           href={routes.atlas()}
+          prefetch={false}
           className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
         >
           Browse the atlas

@@ -1,4 +1,5 @@
 import AtlasHome from "@/components/AtlasHome";
+import HomeArchive from "@/components/HomeArchive";
 import JsonLd from "@/components/JsonLd";
 import { organizationLd, websiteLd } from "@/lib/seo";
 import { allHistories, publishedCodes } from "@/lib/histories";
@@ -54,7 +55,9 @@ export default function Home() {
   for (const c of allCountries()) metaIndex[c.code] = { name: c.name, flag: c.flag };
 
   return (
-    <>
+    <main>
+      {/* Paint the hero's still before the CSS/JS pipeline settles. */}
+      <link rel="preload" href="/globe-still.svg" as="image" fetchPriority="high" />
       <JsonLd data={[websiteLd(), organizationLd()]} />
       <AtlasHome
         historyCodes={codes}
@@ -64,6 +67,7 @@ export default function Home() {
         metaIndex={metaIndex}
         publishedCount={codes.length}
       />
-    </>
+      <HomeArchive />
+    </main>
   );
 }

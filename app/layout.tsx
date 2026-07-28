@@ -3,11 +3,12 @@ import { Fraunces, Hanken_Grotesk, Newsreader, JetBrains_Mono } from "next/font/
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
-// Editorial display serif with character (optical sizing + a touch of "soft").
+// Editorial display serif with character. Weight axis only: opsz alone roughly
+// tripled the font payload, and at our display sizes the optical-sizing delta
+// is not worth ~80 KB on the critical path (fonts preload ahead of all JS).
 const fraunces = Fraunces({
   variable: "--ff-display",
   subsets: ["latin"],
-  axes: ["opsz"], // drop SOFT/WONK — unused, and they bloat the variable font
   display: "swap",
 });
 

@@ -581,12 +581,14 @@ function ChronicleFooter({
       <div className="flex flex-wrap gap-3">
         <Link
           href={routes.journey(meta.code)}
+          prefetch={false}
           className="inline-flex items-center gap-2 rounded-full bg-[#221a0e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-parchment transition-colors hover:bg-[#3a2f1d]"
         >
           ▶ Experience {meta.name} as a time-journey
         </Link>
         <Link
           href={routes.atlas()}
+          prefetch={false}
           className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
         >
           Browse the atlas
@@ -601,6 +603,7 @@ function ChronicleFooter({
             <li key={p.slug}>
               <Link
                 href={`/timeline/${p.slug}`}
+                prefetch={false}
                 className="inline-flex items-center rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
               >
                 {p.label}
@@ -611,6 +614,7 @@ function ChronicleFooter({
             <li key={t.slug}>
               <Link
                 href={`/themes/${t.slug}`}
+                prefetch={false}
                 className="inline-flex items-center rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
               >
                 {t.label}
@@ -628,6 +632,7 @@ function ChronicleFooter({
               <li key={nb.code}>
                 <Link
                   href={routes.chronicle(nb.code)}
+                  prefetch={false}
                   className="inline-flex items-center gap-1.5 rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
                 >
                   {nb.flag && <span aria-hidden="true">{nb.flag}</span>}

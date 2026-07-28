@@ -230,6 +230,7 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
         <h3 className="mt-3 font-display text-[1.6rem] font-[420] leading-[1.1] tracking-[-0.005em] text-[#221a0e]">
           <Link
             href={`/themes/${theme.slug}`}
+            prefetch={false}
             className="transition-colors after:absolute after:inset-0 after:content-[''] hover:text-brass-deep"
           >
             {theme.label}

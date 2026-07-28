@@ -220,13 +220,13 @@ export default async function ThemePeriodPage({
           <nav aria-label="Breadcrumb" className="eyebrow text-ink-faint">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" className="transition-colors hover:text-brass-deep">
+                <Link href="/" prefetch={false} className="transition-colors hover:text-brass-deep">
                   Terralore
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
               <li>
-                <Link href="/themes" className="transition-colors hover:text-brass-deep">
+                <Link href="/themes" prefetch={false} className="transition-colors hover:text-brass-deep">
                   Themes
                 </Link>
               </li>
@@ -234,6 +234,7 @@ export default async function ThemePeriodPage({
               <li>
                 <Link
                   href={`/themes/${theme.slug}`}
+                  prefetch={false}
                   className="transition-colors hover:text-brass-deep"
                 >
                   {theme.label}
@@ -280,13 +281,13 @@ function Masthead({ slice, title }: { slice: Slice; title: string }) {
           className="inline-block h-2.5 w-2.5 rounded-full"
           style={{ background: theme.tint }}
         />
-        <Link href={`/themes/${theme.slug}`} className="transition-colors hover:text-brass-deep">
+        <Link href={`/themes/${theme.slug}`} prefetch={false} className="transition-colors hover:text-brass-deep">
           {theme.label}
         </Link>
         <span aria-hidden="true" className="text-ink-faint">
           ·
         </span>
-        <Link href={`/timeline/${period.slug}`} className="transition-colors hover:text-brass-deep">
+        <Link href={`/timeline/${period.slug}`} prefetch={false} className="transition-colors hover:text-brass-deep">
           {period.label}
         </Link>
       </p>
@@ -363,6 +364,7 @@ function EventItem({ event }: { event: WorldEvent }) {
         <p className="font-mono text-[0.68rem] uppercase tracking-[0.14em]">
           <Link
             href={routes.chronicle(event.code)}
+            prefetch={false}
             className="text-brass-deep transition-colors hover:underline"
           >
             {event.flag && <span aria-hidden="true">{event.flag} </span>}
@@ -449,7 +451,7 @@ function SliceFooter({
           className="grid gap-4 border-b border-[rgba(120,90,40,0.22)] pb-9 sm:grid-cols-2"
         >
           {prev ? (
-            <Link href={`/themes/${theme.slug}/${prev.period.slug}`} className="group">
+            <Link href={`/themes/${theme.slug}/${prev.period.slug}`} prefetch={false} className="group">
               <span className="eyebrow text-ink-faint">← Earlier</span>
               <span className="mt-1.5 block font-display text-[1.12rem] font-[420] text-[#2c2519] transition-colors group-hover:text-brass-deep">
                 {theme.label} in {lowerPeriod(prev.period.label)}
@@ -464,6 +466,7 @@ function SliceFooter({
           {next && (
             <Link
               href={`/themes/${theme.slug}/${next.period.slug}`}
+              prefetch={false}
               className="group sm:text-right"
             >
               <span className="eyebrow text-ink-faint">Later →</span>
@@ -481,12 +484,14 @@ function SliceFooter({
       <div className="mt-9 flex flex-wrap gap-3">
         <Link
           href={`/themes/${theme.slug}`}
+          prefetch={false}
           className="inline-flex items-center gap-2 rounded-full bg-[#221a0e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-parchment transition-colors hover:bg-[#3a2f1d]"
         >
           All {num(theme.events.length)} {theme.label} events
         </Link>
         <Link
           href={`/timeline/${period.slug}`}
+          prefetch={false}
           className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
         >
           Every theme in {lowerPeriod(period.label)}
@@ -502,6 +507,7 @@ function SliceFooter({
               <li key={g.period.slug}>
                 <Link
                   href={`/themes/${theme.slug}/${g.period.slug}`}
+                  prefetch={false}
                   aria-current={here ? "page" : undefined}
                   className={`inline-flex items-baseline gap-1.5 rounded-full border px-3 py-1.5 transition-colors ${
                     here

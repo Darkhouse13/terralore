@@ -410,7 +410,7 @@ function PeriodSection({
       </p>
 
       <h2 className="mt-2.5 font-display text-[clamp(1.5rem,4.2vw,2.05rem)] font-[400] leading-[1.08] tracking-[-0.01em] text-[#221a0e]">
-        <Link href={href} className="transition-colors hover:text-brass-deep">
+        <Link href={href} prefetch={false} className="transition-colors hover:text-brass-deep">
           {period.label}
         </Link>
       </h2>
@@ -420,6 +420,7 @@ function PeriodSection({
       <p className="mt-1.5">
         <Link
           href={`/timeline/${period.slug}`}
+          prefetch={false}
           className="font-mono text-[0.66rem] uppercase tracking-[0.14em] text-ink-faint transition-colors hover:text-brass-deep"
         >
           Every theme in {lowerPeriod(period.label)} →
@@ -444,6 +445,7 @@ function PeriodSection({
       <p className="mt-5 flex flex-wrap items-baseline gap-x-3">
         <Link
           href={href}
+          prefetch={false}
           className="font-mono text-[0.68rem] uppercase tracking-[0.16em] text-brass-deep transition-colors hover:underline"
         >
           All {num(events.length)} events in {lowerPeriod(period.label)} →
@@ -504,6 +506,7 @@ function ThemeFooter({ theme, others }: { theme: ThemeBucket; others: ThemeBucke
             <li key={t.slug}>
               <Link
                 href={`/themes/${t.slug}`}
+                prefetch={false}
                 className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
               >
                 <span

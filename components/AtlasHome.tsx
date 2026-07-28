@@ -3,7 +3,16 @@
 import { useCallback, useEffect, useMemo, useState, type CSSProperties } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import GlobeScene from "./GlobeScene";
+import dynamic from "next/dynamic";
+
+// The globe is the identity of the page and also ~450 KB of three.js plus
+// seconds of main-thread boot. So it is *deferred*: a build-time SVG still of
+// its exact opening frame paints instantly, and the WebGL globe only mounts
+// behind it — on idle for capable desktops, on tap otherwise — then
+// crossfades in. Importing GlobeScene dynamically is what keeps three.js out
+// of the landing chunk entirely; a static import would ship it on first load
+// even if the component never rendered.
+const GlobeScene = dynamic(() => import("./GlobeScene"), { ssr: false });
 import CountryCard from "./CountryCard";
 import Starfield from "./Starfield";
 import { formatMetric } from "@/lib/format";
@@ -40,8 +49,42 @@ export default function AtlasHome({
   const [activeKey, setActiveKey] = useState<string | null>(null);
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
   const [hintDismissed, setHintDismissed] = useState(false);
+  // globeOn mounts the WebGL globe; globeReady crossfades the still out.
+  const [globeOn, setGlobeOn] = useState(false);
+  const [globeReady, setGlobeReady] = useState(false);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
+
+  // When to pay for three.js: capable desktops get the living globe
+  // automatically once the page has finished loading and gone idle — the wow
+  // survives, but it never competes with first paint. Small screens, coarse
+  // pointers, save-data and weak hardware keep the still until the reader
+  // asks for it. (Lab runs on throttled mobiles never tap, which is the
+  // point: they measure the page, not the instrument.)
+  useEffect(() => {
+    if (matchMedia("(pointer: coarse)").matches) return;
+    if (window.innerWidth < 768) return;
+    type NetInfo = { saveData?: boolean };
+    if ((navigator as unknown as { connection?: NetInfo }).connection?.saveData) return;
+    if ((navigator.hardwareConcurrency ?? 8) <= 4) return;
+
+    let idleId: number | undefined;
+    let timerId: ReturnType<typeof setTimeout> | undefined;
+    const arm = () => {
+      if ("requestIdleCallback" in window) {
+        idleId = requestIdleCallback(() => setGlobeOn(true), { timeout: 2500 });
+      } else {
+        timerId = setTimeout(() => setGlobeOn(true), 1400);
+      }
+    };
+    if (document.readyState === "complete") arm();
+    else window.addEventListener("load", arm, { once: true });
+    return () => {
+      window.removeEventListener("load", arm);
+      if (idleId !== undefined) cancelIdleCallback(idleId);
+      if (timerId !== undefined) clearTimeout(timerId);
+    };
+  }, []);
   // The onboarding hint bows out after the first interaction (or a fallback).
   useEffect(() => {
     const dismiss = () => setHintDismissed(true);
@@ -88,7 +131,9 @@ export default function AtlasHome({
   }, []);
 
   return (
-    <main
+    // A <section>, not the page: the archive continues below the fold now, so
+    // the globe is the opening chapter rather than the whole book.
+    <section
       className="relative h-[100dvh] w-full overflow-hidden text-chalk"
       style={{
         background:
@@ -101,14 +146,52 @@ export default function AtlasHome({
         <Starfield />
       </div>
 
-      {/* The globe */}
-      <GlobeScene
-        selectedCode={selected?.code ?? null}
-        onSelect={setSelected}
-        hasHistory={hasHistory}
-        choroplethValues={activeLayer?.values ?? null}
-        onHover={setHoveredCode}
-      />
+      {/* The globe — mounted on idle (desktop) or on tap, never on first paint */}
+      {globeOn && (
+        <GlobeScene
+          selectedCode={selected?.code ?? null}
+          onSelect={setSelected}
+          hasHistory={hasHistory}
+          choroplethValues={activeLayer?.values ?? null}
+          onHover={setHoveredCode}
+          // Hold the still up while the globe boots, loads its polygons and
+          // pulls its camera in (1.7s) — then reveal a settled instrument.
+          // Fading at onReady exposed the boot: wrong hemisphere, half zoom.
+          onReady={() => setTimeout(() => setGlobeReady(true), 1900)}
+        />
+      )}
+
+      {/* The still — the globe's exact opening frame, painted before any JS.
+          Rendered after the canvas so it sits on top and can mask the boot;
+          it doubles as the tap target that summons the real globe. */}
+      <button
+        type="button"
+        aria-label={globeOn ? undefined : "Bring the globe to life"}
+        onClick={() => setGlobeOn(true)}
+        disabled={globeOn}
+        className="absolute inset-0 grid cursor-pointer place-items-center disabled:cursor-default"
+        style={{
+          opacity: globeReady ? 0 : 1,
+          transition: "opacity 1.4s ease",
+          // The moment the live globe mounts beneath, let drags fall through —
+          // the still is a picture from here on, not a control.
+          pointerEvents: globeOn ? "none" : "auto",
+        }}
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element -- build-time SVG, no optimizer pass wanted */}
+        <img
+          src="/globe-still.svg"
+          alt=""
+          width={1000}
+          height={1000}
+          // Sphere = 89.6% of the SVG viewBox (atmosphere padding), so a 71dvh
+          // image puts the drawn sphere at ~64dvh — the live globe's settled
+          // size, keeping the crossfade a reveal rather than a jump.
+          className="reveal-fade h-[min(71dvh,96vw)] w-[min(71dvh,96vw)] translate-y-[9dvh] select-none md:translate-y-0"
+          style={{ "--reveal-delay": "0.1s" } as CSSProperties}
+          draggable={false}
+        />
+      </button>
 
       {/* soft vignette to seat the globe in the void */}
       <div
@@ -182,7 +265,7 @@ export default function AtlasHome({
             className="pointer-events-none absolute inset-x-0 bottom-7 z-10 hidden justify-center md:flex"
           >
             <span className="rounded-none border border-brass/15 bg-[rgba(10,11,20,0.4)] px-5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-chalk-dim backdrop-blur">
-              Drag to spin · Scroll to zoom · Click a nation
+              Drag to spin · Click a nation
             </span>
           </motion.div>
         )}
@@ -223,7 +306,11 @@ export default function AtlasHome({
               return (
                 <button
                   key={l.key}
-                  onClick={() => setActiveKey(active ? null : l.key)}
+                  onClick={() => {
+                    // A colour layer needs the live globe to mean anything.
+                    setGlobeOn(true);
+                    setActiveKey(active ? null : l.key);
+                  }}
                   className={`whitespace-nowrap rounded-[4px] border px-3 py-1.5 text-[13px] transition-colors ${
                     active
                       ? "border-brass-bright bg-brass-bright font-semibold text-[#1a140a]"
@@ -261,7 +348,11 @@ export default function AtlasHome({
                 return (
                   <button
                     key={l.key}
-                    onClick={() => setActiveKey(active ? null : l.key)}
+                    onClick={() => {
+                    // A colour layer needs the live globe to mean anything.
+                    setGlobeOn(true);
+                    setActiveKey(active ? null : l.key);
+                  }}
                     className={`shrink-0 whitespace-nowrap rounded-[4px] border px-3 py-1.5 text-[13px] transition-colors ${
                       active
                         ? "border-brass-bright bg-brass-bright font-semibold text-[#1a140a]"
@@ -292,7 +383,16 @@ export default function AtlasHome({
           )}
         </AnimatePresence>
       </div>
-    </main>
+
+      {/* Scroll cue — the archive continues */}
+      <a
+        href="#archive"
+        className="reveal absolute bottom-2 left-1/2 z-10 -translate-x-1/2 p-2 font-mono text-[10px] uppercase tracking-[0.22em] text-chalk-dim transition-colors hover:text-brass-bright"
+        style={reveal(1.1)}
+      >
+        ↓ The archive
+      </a>
+    </section>
   );
 }
 

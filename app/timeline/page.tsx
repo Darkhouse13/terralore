@@ -147,6 +147,7 @@ export default function ChronologyPage() {
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
                 href={`/timeline/${common.length ? common[common.length - 1].slug : periods[periods.length - 1].slug}`}
+                prefetch={false}
                 className="inline-flex items-center gap-2 rounded-full bg-[#221a0e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-parchment transition-colors hover:bg-[#3a2f1d]"
               >
                 Start with the present
@@ -252,6 +253,7 @@ function PeriodRow({
     <li className="border-t border-[rgba(120,90,40,0.16)] first:border-t-0">
       <Link
         href={`/timeline/${period.slug}`}
+        prefetch={false}
         className="group grid gap-2.5 py-4 transition-colors hover:bg-[rgba(191,149,80,0.07)] sm:grid-cols-[minmax(0,15rem)_1fr_minmax(0,11rem)] sm:items-center sm:gap-6 sm:px-2"
       >
         <div>

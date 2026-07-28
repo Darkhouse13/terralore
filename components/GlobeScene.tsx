@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { GlobeMethods } from "react-globe.gl";
 import * as THREE from "three";
 import { useElementSize } from "./useElementSize";
 import { CHORO_NODATA, choroColor, percentileRanks } from "@/lib/choropleth";
@@ -24,6 +25,8 @@ interface Props {
   choroplethValues?: Record<string, number> | null;
   /** Reports the hovered country code so the legend can react. */
   onHover?: (code: string | null) => void;
+  /** Fires once the WebGL globe has booted — the static still crossfades out. */
+  onReady?: () => void;
 }
 
 const OCEAN = "#0a1422";
@@ -55,9 +58,10 @@ export default function GlobeScene({
   hasHistory,
   choroplethValues,
   onHover,
+  onReady,
 }: Props) {
   const { ref, width, height } = useElementSize<HTMLDivElement>();
-  const globeRef = useRef<any>(null);
+  const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const [features, setFeatures] = useState<Feature[]>([]);
   const [metaMap, setMetaMap] = useState<CountryMetaMap>({});
   const [hoverCode, setHoverCode] = useState<string | null>(null);
@@ -98,7 +102,10 @@ export default function GlobeScene({
     const controls = g.controls();
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.32;
-    controls.enableZoom = true;
+    // The home page scrolls past the globe now — wheel must scroll the page,
+    // not zoom the sphere, or the hero becomes a scroll trap. Drag-to-spin and
+    // click-to-select are the real interactions and both survive.
+    controls.enableZoom = false;
     controls.minDistance = 180;
     controls.maxDistance = 520;
     controls.rotateSpeed = 0.7;
@@ -229,7 +236,10 @@ export default function GlobeScene({
           ref={globeRef}
           width={width}
           height={height}
-          onGlobeReady={() => setReady(true)}
+          onGlobeReady={() => {
+            setReady(true);
+            onReady?.();
+          }}
           backgroundColor="rgba(0,0,0,0)"
           showGlobe
           globeMaterial={globeMaterial}
