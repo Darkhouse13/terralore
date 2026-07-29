@@ -1,13 +1,17 @@
 // Renders public/globe-still.svg — a static orthographic view of the globe,
-// generated from the same countries.geo.json and the same palette as
-// GlobeScene, framed at its opening point of view (lat 24, lng 14).
+// generated from the same countries.geo.json and the same palette as the live
+// renderer (components/globe-render.ts), framed at its opening point of view
+// (lat 24, lng 14).
 //
-// Why it exists: three.js is ~445 KB of JS and seconds of main-thread work,
-// which is the right price for an instrument you are using and the wrong price
-// for a first paint. The landing page shows this still instantly; the WebGL
-// globe mounts behind it (on idle for desktop, on tap for mobile) and
-// crossfades in when ready. The still must therefore look like the globe's
-// opening frame, not like a generic map.
+// Why it exists: this is the landing page's zero-JS first paint, and it is the
+// LCP element. The canvas globe mounts behind it and crossfades in once it has
+// drawn the identical frame — so the still must match globe-render's palette
+// and proportions exactly, or the handover visibly jumps.
+//
+// STRATUM: ocean is a bathymetric ramp, land is limestone, and every coastline
+// carries the three-band continental-shelf halo. The halo is drawn here as
+// three stacked strokes of the same path, which is precisely what the canvas
+// renderer does with its merged coast Path2D.
 //
 // Run: node scripts/build-globe-still.mjs   (after build-data.mjs)
 
@@ -68,8 +72,11 @@ function ringPath(ring) {
     }
     const sx = +(CX + x).toFixed(1);
     const sy = +(CY - y).toFixed(1);
-    // Drop sub-pixel moves — most of the byte budget for zero visual change.
-    if (prevX !== null && Math.abs(sx - prevX) < 1.2 && Math.abs(sy - prevY) < 1.2) continue;
+    // Drop near-invisible moves — most of the byte budget for no visual change.
+    // 2 viewBox units is ~1.4 px at the size this renders, and the canvas
+    // renderer decimates on the same principle, so the handover stays stable.
+    // This is the LCP element, so its bytes are the most expensive on the site.
+    if (prevX !== null && Math.abs(sx - prevX) < 2 && Math.abs(sy - prevY) < 2) continue;
     d += (any ? 'L' : 'M') + sx + ' ' + sy;
     any = true;
     prevX = sx;
@@ -87,16 +94,20 @@ function featurePath(geometry) {
   return d;
 }
 
-// ── graticule — meridians + parallels every 30°, as GlobeScene draws ───────
-function graticulePaths() {
+// ── graticule — meridians + parallels every 30°, as globe-render draws ─────
+// Split into principal (equator + prime meridian) and the rest, matching the
+// renderer's two-pass treatment: an atlas always draws those two heavier.
+function graticulePaths(principal) {
   let d = '';
   for (let lng = -180; lng < 180; lng += 30) {
+    if ((lng === 0) !== principal) continue;
     const ring = [];
     for (let lat = -90; lat <= 90; lat += 2) ring.push([lng, lat]);
     const p = openPath(ring);
     if (p) d += p;
   }
   for (let lat = -60; lat <= 60; lat += 30) {
+    if ((lat === 0) !== principal) continue;
     const ring = [];
     for (let lng = -180; lng <= 180; lng += 2) ring.push([lng, lat]);
     const p = openPath(ring);
@@ -125,35 +136,56 @@ function openPath(points) {
 
 // ── compose ────────────────────────────────────────────────────────────────
 const land = geo.features.map((f) => featurePath(f.geometry)).join('');
-const grat = graticulePaths();
+const grat = graticulePaths(false);
+const gratPrime = graticulePaths(true);
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${SIZE} ${SIZE}" role="img" aria-label="An antique-style globe centred on Africa and Europe">
+// The shelf halo: three stepped bands of shoal tint, widest and faintest first.
+//
+// These reference the coastline geometry via <use> rather than repeating the
+// `d` attribute. That matters a lot here: the land path is ~90 KB, this file is
+// the landing page's LCP element, and emitting it four times took the still
+// from 96 KB to 362 KB. <use> keeps exactly one copy of the geometry and lets
+// each band override only its stroke.
+const SHELF_BANDS = [
+  [Math.max(1, R * 0.030), 0.10],
+  [Math.max(1, R * 0.017), 0.15],
+  [Math.max(1, R * 0.007), 0.24],
+];
+const shelf = SHELF_BANDS.map(
+  ([w, a]) =>
+    `<use href="#coast" fill="none" stroke="rgba(39,111,128,${a})" stroke-width="${w.toFixed(1)}" stroke-linejoin="round" stroke-linecap="round"/>`,
+).join('\n');
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${SIZE} ${SIZE}" role="img" aria-label="A bathymetric globe centred on Africa and Europe">
 <defs>
 <radialGradient id="ocean" cx="42%" cy="38%" r="75%">
-<stop offset="0%" stop-color="#16233c"/>
-<stop offset="55%" stop-color="#0d1728"/>
-<stop offset="100%" stop-color="#0a1422"/>
+<stop offset="0%" stop-color="#0e3243"/>
+<stop offset="55%" stop-color="#082230"/>
+<stop offset="100%" stop-color="#04161f"/>
 </radialGradient>
 <radialGradient id="atmo" cx="50%" cy="50%" r="50%">
-<stop offset="78%" stop-color="rgba(207,164,95,0)"/>
-<stop offset="92%" stop-color="rgba(207,164,95,0.16)"/>
-<stop offset="100%" stop-color="rgba(207,164,95,0)"/>
+<stop offset="78%" stop-color="rgba(39,111,128,0)"/>
+<stop offset="92%" stop-color="rgba(39,111,128,0.18)"/>
+<stop offset="100%" stop-color="rgba(39,111,128,0)"/>
 </radialGradient>
 <radialGradient id="sheen" cx="38%" cy="30%" r="70%">
-<stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
-<stop offset="45%" stop-color="rgba(255,255,255,0.02)"/>
-<stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+<stop offset="0%" stop-color="rgba(214,238,238,0.07)"/>
+<stop offset="45%" stop-color="rgba(214,238,238,0.015)"/>
+<stop offset="100%" stop-color="rgba(214,238,238,0)"/>
 </radialGradient>
 <clipPath id="disc"><circle cx="${CX}" cy="${CY}" r="${R}"/></clipPath>
+<path id="coast" d="${land}"/>
 </defs>
 <circle cx="${CX}" cy="${CY}" r="${R + 46}" fill="url(#atmo)"/>
 <circle cx="${CX}" cy="${CY}" r="${R}" fill="url(#ocean)"/>
 <g clip-path="url(#disc)">
-<path d="${grat}" fill="none" stroke="rgba(216,181,110,0.13)" stroke-width="1"/>
-<path d="${land}" fill="rgba(205,191,161,0.92)" stroke="rgba(6,7,11,0.55)" stroke-width="1.1" fill-rule="evenodd"/>
+<path d="${grat}" fill="none" stroke="rgba(39,111,128,0.20)" stroke-width="1"/>
+<path d="${gratPrime}" fill="none" stroke="rgba(39,111,128,0.42)" stroke-width="1.2"/>
+${shelf}
+<use href="#coast" fill="rgba(239,234,224,0.95)" stroke="rgba(22,32,30,0.5)" stroke-width="1.1" fill-rule="evenodd"/>
 <circle cx="${CX}" cy="${CY}" r="${R}" fill="url(#sheen)"/>
 </g>
-<circle cx="${CX}" cy="${CY}" r="${R}" fill="none" stroke="rgba(207,164,95,0.35)" stroke-width="1.4"/>
+<circle cx="${CX}" cy="${CY}" r="${R}" fill="none" stroke="rgba(39,111,128,0.45)" stroke-width="1.4"/>
 </svg>`;
 
 const out = join(root, 'public/globe-still.svg');

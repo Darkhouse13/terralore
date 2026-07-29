@@ -11,32 +11,55 @@ interface Props {
   onJump: (i: number) => void;
 }
 
-// Meridian timeline rail — a single 48px scrubber: a brass baseline, era bands
-// with mono labels (the active era spells out its title), category-tinted ticks
-// that fill as you pass them, and a glowing brass playhead.
+// The timeline rail — a 48px scrubber, and the clearest place the STRATUM
+// signature carries: each era is a *band*, tinted by the category that
+// dominates it, laid down in sequence like sediment. The rail therefore reads
+// as a core sample of the nation's history — you can see at a glance that one
+// era was mostly war and the next mostly formation, before reading a word.
 export default function TimelineRail({ moments, current, activeEra, onJump }: Props) {
   const [hover, setHover] = useState<number | null>(null);
   const total = moments.length;
   const pos = (i: number) => (total > 1 ? (i / (total - 1)) * 100 : 0);
 
   const bands = useMemo(() => {
-    const map = new Map<number, { first: number; last: number; title: string }>();
+    const map = new Map<
+      number,
+      { first: number; last: number; title: string; counts: Map<string, number> }
+    >();
     moments.forEach((m, i) => {
       if (m.kind === "era" || m.kind === "event") {
-        const b = map.get(m.eraIndex);
-        if (!b) map.set(m.eraIndex, { first: i, last: i, title: m.era.title });
-        else b.last = i;
+        let b = map.get(m.eraIndex);
+        if (!b) {
+          b = { first: i, last: i, title: m.era.title, counts: new Map() };
+          map.set(m.eraIndex, b);
+        } else {
+          b.last = i;
+        }
+        if (m.kind === "event") {
+          b.counts.set(m.event.category, (b.counts.get(m.event.category) ?? 0) + 1);
+        }
       }
     });
-    return [...map.entries()].map(([eraIndex, b]) => ({ eraIndex, ...b }));
+    return [...map.entries()].map(([eraIndex, b]) => {
+      // The era's dominant category — the pigment its band is laid down in.
+      let tint = "var(--color-copper)";
+      let best = 0;
+      for (const [cat, n] of b.counts) {
+        if (n > best) {
+          best = n;
+          tint = CATEGORY_META[cat as keyof typeof CATEGORY_META].tint;
+        }
+      }
+      return { eraIndex, first: b.first, last: b.last, title: b.title, tint };
+    });
   }, [moments]);
 
   const tickColor = (m: Moment) =>
     m.kind === "event"
       ? CATEGORY_META[m.event.category].tint
       : m.kind === "era"
-        ? "var(--color-brass)"
-        : "var(--color-chalk-faint)";
+        ? "var(--color-copper)"
+        : "var(--color-chalk-3)";
 
   const tickBig = (m: Moment) => m.kind !== "event";
 
@@ -50,7 +73,7 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
   return (
     <div className="relative h-12 select-none">
       {/* baseline */}
-      <div className="absolute inset-x-0 top-[34px] h-px bg-brass/15" />
+      <div className="absolute inset-x-0 top-[34px] h-px bg-copper/15" />
 
       {/* era bands + labels */}
       {bands.map((b) => {
@@ -59,19 +82,23 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
         const on = b.eraIndex === activeEra;
         return (
           <div key={`band-${b.eraIndex}`}>
+            {/* the stratum band — a layer of the core, in the era's own pigment */}
             <div
-              className="absolute top-[33px] h-[2px]"
+              className="absolute top-[31px] rounded-[1px]"
               style={{
                 left: `${left}%`,
                 width: `${width}%`,
-                background: on ? "rgba(216,181,110,0.45)" : "rgba(216,181,110,0.16)",
+                height: on ? 5 : 3,
+                background: b.tint,
+                opacity: on ? 0.95 : 0.42,
+                transition: "opacity var(--dur-state) ease, height var(--dur-state) ease",
               }}
             />
             <button
               onClick={() => onJump(b.first)}
               title={b.title}
-              className={`absolute top-[8px] max-w-[34%] truncate font-mono text-[10px] uppercase tracking-[0.14em] transition-colors ${
-                on ? "text-brass" : "text-chalk-dim hover:text-chalk-soft"
+              className={`absolute top-[6px] max-w-[34%] truncate rounded-[2px] px-1 py-0.5 font-mono text-[10px] uppercase tracking-[0.14em] transition-colors ${
+                on ? "text-copper-bright" : "text-chalk-4 hover:text-chalk-2"
               }`}
               style={{ left: `${left}%` }}
             >
@@ -107,7 +134,7 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
                 background: passed ? col : "transparent",
                 border: passed
                   ? "0"
-                  : `1px solid ${m.kind === "event" ? "rgba(168,158,138,0.4)" : "rgba(216,181,110,0.45)"}`,
+                  : `1px solid ${m.kind === "event" ? "rgba(168,158,138,0.4)" : "rgba(227, 154, 103,0.45)"}`,
                 boxShadow: active ? `0 0 12px ${col}` : "none",
               }}
             />
@@ -117,10 +144,10 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
 
       {/* playhead */}
       <div
-        className="absolute top-[26px] -ml-[9px] h-[18px] w-[18px] rounded-full bg-brass-bright"
+        className="absolute top-[26px] -ml-[9px] h-[18px] w-[18px] rounded-full bg-copper-bright"
         style={{
           left: `${pos(current)}%`,
-          boxShadow: "0 0 0 5px rgba(216,181,110,0.16), 0 0 18px rgba(216,181,110,0.7)",
+          boxShadow: "0 0 0 5px rgba(227, 154, 103,0.16), 0 0 18px rgba(227, 154, 103,0.7)",
           transition: "left .5s cubic-bezier(.2,.8,.2,1)",
         }}
       />
@@ -128,7 +155,7 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
       {/* hover preview */}
       {hover != null && hover !== current && (
         <div
-          className="pointer-events-none absolute bottom-[44px] z-10 -translate-x-1/2 truncate rounded-[4px] border border-brass/30 bg-void-soft/95 px-2.5 py-1 text-[0.72rem] text-chalk shadow-lg backdrop-blur"
+          className="pointer-events-none absolute bottom-[44px] z-10 -translate-x-1/2 truncate rounded-[4px] border border-copper/30 bg-depth-5/95 px-2.5 py-1 text-[0.72rem] text-chalk shadow-lg backdrop-blur"
           style={{ left: `${pos(hover)}%`, maxWidth: 280 }}
         >
           {label(moments[hover])}

@@ -54,20 +54,20 @@ export default function HomeArchive() {
   }).filter((d): d is NonNullable<typeof d> => d !== null);
 
   return (
-    <section id="archive" className="paper-grain scroll-mt-0 bg-parchment text-ink">
+    <section id="archive" className="paper-grain scroll-mt-0 bg-land-0 text-ink">
       {/* brass hairline — the seam between planetarium and reading room */}
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-brass/50 to-transparent" />
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-copper/50 to-transparent" />
 
       <div className="relative z-[1] mx-auto max-w-[72rem] px-5 py-16 md:px-8 md:py-24">
         {/* ── the credo ─────────────────────────────────────────────────── */}
         <header className="max-w-[46rem]">
-          <p className="eyebrow text-brass-deep">The archive</p>
-          <h2 className="mt-4 font-display text-[clamp(2rem,5.5vw,3.4rem)] font-[380] leading-[1.02] tracking-[-0.015em] text-[#221a0e]">
+          <p className="eyebrow text-copper-deep">The archive</p>
+          <h2 className="mt-4 font-display text-[clamp(2rem,5.5vw,3.4rem)] font-[380] leading-[1.02] tracking-[-0.015em] text-[#16201e]">
             {stats.events.toLocaleString("en")} sourced events.
             <br />
             {stats.nations} nations. One record.
           </h2>
-          <p className="mt-6 font-serif text-[1.18rem] leading-[1.66] text-[#3a2f1d]">
+          <p className="mt-6 font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
             Terralore publishes a nation&rsquo;s history only once each claim can be traced to a
             reliable source — encyclopedias, national archives and museums, intergovernmental
             bodies, academic work. Where a fact is contested, the archive shows the competing
@@ -79,12 +79,12 @@ export default function HomeArchive() {
         {/* ── nations ───────────────────────────────────────────────────── */}
         <div className="mt-16 md:mt-20">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
-            <h3 className="font-display text-[clamp(1.5rem,3.5vw,2rem)] font-[400] text-[#221a0e]">
+            <h3 className="font-display text-[clamp(1.5rem,3.5vw,2rem)] font-[400] text-[#16201e]">
               Begin with a nation
             </h3>
             <Link
               href={routes.atlas()}
-              className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-brass-deep transition-colors hover:text-[#221a0e]"
+              className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-copper-deep transition-colors hover:text-[#16201e]"
             >
               All {stats.nations} nations →
             </Link>
@@ -96,19 +96,19 @@ export default function HomeArchive() {
                 key={meta.code}
                 href={routes.chronicle(meta.code)}
                 prefetch={false}
-                className="group border border-[rgba(120,90,40,0.25)] bg-[rgba(255,252,244,0.5)] p-6 transition-colors hover:border-brass hover:bg-[rgba(191,149,80,0.07)]"
+                className="group border border-[rgba(138, 74, 40,0.25)] bg-[rgba(255,252,244,0.5)] p-6 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
               >
-                <p className="eyebrow flex items-center gap-2 text-ink-faint">
+                <p className="eyebrow flex items-center gap-2 text-ink-3">
                   {meta.flag && <span className="text-sm leading-none">{meta.flag}</span>}
                   <span>{meta.continent}</span>
                 </p>
-                <h4 className="mt-3 font-display text-[1.55rem] font-[420] leading-tight text-[#221a0e] transition-colors group-hover:text-brass-deep">
+                <h4 className="mt-3 font-display text-[1.55rem] font-[420] leading-tight text-[#16201e] transition-colors group-hover:text-copper-deep">
                   {meta.name}
                 </h4>
-                <p className="mt-2.5 font-serif text-[0.98rem] italic leading-[1.5] text-[#6a5836]">
+                <p className="mt-2.5 font-serif text-[0.98rem] italic leading-[1.5] text-[#454f4c]">
                   {history.tagline}
                 </p>
-                <p className="mt-4 font-mono text-[0.66rem] uppercase tracking-[0.14em] text-ink-faint">
+                <p className="mt-4 font-mono text-[0.66rem] uppercase tracking-[0.14em] text-ink-3">
                   {history.eras.length} eras · {events} sourced events
                 </p>
               </Link>
@@ -119,17 +119,17 @@ export default function HomeArchive() {
         {/* ── time ──────────────────────────────────────────────────────── */}
         <div className="mt-16 md:mt-20">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
-            <h3 className="font-display text-[clamp(1.5rem,3.5vw,2rem)] font-[400] text-[#221a0e]">
+            <h3 className="font-display text-[clamp(1.5rem,3.5vw,2rem)] font-[400] text-[#16201e]">
               Or with a moment in time
             </h3>
             <Link
               href="/timeline"
-              className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-brass-deep transition-colors hover:text-[#221a0e]"
+              className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-copper-deep transition-colors hover:text-[#16201e]"
             >
               The full chronology →
             </Link>
           </div>
-          <p className="mt-3 max-w-[46rem] font-serif text-[1.02rem] italic leading-relaxed text-[#6a5836]">
+          <p className="mt-3 max-w-[46rem] font-serif text-[1.02rem] italic leading-relaxed text-[#454f4c]">
             Every chronicle is written nation by nation. The chronology is the other axis — what
             was happening everywhere at once.
           </p>
@@ -140,13 +140,13 @@ export default function HomeArchive() {
                 key={d.slug}
                 href={`/timeline/${d.slug}`}
                 prefetch={false}
-                className="group border border-[rgba(120,90,40,0.25)] px-5 py-4 transition-colors hover:border-brass hover:bg-[rgba(191,149,80,0.07)]"
+                className="group border border-[rgba(138, 74, 40,0.25)] px-5 py-4 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
               >
-                <p className="font-display text-[1.12rem] font-[420] text-[#221a0e] transition-colors group-hover:text-brass-deep">
+                <p className="font-display text-[1.12rem] font-[420] text-[#16201e] transition-colors group-hover:text-copper-deep">
                   {d.label}
                 </p>
-                <p className="mt-1 font-serif text-[0.88rem] italic text-[#6a5836]">{d.note}</p>
-                <p className="mt-2.5 font-mono text-[0.62rem] uppercase tracking-[0.14em] text-ink-faint">
+                <p className="mt-1 font-serif text-[0.88rem] italic text-[#454f4c]">{d.note}</p>
+                <p className="mt-2.5 font-mono text-[0.62rem] uppercase tracking-[0.14em] text-ink-3">
                   {d.events} events · {d.nations} nations
                 </p>
               </Link>
@@ -157,12 +157,12 @@ export default function HomeArchive() {
         {/* ── themes ────────────────────────────────────────────────────── */}
         <div className="mt-16 md:mt-20">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
-            <h3 className="font-display text-[clamp(1.5rem,3.5vw,2rem)] font-[400] text-[#221a0e]">
+            <h3 className="font-display text-[clamp(1.5rem,3.5vw,2rem)] font-[400] text-[#16201e]">
               Or follow a thread
             </h3>
             <Link
               href="/themes"
-              className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-brass-deep transition-colors hover:text-[#221a0e]"
+              className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-copper-deep transition-colors hover:text-[#16201e]"
             >
               All themes →
             </Link>
@@ -174,17 +174,17 @@ export default function HomeArchive() {
                 key={t.slug}
                 href={`/themes/${t.slug}`}
                 prefetch={false}
-                className="group inline-flex items-baseline gap-2.5 border border-[rgba(120,90,40,0.25)] px-4 py-2.5 transition-colors hover:border-brass hover:bg-[rgba(191,149,80,0.07)]"
+                className="group inline-flex items-baseline gap-2.5 border border-[rgba(138, 74, 40,0.25)] px-4 py-2.5 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
               >
                 <span
                   aria-hidden
                   className="inline-block h-2 w-2 self-center rounded-full"
                   style={{ background: t.tint }}
                 />
-                <span className="font-sans text-[0.95rem] font-medium text-[#2c2519]">
+                <span className="font-sans text-[0.95rem] font-medium text-[#16201e]">
                   {t.label}
                 </span>
-                <span className="font-mono text-[0.66rem] tabular-nums text-ink-faint">
+                <span className="font-mono text-[0.66rem] tabular-nums text-ink-3">
                   {t.events.length.toLocaleString("en")}
                 </span>
               </Link>
@@ -193,39 +193,39 @@ export default function HomeArchive() {
         </div>
 
         {/* ── footer ────────────────────────────────────────────────────── */}
-        <footer className="mt-20 border-t border-[rgba(120,90,40,0.22)] pt-10 md:mt-24">
+        <footer className="mt-20 border-t border-[rgba(138, 74, 40,0.22)] pt-10 md:mt-24">
           <div className="flex flex-wrap items-start justify-between gap-8">
             <div className="max-w-md">
-              <p className="font-display text-[1.3rem] font-[420] text-[#221a0e]">Terralore</p>
-              <p className="mt-2.5 font-serif text-[0.98rem] italic leading-relaxed text-[#6a5836]">
+              <p className="font-display text-[1.3rem] font-[420] text-[#16201e]">Terralore</p>
+              <p className="mt-2.5 font-serif text-[0.98rem] italic leading-relaxed text-[#454f4c]">
                 An atlas of how nations came to be. Every claim traceable to a source; every gap
                 acknowledged rather than filled in.
               </p>
             </div>
             <nav aria-label="Site" className="flex gap-12">
               <div>
-                <p className="eyebrow text-ink-faint">Explore</p>
-                <ul className="mt-3 space-y-2 font-sans text-[0.95rem] text-[#4a3f2c]">
+                <p className="eyebrow text-ink-3">Explore</p>
+                <ul className="mt-3 space-y-2 font-sans text-[0.95rem] text-[#454f4c]">
                   <li>
-                    <Link href={routes.atlas()} className="transition-colors hover:text-brass-deep">
+                    <Link href={routes.atlas()} className="transition-colors hover:text-copper-deep">
                       The Atlas
                     </Link>
                   </li>
                   <li>
-                    <Link href="/timeline" className="transition-colors hover:text-brass-deep">
+                    <Link href="/timeline" className="transition-colors hover:text-copper-deep">
                       Chronology
                     </Link>
                   </li>
                   <li>
-                    <Link href="/themes" className="transition-colors hover:text-brass-deep">
+                    <Link href="/themes" className="transition-colors hover:text-copper-deep">
                       Themes
                     </Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <p className="eyebrow text-ink-faint">The record</p>
-                <ul className="mt-3 space-y-2 font-sans text-[0.95rem] text-[#4a3f2c]">
+                <p className="eyebrow text-ink-3">The record</p>
+                <ul className="mt-3 space-y-2 font-sans text-[0.95rem] text-[#454f4c]">
                   <li>{stats.sources.toLocaleString("en")} references</li>
                   <li>{stats.events.toLocaleString("en")} sourced events</li>
                   <li>{stats.nations} nations</li>

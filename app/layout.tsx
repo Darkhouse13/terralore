@@ -1,38 +1,70 @@
 import type { Metadata } from "next";
-import { Fraunces, Hanken_Grotesk, Newsreader, JetBrains_Mono } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans, Literata } from "next/font/google";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
-// Editorial display serif with character. Weight axis only: opsz alone roughly
-// tripled the font payload, and at our display sizes the optical-sizing delta
-// is not worth ~80 KB on the critical path (fonts preload ahead of all JS).
-const fraunces = Fraunces({
+/* ── Type — see DESIGN.md ───────────────────────────────────────────────────
+   Three families, and the loading strategy is a measured decision rather than
+   a preference.
+
+   The previous system ran four families across FIVE files, 230 KB, every one
+   of them preloaded at high priority — which put them ahead of the LCP image
+   in the queue. On Lighthouse's 1.6 Mbps mobile profile that is ~1.15s of
+   transfer before the largest element can begin painting, and it matched the
+   observed FCP 0.9s → LCP 4.2s gap almost exactly.
+
+   Stratum cuts the critical path to TWO files:
+
+     Literata        display AND reading. It was designed for long-form screen
+                     reading and carries enough structure at weight to work at
+                     display sizes, so one family replaces two (Fraunces for
+                     display + Newsreader for reading). Preloaded.
+
+     Literata italic declared as a SEPARATE instance with preload:false. Italic
+                     is used for taglines and emphasis only — never above the
+                     fold on the landing page, and never the LCP element — so
+                     it has no business on the critical path. Declaring it
+                     separately is what makes that possible; a single instance
+                     with style:["normal","italic"] preloads both.
+
+     IBM Plex Sans   interface. Preloaded.
+     IBM Plex Mono   cartographic detail — codes, coordinates, years. One
+                     superfamily with Plex Sans (shared metrics, shared
+                     institutional character). NOT preloaded: it renders small
+                     uppercase labels where a swap is imperceptible.
+
+   `display: "swap"` throughout, so text is always readable immediately in the
+   fallback rather than blocked on a webfont. */
+
+const literata = Literata({
   variable: "--ff-display",
   subsets: ["latin"],
   display: "swap",
+  weight: ["400", "600", "700"],
 });
 
-// Long-form reading serif — used for the history article body.
-const newsreader = Newsreader({
-  variable: "--ff-serif",
+const literataItalic = Literata({
+  variable: "--ff-serif-italic",
   subsets: ["latin"],
-  style: ["normal", "italic"],
   display: "swap",
+  style: ["italic"],
+  weight: ["400", "600"],
+  preload: false,
 });
 
-// UI / interface sans — labels, navigation, data. Meridian recasts off Inter to
-// Hanken Grotesk for a touch more character without losing legibility.
-const hanken = Hanken_Grotesk({
+const plexSans = IBM_Plex_Sans({
   variable: "--ff-sans",
   subsets: ["latin"],
   display: "swap",
+  weight: ["400", "500", "600"],
 });
 
-// Cartographic detailing — coordinates, dates, codes.
-const mono = JetBrains_Mono({
+const plexMono = IBM_Plex_Mono({
   variable: "--ff-mono",
   subsets: ["latin"],
   display: "swap",
+  weight: ["400", "500"],
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -83,7 +115,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${newsreader.variable} ${hanken.variable} ${mono.variable} h-full antialiased`}
+      className={`${literata.variable} ${literataItalic.variable} ${plexSans.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
     </html>

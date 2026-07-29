@@ -196,7 +196,7 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
         ]}
       />
 
-      <main id="top" className="paper-grain min-h-screen bg-parchment text-ink">
+      <main id="top" className="paper-grain min-h-screen bg-land-0 text-ink">
         <div className="relative z-[1] mx-auto max-w-[46rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
           <Breadcrumb theme={theme} />
 
@@ -227,21 +227,21 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
 
 function Breadcrumb({ theme }: { theme: ThemeBucket }) {
   return (
-    <nav aria-label="Breadcrumb" className="eyebrow text-ink-faint">
+    <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
       <ol className="flex flex-wrap items-center gap-2">
         <li>
-          <Link href="/" className="transition-colors hover:text-brass-deep">
+          <Link href="/" className="transition-colors hover:text-copper-deep">
             Terralore
           </Link>
         </li>
         <li aria-hidden="true">/</li>
         <li>
-          <Link href="/themes" className="transition-colors hover:text-brass-deep">
+          <Link href="/themes" className="transition-colors hover:text-copper-deep">
             Themes
           </Link>
         </li>
         <li aria-hidden="true">/</li>
-        <li aria-current="page" className="text-brass-deep">
+        <li aria-current="page" className="text-copper-deep">
           {theme.label}
         </li>
       </ol>
@@ -262,8 +262,8 @@ function Masthead({
   const last = theme.events[theme.events.length - 1];
 
   return (
-    <header className="mt-9 border-b border-[rgba(120,90,40,0.22)] pb-10">
-      <p className="eyebrow flex items-center gap-2.5 text-brass-deep">
+    <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+      <p className="eyebrow flex items-center gap-2.5 text-copper-deep">
         <span
           aria-hidden="true"
           className="inline-block h-2.5 w-2.5 rounded-full"
@@ -272,37 +272,37 @@ function Masthead({
         <span>A thematic collection</span>
       </p>
 
-      <h1 className="mt-4 font-display text-[clamp(2.6rem,8vw,4.2rem)] font-[380] leading-[0.96] tracking-[-0.015em] text-[#221a0e]">
+      <h1 className="mt-4 font-display text-[clamp(2.6rem,8vw,4.2rem)] font-[380] leading-[0.96] tracking-[-0.015em] text-[#16201e]">
         {theme.label}
       </h1>
 
-      <p className="mt-5 font-serif text-[1.18rem] font-[340] italic leading-[1.5] text-[#6a5836]">
+      <p className="mt-5 font-serif text-[1.18rem] font-[340] italic leading-[1.5] text-[#454f4c]">
         {standfirst(theme)}
       </p>
 
       <div className="mt-8 border-l-2 pl-5" style={{ borderColor: theme.tint }}>
         <dl className="grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
           <div>
-            <dt className="eyebrow text-ink-faint">Events</dt>
-            <dd className="mt-1 font-display text-[1.5rem] font-[420] leading-none tabular-nums text-[#221a0e]">
+            <dt className="eyebrow text-ink-3">Events</dt>
+            <dd className="mt-1 font-display text-[1.5rem] font-[420] leading-none tabular-nums text-[#16201e]">
               {num(theme.events.length)}
             </dd>
           </div>
           <div>
-            <dt className="eyebrow text-ink-faint">Nations</dt>
-            <dd className="mt-1 font-display text-[1.5rem] font-[420] leading-none tabular-nums text-[#221a0e]">
+            <dt className="eyebrow text-ink-3">Nations</dt>
+            <dd className="mt-1 font-display text-[1.5rem] font-[420] leading-none tabular-nums text-[#16201e]">
               {num(theme.nations)}
             </dd>
           </div>
           <div>
-            <dt className="eyebrow text-ink-faint">Earliest</dt>
-            <dd className="mt-1 font-mono text-[0.92rem] tabular-nums text-[#2c2519]">
+            <dt className="eyebrow text-ink-3">Earliest</dt>
+            <dd className="mt-1 font-mono text-[0.92rem] tabular-nums text-[#16201e]">
               {longYear(first.year)}
             </dd>
           </div>
           <div>
-            <dt className="eyebrow text-ink-faint">Latest</dt>
-            <dd className="mt-1 font-mono text-[0.92rem] tabular-nums text-[#2c2519]">
+            <dt className="eyebrow text-ink-3">Latest</dt>
+            <dd className="mt-1 font-mono text-[0.92rem] tabular-nums text-[#16201e]">
               {longYear(last.year)}
             </dd>
           </div>
@@ -311,25 +311,25 @@ function Masthead({
 
       <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
         <div className="col-span-2 sm:col-span-3">
-          <dt className="eyebrow text-ink-faint">Densest period</dt>
-          <dd className="mt-1 font-sans text-[0.97rem] font-medium text-[#2c2519]">
-            <a href={`#p-${densest.period.slug}`} className="hover:text-brass-deep">
+          <dt className="eyebrow text-ink-3">Densest period</dt>
+          <dd className="mt-1 font-sans text-[0.97rem] font-medium text-[#16201e]">
+            <a href={`#p-${densest.period.slug}`} className="hover:text-copper-deep">
               {densest.period.label}
             </a>
-            <span className="ml-2 font-mono text-[0.72rem] tabular-nums text-ink-faint">
+            <span className="ml-2 font-mono text-[0.72rem] tabular-nums text-ink-3">
               {num(densest.events.length)} events
             </span>
           </dd>
         </div>
         {continents.map(([name, n]) => (
           <div key={name}>
-            <dt className="eyebrow text-ink-faint">{name}</dt>
-            <dd className="mt-1 font-mono text-[0.9rem] tabular-nums text-[#2c2519]">{num(n)}</dd>
+            <dt className="eyebrow text-ink-3">{name}</dt>
+            <dd className="mt-1 font-mono text-[0.9rem] tabular-nums text-[#16201e]">{num(n)}</dd>
           </div>
         ))}
       </dl>
 
-      <p className="mt-8 font-mono text-[0.68rem] uppercase leading-relaxed tracking-[0.16em] text-ink-faint">
+      <p className="mt-8 font-mono text-[0.68rem] uppercase leading-relaxed tracking-[0.16em] text-ink-3">
         Each period below opens a page holding those events in full — summary, era
         and citations. Every entry is the same record, with the same sources, as the
         one on its nation&rsquo;s chronicle.
@@ -340,16 +340,16 @@ function Masthead({
 
 function Contents({ groups, tint }: { groups: PeriodGroup[]; tint: string }) {
   return (
-    <nav aria-label="Periods" className="mt-10 border-b border-[rgba(120,90,40,0.22)] pb-9">
-      <h2 className="eyebrow text-ink-faint">Jump to a period</h2>
+    <nav aria-label="Periods" className="mt-10 border-b border-[rgba(138, 74, 40,0.22)] pb-9">
+      <h2 className="eyebrow text-ink-3">Jump to a period</h2>
       <ol className="mt-4 flex flex-wrap gap-x-2 gap-y-2">
         {groups.map((g) => (
           <li key={g.period.slug}>
             <a
               href={`#p-${g.period.slug}`}
-              className="inline-flex items-baseline gap-1.5 rounded-full border border-[rgba(120,90,40,0.28)] px-3 py-1.5 transition-colors hover:bg-[rgba(191,149,80,0.12)]"
+              className="inline-flex items-baseline gap-1.5 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3 py-1.5 transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
             >
-              <span className="font-sans text-[0.84rem] text-[#4a3f2c]">{g.period.label}</span>
+              <span className="font-sans text-[0.84rem] text-[#454f4c]">{g.period.label}</span>
               <span
                 className="font-mono text-[0.66rem] tabular-nums"
                 style={{ color: tint }}
@@ -376,9 +376,9 @@ const PREVIEW = 8;
  * (Hoisting the strings is for legibility, not bytes — it changes no output.)
  */
 const ROW = "grid grid-cols-[4.6rem_1fr] gap-x-4";
-const ROW_BODY = "border-l border-[rgba(120,90,40,0.22)] pl-4";
-const ROW_TITLE = "font-display text-[1.04rem] font-[440] leading-snug text-[#221a0e]";
-const ROW_NATION = "ml-2 font-mono text-[0.66rem] text-ink-faint";
+const ROW_BODY = "border-l border-[rgba(138, 74, 40,0.22)] pl-4";
+const ROW_TITLE = "font-display text-[1.04rem] font-[440] leading-snug text-[#16201e]";
+const ROW_NATION = "ml-2 font-mono text-[0.66rem] text-ink-3";
 
 /**
  * A period, as an index entry: the counts, a link to the page that holds the
@@ -403,14 +403,14 @@ function PeriodSection({
   const href = `/themes/${themeSlug}/${period.slug}`;
 
   return (
-    <section id={`p-${period.slug}`} className="scroll-mt-6 border-b border-[rgba(120,90,40,0.22)] py-9">
+    <section id={`p-${period.slug}`} className="scroll-mt-6 border-b border-[rgba(138, 74, 40,0.22)] py-9">
       <p className="eyebrow" style={{ color: tint }}>
         {num(events.length)} {events.length === 1 ? "event" : "events"} · {num(nations)}{" "}
         {nations === 1 ? "nation" : "nations"}
       </p>
 
-      <h2 className="mt-2.5 font-display text-[clamp(1.5rem,4.2vw,2.05rem)] font-[400] leading-[1.08] tracking-[-0.01em] text-[#221a0e]">
-        <Link href={href} prefetch={false} className="transition-colors hover:text-brass-deep">
+      <h2 className="mt-2.5 font-display text-[clamp(1.5rem,4.2vw,2.05rem)] font-[400] leading-[1.08] tracking-[-0.01em] text-[#16201e]">
+        <Link href={href} prefetch={false} className="transition-colors hover:text-copper-deep">
           {period.label}
         </Link>
       </h2>
@@ -421,7 +421,7 @@ function PeriodSection({
         <Link
           href={`/timeline/${period.slug}`}
           prefetch={false}
-          className="font-mono text-[0.66rem] uppercase tracking-[0.14em] text-ink-faint transition-colors hover:text-brass-deep"
+          className="font-mono text-[0.66rem] uppercase tracking-[0.14em] text-ink-3 transition-colors hover:text-copper-deep"
         >
           Every theme in {lowerPeriod(period.label)} →
         </Link>
@@ -446,12 +446,12 @@ function PeriodSection({
         <Link
           href={href}
           prefetch={false}
-          className="font-mono text-[0.68rem] uppercase tracking-[0.16em] text-brass-deep transition-colors hover:underline"
+          className="font-mono text-[0.68rem] uppercase tracking-[0.16em] text-copper-deep transition-colors hover:underline"
         >
           All {num(events.length)} events in {lowerPeriod(period.label)} →
         </Link>
         {rest > 0 && (
-          <span className="font-mono text-[0.66rem] text-ink-faint">
+          <span className="font-mono text-[0.66rem] text-ink-3">
             {num(rest)} more not shown here
           </span>
         )}
@@ -466,7 +466,7 @@ function PeriodSection({
  * date.
  */
 function YearStamp({ year, label }: { year: number; label: string }) {
-  const cls = "block pt-[2px] font-mono text-[0.8rem] font-medium tabular-nums text-brass-deep";
+  const cls = "block pt-[2px] font-mono text-[0.8rem] font-medium tabular-nums text-copper-deep";
   if (year < 1) return <span className={cls}>{label}</span>;
   return (
     <time dateTime={String(year).padStart(4, "0")} className={cls}>
@@ -481,33 +481,33 @@ function ThemeFooter({ theme, others }: { theme: ThemeBucket; others: ThemeBucke
       <div className="flex flex-wrap gap-3">
         <Link
           href="/themes"
-          className="inline-flex items-center gap-2 rounded-full bg-[#221a0e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-parchment transition-colors hover:bg-[#3a2f1d]"
+          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           All {others.length + 1} themes
         </Link>
         <Link
           href="/timeline"
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
+          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           The chronology, period by period
         </Link>
         <Link
           href={routes.atlas()}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
+          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas by nation
         </Link>
       </div>
 
       <nav aria-label="Other themes" className="mt-10">
-        <h2 className="eyebrow text-ink-faint">Other collections</h2>
+        <h2 className="eyebrow text-ink-3">Other collections</h2>
         <ul className="mt-3.5 flex flex-wrap gap-2.5">
           {others.map((t) => (
             <li key={t.slug}>
               <Link
                 href={`/themes/${t.slug}`}
                 prefetch={false}
-                className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#4a3f2c] transition-colors hover:bg-[rgba(191,149,80,0.12)]"
+                className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
               >
                 <span
                   aria-hidden="true"
@@ -515,7 +515,7 @@ function ThemeFooter({ theme, others }: { theme: ThemeBucket; others: ThemeBucke
                   style={{ background: t.tint }}
                 />
                 {t.label}
-                <span className="font-mono text-[0.68rem] tabular-nums text-ink-faint">
+                <span className="font-mono text-[0.68rem] tabular-nums text-ink-3">
                   {num(t.events.length)}
                 </span>
               </Link>
@@ -524,7 +524,7 @@ function ThemeFooter({ theme, others }: { theme: ThemeBucket; others: ThemeBucke
         </ul>
       </nav>
 
-      <p className="mt-11 font-mono text-[0.68rem] leading-relaxed text-ink-faint">
+      <p className="mt-11 font-mono text-[0.68rem] leading-relaxed text-ink-3">
         {theme.label} · {SITE_NAME} · {num(theme.events.length)} events from {num(theme.nations)}{" "}
         nations. Collections are derived from the same verified history files as every
         nation&rsquo;s chronicle; an event is published only once each of its claims can

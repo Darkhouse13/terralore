@@ -26,19 +26,19 @@ export default function OpengraphImage() {
           justifyContent: "space-between",
           padding: "72px 80px",
           background:
-            "radial-gradient(120% 120% at 15% 0%, #14131c 0%, #0b0a10 45%, #06070b 100%)",
-          color: "#ece4d3",
+            "radial-gradient(120% 120% at 15% 0%, #0c2e3d 0%, #04161f 45%, #04161f 100%)",
+          color: "#e6ecea",
         }}
       >
         {/* brass hairline, echoing the atlas rules across the site */}
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-          <div style={{ width: 54, height: 2, background: "#bf9550" }} />
+          <div style={{ width: 54, height: 2, background: "#c87244" }} />
           <div
             style={{
               fontSize: 20,
               letterSpacing: 8,
               textTransform: "uppercase",
-              color: "#d8b56e",
+              color: "#e39a67",
             }}
           >
             {SITE_NAME}
@@ -51,7 +51,7 @@ export default function OpengraphImage() {
               fontSize: 78,
               lineHeight: 1.04,
               letterSpacing: -1.5,
-              color: "#f7f0e1",
+              color: "#f2f6f4",
               maxWidth: 940,
             }}
           >
@@ -62,7 +62,7 @@ export default function OpengraphImage() {
               marginTop: 28,
               fontSize: 27,
               lineHeight: 1.45,
-              color: "#a89e8a",
+              color: "#afbfc1",
               maxWidth: 880,
             }}
           >
@@ -76,10 +76,10 @@ export default function OpengraphImage() {
             alignItems: "center",
             gap: 14,
             fontSize: 20,
-            color: "#8c8472",
+            color: "#8497a0",
           }}
         >
-          <span style={{ color: "#bf9550" }}>◆</span>
+          <span style={{ color: "#c87244" }}>◆</span>
           <span>Every claim traceable to a source</span>
         </div>
       </div>

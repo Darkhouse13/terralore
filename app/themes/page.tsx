@@ -106,17 +106,17 @@ export default function ThemesHubPage() {
         ]}
       />
 
-      <main className="paper-grain min-h-screen bg-parchment text-ink">
+      <main className="paper-grain min-h-screen bg-land-0 text-ink">
         <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-          <nav aria-label="Breadcrumb" className="eyebrow text-ink-faint">
+          <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" className="transition-colors hover:text-brass-deep">
+                <Link href="/" className="transition-colors hover:text-copper-deep">
                   Terralore
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
-              <li aria-current="page" className="text-brass-deep">
+              <li aria-current="page" className="text-copper-deep">
                 Themes
               </li>
             </ol>
@@ -128,7 +128,7 @@ export default function ThemesHubPage() {
             <h2 id="collections" className="sr-only">
               The collections
             </h2>
-            <ol className="mt-10 grid gap-px border border-[rgba(120,90,40,0.22)] bg-[rgba(120,90,40,0.22)] sm:grid-cols-2">
+            <ol className="mt-10 grid gap-px border border-[rgba(138, 74, 40,0.22)] bg-[rgba(138, 74, 40,0.22)] sm:grid-cols-2">
               {THEMES.map((theme, i) => (
                 <ThemeCard key={theme.slug} theme={theme} rank={i + 1} />
               ))}
@@ -146,19 +146,19 @@ export default function ThemesHubPage() {
 
 function Masthead() {
   return (
-    <header className="mt-9 border-b border-[rgba(120,90,40,0.22)] pb-10">
-      <p className="eyebrow text-brass-deep">The archive, read across nations</p>
+    <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+      <p className="eyebrow text-copper-deep">The archive, read across nations</p>
 
-      <h1 className="mt-4 font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#221a0e]">
+      <h1 className="mt-4 font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
         Themes
       </h1>
 
-      <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#6a5836]">
+      <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
         {THEMES.length} tags, {num(STATS.events)} events, {num(STATS.nations)} nations — the
         same record turned ninety degrees.
       </p>
 
-      <div className="mt-7 max-w-[46rem] font-serif text-[1.18rem] leading-[1.66] text-[#3a2f1d]">
+      <div className="mt-7 max-w-[46rem] font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
         <p>
           Every event in the archive carries one thematic tag. Inside a nation&rsquo;s
           chronicle that tag does one small thing — it tints a single point on the
@@ -173,7 +173,7 @@ function Masthead() {
         </p>
       </div>
 
-      <p className="mt-8 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-ink-faint">
+      <p className="mt-8 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-ink-3">
         {THEMES.length} collections · {num(STATS.events)} sourced events ·{" "}
         {num(STATS.nations)} nations · {num(STATS.sources)} references ·{" "}
         {longYear(STATS.earliest)} – {longYear(STATS.latest)}
@@ -182,13 +182,13 @@ function Masthead() {
       <div className="mt-7 flex flex-wrap gap-3">
         <Link
           href="/timeline"
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
+          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Or read it period by period
         </Link>
         <Link
           href={routes.atlas()}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
+          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas by nation
         </Link>
@@ -212,7 +212,7 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
         ];
 
   return (
-    <li className="relative bg-parchment transition-colors hover:bg-[rgba(191,149,80,0.07)]">
+    <li className="relative bg-land-0 transition-colors hover:bg-[rgba(200, 114, 68,0.07)]">
       <article className="h-full px-6 py-7 md:px-7">
         <span
           aria-hidden="true"
@@ -220,41 +220,41 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
           style={{ background: theme.tint }}
         />
 
-        <p className="eyebrow flex items-center justify-between gap-3 text-ink-faint">
+        <p className="eyebrow flex items-center justify-between gap-3 text-ink-3">
           <span style={{ color: theme.tint }}>{String(rank).padStart(2, "0")}</span>
           <span className="tabular-nums">
             {num(theme.events.length)} events · {num(theme.nations)} nations
           </span>
         </p>
 
-        <h3 className="mt-3 font-display text-[1.6rem] font-[420] leading-[1.1] tracking-[-0.005em] text-[#221a0e]">
+        <h3 className="mt-3 font-display text-[1.6rem] font-[420] leading-[1.1] tracking-[-0.005em] text-[#16201e]">
           <Link
             href={`/themes/${theme.slug}`}
             prefetch={false}
-            className="transition-colors after:absolute after:inset-0 after:content-[''] hover:text-brass-deep"
+            className="transition-colors after:absolute after:inset-0 after:content-[''] hover:text-copper-deep"
           >
             {theme.label}
           </Link>
         </h3>
 
-        <p className="mt-1.5 font-mono text-[0.7rem] tabular-nums text-ink-faint">
+        <p className="mt-1.5 font-mono text-[0.7rem] tabular-nums text-ink-3">
           {longYear(earliest.year)} – {longYear(latest.year)}
         </p>
 
-        <dl className="mt-5 space-y-3.5 border-t border-[rgba(120,90,40,0.22)] pt-4">
+        <dl className="mt-5 space-y-3.5 border-t border-[rgba(138, 74, 40,0.22)] pt-4">
           {specimens.map(({ label, event }) => (
             <div key={label}>
-              <dt className="font-mono text-[0.62rem] uppercase tracking-[0.14em] text-ink-faint">
+              <dt className="font-mono text-[0.62rem] uppercase tracking-[0.14em] text-ink-3">
                 {label}
               </dt>
               <dd className="mt-1">
-                <span className="font-mono text-[0.76rem] tabular-nums text-brass-deep">
+                <span className="font-mono text-[0.76rem] tabular-nums text-copper-deep">
                   {event.yearLabel}
                 </span>
-                <span className="ml-2 font-serif text-[0.99rem] leading-[1.5] text-[#3a2f1d]">
+                <span className="ml-2 font-serif text-[0.99rem] leading-[1.5] text-[#16201e]">
                   {event.title}
                 </span>
-                <span className="ml-1.5 font-mono text-[0.66rem] text-ink-faint">
+                <span className="ml-1.5 font-mono text-[0.66rem] text-ink-3">
                   {event.flag && <span aria-hidden="true">{event.flag} </span>}
                   {event.nation}
                 </span>
@@ -263,7 +263,7 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
           ))}
         </dl>
 
-        <p className="mt-5 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-brass-deep">
+        <p className="mt-5 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-copper-deep">
           Read all {num(theme.events.length)} →
         </p>
       </article>
@@ -273,8 +273,8 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
 
 function HubFooter() {
   return (
-    <footer className="mt-14 border-t border-[rgba(120,90,40,0.22)] pt-9">
-      <p className="max-w-[46rem] font-mono text-[0.68rem] leading-relaxed text-ink-faint">
+    <footer className="mt-14 border-t border-[rgba(138, 74, 40,0.22)] pt-9">
+      <p className="max-w-[46rem] font-mono text-[0.68rem] leading-relaxed text-ink-3">
         Thematic collections are generated from the same verified history files that
         power every nation&rsquo;s chronicle — an event appears in a collection only
         once each of its claims can be traced to a reliable source. {SITE_NAME} publishes

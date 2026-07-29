@@ -45,18 +45,18 @@ export default function ChapterDrawer({
             exit={{ x: "-102%" }}
             transition={{ type: "tween", ease: [0.16, 1, 0.3, 1], duration: 0.6 }}
             className="absolute inset-y-0 left-0 flex w-[min(620px,90vw)] flex-col overflow-y-auto shadow-[40px_0_90px_-30px_rgba(0,0,0,0.7)]"
-            style={{ background: "linear-gradient(160deg,#f7f0e1,#efe4cf)" }}
+            style={{ background: "linear-gradient(160deg,#f2f6f4,#dedacd)" }}
           >
             <div className="relative px-7 py-12 md:px-14">
               {/* header */}
               <div className="flex items-start justify-between gap-5">
-                <div className="font-mono text-[12px] uppercase tracking-[0.22em] text-[#a07b32]">
+                <div className="font-mono text-[12px] uppercase tracking-[0.22em] text-[#8a4a28]">
                   Chapter {String(n).padStart(2, "0")} · {era.period}
                 </div>
                 <button
                   onClick={onClose}
                   aria-label="Close chapter"
-                  className="grid h-[38px] w-[38px] shrink-0 place-items-center rounded-full border border-[rgba(120,90,40,0.35)] text-[#7a5e2e] transition-colors hover:border-[#7a5e2e] hover:bg-[rgba(120,90,40,0.08)]"
+                  className="grid h-[38px] w-[38px] shrink-0 place-items-center rounded-full border border-[rgba(138, 74, 40,0.35)] text-[#8a4a28] transition-colors hover:border-[#8a4a28] hover:bg-[rgba(138, 74, 40,0.08)]"
                 >
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                     <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="1.5" />
@@ -64,19 +64,19 @@ export default function ChapterDrawer({
                 </button>
               </div>
 
-              <h2 className="mt-[18px] font-display text-[clamp(38px,6vw,58px)] font-[380] leading-none tracking-[-0.01em] text-[#221a0e]">
+              <h2 className="mt-[18px] font-display text-[clamp(38px,6vw,58px)] font-[380] leading-none tracking-[-0.01em] text-[#16201e]">
                 {era.title}
               </h2>
-              <p className="mt-[22px] font-serif text-[21px] font-[340] italic leading-[1.5] text-[#6a5836]">
+              <p className="mt-[22px] font-serif text-[21px] font-[340] italic leading-[1.5] text-[#454f4c]">
                 {era.standfirst}
               </p>
 
-              <hr className="my-[30px] border-0 border-t border-[rgba(120,90,40,0.2)]" />
+              <hr className="my-[30px] border-0 border-t border-[rgba(138, 74, 40,0.2)]" />
 
               {/* body with drop-cap first paragraph */}
               {body[0] && (
-                <p className="font-serif text-[18px] font-[340] leading-[1.68] text-[#3a2f1d]">
-                  <span className="float-left mr-3.5 mt-[7px] font-display text-[74px] font-[400] leading-[0.74] text-brass">
+                <p className="font-serif text-[18px] font-[340] leading-[1.68] text-[#16201e]">
+                  <span className="float-left mr-3.5 mt-[7px] font-display text-[74px] font-[400] leading-[0.74] text-copper">
                     {firstCap}
                   </span>
                   {firstRest}
@@ -85,19 +85,19 @@ export default function ChapterDrawer({
               {body.slice(1).map((p, i) => (
                 <p
                   key={i}
-                  className="mt-[18px] font-serif text-[18px] font-[340] leading-[1.68] text-[#3a2f1d]"
+                  className="mt-[18px] font-serif text-[18px] font-[340] leading-[1.68] text-[#16201e]"
                 >
                   {p}
                 </p>
               ))}
 
               {era.pullquote && (
-                <figure className="my-9 border-l-2 border-brass/60 pl-6">
-                  <blockquote className="font-display text-[1.5rem] font-medium leading-snug text-[#221a0e]">
+                <figure className="my-9 border-l-2 border-copper/60 pl-6">
+                  <blockquote className="font-display text-[1.5rem] font-medium leading-snug text-[#16201e]">
                     “{era.pullquote.text}”
                   </blockquote>
                   {era.pullquote.attribution && (
-                    <figcaption className="mt-3 font-mono text-[0.72rem] uppercase tracking-[0.1em] text-[#8a7142]">
+                    <figcaption className="mt-3 font-mono text-[0.72rem] uppercase tracking-[0.1em] text-[#8a4a28]">
                       {era.pullquote.attribution}
                     </figcaption>
                   )}
@@ -107,29 +107,29 @@ export default function ChapterDrawer({
               {/* figures of the age */}
               {era.figures && era.figures.length > 0 && (
                 <>
-                  <div className="mb-[18px] mt-[42px] border-t border-[rgba(120,90,40,0.2)] pt-6 font-mono text-[11px] uppercase tracking-[0.26em] text-[#a07b32]">
+                  <div className="mb-[18px] mt-[42px] border-t border-[rgba(138, 74, 40,0.2)] pt-6 font-mono text-[11px] uppercase tracking-[0.26em] text-[#8a4a28]">
                     Figures of the age
                   </div>
                   <div className="grid gap-5 sm:grid-cols-2">
                     {era.figures.map((f) => (
                       <div key={f.name} className="flex gap-4">
                         <div
-                          className="grid h-[52px] w-[52px] shrink-0 place-items-center rounded-full border border-[rgba(120,90,40,0.3)] font-display text-[22px] text-[#7a5e2e]"
+                          className="grid h-[52px] w-[52px] shrink-0 place-items-center rounded-full border border-[rgba(138, 74, 40,0.3)] font-display text-[22px] text-[#8a4a28]"
                           style={{
                             background:
-                              "repeating-linear-gradient(45deg,#e3d4b6,#e3d4b6 4px,#dccba8 4px,#dccba8 8px)",
+                              "repeating-linear-gradient(45deg,#c3beac,#c3beac 4px,#c3beac 4px,#c3beac 8px)",
                           }}
                         >
                           {initials(f.name)}
                         </div>
                         <div className="min-w-0">
-                          <div className="font-semibold leading-tight text-[#221a0e]">{f.name}</div>
-                          <div className="mt-0.5 font-mono text-[11px] text-[#8a7142]">
+                          <div className="font-semibold leading-tight text-[#16201e]">{f.name}</div>
+                          <div className="mt-0.5 font-mono text-[11px] text-[#8a4a28]">
                             {f.role}
                             {f.life ? ` · ${f.life}` : ""}
                           </div>
                           {f.blurb && (
-                            <p className="mt-1.5 text-[0.9rem] leading-relaxed text-[#5a4a2c]">
+                            <p className="mt-1.5 text-[0.9rem] leading-relaxed text-[#8a4a28]">
                               {f.blurb}
                             </p>
                           )}
@@ -142,8 +142,8 @@ export default function ChapterDrawer({
 
               {/* sources */}
               {used.length > 0 && (
-                <div className="mt-[30px] flex flex-wrap items-center gap-3 border-t border-[rgba(120,90,40,0.2)] pt-6">
-                  <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#a07b32]">
+                <div className="mt-[30px] flex flex-wrap items-center gap-3 border-t border-[rgba(138, 74, 40,0.2)] pt-6">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#8a4a28]">
                     Sources
                   </span>
                   {used.map((s) =>
@@ -153,14 +153,14 @@ export default function ChapterDrawer({
                         href={s.url}
                         target="_blank"
                         rel="noreferrer"
-                        className="rounded-[4px] border border-[rgba(120,90,40,0.35)] px-3 py-1.5 font-mono text-[11px] text-[#5a4a2c] transition-colors hover:border-[#7a5e2e]"
+                        className="rounded-[4px] border border-[rgba(138, 74, 40,0.35)] px-3 py-1.5 font-mono text-[11px] text-[#8a4a28] transition-colors hover:border-[#8a4a28]"
                       >
                         {s.label}
                       </a>
                     ) : (
                       <span
                         key={s.id}
-                        className="rounded-[4px] border border-[rgba(120,90,40,0.35)] px-3 py-1.5 font-mono text-[11px] text-[#5a4a2c]"
+                        className="rounded-[4px] border border-[rgba(138, 74, 40,0.35)] px-3 py-1.5 font-mono text-[11px] text-[#8a4a28]"
                       >
                         {s.label}
                       </span>

@@ -103,15 +103,15 @@ function StubScreen({
 }) {
   return (
     <main
-      className="relative grid h-[100dvh] w-full place-items-center overflow-hidden bg-void px-6 text-chalk"
+      className="relative grid h-[100dvh] w-full place-items-center overflow-hidden bg-depth-6 px-6 text-chalk"
       style={{
         background:
-          "radial-gradient(125% 100% at 50% -10%, #14131c 0%, #0b0a10 42%, #07060a 100%)",
+          "radial-gradient(125% 100% at 50% -10%, #0c2e3d 0%, #04161f 42%, #04161f 100%)",
       }}
     >
       <Link
         href={`/country/${meta.code}`}
-        className="group absolute left-5 top-5 flex items-center gap-2 text-chalk-soft transition hover:text-chalk md:left-9 md:top-6"
+        className="group absolute left-5 top-5 flex items-center gap-2 text-chalk-2 transition hover:text-chalk md:left-9 md:top-6"
       >
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none" className="transition-transform group-hover:-translate-x-0.5">
           <path d="M16 10H4m0 0l5 5m-5-5l5-5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
@@ -120,17 +120,17 @@ function StubScreen({
       </Link>
 
       <div className="max-w-xl text-center">
-        <div className="eyebrow flex items-center justify-center gap-2 text-brass">
+        <div className="eyebrow flex items-center justify-center gap-2 text-copper">
           <span className="text-base leading-none">{meta.flag}</span>
           <span>{meta.subregion ?? meta.region} · {meta.continent}</span>
         </div>
         <h1 className="mt-5 font-display text-[3.4rem] font-medium leading-[0.96] text-chalk md:text-[5rem]">
           {meta.name}
         </h1>
-        <p className="mt-4 font-mono text-[0.7rem] uppercase tracking-[0.18em] text-brass-bright">
+        <p className="mt-4 font-mono text-[0.7rem] uppercase tracking-[0.18em] text-copper-bright">
           Archive in progress
         </p>
-        <p className="mx-auto mt-5 max-w-lg font-serif text-[1.15rem] leading-relaxed text-chalk-soft">
+        <p className="mx-auto mt-5 max-w-lg font-serif text-[1.15rem] leading-relaxed text-chalk-2">
           {`The time-journey through ${meta.name} is being charted and verified. Terralore publishes a nation's chapters only once each claim can be traced to a reliable source — so this one will arrive complete rather than quickly.`}
         </p>
 
@@ -143,7 +143,7 @@ function StubScreen({
 
         <Link
           href={`/country/${meta.code}`}
-          className="group mx-auto mt-11 flex w-fit items-center gap-2 rounded-full border border-brass/30 px-5 py-2.5 text-sm text-brass-bright transition hover:bg-brass/10"
+          className="group mx-auto mt-11 flex w-fit items-center gap-2 rounded-full border border-copper/30 px-5 py-2.5 text-sm text-copper-bright transition hover:bg-copper/10"
         >
           <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
             <path d="M16 10H4m0 0l5 5m-5-5l5-5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
@@ -158,7 +158,7 @@ function StubScreen({
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div className="text-center">
-      <dt className="eyebrow text-chalk-faint">{label}</dt>
+      <dt className="eyebrow text-chalk-3">{label}</dt>
       <dd className="mt-1 font-sans text-[0.98rem] font-medium text-chalk">{value}</dd>
     </div>
   );

@@ -457,7 +457,7 @@ export default function GlobeLite({
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(38% 38% at 50% 50%, rgba(216,181,110,0.11), rgba(216,181,110,0.035) 55%, transparent 72%)",
+            "radial-gradient(38% 38% at 50% 50%, rgba(227, 154, 103,0.11), rgba(227, 154, 103,0.035) 55%, transparent 72%)",
         }}
       />
       <canvas
@@ -480,17 +480,17 @@ export default function GlobeLite({
           className="pointer-events-none absolute z-20 -translate-x-1/2 -translate-y-full"
           style={{ left: tip.x, top: tip.y - 14 }}
         >
-          <div className="min-w-[120px] rounded-[6px] border border-[rgba(216,181,110,0.34)] bg-[rgba(8,9,14,0.94)] px-[13px] py-[9px] shadow-[0_12px_30px_rgba(0,0,0,0.6)]">
-            <div className="font-display text-[16px] leading-[1.1] text-[#f7f0e1]">{tipMeta.name}</div>
-            <div className="mt-[5px] font-mono text-[9.5px] uppercase tracking-[0.14em] text-brass">
+          <div className="min-w-[120px] rounded-[6px] border border-[rgba(227, 154, 103,0.34)] bg-[rgba(8,9,14,0.94)] px-[13px] py-[9px] shadow-[0_12px_30px_rgba(0,0,0,0.6)]">
+            <div className="font-display text-[16px] leading-[1.1] text-[#f2f6f4]">{tipMeta.name}</div>
+            <div className="mt-[5px] font-mono text-[9.5px] uppercase tracking-[0.14em] text-copper">
               {tip.code}
               {tipMeta.subregion ? ` · ${tipMeta.subregion}` : ""}
             </div>
             <div className="mt-1 font-mono text-[9.5px] tracking-[0.06em]">
               {tipHasHistory ? (
-                <span className="text-[#d8b56e]">● archive ready</span>
+                <span className="text-[#e39a67]">● archive ready</span>
               ) : (
-                <span className="text-[#8c8472]">○ in progress</span>
+                <span className="text-[#8497a0]">○ in progress</span>
               )}
             </div>
           </div>

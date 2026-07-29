@@ -139,14 +139,14 @@ export default function Dossier({
       className="relative min-h-[100dvh] w-full overflow-x-hidden text-chalk"
       style={{
         background:
-          "radial-gradient(120% 80% at 50% -8%, #15141d 0%, #0c0b11 46%, #09080d 100%)",
+          "radial-gradient(120% 80% at 50% -8%, #0c2e3d 0%, #04161f 46%, #04161f 100%)",
       }}
     >
       <div className="mx-auto max-w-[1340px] px-6 pb-24 pt-9 md:px-10 lg:px-14">
         {/* back to the globe */}
         <Link
           href="/"
-          className="group inline-flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-soft transition-colors hover:text-chalk"
+          className="group inline-flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-2 transition-colors hover:text-chalk"
         >
           <span className="text-[15px] transition-transform group-hover:-translate-x-0.5">←</span>
           The globe
@@ -154,7 +154,7 @@ export default function Dossier({
 
         {/* header */}
         <header className="mt-8">
-          <div className="font-mono text-[12px] uppercase tracking-[0.26em] text-brass sm:ml-[96px]">
+          <div className="font-mono text-[12px] uppercase tracking-[0.26em] text-copper sm:ml-[96px]">
             {meta.code}
             {(meta.subregion ?? meta.region) && ` · ${meta.subregion ?? meta.region}`}
             {meta.continent && ` · ${meta.continent}`}
@@ -164,11 +164,11 @@ export default function Dossier({
               {meta.flag ?? "🏳️"}
             </div>
             <div className="min-w-0">
-              <h1 className="font-display text-[clamp(46px,7vw,82px)] font-[350] leading-[0.92] tracking-[-0.02em] text-chalk-bright">
+              <h1 className="font-display text-[clamp(46px,7vw,82px)] font-[350] leading-[0.92] tracking-[-0.02em] text-chalk-hi">
                 {meta.name}
               </h1>
               {meta.officialName !== meta.name && (
-                <div className="mt-1.5 font-mono text-[13px] tracking-[0.06em] text-chalk-faint">
+                <div className="mt-1.5 font-mono text-[13px] tracking-[0.06em] text-chalk-3">
                   {meta.officialName}
                 </div>
               )}
@@ -178,7 +178,7 @@ export default function Dossier({
 
         {/* tab bar — wraps rather than scrolls; no-data domains are dimmed */}
         <nav className="mt-9">
-          <div className="flex flex-wrap gap-x-[30px] border-b border-brass/15">
+          <div className="flex flex-wrap gap-x-[30px] border-b border-copper/15">
             <TabButton
               label="Overview"
               active={isOverview}
@@ -220,7 +220,7 @@ export default function Dossier({
 
               {gridMetrics.length > 0 && (
                 <section>
-                  <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-faint">
+                  <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-3">
                     {gridLabel}
                   </div>
                   <DomainPanel
@@ -285,15 +285,24 @@ function TabButton({
       onClick={onClick}
       disabled={!enabled}
       aria-current={active ? "page" : undefined}
-      className={`-mb-px flex-none border-b-2 px-0.5 pb-4 text-[16px] transition-colors ${
+      className={`relative -mb-px flex-none px-0.5 pb-4 text-[16px] transition-colors ${
         active
-          ? "border-brass font-semibold text-chalk-bright"
+          ? "font-semibold text-chalk-hi"
           : enabled
-            ? "border-transparent font-normal text-chalk-soft hover:text-chalk-bright"
-            : "cursor-default border-transparent font-normal text-chalk-mute"
+            ? "font-normal text-chalk-2 hover:text-chalk-hi"
+            : "cursor-default font-normal text-chalk-5"
       }`}
     >
       {label}
+      {/* The active tab sits on the stratum rule rather than a plain underline
+          — the same banded device that draws the globe's shelf halo and the
+          journey's era bands. One signature, everywhere it can carry. */}
+      {active && (
+        <span
+          aria-hidden
+          className="stratum-rule absolute inset-x-0 -bottom-[3px]"
+        />
+      )}
     </button>
   );
 }
@@ -311,9 +320,9 @@ function OverviewTop({
   return (
     <>
       {note && (
-        <div className="mb-[40px] rounded-[4px] border border-brass/15 bg-brass/[0.04] px-[18px] py-3.5">
-          <div className="eyebrow tracking-[0.26em] text-chalk-faint">Territory</div>
-          <p className="mt-2 text-[14px] leading-relaxed text-chalk-soft">
+        <div className="mb-[40px] rounded-[4px] border border-copper/15 bg-copper/[0.04] px-[18px] py-3.5">
+          <div className="eyebrow tracking-[0.26em] text-chalk-3">Territory</div>
+          <p className="mt-2 text-[14px] leading-relaxed text-chalk-2">
             {note.text}
             {note.source && (
               <>
@@ -322,7 +331,7 @@ function OverviewTop({
                   href={note.source.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-reading underline-offset-2 transition-colors hover:text-brass hover:underline"
+                  className="text-chalk-read underline-offset-2 transition-colors hover:text-copper hover:underline"
                 >
                   {note.source.label}
                 </a>
@@ -340,7 +349,7 @@ function OverviewTop({
       >
       {/* quick facts */}
       <section className="mb-[54px] lg:mb-0">
-        <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-faint">Quick facts</div>
+        <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-3">Quick facts</div>
         <dl className="grid gap-x-[30px] gap-y-[26px] [grid-template-columns:repeat(auto-fit,minmax(150px,1fr))]">
         <Fact label="Capital" value={meta.capital[0] ?? "—"} />
         <Fact label="Population" value={formatPopulation(meta.population)} />
@@ -368,10 +377,10 @@ function OverviewTop({
       {/* how this nation compares */}
       {comparisons.length > 0 && (
         <section>
-          <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-faint">
+          <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-3">
             How {meta.name} compares
           </div>
-          <div className="rounded-none border border-brass/15 px-[26px]">
+          <div className="rounded-none border border-copper/15 px-[26px]">
             {comparisons.map((c, i) => (
               <ComparisonRow
                 key={`${c.domain}-${c.key}`}
@@ -391,12 +400,12 @@ function OverviewTop({
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-chalk-faint">
+      <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-chalk-3">
         {label}
       </dt>
       <dd
         className={`mt-2 text-[18px] font-semibold leading-snug ${
-          value === "—" ? "text-chalk-mute" : "text-chalk"
+          value === "—" ? "text-chalk-5" : "text-chalk"
         }`}
       >
         {value}
@@ -427,28 +436,33 @@ function ComparisonRow({
     <div
       className="py-[22px]"
       style={{
-        borderBottom: last ? "1px solid transparent" : "1px solid rgba(216,181,110,0.1)",
+        borderBottom: last ? "1px solid transparent" : "1px solid rgba(227, 154, 103,0.1)",
       }}
     >
       <div className="mb-[11px] flex items-baseline justify-between gap-3">
         <span className="whitespace-nowrap text-[16px] text-chalk">{c.label}</span>
-        <span className="font-display text-[20px] text-chalk-bright">
+        <span className="font-display text-[20px] text-chalk-hi">
           {formatMetric(c.value, c.unit)}
         </span>
       </div>
+      {/* Verdigris, not copper. In this palette copper means "the surveyor's
+          hand — you are here" (selection, the playhead, links) and verdigris
+          means "the measured". A rank bar is measured data, so it is verdigris;
+          using the selection colour here would make every bar look like a
+          selected state and leave the palette with no way to say "measured". */}
       <div
         className="h-[5px] overflow-hidden rounded-[2px]"
-        style={{ background: "rgba(95,119,150,0.22)" }}
+        style={{ background: "rgba(39,111,128,0.24)" }}
       >
         <div
           className="h-full"
           style={{
             width: `${Math.max(3, fill * 100)}%`,
-            background: "linear-gradient(90deg,#bf9550,#d8b56e)",
+            background: "linear-gradient(90deg,#2f6e62,#7cc4b3)",
           }}
         />
       </div>
-      <div className="mt-[9px] font-mono text-[10px] uppercase tracking-[0.08em] text-chalk-dim">
+      <div className="mt-[9px] font-mono text-[10px] uppercase tracking-[0.08em] text-chalk-4">
         {ordinal(c.global.rank)} of {c.global.total} worldwide
         {c.regional && regionLabel && (
           <>
@@ -474,9 +488,9 @@ function HistoryHero({
 }) {
   if (!hasHistory) {
     return (
-      <div className="mt-[54px] rounded-[8px] border border-brass/15 bg-void-soft/40 px-[34px] py-[26px]">
-        <div className="eyebrow tracking-[0.26em] text-chalk-faint">History</div>
-        <p className="mt-2 text-[15px] text-chalk-soft">
+      <div className="mt-[54px] rounded-[8px] border border-copper/15 bg-depth-5/40 px-[34px] py-[26px]">
+        <div className="eyebrow tracking-[0.26em] text-chalk-3">History</div>
+        <p className="mt-2 text-[15px] text-chalk-2">
           The sourced time-journey through {name} is being charted and verified — it will
           arrive complete.
         </p>
@@ -487,25 +501,25 @@ function HistoryHero({
     <div className="mt-[54px]">
     <Link
       href={`/country/${code}/history`}
-      className="group flex items-center justify-between gap-6 rounded-[8px] border border-brass/30 px-[34px] py-[30px] transition-colors hover:border-brass"
+      className="group flex items-center justify-between gap-6 rounded-[8px] border border-copper/30 px-[34px] py-[30px] transition-colors hover:border-copper"
       style={{
-        background: "linear-gradient(120deg,rgba(191,149,80,0.1),rgba(191,149,80,0.02))",
+        background: "linear-gradient(120deg,rgba(200, 114, 68,0.1),rgba(200, 114, 68,0.02))",
       }}
     >
       <div className="min-w-0">
-        <div className="eyebrow tracking-[0.26em] text-brass">The history journey</div>
-        <p className="mt-3 font-display text-[clamp(24px,3vw,34px)] font-[360] leading-tight tracking-[-0.01em] text-parchment">
+        <div className="eyebrow tracking-[0.26em] text-copper">The history journey</div>
+        <p className="mt-3 font-display text-[clamp(24px,3vw,34px)] font-[360] leading-tight tracking-[-0.01em] text-land-0">
           {tagline ?? `How ${name} came to be`}
         </p>
-        <p className="mt-2 font-serif text-[17px] text-chalk-soft">
+        <p className="mt-2 font-serif text-[17px] text-chalk-2">
           Pilot a cinematic, sourced journey through its eras — moment by moment.
         </p>
       </div>
       <span
-        className="grid h-[60px] w-[60px] flex-none place-items-center rounded-full text-[24px] text-[#1a140a] transition-transform group-hover:translate-x-1"
+        className="grid h-[60px] w-[60px] flex-none place-items-center rounded-full text-[24px] text-[#04161f] transition-transform group-hover:translate-x-1"
         style={{
-          background: "linear-gradient(180deg,#d8b56e,#bf9550)",
-          boxShadow: "0 12px 30px -14px rgba(216,181,110,0.8)",
+          background: "linear-gradient(180deg,#e39a67,#c87244)",
+          boxShadow: "0 12px 30px -14px rgba(227, 154, 103,0.8)",
         }}
       >
         →
@@ -517,17 +531,17 @@ function HistoryHero({
           search engines and answer engines can actually read. */}
       <Link
         href={`/country/${code}/chronicle`}
-        className="group mt-3 flex items-center justify-between gap-4 rounded-[8px] border border-brass/[0.14] px-[34px] py-[18px] transition-colors hover:border-brass/40 hover:bg-brass/[0.04]"
+        className="group mt-3 flex items-center justify-between gap-4 rounded-[8px] border border-copper/[0.14] px-[34px] py-[18px] transition-colors hover:border-copper/40 hover:bg-copper/[0.04]"
       >
         <span className="min-w-0">
-          <span className="eyebrow block tracking-[0.26em] text-chalk-faint">
+          <span className="eyebrow block tracking-[0.26em] text-chalk-3">
             Prefer to read?
           </span>
-          <span className="mt-1.5 block font-serif text-[16px] text-chalk-soft">
+          <span className="mt-1.5 block font-serif text-[16px] text-chalk-2">
             The full chronicle of {name} — every era, event and reference on one page.
           </span>
         </span>
-        <span className="flex-none font-mono text-[13px] text-brass transition-transform group-hover:translate-x-0.5">
+        <span className="flex-none font-mono text-[13px] text-copper transition-transform group-hover:translate-x-0.5">
           →
         </span>
       </Link>
@@ -577,23 +591,23 @@ function SourcesFooter({
   const stamp = vintageStamp(sources, updated);
 
   return (
-    <footer className="mt-16 border-t border-brass/[0.12] pt-8">
-      <div className="eyebrow mb-5 tracking-[0.26em] text-chalk-faint">
+    <footer className="mt-16 border-t border-copper/[0.12] pt-8">
+      <div className="eyebrow mb-5 tracking-[0.26em] text-chalk-3">
         Sources &amp; methodology
       </div>
       {stamp && (
-        <p className="mb-5 font-mono text-[12px] leading-relaxed tracking-[0.04em] text-brass">
+        <p className="mb-5 font-mono text-[12px] leading-relaxed tracking-[0.04em] text-copper">
           {stamp}
         </p>
       )}
       <ul className="mb-6 flex flex-col gap-[11px]">
         {Object.values(sources).map((s) => (
-          <li key={s.id} className="text-[14px] leading-snug text-chalk-soft">
+          <li key={s.id} className="text-[14px] leading-snug text-chalk-2">
             <a
               href={s.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-reading transition-colors hover:text-brass hover:underline"
+              className="font-semibold text-chalk-read transition-colors hover:text-copper hover:underline"
             >
               {s.label}
             </a>{" "}
@@ -601,7 +615,7 @@ function SourcesFooter({
           </li>
         ))}
       </ul>
-      <p className="max-w-[680px] font-serif text-[15px] italic leading-relaxed text-chalk-dim">
+      <p className="max-w-[680px] font-serif text-[15px] italic leading-relaxed text-chalk-4">
         Figures show the latest year with data for each indicator; gaps appear as “—”
         rather than being estimated. Disputed and non-UN territories may be partially or
         wholly absent from these datasets.

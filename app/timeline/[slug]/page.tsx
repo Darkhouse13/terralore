@@ -157,42 +157,42 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
         ]}
       />
 
-      <main className="paper-grain min-h-screen bg-parchment text-ink">
+      <main className="paper-grain min-h-screen bg-land-0 text-ink">
         <div className="relative z-[1] mx-auto max-w-[46rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-          <nav aria-label="Breadcrumb" className="eyebrow text-ink-faint">
+          <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" prefetch={false} className="transition-colors hover:text-brass-deep">
+                <Link href="/" prefetch={false} className="transition-colors hover:text-copper-deep">
                   Terralore
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
               <li>
-                <Link href="/timeline" prefetch={false} className="transition-colors hover:text-brass-deep">
+                <Link href="/timeline" prefetch={false} className="transition-colors hover:text-copper-deep">
                   Chronology
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
-              <li aria-current="page" className="text-brass-deep">
+              <li aria-current="page" className="text-copper-deep">
                 {stripArticle(period.label)}
               </li>
             </ol>
           </nav>
 
-          <header className="mt-9 border-b border-[rgba(120,90,40,0.22)] pb-10">
-            <p className="eyebrow text-brass-deep">A world chronology · {spanLabel(period)}</p>
+          <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+            <p className="eyebrow text-copper-deep">A world chronology · {spanLabel(period)}</p>
 
-            <h1 className="mt-4 font-display text-[clamp(2.6rem,8vw,4.2rem)] font-[380] leading-[0.96] tracking-[-0.015em] text-[#221a0e]">
+            <h1 className="mt-4 font-display text-[clamp(2.6rem,8vw,4.2rem)] font-[380] leading-[0.96] tracking-[-0.015em] text-[#16201e]">
               {period.label}
             </h1>
 
-            <p className="mt-4 font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#6a5836]">
+            <p className="mt-4 font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
               {period.events.length.toLocaleString("en-US")} sourced{" "}
               {period.events.length === 1 ? "event" : "events"}, {period.nations}{" "}
               {period.nations === 1 ? "nation" : "nations"}, in the order they happened.
             </p>
 
-            <p className="mt-7 font-serif text-[1.18rem] leading-[1.66] text-[#3a2f1d]">
+            <p className="mt-7 font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
               Every record below is drawn from the chronicle of the nation it belongs to, with the
               same citations. Read down for the whole period, or jump to a stretch of it; within
               each year the world is grouped by continent.
@@ -202,10 +202,10 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
               <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
                 {continents.map((c) => (
                   <div key={c.name}>
-                    <dt className="eyebrow text-ink-faint">{c.name}</dt>
-                    <dd className="mt-1 font-sans text-[0.97rem] font-medium tabular-nums text-[#2c2519]">
+                    <dt className="eyebrow text-ink-3">{c.name}</dt>
+                    <dd className="mt-1 font-sans text-[0.97rem] font-medium tabular-nums text-[#16201e]">
                       {c.count.toLocaleString("en-US")}{" "}
-                      <span className="font-mono text-[0.7rem] font-normal text-ink-faint">
+                      <span className="font-mono text-[0.7rem] font-normal text-ink-3">
                         {c.count === 1 ? "event" : "events"} · {c.nations}{" "}
                         {c.nations === 1 ? "nation" : "nations"}
                       </span>
@@ -239,17 +239,17 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
 
 function Contents({ chapters }: { chapters: Chapter[] }) {
   return (
-    <nav aria-label="Jump to" className="mt-10 border-b border-[rgba(120,90,40,0.22)] pb-9">
-      <h2 className="eyebrow text-ink-faint">Jump to</h2>
+    <nav aria-label="Jump to" className="mt-10 border-b border-[rgba(138, 74, 40,0.22)] pb-9">
+      <h2 className="eyebrow text-ink-3">Jump to</h2>
       <ol className="mt-4 flex flex-wrap gap-2.5">
         {chapters.map((c) => (
           <li key={c.anchor}>
             <a
               href={`#${c.anchor}`}
-              className="inline-flex items-baseline gap-2 rounded-full border border-[rgba(120,90,40,0.28)] px-3.5 py-1.5 transition-colors hover:bg-[rgba(191,149,80,0.12)]"
+              className="inline-flex items-baseline gap-2 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
             >
-              <span className="font-mono text-[0.78rem] tabular-nums text-[#4a3f2c]">{c.label}</span>
-              <span className="font-mono text-[0.64rem] tabular-nums text-ink-faint">
+              <span className="font-mono text-[0.78rem] tabular-nums text-[#454f4c]">{c.label}</span>
+              <span className="font-mono text-[0.64rem] tabular-nums text-ink-3">
                 {c.count.toLocaleString("en-US")}
               </span>
             </a>
@@ -262,14 +262,14 @@ function Contents({ chapters }: { chapters: Chapter[] }) {
 
 function ChapterSection({ chapter, showHeading }: { chapter: Chapter; showHeading: boolean }) {
   return (
-    <section id={chapter.anchor} className="scroll-mt-6 border-b border-[rgba(120,90,40,0.22)] py-11">
+    <section id={chapter.anchor} className="scroll-mt-6 border-b border-[rgba(138, 74, 40,0.22)] py-11">
       {showHeading && (
         <>
-          <p className="eyebrow text-brass-deep">
+          <p className="eyebrow text-copper-deep">
             {chapter.count.toLocaleString("en-US")} {chapter.count === 1 ? "event" : "events"} ·{" "}
             {chapter.nations} {chapter.nations === 1 ? "nation" : "nations"}
           </p>
-          <h2 className="mt-3 font-display text-[clamp(1.9rem,5.5vw,2.6rem)] font-[400] leading-[1.04] tracking-[-0.01em] text-[#221a0e]">
+          <h2 className="mt-3 font-display text-[clamp(1.9rem,5.5vw,2.6rem)] font-[400] leading-[1.04] tracking-[-0.01em] text-[#16201e]">
             {chapter.label}
           </h2>
         </>
@@ -287,15 +287,15 @@ function ChapterSection({ chapter, showHeading }: { chapter: Chapter; showHeadin
 function YearSection({ group }: { group: YearGroup }) {
   return (
     <section id={group.anchor} className="scroll-mt-6">
-      <h3 className="flex items-baseline gap-3 font-display text-[1.5rem] font-[440] leading-none tabular-nums tracking-[-0.01em] text-[#221a0e]">
+      <h3 className="flex items-baseline gap-3 font-display text-[1.5rem] font-[440] leading-none tabular-nums tracking-[-0.01em] text-[#16201e]">
         {group.dateTime ? (
           <time dateTime={group.dateTime}>{group.label}</time>
         ) : (
           /* BCE and deep-time years have no valid HTML date string. */
           <span>{group.label}</span>
         )}
-        <span className="h-px flex-1 bg-[rgba(120,90,40,0.22)]" aria-hidden="true" />
-        <span className="font-mono text-[0.64rem] font-normal uppercase tracking-[0.16em] text-ink-faint">
+        <span className="h-px flex-1 bg-[rgba(138, 74, 40,0.22)]" aria-hidden="true" />
+        <span className="font-mono text-[0.64rem] font-normal uppercase tracking-[0.16em] text-ink-3">
           {group.count} {group.count === 1 ? "record" : "records"}
         </span>
       </h3>
@@ -303,7 +303,7 @@ function YearSection({ group }: { group: YearGroup }) {
       <div className="mt-5 space-y-7">
         {group.continents.map((c) => (
           <div key={c.name}>
-            <p className="eyebrow text-ink-faint">{c.name}</p>
+            <p className="eyebrow text-ink-3">{c.name}</p>
             <ol className="mt-3.5 space-y-6">
               {c.events.map((ev, n) => (
                 <EventItem key={`${ev.code}-${ev.year}-${n}`} event={ev} yearLabel={group.label} />
@@ -327,41 +327,41 @@ function EventItem({ event, yearLabel }: { event: WorldEvent; yearLabel: string 
             {event.flag}
           </span>
         )}
-        <span className="mt-1.5 block font-mono text-[0.6rem] uppercase tracking-[0.12em] text-ink-faint">
+        <span className="mt-1.5 block font-mono text-[0.6rem] uppercase tracking-[0.12em] text-ink-3">
           {event.code}
         </span>
       </div>
 
-      <div className="border-l border-[rgba(120,90,40,0.22)] pl-4 sm:pl-6">
+      <div className="border-l border-[rgba(138, 74, 40,0.22)] pl-4 sm:pl-6">
         <p className="font-mono text-[0.66rem] uppercase tracking-[0.12em]">
           <Link
             href={routes.chronicle(event.code)}
             prefetch={false}
-            className="text-brass-deep transition-colors hover:underline"
+            className="text-copper-deep transition-colors hover:underline"
           >
             {event.nation}
           </Link>
-          <span className="text-ink-faint"> · </span>
+          <span className="text-ink-3"> · </span>
           <span style={{ color: cat?.tint }}>{cat?.label ?? event.category}</span>
           {event.yearLabel !== yearLabel && (
-            <span className="text-ink-faint"> · {event.yearLabel}</span>
+            <span className="text-ink-3"> · {event.yearLabel}</span>
           )}
         </p>
 
-        <h4 className="mt-1.5 font-display text-[1.14rem] font-[440] leading-snug text-[#221a0e]">
+        <h4 className="mt-1.5 font-display text-[1.14rem] font-[440] leading-snug text-[#16201e]">
           {event.title}
         </h4>
 
-        <p className="mt-1.5 font-serif text-[1.03rem] leading-[1.62] text-[#3a2f1d]">
+        <p className="mt-1.5 font-serif text-[1.03rem] leading-[1.62] text-[#16201e]">
           {event.summary}
         </p>
 
-        <p className="mt-2 font-serif text-[0.92rem] italic leading-snug text-[#6a5836]">
+        <p className="mt-2 font-serif text-[0.92rem] italic leading-snug text-[#454f4c]">
           {event.eraTitle}
         </p>
 
         {event.sources.length > 0 && (
-          <p className="mt-2 font-mono text-[0.66rem] leading-relaxed text-ink-faint">
+          <p className="mt-2 font-mono text-[0.66rem] leading-relaxed text-ink-3">
             <span className="uppercase tracking-[0.16em]">Sources: </span>
             {event.sources.map((s, n) => (
               <span key={`${s.id}-${n}`}>
@@ -371,7 +371,7 @@ function EventItem({ event, yearLabel }: { event: WorldEvent; yearLabel: string 
                     href={s.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline decoration-dotted underline-offset-2 transition-colors hover:text-brass-deep"
+                    className="underline decoration-dotted underline-offset-2 transition-colors hover:text-copper-deep"
                   >
                     {s.label}
                   </a>
@@ -404,13 +404,13 @@ function PeriodFooter({
           <Link
             href={`/timeline/${previous.slug}`}
             prefetch={false}
-            className="group block rounded-[var(--radius-card)] border border-[rgba(120,90,40,0.28)] px-5 py-4 transition-colors hover:bg-[rgba(191,149,80,0.1)]"
+            className="group block rounded-[var(--radius-card)] border border-[rgba(138, 74, 40,0.28)] px-5 py-4 transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
           >
-            <span className="eyebrow text-ink-faint">← Earlier</span>
-            <span className="mt-1.5 block font-display text-[1.14rem] font-[440] text-[#2c2519] transition-colors group-hover:text-brass-deep">
+            <span className="eyebrow text-ink-3">← Earlier</span>
+            <span className="mt-1.5 block font-display text-[1.14rem] font-[440] text-[#16201e] transition-colors group-hover:text-copper-deep">
               {previous.label}
             </span>
-            <span className="mt-0.5 block font-mono text-[0.68rem] tabular-nums text-ink-faint">
+            <span className="mt-0.5 block font-mono text-[0.68rem] tabular-nums text-ink-3">
               {previous.events.length.toLocaleString("en-US")} events · {spanLabel(previous)}
             </span>
           </Link>
@@ -422,13 +422,13 @@ function PeriodFooter({
           <Link
             href={`/timeline/${next.slug}`}
             prefetch={false}
-            className="group block rounded-[var(--radius-card)] border border-[rgba(120,90,40,0.28)] px-5 py-4 text-right transition-colors hover:bg-[rgba(191,149,80,0.1)] sm:col-start-2"
+            className="group block rounded-[var(--radius-card)] border border-[rgba(138, 74, 40,0.28)] px-5 py-4 text-right transition-colors hover:bg-[rgba(200, 114, 68,0.1)] sm:col-start-2"
           >
-            <span className="eyebrow text-ink-faint">Later →</span>
-            <span className="mt-1.5 block font-display text-[1.14rem] font-[440] text-[#2c2519] transition-colors group-hover:text-brass-deep">
+            <span className="eyebrow text-ink-3">Later →</span>
+            <span className="mt-1.5 block font-display text-[1.14rem] font-[440] text-[#16201e] transition-colors group-hover:text-copper-deep">
               {next.label}
             </span>
-            <span className="mt-0.5 block font-mono text-[0.68rem] tabular-nums text-ink-faint">
+            <span className="mt-0.5 block font-mono text-[0.68rem] tabular-nums text-ink-3">
               {next.events.length.toLocaleString("en-US")} events · {spanLabel(next)}
             </span>
           </Link>
@@ -439,20 +439,20 @@ function PeriodFooter({
         <Link
           href="/timeline"
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full bg-[#221a0e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-parchment transition-colors hover:bg-[#3a2f1d]"
+          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           All periods
         </Link>
         <Link
           href={routes.atlas()}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(120,90,40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#5c4a28] transition-colors hover:bg-[rgba(191,149,80,0.1)]"
+          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas
         </Link>
       </div>
 
-      <p className="mt-11 font-mono text-[0.68rem] leading-relaxed text-ink-faint">
+      <p className="mt-11 font-mono text-[0.68rem] leading-relaxed text-ink-3">
         {period.label} · {SITE_NAME}. Each entry is the same verified record, with the same
         references, as the one on its nation&rsquo;s chronicle — follow a nation&rsquo;s name to read
         its history in full.

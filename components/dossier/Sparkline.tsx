@@ -41,12 +41,12 @@ export default function Sparkline({
       <polyline
         points={points}
         fill="none"
-        stroke="var(--color-brass-bright)"
+        stroke="var(--color-copper-bright)"
         strokeWidth={1.5}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx={px(n - 1)} cy={py(last.value)} r={2.3} fill="var(--color-chalk-bright)" />
+      <circle cx={px(n - 1)} cy={py(last.value)} r={2.3} fill="var(--color-chalk-hi)" />
     </svg>
   );
 }

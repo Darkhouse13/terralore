@@ -100,7 +100,7 @@ export default function TimeJourney({
       onTouchEnd={onTouchEnd}
       style={{
         background:
-          "radial-gradient(125% 100% at 50% -10%, #14131c 0%, #0b0a10 42%, #07060a 100%)",
+          "radial-gradient(125% 100% at 50% -10%, #0c2e3d 0%, #04161f 42%, #04161f 100%)",
       }}
     >
       {/* atmosphere: brass glow + faint starfield */}
@@ -109,7 +109,7 @@ export default function TimeJourney({
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(70% 55% at 50% 42%, rgba(191,149,80,0.07), rgba(7,6,10,0) 70%)",
+            "radial-gradient(70% 55% at 50% 42%, rgba(200, 114, 68,0.07), rgba(7,6,10,0) 70%)",
         }}
       />
       <div
@@ -125,14 +125,14 @@ export default function TimeJourney({
       <header className="absolute inset-x-0 top-0 z-30 flex items-center justify-between px-5 py-4 md:px-11 md:py-5">
         <Link
           href={`/country/${meta.code}`}
-          className="group flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-soft transition-colors hover:text-chalk"
+          className="group flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-2 transition-colors hover:text-chalk"
         >
           <span className="text-[15px] transition-transform group-hover:-translate-x-0.5">←</span>
           Dossier
         </Link>
 
-        <div className="flex items-center gap-2.5 font-display text-[19px] text-parchment">
-          <span className="rounded-[2px] border border-brass/30 px-1.5 py-0.5 font-mono text-[11px] tracking-[0.16em] text-chalk-faint">
+        <div className="flex items-center gap-2.5 font-display text-[19px] text-land-0">
+          <span className="rounded-[2px] border border-copper/30 px-1.5 py-0.5 font-mono text-[11px] tracking-[0.16em] text-chalk-3">
             {meta.code}
           </span>
           {history.name}
@@ -155,10 +155,10 @@ export default function TimeJourney({
                 style={{
                   width: current ? 22 : 8,
                   background: current
-                    ? "var(--color-brass-bright)"
+                    ? "var(--color-copper-bright)"
                     : passed
-                      ? "var(--color-brass)"
-                      : "rgba(216,181,110,0.25)",
+                      ? "var(--color-copper)"
+                      : "rgba(227, 154, 103,0.25)",
                 }}
               />
             );
@@ -196,11 +196,11 @@ export default function TimeJourney({
       <NavButton side="right" dim={i === total - 1} onClick={() => go(i + 1)} />
 
       {/* Compass badge */}
-      <div className="absolute bottom-[108px] left-[34px] z-20 hidden h-11 w-11 place-items-center rounded-full border border-brass/30 bg-[rgba(12,11,9,0.7)] md:grid">
+      <div className="absolute bottom-[108px] left-[34px] z-20 hidden h-11 w-11 place-items-center rounded-full border border-copper/30 bg-[rgba(12,11,9,0.7)] md:grid">
         <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden>
-          <circle cx="11" cy="11" r="9" fill="none" stroke="var(--color-brass)" strokeWidth="1" />
-          <path d="M11 3 L13 11 L11 19 L9 11 Z" fill="var(--color-brass-bright)" />
-          <circle cx="11" cy="11" r="1.4" fill="#07060a" />
+          <circle cx="11" cy="11" r="9" fill="none" stroke="var(--color-copper)" strokeWidth="1" />
+          <path d="M11 3 L13 11 L11 19 L9 11 Z" fill="var(--color-copper-bright)" />
+          <circle cx="11" cy="11" r="1.4" fill="#04161f" />
         </svg>
       </div>
 
@@ -213,10 +213,10 @@ export default function TimeJourney({
           onJump={go}
         />
         <div className="mt-2 flex items-center justify-between">
-          <span className="font-mono text-[12px] tracking-[0.1em] text-chalk-faint">
-            {String(i + 1).padStart(2, "0")} <span className="text-chalk-mute">/ {total}</span>
+          <span className="font-mono text-[12px] tracking-[0.1em] text-chalk-3">
+            {String(i + 1).padStart(2, "0")} <span className="text-chalk-5">/ {total}</span>
           </span>
-          <span className="hidden font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-dim sm:block">
+          <span className="hidden font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-4 sm:block">
             ← → or scroll to travel · click the line to jump
           </span>
         </div>
@@ -246,7 +246,7 @@ function NavButton({
       onClick={onClick}
       aria-label={side === "left" ? "Previous" : "Next"}
       style={{ opacity: dim ? 0.25 : 1 }}
-      className={`absolute top-1/2 z-20 hidden h-[50px] w-[50px] -translate-y-1/2 place-items-center rounded-full border border-brass/20 bg-[rgba(20,18,26,0.5)] text-[18px] text-chalk backdrop-blur transition-colors hover:border-brass md:grid ${
+      className={`absolute top-1/2 z-20 hidden h-[50px] w-[50px] -translate-y-1/2 place-items-center rounded-full border border-copper/20 bg-[rgba(20,18,26,0.5)] text-[18px] text-chalk backdrop-blur transition-colors hover:border-copper md:grid ${
         side === "left" ? "left-[34px]" : "right-[34px]"
       }`}
     >
@@ -278,19 +278,19 @@ function Stage({
   if (m.kind === "intro") {
     return (
       <div>
-        <div className="flex items-center justify-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.26em] text-brass">
-          <span className="rounded-[2px] border border-brass/30 px-1.5 py-0.5 text-[10px]">
+        <div className="flex items-center justify-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.26em] text-copper">
+          <span className="rounded-[2px] border border-copper/30 px-1.5 py-0.5 text-[10px]">
             {meta.code}
           </span>
           {meta.subregion ?? meta.region} · {meta.continent}
         </div>
-        <h1 className="mt-[1.4vh] font-display text-[clamp(46px,12vmin,140px)] font-[330] leading-[0.92] tracking-[-0.02em] text-chalk-bright">
+        <h1 className="mt-[1.4vh] font-display text-[clamp(46px,12vmin,140px)] font-[330] leading-[0.92] tracking-[-0.02em] text-chalk-hi">
           {history.name}
         </h1>
-        <p className="mt-[1.2vh] font-serif text-[clamp(18px,3vmin,28px)] font-[340] italic text-brass-bright">
+        <p className="mt-[1.2vh] font-serif text-[clamp(18px,3vmin,28px)] font-[340] italic text-copper-bright">
           {history.tagline}
         </p>
-        <p className="mx-auto mt-[2vh] max-w-[720px] font-serif text-[clamp(15px,2.2vmin,19px)] font-[340] leading-[1.55] text-[#c2b9a4]">
+        <p className="mx-auto mt-[2vh] max-w-[720px] font-serif text-[clamp(15px,2.2vmin,19px)] font-[340] leading-[1.55] text-[#c8d6d5]">
           {history.summary}
         </p>
         <div className="mt-[2.4vh] flex justify-center gap-[clamp(26px,5vw,54px)]">
@@ -300,8 +300,8 @@ function Stage({
         </div>
         <button
           onClick={onBegin}
-          className="group mx-auto mt-[2.6vh] inline-flex items-center gap-2.5 whitespace-nowrap rounded-[4px] px-[30px] py-[15px] text-[16px] font-semibold text-[#1a140a] shadow-[0_12px_32px_-14px_rgba(216,181,110,0.8)] transition hover:brightness-105"
-          style={{ background: "linear-gradient(180deg,#d8b56e,#bf9550)" }}
+          className="group mx-auto mt-[2.6vh] inline-flex items-center gap-2.5 whitespace-nowrap rounded-[4px] px-[30px] py-[15px] text-[16px] font-semibold text-[#04161f] shadow-[0_12px_32px_-14px_rgba(227, 154, 103,0.8)] transition hover:brightness-105"
+          style={{ background: "linear-gradient(180deg,#e39a67,#c87244)" }}
         >
           Begin the journey
           <span className="text-[17px] transition-transform group-hover:translate-x-1">→</span>
@@ -315,29 +315,29 @@ function Stage({
       <div className="relative">
         <div
           aria-hidden
-          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[54%] font-display text-[clamp(150px,40vmin,420px)] font-[300] leading-none text-brass/[0.05]"
+          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[54%] font-display text-[clamp(150px,40vmin,420px)] font-[300] leading-none text-copper/[0.05]"
         >
           {String(m.eraIndex + 1).padStart(2, "0")}
         </div>
         <div className="relative">
-          <div className="font-mono text-[12px] uppercase tracking-[0.3em] text-brass">
+          <div className="font-mono text-[12px] uppercase tracking-[0.3em] text-copper">
             Chapter {String(m.eraIndex + 1).padStart(2, "0")} of{" "}
             {String(history.eras.length).padStart(2, "0")}
           </div>
-          <h1 className="mt-[2vh] font-display text-[clamp(44px,11vmin,108px)] font-[340] leading-none tracking-[-0.015em] text-chalk-bright">
+          <h1 className="mt-[2vh] font-display text-[clamp(44px,11vmin,108px)] font-[340] leading-none tracking-[-0.015em] text-chalk-hi">
             {m.era.title}
           </h1>
-          <div className="mt-[2vh] font-mono text-[clamp(12px,1.7vmin,14px)] uppercase tracking-[0.22em] text-chalk-soft">
+          <div className="mt-[2vh] font-mono text-[clamp(12px,1.7vmin,14px)] uppercase tracking-[0.22em] text-chalk-2">
             {m.era.period}
           </div>
-          <p className="mx-auto mt-[2.6vh] max-w-[640px] font-serif text-[clamp(18px,2.7vmin,25px)] font-[340] italic leading-[1.5] text-[#c2b9a4]">
+          <p className="mx-auto mt-[2.6vh] max-w-[640px] font-serif text-[clamp(18px,2.7vmin,25px)] font-[340] italic leading-[1.5] text-[#c8d6d5]">
             {m.era.standfirst}
           </p>
           <button
             onClick={onOpenChapter}
-            className="group mt-[3.2vh] inline-flex items-center gap-2.5 whitespace-nowrap rounded-[4px] border border-brass/40 px-[26px] py-[13px] text-[15px] font-semibold text-chalk transition-colors hover:border-brass hover:text-chalk-bright"
+            className="group mt-[3.2vh] inline-flex items-center gap-2.5 whitespace-nowrap rounded-[4px] border border-copper/40 px-[26px] py-[13px] text-[15px] font-semibold text-chalk transition-colors hover:border-copper hover:text-chalk-hi"
           >
-            Read the full chapter <span className="text-brass">→</span>
+            Read the full chapter <span className="text-copper">→</span>
           </button>
         </div>
       </div>
@@ -359,32 +359,32 @@ function Stage({
             style={{ background: cat.tint, boxShadow: `0 0 12px ${cat.tint}` }}
           />
           <span style={{ color: cat.tint }}>{cat.label}</span>
-          <span className="text-chalk-dim">· {m.era.title}</span>
+          <span className="text-chalk-4">· {m.era.title}</span>
         </div>
 
         <div className="mt-[2.2vh] flex items-start justify-center gap-2.5">
-          <span className="font-display text-[clamp(68px,18vmin,184px)] font-[330] leading-[0.9] tracking-[-0.02em] text-chalk-bright">
+          <span className="font-display text-[clamp(68px,18vmin,184px)] font-[330] leading-[0.9] tracking-[-0.02em] text-chalk-hi">
             {yr.num}
           </span>
           {showSuffix && (
-            <span className="mt-3.5 font-mono text-[clamp(14px,1.4vw,18px)] tracking-[0.16em] text-brass">
+            <span className="mt-3.5 font-mono text-[clamp(14px,1.4vw,18px)] tracking-[0.16em] text-copper">
               {yr.suffix}
             </span>
           )}
         </div>
-        <div className="mt-1.5 font-mono text-[13px] tracking-[0.16em] text-chalk-faint">
+        <div className="mt-1.5 font-mono text-[13px] tracking-[0.16em] text-chalk-3">
           {m.event.yearLabel ?? `${yr.num} ${yr.suffix}`}
         </div>
 
-        <h2 className="mx-auto mt-[2.2vh] max-w-[680px] font-display text-[clamp(26px,5.4vmin,56px)] font-[360] leading-[1.06] tracking-[-0.01em] text-parchment">
+        <h2 className="mx-auto mt-[2.2vh] max-w-[680px] font-display text-[clamp(26px,5.4vmin,56px)] font-[360] leading-[1.06] tracking-[-0.01em] text-land-0">
           {m.event.title}
         </h2>
-        <p className="mx-auto mt-[2.2vh] max-w-[600px] font-serif text-[clamp(17px,2.5vmin,22px)] font-[340] leading-[1.55] text-[#c2b9a4]">
+        <p className="mx-auto mt-[2.2vh] max-w-[600px] font-serif text-[clamp(17px,2.5vmin,22px)] font-[340] leading-[1.55] text-[#c8d6d5]">
           {m.event.summary}
         </p>
 
         <div className="mt-[3vh] flex flex-wrap items-center justify-center gap-3.5">
-          <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-chalk-dim">
+          <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-chalk-4">
             Sources
           </span>
           {srcs.map((s) =>
@@ -394,14 +394,14 @@ function Stage({
                 href={s.url}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-[4px] border border-brass/30 px-3 py-1.5 font-mono text-[11px] text-reading transition-colors hover:border-brass"
+                className="rounded-[4px] border border-copper/30 px-3 py-1.5 font-mono text-[11px] text-chalk-read transition-colors hover:border-copper"
               >
                 {s.publisher ?? s.label}
               </a>
             ) : (
               <span
                 key={s.id}
-                className="rounded-[4px] border border-brass/30 px-3 py-1.5 font-mono text-[11px] text-reading"
+                className="rounded-[4px] border border-copper/30 px-3 py-1.5 font-mono text-[11px] text-chalk-read"
               >
                 {s.publisher ?? s.label}
               </span>
@@ -409,7 +409,7 @@ function Stage({
           )}
           <button
             onClick={onOpenChapter}
-            className="font-semibold text-[13px] text-brass transition-colors hover:text-brass-bright"
+            className="font-semibold text-[13px] text-copper transition-colors hover:text-copper-bright"
           >
             Read chapter →
           </button>
@@ -421,13 +421,13 @@ function Stage({
   // outro
   return (
     <div>
-      <div className="font-mono text-[12px] uppercase tracking-[0.3em] text-brass">
+      <div className="font-mono text-[12px] uppercase tracking-[0.3em] text-copper">
         The present
       </div>
-      <h1 className="mt-5 font-display text-[clamp(44px,7vw,92px)] font-[330] leading-none tracking-[-0.015em] text-chalk-bright">
+      <h1 className="mt-5 font-display text-[clamp(44px,7vw,92px)] font-[330] leading-none tracking-[-0.015em] text-chalk-hi">
         {history.name}, today
       </h1>
-      <p className="mx-auto mt-7 max-w-[620px] font-serif text-[clamp(18px,2.1vw,23px)] font-[340] leading-[1.6] text-[#c2b9a4]">
+      <p className="mx-auto mt-7 max-w-[620px] font-serif text-[clamp(18px,2.1vw,23px)] font-[340] leading-[1.6] text-[#c8d6d5]">
         You have travelled {history.eras.length} chapters of {history.name}&rsquo;s story —
         from {history.founding.yearLabel} to the present. Every claim along the way is
         traceable; open any chapter to see its sources.
@@ -435,7 +435,7 @@ function Stage({
 
       {neighbours.length > 0 && (
         <div className="mt-9">
-          <div className="font-mono text-[10px] uppercase tracking-[0.26em] text-chalk-dim">
+          <div className="font-mono text-[10px] uppercase tracking-[0.26em] text-chalk-4">
             Continue at a neighbour
           </div>
           <div className="mt-4 flex flex-wrap justify-center gap-2.5">
@@ -443,7 +443,7 @@ function Stage({
               <Link
                 key={nb.code}
                 href={`/country/${nb.code}`}
-                className="flex items-center gap-2 rounded-[4px] border border-brass/15 bg-void-soft/40 px-3.5 py-1.5 text-sm text-chalk-soft transition-colors hover:border-brass/40 hover:text-chalk"
+                className="flex items-center gap-2 rounded-[4px] border border-copper/15 bg-depth-5/40 px-3.5 py-1.5 text-sm text-chalk-2 transition-colors hover:border-copper/40 hover:text-chalk"
               >
                 <span>{nb.flag}</span>
                 {nb.name}
@@ -456,14 +456,14 @@ function Stage({
       <div className="mt-10 flex flex-wrap justify-center gap-3.5">
         <button
           onClick={onReplay}
-          className="rounded-[4px] border border-brass/40 px-[26px] py-[13px] text-[15px] font-semibold text-chalk transition-colors hover:border-brass"
+          className="rounded-[4px] border border-copper/40 px-[26px] py-[13px] text-[15px] font-semibold text-chalk transition-colors hover:border-copper"
         >
           ↺ Replay the journey
         </button>
         <Link
           href={`/country/${meta.code}`}
-          className="inline-flex items-center gap-2.5 rounded-[4px] px-[27px] py-3.5 text-[15px] font-semibold text-[#1a140a]"
-          style={{ background: "linear-gradient(180deg,#d8b56e,#bf9550)" }}
+          className="inline-flex items-center gap-2.5 rounded-[4px] px-[27px] py-3.5 text-[15px] font-semibold text-[#04161f]"
+          style={{ background: "linear-gradient(180deg,#e39a67,#c87244)" }}
         >
           Back to the dossier →
         </Link>
@@ -475,10 +475,10 @@ function Stage({
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-chalk-faint">
+      <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-chalk-3">
         {label}
       </div>
-      <div className="mt-1.5 font-display text-[clamp(18px,2.7vmin,24px)] text-parchment">
+      <div className="mt-1.5 font-display text-[clamp(18px,2.7vmin,24px)] text-land-0">
         {value}
       </div>
     </div>

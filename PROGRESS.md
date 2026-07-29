@@ -96,3 +96,112 @@ line names who *originated* the data rather than repeating the redistributor fou
 times. Derived from the `updated` field each builder writes, so it moves on its own.
 
 **Verified:** `tsc --noEmit` clean · `npm run lint` clean · validators 0 errors.
+
+---
+
+## Phase B — Identity: STRATUM
+
+Three art directions were developed against the subject's own materials, two
+rejected, and the reasoning is in `DESIGN.md`. The short version: the old site ran
+**two** palettes and both are named defaults — navy+gold on the globe/dossier/journey,
+warm-cream + high-contrast serif on the chronicle. It read as two sites stapled
+together at `/chronicle`, and neither half said anything about the subject.
+
+**STRATUM** — *the world drawn the way an atlas draws it: in bands of depth.* Depth is
+already the product's own structure (glance → journey → read), and an atlas encodes
+depth as tinted bands, so the information architecture and the palette became the same
+thing. Rejected: CHANCERY (treaty paper and wax — strongest for the chronicle, weakest
+for the globe, which is the hero) and TRANSIT (observatory optics — the incumbent
+wearing a hat).
+
+### B1. The palette is proven, not eyeballed
+
+`scripts/check-contrast.mjs` declares every foreground/background pair the system uses
+**with the role it plays**, and fails if any falls under its WCAG threshold. It found
+three real problems at design time — a rupture red at 4.43:1 against limestone, a
+panel border at 2.02:1, an over-pale rule — before a single component was touched.
+
+It also solved a constraint that would have been very hard by eye: the ten
+event-category pigments appear on **both** grounds (journey/rail on the deep,
+chronicle/themes on limestone), so each must clear 3:1 against `#04161F` *and*
+`#EBE9E0`. That confines them to a narrow mid-dark luminance window. Four were solved
+numerically rather than guessed. **52 pairs, all passing.**
+
+### B2. One accent became three that mean something
+
+The old palette had a single brass accent doing every job, which is why its data
+visualisation had no contrast to work with. Stratum has **copper** (the surveyor's
+hand — you are here), **verdigris** (the measured), **madder** (rupture only). The
+rule is enforceable: a colour that cannot be justified by one of those three meanings
+is decoration and does not go in.
+
+That immediately caught a real error — the dossier's rank bars were copper, i.e. every
+bar was wearing the selection colour. They are measured data, so they are verdigris.
+
+### B3. Type: a performance decision as much as an aesthetic one
+
+The old system ran **four families across five files, 230 KB, all preloaded at high
+priority** — ahead of the LCP image in the queue. Stratum runs **Literata** (display
+*and* reading — one family replacing Fraunces + Newsreader) and **IBM Plex
+Sans/Mono** (one superfamily). Italic and mono are declared as separate instances with
+`preload: false`, since neither is ever above the fold or the LCP element.
+
+**Critical path: 5 files/230 KB → 2 files/79 KB.** Landing LCP 4.83s → 3.60s.
+
+Real italics needed one CSS rule: `next/font` mints a distinct family per instance, and
+a family with no italic face does not fall through — the browser synthesises a slanted
+roman, which looks wrong on a serif.
+
+### B4. The globe — the deepest pass
+
+- The ocean is a bathymetric ramp, and every landmass carries a **three-band
+  continental-shelf halo** — the stratum rule wrapped onto a sphere, and the detail
+  that makes it read as a sea chart rather than a dark ball. All visible landmasses are
+  merged into one `Path2D` first, so each band is a single wide stroke instead of ~90.
+- **The graticule now draws over the land, not under it.** An atlas rules its grid
+  across the whole sheet; drawing it underneath turned every landmass into an opaque
+  sticker sitting on the map rather than part of it. The equator and prime meridian are
+  drawn a step heavier, as every printed atlas does.
+- The fake-3D emboss underlay is **gone** — skeuomorphic depth on a chart that now
+  expresses depth for real, costing the same per-frame work the halo spends on meaning.
+- `globe-still.svg` regenerated from the same palette. The halo initially tripled it
+  (96 KB → 362 KB) by repeating the 90 KB land path four times; `<use>` keeps exactly
+  one copy of the geometry. Net: 100 KB raw, **35.9 KB gzipped — smaller than before**.
+- Architecture untouched: pure renderer + OffscreenCanvas worker, no main-thread raster.
+
+### B5. The signature element, applied
+
+The **stratum rule** — stacked tinted bands — now carries across surfaces: the globe's
+shelf halo, the dossier's active tab, the chronicle's chapter openers (tinted by the
+era's dominant category), and the journey's timeline rail, where each era is a band in
+its own pigment. The rail now reads as a *core sample*: you can see that one era was
+mostly war and the next mostly formation before reading a word.
+
+### B6. The Chanel cut: the starfield
+
+Removed `components/Starfield.tsx` (152 lines, animated client component) and its two
+keyframe blocks. A starfield belonged to the old "cosmic void" concept; in Stratum the
+dark ground is **water**, and stars actively contradicted the single idea the design
+rests on. Replaced by **isobaths** — faint concentric depth contours in one CSS
+gradient, which say the same thing the globe says.
+
+### Two experiments run and rejected (measurements, not opinions)
+
+- **Fonts off the critical path** (`preload: false` on all four): landing barely moved
+  (3.60 → 3.48s) and CLS regressed badly — dossier **0.007 → 0.210** — as late swaps
+  reflowed the layout. Preloading is correct.
+- **Inlining the still into the HTML** to remove a request: worse. The RSC payload
+  duplicates server-rendered markup, so a 90 KB SVG landed in the document twice —
+  doc 34 KB → **104 KB** gzipped, TBT 80 → 153 ms — and LCP did not move.
+
+### Measurement caveat
+
+The build machine is shared and its ambient load average sits around 14 on 12 cores.
+TBT is the metric most sensitive to CPU contention and swung 80 → 211 → 1141 ms across
+runs of *identical* code, so absolute Lighthouse scores taken here are depressed and
+single runs are not trustworthy. LCP, which Lantern simulates over the dependency
+graph, stayed stable across every run and is the number relied on above.
+
+**Verified:** validators 0 errors · `tsc --noEmit` clean · lint clean · contrast 52/52 ·
+page audit shows no new structural defects (the 184 duplicate meta descriptions are the
+pre-existing Phase D worklist).

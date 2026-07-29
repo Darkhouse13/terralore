@@ -29,22 +29,22 @@ export default function MetricCard({
       onClick={clickable ? onOpen : undefined}
       className={`group relative rounded-[4px] border p-5 pb-4 transition-colors ${
         empty
-          ? "border-brass/10 bg-[#0d0c12]"
+          ? "border-copper/10 bg-[#04161f]"
           : clickable
-            ? "cursor-pointer border-brass/15 hover:border-brass/45"
-            : "border-brass/15 hover:border-brass/35"
+            ? "cursor-pointer border-copper/15 hover:border-copper/45"
+            : "border-copper/15 hover:border-copper/35"
       }`}
       style={
         empty
           ? undefined
-          : { background: "linear-gradient(180deg,#13111a,#0e0d13)" }
+          : { background: "linear-gradient(180deg,#0c2e3d,#04161f)" }
       }
     >
       {/* label + actions */}
       <div className="flex items-start justify-between gap-2">
         <div
           className={`font-mono text-[10.5px] uppercase leading-snug tracking-[0.18em] ${
-            empty ? "text-chalk-mute" : "text-chalk-faint"
+            empty ? "text-chalk-5" : "text-chalk-3"
           }`}
         >
           {metric.label}
@@ -58,7 +58,7 @@ export default function MetricCard({
                 e.stopPropagation();
                 onOpen!();
               }}
-              className="grid h-[18px] w-[18px] place-items-center rounded-full border border-brass/30 text-[11px] leading-none text-chalk-faint opacity-0 transition-[colors,opacity] hover:border-brass hover:text-brass-bright focus-visible:opacity-100 group-hover:opacity-100"
+              className="grid h-[18px] w-[18px] place-items-center rounded-full border border-copper/30 text-[11px] leading-none text-chalk-3 opacity-0 transition-[colors,opacity] hover:border-copper hover:text-copper-bright focus-visible:opacity-100 group-hover:opacity-100"
             >
               ⤢
             </button>
@@ -75,7 +75,7 @@ export default function MetricCard({
               e.stopPropagation();
               setOpen((v) => !v);
             }}
-            className="grid h-[18px] w-[18px] cursor-help place-items-center rounded-full border border-brass/30 font-display text-[11px] italic leading-none text-chalk-faint transition-colors hover:border-brass hover:text-brass-bright"
+            className="grid h-[18px] w-[18px] cursor-help place-items-center rounded-full border border-copper/30 font-display text-[11px] italic leading-none text-chalk-3 transition-colors hover:border-copper hover:text-copper-bright"
           >
             i
           </button>
@@ -86,7 +86,7 @@ export default function MetricCard({
       <div className="mt-3.5 flex min-h-[42px] items-end justify-between gap-2.5 overflow-hidden">
         <div
           className={`whitespace-nowrap font-display text-[30px] font-[360] leading-none ${
-            empty ? "text-chalk-mute" : "text-chalk-bright"
+            empty ? "text-chalk-5" : "text-chalk-hi"
           }`}
         >
           {formatMetric(metric.value, metric.unit)}
@@ -95,14 +95,14 @@ export default function MetricCard({
       </div>
 
       {/* source + vintage */}
-      <div className="mt-4 flex items-center justify-between font-mono text-[10px] tracking-[0.04em] text-chalk-dim">
+      <div className="mt-4 flex items-center justify-between font-mono text-[10px] tracking-[0.04em] text-chalk-4">
         {source ? (
           <a
             href={source.url}
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
-            className="uppercase underline-offset-2 transition-colors hover:text-brass hover:underline"
+            className="uppercase underline-offset-2 transition-colors hover:text-copper hover:underline"
           >
             {source.publisher}
           </a>
@@ -120,8 +120,8 @@ export default function MetricCard({
           transform: open ? "translateY(0)" : "translateY(-4px)",
         }}
       >
-        <div className="rounded-[6px] border border-brass/30 bg-[rgba(8,7,13,0.97)] px-3 py-2.5 shadow-[0_18px_44px_-18px_rgba(0,0,0,0.92)]">
-          <p className="font-serif text-[13.5px] leading-relaxed text-reading">{info}</p>
+        <div className="rounded-[6px] border border-copper/30 bg-[rgba(8,7,13,0.97)] px-3 py-2.5 shadow-[0_18px_44px_-18px_rgba(0,0,0,0.92)]">
+          <p className="font-serif text-[13.5px] leading-relaxed text-chalk-read">{info}</p>
         </div>
       </div>
     </div>

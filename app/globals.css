@@ -1,59 +1,88 @@
 @import "tailwindcss";
 
 /* ────────────────────────────────────────────────────────────────────────
-   Terralore — design tokens
-   An archival atlas: deep cosmic void for the globe, warm parchment for
-   long-form reading, a single restrained brass accent throughout.
+   Terralore — STRATUM
+   The world drawn the way an atlas draws it: in bands of depth.
+
+   See DESIGN.md for the direction, the two rejected alternatives, and the
+   reasoning. Every foreground/background pair used here is validated
+   arithmetically by scripts/check-contrast.mjs — the palette is proven, not
+   eyeballed. If you change a value, run that script.
    ──────────────────────────────────────────────────────────────────────── */
 @theme {
-  /* Cosmic / dark surfaces (the globe lives here) */
-  --color-void: #06070b;
-  --color-void-soft: #0a0c13;
-  --color-void-panel: #11141d;
-  --color-void-line: #232838;
+  /* ── The deep — dark surfaces (globe, journey, dossier) ────────────────
+     Six bathymetric steps. Every one is biased toward teal-cyan, the colour
+     of water on a sea chart — never toward indigo-purple, which is what made
+     the old palette read as generic "premium dark". */
+  --color-depth-6: #04161f; /* abyssal — the page ground */
+  --color-depth-5: #082230; /* the globe's ocean base */
+  --color-depth-4: #0c2e3d; /* panel ground */
+  --color-depth-3: #123b4c; /* raised panel, hover */
+  --color-depth-2: #1b4e60; /* resting borders (decorative) */
+  --color-depth-1: #276f80; /* shoal — active borders, graticule, coastal halo */
 
-  /* Parchment / light surfaces (reading) */
-  --color-parchment: #f3ecdd;
-  --color-parchment-deep: #e8ddc8;
-  --color-parchment-line: #d8cbb0;
+  /* ── The shore — light surfaces (chronicle, atlas, timeline) ───────────
+     Limestone, not cream: cooler and greyer than the parchment it replaces,
+     so it reads as chart stock rather than as the warm-cream longform default. */
+  --color-land-0: #ebe9e0; /* the reading ground */
+  --color-land-1: #dedacd; /* raised paper, pull-quotes */
+  --color-land-2: #c3beac; /* rules and edges */
 
-  /* Ink (text on parchment) */
-  --color-ink: #211c14;
-  --color-ink-soft: #5c5343;
-  --color-ink-faint: #8a7f6a;
+  /* ── Ink (on the shore) — iron-gall: near-black with a green-grey cast ── */
+  --color-ink: #16201e; /* 13.9:1 on limestone */
+  --color-ink-2: #454f4c; /* 7.1:1 */
+  --color-ink-3: #6c7772; /* 3.9:1 — large text only */
 
-  /* Chalk (text on void) — Meridian tonal ramp */
-  --color-chalk: #ece4d3;
-  --color-chalk-bright: #f7f0e1; /* headings, big metric values */
-  --color-chalk-soft: #a89e8a;
-  --color-chalk-faint: #8c8472; /* mono eyebrows / labels */
-  --color-chalk-dim: #6f6857; /* micro source / year text */
-  --color-chalk-mute: #5b5343; /* no-data / disabled */
-  --color-reading: #cabfa8; /* serif reading on void (tooltips) */
+  /* ── Chalk (on the deep) ──────────────────────────────────────────────── */
+  --color-chalk-hi: #f2f6f4; /* headings, big metric values — 16.9:1 */
+  --color-chalk: #e6ecea; /* primary — 15.4:1 */
+  --color-chalk-2: #afbfc1; /* secondary — 9.7:1 */
+  --color-chalk-3: #8497a0; /* mono eyebrows / labels — 6.1:1 */
+  --color-chalk-4: #71858d; /* micro source / year text — 4.8:1 */
+  --color-chalk-5: #5c6e77; /* no-data / disabled */
+  --color-chalk-read: #c8d6d5; /* serif reading on the deep — 12.3:1 */
 
-  /* Brass — the one warm accent (aged maps, brass instruments) */
-  --color-brass: #bf9550;
-  --color-brass-bright: #d8b56e;
-  --color-brass-deep: #8a6a32;
+  /* ── The ramp — three tints used semantically, never decoratively ──────
+     The old palette had one accent (brass) doing every job, which left data
+     visualisation with no contrast to work with. Each of these MEANS
+     something; if a colour cannot be justified by one of these three
+     meanings, it is decoration and it does not go in. */
 
-  /* Steel — the cool data-pole secondary; gives data-viz the contrast a
-     single-accent build lacks (used in ranking bars, choropleth low end). */
-  --color-steel: #5f7796;
+  /* Copper — the surveyor's hand: you are here. Selection, playhead,
+     current era, links. */
+  --color-copper: #c87244;
+  --color-copper-bright: #e39a67;
+  --color-copper-deep: #8a4a28;
 
-  /* Verdigris — oxidized-copper secondary, used sparingly on the globe/map */
-  --color-verdigris: #4b7d72;
+  /* Verdigris — the measured: metrics, series, ranks, anything sourced. */
+  --color-verdigris: #57a695;
+  --color-verdigris-bright: #7cc4b3;
+  --color-verdigris-deep: #2f6e62;
 
-  --color-crimson: #9e3b32; /* used only for "war / rupture" markers */
+  /* Madder — rupture only: war, catastrophe. Never used for emphasis. */
+  --color-madder: #b8453b;
+  --color-madder-bright: #d9695e;
+  --color-madder-deep: #9b322a;
 
+  /* Display and reading are the SAME family (Literata) — see DESIGN.md. One
+     serif doing both jobs is what removed a whole family from the critical
+     path. The two aliases are kept because the distinction is semantic and
+     worth keeping in the markup, even where the value is currently identical. */
   --font-display: var(--ff-display);
-  --font-serif: var(--ff-serif);
+  --font-serif: var(--ff-display);
   --font-sans: var(--ff-sans);
   --font-mono: var(--ff-mono);
 
-  --radius-card: 14px;
+  --radius-card: 3px;
 
-  --shadow-lift: 0 1px 2px rgba(33, 28, 20, 0.06), 0 12px 32px -12px rgba(33, 28, 20, 0.22);
-  --shadow-float: 0 2px 6px rgba(0, 0, 0, 0.3), 0 30px 60px -24px rgba(0, 0, 0, 0.6);
+  /* Motion — three durations, one easing. See DESIGN.md. */
+  --ease-rise: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-state: 160ms;
+  --dur-panel: 320ms;
+  --dur-descent: 900ms;
+
+  --shadow-lift: 0 1px 2px rgba(22, 32, 30, 0.05), 0 12px 32px -14px rgba(22, 32, 30, 0.24);
+  --shadow-float: 0 2px 6px rgba(2, 10, 14, 0.34), 0 30px 60px -24px rgba(2, 10, 14, 0.66);
 }
 
 :root {
@@ -66,10 +95,19 @@ html {
 }
 
 body {
-  background: var(--color-parchment);
+  background: var(--color-land-0);
   color: var(--color-ink);
   font-family: var(--font-sans);
-  font-feature-settings: "ss01", "cv05";
+}
+
+/* ── Focus ───────────────────────────────────────────────────────────────
+   One visible ring everywhere, in copper — "the surveyor's hand", which is
+   exactly what a focus ring is. Copper clears 3:1 against both the deep
+   (5.2:1) and limestone (5.7:1), so one rule serves both surfaces. */
+:focus-visible {
+  outline: 2px solid var(--color-copper);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 /* ── Reusable editorial primitives ─────────────────────────────────────── */
@@ -82,10 +120,33 @@ body {
   text-transform: uppercase;
 }
 
-/* Hairline rule, parchment context */
+/* Hairline rule, limestone context */
 @utility rule {
   height: 1px;
-  background: var(--color-parchment-line);
+  background: var(--color-land-2);
+}
+
+/* ── The signature element: the stratum rule ────────────────────────────
+   A stack of tinted bands — a bathymetric legend, a sediment core in
+   section. The one device that appears on every surface: under the globe,
+   as the timeline rail's era bands, as chronicle section dividers, and
+   under the dossier's active tab.
+
+   `--stratum-tint` sets the band colour (default copper); the three bands
+   step down in opacity like a depth ramp. */
+.stratum-rule {
+  --stratum-tint: var(--color-copper);
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    var(--stratum-tint) 0 1px,
+    transparent 1px 2px,
+    color-mix(in oklab, var(--stratum-tint) 55%, transparent) 2px 3px,
+    transparent 3px 4px,
+    color-mix(in oklab, var(--stratum-tint) 25%, transparent) 4px 5px
+  );
 }
 
 /* Paper grain, layered behind reading content */
@@ -105,12 +166,27 @@ body {
 /* Drop-cap for the opening paragraph of a history */
 .dropcap::first-letter {
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 600;
   float: left;
-  font-size: 4.1rem;
-  line-height: 0.78;
+  font-size: 3.9rem;
+  line-height: 0.82;
   padding: 0.06em 0.1em 0 0;
-  color: var(--color-brass-deep);
+  color: var(--color-copper-deep);
+}
+
+/* ── Real italics ──────────────────────────────────────────────────────────
+   next/font mints a distinct family name per instance, and Literata's italic
+   is declared as its own instance so it can stay off the preload path. A
+   family with no italic face does not fall through to another family — the
+   browser synthesises a slanted roman, which on a serif looks visibly wrong.
+   So italic has to be asked for by name. This covers every serif-italic in the
+   app (taglines, pull-quotes, emphasis in prose) without each call site
+   needing to know about the split. */
+.font-serif.italic,
+.prose-history em,
+.prose-history i {
+  font-family: var(--ff-serif-italic), Georgia, serif;
+  font-style: italic;
 }
 
 /* Long-form reading prose */
@@ -118,7 +194,7 @@ body {
   font-family: var(--font-serif);
   font-size: 1.2rem;
   line-height: 1.72;
-  color: #2c2519;
+  color: var(--color-ink);
 }
 .prose-history p + p {
   margin-top: 1.15em;
@@ -127,53 +203,65 @@ body {
   font-style: italic;
 }
 
-/* Custom scrollbar (subtle, brass thumb) */
+/* Custom scrollbar (subtle, copper thumb) */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(191, 149, 80, 0.5) transparent;
+  scrollbar-color: rgba(200, 114, 68, 0.5) transparent;
 }
 *::-webkit-scrollbar {
   width: 9px;
   height: 9px;
 }
 *::-webkit-scrollbar-thumb {
-  background: rgba(191, 149, 80, 0.45);
+  background: rgba(200, 114, 68, 0.45);
   border-radius: 9px;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background: rgba(191, 149, 80, 0.7);
+  background: rgba(200, 114, 68, 0.7);
 }
 
 ::selection {
-  background: rgba(191, 149, 80, 0.28);
+  background: rgba(200, 114, 68, 0.26);
 }
 
-/* ── Entrance reveal ───────────────────────────────────────────────────────
-   The staggered entrance used to be driven by React state (`entered`), which
-   meant every element on the landing page sat at opacity:0 until hydration
-   finished — around 2s on a throttled phone. An opacity:0 element is not
-   LCP-eligible, so the hero paragraph could not become the largest contentful
-   paint until hydration + an 0.55s stagger had elapsed: a measured LCP of
-   7.6s on server-rendered text that was in the HTML all along.
+/* ── Entrance choreography ─────────────────────────────────────────────────
+   Two rules, and the difference between them is load-bearing.
 
-   As a CSS animation the same choreography starts at style-parse time instead,
-   with no JavaScript involved. `both` holds the from-state before the delay
-   elapses, so nothing flashes in early. Set `--reveal-delay` per element.
-   The reduced-motion block below collapses the duration, as it does for every
-   other animation here. */
+   History: this staggered entrance was once driven by React state, which held
+   every element at opacity:0 until hydration — around 2s on a throttled phone.
+   An element at opacity:0 is NOT LCP-eligible, so the hero paragraph could not
+   become the largest contentful paint until hydration plus a 0.55s stagger had
+   elapsed: a measured 7.6s LCP on text that was server-rendered all along.
+   Moving it to CSS fixed the hydration half of that. It did not fix the other
+   half — the from-state was still opacity:0, and the same trap later cost the
+   globe still a 4.8s LCP for exactly the same reason.
+
+   So the rule (DESIGN.md, motion principle 1) is now structural rather than a
+   matter of remembering:
+
+     .reveal       TRANSFORM ONLY. The element is fully opaque on its first
+                   frame, so it is LCP-eligible immediately and can never be
+                   the cause of a deferred paint. Use this for CONTENT.
+                   It also happens to be the house motion — a rise from a
+                   deeper stratum, which is the direction this product moves.
+
+     .reveal-fade  Animates opacity. DECORATIVE LAYERS ONLY — starfields,
+                   scrims, vignettes. Never put it on text or on an image that
+                   could plausibly be the largest element on screen.
+
+   `both` holds the from-state through the delay so nothing flashes in early.
+   Set the stagger per element with `--reveal-delay`. */
 @keyframes reveal-up {
   from {
-    opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(12px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
 
 .reveal {
-  animation: reveal-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: reveal-up var(--dur-descent) var(--ease-rise) both;
   animation-delay: var(--reveal-delay, 0s);
 }
 
@@ -186,28 +274,10 @@ body {
   }
 }
 
+/* Decorative layers only — see the note above. */
 .reveal-fade {
   animation: reveal-fade 1.5s ease both;
   animation-delay: var(--reveal-delay, 0s);
-}
-
-/* Starfield — twinkle + a slow autonomous drift behind the globe */
-@keyframes twinkle {
-  0%,
-  100% {
-    opacity: var(--tw-lo, 0.3);
-  }
-  50% {
-    opacity: var(--tw-hi, 0.95);
-  }
-}
-@keyframes nebula-drift {
-  from {
-    transform: translate3d(0, 0, 0) scale(1.06);
-  }
-  to {
-    transform: translate3d(-2.2%, 1.6%, 0) scale(1.06);
-  }
 }
 
 /* Respect reduced motion */

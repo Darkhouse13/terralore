@@ -6,16 +6,28 @@
  * state is structured-cloneable across the worker boundary.
  */
 
-export const OCEAN_DEEP = "#0a1422";
-export const OCEAN_MID = "#0d1728";
-export const OCEAN_HIGH = "#16233c";
-export const LAND = "rgba(205, 191, 161, 0.92)";
-export const LAND_RELIEF = "rgba(90, 80, 60, 0.5)"; // emboss underlay ≈ extrusion sides
-export const STROKE = "rgba(6, 7, 11, 0.55)";
-export const STROKE_LIT = "rgba(216, 181, 110, 0.6)";
-export const HOVER = "#e7c98c";
-export const SELECTED = "#d8b56e";
-export const GRATICULE = "rgba(216, 181, 110, 0.13)";
+/* ── STRATUM palette (see DESIGN.md) ────────────────────────────────────────
+   The globe is drawn as a sea chart, not as a lit 3D sphere. Two changes carry
+   that: the ocean is a bathymetric ramp, and every landmass is ringed by a
+   continental-shelf halo in stepped bands — the "stratum rule" applied to a
+   sphere, and the detail that makes this read as cartography at a glance.
+
+   The emboss underlay that used to sit beneath the land (a translated dark
+   fill, faking extrusion sides) is gone. It was skeuomorphic depth on a chart
+   that now expresses depth for real, and it cost the same per-frame work the
+   shelf halo now spends on something meaningful. */
+export const OCEAN_DEEP = "#04161f"; // abyssal — the limb
+export const OCEAN_MID = "#082230"; // open water
+export const OCEAN_HIGH = "#0e3243"; // lit shoulder
+export const LAND = "rgba(239, 234, 224, 0.95)"; // limestone
+export const SHELF = "39, 111, 128"; // depth-1, as rgb parts for the halo bands
+export const STROKE = "rgba(22, 32, 30, 0.5)"; // iron-gall coastline
+export const STROKE_LIT = "rgba(227, 154, 103, 0.75)";
+export const HOVER = "#f0d3bf"; // limestone warmed toward copper
+export const SELECTED = "#e39a67"; // copper-bright — the surveyor's hand
+export const GRATICULE = "rgba(39, 111, 128, 0.20)";
+export const GRATICULE_PRIME = "rgba(39, 111, 128, 0.42)"; // equator + prime meridian
+export const LIMB = "rgba(39, 111, 128, 0.45)";
 
 export const DEG = Math.PI / 180;
 
@@ -61,10 +73,17 @@ export interface RenderState {
   ringT0: number;
 }
 
-/** Graticule sample points with their trig baked in, computed once. */
-const GRAT_LINES: Float64Array[] = (() => {
-  const lines: Float64Array[] = [];
-  const push = (pts: [number, number][]) => {
+/**
+ * Graticule sample points with their trig baked in, computed once.
+ *
+ * Split into principal (the equator and the prime meridian) and the rest. Every
+ * printed atlas draws those two heavier than the other lines, because they are
+ * the origin the rest of the grid is measured from — and on a spinning globe
+ * they also give the eye something fixed to orient against.
+ */
+const GRAT_LINES: { pts: Float64Array; principal: boolean }[] = (() => {
+  const lines: { pts: Float64Array; principal: boolean }[] = [];
+  const push = (pts: [number, number][], principal: boolean) => {
     const arr = new Float64Array(pts.length * 4);
     pts.forEach(([lon, lat], i) => {
       arr[i * 4] = Math.sin(lon * DEG);
@@ -72,17 +91,17 @@ const GRAT_LINES: Float64Array[] = (() => {
       arr[i * 4 + 2] = Math.sin(lat * DEG);
       arr[i * 4 + 3] = Math.cos(lat * DEG);
     });
-    lines.push(arr);
+    lines.push({ pts: arr, principal });
   };
   for (let lon = -180; lon < 180; lon += 30) {
     const pts: [number, number][] = [];
     for (let lat = -90; lat <= 90; lat += 3) pts.push([lon, lat]);
-    push(pts);
+    push(pts, lon === 0);
   }
   for (let lat = -60; lat <= 60; lat += 30) {
     const pts: [number, number][] = [];
     for (let lon = -180; lon <= 180; lon += 3) pts.push([lon, lat]);
-    push(pts);
+    push(pts, lat === 0);
   }
   return lines;
 })();
@@ -123,27 +142,40 @@ export function renderGlobe(
   ctx.arc(cx, cy, r, 0, Math.PI * 2);
   ctx.clip();
 
-  // graticule
-  ctx.beginPath();
-  for (const line of GRAT_LINES) {
-    const n = line.length / 4;
-    let pen = false;
-    for (let i = 0; i < n; i++) {
-      const sinLon = line[i * 4], cosLon = line[i * 4 + 1];
-      const sinLa = line[i * 4 + 2], cosLa = line[i * 4 + 3];
-      const sindl = sinLon * cosL - cosLon * sinL;
-      const cosdl = cosLon * cosL + sinLon * sinL;
-      const cosc = sinP * sinLa + cosP * cosLa * cosdl;
-      if (cosc < 0.01) { pen = false; continue; }
-      const x = cx + r * cosLa * sindl;
-      const y = cy - r * (cosP * sinLa - sinP * cosLa * cosdl);
-      if (pen) ctx.lineTo(x, y); else ctx.moveTo(x, y);
-      pen = true;
+  // The graticule is drawn AFTER the land, further down — an atlas rules its
+  // grid over the whole sheet, land included, because the grid is the reference
+  // frame and the land is what is being referenced. Drawing it underneath (as
+  // this did) turns every landmass into an opaque sticker sitting on the map
+  // rather than part of it.
+  const drawGraticule = () => {
+    for (const principal of [false, true]) {
+      ctx.beginPath();
+      let drew = false;
+      for (const line of GRAT_LINES) {
+        if (line.principal !== principal) continue;
+        const g = line.pts;
+        const n = g.length / 4;
+        let pen = false;
+        for (let i = 0; i < n; i++) {
+          const sinLon = g[i * 4], cosLon = g[i * 4 + 1];
+          const sinLa = g[i * 4 + 2], cosLa = g[i * 4 + 3];
+          const sindl = sinLon * cosL - cosLon * sinL;
+          const cosdl = cosLon * cosL + sinLon * sinL;
+          const cosc = sinP * sinLa + cosP * cosLa * cosdl;
+          if (cosc < 0.01) { pen = false; continue; }
+          const x = cx + r * cosLa * sindl;
+          const y = cy - r * (cosP * sinLa - sinP * cosLa * cosdl);
+          if (pen) ctx.lineTo(x, y); else ctx.moveTo(x, y);
+          pen = true;
+          drew = true;
+        }
+      }
+      if (!drew) continue;
+      ctx.strokeStyle = principal ? GRATICULE_PRIME : GRATICULE;
+      ctx.lineWidth = principal ? 1.2 : 1;
+      ctx.stroke();
     }
-  }
-  ctx.strokeStyle = GRATICULE;
-  ctx.lineWidth = 1;
-  ctx.stroke();
+  };
 
   // land — one projection pass per frame; sub-pixel vertices decimated
   const paths: { code: string; p: Path2D }[] = [];
@@ -185,13 +217,28 @@ export function renderGlobe(
     if (any) paths.push({ code: s.code, p });
   }
 
-  // relief underlay — same paths, translated (the emboss ≈ extrusion sides)
-  const off = r * 0.006 + 0.8;
-  ctx.save();
-  ctx.translate(off, off);
-  ctx.fillStyle = LAND_RELIEF;
-  for (const { p } of paths) ctx.fill(p, "evenodd");
-  ctx.restore();
+  // ── The signature: the continental-shelf halo ─────────────────────────────
+  // Three stepped bands of shoal tint ringing every coastline — the stratum
+  // rule wrapped onto a sphere. It is what makes this read as a bathymetric
+  // chart rather than a dark ball with countries on it.
+  //
+  // All visible landmasses are merged into ONE Path2D first, so each band costs
+  // a single wide stroke instead of one per country (~90 visible shapes → 3
+  // strokes rather than 270). Wide strokes are the expensive primitive here, so
+  // that merge is what keeps this affordable inside the frame budget.
+  const coast = new Path2D();
+  for (const { p } of paths) coast.addPath(p);
+  ctx.lineJoin = "round";
+  ctx.lineCap = "round";
+  for (const [width, alpha] of [
+    [0.030, 0.10],
+    [0.017, 0.15],
+    [0.007, 0.24],
+  ] as const) {
+    ctx.strokeStyle = `rgba(${SHELF},${alpha})`;
+    ctx.lineWidth = Math.max(1, r * width);
+    ctx.stroke(coast);
+  }
 
   // colour pass
   for (const { code, p } of paths) {
@@ -208,6 +255,9 @@ export function renderGlobe(
     ctx.lineWidth = lit ? 1.4 : 1;
     ctx.stroke(p);
   }
+
+  // grid over the sheet — see the note at drawGraticule
+  drawGraticule();
 
   // brass rings pulsing out of a selection
   if (selectedCode && ringCenter) {
@@ -240,25 +290,26 @@ export function renderGlobe(
         if (pen) ctx.lineTo(x, y); else ctx.moveTo(x, y);
         pen = true;
       }
-      ctx.strokeStyle = `rgba(216,181,110,${(0.5 * (1 - t)).toFixed(3)})`;
+      ctx.strokeStyle = `rgba(227, 154, 103,${(0.5 * (1 - t)).toFixed(3)})`;
       ctx.lineWidth = 1.6;
       ctx.stroke();
     }
   }
 
-  // sheen
+  // sheen — a hint of curvature only. Deliberately weaker than before: a chart
+  // is a flat document, and a strong specular highlight fights that reading.
   const sg = ctx.createRadialGradient(cx - r * 0.24, cy - r * 0.4, r * 0.05, cx, cy, r * 1.4);
-  sg.addColorStop(0, "rgba(255,255,255,0.10)");
-  sg.addColorStop(0.45, "rgba(255,255,255,0.02)");
-  sg.addColorStop(1, "rgba(255,255,255,0)");
+  sg.addColorStop(0, "rgba(214,238,238,0.07)");
+  sg.addColorStop(0.45, "rgba(214,238,238,0.015)");
+  sg.addColorStop(1, "rgba(214,238,238,0)");
   ctx.fillStyle = sg;
   ctx.fillRect(cx - r, cy - r, r * 2, r * 2);
   ctx.restore();
 
-  // limb
+  // limb — a cool shoal edge, where the chart meets the dark
   ctx.beginPath();
   ctx.arc(cx, cy, r, 0, Math.PI * 2);
-  ctx.strokeStyle = "rgba(207,164,95,0.35)";
+  ctx.strokeStyle = LIMB;
   ctx.lineWidth = 1.4;
   ctx.stroke();
 }

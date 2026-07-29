@@ -219,7 +219,7 @@ export function allThemes(): ThemeBucket[] {
         category: ev.category,
         slug: themeSlug(ev.category),
         label: meta?.label ?? ev.category,
-        tint: meta?.tint ?? "var(--color-brass)",
+        tint: meta?.tint ?? "var(--color-copper)",
         events: [],
         nations: 0,
       };

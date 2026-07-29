@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { formatMetric } from "@/lib/format";
-import { CHORO_HIGH, CHORO_LOW, CHORO_NODATA, choroColor, percentileRanks } from "@/lib/choropleth";
+import { CHORO_NODATA, choroColor, choroGradient, percentileRanks } from "@/lib/choropleth";
 
 // The spatial half of the metric window: a flat, dependency-free SVG choropleth
 // of the world coloured by the open metric (same ramp + percentile scale as the
@@ -95,7 +95,7 @@ export default function MetricMap({
 
   if (!features) {
     return (
-      <div className="grid h-[200px] place-items-center font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-dim">
+      <div className="grid h-[200px] place-items-center font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-4">
         Loading map…
       </div>
     );
@@ -106,7 +106,7 @@ export default function MetricMap({
     return t == null ? CHORO_NODATA : choroColor(t);
   };
   const strokeFor = (code: string, hovered: boolean) => {
-    if (code === homeCode) return "var(--color-brass-bright)";
+    if (code === homeCode) return "var(--color-copper-bright)";
     if (compareSet.has(code)) return colorFor(code);
     if (hovered) return "rgba(232,224,208,0.75)";
     return "rgba(6,7,11,0.45)";
@@ -171,14 +171,14 @@ export default function MetricMap({
       {/* hover tooltip */}
       {hover && tip && (
         <div
-          className="pointer-events-none absolute z-10 -translate-x-1/2 -translate-y-[calc(100%+8px)] whitespace-nowrap rounded-[4px] border border-brass/35 bg-[rgba(8,7,13,0.97)] px-2.5 py-1.5"
+          className="pointer-events-none absolute z-10 -translate-x-1/2 -translate-y-[calc(100%+8px)] whitespace-nowrap rounded-[4px] border border-copper/35 bg-[rgba(8,7,13,0.97)] px-2.5 py-1.5"
           style={{ left: tip.x, top: tip.y }}
         >
           <div className="flex items-center gap-1.5 text-[12px] text-chalk">
             {names[hover]?.flag && <span>{names[hover].flag}</span>}
             <span>{names[hover]?.name ?? hover}</span>
           </div>
-          <div className="mt-0.5 font-mono text-[11px] text-brass-bright">
+          <div className="mt-0.5 font-mono text-[11px] text-copper-bright">
             {hv != null ? formatMetric(hv, unit) : "No data"}
           </div>
         </div>
@@ -187,16 +187,16 @@ export default function MetricMap({
       {/* ramp legend */}
       {extent && (
         <div className="mt-2 flex items-center gap-2.5 px-1">
-          <span className="font-mono text-[10px] tracking-[0.04em] text-chalk-dim">
+          <span className="font-mono text-[10px] tracking-[0.04em] text-chalk-4">
             {formatMetric(extent.min, unit)}
           </span>
           <div
             className="h-1.5 flex-1 rounded-[2px]"
             style={{
-              background: `linear-gradient(90deg, rgb(${CHORO_LOW.join(",")}), rgb(${CHORO_HIGH.join(",")}))`,
+              background: choroGradient(),
             }}
           />
-          <span className="font-mono text-[10px] tracking-[0.04em] text-chalk-dim">
+          <span className="font-mono text-[10px] tracking-[0.04em] text-chalk-4">
             {formatMetric(extent.max, unit)}
           </span>
         </div>

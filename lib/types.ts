@@ -192,18 +192,36 @@ export interface CountryHistory {
   updated: string;
 }
 
+/**
+ * The ten event-category pigments — see DESIGN.md.
+ *
+ * Drawn from the mineral and earth pigments an atlas or an illuminated
+ * manuscript would actually have had. This is a different axis from the
+ * three-tint semantic ramp (copper / verdigris / madder); the exception is
+ * war, which stays in the madder family because rupture is what madder means.
+ *
+ * Held as literal hex, not `var(--color-…)`, because these tints are consumed
+ * from canvas and generated SVG as well as from CSS, and a custom property
+ * resolves in none of those.
+ *
+ * The narrow, mid-dark range is not a stylistic tic: a category mark appears on
+ * BOTH grounds — the journey and timeline rail sit on the deep, the chronicle
+ * and theme pages on limestone — so a single value has to clear 3:1 against
+ * #04161F *and* #ebe9e0. `scripts/check-contrast.mjs` asserts all twenty pairs;
+ * if you retint one of these, run it.
+ */
 export const CATEGORY_META: Record<
   EventCategory,
   { label: string; tint: string }
 > = {
-  founding: { label: "Formation", tint: "var(--color-brass)" },
-  independence: { label: "Independence", tint: "var(--color-brass-bright)" },
-  war: { label: "War & Rupture", tint: "var(--color-crimson)" },
-  politics: { label: "Politics & Power", tint: "#7c6a8f" },
-  religion: { label: "Religion", tint: "#9a7b4f" },
-  culture: { label: "Culture & Ideas", tint: "var(--color-verdigris)" },
-  economy: { label: "Economy & Trade", tint: "#6b8f4f" },
-  colonization: { label: "Colonisation", tint: "#a85d3c" },
-  migration: { label: "Peoples & Migration", tint: "#4f7d8f" },
-  disaster: { label: "Catastrophe", tint: "#6d6d6d" },
+  founding: { label: "Formation", tint: "#8e6e2e" }, // yellow ochre
+  independence: { label: "Independence", tint: "#a85b2e" }, // burnt orange
+  war: { label: "War & Rupture", tint: "#b0463c" }, // madder
+  politics: { label: "Politics & Power", tint: "#5464a1" }, // indigo
+  religion: { label: "Religion", tint: "#85578a" }, // tyrian
+  culture: { label: "Culture & Ideas", tint: "#2c7566" }, // verdigris
+  economy: { label: "Economy & Trade", tint: "#566f3c" }, // terre verte
+  colonization: { label: "Colonisation", tint: "#96583b" }, // sienna
+  migration: { label: "Peoples & Migration", tint: "#2c6c84" }, // cerulean
+  disaster: { label: "Catastrophe", tint: "#5f6d6c" }, // graphite
 };

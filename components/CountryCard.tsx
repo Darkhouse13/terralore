@@ -8,10 +8,10 @@ import { formatPopulation, formatArea } from "@/lib/format";
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <div className="font-mono text-[9.5px] uppercase tracking-[0.14em] text-chalk-faint">
+      <div className="font-mono text-[9.5px] uppercase tracking-[0.14em] text-chalk-3">
         {label}
       </div>
-      <div className="mt-1.5 font-display text-[21px] leading-none text-parchment">{value}</div>
+      <div className="mt-1.5 font-display text-[21px] leading-none text-land-0">{value}</div>
     </div>
   );
 }
@@ -40,7 +40,7 @@ export default function CountryCard({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 24 }}
       transition={{ type: "tween", ease: [0.16, 1, 0.3, 1], duration: 0.45 }}
-      className="pointer-events-auto w-[min(92vw,21.5rem)] rounded-[8px] border border-brass/28 p-6 shadow-[0_30px_70px_-30px_rgba(0,0,0,0.9)] backdrop-blur-xl"
+      className="pointer-events-auto w-[min(92vw,21.5rem)] rounded-[8px] border border-copper/28 p-6 shadow-[0_30px_70px_-30px_rgba(0,0,0,0.9)] backdrop-blur-xl"
       style={{
         background:
           "linear-gradient(180deg,rgba(20,22,34,0.92),rgba(12,13,22,0.94))",
@@ -53,10 +53,10 @@ export default function CountryCard({
             {meta.flag ?? "🏳️"}
           </span>
           <div className="min-w-0">
-            <div className="font-display text-[28px] leading-none text-chalk-bright">
+            <div className="font-display text-[28px] leading-none text-chalk-hi">
               {meta.name}
             </div>
-            <div className="mt-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-brass">
+            <div className="mt-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-copper">
               {meta.code} · {meta.subregion ?? meta.region}
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function CountryCard({
         <button
           onClick={onClose}
           aria-label="Close"
-          className="grid h-[30px] w-[30px] flex-none place-items-center rounded-full border border-brass/25 text-chalk-soft transition-colors hover:border-brass hover:text-chalk"
+          className="grid h-[30px] w-[30px] flex-none place-items-center rounded-full border border-copper/25 text-chalk-2 transition-colors hover:border-copper hover:text-chalk"
         >
           <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
             <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="1.5" />
@@ -73,7 +73,7 @@ export default function CountryCard({
       </div>
 
       {/* stats */}
-      <div className="mt-[22px] flex gap-[22px] border-y border-brass/12 py-4">
+      <div className="mt-[22px] flex gap-[22px] border-y border-copper/12 py-4">
         <Stat label="Population" value={formatPopulation(meta.population)} />
         {headline ? (
           <Stat label="GDP" value={headline.gdp} />
@@ -87,17 +87,17 @@ export default function CountryCard({
       {activeMetric && (
         <Link
           href={`/country/${meta.code}#m=${activeMetric.key}&map=1`}
-          className="group mt-4 flex items-center justify-between gap-3 rounded-[4px] border border-brass/30 bg-brass/[0.06] px-4 py-3 transition-colors hover:border-brass hover:bg-brass/[0.1]"
+          className="group mt-4 flex items-center justify-between gap-3 rounded-[4px] border border-copper/30 bg-copper/[0.06] px-4 py-3 transition-colors hover:border-copper hover:bg-copper/[0.1]"
         >
           <div className="min-w-0">
-            <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-brass/80">
+            <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-copper/80">
               {activeMetric.label}
             </div>
-            <div className="mt-1 font-display text-[20px] leading-none text-parchment">
+            <div className="mt-1 font-display text-[20px] leading-none text-land-0">
               {activeMetric.value}
             </div>
           </div>
-          <span className="flex-none whitespace-nowrap font-mono text-[10px] uppercase tracking-[0.12em] text-chalk-soft transition-colors group-hover:text-chalk">
+          <span className="flex-none whitespace-nowrap font-mono text-[10px] uppercase tracking-[0.12em] text-chalk-2 transition-colors group-hover:text-chalk">
             Explore{" "}
             <span className="inline-block text-[14px] transition-transform group-hover:translate-x-0.5">
               →
@@ -107,19 +107,19 @@ export default function CountryCard({
       )}
 
       {foundingNote && (
-        <div className="mt-4 rounded-[4px] border border-brass/20 bg-brass/[0.06] px-4 py-3">
-          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-brass/80">
+        <div className="mt-4 rounded-[4px] border border-copper/20 bg-copper/[0.06] px-4 py-3">
+          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-copper/80">
             Became a nation
           </div>
-          <p className="mt-1 text-[0.9rem] leading-snug text-chalk-soft">{foundingNote}</p>
+          <p className="mt-1 text-[0.9rem] leading-snug text-chalk-2">{foundingNote}</p>
         </div>
       )}
 
       {/* CTA */}
       <Link
         href={`/country/${meta.code}`}
-        className="group mt-5 flex items-center justify-center gap-2.5 rounded-[4px] py-3.5 text-[15px] font-semibold text-[#1a140a]"
-        style={{ background: "linear-gradient(180deg,#d8b56e,#bf9550)" }}
+        className="group mt-5 flex items-center justify-center gap-2.5 rounded-[4px] py-3.5 text-[15px] font-semibold text-[#04161f]"
+        style={{ background: "linear-gradient(180deg,#e39a67,#c87244)" }}
       >
         Open the dossier
         {hasHistory && (
