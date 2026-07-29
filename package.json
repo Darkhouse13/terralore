@@ -14,6 +14,8 @@
     "build-og": "node scripts/build-og-images.mjs",
     "validate": "node scripts/validate-histories.mjs && node scripts/validate-domains.mjs",
     "audit:pages": "node scripts/audit-pages.mjs",
+    "audit:links": "node scripts/audit-links.mjs",
+    "audit:precision": "node scripts/audit-precision.mjs --pending",
     "indexnow": "node scripts/indexnow.mjs",
     "ci": "npm run validate && tsc --noEmit && npm run build"
   },

@@ -241,7 +241,7 @@ that could be fetched and read; every one of the 184 was sourced.
 
 ---
 
-## Done
+## Done — the statehood pass
 
 `node scripts/audit-statehood.mjs` reports **184/184**, with 68 sourced
 interruptions of sovereignty across 56 nations and no SKIPPED rows. The
@@ -253,3 +253,91 @@ Full suite at close: history validator 0/0, domain validator 0 errors, `tsc`
 clean, lint clean, contrast 76 pairs + 3 chroma pairs, page audit 1,054 clean
 locally **and against production**, `npm run build` green, IndexNow 1,054 URLs
 submitted.
+
+---
+
+# The deepening — hardening the record
+
+`docs/statehood-deepening-plan.md`. The pass above hit its coverage target; its
+close-out review found five debts, and they are all about whether the record can
+carry the weight the globe now puts on it. Coverage was the easy half.
+
+## Batch 1 — the instruments
+
+Three instruments, built before a single claim was touched, so the debts were
+counted before they were paid. Same order of operations as D1: an audit written
+after the fix is a description of the fix.
+
+| Instrument | What it measures | First reading |
+|---|---|---|
+| `scripts/audit-links.mjs` | every unique source URL in the corpus, fetched and classified | **3,674 URLs**: 3,321 ok, 103 redirect, 179 blocked, **43 gone**, 28 error |
+| `scripts/audit-precision.mjs` | every statehood claim asserting finer than a year | **153 claims** across 120 blocks — 141 day, 12 month |
+| `scripts/validate-histories.mjs` (extended) | the two editorial floors, the label/year agreement, the sovereign allowlist, the restoration cross-check | **147 warnings**, 23 info lines, 0 errors |
+
+Three details of how the instruments were built are worth keeping:
+
+**The link auditor speaks curl, not `fetch`.** Node's undici negotiates TLS
+differently enough from a browser that several publishers' CDNs answer it with a
+challenge page. UNESCO's World Heritage Centre — 207 of the corpus's URLs — 403s
+every `fetch` and 200s a plain `curl` with a browser user-agent, from the same
+machine, in the same second. The first run of the auditor reported all 207 as
+`blocked`, which would have been the instrument lying about the corpus.
+Britannica refuses curl exactly as it refuses fetch: that is the control that
+shows this is a transport fix and not a way past anyone's bot protection.
+
+**Britannica's block turns out to be rate-shaped, not absolute — which changes
+nothing about how the corpus treats it.** The audit run, paced at one request
+per host per 700 ms, was served 1,330 of the 1,354 Britannica URLs; the same
+URLs return the Cloudflare interstitial to a handful of quick requests minutes
+later. So the plan's "1,347 unfetchable URLs" is really "1,347 URLs whose
+availability depends on how politely and how recently you asked", and a
+verification pipeline built on that is a pipeline that fails silently on the
+day it matters. The mission's routing-around stands unchanged: **no statehood
+claim is anchored on being able to fetch Britannica.** What the run did buy is
+19 genuine Britannica 404s — a stable answer, and therefore actionable.
+
+**43 dead URLs, and not one of them supports a statehood claim.** The instrument
+was built expecting to find rot under the mission's own feet; it found the rot
+somewhere else entirely — UN peacekeeping mission pages, USIP publications, two
+UNESCO listings, 19 Britannica biographies. All of it is published in
+`docs/link-audit.md` for a future mission, per §5.1's scope line, and none of it
+blocks this one.
+
+**Every new floor ships as a warning and flips to an error in the batch that
+pays its debt.** A floor that went straight to error would have made the
+instrument commit red on arrival, which teaches everyone to run the validator
+with their eyes closed. The flip is one named constant per floor in
+`scripts/validate-histories.mjs`, and the batch that flips it is written beside
+it.
+
+**France is finally validated.** It is the one history authored in TypeScript,
+so a `readdir` of `lib/histories/data` has never seen it — meaning the file
+every other file is written against is the one file the validator never read.
+Its statehood block is now held to the same floors as the other 183, and it
+fails two of them on arrival (843 CE anchored on a single Wikipedia article).
+
+## The precision ledger
+
+`docs/statehood-precision-ledger.md` — one row per claim finer than a year, with
+the source that was read to confirm it. `node scripts/audit-precision.mjs
+--pending` prints what remains; a row records the claim text it verified, so
+editing a claim reopens its row.
+
+| | Claims |
+|---|---:|
+| day precision | 141 |
+| month precision | 12 |
+| **total** | **153** |
+| verified | 0 |
+
+## Source-tier debt, as first measured
+
+| | Formations |
+|---|---:|
+| resting on Wikipedia alone | **84** |
+| resting on a single publisher | **152** |
+| dated before 1800 with fewer than two publishers | **58** |
+
+(84 rather than the plan's 83: France is the 84th, and it was invisible to the
+count that produced that figure for the same reason it was invisible to the
+validator.)

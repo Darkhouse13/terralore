@@ -180,6 +180,21 @@ export interface QuickFact {
  */
 export interface Statehood {
   /**
+   * Present and `false` only for entities that are **not sovereign states** —
+   * dependencies and autonomous territories whose block records the birth of
+   * their own institutions rather than statehood. Absent (i.e. sovereign) for
+   * everything else, INCLUDING de-facto states whose sovereignty is disputed
+   * (TWN, KOS, PSE, CYN, SOL): those are functioning states whose recognition
+   * is contested, which the corpus already handles in prose, and they keep the
+   * standard shading.
+   *
+   * The allowlist of codes that may carry it lives in
+   * `scripts/validate-histories.mjs`, deliberately: adding a fifth territory is
+   * a conscious edit to the validator rather than a field someone sets in
+   * passing. See DECISIONS.md D13.
+   */
+  sovereign?: false;
+  /**
    * The earliest sourced, NAMED polity from which the modern nation draws a
    * broadly accepted line of identity, seated primarily on its modern
    * territory. A historiographic anchor, not a nationalist one — and a modern

@@ -2,6 +2,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { readFrance } from "./lib/sources.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "lib/histories/data");
@@ -16,8 +17,170 @@ const CURRENT_YEAR = 2026;
 
 let errors = 0;
 let warnings = 0;
+const infos = [];
 const err = (f, m) => { console.log(`  ✗ [${f}] ${m}`); errors++; };
 const warn = (f, m) => { console.log(`  ⚠ [${f}] ${m}`); warnings++; };
+/** Not a defect — a divergence worth keeping visible rather than silent. */
+const info = (f, m) => { infos.push(`  · [${f}] ${m}`); };
+
+// ── the statehood editorial floors (docs/statehood-deepening-plan.md §3) ────
+//
+// Two rules, both about where a claim that shades the globe is allowed to
+// rest. Neither is a purge of Wikipedia: the corpus cites it deliberately and
+// the D-series decisions accept it. The rule is narrower — no *formation*
+// claim rests on Wikipedia alone, and no formation before 1800 rests on a
+// single publisher, because a deep anchor is where one wrong page does the
+// most damage and is least likely to be caught by a reader who knows better.
+//
+// Each floor ships as a **warning** in the commit that introduces it and flips
+// to an **error** in the commit that pays its debt — the mechanism the
+// statehood pass used for its coverage check. A floor that went straight to
+// error would have made the instrument commit red on arrival, which teaches
+// everyone to run the validator with their eyes closed. A floor that stayed a
+// warning forever would be decoration. The flip is one constant, and the
+// batch that flips it is named beside it.
+const TWO_SOURCE_FLOOR_YEAR = 1800;
+const TWO_SOURCE_FLOOR_IS_ERROR = false; // → true with the source-tier uplift (batch 3)
+const YEAR_LABEL_IS_ERROR = false; // → true with the precision sweep (batch 2)
+const WIKIPEDIA_ONLY_IS_ERROR = false; // → true at the mission's close (§9)
+const NON_SOVEREIGN_REQUIRED = false; // → true when the four territories are flagged (batch 5)
+
+/** A floor that is a warning today and an error once its debt is paid. */
+const gated = (isError) => (f, m) => (isError ? err(f, m) : warn(f, m));
+
+/**
+ * Entities that are NOT sovereign states — dependencies and autonomous
+ * territories whose statehood block records the birth of their own
+ * institutions rather than statehood itself. They render dimmed from
+ * formation onward instead of limestone.
+ *
+ * This is an allowlist rather than a free-text flag on purpose: adding a fifth
+ * territory means consciously editing this file, which is where the boundary
+ * between *functioning statehood* and *administered territory* is written down
+ * (DECISIONS.md D13). De-facto states whose recognition is contested — Taiwan,
+ * Kosovo, Palestine, Northern Cyprus, Somaliland — are functioning states and
+ * do NOT belong here.
+ */
+const NON_SOVEREIGN = new Set(["NCL", "GRL", "FLK", "PRI"]);
+
+const normPublisher = (p) =>
+  (p ?? "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "");
+
+const hostOf = (u) => {
+  try { return new URL(u).host.toLowerCase(); } catch { return ""; }
+};
+
+const isWikipedia = (s) =>
+  normPublisher(s?.publisher).includes("wikipedia") || /(^|\.)wikipedia\.org$/.test(hostOf(s?.url));
+
+// ── statehood: the Time Globe's existence shading (docs/statehood-plan.md) ───
+// `founding` says when the current sovereign state dates from; `statehood`
+// says how far back this nation's statehood runs and when it was formally
+// interrupted. The shading draws a real claim on the map, so the block is held
+// to the same citation rule as every event: no source, no claim. Coverage is
+// complete (184/184 as of the statehood pass), so a missing block is an error
+// rather than a warning: a new history without one would ship a nation the
+// Time Globe shades from `founding` alone, silently reopening the criterion
+// inconsistency that whole pass existed to close.
+function checkStatehood(file, h, checkRefs) {
+  if (h.statehood == null) {
+    if (h.status === "published") err(file, "no `statehood` block — see docs/statehood-plan.md");
+    return;
+  }
+  const st = h.statehood;
+  const byId = new Map((h.sources ?? []).map((s) => [s.id, s]));
+
+  if ("sovereign" in st) {
+    if (st.sovereign !== false) {
+      err(file, "statehood.sovereign may only be `false` — omit it for sovereign states");
+    }
+    if (!NON_SOVEREIGN.has(h.code)) {
+      err(
+        file,
+        `statehood.sovereign is set on ${h.code}, which is not in the validator's non-sovereign allowlist ` +
+          `(${[...NON_SOVEREIGN].join(", ")}). Adding a territory is a deliberate edit to this file — see DECISIONS.md D13.`,
+      );
+    }
+  } else if (NON_SOVEREIGN.has(h.code)) {
+    gated(NON_SOVEREIGN_REQUIRED)(
+      file,
+      `${h.code} is allowlisted as non-sovereign but its statehood block does not set \`sovereign: false\``,
+    );
+  }
+
+  const f = st.formation;
+  if (f == null) {
+    err(file, "statehood missing `formation`");
+  } else {
+    if (typeof f.year !== "number" || !Number.isFinite(f.year)) err(file, "statehood.formation.year not a number");
+    if (!f.yearLabel?.trim()) err(file, "statehood.formation.yearLabel empty");
+    if (!f.label?.trim()) err(file, "statehood.formation.label empty");
+    if (!f.sources?.length) err(file, "statehood.formation has no sources");
+    checkRefs(f.sources, "statehood.formation");
+    if (typeof f.year === "number" && f.year > CURRENT_YEAR) err(file, `statehood.formation.year ${f.year} is in the future`);
+
+    // The display label and the shading year must be the same claim. "c. 3100
+    // BCE", "788 CE" and "660 BCE (traditional)" all satisfy this; a label that
+    // names no year, or a different one, means the globe and the page disagree.
+    if (typeof f.year === "number" && f.yearLabel) {
+      const named = [...String(f.yearLabel).matchAll(/\d{1,4}/g)].map((m) => Number(m[0]));
+      if (!named.includes(Math.abs(f.year))) {
+        gated(YEAR_LABEL_IS_ERROR)(
+          file,
+          `statehood.formation.yearLabel "${f.yearLabel}" does not name its own year (${f.year})`,
+        );
+      }
+    }
+
+    // ── the two editorial floors ──
+    const cited = (f.sources ?? []).map((id) => byId.get(id)).filter(Boolean);
+    const publishers = new Set(cited.map((s) => normPublisher(s.publisher)).filter(Boolean));
+    if (typeof f.year === "number" && f.year < TWO_SOURCE_FLOOR_YEAR && publishers.size < 2) {
+      gated(TWO_SOURCE_FLOOR_IS_ERROR)(
+        file,
+        `statehood.formation is dated ${f.year} (before ${TWO_SOURCE_FLOOR_YEAR}) but cites ${publishers.size} publisher(s) — ` +
+          "deep anchors need two independent publishers",
+      );
+    }
+    if (cited.length && cited.every(isWikipedia)) {
+      const msg = "statehood.formation rests on Wikipedia alone — add a second publisher (gov, encyclopedia, museum, academic)";
+      if (WIKIPEDIA_ONLY_IS_ERROR) err(file, msg);
+      else warn(file, msg);
+    }
+  }
+
+  const ints = st.interruptions ?? [];
+  if (!Array.isArray(ints)) err(file, "statehood.interruptions is not an array");
+  let prevEnd = -Infinity;
+  ints.forEach((iv, n) => {
+    const at = `statehood.interruptions[${n}]`;
+    if (typeof iv.start !== "number" || typeof iv.end !== "number") {
+      err(file, `${at} start/end not numeric`);
+      return;
+    }
+    if (!(iv.start < iv.end)) err(file, `${at} start ${iv.start} is not before end ${iv.end}`);
+    if (!iv.label?.trim()) err(file, `${at} label empty`);
+    if (!iv.sources?.length) err(file, `${at} has no sources`);
+    checkRefs(iv.sources, at);
+    if (iv.end > CURRENT_YEAR) err(file, `${at} end ${iv.end} is in the future`);
+    if (typeof f?.year === "number" && iv.start < f.year) {
+      err(file, `${at} starts ${iv.start}, before formation ${f.year}`);
+    }
+    if (iv.start < prevEnd) err(file, `${at} overlaps the previous interruption (starts ${iv.start}, previous ended ${prevEnd})`);
+    prevEnd = iv.end;
+  });
+
+  // §3.2 of the plan asserts that an interruption's end is *usually* the
+  // existing `founding.year` — the restoration is the thing `founding` records.
+  // Where it is not, that is legitimate (Egypt, Vietnam, Iran, Armenia,
+  // Georgia and the pre-1800 restorations all end long before the modern
+  // state), but it should be visible rather than silent, because the other way
+  // it can happen is a typo in a year nobody reads twice.
+  const last = ints[ints.length - 1];
+  if (last && typeof h.founding?.year === "number" && last.end !== h.founding.year) {
+    info(file, `last interruption ends ${last.end}; founding.year is ${h.founding.year}`);
+  }
+}
 
 const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
 for (const file of files) {
@@ -55,51 +218,7 @@ for (const file of files) {
   }
   for (const fig of h.figures ?? []) checkRefs(fig.sources, `top figure "${fig.name}"`);
 
-  // ── statehood: the Time Globe's existence shading (docs/statehood-plan.md) ─
-  // `founding` says when the current sovereign state dates from; `statehood`
-  // says how far back this nation's statehood runs and when it was formally
-  // interrupted. The shading draws a real claim on the map, so the block is
-  // held to the same citation rule as every event: no source, no claim.
-  // Coverage is complete (184/184 as of the statehood pass), so a missing block
-  // is now an error rather than a warning: a new history without one would ship
-  // a nation the Time Globe shades from `founding` alone, silently reopening
-  // the criterion inconsistency this whole pass existed to close.
-  if (h.statehood == null) {
-    if (h.status === "published") err(file, "no `statehood` block — see docs/statehood-plan.md");
-  } else {
-    const st = h.statehood;
-    const f = st.formation;
-    if (f == null) err(file, "statehood missing `formation`");
-    else {
-      if (typeof f.year !== "number" || !Number.isFinite(f.year)) err(file, "statehood.formation.year not a number");
-      if (!f.yearLabel?.trim()) err(file, "statehood.formation.yearLabel empty");
-      if (!f.label?.trim()) err(file, "statehood.formation.label empty");
-      if (!f.sources?.length) err(file, "statehood.formation has no sources");
-      checkRefs(f.sources, "statehood.formation");
-      if (typeof f.year === "number" && f.year > CURRENT_YEAR) err(file, `statehood.formation.year ${f.year} is in the future`);
-    }
-
-    const ints = st.interruptions ?? [];
-    if (!Array.isArray(ints)) err(file, "statehood.interruptions is not an array");
-    let prevEnd = -Infinity;
-    ints.forEach((iv, n) => {
-      const at = `statehood.interruptions[${n}]`;
-      if (typeof iv.start !== "number" || typeof iv.end !== "number") {
-        err(file, `${at} start/end not numeric`);
-        return;
-      }
-      if (!(iv.start < iv.end)) err(file, `${at} start ${iv.start} is not before end ${iv.end}`);
-      if (!iv.label?.trim()) err(file, `${at} label empty`);
-      if (!iv.sources?.length) err(file, `${at} has no sources`);
-      checkRefs(iv.sources, at);
-      if (iv.end > CURRENT_YEAR) err(file, `${at} end ${iv.end} is in the future`);
-      if (typeof f?.year === "number" && iv.start < f.year) {
-        err(file, `${at} starts ${iv.start}, before formation ${f.year}`);
-      }
-      if (iv.start < prevEnd) err(file, `${at} overlaps the previous interruption (starts ${iv.start}, previous ended ${prevEnd})`);
-      prevEnd = iv.end;
-    });
-  }
+  checkStatehood(file, h, checkRefs);
 
   for (const s of h.sources) if (!used.has(s.id)) warn(file, `unused source "${s.id}"`);
 
@@ -107,5 +226,27 @@ for (const file of files) {
   console.log(`✓ ${file}: ${h.code} — ${h.eras.length} eras, ${eventCount} events, ${h.sources.length} sources`);
 }
 
-console.log(`\n${errors} error(s), ${warnings} warning(s) across ${files.length} files.`);
+// France is authored in TypeScript, so a readdir of lib/histories/data cannot
+// see it — which for four missions meant the one history everything else
+// treats as the reference case was the one history this validator never read.
+// Its statehood block is held to exactly the same floors as the other 183.
+{
+  const fr = readFrance();
+  const ids = new Set(fr.sources.map((s) => s.id));
+  const checkRefs = (arr, where) => {
+    for (const id of arr ?? []) if (!ids.has(id)) err("france.ts", `${where} references unknown source id "${id}"`);
+  };
+  checkStatehood("france.ts", fr, checkRefs);
+  console.log(`✓ france.ts: ${fr.code} — statehood block, ${fr.sources.length} sources`);
+}
+
+if (infos.length) {
+  console.log(
+    "\nRestorations that do not land on `founding.year` " +
+      "(legitimate wherever the modern state postdates the restoration — kept visible, not silenced):",
+  );
+  for (const line of infos) console.log(line);
+}
+
+console.log(`\n${errors} error(s), ${warnings} warning(s), ${infos.length} info line(s) across ${files.length + 1} files.`);
 process.exit(errors ? 1 : 0);
