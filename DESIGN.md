@@ -115,14 +115,14 @@ water on a chart, never toward indigo-purple.
 #### The shore — light surfaces (chronicle, atlas, timeline)
 
 **Limestone, not cream.** Cooler and greyer than the parchment it replaces
-(`#EFEAE0` vs `#F3ECDD`), so it reads as chart stock and survey stone rather than as
+(`#EBE9E0` vs `#F3ECDD`), so it reads as chart stock and survey stone rather than as
 the warm-cream editorial default.
 
 | Token | Hex | Role |
 |---|---|---|
-| `--color-land-0` | `#EFEAE0` | limestone — the reading ground |
-| `--color-land-1` | `#E2DCCC` | raised paper, pull-quotes |
-| `--color-land-2` | `#C7BFA8` | rules and edges |
+| `--color-land-0` | `#EBE9E0` | limestone — the reading ground |
+| `--color-land-1` | `#DEDACD` | raised paper, pull-quotes |
+| `--color-land-2` | `#C3BEAC` | rules and edges |
 
 #### Ink and chalk
 
@@ -224,7 +224,8 @@ like one thing:
 - **On the dossier** — the active tab sits on a stratum rule rather than a plain
   underline.
 - **In the favicon and OG images** — the mark is a sphere cut in section, showing its
-  bands.
+  bands: limestone at the surface, then copper, verdigris, shoal, and the abyssal
+  below (`scripts/build-icon.mjs`).
 
 ### The globe
 
@@ -243,6 +244,27 @@ Constraints preserved: the GlobeLite architecture is untouched (pure renderer +
 OffscreenCanvas worker + React shell), rasterisation stays off the main thread, and
 the landing chunk budget does not grow. The still (`globe-still.svg`) is regenerated
 from the same palette so the handover stays invisible.
+
+### The event-category pigments
+
+Ten categories, drawn from the mineral and earth pigments an atlas or an illuminated
+manuscript would actually have had. A different axis from the three-tint semantic
+ramp — except war, which stays in the madder family because rupture is what madder
+means.
+
+| Category | Pigment | | Category | Pigment |
+|---|---|---|---|---|
+| Formation | `#8E6E2E` yellow ochre | | Economy & Trade | `#566F3C` terre verte |
+| Independence | `#A85B2E` burnt orange | | Colonisation | `#96583B` sienna |
+| War & Rupture | `#B0463C` madder | | Peoples & Migration | `#2C6C84` cerulean |
+| Politics & Power | `#5464A1` indigo | | Catastrophe | `#5F6D6C` graphite |
+| Religion | `#85578A` tyrian | | Culture & Ideas | `#2C7566` verdigris |
+
+The narrow mid-dark range is a constraint, not a mannerism: a category mark appears
+on **both** grounds — the journey and timeline rail on the deep, the chronicle and
+theme pages on limestone — so a single value must clear 3:1 against `#04161F` *and*
+`#EBE9E0`. That confines every pigment to roughly `0.116 ≤ L ≤ 0.24`. Four were
+solved numerically rather than guessed.
 
 ### Quality floor (unannounced, non-negotiable)
 
