@@ -9,6 +9,15 @@
     "year": 1978,
     "detail": "The British Solomon Islands Protectorate became the independent state of Solomon Islands on 7 July 1978, remaining within the Commonwealth with the British monarch as head of state. Sir Peter Kenilorea, who had led the independence negotiations with Britain, became the country's first prime minister."
   },
+  "statehood": {
+    "formation": {
+      "year": 1978,
+      "yearLabel": "7 July 1978",
+      "label": "Solomon Islands becomes independent of the United Kingdom",
+      "detail": "The islands were a British protectorate from the 1890s and had never been a single polity before it.",
+      "sources": ["wikipedia-solomon-islands", "statedept-solomon"]
+    }
+  },
   "quickFacts": [
     {
       "label": "Capital",
@@ -559,7 +568,9 @@
       "publisher": "Asia Society Policy Institute",
       "url": "https://asiasociety.org/policy-institute/geopolitical-shifts-and-local-priorities-unpacking-solomon-islands-2024-elections",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-solomon-islands", "label": "Solomon Islands", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Solomon_Islands", "kind": "reference" },
+    { "id": "statedept-solomon", "label": "A Guide to the United States' History of Recognition: Solomon Islands", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/solomon-islands", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

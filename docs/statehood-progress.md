@@ -40,7 +40,7 @@ structurally, so the target is 184/184.
 | 5 | East + Central Asia | 16 | done |
 | 6 | Europe | 46 (+ France, authored in TypeScript) | done |
 | 7 | Americas | 28 | done |
-| 8 | Oceania + Caribbean + microstates | | |
+| 8 | Oceania + Caribbean + territories | 10 | done |
 
 ## Nations
 
@@ -53,6 +53,7 @@ structurally, so the target is 184/184.
 | ARE | United Arab Emirates | 1971 CE | — | verified-existing |
 | ARG | Argentina | 1816 CE | — | verified-existing |
 | ARM | Armenia | 331 BCE | 428–885, 1045–1918, 1920–1991 | done |
+| AUS | Australia | 1901 CE | — | verified-existing |
 | AUT | Austria | 996 CE | 1938–1945 | verified-existing |
 | AZE | Azerbaijan | 1918 CE | 1920–1991 | done |
 | BDI | Burundi | 1680 CE | 1890–1962 | done |
@@ -99,6 +100,8 @@ structurally, so the target is 184/184.
 | EST | Estonia | 1918 CE | 1940–1991 | verified-existing |
 | ETH | Ethiopia | 1 CE | 1936–1941 | verified-existing |
 | FIN | Finland | 1917 CE | — | verified-existing |
+| FJI | Fiji | 1871 CE | 1874–1970 | done |
+| FLK | Falkland Islands | 1833 CE | — | verified-existing |
 | FRA | France | 843 CE | — | verified-existing |
 | GAB | Gabon | 1960 CE | — | verified-existing |
 | GBR | United Kingdom | 927 CE | — | done |
@@ -109,6 +112,7 @@ structurally, so the target is 184/184.
 | GNB | Guinea-Bissau | 1973 CE | — | verified-existing |
 | GNQ | Equatorial Guinea | 1968 CE | — | verified-existing |
 | GRC | Greece | 1830 CE | — | verified-existing |
+| GRL | Greenland | 2009 CE | — | verified-existing |
 | GTM | Guatemala | 1821 CE | — | verified-existing |
 | GUY | Guyana | 1966 CE | — | verified-existing |
 | HND | Honduras | 1821 CE | — | verified-existing |
@@ -159,18 +163,22 @@ structurally, so the target is 184/184.
 | MWI | Malawi | 1964 CE | — | verified-existing |
 | MYS | Malaysia | 1957 CE | — | done |
 | NAM | Namibia | 1990 CE | — | verified-existing |
+| NCL | New Caledonia | 1998 CE | — | verified-existing |
 | NER | Niger | 1960 CE | — | verified-existing |
 | NGA | Nigeria | 1960 CE | — | verified-existing |
 | NIC | Nicaragua | 1821 CE | — | verified-existing |
 | NLD | Netherlands | 1581 CE | — | verified-existing |
 | NOR | Norway | 872 CE | 1537–1905 | verified-existing |
 | NPL | Nepal | 1768 CE | — | verified-existing |
+| NZL | New Zealand | 1840 CE | — | verified-existing |
 | OMN | Oman | 1744 CE | — | verified-existing |
 | PAK | Pakistan | 1947 CE | — | verified-existing |
 | PAN | Panama | 1903 CE | — | verified-existing |
 | PER | Peru | 1821 CE | — | done |
 | PHL | Philippines | 1898 CE | 1899–1946 | done |
+| PNG | Papua New Guinea | 1975 CE | — | verified-existing |
 | POL | Poland | 966 CE | 1795–1918 | verified-existing |
+| PRI | Puerto Rico | 1952 CE | — | verified-existing |
 | PRK | North Korea | 918 CE | 1910–1945 | done |
 | PRT | Portugal | 1143 CE | 1580–1640 | verified-existing |
 | PRY | Paraguay | 1811 CE | — | verified-existing |
@@ -183,6 +191,7 @@ structurally, so the target is 184/184.
 | SDN | Sudan | 1956 CE | — | verified-existing |
 | SDS | South Sudan | 2011 CE | — | verified-existing |
 | SEN | Senegal | 1960 CE | — | verified-existing |
+| SLB | Solomon Islands | 1978 CE | — | verified-existing |
 | SLE | Sierra Leone | 1961 CE | — | verified-existing |
 | SLV | El Salvador | 1821 CE | — | verified-existing |
 | SMR | San Marino | 301 CE | — | verified-existing |
@@ -216,6 +225,7 @@ structurally, so the target is 184/184.
 | VAT | Vatican City | 1929 CE | — | verified-existing |
 | VEN | Venezuela | 1811 CE | — | verified-existing |
 | VNM | Vietnam | 257 BCE | 111 BCE–938, 1887–1945 | done |
+| VUT | Vanuatu | 1980 CE | — | verified-existing |
 | YEM | Yemen | 1918 CE | — | done |
 | ZAF | South Africa | 1910 CE | — | verified-existing |
 | ZMB | Zambia | 1964 CE | — | verified-existing |

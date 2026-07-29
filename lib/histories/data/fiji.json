@@ -9,6 +9,23 @@
     "year": 1970,
     "detail": "Fiji became an independent sovereign state within the Commonwealth on 10 October 1970, exactly 96 years after the Deed of Cession of 1874. Ratu Sir Kamisese Mara, leader of the Alliance Party, became its first prime minister; Fiji later became a republic in 1987."
   },
+  "statehood": {
+    "formation": {
+      "year": 1871,
+      "yearLabel": "5 June 1871",
+      "label": "Cakobau's Kingdom of Fiji is established",
+      "detail": "Its Legislative Assembly first met at Levuka in November 1871. Cakobau, Ma'afu and a group of senior chiefs signed the Deed of Cession on 10 October 1874, and Fiji became independent again on the same date in 1970 — the only Pacific nation in the corpus whose statehood is a restoration rather than a formation.",
+      "sources": ["wikipedia-kingdom-fiji"]
+    },
+    "interruptions": [
+      {
+        "start": 1874,
+        "end": 1970,
+        "label": "Cession to Britain and the Crown Colony of Fiji",
+        "sources": ["wikipedia-kingdom-fiji", "statedept-fiji"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "First settlers", "value": "Austronesian Lapita voyagers, c. 1000 BCE" },
     { "label": "Ceded to Britain", "value": "10 October 1874 (Deed of Cession, Levuka)" },
@@ -372,7 +389,8 @@
     { "id": "fiji-parliament", "label": "Our Story — Parliament of the Republic of Fiji", "publisher": "Parliament of the Republic of Fiji", "url": "https://www.parliament.gov.fj/our-story/", "kind": "gov" },
     { "id": "usp-sukuna", "label": "The historical significance of Ratu Sir Lala Sukuna", "publisher": "University of the South Pacific", "url": "https://www.usp.ac.fj/news/the-historical-significance-of-ratu-sir-lala-sukuna/", "kind": "academic" },
     { "id": "un-cop23", "label": "Secretary-General's remarks at COP23 (Fiji presidency)", "publisher": "United Nations", "url": "https://www.un.org/sg/en/content/sg/speeches/2017-11-15/secretary-general-cop23-remarks", "kind": "gov" },
-    { "id": "worldbank-fiji", "label": "Pacific Island Countries — Overview (Fiji)", "publisher": "World Bank Group", "url": "https://www.worldbank.org/en/country/pacificislands/overview", "kind": "gov" }
+    { "id": "worldbank-fiji", "label": "Pacific Island Countries — Overview (Fiji)", "publisher": "World Bank Group", "url": "https://www.worldbank.org/en/country/pacificislands/overview", "kind": "gov" },
+    { "id": "wikipedia-kingdom-fiji", "label": "Kingdom of Fiji", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Fiji", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"
