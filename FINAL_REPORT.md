@@ -156,19 +156,42 @@ chunk**.
 public URL. The JSON-LD is asserted to parse and carry `@type`/`@context` on all 1,054
 pages by the audit, which is the mechanical half.
 
-**3. CI has never executed.** The workflow is committed but no push has triggered it.
-Every step in it has been run locally and passes.
+**3. ~~CI has never executed.~~** *Resolved on deploy* — CI passed on its first run
+(1m23s), all twelve steps green including the full 1,054-page audit against a real
+server in the runner. One non-blocking annotation: `actions/checkout@v4`,
+`setup-node@v4` and `upload-artifact@v4` still target Node 20, which GitHub has
+deprecated and force-runs on Node 24. Bump to `@v5` when convenient.
 
 ---
 
-## Operator-side — needs your authenticated session
+## Deployed
+
+Pushed `f2b1445..4c68b3d` (14 commits) to `main`; the GitHub webhook triggered Coolify.
+Verified against **https://terralore.co**, not against localhost:
+
+| Check | Result |
+|---|---|
+| CI | ✅ passed first run, 1m23s, all 12 steps |
+| Live palette | ✅ Stratum tokens present, **zero** navy/gold remnants in the served HTML |
+| Key routes | ✅ 200 on landing, atlas, dossier, chronicle, journey, Taiwan, timeline, themes, llms.txt, robots.txt, sitemap.xml, OG image, icon; 404 on an unknown path |
+| **Full page audit against production** | ✅ **1,054/1,054 clean** — 200, one h1, unique title + description, valid JSON-LD, canonical, no orphans |
+| Console errors | ✅ none on landing, chronicle or the Taiwan dossier |
+| IndexNow | ✅ **1,054 URLs accepted, HTTP 200** |
+
+IndexNow returned `SiteVerificationNotCompleted` on the first attempt — expected, since
+the key file had only just gone live and verification is asynchronous. It succeeded on
+retry.
+
+Production screenshots: `design-review/08-production/`.
+
+## Operator-side — still needs your authenticated session
 
 1. **Google Search Console** — verify the property and submit `sitemap.xml`.
-2. **Bing Webmaster Tools** — same, and it also activates IndexNow for the host.
-3. **Run `npm run indexnow` after the first deploy** carrying these changes.
-4. **Validate a chronicle, a dossier and `/atlas`** against Google's Rich Results
-   Test once live.
-5. **Re-run `node scripts/lighthouse.mjs --label clean --runs 3` on an idle machine**
+   (Google does not participate in IndexNow; the sitemap is the only channel.)
+2. **Bing Webmaster Tools** — verify the property. IndexNow submissions are already
+   being accepted, but the console is where you see what Bing did with them.
+3. **Validate a chronicle, a dossier and `/atlas`** against Google's Rich Results Test.
+4. **Re-run `node scripts/lighthouse.mjs --label clean --runs 3` on an idle machine**
    to settle the performance question one way or the other.
 
 ---
