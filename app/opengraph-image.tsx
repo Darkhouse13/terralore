@@ -30,7 +30,7 @@ export default function OpengraphImage() {
           color: "#e6ecea",
         }}
       >
-        {/* brass hairline, echoing the atlas rules across the site */}
+        {/* the stratum rule, echoing the signature device across the site */}
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
           <div style={{ width: 54, height: 2, background: "#c87244" }} />
           <div
@@ -79,7 +79,18 @@ export default function OpengraphImage() {
             color: "#8497a0",
           }}
         >
-          <span style={{ color: "#c87244" }}>◆</span>
+          {/* A drawn lozenge, not a "◆" glyph. Satori has no glyph for it in
+              the default face and tries to fetch one over the network at build
+              time, which fails in a sandboxed build ("Failed to download
+              dynamic font. Status: 400"). Geometry always renders. */}
+          <div
+            style={{
+              width: 12,
+              height: 12,
+              background: "#c87244",
+              transform: "rotate(45deg)",
+            }}
+          />
           <span>Every claim traceable to a source</span>
         </div>
       </div>
