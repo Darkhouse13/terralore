@@ -168,6 +168,47 @@ export interface QuickFact {
   value: string;
 }
 
+/**
+ * Sourced statehood anchors — what the Time Globe's existence shading reads.
+ *
+ * `founding` answers "the current sovereign state dates from"; this answers
+ * "how far back does this nation's statehood run, and when was it interrupted".
+ * Two different questions, and conflating them is what made the globe show
+ * Morocco — twelve centuries of dynastic continuity — as not yet existing in
+ * the 19th century while Egypt glowed from the Bronze Age. See
+ * docs/statehood-plan.md for the editorial criteria; they are not optional.
+ */
+export interface Statehood {
+  /**
+   * The earliest sourced, NAMED polity from which the modern nation draws a
+   * broadly accepted line of identity, seated primarily on its modern
+   * territory. A historiographic anchor, not a nationalist one — and a modern
+   * date is a finding, not a failure: for states with no precursor polity of
+   * continuous identity, `formation.year` legitimately equals `founding.year`.
+   */
+  formation: {
+    year: number; // negative = BCE
+    yearLabel: string; // display form, e.g. "788 CE", "c. 3100 BCE"
+    label: string; // e.g. "Idrisid dynasty unifies northern Morocco"
+    detail?: string; // one sentence of nuance if needed
+    sources: string[]; // ids into this file's sources[] — MUST resolve
+  };
+  /**
+   * Formalised losses of external sovereignty between formation and today:
+   * colony, protectorate, annexation, incorporation, partition out of
+   * existence. NOT wartime military occupation with sovereignty restored at
+   * war's end, and not vassalage that left internal statehood intact.
+   * Ordered, non-overlapping; `end` is the restoration year, which for most
+   * nations is exactly `founding.year`.
+   */
+  interruptions?: {
+    start: number;
+    end: number;
+    label: string; // e.g. "French and Spanish protectorates"
+    sources: string[]; // MUST resolve
+  }[];
+}
+
 export interface CountryHistory {
   code: string;
   name: string;
@@ -182,6 +223,8 @@ export interface CountryHistory {
     year: number;
     detail: string;
   };
+  /** Sourced statehood anchors for the Time Globe's existence shading. */
+  statehood?: Statehood;
   quickFacts: QuickFact[];
   eras: Era[];
   /** Optional curated set of pivotal figures shown in a gallery. */

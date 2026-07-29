@@ -28,6 +28,15 @@ import { CATEGORY_META, type CountryMeta, type CountryMetaMap, type EventCategor
 
 /** OrbitControls autoRotateSpeed 0.32 ≈ 1.92°/s. */
 const SPIN_DEG_S = 1.92;
+
+/* The Time Globe's four existence fills, composited over the ocean by the
+   canvas. Their separation is asserted in scripts/check-contrast.mjs — the
+   three limestone alphas as a lightness ladder, copper as ΔE, since copper
+   sits at the dimmed fill's lightness and is told apart by hue. */
+const GHOST_FILL = "rgba(235, 233, 224, 0.15)"; // not yet a state
+const DIMMED_FILL = "rgba(235, 233, 224, 0.42)"; // present, not sovereign
+const COPPER_FILL = "rgba(200, 114, 68, 0.88)"; // formed / restored this period
+
 /** Selection zoom: altitude 2.5 → 1.7 is a ~1.3× apparent scale. */
 const SELECT_SCALE = 1.3;
 
@@ -39,6 +48,13 @@ type Feature = {
 /** One corpus event as the time-events file encodes it. */
 export type TimeEventTuple = [code: string, year: number, category: string, title: string, eraId: string];
 
+/**
+ * A nation's sourced statehood claim, compacted by build-time-events.mjs:
+ * `f` the formation year of the polity it traces itself to, `i` the formalised
+ * losses of external sovereignty since — each `[start, restoration]`.
+ */
+export type StatehoodClaim = { f: number; i?: [number, number][] };
+
 interface Props {
   selectedCode: string | null;
   onSelect: (meta: CountryMeta | null) => void;
@@ -46,8 +62,8 @@ interface Props {
   choroplethValues?: Record<string, number> | null;
   /** The active period's events, or null when the Time Globe is disengaged. */
   timeEvents?: TimeEventTuple[] | null;
-  /** Existence shading: sourced founding years + the active period's span. */
-  timeShading?: { founding: Record<string, number>; start: number; end: number } | null;
+  /** Existence shading: sourced statehood claims + the active period's span. */
+  timeShading?: { statehood: Record<string, StatehoodClaim>; start: number; end: number } | null;
   onHover?: (code: string | null) => void;
   onReady?: () => void;
 }
@@ -227,20 +243,48 @@ export default function GlobeLite({
   }, [choroplethValues, shapes]);
 
   // ── Existence shading: the world, filled in only as far as it has come ──
-  // Three states per nation, all derived from the corpus's own sourced
-  // `founding` claim: not yet a state (a ghost — land barely lifted off the
-  // ocean, coastline and shelf halo carrying the outline), born in the active
-  // period (a copper wash — the moment of becoming), and existing (limestone,
-  // as ever). Nations without a history make no founding claim and are
-  // rendered as today — the rail's caption carries the caveat.
+  // Four states per nation, all derived from the corpus's own sourced
+  // `statehood` block (docs/statehood-plan.md):
+  //
+  //   ghost    not yet formed — land barely lifted off the ocean, coastline
+  //            and shelf halo carrying the outline
+  //   copper   formed, or sovereignty restored, inside the active period —
+  //            the moment of becoming
+  //   dimmed   present but not sovereign: the period falls inside a formalised
+  //            loss of external sovereignty (protectorate, annexation,
+  //            partition). This is the state that was missing, and its absence
+  //            is why the globe used to render Morocco as unborn through the
+  //            19th century while Egypt glowed from the Bronze Age
+  //   —        sovereign: limestone, as ever, no override
+  //
+  // Restoration outranks interruption when both touch a period: the year a
+  // nation gets its sovereignty back is the event, and it is what re-ignites
+  // Africa across the 1960s and Poland in the 1910s. Nations without a history
+  // make no claim and are rendered as today — the rail's caption carries the
+  // caveat.
   const timeFills = useMemo(() => {
     if (!timeShading) return null;
+    const { statehood, start, end } = timeShading;
     const out: Record<string, string> = {};
     for (const s of shapes) {
-      const born = timeShading.founding[s.code];
-      if (born == null) continue; // no claim, no shading
-      if (born > timeShading.end) out[s.code] = "rgba(235, 233, 224, 0.15)";
-      else if (born >= timeShading.start) out[s.code] = "rgba(200, 114, 68, 0.88)";
+      const claim = statehood[s.code];
+      if (!claim) continue; // no claim, no shading
+      if (claim.f > end) {
+        out[s.code] = GHOST_FILL;
+        continue;
+      }
+      if (claim.f >= start) {
+        out[s.code] = COPPER_FILL; // formed within this period
+        continue;
+      }
+      let restored = false;
+      let ruled = false;
+      for (const [from, to] of claim.i ?? []) {
+        if (to >= start && to <= end) restored = true;
+        else if (from <= end && to > start) ruled = true;
+      }
+      if (restored) out[s.code] = COPPER_FILL;
+      else if (ruled) out[s.code] = DIMMED_FILL;
     }
     return out;
   }, [timeShading, shapes]);

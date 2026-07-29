@@ -8,7 +8,7 @@ import Link from "next/link";
 // globe is alive from its first frame instead of deferred behind a still.
 // The SVG still remains as the zero-JS first paint and fades once the canvas
 // draws its identical opening frame.
-import GlobeLite, { type TimeEventTuple } from "./GlobeLite";
+import GlobeLite, { type StatehoodClaim, type TimeEventTuple } from "./GlobeLite";
 import TimeRail, { type RailPeriod } from "./TimeRail";
 import CountryCard from "./CountryCard";
 import Mark from "./Mark";
@@ -56,7 +56,7 @@ export default function AtlasHome({
   const [timeEngaged, setTimeEngaged] = useState(false);
   const [timeIdx, setTimeIdx] = useState(Math.max(0, timePeriods.length - 1));
   const [eventsBySlug, setEventsBySlug] = useState<Map<string, TimeEventTuple[]> | null>(null);
-  const [foundingYears, setFoundingYears] = useState<Record<string, number> | null>(null);
+  const [statehood, setStatehood] = useState<Record<string, StatehoodClaim> | null>(null);
   const timeFetchStarted = useRef(false);
 
   const engageTime = useCallback(
@@ -74,14 +74,14 @@ export default function AtlasHome({
             (file: {
               periods: { slug: string }[];
               events: TimeEventTuple[][];
-              founding: Record<string, number>;
+              statehood: Record<string, StatehoodClaim>;
             }) => {
               // Keyed by slug rather than index so a stale cached file can never
               // misalign a period with another period's events.
               const m = new Map<string, TimeEventTuple[]>();
               file.periods.forEach((p, i) => m.set(p.slug, file.events[i]));
               setEventsBySlug(m);
-              setFoundingYears(file.founding ?? null);
+              setStatehood(file.statehood ?? null);
             },
           )
           .catch(() => {
@@ -98,9 +98,9 @@ export default function AtlasHome({
       : null;
 
   const timeShading =
-    timeEngaged && foundingYears && timePeriods[timeIdx]
+    timeEngaged && statehood && timePeriods[timeIdx]
       ? {
-          founding: foundingYears,
+          statehood,
           start: timePeriods[timeIdx].start,
           end: timePeriods[timeIdx].end,
         }

@@ -11,6 +11,9 @@ const CATEGORIES = new Set([
   "culture", "economy", "colonization", "migration", "disaster",
 ]);
 
+/** The corpus's present. Eras run to 2026; nothing may be dated past it. */
+const CURRENT_YEAR = 2026;
+
 let errors = 0;
 let warnings = 0;
 const err = (f, m) => { console.log(`  ✗ [${f}] ${m}`); errors++; };
@@ -51,6 +54,48 @@ for (const file of files) {
     for (const fig of era.figures ?? []) checkRefs(fig.sources, `figure "${fig.name}"`);
   }
   for (const fig of h.figures ?? []) checkRefs(fig.sources, `top figure "${fig.name}"`);
+
+  // ── statehood: the Time Globe's existence shading (docs/statehood-plan.md) ─
+  // `founding` says when the current sovereign state dates from; `statehood`
+  // says how far back this nation's statehood runs and when it was formally
+  // interrupted. The shading draws a real claim on the map, so the block is
+  // held to the same citation rule as every event: no source, no claim.
+  if (h.statehood == null) {
+    if (h.status === "published") warn(file, "no `statehood` block — the Time Globe falls back to founding.year");
+  } else {
+    const st = h.statehood;
+    const f = st.formation;
+    if (f == null) err(file, "statehood missing `formation`");
+    else {
+      if (typeof f.year !== "number" || !Number.isFinite(f.year)) err(file, "statehood.formation.year not a number");
+      if (!f.yearLabel?.trim()) err(file, "statehood.formation.yearLabel empty");
+      if (!f.label?.trim()) err(file, "statehood.formation.label empty");
+      if (!f.sources?.length) err(file, "statehood.formation has no sources");
+      checkRefs(f.sources, "statehood.formation");
+      if (typeof f.year === "number" && f.year > CURRENT_YEAR) err(file, `statehood.formation.year ${f.year} is in the future`);
+    }
+
+    const ints = st.interruptions ?? [];
+    if (!Array.isArray(ints)) err(file, "statehood.interruptions is not an array");
+    let prevEnd = -Infinity;
+    ints.forEach((iv, n) => {
+      const at = `statehood.interruptions[${n}]`;
+      if (typeof iv.start !== "number" || typeof iv.end !== "number") {
+        err(file, `${at} start/end not numeric`);
+        return;
+      }
+      if (!(iv.start < iv.end)) err(file, `${at} start ${iv.start} is not before end ${iv.end}`);
+      if (!iv.label?.trim()) err(file, `${at} label empty`);
+      if (!iv.sources?.length) err(file, `${at} has no sources`);
+      checkRefs(iv.sources, at);
+      if (iv.end > CURRENT_YEAR) err(file, `${at} end ${iv.end} is in the future`);
+      if (typeof f?.year === "number" && iv.start < f.year) {
+        err(file, `${at} starts ${iv.start}, before formation ${f.year}`);
+      }
+      if (iv.start < prevEnd) err(file, `${at} overlaps the previous interruption (starts ${iv.start}, previous ended ${prevEnd})`);
+      prevEnd = iv.end;
+    });
+  }
 
   for (const s of h.sources) if (!used.has(s.id)) warn(file, `unused source "${s.id}"`);
 

@@ -70,12 +70,39 @@ const fail = (msg) => {
 const dataDir = join(root, "lib/histories/data");
 const events = []; // { year, code, cat, title, eraId }
 
-const founding = {}; // code → sourced founding year (the corpus's own claim)
+// code → { f: formation year, i?: [[start, end], …] }
+// `f` is the sourced statehood anchor — the earliest named polity the nation
+// traces itself to — falling back to `founding.year` for any history that does
+// not yet carry a statehood block. `i` are formalised losses of external
+// sovereignty (protectorate, annexation, partition), which is what lets the
+// globe render a nation as present-but-not-sovereign rather than as unborn.
+const statehood = {};
+
+/** Compact a history's statehood claim, or fall back to its founding year. */
+const statehoodFor = (h, file) => {
+  const st = h.statehood;
+  if (!st) {
+    return typeof h.founding?.year === "number" ? { f: h.founding.year } : null;
+  }
+  if (typeof st.formation?.year !== "number") fail(`${file}: statehood.formation.year is not a number`);
+  const out = { f: st.formation.year };
+  const ints = st.interruptions ?? [];
+  if (ints.length) {
+    out.i = ints.map((iv) => {
+      if (typeof iv.start !== "number" || typeof iv.end !== "number") {
+        fail(`${file}: statehood interruption with non-numeric start/end`);
+      }
+      return [iv.start, iv.end];
+    });
+  }
+  return out;
+};
 
 for (const file of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   const h = JSON.parse(readFileSync(join(dataDir, file), "utf8"));
   if (h.status !== "published") continue;
-  if (typeof h.founding?.year === "number") founding[h.code] = h.founding.year;
+  const s = statehoodFor(h, file);
+  if (s) statehood[h.code] = s;
   for (const era of h.eras ?? []) {
     for (const ev of era.events ?? []) {
       if (!CATEGORIES.has(ev.category)) fail(`${file}: unknown category "${ev.category}"`);
@@ -108,7 +135,27 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   });
   const f = src.match(/founding: \{[\s\S]*?year: (-?\d+),/);
   if (!f) fail("france.ts: founding year not found — file shape changed, update this parser");
-  founding.FRA = Number(f[1]);
+  // The statehood block, parsed from the same file with the same discipline:
+  // if it is absent the fallback is founding.year, but if it is *present and
+  // unparseable* that is a rotted parser, not a missing claim — say so loudly.
+  const stIdx = src.indexOf("\n  statehood: {");
+  if (stIdx === -1) {
+    statehood.FRA = { f: Number(f[1]) };
+  } else {
+    const block = src.slice(stIdx, src.indexOf("\n  },", stIdx));
+    const fy = block.match(/formation: \{[\s\S]*?year: (-?\d+),/);
+    if (!fy) fail("france.ts: statehood present but formation.year not found — update this parser");
+    const out = { f: Number(fy[1]) };
+    const spans = [...block.matchAll(/start: (-?\d+),\s*\n\s*end: (-?\d+),/g)].map((m) => [
+      Number(m[1]),
+      Number(m[2]),
+    ]);
+    if (/interruptions: \[/.test(block) && spans.length === 0) {
+      fail("france.ts: statehood.interruptions present but no start/end pairs parsed — update this parser");
+    }
+    if (spans.length) out.i = spans;
+    statehood.FRA = out;
+  }
   // The chronicle masthead states 19 sourced events; if france.ts grows or the
   // regex rots, this trips rather than silently shipping a hollow France.
   if (fraCount < 15 || fraCount > 40) fail(`france.ts: parsed ${fraCount} events — outside sanity range, parser likely broken`);
@@ -162,10 +209,12 @@ const out = {
   }),
   // events[i] belongs to periods[i]: [code, year, category, title, eraId]
   events: periodOrder.map((p) => p.events.map((e) => [e.code, e.year, e.cat, e.title, e.eraId])),
-  // The corpus's own "became a country" year per nation — what lets the globe
-  // shade the world by which states existed yet. Authored and sourced in each
-  // history's `founding`; nations without a history make no claim and get none.
-  founding,
+  // The corpus's own sourced statehood claim per nation — what lets the globe
+  // shade the world by which states existed yet, and which of them were under
+  // foreign rule at the time. Authored in each history's `statehood` block
+  // (falling back to `founding`); nations without a history make no claim and
+  // get none, which is why the rail carries a caption rather than a legend.
+  statehood,
 };
 
 mkdirSync(join(root, "public/data"), { recursive: true });

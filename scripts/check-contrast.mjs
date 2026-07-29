@@ -160,6 +160,73 @@ for (const [name, hex] of Object.entries(CATEGORY)) {
   PAIRS.push([CATEGORY_CHALK[name], C.depth6, "body", `category ${name} — CHALK, small text on the deep`]);
 }
 
+// ── The Time Globe's existence shading ──────────────────────────────────────
+// Four fills, all limestone or copper washed over the ocean at different
+// alphas, encoding four states of statehood: not yet formed (ghost), formed or
+// restored in the active period (copper), present but under foreign rule
+// (dimmed limestone), sovereign (limestone, as ever). These are decorative
+// under WCAG — the rail's caption carries the meaning in words and every
+// nation is one click from its sourced account — but they are worthless if a
+// reader cannot tell them apart, so each adjacent pair is asserted here rather
+// than eyeballed against a spinning sphere. Ground: the open-water base the
+// land is composited onto (globe-render.ts OCEAN_MID).
+const OCEAN = "#082230";
+/** Composite an rgba fill over an opaque background — what the canvas does. */
+function over(rgb, alpha, bgHex) {
+  const b = bgHex.replace("#", "");
+  const bg = [0, 2, 4].map((i) => parseInt(b.slice(i, i + 2), 16));
+  const hex = rgb
+    .map((c, i) => Math.round(c * alpha + bg[i] * (1 - alpha)).toString(16).padStart(2, "0"))
+    .join("");
+  return `#${hex}`;
+}
+const LIMESTONE = [235, 233, 224];
+const COPPER_WASH = [200, 114, 68];
+const SHADE = {
+  ghost: over(LIMESTONE, 0.15, OCEAN), // not yet a state
+  dimmed: over(LIMESTONE, 0.42, OCEAN), // present, not sovereign
+  land: over(LIMESTONE, 0.95, OCEAN), // sovereign
+  copper: over(COPPER_WASH, 0.88, OCEAN), // formed / restored this period
+};
+PAIRS.push(
+  [SHADE.ghost, OCEAN, "decor", "time globe — unborn nation against open water"],
+  [SHADE.copper, OCEAN, "decor", "time globe — formed/restored against open water"],
+  [SHADE.dimmed, SHADE.ghost, "decor", "time globe — under foreign rule vs not yet formed"],
+  [SHADE.land, SHADE.dimmed, "decor", "time globe — sovereign vs under foreign rule"],
+);
+
+// The three achromatic fills above form a lightness ladder and are asserted as
+// one. Copper is not on that ladder: at 0.88 over the ocean it lands at L*51,
+// two points off the dimmed fill's L*49, so a luminance ratio between them is
+// 1.11 — a number that says "these are the same brightness", which is true, and
+// says nothing about whether a reader can tell them apart, which is the actual
+// question. They are separated on the chroma axes instead (a*26 b*34 against
+// a*-5 b*-4), and that separation survives both common dichromacies: copper
+// holds a strong b* against dimmed for deuteranopes and protanopes, and a
+// strong a* for tritanopes. So the copper pairs are asserted with CIE76 ΔE
+// rather than exempted from measurement — the instrument changes, the
+// discipline does not.
+const DE_MIN = 25; // ~"unmistakably a different colour" at these sizes
+const CHROMA_PAIRS = [
+  [SHADE.copper, SHADE.dimmed, "time globe — restored this period vs still under foreign rule"],
+  [SHADE.copper, SHADE.ghost, "time globe — formed this period vs not yet formed"],
+  [SHADE.copper, SHADE.land, "time globe — formed this period vs long sovereign"],
+];
+
+function labOf(hex) {
+  const h = hex.replace("#", "");
+  const [r, g, b] = [0, 2, 4].map((i) => srgbToLin(parseInt(h.slice(i, i + 2), 16)));
+  const X = (0.4124 * r + 0.3576 * g + 0.1805 * b) / 0.95047;
+  const Y = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  const Z = (0.0193 * r + 0.1192 * g + 0.9505 * b) / 1.08883;
+  const f = (t) => (t > 0.008856 ? Math.cbrt(t) : 7.787 * t + 16 / 116);
+  return [116 * f(Y) - 16, 500 * (f(X) - f(Y)), 200 * (f(Y) - f(Z))];
+}
+function deltaE(a, b) {
+  const [A, B] = [labOf(a), labOf(b)];
+  return Math.hypot(A[0] - B[0], A[1] - B[1], A[2] - B[2]);
+}
+
 let failed = 0;
 console.log("STRATUM — contrast check\n");
 console.log("  ratio  need  role   pair");
@@ -173,9 +240,20 @@ for (const [fg, bg, role, desc] of PAIRS) {
   );
 }
 
+console.log(`\n  ΔE76  need  pair (separated by chroma, not by lightness)`);
+for (const [a, b, desc] of CHROMA_PAIRS) {
+  const d = deltaE(a, b);
+  const ok = d >= DE_MIN;
+  if (!ok) failed++;
+  console.log(`  ${ok ? "✓" : "✗"} ${d.toFixed(1).padStart(5)}  ${DE_MIN}    ${a} vs ${b} — ${desc}`);
+}
+
 console.log();
 if (failed) {
   console.error(`✗ ${failed} pair(s) below threshold — fix the palette, not the threshold.`);
   process.exit(1);
 }
-console.log(`✓ all ${PAIRS.length} declared pairs meet WCAG AA for their role.`);
+console.log(
+  `✓ all ${PAIRS.length} declared pairs meet WCAG AA for their role, ` +
+    `and all ${CHROMA_PAIRS.length} chroma pairs clear ΔE ${DE_MIN}.`,
+);
