@@ -6,7 +6,7 @@ import { CHORO_NODATA, choroColor, choroGradient, percentileRanks } from "@/lib/
 
 // The spatial half of the metric window: a flat, dependency-free SVG choropleth
 // of the world coloured by the open metric (same ramp + percentile scale as the
-// home globe). The home nation glows brass, compared nations are outlined in
+// home globe). The home nation glows copper, compared nations are outlined in
 // their chart colours, and clicking any nation toggles it in the comparison — so
 // the map, the chart and the legend all move together.
 

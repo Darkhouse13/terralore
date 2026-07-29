@@ -64,9 +64,10 @@ un-citable: a reader could no longer tell which numbers carry provenance. The vi
 gap is the honest output, and for contested and non-UN states (which is where most of
 the gaps are) it is also the neutral one.
 
-This is why Phase E populates Taiwan and North Korea from *named* alternative
-publishers rather than from estimates, and why the remaining six Overview-only codes
-get a designed empty state instead of filled-in numbers.
+This is why Phase E populates Taiwan from a *named* alternative publisher rather than
+from estimates, why North Korea's economy domain was left empty rather than filled
+from a figure that could not be re-derived (see D8), and why the remaining six
+Overview-only codes get a designed empty state instead of filled-in numbers.
 
 ---
 

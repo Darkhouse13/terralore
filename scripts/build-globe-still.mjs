@@ -182,7 +182,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${SIZE} ${SIZE
 <path d="${grat}" fill="none" stroke="rgba(39,111,128,0.20)" stroke-width="1"/>
 <path d="${gratPrime}" fill="none" stroke="rgba(39,111,128,0.42)" stroke-width="1.2"/>
 ${shelf}
-<use href="#coast" fill="rgba(239,234,224,0.95)" stroke="rgba(22,32,30,0.5)" stroke-width="1.1" fill-rule="evenodd"/>
+<use href="#coast" fill="rgba(235,233,224,0.95)" stroke="rgba(22,32,30,0.5)" stroke-width="1.1" fill-rule="evenodd"/>
 <circle cx="${CX}" cy="${CY}" r="${R}" fill="url(#sheen)"/>
 </g>
 <circle cx="${CX}" cy="${CY}" r="${R}" fill="none" stroke="rgba(39,111,128,0.45)" stroke-width="1.4"/>

@@ -55,7 +55,7 @@ export default function HomeArchive() {
 
   return (
     <section id="archive" className="paper-grain scroll-mt-0 bg-land-0 text-ink">
-      {/* brass hairline — the seam between planetarium and reading room */}
+      {/* copper hairline — the seam between the deep and the shore */}
       <div className="h-px w-full bg-gradient-to-r from-transparent via-copper/50 to-transparent" />
 
       <div className="relative z-[1] mx-auto max-w-[72rem] px-5 py-16 md:px-8 md:py-24">

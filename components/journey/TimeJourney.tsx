@@ -125,7 +125,7 @@ export default function TimeJourney({
           "radial-gradient(125% 100% at 50% -10%, #0c2e3d 0%, #04161f 42%, #04161f 100%)",
       }}
     >
-      {/* atmosphere: brass glow + faint starfield */}
+      {/* atmosphere: a copper bloom seating the stage in light, not on black */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0"

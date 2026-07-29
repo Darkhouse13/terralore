@@ -1,7 +1,7 @@
 import type { DataSource, Metric } from "@/lib/types";
 import MetricCard from "./MetricCard";
 
-// The Meridian metric grid — used for both a domain tab and the Overview
+// The metric grid — used for both a domain tab and the Overview
 // highlights. Cards flow at a fixed minimum width so the grid stays dense and
 // instrument-like across breakpoints. Clicking a chartable card asks the Dossier
 // to open the shared metric window (onOpenMetric).

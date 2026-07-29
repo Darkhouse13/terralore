@@ -157,7 +157,7 @@ export default function AtlasHome({
           // Sphere = 89.6% of the SVG viewBox (atmosphere padding), so a 71×
           // box puts the drawn sphere at ~64% of the short side — the same
           // R_FRACTION the canvas uses, keeping the handover pixel-stable.
-          className="h-[min(71dvh,96vw)] w-[min(71dvh,96vw)] translate-y-[6dvh] select-none sm:translate-y-0"
+          className="h-[min(71dvh,96vw)] w-[min(71dvh,96vw)] translate-y-[11dvh] select-none sm:translate-y-0"
           fetchPriority="high"
           decoding="sync"
           draggable={false}
@@ -211,9 +211,13 @@ export default function AtlasHome({
         Index <span className="text-copper-bright">{publishedCount}</span>
       </Link>
 
-      {/* Hero */}
+      {/* Hero.
+          The right inset matters: with only `left-6` set, `max-w-[430px]` is
+          wider than a 390px viewport minus its left offset, so the hero ran off
+          the screen edge and was clipped by the section's overflow. Constrained
+          on both sides and then capped, it is correct from 360px up. */}
       <div
-        className="reveal absolute left-6 top-[19%] z-10 max-w-[430px] md:left-11"
+        className="reveal absolute left-6 right-6 top-[12%] z-10 max-w-[430px] md:right-auto md:left-11 md:top-[19%]"
         style={reveal(0.55)}
       >
         <h1 className="font-display text-[clamp(27px,5.4vw,68px)] font-[330] leading-none tracking-[-0.02em] text-chalk-hi">

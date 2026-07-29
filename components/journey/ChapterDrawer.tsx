@@ -9,7 +9,7 @@ function initials(name: string) {
   return picked.map((p) => p[0]?.toUpperCase()).join("").slice(0, 2);
 }
 
-// The Meridian "archive page" — a warm parchment sheet that slides in from the
+// The "archive page" — a limestone sheet that slides in from the
 // left over the darkened stage, carrying the full sourced prose on demand.
 export default function ChapterDrawer({
   era,

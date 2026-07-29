@@ -19,7 +19,7 @@
 export const OCEAN_DEEP = "#04161f"; // abyssal — the limb
 export const OCEAN_MID = "#082230"; // open water
 export const OCEAN_HIGH = "#0e3243"; // lit shoulder
-export const LAND = "rgba(239, 234, 224, 0.95)"; // limestone
+export const LAND = "rgba(235, 233, 224, 0.95)"; // limestone
 export const SHELF = "39, 111, 128"; // depth-1, as rgb parts for the halo bands
 export const STROKE = "rgba(22, 32, 30, 0.5)"; // iron-gall coastline
 export const STROKE_LIT = "rgba(227, 154, 103, 0.75)";
@@ -33,7 +33,12 @@ export const DEG = Math.PI / 180;
 
 /** Sphere radius / centre — shared with the SVG still's proportions. */
 export const radiusFor = (w: number, h: number) => Math.min(0.318 * h, 0.43 * w);
-export const centerYFor = (w: number, h: number) => h * (w < 640 ? 0.56 : 0.5);
+// Narrow viewports seat the globe lower: the hero's thesis sits above it, and
+// at 360px that paragraph runs to four lines and used to overlap the sphere,
+// which made both unreadable. 0.61 clears it.
+// NOTE: the SVG still's `translate-y` on mobile must match this offset
+// (0.61 - 0.5 = 0.11 → translate-y-[11dvh]) or the handover visibly jumps.
+export const centerYFor = (w: number, h: number) => h * (w < 640 ? 0.61 : 0.5);
 
 /**
  * Per-feature render/hit cache. `rings` keeps raw lon/lat for hit-testing on
@@ -66,7 +71,7 @@ export interface RenderState {
   view: ViewState;
   hoverCode: string | null;
   selectedCode: string | null;
-  /** Pre-resolved fill per code when a choropleth layer is on; null = parchment. */
+  /** Pre-resolved fill per code when a choropleth layer is on; null = limestone. */
   fills: Record<string, string> | null;
   /** Selection centroid + ring epoch (ms timestamp) for the pulse animation. */
   ringCenter: [number, number] | null;
@@ -259,7 +264,7 @@ export function renderGlobe(
   // grid over the sheet — see the note at drawGraticule
   drawGraticule();
 
-  // brass rings pulsing out of a selection
+  // copper rings pulsing out of a selection — the surveyor marking a spot
   if (selectedCode && ringCenter) {
     const [rlat, rlon] = ringCenter;
     const period = 1400;

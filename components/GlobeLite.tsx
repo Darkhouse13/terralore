@@ -451,7 +451,7 @@ export default function GlobeLite({
       className="absolute inset-0"
       style={{ opacity: shapes.length ? 1 : 0, transition: "opacity 0.9s ease" }}
     >
-      {/* brass glow bloom — seats the globe in light, not on black */}
+      {/* copper bloom — seats the globe in light, not on black */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0"

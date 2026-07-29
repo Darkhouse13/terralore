@@ -1,5 +1,5 @@
 // Bespoke SVG sparkline — no chart library, matching the hand-drawn aesthetic of
-// the timeline rail. Meridian spec: a clean trailing polyline in brass with a
+// the timeline rail: a clean trailing polyline in copper with a
 // bright end-dot; no area fill, so it reads as a precision instrument trace.
 export default function Sparkline({
   series,
