@@ -365,14 +365,67 @@ Two blocks changed beyond their citations:
 
 The `yearLabel`-names-its-own-`year` check is an **error** from this batch on.
 
-## Source-tier debt, as first measured
+## Batch 3 — source-tier uplift
 
-| | Formations |
-|---|---:|
-| resting on Wikipedia alone | **84** |
-| resting on a single publisher | **152** |
-| dated before 1800 with fewer than two publishers | **58** |
+| | Before | After |
+|---|---:|---:|
+| formations resting on Wikipedia alone | **84** | **6** |
+| formations dated before 1800 with fewer than two publishers | **58** | **6** |
+| formations below at least one floor | **85** | **7** |
 
 (84 rather than the plan's 83: France is the 84th, and it was invisible to the
 count that produced that figure for the same reason it was invisible to the
 validator.)
+
+**Half the debt was already paid for, in the files themselves.** The statehood
+pass cited whatever source was nearest to hand when it wrote each block, and
+the files turned out to be far better stocked than their formation claims were:
+**34** of the 85 were closed by pointing the claim at a source the nation
+already carried. Those are not filler. The Bulgarian foreign ministry on 681,
+the National Museum of Denmark on Harald's stone at Jelling, the Swiss federal
+government on the Rütli oath, the Amiri Diwan on the 1868 Anglo-Qatari
+agreement, the Princely House of Liechtenstein on 1719, Store norske leksikon
+on Hafrsfjord, the US National Archives on the engrossed Declaration, the Holy
+See's mission to the UN on the Lateran Treaty, Þingvellir National Park on the
+first Alþingi. The corpus had them and its own headline claims were not using
+them.
+
+**44 more were closed by fetching a second publisher** — chiefly New World
+Encyclopedia and World History Encyclopedia, both of which answer a paced fetch
+where Britannica, the Library of Congress, BlackPast and the Met do not.
+
+Two facts about the floors, learned by running into them:
+
+- **The two-source floor is about the claim, not the year.** The first sweep
+  demanded that both publishers state the same year and stalled on 13 nations.
+  That is the precision ledger's job, and it is already done; the floor exists
+  so a deep anchor does not rest on one page. Re-run on the polity instead of
+  the date, it closed six more.
+- **Two articles from the same publisher are one publisher.** Turkey briefly
+  cited two World History Encyclopedia pages and still failed, correctly.
+
+### REMAINS
+
+Seven formations, out of 85 that started below a floor. Each row is in
+`scripts/validate-histories.mjs` beside the check it exempts, so the exception
+cannot drift away from the rule; a row leaves the moment anyone finds a second
+publisher.
+
+| Code | Anchor | Why it could not be raised |
+|---|---|---|
+| BFA | 1050, Oubri's Ouagadougou dynasty | oral tradition dates it anywhere from the 11th to the 15th century (D12); NWE's *Mossi* and *Burkina Faso* and WHE's *Mossi Kingdoms* describe the kingdoms without naming Oubri or a date |
+| BDI | 1680, Ntare I | NWE's *Burundi* and the LOC Country Study cover the monarchy without the founding date; the searchable alternatives are Wikipedia mirrors |
+| GRL | 2009, the Self-Government Act | a Danish statute; NWE's *Greenland* stops at Home Rule in 1979, and the Naalakkersuisut and Statsministeriet pages did not answer a fetch |
+| MDG | 1540, Andriamanelo | NWE's *Madagascar* begins the Merina ascendancy in the 1790s — it corroborates the polity but not the anchor |
+| RWA | 1650, the Nyiginya | neither NWE's *Rwanda* nor the LOC Country Study names the dynasty |
+| UZB | 1501, the Khanate of Bukhara | NWE's *Uzbekistan* and *Bukhara* and WHE's *Bukhara* cover the city, not the Shaybanid khanate |
+| VNM | 257 BCE, Âu Lạc | absent under that name from NWE's *Vietnam*, WHE's *Ancient Vietnam* and the LOC Country Study |
+
+The shape they share is worth naming: a precursor polity that mainstream
+reference works discuss without dating it the way this corpus does. In every
+one of the seven a second publisher could have been *added* — and would have
+corroborated the polity while saying nothing about the anchor. That is worse
+than an honest gap, because it looks like corroboration.
+
+Both floors are **errors** from this batch on, with REMAINS as the only
+exemption.

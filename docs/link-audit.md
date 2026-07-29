@@ -24,29 +24,30 @@ them, not a reason to drop them.
 **`gone` is the actionable class.** A 404 means the publisher moved or withdrew
 the page and the citation now points at nothing.
 
-_Last probe: 2026-07-29 · 3674 unique URLs across 542 hosts · 3833 citations in 184 histories._
+_Last probe: 2026-07-29 · 3724 unique URLs across 542 hosts · 3885 citations in 184 histories._
 
 ## Counts
 
 | Class | URLs | Share |
 |---|---:|---:|
-| `ok` | 3321 | 90.4% |
-| `redirect` | 103 | 2.8% |
-| `blocked` | 179 | 4.9% |
+| `ok` | 3370 | 90.5% |
+| `redirect` | 104 | 2.8% |
+| `blocked` | 179 | 4.8% |
 | `gone` | 43 | 1.2% |
 | `error` | 28 | 0.8% |
-| **total** | **3674** | |
+| **total** | **3724** | |
 
 ## By host
 
 | Host | URLs | ok | redirect | blocked | gone | error |
 |---|---:|---:|---:|---:|---:|---:|
 | www.britannica.com | 1361 | 1330 | 7 | 5 | 19 | 0 |
-| en.wikipedia.org | 679 | 679 | 0 | 0 | 0 | 0 |
+| en.wikipedia.org | 687 | 687 | 0 | 0 | 0 | 0 |
 | whc.unesco.org | 205 | 202 | 0 | 1 | 2 | 0 |
 | history.state.gov | 164 | 164 | 0 | 0 | 0 | 0 |
-| www.worldhistory.org | 61 | 60 | 0 | 1 | 0 | 0 |
+| www.worldhistory.org | 69 | 67 | 1 | 1 | 0 | 0 |
 | www.ebsco.com | 59 | 58 | 0 | 0 | 1 | 0 |
+| www.newworldencyclopedia.org | 45 | 45 | 0 | 0 | 0 | 0 |
 | www.blackpast.org | 45 | 0 | 0 | 45 | 0 | 0 |
 | www.loc.gov | 33 | 0 | 0 | 33 | 0 | 0 |
 | www.sahistory.org.za | 22 | 0 | 22 | 0 | 0 | 0 |
@@ -59,7 +60,6 @@ _Last probe: 2026-07-29 · 3674 unique URLs across 542 hosts · 3833 citations i
 | www.metmuseum.org | 12 | 0 | 0 | 12 | 0 | 0 |
 | www.globalsecurity.org | 12 | 12 | 0 | 0 | 0 | 0 |
 | www.nato.int | 11 | 5 | 6 | 0 | 0 | 0 |
-| www.newworldencyclopedia.org | 11 | 11 | 0 | 0 | 0 | 0 |
 | teara.govt.nz | 11 | 0 | 0 | 11 | 0 | 0 |
 | european-union.europa.eu | 10 | 10 | 0 | 0 | 0 | 0 |
 | courses.lumenlearning.com | 9 | 9 | 0 | 0 | 0 | 0 |
@@ -225,7 +225,7 @@ None of them supports a statehood claim, so all are published here for a future 
 
 ## Moved pages (`redirect`)
 
-103 URL(s) now land somewhere else. A redirect is not yet a defect — it is
+104 URL(s) now land somewhere else. A redirect is not yet a defect — it is
 the publisher telling us where the page went before it stops telling us.
 
 | Cited URL | Lands on | Statehood? |
@@ -253,7 +253,7 @@ the publisher telling us where the page went before it stops telling us.
 | https://saudipedia.com/en/article/651/history/the-first-saudi-state/first-saudi-state | https://saudipedia.com/en/first-saudi-state | — |
 | https://saudipedia.com/en/article/653/history/the-second-saudi-state/second-saudi-state | https://saudipedia.com/en/second-saudi-state | — |
 | https://saudipedia.com/en/article/738/history/landmarks-and-monuments/hegra-madain-salih | https://saudipedia.com/en/hegra | — |
-| https://snl.no/Harald_1_H%C3%A5rfagre | https://snl.no/Harald_H%C3%A5rfagre | — |
+| https://snl.no/Harald_1_H%C3%A5rfagre | https://snl.no/Harald_H%C3%A5rfagre | **yes** |
 | https://totalenergies.com/news/press-releases/suriname-totalenergies-announces-final-investment-decision-granmorgu | https://www2.totalenergies.com/news/press-releases/suriname-totalenergies-announces-final-investment-decision-granmorgu | — |
 | https://unmik.unmissions.org/united-nations-resolution-1244 | https://unmik.unmissions.org/en/united-nations-resolution-1244 | — |
 | https://www.afdb.org/ | https://www.afdb.org/en | — |
@@ -333,6 +333,7 @@ the publisher telling us where the page went before it stops telling us.
 | https://www.worldbank.org/en/country/lao/overview | https://www.worldbank.org/ext/en/country/lao | — |
 | https://www.worldbank.org/en/country/mauritius/overview | https://www.worldbank.org/ext/en/country/mauritius | — |
 | https://www.worldbank.org/en/country/pacificislands/overview | https://www.worldbank.org/ext/en/region/eap/pacific-islands | — |
+| https://www.worldhistory.org/Athelstan/ | https://www.worldhistory.org/Aethelstan/ | **yes** |
 
 ## Network failures (`error`)
 

@@ -40,13 +40,41 @@ const info = (f, m) => { infos.push(`  · [${f}] ${m}`); };
 // warning forever would be decoration. The flip is one constant, and the
 // batch that flips it is named beside it.
 const TWO_SOURCE_FLOOR_YEAR = 1800;
-const TWO_SOURCE_FLOOR_IS_ERROR = false; // → true with the source-tier uplift (batch 3)
+const TWO_SOURCE_FLOOR_IS_ERROR = true; // paid: the source-tier uplift
 const YEAR_LABEL_IS_ERROR = true; // paid: the precision sweep
-const WIKIPEDIA_ONLY_IS_ERROR = false; // → true at the mission's close (§9)
+const WIKIPEDIA_ONLY_IS_ERROR = true; // paid: the source-tier uplift
 const NON_SOVEREIGN_REQUIRED = false; // → true when the four territories are flagged (batch 5)
 
 /** A floor that is a warning today and an error once its debt is paid. */
 const gated = (isError) => (f, m) => (isError ? err(f, m) : warn(f, m));
+
+/**
+ * REMAINS — formations the source-tier floors could not be raised on, each
+ * with what was tried. This is the SKIPPED discipline of the statehood pass
+ * applied to sourcing: a floor with a silent exception is not a floor, and a
+ * floor nobody can meet is a floor set wrong. Seven rows, against 85
+ * formations that started below a floor.
+ *
+ * The common shape: a named precursor polity that mainstream reference works
+ * discuss without dating the way this corpus does. New World Encyclopedia has
+ * Madagascar's Merina but starts them in the 1790s, not with Andriamanelo;
+ * Country Studies has Burundi without the phrase "Kingdom of Burundi". A
+ * second publisher that does not actually support the claim is worse than an
+ * honest gap, because it *looks* like corroboration.
+ *
+ * A row leaves this table the moment someone finds a second publisher. Do not
+ * add a row to silence a warning — add it only after a real search, and write
+ * down what the search covered.
+ */
+const REMAINS = {
+  BFA: "Mossi oral tradition dates the Ouagadougou dynasty anywhere from the 11th to the 15th century (D12); NWE's Mossi and Burkina Faso entries and World History Encyclopedia's Mossi Kingdoms describe the kingdoms without naming Oubri or a date",
+  BDI: "Ntare I's foundation c. 1680 is carried by Wikipedia; NWE's Burundi entry and the LOC Country Study cover the monarchy without the founding date, and the searchable alternatives are wiki mirrors",
+  GRL: "the 2009 Self-Government Act is a Danish statute; NWE's Greenland entry stops at Home Rule in 1979 and the Naalakkersuisut and Statsministeriet pages did not answer a fetch",
+  MDG: "NWE's Madagascar entry begins the Merina ascendancy in the 1790s rather than with Andriamanelo, so it corroborates the polity but not the anchor",
+  RWA: "neither NWE's Rwanda entry nor the LOC Country Study names the Nyiginya dynasty",
+  UZB: "NWE's Uzbekistan and Bukhara entries and WHE's Bukhara cover the city, not the 1501 Shaybanid khanate",
+  VNM: "Âu Lạc is absent from NWE's Vietnam entry, WHE's Ancient Vietnam and the LOC Country Study under that name",
+};
 
 /**
  * Entities that are NOT sovereign states — dependencies and autonomous
@@ -135,17 +163,23 @@ function checkStatehood(file, h, checkRefs) {
     // ── the two editorial floors ──
     const cited = (f.sources ?? []).map((id) => byId.get(id)).filter(Boolean);
     const publishers = new Set(cited.map((s) => normPublisher(s.publisher)).filter(Boolean));
+    const remains = REMAINS[h.code];
     if (typeof f.year === "number" && f.year < TWO_SOURCE_FLOOR_YEAR && publishers.size < 2) {
-      gated(TWO_SOURCE_FLOOR_IS_ERROR)(
+      gated(TWO_SOURCE_FLOOR_IS_ERROR && !remains)(
         file,
         `statehood.formation is dated ${f.year} (before ${TWO_SOURCE_FLOOR_YEAR}) but cites ${publishers.size} publisher(s) — ` +
-          "deep anchors need two independent publishers",
+          (remains ? `REMAINS: ${remains}` : "deep anchors need two independent publishers"),
       );
     }
     if (cited.length && cited.every(isWikipedia)) {
-      const msg = "statehood.formation rests on Wikipedia alone — add a second publisher (gov, encyclopedia, museum, academic)";
-      if (WIKIPEDIA_ONLY_IS_ERROR) err(file, msg);
-      else warn(file, msg);
+      gated(WIKIPEDIA_ONLY_IS_ERROR && !remains)(
+        file,
+        "statehood.formation rests on Wikipedia alone — " +
+          (remains ? `REMAINS: ${remains}` : "add a second publisher (gov, encyclopedia, museum, academic)"),
+      );
+    }
+    if (remains && publishers.size >= 2 && !cited.every(isWikipedia)) {
+      warn(file, `${h.code} is listed in REMAINS but now meets both source-tier floors — delete its row`);
     }
   }
 

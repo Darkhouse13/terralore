@@ -20,7 +20,7 @@ export const france: CountryHistory = {
       label: "The Treaty of Verdun gives Charles the Bald West Francia",
       detail:
         "West Francia eventually became the Kingdom of France, and the corpus's founding claim and its statehood anchor are the same event. The German occupation of 1940–44 was a wartime occupation with sovereignty restored at the war's end and is not recorded as an interruption.",
-      sources: ["wikipedia-verdun"],
+      sources: ["wikipedia-verdun", "nwe-france"],
     },
   },
   quickFacts: [
@@ -370,6 +370,7 @@ export const france: CountryHistory = {
     { id: "eb-fifth-republic", label: "France — The Fifth Republic", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/place/France/The-Fifth-Republic", kind: "encyclopedia" },
     { id: "eb-de-gaulle", label: "Charles de Gaulle", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Charles-de-Gaulle", kind: "encyclopedia" },
     { id: "wikipedia-verdun", label: "Treaty of Verdun", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Treaty_of_Verdun", kind: "reference" },
+    { id: "nwe-france", label: "France", publisher: "New World Encyclopedia", url: "https://www.newworldencyclopedia.org/entry/France", kind: "encyclopedia" },
   ],
   status: "published",
   updated: "2026-06-13",
