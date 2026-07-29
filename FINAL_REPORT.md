@@ -128,11 +128,15 @@ names them.
 
 | Surface | Perf | A11y | Best practices | SEO | LCP | CLS |
 |---|---|---|---|---|---|---|
-| Landing | 91 | 100 | 100 | 100 | 3.44s | 0 |
-| Dossier | 82 | 100 | 100 | 100 | 2.86s | 0 |
-| Chronicle | 89 | 98 | 100 | 100 | 2.86s | 0 |
+| Landing | 91 | **100** | **100** | **100** | 3.46s | 0 |
+| Dossier | 79–82 | **100** | **100** | **100** | 2.87s | 0 |
+| Chronicle | 88 | **100** | **100** | **100** | 2.86s | 0 |
 
-Accessibility, best-practices and SEO clear the floor everywhere. Performance does
+Accessibility, best-practices and SEO are **100 across all three surfaces**. The last
+two accessibility points came from a pre-existing heading-order bug: `FigureItem`
+hardcoded an `<h4>`, which is correct inside an era (below an `<h3>`) but skipped a
+level in the standalone Pivotal Figures gallery (below an `<h2>`) — a screen-reader
+user navigating by heading level lost a rung. The level is now a prop. Performance does
 not, and the entire deficit is TBT. The build box is shared, carrying a persistent
 ~67%-CPU tenant and several other agents; ambient load ran between 2 and 23 during
 this work. The evidence that this is contention rather than a code regression:
@@ -140,7 +144,8 @@ this work. The evidence that this is contention rather than a code regression:
 **36 → 62 → 299 → 609 ms on the same commit**; and LCP and CLS did not move at all
 across those runs, because Lantern simulates them over the dependency graph. A quiet
 run mid-way through Phase B measured dossier 94 and chronicle 95, before any change
-that could plausibly have slowed them.
+that could plausibly have slowed them. Within a single sitting the dossier scored 82
+and 79 on the same commit.
 
 The two performance changes that *are* deterministic, verified by inspecting the built
 output: the critical-path font payload went from **5 files / 230 KB to 2 files / 79 KB**

@@ -571,23 +571,34 @@ function EventItem({
   );
 }
 
+/**
+ * `level` exists because this component is rendered under two different
+ * parents: inside an era (below an <h3> "Figures of the era", so <h4> is
+ * right) and inside the standalone Pivotal Figures gallery (directly below an
+ * <h2>, where <h4> skipped a level). Hardcoding <h4> made the second case fail
+ * the heading-order check, which is the whole of the chronicle's accessibility
+ * deduction — a screen-reader user navigating by heading level lost a rung.
+ */
 function FigureItem({
   figure,
   sourceIndex,
+  level = 4,
 }: {
   figure: Figure;
   sourceIndex: Map<string, number>;
+  level?: 3 | 4;
 }) {
+  const Heading = level === 3 ? "h3" : "h4";
   return (
     <div className="border-l border-[rgba(138, 74, 40,0.22)] pl-4 sm:pl-6">
-      <h4 className="font-display text-[1.12rem] font-[440] leading-snug text-[#16201e]">
+      <Heading className="font-display text-[1.12rem] font-[440] leading-snug text-[#16201e]">
         {figure.name}
         {figure.life && (
           <span className="ml-2 font-mono text-[0.7rem] font-normal text-ink-3">
             {figure.life}
           </span>
         )}
-      </h4>
+      </Heading>
       <p className="mt-0.5 font-mono text-[0.66rem] uppercase tracking-[0.14em] text-copper-deep">
         {figure.role}
       </p>
@@ -626,7 +637,7 @@ function FigureGallery({
       </h2>
       <div className="mt-6 space-y-6">
         {figures.map((f) => (
-          <FigureItem key={f.name} figure={f} sourceIndex={sourceIndex} />
+          <FigureItem key={f.name} figure={f} sourceIndex={sourceIndex} level={3} />
         ))}
       </div>
     </section>
