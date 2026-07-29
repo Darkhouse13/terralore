@@ -9,6 +9,23 @@
     "year": 1960,
     "detail": "The modern state became independent on 1 August 1960 as the Republic of Dahomey, when French colonial rule ended and Hubert Maga became its first president. The name 'Dahomey' was inherited from the precolonial Fon kingdom centred on Abomey; in 1975 the country was renamed the People's Republic of Benin, after the Bight of Benin, and in 1990 it became simply the Republic of Benin. That independence date sits atop a deep past: the Aja kingdoms of Allada and Porto-Novo took shape from the late sixteenth century, and the Fon Kingdom of Dahomey rose on the Abomey plateau from around the early seventeenth century, becoming a major power after King Agaja conquered Allada in 1724 and the slaving port of Ouidah in 1727. France conquered the kingdom in 1892–1894 and incorporated it into French West Africa."
   },
+  "statehood": {
+    "formation": {
+      "year": 1600,
+      "yearLabel": "c. 1600",
+      "label": "The Kingdom of Dahomey is founded on the Abomey plateau",
+      "detail": "An offshoot of the royal dynasty of Allada, seated within the present-day Republic of Benin; French Dahomey became independent in 1960 as the Republic of Dahomey and was renamed Benin in 1975. The kingdom still exists as a constituent monarchy without constitutional powers.",
+      "sources": ["wikipedia-kingdom-dahomey"]
+    },
+    "interruptions": [
+      {
+        "start": 1894,
+        "end": 1960,
+        "label": "French protectorate, then the colony of French Dahomey",
+        "sources": ["wikipedia-kingdom-dahomey", "statedept-benin"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Independence", "value": "From France on 1 August 1960, as the Republic of Dahomey" },
     { "label": "Renamed Benin", "value": "30 November 1975, under Mathieu Kérékou's Marxist-Leninist regime" },
@@ -203,7 +220,9 @@
     { "id": "wiki-kerekou", "label": "Mathieu Kérékou", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mathieu_K%C3%A9r%C3%A9kou", "kind": "reference" },
     { "id": "wiki-maga", "label": "Hubert Maga", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hubert_Maga", "kind": "reference" },
     { "id": "wiki-soglo", "label": "Nicéphore Soglo", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nic%C3%A9phore_Soglo", "kind": "reference" },
-    { "id": "wiki-constitution-benin", "label": "Constitution of Benin", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Constitution_of_Benin", "kind": "reference" }
+    { "id": "wiki-constitution-benin", "label": "Constitution of Benin", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Constitution_of_Benin", "kind": "reference" },
+    { "id": "wikipedia-kingdom-dahomey", "label": "Kingdom of Dahomey", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey", "kind": "reference" },
+    { "id": "statedept-benin", "label": "A Guide to the United States' History of Recognition: Benin", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/benin", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

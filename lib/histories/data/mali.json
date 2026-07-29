@@ -9,6 +9,23 @@
     "year": 1960,
     "detail": "After the short-lived Mali Federation with Senegal broke apart, the former French Soudan declared itself the independent Republic of Mali, with Modibo Keïta as its first president."
   },
+  "statehood": {
+    "formation": {
+      "year": 1235,
+      "yearLabel": "c. 1235",
+      "label": "Sundiata Keita founds the Mali Empire on the upper Niger",
+      "detail": "The modern republic takes its name from the empire. The empire itself collapsed around 1610 and statehood on this territory then passed through Songhai and the Bambara kingdom of Segou; the block records the anchor and the colonial interruption, not every dynastic break.",
+      "sources": ["wikipedia-mali-empire", "wikipedia-mali"]
+    },
+    "interruptions": [
+      {
+        "start": 1905,
+        "end": 1960,
+        "label": "French Sudan",
+        "sources": ["wikipedia-mali", "wikipedia-mali-empire"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Capital", "value": "Bamako (on the Niger River)" },
     { "label": "Independence", "value": "22 September 1960 (from France)" },
@@ -571,7 +588,9 @@
       "publisher": "International Crisis Group",
       "url": "https://www.crisisgroup.org/qna/africa/mali/mali-coup-within-coup",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-mali-empire", "label": "Mali Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mali_Empire", "kind": "reference" },
+    { "id": "wikipedia-mali", "label": "Mali", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mali", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

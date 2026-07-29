@@ -9,6 +9,15 @@
     "year": 1960,
     "detail": "The Belgian Congo became the independent Republic of the Congo on 30 June 1960, with Patrice Lumumba as prime minister and Joseph Kasa-Vubu as president. Within weeks the new state was plunged into the Congo Crisis."
   },
+  "statehood": {
+    "formation": {
+      "year": 1960,
+      "yearLabel": "30 June 1960",
+      "label": "Independence of the Congo from Belgian sovereignty",
+      "detail": "The kingdoms of Kongo and Kuba the chronicle records were real states on part of this territory, but the country itself is the shape Leopold II and then Belgium drew; reference works do not describe the modern state as their continuation.",
+      "sources": ["statedept-cod"]
+    }
+  },
   "quickFacts": [
     { "label": "Capital", "value": "Kinshasa (formerly Léopoldville)" },
     { "label": "Independence", "value": "30 June 1960 (from Belgium)" },
@@ -541,7 +550,8 @@
       "publisher": "CIA World Factbook",
       "url": "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/",
       "kind": "gov"
-    }
+    },
+    { "id": "statedept-cod", "label": "A Guide to the United States' History of Recognition: Democratic Republic of the Congo", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/congo-democratic-republic", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"
