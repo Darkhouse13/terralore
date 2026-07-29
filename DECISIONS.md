@@ -218,3 +218,92 @@ license failure intact.
 **Reopening:** if the operator ever negotiates terms with the CShapes authors or
 the site formalises non-commercial status, border geometry can layer *on top of*
 existence shading; the two compose.
+
+---
+
+## D10 — Incomplete sovereignty is not sovereignty lost
+
+**Chosen:** the `interruptions` field records only sovereignty that a state *had
+and lost*. A polity that was never fully sovereign in the first place carries no
+interruption; the limitation is described in `formation.detail` instead.
+
+**Rejected:** treating every arrangement short of full sovereignty as an
+interruption — which would have dimmed Canada, Australia, New Zealand and South
+Africa from their federations until the Statute of Westminster, and Bhutan from
+1910 to 2011.
+
+**Why:** the field's grammar is loss and restoration. A dominion whose foreign
+relations London held from the day it was created never lost anything; it had
+not yet acquired it. Drawing that as "present but not sovereign" would make the
+same mark mean two different things — Poland after 1795, which was erased, and
+Australia in 1901, which was being assembled. Bhutan is the same shape from the
+other direction: it was never colonised, and the Treaty of Punakha handed its
+external affairs to an outside power while internal statehood continued
+unbroken. The plan's §3.3 already excludes suzerainty that leaves internal
+statehood intact; this extends the same reasoning to sovereignty that was
+incomplete from the start.
+
+**Cost, stated:** the globe shows Australia as fully limestone from 1901 and
+Canada from 1867, which overstates their independence for two to six decades.
+The detail on each block says so in words. The alternative overstated something
+worse.
+
+---
+
+## D11 — An unrecognised annexation is judged by whether the state stopped
+
+**Chosen:** Kuwait's annexation by Iraq (1990–91) is **not** an interruption.
+Timor-Leste's by Indonesia (1975–2002) and the Baltic states' by the Soviet
+Union (1940–91) **are**.
+
+**Rejected:** a single rule keyed on international recognition, which would have
+excluded all three; or one keyed on de-facto control, which would have included
+all three.
+
+**Why:** recognition alone is the wrong test, because it would erase fifty-one
+years of Baltic history that most Western governments spent explicitly refusing
+to recognise — the United States kept treating the Baltic legations as the
+legitimate states throughout. De-facto control alone is also wrong, because it
+would record a seven-month occupation that the Security Council declared null
+and void and that ended with the same government restored.
+
+What separates them is whether the state stopped functioning for long enough to
+be a fact about the world rather than about a war. Kuwait's government continued
+in exile and returned within the same conflict; Timor-Leste's did not exist for
+twenty-four years and the territory had to be administered back into being by
+the United Nations, and the country itself calls 20 May 2002 the *restoration*
+of independence, as Estonia, Latvia and Lithuania call 1991.
+
+**The visualisation makes this concrete rather than arbitrary.** The rail's
+finest resolution is a decade. An interruption shorter than one cannot be drawn
+at all, so recording Kuwait's would change no pixel while making a claim the
+picture cannot support.
+
+---
+
+## D12 — Publish traditional founding dates with their status attached
+
+**Chosen:** where a nation's own founding tradition is not what historians
+accept, the `statehood` block carries the traditional date and says so in its
+`detail`. Japan is anchored at 660 BCE with the note that most modern scholars
+hold the founding of the imperial dynasty in that year to be a myth and Jimmu
+legendary; San Marino at 301 with the note that the earliest evidence for a
+community there is two centuries later; Burkina Faso at c. 1050 with the note
+that oral tradition places the founding story anywhere between the eleventh and
+fifteenth centuries; Norway at 872 with the note that historians dispute how
+much of the country Harald actually held.
+
+**Rejected:** silently substituting the scholarly date, and silently publishing
+the traditional one.
+
+**Why:** substituting would have contradicted `founding`, which is authored,
+sourced and displayed on the dossier hero — the same nation would have carried
+two different origin years with no explanation, which reads as a bug. Publishing
+the traditional date bare would have made the corpus assert something its own
+sources deny.
+
+The corpus's standing rule is *describe, never adjudicate*, and it already
+applies to contested sovereignty (Taiwan, Kosovo, Northern Cyprus, Somaliland).
+A contested date is the same problem in a smaller frame. The block is the right
+place for the caveat because it is where a reader meets the claim; a footnote
+elsewhere would be a caveat nobody reads.

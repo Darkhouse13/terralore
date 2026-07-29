@@ -16,21 +16,24 @@ const base = process.env.BASE ?? "http://localhost:3000";
 const dir = process.env.OUT ?? "design-review/12-statehood";
 mkdirSync(dir, { recursive: true });
 
-// [period label, longitude to face, file slug] — the globe auto-rotates, so a
-// shot is only evidence if it is pointed at the region under test.
+// [period label, drag in px, file slug] — the globe auto-rotates, so a shot is
+// only evidence if it is pointed at the region under test. Drag is in screen
+// pixels and roughly 1° of longitude each: positive turns the sphere westward
+// (toward the Americas), negative eastward (toward Asia). 0 leaves the opening
+// view, which is centred on Europe, Africa and the Middle East.
 const DEFAULT = [
-  ["The 12th century", 0, "12th-century-maghreb"],
-  ["The 1880s", 60, "1880s-india"],
-  ["The 1880s", 0, "1880s-africa"],
-  ["The 1900s", 20, "1900s-europe"],
-  ["The 1910s", 20, "1910s-poland"],
-  ["The 1950s", 0, "1950s-maghreb"],
-  ["The 1960s", 20, "1960s-africa"],
-  ["The 2020s", 20, "2020s-today"],
+  ["The 12th century", 55, "12th-century-morocco-limestone"],
+  ["The 1800s", 55, "1800s-poland-partitioned"],
+  ["The 1880s", 40, "1880s-africa-and-europe"],
+  ["The 1880s", -25, "1880s-india-dimmed"],
+  ["The 1910s", 55, "1910s-poland-restored"],
+  ["The 1950s", 55, "1950s-maghreb-restored"],
+  ["The 1960s", 45, "1960s-africa-ablaze"],
+  ["The 2020s", 0, "2020s-the-world-today"],
 ];
 
 const targets = process.argv.length > 2
-  ? process.argv.slice(2).map((label) => [label, 20, label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")])
+  ? process.argv.slice(2).map((label) => [label, 0, label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")])
   : DEFAULT;
 
 // CHROME_PATH lets this run where `npx playwright install` has no build for the
@@ -40,9 +43,6 @@ const browser = await chromium.launch(
 );
 const page = await browser.newPage({ viewport: { width: 1400, height: 900 }, deviceScaleFactor: 1.5 });
 page.on("pageerror", (e) => console.log("PAGEERR:", e.message));
-
-await page.goto(base, { waitUntil: "load", timeout: 60000 });
-await page.waitForTimeout(6000);
 
 const rail = page.getByRole("slider", { name: /Travel through the archive/i });
 // The readout renders uppercase in CSS, so compare on the DOM text, lowercased.
@@ -65,15 +65,25 @@ async function goTo(label) {
   return false;
 }
 
-/** Drag the globe so a given longitude faces the camera, then hold it still. */
-async function face(lon) {
+/** Drag the globe by `dx` screen pixels, then park the pointer off the sphere. */
+async function face(dx) {
+  // A zero drag is a *click* as far as the globe is concerned: it selects the
+  // nation under the pointer, flies to it, paints it in the selection copper
+  // and opens its card over the rail. That is how the first run of this script
+  // lost the rail three shots in. Leave the sphere alone when there is nothing
+  // to turn.
+  if (dx === 0) {
+    await page.mouse.move(4, 4);
+    await page.waitForTimeout(300);
+    return;
+  }
   const canvas = page.locator("canvas").first();
   const box = await canvas.boundingBox();
   if (!box) return;
   // A drag both turns the sphere and suspends auto-rotation while held.
   await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
   await page.mouse.down();
-  await page.mouse.move(box.x + box.width / 2 + lon * 3, box.y + box.height / 2, { steps: 12 });
+  await page.mouse.move(box.x + box.width / 2 + dx, box.y + box.height / 2, { steps: 12 });
   await page.mouse.up();
   // Park the pointer off the sphere: a hovered nation is painted in the hover
   // tint, which is limestone warmed toward copper — close enough to the
@@ -82,13 +92,20 @@ async function face(lon) {
   await page.waitForTimeout(300);
 }
 
-for (const [label, lon, slug] of targets) {
+for (const [label, dx, slug] of targets) {
+  // Reload for every shot. The sphere auto-rotates at 1.92 deg/s and a run of
+  // eight shots drifts most of the way round the world, so a sequence taken in
+  // one page load photographs a different hemisphere each time — the third shot
+  // of the first run was captioned Africa and showed south Asia. A fresh load
+  // always opens on the same meridian.
+  await page.goto(base, { waitUntil: "load", timeout: 60000 });
+  await page.waitForTimeout(5000);
   const ok = await goTo(label);
   if (!ok) {
     console.log(`  ✗ ${label} — period not reachable on the rail`);
     continue;
   }
-  await face(lon);
+  await face(dx);
   await page.waitForTimeout(900);
   await page.screenshot({ path: `${dir}/${slug}.png`, animations: "disabled" });
   console.log(`  ✓ ${slug}.png — ${label}`);

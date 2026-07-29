@@ -162,12 +162,16 @@ export default function TimeRail({
           );
         })}
       </div>
-      {/* The honesty line. The shading is a real claim (this state existed / did
-          not yet) drawn on modern geometry, and the one-sentence caveat is what
-          keeps it a sourced visualisation instead of a fake historical map. */}
+      {/* The honesty line. The shading is a real claim (this state existed, or
+          did not yet, or was under foreign rule) drawn on modern geometry, and
+          the one-sentence caveat is what keeps it a sourced visualisation
+          instead of a fake historical map. It names all three states now that
+          every published history carries a sourced `statehood` block; until it
+          did, the caption said "founding year", because captioning data that is
+          not there yet is its own kind of dishonesty. */}
       {engaged && (
         <p className="mt-1.5 font-mono text-[9px] uppercase tracking-[0.14em] text-chalk-4">
-          today&apos;s borders · shaded by each nation&apos;s sourced founding year
+          today&apos;s borders · shaded by sourced statehood — formation, foreign rule, restoration
         </p>
       )}
     </div>

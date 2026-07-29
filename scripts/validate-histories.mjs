@@ -60,8 +60,12 @@ for (const file of files) {
   // says how far back this nation's statehood runs and when it was formally
   // interrupted. The shading draws a real claim on the map, so the block is
   // held to the same citation rule as every event: no source, no claim.
+  // Coverage is complete (184/184 as of the statehood pass), so a missing block
+  // is now an error rather than a warning: a new history without one would ship
+  // a nation the Time Globe shades from `founding` alone, silently reopening
+  // the criterion inconsistency this whole pass existed to close.
   if (h.statehood == null) {
-    if (h.status === "published") warn(file, "no `statehood` block — the Time Globe falls back to founding.year");
+    if (h.status === "published") err(file, "no `statehood` block — see docs/statehood-plan.md");
   } else {
     const st = h.statehood;
     const f = st.formation;

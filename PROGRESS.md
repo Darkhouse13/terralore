@@ -471,3 +471,85 @@ historical map. Coverage beats what CShapes offered: the whole corpus span, not
 touch-usable; reduced motion renders settled dots, zero animation (Δ=0); validators,
 contrast (72/72), audit (1,054 clean) all green. CYN and SOL have no centroid and are
 skipped audibly in the build. The Chanel cut: the "Drag to spin" hint chip.
+
+---
+
+## Statehood — the world before independence
+
+The Time Globe's existence shading was faithful to the data and the data
+answered two different questions. `founding.year` means *the current sovereign
+state dates from*: Egypt's is 3100 BCE (state formation), France's is 843,
+Morocco's is 1956 and labelled "Restoration of independence" — a label that
+admits a state existed before the thing being restored. **151 of 184 published
+histories carried `founding.year ≥ 1800`, and for 149 of them the nation's own
+chronicle opened 300+ years earlier.** So the sphere showed Morocco, with twelve
+centuries of dynastic continuity, as *not yet existing* through the 19th century
+while Egypt glowed limestone from the Bronze Age.
+
+`founding` was not wrong. It was incomplete. Nothing in it was touched.
+
+**The new field.** `CountryHistory.statehood` carries two sourced claims: the
+`formation` of the earliest named polity the nation draws a broadly accepted
+line of identity from, and the `interruptions` — formalised losses of external
+sovereignty, each with a dateable start and a dateable restoration. The globe
+gains its missing fourth state: **dimmed limestone**, present but not sovereign.
+Restoration outranks interruption where both touch a period, which is what
+re-ignites Africa across the 1960s and Poland in the 1910s.
+
+**Coverage: 184/184**, no SKIPPED rows — the plan allowed five and none was
+needed. 68 sourced interruptions across 56 nations. Every claim was verified
+against a source that was actually fetched and read; ~300 pages across
+`history.state.gov` (230 country recognition guides), UNESCO, World History
+Encyclopedia, EBSCO and Wikipedia. **Britannica — this corpus's most-cited
+publisher — now sits behind a Cloudflare challenge and answers no fetch at
+all**, so every claim that had rested on it alone was re-verified elsewhere or
+not written.
+
+What the corpus now says, in four archived frames
+(`design-review/12-statehood/`):
+
+| Period | The claim |
+|---|---|
+| 12th century | Morocco limestone, Portugal copper in the decade it was founded, Bulgaria dark under Byzantium |
+| 1800s | Egypt copper — Muhammad Ali ends three centuries as an Ottoman province |
+| 1880s | India, Sri Lanka, Burma, Indochina and all of Africa dimmed; Thailand, Japan, Nepal, Iran and Ethiopia limestone among them |
+| 1910s | Poland, the Baltics, Finland, Ukraine and the Caucasus all copper at once |
+| 1960s | Africa ablaze, Angola and Mozambique still dimmed for another fifteen years |
+
+**Judgment calls, each recorded in the block's own `detail` so a reader meets
+the reasoning where they meet the claim.** India anchors on the Maurya empire
+because the republic settled the question itself in 1947 by taking Ashoka's lion
+capital as its state emblem. Ethiopia anchors on Aksum, not the Solomonic
+dynasty of 1270, because the source for 1270 is also the source against it —
+Yekuno Amlak founded that dynasty by claiming descent from Aksum's last emperor.
+Japan keeps its traditional 660 BCE and says in the same breath that scholars
+hold the date to be a myth. Zimbabwe, Ghana and Tajikistan were assessed for
+older anchors and came out modern; a modern date is a finding, not a failure.
+
+**Two rules had to be invented and are now applied corpus-wide** (D10, D11):
+incomplete external sovereignty is not sovereignty lost, which keeps the
+dominions and Bhutan out of the interruption field; and an unrecognised
+annexation is judged by whether the state actually stopped functioning, which
+excludes Kuwait 1990 and includes Timor-Leste 1975–2002 and the Baltics
+1940–1991.
+
+**Instruments.** `scripts/audit-statehood.mjs` prints the worklist sorted by the
+gap between founding and chronicle — written first, and it caught Sudan and
+South Sudan being silently skipped between batches. `scripts/check-contrast.mjs`
+grew a ΔE assertion after copper-on-dimmed failed a WCAG luminance check at
+1.11: the two fills sit two L\* points apart and are separated on the chroma
+axes instead (ΔE 48.5, a separation that survives both common dichromacies), so
+the instrument changed rather than the threshold. `scripts/statehood-shots.mjs`
+drives the rail to a named period and photographs the sphere; it caught the
+pointer parked over Egypt painting it in the *hover* tint, which is limestone
+warmed toward copper — near enough to the shading's own fills to make a
+screenshot lie about what it shows.
+
+**The caption changed last, on purpose.** It read "shaded by each nation's
+sourced founding year" through every content batch and became "shaded by sourced
+statehood — formation, foreign rule, restoration" only once all 184 blocks were
+in. Captioning data that is not there yet is its own kind of dishonesty.
+
+The validator's coverage check is now an **error**, not a warning: a new history
+without a `statehood` block would silently reopen the inconsistency this pass
+closed.
