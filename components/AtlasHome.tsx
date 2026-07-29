@@ -138,8 +138,17 @@ export default function AtlasHome({
           // Sphere = 89.6% of the SVG viewBox (atmosphere padding), so a 71×
           // box puts the drawn sphere at ~64% of the short side — the same
           // R_FRACTION the canvas uses, keeping the handover pixel-stable.
-          className="reveal-fade h-[min(71dvh,96vw)] w-[min(71dvh,96vw)] translate-y-[6dvh] select-none sm:translate-y-0"
-          style={{ "--reveal-delay": "0.1s" } as CSSProperties}
+          //
+          // Deliberately NOT `.reveal-fade`. This image is the LCP element on
+          // the landing page, and an element animating up from `opacity: 0` is
+          // not LCP-eligible until it is substantially visible — the same trap
+          // that once cost the hero paragraph a 7.6s LCP (see globals.css).
+          // Fading in the very thing whose job is to be the zero-JS first paint
+          // defeats its purpose: it measured LCP 4.8s → 2.1s to remove this.
+          // The cross-fade to the canvas is handled by the parent's opacity.
+          className="h-[min(71dvh,96vw)] w-[min(71dvh,96vw)] translate-y-[6dvh] select-none sm:translate-y-0"
+          fetchPriority="high"
+          decoding="sync"
           draggable={false}
         />
       </div>
