@@ -56,6 +56,7 @@ export default function AtlasHome({
   const [timeEngaged, setTimeEngaged] = useState(false);
   const [timeIdx, setTimeIdx] = useState(Math.max(0, timePeriods.length - 1));
   const [eventsBySlug, setEventsBySlug] = useState<Map<string, TimeEventTuple[]> | null>(null);
+  const [foundingYears, setFoundingYears] = useState<Record<string, number> | null>(null);
   const timeFetchStarted = useRef(false);
 
   const engageTime = useCallback(
@@ -69,13 +70,20 @@ export default function AtlasHome({
         timeFetchStarted.current = true;
         fetch("/data/time-events.json")
           .then((r) => r.json())
-          .then((file: { periods: { slug: string }[]; events: TimeEventTuple[][] }) => {
-            // Keyed by slug rather than index so a stale cached file can never
-            // misalign a period with another period's events.
-            const m = new Map<string, TimeEventTuple[]>();
-            file.periods.forEach((p, i) => m.set(p.slug, file.events[i]));
-            setEventsBySlug(m);
-          })
+          .then(
+            (file: {
+              periods: { slug: string }[];
+              events: TimeEventTuple[][];
+              founding: Record<string, number>;
+            }) => {
+              // Keyed by slug rather than index so a stale cached file can never
+              // misalign a period with another period's events.
+              const m = new Map<string, TimeEventTuple[]>();
+              file.periods.forEach((p, i) => m.set(p.slug, file.events[i]));
+              setEventsBySlug(m);
+              setFoundingYears(file.founding ?? null);
+            },
+          )
           .catch(() => {
             timeFetchStarted.current = false; // allow a retry on next scrub
           });
@@ -87,6 +95,15 @@ export default function AtlasHome({
   const timeEvents =
     timeEngaged && eventsBySlug
       ? (eventsBySlug.get(timePeriods[timeIdx]?.slug) ?? null)
+      : null;
+
+  const timeShading =
+    timeEngaged && foundingYears && timePeriods[timeIdx]
+      ? {
+          founding: foundingYears,
+          start: timePeriods[timeIdx].start,
+          end: timePeriods[timeIdx].end,
+        }
       : null;
 
   /** Choropleth and time are mutually exclusive lenses. */
@@ -170,6 +187,7 @@ export default function AtlasHome({
         hasHistory={hasHistory}
         choroplethValues={activeLayer?.values ?? null}
         timeEvents={timeEvents}
+        timeShading={timeShading}
         onHover={setHoveredCode}
         onReady={() => setGlobeReady(true)}
       />

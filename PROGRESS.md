@@ -440,3 +440,34 @@ journey badge still drew inline compass *shapes* in new paint; both now use
 
 A 16px legibility proof renders on every icon build
 (`design-review/icon-16px-proof.png`) — all five bands survive at tab size.
+
+---
+
+## The Time Globe — the corpus on the sphere
+
+The two hero assets never met: the globe showed one instant, the archive holds 3.6
+million years. Now the landing globe travels.
+
+**Phase 1 — pulses.** A time rail under the globe (the 60 periods as a horizontal
+core sample, each stratum in its period's dominant pigment). Scrubbing blooms every
+event of the active period at its nation's centroid, category-tinted, cascading in
+year order. Hover names the moment; click descends into the chronicle at the era
+holding it — globe → time → place → sourced account in one gesture. The readout links
+each period to its `/timeline` page. 100 KB gzipped, lazy-fetched on first touch;
+landing chunk untouched; frames stay multiplications-only (packed Float64Array trig).
+
+**Phase 2 — the world fills in.** CShapes 2.0 failed its license gate (BY-NC-SA,
+verified verbatim from the authors' page — see D9), so phase 2 became existence
+shading from the corpus's own sourced `founding` years: nations not yet born render
+as ghosts, nations born in the active period flash copper, the established world
+stands limestone. The 10th millennium BCE is an entirely unborn earth; the 1960s set
+Africa ablaze in copper. A permanent caption — "today's borders · shaded by each
+nation's sourced founding year" — keeps it a sourced visualisation rather than a fake
+historical map. Coverage beats what CShapes offered: the whole corpus span, not
+1886–2019.
+
+**Verified:** full pointer-driven chain (scrub → tooltip → click →
+`/country/TZA/chronicle#cradle-of-humankind`); no console errors; 360px clean, rail
+touch-usable; reduced motion renders settled dots, zero animation (Δ=0); validators,
+contrast (72/72), audit (1,054 clean) all green. CYN and SOL have no centroid and are
+skipped audibly in the build. The Chanel cut: the "Drag to spin" hint chip.

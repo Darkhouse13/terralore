@@ -46,6 +46,8 @@ interface Props {
   choroplethValues?: Record<string, number> | null;
   /** The active period's events, or null when the Time Globe is disengaged. */
   timeEvents?: TimeEventTuple[] | null;
+  /** Existence shading: sourced founding years + the active period's span. */
+  timeShading?: { founding: Record<string, number>; start: number; end: number } | null;
   onHover?: (code: string | null) => void;
   onReady?: () => void;
 }
@@ -108,6 +110,7 @@ export default function GlobeLite({
   hasHistory,
   choroplethValues,
   timeEvents = null,
+  timeShading = null,
   onHover,
   onReady,
 }: Props) {
@@ -223,6 +226,25 @@ export default function GlobeLite({
     return out;
   }, [choroplethValues, shapes]);
 
+  // ── Existence shading: the world, filled in only as far as it has come ──
+  // Three states per nation, all derived from the corpus's own sourced
+  // `founding` claim: not yet a state (a ghost — land barely lifted off the
+  // ocean, coastline and shelf halo carrying the outline), born in the active
+  // period (a copper wash — the moment of becoming), and existing (limestone,
+  // as ever). Nations without a history make no founding claim and are
+  // rendered as today — the rail's caption carries the caveat.
+  const timeFills = useMemo(() => {
+    if (!timeShading) return null;
+    const out: Record<string, string> = {};
+    for (const s of shapes) {
+      const born = timeShading.founding[s.code];
+      if (born == null) continue; // no claim, no shading
+      if (born > timeShading.end) out[s.code] = "rgba(235, 233, 224, 0.15)";
+      else if (born >= timeShading.start) out[s.code] = "rgba(200, 114, 68, 0.88)";
+    }
+    return out;
+  }, [timeShading, shapes]);
+
   const ringCenter = useMemo<[number, number] | null>(() => {
     if (!selectedCode) return null;
     const m = metaMap[selectedCode];
@@ -266,13 +288,13 @@ export default function GlobeLite({
       view: { ...view.current },
       hoverCode,
       selectedCode,
-      fills,
+      fills: timeFills ?? fills,
       ringCenter,
       ringT0: ringT0.current,
       pulses: pulseBundle ? { data: pulseBundle.data, tints: pulseBundle.tints } : null,
       pulseT0: pulseT0.current,
     }),
-    [hoverCode, selectedCode, fills, ringCenter, pulseBundle],
+    [hoverCode, selectedCode, fills, timeFills, ringCenter, pulseBundle],
   );
 
   const paint = useCallback(() => {

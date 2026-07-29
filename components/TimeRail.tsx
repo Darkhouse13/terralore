@@ -7,6 +7,9 @@ import { CATEGORY_META, type EventCategory } from "@/lib/types";
 export interface RailPeriod {
   slug: string;
   label: string;
+  /** Inclusive year span (negative = BCE); drives the existence shading. */
+  start: number;
+  end: number;
   count: number;
   dominant: string | null;
 }
@@ -159,6 +162,14 @@ export default function TimeRail({
           );
         })}
       </div>
+      {/* The honesty line. The shading is a real claim (this state existed / did
+          not yet) drawn on modern geometry, and the one-sentence caveat is what
+          keeps it a sourced visualisation instead of a fake historical map. */}
+      {engaged && (
+        <p className="mt-1.5 font-mono text-[9px] uppercase tracking-[0.14em] text-chalk-4">
+          today&apos;s borders · shaded by each nation&apos;s sourced founding year
+        </p>
+      )}
     </div>
   );
 }

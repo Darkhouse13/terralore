@@ -182,3 +182,39 @@ projections in one continuous series with no flag distinguishing them, and the A
 happily serves 2031. Publishing a projection as a current figure would have been a
 fabrication introduced by a build script rather than by an author, which is worse, not
 better.
+
+---
+
+## D9 — CShapes rejected on its license; existence shading built instead
+
+**Chosen:** Phase 2 of the Time Globe shades today's borders by each nation's
+*sourced founding year* — three states of existence (not yet / born this period /
+existing), derived entirely from the corpus's own `founding` claims, with a
+permanent caption ("today's borders · shaded by each nation's sourced founding
+year") keeping the visualisation honest.
+
+**Rejected:** ingesting CShapes 2.0 for true historical border geometries.
+
+**Why:** the license gate, checked against the source before a byte was ingested.
+The authors' page states verbatim: *"CShapes … is licensed under a Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International License."* NC
+makes any future monetisation of the site a violation; SA would encumber every
+derived border snapshot in the repo — precisely when the corpus should be heading
+toward CC-BY publication as a citable dataset. The CRAN R package shows
+`GPL-2 | GPL-3`, but that governs the package; relying on a licensing ambiguity
+against the authors' explicit statement is a bet, not a decision.
+
+**Also rejected:** crowd-compiled historical basemaps (provenance fails the
+citation invariant) and hand-drawn borders (fabrication).
+
+**What was gained by losing:** the replacement is arguably stronger. Historical
+border geometries would have covered 1886–2019; the founding-year shading covers
+the *whole* corpus span — the 10th millennium BCE renders an entirely unborn
+world — uses only claims the archive already stands behind, and every shaded
+state is one click from the sourced account of its becoming. The spectacle
+(decolonisation sweeping Africa in copper through the 1960s) survived the
+license failure intact.
+
+**Reopening:** if the operator ever negotiates terms with the CShapes authors or
+the site formalises non-commercial status, border geometry can layer *on top of*
+existence shading; the two compose.

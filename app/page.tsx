@@ -61,6 +61,8 @@ export default function Home() {
   const timePeriods = allPeriods().map((p) => ({
     slug: p.slug,
     label: p.label,
+    start: p.start,
+    end: p.end,
     count: p.events.length,
     dominant: dominantCategory(p.events)?.category ?? null,
   }));

@@ -70,9 +70,12 @@ const fail = (msg) => {
 const dataDir = join(root, "lib/histories/data");
 const events = []; // { year, code, cat, title, eraId }
 
+const founding = {}; // code → sourced founding year (the corpus's own claim)
+
 for (const file of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   const h = JSON.parse(readFileSync(join(dataDir, file), "utf8"));
   if (h.status !== "published") continue;
+  if (typeof h.founding?.year === "number") founding[h.code] = h.founding.year;
   for (const era of h.eras ?? []) {
     for (const ev of era.events ?? []) {
       if (!CATEGORIES.has(ev.category)) fail(`${file}: unknown category "${ev.category}"`);
@@ -103,6 +106,9 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
       fraCount++;
     }
   });
+  const f = src.match(/founding: \{[\s\S]*?year: (-?\d+),/);
+  if (!f) fail("france.ts: founding year not found — file shape changed, update this parser");
+  founding.FRA = Number(f[1]);
   // The chronicle masthead states 19 sourced events; if france.ts grows or the
   // regex rots, this trips rather than silently shipping a hollow France.
   if (fraCount < 15 || fraCount > 40) fail(`france.ts: parsed ${fraCount} events — outside sanity range, parser likely broken`);
@@ -152,10 +158,14 @@ const out = {
     for (const e of p.events) counts.set(e.cat, (counts.get(e.cat) ?? 0) + 1);
     let dom = null, domN = 0;
     for (const [cat, n] of counts) if (n > domN) { domN = n; dom = cat; }
-    return { slug: p.slug, label: p.label, count: p.events.length, dominant: dom };
+    return { slug: p.slug, label: p.label, start: p.start, end: p.end, count: p.events.length, dominant: dom };
   }),
   // events[i] belongs to periods[i]: [code, year, category, title, eraId]
   events: periodOrder.map((p) => p.events.map((e) => [e.code, e.year, e.cat, e.title, e.eraId])),
+  // The corpus's own "became a country" year per nation — what lets the globe
+  // shade the world by which states existed yet. Authored and sourced in each
+  // history's `founding`; nations without a history make no claim and get none.
+  founding,
 };
 
 mkdirSync(join(root, "public/data"), { recursive: true });
