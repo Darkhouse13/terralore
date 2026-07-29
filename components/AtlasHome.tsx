@@ -10,6 +10,7 @@ import Link from "next/link";
 // draws its identical opening frame.
 import GlobeLite from "./GlobeLite";
 import CountryCard from "./CountryCard";
+import Mark from "./Mark";
 import { formatMetric } from "@/lib/format";
 import { choroColor, choroGradient } from "@/lib/choropleth";
 import type { CountryMeta } from "@/lib/types";
@@ -191,7 +192,7 @@ export default function AtlasHome({
         className="reveal absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8"
         style={reveal(0.35)}
       >
-        <Compass />
+        <Mark size={26} />
         <span className="font-mono text-[13px] uppercase tracking-[0.28em] text-copper">
           Terralore
         </span>
@@ -349,16 +350,6 @@ export default function AtlasHome({
   );
 }
 
-function Compass() {
-  return (
-    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden>
-      <circle cx="13" cy="13" r="11" fill="none" stroke="var(--color-copper)" strokeWidth="1.2" />
-      <path d="M13 2 L15.4 13 L13 24 L10.6 13 Z" fill="var(--color-copper-bright)" />
-      <path d="M2 13 L13 10.6 L24 13 L13 15.4 Z" fill="rgba(227, 154, 103,0.45)" />
-      <circle cx="13" cy="13" r="1.6" fill="#04161f" />
-    </svg>
-  );
-}
 
 // The "Color by" gauge: a value-distribution histogram over the choropleth ramp,
 // the extreme nations anchored at each end, and a marker that tracks the nation

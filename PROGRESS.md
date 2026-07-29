@@ -392,3 +392,51 @@ instead of 186 undifferentiated links. Server-rendered as before.
 **Verified:** validators 0 errors · contrast 72/72 · audit 1,054 pages clean · no
 horizontal scroll at 360px or 390px across six surfaces · Lighthouse unchanged
 (a11y/best-practices/SEO 100 on all three surfaces).
+
+---
+
+## Pass 3 — the mark, and a 5.8 MB confession
+
+### The corpus was shipping to every dossier visitor
+
+Asked whether performance had hit its ceiling, the honest answer required
+measuring — and the dossier's JS payload measured **6,554 KB raw**, against the
+landing's 647 KB. The chain: the client-side `Dossier` imports
+`annotationsForSeries` from `lib/annotations.ts`, whose sibling `annotationsFor`
+imports the history registry — which statically imports **all 183 history JSON
+files**. The bundler cannot tree-shake JSON through a registry, so Phase C's
+cross-talk wiring put the entire ~5.8 MB corpus in every dossier visitor's
+browser.
+
+Split into `lib/annotations.ts` (pure, client-safe) and
+`lib/annotations-server.ts` (the one corpus-reading function). **Dossier JS:
+6,554 KB → 796 KB.**
+
+**Correction to the earlier record:** the dossier's TBT regression (62 ms mid-B
+→ 474–619 ms after C) was attributed to machine contention. Contention is real
+on this box, but the quiet 62 ms run predates Phase C — the leak was the larger
+cause. Lighthouse on the same noisy box after the fix: **92 / 92 / 94**
+(landing / dossier / chronicle), TBT 102 / 152 / 132 ms, with a11y,
+best-practices and SEO at 100 ×3.
+
+### The mark, completed — and the last two compasses
+
+`scripts/build-icon.mjs` now emits every form from one geometry — the STRATUM
+sphere in section, five bands, shoal ring:
+
+| File | Form |
+|---|---|
+| `app/icon0.svg` | the tab favicon — **transparent, circular**, crisp at any size |
+| `app/favicon.ico` | 16+32+48 PNG-encoded ICO — the file browsers weight most |
+| `app/icon1.png` | 512 transparent raster — the JSON-LD Organization logo |
+| `app/apple-icon.png` | 180 on solid deep (iOS composites transparency onto black) |
+
+Two remnants of the old identity fell in this pass, both survivors because
+binaries and inline SVGs match no colour grep: **`app/favicon.ico` and
+`app/apple-icon.png` were still the gold compass rose** — the old logo, served
+first in the head and on every iOS share sheet. And the landing header plus the
+journey badge still drew inline compass *shapes* in new paint; both now use
+`components/Mark.tsx`, the same geometry as the favicon.
+
+A 16px legibility proof renders on every icon build
+(`design-review/icon-16px-proof.png`) — all five bands survive at tab size.

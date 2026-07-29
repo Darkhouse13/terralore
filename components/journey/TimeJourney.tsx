@@ -6,6 +6,7 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { CountryHistory, CountryMeta } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
 import { buildMoments, bigYear, momentEraIndex, nextEraStart, type Moment } from "@/lib/journey";
+import Mark from "@/components/Mark";
 import { formatPopulation } from "@/lib/format";
 import TimelineRail from "./TimelineRail";
 import ChapterDrawer from "./ChapterDrawer";
@@ -221,13 +222,9 @@ export default function TimeJourney({
       <NavButton side="left" dim={i === 0} onClick={() => go(i - 1)} />
       <NavButton side="right" dim={i === total - 1} onClick={() => go(i + 1)} />
 
-      {/* Compass badge */}
-      <div className="absolute bottom-[108px] left-[34px] z-20 hidden h-11 w-11 place-items-center rounded-full border border-copper/30 bg-[rgba(12,11,9,0.7)] md:grid">
-        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden>
-          <circle cx="11" cy="11" r="9" fill="none" stroke="var(--color-copper)" strokeWidth="1" />
-          <path d="M11 3 L13 11 L11 19 L9 11 Z" fill="var(--color-copper-bright)" />
-          <circle cx="11" cy="11" r="1.4" fill="#04161f" />
-        </svg>
+      {/* The mark — anchors the stage to the site the way a colophon does */}
+      <div className="absolute bottom-[108px] left-[34px] z-20 hidden h-11 w-11 place-items-center rounded-full border border-copper/30 bg-[rgba(4,22,31,0.7)] md:grid">
+        <Mark size={22} />
       </div>
 
       {/* Bottom rail */}

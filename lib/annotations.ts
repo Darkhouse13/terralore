@@ -16,10 +16,16 @@
 //
 // Build-time only: every input is committed JSON, and the output is passed
 // through the SSG page as props. Nothing here is fetched at runtime.
+//
+// SPLIT DELIBERATELY: this module is imported by the client-side Dossier for
+// `annotationsForSeries`, so nothing in it may touch `lib/histories` — the
+// registry statically imports all 183 history files, and a client import here
+// bundles the entire ~5.8 MB corpus into every dossier visitor's browser.
+// That is not hypothetical: it shipped, and the dossier's JS payload measured
+// 6.5 MB before this split. `annotationsFor`, the one function that reads the
+// corpus, lives in lib/annotations-server.ts.
 
 import type { DomainKey, EventCategory } from "./types";
-import { CATEGORY_META } from "./types";
-import { getHistory } from "./histories";
 
 /**
  * Which event categories can move which domain's indicators.
@@ -65,36 +71,6 @@ export interface EventAnnotation {
   tint: string;
   /** The era this event belongs to, for the chronicle deep link. */
   eraId: string;
-}
-
-/**
- * Every event for a nation that could annotate a series, tagged for filtering.
- *
- * Returns the whole set rather than pre-filtering by domain: the caller knows
- * the series' actual year span, which is the filter that matters, and computing
- * it once per page beats once per metric window.
- */
-export function annotationsFor(code: string): EventAnnotation[] {
-  const history = getHistory(code);
-  if (!history) return [];
-
-  const out: EventAnnotation[] = [];
-  for (const era of history.eras) {
-    for (const ev of era.events) {
-      const cat = CATEGORY_META[ev.category];
-      if (!cat) continue;
-      out.push({
-        year: ev.year,
-        yearLabel: ev.yearLabel ?? String(ev.year),
-        title: ev.title,
-        category: ev.category,
-        categoryLabel: cat.label,
-        tint: cat.tint,
-        eraId: era.id,
-      });
-    }
-  }
-  return out.sort((a, b) => a.year - b.year);
 }
 
 /**

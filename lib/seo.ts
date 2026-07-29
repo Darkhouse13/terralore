@@ -116,7 +116,10 @@ export const publisher: Json = {
   "@type": "Organization",
   name: SITE_NAME,
   url: SITE_URL,
-  logo: { "@type": "ImageObject", url: abs("/icon.png") },
+  // icon1.png: the numbered pair icon0.svg/icon1.png replaced the single
+  // icon.png (Next emits multiple icons via number suffix). Google wants a
+  // raster logo, so the PNG — not the SVG — is the one JSON-LD names.
+  logo: { "@type": "ImageObject", url: abs("/icon1.png") },
   description: SITE_DESCRIPTION,
 };
 
