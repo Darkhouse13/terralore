@@ -233,5 +233,23 @@ structurally, so the target is 184/184.
 
 ## SKIPPED
 
+None. The plan allowed up to five nations to be skipped for want of a source
+that could be fetched and read; every one of the 184 was sourced.
+
 | Code | Nation | Reason |
 |---|---|---|
+
+---
+
+## Done
+
+`node scripts/audit-statehood.mjs` reports **184/184**, with 68 sourced
+interruptions of sovereignty across 56 nations and no SKIPPED rows. The
+validator's coverage check is an error rather than a warning, the rail's caption
+names all three shading states, and the verification frames are archived under
+`design-review/12-statehood/`.
+
+Full suite at close: history validator 0/0, domain validator 0 errors, `tsc`
+clean, lint clean, contrast 76 pairs + 3 chroma pairs, page audit 1,054 clean
+locally **and against production**, `npm run build` green, IndexNow 1,054 URLs
+submitted.
