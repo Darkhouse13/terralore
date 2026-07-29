@@ -10,6 +10,15 @@
     "year": 1983,
     "detail": "On 15 November 1983 the Turkish-Cypriot legislative assembly, under the leadership of Rauf Denktaş, issued a unilateral declaration of independence proclaiming the Turkish Republic of Northern Cyprus in the area held by Turkish forces since 1974. Turkish Cypriots presented the move as the assertion of their right to self-determination and security after years of intercommunal conflict and the failure of negotiations to restore a workable partnership. The United Nations Security Council responded three days later with Resolution 541 (1983), which considered the declaration legally invalid, called for its withdrawal, and called upon all states not to recognise any Cypriot state other than the Republic of Cyprus; Resolution 550 (1984) reaffirmed this position. To date only Turkey has recognised the TRNC, while the United Nations, the European Union, and the international community continue to regard the territory as part of the Republic of Cyprus that is, in their characterisation, under Turkish occupation."
   },
+  "statehood": {
+    "formation": {
+      "year": 1983,
+      "yearLabel": "15 November 1983",
+      "label": "The north unilaterally declares the Turkish Republic of Northern Cyprus",
+      "detail": "No state other than Turkey has recognised it, and the United Nations regards the territory as part of the Republic of Cyprus. The shading uses the de-facto declaration date and makes no claim about sovereignty, in keeping with the corpus's rule of describing disputes rather than adjudicating them.",
+      "sources": ["wikipedia-northern-cyprus", "unscr-541"]
+    }
+  },
   "quickFacts": [
     { "label": "Declaration of independence", "value": "15 November 1983 (Turkish Republic of Northern Cyprus)" },
     { "label": "International recognition", "value": "Recognised only by Turkey; the UN regards the area as part of the Republic of Cyprus" },
@@ -413,7 +422,8 @@
       "publisher": "U.S. Library of Congress (Federal Research Division)",
       "url": "https://countrystudies.us/cyprus/53.htm",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-northern-cyprus", "label": "Northern Cyprus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Northern_Cyprus", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

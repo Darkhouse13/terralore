@@ -9,6 +9,23 @@
     "year": 1946,
     "detail": "On 25 May 1946 the Emirate of Transjordan became the fully independent Hashemite Kingdom of Transjordan when the Treaty of London, signed on 22 March 1946, ended the British mandate and the parliament re-designated Emir Abdullah as king. The state's deeper roots lie in the Emirate of Transjordan founded in 1921, when Abdullah ibn Hussein, son of the Sharif of Mecca and a leader of the Great Arab Revolt, established Hashemite rule east of the Jordan under a British mandate carved from Mandatory Palestine."
   },
+  "statehood": {
+    "formation": {
+      "year": 1921,
+      "yearLabel": "11 April 1921",
+      "label": "Abdullah I establishes the Emirate of Transjordan",
+      "detail": "The emirate was administered separately from Palestine under the same British mandate and became the Hashemite Kingdom in 1946; the kingdoms of Ammon, Moab and Edom and the Nabataean state at Petra are the older record on this territory, not a continuous line of statehood.",
+      "sources": ["wikipedia-emirate-transjordan"]
+    },
+    "interruptions": [
+      {
+        "start": 1921,
+        "end": 1946,
+        "label": "British mandate",
+        "sources": ["wikipedia-emirate-transjordan", "histstate-jordan"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Official name", "value": "Hashemite Kingdom of Jordan (al-Mamlaka al-Urduniyya al-Hashimiyya)" },
     { "label": "Independence Day", "value": "25 May 1946, ending the British mandate over Transjordan" },
@@ -513,7 +530,8 @@
       "publisher": "EBSCO Research Starters",
       "url": "https://www.ebsco.com/research-starters/politics-and-government/king-abdullah-ii-jordan",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-emirate-transjordan", "label": "Emirate of Transjordan", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Emirate_of_Transjordan", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

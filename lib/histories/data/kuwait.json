@@ -9,6 +9,23 @@
     "year": 1961,
     "detail": "On 19 June 1961 the ruler Sheikh Abdullah Al-Salim Al-Sabah and the British Political Resident in the Persian Gulf exchanged letters terminating the 1899 protectorate agreement, and Kuwait declared itself a fully sovereign and independent state. The new emirate's deeper roots lie in the founding of Kuwait town in the early 18th century and the choice of the Al Sabah family to rule around 1752, while the bay itself had been settled since the Bronze Age civilization of Dilmun on nearby Failaka island."
   },
+  "statehood": {
+    "formation": {
+      "year": 1752,
+      "yearLabel": "c. 1752",
+      "label": "The heads of Kuwait's families choose Sabah I as sheikh",
+      "detail": "The Al Sabah have ruled since. The Iraqi annexation of 1990 is not recorded as an interruption: it was never internationally recognised — the Security Council declared it null and void — and sovereignty was restored at the end of the war.",
+      "sources": ["wikipedia-sheikhdom-kuwait"]
+    },
+    "interruptions": [
+      {
+        "start": 1899,
+        "end": 1961,
+        "label": "British protectorate under the Anglo-Kuwaiti agreement",
+        "sources": ["wikipedia-sheikhdom-kuwait", "fanack-mubarak"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Official name", "value": "State of Kuwait (Dawlat al-Kuwayt)" },
     { "label": "National Day", "value": "25 February, with Liberation Day on 26 February marking the 1991 end of Iraqi occupation" },
@@ -483,7 +500,8 @@
       "publisher": "Carnegie Endowment for International Peace",
       "url": "https://carnegieendowment.org/research/2025/03/kuwaits-parliament-suspension-emir-democracy?lang=en",
       "kind": "academic"
-    }
+    },
+    { "id": "wikipedia-sheikhdom-kuwait", "label": "Sheikhdom of Kuwait", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sheikhdom_of_Kuwait", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

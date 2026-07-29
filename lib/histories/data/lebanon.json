@@ -9,6 +9,23 @@
     "year": 1943,
     "detail": "Modern Lebanon dates its sovereignty to the autumn of 1943. After elections, the new government of President Bechara El Khoury and Prime Minister Riad al-Solh amended the constitution to remove the articles enshrining the French Mandate. The French authorities responded on 11 November 1943 by arresting the president, prime minister and several ministers, but mass protests and British and international pressure forced their release on 22 November 1943—now celebrated as Independence Day. Power was shared under the National Pact, an unwritten understanding reached the same year by El Khoury, a Maronite, and al-Solh, a Sunni, which balanced the country's confessional communities. The United States formally recognised Lebanese independence on 8 September 1944, and the last French troops withdrew at the end of 1946."
   },
+  "statehood": {
+    "formation": {
+      "year": 1920,
+      "yearLabel": "1 September 1920",
+      "label": "General Gouraud proclaims the State of Greater Lebanon",
+      "detail": "Lebanon has existed within its current borders since 1920, when Greater Lebanon was created under the French mandate; the emirate of Mount Lebanon under Fakhr al-Din II and the autonomous Mutasarrifate are the older tradition the chronicle records. The state was formed inside the mandate and was not sovereign until 1943.",
+      "sources": ["wikipedia-french-mandate-syria"]
+    },
+    "interruptions": [
+      {
+        "start": 1920,
+        "end": 1943,
+        "label": "French mandate",
+        "sources": ["wikipedia-french-mandate-syria", "wikipedia-bechara-el-khoury"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Independence", "value": "22 November 1943 (from France)" },
     { "label": "Capital", "value": "Beirut (ancient Berytus)" },
@@ -185,7 +202,9 @@
     { "id": "ebsco-hariri", "label": "Assassination of Rafik Hariri (2005)", "publisher": "EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/assassination-rafik-hariri-2005", "kind": "reference" },
     { "id": "loc-lebanon-pact", "label": "Lebanon: The National Pact (Lebanon: A Country Study)", "publisher": "U.S. Library of Congress, Federal Research Division", "url": "https://countrystudies.us/lebanon/77.htm", "kind": "gov" },
     { "id": "state-lebanon", "label": "A Guide to the United States' History of Recognition: Lebanon", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/lebanon", "kind": "gov" },
-    { "id": "cfr-lebanon", "label": "Lebanon: How Israel, Hezbollah, and Regional Powers Are Shaping Its Future", "publisher": "Council on Foreign Relations", "url": "https://www.cfr.org/backgrounders/lebanon-how-israel-hezbollah-and-regional-powers-are-shaping-its-future", "kind": "reference" }
+    { "id": "cfr-lebanon", "label": "Lebanon: How Israel, Hezbollah, and Regional Powers Are Shaping Its Future", "publisher": "Council on Foreign Relations", "url": "https://www.cfr.org/backgrounders/lebanon-how-israel-hezbollah-and-regional-powers-are-shaping-its-future", "kind": "reference" },
+    { "id": "wikipedia-french-mandate-syria", "label": "French Mandate for Syria and the Lebanon", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/French_Mandate_for_Syria_and_the_Lebanon", "kind": "reference" },
+    { "id": "wikipedia-bechara-el-khoury", "label": "Bechara El Khoury", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bechara_El_Khoury", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

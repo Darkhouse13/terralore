@@ -9,6 +9,23 @@
     "year": 1971,
     "detail": "Qatar declared its independence from Great Britain on 3 September 1971, ending the protectorate established by the 1916 Anglo-Qatari Treaty. The United States recognised the new State of Qatar two days later, on 5 September 1971, and the two established diplomatic relations in March 1972. Qatar's deeper roots as a polity are traced to the British agreement signed with Sheikh Mohammed bin Thani in 1868, which set the course for both Qatari autonomy and the rule of the Al Thani dynasty."
   },
+  "statehood": {
+    "formation": {
+      "year": 1868,
+      "yearLabel": "1868",
+      "label": "The Anglo-Qatari settlement recognises Qatar as distinct under the Al Thani",
+      "detail": "Reference works describe the 1868 treaty as a milestone that implicitly recognised Qatar's distinctness from Bahrain and explicitly acknowledged Mohammed bin Thani's position, rather than as a formal act of foundation; it is the earliest dateable emergence of Qatar as a separate polity under the ruling house.",
+      "sources": ["wikipedia-history-qatar"]
+    },
+    "interruptions": [
+      {
+        "start": 1916,
+        "end": 1971,
+        "label": "British protectorate under the Anglo-Qatari treaty",
+        "sources": ["wikipedia-history-qatar", "qdl-treaty-1916", "soh-qatar"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Official name", "value": "State of Qatar (Dawlat Qatar)" },
     { "label": "Capital", "value": "Doha (Ad-Dawhah), on the east coast of the peninsula" },
@@ -445,7 +462,8 @@
       "publisher": "Encyclopaedia Britannica",
       "url": "https://www.britannica.com/sports/2022-FIFA-World-Cup",
       "kind": "encyclopedia"
-    }
+    },
+    { "id": "wikipedia-history-qatar", "label": "History of Qatar", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/History_of_Qatar", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

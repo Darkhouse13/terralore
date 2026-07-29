@@ -9,6 +9,23 @@
     "year": 1932,
     "detail": "On 3 October 1932 the Kingdom of Iraq, ruled by King Faisal I of the Hashemite dynasty, was admitted to the League of Nations as an independent state, ending the British mandate established after the First World War. It was the first of the League's mandated territories anywhere to be granted independence and the first Arab state to join the League. The modern country had been assembled by Britain from the former Ottoman provinces (vilayets) of Mosul, Baghdad and Basra. Iraq's deep history, however, stretches back five thousand years to the cities of Sumer, making it heir to one of the oldest continuous records of civilisation on earth."
   },
+  "statehood": {
+    "formation": {
+      "year": 1921,
+      "yearLabel": "23 August 1921",
+      "label": "The Kingdom of Iraq is established under Faisal I",
+      "detail": "Modern Iraq was assembled after 1918 from Ottoman provinces and did not exist as a state before the mandate; the Mesopotamian and Abbasid polities the chronicle records — Akkad, Babylon, Baghdad of the caliphs — are its inheritance rather than a continuous line of statehood.",
+      "sources": ["wikipedia-mandatory-iraq"]
+    },
+    "interruptions": [
+      {
+        "start": 1921,
+        "end": 1932,
+        "label": "British mandate",
+        "sources": ["wikipedia-mandatory-iraq", "statedept-iraq"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Ancient heartland", "value": "Mesopotamia — the land between the Tigris and Euphrates" },
     { "label": "Earliest cities", "value": "Sumer, c. 4th millennium BCE, birthplace of cuneiform writing" },
@@ -636,7 +653,8 @@
       "publisher": "Encyclopædia Britannica",
       "url": "https://www.britannica.com/topic/Islamic-State-in-Iraq-and-the-Levant",
       "kind": "encyclopedia"
-    }
+    },
+    { "id": "wikipedia-mandatory-iraq", "label": "Mandatory Iraq", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mandatory_Iraq", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"
