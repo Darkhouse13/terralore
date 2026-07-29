@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "motion/react";
 import type { CountryMeta } from "@/lib/types";
 import { formatPopulation, formatArea } from "@/lib/format";
 
@@ -34,16 +33,18 @@ export default function CountryCard({
   onClose: () => void;
 }) {
   return (
-    <motion.aside
+    // A CSS entrance rather than a motion one. This card is the only thing on
+    // the landing page that used framer-motion, and importing it here pulled a
+    // 121 KB (40 KB transfer) chunk into the landing bundle for an element that
+    // does not exist until someone clicks a nation. `card-rise` is a plain
+    // keyframe in globals.css and collapses under prefers-reduced-motion with
+    // everything else.
+    <aside
       key={meta.code}
-      initial={{ opacity: 0, y: 24 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: 24 }}
-      transition={{ type: "tween", ease: [0.16, 1, 0.3, 1], duration: 0.45 }}
-      className="pointer-events-auto w-[min(92vw,21.5rem)] rounded-[8px] border border-copper/28 p-6 shadow-[0_30px_70px_-30px_rgba(0,0,0,0.9)] backdrop-blur-xl"
+      className="card-rise pointer-events-auto w-[min(92vw,21.5rem)] rounded-[8px] border border-copper/28 p-6 shadow-[0_30px_70px_-30px_rgba(2,11,16,0.9)] backdrop-blur-xl"
       style={{
         background:
-          "linear-gradient(180deg,rgba(20,22,34,0.92),rgba(12,13,22,0.94))",
+          "linear-gradient(180deg,rgba(12,46,61,0.93),rgba(4,22,31,0.95))",
       }}
     >
       {/* header */}
@@ -129,6 +130,6 @@ export default function CountryCard({
         )}
         <span className="text-[16px] transition-transform group-hover:translate-x-1">→</span>
       </Link>
-    </motion.aside>
+    </aside>
   );
 }

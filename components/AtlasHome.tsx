@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useMemo, useState, type CSSProperties } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "motion/react";
 // The globe is a hand-rolled canvas-2D renderer (~12 KB) with the same look
 // and behaviours as the retired three.js version (GlobeScene.tsx, kept as
 // reference) — cheap enough to mount immediately on every device, so the
@@ -227,46 +226,34 @@ export default function AtlasHome({
       </div>
 
       {/* Hint */}
-      <AnimatePresence>
-        {!selected && !hintDismissed && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ delay: 0.6 }}
-            className="pointer-events-none absolute inset-x-0 bottom-7 z-10 hidden justify-center md:flex"
-          >
-            <span className="rounded-none border border-copper/15 bg-[rgba(10,11,20,0.4)] px-5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-chalk-4 backdrop-blur">
-              Drag to spin · Click a nation
-            </span>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* Kept mounted and faded with CSS rather than mounted/unmounted through
+          AnimatePresence — the whole point of this pass was to get framer-motion
+          out of the landing bundle, and an opacity transition needs no library. */}
+      <div
+        aria-hidden={!!selected || hintDismissed}
+        className="pointer-events-none absolute inset-x-0 bottom-7 z-10 hidden justify-center transition-opacity duration-500 md:flex"
+        style={{ opacity: !selected && !hintDismissed ? 1 : 0 }}
+      >
+        <span className="rounded-none border border-copper/15 bg-[rgba(4,22,31,0.45)] px-5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-chalk-4 backdrop-blur">
+          Drag to spin · Click a nation
+        </span>
+      </div>
 
       {/* Choropleth layer control + legend */}
       <div
         className="reveal absolute bottom-9 left-6 z-20 hidden w-[min(420px,46vw)] md:left-11 md:block"
         style={reveal(0.75)}
       >
-        <AnimatePresence>
-          {activeLayer && range && (
-            <motion.div
-              key={activeLayer.key}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 8 }}
-              transition={{ duration: 0.32, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-3.5"
-            >
-              <ChoroInstrument
-                layer={activeLayer}
-                range={range}
-                metaIndex={metaIndex}
-                hoveredCode={hoveredCode}
-              />
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {activeLayer && range && (
+          <div key={activeLayer.key} className="card-rise mb-3.5">
+            <ChoroInstrument
+              layer={activeLayer}
+              range={range}
+              metaIndex={metaIndex}
+              hoveredCode={hoveredCode}
+            />
+          </div>
+        )}
 
         <div className="rounded-none border border-copper/15 bg-[rgba(10,11,20,0.6)] px-[18px] py-3.5 backdrop-blur">
           <div className="mb-2.5 font-mono text-[11px] uppercase tracking-[0.2em] text-chalk-3">
@@ -334,18 +321,16 @@ export default function AtlasHome({
 
       {/* Selection card */}
       <div className="pointer-events-none fixed inset-0 z-30 flex items-end justify-center p-4 md:items-end md:justify-end md:p-9">
-        <AnimatePresence mode="wait">
-          {selected && (
-            <CountryCard
-              meta={selected}
-              hasHistory={hasHistory(selected.code)}
-              foundingNote={foundingNotes[selected.code]}
-              headline={headlines[selected.code]}
-              activeMetric={activeMetric}
-              onClose={() => setSelected(null)}
-            />
-          )}
-        </AnimatePresence>
+        {selected && (
+          <CountryCard
+            meta={selected}
+            hasHistory={hasHistory(selected.code)}
+            foundingNote={foundingNotes[selected.code]}
+            headline={headlines[selected.code]}
+            activeMetric={activeMetric}
+            onClose={() => setSelected(null)}
+          />
+        )}
       </div>
 
       {/* Scroll cue — the archive continues */}

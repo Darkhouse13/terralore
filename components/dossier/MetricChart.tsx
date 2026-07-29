@@ -154,20 +154,8 @@ export default function MetricChart({
           chart is the subject and these are margin marks, not content.
           Category-tinted, so a rupture reads as madder and a formation as
           ochre — the same pigment the timeline rail and the chronicle use. */}
-      {(() => {
-        // Two events in the same year (a referendum and an accession, say) put
-        // their marks at the same x, and their labels overprinted into
-        // unreadable mush. So: the tick always draws — the reader should see
-        // that two things happened — but the label is suppressed when it would
-        // collide with the last one drawn. The full, authored yearLabel
-        // ("9–15 Jan 2011") lives in the readable list below; up here it is the
-        // bare year, which is all a chart axis can carry legibly.
-        let lastLabelX = -Infinity;
-        return annotations.map((a) => {
-          const ax = x(a.year);
-          if (ax < PAD_L || ax > W - PAD_R) return null;
-          const showLabel = ax - lastLabelX >= 30;
-          if (showLabel) lastLabelX = ax;
+      {placeAnnotations(annotations, x, PAD_L, W - PAD_R).map(
+        ({ a, ax, showLabel }) => {
           return (
             <g key={`ann-${a.year}-${a.title}`}>
               <title>{`${a.yearLabel} — ${a.title} (in the archive)`}</title>
@@ -195,8 +183,8 @@ export default function MetricChart({
               )}
             </g>
           );
-        });
-      })()}
+        },
+      )}
 
       {/* gridlines + y labels */}
       {yTicks.map((v, i) => {
@@ -324,4 +312,35 @@ export default function MetricChart({
       )}
     </svg>
   );
+}
+
+/**
+ * Decide which annotation marks get a visible year label.
+ *
+ * Two events in the same year (a referendum and an accession, say) land on the
+ * same x and their labels overprint into unreadable mush. The tick always draws
+ * — a reader should see that two things happened — but the label is suppressed
+ * when it would collide with the last one placed.
+ *
+ * Kept as a pure function over the list rather than a counter mutated inside
+ * `.map`: mutating a variable during render is exactly the pattern that goes
+ * wrong when React re-renders or replays, and the linter is right to reject it.
+ */
+function placeAnnotations(
+  annotations: ChartAnnotation[],
+  x: (year: number) => number,
+  left: number,
+  right: number,
+): { a: ChartAnnotation; ax: number; showLabel: boolean }[] {
+  const MIN_GAP = 30;
+  const out: { a: ChartAnnotation; ax: number; showLabel: boolean }[] = [];
+  let lastLabelX = -Infinity;
+  for (const a of annotations) {
+    const ax = x(a.year);
+    if (ax < left || ax > right) continue;
+    const showLabel = ax - lastLabelX >= MIN_GAP;
+    if (showLabel) lastLabelX = ax;
+    out.push({ a, ax, showLabel });
+  }
+  return out;
 }

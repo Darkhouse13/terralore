@@ -289,3 +289,22 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Card / panel entrance — the CSS replacement for the landing page's only
+   framer-motion usage. A 121 KB library was being pulled into the landing
+   bundle to fade a card in after a click; this keyframe does the same job in
+   the house motion (a rise from below) and collapses under the reduced-motion
+   block above with everything else. */
+@keyframes card-rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.card-rise {
+  animation: card-rise 0.45s var(--ease-rise) both;
+}
