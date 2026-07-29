@@ -9,6 +9,23 @@
     "year": 1,
     "detail": "Unlike most nations, Ethiopia has no single founding moment but rather a deep continuity of statehood unmatched in Africa. A recognisable Ethiopian state crystallised in the Kingdom of Aksum, a powerful trading empire that flourished from around the first century CE and adopted Christianity under King Ezana in the fourth century, making it one of the earliest Christian realms on earth. That Christian polity passed through the Zagwe kings of Lalibela and, in 1270, to the Solomonic dynasty, which claimed descent from King Solomon and the Queen of Sheba and ruled almost without interruption until 1974. This continuity, and the fact that Ethiopia was never subjected to lasting colonisation, are the country's defining historical facts. Two later moments crowned that independence: on 1 March 1896 Emperor Menelik II's army annihilated an invading Italian force at the Battle of Adwa, the first decisive defeat of a European colonial power by an African state; and in 1974 a popular revolution ended the millennia-old monarchy, ushering in the republic."
   },
+  "statehood": {
+    "formation": {
+      "year": 1,
+      "yearLabel": "1st century CE",
+      "label": "The Kingdom of Aksum rises on the Ethiopian plateau",
+      "detail": "Aksum lasted until around 960, and Yekuno Amlak — who founded the Solomonic dynasty in 1270 and with it the Ethiopian Empire — traced his ancestry and his right to rule from Dil Na'od, the last emperor of Aksum. That claimed descent is why the anchor is Aksum rather than 1270.",
+      "sources": ["wikipedia-aksum"]
+    },
+    "interruptions": [
+      {
+        "start": 1936,
+        "end": 1941,
+        "label": "Italian conquest and annexation into Italian East Africa",
+        "sources": ["wikipedia-italian-east-africa", "statedept-ethiopia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "State continuity", "value": "One of the world's oldest states; Aksum from c. 1st century CE" },
     { "label": "Never colonised", "value": "Defeated Italy at Adwa, 1 March 1896; occupied 1936–41 but never annexed as a colony" },
@@ -196,7 +213,10 @@
     { "id": "wikipedia-fallderg", "label": "Fall of the Derg regime", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fall_of_the_Derg_regime", "kind": "encyclopedia" },
     { "id": "wikipedia-eritreareferendum", "label": "1993 Eritrean independence referendum", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/1993_Eritrean_independence_referendum", "kind": "encyclopedia" },
     { "id": "wikipedia-tigraypeace", "label": "Ethiopia–Tigray peace agreement", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ethiopia%E2%80%93Tigray_peace_agreement", "kind": "encyclopedia" },
-    { "id": "cfr-ethiopia", "label": "Conflict in Ethiopia (Global Conflict Tracker)", "publisher": "Council on Foreign Relations", "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ethiopia", "kind": "reference" }
+    { "id": "cfr-ethiopia", "label": "Conflict in Ethiopia (Global Conflict Tracker)", "publisher": "Council on Foreign Relations", "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ethiopia", "kind": "reference" },
+    { "id": "wikipedia-aksum", "label": "Kingdom of Aksum", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum", "kind": "reference" },
+    { "id": "wikipedia-italian-east-africa", "label": "Italian East Africa", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Italian_East_Africa", "kind": "reference" },
+    { "id": "statedept-ethiopia", "label": "A Guide to the United States' History of Recognition: Ethiopia", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/ethiopia", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

@@ -9,6 +9,23 @@
     "year": 1962,
     "detail": "Burundi gained independence from Belgium on 1 July 1962 as a constitutional monarchy under Mwami Mwambutsa IV, ending the UN-trusteeship of Ruanda-Urundi and separating from Rwanda."
   },
+  "statehood": {
+    "formation": {
+      "year": 1680,
+      "yearLabel": "c. 1680",
+      "label": "Ntare I founds the Kingdom of Burundi",
+      "detail": "Burundi was assigned to German East Africa in 1890 and to Belgium within Ruanda-Urundi in 1922; it regained independence in 1962 as a constitutional monarchy, and the monarchy was abolished four years later.",
+      "sources": ["wikipedia-kingdom-burundi"]
+    },
+    "interruptions": [
+      {
+        "start": 1890,
+        "end": 1962,
+        "label": "German, then Belgian rule within Ruanda-Urundi",
+        "sources": ["wikipedia-kingdom-burundi", "statedept-burundi"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Independence", "value": "1 July 1962, from Belgium" },
     { "label": "Capital", "value": "Gitega (political); Bujumbura (economic)" },
@@ -514,7 +531,9 @@
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/%C3%89variste_Ndayishimiye",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-kingdom-burundi", "label": "Kingdom of Burundi", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi", "kind": "reference" },
+    { "id": "statedept-burundi", "label": "A Guide to the United States' History of Recognition: Burundi", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/burundi", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

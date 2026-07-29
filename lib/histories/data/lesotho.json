@@ -9,6 +9,23 @@
     "year": 1966,
     "detail": "Basutoland became the independent Kingdom of Lesotho on 4 October 1966 under King Moshoeshoe II as constitutional monarch and Leabua Jonathan of the Basotho National Party as prime minister, ending nearly a century of British rule."
   },
+  "statehood": {
+    "formation": {
+      "year": 1822,
+      "yearLabel": "1822",
+      "label": "Moshoeshoe I becomes the first king of the Basotho",
+      "detail": "The kingdom he built in the Maloti mountains is the state that survives: Basutoland became independent in 1966 as the Kingdom of Lesotho, and the monarchy has never lapsed.",
+      "sources": ["wikipedia-moshoeshoe"]
+    },
+    "interruptions": [
+      {
+        "start": 1868,
+        "end": 1966,
+        "label": "British protection, then the Crown Colony of Basutoland",
+        "sources": ["wikipedia-basutoland", "statedept-lesotho"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Capital", "value": "Maseru" },
     { "label": "Official languages", "value": "Sesotho and English" },
@@ -426,7 +443,10 @@
       "publisher": "African Development Bank",
       "url": "https://www.afdb.org/",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-moshoeshoe", "label": "Moshoeshoe I", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Moshoeshoe_I", "kind": "reference" },
+    { "id": "wikipedia-basutoland", "label": "Basutoland", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Basutoland", "kind": "reference" },
+    { "id": "statedept-lesotho", "label": "A Guide to the United States' History of Recognition: Lesotho", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/lesotho", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

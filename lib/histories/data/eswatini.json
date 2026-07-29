@@ -9,6 +9,23 @@
     "year": 1968,
     "detail": "The British protectorate of Swaziland became an independent kingdom on 6 September 1968, with King Sobhuza II as head of state under a Westminster-style constitution. Britain had administered the territory as a High Commission Territory and, despite provisions for its possible transfer, never incorporated it into South Africa."
   },
+  "statehood": {
+    "formation": {
+      "year": 1750,
+      "yearLabel": "mid-18th century",
+      "label": "Ngwane III establishes the Swazi kingdom",
+      "detail": "The kingdom became a British high commission territory in 1903 after the Second Boer War and regained its full independence in 1968; the monarchy is continuous throughout.",
+      "sources": ["wikipedia-eswatini"]
+    },
+    "interruptions": [
+      {
+        "start": 1903,
+        "end": 1968,
+        "label": "British high commission territory",
+        "sources": ["wikipedia-eswatini", "statedept-recognition"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Capitals", "value": "Mbabane (administrative); Lobamba (royal and legislative)" },
     { "label": "Independence", "value": "6 September 1968, from the United Kingdom" },
@@ -489,7 +506,8 @@
       "publisher": "National Geographic",
       "url": "https://www.nationalgeographic.com/history/article/africas-last-absolute-monarchy-shaken-as-protestors-defy-eswatini-king",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-eswatini", "label": "Eswatini", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Eswatini", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

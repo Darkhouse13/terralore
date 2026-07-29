@@ -9,6 +9,23 @@
     "year": 1962,
     "detail": "Rwanda became a sovereign republic on 1 July 1962, ending more than four decades of Belgian administration of the trust territory of Ruanda-Urundi (and, before 1916, German rule). A United Nations–supervised referendum on 25 September 1961 had already abolished the monarchy and rejected the reign of Mwami Kigeri V, and the Hutu-led Parmehutu party of Grégoire Kayibanda had won the concurrent elections. At independence Kayibanda became the first president of the Republic of Rwanda, while the sister territory of Urundi became independent as the Kingdom of Burundi on the same day."
   },
+  "statehood": {
+    "formation": {
+      "year": 1650,
+      "yearLabel": "c. 1650",
+      "label": "The Kingdom of Rwanda takes shape under the Nyiginya",
+      "detail": "The true start date is unknown because the kingdom's history was carried in oral tradition. Germany opened the colonial era in 1897 by alliance with the king; Belgium administered Rwanda within Ruanda-Urundi from 1922, and the monarchy was abolished in 1961, a year before independence.",
+      "sources": ["wikipedia-kingdom-rwanda"]
+    },
+    "interruptions": [
+      {
+        "start": 1897,
+        "end": 1962,
+        "label": "German, then Belgian rule within Ruanda-Urundi",
+        "sources": ["wikipedia-kingdom-rwanda", "statedept-rwanda"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Independence", "value": "1 July 1962 from Belgium (UN trust territory of Ruanda-Urundi)" },
     { "label": "First president", "value": "Grégoire Kayibanda (1962–1973)" },
@@ -185,7 +202,9 @@
     { "id": "preventgenocide-idcard", "label": "Indangamuntu 1994: The role of the identity card in the genocide", "publisher": "Prevent Genocide International (Jim Fussell)", "url": "http://www.preventgenocide.org/edu/pastgenocides/rwanda/indangamuntu.htm", "kind": "academic" },
     { "id": "eb-habyarimana", "label": "Juvénal Habyarimana", "publisher": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Juvenal-Habyarimana", "kind": "encyclopedia" },
     { "id": "eb-gacaca", "label": "Gacaca court", "publisher": "Encyclopædia Britannica", "url": "https://www.britannica.com/topic/gacaca-court", "kind": "encyclopedia" },
-    { "id": "marquette-justice", "label": "Justice after genocide: Rwanda's journey toward accountability and healing", "publisher": "Marquette University", "url": "https://today.marquette.edu/2025/01/justice-after-genocide-rwandas-journey-toward-accountability-and-healing/", "kind": "academic" }
+    { "id": "marquette-justice", "label": "Justice after genocide: Rwanda's journey toward accountability and healing", "publisher": "Marquette University", "url": "https://today.marquette.edu/2025/01/justice-after-genocide-rwandas-journey-toward-accountability-and-healing/", "kind": "academic" },
+    { "id": "wikipedia-kingdom-rwanda", "label": "Kingdom of Rwanda", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda", "kind": "reference" },
+    { "id": "statedept-rwanda", "label": "A Guide to the United States' History of Recognition: Rwanda", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/rwanda", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

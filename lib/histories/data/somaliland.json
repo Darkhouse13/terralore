@@ -9,6 +9,15 @@
     "year": 1991,
     "detail": "On 18 May 1991, as the central government of Somalia disintegrated, a grand conference of clan elders and the Somali National Movement meeting at Burao declared that the former British Somaliland Protectorate was withdrawing from its 1960 union with the south and restoring the independence it had held for five days in June 1960. In the decades since, Somaliland has functioned as a de facto self-governing state from its capital, Hargeisa — maintaining its own administration, security forces, currency and elected institutions across the territory of the old protectorate. That de facto autonomy has not, however, translated into legal recognition. Somalia continues to regard Somaliland as part of its sovereign territory; the African Union and the overwhelming majority of states have declined to recognise it; and while Israel extended formal recognition in December 2025, it remains, as of mid-2026, the only United Nations member state to have done so. Somaliland's status therefore is best described not as settled statehood but as an unresolved, internationally disputed question."
   },
+  "statehood": {
+    "formation": {
+      "year": 1991,
+      "yearLabel": "1991",
+      "label": "Somaliland declares independence from Somalia",
+      "detail": "The territory was briefly independent as the State of Somaliland from 26 June 1960 before uniting with the former Italian trust territory five days later; the 1991 declaration presents itself as a restoration of that state. Recognition remains minimal, and the shading uses the de-facto date without taking a position.",
+      "sources": ["wikipedia-somaliland"]
+    }
+  },
   "quickFacts": [
     { "label": "Status", "value": "Self-declared independent state (1991); de facto self-governing but internationally regarded as part of Somalia" },
     { "label": "Capital", "value": "Hargeisa" },
@@ -515,7 +524,8 @@
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/International_recognition_of_Somaliland",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-somaliland", "label": "Somaliland", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Somaliland", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

@@ -9,6 +9,23 @@
     "year": 1960,
     "detail": "Madagascar became a sovereign state on 26 June 1960, ending more than six decades of French colonial rule. Philibert Tsiranana led the new republic as its first president."
   },
+  "statehood": {
+    "formation": {
+      "year": 1540,
+      "yearLabel": "c. 1540",
+      "label": "Andriamanelo founds the Merina kingdom in the highlands",
+      "detail": "The Merina state expanded over the following centuries to rule most of the island as the Kingdom of Madagascar; France imposed a protectorate in 1896 and annexed the island as a colony in 1897, ending Merina sovereignty.",
+      "sources": ["wikipedia-merina"]
+    },
+    "interruptions": [
+      {
+        "start": 1896,
+        "end": 1960,
+        "label": "French protectorate, then colony",
+        "sources": ["wikipedia-merina", "statedept-madagascar"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Capital", "value": "Antananarivo" },
     { "label": "People", "value": "Malagasy — Austronesian and Bantu origins" },
@@ -305,7 +322,9 @@
     { "id": "aaregistry-independence", "label": "Madagascar Gains Independence From France", "publisher": "African American Registry", "url": "https://aaregistry.org/story/madagascar-gains-independence-from-france/", "kind": "reference" },
     { "id": "conversation-ratsiraka", "label": "Didier Ratsiraka: the legacy of Madagascar's 'Red Admiral'", "publisher": "The Conversation", "url": "https://theconversation.com/didier-ratsiraka-the-legacy-of-madagascars-red-admiral-143017", "kind": "reference" },
     { "id": "eb-ravalomanana", "label": "Marc Ravalomanana", "publisher": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Marc-Ravalomanana", "kind": "encyclopedia" },
-    { "id": "reliefweb-timeline", "label": "Madagascar Timeline: Madagascar's turbulent political history", "publisher": "ReliefWeb / IRIN", "url": "https://reliefweb.int/report/madagascar/madagascar-timeline-madagascars-turbulent-political-history", "kind": "reference" }
+    { "id": "reliefweb-timeline", "label": "Madagascar Timeline: Madagascar's turbulent political history", "publisher": "ReliefWeb / IRIN", "url": "https://reliefweb.int/report/madagascar/madagascar-timeline-madagascars-turbulent-political-history", "kind": "reference" },
+    { "id": "wikipedia-merina", "label": "Merina Kingdom", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Merina_Kingdom", "kind": "reference" },
+    { "id": "statedept-madagascar", "label": "A Guide to the United States' History of Recognition: Madagascar", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/madagascar", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"
