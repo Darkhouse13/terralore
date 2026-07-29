@@ -44,8 +44,11 @@ next-env.d.ts
 *.png
 shot-*.png
 tsconfig.tsbuildinfo
-# ...but the brand icon set must be tracked
-!app/icon.png
+# ...but the brand icon set must be tracked. This negation is load-bearing:
+# renaming icon.png -> icon1.png without updating it meant the new logo was
+# silently dropped from a commit and the JSON-LD pointed at a 404 in
+# production. If an icon file is renamed, this list must move with it.
+!app/icon1.png
 !app/apple-icon.png
 
 # Claude Design handoff bundle + local screenshot artifacts (reference only)
@@ -55,7 +58,11 @@ tsconfig.tsbuildinfo
 audit-report.json
 design-review/lighthouse/*.json
 
-# Design-review screenshots: full-page captures run to ~19 MB each. The
-# viewport-sized shots are committed as the visual record; regenerate the rest
-# locally with `node scripts/review-shots.mjs --label <name>`.
+# Design-review screenshots ARE the committed visual record — downscaled to 1x
+# before committing (the global *.png above would otherwise silently eat every
+# `git add -A`, which is exactly what happened for the mission's first eleven
+# commits: zero screenshots reached the repo while the docs claimed an archive).
+# Order matters: this negation must follow *.png, and the full-page exclusion
+# must follow the negation.
+!design-review/**/*.png
 design-review/**/*-full-*.png
