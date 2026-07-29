@@ -147,6 +147,7 @@ function Masthead() {
     <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
       <p className="eyebrow text-copper-deep">The archive, read across nations</p>
 
+      <span aria-hidden className="stratum-rule mb-7 block max-w-[110px]" />
       <h1 className="mt-4 font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
         Themes
       </h1>
@@ -180,13 +181,13 @@ function Masthead() {
       <div className="mt-7 flex flex-wrap gap-3">
         <Link
           href="/timeline"
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Or read it period by period
         </Link>
         <Link
           href={routes.atlas()}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas by nation
         </Link>
@@ -219,7 +220,7 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
         />
 
         <p className="eyebrow flex items-center justify-between gap-3 text-ink-3">
-          <span style={{ color: theme.tint }}>{String(rank).padStart(2, "0")}</span>
+          <span style={{ color: theme.ink }}>{String(rank).padStart(2, "0")}</span>
           <span className="tabular-nums">
             {num(theme.events.length)} events · {num(theme.nations)} nations
           </span>

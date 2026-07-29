@@ -247,7 +247,7 @@ function Contents({ chapters }: { chapters: Chapter[] }) {
           <li key={c.anchor}>
             <a
               href={`#${c.anchor}`}
-              className="inline-flex items-baseline gap-2 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+              className="inline-flex items-baseline gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
             >
               <span className="font-mono text-[0.78rem] tabular-nums text-[#454f4c]">{c.label}</span>
               <span className="font-mono text-[0.64rem] tabular-nums text-ink-3">
@@ -343,7 +343,7 @@ function EventItem({ event, yearLabel }: { event: WorldEvent; yearLabel: string 
             {event.nation}
           </Link>
           <span className="text-ink-3"> · </span>
-          <span style={{ color: cat?.tint }}>{cat?.label ?? event.category}</span>
+          <span style={{ color: cat?.ink }}>{cat?.label ?? event.category}</span>
           {event.yearLabel !== yearLabel && (
             <span className="text-ink-3"> · {event.yearLabel}</span>
           )}
@@ -440,14 +440,14 @@ function PeriodFooter({
         <Link
           href="/timeline"
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           All periods
         </Link>
         <Link
           href={routes.atlas()}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas
         </Link>

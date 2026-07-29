@@ -147,7 +147,7 @@ function StubScreen({
 
         <Link
           href={`/country/${meta.code}`}
-          className="group mx-auto mt-11 flex w-fit items-center gap-2 rounded-full border border-copper/30 px-5 py-2.5 text-sm text-copper-bright transition hover:bg-copper/10"
+          className="group mx-auto mt-11 flex w-fit items-center gap-2 rounded-[3px] border border-copper/30 px-5 py-2.5 text-sm text-copper-bright transition hover:bg-copper/10"
         >
           <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
             <path d="M16 10H4m0 0l5 5m-5-5l5-5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />

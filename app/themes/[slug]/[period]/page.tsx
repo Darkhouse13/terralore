@@ -274,6 +274,11 @@ function Masthead({ slice, title }: { slice: Slice; title: string }) {
 
   return (
     <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+      <span
+        aria-hidden
+        className="stratum-rule mb-7 block max-w-[110px]"
+        style={{ ["--stratum-tint" as string]: theme.tint }}
+      />
       <p className="eyebrow flex items-center gap-2.5 text-copper-deep">
         <span
           aria-hidden="true"
@@ -484,14 +489,14 @@ function SliceFooter({
         <Link
           href={`/themes/${theme.slug}`}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           All {num(theme.events.length)} {theme.label} events
         </Link>
         <Link
           href={`/timeline/${period.slug}`}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Every theme in {lowerPeriod(period.label)}
         </Link>
@@ -517,7 +522,7 @@ function SliceFooter({
                   <span className="font-sans text-[0.84rem] text-[#454f4c]">{g.period.label}</span>
                   <span
                     className="font-mono text-[0.66rem] tabular-nums"
-                    style={{ color: theme.tint }}
+                    style={{ color: theme.ink }}
                   >
                     {num(g.events.length)}
                   </span>

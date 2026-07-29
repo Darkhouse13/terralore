@@ -146,9 +146,18 @@ const CATEGORY = {
   disaster: "#5F6D6C",
 };
 
+const CATEGORY_CHALK = {"founding": "#987b41", "independence": "#b26f47", "war": "#be675f", "politics": "#717eb1", "religion": "#99729d", "culture": "#4e8b7e", "economy": "#71865b", "colonization": "#a7735a", "migration": "#54889b", "disaster": "#778382"};
+
+const CATEGORY_INK = {"founding": "#806329", "independence": "#9c552b", "war": "#ae453b", "politics": "#5464a1", "religion": "#85578a", "culture": "#2b7364", "economy": "#566f3c", "colonization": "#95573a", "migration": "#2c6c84", "disaster": "#5c6a69"};
+
 for (const [name, hex] of Object.entries(CATEGORY)) {
   PAIRS.push([hex, C.depth6, "ui", `category ${name} — mark on the deep`]);
   PAIRS.push([hex, C.land0, "ui", `category ${name} — mark on limestone`]);
+  // The `ink` variant is what may carry words: the mark pigments are sized for
+  // 3:1 and four of the ten miss 4.5:1 as small text, which is a real bug and
+  // not a near miss. Asserting both keeps the pair honest.
+  PAIRS.push([CATEGORY_INK[name], C.land0, "body", `category ${name} — INK, small text on limestone`]);
+  PAIRS.push([CATEGORY_CHALK[name], C.depth6, "body", `category ${name} — CHALK, small text on the deep`]);
 }
 
 let failed = 0;

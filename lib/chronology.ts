@@ -194,7 +194,12 @@ export interface ThemeBucket {
   category: EventCategory;
   slug: string;
   label: string;
+  /** Mark colour (bands, dots, rules) — 3:1 on both grounds. */
   tint: string;
+  /** The same pigment as small text on limestone — 4.5:1. */
+  ink: string;
+  /** The same pigment as small text on the deep — 4.5:1. */
+  chalk: string;
   events: WorldEvent[];
   nations: number;
 }
@@ -220,6 +225,8 @@ export function allThemes(): ThemeBucket[] {
         slug: themeSlug(ev.category),
         label: meta?.label ?? ev.category,
         tint: meta?.tint ?? "var(--color-copper)",
+        ink: meta?.ink ?? "var(--color-copper-deep)",
+        chalk: meta?.chalk ?? "var(--color-copper-bright)",
         events: [],
         nations: 0,
       };
@@ -317,4 +324,34 @@ export function meanwhileElsewhere(
     if (!progressed) break;
   }
   return out;
+}
+
+/**
+ * The category a set of events is mostly made of, and its pigment.
+ *
+ * The same rule the journey's timeline rail and the chronicle's chapter openers
+ * use, lifted here so every surface that shows a *group* of events tints it
+ * identically. A reader who learns that madder means rupture on the rail should
+ * read the same thing off the chronology's strata without being told twice.
+ *
+ * Ties resolve to whichever category was seen first, which is stable for a given
+ * build because the corpus is traversed in a fixed order.
+ */
+export function dominantCategory(
+  events: { category: EventCategory }[],
+): { category: EventCategory; tint: string; ink: string; chalk: string } | null {
+  if (!events.length) return null;
+  const counts = new Map<EventCategory, number>();
+  for (const e of events) counts.set(e.category, (counts.get(e.category) ?? 0) + 1);
+  let best: EventCategory | null = null;
+  let bestN = 0;
+  for (const [cat, n] of counts) {
+    if (n > bestN) {
+      bestN = n;
+      best = cat;
+    }
+  }
+  if (!best) return null;
+  const m = CATEGORY_META[best];
+  return { category: best, tint: m.tint, ink: m.ink, chalk: m.chalk };
 }

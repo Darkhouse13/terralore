@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import { allPeriods, corpusStats, formatYear, type PeriodBucket } from "@/lib/chronology";
+import { allPeriods, corpusStats, dominantCategory, formatYear, type PeriodBucket } from "@/lib/chronology";
+import { CATEGORY_META } from "@/lib/types";
 import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
 
 /**
@@ -147,13 +148,13 @@ export default function ChronologyPage() {
               <Link
                 href={`/timeline/${common.length ? common[common.length - 1].slug : periods[periods.length - 1].slug}`}
                 prefetch={false}
-                className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+                className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
               >
                 Start with the present
               </Link>
               <Link
                 href={routes.atlas()}
-                className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+                className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
               >
                 Browse the atlas
               </Link>
@@ -218,7 +219,8 @@ function PeriodList({
   if (periods.length === 0) return null;
 
   return (
-    <section className="border-b border-[rgba(138, 74, 40,0.22)] py-11">
+    <section className="py-11">
+      <span aria-hidden className="stratum-rule mb-7 block max-w-[110px]" />
       <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
         {title}
       </h2>
@@ -235,6 +237,22 @@ function PeriodList({
   );
 }
 
+/**
+ * One stratum of the core.
+ *
+ * This page is the one place in the product that is *about* depth in time, and
+ * it used to render as a list of horizontal bar-chart rows — a perfectly good
+ * data table that said nothing about the subject. Each period is now a band in
+ * a single continuous column: its **width** carries how much of the record
+ * falls there, its **pigment** carries what the period was mostly made of. Read
+ * top to bottom, the column is a core sample of recorded history — you can see
+ * the archive thin out into deep time, and see the 1940s run madder before you
+ * read a single label.
+ *
+ * The text, the link and the counts are unchanged, so nothing an engine or a
+ * screen reader consumes moved: the band is `aria-hidden` decoration layered
+ * over a normal list item.
+ */
 function PeriodRow({
   period,
   busiest,
@@ -246,15 +264,37 @@ function PeriodRow({
 }) {
   const n = period.events.length;
   const share = (n / total) * 100;
-  const width = Math.max(1.5, Math.sqrt(n / busiest) * 100);
+  // Square-root scaled: the densest period holds hundreds of events and the
+  // sparsest holds a handful, so a linear scale would render most of recorded
+  // history as an invisible hairline.
+  const width = Math.max(6, Math.sqrt(n / busiest) * 100);
+  const dom = dominantCategory(period.events);
+  const tint = dom?.tint ?? "var(--color-copper)";
 
   return (
-    <li className="border-t border-[rgba(138, 74, 40,0.16)] first:border-t-0">
+    <li>
       <Link
         href={`/timeline/${period.slug}`}
         prefetch={false}
-        className="group grid gap-2.5 py-4 transition-colors hover:bg-[rgba(200, 114, 68,0.07)] sm:grid-cols-[minmax(0,15rem)_1fr_minmax(0,11rem)] sm:items-center sm:gap-6 sm:px-2"
+        className="group relative grid gap-2 py-3.5 pl-[86px] transition-colors hover:bg-[rgba(200,114,68,0.06)] sm:grid-cols-[minmax(0,17rem)_1fr] sm:items-baseline sm:gap-6"
       >
+        {/* the stratum: a band of the core, in this period's own pigment */}
+        <span
+          aria-hidden="true"
+          className="absolute bottom-0 left-0 top-0 w-[70px] overflow-hidden"
+        >
+          <span
+            className="absolute right-0 top-0 h-full transition-[width] duration-200"
+            style={{
+              width: `${width}%`,
+              background: tint,
+              opacity: 0.72,
+            }}
+          />
+          {/* the hairline between layers — a bedding plane, not a table rule */}
+          <span className="absolute inset-x-0 top-0 h-px bg-[rgba(22,32,30,0.16)]" />
+        </span>
+
         <div>
           <h3 className="font-display text-[1.16rem] font-[440] leading-snug text-[#16201e] transition-colors group-hover:text-copper-deep">
             {period.label}
@@ -264,21 +304,18 @@ function PeriodRow({
           </p>
         </div>
 
-        {/* Square-root scaled — see the note in the page component. */}
-        <div
-          aria-hidden="true"
-          className="h-[7px] w-full overflow-hidden rounded-full bg-[rgba(138, 74, 40,0.12)]"
-        >
-          <div
-            className="h-full rounded-full bg-copper/75 transition-colors group-hover:bg-copper"
-            style={{ width: `${width}%` }}
-          />
-        </div>
-
-        <p className="font-mono text-[0.72rem] tabular-nums text-ink-3 sm:text-right">
+        <p className="font-mono text-[0.72rem] tabular-nums text-ink-3">
           <span className="text-copper-deep">{n.toLocaleString("en-US")}</span> events ·{" "}
           {period.nations} {period.nations === 1 ? "nation" : "nations"} ·{" "}
           {share >= 1 ? share.toFixed(0) : share.toFixed(1)}%
+          {dom && (
+            <>
+              {" · mostly "}
+              <span style={{ color: CATEGORY_META[dom.category].ink }}>
+                {CATEGORY_META[dom.category].label}
+              </span>
+            </>
+          )}
         </p>
       </Link>
     </li>

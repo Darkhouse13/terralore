@@ -203,7 +203,7 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
 
           <Masthead theme={theme} densest={densest} continents={continents} />
 
-          <Contents groups={groups} tint={theme.tint} />
+          <Contents groups={groups} ink={theme.ink} />
 
           <article>
             {groups.map((g) => (
@@ -212,7 +212,7 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
                 themeSlug={theme.slug}
                 period={g.period}
                 events={g.events}
-                tint={theme.tint}
+                ink={theme.ink}
               />
             ))}
           </article>
@@ -264,7 +264,16 @@ function Masthead({
 
   return (
     <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
-      <p className="eyebrow flex items-center gap-2.5 text-copper-deep">
+      {/* The signature, in this theme's own pigment. Ten theme pages used to be
+          identical but for their words; a reader arriving on "War & Rupture"
+          should feel madder before reading it, and the pigment is already the
+          one the rail, the chronology and the chronicle use for that category. */}
+      <span
+        aria-hidden
+        className="stratum-rule mb-7 block max-w-[110px]"
+        style={{ ["--stratum-tint" as string]: theme.tint }}
+      />
+      <p className="eyebrow flex items-center gap-2.5" style={{ color: theme.ink }}>
         <span
           aria-hidden="true"
           className="inline-block h-2.5 w-2.5 rounded-full"
@@ -339,7 +348,7 @@ function Masthead({
   );
 }
 
-function Contents({ groups, tint }: { groups: PeriodGroup[]; tint: string }) {
+function Contents({ groups, ink }: { groups: PeriodGroup[]; ink: string }) {
   return (
     <nav aria-label="Periods" className="mt-10 border-b border-[rgba(138, 74, 40,0.22)] pb-9">
       <h2 className="eyebrow text-ink-3">Jump to a period</h2>
@@ -348,12 +357,12 @@ function Contents({ groups, tint }: { groups: PeriodGroup[]; tint: string }) {
           <li key={g.period.slug}>
             <a
               href={`#p-${g.period.slug}`}
-              className="inline-flex items-baseline gap-1.5 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3 py-1.5 transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+              className="inline-flex items-baseline gap-1.5 rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3 py-1.5 transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
             >
               <span className="font-sans text-[0.84rem] text-[#454f4c]">{g.period.label}</span>
               <span
                 className="font-mono text-[0.66rem] tabular-nums"
-                style={{ color: tint }}
+                style={{ color: ink }}
               >
                 {num(g.events.length)}
               </span>
@@ -391,12 +400,12 @@ function PeriodSection({
   themeSlug,
   period,
   events,
-  tint,
+  ink,
 }: {
   themeSlug: string;
   period: Period;
   events: WorldEvent[];
-  tint: string;
+  ink: string;
 }) {
   const nations = new Set(events.map((e) => e.code)).size;
   const preview = events.slice(0, PREVIEW);
@@ -405,7 +414,7 @@ function PeriodSection({
 
   return (
     <section id={`p-${period.slug}`} className="scroll-mt-6 border-b border-[rgba(138, 74, 40,0.22)] py-9">
-      <p className="eyebrow" style={{ color: tint }}>
+      <p className="eyebrow" style={{ color: ink }}>
         {num(events.length)} {events.length === 1 ? "event" : "events"} · {num(nations)}{" "}
         {nations === 1 ? "nation" : "nations"}
       </p>
@@ -482,19 +491,19 @@ function ThemeFooter({ theme, others }: { theme: ThemeBucket; others: ThemeBucke
       <div className="flex flex-wrap gap-3">
         <Link
           href="/themes"
-          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           All {others.length + 1} themes
         </Link>
         <Link
           href="/timeline"
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           The chronology, period by period
         </Link>
         <Link
           href={routes.atlas()}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas by nation
         </Link>
@@ -508,7 +517,7 @@ function ThemeFooter({ theme, others }: { theme: ThemeBucket; others: ThemeBucke
               <Link
                 href={`/themes/${t.slug}`}
                 prefetch={false}
-                className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
               >
                 <span
                   aria-hidden="true"

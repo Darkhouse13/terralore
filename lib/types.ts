@@ -204,6 +204,19 @@ export interface CountryHistory {
  * from canvas and generated SVG as well as from CSS, and a custom property
  * resolves in none of those.
  *
+ * Three variants, because one pigment cannot do three jobs:
+ *
+ *   tint   the MARK — bands, dots, rules. Cleared at 3:1 against BOTH grounds,
+ *          which is what confines it to the narrow mid-dark window below.
+ *   ink    the pigment as SMALL TEXT on limestone (4.5:1). Four of the ten
+ *          mark values miss that, so tinting a 0.72rem label with `tint` is a
+ *          real accessibility bug, not a near miss.
+ *   chalk  the pigment as SMALL TEXT on the deep (4.5:1). ALL ten mark values
+ *          miss that — they sit around 3.2:1 — so this one is not optional.
+ *
+ * The rule: `tint` when the pigment is a shape, `ink`/`chalk` the moment it
+ * carries words. scripts/check-contrast.mjs asserts all thirty pairs.
+ *
  * The narrow, mid-dark range is not a stylistic tic: a category mark appears on
  * BOTH grounds — the journey and timeline rail sit on the deep, the chronicle
  * and theme pages on limestone — so a single value has to clear 3:1 against
@@ -212,16 +225,16 @@ export interface CountryHistory {
  */
 export const CATEGORY_META: Record<
   EventCategory,
-  { label: string; tint: string }
+  { label: string; tint: string; ink: string; chalk: string }
 > = {
-  founding: { label: "Formation", tint: "#8e6e2e" }, // yellow ochre
-  independence: { label: "Independence", tint: "#a85b2e" }, // burnt orange
-  war: { label: "War & Rupture", tint: "#b0463c" }, // madder
-  politics: { label: "Politics & Power", tint: "#5464a1" }, // indigo
-  religion: { label: "Religion", tint: "#85578a" }, // tyrian
-  culture: { label: "Culture & Ideas", tint: "#2c7566" }, // verdigris
-  economy: { label: "Economy & Trade", tint: "#566f3c" }, // terre verte
-  colonization: { label: "Colonisation", tint: "#96583b" }, // sienna
-  migration: { label: "Peoples & Migration", tint: "#2c6c84" }, // cerulean
-  disaster: { label: "Catastrophe", tint: "#5f6d6c" }, // graphite
+  founding: { label: "Formation", tint: "#8e6e2e", ink: "#806329", chalk: "#987b41" }, // yellow ochre
+  independence: { label: "Independence", tint: "#a85b2e", ink: "#9c552b", chalk: "#b26f47" }, // burnt orange
+  war: { label: "War & Rupture", tint: "#b0463c", ink: "#ae453b", chalk: "#be675f" }, // madder
+  politics: { label: "Politics & Power", tint: "#5464a1", ink: "#5464a1", chalk: "#717eb1" }, // indigo
+  religion: { label: "Religion", tint: "#85578a", ink: "#85578a", chalk: "#99729d" }, // tyrian
+  culture: { label: "Culture & Ideas", tint: "#2c7566", ink: "#2b7364", chalk: "#4e8b7e" }, // verdigris
+  economy: { label: "Economy & Trade", tint: "#566f3c", ink: "#566f3c", chalk: "#71865b" }, // terre verte
+  colonization: { label: "Colonisation", tint: "#96583b", ink: "#95573a", chalk: "#a7735a" }, // sienna
+  migration: { label: "Peoples & Migration", tint: "#2c6c84", ink: "#2c6c84", chalk: "#54889b" }, // cerulean
+  disaster: { label: "Catastrophe", tint: "#5f6d6c", ink: "#5c6a69", chalk: "#778382" }, // graphite
 };

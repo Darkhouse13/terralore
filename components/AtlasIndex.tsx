@@ -34,6 +34,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
     [entries],
   );
 
+
   const filtered = useMemo(() => {
     const query = q.trim().toLowerCase();
     return entries
@@ -46,6 +47,38 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
       )
       .sort((a, b) => a.name.localeCompare(b.name));
   }, [entries, q, region]);
+
+  // Continent groups, in a fixed order so the page's outline is stable across
+  // builds (and so Africa does not move because a nation was added).
+  const groups = useMemo(() => {
+    const order = [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "South America",
+      "Oceania",
+      "Antarctica",
+    ];
+    const by = new Map<string, IndexEntry[]>();
+    for (const e of filtered) {
+      const k = e.continent ?? "Other";
+      const list = by.get(k);
+      if (list) list.push(e);
+      else by.set(k, [e]);
+    }
+    return [...by.entries()]
+      .sort((a, b) => {
+        const ia = order.indexOf(a[0]);
+        const ib = order.indexOf(b[0]);
+        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a[0].localeCompare(b[0]);
+      })
+      .map(([name, items]) => ({
+        name,
+        slug: name.toLowerCase().replace(/\s+/g, "-"),
+        items,
+      }));
+  }, [filtered]);
 
   return (
     <main
@@ -133,52 +166,84 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
           </div>
         </header>
 
-        {/* grid */}
-        <div className="mt-[30px] grid gap-3 [grid-template-columns:repeat(auto-fill,minmax(330px,1fr))]">
-          {filtered.map((e) => {
-            const nonUN = e.unMember === false;
-            const since = e.foundingYear ?? "—";
-            return (
-              <Link
-                key={e.code}
-                href={`/country/${e.code}`}
-                prefetch={false}
-                className="group flex items-center gap-4 rounded-[6px] border border-copper/12 bg-white/[0.012] px-[18px] py-[15px] transition-colors hover:border-copper/40 hover:bg-copper/[0.05]"
+        {/* ── Grouped by continent ────────────────────────────────────────
+            Previously one flat wall of 186 identical cards. Grouping does two
+            jobs at once: it gives a reader somewhere to land, and it gives the
+            HTML a real outline — each continent is an <h2> with its own count,
+            so an engine answering "which nations are in Africa" finds a heading
+            and a list rather than 186 undifferentiated links. The grouping is
+            server-rendered like everything else; the filter narrows within it. */}
+        {groups.map((g) => (
+          <section key={g.name} className="mt-11 first:mt-8" aria-labelledby={`c-${g.slug}`}>
+            <div className="flex items-baseline gap-4">
+              <h2
+                id={`c-${g.slug}`}
+                className="font-display text-[22px] font-[420] text-chalk-hi"
               >
-                <span className="grid h-7 w-10 flex-none place-items-center text-[15px] leading-none">
-                  {e.flag ?? "🏳️"}
-                </span>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2.5">
-                    <span className="truncate font-display text-[19px] text-land-0">{e.name}</span>
-                    <span className="flex-none font-mono text-[10px] tracking-[0.1em] text-chalk-4">
-                      {e.code}
+                {g.name}
+              </h2>
+              <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-chalk-4">
+                {g.items.length} {g.items.length === 1 ? "nation" : "nations"}
+              </span>
+              <span aria-hidden className="stratum-rule ml-auto max-w-[90px] flex-1" />
+            </div>
+
+            <div className="mt-4 grid gap-2.5 [grid-template-columns:repeat(auto-fill,minmax(330px,1fr))]">
+              {g.items.map((e) => {
+                const nonUN = e.unMember === false;
+                const since = e.foundingYear ?? "—";
+                return (
+                  <Link
+                    key={e.code}
+                    href={`/country/${e.code}`}
+                    prefetch={false}
+                    className="group flex items-center gap-4 rounded-[3px] border border-copper/12 bg-white/[0.012] px-[18px] py-[15px] transition-colors hover:border-copper/40 hover:bg-copper/[0.05]"
+                  >
+                    <span className="grid h-7 w-10 flex-none place-items-center text-[15px] leading-none">
+                      {e.flag ?? "🏳️"}
                     </span>
-                    {nonUN && (
-                      <span className="flex-none rounded-[2px] border border-[rgba(84, 100, 161,0.4)] px-1.5 py-px font-mono text-[9px] uppercase tracking-[0.1em] text-[#5464a1]">
-                        Non-UN
-                      </span>
-                    )}
-                  </div>
-                  <div className="mt-1.5 font-mono text-[10.5px] tracking-[0.08em] text-chalk-3">
-                    {e.continent ?? "—"}
-                    {e.population != null && ` · ${formatPopulation(e.population)}`}
-                  </div>
-                </div>
-                <span
-                  className={`flex-none text-right font-display text-[15px] ${
-                    since === "—" ? "text-chalk-5" : "text-chalk-2"
-                  }`}
-                >
-                  {since}
-                </span>
-                <span className="flex-none text-[15px] text-chalk-5 transition-transform group-hover:translate-x-0.5">
-                  →
-                </span>
-              </Link>
-            );
-          })}
-        </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-baseline gap-2.5">
+                        <span className="truncate font-display text-[19px] text-land-0">
+                          {e.name}
+                        </span>
+                        <span className="flex-none font-mono text-[10px] tracking-[0.1em] text-chalk-4">
+                          {e.code}
+                        </span>
+                        {nonUN && (
+                          <span className="flex-none rounded-[2px] border border-[rgba(113,126,177,0.45)] px-1.5 py-px font-mono text-[9px] uppercase tracking-[0.1em] text-[#717eb1]">
+                            Non-UN
+                          </span>
+                        )}
+                      </div>
+                      <div className="mt-1.5 flex items-baseline justify-between gap-3 font-mono text-[10.5px] tracking-[0.08em]">
+                        {/* Both sides truncate. A handful of nations carry long
+                            founding strings ("24 September 1973 (declared);
+                            recognised 10 September 1974") which, left
+                            unshrinkable, ran clean out of the card. */}
+                        <span className="min-w-0 flex-1 truncate text-chalk-3">
+                          {e.subregion ?? e.continent ?? "—"}
+                          {e.population != null && ` · ${formatPopulation(e.population)}`}
+                        </span>
+                        <span
+                          title={since === "—" ? undefined : since}
+                          className={`min-w-0 max-w-[55%] flex-none truncate text-right ${
+                            since === "—" ? "text-chalk-5" : "text-chalk-2"
+                          }`}
+                        >
+                          {since}
+                        </span>
+                      </div>
+                    </div>
+                    <span className="flex-none text-[15px] text-chalk-5 transition-transform group-hover:translate-x-0.5">
+                      →
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        ))}
 
         {/* empty state */}
         {filtered.length === 0 && (

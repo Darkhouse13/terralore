@@ -384,7 +384,7 @@ function Stage({
             className="h-2 w-2 rounded-full"
             style={{ background: cat.tint, boxShadow: `0 0 12px ${cat.tint}` }}
           />
-          <span style={{ color: cat.tint }}>{cat.label}</span>
+          <span style={{ color: cat.chalk }}>{cat.label}</span>
           <span className="text-chalk-4">· {m.era.title}</span>
         </div>
 

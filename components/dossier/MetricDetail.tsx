@@ -435,7 +435,7 @@ export default function MetricDetail({
                     <button
                       type="button"
                       onClick={enterCompare}
-                      className="rounded-full border border-copper/30 px-3 py-[5px] font-mono text-[11px] uppercase tracking-[0.1em] text-chalk-2 transition-colors hover:border-copper hover:text-chalk-hi"
+                      className="rounded-[3px] border border-copper/30 px-3 py-[5px] font-mono text-[11px] uppercase tracking-[0.1em] text-chalk-2 transition-colors hover:border-copper hover:text-chalk-hi"
                     >
                       + Compare
                     </button>

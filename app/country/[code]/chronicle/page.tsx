@@ -260,13 +260,13 @@ function Masthead({
       <div className="mt-7 flex flex-wrap gap-3">
         <Link
           href={routes.journey(meta.code)}
-          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           ▶ Experience the time-journey
         </Link>
         <Link
           href={routes.dossier(meta.code)}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           The data dossier
         </Link>
@@ -524,7 +524,7 @@ function EventItem({
         </span>
         <span
           className="mt-1.5 block font-mono text-[0.6rem] uppercase leading-tight tracking-[0.12em] text-ink-3"
-          style={{ color: cat?.tint }}
+          style={{ color: cat?.ink }}
         >
           {cat?.label ?? event.category}
         </span>
@@ -713,14 +713,14 @@ function ChronicleFooter({
         <Link
           href={routes.journey(meta.code)}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
         >
           ▶ Experience {meta.name} as a time-journey
         </Link>
         <Link
           href={routes.atlas()}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-full border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
         >
           Browse the atlas
         </Link>
@@ -735,7 +735,7 @@ function ChronicleFooter({
               <Link
                 href={`/timeline/${p.slug}`}
                 prefetch={false}
-                className="inline-flex items-center rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                className="inline-flex items-center rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
               >
                 {p.label}
               </Link>
@@ -746,7 +746,7 @@ function ChronicleFooter({
               <Link
                 href={`/themes/${t.slug}`}
                 prefetch={false}
-                className="inline-flex items-center rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                className="inline-flex items-center rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
               >
                 {t.label}
               </Link>
@@ -764,7 +764,7 @@ function ChronicleFooter({
                 <Link
                   href={routes.chronicle(nb.code)}
                   prefetch={false}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                  className="inline-flex items-center gap-1.5 rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
                 >
                   {nb.flag && <span aria-hidden="true">{nb.flag}</span>}
                   {nb.name}
