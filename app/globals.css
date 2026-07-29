@@ -149,6 +149,32 @@ body {
   );
 }
 
+/* A section opener: the stratum rule as a section's leading edge.
+   Replaces the full-width hairline that made the light surfaces read as a
+   broadsheet — the banned default — with the signature device. Short, so it
+   punctuates rather than divides: a hairline running the full measure says
+   "table row", a 110px band says "new layer". */
+.stratum-top {
+  position: relative;
+}
+.stratum-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 5px;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom,
+    var(--stratum-tint, var(--color-copper)) 0 1px,
+    transparent 1px 2px,
+    color-mix(in oklab, var(--stratum-tint, var(--color-copper)) 55%, transparent) 2px 3px,
+    transparent 3px 4px,
+    color-mix(in oklab, var(--stratum-tint, var(--color-copper)) 25%, transparent) 4px 5px
+  );
+}
+
 /* Paper grain, layered behind reading content */
 .paper-grain {
   position: relative;

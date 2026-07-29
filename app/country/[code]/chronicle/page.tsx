@@ -207,7 +207,7 @@ function Masthead({
   eventCount: number;
 }) {
   return (
-    <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+    <header className="mt-9 stratum-top pb-10">
       <p className="eyebrow flex items-center gap-2 text-copper-deep">
         {meta.flag && <span className="text-base leading-none">{meta.flag}</span>}
         <span>
@@ -631,7 +631,7 @@ function FigureGallery({
   sourceIndex: Map<string, number>;
 }) {
   return (
-    <section className="border-b border-[rgba(138, 74, 40,0.22)] py-11">
+    <section className="stratum-top py-11">
       <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
         Pivotal figures
       </h2>
@@ -646,7 +646,7 @@ function FigureGallery({
 
 function References({ sources }: { sources: Source[] }) {
   return (
-    <section id="references" className="scroll-mt-6 border-b border-[rgba(138, 74, 40,0.22)] py-11">
+    <section id="references" className="scroll-mt-6 stratum-top py-11">
       <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
         References
       </h2>

@@ -223,6 +223,15 @@ like one thing:
   category, replacing the anonymous hairline.
 - **On the dossier** — the active tab sits on a stratum rule rather than a plain
   underline.
+- **On the chronology** — `/timeline` is the page most literally about depth in
+  time, so its period index *is* the core sample: each period a band whose width
+  carries how much of the record falls there and whose pigment carries what the
+  period was mostly made of.
+- **On theme pages** — each of the ten opens in its own pigment, so arriving on
+  "War & Rupture" feels like madder before the title is read.
+- **On section openers** (`.stratum-top`) — a short band replaces the full-width
+  hairline. A hairline running the full measure says "table row"; a 110px band
+  says "new layer", and it keeps these pages off the banned broadsheet default.
 - **In the favicon and OG images** — the mark is a sphere cut in section, showing its
   bands: limestone at the surface, then copper, verdigris, shoal, and the abyssal
   below (`scripts/build-icon.mjs`).

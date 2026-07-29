@@ -55,8 +55,13 @@ export default function HomeArchive() {
 
   return (
     <section id="archive" className="paper-grain scroll-mt-0 bg-land-0 text-ink">
-      {/* copper hairline — the seam between the deep and the shore */}
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-copper/50 to-transparent" />
+      {/* The seam where the deep meets the shore — the one place on the site
+          the two grounds actually touch, so the signature belongs here more
+          than anywhere. A gradient hairline said "divider"; the stratum band
+          says "you are crossing into another layer". */}
+      <div aria-hidden className="mx-auto max-w-[72rem] px-5 md:px-8">
+        <span className="stratum-rule block max-w-[110px]" />
+      </div>
 
       <div className="relative z-[1] mx-auto max-w-[72rem] px-5 py-16 md:px-8 md:py-24">
         {/* ── the credo ─────────────────────────────────────────────────── */}
@@ -96,7 +101,7 @@ export default function HomeArchive() {
                 key={meta.code}
                 href={routes.chronicle(meta.code)}
                 prefetch={false}
-                className="group border border-[rgba(138, 74, 40,0.25)] bg-[rgba(255,252,244,0.5)] p-6 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
+                className="group rounded-[3px] border border-[rgba(138,74,40,0.25)] bg-[rgba(255,252,244,0.5)] p-6 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
               >
                 <p className="eyebrow flex items-center gap-2 text-ink-3">
                   {meta.flag && <span className="text-sm leading-none">{meta.flag}</span>}
@@ -140,7 +145,7 @@ export default function HomeArchive() {
                 key={d.slug}
                 href={`/timeline/${d.slug}`}
                 prefetch={false}
-                className="group border border-[rgba(138, 74, 40,0.25)] px-5 py-4 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
+                className="group rounded-[3px] border border-[rgba(138,74,40,0.25)] px-5 py-4 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
               >
                 <p className="font-display text-[1.12rem] font-[420] text-[#16201e] transition-colors group-hover:text-copper-deep">
                   {d.label}
@@ -174,7 +179,7 @@ export default function HomeArchive() {
                 key={t.slug}
                 href={`/themes/${t.slug}`}
                 prefetch={false}
-                className="group inline-flex items-baseline gap-2.5 border border-[rgba(138, 74, 40,0.25)] px-4 py-2.5 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
+                className="group inline-flex items-baseline gap-2.5 rounded-[3px] border border-[rgba(138,74,40,0.25)] px-4 py-2.5 transition-colors hover:border-copper hover:bg-[rgba(200, 114, 68,0.07)]"
               >
                 <span
                   aria-hidden

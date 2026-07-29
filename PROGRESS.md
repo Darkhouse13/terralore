@@ -341,3 +341,54 @@ The evidence that this is contention and not a regression:
 A quiet run measured dossier 94 / chronicle 95 mid-way through Phase B, before any
 change that could plausibly have slowed them. Re-measurement on an idle machine is
 the first item in `FINAL_REPORT.md`.
+
+
+---
+
+## Phase B2 — carrying the identity past the hero
+
+The first identity pass migrated 802 tokens but only *redesigned* four surfaces:
+the globe, the dossier tabs, the timeline rail and the chronicle's chapter openers.
+Everything else was the old layout in new colours, which is exactly why the hero read
+as new and the rest did not.
+
+### What was actually wrong
+
+| Symptom | Count |
+|---|---|
+| Signature device present | 3 files out of ~20 |
+| `rounded-full` text pills (generic-SaaS shape, vs the 3px token) | 23 |
+| Full-width section hairlines doing all the structural work | 9 |
+| Theme pages identical but for their words | 10 |
+
+### The chronology became a core sample
+
+`/timeline` is the one page in the product that is *about* depth in time, and it
+rendered as horizontal bar-chart rows — a fine data table that said nothing about its
+subject. Each period is now a band in one continuous column: **width** = how much of
+the record falls there, **pigment** = what the period was mostly made of.
+
+It reads as a core sample, and the reading is true: the archive visibly thins into
+deep time, the 1880s–90s run sienna for Colonisation, the 1910s and 1940s bulge madder
+for War & Rupture, and the 1960s widen in indigo. Every bit of it derived from the
+corpus.
+
+### The category pigments needed three variants, not one
+
+Tinting a 0.72rem label with a mark pigment is an accessibility bug, and I shipped one
+before the contrast script caught it. Declaring the pair proved it: **four of ten**
+pigments miss 4.5:1 as small text on limestone, and **all ten** miss it on the deep
+(they sit near 3.2:1). Each category now carries `tint` (mark, 3:1 both grounds),
+`ink` (text on limestone) and `chalk` (text on the deep), solved numerically. **72
+pairs** now assert.
+
+### The atlas got an outline
+
+186 identical cards in one flat wall became continent sections, each with a real
+`<h2>` and count. That is a reader's landing point and a genuine SEO/GEO gain: an
+engine answering "which nations are in Africa" now finds a heading and a scoped list
+instead of 186 undifferentiated links. Server-rendered as before.
+
+**Verified:** validators 0 errors · contrast 72/72 · audit 1,054 pages clean · no
+horizontal scroll at 360px or 390px across six surfaces · Lighthouse unchanged
+(a11y/best-practices/SEO 100 on all three surfaces).

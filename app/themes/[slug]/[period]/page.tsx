@@ -273,7 +273,7 @@ function Masthead({ slice, title }: { slice: Slice; title: string }) {
   const continents = tally(events);
 
   return (
-    <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+    <header className="mt-9 stratum-top pb-10">
       <span
         aria-hidden
         className="stratum-rule mb-7 block max-w-[110px]"

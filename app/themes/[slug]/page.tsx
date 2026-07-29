@@ -263,7 +263,7 @@ function Masthead({
   const last = theme.events[theme.events.length - 1];
 
   return (
-    <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+    <header className="mt-9 stratum-top pb-10">
       {/* The signature, in this theme's own pigment. Ten theme pages used to be
           identical but for their words; a reader arriving on "War & Rupture"
           should feel madder before reading it, and the pigment is already the

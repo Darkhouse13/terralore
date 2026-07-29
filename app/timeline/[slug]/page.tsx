@@ -180,7 +180,7 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
             </ol>
           </nav>
 
-          <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+          <header className="mt-9 stratum-top pb-10">
             <p className="eyebrow text-copper-deep">A world chronology · {spanLabel(period)}</p>
 
             <h1 className="mt-4 font-display text-[clamp(2.6rem,8vw,4.2rem)] font-[380] leading-[0.96] tracking-[-0.015em] text-[#16201e]">
@@ -263,7 +263,7 @@ function Contents({ chapters }: { chapters: Chapter[] }) {
 
 function ChapterSection({ chapter, showHeading }: { chapter: Chapter; showHeading: boolean }) {
   return (
-    <section id={chapter.anchor} className="scroll-mt-6 border-b border-[rgba(138, 74, 40,0.22)] py-11">
+    <section id={chapter.anchor} className="scroll-mt-6 stratum-top py-11">
       {showHeading && (
         <>
           <p className="eyebrow text-copper-deep">

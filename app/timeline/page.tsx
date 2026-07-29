@@ -113,7 +113,7 @@ export default function ChronologyPage() {
             </ol>
           </nav>
 
-          <header className="mt-9 border-b border-[rgba(138, 74, 40,0.22)] pb-10">
+          <header className="mt-9 stratum-top pb-10">
             <p className="eyebrow text-copper-deep">The archive, read across nations</p>
 
             <h1 className="mt-4 max-w-[18ch] font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
