@@ -9,6 +9,15 @@
     "year": 1824,
     "detail": "Peruvian independence was proclaimed in Lima by Jose de San Martin on 28 July 1821, but Spanish armies still held the highlands, and the cause was sealed only on the battlefield. On 9 December 1824, on the high plateau near Ayacucho, a patriot army under Antonio Jose de Sucre, the foremost lieutenant of Simon Bolivar, decisively defeated the royalist forces of the viceroy, breaking Spanish power in South America and confirming the independence of Peru and of the new republics around it. The campaign had been carried forward by Bolivar after San Martin withdrew from Peru in 1822, the two liberators having differed over the political form the country should take."
   },
+  "statehood": {
+    "formation": {
+      "year": 1821,
+      "yearLabel": "28 July 1821",
+      "label": "San Martín proclaims Peruvian independence in the Plaza Mayor",
+      "detail": "The Battle of Ayacucho in 1824 secured that independence and ended Spanish rule in South America, which is the date the corpus's founding claim uses. The Inca empire was seated here and the chronicle gives it its due, but the republic is not its successor state.",
+      "sources": ["wikipedia-peruvian-independence", "statedept-peru"]
+    }
+  },
   "quickFacts": [
     { "label": "Oldest civilisation", "value": "Caral-Supe, c. 3000-1800 BCE, among the oldest cities in the Americas" },
     { "label": "Inca capital", "value": "Cusco, heart of Tawantinsuyu, the Realm of the Four Quarters" },
@@ -194,7 +203,9 @@
     { "id": "unesco-chavin", "label": "Chavin (Archaeological Site)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/330/", "kind": "gov" },
     { "id": "unesco-nazca", "label": "Lines and Geoglyphs of Nasca and Pampas de Jumana", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/700/", "kind": "gov" },
     { "id": "unesco-cusco", "label": "City of Cuzco", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/273/", "kind": "gov" },
-    { "id": "unesco-machu-picchu", "label": "Historic Sanctuary of Machu Picchu", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/274/", "kind": "gov" }
+    { "id": "unesco-machu-picchu", "label": "Historic Sanctuary of Machu Picchu", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/274/", "kind": "gov" },
+    { "id": "wikipedia-peruvian-independence", "label": "Peruvian War of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Peruvian_War_of_Independence", "kind": "reference" },
+    { "id": "statedept-peru", "label": "A Guide to the United States' History of Recognition: Peru", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/peru", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

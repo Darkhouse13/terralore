@@ -9,6 +9,15 @@
     "year": 1973,
     "detail": "The Commonwealth of The Bahamas became a sovereign state on 10 July 1973, ending more than three centuries of British colonial rule. Independence came under Prime Minister Lynden Pindling and his Progressive Liberal Party, which had carried the islands to majority rule in 1967 and to internal self-government, and it followed a constitutional conference in London in December 1972. The Bahamas chose to remain within the Commonwealth as a constitutional monarchy, retaining the British sovereign as head of state represented by a governor-general, with a Westminster-style parliament at Nassau. The new nation joined the United Nations the same year. Independence crowned the \"Quiet Revolution\" by which the Black majority, long excluded from power by a white merchant elite, took control of their own affairs without violence."
   },
+  "statehood": {
+    "formation": {
+      "year": 1973,
+      "yearLabel": "10 July 1973",
+      "label": "The Bahamas becomes independent of the United Kingdom",
+      "detail": "The Lucayan population was destroyed within decades of 1492 and the islands were British from the seventeenth century, so 1973 is a formation rather than a restoration.",
+      "sources": ["statedept-bahamas"]
+    }
+  },
   "quickFacts": [
     {
       "label": "Independence",
@@ -610,7 +619,8 @@
       "publisher": "World Bank Group",
       "url": "https://data.worldbank.org/country/bahamas-the",
       "kind": "gov"
-    }
+    },
+    { "id": "statedept-bahamas", "label": "A Guide to the United States' History of Recognition: The Bahamas", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/bahamas", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

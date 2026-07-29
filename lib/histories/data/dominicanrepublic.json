@@ -9,6 +9,23 @@
     "year": 1844,
     "detail": "The Dominican Republic dates its birth as a sovereign nation to 27 February 1844, when patriots of the secret society La Trinitaria, founded by Juan Pablo Duarte in 1838, rose in Santo Domingo and expelled the Haitian authorities who had governed the eastern part of the island since the unification of 1822. The conspirators proclaimed the independence of a new Dominican Republic, separate both from Haiti and from Spain, and the date remains the country's national independence day. Duarte, regarded as the father of Dominican independence, was abroad seeking support when the rising succeeded and was soon pushed aside by rival caudillos; he died in exile in Caracas in 1876, but his vision of a free Dominican state endured."
   },
+  "statehood": {
+    "formation": {
+      "year": 1844,
+      "yearLabel": "1844",
+      "label": "The Dominican Republic declares itself independent of Haiti",
+      "detail": "The republic reverted to Spanish rule in 1861 and won its independence again in 1865 — one of very few states in the corpus to have given up its sovereignty and then taken it back. Later American military occupations strained relations but did not extinguish the state.",
+      "sources": ["statedept-dominican"]
+    },
+    "interruptions": [
+      {
+        "start": 1861,
+        "end": 1865,
+        "label": "Reversion to Spanish rule",
+        "sources": ["statedept-dominican"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Indigenous name", "value": "Quisqueya, the Taino name for the island of Hispaniola" },
     { "label": "Columbus's landfall", "value": "5 December 1492, on his first voyage to the New World" },
@@ -181,7 +198,8 @@
     { "id": "history-state-occupation", "label": "Dominican Republic, 1916-1924", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://2001-2009.state.gov/r/pa/ho/time/wwi/108649.htm", "kind": "gov" },
     { "id": "history-state-milestones", "label": "Milestones in the History of U.S. Foreign Relations, 1961-1968", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/milestones/1961-1968/foreword", "kind": "gov" },
     { "id": "loc-country-study", "label": "Dominican Republic and Haiti: Country Studies", "publisher": "U.S. Library of Congress, Federal Research Division", "url": "https://www.loc.gov/item/2001023524", "kind": "gov" },
-    { "id": "worldbank-dr", "label": "Dominican Republic Overview", "publisher": "The World Bank", "url": "https://www.worldbank.org/en/country/dominicanrepublic/overview", "kind": "gov" }
+    { "id": "worldbank-dr", "label": "Dominican Republic Overview", "publisher": "The World Bank", "url": "https://www.worldbank.org/en/country/dominicanrepublic/overview", "kind": "gov" },
+    { "id": "statedept-dominican", "label": "A Guide to the United States' History of Recognition: Dominican Republic", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/dominican-republic", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"
