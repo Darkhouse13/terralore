@@ -535,6 +535,38 @@ function HistoryHero({
   );
 }
 
+/**
+ * The visible data-vintage stamp.
+ *
+ * A reference site that shows a number without saying how old it is is asking to
+ * be trusted on faith. The vintage was previously only mentioned in a sentence of
+ * italic prose at the very bottom of the footer, which is the same as not saying
+ * it. This puts the originating publishers and the refresh month where a reader
+ * meets them: one line, monospace, above the citations it summarises.
+ *
+ * Publishers are de-duplicated across the "X / World Bank" redistribution pairs —
+ * a reader wants to know the data came from SIPRI and ITU, not that the World Bank
+ * appears in four source records.
+ */
+function vintageStamp(
+  sources: Record<string, DataSource>,
+  updated: string | null,
+): string | null {
+  const list = Object.values(sources);
+  if (!list.length || !updated) return null;
+
+  // "SIPRI / World Bank" → the originator is the first segment. World Bank is kept
+  // only when it is a source's sole publisher (i.e. WDI itself).
+  const names = new Set<string>();
+  for (const s of list) {
+    const first = s.publisher.split("/")[0].trim();
+    names.add(first === "World Bank" ? "World Bank WDI" : first);
+  }
+
+  const vintage = updated.slice(0, 7); // YYYY-MM
+  return `Data: ${[...names].join(" · ")} — ${vintage} vintage`;
+}
+
 function SourcesFooter({
   sources,
   updated,
@@ -542,11 +574,18 @@ function SourcesFooter({
   sources: Record<string, DataSource>;
   updated: string | null;
 }) {
+  const stamp = vintageStamp(sources, updated);
+
   return (
     <footer className="mt-16 border-t border-brass/[0.12] pt-8">
       <div className="eyebrow mb-5 tracking-[0.26em] text-chalk-faint">
         Sources &amp; methodology
       </div>
+      {stamp && (
+        <p className="mb-5 font-mono text-[12px] leading-relaxed tracking-[0.04em] text-brass">
+          {stamp}
+        </p>
+      )}
       <ul className="mb-6 flex flex-col gap-[11px]">
         {Object.values(sources).map((s) => (
           <li key={s.id} className="text-[14px] leading-snug text-chalk-soft">
@@ -562,13 +601,11 @@ function SourcesFooter({
           </li>
         ))}
       </ul>
-      {updated && (
-        <p className="max-w-[680px] font-serif text-[15px] italic leading-relaxed text-chalk-dim">
-          Figures show the latest year with data for each indicator; gaps appear as “—”.
-          Disputed and non-UN territories may be partially or wholly absent from these
-          datasets. Data last refreshed {updated}.
-        </p>
-      )}
+      <p className="max-w-[680px] font-serif text-[15px] italic leading-relaxed text-chalk-dim">
+        Figures show the latest year with data for each indicator; gaps appear as “—”
+        rather than being estimated. Disputed and non-UN territories may be partially or
+        wholly absent from these datasets.
+      </p>
     </footer>
   );
 }

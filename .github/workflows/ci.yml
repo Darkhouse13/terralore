@@ -1,0 +1,76 @@
+name: CI
+
+# A red pipeline blocks deploy. Coolify is configured to build only from commits
+# that pass here, so this is the gate on citation integrity: the history and
+# domain validators enforce that every event and every metric resolves to a
+# source that actually exists in its file.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: validate · typecheck · build · audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      # playwright is a dev-only screenshot tool; never fetch browsers in CI.
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # node:22-alpine in the Dockerfile — keep CI on the same major so a build
+      # that passes here cannot fail in the production image.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install (lockfile only)
+        run: npm ci
+
+      # ── Citation integrity: the product's core invariant ──────────────────
+      - name: Validate corpus (histories + domains)
+        run: npm run validate
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build (static generation of every route)
+        run: npm run build
+
+      # ── Post-build audit: crawl every sitemap URL on the real server ───────
+      # Catches what a build cannot: a page that 500s when rendered, a duplicate
+      # <title>, a missing/duplicated <h1>, malformed JSON-LD, an orphan URL.
+      - name: Start production server
+        run: |
+          npm run start &
+          echo $! > /tmp/server.pid
+          npx --yes wait-on http://127.0.0.1:3000 --timeout 120000
+
+      - name: Audit every sitemap URL
+        run: npm run audit:pages
+
+      - name: Stop server
+        if: always()
+        run: kill "$(cat /tmp/server.pid)" 2>/dev/null || true
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: audit-report.json
+          if-no-files-found: ignore

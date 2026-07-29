@@ -1,5 +1,5 @@
 {
-  "name": "new_project",
+  "name": "terralore",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,23 +9,24 @@
     "lint": "eslint",
     "build-data": "node scripts/build-data.mjs && node scripts/build-globe-still.mjs",
     "build-domains": "node scripts/build-economy.mjs && node scripts/build-society.mjs && node scripts/build-technology.mjs && node scripts/build-geography.mjs && node scripts/build-resources.mjs && node scripts/build-military.mjs && node scripts/validate-domains.mjs && node scripts/build-series-index.mjs",
+    "refresh-domains": "npm run build-data && npm run build-domains",
     "build-series": "node scripts/build-series-index.mjs",
-    "validate": "node scripts/validate-histories.mjs && node scripts/validate-domains.mjs"
+    "build-og": "node scripts/build-og-images.mjs",
+    "validate": "node scripts/validate-histories.mjs && node scripts/validate-domains.mjs",
+    "audit:pages": "node scripts/audit-pages.mjs",
+    "ci": "npm run validate && tsc --noEmit && npm run build"
   },
   "dependencies": {
     "motion": "^12.40.0",
     "next": "16.2.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-globe.gl": "^2.38.0",
-    "three": "^0.184.0"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/three": "^0.184.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "playwright": "^1.60.0",

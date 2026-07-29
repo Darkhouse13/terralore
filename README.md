@@ -1,94 +1,206 @@
 # Terralore
 
-An interactive globe and living archive of world history. Spin the globe, choose a
-nation, read its basic facts, then open a long-form, **sourced** account of the path
-it took to become a country — empires, ruptures, revolutions. Every claim is traceable
-to a cited reference.
+An interactive globe and sourced archive of how nations came to be. Spin the globe,
+choose a nation, read its indicators, then follow the long path it took to become a
+country — every claim traceable to a named reference.
 
-## What it does
+**The corpus today:** 184 nations · 1,085 eras · 4,471 sourced events · 3,600
+references · ~630,000 words of authored prose, spanning the Laetoli footprints
+(c. 3.6 million years ago) to 2026. Every UN member state in the dataset is published.
 
-- **The globe** — a 3D, antique-atlas globe (parchment landmasses on a deep-ocean
-  sphere, brass atmosphere). Hover to highlight a country; click to select it.
-- **The country card** — flag, capital, population, region, area, languages, currency,
-  and an "Explore the history" button.
-- **The time-journey** (`/country/[code]/history`) — deliberately *not* an article.
-  A full-screen, cinematic experience you **pilot** moment-by-moment (arrow keys,
-  scroll, swipe, or click the timeline rail): intro → era "chapters" → individual
-  events → a "today" outro. Each moment is a single focused card — a giant year, the
-  event, its category, its sources. Nations not yet authored show a graceful
-  "archive in progress" screen.
-- **The chronicle** (`/country/[code]/chronicle`) — the reading depth, and the same
-  verified material as one server-rendered document: every era, event, figure and
-  reference in the initial HTML, no JavaScript required. The journey is the
-  experience; the chronicle is the record you can read, quote and cite.
-- **The chronology** (`/timeline`, `/themes`) — the archive read *across* nations
-  rather than one at a time. Every sourced event grouped by period ("what was
-  happening everywhere in the 15th century?") and by theme (independence,
-  colonisation, catastrophe…).
-- **The index** (`/atlas`) — every nation, searchable, grouped by continent, with
-  published archives featured.
-
-The archive currently holds verified histories for **184 nations across every
-inhabited continent**, each with 5–6 eras and ~20–30 sourced events: **1,080 eras,
-4,452 events and 3,583 references** — roughly 600,000 words of authored, sourced
-prose. Every UN member state in the dataset has a published history.
+---
 
 ## Three depths
 
 The same subject meets a reader wherever they are, and the routes are built around
-that rather than around one canonical page:
+that rather than around one canonical page.
 
 | Depth | Route | What it is |
 |---|---|---|
-| Glance | `/country/[code]` | The dossier — sourced indicators across six domains |
-| Journey | `/country/[code]/history` | The cinematic, piloted time-journey |
-| Read | `/country/[code]/chronicle` | The full sourced document, server-rendered |
+| **Glance** | `/country/[code]` | The **dossier** — 26 sourced indicators across six domains, each with its publisher and data vintage |
+| **Journey** | `/country/[code]/history` | The cinematic, **piloted** time-journey — one moment at a time, by key/wheel/swipe |
+| **Read** | `/country/[code]/chronicle` | The **chronicle** — the full sourced document, server-rendered, no JavaScript required |
 
-## Machine visibility
+Read *across* nations instead of one at a time:
 
-The corpus exists to be cited, which means it has to be readable by something that
-does not run JavaScript. That is a deliberate, load-bearing constraint here:
+- `/timeline` — every event bucketed by period ("what was happening everywhere in the 15th century?")
+- `/themes` — every event bucketed by theme (independence, colonisation, catastrophe, …)
+- `/atlas` — every nation, searchable, grouped by continent
 
-- Every chronicle, timeline and theme page is a **server component** — the full text
-  is in the initial response.
-- **JSON-LD** on every route (`lib/seo.ts`): `Article` carrying its complete
-  `citation` list, `Dataset` for the dossier metrics, `Country`, `BreadcrumbList`.
-  Citations name the *originating* publisher so an answer engine can attribute the
-  chain rather than flattening it.
-- `app/sitemap.ts` (556 URLs) and `app/robots.ts`, which names answer-engine
-  crawlers as an explicit opt-in.
-- Canonical URLs, OG/Twitter metadata and a generated social card.
+Both cross-nation views are **derived at build time from the same verified history
+files** (`lib/chronology.ts`). Nothing there is authored separately, so a chronology
+entry is always the same record, with the same sources, as the one on its nation's
+chronicle.
 
-`lib/seo.ts` is the single definition of the origin, the route shapes and the
-structured data, so canonical tags, sitemap and JSON-LD cannot drift apart.
+---
 
 ## Stack
 
-- **Next.js 16** (App Router) + **React 19** + **TypeScript**
-- **Tailwind v4** (CSS-based theme tokens)
-- **react-globe.gl** / three.js for the globe (client-only)
-- **motion** for animation
-- Fonts: Fraunces (display), Newsreader (reading), Inter (UI), JetBrains Mono (labels)
+- **Next.js 16** (App Router) + **React 19** + **TypeScript**, `output: "standalone"`
+- **Tailwind v4** — design tokens live in `@theme` in `app/globals.css`
+- **motion** for interaction choreography; the landing entrance is pure CSS (see below)
+- **No 3D library.** The globe is hand-written — see below
+- Deployed via **Docker → Coolify** on Hetzner
 
-## Develop
+Total runtime dependencies: `next`, `react`, `react-dom`, `motion`. That is the list.
+
+### The globe is GlobeLite — there is no three.js on this site
+
+Three files, no WebGL, no 3D framework:
+
+| File | Role |
+|---|---|
+| `components/globe-render.ts` | Pure renderer. Orthographic projection with per-vertex trig precomputed at load, so drawing a frame is multiplications only |
+| `components/globe.worker.ts` | An **OffscreenCanvas worker** that owns all rasterisation — the main thread never draws a pixel |
+| `components/GlobeLite.tsx` | React: pointer → drag/hover/select, the view simulation, the tooltip |
+
+Because rasterisation lives entirely in the worker, **total blocking time is
+architecturally immune to the globe**: measured 0 ms over 6 s of continuous spinning
+at retina DPR under 4× CPU throttle. It falls back to main-thread rendering where
+OffscreenCanvas is missing.
+
+`public/globe-still.svg` (generated by `scripts/build-globe-still.mjs` from the same
+geojson and palette, framed at the globe's opening view) is the zero-JS first paint;
+it cross-fades once the canvas draws the identical frame.
+
+---
+
+## Data: baked, never fetched
+
+**Nothing is fetched at runtime.** Every figure on the site is committed JSON, built
+ahead of time and validated in CI. There are no runtime secrets, no database, and no
+env vars to configure.
+
+### Histories (authored)
+
+`lib/histories/data/*.json`, registered in `lib/histories/index.ts` by canonical code.
+Each holds 5–6 eras with reading prose, events, figures and a `sources[]` list.
+
+### Dossier domains (built)
+
+One file per domain under `data/domains/<domain>.json`, keyed on canonical code:
+
+| Domain | Upstream |
+|---|---|
+| economy, society, geography, resources | World Bank WDI |
+| technology | UNESCO UIS (R&D), ITU (connectivity), World Bank WDI (high-tech exports) |
+| military | SIPRI, redistributed via World Bank |
+
+Every `Metric` carries a `value`, a `year` (its vintage), a `unit`, and a `sourceId`
+that **must resolve** in the file's `sources` — the same trust rule the histories obey.
+Missing data renders as "—"; it is never imputed.
+
+### Canonical country code
+
+Everything keys on **Natural Earth `ADM0_A3`** (`FRA`, `DEU`, `USA`). `ISO_A3` is `-99`
+for France, Norway and others, so it is never used. The globe geojson,
+`data/countries.json` and every history file agree on `ADM0_A3`.
+
+---
+
+## Citation integrity is the invariant
+
+This is the one rule the whole project is built to protect: **every claim resolves to
+a named, reachable source.** Two validators enforce it mechanically, and CI blocks any
+commit that breaks them.
 
 ```bash
-npm install
-npm run dev      # http://localhost:3000
-npm run build    # static-generates all country pages
+npm run validate     # histories + domains; must report 0 errors
 ```
 
-## Data pipeline
+- `scripts/validate-histories.mjs` — every source id referenced by an era or event
+  must exist in that file's `sources[]`; years must be numeric; codes must be canonical.
+- `scripts/validate-domains.mjs` — every metric's `sourceId` must resolve in its
+  domain file's `sources`.
 
-Geographic + basic metadata are merged from open sources into clean app artifacts:
+Content rule for new material: **only verified claims, each traceable to a reliable
+source** (Britannica, UNESCO, national archives and museums, academic references).
+Prefer stable top-level URLs over deep paths that rot.
+
+---
+
+## Machine visibility
+
+The corpus exists to be read and cited, including by things that do not run
+JavaScript. That is a load-bearing constraint, not a nicety:
+
+- Every chronicle, timeline and theme page is a **server component** — the complete
+  text is in the initial HTML response.
+- **JSON-LD** on every route (`lib/seo.ts`): `Article` carrying its full `citation`
+  list, `Dataset` for the dossier metrics, `Country`, `BreadcrumbList`. Citations name
+  the *originating* publisher, so an answer engine can attribute the chain rather than
+  flattening it to "a website".
+- `app/sitemap.ts` (1,054 URLs), `app/robots.ts` (which names answer-engine crawlers
+  as an explicit opt-in), and `/llms.txt` describing the corpus with canonical
+  per-nation chronicle URLs.
+- `lib/seo.ts` is the single definition of the origin, route shapes and JSON-LD
+  builders — anything emitting a URL goes through it, so canonical tags, the sitemap
+  and the structured data cannot drift apart.
+
+---
+
+## Commands
 
 ```bash
-node scripts/build-data.mjs         # raw sources -> public/data + data/countries.json
-node scripts/validate-histories.mjs # integrity-check authored histories
+npm run dev              # dev server (NB: Turbopack does not typecheck)
+npm run build            # production build — statically generates every route
+npm run start            # serve the production build
+
+npm run validate         # histories + domains validators (the CI gate)
+npx tsc --noEmit         # typecheck — always run before declaring done
+npm run lint
+
+npm run ci               # validate + typecheck + build, as CI runs it
+npm run audit:pages      # crawl every sitemap URL on a running server (see below)
 ```
 
-- `scripts/raw/` — Natural Earth country polygons + the mledoze/countries dataset.
-- `public/data/countries.geo.json` — slim polygons (code + name) for the globe.
-- `data/countries.json` — basic-info metadata keyed by ADM0_A3 code.
+### Refreshing the data
 
-See `CLAUDE.md` for architecture notes and how to author a new nation.
+See **[`docs/refresh-domains.md`](docs/refresh-domains.md)** for the full runbook.
+The short version:
+
+```bash
+npm run refresh-domains  # build-data → all six domains → validate → series index
+```
+
+World Bank publishes on an annual cycle, so this is a roughly yearly chore. The
+resulting vintage is stamped visibly in the footer of every dossier, so a reader
+always knows how old the figures they are looking at are.
+
+### Auditing the built site
+
+```bash
+npm run build && npm run start &
+npm run audit:pages
+```
+
+`scripts/audit-pages.mjs` crawls **every URL in the sitemap** against the running
+production server and asserts: 200 OK, exactly one `<h1>`, a unique `<title>`, a
+unique meta description, parseable JSON-LD carrying `@type` and `@context`, a
+self-referential canonical, and no orphans (every URL linked from at least one
+other). It runs in CI on every push.
+
+---
+
+## Adding a nation's history
+
+1. Author `lib/histories/data/<name>.json` against `CountryHistory` in `lib/types.ts`.
+   - 5–6 eras; each with `body[]` (reading prose), `events[]`, optional `figures[]`
+   - Events reference sources by id; **every referenced id must exist in `sources[]`**
+   - `year` is numeric (BCE negative); `yearLabel` is the display string
+2. Register it in `lib/histories/index.ts` under its ADM0_A3 code.
+3. `npm run validate` — must report 0 errors.
+4. `npx tsc --noEmit && npm run build`.
+
+---
+
+## Project documents
+
+| File | What it holds |
+|---|---|
+| `CLAUDE.md` / `AGENTS.md` | Architecture notes and working rules for agents |
+| `DESIGN.md` | The art direction: tokens, type scale, spacing, motion, signature element |
+| `DECISIONS.md` | Decisions with the alternatives that were considered and rejected |
+| `PROGRESS.md` | Phase-by-phase build log |
+| `PLAN.md` | The current mission |
+| `docs/refresh-domains.md` | The data-refresh runbook |
