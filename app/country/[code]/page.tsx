@@ -4,6 +4,7 @@ import { getCountry, allCodes, regionPeers } from "@/lib/countries";
 import { getDossier, getComparisons } from "@/lib/domains";
 import { DOMAIN_META, type DomainKey } from "@/lib/types";
 import { getHistory } from "@/lib/histories";
+import { annotationsFor } from "@/lib/annotations";
 import Dossier from "@/components/dossier/Dossier";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbLd, dossierDescription, dossierLd, routes, SITE_NAME } from "@/lib/seo";
@@ -79,6 +80,7 @@ export default async function CountryDossierPage({
         regionLabel={meta.subregion ?? meta.region}
         hasHistory={!!history}
         historyTagline={history?.tagline ?? null}
+        annotations={annotationsFor(code)}
       />
     </>
   );

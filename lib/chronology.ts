@@ -257,3 +257,64 @@ export function corpusStats() {
 export function formatYear(y: number): string {
   return y < 0 ? `${Math.abs(y)} BCE` : String(y);
 }
+
+/**
+ * "Meanwhile elsewhere" — what *other* nations were doing while this one lived
+ * through the given span.
+ *
+ * The corpus already holds this: 4,471 events across 184 nations, all with the
+ * same schema and the same sources. What it lacked was a way to stumble
+ * sideways out of one nation's story into another's, which is the single
+ * cheapest way to turn a reference lookup into a browse. A reader arriving for
+ * the history of Vietnam should be able to fall into Cambodia's.
+ *
+ * Selection is deliberately spread rather than "first N": events are grouped by
+ * nation and one is taken from each in turn, so a span dominated by a single
+ * well-documented country cannot fill the whole strip with itself. Within that,
+ * order is by how close the event sits to the middle of the span — the most
+ * genuinely contemporaneous, rather than whatever happens to sort first.
+ *
+ * Build-time only, and memoised through `allWorldEvents()`.
+ */
+export function meanwhileElsewhere(
+  excludeCode: string,
+  startYear: number,
+  endYear: number,
+  limit = 4,
+): WorldEvent[] {
+  const lo = Math.min(startYear, endYear);
+  const hi = Math.max(startYear, endYear);
+  const mid = (lo + hi) / 2;
+
+  const byNation = new Map<string, WorldEvent[]>();
+  for (const e of allWorldEvents()) {
+    if (e.code === excludeCode) continue;
+    if (e.year < lo || e.year > hi) continue;
+    let list = byNation.get(e.code);
+    if (!list) byNation.set(e.code, (list = []));
+    list.push(e);
+  }
+  if (!byNation.size) return [];
+
+  // Closest-to-centre first within each nation, then round-robin across nations.
+  const queues = [...byNation.values()].map((list) =>
+    list.sort((a, b) => Math.abs(a.year - mid) - Math.abs(b.year - mid)),
+  );
+  // Nations whose closest event is nearest the centre lead the rotation, so a
+  // short strip favours the most contemporaneous nations rather than the
+  // alphabetically luckiest.
+  queues.sort((a, b) => Math.abs(a[0].year - mid) - Math.abs(b[0].year - mid));
+
+  const out: WorldEvent[] = [];
+  for (let round = 0; out.length < limit; round++) {
+    let progressed = false;
+    for (const q of queues) {
+      if (round >= q.length) continue;
+      out.push(q[round]);
+      progressed = true;
+      if (out.length >= limit) break;
+    }
+    if (!progressed) break;
+  }
+  return out;
+}

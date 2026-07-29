@@ -5,7 +5,8 @@ import { getCountry, allCodes } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbLd, chronicleDescription, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
-import { periodFor, themeSlug } from "@/lib/chronology";
+import { meanwhileElsewhere, periodFor, themeSlug } from "@/lib/chronology";
+import { metricLinkFor } from "@/lib/annotations";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
 
@@ -139,6 +140,7 @@ export default async function ChroniclePage({
                 first={i === 0}
                 sources={history.sources}
                 sourceIndex={sourceIndex}
+                code={code}
               />
             ))}
           </article>
@@ -305,12 +307,14 @@ function EraSection({
   first,
   sources,
   sourceIndex,
+  code,
 }: {
   era: Era;
   n: number;
   first: boolean;
   sources: Source[];
   sourceIndex: Map<string, number>;
+  code: string;
 }) {
   const body = era.body ?? [];
   const events = [...era.events].sort((a, b) => a.year - b.year);
@@ -387,11 +391,18 @@ function EraSection({
           <h3 className="eyebrow text-ink-3">Turning points</h3>
           <ol className="mt-4 space-y-6">
             {events.map((ev, i) => (
-              <EventItem key={`${ev.year}-${i}`} event={ev} sourceIndex={sourceIndex} />
+              <EventItem key={`${ev.year}-${i}`} event={ev} sourceIndex={sourceIndex} code={code} />
             ))}
           </ol>
         </div>
       )}
+
+      <MeanwhileElsewhere
+        code={code}
+        startYear={era.startYear}
+        endYear={era.endYear}
+        eraTitle={era.title}
+      />
 
       {era.figures && era.figures.length > 0 && (
         <div className="mt-9">
@@ -425,14 +436,86 @@ function EraSection({
   );
 }
 
+/**
+ * The stumble-and-stay mechanic: while this era was unfolding here, these
+ * things were happening elsewhere. Server-rendered, so it is both a reader's
+ * sideways door and a real internal link between 184 chronicles that were
+ * previously connected only through the timeline and theme hubs.
+ */
+function MeanwhileElsewhere({
+  code,
+  startYear,
+  endYear,
+  eraTitle,
+}: {
+  code: string;
+  startYear: number;
+  endYear: number;
+  eraTitle: string;
+}) {
+  const events = meanwhileElsewhere(code, startYear, endYear, 4);
+  if (events.length < 2) return null;
+
+  return (
+    <aside className="mt-10 border-t border-[rgba(138,74,40,0.18)] pt-6">
+      <h4 className="eyebrow text-ink-3">
+        Meanwhile elsewhere
+        <span className="sr-only"> — during {eraTitle}</span>
+      </h4>
+      <ul className="mt-4 grid gap-x-8 gap-y-4 sm:grid-cols-2">
+        {events.map((e) => {
+          const cat = CATEGORY_META[e.category];
+          return (
+            <li key={`${e.code}-${e.year}-${e.title}`}>
+              <Link
+                href={`${routes.chronicle(e.code)}`}
+                prefetch={false}
+                className="group block"
+              >
+                {/* One line, no wrap: some yearLabels are long ("c. 57 BCE –
+                    1st century CE"), and letting them wrap pushed the nation
+                    onto a second row and truncated it to nonsense. The year
+                    keeps its full width; the nation truncates if it must. */}
+                <span className="flex items-baseline gap-2 overflow-hidden font-mono text-[0.68rem] uppercase tracking-[0.1em] text-ink-3">
+                  <span
+                    aria-hidden
+                    className="h-[7px] w-[7px] flex-none translate-y-[-1px] rounded-full"
+                    style={{ background: cat?.tint }}
+                  />
+                  <span className="flex-none tabular-nums">{e.yearLabel}</span>
+                  <span aria-hidden className="flex-none">·</span>
+                  <span className="min-w-0 truncate">
+                    {e.flag ? `${e.flag} ` : ""}
+                    {e.nation}
+                  </span>
+                </span>
+                <span className="mt-1 block font-display text-[1.02rem] font-[440] leading-snug text-[#16201e] transition-colors group-hover:text-copper-deep">
+                  {e.title}
+                </span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </aside>
+  );
+}
+
 function EventItem({
   event,
   sourceIndex,
+  code,
 }: {
   event: TimelineEvent;
   sourceIndex: Map<string, number>;
+  code: string;
 }) {
   const cat = CATEGORY_META[event.category];
+  // The return leg of the dossier ↔ chronicle link. Only categories with an
+  // honest destination get one (lib/annotations): an economic event opens GDP,
+  // a war opens military spending. A religion or culture event has no indicator
+  // that speaks to it, and inventing a link would be worse than offering none.
+  const dataLink = metricLinkFor(code, event.category);
   return (
     <li className="grid grid-cols-[4.6rem_1fr] gap-x-4 sm:grid-cols-[6rem_1fr] sm:gap-x-6">
       <div className="pt-[3px]">
@@ -453,6 +536,16 @@ function EventItem({
         <p className="mt-1.5 font-serif text-[1.03rem] leading-[1.62] text-[#16201e]">
           {event.summary}
         </p>
+        {dataLink && (
+          <Link
+            href={dataLink.href}
+            prefetch={false}
+            className="mt-2 inline-flex items-center gap-1.5 font-mono text-[0.66rem] uppercase tracking-[0.12em] text-ink-3 transition-colors hover:text-copper-deep"
+          >
+            <span aria-hidden>↗</span>
+            {dataLink.label}
+          </Link>
+        )}
         {event.sources.length > 0 && (
           <p className="mt-2 font-mono text-[0.66rem] text-ink-3">
             {event.sources.map((id, i) => {

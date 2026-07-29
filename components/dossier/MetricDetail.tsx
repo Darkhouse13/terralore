@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import type { DataSource, Metric } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import { metricDefinition } from "@/lib/metric-defs";
-import MetricChart, { type ChartLine } from "./MetricChart";
+import MetricChart, { type ChartAnnotation, type ChartLine } from "./MetricChart";
 import MetricMap from "./MetricMap";
 
 // The metric "window" — a modal that shows the full time series as an interactive
@@ -68,6 +68,7 @@ export default function MetricDetail({
   onModeChange,
   mapOpen,
   onMapToggle,
+  annotations = [],
 }: {
   open: boolean;
   onClose: () => void;
@@ -80,6 +81,8 @@ export default function MetricDetail({
   onModeChange: (m: ChartMode) => void;
   mapOpen: boolean;
   onMapToggle: () => void;
+  /** Chronicle moments falling inside this series' span (see lib/annotations). */
+  annotations?: ChartAnnotation[];
 }) {
   const [mounted, setMounted] = useState(false);
   // defer the portal until after hydration (document.body isn't there on the server)
@@ -363,6 +366,7 @@ export default function MetricDetail({
                     unit={metric.unit}
                     invertY={isRank}
                     formatValue={isRank ? rankFmt : undefined}
+                    annotations={annotations}
                   />
                 )}
               </div>
@@ -370,6 +374,40 @@ export default function MetricDetail({
               <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-5">
                 No time series available for this indicator.
               </p>
+            )}
+
+            {/* ── What the archive says happened here ────────────────────────
+                The marks on the chart are legible but not readable; this is the
+                readable half, and the actual link between the two depths. The
+                wording is careful on purpose: "in the archive during this
+                period", not "which caused this" — the corpus asserts sourced
+                events, never causation, and neither does this panel. */}
+            {hasSeries && annotations.length > 0 && (
+              <div className="mt-5 rounded-[3px] border border-copper/15 bg-copper/[0.04] px-4 py-3.5">
+                <div className="eyebrow mb-2.5 text-chalk-3">
+                  In the archive during this period
+                </div>
+                <ul className="flex flex-col gap-2">
+                  {annotations.map((a) => (
+                    <li key={`${a.year}-${a.title}`} className="flex items-baseline gap-2.5">
+                      <span
+                        aria-hidden
+                        className="mt-[5px] h-[7px] w-[7px] flex-none rounded-full"
+                        style={{ background: a.tint }}
+                      />
+                      <span className="flex-none font-mono text-[11px] tabular-nums text-chalk-3">
+                        {a.yearLabel}
+                      </span>
+                      <a
+                        href={a.href}
+                        className="text-[13.5px] leading-snug text-chalk-2 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
+                      >
+                        {a.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
 
             {/* legend + compare controls */}

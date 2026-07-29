@@ -1,0 +1,12 @@
+import { chromium } from "playwright";
+const [url, out, sel] = process.argv.slice(2);
+const b = await chromium.launch({ executablePath: process.env.HOME + "/.cache/ms-playwright/chromium-1228/chrome-linux64/chrome" });
+const p = await b.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 });
+await p.goto(url, { waitUntil: "load", timeout: 60000 });
+await p.waitForTimeout(1200);
+const el = await p.locator(sel).first();
+await el.scrollIntoViewIfNeeded();
+await p.waitForTimeout(400);
+await el.screenshot({ path: out });
+console.log("saved", out);
+await b.close();

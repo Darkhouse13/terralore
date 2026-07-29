@@ -29,11 +29,26 @@ const PLOT_W = W - PAD_L - PAD_R;
 const PLOT_H = H - PAD_T - PAD_B;
 const BASE_Y = PAD_T + PLOT_H;
 
+/**
+ * A moment from the nation's own chronicle, marked on the series.
+ *
+ * These are an invitation to read the sourced account, never a claim that the
+ * event caused the movement in the data — see lib/annotations.ts.
+ */
+export interface ChartAnnotation {
+  year: number;
+  yearLabel: string;
+  title: string;
+  tint: string;
+  href: string;
+}
+
 export default function MetricChart({
   lines,
   unit,
   invertY = false,
   formatValue,
+  annotations = [],
 }: {
   lines: ChartLine[];
   unit: string;
@@ -41,6 +56,8 @@ export default function MetricChart({
   invertY?: boolean;
   /** Override the value formatter for y labels + tooltip (e.g. "#3" for rank). */
   formatValue?: (v: number) => string;
+  /** Events from this nation's chronicle that fall inside the series' span. */
+  annotations?: ChartAnnotation[];
 }) {
   const [hoverYear, setHoverYear] = useState<number | null>(null);
   const fmt = formatValue ?? ((v: number) => formatMetric(v, unit));
@@ -130,6 +147,56 @@ export default function MetricChart({
           <stop offset="100%" stopColor="var(--color-copper-bright)" stopOpacity={0} />
         </linearGradient>
       </defs>
+
+      {/* ── Chronicle annotations ─────────────────────────────────────────
+          A moment from this nation's own history, marked where it falls on the
+          series. Drawn BEFORE the data so the lines always sit on top: the
+          chart is the subject and these are margin marks, not content.
+          Category-tinted, so a rupture reads as madder and a formation as
+          ochre — the same pigment the timeline rail and the chronicle use. */}
+      {(() => {
+        // Two events in the same year (a referendum and an accession, say) put
+        // their marks at the same x, and their labels overprinted into
+        // unreadable mush. So: the tick always draws — the reader should see
+        // that two things happened — but the label is suppressed when it would
+        // collide with the last one drawn. The full, authored yearLabel
+        // ("9–15 Jan 2011") lives in the readable list below; up here it is the
+        // bare year, which is all a chart axis can carry legibly.
+        let lastLabelX = -Infinity;
+        return annotations.map((a) => {
+          const ax = x(a.year);
+          if (ax < PAD_L || ax > W - PAD_R) return null;
+          const showLabel = ax - lastLabelX >= 30;
+          if (showLabel) lastLabelX = ax;
+          return (
+            <g key={`ann-${a.year}-${a.title}`}>
+              <title>{`${a.yearLabel} — ${a.title} (in the archive)`}</title>
+              <line
+                x1={ax}
+                y1={PAD_T + 10}
+                x2={ax}
+                y2={BASE_Y}
+                stroke={a.tint}
+                strokeWidth={1}
+                strokeDasharray="3 3"
+                opacity={0.6}
+              />
+              <circle cx={ax} cy={PAD_T + 8} r={3} fill={a.tint} />
+              {showLabel && (
+                <text
+                  x={ax}
+                  y={PAD_T + 2}
+                  textAnchor="middle"
+                  className="font-mono"
+                  style={{ fontSize: 9, fill: a.tint, letterSpacing: "0.04em" }}
+                >
+                  {a.year < 0 ? `${Math.abs(a.year)} BCE` : a.year}
+                </text>
+              )}
+            </g>
+          );
+        });
+      })()}
 
       {/* gridlines + y labels */}
       {yTicks.map((v, i) => {

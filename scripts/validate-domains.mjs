@@ -17,8 +17,11 @@ let errors = 0;
 const err = (f, m) => { console.log(`  ✗ [${f}] ${m}`); errors++; };
 
 const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+const loaded = {};
+
 for (const file of files) {
   const d = JSON.parse(readFileSync(join(dir, file), "utf8"));
+  loaded[file] = d;
 
   for (const k of ["domain", "updated", "sources", "data"]) {
     if (d[k] == null) err(file, `missing top-level field: ${k}`);
@@ -50,6 +53,39 @@ for (const file of files) {
   console.log(
     `✓ ${file}: ${d.domain} — ${Object.keys(d.data).length} countries, ${metricCount} metrics (${valuedCount} with values), ${sourceIds.size} sources`,
   );
+}
+
+// ── Cross-talk targets must resolve ────────────────────────────────────────
+// lib/annotations.ts sends a reader from a chronicle event to a specific metric
+// window (e.g. a war event → military/milExpPctGdp). Those keys are written in
+// TypeScript and cannot be typo-checked by the compiler, so a rename in a
+// builder would silently ship a dead deep link on thousands of pages. Assert
+// them here, against the built files, the same way source ids are asserted.
+const CROSSTALK_TARGETS = [
+  ["economy", "gdp"],
+  ["economy", "gdpPerCapita"],
+  ["military", "milExpPctGdp"],
+  ["society", "lifeExpectancy"],
+  ["society", "population"],
+];
+
+for (const [domain, key] of CROSSTALK_TARGETS) {
+  const file = `${domain}.json`;
+  const d = loaded[file];
+  if (!d) {
+    err(file, `cross-talk target ${domain}/${key}: domain file missing`);
+    continue;
+  }
+  const found = Object.values(d.data ?? {}).some((e) =>
+    (e.metrics ?? []).some((m) => m.key === key),
+  );
+  if (!found) {
+    err(
+      file,
+      `cross-talk target "${key}" (lib/annotations.ts CATEGORY_METRIC) exists in no country — ` +
+        `a builder rename would leave dead deep links on every chronicle`,
+    );
+  }
 }
 
 console.log(`\n${errors} error(s) across ${files.length} domain file(s).`);

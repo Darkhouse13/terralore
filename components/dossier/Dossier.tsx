@@ -16,6 +16,8 @@ import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
 import { TERRITORY_NOTES } from "@/lib/territory-notes";
 import DomainPanel from "./DomainPanel";
 import MetricDetail, { type ChartMode } from "./MetricDetail";
+import { annotationsForSeries } from "@/lib/annotations";
+import type { EventAnnotation } from "@/lib/annotations";
 
 type Tab = "overview" | DomainKey;
 
@@ -28,6 +30,7 @@ export default function Dossier({
   regionLabel,
   hasHistory,
   historyTagline,
+  annotations,
 }: {
   meta: CountryMeta;
   dossier: CountryDossier | null;
@@ -35,6 +38,8 @@ export default function Dossier({
   regionLabel: string | null;
   hasHistory: boolean;
   historyTagline: string | null;
+  /** This nation's chronicle moments, for annotating metric series. */
+  annotations: EventAnnotation[];
 }) {
   const available = useMemo(
     () => (dossier ? ALL_DOMAINS.filter((d) => dossier.sections[d]) : []),
@@ -125,6 +130,28 @@ export default function Dossier({
   const openInfo = (openMetric ?? lastMetric)
     ? metricByKey.get((openMetric ?? lastMetric)!) ?? null
     : null;
+
+  // Cross-talk: the chronicle moments that fall inside THIS metric's own series
+  // span, filtered to categories that can plausibly move this domain's numbers.
+  // Scoped to the series window rather than the whole history, so a chart of
+  // 1990–2024 is never annotated with the 9th century.
+  const openAnnotations = useMemo(() => {
+    if (!openInfo?.metric.series?.length || !annotations.length) return [];
+    const years = openInfo.metric.series.map((d) => d.year);
+    return annotationsForSeries(
+      annotations,
+      openInfo.domain,
+      Math.min(...years),
+      Math.max(...years),
+    ).map((a) => ({
+      year: a.year,
+      yearLabel: a.yearLabel,
+      title: a.title,
+      tint: a.tint,
+      // Straight to the era that holds it, on the readable depth.
+      href: `/country/${meta.code}/chronicle#${a.eraId}`,
+    }));
+  }, [openInfo, annotations, meta.code]);
 
   // Overview highlights: a curated mix — the first two metrics of each domain.
   const highlights: Metric[] = available.flatMap(
@@ -258,6 +285,7 @@ export default function Dossier({
           country={{ code: meta.code, name: meta.name, flag: meta.flag }}
           compare={compare}
           onCompareChange={setCompare}
+          annotations={openAnnotations}
           mode={chartMode}
           onModeChange={setChartMode}
           mapOpen={mapOpen}
