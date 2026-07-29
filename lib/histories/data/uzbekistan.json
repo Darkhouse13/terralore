@@ -9,6 +9,23 @@
     "year": 1991,
     "detail": "On 31 August 1991, amid the collapse of the Soviet Union, the Supreme Council of the Uzbek SSR in Tashkent adopted a declaration of state independence; 1 September is marked as Independence Day. A national referendum on 29 December 1991 overwhelmingly confirmed independence, and Islam Karimov, the republic's Communist-era leader, was elected the first president of the new state. The modern republic is the latest chapter in a history stretching back through the Uzbek khanates, the empire of Timur, the Islamic Golden Age of Samanid Bukhara and the ancient civilisation of Sogdiana."
   },
+  "statehood": {
+    "formation": {
+      "year": 1501,
+      "yearLabel": "1501",
+      "label": "The Uzbek Khanate of Bukhara is established",
+      "detail": "The khanate became the Emirate of Bukhara under the Manghits in 1785, a Russian protectorate in 1873 and a Soviet republic in 1920; the republic's present borders are the Soviet delimitation of Central Asia. The Timurid empire seated at Samarkand is the older tradition the chronicle carries.",
+      "sources": ["wikipedia-khanate-bukhara", "wikipedia-emirate-bukhara"]
+    },
+    "interruptions": [
+      {
+        "start": 1873,
+        "end": 1991,
+        "label": "Russian protectorate, then Soviet rule",
+        "sources": ["wikipedia-emirate-bukhara", "statedept-uzbekistan"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Independence declared", "value": "1 September 1991 (from the Soviet Union)" },
     { "label": "Ancient heartland", "value": "Sogdiana and Bactria, on the Silk Road" },
@@ -588,7 +605,9 @@
       "publisher": "Human Rights Watch",
       "url": "https://www.hrw.org/news/2022/03/11/uzbekistan-ends-systemic-forced-labor-civil-society-says",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-khanate-bukhara", "label": "Khanate of Bukhara", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khanate_of_Bukhara", "kind": "reference" },
+    { "id": "wikipedia-emirate-bukhara", "label": "Emirate of Bukhara", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Emirate_of_Bukhara", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

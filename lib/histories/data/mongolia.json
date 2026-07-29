@@ -9,6 +9,23 @@
     "year": 1206,
     "detail": "Mongolia's founding moment is dated to 1206, when an assembly (khuriltai) of steppe leaders gathered by the River Onon proclaimed Temüjin as Chinggis Khan, 'Universal Ruler,' uniting the warring tribes of the Mongolian plateau into a single nation under one law, the Yassa. The modern state traces its sovereignty to the declaration of independence from China in 1911 and the proclamation of the Mongolian People's Republic in November 1924, with the present democratic constitution adopted in 1992."
   },
+  "statehood": {
+    "formation": {
+      "year": 1206,
+      "yearLabel": "1206",
+      "label": "A kurultai proclaims Temüjin ruler of the Great Mongol Nation",
+      "detail": "The Qing seized northern Khalkha in 1691 and held Mongolia for more than two centuries; Outer Mongolia declared independence on 29 December 1911 during the Xinhai Revolution and affirmed it in the plebiscite of October 1945.",
+      "sources": ["wikipedia-mongol-empire"]
+    },
+    "interruptions": [
+      {
+        "start": 1691,
+        "end": 1911,
+        "label": "Qing rule",
+        "sources": ["wikipedia-outer-mongolia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "National founding", "value": "Chinggis Khan unites the Mongols, 1206" },
     { "label": "Imperial capital", "value": "Karakorum, built by Ögödei from 1235" },
@@ -502,7 +519,9 @@
       "publisher": "Library of Congress, Federal Research Division",
       "url": "https://www.loc.gov/item/90006289/",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-mongol-empire", "label": "Mongol Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mongol_Empire", "kind": "reference" },
+    { "id": "wikipedia-outer-mongolia", "label": "Outer Mongolia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Outer_Mongolia", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

@@ -9,6 +9,15 @@
     "year": 1991,
     "detail": "As the Soviet Union disintegrated, the Supreme Soviet of the Tajik SSR adopted a declaration of state independence on 9 September 1991, a date now marked as Tajikistan's national day. Independence came reluctantly to a republic long dependent on Moscow, and within months the new state slid into a civil war between the post-communist government and an alliance of Islamic and democratic opposition forces. The conflict, among the bloodiest of the post-Soviet space, was ended only by a UN-brokered General Agreement signed in Moscow on 27 June 1997."
   },
+  "statehood": {
+    "formation": {
+      "year": 1991,
+      "yearLabel": "1991",
+      "label": "Tajikistan becomes independent as the Soviet Union dissolves",
+      "detail": "In modern Tajikistan the Samanid empire of 819–999 is portrayed as the first Tajik state with Ismail Samani as its founder, and his statue stands in Dushanbe. That is a national portrayal rather than a claim of continuous statehood across the thousand years between, so the anchor stays modern and the tradition is recorded here.",
+      "sources": ["statedept-tajikistan", "wikipedia-samanid"]
+    }
+  },
   "quickFacts": [
     { "label": "Independence", "value": "Declared 9 September 1991 (from the Soviet Union)" },
     { "label": "Ancient heartland", "value": "Sogdiana and Bactria; Sarazm settled from the 4th millennium BCE" },
@@ -455,7 +464,9 @@
       "publisher": "International Organization for Migration (IOM)",
       "url": "https://tajikistan.iom.int/labour-migration",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-samanid", "label": "Samanid Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Samanid_Empire", "kind": "reference" },
+    { "id": "statedept-tajikistan", "label": "A Guide to the United States' History of Recognition: Tajikistan", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/tajikistan", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

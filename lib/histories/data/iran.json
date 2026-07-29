@@ -9,6 +9,29 @@
     "year": -550,
     "detail": "Around 550 BCE Cyrus the Great (Cyrus II) overthrew the Median king Astyages and forged the Achaemenid Empire, the first Persian empire and the largest the world had yet seen. After capturing Babylon in 539 BCE he issued the famous Cyrus Cylinder, often cited as an early charter of tolerance. Persia's long imperial story passed through Hellenistic, Parthian, Sasanian, Islamic, Turkic, Mongol and Safavid phases before the Pahlavi monarchy fell to the Islamic Revolution of 1979, which on 1 April 1979 established the Islamic Republic of Iran."
   },
+  "statehood": {
+    "formation": {
+      "year": -550,
+      "yearLabel": "550 BCE",
+      "label": "Cyrus the Great founds the Achaemenid Empire",
+      "detail": "The Safavids, from 1501, were the first native dynasty since the Buyids to establish a national state officially known as Iran, and that is often taken as the beginning of modern Iranian history. The Seljuk, Mongol and Timurid dynasties ruled Iran from within it and are not recorded as interruptions.",
+      "sources": ["wikipedia-achaemenid", "wikipedia-safavid"]
+    },
+    "interruptions": [
+      {
+        "start": -330,
+        "end": -247,
+        "label": "Macedonian conquest and Seleucid rule",
+        "sources": ["wikipedia-achaemenid", "wikipedia-parthian"]
+      },
+      {
+        "start": 651,
+        "end": 934,
+        "label": "Arab caliphal rule after the fall of the Sasanians",
+        "sources": ["wikipedia-muslim-conquest-persia", "wikipedia-buyid"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Imperial founding", "value": "Achaemenid Empire under Cyrus the Great, c. 550 BCE" },
     { "label": "First ceremonial capital", "value": "Pasargadae; later Persepolis, founded by Darius I c. 518 BCE" },
@@ -641,7 +664,11 @@
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-achaemenid", "label": "Achaemenid Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Achaemenid_Empire", "kind": "reference" },
+    { "id": "wikipedia-parthian", "label": "Parthian Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Parthian_Empire", "kind": "reference" },
+    { "id": "wikipedia-muslim-conquest-persia", "label": "Muslim conquest of Persia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia", "kind": "reference" },
+    { "id": "wikipedia-buyid", "label": "Buyid dynasty", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Buyid_dynasty", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

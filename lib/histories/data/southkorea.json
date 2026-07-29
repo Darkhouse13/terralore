@@ -9,6 +9,23 @@
     "year": 1948,
     "detail": "The Republic of Korea was formally proclaimed in the southern half of the Korean peninsula on 15 August 1948, three years to the day after liberation from Japanese colonial rule, with Syngman Rhee as its first president. Korean tradition reaches back far earlier, to the legendary kingdom of Gojoseon, said to have been founded in 2333 BCE by the mythical Dangun. Statehood took historical form in the Three Kingdoms of Goguryeo, Baekje, and Silla, and continued through the Goryeo and Joseon dynasties. The 1948 republic was born of a wrenching division: after Japan's defeat in 1945 the peninsula was split along the 38th parallel between Soviet and American occupation zones, producing two rival Korean states whose separation endures."
   },
+  "statehood": {
+    "formation": {
+      "year": 918,
+      "yearLabel": "918",
+      "label": "Wang Kŏn founds Goryeo, which gives Korea its name",
+      "detail": "Goryeo ended the Later Three Kingdoms in 936 and was succeeded by Joseon and the Korean Empire on the same peninsula. The precursor is shared with North Korea: the two states were both formed in 1948 out of the division that followed liberation, and the corpus records the shared line rather than adjudicating between them.",
+      "sources": ["wikipedia-goryeo"]
+    },
+    "interruptions": [
+      {
+        "start": 1910,
+        "end": 1945,
+        "label": "Japanese annexation",
+        "sources": ["wikipedia-korea-japanese-rule"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Legendary founding", "value": "Gojoseon, traditionally 2333 BCE, by the mythical Dangun" },
     { "label": "Republic proclaimed", "value": "15 August 1948, in the southern occupation zone" },
@@ -193,7 +210,9 @@
     { "id": "gwangju-unesco", "label": "Archives for the May 18th Democratic Uprising in Gwangju", "publisher": "UNESCO Memory of the World", "url": "https://www.unesco.org/en/memory-world/human-rights-documentary-heritage-1980-archives-may-18th-democratic-uprising-against-military-regime", "kind": "gov" },
     { "id": "june-struggle", "label": "June Democratic Struggle (1987): A Resource Guide", "publisher": "U.S. Library of Congress", "url": "https://guides.loc.gov/south-korean-democratization-movement/june-uprising", "kind": "gov" },
     { "id": "seoul-1988", "label": "Seoul 1988 Olympic Games", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Seoul-1988-Olympic-Games", "kind": "encyclopedia" },
-    { "id": "kim-dae-jung", "label": "Kim Dae-Jung", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Kim-Dae-Jung", "kind": "encyclopedia" }
+    { "id": "kim-dae-jung", "label": "Kim Dae-Jung", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Kim-Dae-Jung", "kind": "encyclopedia" },
+    { "id": "wikipedia-goryeo", "label": "Goryeo", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Goryeo", "kind": "reference" },
+    { "id": "wikipedia-korea-japanese-rule", "label": "Korea under Japanese rule", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Korea_under_Japanese_rule", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

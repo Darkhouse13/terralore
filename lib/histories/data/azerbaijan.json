@@ -9,6 +9,23 @@
     "year": 1991,
     "detail": "The modern Republic of Azerbaijan dates its political founding to 18 October 1991, when the Supreme Council adopted the Constitutional Act on the State Independence of the Republic of Azerbaijan, declaring the country the legal successor of the Azerbaijan Democratic Republic of 1918–1920 and ending more than seven decades of Soviet rule; the act was confirmed by referendum on 29 December 1991. Azerbaijan had earlier declared sovereignty in 1989 and, after the failed August 1991 coup in Moscow, adopted a declaration on restoring independence on 30 August 1991. The United States recognised Azerbaijan's independence on 25 December 1991 and established diplomatic relations on 19 February 1992. The republic inherited a land of extraordinary depth — Caucasian Albania, the Shirvanshahs' Baku, Persian khanates and a century of Russian and Soviet rule — and a brief but pioneering experiment in parliamentary democracy in 1918."
   },
+  "statehood": {
+    "formation": {
+      "year": 1918,
+      "yearLabel": "28 May 1918",
+      "label": "The Azerbaijan Democratic Republic is proclaimed",
+      "detail": "Described as the first secular democratic republic in the Turkic and Muslim worlds. The Shirvanshahs and the khanates of the eighteenth century held this ground before Russian conquest, but the republic of 1918 is the first state to bear the name and the one the present republic restored.",
+      "sources": ["wikipedia-adr"]
+    },
+    "interruptions": [
+      {
+        "start": 1920,
+        "end": 1991,
+        "label": "Soviet occupation and rule",
+        "sources": ["wikipedia-adr", "history-state-azerbaijan"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Modern founding", "value": "State independence restored 18 October 1991 (successor to the 1918 republic)" },
     { "label": "First republic", "value": "Azerbaijan Democratic Republic, declared 28 May 1918 — first secular parliamentary republic in the Muslim world" },
@@ -457,7 +474,8 @@
       "publisher": "U.S. Department of State, Office of the Historian",
       "url": "https://history.state.gov/countries/azerbaijan",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-adr", "label": "Azerbaijan Democratic Republic", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Azerbaijan_Democratic_Republic", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

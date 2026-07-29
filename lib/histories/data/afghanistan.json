@@ -9,6 +9,15 @@
     "year": 1747,
     "detail": "After the assassination of the Persian conqueror Nadir Shah in 1747, a council (jirga) of Afghan chiefs at Kandahar elected the young Abdali commander Ahmad Shah as their ruler. Crowned near Kandahar, where he struck coins in his own name and established his capital, he took the title Durr-i-Durran ('pearl of pearls'), giving his clan and empire the name Durrani. The realm he built stretched from the Amu Darya to the Indian Ocean and from Khorasan into Kashmir, the Punjab and Sindh, and is widely regarded as the origin of the modern Afghan state, with Ahmad Shah remembered as the founder of the nation."
   },
+  "statehood": {
+    "formation": {
+      "year": 1747,
+      "yearLabel": "1747",
+      "label": "Ahmad Shah Durrani founds the Durrani Empire",
+      "detail": "The year marks the definitive appearance of an Afghan political entity independent of both the Persian and Mughal empires, and the Durrani state is considered the foundational polity of modern Afghanistan. Britain directed Afghan foreign relations until 1919, when British authorities notified other governments that Afghanistan was officially free and independent in its affairs; that is an incomplete external sovereignty rather than a sovereignty lost, so it is recorded here and not as an interruption.",
+      "sources": ["wikipedia-durrani", "statedept-afghanistan"]
+    }
+  },
   "quickFacts": [
     {
       "label": "Modern founding",
@@ -753,7 +762,9 @@
       "publisher": "U.S. Department of State",
       "url": "https://www.state.gov/wp-content/uploads/2020/02/Agreement-For-Bringing-Peace-to-Afghanistan-02.29.20.pdf",
       "kind": "primary"
-    }
+    },
+    { "id": "wikipedia-durrani", "label": "Durrani Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Durrani_Empire", "kind": "reference" },
+    { "id": "statedept-afghanistan", "label": "A Guide to the United States' History of Recognition: Afghanistan", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/afghanistan", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

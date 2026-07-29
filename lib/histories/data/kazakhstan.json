@@ -9,6 +9,23 @@
     "year": 1465,
     "detail": "Kazakh statehood is conventionally traced to about 1465, when the sultans Janibek and Kerei, descendants of Genghis Khan through Urus Khan of the Jochid line, broke with the Uzbek ruler Abu'l-Khayr Khan and led their followers into Zhetysu (Semirechye, the 'land of seven rivers') in the southeast of present-day Kazakhstan, where they established an independent realm. The Kazakh Khanate that grew from this migration is regarded as the political and ethnic root of the Kazakh nation; its 550th anniversary was marked nationally in 2015. The khanate later organised itself into three jüz, or hordes, the Great, Middle, and Little, and endured until the Russian Empire abolished the last of its khans in the nineteenth century. The modern Republic of Kazakhstan declared its independence on 16 December 1991, the last of the Soviet republics to do so."
   },
+  "statehood": {
+    "formation": {
+      "year": 1465,
+      "yearLabel": "1465",
+      "label": "Kerei and Janibek found the Kazakh Khanate",
+      "detail": "Described as the first nation-state in Central Asia created by the modern ethnic group itself rather than by its predecessors. Russian statutes of 1822–24 abolished the institution of the khanate, and Kazakhstan became independent again with the dissolution of the Soviet Union.",
+      "sources": ["wikipedia-kazakh-khanate"]
+    },
+    "interruptions": [
+      {
+        "start": 1822,
+        "end": 1991,
+        "label": "Russian imperial, then Soviet rule",
+        "sources": ["wikipedia-kazakh-khanate", "statedept-kazakhstan"]
+      }
+    ]
+  },
   "quickFacts": [
     {
       "label": "Steppe statehood",
@@ -608,7 +625,9 @@
       "publisher": "Aleksanteri Institute, University of Helsinki",
       "url": "https://www.helsinki.fi/en/aleksanteri-institute/news-and-events/news-archive/regime-transition-action-bloody-january-kazakhstan",
       "kind": "academic"
-    }
+    },
+    { "id": "wikipedia-kazakh-khanate", "label": "Kazakh Khanate", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kazakh_Khanate", "kind": "reference" },
+    { "id": "statedept-kazakhstan", "label": "A Guide to the United States' History of Recognition: Kazakhstan", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/kazakhstan", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

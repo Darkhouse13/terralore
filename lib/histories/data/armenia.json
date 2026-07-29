@@ -9,6 +9,35 @@
     "year": 1991,
     "detail": "Modern Armenia dates its statehood to 21 September 1991, when an overwhelming majority of voters approved independence in a referendum and the Supreme Council declared the country's secession from the dissolving Soviet Union; the United States recognised Armenia's independence on 25 December 1991. But Armenian statehood reaches back millennia. The Iron Age kingdom of Urartu flourished in the Armenian highlands in the 9th and 8th centuries BCE, succeeded by the Armenians by the 6th century BCE; under Tigranes II 'the Great' (95–55 BCE) Armenia became briefly the strongest state in the Roman East. Around 301 CE Armenia became the first nation to adopt Christianity as its state religion, and the Armenian alphabet devised by Mesrop Mashtots around 405 anchored a literary culture that survived the loss of political independence for most of the next 1,500 years. A First Republic existed from 1918 to 1920 before Sovietisation, making 1991 the restoration of an interrupted statehood."
   },
+  "statehood": {
+    "formation": {
+      "year": -331,
+      "yearLabel": "331 BCE",
+      "label": "The Orontids rule Armenia as kings rather than satraps",
+      "detail": "Armenian statehood is a series of restorations: the ancient kingdom ran to 428 CE, the Bagratid kingdom from the 880s to 1045, the First Republic from 1918 to 1920, and the present republic from 1991. Cilician Armenia (1080–1375) is not counted here because it lay outside the Armenian highlands that form the modern state.",
+      "sources": ["wikipedia-kingdom-armenia"]
+    },
+    "interruptions": [
+      {
+        "start": 428,
+        "end": 885,
+        "label": "Partition between Rome and Persia, then Arab rule",
+        "sources": ["wikipedia-kingdom-armenia", "wikipedia-bagratid-armenia"]
+      },
+      {
+        "start": 1045,
+        "end": 1918,
+        "label": "Byzantine, Seljuk, Ottoman, Persian and Russian rule",
+        "sources": ["wikipedia-bagratid-armenia", "wikipedia-first-republic-armenia"]
+      },
+      {
+        "start": 1920,
+        "end": 1991,
+        "label": "Soviet rule",
+        "sources": ["wikipedia-first-republic-armenia", "history-state-armenia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Political founding", "value": "Independence from the USSR declared 21 September 1991 (referendum)" },
     { "label": "Deep past", "value": "Urartu (9th–8th c. BCE); Armenian kingdom under Tigranes the Great, 95–55 BCE" },
@@ -531,7 +560,10 @@
       "publisher": "U.S. Department of State, Office of the Historian",
       "url": "https://history.state.gov/countries/armenia",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-kingdom-armenia", "label": "Kingdom of Armenia (antiquity)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_(antiquity)", "kind": "reference" },
+    { "id": "wikipedia-bagratid-armenia", "label": "Bagratid Armenia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bagratid_Armenia", "kind": "reference" },
+    { "id": "wikipedia-first-republic-armenia", "label": "First Republic of Armenia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/First_Republic_of_Armenia", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

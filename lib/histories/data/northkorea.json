@@ -10,6 +10,23 @@
     "year": 1948,
     "detail": "The Democratic People's Republic of Korea was formally proclaimed in the northern half of the Korean peninsula on 9 September 1948, with Kim Il Sung as its first premier, weeks after the Republic of Korea was established in the south. The state arose from the division of Korea after the defeat of Japan in 1945, when the peninsula was split along the 38th parallel into a Soviet occupation zone in the north and an American zone in the south. The Korean nation itself is far older: tradition traces it to the legendary kingdom of Gojoseon, and statehood took historical form in the Three Kingdoms of Goguryeo, Baekje and Silla and the later Goryeo and Joseon dynasties, a shared heritage that belongs to both Koreas. The DPRK's founding institutionalized the Cold War partition into two rival Korean governments, each claiming to represent the whole peninsula."
   },
+  "statehood": {
+    "formation": {
+      "year": 918,
+      "yearLabel": "918",
+      "label": "Wang Kŏn founds Goryeo, which gives Korea its name",
+      "detail": "Goryeo ended the Later Three Kingdoms in 936 and was succeeded by Joseon and the Korean Empire on the same peninsula. The precursor is shared with South Korea: the two states were both formed in 1948 out of the division that followed liberation, and the corpus records the shared line rather than adjudicating between them.",
+      "sources": ["wikipedia-goryeo"]
+    },
+    "interruptions": [
+      {
+        "start": 1910,
+        "end": 1945,
+        "label": "Japanese annexation",
+        "sources": ["wikipedia-korea-japanese-rule"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "State founded", "value": "9 September 1948, in the northern occupation zone, under Kim Il Sung" },
     { "label": "Shared heritage", "value": "Gojoseon, the Three Kingdoms, Goryeo and Joseon, common to both Koreas" },
@@ -178,7 +195,9 @@
     { "id": "loc-country-study", "label": "North Korea: A Country Study", "publisher": "U.S. Library of Congress, Federal Research Division", "url": "https://www.loc.gov/item/2008028547/", "kind": "gov" },
     { "id": "un-membership", "label": "United Nations Member States (admission of the two Koreas, 1991)", "publisher": "United Nations", "url": "https://www.un.org/en/about-us/member-states", "kind": "gov" },
     { "id": "crs-nuclear", "label": "North Korea's Nuclear Weapons and Missile Programs", "publisher": "U.S. Congressional Research Service, Library of Congress", "url": "https://www.congress.gov/crs-product/IF10472", "kind": "gov" },
-    { "id": "acatimeline", "label": "Chronology of U.S.-North Korean Nuclear and Missile Diplomacy, 1985-2022", "publisher": "Arms Control Association", "url": "https://www.armscontrol.org/factsheets/chronology-us-north-korean-nuclear-and-missile-diplomacy-1985-2022", "kind": "reference" }
+    { "id": "acatimeline", "label": "Chronology of U.S.-North Korean Nuclear and Missile Diplomacy, 1985-2022", "publisher": "Arms Control Association", "url": "https://www.armscontrol.org/factsheets/chronology-us-north-korean-nuclear-and-missile-diplomacy-1985-2022", "kind": "reference" },
+    { "id": "wikipedia-goryeo", "label": "Goryeo", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Goryeo", "kind": "reference" },
+    { "id": "wikipedia-korea-japanese-rule", "label": "Korea under Japanese rule", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Korea_under_Japanese_rule", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

@@ -37,7 +37,7 @@ structurally, so the target is 184/184.
 | 2 | Sub-Saharan Africa, west + central | 24 | done |
 | 3 | Sub-Saharan Africa, east + south | 24 | done |
 | 4 | South + Southeast Asia | 16 | done |
-| 5 | East + Central Asia | | |
+| 5 | East + Central Asia | 16 | done |
 | 6 | Europe | | |
 | 7 | Americas | | |
 | 8 | Oceania + Caribbean + microstates | | |
@@ -46,8 +46,11 @@ structurally, so the target is 184/184.
 
 | Code | Nation | Formation | Interruptions of sovereignty | Status |
 |---|---|---|---|---|
+| AFG | Afghanistan | 1747 CE | — | verified-existing |
 | AGO | Angola | 1975 CE | — | verified-existing |
 | ARE | United Arab Emirates | 1971 CE | — | verified-existing |
+| ARM | Armenia | 331 BCE | 428–885, 1045–1918, 1920–1991 | done |
+| AZE | Azerbaijan | 1918 CE | 1920–1991 | done |
 | BDI | Burundi | 1680 CE | 1890–1962 | done |
 | BEN | Benin | 1600 CE | 1894–1960 | done |
 | BFA | Burkina Faso | 1050 CE | 1896–1960 | done |
@@ -56,6 +59,7 @@ structurally, so the target is 184/184.
 | BTN | Bhutan | 1616 CE | — | done |
 | BWA | Botswana | 1966 CE | — | verified-existing |
 | CAF | Central African Republic | 1960 CE | — | verified-existing |
+| CHN | China | 221 BCE | — | verified-existing |
 | CIV | Ivory Coast | 1960 CE | — | verified-existing |
 | CMR | Cameroon | 1960 CE | — | verified-existing |
 | COD | DR Congo | 1960 CE | — | verified-existing |
@@ -70,6 +74,7 @@ structurally, so the target is 184/184.
 | ERI | Eritrea | 1993 CE | — | verified-existing |
 | ETH | Ethiopia | 1 CE | 1936–1941 | verified-existing |
 | GAB | Gabon | 1960 CE | — | verified-existing |
+| GEO | Georgia | 1008 CE | 1801–1918, 1921–1991 | done |
 | GHA | Ghana | 1957 CE | — | verified-existing |
 | GIN | Guinea | 1958 CE | — | verified-existing |
 | GMB | Gambia | 1965 CE | — | verified-existing |
@@ -77,10 +82,15 @@ structurally, so the target is 184/184.
 | GNQ | Equatorial Guinea | 1968 CE | — | verified-existing |
 | IDN | Indonesia | 1945 CE | — | verified-existing |
 | IND | India | 320 BCE | 1858–1947 | done |
+| IRN | Iran | 550 BCE | 330 BCE–-247, 651–934 | verified-existing |
 | IRQ | Iraq | 1921 CE | 1921–1932 | done |
 | JOR | Jordan | 1921 CE | 1921–1946 | done |
+| JPN | Japan | 660 BCE | — | verified-existing |
+| KAZ | Kazakhstan | 1465 CE | 1822–1991 | verified-existing |
 | KEN | Kenya | 1963 CE | — | verified-existing |
+| KGZ | Kyrgyzstan | 1991 CE | — | verified-existing |
 | KHM | Cambodia | 802 CE | 1863–1953 | done |
+| KOR | South Korea | 918 CE | 1910–1945 | done |
 | KWT | Kuwait | 1752 CE | 1899–1961 | done |
 | LAO | Laos | 1353 CE | 1893–1953 | done |
 | LBN | Lebanon | 1920 CE | 1920–1943 | done |
@@ -92,6 +102,7 @@ structurally, so the target is 184/184.
 | MDG | Madagascar | 1540 CE | 1896–1960 | done |
 | MLI | Mali | 1235 CE | 1905–1960 | done |
 | MMR | Myanmar (Burma) | 1044 CE | 1886–1948 | done |
+| MNG | Mongolia | 1206 CE | 1691–1911 | verified-existing |
 | MOZ | Mozambique | 1975 CE | — | verified-existing |
 | MRT | Mauritania | 1960 CE | — | verified-existing |
 | MUS | Mauritius | 1968 CE | — | verified-existing |
@@ -104,6 +115,7 @@ structurally, so the target is 184/184.
 | OMN | Oman | 1744 CE | — | verified-existing |
 | PAK | Pakistan | 1947 CE | — | verified-existing |
 | PHL | Philippines | 1898 CE | 1899–1946 | done |
+| PRK | North Korea | 918 CE | 1910–1945 | done |
 | PSE | Palestine | 1988 CE | — | verified-existing |
 | QAT | Qatar | 1868 CE | 1916–1971 | done |
 | RWA | Rwanda | 1650 CE | 1897–1962 | done |
@@ -119,11 +131,15 @@ structurally, so the target is 184/184.
 | TCD | Chad | 1960 CE | — | verified-existing |
 | TGO | Togo | 1960 CE | — | verified-existing |
 | THA | Thailand | 1238 CE | — | done |
+| TJK | Tajikistan | 1991 CE | — | verified-existing |
+| TKM | Turkmenistan | 1991 CE | — | verified-existing |
 | TLS | Timor-Leste | 1975 CE | 1975–2002 | done |
 | TUN | Tunisia | 1574 CE | 1881–1956 | done |
 | TUR | Turkey | 1299 CE | — | done |
+| TWN | Taiwan | 1949 CE | — | verified-existing |
 | TZA | Tanzania | 1961 CE | — | verified-existing |
 | UGA | Uganda | 1962 CE | — | verified-existing |
+| UZB | Uzbekistan | 1501 CE | 1873–1991 | done |
 | VNM | Vietnam | 257 BCE | 111 BCE–938, 1887–1945 | done |
 | YEM | Yemen | 1918 CE | — | done |
 | ZAF | South Africa | 1910 CE | — | verified-existing |

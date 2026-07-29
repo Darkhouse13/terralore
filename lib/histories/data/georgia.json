@@ -9,6 +9,29 @@
     "year": 1991,
     "detail": "Modern Georgia dates its statehood to 9 April 1991, when the Supreme Council of the Republic of Georgia adopted an Act restoring the country's independence, building on a referendum held on 31 March in which an overwhelming majority voted for independence. The date was chosen deliberately: it fell on the second anniversary of 9 April 1989, when Soviet troops dispersed a peaceful pro-independence demonstration in Tbilisi, killing some twenty people and galvanising the national movement. Independence restored a sovereign Georgian state after seven decades of Soviet rule and a longer century of incorporation into the Russian Empire from 1801. Its deeper roots run back through the short-lived Democratic Republic of Georgia of 1918 to 1921, the medieval kingdom unified in the golden age of David the Builder and Queen Tamar, and the ancient realms of Colchis and Iberia. Zviad Gamsakhurdia, leader of the national movement, became the first president of the newly independent state."
   },
+  "statehood": {
+    "formation": {
+      "year": 1008,
+      "yearLabel": "1008",
+      "label": "Bagrat III becomes the first king of a unified Georgia",
+      "detail": "The unified kingdom fragmented after 1490 into Georgian successor kingdoms, of which Kartli-Kakheti was formed in 1762 and annexed by Russia in 1801; Colchis and Iberia are the older record the chronicle carries.",
+      "sources": ["wikipedia-kingdom-georgia"]
+    },
+    "interruptions": [
+      {
+        "start": 1801,
+        "end": 1918,
+        "label": "Russian annexation",
+        "sources": ["wikipedia-kartli-kakheti", "wikipedia-drg"]
+      },
+      {
+        "start": 1921,
+        "end": 1991,
+        "label": "Soviet rule",
+        "sources": ["wikipedia-drg", "us-state-georgia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Ancient realms", "value": "Colchis, the mythical land of the Golden Fleece, and the kingdom of Iberia in the east" },
     { "label": "Early Christianity", "value": "Iberia adopted Christianity as its state religion in 337 under King Mirian III, converted by St Nino" },
@@ -184,7 +207,10 @@
     { "id": "stalin-britannica", "label": "Joseph Stalin", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Joseph-Stalin", "kind": "encyclopedia" },
     { "id": "abkhazia-britannica", "label": "Abkhazia", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Abkhazia", "kind": "encyclopedia" },
     { "id": "south-ossetia-britannica", "label": "South Ossetia", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/South-Ossetia", "kind": "encyclopedia" },
-    { "id": "us-state-georgia", "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations, by Country: Georgia", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/georgia", "kind": "gov" }
+    { "id": "us-state-georgia", "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations, by Country: Georgia", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/georgia", "kind": "gov" },
+    { "id": "wikipedia-kingdom-georgia", "label": "Kingdom of Georgia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia", "kind": "reference" },
+    { "id": "wikipedia-kartli-kakheti", "label": "Kingdom of Kartli-Kakheti", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli-Kakheti", "kind": "reference" },
+    { "id": "wikipedia-drg", "label": "Democratic Republic of Georgia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Georgia", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"
