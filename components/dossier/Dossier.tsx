@@ -13,7 +13,7 @@ import type {
 } from "@/lib/types";
 import { DOMAIN_META } from "@/lib/types";
 import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
-import { TERRITORY_NOTES } from "@/lib/territory-notes";
+import { NO_DATA_NOTES, TERRITORY_NOTES } from "@/lib/territory-notes";
 import DomainPanel from "./DomainPanel";
 import MetricDetail, { type ChartMode } from "./MetricDetail";
 import { annotationsForSeries } from "@/lib/annotations";
@@ -244,6 +244,8 @@ export default function Dossier({
                   regionLabel={regionLabel}
                 />
               )}
+
+              {available.length === 0 && <NoSeriesState meta={meta} />}
 
               {gridMetrics.length > 0 && (
                 <section>
@@ -574,6 +576,45 @@ function HistoryHero({
         </span>
       </Link>
     </div>
+  );
+}
+
+/**
+ * The designed empty state for the seven codes with no statistical series.
+ *
+ * These pages used to end in a void below the Quick Facts — the dimmed tabs
+ * said "nothing here" without ever saying why, which reads as an oversight on
+ * our part rather than a fact about the world's statistical apparatus. The
+ * reasons are not interchangeable (a continent with no government is not the
+ * same case as a state recognised by one UN member), so each is named.
+ *
+ * The bar this states is a real one and it is the same bar the histories obey:
+ * a figure appears here only if a named publisher stands behind it.
+ */
+function NoSeriesState({ meta }: { meta: CountryMeta }) {
+  const note = NO_DATA_NOTES[meta.code];
+  return (
+    <section className="mt-2 max-w-[46rem]">
+      <span aria-hidden className="stratum-rule mb-6 block max-w-[120px]" />
+      <h2 className="font-display text-[clamp(1.4rem,3vw,1.9rem)] font-[400] leading-tight text-chalk-hi">
+        No independent statistical series meets our sourcing bar yet
+      </h2>
+      <p className="mt-4 font-serif text-[1.05rem] leading-[1.62] text-chalk-read">
+        {note ??
+          `No publisher we draw on reports the economic, social or environmental series for ${meta.name} as a separate entity.`}
+      </p>
+      <p className="mt-4 text-[0.95rem] leading-relaxed text-chalk-2">
+        Every figure in a Terralore dossier carries the publisher that produced it
+        and the year it refers to. Where no such figure exists we record the gap
+        rather than estimating one — an imputed number is indistinguishable from a
+        sourced one once it is rendered in the same card, and that would make the
+        whole dossier un-citable.
+      </p>
+      <p className="mt-4 text-[0.95rem] leading-relaxed text-chalk-2">
+        What is above — capital, population, area, languages, currency — comes from
+        the atlas&apos; own reference dataset. It is a smaller claim, honestly made.
+      </p>
+    </section>
   );
 }
 

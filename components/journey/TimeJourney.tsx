@@ -2,10 +2,10 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { CountryHistory, CountryMeta } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
-import { buildMoments, bigYear, momentEraIndex, type Moment } from "@/lib/journey";
+import { buildMoments, bigYear, momentEraIndex, nextEraStart, type Moment } from "@/lib/journey";
 import { formatPopulation } from "@/lib/format";
 import TimelineRail from "./TimelineRail";
 import ChapterDrawer from "./ChapterDrawer";
@@ -24,6 +24,13 @@ export default function TimeJourney({
     () => new Map(history.sources.map((s) => [s.id, s])),
     [history],
   );
+
+  // Motion respects the OS setting. The global CSS reduced-motion rule collapses
+  // CSS animations, but these transitions are JS-driven and CSS cannot reach
+  // them — without this the journey's one large moving element keeps moving for
+  // exactly the readers who asked it not to. State still changes; only the
+  // travel between states does.
+  const reduceMotion = useReducedMotion();
 
   const [i, setI] = useState(0);
   const [drawerEra, setDrawerEra] = useState<{
@@ -54,11 +61,26 @@ export default function TimeJourney({
       } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
         e.preventDefault();
         go(i - 1);
+      } else if (e.key === "PageDown" || e.key === "]") {
+        // Era-jump. A 26-moment journey is 25 key presses end to end, which is
+        // fine for travelling and useless for *navigating* — a reader who wants
+        // the fourth chapter should not have to scroll through the third.
+        e.preventDefault();
+        go(nextEraStart(moments, i, 1));
+      } else if (e.key === "PageUp" || e.key === "[") {
+        e.preventDefault();
+        go(nextEraStart(moments, i, -1));
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        go(0);
+      } else if (e.key === "End") {
+        e.preventDefault();
+        go(total - 1);
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [i, go, drawerEra]);
+  }, [i, go, drawerEra, moments, total]);
 
   // Wheel / trackpad → travel time (locked between steps)
   const onWheel = useCallback(
@@ -171,10 +193,14 @@ export default function TimeJourney({
         <AnimatePresence mode="wait">
           <motion.div
             key={i}
-            initial={{ opacity: 0, y: 16 }}
+            initial={reduceMotion ? false : { opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -12 }}
-            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            exit={reduceMotion ? { opacity: 0 } : { opacity: 0, y: -12 }}
+            transition={
+              reduceMotion
+                ? { duration: 0 }
+                : { duration: 0.5, ease: [0.16, 1, 0.3, 1] }
+            }
             className="w-full max-w-[820px] text-center"
           >
             <Stage
@@ -217,7 +243,7 @@ export default function TimeJourney({
             {String(i + 1).padStart(2, "0")} <span className="text-chalk-5">/ {total}</span>
           </span>
           <span className="hidden font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-4 sm:block">
-            ← → or scroll to travel · click the line to jump
+            ← → travel · [ ] jump era · click the line
           </span>
         </div>
       </div>
