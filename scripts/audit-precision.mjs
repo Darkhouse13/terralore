@@ -138,7 +138,7 @@ function readLedger() {
     map.set(m[1].trim(), {
       kind: m[2].trim(),
       text: m[3].trim().replace(/^`|`$/g, ""),
-      by: m[4].trim(),
+      by: m[4].trim().replace(/^`|`$/g, ""),
       note: m[5].trim(),
     });
   }

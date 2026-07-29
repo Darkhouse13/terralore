@@ -1,187 +1,197 @@
 # The statehood precision ledger
 
 Every statehood claim that asserts a precision finer than a year — a day, a
-month, or a direct quotation — with the source that was read to confirm it.
+month, or a direct quotation — with the source that was read to confirm it and
+the sentence it was found in.
 
 The rule this ledger exists to enforce (`docs/statehood-deepening-plan.md` §2):
 
 > **A date more precise than its cited sources support is a fabrication of
 > precision, even when the date is correct.**
 
-Guinea is the case that produced it. The block said *"2 October 1958"* and
-cited a source that states 1 November 1958 — the date the United States
-recognised the republic. The label was true about the world and false about the
-citation, and the corpus's entire claim on a reader's trust is that those two
-are the same thing. Three ways to close a row, in order of preference:
+Guinea is the case that produced it. The block said *"2 October 1958"* and cited
+`statedept-guinea`, which states 1 November 1958 — the date the **United States
+recognised** the republic, a month after the declaration. The label was true
+about the world and false about the citation, and the corpus's entire claim on a
+reader's trust is that those two are the same thing.
+
+That failure has a shape, and the shape is common: `history.state.gov`'s country
+guides are a guide to *US recognition*, and for most of the 1960 African
+independences recognition fell on independence day — so the pattern reads as
+support until the one time it does not. Twenty-three blocks were resting on a
+sentence of that shape. Each now cites a source that says what the **polity**
+did, with the diplomatic note kept alongside rather than doing the work alone.
+
+Three ways to close a row, in order of preference:
 
 1. **Confirm** — a source the claim already cites states the date at that
-   precision. Record which one.
+   precision, in a sentence about the claim.
 2. **Add** — the file carries another source that does (Guinea's own
    `ebsco-independence` covers 2 October), or one is added and read.
-3. **Soften** — no citable source supports the precise form, so the label drops
-   to the precision the citations do support. Softening is honourable;
-   unsupported precision is not.
+3. **Soften** — no citable source supports the precise form, so the claim drops
+   to the precision the citations do support. Costa Rica, El Salvador and
+   Honduras each lost a month this way; Morocco's 2 March 1956 went with them.
+   Softening is honourable; unsupported precision is not.
 
 `node scripts/audit-precision.mjs --pending` prints what remains. A row records
 the claim text it verified, so editing a claim reopens its row automatically —
 the ledger cannot drift out of agreement with the corpus.
 
-**Verified by** names the source id inside that nation's own `sources[]`.
+**Verified by** names a source id inside that nation's own `sources[]`.
+**Evidence** is the fetched page's own words, lower-cased by the extractor.
 
 ---
 
-| Claim | Kind | Text | Verified by | Note |
+| Claim | Kind | Text | Verified by | Evidence |
 |---|---|---|---|---|
-| `ALB:formation.yearLabel` | day | 28 November 1912 | — |  |
-| `AGO:formation.yearLabel` | day | 11 November 1975 | — |  |
-| `ARG:formation.yearLabel` | day | 9 July 1816 | — |  |
-| `AUS:formation.yearLabel` | day | 1 January 1901 | — |  |
-| `AUS:formation.detail` | day | 9 October 1942 | — |  |
-| `AUT:formation.detail` | day | 12 March 1938 | — |  |
-| `AUT:formation.detail#2` | day | 27 April 1945 | — |  |
-| `AUT:formation.detail#3` | day | 27 July 1955 | — |  |
-| `AZE:formation.yearLabel` | day | 28 May 1918 | — |  |
-| `BHS:formation.yearLabel` | day | 10 July 1973 | — |  |
-| `BGD:formation.yearLabel` | day | 26 March 1971 | — |  |
-| `BGD:formation.detail` | day | 16 December 1971 | — |  |
-| `BLR:formation.yearLabel` | day | 25 August 1991 | — |  |
-| `BEL:formation.yearLabel` | day | 4 October 1830 | — |  |
-| `BEL:formation.detail` | day | 20 December 1830 | — |  |
-| `BLZ:formation.yearLabel` | day | 21 September 1981 | — |  |
-| `BOL:formation.yearLabel` | day | 6 August 1825 | — |  |
-| `BWA:formation.yearLabel` | day | 30 September 1966 | — |  |
-| `BRA:formation.yearLabel` | day | 7 September 1822 | — |  |
-| `BRA:formation.detail` | day | 29 August 1825 | — |  |
-| `BGR:formation.detail` | day | 5 October 1908 | — |  |
-| `CMR:formation.yearLabel` | day | 1 January 1960 | — |  |
-| `CMR:formation.detail` | day | 11 February 1961 | — |  |
-| `CMR:formation.detail#2` | day | 1 October 1961 | — |  |
-| `CPV:formation.yearLabel` | day | 5 July 1975 | — |  |
-| `CAF:formation.yearLabel` | day | 13 August 1960 | — |  |
-| `TCD:formation.yearLabel` | day | 11 August 1960 | — |  |
-| `CHL:formation.yearLabel` | day | 12 February 1818 | — |  |
-| `CHL:formation.detail` | day | 1 January 1818 | — |  |
-| `COL:formation.yearLabel` | day | 20 July 1810 | — |  |
-| `COL:formation.detail` | day | 7 August 1819 | — |  |
-| `COM:formation.yearLabel` | day | 6 July 1975 | — |  |
-| `COG:formation.yearLabel` | day | 15 August 1960 | — |  |
-| `CRI:formation.detail` | day | 30 August 1848 | — |  |
-| `CRI:formation.detail#2` | month | October 1821 | — |  |
-| `CUB:formation.yearLabel` | day | 20 May 1902 | — |  |
-| `CYP:formation.yearLabel` | day | 16 August 1960 | — |  |
-| `CZE:formation.detail` | day | 1 January 1993 | — |  |
-| `DJI:formation.yearLabel` | day | 27 June 1977 | — |  |
-| `COD:formation.yearLabel` | day | 30 June 1960 | — |  |
-| `SLV:formation.detail` | day | 21 September 1821 | — |  |
-| `GNQ:formation.yearLabel` | day | 12 October 1968 | — |  |
-| `ERI:formation.yearLabel` | day | 27 April 1993 | — |  |
-| `EST:formation.yearLabel` | day | 24 February 1918 | — |  |
-| `FLK:formation.yearLabel` | day | 3 January 1833 | — |  |
-| `FJI:formation.yearLabel` | day | 5 June 1871 | — |  |
-| `FJI:formation.detail` | day | 10 October 1874 | — |  |
-| `FJI:formation.detail#2` | month | November 1871 | — |  |
-| `FIN:formation.yearLabel` | day | 6 December 1917 | — |  |
-| `GAB:formation.yearLabel` | day | 17 August 1960 | — |  |
-| `GMB:formation.yearLabel` | day | 18 February 1965 | — |  |
-| `DEU:formation.yearLabel` | day | 18 January 1871 | — |  |
-| `GHA:formation.yearLabel` | day | 6 March 1957 | — |  |
-| `GRC:formation.yearLabel` | month | February 1830 | — |  |
-| `GRL:formation.yearLabel` | day | 21 June 2009 | — |  |
-| `GRL:formation.detail` | day | 1 May 1979 | — |  |
-| `GTM:formation.yearLabel` | day | 15 September 1821 | — |  |
-| `GTM:formation.detail` | month | January 1822 | — |  |
-| `GIN:formation.yearLabel` | day | 2 October 1958 | — |  |
-| `GNB:formation.yearLabel` | month | September 1973 | — |  |
-| `GNB:formation.detail` | month | September 1974 | — |  |
-| `GUY:formation.yearLabel` | day | 26 May 1966 | — |  |
-| `HND:formation.detail` | month | September 1821 | — |  |
-| `ISL:formation.detail` | day | 1 December 1918 | — |  |
-| `ISL:formation.detail#2` | day | 17 June 1944 | — |  |
-| `IND:formation.detail` | month | July 1947 | — |  |
-| `IDN:formation.yearLabel` | day | 17 August 1945 | — |  |
-| `IRQ:formation.yearLabel` | day | 23 August 1921 | — |  |
-| `IRL:formation.yearLabel` | day | 6 December 1922 | — |  |
-| `IRL:formation.detail` | day | 6 December 1921 | — |  |
-| `ITA:formation.yearLabel` | day | 17 March 1861 | — |  |
-| `CIV:formation.yearLabel` | day | 7 August 1960 | — |  |
-| `JAM:formation.yearLabel` | day | 6 August 1962 | — |  |
-| `JOR:formation.yearLabel` | day | 11 April 1921 | — |  |
-| `KEN:formation.yearLabel` | day | 12 December 1963 | — |  |
-| `KOS:formation.yearLabel` | day | 17 February 2008 | — |  |
-| `LVA:formation.yearLabel` | day | 18 November 1918 | — |  |
-| `LVA:formation.detail` | day | 4 May 1990 | — |  |
-| `LBN:formation.yearLabel` | day | 1 September 1920 | — |  |
-| `LBR:formation.yearLabel` | day | 26 July 1847 | — |  |
-| `LBY:formation.yearLabel` | day | 24 December 1951 | — |  |
-| `LIE:formation.yearLabel` | day | 23 January 1719 | — |  |
-| `LTU:formation.yearLabel` | day | 6 July 1253 | — |  |
-| `MWI:formation.yearLabel` | day | 6 July 1964 | — |  |
-| `MYS:formation.yearLabel` | day | 31 August 1957 | — |  |
-| `MYS:formation.detail` | day | 16 September 1963 | — |  |
-| `MLT:formation.yearLabel` | day | 21 September 1964 | — |  |
-| `MRT:formation.yearLabel` | day | 28 November 1960 | — |  |
-| `MUS:formation.yearLabel` | day | 12 March 1968 | — |  |
-| `MEX:formation.yearLabel` | day | 27 September 1821 | — |  |
-| `MNG:formation.detail` | day | 29 December 1911 | — |  |
-| `MNG:formation.detail#2` | month | October 1945 | — |  |
-| `MNE:formation.detail` | day | 3 June 2006 | — |  |
-| `MOZ:formation.detail` | day | 25 June 1975 | — |  |
-| `NAM:formation.yearLabel` | day | 21 March 1990 | — |  |
-| `NPL:formation.yearLabel` | day | 25 September 1768 | — |  |
-| `NLD:formation.detail` | day | 12 April 1588 | — |  |
-| `NCL:formation.yearLabel` | day | 5 May 1998 | — |  |
-| `NCL:formation.detail` | day | 24 September 1853 | — |  |
-| `NZL:formation.detail` | day | 26 September 1907 | — |  |
-| `NZL:formation.detail#2` | day | 25 November 1947 | — |  |
-| `NIC:formation.detail` | day | 5 November 1838 | — |  |
-| `NER:formation.yearLabel` | day | 3 August 1960 | — |  |
-| `NGA:formation.yearLabel` | day | 1 October 1960 | — |  |
-| `CYN:formation.yearLabel` | day | 15 November 1983 | — |  |
-| `OMN:formation.yearLabel` | day | 20 November 1744 | — |  |
-| `PAK:formation.yearLabel` | day | 14 August 1947 | — |  |
-| `PSE:formation.yearLabel` | day | 15 November 1988 | — |  |
-| `PSE:formation.detail` | month | December 1988 | — |  |
-| `PSE:formation.detail#2` | month | February 1989 | — |  |
-| `PAN:formation.yearLabel` | day | 3 November 1903 | — |  |
-| `PNG:formation.yearLabel` | day | 16 September 1975 | — |  |
-| `PRY:formation.yearLabel` | day | 15 May 1811 | — |  |
-| `PER:formation.yearLabel` | day | 28 July 1821 | — |  |
-| `PHL:formation.yearLabel` | day | 12 June 1898 | — |  |
-| `PHL:formation.detail` | day | 23 January 1899 | — |  |
-| `PRT:formation.yearLabel` | day | 5 October 1143 | — |  |
-| `PRI:formation.yearLabel` | day | 25 July 1952 | — |  |
-| `STP:formation.yearLabel` | day | 12 July 1975 | — |  |
-| `STP:formation.detail` | day | 21 December 1470 | — |  |
-| `SEN:formation.yearLabel` | day | 20 August 1960 | — |  |
-| `SYC:formation.yearLabel` | day | 29 June 1976 | — |  |
-| `SLE:formation.yearLabel` | day | 27 April 1961 | — |  |
-| `SVK:formation.yearLabel` | day | 1 January 1993 | — |  |
-| `SLB:formation.yearLabel` | day | 7 July 1978 | — |  |
-| `SOM:formation.yearLabel` | day | 1 July 1960 | — |  |
-| `SOM:formation.detail` | day | 26 June 1960 | — |  |
-| `SOL:formation.detail` | day | 26 June 1960 | — |  |
-| `ZAF:formation.yearLabel` | day | 31 May 1910 | — |  |
-| `SDS:formation.yearLabel` | day | 9 July 2011 | — |  |
-| `SDN:formation.yearLabel` | day | 1 January 1956 | — |  |
-| `SUR:formation.yearLabel` | day | 25 November 1975 | — |  |
-| `SWE:formation.yearLabel` | day | 6 June 1523 | — |  |
-| `SYR:formation.yearLabel` | day | 8 March 1920 | — |  |
-| `SYR:formation.detail` | day | 25 July 1920 | — |  |
-| `TWN:formation.yearLabel` | month | December 1949 | — |  |
-| `TWN:formation.detail` | day | 7 December 1949 | — |  |
-| `TZA:formation.yearLabel` | day | 9 December 1961 | — |  |
-| `TZA:formation.detail` | day | 26 April 1964 | — |  |
-| `TLS:formation.yearLabel` | day | 28 November 1975 | — |  |
-| `TLS:formation.detail` | day | 20 May 2002 | — |  |
-| `TGO:formation.yearLabel` | day | 27 April 1960 | — |  |
-| `TTO:formation.yearLabel` | day | 31 August 1962 | — |  |
-| `ARE:formation.yearLabel` | day | 2 December 1971 | — |  |
-| `ARE:formation.detail` | day | 10 February 1972 | — |  |
-| `UGA:formation.yearLabel` | day | 9 October 1962 | — |  |
-| `GBR:formation.yearLabel` | day | 12 July 927 | — |  |
-| `USA:formation.yearLabel` | day | 4 July 1776 | — |  |
-| `VUT:formation.yearLabel` | day | 30 July 1980 | — |  |
-| `VAT:formation.yearLabel` | day | 11 February 1929 | — |  |
-| `ZMB:formation.yearLabel` | day | 24 October 1964 | — |  |
-| `ZWE:formation.yearLabel` | day | 18 April 1980 | — |  |
-| `FRA:formation.yearLabel` | day | 10 August 843 | — |  |
+| `ALB:formation.yearLabel` | day | 28 November 1912 | `wikipedia-albanian-declaration` | “…of independence photomontage of the original document of the declaration of independence created 28 november 1912 ratified 28 november 1912 location vlorë , albania author(s) ismail qemali , luigj gurakuqi signatories 40 purpose independence from ottoman empire…” |
+| `AGO:formation.yearLabel` | day | 11 November 1975 | `statedept-angola` | “…recognition u.s. response to angolan independence, 1975 . portugal granted angola independence on november 11, 1975 , at a time when multiple angolan nationalist forces were fighting among themselves to establish control over the newly liberated state. although…” |
+| `ARG:formation.yearLabel` | day | 9 July 1816 | `statedept-argentina` | “…minister plenipotentiary to that government. buenos ayres had declared independence from spain on july 9, 1816 . diplomatic relations establishment of diplomatic relations and the american mission in buenos ayres, 1823 . diplomatic relations were established…” |
+| `AUS:formation.yearLabel` | day | 1 January 1901 | `statedept-australia` | “…of recognition, diplomatic, and consular relations, by country, since 1776: australia summary on january 1, 1901 , six colonies were joined together to create the commonwealth of australia , a self-governing dominion in the british empire. while the new nation…” |
+| `AUS:formation.detail` | day | 9 October 1942 | `statedept-australia` | “…provisions would not come into effect until formally adopted by the government of australia. on october 9, 1942, australia’s statute of westminster adoption act became law. the act was made effective retroactive to september 3, 1939, the date of “the…” |
+| `AUT:formation.detail` | day | 12 March 1938 | `wikipedia-anschluss` | “…annexation of austria ), was the annexation of the federal state of austria into nazi germany on 12 march 1938. [ 2 ] the idea of an anschluss (a united austria and germany that would form a " greater germany ") [ b ] arose after the 1871 unification of…” |
+| `AUT:formation.detail#2` | day | 27 April 1945 | `wikipedia-anschluss` | “…österreich (in german). federal chancellery of austria . retrieved 14 october 2025 . on 27 april 1945, a provisional government under karl renner proclaimed the restoration of the republic of austria and declared the anschluss of 1938 null and void.…” |
+| `AUT:formation.detail#3` | day | 27 July 1955 | `wikipedia-allied-austria` | “…13 april 1945 • established 27 april 1945 • end of world war ii 8 may 1945 • austrian state treaty 27 july 1955 • last allies left 25 october 1955 population • 1945 6,793,000 • 1955 6,947,000 currency austrian schilling iso 3166 code at preceded by succeeded…” |
+| `AZE:formation.yearLabel` | day | 28 May 1918 | `wikipedia-adr` | “…of the azerbaijan democratic republic historical era interwar period • independence declared 28 may 1918 • soviet invasion 28 april 1920 • azerbaijani independence restored 18 october 1991 area 1918 [ 3 ] [ 4 ] 99,908.87 km 2 (38,575.03 sq mi)…” |
+| `BHS:formation.yearLabel` | day | 10 July 1973 | `statedept-bgn` | “…financial services sectors. government type: constitutional parliamentary democracy. independence: july 10, 1973. branches: executive --british monarch (nominal head of state), governor general (representative of the british monarch), prime minister (head of…” |
+| `BGD:formation.yearLabel` | day | 26 March 1971 | `wikipedia-bangladesh-war` | “…mujibur rahman to declare independence of east pakistan as the sovereign state of bangladesh on 26 march 1971. [ 36 ] most bengalis supported this move, although some islamists and biharis opposed it and sided with the pakistan army instead. [ 37 ] pakistani…” |
+| `BGD:formation.detail` | day | 16 December 1971 | `wikipedia-bangladesh-war` | “…and jagjit singh aurora on behalf of indian and bangladesh forces in dhaka on 16 dec. 1971 on 16 december 1971, lt. gen amir abdullah khan niazi , chief martial law administrator of east pakistan and commander of pakistan army forces in east pakistan signed…” |
+| `BLR:formation.yearLabel` | day | 25 August 1991 | `statedept-belarus` | “…control until declaring its sovereignty on july 27, 1990 and independence from the soviet union on august 25, 1991. it has been run by authoritarian president alexander lukashenko since 1994. under lukashenko u.s.-belarusian relations have remained at a low…” |
+| `BEL:formation.yearLabel` | day | 4 October 1830 | `statedept-belgium` | “…summary the kingdom of belgiu m declared its independence from the kingdom of the netherlands on october 4, 1830. most of the european powers recognized de facto independence on december 20, 1830. however, it was not until the netherlands signed the treaty of…” |
+| `BEL:formation.detail` | day | 20 December 1830 | `statedept-belgium` | “…netherlands on october 4, 1830. most of the european powers recognized de facto independence on december 20, 1830. however, it was not until the netherlands signed the treaty of london on april 19, 1839 that the former ruler recognized brussels as a sovereign…” |
+| `BLZ:formation.yearLabel` | day | 21 September 1981 | `officialhistorian-belize` | “…with great britain and guatemala, belize achieved full independence from the united kingdom on september 21, 1981. diplomatic relations establishment of diplomatic relations and the american embassy in belize, 1981 . diplomatic relations and the american embassy…” |
+| `BOL:formation.yearLabel` | day | 6 August 1825 | `statedept-bolivia` | “…relations, by country, since 1776: bolivia summary bolivia declared its independence from spain on august 6, 1825 . the united states recognized the peru-bolivian confederation on march 16, 1837, by the appointment of james b. thornton as chargé d’affaires.…” |
+| `BWA:formation.yearLabel` | day | 30 September 1966 | `statedept-botswana` | “…u.s. recognition of botswana’s independence, 1966 . the united states recognized botswana on september 30, 1966, when the american embassy at gaberones (gaborone) was established upon botswana’s attainment of independence on that same date. botswana previously…” |
+| `BRA:formation.yearLabel` | day | 7 September 1822 | `wikipedia-independence-brazil` | “…bonifácio de andrada e silva]]"},"location":{"wt":"[[brazil]]"},"date":{"wt":"{{start date and age/7 september 1822}}"},"outcome":{"wt":"independence of the [[kingdom of brazil]] from the [[united kingdom of portugal, brazil and the algarves]] and subsequent…” |
+| `BRA:formation.detail` | day | 29 August 1825 | `wikipedia-independence-brazil` | “…independence and the treaty of friendship and alliance was signed between the two countries on 29 august 1825. in exchange for recognition as a sovereign state, brazil committed to paying a substantial compensation to portugal and signing two treaties with…” |
+| `BGR:formation.detail` | day | 5 October 1908 | `statedept-bulgaria` | “…were not finalized until after world war i. bulgaria became independent of the ottoman empire on october 5, 1908, after which its reigning prince, ferdinand of saxe-coburg, proclaimed himself tsar. modern flag of bulgaria recognition u.s. recognition of…” |
+| `CMR:formation.yearLabel` | day | 1 January 1960 | `wikipedia-cameroons` | “…administration of nigeria. [ 9 ] french cameroun became independent, as cameroun or cameroon, on 1 january 1960, and nigeria was scheduled for independence later that same year, which raised the question of what to do with the british territory. as colonizers…” |
+| `CMR:formation.detail` | day | 11 February 1961 | `wikipedia-cameroons` | “…(which had been going on since 1959), a un-administered plebiscite was agreed to and held on 11 february 1961. the muslim-majority northern area opted for union with nigeria, and the southern area voted to join cameroon. [ 11 ] no option was given for…” |
+| `CMR:formation.detail#2` | day | 1 October 1961 | `wikipedia-cameroons` | “…era world war i • kamerun partitioned 20 july 1916 • integration into nigeria and cameroon 1 october 1961 area • total 89,526 km 2 (34,566 sq mi) currency british west africa pound preceded by succeeded by kamerun federation of nigeria federal republic…” |
+| `CPV:formation.yearLabel` | day | 5 July 1975 | `wikipedia-cape-verde` | “…{{nobold/from [[portugal]]}}"},"established_event1":{"wt":"granted"},"established_date1":{"wt":"5 july 1975"},"gini_year":{"wt":"2015"},"gini_change":{"wt":"decrease !-- increase/decrease/steady -->"},"gini":{"wt":"42.4"},"gini_ref":{"wt":" ref…” |
+| `CAF:formation.yearLabel` | day | 13 August 1960 | `wikipedia-car` | “…legislature national assembly independence • republic established 1 december 1958 • from france 13 august 1960 • central african empire established 4 december 1976 • coronation of bokassa i 4 december 1977 • bokassa i's overthrow and republic restored 21…” |
+| `TCD:formation.yearLabel` | day | 11 August 1960 | `wikipedia-chad` | “…november 1958"},"established_event2":{"wt":"sovereign state"},"established_date2":{"wt":"11 august 1960"},"area_km2":{"wt":"1,280,000 ref>{{cite cia world factbook/country=chad/access-date=22 june 2023/year=2023}}…” |
+| `CHL:formation.yearLabel` | day | 12 February 1818 | `wikipedia-chilean-independence` | “…bernardo o'higgins on 12 february 1818 at talca , despite being dated in concepción on 1 january 1818. [ 1 ] [ 2 ] the ceremony of independence was performed on 12 february 1818, the…” |
+| `CHL:formation.detail` | day | 1 January 1818 | `wikipedia-chilean-independence` | “…director bernardo o'higgins on 12 february 1818 at talca , despite being dated in concepción on 1 january 1818. [ 1 ] [ 2 ] the ceremony of independence was performed on 12 february 1818, the first anniversary of the battle of chacabuco . the original…” |
+| `COL:formation.yearLabel` | day | 20 July 1810 | `wikipedia-colombian-independence` | “…barbacoas sucumbíos the colombian war of independence is traditionally held as having begun on july 20, 1810 when a government junta , a political governing board mostly headed by local colonists, was created in santa fe de bogotá , the capital of the…” |
+| `COL:formation.detail` | day | 7 August 1819 | `wikipedia-colombian-independence` | “…july, bolívar intercepted a royalist force attempting to reinforce the poorly defended capital. on 7 august 1819, he gained a decisive victory at the battle of boyacá , where the bulk of the royalist army surrendered to bolívar. on receiving the news of the…” |
+| `COM:formation.yearLabel` | day | 6 July 1975 | `wikipedia-comoros` | “…1961"},"established_event7":{"wt":"independence from [[france]]"},"established_date7":{"wt":"6 july 1975"},"established_event8":{"wt":"federal islamic republic of comoros"},"established_date8":{"wt":"1 october 1978 ref>{{cite…” |
+| `COG:formation.yearLabel` | day | 15 August 1960 | `statedept-cog` | “…republic of congo’s independence, 1960 . the united states recognized the republic of the congo on august 15, 1960, in a congratulatory message from president dwight d. eisenhower to president fulbert youlou . on that date, the republic of the congo’s…” |
+| `CRI:formation.detail` | day | 30 August 1848 | `statedept-costarica` | “…nicaragua, and costa rica by 1839, costa rica did not formally declare its independence until august 30, 1848. modern flag of costa rica recognition u.s. recognition of costa rican independence, 1849 . costa rica notified the united states of its…” |
+| `CUB:formation.yearLabel` | day | 20 May 1902 | `statedept-cuba` | “…cuba as an occupying power until the republic of cuba was formally installed on may 19, 1902. on may 20, 1902, the united states relinquished its occupation authority over cuba, but claimed a continuing right to intervene in cuba. diplomatic relations…” |
+| `CYP:formation.yearLabel` | day | 16 August 1960 | `wikipedia-cyprus` | “…february 1959"},"established_event2":{"wt":"independence proclaimed"},"established_date2":{"wt":"16 august 1960"},"established_event3":{"wt":"[[independence day (cyprus)/independence day]]"},"established_date3":{"wt":"1 october…” |
+| `CZE:formation.detail` | day | 1 January 1993 | `wikipedia-czechoslovakia` | “…1948 • soviet occupation 21 august 1968 • velvet revolution 17–28 november 1989 • dissolution 1 january 1993 hdi (1990 formula) 0.897 [ 1 ] very high currency czechoslovak koruna calling code +42 iso 3166 code cs internet tld .cs preceded by succeeded by…” |
+| `DJI:formation.yearLabel` | day | 27 June 1977 | `wikipedia-history-djibouti` | “…with somalia . [ 48 ] ahmed dini ahmed proclaiming the djibouti declaration of independence on 27 june 1977. a third independence referendum was held in the french territory of the afars and the issas on 8 may 1977. the previous referendums were held in…” |
+| `COD:formation.yearLabel` | day | 30 June 1960 | `statedept-cod` | “…the united states recognized the republic of congo … on june 30, 1960 … on that date, the area formerly known as the belgian congo was proclaimed independent from belgian sovereignty…” |
+| `GNQ:formation.yearLabel` | day | 12 October 1968 | `statedept-gnq` | “…flag of equatorial guinea recognition united states recognition of equatorial guinea, 1968 . on october 12, 1968, equatorial guinea gained independence from spain. the united states recognized the independence of equatorial guinea when u.s. president lyndon…” |
+| `ERI:formation.yearLabel` | day | 27 April 1993 | `history-state-eritrea` | “…of eritrean independence, 1993 . the united states recognized the republic of eritrea on april 27, 1993, when the american consulate at asmara informed eritrean authorities of this decision on the same date eritrea declared its independence. eritrea…” |
+| `EST:formation.yearLabel` | day | 24 February 1918 | `wikipedia-estonian-declaration` | “…), is the founding act which established the independent democratic republic of estonia on 24 february 1918 . since then, 24 february has been celebrated as estonian independence day , the national day of estonia. historical context [ edit ] the…” |
+| `FLK:formation.yearLabel` | day | 3 January 1833 | `wikipedia-falklands` | “…islands sovereign state responsible united kingdom first settlement 1764 british rule reasserted 3 january 1833 [ 2 ] falklands war 2 april to 14 june 1982 current constitution 1 january 2009 named for anthony cary, 5th viscount falkland capital and largest…” |
+| `FJI:formation.yearLabel` | day | 5 June 1871 | `wikipedia-kingdom-fiji` | “…burt • 1872–1874 george austin woods • 1874 john bates thurston (acting) history • established 5 june 1871 • annexed by the united kingdom 10 october 1874 currency fijian pound preceded by succeeded by ancient fiji colony of fiji today part of fiji the…” |
+| `FJI:formation.detail` | day | 10 October 1874 | `wikipedia-kingdom-fiji` | “…john bates thurston (acting) history • established 5 june 1871 • annexed by the united kingdom 10 october 1874 currency fijian pound preceded by succeeded by ancient fiji colony of fiji today part of fiji the kingdom of fiji ( fijian : matanitu o viti ), also…” |
+| `FJI:formation.detail#2` | month | November 1871 | `wikipedia-kingdom-fiji` | “…the legislative assembly met for the first time in levuka in november 1871…” |
+| `FIN:formation.yearLabel` | day | 6 December 1917 | `statedept-finland` | “…of finnish independence, 1919 . finland declared its independence from the russian empire on december 6, 1917, shortly after the bolshevik revolution. the united states recognized finland on may 7, 1919, in a letter from secretary of state robert lansing to…” |
+| `GAB:formation.yearLabel` | day | 17 August 1960 | `history-gabon-wiki` | “…equatorial africa . on 15 july 1960 france agreed to gabon becoming fully independent. [ 47 ] on 17 august 1960 gabon became an independent country. independence [ edit ] at the time of gabon's independence in 1960, two principal political parties existed: the…” |
+| `GMB:formation.yearLabel` | day | 18 February 1965 | `history-gambia-wiki` | “…between the british and gambian governments in july 1964, the gambia achieved independence on 18 february 1965 as a constitutional monarchy within the commonwealth . shortly thereafter, the government held a referendum proposing that an elected president…” |
+| `DEU:formation.yearLabel` | day | 18 January 1871 | `wikipedia-unification-germany` | “…in january, the germans fired some 12,000 shells, 300–400 grenades daily into the city. [ 107 ] on january 18, 1871, the german princes and senior military commanders proclaimed wilhelm "german emperor" in the hall of mirrors at the palace of versailles. [ 108 ]…” |
+| `GHA:formation.yearLabel` | day | 6 March 1957 | `yaa-asantewaa-wiki` | “…[ 15 ] queen asantewaa's dream for an asante independent from colonial rule was realized on 6 march 1957, when the asante protectorate gained independence as part of ghana . ghana was the first african nation in west africa to achieve this feat. [ 16 ]…” |
+| `GRC:formation.yearLabel` | month | February 1830 | `wikipedia-greek-war` | “…to create an independent greek state under their joint protection, concluding the protocols of 3 february 1830 . [ 214 ] after kapodistrias' assassination, the 1832 london conference established the kingdom of greece with otto of bavaria ( left ) as the first…” |
+| `GRL:formation.yearLabel` | day | 21 June 2009 | `wikipedia-greenland` | “…[[autonomy]] and [[self rule]]"},"established_date7":{"wt":"21 june 2009 ref name=selvstyre /> ref name=\"selfrule\">{{cite news /date=21 june 2009 /title=self-rule introduced in greenland /work=bbc news…” |
+| `GRL:formation.detail` | day | 1 May 1979 | `wikipedia-greenland` | “…january 1814"},"established_title6":{"wt":"[[home rule]]"},"established_date6":{"wt":"1 may 1979"},"established_title7":{"wt":"further [[autonomy]] and [[self rule]]"},"established_date7":{"wt":"21 june 2009 ref name=selvstyre /> ref…” |
+| `GTM:formation.yearLabel` | day | 15 September 1821 | `wikipedia-act-independence-ca` | “…of central america a scan of the act of independence signers of the act of independence ratified 15 september 1821 location legislative assembly of el salvador author josé cecilio del valle signatories 13 representatives of the provinces of the captaincy general…” |
+| `GTM:formation.detail` | month | January 1822 | `wikipedia-act-independence-ca` | “…excepting el salvador voting in favor and with el salvador opposing. [ 9 ] [ 11 ] [ 12 ] on 5 january 1822, [ 1 ] gaínza sent a letter to iturbide accepting central america's annexation, and all the territories of central america were incorporated into…” |
+| `GIN:formation.yearLabel` | day | 2 October 1958 | `ebsco-independence` | “…research starter guinea gains independence from france guinea gained independence from france on october 2, 1958, marking a significant moment in the decolonization of africa. the process began in 1956 with the loi cadre, which allowed some internal…” |
+| `GNB:formation.yearLabel` | month | September 1973 | `wikipedia-gnb-war` | “…rule in guinea toggle end of portuguese rule in guinea subsection 4.1 unilateral independence: september 1973 4.2 algiers accord: august 1974 4.3 portuguese withdrawal: september 1974 5 aftermath 6 gallery 7 see also 8 references 9 further reading toggle the…” |
+| `GNB:formation.detail` | month | September 1974 | `wikipedia-gnb-war` | “…revolution , the new portuguese government agreed to grant independence to guinea-bissau in september 1974 and to cape verde a year later. paigc thus became the first sub- saharan african liberation movement to achieve independence – if only indirectly –…” |
+| `GUY:formation.yearLabel` | day | 26 May 1966 | `wikipedia-guyana` | “…control 1667–1815 • british guiana 1831–1966 • independence from the united kingdom as guyana 26 may 1966 • republic 23 february 1970 • joined caricom at the treaty of chaguaramas 1 august 1973 • current constitution 6 october 1980 area • total 214,969 […” |
+| `ISL:formation.detail` | day | 1 December 1918 | `wikipedia-kingdom-iceland` | “…björn þórðarson legislature althing historical era interwar period / world war ii • act of union 1 december 1918 • surrender of denmark to nazi germany 9 april 1940 • operation fork 10 may 1940 • national referendum 20 may 1944 • republic proclaimed 17 june…” |
+| `ISL:formation.detail#2` | day | 17 June 1944 | `wikipedia-kingdom-iceland` | “…9 april 1940 • operation fork 10 may 1940 • national referendum 20 may 1944 • republic proclaimed 17 june 1944 population • 1944 [ 1 ] 125,967 currency króna preceded by succeeded by danish iceland iceland the kingdom of iceland ( icelandic : konungsríkið…” |
+| `IND:formation.detail` | month | July 1947 | `wikipedia-british-raj` | “…of 1857 10 may 1857 • government of india act 1858 2 august 1858 • indian independence act 18 july 1947 • partition of india 14–15 august 1947 at midnight area • total 4,993,650 km 2 (1,928,060 sq mi) population • 1941 [ 10 ] 389,000,000 currency…” |
+| `IDN:formation.yearLabel` | day | 17 August 1945 | `wikipedia-indonesia-proclamation` | “…name proklamasi kemerdekaan indonesia english name proclamation of indonesian independence date 17 august 1945 ; 80 years ago ( 1945-08-17 ) time 10:00 a.m. jst ( utc+9 ) venue sukarno's house at 56 jalan pegangsaan timur (now taman proklamasi ) location…” |
+| `IRQ:formation.yearLabel` | day | 23 August 1921 | `wikipedia-mandatory-iraq` | “…august"},"event1":{"wt":"coronation of [[faisal i of iraq/faisal i]]"},"date_event1":{"wt":"23 august 1921"},"event2":{"wt":"[[treaty of lausanne (1923)/treaty of lausanne]]"},"date_event2":{"wt":"24 july 1923"},"event3":{"wt":"[[treaty of ankara…” |
+| `IRL:formation.yearLabel` | day | 6 December 1922 | `wikipedia-irish-free-state` | “…• upper house seanad • lower house dáil history • irish free state constitution act 1922 6 december 1922 • balfour declaration 15 november 1926 • constitution of ireland 29 december 1937 area • total 70,000 km 2 (27,000 sq mi) population • 1936…” |
+| `IRL:formation.detail` | day | 6 December 1921 | `wikipedia-irish-free-state` | “…government and members of the dáil, culminating in the signing of the anglo-irish treaty on 6 december 1921. [ 10 ] the treaty allowed for the creation of a separate state to be known as the irish free state, with dominion status, within the british…” |
+| `ITA:formation.yearLabel` | day | 17 March 1861 | `wikipedia-unification-italy` | “…february 1861, victor emmanuel assembled the deputies of the first italian parliament in turin. on 17 march 1861, the parliament proclaimed victor emmanuel king of italy , and on 27 march 1861 rome was declared capital of italy, although it was not yet in the…” |
+| `CIV:formation.yearLabel` | day | 7 August 1960 | `wiki-civ-history` | “…an autonomous republic within the french community december 1958 • independence from france 7 august 1960 currency french west african franc (1903–1945); west african cfa franc (1945–1960) ( xof ) preceded by succeeded by protectorate of côte d'ivoire…” |
+| `JAM:formation.yearLabel` | day | 6 August 1962 | `statedept-jamaica` | “…recognition u.s. recognition of jamaican independence, 1962 . jamaica became independent on august 6, 1962, remaining a member of the british commonwealth. the united states recognized jamaica’s independence on august 16, 1962, with the establishment of…” |
+| `JOR:formation.yearLabel` | day | 11 April 1921 | `wikipedia-emirate-transjordan` | “…of trans-jordan , was a british protectorate under the league of nations mandate established on 11 april 1921, [ 4 ] [ 1 ] [ 2 ] which remained as such until achieving formal independence as the kingdom of transjordan in 1946. after the ottoman defeat in…” |
+| `KEN:formation.yearLabel` | day | 12 December 1963 | `statedept-kenya` | “…recognition of kenya, 1963 . the united states recognized kenya when it gained its independence on december 12, 1963. on december 10, 1963, u.s. secretary of the interior stewart udall , personal representative of the president with the rank of special ambassador,…” |
+| `KOS:formation.yearLabel` | day | 17 February 2008 | `statedept-kosovo` | “…had to be acceptable to the people of kosovo. kosovo declared its independence from serbia on february 17, 2008. in its declaration of independence, kosovo committed to fulfilling its obligations under the ahtisaari plan, to embrace multi-ethnicity as a…” |
+| `LVA:formation.yearLabel` | day | 18 November 1918 | `wikipedia-latvian-declaration` | “…was still de jure a sovereign country. it observes that latvia's declaration of independence on 18 november 1918 was internationally recognized in 1920, and that latvia was admitted to membership in the league of nations in 1921. [ 4 ] the first country to…” |
+| `LVA:formation.detail` | day | 4 May 1990 | `wikipedia-latvian-declaration` | “…voting # /span>aaf0d1;color:inherit;"}]]}'> status: in force page 1 of the declaration adopted on 4 may 1990 part of a series on the history of latvia prehistory kunda culture narva culture corded ware culture amber road / aesti baltic finns ( livonians ,…” |
+| `LBN:formation.yearLabel` | day | 1 September 1920 | `wikipedia-french-mandate-syria` | “…notes stating that lebanon would be treated separately from the rest of syria. [ 26 ] on 1 september 1920, general gouraud publicly proclaimed the creation of the state of greater lebanon ( french: état du grand liban , arabic: دولة لبنان الكبير ) at a…” |
+| `LBR:formation.yearLabel` | day | 26 July 1847 | `statedept-liberia-bgn` | “…is estimated at 15%. government type: republic. independence: from american colonization society july 26, 1847. constitution: january 6, 1986. political parties: 30 registered political parties. economy gdp (world bank 2006 est.): $631 million. real gdp…” |
+| `LBY:formation.yearLabel` | day | 24 December 1951 | `wikipedia-kingdom-libya` | “…• lower house house of representatives history • independence from the united kingdom and france 24 december 1951 • coup d'état 1 september 1969 currency libyan pound preceded by succeeded by emirate of cyrenaica british military administration french military…” |
+| `LIE:formation.yearLabel` | day | 23 January 1719 | `wikipedia-liechtenstein` | “…monauni legislature landtag independence as principality • union between vaduz and schellenberg 23 january 1719 • treaty of pressburg 12 july 1806 • separation from german confederation 23 august 1866 area • total 160.50 [ 3 ] km 2 (61.97 sq mi) ( 190th ) •…” |
+| `LTU:formation.yearLabel` | day | 6 July 1253 | `wikipedia-grand-duchy-lithuania` | “…kingdom of lithuania . after the civil war ended, mindaugas was crowned as king of lithuania on 6 july 1253, starting a decade of relative peace. mindaugas later renounced christianity and converted back to paganism. mindaugas tried to expand his influence…” |
+| `MWI:formation.yearLabel` | day | 6 July 1964 | `statedept-malawi` | “…u.s. recognition of malawian independence, 1964 . the united states recognized malawi on july 6, 1964, when the american consulate at blantyre was elevated to embassy status upon malawi’s attainment of independence on the same date. malawi previously…” |
+| `MYS:formation.yearLabel` | day | 31 August 1957 | `wikipedia-federation-malaya` | “…declaration of independence/independence]]"},"date_event1":{"wt":"31 august 1957"},"event_end":{"wt":"{{nowrap/[[malaysia agreement]]}}"},"date_end":{"wt":"16…” |
+| `MYS:formation.detail` | day | 16 September 1963 | `wikipedia-federation-malaya` | “…history • established 1 february 1948 [ 1 ] • independence 31 august 1957 • malaysia agreement 16 september 1963 area • total 131,952 km 2 (50,947 sq mi) population • 1951 census 5,517,222 currency malayan dollar (1948–1953) malaya and british borneo dollar…” |
+| `MLT:formation.yearLabel` | day | 21 September 1964 | `wikipedia-malta` | “…robert abela legislature parliament of malta independence from the united kingdom • state of malta 21 september 1964 • republic 13 december 1974 area • total 316 [ 6 ] km 2 (122 sq mi) ( 187th ) • water (%) 0.001 population • 2025 census 588,254 [ 7 ] • density…” |
+| `MRT:formation.yearLabel` | day | 28 November 1960 | `wiki-history-mauritania` | “…becoming fully independent. [ 17 ] nevertheless, when mauritania declared its independence on 28 november 1960, its level of political as well as economic development was, at best, embryonic. [ 6 ] independence, ould daddah era, and the saharan war [ edit ]…” |
+| `MUS:formation.yearLabel` | day | 12 March 1968 | `statedept-mauritius` | “…relations, by country, since 1776: mauritius summary the united states recognized mauritius on march 12, 1968, when the american embassy at port louis was established upon mauritius’ attainment of independence on that same date. modern flag of mauritius…” |
+| `MEX:formation.yearLabel` | day | 27 September 1821 | `wikipedia-mexican-independence` | “…by o'gorman , embrace of acatempan between iturbide and guerrero date 16 september 1810 – 27 september 1821 (11 years, 1 week and 4 days) location mexico result mexican victory and independence agreement treaty of córdoba first mexican empire is…” |
+| `MNG:formation.detail` | day | 29 December 1911 | `wikipedia-outer-mongolia` | “…revolution of 1911/independence]] from the qing dynasty"},"date_event1":{"wt":"29 december 1911"},"event2":{"wt":"[[beiyang government/beiyang]] [[occupation of…” |
+| `MNG:formation.detail#2` | month | October 1945 | `wikipedia-outer-mongolia` | “…mongolian independence referendum/independence referendum]]"},"date_event5":{"wt":"20 october 1945"},"event6":{"wt":"[[sino-soviet treaty of friendship and alliance/independence recognized by china]]"},"date_event6":{"wt":"5 january…” |
+| `MNE:formation.detail` | day | 3 June 2006 | `statedept-montenegro` | “…the republic of montenegro declared independence from the state union of serbia and montenegro on june 3, 2006. the united states recognized the republic of montenegro on june 13, 2006, and established relations with it on august 15, 2006. recognition united…” |
+| `MAR:interruptions[0].detail` | day | 7 April 1956 | `wikipedia-spanish-protectorate` | “…uprising july 1936 • occupation of tangier june 1940 – october 1945 • retroceded to morocco 7 april 1956 currency spanish peseta preceded by succeeded by alawi sultanate republic of the rif kingdom of morocco the spanish protectorate in morocco [ a ]…” |
+| `MOZ:formation.detail` | day | 25 June 1975 | `statedept-mozambique` | “…the united states recognized the people's republic of mozambique on june 25, 1975 — which is the claim the detail makes…” |
+| `NAM:formation.yearLabel` | day | 21 March 1990 | `wiki-history-namibia` | “…distinct stages from being colonised in the late nineteenth century to namibia's independence on 21 march 1990. from 1884, namibia was a german colony: german south west africa . after the first world war , the league of nations gave south africa a mandate to…” |
+| `NPL:formation.yearLabel` | day | 25 September 1768 | `wikipedia-unification-nepal` | “…24 kingdoms. it began in 1743 ce (1799 bs ), [ 1 ] by prithvi narayan shah , king of gorkha . on 25 september 1768, he officially announced the creation of the kingdom of nepal and moved his capital from gorkha to a city in kathmandu valley . [ 2 ] the shah…” |
+| `NLD:formation.detail` | day | 12 April 1588 | `wikipedia-act-abjuration` | “…vranck in 1587. finally, the united provinces became the dutch republic with the instruction of 12 april 1588 . during that period the largest parts of flanders and brabant and a small part of guelders were recaptured by spain. the partial recapture of these…” |
+| `NCL:formation.yearLabel` | day | 5 May 1998 | `wikipedia-new-caledonia` | “…sovereign state france annexed by france 24 september 1853 overseas territory 1946 nouméa accord 5 may 1998 capital and largest city nouméa 22°16′s 166°28′e / 22.267°s 166.467°e / -22.267; 166.467 official languages french recognised regional languages…” |
+| `NCL:formation.detail` | day | 24 September 1853 | `wikipedia-new-caledonia` | “…by france"},"established_date":{"wt":"24 september 1853"},"established_title2":{"wt":"[[overseas territory (france)/overseas…” |
+| `NZL:formation.detail` | day | 26 September 1907 | `statedept-newzealand` | “…of recognition, diplomatic, and consular relations, by country, since 1776: new zealand summary on september 26, 1907, the constitutional status of the colony of new zealand was elevated to that of a self-governing dominion in the british empire. while the new…” |
+| `NZL:formation.detail#2` | day | 25 November 1947 | `statedept-newzealand` | “…provisions would not come into effect until formally adopted by the government of new zealand. on november 25, 1947, new zealand’s statute of westminster adoption act 1947 became law. modern flag of new zealand recognition u.s. recognition of new zealand’s…” |
+| `NIC:formation.detail` | day | 5 November 1838 | `statedept-nicaragua` | “…of nicaragua, 1849 . nicaragua withdrew from the federation of central american states on november 5, 1838. the united states recognized independent nicaragua on december 24, 1849 when president james k. polk received nicaraguan chargé d’affaires, eduardo…” |
+| `NER:formation.yearLabel` | day | 3 August 1960 | `hist-niger-wiki` | “…nigerien legislative assembly became the nigerien national assembly. independence was declared on 3 august 1960 under the leadership of prime minister diori. subsequently, in november 1960 diori was elected to the new position of president of niger by the…” |
+| `NGA:formation.yearLabel` | day | 1 October 1960 | `wikipedia-nigeria` | “…of nigeria/declared independent as a sovereign state]]"},"established_date4":{"wt":"1 october 1960"},"established_event5":{"wt":"[[nigerian first republic/became a republic]]"},"established_date5":{"wt":"1 october…” |
+| `CYN:formation.yearLabel` | day | 15 November 1983 | `wikipedia-northern-cyprus` | “…the turkish republic of northern cyprus/declaration of independence]]"},"established_date4":{"wt":"15 november 1983 ref name=\"declaration\"/>"},"area_km2":{"wt":"3,355"},"area_rank":{"wt":"{{small/unranked}} !-- area rank should match [[list of countries and…” |
+| `OMN:formation.yearLabel` | day | 20 November 1744 | `wikipedia-sultanate-oman` | “…the omanis expelled the persians , ahmed bin sa'id albusaidi became the elected imam of oman on 20 november 1744, with rustaq serving as the capital. his dynasty, the al bu said, continues to rule oman into the year 2026. since the revival of the imamate, the…” |
+| `PAK:formation.yearLabel` | day | 14 August 1947 | `wikipedia-pakistan` | “…agreed to the partitioning of india , [ 99 ] the modern state of pakistan was established on 14 august 1947 (27th of ramadan in 1366 of the islamic calendar , a holy time regarded as auspicious and noted for its religious importance ) . [ 100 ] [ 101 ]…” |
+| `PSE:formation.yearLabel` | day | 15 November 1988 | `wiki-declaration-independence` | “…formally established the state of palestine palestinian declaration of independence date effective 15 november 1988 author mahmoud darwish the palestinian declaration of independence formally established the state of palestine , and was written by palestinian poet…” |
+| `PSE:formation.detail` | month | December 1988 | `wiki-declaration-independence` | “…by mid-december, 75 states had recognised palestine, rising to 93 states by february 1989 — the December is 1988, the month of the declaration the same page dates to 15 november 1988…” |
+| `PSE:formation.detail#2` | month | February 1989 | `wiki-declaration-independence` | “…voted against. [ 37 ] by mid-december, 75 states had recognised palestine, rising to 93 states by february 1989. [ 38 ] on 29 november 2012, the united nations general assembly adopted resolution 67/19 upgrading palestine to non-member observer state status in…” |
+| `PAN:formation.yearLabel` | day | 3 November 1903 | `statedept-panama` | “…recognized panama on november 6, 1903, after panama declared its independence from colombia. on november 3, 1903, panamanians had revolted against the colombian government, declared an independent republic of panama, and established a provisional government…” |
+| `PNG:formation.yearLabel` | day | 16 September 1975 | `wikipedia-png` | “…new guinea independence act 1975/independence]]"},"established_date5":{"wt":"16 september 1975"},"area_rank":{"wt":"54th !-- should match [[list of countries and dependencies by area]]…” |
+| `PRY:formation.yearLabel` | day | 15 May 1811 | `statedept-paraguay` | “…by country, since 1776: paraguay summary paraguay declared its independence from spain on may 15, 1811. much of paraguay’s post-colonial history was marked by civil war and military coups. the united states and paraguay have maintained close…” |
+| `PER:formation.yearLabel` | day | 28 July 1821 | `wikipedia-peruvian-independence` | “…of the spanish viceroyalty of peru and the emergence of peru as an independent state on july 28, 1821. the battle of ayacucho in 1824 secured the independence of peru and definitively ended spanish rule in south america. however, peru achieved full…” |
+| `PHL:formation.yearLabel` | day | 12 June 1898 | `wikipedia-first-philippine-republic` | “…bay , aguinaldo returned to the philippines, issued the philippine declaration of independence on june 12, 1898, and proclaimed successive revolutionary philippine governments on june 18 and 23 of that year, under which regimes the liberation of philippine…” |
+| `PHL:formation.detail` | day | 23 January 1899 | `wikipedia-first-philippine-republic` | “…republic under the [[malolos constitution]]. ref name=\"inaugural1899\">{{cite speech /date=january 23, 1899 /title=inaugural address of president aguinaldo, january 23, 1899…” |
+| `PRT:formation.yearLabel` | day | 5 October 1143 | `wikipedia-kingdom-portugal` | “…the second was on 5 october 1143, when alfonso vii of león and castile recognized afonso henriques as king through the treaty of zamora. this is generally considered the traditional founding of the kingdom…” |
+| `PRI:formation.yearLabel` | day | 25 July 1952 | `wikipedia-puerto-rico` | “…of puerto rico/current constitution]]"},"established_date3":{"wt":"july 25, 1952"},"demonym":{"wt":"[[puerto ricans/puerto rican]] ({{langx/es/puertorriqueño -a}}){{efn/ puerto rican or puertorriqueño -a (spanish) is the [[list…” |
+| `STP:formation.yearLabel` | day | 12 July 1975 | `wiki-stp` | “…[[portugal]]"},"established_event1":{"wt":"granted"},"established_date1":{"wt":"12 july 1975"},"established_event2":{"wt":"[[united nations security council resolution 373/admitted]] to the [[united nations]]"},"established_date2":{"wt":"16…” |
+| `STP:formation.detail` | day | 21 December 1470 | `wiki-stp` | “…were uninhabited until portuguese explorers joão de santarém and pedro escobar discovered them on 21 december 1470. [ 12 ] gradually colonized and settled throughout the 16th century, they collectively served as a vital commercial and trade centre for the…” |
+| `SEN:formation.yearLabel` | day | 20 August 1960 | `statedept-senegal` | “…the republic of senegal had withdrawn from the federation of mali and declared its independence on august 20, 1960 (see mali ). diplomatic relations establishment of diplomatic relations and the american embassy in senegal, 1960 . diplomatic relations were…” |
+| `SYC:formation.yearLabel` | day | 29 June 1976 | `state-gov-old` | “…fishing, manufacturing, and construction. government type: multiple-party republic. independence: june 29, 1976. constitution: june 18, 1993. branches: executive --president (chief of state and head of government). legislative --unicameral national assembly…” |
+| `SLE:formation.yearLabel` | day | 27 April 1961 | `statedept-sierra-leone` | “…independence, 1961 . the united states recognized sierra leone when it became independent on april 27, 1961, in a congratulatory message from president john f. kennedy to the government and people of sierra leone dated april 26, 1961. sierra leone had been…” |
+| `SVK:formation.yearLabel` | day | 1 January 1993 | `statedept-slovakia` | “…czech republic to disband the country that had been czechoslovakia . once parliament approved, on january 1, 1993, slovakia and the czech republic became two separate autonomous countries. the united states formally recognized the establishment of slovakia on…” |
+| `SLB:formation.yearLabel` | day | 7 July 1978 | `wikipedia-solomon-islands` | “…prime minister matthew wale legislature national parliament independence • from the united kingdom 7 july 1978 area • total 28,896 [ 3 ] km 2 (11,157 sq mi) ( 139th ) • water (%) 3.2% population • 2025 estimate 828,857 [ 4 ] ( 167th ) • 2019 census 720,956 […” |
+| `SOM:formation.yearLabel` | day | 1 July 1960 | `state-somalia-bgn` | “…government, trading, fishing, handicrafts, and other --30%. government type: none. independence: july 1, 1960 (from a merger of british somaliland, which became independent from the uk in june 1960, and italian somaliland, which became independent from the…” |
+| `SOM:formation.detail` | day | 26 June 1960 | `statedept-somalia` | “…somaliland, which had been a british protectorate until june 26, 1960…” |
+| `SOL:formation.detail` | day | 26 June 1960 | `wikipedia-somaliland` | “…of the [[state of somaliland]] from the [[united kingdom]]"},"established_date3":{"wt":"26 june 1960"},"established_event4":{"wt":"union with the [[trust territory of somaliland]] to form the [[somali republic]]"},"established_date4":{"wt":"1 july…” |
+| `ZAF:formation.yearLabel` | day | 31 May 1910 | `statedept-southafrica` | “…recognition, diplomatic, and consular relations, by country, since 1776: south africa summary on may 31, 1910, four colonies were joined together to create the union of south africa , a self-governing dominion in the british empire. while the new nation was…” |
+| `SDS:formation.yearLabel` | day | 9 July 2011 | `statedept-southsudan` | “…voters overwhelmingly chose independence and the republic of south sudan declared independence on july 9, 2011. the united states recognized the republic of south sudan that same day. flag of south sudan recognition recognition, 2011 . president barack obama…” |
+| `SDN:formation.yearLabel` | day | 1 January 1956 | `wiki-anglo-egyptian` | “…era british imperial • established 19 june 1899 • self-rule 22 october 1952 • independence 1 january 1956 area 1951 [ 1 ] 2,505,800 km 2 (967,500 sq mi) population • 1951 [ 2 ] 8,079,800 currency egyptian pound preceded by succeeded by mahdist sudan…” |
+| `SUR:formation.yearLabel` | day | 25 November 1975 | `statedept-suriname` | “…suriname. modern flag of suriname recognition u.s. recognition of suriname independence, 1975 . on november 25, 1975, a ceremony to proclaim suriname independence was held in the suriname capital of paramaribo . the u.s. secretary of the navy represented the united…” |
+| `SWE:formation.yearLabel` | day | 6 June 1523 | `wikipedia-gustav-vasa` | “…[[uppsala]], sweden"}},"i":0}}]}'> gustav vasa portrait by jakob binck , 1542 king of sweden reign 6 june 1523 – 29 september 1560 coronation 12 january 1528 predecessor christian ii successor erik xiv born 12 may 1496 rydboholm castle , uppland or lindholmen…” |
+| `SYR:formation.yearLabel` | day | 8 March 1920 | `wikipedia-arab-kingdom-syria` | “…of [[faisal i of syria/faisal i]]}}"},"date_event1":{"wt":"8 march 1920"},"event2":{"wt":"[[battle of maysalun]]"},"date_event2":{"wt":"24 july 1920"},"event_end":{"wt":"[[siege of damascus (1920)/siege of…” |
+| `SYR:formation.detail` | day | 25 July 1920 | `wikipedia-arab-kingdom-syria` | “…1919 • coronation of faisal i 8 march 1920 • battle of maysalun 24 july 1920 • siege of damascus 25 july 1920 currency syrian pound preceded by succeeded by occupied enemy territory administration state of damascus state of aleppo emirate of transjordan…” |
+| `TWN:formation.yearLabel` | month | December 1949 | `wikipedia-roc-retreat` | “…of china (roc), alongside many refugees, retreated to the island of taiwan (formosa) beginning on december 7, 1949. the exodus is sometimes called the great retreat ( chinese : 大撤退 ) in taiwan . the members of the kuomintang (kmt), its officers, and approximately…” |
+| `TWN:formation.detail` | day | 7 December 1949 | `wikipedia-roc-retreat` | “…of china (roc), alongside many refugees, retreated to the island of taiwan (formosa) beginning on december 7, 1949. the exodus is sometimes called the great retreat ( chinese : 大撤退 ) in taiwan . the members of the kuomintang (kmt), its officers, and approximately…” |
+| `TZA:formation.yearLabel` | day | 9 December 1961 | `wikipedia-tanzania` | “…mcheche masaju legislature national assembly independence from the united kingdom • tanganyika 9 december 1961 • zanzibar 10 december 1963 • unification of tanganyika and zanzibar 26 april 1964 • current constitution 25 april 1977 area • total 947,303 km 2…” |
+| `TZA:formation.detail` | day | 26 April 1964 | `wikipedia-tanzania` | “…of tanganyika and zanzibar"},"established_date3":{"wt":"26 april 1964"},"established_event4":{"wt":"current constitution"},"established_date4":{"wt":"25 april…” |
+| `TLS:formation.yearLabel` | day | 28 November 1975 | `wikipedia-east-timor` | “…declared]]"},"established_date1":{"wt":"[[proclamation of independence day/28 november 1975]]"},"established_event2":{"wt":"[[united nations–administered east timor/administered]] by [[united nations transitional administration in east…” |
+| `TLS:formation.detail` | day | 20 May 2002 | `wikipedia-east-timor` | “…timor independence/independence restored]]"},"established_date3":{"wt":"20 may 2002"},"area_km2":{"wt":"15,007 ref name=\"auto\">{{cite web/url=http://www.easttimorgovernment.com/geography.htm/title=east timor…” |
+| `TGO:formation.yearLabel` | day | 27 April 1960 | `history-of-togo-wiki` | “…the un trusteeship agreement with france for cameroon would end when togo became independent on 27 april 1960. [ 32 ] on 27 april 1960, in a smooth transition, togo severed its constitutional ties with france, shed its un trusteeship status, and became fully…” |
+| `TTO:formation.yearLabel` | day | 31 August 1962 | `statedept-tt` | “…1962 . the united states recognized trinidad and tobago the same day that it became independent on august 31, 1962, by establishing the u.s. embassy in port-of-spain . william henry hastie, a judge on the u.s. court of appeals for the third circuit, led the u.s.…” |
+| `ARE:formation.yearLabel` | day | 2 December 1971 | `wikipedia-trucial-states` | “…; sheikhdoms became fully independent [ 4 ] [ 5 ] 1 december 1971 • united arab emirates 2 december 1971 population • 1968 census 459,000 [ 1 ] currency ottoman lira (1820–1899) [ 6 ] indian rupee (1899–1959) gulf rupee (1959–1966) bahraini dinar…” |
+| `ARE:formation.detail` | day | 10 February 1972 | `wikipedia-trucial-states` | “…al quwain and fujairah —formed the united arab emirates ; the seventh, ras al khaimah , joined on 10 february 1972. [ 7 ] overview [ edit ] the sheikhdoms included: abu dhabi (1820–1971) ajman (1820–1971) dubai (1833–1971) fujairah (1952–1971) kalba (1936–1951)…” |
+| `UGA:formation.yearLabel` | day | 9 October 1962 | `wiki-history-buganda` | “…9 ] after independence [ edit ] further information: mengo crisis uganda achieved independence on 9 october 1962 with the kabaka of buganda, sir edward mutesa ii , as its first president . however, the monarchy of buganda and much of its autonomy was revoked,…” |
+| `GBR:formation.yearLabel` | day | 12 July 927 | `wikipedia-kingdom-england` | “…lords • lower house house of commons history • unification of the angles, saxons and danes [ 3 ] 12 july 927 • battle of hastings 14 october 1066 • anglo-norman invasion of ireland may 1169 – may 1177 • magna carta 15 june 1215 • model parliament 13…” |
+| `USA:formation.yearLabel` | day | 4 July 1776 | `wikipedia-us-declaration` | “…matlack 's engrossed copy of the declaration of independence created june–july 1776 ratified july 4, 1776 ; 250 years ago ( 1776-07-04 ) location engrossed copy: national archives building rough draft: library of congress author(s) thomas jefferson ,…” |
+| `VUT:formation.yearLabel` | day | 30 July 1980 | `statedept-vanuatu` | “…. the united states recognized the republic of vanuatu soon after it gained its independence on july 30, 1980, when president jimmy carter sent a message to that effect to the government of vanuatu. vanuatu previously had been under the joint sovereignty of…” |
+| `VAT:formation.yearLabel` | day | 11 February 1929 | `wikipedia-lateran-treaty` | “…treaty type bilateral treaty context establishment of vatican city on the italian peninsula signed 11 february 1929 ( 1929-02-11 ) [ 1 ] location rome , italy effective 7 june 1929 condition ratification by the holy see and the kingdom of italy signatories pietro…” |
+| `ZMB:formation.yearLabel` | day | 24 October 1964 | `statedept-zambia` | “…u.s. recognition of zambian independence, 1964 . the united states recognized zambia on october 24, 1964, when the american consulate at lusaka was elevated to embassy status upon zambia’s attainment of independence on the same date. zambia previously…” |
+| `ZWE:formation.yearLabel` | day | 18 April 1980 | `statedept-zimbabwe` | “…of zimbabwe’s independence, 1980 . the united states recognized the republic of zimbabwe on april 18, 1980, when the american embassy at salisbury (now harare) was established upon zimbabwe’s attainment of independence on that same date. zimbabwe…” |
+| `FRA:formation.yearLabel` | day | 10 August 843 | `wikipedia-verdun` | “…, middle francia , and east francia ; from the grandes chroniques de france , 15th century signed 10 august 843 location verdun , francia parties charles ii lothair i louis ii the treaty of verdun ( french : traité de verdun ; german : vertrag von verdun ),…” |

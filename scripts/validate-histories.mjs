@@ -41,7 +41,7 @@ const info = (f, m) => { infos.push(`  · [${f}] ${m}`); };
 // batch that flips it is named beside it.
 const TWO_SOURCE_FLOOR_YEAR = 1800;
 const TWO_SOURCE_FLOOR_IS_ERROR = false; // → true with the source-tier uplift (batch 3)
-const YEAR_LABEL_IS_ERROR = false; // → true with the precision sweep (batch 2)
+const YEAR_LABEL_IS_ERROR = true; // paid: the precision sweep
 const WIKIPEDIA_ONLY_IS_ERROR = false; // → true at the mission's close (§9)
 const NON_SOVEREIGN_REQUIRED = false; // → true when the four territories are flagged (batch 5)
 

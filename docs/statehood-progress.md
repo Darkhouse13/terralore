@@ -316,19 +316,54 @@ every other file is written against is the one file the validator never read.
 Its statehood block is now held to the same floors as the other 183, and it
 fails two of them on arrival (843 CE anchored on a single Wikipedia article).
 
-## The precision ledger
+## Batch 2 — precision to zero
 
-`docs/statehood-precision-ledger.md` — one row per claim finer than a year, with
-the source that was read to confirm it. `node scripts/audit-precision.mjs
---pending` prints what remains; a row records the claim text it verified, so
-editing a claim reopens its row.
+`node scripts/audit-precision.mjs --pending` prints **zero rows**. Every one of
+the 151 claims in `docs/statehood-precision-ledger.md` names the source that was
+read and quotes the sentence it was read in.
 
 | | Claims |
 |---|---:|
 | day precision | 141 |
-| month precision | 12 |
-| **total** | **153** |
-| verified | 0 |
+| month precision | 10 |
+| **total** | **151** |
+| **verified** | **151** |
+
+**What the sweep actually found was a pattern, not two bugs.** The plan named
+Guinea and Malta. The shape underneath them turned out to sit under **23**
+blocks: `history.state.gov`'s country guides are a guide to *US recognition*,
+and for most of the 1960 African independences recognition fell on independence
+day — so "the United States recognized X on <date>" reads as support for the
+independence date until the one time it does not. Guinea is that time
+(recognition 1 November, declaration 2 October). Malta is another (the September
+21 on its page is the opening of the US embassy in Valletta; recognition was
+September 18). Every one of the 23 now cites a source that says what the
+**polity** did, with the diplomatic note kept alongside rather than doing the
+work alone.
+
+| Fix | Blocks |
+|---|---|
+| confirmed against a source already cited | 112 |
+| a source the file already carried, added to the claim | 17 — BHS CMR DJI GAB GMB GHA CIV MRT NER SYC SDN TGO UGA GIN LBR SOM NAM |
+| a new source fetched and added | 8 — CAF TCD CYP MLT NGA PAK GUY MAR |
+| **softened** | **4** — CRI, SLV, HND (provincial acceptance months no source states), MAR (2 March 1956) |
+
+Two blocks changed beyond their citations:
+
+- **MAR** — the interruption label is now *"French and Spanish protectorates"*,
+  which is what the plan's own §2 example said and what the file's
+  `founding.detail` already established. Its new `detail` carries the Spanish
+  zone's retrocession on 7 April 1956, sourced. The French zone's 2 March 1956
+  is **not** in the block: no source in the file states it, and an unsourced
+  date is exactly what this batch exists to remove.
+- **SWZ** — `yearLabel` was *"mid-18th century"*, which names no year at all and
+  so could not agree with `year: 1750`, and 1750 was not in any cited source
+  either. Both are now 1745, the start of Ngwane III's reign as `wiki-ngwane-iii`
+  states it, with the State Department's *"settled in northern Zululand in about
+  1750"* alongside. This also lifts Eswatini over the two-publisher floor. It
+  moves no pixel: 1745 and 1750 fall in the same rail period.
+
+The `yearLabel`-names-its-own-`year` check is an **error** from this batch on.
 
 ## Source-tier debt, as first measured
 
