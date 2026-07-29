@@ -67,3 +67,117 @@ the gaps are) it is also the neutral one.
 This is why Phase E populates Taiwan and North Korea from *named* alternative
 publishers rather than from estimates, and why the remaining six Overview-only codes
 get a designed empty state instead of filled-in numbers.
+
+---
+
+## D4 — STRATUM over CHANCERY and TRANSIT
+
+**Chosen:** an identity built on bathymetric and hypsometric atlas convention — the
+world drawn in discrete bands of depth.
+
+**Rejected:** CHANCERY (treaty paper, wax seals, flag silk) and TRANSIT (observatory
+optics, brass instruments, reticles). Full reasoning in `DESIGN.md`.
+
+**Why:** the deciding question was *what does the globe become?* The globe is the
+hero and states the thesis in the first second. CHANCERY was the strongest of the
+three for the chronicle and had nothing to say about a sphere — wax seals and ribbon
+do not wrap onto a globe — so it would have left the globe wearing its old clothes,
+which is exactly the two-sites-stapled-together failure the whole pass exists to fix.
+TRANSIT was the incumbent in a hat: cool near-black plus a warm metallic accent is
+what the site already did.
+
+STRATUM was the only direction where the visual language and the subject are the same
+thing, and where the palette is the information architecture — the product already
+publishes at three *depths*.
+
+---
+
+## D5 — Three semantic tints instead of one accent
+
+**Chosen:** copper (*the surveyor's hand — you are here*), verdigris (*the measured*),
+madder (*rupture only*), with the rule that a colour which cannot be justified by one
+of those meanings is decoration and does not ship.
+
+**Rejected:** keeping a single accent (as the brass build did) and letting hue variety
+come from the category palette.
+
+**Why:** one accent doing every job is why the old build's data visualisation had
+nothing to work with — ranking bars, sparklines, the choropleth and the selection
+state were all the same gold, so none of them meant anything. Making the tints
+semantic immediately caught a real error the eye had accepted for months: the
+dossier's rank bars were copper, which is to say every bar was wearing the selection
+colour.
+
+**Cost:** three tints is more to hold in your head than one, and it constrains future
+additions. That constraint is the point.
+
+---
+
+## D6 — Contrast proven arithmetically, with a narrow `decor` exemption
+
+**Chosen:** `scripts/check-contrast.mjs` declares every foreground/background pair
+**with the role it plays** and fails under threshold. Roles: `body` ≥4.5, `large` ≥3,
+`ui` ≥3, `decor` ≥1.25.
+
+**Rejected:** checking contrast after the fact with an accessibility audit, and
+alternatively holding *everything* to 3:1.
+
+**Why:** an audit finds problems after a hundred components already depend on the
+value. Declaring pairs up front found three genuine failures before a single component
+was touched, and solved a constraint that is very hard by eye — the ten category
+pigments must clear 3:1 against **both** grounds simultaneously, which confines them
+to a narrow mid-dark luminance window. Four were solved numerically rather than
+guessed.
+
+The `decor` tier is the part worth defending. WCAG 1.4.11 covers graphics required to
+understand content and visuals required to identify components and states. A rule
+between two sections already distinguished by a heading is neither. Holding those to
+3:1 makes an editorial page look like a spreadsheet. The discipline that keeps this
+honest: anything carrying state — focus, selection, the active tab, the playhead — is
+`ui`, and wanting to move something from `ui` to `decor` is the signal it was
+load-bearing.
+
+---
+
+## D7 — Cross-talk as a table, not as curated pairs
+
+**Chosen:** one table mapping each dossier domain to the event categories that can
+plausibly move its indicators; every annotation derives from it.
+
+**Rejected:** hand-curating notable (metric, event) pairs for major nations.
+
+**Why:** curation would have produced better annotations for perhaps twenty countries
+and nothing for the other 164, and it would rot — every history edit becomes a
+curation task. The table produced 4,374 (metric, event) pairs across 152 of 183
+nations with no per-nation work, and adding a domain or category changes one table.
+
+**The cost, stated:** a derived rule is blunter than a curated one. It cannot know
+that a 1997 crash matters more than a 1997 treaty. Mitigated by scoping annotations to
+the metric's own series span, capping at four with an even spread, and — most
+importantly — by wording that never claims causation. "In the archive during this
+period", never "which caused this". The corpus asserts sourced events; the UI must not
+assert more than the data does.
+
+---
+
+## D8 — Taiwan from the IMF; North Korea's economy left empty
+
+**Chosen:** populate Taiwan from the IMF World Economic Outlook, capped at 2024.
+Leave North Korea's economy domain empty and document why.
+
+**Rejected:** filling North Korea's economy from Bank of Korea figures transcribed by
+hand, or from any secondary aggregator republishing them.
+
+**Why:** the WEO is a named, resolvable, queryable dataset, so Taiwan's figures are
+reproducible — anyone can re-run the builder and get the same numbers. The Bank of
+Korea's DPRK estimate is the genuine standard reference, but it is published as an
+annual press release, which means the only way to get it into the repo is to type it
+in. A hand-typed figure cannot be re-derived, cannot be refreshed by
+`npm run refresh-domains`, and is indistinguishable on the page from one that can.
+That is precisely the property (D3) says makes a dossier un-citable.
+
+The 2024 cap matters as much as the source: WEO carries actuals, staff estimates and
+projections in one continuous series with no flag distinguishing them, and the API
+happily serves 2031. Publishing a projection as a current figure would have been a
+fabrication introduced by a build script rather than by an author, which is worse, not
+better.
