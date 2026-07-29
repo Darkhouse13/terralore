@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import Link from "next/link";
 // The globe is a hand-rolled canvas-2D renderer (~12 KB) with the same look
 // and behaviours as the retired three.js version (GlobeScene.tsx, kept as
@@ -8,7 +8,8 @@ import Link from "next/link";
 // globe is alive from its first frame instead of deferred behind a still.
 // The SVG still remains as the zero-JS first paint and fades once the canvas
 // draws its identical opening frame.
-import GlobeLite from "./GlobeLite";
+import GlobeLite, { type TimeEventTuple } from "./GlobeLite";
+import TimeRail, { type RailPeriod } from "./TimeRail";
 import CountryCard from "./CountryCard";
 import Mark from "./Mark";
 import { formatMetric } from "@/lib/format";
@@ -33,6 +34,7 @@ export default function AtlasHome({
   layers,
   metaIndex,
   publishedCount,
+  timePeriods,
 }: {
   historyCodes: string[];
   foundingNotes: Record<string, string>;
@@ -40,26 +42,64 @@ export default function AtlasHome({
   layers: ChoroLayer[];
   metaIndex: Record<string, { name: string; flag: string | null }>;
   publishedCount: number;
+  /** The corpus's 60 periods, oldest first — the rail's strata (built server-side). */
+  timePeriods: RailPeriod[];
 }) {
   const historySet = useMemo(() => new Set(historyCodes), [historyCodes]);
   const [selected, setSelected] = useState<CountryMeta | null>(null);
   const [activeKey, setActiveKey] = useState<string | null>(null);
+
+  // ── The Time Globe ───────────────────────────────────────────────────────
+  // The rail renders from build-time period metadata; the events themselves
+  // (~100 KB gzipped for the whole corpus) are fetched once, the first time a
+  // reader actually touches time — the landing chunk never carries them.
+  const [timeEngaged, setTimeEngaged] = useState(false);
+  const [timeIdx, setTimeIdx] = useState(Math.max(0, timePeriods.length - 1));
+  const [eventsBySlug, setEventsBySlug] = useState<Map<string, TimeEventTuple[]> | null>(null);
+  const timeFetchStarted = useRef(false);
+
+  const engageTime = useCallback(
+    (i: number) => {
+      setTimeIdx(i);
+      setTimeEngaged(true);
+      // One lens at a time: pigment pulses over a choropleth is two encodings
+      // fighting for the same surface.
+      setActiveKey(null);
+      if (!timeFetchStarted.current) {
+        timeFetchStarted.current = true;
+        fetch("/data/time-events.json")
+          .then((r) => r.json())
+          .then((file: { periods: { slug: string }[]; events: TimeEventTuple[][] }) => {
+            // Keyed by slug rather than index so a stale cached file can never
+            // misalign a period with another period's events.
+            const m = new Map<string, TimeEventTuple[]>();
+            file.periods.forEach((p, i) => m.set(p.slug, file.events[i]));
+            setEventsBySlug(m);
+          })
+          .catch(() => {
+            timeFetchStarted.current = false; // allow a retry on next scrub
+          });
+      }
+    },
+    [],
+  );
+
+  const timeEvents =
+    timeEngaged && eventsBySlug
+      ? (eventsBySlug.get(timePeriods[timeIdx]?.slug) ?? null)
+      : null;
+
+  /** Choropleth and time are mutually exclusive lenses. */
+  const pickLayer = useCallback((key: string | null) => {
+    setActiveKey(key);
+    if (key) setTimeEngaged(false);
+  }, []);
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
-  const [hintDismissed, setHintDismissed] = useState(false);
+
   // globeReady crossfades the still out once the canvas draws its first frame.
   const [globeReady, setGlobeReady] = useState(false);
 
   const hasHistory = useCallback((code: string) => historySet.has(code), [historySet]);
-  // The onboarding hint bows out after the first interaction (or a fallback).
-  useEffect(() => {
-    const dismiss = () => setHintDismissed(true);
-    const t = setTimeout(dismiss, 10000);
-    window.addEventListener("pointerdown", dismiss, { once: true });
-    return () => {
-      clearTimeout(t);
-      window.removeEventListener("pointerdown", dismiss);
-    };
-  }, []);
   // The entrance is a CSS animation (`.reveal` in globals.css) — it starts at
   // style-parse time rather than waiting on hydration, which is what keeps the
   // hero eligible to be the largest contentful paint. This only supplies the
@@ -129,6 +169,7 @@ export default function AtlasHome({
         onSelect={setSelected}
         hasHistory={hasHistory}
         choroplethValues={activeLayer?.values ?? null}
+        timeEvents={timeEvents}
         onHover={setHoveredCode}
         onReady={() => setGlobeReady(true)}
       />
@@ -231,17 +272,29 @@ export default function AtlasHome({
       </div>
 
       {/* Hint */}
-      {/* Kept mounted and faded with CSS rather than mounted/unmounted through
-          AnimatePresence — the whole point of this pass was to get framer-motion
-          out of the landing bundle, and an opacity transition needs no library. */}
+      {/* ── The Time Globe's rail ─────────────────────────────────────────
+          This replaced the "Drag to spin · Click a nation" hint chip (the
+          Chanel cut for this pass): the grab cursor already teaches spinning,
+          the tooltip teaches clicking, and the pixels are better spent on the
+          feature that makes the hero say what the site is. On md+ the rail
+          centres itself in the space RIGHT of the choropleth panel rather
+          than the viewport, so the two never overlap at any width.
+          Hidden while a nation is selected — the card owns that moment. */}
       <div
-        aria-hidden={!!selected || hintDismissed}
-        className="pointer-events-none absolute inset-x-0 bottom-7 z-10 hidden justify-center transition-opacity duration-500 md:flex"
-        style={{ opacity: !selected && !hintDismissed ? 1 : 0 }}
+        className="reveal absolute inset-x-4 bottom-[86px] z-10 flex justify-center transition-opacity duration-300 md:bottom-8 md:left-[calc(min(420px,46vw)+4rem)] md:right-11"
+        style={{
+          ...reveal(0.9),
+          opacity: selected ? 0 : 1,
+          pointerEvents: selected ? "none" : "auto",
+        }}
       >
-        <span className="rounded-none border border-copper/15 bg-[rgba(4,22,31,0.45)] px-5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-chalk-4 backdrop-blur">
-          Drag to spin · Click a nation
-        </span>
+        <TimeRail
+          periods={timePeriods}
+          active={timeIdx}
+          engaged={timeEngaged}
+          onScrub={engageTime}
+          onDismiss={() => setTimeEngaged(false)}
+        />
       </div>
 
       {/* Choropleth layer control + legend */}
@@ -270,7 +323,7 @@ export default function AtlasHome({
               return (
                 <button
                   key={l.key}
-                  onClick={() => setActiveKey(active ? null : l.key)}
+                  onClick={() => pickLayer(active ? null : l.key)}
                   className={`whitespace-nowrap rounded-[4px] border px-3 py-1.5 text-[13px] transition-colors ${
                     active
                       ? "border-copper-bright bg-copper-bright font-semibold text-[#04161f]"
@@ -308,7 +361,7 @@ export default function AtlasHome({
                 return (
                   <button
                     key={l.key}
-                    onClick={() => setActiveKey(active ? null : l.key)}
+                    onClick={() => pickLayer(active ? null : l.key)}
                     className={`shrink-0 whitespace-nowrap rounded-[4px] border px-3 py-1.5 text-[13px] transition-colors ${
                       active
                         ? "border-copper-bright bg-copper-bright font-semibold text-[#04161f]"

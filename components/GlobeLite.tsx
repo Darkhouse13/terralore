@@ -3,16 +3,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useElementSize } from "./useElementSize";
 import { CHORO_NODATA, choroColor, percentileRanks } from "@/lib/choropleth";
-import {
-  DEG,
-  centerYFor,
-  radiusFor,
-  renderGlobe,
-  type DrawShape,
-  type RenderState,
-  type Shape,
-} from "./globe-render";
-import type { CountryMeta, CountryMetaMap } from "@/lib/types";
+import { PULSE_LIVE_MS, DEG, centerYFor, radiusFor, renderGlobe, type DrawShape, type RenderState, type Shape } from "./globe-render";
+import { CATEGORY_META, type CountryMeta, type CountryMetaMap, type EventCategory } from "@/lib/types";
 
 /**
  * GlobeLite — the antique globe, without three.js.
@@ -44,11 +36,16 @@ type Feature = {
   geometry: { type: "Polygon" | "MultiPolygon"; coordinates: number[][][] | number[][][][] };
 };
 
+/** One corpus event as the time-events file encodes it. */
+export type TimeEventTuple = [code: string, year: number, category: string, title: string, eraId: string];
+
 interface Props {
   selectedCode: string | null;
   onSelect: (meta: CountryMeta | null) => void;
   hasHistory?: (code: string) => boolean;
   choroplethValues?: Record<string, number> | null;
+  /** The active period's events, or null when the Time Globe is disengaged. */
+  timeEvents?: TimeEventTuple[] | null;
   onHover?: (code: string | null) => void;
   onReady?: () => void;
 }
@@ -110,6 +107,7 @@ export default function GlobeLite({
   onSelect,
   hasHistory,
   choroplethValues,
+  timeEvents = null,
   onHover,
   onReady,
 }: Props) {
@@ -118,7 +116,11 @@ export default function GlobeLite({
   const [shapes, setShapes] = useState<Shape[]>([]);
   const [metaMap, setMetaMap] = useState<CountryMetaMap>({});
   const [hoverCode, setHoverCode] = useState<string | null>(null);
-  const [tip, setTip] = useState<{ x: number; y: number; code: string } | null>(null);
+  const [tip, setTip] = useState<
+    | { x: number; y: number; code: string }
+    | { x: number; y: number; ev: { title: string; yearLabel: string; name: string; tint: string } }
+    | null
+  >(null);
   const [dragging, setDragging] = useState(false);
 
   // View state lives in refs — it changes every frame and must not re-render React.
@@ -149,6 +151,48 @@ export default function GlobeLite({
     () => typeof window !== "undefined" && matchMedia("(prefers-reduced-motion: reduce)").matches,
     [],
   );
+
+  // ── The Time Globe's pulses ──────────────────────────────────────────────
+  // The active period's events, resolved against centroids and pigments the
+  // client already holds, packed once per period change: trig for the worker,
+  // a parallel JS list for hover/click on this thread.
+  const pulseBundle = useMemo(() => {
+    if (!timeEvents || !timeEvents.length || !Object.keys(metaMap).length) return null;
+    const tints: string[] = [];
+    const tintIdx = new Map<string, number>();
+    const list: { lat: number; lon: number; tint: string; title: string; yearLabel: string; name: string; href: string }[] = [];
+    const packed: number[] = [];
+    const n = timeEvents.length;
+    // Born in year order (the file is sorted) across a spread that stays under
+    // a second regardless of density — a 215-event decade cascades, a 5-event
+    // century still reads as a sequence.
+    const spread = Math.min(900, Math.max(260, n * 22));
+    let i = 0;
+    for (const [code, year, cat, title, eraId] of timeEvents) {
+      const m = metaMap[code];
+      if (!m?.latlng) continue;
+      const meta = CATEGORY_META[cat as EventCategory];
+      const tint = meta?.tint ?? "#c87244";
+      let ti = tintIdx.get(tint);
+      if (ti == null) { ti = tints.length; tints.push(tint); tintIdx.set(tint, ti); }
+      const [lat, lon] = m.latlng;
+      packed.push(
+        Math.sin(lat * DEG), Math.cos(lat * DEG),
+        Math.sin(lon * DEG), Math.cos(lon * DEG),
+        ti, n > 1 ? (i / (n - 1)) * spread : 0,
+      );
+      list.push({
+        lat, lon, tint, title,
+        yearLabel: year < 0 ? `${-year} BCE` : String(year),
+        name: m.name,
+        href: `/country/${code}/chronicle#${eraId}`,
+      });
+      i++;
+    }
+    return list.length ? { data: new Float64Array(packed), tints, list } : null;
+  }, [timeEvents, metaMap]);
+
+  const pulseT0 = useRef(0);
 
   // Geometry + metadata — the same two files the three.js globe fetched.
   useEffect(() => {
@@ -225,8 +269,10 @@ export default function GlobeLite({
       fills,
       ringCenter,
       ringT0: ringT0.current,
+      pulses: pulseBundle ? { data: pulseBundle.data, tints: pulseBundle.tints } : null,
+      pulseT0: pulseT0.current,
     }),
-    [hoverCode, selectedCode, fills, ringCenter],
+    [hoverCode, selectedCode, fills, ringCenter, pulseBundle],
   );
 
   const paint = useCallback(() => {
@@ -310,10 +356,13 @@ export default function GlobeLite({
     }
 
     paint();
+    const pulsesLive =
+      pulseBundle !== null && pulseT0.current !== 0 && t - pulseT0.current < PULSE_LIVE_MS;
     const more =
       target.current !== null ||
       vel.current.l !== 0 ||
       vel.current.p !== 0 ||
+      pulsesLive ||
       (spinning.current && !reduceMotion);
     if (more && visible.current && !document.hidden) {
       rafId.current = requestAnimationFrame((x) => simRef.current(x));
@@ -362,6 +411,16 @@ export default function GlobeLite({
   useEffect(() => {
     if (shapes.length) wakeSim();
   }, [shapes, wakeSim]);
+
+  // A new period restarts the bloom clock. Under reduced motion the epoch is 0,
+  // which the renderer reads as "fully settled": the dots simply exist.
+  useEffect(() => {
+    pulseT0.current = pulseBundle && !reduceMotion ? performance.now() : 0;
+    if (pulseBundle) wakeSim();
+    paint();
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- epoch keyed to bundle identity only
+  }, [pulseBundle]);
+
 
   // Fly to a country when selected externally (click or from a list).
   useEffect(() => {
@@ -424,6 +483,40 @@ export default function GlobeLite({
     [width, height],
   );
 
+  /** Screen position of a lat/lon under the current view, or null if hidden. */
+  const project = useCallback(
+    (lat: number, lon: number): [number, number] | null => {
+      if (!width || !height) return null;
+      const r = radiusFor(width, height) * view.current.scale;
+      const phi = view.current.phi * DEG;
+      const la = lat * DEG;
+      const dl = (lon - view.current.lambda) * DEG;
+      const cosc = Math.sin(phi) * Math.sin(la) + Math.cos(phi) * Math.cos(la) * Math.cos(dl);
+      if (cosc < 0.02) return null;
+      const x = width / 2 + r * Math.cos(la) * Math.sin(dl);
+      const y = centerYFor(width, height) - r * (Math.cos(phi) * Math.sin(la) - Math.sin(phi) * Math.cos(la) * Math.cos(dl));
+      return [x, y];
+    },
+    [width, height],
+  );
+
+  /** The pulse nearest the pointer, within `radius` px — the Time Globe's hit test. */
+  const pickPulse = useCallback(
+    (px: number, py: number, radius: number) => {
+      if (!pulseBundle) return null;
+      let best = null as null | (typeof pulseBundle.list)[number];
+      let bestD = radius * radius;
+      for (const ev of pulseBundle.list) {
+        const pt = project(ev.lat, ev.lon);
+        if (!pt) continue;
+        const d = (pt[0] - px) ** 2 + (pt[1] - py) ** 2;
+        if (d < bestD) { bestD = d; best = ev; }
+      }
+      return best;
+    },
+    [pulseBundle, project],
+  );
+
   const locate = useCallback(
     (e: React.PointerEvent): string | null => {
       const rect = canvasRef.current?.getBoundingClientRect();
@@ -484,6 +577,19 @@ export default function GlobeLite({
     const now = performance.now();
     if (now - lastHitT.current < 33) return;
     lastHitT.current = now;
+    // A pulse under the pointer outranks the country beneath it: the dot is
+    // the smaller, more deliberate target, and it is the whole point of the
+    // time mode being open.
+    if (pulseBundle) {
+      const rect = canvasRef.current!.getBoundingClientRect();
+      const px = e.clientX - rect.left, py = e.clientY - rect.top;
+      const ev = pickPulse(px, py, 12);
+      if (ev) {
+        if (hoverCode) { setHoverCode(null); onHover?.(null); }
+        setTip({ x: px, y: py, ev: { title: ev.title, yearLabel: ev.yearLabel, name: ev.name, tint: ev.tint } });
+        return;
+      }
+    }
     const code = locate(e);
     if (code !== hoverCode) {
       setHoverCode(code);
@@ -528,6 +634,16 @@ export default function GlobeLite({
       wakeSim();
       return;
     }
+    if (pulseBundle) {
+      const rect = canvasRef.current!.getBoundingClientRect();
+      const ev = pickPulse(e.clientX - rect.left, e.clientY - rect.top, 14);
+      if (ev) {
+        // Descend into the chronicle at the era that holds this event — the
+        // globe → time → place → sourced account chain in one gesture.
+        window.location.assign(ev.href);
+        return;
+      }
+    }
     const code = locate(e);
     if (code) {
       const meta = metaMap[code];
@@ -570,8 +686,9 @@ export default function GlobeLite({
     setTip(null);
   };
 
-  const tipMeta = tip ? metaMap[tip.code] : null;
-  const tipHasHistory = tip ? (hasHistory?.(tip.code) ?? false) : false;
+  const tipMeta = tip && "code" in tip ? metaMap[tip.code] : null;
+  const tipHasHistory = tip && "code" in tip ? (hasHistory?.(tip.code) ?? false) : false;
+  const tipEv = tip && "ev" in tip ? tip.ev : null;
 
   return (
     <div
@@ -603,8 +720,25 @@ export default function GlobeLite({
         onPointerCancel={onPointerCancel}
         onPointerLeave={onPointerLeave}
       />
+      {/* event tooltip — a moment from the archive, under the pointer */}
+      {tip && tipEv && (
+        <div
+          className="pointer-events-none absolute z-20 -translate-x-1/2 -translate-y-full"
+          style={{ left: tip.x, top: tip.y - 14 }}
+        >
+          <div className="max-w-[240px] rounded-[3px] border border-[rgba(39,111,128,0.5)] bg-[rgba(4,22,31,0.95)] px-[13px] py-[9px] shadow-[0_12px_30px_rgba(2,11,16,0.6)]">
+            <div className="flex items-baseline gap-2 font-mono text-[9.5px] uppercase tracking-[0.14em]">
+              <span aria-hidden className="h-[7px] w-[7px] flex-none translate-y-[-1px] rounded-full" style={{ background: tipEv.tint }} />
+              <span className="tabular-nums text-[#afbfc1]">{tipEv.yearLabel}</span>
+              <span className="truncate text-[#8497a0]">{tipEv.name}</span>
+            </div>
+            <div className="mt-[5px] font-display text-[14px] leading-[1.25] text-[#f2f6f4]">{tipEv.title}</div>
+            <div className="mt-1 font-mono text-[9px] uppercase tracking-[0.12em] text-[#e39a67]">read the chapter →</div>
+          </div>
+        </div>
+      )}
       {/* hover tooltip — same card the three.js globe drew */}
-      {tip && tipMeta && (
+      {tip && "code" in tip && tipMeta && (
         <div
           className="pointer-events-none absolute z-20 -translate-x-1/2 -translate-y-full"
           style={{ left: tip.x, top: tip.y - 14 }}

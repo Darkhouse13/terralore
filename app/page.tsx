@@ -3,6 +3,7 @@ import HomeArchive from "@/components/HomeArchive";
 import JsonLd from "@/components/JsonLd";
 import { organizationLd, websiteLd } from "@/lib/seo";
 import { allHistories, publishedCodes } from "@/lib/histories";
+import { allPeriods, dominantCategory } from "@/lib/chronology";
 import { allCodes, allCountries } from "@/lib/countries";
 import { getMetric } from "@/lib/domains";
 import { formatUSD } from "@/lib/format";
@@ -54,6 +55,16 @@ export default function Home() {
   const metaIndex: Record<string, { name: string; flag: string | null }> = {};
   for (const c of allCountries()) metaIndex[c.code] = { name: c.name, flag: c.flag };
 
+  // The Time Globe's rail: the corpus's 60 periods with their dominant pigment,
+  // computed at build time from the same chronology the /timeline pages read —
+  // so a rail segment and its "read the period" link can never disagree.
+  const timePeriods = allPeriods().map((p) => ({
+    slug: p.slug,
+    label: p.label,
+    count: p.events.length,
+    dominant: dominantCategory(p.events)?.category ?? null,
+  }));
+
   return (
     <main>
       {/* Paint the hero's still before the CSS/JS pipeline settles. */}
@@ -66,6 +77,7 @@ export default function Home() {
         layers={layers}
         metaIndex={metaIndex}
         publishedCount={codes.length}
+        timePeriods={timePeriods}
       />
       <HomeArchive />
     </main>

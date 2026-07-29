@@ -5,7 +5,7 @@
  * touches a pixel — which is exactly why the globe can spin forever without
  * contributing a millisecond of main-thread blocking time.
  */
-import { renderGlobe, type DrawShape, type RenderState } from "./globe-render";
+import { PULSE_LIVE_MS, renderGlobe, type DrawShape, type RenderState } from "./globe-render";
 
 let canvas: OffscreenCanvas | null = null;
 let ctx: OffscreenCanvasRenderingContext2D | null = null;
@@ -20,6 +20,8 @@ let state: RenderState = {
   fills: null,
   ringCenter: null,
   ringT0: 0,
+  pulses: null,
+  pulseT0: 0,
 };
 let animating = false;
 let rafId = 0;
@@ -39,8 +41,12 @@ function frame(now: number) {
     firstFrame = false;
     postMessage({ type: "ready" });
   }
-  // Rings animate continuously while a selection is open.
-  if (animating || state.selectedCode) {
+  // Keep the loop alive while anything is mid-animation: selection rings, or
+  // a period's pulses still blooming (their stagger + bloom spans PULSE_LIVE_MS
+  // after pulseT0; settled dots need no loop — the next state post repaints).
+  const pulsesLive =
+    state.pulses !== null && state.pulseT0 !== 0 && now - state.pulseT0 < PULSE_LIVE_MS;
+  if (animating || state.selectedCode || pulsesLive) {
     rafId = requestAnimationFrame(frame);
   }
 }

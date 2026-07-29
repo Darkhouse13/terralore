@@ -76,7 +76,20 @@ export interface RenderState {
   /** Selection centroid + ring epoch (ms timestamp) for the pulse animation. */
   ringCenter: [number, number] | null;
   ringT0: number;
+  /**
+   * The Time Globe's event pulses — the corpus, placed on the sphere.
+   * Packed 6 floats per pulse: sinLat, cosLat, sinLon, cosLon, tint index,
+   * birth stagger (ms). Trig is precomputed on the main thread once per period
+   * so a frame here stays what it has always been: multiplications only.
+   * `tints` is the tiny pigment palette the indices point into.
+   */
+  pulses: { data: Float64Array; tints: string[] } | null;
+  /** Epoch (ms) the active period was entered; 0 = render fully settled. */
+  pulseT0: number;
 }
+
+/** How long a period's bloom lasts end to end (stagger spread + one bloom). */
+export const PULSE_LIVE_MS = 1700;
 
 /**
  * Graticule sample points with their trig baked in, computed once.
@@ -263,6 +276,59 @@ export function renderGlobe(
 
   // grid over the sheet — see the note at drawGraticule
   drawGraticule();
+
+  // ── The Time Globe: event pulses ──────────────────────────────────────────
+  // Each event blooms at its nation's centroid — a ring that expands and dies
+  // like a struck bell, leaving a settled pigment dot for as long as the period
+  // is open. Born in year order across a ~900 ms spread, so a dense decade
+  // reads as a cascade sweeping the sphere rather than a single flash.
+  if (state.pulses && state.pulses.data.length) {
+    const d = state.pulses.data;
+    const tints = state.pulses.tints;
+    const n = d.length / 6;
+    // pulseT0 === 0 means "already settled" (reduced motion, or a re-render
+    // long after the bloom) — treat every pulse as fully grown.
+    const tSince = state.pulseT0 ? now - state.pulseT0 : Number.MAX_SAFE_INTEGER;
+    for (let i = 0; i < n; i++) {
+      const o = i * 6;
+      const sinLa = d[o], cosLa = d[o + 1];
+      const sinLon = d[o + 2], cosLon = d[o + 3];
+      const sindl = sinLon * cosL - cosLon * sinL;
+      const cosdl = cosLon * cosL + sinLon * sinL;
+      const cosc = sinP * sinLa + cosP * cosLa * cosdl;
+      if (cosc < 0.02) continue; // back hemisphere
+      const local = tSince - d[o + 5];
+      if (local < 0) continue; // not born yet
+      const x = cx + r * cosLa * sindl;
+      const y = cy - r * (cosP * sinLa - sinP * cosLa * cosdl);
+      const tint = tints[d[o + 4]];
+
+      // the settled dot, with a hairline of the deep so it reads on limestone
+      const grow = Math.min(1, local / 240);
+      const dotR = 1.1 + 1.7 * grow;
+      ctx.beginPath();
+      ctx.arc(x, y, dotR, 0, Math.PI * 2);
+      ctx.fillStyle = tint;
+      ctx.globalAlpha = 0.95;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = "rgba(4, 22, 31, 0.45)";
+      ctx.lineWidth = 0.8;
+      ctx.stroke();
+
+      // the bloom ring
+      const k = local / 700;
+      if (k < 1) {
+        ctx.beginPath();
+        ctx.arc(x, y, 3 + k * 13, 0, Math.PI * 2);
+        ctx.strokeStyle = tint;
+        ctx.globalAlpha = (1 - k) * 0.6;
+        ctx.lineWidth = 1.4;
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+      }
+    }
+  }
 
   // copper rings pulsing out of a selection — the surveyor marking a spot
   if (selectedCode && ringCenter) {
