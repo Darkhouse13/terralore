@@ -9,6 +9,15 @@
     "year": 1971,
     "detail": "Bangladesh declared independence from Pakistan on 26 March 1971, after the Pakistani army launched a brutal crackdown on the Bengali nationalist movement led by Sheikh Mujibur Rahman, whose Awami League had won the 1970 election. After nine months of war and the flight of some ten million refugees to India, Indian forces intervened and the Pakistani army surrendered at Dhaka on 16 December 1971, the date now commemorated as Victory Day. The new state's civilisational roots, however, reach back more than a thousand years to the Buddhist Pala empire of Bengal."
   },
+  "statehood": {
+    "formation": {
+      "year": 1971,
+      "yearLabel": "26 March 1971",
+      "label": "Sheikh Mujibur Rahman declares the independence of Bangladesh",
+      "detail": "Pakistan surrendered at Dhaka on 16 December 1971. The territory had been East Pakistan since 1947 and Bengal before that; the state itself is new, so no interruption precedes it.",
+      "sources": ["wikipedia-bangladesh-war", "statedept-bangladesh"]
+    }
+  },
   "quickFacts": [
     { "label": "Civilisational roots", "value": "Pala Buddhist Bengal, 8th–12th century CE" },
     { "label": "Independence declared", "value": "26 March 1971, from Pakistan" },
@@ -487,7 +496,9 @@
       "publisher": "World Bank",
       "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/702731624306432211/gearing-up-for-the-future-of-manufacturing-in-bangladesh",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-bangladesh-war", "label": "Bangladesh Liberation War", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bangladesh_Liberation_War", "kind": "reference" },
+    { "id": "statedept-bangladesh", "label": "A Guide to the United States' History of Recognition: Bangladesh", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/bangladesh", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"

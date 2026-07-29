@@ -9,6 +9,23 @@
     "year": 1953,
     "detail": "On 9 November 1953 King Norodom Sihanouk formally declared the full independence of Cambodia, completing the transfer of sovereignty from France after his self-styled Royal Crusade for Independence. Cambodia had been a French protectorate since 1863 and part of French Indochina from 1887; over 1953 the French handed back control of the police and judiciary in August and command of the army in October, and on 9 November General de Langlade ceremonially surrendered authority before the Royal Palace in Phnom Penh. The date is celebrated as Cambodia's Independence Day. This modern founding moment stands at the end of a far longer arc of Khmer statehood reaching back through the French protectorate, the long decline after Angkor, and the Khmer Empire founded by Jayavarman II in 802."
   },
+  "statehood": {
+    "formation": {
+      "year": 802,
+      "yearLabel": "802",
+      "label": "Jayavarman II declares himself chakravartin on Mount Mahendraparvata",
+      "detail": "The consecration of 802 is the conventional beginning of the Khmer Empire, which grew out of Chenla and lasted until 1431; Cambodia is the modern state on its heartland.",
+      "sources": ["wikipedia-khmer-empire"]
+    },
+    "interruptions": [
+      {
+        "start": 1863,
+        "end": 1953,
+        "label": "French protectorate",
+        "sources": ["wikipedia-french-cambodia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Khmer Empire", "value": "Founded by Jayavarman II in 802 CE; Angkor served as capital for some 600 years" },
     { "label": "Angkor Wat", "value": "Built under Suryavarman II in the early 12th century, the world's largest religious structure" },
@@ -195,7 +212,9 @@
     { "id": "norodom-sihanouk", "label": "Norodom Sihanouk", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Norodom-Sihanouk", "kind": "encyclopedia" },
     { "id": "hun-sen", "label": "Hun Sen", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Hun-Sen", "kind": "encyclopedia" },
     { "id": "hun-manet", "label": "Hun Manet", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Hun-Manet", "kind": "encyclopedia" },
-    { "id": "cambodia-since-2000", "label": "Cambodia since 2000", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Cambodia/Cambodia-since-2000", "kind": "encyclopedia" }
+    { "id": "cambodia-since-2000", "label": "Cambodia since 2000", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Cambodia/Cambodia-since-2000", "kind": "encyclopedia" },
+    { "id": "wikipedia-khmer-empire", "label": "Khmer Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khmer_Empire", "kind": "reference" },
+    { "id": "wikipedia-french-cambodia", "label": "French protectorate of Cambodia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/French_protectorate_of_Cambodia", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

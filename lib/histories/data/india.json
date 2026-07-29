@@ -9,6 +9,23 @@
     "year": 1947,
     "detail": "India gained independence from British rule on 15 August 1947, ending nearly two centuries of East India Company and Crown dominance. It became a sovereign democratic republic when its constitution came into force on 26 January 1950, now celebrated as Republic Day. Yet India's civilisational roots run far deeper, to the urban Indus Valley Civilisation that flourished from around 2600 BCE."
   },
+  "statehood": {
+    "formation": {
+      "year": -320,
+      "yearLabel": "c. 320 BCE",
+      "label": "Chandragupta Maurya founds the Maurya Empire",
+      "detail": "The republic's own choice of symbols makes the line of descent explicit: in July 1947 Nehru proposed the Lion Capital of Ashoka as the State Emblem and the wheel on its abacus as the centre of the flag, and the Constituent Assembly accepted in December. Many states rose and fell between 185 BCE and the Raj; the block records the anchor and the colonial interruption, not every dynastic break.",
+      "sources": ["wikipedia-maurya"]
+    },
+    "interruptions": [
+      {
+        "start": 1858,
+        "end": 1947,
+        "label": "British Crown rule",
+        "sources": ["wikipedia-british-raj", "statedept-india"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Civilisational roots", "value": "Indus Valley cities, c. 2600 BCE" },
     { "label": "Independence", "value": "15 August 1947, from the British Empire" },
@@ -512,7 +529,10 @@
       "publisher": "Know India, National Portal of India",
       "url": "https://knowindia.india.gov.in/republic-day-celebration/republic-of-india.php",
       "kind": "gov"
-    }
+    },
+    { "id": "wikipedia-maurya", "label": "Maurya Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Maurya_Empire", "kind": "reference" },
+    { "id": "wikipedia-british-raj", "label": "British Raj", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/British_Raj", "kind": "reference" },
+    { "id": "statedept-india", "label": "A Guide to the United States' History of Recognition: India", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/india", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

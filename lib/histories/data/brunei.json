@@ -9,6 +9,23 @@
     "year": 1984,
     "detail": "At midnight on 1 January 1984, Brunei Darussalam resumed full sovereignty after nearly a century as a British protectorate, and Sultan Hassanal Bolkiah proclaimed the national philosophy of Melayu Islam Beraja, the Malay Islamic Monarchy. The moment was a restoration as much as a beginning: Brunei had been an independent sultanate since the 14th century and a maritime power that once dominated Borneo, before the loss of Sarawak, Sabah, and Labuan and the British residency reduced it to a small enclave on the island's north coast. Britain had retained control of Brunei's defence and foreign affairs since the protectorate treaty of 1888; independence in 1984 returned those powers to the sultan, who also became prime minister, and the United States recognised the new state the same day."
   },
+  "statehood": {
+    "formation": {
+      "year": 1368,
+      "yearLabel": "1368",
+      "label": "The Sultanate of Brunei is established",
+      "detail": "The sultanate held much of Borneo and the southern Philippines at its height before ceding territory to the Brooke raj and the British North Borneo Company; the ruling house is continuous with the modern state.",
+      "sources": ["wikipedia-bruneian-empire"]
+    },
+    "interruptions": [
+      {
+        "start": 1888,
+        "end": 1984,
+        "label": "British protectorate",
+        "sources": ["wikipedia-bruneian-empire", "history-state-brunei"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Early records", "value": "Trading with and paying tribute to China by the 6th century CE, known to Chinese sources as Po-ni" },
     { "label": "Coming of Islam", "value": "First sultan, Muhammad Shah, converts to Islam in the 14th century, traditionally c. 1363" },
@@ -177,7 +194,8 @@
     { "id": "britannica-majapahit", "label": "Majapahit empire", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Majapahit-empire", "kind": "encyclopedia" },
     { "id": "britannica-bandar-seri-begawan", "label": "Bandar Seri Begawan", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Bandar-Seri-Begawan", "kind": "encyclopedia" },
     { "id": "history-state-brunei", "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations, by Country: Brunei", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/brunei", "kind": "gov" },
-    { "id": "un-brunei-facts", "label": "Country Facts: Brunei Darussalam", "publisher": "Permanent Mission of Brunei Darussalam to the United Nations", "url": "https://www.un.int/brunei/brunei/country-facts", "kind": "gov" }
+    { "id": "un-brunei-facts", "label": "Country Facts: Brunei Darussalam", "publisher": "Permanent Mission of Brunei Darussalam to the United Nations", "url": "https://www.un.int/brunei/brunei/country-facts", "kind": "gov" },
+    { "id": "wikipedia-bruneian-empire", "label": "Bruneian Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bruneian_Empire", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

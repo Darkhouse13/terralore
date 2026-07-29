@@ -9,6 +9,23 @@
     "year": 2002,
     "detail": "At midnight on 20 May 2002 the United Nations transitional administration handed sovereignty to the new Democratic Republic of Timor-Leste, with UN Secretary-General Kofi Annan presiding over the ceremony in Dili and Xanana Gusmao sworn in as the country's first president. Timorese leaders deliberately call it the restoration of independence, dating their nationhood to the declaration of 28 November 1975 that was cut short within days by the Indonesian invasion. The 2002 restoration came after a UN-supervised popular consultation on 30 August 1999, in which 78.5 per cent of voters rejected continued integration with Indonesia, the wave of militia violence that followed, an international peacekeeping intervention, and more than two years of UN administration that built the institutions of the new state."
   },
+  "statehood": {
+    "formation": {
+      "year": 1975,
+      "yearLabel": "28 November 1975",
+      "label": "East Timor unilaterally declares independence from Portugal",
+      "detail": "Indonesia invaded nine days later and declared the territory a province in 1976, but the United Nations never accepted it: the territory's nominal status remained a non-self-governing territory under Portuguese administration until independence was restored in 2002. Timor-Leste calls 20 May 2002 the restoration of independence, and the block follows it.",
+      "sources": ["wikipedia-east-timor"]
+    },
+    "interruptions": [
+      {
+        "start": 1975,
+        "end": 2002,
+        "label": "Indonesian invasion and annexation, never recognised by the United Nations",
+        "sources": ["wikipedia-east-timor", "history-state-timor"]
+      }
+    ]
+  },
   "quickFacts": [
     {
       "label": "Capital",
@@ -579,7 +596,8 @@
       "publisher": "World Bank",
       "url": "https://data.worldbank.org/country/timor-leste",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-east-timor", "label": "East Timor", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/East_Timor", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

@@ -9,6 +9,29 @@
     "year": 1945,
     "detail": "On 2 September 1945, in Hanoi's Ba Dinh Square, Ho Chi Minh read the Declaration of Independence proclaiming the Democratic Republic of Vietnam, echoing the American and French declarations of rights. The act came after the long arc of Vietnamese statehood: the legendary kingdoms of Van Lang and Au Lac ruled by the Hung kings and An Duong Vuong, roughly a thousand years of Chinese rule from 111 BCE until Ngo Quyen's victory at Bach Dang in 938 CE, and centuries of independent dynasties. Independence in 1945 was not the end of the struggle; war with France and then the division of the country gave way only after 1975 to the reunified Socialist Republic of Vietnam, formally proclaimed on 2 July 1976."
   },
+  "statehood": {
+    "formation": {
+      "year": -257,
+      "yearLabel": "257 BCE",
+      "label": "Thục Phán founds Âu Lạc from Nam Cương and Văn Lang",
+      "detail": "Âu Lạc was absorbed by Zhao Tuo's Nanyue within a century, and Han conquest of Nanyue in 111 BCE opened the thousand years of Chinese rule that Ngô Quyền ended at the Bạch Đằng river.",
+      "sources": ["wikipedia-au-lac"]
+    },
+    "interruptions": [
+      {
+        "start": -111,
+        "end": 938,
+        "label": "A thousand years of Chinese rule, ended at the Bạch Đằng river",
+        "sources": ["wikipedia-ngo-quyen", "wikipedia-au-lac"]
+      },
+      {
+        "start": 1887,
+        "end": 1945,
+        "label": "French Indochina",
+        "sources": ["wikipedia-french-indochina", "wikipedia-vietnam-declaration"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Legendary founding", "value": "Van Lang under the Hung kings, traditionally c. 2879 BCE (mythical)" },
     { "label": "Chinese rule", "value": "From the Han conquest in 111 BCE to Ngo Quyen's victory in 938 CE, roughly a millennium" },
@@ -193,7 +216,11 @@
     { "id": "geneva-accords", "label": "Geneva Accords", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Geneva-Accords", "kind": "encyclopedia" },
     { "id": "gulf-of-tonkin", "label": "Gulf of Tonkin Resolution (1964)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Gulf-of-Tonkin-Resolution", "kind": "encyclopedia" },
     { "id": "vietnam-war", "label": "Vietnam War", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Vietnam-War", "kind": "encyclopedia" },
-    { "id": "doi-moi", "label": "Doi Moi (Renovation)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/money/doi-moi", "kind": "encyclopedia" }
+    { "id": "doi-moi", "label": "Doi Moi (Renovation)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/money/doi-moi", "kind": "encyclopedia" },
+    { "id": "wikipedia-au-lac", "label": "Âu Lạc", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/%C3%82u_L%E1%BA%A1c", "kind": "reference" },
+    { "id": "wikipedia-ngo-quyen", "label": "Ngô Quyền", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ng%C3%B4_Quy%E1%BB%81n", "kind": "reference" },
+    { "id": "wikipedia-french-indochina", "label": "French Indochina", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/French_Indochina", "kind": "reference" },
+    { "id": "wikipedia-vietnam-declaration", "label": "Proclamation of Independence of the Democratic Republic of Vietnam", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proclamation_of_Independence_of_the_Democratic_Republic_of_Vietnam", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

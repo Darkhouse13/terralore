@@ -9,6 +9,23 @@
     "year": 1948,
     "detail": "On 4 January 1948 Burma became an independent sovereign state, leaving the British Empire entirely rather than remaining within the Commonwealth. The architect of independence, the nationalist leader Aung San, had negotiated the transfer of power with British Prime Minister Clement Attlee in January 1947 but was assassinated with most of his cabinet in July 1947; the new nation was led to independence by U Nu. The date crowned a long arc of statehood reaching back through the Konbaung, Toungoo and Pagan kingdoms to the Pyu city-states, and through more than six decades of British colonial rule that had ended the Burmese monarchy in 1885. Independence proved fragile: ethnic insurgency and political instability gave way in 1962 to military rule that would shape the country for generations."
   },
+  "statehood": {
+    "formation": {
+      "year": 1044,
+      "yearLabel": "1044",
+      "label": "Anawrahta comes to power and builds the Pagan kingdom",
+      "detail": "Pagan was the first Burmese kingdom to unify the regions that would later constitute modern Myanmar — the charter polity that the Toungoo and Konbaung states inherited.",
+      "sources": ["wikipedia-pagan-kingdom"]
+    },
+    "interruptions": [
+      {
+        "start": 1886,
+        "end": 1948,
+        "label": "British annexation of Upper Burma and colonial rule",
+        "sources": ["wikipedia-third-anglo-burmese", "officehistorian-burma"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Earliest Buddhist urban culture", "value": "Pyu city-states of the Irrawaddy basin, flourishing roughly 200 BCE-900 CE" },
     { "label": "First unifying kingdom", "value": "Pagan (Bagan), founded as a power by Anawrahta (reigned 1044-77)" },
@@ -189,7 +206,9 @@
     { "id": "thein-sein", "label": "Thein Sein", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Thein-Sein", "kind": "encyclopedia" },
     { "id": "ohchr-rohingya", "label": "UN Fact-Finding Mission on Myanmar: account of violations in Rakhine, Kachin and Shan States", "publisher": "United Nations Office of the High Commissioner for Human Rights (OHCHR)", "url": "https://www.ohchr.org/en/press-releases/2018/09/myanmar-un-fact-finding-mission-releases-its-full-account-massive-violations", "kind": "gov" },
     { "id": "coup-2021", "label": "2021 Myanmar coup d'etat", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/2021-Myanmar-coup-d-etat", "kind": "encyclopedia" },
-    { "id": "myanmar-civil-war", "label": "Myanmar Civil War", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Myanmar-Civil-War", "kind": "encyclopedia" }
+    { "id": "myanmar-civil-war", "label": "Myanmar Civil War", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Myanmar-Civil-War", "kind": "encyclopedia" },
+    { "id": "wikipedia-pagan-kingdom", "label": "Pagan Kingdom", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom", "kind": "reference" },
+    { "id": "wikipedia-third-anglo-burmese", "label": "Third Anglo-Burmese War", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Third_Anglo-Burmese_War", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

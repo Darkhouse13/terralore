@@ -9,6 +9,23 @@
     "year": 1953,
     "detail": "On 22 October 1953 the Franco-Lao Treaty of Amity and Association transferred the last French powers to the Royal Lao Government, recognizing Laos as a fully independent and sovereign state. The act completed a path begun within the French Union, after Laos had been bound since 1893 into the colonial federation of French Indochina. Sovereignty did not bring peace: a three-cornered struggle among royalists, neutralists, and the communist Pathet Lao plunged the kingdom into civil war, compounded by the covert American bombing campaign of the wider Indochina conflict, until the monarchy itself was abolished and the Lao People's Democratic Republic proclaimed on 2 December 1975."
   },
+  "statehood": {
+    "formation": {
+      "year": 1353,
+      "yearLabel": "1353",
+      "label": "Fa Ngum is crowned king of Lan Xang",
+      "detail": "The kingdom of the million elephants is the basis of Laos's national historic and cultural identity; France took the Lao territories after the Franco-Siamese crisis of 1893.",
+      "sources": ["wikipedia-lan-xang"]
+    },
+    "interruptions": [
+      {
+        "start": 1893,
+        "end": 1953,
+        "label": "French protectorate within Indochina",
+        "sources": ["wikipedia-lan-xang", "wikipedia-french-indochina"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Kingdom of Lan Xang founded", "value": "1353, by Fa Ngum, uniting the Lao principalities of the Mekong" },
     { "label": "Meaning of Lan Xang", "value": "\"Land of a Million Elephants\" (Lan Xang Hom Khao, with the white parasol)" },
@@ -186,7 +203,9 @@
     { "id": "unesco-luang-prabang", "label": "Town of Luang Prabang", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/479/", "kind": "gov" },
     { "id": "unesco-vat-phou", "label": "Vat Phou and Associated Ancient Settlements within the Champasak Cultural Landscape", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/481/", "kind": "gov" },
     { "id": "asean-lao", "label": "Lao PDR, ASEAN Member State", "publisher": "Association of Southeast Asian Nations (ASEAN)", "url": "https://asean.org/member-states/lao-pdr/", "kind": "gov" },
-    { "id": "worldbank-lao", "label": "Lao PDR Overview", "publisher": "World Bank Group", "url": "https://www.worldbank.org/en/country/lao/overview", "kind": "gov" }
+    { "id": "worldbank-lao", "label": "Lao PDR Overview", "publisher": "World Bank Group", "url": "https://www.worldbank.org/en/country/lao/overview", "kind": "gov" },
+    { "id": "wikipedia-lan-xang", "label": "Lan Xang", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lan_Xang", "kind": "reference" },
+    { "id": "wikipedia-french-indochina", "label": "French Indochina", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/French_Indochina", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-15"

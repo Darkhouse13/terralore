@@ -9,6 +9,23 @@
     "year": 1948,
     "detail": "The Dominion of Ceylon became independent on 4 February 1948, when its 1947 constitution came into force, ending British colonial rule that had governed the unified island since 1815. D. S. Senanayake became the first prime minister. In 1972 a new constitution declared the country a republic and changed its name from Ceylon to Sri Lanka, though its statehood traces to Sinhalese kingdoms more than two thousand years older."
   },
+  "statehood": {
+    "formation": {
+      "year": -437,
+      "yearLabel": "437 BCE",
+      "label": "Pandukabhaya founds the Anuradhapura kingdom",
+      "detail": "Sinhalese kingship ran from Anuradhapura through Polonnaruwa to Kandy. Portugal and the Netherlands held the coasts from the sixteenth century but the interior kingdom stayed sovereign until the British took Kandy in 1815, which is where the interruption begins.",
+      "sources": ["wikipedia-anuradhapura"]
+    },
+    "interruptions": [
+      {
+        "start": 1815,
+        "end": 1948,
+        "label": "British annexation of Kandy and the colony of Ceylon",
+        "sources": ["wikipedia-kandyan-wars", "statedept-srilanka"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Civilisational roots", "value": "Anuradhapura kingdom, from c. 4th century BCE" },
     { "label": "Buddhism introduced", "value": "3rd century BCE, by the missionary Mahinda" },
@@ -423,7 +440,10 @@
       "publisher": "EBSCO Research Starters",
       "url": "https://www.ebsco.com/research-starters/history/buddhism-established-sri-lanka",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-anuradhapura", "label": "Anuradhapura Kingdom", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Anuradhapura_Kingdom", "kind": "reference" },
+    { "id": "wikipedia-kandyan-wars", "label": "Kandyan Wars", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kandyan_Wars", "kind": "reference" },
+    { "id": "statedept-srilanka", "label": "A Guide to the United States' History of Recognition: Sri Lanka", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/sri-lanka", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-15"
