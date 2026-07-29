@@ -126,6 +126,17 @@ export default function GlobeLite({
   const target = useRef<{ lambda: number; phi: number; scale: number; from: typeof view.current; t0: number; dur: number } | null>(null);
   const spinning = useRef(true);
   const interacted = useRef(false);
+  // Inertia: view velocity in deg/ms, fed by the last few drag samples and
+  // decayed by the sim loop. What separates "a globe you spun" from "a globe
+  // that stops dead the millisecond you let go".
+  const vel = useRef({ l: 0, p: 0 });
+  const dragSamples = useRef<{ t: number; x: number; y: number }[]>([]);
+  // Auto-rotate resume: the old behaviour was that the FIRST touch silenced the
+  // rotation forever — the quality that makes the globe feel alive on arrival
+  // died permanently at first contact. After interaction ends, this timer
+  // re-arms the spin; the ramp makes it ease back in rather than jerk.
+  const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const spinRampT0 = useRef(0);
   const visible = useRef(true);
   const rafId = useRef(0);
   const lastT = useRef(0);
@@ -273,12 +284,37 @@ export default function GlobeLite({
       view.current.phi = tg.from.phi + (tg.phi - tg.from.phi) * e;
       view.current.scale = tg.from.scale + (tg.scale - tg.from.scale) * e;
       if (k >= 1) target.current = null;
-    } else if (spinning.current && !reduceMotion) {
-      view.current.lambda += (SPIN_DEG_S * dt) / 1000;
+    } else {
+      // Inertia first: released momentum decays exponentially (~180 ms time
+      // constant, OrbitControls-damping territory). Latitude momentum dies at
+      // the pole clamp instead of grinding against it.
+      const v = vel.current;
+      if (v.l !== 0 || v.p !== 0) {
+        view.current.lambda = ((view.current.lambda + v.l * dt + 540) % 360) - 180;
+        const nextPhi = view.current.phi + v.p * dt;
+        view.current.phi = Math.max(-75, Math.min(75, nextPhi));
+        if (nextPhi !== view.current.phi) v.p = 0;
+        const decay = Math.exp(-dt / 180);
+        v.l *= decay;
+        v.p *= decay;
+        if (Math.hypot(v.l, v.p) < 0.0004) v.l = v.p = 0;
+      }
+      if (spinning.current && !reduceMotion) {
+        // Ease the ambient spin back in over ~1.6 s — resuming at full speed
+        // after stillness reads as a glitch, not a behaviour.
+        const ramp = spinRampT0.current
+          ? Math.min(1, (t - spinRampT0.current) / 1600)
+          : 1;
+        view.current.lambda += (SPIN_DEG_S * dt * easeCubic(ramp)) / 1000;
+      }
     }
 
     paint();
-    const more = target.current !== null || (spinning.current && !reduceMotion);
+    const more =
+      target.current !== null ||
+      vel.current.l !== 0 ||
+      vel.current.p !== 0 ||
+      (spinning.current && !reduceMotion);
     if (more && visible.current && !document.hidden) {
       rafId.current = requestAnimationFrame((x) => simRef.current(x));
     } else {
@@ -294,6 +330,32 @@ export default function GlobeLite({
       lastT.current = 0;
       rafId.current = requestAnimationFrame((x) => simRef.current(x));
     }
+  }, []);
+
+  // Re-arm the ambient spin after 7 s of stillness. No stale-selection guard is
+  // needed in the timeout body: the selection effect below clears this timer
+  // the moment a nation is selected, which is the only way it could go stale.
+  const scheduleResume = useCallback(() => {
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    resumeTimer.current = setTimeout(() => {
+      spinning.current = true;
+      spinRampT0.current = performance.now();
+      wakeSim();
+    }, 7000);
+  }, [wakeSim]);
+
+  // Selection owns the stage: never drift away from what the reader framed.
+  // When the card closes, the stage is unowned again — let the world resume.
+  useEffect(() => {
+    if (selectedCode) {
+      if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    } else if (interacted.current) {
+      scheduleResume();
+    }
+  }, [selectedCode, scheduleResume]);
+
+  useEffect(() => () => {
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
   }, []);
 
   // Kick the spin once geometry is in; pause off-screen / hidden tab.
@@ -377,7 +439,11 @@ export default function GlobeLite({
   const onPointerDown = (e: React.PointerEvent) => {
     interacted.current = true;
     spinning.current = false;
+    spinRampT0.current = 0;
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    vel.current.l = vel.current.p = 0; // catching the globe stops it
     drag.current = { x: e.clientX, y: e.clientY, moved: false };
+    dragSamples.current = [{ t: e.timeStamp, x: e.clientX, y: e.clientY }];
     setDragging(true);
     canvasRef.current?.setPointerCapture(e.pointerId);
   };
@@ -390,11 +456,23 @@ export default function GlobeLite({
       if (drag.current.moved) {
         target.current = null;
         const r = radiusFor(width, height) * view.current.scale;
-        const k = 90 / r; // degrees per pixel, tuned to OrbitControls' feel
-        view.current.lambda = ((view.current.lambda - dx * k + 540) % 360) - 180;
+        // Radian-true: dragging one radius of pixels turns the sphere ~57.3°,
+        // which keeps the ground under the finger instead of outrunning it (the
+        // old 90/r slid ~1.6× faster than the pointer — the "slippery" half of
+        // "feels buggy when touched"). Longitude is compensated for latitude so
+        // east–west drags don't turn to treacle near the pole clamp; capped at
+        // 2× so the compensation never becomes a whip.
+        const k = 57.2958 / r;
+        const comp = Math.min(2, 1 / Math.max(0.5, Math.cos(view.current.phi * DEG)));
+        view.current.lambda = ((view.current.lambda - dx * k * comp + 540) % 360) - 180;
         view.current.phi = Math.max(-75, Math.min(75, view.current.phi + dy * k));
         drag.current.x = e.clientX;
         drag.current.y = e.clientY;
+        const now = e.timeStamp;
+        dragSamples.current.push({ t: now, x: e.clientX, y: e.clientY });
+        while (dragSamples.current.length > 2 && now - dragSamples.current[0].t > 90) {
+          dragSamples.current.shift();
+        }
         if (tip) setTip(null);
         // One post per event is fine — the worker renders at its own rAF pace
         // and later posts simply replace the pending state.
@@ -417,11 +495,39 @@ export default function GlobeLite({
     } else setTip(null);
   };
 
+  /** Release velocity from the last ≤90 ms of samples, in the drag's own mapping. */
+  const releaseVelocity = () => {
+    const ss = dragSamples.current;
+    dragSamples.current = [];
+    if (reduceMotion || ss.length < 2) return;
+    const a = ss[0];
+    const b = ss[ss.length - 1];
+    const dtMs = b.t - a.t;
+    if (dtMs < 8 || dtMs > 160) return; // a stale gap means the finger paused: no fling
+    const r = radiusFor(width, height) * view.current.scale;
+    const k = 57.2958 / r;
+    const comp = Math.min(2, 1 / Math.max(0.5, Math.cos(view.current.phi * DEG)));
+    vel.current.l = (-(b.x - a.x) * k * comp) / dtMs;
+    vel.current.p = ((b.y - a.y) * k) / dtMs;
+    // Clamp: a wild fling should feel spirited, not send the planet into orbit.
+    const speed = Math.hypot(vel.current.l, vel.current.p);
+    const MAX = 0.35; // deg/ms
+    if (speed > MAX) {
+      vel.current.l *= MAX / speed;
+      vel.current.p *= MAX / speed;
+    }
+  };
+
   const onPointerUp = (e: React.PointerEvent) => {
     const wasDrag = drag.current?.moved;
     drag.current = null;
     setDragging(false);
-    if (wasDrag) return;
+    if (wasDrag) {
+      releaseVelocity();
+      scheduleResume();
+      wakeSim();
+      return;
+    }
     const code = locate(e);
     if (code) {
       const meta = metaMap[code];
@@ -432,8 +538,30 @@ export default function GlobeLite({
     } else onSelect(null);
   };
 
-  const onPointerLeave = () => {
+  /**
+   * The browser reclaiming the gesture. With `touch-action: pan-y` (the
+   * deliberate compromise that keeps the page scrollable over a full-screen
+   * globe), a touch judged vertical is taken by the scroller mid-drag and
+   * arrives here as `pointercancel` — which this component previously ignored,
+   * leaving a live drag ref and a stuck `dragging` state. That intermittent
+   * dead gesture was the touch half of "feels buggy". No fling on cancel: the
+   * user's finger is now scrolling the page, and a planet spinning underneath
+   * a scroll reads as noise.
+   */
+  const onPointerCancel = () => {
     drag.current = null;
+    dragSamples.current = [];
+    setDragging(false);
+    scheduleResume();
+  };
+
+  const onPointerLeave = () => {
+    if (drag.current) {
+      drag.current = null;
+      releaseVelocity();
+      scheduleResume();
+      wakeSim();
+    }
     setDragging(false);
     if (hoverCode) {
       setHoverCode(null);
@@ -472,6 +600,7 @@ export default function GlobeLite({
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
+        onPointerCancel={onPointerCancel}
         onPointerLeave={onPointerLeave}
       />
       {/* hover tooltip — same card the three.js globe drew */}
