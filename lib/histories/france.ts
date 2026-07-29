@@ -13,6 +13,16 @@ export const france: CountryHistory = {
     detail:
       "The Treaty of Verdun split Charlemagne's empire among his grandsons; the western portion, West Francia, is the territorial and political ancestor of France. The realm was consolidated under Hugh Capet from 987.",
   },
+  statehood: {
+    formation: {
+      year: 843,
+      yearLabel: "10 August 843",
+      label: "The Treaty of Verdun gives Charles the Bald West Francia",
+      detail:
+        "West Francia eventually became the Kingdom of France, and the corpus's founding claim and its statehood anchor are the same event. The German occupation of 1940–44 was a wartime occupation with sovereignty restored at the war's end and is not recorded as an interruption.",
+      sources: ["wikipedia-verdun"],
+    },
+  },
   quickFacts: [
     { label: "Name from", value: "the Franks (Latin Francia)" },
     { label: "Oldest cities", value: "Marseille, founded c. 600 BCE" },
@@ -359,6 +369,7 @@ export const france: CountryHistory = {
     { id: "eb-napoleon", label: "Napoleon I", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Napoleon-I", kind: "encyclopedia" },
     { id: "eb-fifth-republic", label: "France — The Fifth Republic", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/place/France/The-Fifth-Republic", kind: "encyclopedia" },
     { id: "eb-de-gaulle", label: "Charles de Gaulle", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Charles-de-Gaulle", kind: "encyclopedia" },
+    { id: "wikipedia-verdun", label: "Treaty of Verdun", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Treaty_of_Verdun", kind: "reference" },
   ],
   status: "published",
   updated: "2026-06-13",

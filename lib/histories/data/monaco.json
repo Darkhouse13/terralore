@@ -9,6 +9,23 @@
     "year": 1297,
     "detail": "Monaco's founding moment is dated to the night of 8 January 1297, when François Grimaldi, a Genoese Guelph nicknamed Malizia ('the Cunning'), took the fortress on the Rock of Monaco from its Ghibelline garrison by disguising himself in the habit of a Franciscan friar and concealing his weapons beneath the robe. The ruse is commemorated to this day in the princely coat of arms, whose supporters are two monks bearing swords. Though the Grimaldi were driven out and only secured permanent possession in the decades that followed, the seizure of 1297 is taken as the origin of the Grimaldi presence in Monaco. The dynasty it founded still reigns, making the House of Grimaldi the longest-ruling family in Europe. The fortress they captured, begun by Genoa in 1215, remains the core of the Prince's Palace seven centuries later."
   },
+  "statehood": {
+    "formation": {
+      "year": 1297,
+      "yearLabel": "1297",
+      "label": "Francesco Grimaldi seizes the Rock of Monaco",
+      "detail": "Independent sovereignty was recognised by Spain in 1633 and by France at the Treaty of Péronne in 1641, and the Grimaldis have held Monaco since — apart from French control during the Revolution.",
+      "sources": ["wikipedia-history-monaco"]
+    },
+    "interruptions": [
+      {
+        "start": 1793,
+        "end": 1814,
+        "label": "French control during the Revolution",
+        "sources": ["wikipedia-history-monaco"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Founding seizure", "value": "François Grimaldi took the Rock disguised as a monk, 8 January 1297" },
     { "label": "Genoese fortress", "value": "Begun by Genoa on the Rock in 1215; still the core of the Prince's Palace" },
@@ -170,7 +187,8 @@
     { "id": "britannica-albert1", "label": "Albert, prince of Monaco", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Albert-prince-of-Monaco", "kind": "encyclopedia" },
     { "id": "globalsecurity-1215-1662", "label": "Monaco: 1215 to 1662", "publisher": "GlobalSecurity.org", "url": "https://www.globalsecurity.org/military/world/europe/mc-history-2.htm", "kind": "reference" },
     { "id": "globalsecurity-1815-present", "label": "Monaco: 1815 to Present", "publisher": "GlobalSecurity.org", "url": "https://www.globalsecurity.org/military/world/europe/mc-history-4.htm", "kind": "reference" },
-    { "id": "globalsecurity-early", "label": "Monaco: Early History", "publisher": "GlobalSecurity.org", "url": "https://www.globalsecurity.org/military/world/europe/mc-history-1.htm", "kind": "reference" }
+    { "id": "globalsecurity-early", "label": "Monaco: Early History", "publisher": "GlobalSecurity.org", "url": "https://www.globalsecurity.org/military/world/europe/mc-history-1.htm", "kind": "reference" },
+    { "id": "wikipedia-history-monaco", "label": "History of Monaco", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/History_of_Monaco", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

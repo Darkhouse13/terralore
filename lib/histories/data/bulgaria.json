@@ -9,6 +9,29 @@
     "year": 681,
     "detail": "The Bulgarian state is conventionally dated to 681, when Khan Asparukh, leader of the Bulgars, settled in the lands south of the Danube and compelled the Byzantine emperor Constantine IV, whose army he had defeated, to recognise the new realm and pay it tribute. Asparukh established his capital at Pliska, northeast of modern Shumen, and a religious and ceremonial centre nearby at Madara, where the great rock relief of the Madara Rider was carved. The recognition by Constantinople, the dominant power of the age, made Bulgaria the first organised state to be acknowledged on Byzantine soil in the Balkans, and Bulgarians count 681 as the birth of their nation. That state would be subjugated by Byzantium in 1018, revive as a Second Empire at Tarnovo in 1185, and be extinguished by the Ottoman conquest completed in 1396, before a modern principality was reborn in 1878."
   },
+  "statehood": {
+    "formation": {
+      "year": 681,
+      "yearLabel": "681",
+      "label": "Byzantium acknowledges Bulgaria as an independent state",
+      "detail": "Bulgaria was an autonomous principality from 1878 and declared full independence on 5 October 1908; the second interruption is dated to the later act because that is when Ottoman sovereignty formally ended.",
+      "sources": ["wikipedia-first-bulgarian-empire"]
+    },
+    "interruptions": [
+      {
+        "start": 1018,
+        "end": 1185,
+        "label": "Byzantine conquest",
+        "sources": ["wikipedia-first-bulgarian-empire"]
+      },
+      {
+        "start": 1396,
+        "end": 1908,
+        "label": "Ottoman conquest",
+        "sources": ["wikipedia-second-bulgarian-empire", "statedept-bulgaria"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Birth of the state", "value": "First Bulgarian Empire founded by Khan Asparukh, recognised by Byzantium in 681" },
     { "label": "Christianization", "value": "Boris I adopted Eastern Orthodox Christianity in 864" },
@@ -207,7 +230,10 @@
     { "id": "macedonia-dispute", "label": "North Macedonia's EU Accession and Bilateral Conditionality with Bulgaria", "publisher": "SAIS Review of International Affairs (Johns Hopkins SAIS)", "url": "https://saisreview.sais.jhu.edu/exiting-the-bulgarian-labyrinth-safeguarding-north-macedonias-eu-accession-from-entrenched-bilateral-conditionality/", "kind": "academic" },
     { "id": "unesco-boyana", "label": "Boyana Church", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/42/", "kind": "gov" },
     { "id": "unesco-kazanlak", "label": "Thracian Tomb of Kazanlak", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/44/", "kind": "gov" },
-    { "id": "unesco-sveshtari", "label": "Thracian Tomb of Sveshtari", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/359/", "kind": "gov" }
+    { "id": "unesco-sveshtari", "label": "Thracian Tomb of Sveshtari", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/359/", "kind": "gov" },
+    { "id": "wikipedia-first-bulgarian-empire", "label": "First Bulgarian Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire", "kind": "reference" },
+    { "id": "wikipedia-second-bulgarian-empire", "label": "Second Bulgarian Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire", "kind": "reference" },
+    { "id": "statedept-bulgaria", "label": "A Guide to the United States' History of Recognition: Bulgaria", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/bulgaria", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

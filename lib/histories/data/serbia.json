@@ -9,6 +9,23 @@
     "year": 1878,
     "detail": "Modern Serbia's independence was recognised by the great powers at the Congress of Berlin in 1878, three centuries after the Ottoman conquest had extinguished the medieval state. The Serbian Revolution had begun in 1804 with the First Uprising under Karađorđe; the Second Uprising of 1815 under Miloš Obrenović won autonomy, formalised when the Ottoman government granted the principality self-government in 1830. De facto independence followed in 1867 with the withdrawal of the last Ottoman garrisons, and the Treaty of Berlin of 1878 confirmed it in international law, enlarging the principality, which became the Kingdom of Serbia in 1882. This statehood had far older roots in the medieval kingdom and empire of the Nemanjić dynasty, whose memory — above all the Battle of Kosovo of 1389 — remained central to Serbian national identity through the long centuries of Ottoman rule."
   },
+  "statehood": {
+    "formation": {
+      "year": 1166,
+      "yearLabel": "1166",
+      "label": "Stefan Nemanja founds the dynasty that becomes the Serbian state",
+      "detail": "Serbia was acknowledged as an autonomous principality by the Hatt-i Sharif of 1830 and the last Ottoman garrison left Belgrade in 1867; full independence was recognised at the Congress of Berlin in 1878, which is where the interruption ends.",
+      "sources": ["wikipedia-stefan-nemanja"]
+    },
+    "interruptions": [
+      {
+        "start": 1459,
+        "end": 1878,
+        "label": "Ottoman conquest of Smederevo and four centuries of Ottoman rule",
+        "sources": ["wikipedia-serbian-despotate", "wikipedia-principality-serbia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Medieval state founded", "value": "Grand Principality of Raška under Stefan Nemanja, c. 1166–1196 (Nemanjić dynasty)" },
     { "label": "Autocephalous church", "value": "Serbian Orthodox Church granted autocephaly under Saint Sava, 1219" },
@@ -204,7 +221,10 @@
     { "id": "icty-milosevic", "label": "Slobodan Milošević (IT-02-54) case information", "publisher": "International Criminal Tribunal for the former Yugoslavia (UN-IRMCT)", "url": "https://www.icty.org/en/case/slobodan_milosevic", "kind": "primary" },
     { "id": "statedept-serbia", "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations, by Country: Serbia", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/serbia/diplomatic_relations", "kind": "gov" },
     { "id": "studenica-unesco", "label": "Studenica Monastery", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/389/", "kind": "gov" },
-    { "id": "kosovo-monuments-unesco", "label": "Medieval Monuments in Kosovo", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/724/", "kind": "gov" }
+    { "id": "kosovo-monuments-unesco", "label": "Medieval Monuments in Kosovo", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/724/", "kind": "gov" },
+    { "id": "wikipedia-stefan-nemanja", "label": "Stefan Nemanja", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Stefan_Nemanja", "kind": "reference" },
+    { "id": "wikipedia-serbian-despotate", "label": "Serbian Despotate", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Serbian_Despotate", "kind": "reference" },
+    { "id": "wikipedia-principality-serbia", "label": "Principality of Serbia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Principality_of_Serbia", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

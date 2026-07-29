@@ -9,6 +9,23 @@
     "year": 1993,
     "detail": "The modern Czech state came into being on 1 January 1993, when Czechoslovakia dissolved peacefully into two sovereign successor states, the Czech Republic and Slovakia, in a separation so amicable that it became known as the 'Velvet Divorce'. After the Velvet Revolution of 1989 ended communist rule, growing political and economic differences between Czech and Slovak leaders led the federal legislature to vote in November 1992 to divide the country; separate constitutions were drafted and the two republics came into existence at the start of 1993 without bloodshed, in sharp contrast to the violent breakup of Yugoslavia at the same time. The Czech statehood proclaimed in 1993 was, however, the latest chapter of a far older story: a continuity of Czech political identity that reaches back through the Kingdom of Bohemia, the duchy of the Premyslids and Saint Wenceslas, to the ninth-century Slavic state of Great Moravia."
   },
+  "statehood": {
+    "formation": {
+      "year": 870,
+      "yearLabel": "c. 870",
+      "label": "The Přemyslids establish the Duchy of Bohemia",
+      "detail": "Bohemia was raised to a hereditary kingdom in 1198. The estates' defeat at White Mountain in 1620 ended their autonomy and began two centuries of Habsburg recatholicisation; statehood returned with Czechoslovakia in 1918, and Czechia and Slovakia parted by agreement on 1 January 1993.",
+      "sources": ["wikipedia-duchy-bohemia"]
+    },
+    "interruptions": [
+      {
+        "start": 1620,
+        "end": 1918,
+        "label": "Habsburg rule after the Battle of White Mountain",
+        "sources": ["wikipedia-white-mountain", "wikipedia-czechoslovakia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Earliest Slavic state", "value": "Great Moravia (9th century); mission of Saints Cyril and Methodius from 863" },
     { "label": "Kingdom of Bohemia", "value": "Royal title made hereditary by the Golden Bull of Sicily, 1212; golden age under Charles IV" },
@@ -206,7 +223,11 @@
     { "id": "havel-britannica", "label": "Vaclav Havel", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Vaclav-Havel", "kind": "encyclopedia" },
     { "id": "dubcek-britannica", "label": "Alexander Dubcek", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Alexander-Dubcek", "kind": "encyclopedia" },
     { "id": "nato-membership", "label": "NATO member countries (Czechia joined 12 March 1999)", "publisher": "North Atlantic Treaty Organization (NATO)", "url": "https://www.nato.int/en/about-us/organization/nato-member-countries", "kind": "gov" },
-    { "id": "eu-enlargement-commission", "label": "20 years together: the 2004 EU enlargement", "publisher": "European Commission", "url": "https://commission.europa.eu/topics/enlargement/20-years-together_en", "kind": "gov" }
+    { "id": "eu-enlargement-commission", "label": "20 years together: the 2004 EU enlargement", "publisher": "European Commission", "url": "https://commission.europa.eu/topics/enlargement/20-years-together_en", "kind": "gov" },
+    { "id": "wikipedia-duchy-bohemia", "label": "Duchy of Bohemia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Duchy_of_Bohemia", "kind": "reference" },
+    { "id": "wikipedia-white-mountain", "label": "Battle of White Mountain", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Battle_of_White_Mountain", "kind": "reference" },
+    { "id": "wikipedia-czechoslovakia", "label": "Czechoslovakia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Czechoslovakia", "kind": "reference" },
+    { "id": "statedept-czechia", "label": "A Guide to the United States' History of Recognition: Czechia", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/czech-republic", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

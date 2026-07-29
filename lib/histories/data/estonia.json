@@ -9,6 +9,23 @@
     "year": 1918,
     "detail": "The Republic of Estonia was proclaimed on 24 February 1918, when the Salvation Committee of the Estonian Provincial Assembly issued the 'Manifesto to the Peoples of Estonia' and appointed a provisional government under Konstantin Päts. After centuries of foreign rule the Estonians declared themselves an independent, democratic republic. Independence still had to be won by force: the War of Independence against Soviet Russia and Baltic German forces was fought through 1918-1920 and ended in the Treaty of Tartu of 2 February 1920, by which Soviet Russia recognised Estonian sovereignty in perpetuity. That republic was destroyed by Soviet occupation and annexation in 1940, but Estonia never accepted the legality of the act; on 20 August 1991, invoking the unbroken continuity of the state founded in 1918, the country restored its independence rather than founding a new one."
   },
+  "statehood": {
+    "formation": {
+      "year": 1918,
+      "yearLabel": "24 February 1918",
+      "label": "The independent Republic of Estonia is declared",
+      "detail": "Estonia had been ruled from outside — Danish, German, Swedish and Russian — with no earlier Estonian state, so 1918 is a formation. The United States never recognised the forcible incorporation into the Soviet Union and treats the present government as a legal continuation of the interwar republic.",
+      "sources": ["wikipedia-estonian-declaration"]
+    },
+    "interruptions": [
+      {
+        "start": 1940,
+        "end": 1991,
+        "label": "Soviet annexation, which most Western states never recognised",
+        "sources": ["wikipedia-baltic-occupation", "statedept-estonia"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Birth of the state", "value": "Republic of Estonia proclaimed, 24 February 1918" },
     { "label": "Independence recognised", "value": "Treaty of Tartu with Soviet Russia, 2 February 1920 (sovereignty 'forever')" },
@@ -201,7 +218,10 @@
     { "id": "nato-mfa", "label": "Timeline of Estonia's accession to NATO", "publisher": "Estonian Ministry of Foreign Affairs / Estonia in NATO (nato.mfa.ee)", "url": "https://nato.mfa.ee/timeline-of-estonias-accession-to-nato/", "kind": "gov" },
     { "id": "eu-mfa-timeline", "label": "Estonia and the European Union: Timeline of Relations", "publisher": "Estonian Ministry of Foreign Affairs / Estonia in EU (eu.mfa.ee)", "url": "https://eu.mfa.ee/estonia-eu-timeline/", "kind": "gov" },
     { "id": "border-trialoog", "label": "Russian provocations and Estonia's borders: why international law matters", "publisher": "Trialoog, Tallinn University of Technology (TalTech)", "url": "https://trialoog.taltech.ee/en/venemaa-provokatsioonid-ja-eesti-piirid-miks-on-rahvusvaheline-oigus-oluline/", "kind": "academic" },
-    { "id": "border-err", "label": "Foreign minister: We can initiate ratifying Estonia-Russia border treaty", "publisher": "ERR (Estonian Public Broadcasting)", "url": "https://news.err.ee/1608113959/foreign-minister-we-can-initiate-ratifying-estonia-russia-border-treaty", "kind": "reference" }
+    { "id": "border-err", "label": "Foreign minister: We can initiate ratifying Estonia-Russia border treaty", "publisher": "ERR (Estonian Public Broadcasting)", "url": "https://news.err.ee/1608113959/foreign-minister-we-can-initiate-ratifying-estonia-russia-border-treaty", "kind": "reference" },
+    { "id": "wikipedia-estonian-declaration", "label": "Estonian Declaration of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Estonian_Declaration_of_Independence", "kind": "reference" },
+    { "id": "wikipedia-baltic-occupation", "label": "Occupation of the Baltic states", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Baltic_states", "kind": "reference" },
+    { "id": "statedept-estonia", "label": "A Guide to the United States' History of Recognition: Estonia", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/estonia", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

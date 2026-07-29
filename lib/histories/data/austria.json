@@ -9,6 +9,23 @@
     "year": 996,
     "detail": "The conventional origin of Austria is dated to 1 November 996, when a charter of Emperor Otto III used the word 'Ostarrîchi', the 'eastern realm', the earliest known form of the German name Österreich. It referred to the marchia orientalis, the Eastern March of the Holy Roman Empire entrusted in 976 to the Bavarian house of Babenberg. Under the Babenbergs the march grew into a coherent principality; in 1156 the Privilegium Minus of Emperor Frederick I Barbarossa elevated Austria to a duchy and detached it from Bavaria, and Henry II 'Jasomirgott' made Vienna his residence. When the male Babenberg line ended in 1246, the duchy passed, after a Bohemian interlude, to the Habsburgs in 1278, opening the dynasty that would shape Austria and much of Europe until 1918."
   },
+  "statehood": {
+    "formation": {
+      "year": 996,
+      "yearLabel": "996",
+      "label": "The name Ostarrîchi first appears",
+      "detail": "The Anschluss of 12 March 1938 annexed Austria into Nazi Germany outright — an incorporation, not a wartime occupation — and independence was declared again on 27 April 1945; Allied occupation continued until the State Treaty came into force on 27 July 1955.",
+      "sources": ["wikipedia-anschluss"]
+    },
+    "interruptions": [
+      {
+        "start": 1938,
+        "end": 1945,
+        "label": "Annexation into Nazi Germany",
+        "sources": ["wikipedia-anschluss", "wikipedia-allied-austria"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "First mention of the name", "value": "'Ostarrîchi' in a charter of 1 November 996 (origin of Österreich)" },
     { "label": "Raised to a duchy", "value": "Privilegium Minus of 1156, under the Babenberg dynasty" },
@@ -195,7 +212,9 @@
     { "id": "southtyrol-package", "label": "Package and Second Autonomy Statute", "publisher": "Provincia autonoma di Trento", "url": "https://www.provincia.tn.it/en/News/Insights/Package-and-Second-Autonomy-Statute", "kind": "gov" },
     { "id": "austria-eu", "label": "Austria in the EU", "publisher": "Austrian Federal Ministry for European and International Affairs (BMEIA)", "url": "https://www.bmeia.gv.at/en/european-foreign-policy/european-policy/austria-in-the-eu", "kind": "gov" },
     { "id": "vienna-unesco", "label": "Historic Centre of Vienna", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1033/", "kind": "gov" },
-    { "id": "schonbrunn-unesco", "label": "30 years UNESCO World Heritage: Palace and Gardens of Schönbrunn", "publisher": "Schloss Schönbrunn (official site)", "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/30-years-unesco-world-heritage", "kind": "museum" }
+    { "id": "schonbrunn-unesco", "label": "30 years UNESCO World Heritage: Palace and Gardens of Schönbrunn", "publisher": "Schloss Schönbrunn (official site)", "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/30-years-unesco-world-heritage", "kind": "museum" },
+    { "id": "wikipedia-anschluss", "label": "Anschluss", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Anschluss", "kind": "reference" },
+    { "id": "wikipedia-allied-austria", "label": "Allied-occupied Austria", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Allied-occupied_Austria", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

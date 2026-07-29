@@ -9,6 +9,15 @@
     "year": 1991,
     "detail": "The modern Republic of Belarus dates its sovereignty to 1990-1991. On 27 July 1990 the Supreme Soviet of the Byelorussian SSR adopted a Declaration of State Sovereignty, and on 25 August 1991, in the aftermath of the failed coup in Moscow, that declaration was given the force of constitutional law, effectively proclaiming independence and renaming the republic the Republic of Belarus. Belarusian statehood, however, reaches far deeper in time: to the medieval Principality of Polotsk, the first form of statehood on Belarusian soil; to the Grand Duchy of Lithuania, in which the Belarusian lands and their Ruthenian chancery language were central; and to the Belarusian People's Republic proclaimed on 25 March 1918. It was on Belarusian soil, in the Belavezha forest on 8 December 1991, that the leaders of Russia, Ukraine and Belarus declared that the USSR had ceased to exist."
   },
+  "statehood": {
+    "formation": {
+      "year": 1991,
+      "yearLabel": "25 August 1991",
+      "label": "Belarus declares independence from the Soviet Union",
+      "detail": "Belarus claims Kievan Rus' as its ancestor and derives its name from it, and the principality of Polotsk and the Grand Duchy of Lithuania both governed this territory; but no state identified as Belarusian held it continuously, and the short-lived People's Republic of 1918 never controlled the country. The anchor is therefore modern.",
+      "sources": ["statedept-belarus", "wikipedia-kievan-rus"]
+    }
+  },
   "quickFacts": [
     { "label": "First statehood", "value": "Principality of Polotsk, an early centre of Kievan Rus, formed by the 8th-9th century" },
     { "label": "First printed book", "value": "Francysk Skaryna's Psalter, the first book in an East Slavic language, Prague 1517" },
@@ -198,7 +207,9 @@
     { "id": "chernobyl-un", "label": "Fallout from Chernobyl disaster still a 'very important challenge' for Belarus", "publisher": "UN News", "url": "https://news.un.org/en/audio/2018/04/1008402", "kind": "gov" },
     { "id": "sovereignty-icl", "label": "Declaration of State Sovereignty of Belarus (1990)", "publisher": "International Constitutional Law / University of Bern", "url": "https://www.servat.unibe.ch/icl/bo02000_.html", "kind": "primary" },
     { "id": "belavezha-eu", "label": "Belavezha Agreement (1991)", "publisher": "Internet Encyclopedia of Ukraine", "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages\\B\\E\\BelavezhaAgreement.htm", "kind": "encyclopedia" },
-    { "id": "eu-belarus-2020", "label": "Belarus: Declaration by the High Representative on the so-called 'inauguration' of Lukashenko", "publisher": "Council of the European Union", "url": "https://www.consilium.europa.eu/en/press/press-releases/2020/09/24/belarus-declaration-by-the-high-representative-on-behalf-of-the-european-union-on-the-so-called-inauguration-of-aleksandr-lukashenko/", "kind": "gov" }
+    { "id": "eu-belarus-2020", "label": "Belarus: Declaration by the High Representative on the so-called 'inauguration' of Lukashenko", "publisher": "Council of the European Union", "url": "https://www.consilium.europa.eu/en/press/press-releases/2020/09/24/belarus-declaration-by-the-high-representative-on-behalf-of-the-european-union-on-the-so-called-inauguration-of-aleksandr-lukashenko/", "kind": "gov" },
+    { "id": "wikipedia-kievan-rus", "label": "Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27", "kind": "reference" },
+    { "id": "statedept-belarus", "label": "A Guide to the United States' History of Recognition: Belarus", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/belarus", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

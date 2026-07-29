@@ -9,6 +9,35 @@
     "year": 1991,
     "detail": "Modern Ukraine traces its statehood to 24 August 1991, when the Verkhovna Rada, Ukraine's parliament, adopted the Act of Independence amid the collapse of the Soviet Union following the failed August coup in Moscow. The declaration was overwhelmingly confirmed by a nationwide referendum on 1 December 1991, in which more than 90 percent of voters across every region endorsed independence; the Soviet Union was formally dissolved later that month. The deeper roots of Ukrainian statehood reach back over a thousand years to Kievan Rus', the medieval realm centred on Kyiv whose ruler Volodymyr the Great adopted Christianity in 988, and to the Cossack Hetmanate of the seventeenth century. The independence of 1991 restored a sovereign Ukrainian state after centuries in which Ukrainian lands had been divided among the Russian, Austrian and Polish-Lithuanian states and, in the twentieth century, ruled from Moscow."
   },
+  "statehood": {
+    "formation": {
+      "year": 882,
+      "yearLabel": "882",
+      "label": "Oleg takes Kiev and Kievan Rus' becomes a single state",
+      "detail": "Kiev is the seat, and Belarus, Russia and Ukraine all claim Kievan Rus' as their ancestor; the corpus records the shared claim rather than adjudicating it. Ukrainian statehood then runs through the Cossack Hetmanate — called the Country of Ukraine in Ottoman usage — and the republic of 1918.",
+      "sources": ["wikipedia-kievan-rus"]
+    },
+    "interruptions": [
+      {
+        "start": 1238,
+        "end": 1649,
+        "label": "Mongol conquest, then Lithuanian and Polish rule",
+        "sources": ["wikipedia-mongol-invasion-rus", "wikipedia-cossack-hetmanate"]
+      },
+      {
+        "start": 1764,
+        "end": 1918,
+        "label": "Catherine II abolishes the Hetmanate; Russian imperial rule",
+        "sources": ["wikipedia-cossack-hetmanate", "wikipedia-upr"]
+      },
+      {
+        "start": 1921,
+        "end": 1991,
+        "label": "Soviet rule",
+        "sources": ["wikipedia-upr", "statedept-ukraine"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Medieval cradle", "value": "Kievan Rus', centred on Kyiv; Christianized under Volodymyr the Great in 988" },
     { "label": "Cossack statehood", "value": "Khmelnytsky uprising of 1648 and the Cossack Hetmanate; Council of Pereiaslav, 1654" },
@@ -203,7 +232,12 @@
     { "id": "unga-68-262-lawmonitor", "label": "United Nations Resolution Declares Crimea Referendum Invalid", "publisher": "U.S. Library of Congress, Global Legal Monitor", "url": "https://www.loc.gov/item/global-legal-monitor/2014-04-02/united-nations-resolution-declares-crimea-referendum-invalid/", "kind": "gov" },
     { "id": "invasion-2022-britannica", "label": "Russia-Ukraine War (2022 Russian invasion of Ukraine)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine", "kind": "encyclopedia" },
     { "id": "unga-es11-1", "label": "General Assembly Resolution ES-11/1, Aggression against Ukraine (2 March 2022)", "publisher": "United Nations General Assembly", "url": "https://press.un.org/en/2022/ga12407.doc.htm", "kind": "primary" },
-    { "id": "unga-es11-4", "label": "General Assembly Resolution ES-11/4, Territorial integrity of Ukraine: defending the principles of the Charter of the United Nations (12 October 2022)", "publisher": "United Nations News", "url": "https://news.un.org/en/story/2022/10/1129492", "kind": "primary" }
+    { "id": "unga-es11-4", "label": "General Assembly Resolution ES-11/4, Territorial integrity of Ukraine: defending the principles of the Charter of the United Nations (12 October 2022)", "publisher": "United Nations News", "url": "https://news.un.org/en/story/2022/10/1129492", "kind": "primary" },
+    { "id": "wikipedia-kievan-rus", "label": "Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27", "kind": "reference" },
+    { "id": "wikipedia-mongol-invasion-rus", "label": "Mongol invasion of Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus%27", "kind": "reference" },
+    { "id": "wikipedia-cossack-hetmanate", "label": "Cossack Hetmanate", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cossack_Hetmanate", "kind": "reference" },
+    { "id": "wikipedia-upr", "label": "Ukrainian People's Republic", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ukrainian_People%27s_Republic", "kind": "reference" },
+    { "id": "statedept-ukraine", "label": "A Guide to the United States' History of Recognition: Ukraine", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/ukraine", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

@@ -9,6 +9,23 @@
     "year": 1918,
     "detail": "Modern Latvian statehood dates to 18 November 1918, when the People's Council of Latvia proclaimed an independent, democratic Republic of Latvia in Riga as the Russian and German empires collapsed at the end of the First World War. The new state had to fight a War of Independence against both Soviet and German forces before its sovereignty was secured; on 11 August 1920 Soviet Russia signed the Treaty of Riga, by which it renounced all sovereign rights over Latvia and its people. This first republic was destroyed by Soviet occupation and annexation in 1940, but Latvia's continuity as a state was never recognised as extinguished by much of the world, and independence was restored by declaration on 4 May 1990 and fully on 21 August 1991."
   },
+  "statehood": {
+    "formation": {
+      "year": 1918,
+      "yearLabel": "18 November 1918",
+      "label": "Latvia declares independence",
+      "detail": "Internationally recognised in 1920. The Supreme Soviet's declaration of 4 May 1990 was framed as a restoration, on the ground that the annexation of 1940 had never legally ended Latvian statehood.",
+      "sources": ["wikipedia-latvian-declaration"]
+    },
+    "interruptions": [
+      {
+        "start": 1940,
+        "end": 1991,
+        "label": "Soviet annexation, which most Western states never recognised",
+        "sources": ["wikipedia-baltic-occupation", "wikipedia-latvian-declaration"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Capital founded", "value": "Riga founded by Bishop Albert in 1201; centre of the crusader state of Terra Mariana" },
     { "label": "Independence proclaimed", "value": "Republic of Latvia declared in Riga, 18 November 1918" },
@@ -170,7 +187,9 @@
     { "id": "latvia-may4-latvia-eu", "label": "May 4th: Latvia's Path to Independence", "publisher": "Latvia.eu (Latvian Institute)", "url": "https://www.latvia.eu/our-dna/identity-history/may-4th-the-way-to-independence/", "kind": "gov" },
     { "id": "nato-latvia-mod", "label": "Latvia and NATO", "publisher": "Ministry of Defence of the Republic of Latvia", "url": "https://www.mod.gov.lv/en/nato/latvia-and-nato", "kind": "gov" },
     { "id": "abrene-baltictimes", "label": "So long, Abrene", "publisher": "The Baltic Times", "url": "https://www.baltictimes.com/news/articles/19404/", "kind": "reference" },
-    { "id": "satv-court-2007", "label": "Judgment on the Latvia-Russia border treaty (case 2007-10-0102)", "publisher": "Constitutional Court of the Republic of Latvia", "url": "https://www.satv.tiesa.gov.lv/wp-content/uploads/2007/04/2007-10-0102_Spriedums_ENG.pdf", "kind": "gov" }
+    { "id": "satv-court-2007", "label": "Judgment on the Latvia-Russia border treaty (case 2007-10-0102)", "publisher": "Constitutional Court of the Republic of Latvia", "url": "https://www.satv.tiesa.gov.lv/wp-content/uploads/2007/04/2007-10-0102_Spriedums_ENG.pdf", "kind": "gov" },
+    { "id": "wikipedia-latvian-declaration", "label": "Latvian Declaration of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Latvian_Declaration_of_Independence", "kind": "reference" },
+    { "id": "wikipedia-baltic-occupation", "label": "Occupation of the Baltic states", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Baltic_states", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

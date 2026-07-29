@@ -9,6 +9,15 @@
     "year": 1830,
     "detail": "The modern Greek state traces its political founding to the War of Independence, which broke out against Ottoman rule in 1821 (conventionally dated to 25 March 1821). After years of fighting and the intervention of Britain, France and Russia, the Great Powers recognized Greece as an independent state in the London Protocol of 3 February 1830, and the Ottoman sultan formally acknowledged Greek independence and the new kingdom's frontiers in the Treaty of Constantinople of July 1832. The roots of Greek civic identity run far deeper: the Athenian statesman Cleisthenes founded what is regarded as the world's first democracy around 508/507 BCE, an inheritance the founders of the modern nation consciously claimed."
   },
+  "statehood": {
+    "formation": {
+      "year": 1830,
+      "yearLabel": "February 1830",
+      "label": "The London Protocol recognises Greece as an independent state",
+      "detail": "The classical city-states and the Byzantine Empire are the deep record this chronicle carries, but the modern Greek state descends from the war of 1821–1829 and not from either; the Treaty of Constantinople fixed its borders in 1832.",
+      "sources": ["wikipedia-greek-war"]
+    }
+  },
   "quickFacts": [
     { "label": "Political founding", "value": "War of Independence from 1821; independence recognized 1830 (London Protocol)" },
     { "label": "Ottoman acknowledgement", "value": "Treaty of Constantinople, 1832; Otto became first king in 1832/1833" },
@@ -671,7 +680,8 @@
       "publisher": "BBC News",
       "url": "https://feeds.bbci.co.uk/news/world-europe-17373216",
       "kind": "reference"
-    }
+    },
+    { "id": "wikipedia-greek-war", "label": "Greek War of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Greek_War_of_Independence", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

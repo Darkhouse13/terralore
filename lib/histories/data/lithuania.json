@@ -9,6 +9,29 @@
     "year": 1918,
     "detail": "Modern Lithuania dates its statehood to 16 February 1918, when the Council of Lithuania (Lietuvos Taryba) in Vilnius signed the Act of Independence, proclaiming the restoration of an independent State of Lithuania founded on democratic principles, with Vilnius as its capital, and the severing of all ties that had bound the country to other states. The act revived a sovereignty whose roots reached back to the medieval Grand Duchy and the kingdom crowned under Mindaugas in 1253, but which had been extinguished in 1795 when the Polish-Lithuanian Commonwealth was partitioned and Lithuania annexed by Russia. The restored republic would itself be overrun and annexed by the Soviet Union in 1940; independence was declared anew on 11 March 1990, when Lithuania became the first Soviet republic to break away."
   },
+  "statehood": {
+    "formation": {
+      "year": 1253,
+      "yearLabel": "6 July 1253",
+      "label": "Mindaugas is crowned King of Lithuania",
+      "detail": "The Grand Duchy ran until the final partition of 1795; Lithuania was restored in 1918, annexed by the Soviet Union in 1940 and independent again in 1990–91.",
+      "sources": ["wikipedia-grand-duchy-lithuania"]
+    },
+    "interruptions": [
+      {
+        "start": 1795,
+        "end": 1918,
+        "label": "Partition among Russia, Prussia and Austria",
+        "sources": ["wikipedia-grand-duchy-lithuania"]
+      },
+      {
+        "start": 1940,
+        "end": 1991,
+        "label": "Soviet annexation, which most Western states never recognised",
+        "sources": ["wikipedia-baltic-occupation", "statedept-lithuania"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Only crowned king", "value": "Mindaugas, crowned King of Lithuania in 1253 by authority of Pope Innocent IV" },
     { "label": "Capital founded", "value": "Vilnius, first mentioned in Grand Duke Gediminas's letters of 1323" },
@@ -195,7 +218,10 @@
     { "id": "restoration-seimas", "label": "March the 11th: path to the restoration of the independent State of Lithuania", "publisher": "Seimas of the Republic of Lithuania (lrs.lt)", "url": "https://www.lrs.lt/sip/portal.show?p_r=35719&p_k=2&p_t=275292&p_a=1000&p_kade_id=10", "kind": "gov" },
     { "id": "january1991-lrt", "label": "January 13, 1991: the night when Soviets stormed LRT", "publisher": "LRT (Lithuanian National Radio and Television)", "url": "https://www.lrt.lt/en/news-in-english/19/1132182/occupied-but-not-silenced-january-13-1991-the-night-when-soviets-stormed-lrt", "kind": "reference" },
     { "id": "nato-lithuania", "label": "Chronology of Events: Lithuania and NATO", "publisher": "Permanent Delegation of the Republic of Lithuania to NATO (nato.mfa.lt)", "url": "https://nato.mfa.lt/en/lithuania-nato/chronology-of-events/55", "kind": "gov" },
-    { "id": "eu-lithuania", "label": "Lithuania (EU member country profile)", "publisher": "European Union (european-union.europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/lithuania_en", "kind": "gov" }
+    { "id": "eu-lithuania", "label": "Lithuania (EU member country profile)", "publisher": "European Union (european-union.europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/lithuania_en", "kind": "gov" },
+    { "id": "wikipedia-grand-duchy-lithuania", "label": "Grand Duchy of Lithuania", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Lithuania", "kind": "reference" },
+    { "id": "wikipedia-baltic-occupation", "label": "Occupation of the Baltic states", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Baltic_states", "kind": "reference" },
+    { "id": "statedept-lithuania", "label": "A Guide to the United States' History of Recognition: Lithuania", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/lithuania", "kind": "gov" }
   ],
   "status": "published",
   "updated": "2026-06-13"

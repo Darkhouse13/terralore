@@ -9,6 +9,23 @@
     "year": 1944,
     "detail": "Iceland's modern statehood is dated to 17 June 1944, when, in a ceremony at the ancient assembly plain of Þingvellir, Icelanders proclaimed a republic and dissolved the personal union with the Danish crown. The act followed an overwhelming referendum, in which more than 95 percent of voters backed the republic, and was timed to the lapse of the 1918 Act of Union while Denmark itself lay under German occupation. Sveinn Björnsson became the first president. The date was deliberately symbolic: Þingvellir had been the seat of the Althing since 930, and the republic was understood as the restoration of an independence that Icelanders traced back to the Commonwealth and that had been lost to the Norwegian crown by the Old Covenant of 1262-64. 17 June remains Iceland's national day."
   },
+  "statehood": {
+    "formation": {
+      "year": 930,
+      "yearLabel": "c. 930",
+      "label": "The first Alþingi convenes at Þingvellir",
+      "detail": "The commonwealth lasted until the chieftains accepted the king of Norway under the Old Covenant of 1262. The Act of Union of 1 December 1918 recognised Iceland as a fully sovereign state in personal union with Denmark, and the republic followed on 17 June 1944.",
+      "sources": ["wikipedia-icelandic-commonwealth"]
+    },
+    "interruptions": [
+      {
+        "start": 1262,
+        "end": 1918,
+        "label": "Norwegian, then Danish rule",
+        "sources": ["wikipedia-icelandic-commonwealth", "wikipedia-kingdom-iceland"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Settlement (Landnám)", "value": "Norse and Celtic settlers from c. 874; Ingólfr Arnarson the first permanent settler, at Reykjavík" },
     { "label": "Oldest parliament", "value": "The Althing (Alþingi) founded at Þingvellir in 930, an assembly of the Icelandic Commonwealth" },
@@ -195,7 +212,9 @@
     { "id": "sveinn-britannica", "label": "Sveinn Björnsson", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Sveinn-Bjornsson", "kind": "encyclopedia" },
     { "id": "statedept-nato", "label": "Foreign Relations of the United States, 1949, Vol. IV (Iceland and the North Atlantic Treaty)", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/historicaldocuments/frus1949v04/d393", "kind": "gov" },
     { "id": "ebsco-codwars", "label": "Cod Wars", "publisher": "EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/history/cod-wars", "kind": "reference" },
-    { "id": "thingvellir-tectonics", "label": "Tectonic Movements at Þingvellir", "publisher": "Þingvellir National Park (official)", "url": "https://www.thingvellir.is/en/education/nature/tectonic-movements/", "kind": "gov" }
+    { "id": "thingvellir-tectonics", "label": "Tectonic Movements at Þingvellir", "publisher": "Þingvellir National Park (official)", "url": "https://www.thingvellir.is/en/education/nature/tectonic-movements/", "kind": "gov" },
+    { "id": "wikipedia-icelandic-commonwealth", "label": "Icelandic Commonwealth", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Icelandic_Commonwealth", "kind": "reference" },
+    { "id": "wikipedia-kingdom-iceland", "label": "Kingdom of Iceland", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Iceland", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

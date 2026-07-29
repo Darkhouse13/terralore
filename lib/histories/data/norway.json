@@ -9,6 +9,23 @@
     "year": 872,
     "detail": "Norwegian tradition dates the birth of the kingdom to the Battle of Hafrsfjord, fought around the year 872, where Harald Fairhair (Harald Hárfagri) defeated a coalition of petty kings from the south-west and is remembered as the first king to rule over all of Norway. Modern scholarship treats unification as a longer process that continued under later kings, above all the saint-king Olaf II, but Harald's victory remains the conventional founding moment. The independent kingdom he began would later be submerged for centuries in unions with Denmark and Sweden, before full sovereignty was recovered with the peaceful dissolution of the union with Sweden on 7 June 1905 and the election of King Haakon VII."
   },
+  "statehood": {
+    "formation": {
+      "year": 872,
+      "yearLabel": "872 (traditional)",
+      "label": "Harald Fairhair wins at Hafrsfjord and becomes king over the whole country",
+      "detail": "The date is traditional and historians debate how much of Norway he actually held. Norway was joined to Denmark from 1536–37, ceded to Sweden at the Treaty of Kiel in 1814, and fully independent when that union was dissolved in 1905.",
+      "sources": ["wikipedia-harald-fairhair"]
+    },
+    "interruptions": [
+      {
+        "start": 1537,
+        "end": 1905,
+        "label": "Union with Denmark, then with Sweden",
+        "sources": ["wikipedia-denmark-norway"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Unification of the kingdom", "value": "Harald Fairhair's victory at the Battle of Hafrsfjord, c. 872" },
     { "label": "Patron saint", "value": "Olaf II Haraldsson (St Olaf), killed at Stiklestad on 29 July 1030" },
@@ -199,7 +216,9 @@
     { "id": "barents-regjeringen", "label": "Agreement reached between Norway and the Russian Federation in the negotiations on maritime delimitation", "publisher": "Government of Norway (regjeringen.no)", "url": "https://www.regjeringen.no/en/aktuelt/maritime_delimitation/id601942", "kind": "gov" },
     { "id": "barents-faq-regjeringen", "label": "The maritime delimitation between Norway and Russia: Frequently Asked Questions", "publisher": "Government of Norway (regjeringen.no)", "url": "https://www.regjeringen.no/en/topics/foreign-affairs/international-law/innsikt_delelinje/questions/id614010/", "kind": "gov" },
     { "id": "barents-asil", "label": "Norway and Russia Agree on Maritime Boundary in the Barents Sea and the Arctic Ocean", "publisher": "American Society of International Law (ASIL Insights)", "url": "https://www.asil.org/insights/volume/14/issue/34/norway-and-russia-agree-maritime-boundary-barents-sea-and-arctic-ocean", "kind": "academic" },
-    { "id": "bryggen-unesco", "label": "Bryggen (World Heritage List)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/59/", "kind": "gov" }
+    { "id": "bryggen-unesco", "label": "Bryggen (World Heritage List)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/59/", "kind": "gov" },
+    { "id": "wikipedia-harald-fairhair", "label": "Harald Fairhair", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Harald_Fairhair", "kind": "reference" },
+    { "id": "wikipedia-denmark-norway", "label": "Denmark–Norway", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

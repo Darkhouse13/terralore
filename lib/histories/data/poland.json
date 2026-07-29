@@ -9,6 +9,23 @@
     "year": 966,
     "detail": "The conventional birth of the Polish state is dated to 966, when Mieszko I, duke of the Polanie and first historical ruler of the Piast dynasty, accepted Christianity from the Latin Church. The baptism, traditionally placed on 14 April 966, brought his realm into Western Christendom, helped shield it from forced conversion and absorption by the Holy Roman Empire, and is regarded as the founding act of the Polish nation. The state Mieszko consolidated, the Civitas Schinesghe, was the kernel of a kingdom that would endure in one form or another for a millennium. That continuity was shattered by the partitions of 1772, 1793 and 1795, which wiped Poland from the map for 123 years, until independence was restored on 11 November 1918 in the wake of the First World War."
   },
+  "statehood": {
+    "formation": {
+      "year": 966,
+      "yearLabel": "966",
+      "label": "Mieszko I is baptised and the first unified Polish state enters Latin Christendom",
+      "detail": "Mieszko ruled from 960 and is described as the founder of the first unified Polish state; his baptism in 966 is the date Poland dates itself from.",
+      "sources": ["wikipedia-mieszko"]
+    },
+    "interruptions": [
+      {
+        "start": 1795,
+        "end": 1918,
+        "label": "The partitions: Poland erased from the map for 123 years",
+        "sources": ["wikipedia-partitions-poland"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Birth of the state", "value": "Baptism of Mieszko I, 966 (the Christianization of Poland)" },
     { "label": "First crowned king", "value": "Boleslaw I the Brave, crowned at Gniezno in 1025" },
@@ -199,7 +216,9 @@
     { "id": "solidarity-britannica", "label": "Solidarity (Polish trade union)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Solidarity", "kind": "encyclopedia" },
     { "id": "walesa-britannica", "label": "Lech Walesa", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Lech-Walesa", "kind": "encyclopedia" },
     { "id": "jp2-britannica", "label": "St. John Paul II", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Saint-John-Paul-II", "kind": "encyclopedia" },
-    { "id": "poland-eu-gov", "label": "Poland in the EU", "publisher": "Government of Poland (gov.pl)", "url": "https://www.gov.pl/web/eu/poland-in-the-eu", "kind": "gov" }
+    { "id": "poland-eu-gov", "label": "Poland in the EU", "publisher": "Government of Poland (gov.pl)", "url": "https://www.gov.pl/web/eu/poland-in-the-eu", "kind": "gov" },
+    { "id": "wikipedia-mieszko", "label": "Mieszko I", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mieszko_I", "kind": "reference" },
+    { "id": "wikipedia-partitions-poland", "label": "Partitions of Poland", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Partitions_of_Poland", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

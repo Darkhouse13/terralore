@@ -9,6 +9,15 @@
     "year": 1929,
     "detail": "The modern state was born on 11 February 1929, when the Lateran Treaty was signed in Rome between the Holy See and the Kingdom of Italy, signed for Italy by the head of government Benito Mussolini and for the papacy by the cardinal secretary of state Pietro Gasparri. The treaty resolved the 'Roman Question', the dispute that had festered since the Kingdom of Italy took Rome in 1870 and ended the popes' temporal rule over the Papal States. Italy recognised the full sovereignty of the Holy See and its possession of an independent territory, the State of Vatican City, a minute enclave of about 44 hectares (109 acres) that is the smallest sovereign state in the world. The new state formally came into existence on 7 June 1929 when the ratifications were exchanged. It must be distinguished from the Holy See itself, the sovereign juridical entity of the universal Church, which maintains diplomatic relations with most of the world's states and sits as a permanent observer at the United Nations."
   },
+  "statehood": {
+    "formation": {
+      "year": 1929,
+      "yearLabel": "11 February 1929",
+      "label": "The Lateran Treaty recognises Vatican City as an independent state",
+      "detail": "The Papal States that preceded it were annexed by Italy in 1870; the treaty of 1929 created a new and far smaller sovereign territory under the Holy See rather than restoring the old one.",
+      "sources": ["wikipedia-lateran-treaty"]
+    }
+  },
   "quickFacts": [
     { "label": "Origin of the site", "value": "Traditional tomb of Saint Peter on the Vatican Hill; Old St Peter's built by Constantine in the 4th century" },
     { "label": "Temporal power begins", "value": "Donation of Pepin, 756, created the Papal States ruled by the popes until 1870" },
@@ -196,7 +205,8 @@
     { "id": "holysee-diplomatic", "label": "Diplomatic Relations of the Holy See", "publisher": "Permanent Observer Mission of the Holy See to the UN", "url": "https://holyseemission.org/contents/mission/diplomatic-relations-of-the-holy-see.php", "kind": "gov" },
     { "id": "unesco-vatican", "label": "Vatican City (World Heritage List, no. 286, inscribed 1984)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/286/", "kind": "gov" },
     { "id": "unesco-rome", "label": "Historic Centre of Rome and the Holy See properties enjoying extraterritorial rights", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/91/", "kind": "gov" },
-    { "id": "stategov-holysee", "label": "Holy See — Countries", "publisher": "U.S. Department of State, Office of the Historian (history.state.gov)", "url": "https://history.state.gov/countries/holy-see", "kind": "gov" }
+    { "id": "stategov-holysee", "label": "Holy See — Countries", "publisher": "U.S. Department of State, Office of the Historian (history.state.gov)", "url": "https://history.state.gov/countries/holy-see", "kind": "gov" },
+    { "id": "wikipedia-lateran-treaty", "label": "Lateran Treaty", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lateran_Treaty", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

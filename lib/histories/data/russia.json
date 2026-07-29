@@ -9,6 +9,23 @@
     "year": 882,
     "detail": "Russia's conventional founding is dated to 882, when, according to the Russian Primary Chronicle, the Varangian prince Oleg captured Kiev and made it the capital of a unified realm along the Dnieper-Volkhov river route, the state known as Kievan Rus'. Later constitutional milestones mark the evolution of the Russian state: the Tsardom of Russia under Ivan IV (the Terrible), who was crowned the first tsar in 1547; the Russian Empire, proclaimed by Peter I (the Great) in 1721 after victory in the Great Northern War; and the modern Russian Federation, which emerged as the successor to the Soviet Union when the USSR dissolved on 25-26 December 1991."
   },
+  "statehood": {
+    "formation": {
+      "year": 882,
+      "yearLabel": "882",
+      "label": "Oleg takes Kiev and Kievan Rus' becomes a single state",
+      "detail": "Belarus, Russia and Ukraine all claim Kievan Rus' as their ancestor, and the corpus records the shared claim for each rather than adjudicating between them.",
+      "sources": ["wikipedia-kievan-rus"]
+    },
+    "interruptions": [
+      {
+        "start": 1238,
+        "end": 1480,
+        "label": "Mongol conquest and the tribute of the Golden Horde",
+        "sources": ["wikipedia-mongol-invasion-rus"]
+      }
+    ]
+  },
   "quickFacts": [
     {
       "label": "Conventional founding",
@@ -799,7 +816,9 @@
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
       "kind": "encyclopedia"
-    }
+    },
+    { "id": "wikipedia-kievan-rus", "label": "Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27", "kind": "reference" },
+    { "id": "wikipedia-mongol-invasion-rus", "label": "Mongol invasion of Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus%27", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

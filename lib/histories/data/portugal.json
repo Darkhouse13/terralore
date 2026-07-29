@@ -9,6 +9,23 @@
     "year": 1143,
     "detail": "Portugal grew out of the County of Portugal, a frontier territory of the kingdom of Leon. Its count, Afonso Henriques, asserted his independence and, by tradition following his victory over the Muslims at Ourique on 25 July 1139, began to style himself king. In 1143 his cousin Alfonso VII of Leon accepted Portugal's autonomy, a step usually associated with the conference at Zamora. Full recognition of the royal title came only on 23 May 1179, when Pope Alexander III, in the bull Manifestis Probatum, confirmed Afonso Henriques as king and placed the new kingdom under the protection of the Holy See in return for an annual tribute. Afonso pushed the Reconquista south, capturing Santarem and, with the help of crusaders, Lisbon in 1147; the conquest of the Algarve in 1249 completed the territory, and the Treaty of Alcanices with Castile in 1297 fixed a frontier that has scarcely changed since, making it one of the oldest stable borders in Europe."
   },
+  "statehood": {
+    "formation": {
+      "year": 1143,
+      "yearLabel": "5 October 1143",
+      "label": "The Treaty of Zamora recognises Afonso Henriques as king",
+      "detail": "Portuguese historiography takes the Treaty of Zamora as the traditional founding; Afonso Henriques had been acclaimed king by his troops in 1139 and the papacy recognised Portugal in 1179.",
+      "sources": ["wikipedia-kingdom-portugal"]
+    },
+    "interruptions": [
+      {
+        "start": 1580,
+        "end": 1640,
+        "label": "The Iberian Union under the Spanish crown",
+        "sources": ["wikipedia-iberian-union"]
+      }
+    ]
+  },
   "quickFacts": [
     { "label": "Birth of the kingdom", "value": "Afonso Henriques recognised as king; autonomy accepted 1143, crown confirmed by Pope Alexander III in 1179" },
     { "label": "Oldest stable border", "value": "Frontier with Castile largely fixed by the Treaty of Alcanices, 1297" },
@@ -177,7 +194,9 @@
     { "id": "carnation-britannica", "label": "Revolution of the Carnations", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Revolution-of-the-Carnations", "kind": "encyclopedia" },
     { "id": "portugal-eu", "label": "Portugal (EU member country profile)", "publisher": "European Union (european-union.europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/portugal_en", "kind": "gov" },
     { "id": "olivenca-eulex", "label": "Written question on the Olivenca issue (Portugal/Spain) and the Ajuda Bridge, E-1298/2003", "publisher": "European Parliament / EUR-Lex Official Journal", "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2003:280E:0127:0128:EN:PDF", "kind": "gov" },
-    { "id": "selvagens-state", "label": "Limits in the Seas No. 155, Portugal: Maritime Claims and Boundaries", "publisher": "U.S. Department of State, Office of Ocean and Polar Affairs", "url": "https://www.state.gov/wp-content/uploads/2025/01/LIS155-Portugal-508-FINAL-1-14-2024.pdf", "kind": "gov" }
+    { "id": "selvagens-state", "label": "Limits in the Seas No. 155, Portugal: Maritime Claims and Boundaries", "publisher": "U.S. Department of State, Office of Ocean and Polar Affairs", "url": "https://www.state.gov/wp-content/uploads/2025/01/LIS155-Portugal-508-FINAL-1-14-2024.pdf", "kind": "gov" },
+    { "id": "wikipedia-kingdom-portugal", "label": "Kingdom of Portugal", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Portugal", "kind": "reference" },
+    { "id": "wikipedia-iberian-union", "label": "Iberian Union", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Iberian_Union", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"
