@@ -5,7 +5,7 @@ import { getCountry, allCodes, formatPopulation, formatArea } from "@/lib/countr
 import { getHistory } from "@/lib/histories";
 import TimeJourney from "@/components/journey/TimeJourney";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, chronicleLd, journeyDescription, routes, SITE_NAME } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
@@ -34,14 +34,18 @@ export async function generateMetadata({
   }
 
   const title = `${meta.name} — the time-journey`;
+  // Deliberately not the chronicle's line. The two routes are two presentations
+  // of one entity, and emitting `history.summary` on both made 184 pairs of
+  // pages duplicates of each other in the index.
+  const description = journeyDescription(meta, history);
   return {
     title,
-    description: history.summary,
+    description,
     alternates: { canonical: path },
     openGraph: {
       type: "article",
       title: `${meta.name} — ${history.tagline}`,
-      description: history.summary,
+      description,
       url: path,
       modifiedTime: history.updated,
       siteName: SITE_NAME,
@@ -49,7 +53,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title: `${meta.name} — ${history.tagline}`,
-      description: history.summary,
+      description,
     },
   };
 }

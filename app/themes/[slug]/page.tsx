@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import { allThemes, formatYear, getTheme, periodFor } from "@/lib/chronology";
 import type { Period, ThemeBucket, WorldEvent } from "@/lib/chronology";
-import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
+import { SITE_NAME, abs, breadcrumbLd, clampText, routes } from "@/lib/seo";
 import type { EventCategory } from "@/lib/types";
 
 /**
@@ -90,11 +90,12 @@ function standfirst(theme: ThemeBucket): string {
 function describe(theme: ThemeBucket): string {
   const first = theme.events[0];
   const last = theme.events[theme.events.length - 1];
-  return (
-    `${num(theme.events.length)} sourced events from ${num(theme.nations)} nations, tagged ` +
-    `${theme.label.toLowerCase()}, spanning ${longYear(first.year)} to ${longYear(last.year)}, ` +
-    `indexed period by period. Every entry carries its references and links to its ` +
-    `nation's chronicle.`
+  // Kept inside the ~160-char budget search engines actually render. The longer
+  // version read well and was truncated mid-clause on every result.
+  return clampText(
+    `${num(theme.events.length)} sourced events from ${num(theme.nations)} nations tagged ` +
+      `${theme.label.toLowerCase()}, ${longYear(first.year)} to ${longYear(last.year)} — ` +
+      `each with its references.`,
   );
 }
 

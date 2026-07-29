@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { getCountry, allCodes } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, chronicleDescription, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
 import { periodFor, themeSlug } from "@/lib/chronology";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
@@ -47,7 +47,7 @@ export async function generateMetadata({
   // the fuller headline goes to OG, where the long form reads better.
   const title = `The Chronicle of ${meta.name}`;
   const ogTitle = `${meta.name} — ${history.tagline}`;
-  const description = history.summary;
+  const description = chronicleDescription(meta, history);
 
   return {
     title,

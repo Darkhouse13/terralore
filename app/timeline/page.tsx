@@ -23,9 +23,8 @@ import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
 const STATS = corpusStats();
 
 const DESCRIPTION =
-  `A cross-nation chronology of world history: ${STATS.events.toLocaleString("en-US")} sourced events ` +
-  `drawn from ${STATS.nations} national archives, arranged by period so any century can be read across ` +
-  `every nation at once.`;
+  `A cross-nation chronology: ${STATS.events.toLocaleString("en-US")} sourced events from ` +
+  `${STATS.nations} national archives, arranged by period so any century reads at once.`;
 
 export const metadata: Metadata = {
   title: "The Chronology",

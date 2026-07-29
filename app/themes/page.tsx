@@ -40,10 +40,8 @@ function longYear(y: number): string {
 export const metadata: Metadata = {
   title: "Themes",
   description:
-    `The Terralore archive read across nations rather than within them: ${num(STATS.events)} sourced ` +
-    `events from ${num(STATS.nations)} nations, gathered into ${THEMES.length} thematic collections — ` +
-    `independence, war, colonisation, religion, culture, economy, migration, catastrophe, ` +
-    `politics and formation.`,
+    `The archive read across nations rather than within them: ${num(STATS.events)} sourced events ` +
+    `from ${num(STATS.nations)} nations in ${THEMES.length} thematic collections.`,
   keywords: [
     "world history by theme",
     "history of independence movements",

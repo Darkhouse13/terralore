@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import { allThemes, formatYear, getTheme, periodFor } from "@/lib/chronology";
 import type { Period, ThemeBucket, WorldEvent } from "@/lib/chronology";
-import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
+import { SITE_NAME, abs, breadcrumbLd, clampText, routes } from "@/lib/seo";
 import type { EventCategory, Source } from "@/lib/types";
 
 /**
@@ -107,11 +107,10 @@ function describe(slice: Slice): string {
   const first = events[0];
   const last = events[events.length - 1];
   const nations = new Set(events.map((e) => e.code)).size;
-  return (
+  return clampText(
     `${num(events.length)} sourced events tagged ${theme.label.toLowerCase()} in ` +
-    `${lowerPeriod(period.label)}, drawn from ${num(nations)} nations and spanning ` +
-    `${longYear(first.year)} to ${longYear(last.year)}. Every entry carries its ` +
-    `references and links to its nation's chronicle.`
+      `${lowerPeriod(period.label)}, from ${num(nations)} nations — ` +
+      `${longYear(first.year)} to ${longYear(last.year)}, each with its references.`,
   );
 }
 

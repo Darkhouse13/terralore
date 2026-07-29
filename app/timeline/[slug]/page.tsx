@@ -9,7 +9,7 @@ import {
   type PeriodBucket,
   type WorldEvent,
 } from "@/lib/chronology";
-import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
+import { SITE_NAME, abs, breadcrumbLd, clampText, routes } from "@/lib/seo";
 import { CATEGORY_META } from "@/lib/types";
 
 /**
@@ -56,10 +56,11 @@ export async function generateMetadata({
   if (!period) return { title: `Unknown period — ${SITE_NAME}` };
 
   const path = `/timeline/${period.slug}`;
-  const description =
+  const description = clampText(
     `${period.events.length.toLocaleString("en-US")} sourced events from ${period.nations} ` +
-    `nations, ${spanLabel(period)} — what was happening across the world in ` +
-    `${lowerLabel(period.label)}, drawn from the same verified national chronicles.`;
+      `nations — what was happening across the world in ${lowerLabel(period.label)}, ` +
+      `drawn from verified national chronicles.`,
+  );
 
   return {
     title: period.label,

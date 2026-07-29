@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCountry, allCodes, regionPeers } from "@/lib/countries";
 import { getDossier, getComparisons } from "@/lib/domains";
+import { DOMAIN_META, type DomainKey } from "@/lib/types";
 import { getHistory } from "@/lib/histories";
 import Dossier from "@/components/dossier/Dossier";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, dossierLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, dossierDescription, dossierLd, routes, SITE_NAME } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
@@ -19,7 +20,17 @@ export async function generateMetadata({
   const { code } = await params;
   const meta = getCountry(code);
   if (!meta) return { title: "Unknown territory" };
-  const description = `A sourced dossier on ${meta.name}: economy, society, geography, and the long history of how it became a nation.`;
+  // Built from what this nation actually has, not from a fixed sentence: the
+  // eight Overview-only codes should not advertise six domains of data they do
+  // not carry, and a description that is true of every page is useful on none.
+  const d = getDossier(code);
+  const domainLabels = d
+    ? (Object.keys(d.sections) as DomainKey[]).map((k) => DOMAIN_META[k].label)
+    : [];
+  const metricCount = d
+    ? Object.values(d.sections).reduce((n, sec) => n + (sec?.metrics.length ?? 0), 0)
+    : 0;
+  const description = dossierDescription(meta, domainLabels, metricCount);
   const path = routes.dossier(code);
   return {
     title: meta.name,
