@@ -40,6 +40,11 @@ const COPPER_FILL = "rgba(200, 114, 68, 0.88)"; // formed / restored this period
 /** Selection zoom: altitude 2.5 → 1.7 is a ~1.3× apparent scale. */
 const SELECT_SCALE = 1.3;
 
+/** Pinch-zoom bounds. 1 is the framed opening view — zooming out of it only
+ *  shrinks the sphere inside its stage, so the floor stays there. */
+const MIN_SCALE = 1;
+const MAX_SCALE = 3.2;
+
 type Feature = {
   properties: { code: string; name: string };
   geometry: { type: "Polygon" | "MultiPolygon"; coordinates: number[][][] | number[][][][] };
@@ -51,9 +56,10 @@ export type TimeEventTuple = [code: string, year: number, category: string, titl
 /**
  * A nation's sourced statehood claim, compacted by build-time-events.mjs:
  * `f` the formation year of the polity it traces itself to, `i` the formalised
- * losses of external sovereignty since — each `[start, restoration]`.
+ * losses of external sovereignty since — each `[start, restoration]` — and
+ * `s: 0` for the entities that are not sovereign states at all.
  */
-export type StatehoodClaim = { f: number; i?: [number, number][] };
+export type StatehoodClaim = { f: number; i?: [number, number][]; s?: 0 };
 
 interface Props {
   selectedCode: string | null;
@@ -277,6 +283,16 @@ export default function GlobeLite({
         out[s.code] = COPPER_FILL; // formed within this period
         continue;
       }
+      // A dependency or autonomous territory (D13) is dimmed from its formation
+      // onward: "present but not sovereign" is its condition, not a phase of
+      // it. Before this, New Caledonia and Greenland rendered limestone from
+      // 1998 and 2009 exactly like France, while the first sentence of their
+      // own statehood blocks says they are not sovereign states — the sphere
+      // contradicting the page it links to.
+      if (claim.s === 0) {
+        out[s.code] = DIMMED_FILL;
+        continue;
+      }
       let restored = false;
       let ruled = false;
       for (const [from, to] of claim.i ?? []) {
@@ -497,7 +513,7 @@ export default function GlobeLite({
     target.current = {
       lambda: meta.latlng[1],
       phi: meta.latlng[0],
-      scale: SELECT_SCALE,
+      scale: Math.max(SELECT_SCALE, view.current.scale),
       from: { ...view.current },
       t0: performance.now(),
       dur: 900,
@@ -526,8 +542,18 @@ export default function GlobeLite({
   }, [ref, wakeSim]);
 
   // ── pointer interaction ──────────────────────────────────────────────────
-  const drag = useRef<{ x: number; y: number; moved: boolean } | null>(null);
+  // `id` pins the drag to one pointer: on touch, each released finger also
+  // fires pointerleave, and a leave from an already-lifted finger must not
+  // kill a drag another finger owns (that stale clear made every pinch
+  // release read as a tap and select whatever lay under the second finger).
+  const drag = useRef<{ id: number; x: number; y: number; moved: boolean } | null>(null);
   const lastHitT = useRef(0);
+  // Pinch-zoom. `touch-action: pan-y` leaves pinch gestures to us (the browser
+  // only claims vertical pans), so two fingers can zoom the globe while one
+  // finger keeps scrolling the page — the gesture grammar phones expect from
+  // an embedded map. Scale factor from current distance vs the pinch's start.
+  const pointers = useRef(new Map<number, { x: number; y: number }>());
+  const pinch = useRef<{ d0: number; s0: number } | null>(null);
 
   const invert = useCallback(
     (px: number, py: number): [number, number] | null => {
@@ -601,14 +627,45 @@ export default function GlobeLite({
     spinRampT0.current = 0;
     if (resumeTimer.current) clearTimeout(resumeTimer.current);
     vel.current.l = vel.current.p = 0; // catching the globe stops it
-    drag.current = { x: e.clientX, y: e.clientY, moved: false };
-    dragSamples.current = [{ t: e.timeStamp, x: e.clientX, y: e.clientY }];
+    pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pointers.current.size === 2) {
+      // Second finger down: the drag becomes a pinch.
+      const [a, b] = [...pointers.current.values()];
+      pinch.current = { d0: Math.hypot(a.x - b.x, a.y - b.y), s0: view.current.scale };
+      drag.current = null;
+      dragSamples.current = [];
+      setTip(null);
+    } else {
+      drag.current = { id: e.pointerId, x: e.clientX, y: e.clientY, moved: false };
+      dragSamples.current = [{ t: e.timeStamp, x: e.clientX, y: e.clientY }];
+    }
     setDragging(true);
     canvasRef.current?.setPointerCapture(e.pointerId);
   };
 
   const onPointerMove = (e: React.PointerEvent) => {
+    const held = pointers.current.get(e.pointerId);
+    if (held) {
+      held.x = e.clientX;
+      held.y = e.clientY;
+    }
+    if (pinch.current) {
+      if (pointers.current.size >= 2) {
+        const [a, b] = [...pointers.current.values()];
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        if (d > 0 && pinch.current.d0 > 0) {
+          target.current = null;
+          view.current.scale = Math.max(
+            MIN_SCALE,
+            Math.min(MAX_SCALE, (pinch.current.s0 * d) / pinch.current.d0),
+          );
+          paint();
+        }
+      }
+      return;
+    }
     if (drag.current) {
+      if (drag.current.id !== e.pointerId) return;
       const dx = e.clientX - drag.current.x;
       const dy = e.clientY - drag.current.y;
       if (Math.abs(dx) + Math.abs(dy) > 3) drag.current.moved = true;
@@ -690,7 +747,30 @@ export default function GlobeLite({
     }
   };
 
+  /** Drop a finger from the pinch bookkeeping. True if a pinch absorbed it. */
+  const endPointer = (id: number): boolean => {
+    pointers.current.delete(id);
+    if (!pinch.current) return false;
+    if (pointers.current.size < 2) {
+      pinch.current = null;
+      const restId = [...pointers.current.keys()][0];
+      const rest = restId != null ? pointers.current.get(restId) : undefined;
+      if (restId != null && rest) {
+        // One finger stays down: continue as a drag, already "moved" so the
+        // eventual lift can never read as a click.
+        drag.current = { id: restId, x: rest.x, y: rest.y, moved: true };
+        dragSamples.current = [];
+      } else {
+        setDragging(false);
+        scheduleResume();
+      }
+    }
+    return true;
+  };
+
   const onPointerUp = (e: React.PointerEvent) => {
+    if (endPointer(e.pointerId)) return;
+    if (drag.current && drag.current.id !== e.pointerId) return;
     const wasDrag = drag.current?.moved;
     drag.current = null;
     setDragging(false);
@@ -730,15 +810,19 @@ export default function GlobeLite({
    * user's finger is now scrolling the page, and a planet spinning underneath
    * a scroll reads as noise.
    */
-  const onPointerCancel = () => {
+  const onPointerCancel = (e: React.PointerEvent) => {
+    if (endPointer(e.pointerId)) return;
+    if (drag.current && drag.current.id !== e.pointerId) return;
     drag.current = null;
     dragSamples.current = [];
     setDragging(false);
     scheduleResume();
   };
 
-  const onPointerLeave = () => {
+  const onPointerLeave = (e: React.PointerEvent) => {
+    if (endPointer(e.pointerId)) return;
     if (drag.current) {
+      if (drag.current.id !== e.pointerId) return;
       drag.current = null;
       releaseVelocity();
       scheduleResume();
