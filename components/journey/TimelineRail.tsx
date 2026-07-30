@@ -103,7 +103,7 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
               style={{ left: `${left}%` }}
             >
               {String(b.eraIndex + 1).padStart(2, "0")}
-              {on ? ` · ${b.title}` : ""}
+              {on && <span className="hidden sm:inline"> · {b.title}</span>}
             </button>
           </div>
         );
@@ -123,7 +123,9 @@ export default function TimelineRail({ moments, current, activeEra, onJump }: Pr
             onMouseLeave={() => setHover((h) => (h === idx ? null : h))}
             title={label(m)}
             aria-label={label(m)}
-            className="absolute top-[27px] -ml-2 flex h-4 w-4 items-center justify-center"
+            className={`absolute top-[27px] -ml-2 h-4 w-4 items-center justify-center ${
+              big ? "flex" : "hidden sm:flex"
+            }`}
             style={{ left: `${pos(idx)}%` }}
           >
             <span

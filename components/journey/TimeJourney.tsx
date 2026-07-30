@@ -39,6 +39,7 @@ export default function TimeJourney({
     n: number;
   } | null>(null);
   const lock = useRef(false);
+  const stageRef = useRef<HTMLDivElement>(null);
 
   const total = moments.length;
   const m = moments[i];
@@ -87,6 +88,10 @@ export default function TimeJourney({
   const onWheel = useCallback(
     (e: React.WheelEvent) => {
       if (drawerEra) return;
+      // On small screens the stage scrolls its own overflow — wheel must not
+      // also travel time, or one gesture scrolls and navigates at once.
+      const stage = stageRef.current;
+      if (stage && stage.scrollHeight > stage.clientHeight + 1) return;
       const d = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
       if (Math.abs(d) < 18 || lock.current) return;
       lock.current = true;
@@ -145,7 +150,7 @@ export default function TimeJourney({
       />
 
       {/* Top chrome */}
-      <header className="absolute inset-x-0 top-0 z-30 flex items-center justify-between px-5 py-4 md:px-11 md:py-5">
+      <header className="absolute inset-x-0 top-0 z-30 flex items-center justify-between bg-gradient-to-b from-[#04161f] via-[#04161f]/70 to-transparent px-5 py-4 md:bg-none md:px-11 md:py-5">
         <Link
           href={`/country/${meta.code}`}
           className="group flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-2 transition-colors hover:text-chalk"
@@ -190,7 +195,7 @@ export default function TimeJourney({
       </header>
 
       {/* Stage */}
-      <div className="absolute inset-0 z-10 flex items-center justify-center px-6 pb-32 pt-24 md:px-[9vw]">
+      <div ref={stageRef} className="absolute inset-0 z-10 flex justify-center overflow-y-auto overscroll-contain px-6 pb-32 pt-20 md:items-center md:overflow-hidden md:px-[9vw] md:pt-24">
         <AnimatePresence mode="wait">
           <motion.div
             key={i}
@@ -202,7 +207,7 @@ export default function TimeJourney({
                 ? { duration: 0 }
                 : { duration: 0.5, ease: [0.16, 1, 0.3, 1] }
             }
-            className="w-full max-w-[820px] text-center"
+            className="my-auto w-full max-w-[820px] text-center"
           >
             <Stage
               m={m}
@@ -228,7 +233,7 @@ export default function TimeJourney({
       </div>
 
       {/* Bottom rail */}
-      <div className="absolute inset-x-0 bottom-0 z-30 px-5 pb-6 md:px-11">
+      <div className="absolute inset-x-0 bottom-0 z-30 bg-gradient-to-t from-[#04161f] via-[#04161f]/80 to-transparent px-5 pb-6 pt-3 md:bg-none md:pt-0 md:px-11">
         <TimelineRail
           moments={moments}
           current={i}
@@ -313,7 +318,10 @@ function Stage({
         <p className="mt-[1.2vh] font-serif text-[clamp(18px,3vmin,28px)] font-[340] italic text-copper-bright">
           {history.tagline}
         </p>
-        <p className="mx-auto mt-[2vh] max-w-[720px] font-serif text-[clamp(15px,2.2vmin,19px)] font-[340] leading-[1.55] text-[#c8d6d5]">
+        {/* On a phone the full summary is a screen-high wall of text; the intro
+            is a title card, not the reading surface — clamp it and let the
+            chronicle/dossier carry the prose. */}
+        <p className="mx-auto mt-[2vh] line-clamp-6 max-w-[720px] font-serif text-[clamp(15px,2.2vmin,19px)] font-[340] leading-[1.55] text-[#c8d6d5] md:line-clamp-none">
           {history.summary}
         </p>
         <div className="mt-[2.4vh] flex justify-center gap-[clamp(26px,5vw,54px)]">
