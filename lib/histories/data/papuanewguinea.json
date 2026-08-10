@@ -42,11 +42,12 @@
       "events": [
         { "year": -50000, "yearLabel": "c. 50,000 years ago", "title": "First settlement of New Guinea", "summary": "People crossed from Southeast Asia to the joined landmass of Sahul, settling New Guinea in some of the earliest sea voyages and beginning one of the longest continuous human occupations on Earth.", "category": "migration", "sources": ["brit-png", "brit-png-history"] },
         { "year": -5000, "yearLabel": "c. 7,000–10,000 years ago", "title": "Independent invention of agriculture at Kuk", "summary": "In the highland swamp of Kuk, communities drained wetlands to cultivate taro and bananas, one of only a few places on Earth where farming arose independently — recognised by UNESCO as a World Heritage Site.", "category": "economy", "sources": ["unesco-kuk", "brit-kuk"] },
+        { "year": -500, "yearLabel": "c. 500 BCE", "title": "Austronesian speakers reach the coasts", "summary": "A major migration of Austronesian-speaking peoples settles the coastal regions, layering a seafaring, trading world over the far older interior one.", "category": "migration", "sources": ["bbc-png"] },
         { "year": -1000, "yearLabel": "before European contact", "title": "More than 800 languages emerge", "summary": "Rugged terrain and long isolation gave rise to over 800 distinct languages and more than a thousand ethnic groups, making New Guinea the most linguistically diverse region in the world.", "category": "culture", "sources": ["brit-png-languages", "brit-png"] }
       ],
       "figures": [],
       "pullquote": { "text": "Kuk is one of the few places on Earth where farming was invented from scratch — New Guineans are among the world's earliest agriculturists.", "attribution": "UNESCO World Heritage Centre" },
-      "sources": ["brit-png", "brit-png-history", "unesco-kuk", "brit-kuk", "brit-png-languages"]
+      "sources": ["brit-png", "brit-png-history", "unesco-kuk", "brit-kuk", "brit-png-languages", "bbc-png"]
     },
     {
       "id": "european-contact-partition",
@@ -61,13 +62,16 @@
         "Australia, newly federated in 1901, took growing responsibility for the British south. Under the Papua Act of 1905 British New Guinea became the Australian Territory of Papua, and formal Australian administration began in 1906, much of it associated with the long governorship of Hubert Murray. Across the colonial sphere of the period, vast interior highlands remained entirely unknown to Europeans, their dense farming populations unsuspected — one of the largest blocks of inhabited country anywhere on Earth still beyond outside contact as the First World War approached."
       ],
       "events": [
+        { "year": 1526, "yearLabel": "1526", "title": "The first European visitor", "summary": "The Portuguese sailor Jorge de Meneses reaches the islands and calls them the ilhas dos Papuas; twenty years later a Spaniard names the main island New Guinea for its resemblance to the African coast.", "category": "colonization", "sources": ["bbc-png"] },
+        { "year": 1800, "yearLabel": "c. 1800", "title": "The Kula ring and the trading seas", "summary": "Substantial exchange networks operate across New Guinea, the most extensive of them the Kula ring — a ceremonial circuit of shell valuables spanning hundreds of kilometres of open water.", "category": "economy", "sources": ["bbc-png"] },
         { "year": 1873, "yearLabel": "19th century", "title": "Traders, missionaries, and labour recruiters arrive", "summary": "Whalers, plume hunters, and beche-de-mer traders worked the coasts, missionaries founded stations, and labour recruiters — including coercive 'blackbirders' — drew Melanesian workers to plantations in Queensland and Fiji.", "category": "colonization", "sources": ["slnsw-png", "brit-png-history"] },
         { "year": 1884, "yearLabel": "November 1884", "title": "The island is partitioned", "summary": "Germany proclaimed a protectorate over the north-east (German New Guinea) and Britain over the southern coast (British New Guinea) within days of each other, splitting eastern New Guinea between two empires.", "category": "colonization", "sources": ["brit-png-colonial", "natarchives-uk-png"] },
+        { "year": 1895, "yearLabel": "1895", "title": "Gold on the Mambare", "summary": "A strike on the Mambare River brings a gold rush and with it hostilities between miners and the people whose land they worked.", "category": "economy", "sources": ["bbc-png"] },
         { "year": 1906, "yearLabel": "1906", "title": "Australia takes over Papua", "summary": "Following the Papua Act of 1905, British New Guinea became the Australian Territory of Papua, and formal Australian administration began in 1906.", "category": "colonization", "sources": ["brit-png-colonial", "peo-papua"] }
       ],
       "figures": [],
       "pullquote": { "text": "As the First World War approached, the densely farmed highlands remained one of the largest inhabited regions on Earth entirely unknown to the outside world." },
-      "sources": ["brit-png-history", "brit-png-colonial", "natarchives-uk-png", "slnsw-png", "peo-papua"]
+      "sources": ["brit-png-history", "brit-png-colonial", "natarchives-uk-png", "slnsw-png", "peo-papua", "bbc-png"]
     },
     {
       "id": "australian-rule-first-contact",
@@ -84,11 +88,12 @@
       "events": [
         { "year": 1914, "yearLabel": "September 1914", "title": "Australia occupies German New Guinea", "summary": "At the outbreak of the First World War, Australian forces seized German New Guinea, ending German colonial rule in the region.", "category": "war", "sources": ["brit-png-colonial", "natarchives-uk-png"] },
         { "year": 1921, "yearLabel": "1921", "title": "League of Nations mandate over New Guinea", "summary": "Australia received a Class C League of Nations mandate to administer the former German territory as the Territory of New Guinea, governed from Rabaul and kept separate from Papua.", "category": "politics", "sources": ["brit-png-colonial", "brit-mandate"] },
+        { "year": 1926, "yearLabel": "1920s", "title": "The Bulolo gold rush", "summary": "A major find along the Bulolo river draws a second rush, pulling outsiders and aircraft into country that had barely been mapped.", "category": "economy", "sources": ["bbc-png"] },
         { "year": 1933, "yearLabel": "early 1930s", "title": "First contact in the highlands", "summary": "Australian prospectors and patrol officers walked into the central highlands and found densely populated farming valleys — perhaps a million people — entirely unknown to the outside world until then.", "category": "migration", "sources": ["brit-png-history", "brit-png"] }
       ],
       "figures": [],
       "pullquote": { "text": "In the 1930s prospectors walked into the highlands and met a million people who had farmed the same valleys for millennia — and whom the world had never known." },
-      "sources": ["brit-png-colonial", "natarchives-uk-png", "brit-mandate", "brit-png-history", "brit-png"]
+      "sources": ["brit-png-colonial", "natarchives-uk-png", "brit-mandate", "brit-png-history", "brit-png", "bbc-png"]
     },
     {
       "id": "second-world-war",
@@ -100,7 +105,8 @@
       "body": [
         "After Japanese forces swept across the Pacific in early 1942 and captured Rabaul, New Guinea became a critical front in the war against Japan. Having failed to take the territory's capital, Port Moresby, by sea, the Japanese landed near Gona on the north coast on 21 July 1942 and pushed overland across the towering Owen Stanley Range along a narrow jungle footpath — the Kokoda Track. Raw Australian militiamen of the 39th Battalion and soldiers of the Papuan Infantry Battalion met them first and were driven back through Kokoda village, fighting a desperate delaying action in steep terrain, soaking rain, and disease.",
         "Between 21 July and 16 November 1942 the Australians halted the Japanese advance within sight of Port Moresby and then forced them back over the mountains to the coast. The Kokoda campaign was arguably Australia's most significant of the war: more Australians died in the seven months of fighting in Papua than in any other campaign, with over 600 killed and some 1,680 wounded on the Track alone. Papuan carriers — remembered in Australian memory as the 'fuzzy wuzzy angels' — bore supplies and the wounded across the range, and Papuan soldiers fought alongside the Australians throughout.",
-        "The war ground on across the territory for three more years. From November 1944 Australian forces relieved American troops on Bougainville and waged a long 'hard slog' of patrols and small, fierce actions; more than 30,000 Australians served there, of whom over 500 were killed, against a Japanese garrison that finally surrendered on the island in August 1945. The fighting devastated towns, gardens, and villages, killed many New Guineans, and left a generation of survivors who had seen the outside world's industrial violence at first hand — an experience that fed rising expectations of change after the war."
+        "The war ground on across the territory for three more years. From November 1944 Australian forces relieved American troops on Bougainville and waged a long 'hard slog' of patrols and small, fierce actions; more than 30,000 Australians served there, of whom over 500 were killed, against a Japanese garrison that finally surrendered on the island in August 1945. The fighting devastated towns, gardens, and villages, killed many New Guineans, and left a generation of survivors who had seen the outside world's industrial violence at first hand — an experience that fed rising expectations of change after the war.",
+        "The scale is worth stating in one number, because the individual campaigns hide it. Across the New Guinea campaign as a whole some 216,000 Japanese, Australian and American servicemen died. They died on an island whose highland valleys had been unknown to any of their governments a decade earlier, and in country whose inhabitants had no part in the quarrel and no say in its arrival. The Allied victories at Milne Bay, along the Kokoda Track and around Buna and Gona are counted among the turning points of the Pacific War; the ground they turned on belonged to somebody."
       ],
       "events": [
         { "year": 1942, "yearLabel": "21 July – 16 November 1942", "endYear": 1942, "title": "The Kokoda Track campaign", "summary": "Australian and Papuan troops halted the Japanese advance over the Owen Stanley Range toward Port Moresby and drove them back; over 600 Australians were killed in arguably Australia's most significant campaign of the war.", "category": "war", "sources": ["awm-kokoda", "anzac-kokoda"] },
@@ -109,7 +115,7 @@
       ],
       "figures": [],
       "pullquote": { "text": "More Australians died in the seven months of fighting in Papua than in any other campaign — and the Japanese came closer to Australia than anywhere else.", "attribution": "Australian War Memorial" },
-      "sources": ["awm-kokoda", "anzac-kokoda", "awm-bougainville-ww2"]
+      "sources": ["awm-kokoda", "anzac-kokoda", "awm-bougainville-ww2", "bbc-png"]
     },
     {
       "id": "self-government-independence",
@@ -125,6 +131,10 @@
       ],
       "events": [
         { "year": 1945, "yearLabel": "1945", "title": "Papua and New Guinea united", "summary": "Australia combined its administration of Papua and the former German mandate into a single Territory of Papua and New Guinea, with the north held as a United Nations trust territory.", "category": "politics", "sources": ["brit-png-colonial", "naa-png-independence"] },
+        { "year": 1961, "yearLabel": "1961", "title": "The first elections with indigenous voters", "summary": "Papuans and New Guineans vote for the first time, sixteen years after the two territories were joined under one administration.", "category": "politics", "sources": ["bbc-png"] },
+        { "year": 1963, "yearLabel": "1963", "title": "West New Guinea transferred to Indonesia", "summary": "The United Nations hands control of the island's western half to Indonesia; the two governments agree the position of their shared border ten years later.", "category": "politics", "sources": ["bbc-png"] },
+        { "year": 1964, "yearLabel": "1964", "title": "An elected indigenous majority", "summary": "A 64-member House of Assembly replaces the Legislative Council, and for the first time indigenous representatives hold most of the seats.", "category": "politics", "sources": ["bbc-png"] },
+        { "year": 1971, "yearLabel": "1971", "title": "The country is named Papua New Guinea", "summary": "The two territories that two empires had drawn take a single name, four years before they take a flag.", "category": "founding", "sources": ["bbc-png"] },
         { "year": 1973, "yearLabel": "1 December 1973", "title": "Internal self-government", "summary": "Papua New Guinea achieved internal self-government with Michael Somare as chief minister, a peaceful step toward full independence from Australia.", "category": "politics", "sources": ["naa-png-independence", "brit-png-history"] },
         { "year": 1975, "yearLabel": "16 September 1975", "title": "Independence", "summary": "Papua New Guinea became an independent nation under Prime Minister Michael Somare; Australia transferred sovereignty and the United States recognised the new state the same day.", "category": "independence", "sources": ["naa-png-independence", "statedept-png"] }
       ],
@@ -132,7 +142,7 @@
         { "name": "Michael Somare", "role": "First Prime Minister of Papua New Guinea", "life": "1936–2021", "blurb": "Founder of the Pangu Pati and 'father of the nation', he led Papua New Guinea to self-government in 1973 and independence in 1975, becoming its first prime minister and a defining figure of its politics for decades.", "sources": ["naa-png-independence", "brit-png-history"] }
       ],
       "pullquote": { "text": "On 16 September 1975 the Australian flag came down in Port Moresby and a nation of more than 800 languages set out to govern itself as one." },
-      "sources": ["brit-png-colonial", "naa-png-independence", "brit-png-history", "statedept-png"]
+      "sources": ["brit-png-colonial", "naa-png-independence", "brit-png-history", "statedept-png", "bbc-png"]
     },
     {
       "id": "bougainville-modern",
@@ -143,11 +153,13 @@
       "standfirst": "A decade-long secessionist war on Bougainville tested the young nation; a 2001 peace deal and a 2019 independence vote left its future open, even as resource wealth and deep diversity define modern Papua New Guinea.",
       "body": [
         "The independent nation's hardest test came on Bougainville, home to the vast Panguna copper mine whose revenues underpinned the national economy. Grievances over land, the unequal sharing of mining wealth, and severe environmental damage boiled over in 1988 when landowner and secessionist leader Francis Ona led sabotage that forced the mine's closure. The Bougainville conflict that followed, from 1988 to 1998, was the most violent in the Pacific since the Second World War, fought between Bougainvillean rebels and the Papua New Guinea Defence Force; estimates of the death toll vary widely, commonly cited in the range of around 10,000 to 20,000, and should be treated as estimates rather than precise figures.",
+        "The road from war to agreement ran through several failures. A 1994 accord signed by Prime Minister Julius Chan with some secessionist leaders set up a transitional administration, but the Bougainville Revolutionary Army did not sign it and kept fighting. In 1997 the government hired mercenaries from Sandline International to reinforce its troops — a decision that provoked a mutiny in its own army and civil unrest in Port Moresby, and cost the government more than it cost the rebels. The Burnham Truce later that year ended the decade of armed struggle, monitored by a regional Truce Monitoring Group and then by an Australian-led Peace Monitoring Group after the permanent ceasefire of 1998.",
         "The war ended through negotiation rather than outright victory. A 1998 ceasefire was followed by a comprehensive peace agreement in 2001 that created the Autonomous Region of Bougainville and promised a future referendum on the island's political status. That vote was held from 23 November to 7 December 2019, when Bougainvilleans voted overwhelmingly — by about 98 per cent — for independence over greater autonomy. The result is non-binding: under the peace agreement the outcome must be negotiated between the two governments and ratified by Papua New Guinea's national parliament, which had not done so as the question remained unresolved into the 2020s.",
         "Beyond Bougainville, modern Papua New Guinea is a young, fast-growing democracy of striking contrasts. It holds great natural wealth — gold, copper, and large reserves of natural gas exported as LNG — yet most of its people still live by subsistence gardening in rural villages, and the country wrestles with rugged terrain, uneven development, and tribal and law-and-order challenges. Its more than 800 languages and thousand-plus communities, bound together largely by the lingua franca Tok Pisin, make it one of the most culturally diverse nations on Earth — a state barely two generations old, built on one of humanity's oldest inhabited landscapes."
       ],
       "events": [
         { "year": 1988, "yearLabel": "1988–1998", "endYear": 1998, "title": "The Bougainville conflict", "summary": "A secessionist war over the Panguna mine, land, and environmental damage pitted Bougainvillean rebels against the PNG Defence Force; death-toll estimates range widely, commonly cited at roughly 10,000–20,000 and treated as estimates.", "category": "war", "sources": ["concil-bougainville", "globalsec-bougainville"] },
+        { "year": 1997, "yearLabel": "1997", "title": "Sandline, the mutiny and the Burnham Truce", "summary": "The government hires mercenaries to reinforce its troops on Bougainville, provoking a mutiny in its own army; the Burnham Truce later that year ends the decade of armed struggle.", "category": "war", "sources": ["bbc-png"] },
         { "year": 2001, "yearLabel": "2001", "title": "Bougainville Peace Agreement", "summary": "Following a 1998 ceasefire, a peace agreement created the Autonomous Region of Bougainville and promised a future referendum on the island's political status.", "category": "politics", "sources": ["concil-bougainville", "unimelb-bougainville"] },
         { "year": 2019, "yearLabel": "23 November – 7 December 2019", "endYear": 2019, "title": "Bougainville independence referendum", "summary": "Bougainvilleans voted about 98 per cent for independence over greater autonomy; the non-binding result must be negotiated with PNG and ratified by its parliament.", "category": "politics", "sources": ["unimelb-bougainville", "cnn-bougainville"] }
       ],
@@ -155,7 +167,7 @@
         { "name": "Francis Ona", "role": "Bougainville secessionist leader", "life": "1953–2005", "blurb": "A former mine surveyor and landowner whose 1988 sabotage of the Panguna copper mine over land and environmental grievances triggered the Bougainville conflict; he led the secessionist movement and never accepted the peace process.", "sources": ["concil-bougainville", "globalsec-bougainville"] }
       ],
       "pullquote": { "text": "A nation barely two generations old, built on one of the oldest inhabited landscapes on Earth, and home to more languages than any other country." },
-      "sources": ["concil-bougainville", "globalsec-bougainville", "unimelb-bougainville", "cnn-bougainville", "brit-png"]
+      "sources": ["concil-bougainville", "globalsec-bougainville", "unimelb-bougainville", "cnn-bougainville", "brit-png", "bbc-png"]
     }
   ],
   "figures": [
@@ -183,8 +195,9 @@
     { "id": "globalsec-bougainville", "label": "Bougainville", "publisher": "GlobalSecurity.org", "url": "https://www.globalsecurity.org/military/world/war/bougainville.htm", "kind": "reference" },
     { "id": "unimelb-bougainville", "label": "The Bougainville referendum and beyond", "publisher": "University of Melbourne, Laureate Program in Comparative Constitutional Law", "url": "https://law.unimelb.edu.au/constitutional-transformations/projects/completed-projects/the-bougainville-referendum-and-beyond", "kind": "academic" },
     { "id": "cnn-bougainville", "label": "Bougainville votes overwhelmingly for independence from Papua New Guinea", "publisher": "CNN", "url": "https://www.cnn.com/2019/12/11/asia/bougainville-papua-new-guinea-intl-hnk/index.html", "kind": "reference" },
+    { "id": "bbc-png", "label": "Papua New Guinea country profile", "publisher": "BBC News", "url": "https://www.bbc.com/news/world-asia-pacific-15436981", "kind": "reference" },
     { "id": "wikipedia-png", "label": "Papua New Guinea", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Papua_New_Guinea", "kind": "reference" }
   ],
   "status": "published",
-  "updated": "2026-06-15"
+  "updated": "2026-08-11"
 }
