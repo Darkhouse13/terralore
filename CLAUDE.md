@@ -95,16 +95,27 @@ keyed on canonical ADM0_A3, shaped `{ domain, updated, sources, data: { CODE: { 
   `scripts/lib/wb.mjs` (World Bank Indicators API — free, no key, retry-hardened) and
   keeps the latest non-null value + a trailing series for sparklines. An indicator may
   carry its own `source` (the true upstream provider WB redistributes) to override the
-  domain default; only sources actually referenced are written to the file.
+  domain default; only sources actually referenced are written to the file. It may also
+  carry `wbSource` (pins the API database id — the WGI series live in database 3, not the
+  default WDI one) and `floor` (discards observations of impossible magnitude; see the
+  Somalia case in `build-education.mjs` — the bar is impossibility, never extremity).
 - Code reconciliation lives in `scripts/lib/codes.mjs` (one source of truth, shared with
   `build-data.mjs`). World Bank ISO3 ≈ ADM0_A3; the exceptions are `XKX→KOS`, `SSD→SDS`,
   `ESH→SAH`. **`build-data.mjs` must run before the domain builders** (they read `data/countries.json`).
-- Domains live (tab order): economy, society, technology, geography, resources, military.
-  Economy/society/geography use World Bank WDI; military is WB series sourced from **SIPRI**
-  (attributed via `wb-sipri`); technology attributes each indicator to its real upstream —
-  R&D/researchers to **UNESCO UIS** (`wb-unesco`), connectivity to **ITU** (`wb-itu`),
-  high-tech exports to WB WDI. Resources is a first cut from WB resource-rents + electricity
-  access; USGS physical mineral production/reserves can enrich it later.
+- Domains live (tab order): economy, society, governance, health, education, technology,
+  geography, resources, military. Economy/society/geography use World Bank WDI; military is
+  WB series sourced from **SIPRI** (attributed via `wb-sipri`); technology attributes each
+  indicator to its real upstream — R&D/researchers to **UNESCO UIS** (`wb-unesco`),
+  connectivity to **ITU** (`wb-itu`), high-tech exports to WB WDI. Governance is the six
+  **Worldwide Governance Indicators** (`wb-wgi`) — 0–100 *absolute* scores anchored to two
+  hypothetical benchmark performers, **not percentile ranks**, and model estimates from
+  perception surveys rather than measurements; label them accordingly. Health splits between
+  **WHO GHO** (`wb-who`) and the **UN IGME / WHO-UNICEF** estimates (`wb-unicef-who`);
+  education is **UNESCO UIS** throughout. Resources is WB resource-rents + electricity access
+  **plus** physical mineral production for ten commodities from the **USGS Mineral Commodity
+  Summaries** (`usgs-mcs`), merged in afterwards by `scripts/build-minerals.mjs` — which
+  resolves its CSV from the ScienceBase item id at the top of the file. Bump that id once a
+  year when the next MCS edition lands.
 - Register a new domain by importing its JSON in `lib/domains/index.ts` and adding it to
   `FILES` (insertion order = dossier tab order).
 - **Refresh:** `npm run build-domains` (rebuilds all domain files + validates + rebuilds the
