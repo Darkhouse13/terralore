@@ -8,11 +8,17 @@ import { canonicalFromWb } from './codes.mjs';
 
 const BASE = 'https://api.worldbank.org/v2';
 
-// The World Bank API intermittently 400s under rapid `country/all` requests.
-// Retry a few times with a short backoff before giving up.
+// The World Bank API is intermittently unavailable under rapid `country/all`
+// requests: its WAF answers a share of them with a 502 HTML error page, and a
+// connection can hang open instead of failing. Both are transient — the same URL
+// succeeds on a later attempt — so retry generously, with a hard per-request
+// timeout so a hung socket costs seconds rather than stalling the whole build.
+const ATTEMPTS = 10;
+const REQUEST_TIMEOUT_MS = 30000;
+
 async function getJson(url, attempt = 1) {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     if (!Array.isArray(json) || json.length < 2) {
@@ -21,23 +27,30 @@ async function getJson(url, attempt = 1) {
     }
     return json;
   } catch (e) {
-    if (attempt >= 4) throw new Error(`${url} → ${e.message}`);
-    await new Promise((r) => setTimeout(r, 500 * attempt));
+    if (attempt >= ATTEMPTS) throw new Error(`${url} → ${e.message}`);
+    await new Promise((r) => setTimeout(r, Math.min(500 * attempt, 4000)));
     return getJson(url, attempt + 1);
   }
 }
 
 /**
  * Fetch one indicator for all countries.
+ *
+ * `wbSource` pins the API's database id. Most indicators live in the default
+ * database (2, World Development Indicators) and the API resolves them without
+ * help; series held elsewhere — the Worldwide Governance Indicators are database
+ * 3 — are named explicitly so the request cannot be answered from the wrong one.
+ *
  * @returns Map<canonicalCode, { value:number, year:number, series:{year,value}[] }>
  */
-export async function fetchIndicator(indicator, { start = 2000, end = 2025 } = {}) {
+export async function fetchIndicator(indicator, { start = 2000, end = 2025, wbSource } = {}) {
   const out = new Map();
+  const source = wbSource ? `&source=${wbSource}` : '';
   let page = 1;
   let pages = 1;
 
   do {
-    const url = `${BASE}/country/all/indicator/${indicator}?format=json&per_page=20000&date=${start}:${end}&page=${page}`;
+    const url = `${BASE}/country/all/indicator/${indicator}?format=json&per_page=20000&date=${start}:${end}&page=${page}${source}`;
     const [meta, rows] = await getJson(url);
     pages = meta?.pages ?? 1;
 

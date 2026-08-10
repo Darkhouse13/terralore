@@ -29,6 +29,7 @@ export type CountryMetaMap = Record<string, CountryMeta>;
 export type DomainKey =
   | "economy"
   | "society"
+  | "governance"
   | "technology"
   | "geography"
   | "resources"
@@ -87,6 +88,7 @@ export interface Comparison {
 export const DOMAIN_META: Record<DomainKey, { label: string }> = {
   economy: { label: "Economy" },
   society: { label: "Society" },
+  governance: { label: "Governance" },
   technology: { label: "Technology" },
   geography: { label: "Geography" },
   resources: { label: "Resources" },

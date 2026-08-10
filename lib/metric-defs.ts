@@ -21,6 +21,22 @@ export const METRIC_DEFS: Record<string, string> = {
   urbanPct: "Share of people living in areas classified as urban.",
   fertility: "Average number of children born per woman over her lifetime.",
 
+  // governance — Worldwide Governance Indicators, 0–100 absolute scores.
+  // Each definition names the estimate for what it is: an aggregate of
+  // perception-based surveys and expert assessments, not a measurement.
+  wgiVoice:
+    "How far citizens can select their government, speak freely, associate and access a free press — a 0–100 score aggregated from survey and expert assessments.",
+  wgiStability:
+    "Perceived likelihood of political instability or politically motivated violence, scored 0–100 (higher = more stable).",
+  wgiEffectiveness:
+    "Perceived quality of public services, the civil service and policy implementation, scored 0–100 from survey and expert assessments.",
+  wgiRegQuality:
+    "Perceived ability of government to write and enforce rules that let the private sector develop, scored 0–100.",
+  wgiRuleOfLaw:
+    "Perceived confidence in contract enforcement, property rights, the police and the courts, scored 0–100.",
+  wgiCorruption:
+    "Perceived extent to which public power is used for private gain, scored 0–100 (higher = less corruption perceived).",
+
   // technology
   rdSpending:
     "Gross expenditure on research & development as a share of GDP.",

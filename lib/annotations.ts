@@ -37,6 +37,7 @@ import type { DomainKey, EventCategory } from "./types";
 export const DOMAIN_CATEGORIES: Record<DomainKey, EventCategory[]> = {
   economy: ["economy", "war", "disaster", "independence", "politics", "colonization"],
   society: ["disaster", "war", "migration", "politics", "independence"],
+  governance: ["politics", "independence", "war", "colonization"],
   technology: ["culture", "economy", "politics"],
   geography: ["disaster", "economy"],
   resources: ["economy", "colonization", "war"],

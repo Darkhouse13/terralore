@@ -13,6 +13,7 @@ import type {
 } from "../types";
 import economy from "@/data/domains/economy.json";
 import society from "@/data/domains/society.json";
+import governance from "@/data/domains/governance.json";
 import technology from "@/data/domains/technology.json";
 import geography from "@/data/domains/geography.json";
 import resources from "@/data/domains/resources.json";
@@ -31,6 +32,7 @@ const F = (x: unknown) => x as DomainFile;
 const FILES: Partial<Record<DomainKey, DomainFile>> = {
   economy: F(economy),
   society: F(society),
+  governance: F(governance),
   technology: F(technology),
   geography: F(geography),
   resources: F(resources),

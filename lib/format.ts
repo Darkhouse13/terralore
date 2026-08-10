@@ -49,6 +49,11 @@ export function formatMetric(value: number | null, unit: string): string {
       return formatArea(value);
     case "ratio":
       return value.toFixed(1);
+    // A point on a bounded index (the WGI's 0–100 governance scores). One
+    // decimal: the underlying estimates carry margins of error wide enough that
+    // more precision would be a lie told in typography.
+    case "score":
+      return value.toFixed(1);
     default:
       return NF.format(Math.round(value));
   }

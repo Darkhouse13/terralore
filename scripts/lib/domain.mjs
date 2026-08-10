@@ -28,9 +28,11 @@ export function writeDomain(domain, payload) {
 /**
  * Build a domain whose metrics all come from the World Bank Indicators API.
  * @param domain     domain key, e.g. "economy"
- * @param indicators [{ key, label, unit, id, source? }] — an indicator may carry
- *                   its own `source` (the true upstream provider WB redistributes,
- *                   e.g. UNESCO/ITU); otherwise the domain `source` is used.
+ * @param indicators [{ key, label, unit, id, source?, wbSource? }] — an indicator
+ *                   may carry its own `source` (the true upstream provider WB
+ *                   redistributes, e.g. UNESCO/ITU); otherwise the domain
+ *                   `source` is used. `wbSource` pins the API database id for
+ *                   series held outside the default WDI database.
  * @param source     default DataSource describing the World Bank dataset
  */
 export async function buildWbDomain(domain, indicators, source, { seriesLen = 16 } = {}) {
@@ -38,7 +40,7 @@ export async function buildWbDomain(domain, indicators, source, { seriesLen = 16
   const fetched = {};
   for (const ind of indicators) {
     process.stdout.write(`  ${domain} · ${ind.id} (${ind.key})… `);
-    fetched[ind.key] = await fetchIndicator(ind.id);
+    fetched[ind.key] = await fetchIndicator(ind.id, { wbSource: ind.wbSource });
     console.log(`${fetched[ind.key].size} territories`);
   }
 
