@@ -3,7 +3,7 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { allPeriods, corpusStats, dominantCategory, formatYear, type PeriodBucket } from "@/lib/chronology";
 import { CATEGORY_META } from "@/lib/types";
-import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
+import { abs, breadcrumbLd, routes, SITE_NAME, siteOgImages } from "@/lib/seo";
 
 /**
  * The Chronology — the corpus read along its other axis.
@@ -44,11 +44,13 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: "/timeline",
     siteName: SITE_NAME,
+    images: siteOgImages(),
   },
   twitter: {
     card: "summary_large_image",
     title: "The Chronology — world history, period by period",
     description: DESCRIPTION,
+    images: siteOgImages(),
   },
 };
 

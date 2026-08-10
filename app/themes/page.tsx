@@ -3,7 +3,7 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { allThemes, corpusStats, formatYear } from "@/lib/chronology";
 import type { ThemeBucket, WorldEvent } from "@/lib/chronology";
-import { abs, breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
+import { abs, breadcrumbLd, routes, SITE_NAME, siteOgImages } from "@/lib/seo";
 
 /**
  * The thematic hub.
@@ -56,11 +56,13 @@ export const metadata: Metadata = {
     description: `${THEMES.length} thematic collections drawn from ${num(STATS.events)} sourced events across ${num(STATS.nations)} nations.`,
     url: "/themes",
     siteName: SITE_NAME,
+    images: siteOgImages(),
   },
   twitter: {
     card: "summary_large_image",
     title: "Themes — the archive read across nations",
     description: `${THEMES.length} thematic collections drawn from ${num(STATS.events)} sourced events across ${num(STATS.nations)} nations.`,
+    images: siteOgImages(),
   },
 };
 

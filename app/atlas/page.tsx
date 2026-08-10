@@ -3,7 +3,7 @@ import AtlasIndex, { type IndexEntry } from "@/components/AtlasIndex";
 import JsonLd from "@/components/JsonLd";
 import { allCountries } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
-import { breadcrumbLd, collectionLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, collectionLd, routes, SITE_NAME, siteOgImages } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "The Atlas",
@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     title: "The Atlas — every nation, searchable",
     description: "Every nation on the globe — searchable by name, code or region.",
     url: "/atlas",
+    images: siteOgImages(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Atlas — every nation, searchable",
+    description: "Every nation on the globe — searchable by name, code or region.",
+    images: siteOgImages(),
   },
 };
 

@@ -5,7 +5,7 @@ import { getCountry, allCodes, formatPopulation, formatArea } from "@/lib/countr
 import { getHistory } from "@/lib/histories";
 import TimeJourney from "@/components/journey/TimeJourney";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, chronicleLd, journeyDescription, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, chronicleLd, countryOgImages, journeyDescription, routes, SITE_NAME } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
@@ -49,11 +49,13 @@ export async function generateMetadata({
       url: path,
       modifiedTime: history.updated,
       siteName: SITE_NAME,
+      images: countryOgImages(code, meta.name),
     },
     twitter: {
       card: "summary_large_image",
       title: `${meta.name} — ${history.tagline}`,
       description,
+      images: countryOgImages(code, meta.name),
     },
   };
 }

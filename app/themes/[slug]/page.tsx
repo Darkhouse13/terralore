@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import { allThemes, formatYear, getTheme, periodFor } from "@/lib/chronology";
 import type { Period, ThemeBucket, WorldEvent } from "@/lib/chronology";
-import { SITE_NAME, abs, breadcrumbLd, clampText, routes } from "@/lib/seo";
+import { SITE_NAME, abs, breadcrumbLd, clampText, routes, siteOgImages } from "@/lib/seo";
 import type { EventCategory } from "@/lib/types";
 
 /**
@@ -129,8 +129,9 @@ export async function generateMetadata({
       description,
       url: path,
       siteName: SITE_NAME,
+      images: siteOgImages(),
     },
-    twitter: { card: "summary_large_image", title: ogTitle, description },
+    twitter: { card: "summary_large_image", title: ogTitle, description, images: siteOgImages() },
   };
 }
 

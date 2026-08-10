@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { getCountry, allCodes } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, chronicleDescription, chronicleLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, chronicleDescription, chronicleLd, countryOgImages, routes, SITE_NAME } from "@/lib/seo";
 import { meanwhileElsewhere, periodFor, themeSlug } from "@/lib/chronology";
 import { metricLinkFor } from "@/lib/annotations";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
@@ -67,8 +67,14 @@ export async function generateMetadata({
       url: path,
       modifiedTime: history.updated,
       siteName: SITE_NAME,
+      images: countryOgImages(code, meta.name),
     },
-    twitter: { card: "summary_large_image", title: ogTitle, description },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description,
+      images: countryOgImages(code, meta.name),
+    },
   };
 }
 

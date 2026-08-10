@@ -9,7 +9,7 @@ import {
   type PeriodBucket,
   type WorldEvent,
 } from "@/lib/chronology";
-import { SITE_NAME, abs, breadcrumbLd, clampText, routes } from "@/lib/seo";
+import { SITE_NAME, abs, breadcrumbLd, clampText, routes, siteOgImages } from "@/lib/seo";
 import { CATEGORY_META } from "@/lib/types";
 
 /**
@@ -78,11 +78,13 @@ export async function generateMetadata({
       description,
       url: path,
       siteName: SITE_NAME,
+      images: siteOgImages(),
     },
     twitter: {
       card: "summary_large_image",
       title: `${period.label} — the world, year by year`,
       description,
+      images: siteOgImages(),
     },
   };
 }

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { allCountries } from "@/lib/countries";
-import { getHistory } from "@/lib/histories";
+import { allHistories, getHistory } from "@/lib/histories";
+import { getDossier } from "@/lib/domains";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
 
@@ -22,6 +23,20 @@ const MAX_URLS_PER_SITEMAP = 50_000;
 const BUILT_AT = new Date();
 
 /**
+ * The corpus's own latest verification date. The cross-nation pages (timeline,
+ * themes, atlas) are derived entirely from the history corpus, so this — not
+ * the build timestamp — is when their content last changed. Re-dating a
+ * thousand unchanged URLs on every deploy is the pattern that teaches a
+ * crawler to ignore lastmod altogether.
+ */
+const CORPUS_AT =
+  allHistories()
+    .map((h) => h.updated)
+    .filter(Boolean)
+    .sort()
+    .at(-1) ?? BUILT_AT;
+
+/**
  * Same junk filter the atlas index uses: Natural Earth ships a handful of rows
  * with a missing name or the sentinel "-99".
  */
@@ -39,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: abs(routes.atlas()),
-      lastModified: BUILT_AT,
+      lastModified: CORPUS_AT,
       changeFrequency: "weekly",
       priority: 0.9,
     },
@@ -48,25 +63,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // the most interesting question here and the one most likely to be asked.
     {
       url: abs("/timeline"),
-      lastModified: BUILT_AT,
+      lastModified: CORPUS_AT,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: abs("/themes"),
-      lastModified: BUILT_AT,
+      lastModified: CORPUS_AT,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     ...allPeriods().map((p) => ({
       url: abs(`/timeline/${p.slug}`),
-      lastModified: BUILT_AT,
+      lastModified: CORPUS_AT,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
     ...allThemes().map((t) => ({
       url: abs(`/themes/${t.slug}`),
-      lastModified: BUILT_AT,
+      lastModified: CORPUS_AT,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
@@ -78,7 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const slugs = new Set(t.events.map((ev) => periodFor(ev.year).slug));
       return [...slugs].map((period) => ({
         url: abs(`/themes/${t.slug}/${period}`),
-        lastModified: BUILT_AT,
+        lastModified: CORPUS_AT,
         changeFrequency: "monthly" as const,
         priority: 0.6,
       }));
@@ -90,8 +105,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const history = getHistory(country.code);
     const published = history?.status === "published";
-    // Authored histories carry an ISO verification date; bare dossiers don't.
-    const lastModified = published && history.updated ? history.updated : BUILT_AT;
+    // Authored histories carry an ISO verification date; bare dossiers move
+    // when their domain data files do.
+    const lastModified =
+      published && history.updated
+        ? history.updated
+        : getDossier(country.code)?.updated || CORPUS_AT;
 
     entries.push({
       url: abs(routes.dossier(country.code)),
