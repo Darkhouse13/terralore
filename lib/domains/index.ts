@@ -15,6 +15,7 @@ import economy from "@/data/domains/economy.json";
 import society from "@/data/domains/society.json";
 import governance from "@/data/domains/governance.json";
 import health from "@/data/domains/health.json";
+import education from "@/data/domains/education.json";
 import technology from "@/data/domains/technology.json";
 import geography from "@/data/domains/geography.json";
 import resources from "@/data/domains/resources.json";
@@ -35,6 +36,7 @@ const FILES: Partial<Record<DomainKey, DomainFile>> = {
   society: F(society),
   governance: F(governance),
   health: F(health),
+  education: F(education),
   technology: F(technology),
   geography: F(geography),
   resources: F(resources),

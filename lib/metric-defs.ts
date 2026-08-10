@@ -49,6 +49,18 @@ export const METRIC_DEFS: Record<string, string> = {
   safeWater:
     "Share of the population using an improved water source on their premises, available when needed and free of contamination.",
 
+  // education
+  literacyRate:
+    "Share of people aged 15 and over who can read and write a short simple statement about their everyday life. Many high-income countries stopped surveying this, so the figure is often missing rather than low.",
+  eduSpendPctGdp:
+    "Government spending on education as a share of GDP.",
+  primaryEnrolment:
+    "Primary enrolment of all ages as a share of the official primary-school-age population — repeaters and over-age pupils can push it above 100%.",
+  secondaryEnrolment:
+    "Secondary enrolment of all ages as a share of the official secondary-school-age population; it can exceed 100% for the same reason.",
+  tertiaryEnrolment:
+    "University and college enrolment as a share of the population in the five years after secondary school; mature students can push it above 100%.",
+
   // technology
   rdSpending:
     "Gross expenditure on research & development as a share of GDP.",

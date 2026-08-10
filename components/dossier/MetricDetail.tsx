@@ -675,9 +675,17 @@ function computeChange(
   const arrow = diff > 0 ? "▲" : diff < 0 ? "▼" : "—";
   const tint =
     diff > 0 ? "var(--color-verdigris)" : diff < 0 ? "var(--color-madder)" : "var(--color-chalk-4)";
-  const pointUnit = metric.unit === "%" || metric.unit === "% of GDP";
+  // Units already expressed on a 0–100 scale move in points, not in percent of
+  // themselves: a governance score going 40 → 44 rose four points, and calling
+  // that "10%" would invite a comparison the scale does not support.
+  const pointUnit =
+    metric.unit === "%" || metric.unit === "% of GDP" || metric.unit === "% gross"
+      ? "pp"
+      : metric.unit === "score"
+        ? "pts"
+        : null;
   if (pointUnit) {
-    return { text: `${Math.abs(diff).toFixed(1)} pp since ${first.year}`, arrow, tint };
+    return { text: `${Math.abs(diff).toFixed(1)} ${pointUnit} since ${first.year}`, arrow, tint };
   }
   if (first.value === 0) return null;
   const pct = (diff / Math.abs(first.value)) * 100;

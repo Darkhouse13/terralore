@@ -40,6 +40,9 @@ export function formatMetric(value: number | null, unit: string): string {
       return formatUSD(value);
     case "%":
     case "% of GDP":
+    // Gross enrolment: enrolment over the official school-age population, so a
+    // country with repeaters or over-age pupils legitimately exceeds 100%.
+    case "% gross":
       return formatPercent(value);
     case "years":
       return formatYears(value);
