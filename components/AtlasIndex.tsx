@@ -193,12 +193,19 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
                 const nonUN = e.unMember === false;
                 const since = e.foundingYear ?? "—";
                 return (
-                  <Link
+                  // A div with a stretched link rather than a link-as-card: the
+                  // chronicle needs its own crawlable anchor, and anchors can't
+                  // nest. The whole card still clicks through to the dossier.
+                  <div
                     key={e.code}
-                    href={`/country/${e.code}`}
-                    prefetch={false}
-                    className="group flex items-center gap-4 rounded-[3px] border border-copper/12 bg-white/[0.012] px-[18px] py-[15px] transition-colors hover:border-copper/40 hover:bg-copper/[0.05]"
+                    className="group relative flex items-center gap-4 rounded-[3px] border border-copper/12 bg-white/[0.012] px-[18px] py-[15px] transition-colors hover:border-copper/40 hover:bg-copper/[0.05]"
                   >
+                    <Link
+                      href={`/country/${e.code}`}
+                      prefetch={false}
+                      aria-label={`${e.name} — the dossier`}
+                      className="absolute inset-0 rounded-[3px]"
+                    />
                     <span className="grid h-7 w-10 flex-none place-items-center text-[15px] leading-none">
                       {e.flag ?? "🏳️"}
                     </span>
@@ -235,10 +242,22 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
                         </span>
                       </div>
                     </div>
-                    <span className="flex-none text-[15px] text-chalk-5 transition-transform group-hover:translate-x-0.5">
+                    {e.hasHistory && (
+                      <Link
+                        href={`/country/${e.code}/chronicle`}
+                        prefetch={false}
+                        className="relative z-10 flex-none rounded-[2px] border border-copper/20 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-[0.12em] text-chalk-4 transition-colors hover:border-copper/50 hover:text-copper-bright"
+                      >
+                        Chronicle
+                      </Link>
+                    )}
+                    <span
+                      aria-hidden
+                      className="flex-none text-[15px] text-chalk-5 transition-transform group-hover:translate-x-0.5"
+                    >
                       →
                     </span>
-                  </Link>
+                  </div>
                 );
               })}
             </div>

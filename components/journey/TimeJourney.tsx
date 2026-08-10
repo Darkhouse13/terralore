@@ -337,6 +337,19 @@ function Stage({
           Begin the journey
           <span className="text-[17px] transition-transform group-hover:translate-x-1">→</span>
         </button>
+        {/* The journey's only other HTML link is back to the dossier, which
+            left this page a crawl dead-end — and readers who'd rather read
+            than pilot had no path to the prose. The intro is moment 0, so
+            this anchor lands in the prerendered HTML. */}
+        <div className="mt-[1.8vh]">
+          <Link
+            href={`/country/${meta.code}/chronicle`}
+            prefetch={false}
+            className="font-mono text-[11px] uppercase tracking-[0.2em] text-chalk-4 transition-colors hover:text-copper-bright"
+          >
+            Prefer to read? The full chronicle →
+          </Link>
+        </div>
       </div>
     );
   }
