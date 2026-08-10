@@ -30,6 +30,7 @@ export type DomainKey =
   | "economy"
   | "society"
   | "governance"
+  | "health"
   | "technology"
   | "geography"
   | "resources"
@@ -89,6 +90,7 @@ export const DOMAIN_META: Record<DomainKey, { label: string }> = {
   economy: { label: "Economy" },
   society: { label: "Society" },
   governance: { label: "Governance" },
+  health: { label: "Health" },
   technology: { label: "Technology" },
   geography: { label: "Geography" },
   resources: { label: "Resources" },

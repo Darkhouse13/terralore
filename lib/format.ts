@@ -54,6 +54,13 @@ export function formatMetric(value: number | null, unit: string): string {
     // more precision would be a lie told in typography.
     case "score":
       return value.toFixed(1);
+    // Small rates that the default integer rounding would erase entirely:
+    // Niger has 0.04 physicians per 1,000 people, and "0" is a different and
+    // much worse claim than "0.04". Two decimals below 10, one above.
+    case "per 1,000":
+      return value >= 10 ? value.toFixed(1) : value.toFixed(2);
+    case "per 1,000 births":
+      return value.toFixed(1);
     default:
       return NF.format(Math.round(value));
   }

@@ -38,6 +38,7 @@ export const DOMAIN_CATEGORIES: Record<DomainKey, EventCategory[]> = {
   economy: ["economy", "war", "disaster", "independence", "politics", "colonization"],
   society: ["disaster", "war", "migration", "politics", "independence"],
   governance: ["politics", "independence", "war", "colonization"],
+  health: ["disaster", "war", "economy"],
   technology: ["culture", "economy", "politics"],
   geography: ["disaster", "economy"],
   resources: ["economy", "colonization", "war"],

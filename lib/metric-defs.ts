@@ -37,6 +37,18 @@ export const METRIC_DEFS: Record<string, string> = {
   wgiCorruption:
     "Perceived extent to which public power is used for private gain, scored 0–100 (higher = less corruption perceived).",
 
+  // health
+  healthSpendPctGdp:
+    "Total health expenditure — public and private together — as a share of GDP.",
+  physicians:
+    "Practising physicians per 1,000 people, from the most recent year a count was reported.",
+  underFiveMortality:
+    "Deaths before a child's fifth birthday, per 1,000 live births.",
+  measlesImmunisation:
+    "Share of children aged 12–23 months who have received a measles vaccination.",
+  safeWater:
+    "Share of the population using an improved water source on their premises, available when needed and free of contamination.",
+
   // technology
   rdSpending:
     "Gross expenditure on research & development as a share of GDP.",
