@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "build-data": "node scripts/build-data.mjs && node scripts/build-globe-still.mjs && node scripts/build-icon.mjs && node scripts/build-time-events.mjs",
-    "build-domains": "node scripts/build-economy.mjs && node scripts/build-society.mjs && node scripts/build-governance.mjs && node scripts/build-health.mjs && node scripts/build-education.mjs && node scripts/build-technology.mjs && node scripts/build-geography.mjs && node scripts/build-resources.mjs && node scripts/build-military.mjs && node scripts/build-nonwb.mjs && node scripts/validate-domains.mjs && node scripts/build-series-index.mjs",
+    "build-domains": "node scripts/build-economy.mjs && node scripts/build-society.mjs && node scripts/build-governance.mjs && node scripts/build-health.mjs && node scripts/build-education.mjs && node scripts/build-technology.mjs && node scripts/build-geography.mjs && node scripts/build-resources.mjs && node scripts/build-minerals.mjs && node scripts/build-military.mjs && node scripts/build-nonwb.mjs && node scripts/validate-domains.mjs && node scripts/build-series-index.mjs",
     "refresh-domains": "npm run build-data && npm run build-domains",
     "build-series": "node scripts/build-series-index.mjs",
     "build-og": "node scripts/build-og-images.mjs",

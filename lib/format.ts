@@ -22,6 +22,21 @@ export function formatUSD(n: number | null): string {
   return "$" + NF.format(Math.round(n));
 }
 
+/**
+ * Physical tonnage, over the eight orders of magnitude mineral production
+ * actually spans — from 163 tonnes of US gold to 980 million tonnes of
+ * Australian iron ore. Stepping through t → kt → Mt keeps three significant
+ * figures at every scale; printing either end in the other's unit would be
+ * unreadable.
+ */
+export function formatTonnes(n: number | null): string {
+  if (n == null) return "—";
+  const abs = Math.abs(n);
+  if (abs >= 1e6) return (n / 1e6).toFixed(abs >= 1e7 ? 0 : 1) + " Mt";
+  if (abs >= 1e4) return (n / 1e3).toFixed(abs >= 1e5 ? 0 : 1) + " kt";
+  return NF.format(Math.round(n)) + " t";
+}
+
 export function formatPercent(n: number | null, digits = 1): string {
   if (n == null) return "—";
   return n.toFixed(digits) + "%";
@@ -50,6 +65,8 @@ export function formatMetric(value: number | null, unit: string): string {
       return formatPopulation(value);
     case "km²":
       return formatArea(value);
+    case "tonnes":
+      return formatTonnes(value);
     case "ratio":
       return value.toFixed(1);
     // A point on a bounded index (the WGI's 0–100 governance scores). One

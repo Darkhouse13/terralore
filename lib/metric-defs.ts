@@ -91,6 +91,30 @@ export const METRIC_DEFS: Record<string, string> = {
   forestRents: "Net value of roundwood harvest as a share of GDP.",
   electricityAccess: "Share of the population with access to electricity.",
 
+  // resources — USGS physical production. The headline year is the USGS
+  // estimate; the year before it is the reported figure, and the metric window
+  // shows both. Nations that mine none of a commodity carry no card for it.
+  prodCopper:
+    "Copper mined from ore, by metal content. The latest year is a USGS estimate; the year before it is the reported figure.",
+  prodIronOre:
+    "Iron ore mined, measured as usable ore rather than iron content — the larger of the two figures USGS publishes. The latest year is an estimate.",
+  prodGold:
+    "Gold mined, by metal content. The latest year is a USGS estimate.",
+  prodLithium:
+    "Lithium mined, by lithium content, excluding US output which USGS withholds to protect company data. The latest year is an estimate.",
+  prodCobalt:
+    "Cobalt mined, by metal content — most of it a by-product of copper and nickel mining. The latest year is a USGS estimate.",
+  prodNickel:
+    "Nickel mined, by metal content. The latest year is a USGS estimate.",
+  prodRareEarths:
+    "Rare-earth oxide equivalent mined. Mining is only the first step; separation and refining are concentrated more narrowly still. The latest year is an estimate.",
+  prodBauxite:
+    "Bauxite mined, in dry tonnes — the ore aluminium is refined from. The latest year is a USGS estimate.",
+  prodZinc:
+    "Zinc mined, by metal content of concentrates and direct-shipping ores. The latest year is a USGS estimate.",
+  prodPhosphate:
+    "Phosphate rock mined, the raw material of most fertiliser. The latest year is a USGS estimate.",
+
   // military
   milExpPctGdp: "Military expenditure as a share of GDP.",
   milExpUsd: "Total military expenditure at current prices.",
