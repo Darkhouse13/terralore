@@ -6,6 +6,33 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-11 — GEO export layer (a65ddaf → 16d5695)
+
+Four commits: 433 markdown twins (dossiers, chronicles, rankings,
+commodities) + generator + byte-compare validator, `/llms.txt` +
+`/llms-full.txt` indexes, `rel="alternate"` discovery wiring, and
+`docs/geo-surface.md`.
+
+- **16:16:45Z** pushed `main` (`16d5695`) to origin; Coolify webhook fired.
+- **16:20:31Z** deploy landed — live `/country/FRA.md` first served 200
+  (polled every 15 s from push).
+- **16:21:30Z** verification battery, all green:
+  - `/country/FRA.md` 200, `text/markdown; charset=UTF-8`, 6,182 bytes —
+    **42 metric rows** across the nine domain tables (matches the dossier)
+  - `/llms.txt` 200 — 509 distinct terralore.co URLs; **10 sampled links
+    all 200** (dossier twins, chronicle twins, incl. SOL and TLS)
+  - `/llms-full.txt` 200 — **526,775 bytes (~527 KB)**, header states its
+    contents (53 rankings, 10 commodities, 186 nation summaries) and what
+    it deliberately omits (the ~291k-word chronicle corpus, one fetch away
+    at the chronicle twins)
+  - `/rankings/gdp` HTML carries
+    `<link rel="alternate" type="text/markdown" href="…/rankings/gdp.md"/>`
+- No IndexNow ping for this deploy: the `.md` twins are alternates of
+  canonical pages, not canonical pages (deliberately absent from the
+  sitemap — see docs/geo-surface.md §5); no canonical URL changed.
+
+---
+
 ## 2026-08-11 — brand codification + rankings surface (f328c3f → a65ddaf)
 
 Twelve commits: the ZENITH brand codification (components, favicon set,
