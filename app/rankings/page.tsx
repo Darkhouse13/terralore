@@ -124,8 +124,8 @@ export default function RankingsPage() {
           </p>
 
           <p className="mt-7 max-w-[46rem] font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
-            {RANKINGS.length} rankings across {groups.length} domains, assembled from
-            the same sourced figures as each nation&rsquo;s dossier. Only nations with
+            {RANKINGS.length}{" "}rankings across {groups.length}{" "}domains, assembled
+            from the same sourced figures as each nation&rsquo;s dossier. Only nations with
             a published figure are ranked — a gap is a gap, never a zero — and because
             these publishers carry each nation&rsquo;s latest available year, a table
             can mix vintages; every row shows the year its figure was observed.

@@ -191,7 +191,7 @@ export default async function RankingPage({
             style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
           />
           <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
-            The {top.length === 10 ? "ten" : String(top.length)} highest
+            The {top.length === 10 ? "ten" : String(top.length)}{" "}highest
           </h2>
           <p className="mt-2.5 max-w-[46rem] font-serif text-[1.02rem] italic leading-relaxed text-[#454f4c]">
             Bars are drawn to the highest value in the table. Highest, not best:
@@ -247,7 +247,7 @@ export default async function RankingPage({
                 <>
                   {unitPhrase && " "}This table mixes vintages: each publisher carries a
                   nation&rsquo;s latest available year, so the observations here run
-                  from {r.years!.min} to {r.years!.max} — every row shows its own.
+                  from {r.years!.min}{" "}to {r.years!.max}{" "}— every row shows its own.
                 </>
               )}
             </p>
@@ -390,7 +390,7 @@ export default async function RankingPage({
             </p>
           ))}
           <p className="mt-4 max-w-[680px] font-serif text-[0.95rem] italic leading-relaxed text-ink-2">
-            Table assembled {r.updated} from each nation&rsquo;s latest published
+            Table assembled {r.updated}{" "}from each nation&rsquo;s latest published
             observation. The same figure, with the same source, sits on each
             nation&rsquo;s dossier
             {r.aliasKeys.length > 0 && (
