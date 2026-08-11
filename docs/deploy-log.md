@@ -6,6 +6,62 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-11 — social publishing infrastructure (Postiz + publisher + daily runner)
+
+Not a site deploy — an infrastructure deploy beside it (no site route
+changed; the repo gains the publisher, its config, and two docs). Full
+architecture: `docs/social-publishing.md`; remaining click-work:
+`docs/social-apps-setup.md`.
+
+- **Postiz self-hosted** on the Coolify box: service `postiz`
+  (`aaga0pmd4y7elompbck0aafl`, project TERRA), template pin `v2.10.1`,
+  app+postgres+redis with persistent volumes, resource-capped
+  (1536M/2cpu + 512M/1cpu + 256M/0.5cpu — a spike hits its cgroup, not
+  the site builds). Domain `postiz.terralore.co` configured; **TLS
+  pending the one DNS A record** (Namecheap click-work, setup doc §0 —
+  ACME here is HTTP-01, it cannot precede DNS). Verified: app healthy;
+  Traefik routes the hostname (via forced resolve); admin login 200 over
+  the API; registration provably disabled (`Registration is disabled` on
+  a valid probe); org API key extracted to `/root/.postiz-admin` and the
+  runner env — never the repo.
+- **Crash-loop found and fixed while proving it**: once the stack joined
+  the shared `coolify` docker network (for the runner), the bare
+  `postgres`/`redis` hostnames became ambiguous — another stack answers
+  `postgres` there, and the app crash-looped on P1000 against a foreign
+  database (plus a Coolify quirk: `SERVICE_PASSWORD_POSTGRESQL`
+  regenerated on compose re-save while the volume kept the initdb-time
+  password; realigned with `ALTER USER`). Compose now pins the unique
+  container-scoped hostnames; the reasoning is committed as a comment in
+  `docs/social-publishing.md` §1 territory and the compose itself.
+- **Publisher** `scripts/social-publish.mjs` + committed slot config
+  `data/social-publish.json` (07:30/07:45/12:00/19:00/19:30
+  Africa/Casablanca — documented first guesses). Idempotency: local
+  posted-keys store → Postiz day-window query → deterministic UUIDv5
+  post ids that Postiz upserts on (tags investigated and rejected: the
+  public API cannot create them). Ledger: commit+push with rebase retry;
+  unresolvable push = loud failure, never un-scheduling.
+- **Daily runner**: service `terralore-social-runner`
+  (`v113yzpn4rzcv32nqam70td2`, node:22, 2048M/2cpu), repo clone over a
+  write deploy key (GitHub key 159960312), Coolify scheduled task
+  `daily-social-publish` at `0 4 * * *` UTC (≈05:00 Casablanca), 1800 s
+  timeout. Status lines for Marsad:
+  `/data/terralore-social/status/publish-status.jsonl` on the box.
+- **Proofs**: offline dry-run prints the 5-post staggered schedule;
+  second dry-run byte-identical in 19 ms (no regeneration); online
+  dry-run reports true per-platform state (all `platform not connected`,
+  exit 0 — the skip path is the live path until OAuth lands); upload
+  endpoint exercised with a real card PNG (201); runner→Postiz over the
+  shared network verified from inside the runner.
+- **Editorial fix en route**: today's plan surfaced a Pinterest caption
+  at 484/460 (`rk-tertiary-enrolment`, mixed vintages — a surface no
+  validator probe day had planned). The ranking template now drops the
+  vintage-explainer on Pinterest (rows carry years inline), and
+  `validate-social` gained an exhaustive sweep: every selectable surface
+  × platform (5,315 × 3), so caption-budget bugs are now structurally
+  unreachable, not probabilistically missed.
+
+---
+
 ## 2026-08-11 — the compare surface (16d5695 → fbcd3d8)
 
 Five commits (incl. the GEO ship record): the /compare pair set (504
