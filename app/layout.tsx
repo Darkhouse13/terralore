@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, IBM_Plex_Sans, Literata } from "next/font/google";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo";
 import "./globals.css";
@@ -105,6 +105,13 @@ export const metadata: Metadata = {
     },
   },
   category: "reference",
+};
+
+// The browser-chrome colour is the brand ground (depth-6) — the same token the
+// manifest, the apple icon's plate and the OG cards stand on, so a shared link,
+// an installed app and an open tab all frame the site in one colour.
+export const viewport: Viewport = {
+  themeColor: "#04161f",
 };
 
 export default function RootLayout({

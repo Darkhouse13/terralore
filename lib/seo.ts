@@ -167,10 +167,16 @@ export const publisher: Json = {
   "@type": "Organization",
   name: SITE_NAME,
   url: SITE_URL,
-  // icon1.png: the numbered pair icon0.svg/icon1.png replaced the single
-  // icon.png (Next emits multiple icons via number suffix). Google wants a
-  // raster logo, so the PNG — not the SVG — is the one JSON-LD names.
-  logo: { "@type": "ImageObject", url: abs("/icon1.png") },
+  // icon1.png: the ZENITH mark at 512 on its solid depth-6 ground, generated
+  // by scripts/build-icon.mjs. Google wants a raster logo that survives any
+  // backdrop, so the plated PNG — not the theme-adaptive SVG — is the one
+  // JSON-LD names. Width/height stated so engines need not fetch to know.
+  logo: {
+    "@type": "ImageObject",
+    url: abs("/icon1.png"),
+    width: 512,
+    height: 512,
+  },
   description: SITE_DESCRIPTION,
 };
 
