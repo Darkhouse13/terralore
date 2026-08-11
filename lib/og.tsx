@@ -11,17 +11,64 @@
 //
 // Constraints inherited from the routes this replaces: satori renders these,
 // so no CSS custom properties, no remote font, no remote image — everything
-// here is layout, literal colour, and inline SVG. The wordmark renders in the
-// default face (loading Literata would put a font fetch or a build-cache
-// reach on the card path); the terminal full stop carries the voice.
+// here is layout, literal colour, and inline SVG. The wordmark renders in
+// real Literata via a committed 4 KB glyph subset (assets/fonts/, exactly
+// the "Terralore." glyphs, instanced at the header's wght 420) read from
+// disk — zero fetch on the card path stays true.
 //
 // The routes stay SSG (`generateStaticParams` on the parameterised ones), so
 // every card regenerates at `next build` by construction.
 
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 import { BRAND, ZENITH_FULL } from "@/components/brand/geometry";
 import { strataSequence } from "@/components/brand/StrataPattern";
 
 export const OG_SIZE = { width: 1200, height: 630 };
+
+// The wordmark's face. Generated once with subset-font (harfbuzz) from the
+// Literata variable TTF — glyphs "Terralore." only, instanced at wght 420 /
+// opsz 36 — and committed, so the build never fetches it. Regeneration is
+// documented in docs/brand-codification.md.
+//
+// Geist must ride along, and FIRST. `ImageResponse` treats a `fonts` option
+// as a REPLACEMENT for its built-in default (`options.fonts || defaultFonts`
+// in @vercel/og), and satori resolves un-familied text against the whole
+// list in insertion order, then fetches missing glyphs from Google Fonts.
+// Proven offline: passing the 8-glyph subset alone sent every other
+// character on the card to fonts.googleapis.com — the exact build-time
+// network dependence these routes ban. With Geist first, body text keeps the
+// default face from the local file next itself ships, the wordmark alone
+// matches "Literata", every glyph resolves locally, zero fetches (verified
+// with fetch stubbed to throw). If a next upgrade moves the Geist file, the
+// build fails loudly here — never silently reach for the network instead.
+//
+// Declared weight is 400 (satori's Weight union has no 420); the subset file
+// is already instanced at wght 420, so the declaration only routes matching.
+// Cached per worker: satori wants ArrayBuffers, and every card in a build
+// shares the one read.
+type OgFont = { name: string; data: ArrayBuffer; weight: 400; style: "normal" };
+let fontsPromise: Promise<OgFont[]> | null = null;
+
+const toArrayBuffer = (buf: Buffer): ArrayBuffer =>
+  buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength) as ArrayBuffer;
+
+/** ImageResponse `fonts` for every OG card — pass to the options argument. */
+export function ogFonts() {
+  fontsPromise ??= Promise.all([
+    readFile(join(process.cwd(), "node_modules/next/dist/compiled/@vercel/og/Geist-Regular.ttf")),
+    readFile(join(process.cwd(), "assets/fonts/literata-wordmark-subset.ttf")),
+  ]).then(([geist, literata]) => [
+    { name: "geist", data: toArrayBuffer(geist), weight: 400 as const, style: "normal" as const },
+    {
+      name: "Literata",
+      data: toArrayBuffer(literata),
+      weight: 400 as const,
+      style: "normal" as const,
+    },
+  ]);
+  return fontsPromise;
+}
 
 // The Stratum palette as literals, shared by every card.
 export const OG = {
@@ -56,10 +103,15 @@ export function Signature() {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
       <ZenithMark size={46} />
-      <div style={{ display: "flex", fontSize: 30, color: OG.chalk, letterSpacing: -0.5 }}>
-        {/* satori lays the two runs out as flex items with a word gap; the
-            negative margin closes the seam so the stop sits on the wordmark */}
-        Terralore<span style={{ color: OG.copper, marginLeft: -7 }}>.</span>
+      <div
+        style={{
+          display: "flex",
+          fontFamily: "Literata",
+          fontSize: 30,
+          color: OG.chalk,
+        }}
+      >
+        Terralore<span style={{ color: OG.copper }}>.</span>
       </div>
     </div>
   );

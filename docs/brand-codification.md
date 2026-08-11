@@ -53,10 +53,21 @@ a dot in the literal ground colour would be invisible.
   outlining Literata needs a font-to-path step (e.g. opentype.js) this repo
   does not carry. When the social pipeline needs a standalone lockup file,
   add that step; do not export a lockup with a `<text>` element.
-- **The OG wordmark renders in satori's default face**, not Literata — loading
-  a font would put a fetch or a build-cache reach on the card path, and the
-  cards' own comments record why that is banned. The terminal stop carries the
-  voice.
+- **The OG wordmark renders in real Literata via a committed glyph subset**
+  (`assets/fonts/literata-wordmark-subset.ttf`, ~4 KB): exactly the
+  "Terralore." glyphs, instanced at wght 420 / opsz 36 with `subset-font`
+  (harfbuzz) from the Literata variable TTF (google/fonts, OFL). Regenerate
+  only if the wordmark's glyph set ever changes:
+  `subsetFont(literataVarTtf, "Terralore.", { targetFormat: "sfnt",
+  variationAxes: { wght: 420, opsz: 36 } })`.
+  **Gotcha, proven offline:** `ImageResponse`'s `fonts` option *replaces* the
+  built-in Geist rather than extending it, and satori then fetches every glyph
+  the provided fonts lack from fonts.googleapis.com — a silent network
+  dependence on the card path. `ogFonts()` in `lib/og.tsx` therefore ships
+  Geist (read from next's own compiled @vercel/og directory) first and the
+  Literata subset second; body text keeps the default face, only
+  `fontFamily: "Literata"` reaches the subset, and a fetch-stubbed render
+  confirms zero network calls.
 - **Breadcrumbs keep plain "Terralore"** (no stop): navigation is not a
   signature context, and a stop inside a breadcrumb trail reads as punctuation.
 

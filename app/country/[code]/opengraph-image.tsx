@@ -3,7 +3,7 @@ import { getCountry, allCodes } from "@/lib/countries";
 import { getDossier } from "@/lib/domains";
 import { getHistory } from "@/lib/histories";
 import { formatMetric } from "@/lib/format";
-import { OG, OG_SIZE, Eyebrow, OgShell, SourcedLine } from "@/lib/og";
+import { OG, OG_SIZE, Eyebrow, OgShell, SourcedLine, ogFonts } from "@/lib/og";
 
 /**
  * The per-nation social card, on the v2 ZENITH grammar (lib/og.tsx).
@@ -127,6 +127,6 @@ export default async function CountryOgImage({
         }
       />
     ),
-    size,
+    { ...size, fonts: await ogFonts() },
   );
 }

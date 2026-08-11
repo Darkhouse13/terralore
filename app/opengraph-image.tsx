@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { corpusStats } from "@/lib/chronology";
-import { OG, OG_SIZE, Eyebrow, OgShell, SourcedLine } from "@/lib/og";
+import { OG, OG_SIZE, Eyebrow, OgShell, SourcedLine, ogFonts } from "@/lib/og";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE } from "@/lib/seo";
 
 /**
@@ -17,7 +17,7 @@ export const alt = `${SITE_NAME} — ${SITE_TAGLINE}`;
 export const size = OG_SIZE;
 export const contentType = "image/png";
 
-export default function OpengraphImage() {
+export default async function OpengraphImage() {
   const stats = corpusStats();
   return new ImageResponse(
     (
@@ -65,6 +65,6 @@ export default function OpengraphImage() {
         }
       />
     ),
-    size,
+    { ...size, fonts: await ogFonts() },
   );
 }

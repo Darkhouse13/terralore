@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { COMMODITY_META } from "@/lib/commodity-meta";
 import { getCommodity } from "@/lib/commodities";
 import { formatTonnes } from "@/lib/format";
-import { OG, OG_SIZE, Eyebrow, OgShell, SourcedLine } from "@/lib/og";
+import { OG, OG_SIZE, Eyebrow, OgShell, SourcedLine, ogFonts } from "@/lib/og";
 
 /**
  * The per-commodity social card, on the v2 ZENITH grammar (lib/og.tsx).
@@ -89,6 +89,6 @@ export default async function CommodityOgImage({
         }
       />
     ),
-    size,
+    { ...size, fonts: await ogFonts() },
   );
 }
