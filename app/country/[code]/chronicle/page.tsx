@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { getCountry, allCodes } from "@/lib/countries";
 import { getHistory, hasHistory } from "@/lib/histories";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, chronicleDescription, chronicleLd, countryOgImages, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, chronicleDescription, chronicleLd, countryOgImages, mdTwinTypes, routes, SITE_NAME } from "@/lib/seo";
 import { meanwhileElsewhere, periodFor, themeSlug } from "@/lib/chronology";
 import { metricLinkFor } from "@/lib/annotations";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
@@ -59,7 +59,7 @@ export async function generateMetadata({
       `how ${meta.name} became a country`,
       ...history.eras.map((e) => e.title),
     ],
-    alternates: { canonical: path },
+    alternates: { canonical: path, types: mdTwinTypes(path) },
     openGraph: {
       type: "article",
       title: ogTitle,

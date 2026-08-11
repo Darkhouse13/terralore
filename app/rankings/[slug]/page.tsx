@@ -7,6 +7,7 @@ import { DOMAIN_META } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import {
   breadcrumbLd,
+  mdTwinTypes,
   rankingDescription,
   rankingLd,
   routes,
@@ -80,7 +81,7 @@ export async function generateMetadata({
       `highest ${lower}`,
       ...r.sources.map((s) => s.publisher),
     ],
-    alternates: { canonical: path },
+    alternates: { canonical: path, types: mdTwinTypes(path) },
     // The social card comes from this segment's own opengraph-image.tsx.
     openGraph: {
       type: "website",

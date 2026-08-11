@@ -20,6 +20,16 @@ export function abs(path: string): string {
   return path.startsWith("http") ? path : `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
+/**
+ * The markdown-twin alternate for a canonical path (see lib/geo.ts) — spread
+ * into `Metadata.alternates.types` so the HTML page advertises its .md twin
+ * with `<link rel="alternate" type="text/markdown">`. Answer-engine crawlers
+ * that honour alternates get the cheap, quotable version in one hop.
+ */
+export function mdTwinTypes(path: string): Record<string, string> {
+  return { "text/markdown": abs(`${path}.md`) };
+}
+
 export const routes = {
   home: () => "/",
   atlas: () => "/atlas",

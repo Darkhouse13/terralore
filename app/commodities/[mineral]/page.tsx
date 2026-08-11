@@ -16,6 +16,7 @@ import {
   breadcrumbLd,
   commodityDescription,
   commodityLd,
+  mdTwinTypes,
   routes,
   SITE_NAME,
 } from "@/lib/seo";
@@ -61,7 +62,7 @@ export async function generateMetadata({
       `${lower} production ${c.years.estimate}`,
       "USGS Mineral Commodity Summaries",
     ],
-    alternates: { canonical: path },
+    alternates: { canonical: path, types: mdTwinTypes(path) },
     // The social card comes from this segment's own opengraph-image.tsx.
     openGraph: {
       type: "website",

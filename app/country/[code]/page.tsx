@@ -7,7 +7,7 @@ import { getHistory } from "@/lib/histories";
 import { annotationsFor } from "@/lib/annotations-server";
 import Dossier from "@/components/dossier/Dossier";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, dossierDescription, dossierLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, dossierDescription, dossierLd, mdTwinTypes, routes, SITE_NAME } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
@@ -36,7 +36,7 @@ export async function generateMetadata({
   return {
     title: meta.name,
     description,
-    alternates: { canonical: path },
+    alternates: { canonical: path, types: mdTwinTypes(path) },
     openGraph: {
       type: "profile",
       title: `${meta.name} — a sourced dossier`,
