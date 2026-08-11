@@ -21,8 +21,19 @@ import pool from "@/data/social-hashtags.json";
 import { allTwins } from "@/lib/geo";
 import sitemap from "@/app/sitemap";
 import { SITE_URL } from "@/lib/seo";
+import { allRankings } from "@/lib/rankings";
+import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
+import { allComparePages } from "@/lib/compare";
+import { allHistories } from "@/lib/histories";
 import { planDay, ledgerEntry, parseDate, isoAddDays } from "./lib/social/calendar.mjs";
-import { dateIndex } from "./lib/social/subjects.mjs";
+import {
+  dateIndex,
+  onThisDaySubject,
+  rankingSubject,
+  commoditySubject,
+  compareSubject,
+  formationSubject,
+} from "./lib/social/subjects.mjs";
 import {
   captionFor,
   assembleCaption,
@@ -106,31 +117,35 @@ function checkCaption(text, platform, label) {
   }
 }
 
+function checkSubjectCaptions(subject, label) {
+  for (const platform of PLATFORMS) {
+    const spec = captionFor(subject, platform);
+    for (const block of spec.blocks) {
+      if (block.kind === "authored" && BANNED.test(block.text)) {
+        fail(
+          `${label}: authored copy for ${subject.type} trips the neutrality scan: ` +
+            `"${block.text.match(BANNED)[0]}" in "${block.text.slice(0, 60)}…"`,
+        );
+      }
+    }
+    if (!CITATION_RE.test(spec.citation)) {
+      fail(`${label}: citation line does not match the GEO template: "${spec.citation}"`);
+    }
+    const poolTags = allPoolTags();
+    const tags = hashtagsFor(spec.type);
+    if (tags.length > 5) fail(`${label}: ${tags.length} hashtags — the cap is 5`);
+    for (const t of tags) if (!poolTags.has(t)) fail(`${label}: hashtag ${t} is not in the committed pool`);
+    checkCaption(assembleCaption(spec, platform), platform, `${label}/${subject.type}/${platform}`);
+  }
+}
+
 function checkPlan(plan, label) {
   const subjects = [plan.anchor, plan.dataCard, plan.carousel.subject];
   for (const subject of subjects) {
     if (!published.has(subject.targetPath)) {
       fail(`${label}: target ${subject.targetPath} is not in the sitemap or twins`);
     }
-    for (const platform of PLATFORMS) {
-      const spec = captionFor(subject, platform);
-      for (const block of spec.blocks) {
-        if (block.kind === "authored" && BANNED.test(block.text)) {
-          fail(
-            `${label}: authored copy for ${subject.type} trips the neutrality scan: ` +
-              `"${block.text.match(BANNED)[0]}" in "${block.text.slice(0, 60)}…"`,
-          );
-        }
-      }
-      if (!CITATION_RE.test(spec.citation)) {
-        fail(`${label}: citation line does not match the GEO template: "${spec.citation}"`);
-      }
-      const poolTags = allPoolTags();
-      const tags = hashtagsFor(spec.type);
-      if (tags.length > 5) fail(`${label}: ${tags.length} hashtags — the cap is 5`);
-      for (const t of tags) if (!poolTags.has(t)) fail(`${label}: hashtag ${t} is not in the committed pool`);
-      checkCaption(assembleCaption(spec, platform), platform, `${label}/${subject.type}/${platform}`);
-    }
+    checkSubjectCaptions(subject, label);
   }
   // The anchor's precision claim must be supported by the record it selected.
   const { kind, event } = plan.anchor;
@@ -174,6 +189,37 @@ for (const iso of probes) {
     }
     iso = isoAddDays(iso, 1);
   }
+}
+
+// ── The exhaustive caption sweep ─────────────────────────────────────────
+// Probe plans exercise the machinery on a handful of days; this sweeps the
+// SPACE: every surface any plan could ever select — all rankings, all
+// commodities, every computable compare page, every formation story, and
+// every indexed event at its own precision tier — through every platform's
+// caption rules. The class of bug this exists for: a caption whose authored
+// blocks alone exceed a platform margin on a surface no probe day happened
+// to plan (found 2026-08-11: rk-tertiary-enrolment's mixed-vintage note
+// pushed the Pinterest caption to 484 of 460).
+{
+  const sweepDate = parseDate("2026-08-11");
+  const sweepSubjects = [
+    ...allRankings().map((r) => rankingSubject(r)),
+    ...allCommodities().map((c) => commoditySubject(c, commoditiesSource(), commoditiesUpdated())),
+    ...allComparePages().map((p) => compareSubject(p)).filter(Boolean),
+    ...allHistories()
+      .filter((h) => h.status === "published")
+      .map((h) => formationSubject(h.code))
+      .filter(Boolean),
+    ...idx.all.map((e) =>
+      onThisDaySubject(e, e.precision === "day" ? "day" : e.precision === "month" ? "month" : "year", sweepDate),
+    ),
+  ];
+  for (const subject of sweepSubjects) {
+    checkSubjectCaptions(subject, `sweep/${subject.seed ?? subject.type}`);
+  }
+  console.log(
+    `  caption sweep: ${sweepSubjects.length} subjects × ${PLATFORMS.length} platforms — every selectable surface`,
+  );
 }
 
 /* ── verdict ──────────────────────────────────────────────────────────────── */

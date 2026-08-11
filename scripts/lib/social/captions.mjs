@@ -121,8 +121,12 @@ export function rankingCaption(subject, platform) {
     a(`${subject.label}: the ${rows === 3 ? "three" : "ten"} highest published figures.`),
     a(lines.join("\n")),
     a(
+      // The vintage explainer is structural-shortened away on Pinterest: the
+      // years already ride every row inline ("(2023)"), so the sentence is
+      // explanatory rather than load-bearing there, and its 63 characters are
+      // what pushed long-labelled mixed-vintage rankings past the 460 margin.
       `Of ${num(subject.totalRanked)} ${subject.isMineral ? "producers listed" : "nations ranked"} in full` +
-        `${subject.mixedYears ? "; each figure is its nation's latest observation year" : ""}. ` +
+        `${subject.mixedYears && platform !== "pinterest" ? "; each figure is its nation's latest observation year" : ""}. ` +
         (subject.isMineral
           ? "A nation absent from the USGS list is not recorded as producing none."
           : "Nations without published data are unranked, never zero."),
