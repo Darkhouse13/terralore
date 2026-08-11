@@ -22,7 +22,8 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { BRAND, ZENITH_FULL } from "@/components/brand/geometry";
-import { strataSequence } from "@/components/brand/StrataPattern";
+import { CARD } from "@/components/brand/palette";
+import { strataSequence } from "@/components/brand/strata";
 
 export const OG_SIZE = { width: 1200, height: 630 };
 
@@ -70,18 +71,10 @@ export function ogFonts() {
   return fontsPromise;
 }
 
-// The Stratum palette as literals, shared by every card.
-export const OG = {
-  copper: BRAND.copper,
-  copperBright: "#e39a67",
-  verdigris: "#7cc4b3",
-  verdigrisMid: "#57a695",
-  chalkHi: "#f2f6f4",
-  chalk: BRAND.chalk,
-  chalk2: "#afbfc1",
-  chalk3: "#8497a0",
-  ground: "radial-gradient(120% 120% at 12% 0%, #0c2e3d 0%, #04161f 48%, #04161f 100%)",
-} as const;
+// The Stratum palette as literals, shared by every card — the definition
+// lives in components/brand/palette.ts (JSX-free) so the social pipeline's
+// node renderer reads the same values this shell does.
+export const OG = CARD;
 
 /** The ZENITH mark, drawn inline for satori — full cut, chalk, copper dot. */
 export function ZenithMark({ size = 46 }: { size?: number }) {
