@@ -7,6 +7,7 @@
 import type { CountryHistory, CountryMeta, DataSource, Source } from "./types";
 import type { Commodity } from "./commodities";
 import type { Ranking } from "./rankings";
+import type { ComparePage } from "./compare";
 import { formatMetric, formatTonnes } from "./format";
 
 export const SITE_URL = "https://terralore.co";
@@ -40,6 +41,11 @@ export const routes = {
   commodity: (slug: string) => `/commodities/${slug}`,
   rankings: () => "/rankings",
   ranking: (slug: string) => `/rankings/${slug}`,
+  compare: () => "/compare",
+  // The slug orders the two ADM0_A3 codes alphabetically ("deu-vs-fra");
+  // display copy says "Germany and France compared" — the "-vs-" is search
+  // grammar in the URL, never language on the page (docs/compare-surface.md).
+  comparePair: (slug: string) => `/compare/${slug}`,
 };
 
 // ── Social cards ───────────────────────────────────────────────────────────
@@ -199,6 +205,31 @@ export function rankingDescription(r: Ranking): string {
   return clampText(
     `${r.label} ranked across ${universe}, highest to lowest. ${lead}` +
       `Each figure carries its publisher and observation year.`,
+  );
+}
+
+/** The compare hub — the whole pair set in one line with its numbers. */
+export function compareHubDescription(pairCount: number, eventCount: number): string {
+  return clampText(
+    `${pairCount} nation pairs read side by side: every shared indicator with its ` +
+      `source and vintage, and ${eventCount.toLocaleString("en")} crossed chronicle ` +
+      `events. Figures compared, never graded.`,
+  );
+}
+
+/**
+ * One pair page. Real figures — the shared-indicator count and the crossed-
+ * event count — and no ranking language: the page sets figures beside each
+ * other, it does not grade nations.
+ */
+export function compareDescription(page: ComparePage): string {
+  const events =
+    page.sharedEvents.length > 0
+      ? `and the ${page.sharedEvents.length} events their chronicles record of each other`
+      : `their chronicles record no events of each other`;
+  return clampText(
+    `${page.a.name} and ${page.b.name} side by side: ${page.bothCount} shared sourced ` +
+      `indicators across ${page.domains.length} domains, ${events}.`,
   );
 }
 
@@ -440,6 +471,44 @@ export function rankingLd(r: Ranking): Json {
       url: s.url,
       publisher: { "@type": "Organization", name: s.publisher },
     })),
+  };
+}
+
+/**
+ * A pair page, as a Dataset about two Countries. The description states the
+ * assembly rule (existing sourced observations set side by side) so an engine
+ * cannot read the page as a verdict; `citation` defers to the two dossiers'
+ * Datasets, which name every upstream publisher.
+ */
+export function compareLd(page: ComparePage, metaA: CountryMeta, metaB: CountryMeta): Json {
+  const url = abs(routes.comparePair(page.slug));
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": `${url}#dataset`,
+    name: `${page.a.name} and ${page.b.name} compared`,
+    description:
+      `${page.bothCount} indicators both nations publish, set side by side with each ` +
+      `observation's year, plus ${page.sharedEvents.length} sourced chronicle events in ` +
+      `which either nation's history names the other. Assembled from the two national ` +
+      `dossiers and chronicles; figures are compared, never graded.`,
+    url,
+    isAccessibleForFree: true,
+    creator: publisher,
+    dateModified: page.updated,
+    about: [countryLd(metaA), countryLd(metaB)],
+    citation: [
+      {
+        "@type": "Dataset",
+        name: `${page.a.name} — national indicators`,
+        url: abs(routes.dossier(page.a.code)),
+      },
+      {
+        "@type": "Dataset",
+        name: `${page.b.name} — national indicators`,
+        url: abs(routes.dossier(page.b.code)),
+      },
+    ],
   };
 }
 
