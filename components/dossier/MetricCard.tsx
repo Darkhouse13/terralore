@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { DataSource, Metric } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import { metricDefinition } from "@/lib/metric-defs";
+import { commodityByMetricKey } from "@/lib/commodity-meta";
 import Sparkline from "./Sparkline";
 
 // A single metric tile. Presentational: when it has a chartable series it becomes
@@ -23,6 +25,8 @@ export default function MetricCard({
   const hasSeries = !empty && !!metric.series && metric.series.length > 1;
   const clickable = hasSeries && !!onOpen;
   const info = metricDefinition(metric.key, empty, source?.publisher);
+  // USGS production cards carry the inverse view: this commodity, every producer.
+  const commodity = empty ? undefined : commodityByMetricKey.get(metric.key);
 
   return (
     <div
@@ -93,6 +97,20 @@ export default function MetricCard({
         </div>
         {hasSeries && <Sparkline series={metric.series!} />}
       </div>
+
+      {/* the inverse view: who supplies the world */}
+      {commodity && (
+        <div className="mt-3">
+          <Link
+            href={`/commodities/${commodity.slug}`}
+            prefetch={false}
+            onClick={(e) => e.stopPropagation()}
+            className="font-mono text-[10px] uppercase tracking-[0.14em] text-chalk-3 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
+          >
+            Who supplies the world →
+          </Link>
+        </div>
+      )}
 
       {/* source + vintage */}
       <div className="mt-4 flex items-center justify-between font-mono text-[10px] tracking-[0.04em] text-chalk-4">

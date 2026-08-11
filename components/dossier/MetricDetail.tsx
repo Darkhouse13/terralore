@@ -2,10 +2,12 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
+import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import type { DataSource, Metric } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import { metricDefinition } from "@/lib/metric-defs";
+import { commodityByMetricKey } from "@/lib/commodity-meta";
 import MetricChart, { type ChartAnnotation, type ChartLine } from "./MetricChart";
 import MetricMap from "./MetricMap";
 
@@ -585,6 +587,15 @@ export default function MetricDetail({
                 <div className="mt-1 font-mono text-[10.5px] tracking-[0.04em] text-chalk-4">
                   {source.publisher} · {source.license} · accessed {source.accessed}
                 </div>
+                {commodityByMetricKey.has(metric.key) && (
+                  <Link
+                    href={`/commodities/${commodityByMetricKey.get(metric.key)!.slug}`}
+                    prefetch={false}
+                    className="mt-2.5 inline-block font-mono text-[11px] uppercase tracking-[0.12em] text-chalk-2 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
+                  >
+                    Who supplies the world · {commodityByMetricKey.get(metric.key)!.name} →
+                  </Link>
+                )}
                 {shownCompare.length > 0 && (
                   <p className="mt-2 font-serif text-[12.5px] italic leading-relaxed text-chalk-4">
                     Compared nations draw on the same indicator and source; figures show each nation&apos;s latest available year.
