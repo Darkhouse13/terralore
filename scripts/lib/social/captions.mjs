@@ -84,9 +84,9 @@ export function onThisDayCaption(subject, platform) {
   const e = subject.event;
   const head =
     subject.kind === "day"
-      ? `On this day in ${e.year} — ${e.dateText}.`
+      ? `On this day, ${e.dateText}.`
       : subject.kind === "month"
-        ? `This month in ${e.year} — ${e.dateText}.`
+        ? `This month in history — ${e.dateText}.`
         : `${subject.yearsAgo} years ago, in ${e.yearText}.`;
   const blocks = [
     a(head),

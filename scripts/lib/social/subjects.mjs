@@ -372,7 +372,8 @@ export function altText(subject) {
       );
     case "formation":
       return clamp(
-        `${subject.nationName}: ${subject.tagline}. Founding: ${subject.foundingText} — ${subject.foundingLabel}. ` +
+        `${subject.nationName}: ${subject.tagline.replace(/\.$/, "")}. ` +
+          `Founding: ${subject.foundingText} — ${subject.foundingLabel}. ` +
           `Key sourced events: ${subject.events.map((e) => `${e.yearText} ${e.title}`).join("; ")}.`,
         480,
       );

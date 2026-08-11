@@ -63,6 +63,12 @@ spatial view. See the `vision-nations-encyclopedia` memory.
   `hasDomainData`. Imports the committed `data/domains/*.json` and registers them in `FILES`.
 - `lib/format.ts` → JSON-free formatters (`formatMetric` dispatches by unit), client-safe.
 - `lib/histories/` → the registry (`index.ts`) + `france.ts` + `data/*.json`.
+- `scripts/build-social.mjs` + `scripts/lib/social/` → the daily social artifact
+  (see `docs/social-surface.md`): renders cards + a per-day manifest into
+  gitignored `social-out/`, deterministic per (date, `data/social-ledger.json`).
+  Runs OUTSIDE `next build`, via next's own compiled satori/resvg with fetch
+  stubbed to throw (committed font subsets in `assets/fonts/`; no emoji — flags
+  never reach cards). `scripts/validate-social.mjs` is in `npm run validate`.
 
 ## Canonical country code
 
