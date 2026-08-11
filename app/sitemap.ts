@@ -105,16 +105,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const history = getHistory(country.code);
     const published = history?.status === "published";
-    // Authored histories carry an ISO verification date; bare dossiers move
-    // when their domain data files do.
-    const lastModified =
-      published && history.updated
-        ? history.updated
-        : getDossier(country.code)?.updated || CORPUS_AT;
+    const historyUpdated = (published && history.updated) || undefined;
+    const dossierUpdated = getDossier(country.code)?.updated || undefined;
+    // The dossier page renders BOTH corpora — the authored history hero and
+    // the data dossier — so its lastmod is whichever moved later. Using only
+    // the history date under-reported every data refresh: when the dossier
+    // gained three domains, 170 nations' pages still advertised their old
+    // history dates. ISO yyyy-mm-dd strings, so a lexical sort is a date sort.
+    const dossierLastMod =
+      [historyUpdated, dossierUpdated].filter(Boolean).sort().at(-1) ?? CORPUS_AT;
 
     entries.push({
       url: abs(routes.dossier(country.code)),
-      lastModified,
+      lastModified: dossierLastMod,
       changeFrequency: "monthly",
       // A nation with a published history is a far richer document than a
       // metadata-only dossier, so it outranks one.
@@ -126,16 +129,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // The chronicle carries the full sourced prose in the initial HTML, so it
     // is the canonical readable document for a nation's history — it outranks
     // the journey, which is the same material as an interactive experience.
+    // Both present the history alone, so the history's own date — not the
+    // dossier's — is the honest lastmod here.
     entries.push({
       url: abs(routes.chronicle(country.code)),
-      lastModified,
+      lastModified: historyUpdated ?? CORPUS_AT,
       changeFrequency: "yearly",
       priority: 0.8,
     });
 
     entries.push({
       url: abs(routes.journey(country.code)),
-      lastModified,
+      lastModified: historyUpdated ?? CORPUS_AT,
       changeFrequency: "yearly",
       priority: 0.6,
     });
