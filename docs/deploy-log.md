@@ -6,6 +6,34 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-11 — the compare surface (16d5695 → fbcd3d8)
+
+Five commits (incl. the GEO ship record): the /compare pair set (504
+pages: 311 land-border, 163 G20, 30 curated; 4 gate-dropped and
+recorded), the routes + hub, the discovery wiring (504 markdown twins,
+OG cards, sitemap, llms.txt Comparisons section), and
+`docs/compare-surface.md`.
+
+- **17:13:03Z** pushed `main` (`fbcd3d8`); Coolify webhook fired.
+- **17:15:50Z** deploy landed — live `/compare/deu-vs-fra` first served
+  200 (polled every 15 s from push; the 2,391-page build).
+- **17:16:20Z** verification battery, all green:
+  - five sample pairs (deu-vs-fra dense, alb-vs-kos sparse, bfa-vs-gha
+    zero-events, ind-vs-pak and kos-vs-srb disputed): HTML 200, twin 200
+    `text/markdown`, OG card 200 `image/png` — all fifteen URLs
+  - `/compare` hub 200; `/compare/fra-vs-deu` → **308** →
+    `/compare/deu-vs-fra`; `/compare/xxx-vs-yyy` → 404
+  - live sitemap carries exactly **505** `/compare…` URLs; live
+    `/llms.txt` lists **504** compare twins
+  - kos-vs-srb serves its "Entangled histories" (18 events, both
+    archives); bfa-vs-gha serves the plain zero-events statement
+- **17:16:35Z** IndexNow: 505 URLs (hub + 504 pairs) in one batch →
+  **HTTP 200**. (Google needs no ping — sitemap registered in GSC,
+  lastmod honest: per pair, max of the two dossiers' refreshes and two
+  chronicles' verification dates.)
+
+---
+
 ## 2026-08-11 — GEO export layer (a65ddaf → 16d5695)
 
 Four commits: 433 markdown twins (dossiers, chronicles, rankings,
