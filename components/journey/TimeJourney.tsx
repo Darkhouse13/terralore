@@ -6,7 +6,7 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { CountryHistory, CountryMeta } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
 import { buildMoments, bigYear, momentEraIndex, nextEraStart, type Moment } from "@/lib/journey";
-import Mark from "@/components/Mark";
+import Mark from "@/components/brand/Mark";
 import { formatPopulation } from "@/lib/format";
 import TimelineRail from "./TimelineRail";
 import ChapterDrawer from "./ChapterDrawer";
@@ -229,7 +229,7 @@ export default function TimeJourney({
 
       {/* The mark — anchors the stage to the site the way a colophon does */}
       <div className="absolute bottom-[108px] left-[34px] z-20 hidden h-11 w-11 place-items-center rounded-full border border-copper/30 bg-[rgba(4,22,31,0.7)] md:grid">
-        <Mark size={22} />
+        <Mark size={22} tone="dark" />
       </div>
 
       {/* Bottom rail */}

@@ -11,7 +11,8 @@ import Link from "next/link";
 import GlobeLite, { type StatehoodClaim, type TimeEventTuple } from "./GlobeLite";
 import TimeRail, { type RailPeriod } from "./TimeRail";
 import CountryCard from "./CountryCard";
-import Mark from "./Mark";
+import Mark from "./brand/Mark";
+import Wordmark from "./brand/Wordmark";
 import { formatMetric } from "@/lib/format";
 import { choroColor, choroGradient } from "@/lib/choropleth";
 import type { CountryMeta } from "@/lib/types";
@@ -251,10 +252,8 @@ export default function AtlasHome({
         className="reveal absolute left-6 top-6 z-20 flex items-center gap-3 md:left-11 md:top-8"
         style={reveal(0.35)}
       >
-        <Mark size={26} />
-        <span className="font-mono text-[13px] uppercase tracking-[0.28em] text-copper">
-          Terralore
-        </span>
+        <Mark size={30} tone="dark" />
+        <Wordmark tone="dark" className="text-[19px] font-[420] tracking-[0.01em]" />
       </div>
 
       {/* Index link */}

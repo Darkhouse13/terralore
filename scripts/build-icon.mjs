@@ -1,114 +1,116 @@
 #!/usr/bin/env node
 // ── The mark ────────────────────────────────────────────────────────────────
-// Generates every raster/vector form of the Terralore mark from one geometry:
+// Generates every raster/vector form of the Terralore mark — ZENITH: horizon,
+// dome, meridians, and the copper point at the zenith — from the two frozen
+// cuts. Geometry source of truth: docs/brand/exploration-svgs/ and the
+// construction tables in DESIGN.md ("The brand mark — ZENITH"); the in-app
+// twin of these paths lives in components/brand/geometry.ts. The paths are
+// final — clean them, never redraw them.
 //
-//   app/icon0.svg       the favicon — TRANSPARENT, circular, `sizes="any"`.
-//                       This is what a browser tab actually shows; SVG keeps
-//                       the bands crisp at 16px where a downscaled PNG smears.
-//   app/icon1.png       512px transparent raster — the Organization logo the
-//                       JSON-LD points at (Google wants a raster) and the
-//                       fallback for browsers that skip SVG favicons.
-//   app/favicon.ico     16+32+48 PNG-encoded ICO — the file browsers weight
-//                       most heavily for the tab, served FIRST in the head, and
-//                       the one place the old gold compass survived longest
-//                       (a binary matches no grep; it sat there through two
-//                       redesign passes). Same PNG-in-ICO structure the old
-//                       file used, so compatibility is proven by its own past.
-//   app/apple-icon.png  180px on a SOLID deep ground. Deliberate: iOS
-//                       composites transparency onto black and does its own
-//                       corner masking, so a transparent apple-touch-icon
-//                       renders as a mangled black square. Solid is correct
-//                       here and only here.
+//   app/icon0.svg        the favicon — TRANSPARENT compact cut, theme-adaptive:
+//                        ink by default, chalk under prefers-color-scheme:dark,
+//                        so it reads on both tab-bar colours. `sizes="any"`.
+//   app/favicon.ico      16+32+48 PNG-encoded ICO — the file browsers weight
+//                        most heavily. Rasters cannot media-query, so these
+//                        sit chalk on a depth-6 rounded plate: legible on any
+//                        tab bar by carrying their own ground.
+//   app/icon1.png        512 px, full cut with the copper accent on SOLID
+//                        depth-6 — the Organization logo the JSON-LD points at
+//                        (Google wants a raster that survives any backdrop)
+//                        and the fallback for browsers that skip SVG favicons.
+//   app/apple-icon.png   180 px on solid depth-6. iOS composites transparency
+//                        onto black and does its own corner masking; solid is
+//                        correct here and only here… and now everywhere, since
+//                        one-colour-on-transparent cannot survive both tab
+//                        themes as a raster.
+//   public/icon-192.png  manifest icons (app/manifest.ts). The mark is inset
+//   public/icon-512.png  to the maskable safe zone — a launcher may crop these
+//                        to a circle of 80% of the frame.
 //
-// The mark itself is the STRATUM signature reduced to its legible minimum: a
-// sphere cut in section, five bands, ringed by the shoal. Five, not the seven
-// the first cut had — at 16px a 3%-tall band is sub-pixel mush, and a favicon
-// that only reads at 512px is a poster, not a favicon.
-//
-// The replaced mark was a gold compass rose on black — the old identity's
-// logo, which survived two redesign passes in app/apple-icon.png because a
-// binary file matches no grep.
+// The replaced mark was the STRATUM sphere-in-section (and before it, a gold
+// compass rose that survived two redesigns inside binaries no grep could see).
 //
 // Run: node scripts/build-icon.mjs   (chained into `npm run build-data`)
 
-import { writeFileSync, rmSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-// STRATUM tokens as literals — this runs outside the CSS layer.
-const DEPTH_6 = "#04161f";
-const DEPTH_5 = "#082230";
-const SHOAL = "#276f80";
-const LIMESTONE = "#ebe9e0";
+// Stratum tokens as literals — this runs outside the CSS layer.
+const CHALK = "#e6ecea";
+const INK = "#16201e";
 const COPPER = "#c87244";
-const VERDIGRIS = "#57a695";
+const DEPTH_6 = "#04161f";
+
+// The two frozen cuts (see components/brand/geometry.ts — keep in step).
+const FULL = {
+  vb: 96,
+  path: "M8 66 H88 M16 66 A32 32 0 0 1 80 66 M48 66 V34 M30 66 A18 32 0 0 1 48 34 M48 34 A18 32 0 0 1 66 66",
+  stroke: 5.5,
+  dot: { cx: 48, cy: 21, r: 4.5 },
+};
+const COMPACT = {
+  vb: 32,
+  path: "M2 23.5 H30 M6 23.5 A10 10 0 0 1 26 23.5 M16 23.5 V13.5 M10.5 23.5 A5.5 10 0 0 1 16 13.5 M16 13.5 A5.5 10 0 0 1 21.5 23.5",
+  stroke: 2.75,
+  dot: { cx: 16, cy: 8.5, r: 2 },
+};
 
 /**
- * One geometry, parameterised only by canvas size.
- *
- * Band edges are fractions of the sphere's diameter, tuned for the 16px tab:
- * the limestone cap and the deep bottom are the two big fields that carry the
- * silhouette on dark and light tab bars respectively; copper and verdigris are
- * the two thin signals between them; the shoal ring draws the circle's edge on
- * any ground, which is what lets the background be transparent without the
- * mark dissolving into a matching backdrop.
+ * One cut as SVG. `margin` (in grid units) pads the viewBox symmetrically —
+ * how the plate forms buy clearspace without touching the drawing. `accent`
+ * only ever applies to the full cut: the compact cut is one-colour by
+ * construction (DESIGN.md).
  */
-function markSvg(size, { background = null } = {}) {
-  const c = size / 2;
-  const r = size * 0.46;
-  const stroke = Math.max(1, size * 0.036);
-  const top = c - r;
-  const d = r * 2;
-
-  const BANDS = [
-    [0.0, 0.28, LIMESTONE],
-    [0.28, 0.37, COPPER],
-    [0.37, 0.47, DEPTH_5],
-    [0.47, 0.59, VERDIGRIS],
-    [0.59, 1.0, DEPTH_5],
-  ];
-
-  const bands = BANDS.map(
-    ([a, b, fill]) =>
-      `<rect x="0" y="${(top + a * d).toFixed(2)}" width="${size}" height="${((b - a) * d + 0.75).toFixed(2)}" fill="${fill}"/>`,
-  ).join("");
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}">
+function markSvg(cut, { fg, accent = false, background = null, radius = 0, margin = 0 } = {}) {
+  const vb = cut.vb + margin * 2;
+  const dot = accent ? COPPER : fg;
+  const plate = background
+    ? `<rect x="${-margin}" y="${-margin}" width="${vb}" height="${vb}" rx="${radius}" fill="${background}"/>`
+    : "";
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${-margin} ${-margin} ${vb} ${vb}">
   <title>Terralore</title>
-  <defs><clipPath id="s"><circle cx="${c}" cy="${c}" r="${r}"/></clipPath></defs>
-  ${background ? `<rect width="${size}" height="${size}" fill="${background}"/>` : ""}
-  <g clip-path="url(#s)">${bands}</g>
-  <circle cx="${c}" cy="${c}" r="${r}" fill="none" stroke="${SHOAL}" stroke-width="${stroke}"/>
+  ${plate}
+  <path d="${cut.path}" fill="none" stroke="${fg}" stroke-width="${cut.stroke}"/>
+  <circle cx="${cut.dot.cx}" cy="${cut.dot.cy}" r="${cut.dot.r}" fill="${dot}"/>
 </svg>`;
 }
 
-// ── the favicon: transparent SVG ────────────────────────────────────────────
-const svg = markSvg(48);
-writeFileSync(join(root, "app/icon0.svg"), svg);
+const png = (svg, size) =>
+  sharp(Buffer.from(svg)).resize(size, size).png({ compressionLevel: 9 }).toBuffer();
 
-// ── the logo raster: 512, transparent ───────────────────────────────────────
-const png = await sharp(Buffer.from(markSvg(512))).png({ compressionLevel: 9 }).toBuffer();
-writeFileSync(join(root, "app/icon1.png"), png);
+// ── the favicon: transparent SVG, theme-adaptive ────────────────────────────
+// A vector favicon may carry a media query; rasters below carry a plate.
+const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Terralore</title>
+  <style>svg{color:${INK}}@media(prefers-color-scheme:dark){svg{color:${CHALK}}}</style>
+  <path d="${COMPACT.path}" fill="none" stroke="currentColor" stroke-width="${COMPACT.stroke}"/>
+  <circle cx="${COMPACT.dot.cx}" cy="${COMPACT.dot.cy}" r="${COMPACT.dot.r}" fill="currentColor"/>
+</svg>`;
+writeFileSync(join(root, "app/icon0.svg"), faviconSvg);
 
-// The old single-file name is superseded by the numbered pair; leave nothing
-// behind to double-emit.
-rmSync(join(root, "app/icon.png"), { force: true });
+// ── the logo raster: 512, full cut, accent, solid ground ────────────────────
+const logoSvg = markSvg(FULL, { fg: CHALK, accent: true, background: DEPTH_6, margin: 16 });
+writeFileSync(join(root, "app/icon1.png"), await png(logoSvg, 512));
 
 // ── the apple icon: 180, solid ground ───────────────────────────────────────
-const apple = await sharp(Buffer.from(markSvg(180, { background: DEPTH_6 })))
-  .png({ compressionLevel: 9 })
-  .toBuffer();
-writeFileSync(join(root, "app/apple-icon.png"), apple);
+writeFileSync(join(root, "app/apple-icon.png"), await png(logoSvg, 180));
 
-// ── the .ico: 16 + 32 + 48, PNG-encoded ─────────────────────────────────────
+// ── the manifest icons: 192 + 512, maskable-safe inset ──────────────────────
+// Safe zone is the central 80% circle; margin 24 puts the 80-unit horizon at
+// 80/144 ≈ 56% of the frame — inside the zone with the dot included.
+const maskableSvg = markSvg(FULL, { fg: CHALK, accent: true, background: DEPTH_6, margin: 24 });
+writeFileSync(join(root, "public/icon-192.png"), await png(maskableSvg, 192));
+writeFileSync(join(root, "public/icon-512.png"), await png(maskableSvg, 512));
+
+// ── the .ico: 16 + 32 + 48, compact cut on a rounded depth-6 plate ──────────
 const icoSizes = [16, 32, 48];
+const icoSvg = markSvg(COMPACT, { fg: CHALK, background: DEPTH_6, radius: 6, margin: 0 });
 const icoPngs = [];
-for (const sz of icoSizes) {
-  icoPngs.push(await sharp(Buffer.from(markSvg(sz))).png({ compressionLevel: 9 }).toBuffer());
-}
+for (const sz of icoSizes) icoPngs.push(await png(icoSvg, sz));
 const dir = Buffer.alloc(6 + 16 * icoSizes.length);
 dir.writeUInt16LE(0, 0); // reserved
 dir.writeUInt16LE(1, 2); // type: icon
@@ -129,14 +131,23 @@ icoSizes.forEach((sz, i) => {
 const ico = Buffer.concat([dir, ...icoPngs]);
 writeFileSync(join(root, "app/favicon.ico"), ico);
 
-// ── legibility proof: render the SVG at tab size, upscaled for human review ──
-const proof = await sharp(Buffer.from(svg), { density: 72 })
-  .resize(16, 16)
-  .png()
-  .toBuffer();
+// ── proofs: the 16px tab and the 96px circular avatar crop ──────────────────
+const proof = await sharp(Buffer.from(icoSvg)).resize(16, 16).png().toBuffer();
 const proofBig = await sharp(proof).resize(256, 256, { kernel: "nearest" }).png().toBuffer();
 writeFileSync(join(root, "design-review/icon-16px-proof.png"), proofBig);
 
+const avatarMask = Buffer.from(
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><circle cx="48" cy="48" r="48" fill="#fff"/></svg>`,
+);
+const avatar = await sharp(
+  Buffer.from(markSvg(COMPACT, { fg: CHALK, background: DEPTH_6, margin: 0 })),
+)
+  .resize(96, 96)
+  .composite([{ input: avatarMask, blend: "dest-in" }])
+  .png()
+  .toBuffer();
+writeFileSync(join(root, "design-review/avatar-96px-proof.png"), avatar);
+
 console.log(
-  `icon0.svg ${(svg.length / 1024).toFixed(1)} KB · icon1.png ${(png.length / 1024).toFixed(1)} KB (512, transparent) · favicon.ico ${(ico.length / 1024).toFixed(1)} KB (16+32+48) · apple-icon.png ${(apple.length / 1024).toFixed(1)} KB (180, solid) · 16px proof written`,
+  `icon0.svg ${(faviconSvg.length / 1024).toFixed(1)} KB · favicon.ico ${(ico.length / 1024).toFixed(1)} KB (16+32+48, plated) · icon1.png 512 · apple-icon.png 180 · icon-192/512.png (maskable inset) · 16px + avatar proofs written`,
 );

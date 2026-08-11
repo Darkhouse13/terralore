@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Wordmark from "@/components/brand/Wordmark";
 import { allPeriods, allThemes, corpusStats } from "@/lib/chronology";
 import { getHistory } from "@/lib/histories";
 import { getCountry } from "@/lib/countries";
@@ -201,7 +202,9 @@ export default function HomeArchive() {
         <footer className="mt-20 border-t border-[rgba(138, 74, 40,0.22)] pt-10 md:mt-24">
           <div className="flex flex-wrap items-start justify-between gap-8">
             <div className="max-w-md">
-              <p className="font-display text-[1.3rem] font-[420] text-[#16201e]">Terralore</p>
+              <p>
+                <Wordmark tone="light" className="text-[1.3rem] font-[420]" />
+              </p>
               <p className="mt-2.5 font-serif text-[0.98rem] italic leading-relaxed text-[#454f4c]">
                 An atlas of how nations came to be. Every claim traceable to a source; every gap
                 acknowledged rather than filled in.
