@@ -63,6 +63,7 @@ function pruneDir(dir, toPath) {
 pruneDir("country", (f) => `/country/${f.replace(/\.md$/, "")}.md`);
 pruneDir("rankings", (f) => `/rankings/${f.replace(/\.md$/, "")}.md`);
 pruneDir("commodities", (f) => `/commodities/${f.replace(/\.md$/, "")}.md`);
+pruneDir("compare", (f) => `/compare/${f.replace(/\.md$/, "")}.md`);
 // chronicle twins live one level deeper: public/country/<CODE>/chronicle.md
 const countryDir = join(root, "public", "country");
 if (existsSync(countryDir)) {

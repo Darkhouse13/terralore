@@ -8,6 +8,7 @@ import {
   collectionLd,
   compareHubDescription,
   routes,
+  siteOgImages,
   SITE_NAME,
 } from "@/lib/seo";
 
@@ -34,8 +35,9 @@ export function generateMetadata(): Metadata {
       description,
       url: routes.compare(),
       siteName: SITE_NAME,
+      images: siteOgImages(),
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: { card: "summary_large_image", title, description, images: siteOgImages() },
   };
 }
 

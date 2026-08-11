@@ -4,6 +4,7 @@ import { allHistories, getHistory } from "@/lib/histories";
 import { getDossier } from "@/lib/domains";
 import { allCommodities, commoditiesUpdated } from "@/lib/commodities";
 import { allRankings, rankingsUpdated } from "@/lib/rankings";
+import { allComparePages, compareUpdated } from "@/lib/compare";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
 
@@ -131,6 +132,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: r.updated,
       changeFrequency: "yearly" as const,
       priority: 0.7,
+    })),
+    // The compare pages: two nations' existing records side by side. A pair's
+    // content changes when either nation's dossier refreshes or either
+    // chronicle is re-verified, so its honest lastmod is the max of those four
+    // dates (computed in lib/compare); the hub moves with the latest pair.
+    {
+      url: abs(routes.compare()),
+      lastModified: compareUpdated(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    ...allComparePages().map((p) => ({
+      url: abs(routes.comparePair(p.slug)),
+      lastModified: p.updated,
+      changeFrequency: "yearly" as const,
+      priority: 0.6,
     })),
   ];
 

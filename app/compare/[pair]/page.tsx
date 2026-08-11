@@ -19,6 +19,7 @@ import {
   breadcrumbLd,
   compareDescription,
   compareLd,
+  mdTwinTypes,
   routes,
   SITE_NAME,
 } from "@/lib/seo";
@@ -67,7 +68,7 @@ export async function generateMetadata({
       `${page.a.name} and ${page.b.name} history`,
       "sourced country comparison",
     ],
-    alternates: { canonical: path },
+    alternates: { canonical: path, types: mdTwinTypes(path) },
     openGraph: { type: "website", title, description, url: path, siteName: SITE_NAME },
     twitter: { card: "summary_large_image", title, description },
   };

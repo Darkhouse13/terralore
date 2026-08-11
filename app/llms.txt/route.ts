@@ -26,6 +26,7 @@ export function GET(): Response {
   const chronicles = twinsOf("chronicle");
   const rankings = twinsOf("ranking");
   const commodities = twinsOf("commodity");
+  const compares = twinsOf("compare");
 
   const link = (t: { title: string; path: string; description: string }) =>
     `- [${t.title}](${abs(t.path)}): ${t.description}`;
@@ -77,6 +78,15 @@ export function GET(): Response {
     `figures and the Rest-of-world remainder stated, never absorbed.`,
     "",
     ...commodities.map(link),
+    "",
+    `## Comparisons`,
+    "",
+    `Two nations side by side: every indicator both publish (with each observation's`,
+    `year) and the chronicle events in which either nation's sourced record names the`,
+    `other. Assembled entirely from the dossiers and chronicles below — figures are`,
+    `compared, never graded.`,
+    "",
+    ...compares.map(link),
     "",
     `## Chronicles`,
     "",

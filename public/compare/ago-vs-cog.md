@@ -1,0 +1,121 @@
+# Angola and Congo compared
+
+Angola and Congo side by side: 42 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+
+Canonical: https://terralore.co/compare/ago-vs-cog
+Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+
+Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
+
+## Formation
+
+- Angola: 11 November 1975 — Portugal grants Angola independence
+- Congo: 15 August 1960 — Independence from French Equatorial Africa
+
+## Economy
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| GDP | $101 B | 2024 | $16 B | 2024 |
+| GDP per capita | $2,666 | 2024 | $2,482 | 2024 |
+| GDP growth | 4.4% | 2024 | 2.6% | 2024 |
+| Inflation | 28.2% | 2024 | 3.1% | 2024 |
+| Trade openness | 50.8% | 2024 | 93.2% | 2024 |
+
+## Society
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Population | 38 m | 2024 | 6.3 m | 2024 |
+| Life expectancy | 64.8 yrs | 2024 | 66.0 yrs | 2024 |
+| Urban population | 70.7% | 2024 | 63.9% | 2024 |
+| Fertility rate | 5.0 | 2024 | 4.1 | 2024 |
+
+## Governance
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Voice & accountability | 38.3 | 2024 | 33.8 | 2024 |
+| Political stability | 56.1 | 2024 | 61.5 | 2024 |
+| Government effectiveness | 36.1 | 2024 | 29.7 | 2024 |
+| Regulatory quality | 42.7 | 2024 | 36.7 | 2024 |
+| Rule of law | 36.8 | 2024 | 36.7 | 2024 |
+| Control of corruption | 35.3 | 2024 | 19.0 | 2024 |
+
+## Health
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Health spending | 2.5% | 2023 | 3.3% | 2023 |
+| Physicians | 0.24 | 2022 | 0.17 | 2022 |
+| Under-5 mortality | 49.0 | 2024 | 39.1 | 2024 |
+| Measles immunisation | 53.0% | 2024 | 72.0% | 2024 |
+| Safe drinking water | — | — | 45.9% | 2021 |
+
+## Education
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Adult literacy | 68.2% | 2023 | 76.1% | 2005 |
+| Education spending | 2.5% | 2023 | 3.3% | 2023 |
+| Primary enrolment | 86.7% | 2023 | 87.9% | 2023 |
+| Secondary enrolment | 51.5% | 2023 | 50.5% | 2012 |
+| Tertiary enrolment | 10.0% | 2024 | 10.4% | 2023 |
+
+## Technology
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| R&D spending | 0.0% | 2016 | 0.4% | 2022 |
+| Researchers (per million) | 19 | 2016 | 127 | 2022 |
+| Internet users | 40.7% | 2024 | 47.3% | 2024 |
+| Mobile subscriptions | 70 | 2024 | 96 | 2024 |
+| High-tech exports | 16.7% | 2024 | 3.2% | 2023 |
+
+## Geography
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Land area | 1,246,700 km² | 2023 | 341,500 km² | 2023 |
+| Forest area | 52.1% | 2023 | 64.1% | 2023 |
+| Agricultural land | 36.9% | 2023 | 31.2% | 2023 |
+| CO₂ per capita (t) | 0.7 | 2024 | 1.3 | 2024 |
+| Renewable energy | 52.9% | 2021 | 71.4% | 2021 |
+
+## Resources
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Resource rents | 30.0% | 2021 | 37.7% | 2021 |
+| Oil rents | 28.3% | 2021 | 34.4% | 2021 |
+| Mineral rents | 0.0% | 2021 | 0.0% | 2021 |
+| Forest rents | 0.7% | 2021 | 3.0% | 2021 |
+| Electricity access | 51.1% | 2023 | 51.3% | 2023 |
+
+## Military
+
+| Metric | Angola | Observed | Congo | Observed |
+|---|---|---|---|---|
+| Military burden | 1.0% | 2024 | 1.2% | 2024 |
+| Defense spending | $922 M | 2024 | $182 M | 2024 |
+| Armed forces | 117,000 | 2020 | 12,000 | 2020 |
+
+Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/AGO.md and https://terralore.co/country/COG.md.
+
+## Entangled histories (0 events)
+
+Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+
+## Sources
+
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+
+Chronicle references are cited inline above and resolve in full at https://terralore.co/country/AGO/chronicle.md and https://terralore.co/country/COG/chronicle.md.
+
+Citation template: Terralore, "Angola and Congo compared", terralore.co/compare/ago-vs-cog, retrieved <YYYY-MM-DD>.

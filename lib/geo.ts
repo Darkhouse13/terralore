@@ -28,6 +28,7 @@ import { allCountries, getCountry } from "./countries";
 import { getDossier } from "./domains";
 import { allHistories, getHistory } from "./histories";
 import { allRankings, type Ranking } from "./rankings";
+import { allComparePages, compareTitle, type ComparePage } from "./compare";
 import { allCommodities, commoditiesSource, commoditiesUpdated, type Commodity } from "./commodities";
 import { NO_DATA_NOTES, TERRITORY_NOTES } from "./territory-notes";
 import {
@@ -43,6 +44,7 @@ import {
   chronicleDescription,
   clampText,
   commodityDescription,
+  compareDescription,
   dossierDescription,
   rankingDescription,
 } from "./seo";
@@ -58,7 +60,7 @@ export interface Twin {
   /** One-line description (the same line the HTML page's meta carries). */
   description: string;
   /** Which surface produced it — validators count per kind. */
-  kind: "dossier" | "chronicle" | "ranking" | "commodity";
+  kind: "dossier" | "chronicle" | "ranking" | "commodity" | "compare";
   markdown: string;
 }
 
@@ -390,6 +392,98 @@ function chronicleTwin(meta: CountryMeta, history: CountryHistory): Twin {
   return { path: `${canonicalPath}.md`, canonicalPath, title, description, kind: "chronicle", markdown: L.join("\n") };
 }
 
+/* ── compare twins ────────────────────────────────────────────────────────── */
+
+function compareTwin(page: ComparePage): Twin {
+  const canonicalPath = routes.comparePair(page.slug);
+  const title = compareTitle(page);
+  const description = compareDescription(page);
+
+  const obs = (v: number | null, year: number | null) => (v == null ? "—" : (year ?? "—"));
+  const L: string[] = [
+    `# ${title}`,
+    "",
+    description,
+    "",
+    `Canonical: ${SITE_URL}${canonicalPath}`,
+    `Updated: ${page.updated} (latest of the two dossiers' refreshes and the two chronicles' verification dates)`,
+    "",
+    "Two sourced records set beside each other — nothing on this page was written " +
+      "for the pair. Every figure is the same observation, with the same source, as " +
+      "on the two national dossiers; every event is the same record, with the same " +
+      "sources, as on its own chronicle. Figures are compared, never graded. A \"—\" " +
+      "is an absence in the source data, never a zero; each value shows its own " +
+      "observation year — vintages differ by indicator and nation.",
+    "",
+    "## Formation",
+    "",
+    `- ${page.a.name}: ${page.a.formation.yearLabel} — ${page.a.formation.label}`,
+    `- ${page.b.name}: ${page.b.formation.yearLabel} — ${page.b.formation.label}`,
+    "",
+  ];
+
+  for (const d of page.domains) {
+    L.push(`## ${d.label}`, "");
+    L.push(`| Metric | ${page.a.name} | Observed | ${page.b.name} | Observed |`, "|---|---|---|---|---|");
+    for (const row of d.rows) {
+      L.push(
+        `| ${row.label} | ${formatMetric(row.a.value, row.unit)} | ${obs(row.a.value, row.a.year)} | ` +
+          `${formatMetric(row.b.value, row.unit)} | ${obs(row.b.value, row.b.year)} |`,
+      );
+    }
+    L.push("");
+  }
+  L.push(
+    `Each metric is also ranked across all nations: ${SITE_URL}${routes.rankings()} ` +
+      `(markdown twins at /rankings/<metric>.md). Full dossiers: ` +
+      `${SITE_URL}${routes.dossier(page.a.code)}.md and ${SITE_URL}${routes.dossier(page.b.code)}.md.`,
+    "",
+  );
+
+  L.push(`## Entangled histories (${page.sharedEvents.length} ${page.sharedEvents.length === 1 ? "event" : "events"})`, "");
+  if (page.sharedEvents.length === 0) {
+    L.push(
+      "Neither nation's sourced chronicle names the other — across both archives, no " +
+        "recorded event crosses between them. That is a fact about the two records as " +
+        "they stand, not a gap filled here.",
+      "",
+    );
+  } else {
+    L.push(
+      "Events in which either nation's sourced chronicle names the other — including " +
+        "under earlier names of the same state. Each is the record exactly as its own " +
+        "chronicle carries it, with that chronicle's sources.",
+      "",
+    );
+    for (const ev of page.sharedEvents) {
+      L.push(
+        `- ${ev.yearLabel}: **${ev.title}** — ${ev.summary} ` +
+          `(from the ${ev.fromName} chronicle; sources: ${ev.sources.map((s) => s.label).join("; ") || "on the chronicle"})`,
+      );
+    }
+    L.push("");
+  }
+
+  // Sources: the union of what the two dossiers actually reference — the true
+  // upstreams behind every figure in the tables above.
+  const srcById = new Map<string, DataSource>();
+  for (const code of [page.a.code, page.b.code]) {
+    for (const s of Object.values(getDossier(code)?.sources ?? {})) srcById.set(s.id, s);
+  }
+  L.push("## Sources", "");
+  for (const s of srcById.values()) L.push(sourceLine(s));
+  L.push(
+    "",
+    `Chronicle references are cited inline above and resolve in full at ` +
+      `${SITE_URL}${routes.chronicle(page.a.code)}.md and ${SITE_URL}${routes.chronicle(page.b.code)}.md.`,
+    "",
+    citation(title, canonicalPath),
+    "",
+  );
+
+  return { path: `${canonicalPath}.md`, canonicalPath, title, description, kind: "compare", markdown: L.join("\n") };
+}
+
 /* ── the full set ─────────────────────────────────────────────────────────── */
 
 let twinsCache: Twin[] | null = null;
@@ -407,6 +501,7 @@ export function allTwins(): Twin[] {
   }
   for (const r of allRankings()) out.push(rankingTwin(r));
   for (const c of allCommodities()) out.push(commodityTwin(c));
+  for (const p of allComparePages()) out.push(compareTwin(p));
 
   twinsCache = out;
   return out;
@@ -462,7 +557,9 @@ export function llmsFullText(): string {
       `block per nation (${nations.length}).`,
     "What it deliberately omits: the full per-nation chronicles (~291k words of sourced",
     "history) — those live one fetch away at their own markdown twins,",
-    `${SITE_URL}/country/<CODE>/chronicle.md, all indexed in ${SITE_URL}/llms.txt.`,
+    `${SITE_URL}/country/<CODE>/chronicle.md — and the ${twinsOf("compare").length} nation-pair comparisons`,
+    `(derived views of these same figures, at ${SITE_URL}/compare/<a>-vs-<b>.md),`,
+    `all indexed in ${SITE_URL}/llms.txt.`,
     "",
     "Citation: cite Terralore and the upstream source named in each section's Sources",
     "list. Retrieval dates belong to the citing agent, not this file.",
