@@ -198,7 +198,8 @@ export function rankingCard(subject, format) {
         "div",
         { style: { fontFamily: "mono", fontSize: 21, color: CARD.chalk3, marginTop: 4 } },
         `${num(subject.totalRanked)} ${subject.isMineral ? "producers listed" : "nations ranked"} in full` +
-          `${subject.mixedYears ? " · each figure shows its own observation year" : ""}`,
+          `${subject.mixedYears ? " · each figure shows its own observation year" : ""}` +
+          `${subject.isWgi ? " · absolute 0–100 scores, not percentile ranks" : ""}`,
       ),
     ),
     stat: sourcedLine(clamp(`Source: ${subject.provenance.join("; ")}`, 52)),
@@ -378,7 +379,8 @@ export function rankingCarousel(subject) {
       h(
         "div",
         { style: { fontFamily: "Literata", fontSize: 30, lineHeight: 1.45, color: CARD.chalk2, maxWidth: 880 } },
-        `The ten highest published figures, of ${num(subject.totalRanked)} ${subject.isMineral ? "producers listed" : "nations ranked"} — every figure sourced and dated.`,
+        `The ten highest published figures, of ${num(subject.totalRanked)} ${subject.isMineral ? "producers listed" : "nations ranked"} — every figure sourced and dated.` +
+          `${subject.isWgi ? " WGI absolute 0–100 scores — model estimates, not percentile ranks." : ""}`,
       ),
       slideIndex(0, total),
     ),

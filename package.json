@@ -12,7 +12,7 @@
     "refresh-domains": "npm run build-data && npm run build-domains",
     "build-series": "node scripts/build-series-index.mjs",
     "build-geo": "node --import ./scripts/lib/ts-alias-loader.mjs scripts/build-geo.mjs",
-    "validate": "node scripts/validate-histories.mjs && node scripts/validate-domains.mjs && node scripts/validate-commodities.mjs && node scripts/validate-rankings.mjs && node scripts/validate-compare.mjs && node --import ./scripts/lib/ts-alias-loader.mjs scripts/validate-geo.mjs",
+    "validate": "node scripts/validate-histories.mjs && node scripts/validate-domains.mjs && node scripts/validate-commodities.mjs && node scripts/validate-rankings.mjs && node scripts/validate-compare.mjs && node --import ./scripts/lib/ts-alias-loader.mjs scripts/validate-geo.mjs && node --import ./scripts/lib/ts-alias-loader.mjs scripts/validate-social.mjs",
     "build-compare": "node scripts/build-compare-pairs.mjs && node scripts/validate-compare.mjs",
     "audit:pages": "node scripts/audit-pages.mjs",
     "audit:links": "node scripts/audit-links.mjs",

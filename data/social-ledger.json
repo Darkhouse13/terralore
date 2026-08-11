@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "The social usage ledger — which surfaces ran on which day, committed so the calendar's recency preferences (365 days per event, 14 per anchor nation, 30 per data surface, 90 per formation story) survive across machines and rebuilds. Written by scripts/build-social.mjs, keyed by date and therefore idempotent: regenerating a day rewrites the same entry, and a day's plan reads only entries dated strictly before it. Never edit by hand except to delete a day that was generated but never published.",
+  "days": {}
+}

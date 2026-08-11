@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "note": "The curated hashtag pool — the ONLY tags a caption may carry, max 5 per post (scripts/validate-social.mjs enforces both). Discovery vocabulary, not trend-bait: every tag names what the post actually is. Edit this file to change the pool; the caption templates select from it deterministically per post type.",
+  "byType": {
+    "on-this-day": ["#onthisday", "#history", "#worldhistory", "#historyfacts"],
+    "ranking": ["#data", "#dataviz", "#geography", "#worlddata"],
+    "commodity": ["#data", "#geology", "#mining", "#worlddata"],
+    "compare": ["#geography", "#data", "#worlddata"],
+    "formation": ["#history", "#worldhistory", "#geography", "#historyfacts"]
+  },
+  "core": ["#atlas", "#maps", "#encyclopedia"]
+}

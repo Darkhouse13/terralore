@@ -78,6 +78,10 @@ function eventEntry(history, meta, era, ev, byId) {
     summary: ev.summary,
     category: ev.category,
     eraTitle: era.title,
+    /** The chronicle's own framing, for caption context. */
+    historyTagline: history.tagline,
+    historyEras: history.eras.length,
+    historyEvents: history.eras.reduce((n, e) => n + e.events.length, 0),
     /** Full source labels — the caption's citation voice. */
     sourceLabels: ev.sources
       .map((id) => byId.get(id))
@@ -180,6 +184,7 @@ export function rankingSubject(r) {
   return {
     type: "ranking",
     seed: `rk-${r.slug}`,
+    surfaceKey: `rk-${r.slug}`,
     slug: r.slug,
     label: r.label,
     domainLabel: DOMAIN_META[r.domain].label,
@@ -188,6 +193,10 @@ export function rankingSubject(r) {
     totalRanked: r.rows.length,
     mixedYears: r.years != null && r.years.min !== r.years.max,
     isMineral: r.isMineral,
+    /** WGI scores are absolute 0–100 model estimates, never percentile ranks —
+     *  every surface that shows them must say so (lib/geo.ts carries the full
+     *  note; cards and captions carry the short form). */
+    isWgi: r.sources.some((src) => src.id === "wb-wgi"),
     updated: r.updated,
     definition: r.definition,
     sourceLabels: r.sources.map((s) => s.label),
@@ -220,12 +229,14 @@ export function commoditySubject(c, source, updated) {
   return {
     type: "commodity",
     seed: `cm-${c.slug}`,
+    surfaceKey: `cm-${c.slug}`,
     slug: c.slug,
     name: c.name,
     detail: c.detail,
     estimateYear: c.years.estimate,
     reportedYear: c.years.reported,
     worldText: `${formatTonnes(c.world.estimate)} (${c.years.estimate} est.)`,
+    topThreeText: pct(c.topThreeShare),
     producers: listed,
     listedCount: c.producers.length,
     restSharePct: c.restOfWorld.shareEstimate * 100,
@@ -255,7 +266,11 @@ export function compareSubject(page) {
   const max = Math.max(row.a.value ?? 0, row.b.value ?? 0);
   return {
     type: "compare",
+    // The strata seed is the pair's own slug — the same strip the pair page
+    // and its OG card draw (the brand's reproducibility contract). The
+    // ledger key is namespaced separately.
     seed: page.slug,
+    surfaceKey: `cp-${page.slug}`,
     slug: page.slug,
     aName: page.a.name,
     bName: page.b.name,
