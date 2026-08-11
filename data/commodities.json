@@ -1,0 +1,909 @@
+{
+ "updated": "2026-08-11",
+ "source": {
+  "id": "usgs-mcs",
+  "label": "Mineral Commodity Summaries 2026",
+  "publisher": "U.S. Geological Survey",
+  "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+  "license": "Public domain (U.S. Government work)",
+  "accessed": "2026-08-11"
+ },
+ "commodities": [
+  {
+   "key": "prodCopper",
+   "commodity": "Copper",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 23000000,
+    "estimate": 23000000
+   },
+   "rounding": {
+    "reported": 500000,
+    "estimate": 500000
+   },
+   "producers": [
+    {
+     "code": "CHL",
+     "reported": 5510000,
+     "estimate": 5300000
+    },
+    {
+     "code": "COD",
+     "reported": 2990000,
+     "estimate": 3200000
+    },
+    {
+     "code": "PER",
+     "reported": 2740000,
+     "estimate": 2700000
+    },
+    {
+     "code": "CHN",
+     "reported": 1840000,
+     "estimate": 1800000
+    },
+    {
+     "code": "RUS",
+     "reported": 1020000,
+     "estimate": 1300000
+    },
+    {
+     "code": "USA",
+     "reported": 1050000,
+     "estimate": 1000000
+    },
+    {
+     "code": "ZMB",
+     "reported": 823000,
+     "estimate": 940000
+    },
+    {
+     "code": "AUS",
+     "reported": 765000,
+     "estimate": 730000
+    },
+    {
+     "code": "IDN",
+     "reported": 1010000,
+     "estimate": 710000
+    },
+    {
+     "code": "KAZ",
+     "reported": 724000,
+     "estimate": 710000
+    },
+    {
+     "code": "MEX",
+     "reported": 717000,
+     "estimate": 690000
+    },
+    {
+     "code": "CAN",
+     "reported": 515000,
+     "estimate": 500000
+    },
+    {
+     "code": "POL",
+     "reported": 400000,
+     "estimate": 410000
+    },
+    {
+     "code": "IND",
+     "reported": 27000,
+     "estimate": 23000
+    }
+   ],
+   "otherCountries": {
+    "reported": 2850000,
+    "estimate": 3000000
+   }
+  },
+  {
+   "key": "prodIronOre",
+   "commodity": "Iron Ore",
+   "detail": "Mine production: Usable ore",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 2600000000,
+    "estimate": 2600000000
+   },
+   "rounding": {
+    "reported": 50000000,
+    "estimate": 50000000
+   },
+   "producers": [
+    {
+     "code": "AUS",
+     "reported": 982000000,
+     "estimate": 980000000
+    },
+    {
+     "code": "BRA",
+     "reported": 428000000,
+     "estimate": 420000000
+    },
+    {
+     "code": "IND",
+     "reported": 282000000,
+     "estimate": 310000000
+    },
+    {
+     "code": "CHN",
+     "reported": 293000000,
+     "estimate": 290000000
+    },
+    {
+     "code": "IRN",
+     "reported": 90000000,
+     "estimate": 93000000
+    },
+    {
+     "code": "RUS",
+     "reported": 91000000,
+     "estimate": 86000000
+    },
+    {
+     "code": "CAN",
+     "reported": 70000000,
+     "estimate": 69000000
+    },
+    {
+     "code": "ZAF",
+     "reported": 64000000,
+     "estimate": 66000000
+    },
+    {
+     "code": "UKR",
+     "reported": 54700000,
+     "estimate": 52000000
+    },
+    {
+     "code": "USA",
+     "reported": 45100000,
+     "estimate": 38000000
+    },
+    {
+     "code": "KAZ",
+     "reported": 37000000,
+     "estimate": 35000000
+    },
+    {
+     "code": "SWE",
+     "reported": 25000000,
+     "estimate": 26000000
+    },
+    {
+     "code": "PER",
+     "reported": 19800000,
+     "estimate": 21000000
+    },
+    {
+     "code": "CHL",
+     "reported": 18000000,
+     "estimate": 19000000
+    },
+    {
+     "code": "TUR",
+     "reported": 17000000,
+     "estimate": 18000000
+    },
+    {
+     "code": "MRT",
+     "reported": 14300000,
+     "estimate": 15000000
+    },
+    {
+     "code": "MEX",
+     "reported": 7800000,
+     "estimate": 7700000
+    }
+   ],
+   "otherCountries": {
+    "reported": 60700000,
+    "estimate": 64000000
+   }
+  },
+  {
+   "key": "prodGold",
+   "commodity": "Gold",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 3280,
+    "estimate": 3300
+   },
+   "rounding": {
+    "reported": 5,
+    "estimate": 50
+   },
+   "producers": [
+    {
+     "code": "CHN",
+     "reported": 377,
+     "estimate": 380
+    },
+    {
+     "code": "RUS",
+     "reported": 310,
+     "estimate": 310
+    },
+    {
+     "code": "AUS",
+     "reported": 284,
+     "estimate": 280
+    },
+    {
+     "code": "CAN",
+     "reported": 200,
+     "estimate": 200
+    },
+    {
+     "code": "USA",
+     "reported": 163,
+     "estimate": 160
+    },
+    {
+     "code": "GHA",
+     "reported": 149,
+     "estimate": 150
+    },
+    {
+     "code": "MEX",
+     "reported": 140,
+     "estimate": 140
+    },
+    {
+     "code": "KAZ",
+     "reported": 130,
+     "estimate": 130
+    },
+    {
+     "code": "UZB",
+     "reported": 129,
+     "estimate": 130
+    },
+    {
+     "code": "PER",
+     "reported": 108,
+     "estimate": 110
+    },
+    {
+     "code": "IDN",
+     "reported": 94,
+     "estimate": 90
+    },
+    {
+     "code": "ZAF",
+     "reported": 90,
+     "estimate": 90
+    },
+    {
+     "code": "BRA",
+     "reported": 82,
+     "estimate": 80
+    }
+   ],
+   "otherCountries": {
+    "reported": 1020,
+    "estimate": 1000
+   }
+  },
+  {
+   "key": "prodLithium",
+   "commodity": "Lithium",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 222000,
+    "estimate": 290000
+   },
+   "rounding": {
+    "reported": 500,
+    "estimate": 5000
+   },
+   "producers": [
+    {
+     "code": "AUS",
+     "reported": 82700,
+     "estimate": 92000
+    },
+    {
+     "code": "CHN",
+     "reported": 41400,
+     "estimate": 62000
+    },
+    {
+     "code": "CHL",
+     "reported": 48900,
+     "estimate": 56000
+    },
+    {
+     "code": "ZWE",
+     "reported": 20000,
+     "estimate": 28000
+    },
+    {
+     "code": "ARG",
+     "reported": 13800,
+     "estimate": 23000
+    },
+    {
+     "code": "BRA",
+     "reported": 10200,
+     "estimate": 12000
+    },
+    {
+     "code": "MLI",
+     "reported": 770,
+     "estimate": 9400
+    },
+    {
+     "code": "CAN",
+     "reported": 4820,
+     "estimate": 5600
+    },
+    {
+     "code": "PRT",
+     "reported": 380,
+     "estimate": 380
+    },
+    {
+     "code": "USA",
+     "reportedWithheld": true,
+     "estimateWithheld": true
+    }
+   ]
+  },
+  {
+   "key": "prodCobalt",
+   "commodity": "Cobalt",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 302000,
+    "estimate": 310000
+   },
+   "rounding": {
+    "reported": 500,
+    "estimate": 5000
+   },
+   "producers": [
+    {
+     "code": "COD",
+     "reported": 226000,
+     "estimate": 230000
+    },
+    {
+     "code": "IDN",
+     "reported": 35000,
+     "estimate": 44000
+    },
+    {
+     "code": "RUS",
+     "reported": 8000,
+     "estimate": 7700
+    },
+    {
+     "code": "MDG",
+     "reported": 3100,
+     "estimate": 3900
+    },
+    {
+     "code": "AUS",
+     "reported": 4780,
+     "estimate": 3700
+    },
+    {
+     "code": "PHL",
+     "reported": 3100,
+     "estimate": 3700
+    },
+    {
+     "code": "CAN",
+     "reported": 3350,
+     "estimate": 3500
+    },
+    {
+     "code": "PNG",
+     "reported": 2630,
+     "estimate": 2800
+    },
+    {
+     "code": "CHN",
+     "reported": 2000,
+     "estimate": 2000
+    },
+    {
+     "code": "CUB",
+     "reported": 3450,
+     "estimate": 2000
+    },
+    {
+     "code": "TUR",
+     "reported": 2200,
+     "estimate": 1900
+    },
+    {
+     "code": "USA",
+     "reported": 200,
+     "estimate": 300
+    }
+   ],
+   "otherCountries": {
+    "reported": 7780,
+    "estimate": 9100
+   }
+  },
+  {
+   "key": "prodNickel",
+   "commodity": "Nickel",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 3710000,
+    "estimate": 3900000
+   },
+   "rounding": {
+    "reported": 5000,
+    "estimate": 50000
+   },
+   "producers": [
+    {
+     "code": "IDN",
+     "reported": 2310000,
+     "estimate": 2600000
+    },
+    {
+     "code": "PHL",
+     "reported": 354000,
+     "estimate": 270000
+    },
+    {
+     "code": "RUS",
+     "reported": 205000,
+     "estimate": 200000
+    },
+    {
+     "code": "CAN",
+     "reported": 125000,
+     "estimate": 140000
+    },
+    {
+     "code": "NCL",
+     "reported": 116000,
+     "estimate": 140000
+    },
+    {
+     "code": "CHN",
+     "reported": 115000,
+     "estimate": 120000
+    },
+    {
+     "code": "BRA",
+     "reported": 67500,
+     "estimate": 70000
+    },
+    {
+     "code": "AUS",
+     "reported": 98000,
+     "estimate": 45000
+    },
+    {
+     "code": "USA",
+     "reported": 7490,
+     "estimate": 10000
+    }
+   ],
+   "otherCountries": {
+    "reported": 308000,
+    "estimate": 290000
+   }
+  },
+  {
+   "key": "prodRareEarths",
+   "commodity": "Rare Earths",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 380000,
+    "estimate": 390000
+   },
+   "rounding": {
+    "reported": 5000,
+    "estimate": 5000
+   },
+   "producers": [
+    {
+     "code": "CHN",
+     "reported": 270000,
+     "estimate": 270000
+    },
+    {
+     "code": "USA",
+     "reported": 45500,
+     "estimate": 51000
+    },
+    {
+     "code": "AUS",
+     "reported": 29000,
+     "estimate": 29000
+    },
+    {
+     "code": "MMR",
+     "reported": 27000,
+     "estimate": 22000
+    },
+    {
+     "code": "THA",
+     "reported": 2100,
+     "estimate": 4800
+    },
+    {
+     "code": "IND",
+     "reported": 2900,
+     "estimate": 2900
+    },
+    {
+     "code": "MDG",
+     "reported": 1400,
+     "estimate": 2700
+    },
+    {
+     "code": "RUS",
+     "reported": 2600,
+     "estimate": 2600
+    },
+    {
+     "code": "BRA",
+     "reported": 560,
+     "estimate": 2000
+    },
+    {
+     "code": "NGA",
+     "reported": 1500,
+     "estimate": 1500
+    },
+    {
+     "code": "VNM",
+     "reported": 300,
+     "estimate": 150
+    },
+    {
+     "code": "MYS",
+     "reported": 140,
+     "estimate": 110
+    }
+   ],
+   "otherCountries": {
+    "reported": 1000,
+    "estimate": 550
+   }
+  },
+  {
+   "key": "prodBauxite",
+   "commodity": "Bauxite",
+   "detail": "Bauxite, mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 428000000,
+    "estimate": 440000000
+   },
+   "rounding": {
+    "reported": 500000,
+    "estimate": 5000000
+   },
+   "producers": [
+    {
+     "code": "GIN",
+     "reported": 142000000,
+     "estimate": 150000000
+    },
+    {
+     "code": "AUS",
+     "reported": 100000000,
+     "estimate": 97000000
+    },
+    {
+     "code": "CHN",
+     "reported": 80500000,
+     "estimate": 87000000
+    },
+    {
+     "code": "BRA",
+     "reported": 33000000,
+     "estimate": 33000000
+    },
+    {
+     "code": "IND",
+     "reported": 25000000,
+     "estimate": 25000000
+    },
+    {
+     "code": "IDN",
+     "reported": 9900000,
+     "estimate": 10000000
+    },
+    {
+     "code": "JAM",
+     "reported": 5890000,
+     "estimate": 6200000
+    },
+    {
+     "code": "RUS",
+     "reported": 5470000,
+     "estimate": 5700000
+    },
+    {
+     "code": "SAU",
+     "reported": 5500000,
+     "estimate": 5700000
+    },
+    {
+     "code": "KAZ",
+     "reported": 4780000,
+     "estimate": 4800000
+    },
+    {
+     "code": "TUR",
+     "reported": 3660000,
+     "estimate": 3800000
+    },
+    {
+     "code": "VNM",
+     "reported": 3710000,
+     "estimate": 3800000
+    },
+    {
+     "code": "GRC",
+     "reported": 970000,
+     "estimate": 960000
+    },
+    {
+     "code": "USA",
+     "reportedWithheld": true,
+     "estimateWithheld": true
+    }
+   ],
+   "otherCountries": {
+    "reported": 7780000,
+    "estimate": 8000000
+   }
+  },
+  {
+   "key": "prodZinc",
+   "commodity": "Zinc",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 11900000,
+    "estimate": 13000000
+   },
+   "rounding": {
+    "reported": 50000,
+    "estimate": 500000
+   },
+   "producers": [
+    {
+     "code": "CHN",
+     "reported": 4000000,
+     "estimate": 4100000
+    },
+    {
+     "code": "PER",
+     "reported": 1270000,
+     "estimate": 1500000
+    },
+    {
+     "code": "AUS",
+     "reported": 1100000,
+     "estimate": 1100000
+    },
+    {
+     "code": "IND",
+     "reported": 866000,
+     "estimate": 870000
+    },
+    {
+     "code": "MEX",
+     "reported": 773000,
+     "estimate": 780000
+    },
+    {
+     "code": "USA",
+     "reported": 759000,
+     "estimate": 670000
+    },
+    {
+     "code": "BOL",
+     "reported": 512000,
+     "estimate": 500000
+    },
+    {
+     "code": "RUS",
+     "reported": 310000,
+     "estimate": 430000
+    },
+    {
+     "code": "KAZ",
+     "reported": 375000,
+     "estimate": 360000
+    },
+    {
+     "code": "SWE",
+     "reported": 239000,
+     "estimate": 230000
+    }
+   ],
+   "otherCountries": {
+    "reported": 1730000,
+    "estimate": 2000000
+   }
+  },
+  {
+   "key": "prodPhosphate",
+   "commodity": "Phosphate Rock",
+   "detail": "Mine production",
+   "years": {
+    "reported": 2024,
+    "estimate": 2025
+   },
+   "world": {
+    "reported": 239000000,
+    "estimate": 250000000
+   },
+   "rounding": {
+    "reported": 500000,
+    "estimate": 5000000
+   },
+   "producers": [
+    {
+     "code": "CHN",
+     "reported": 105000000,
+     "estimate": 110000000
+    },
+    {
+     "code": "MAR",
+     "reported": 35300000,
+     "estimate": 36000000
+    },
+    {
+     "code": "USA",
+     "reported": 19400000,
+     "estimate": 20000000
+    },
+    {
+     "code": "RUS",
+     "reported": 14400000,
+     "estimate": 14000000
+    },
+    {
+     "code": "JOR",
+     "reported": 11500000,
+     "estimate": 12000000
+    },
+    {
+     "code": "SAU",
+     "reported": 10000000,
+     "estimate": 10000000
+    },
+    {
+     "code": "EGY",
+     "reported": 5300000,
+     "estimate": 5500000
+    },
+    {
+     "code": "BRA",
+     "reported": 5300000,
+     "estimate": 5000000
+    },
+    {
+     "code": "PER",
+     "reported": 4800000,
+     "estimate": 4800000
+    },
+    {
+     "code": "TUN",
+     "reported": 3280000,
+     "estimate": 3300000
+    },
+    {
+     "code": "VNM",
+     "reported": 3000000,
+     "estimate": 3000000
+    },
+    {
+     "code": "SEN",
+     "reported": 2800000,
+     "estimate": 2800000
+    },
+    {
+     "code": "AUS",
+     "reported": 2500000,
+     "estimate": 2500000
+    },
+    {
+     "code": "ZAF",
+     "reported": 2220000,
+     "estimate": 2200000
+    },
+    {
+     "code": "DZA",
+     "reported": 2000000,
+     "estimate": 2000000
+    },
+    {
+     "code": "KAZ",
+     "reported": 1700000,
+     "estimate": 1900000
+    },
+    {
+     "code": "TGO",
+     "reported": 1560000,
+     "estimate": 1600000
+    },
+    {
+     "code": "IND",
+     "reported": 1700000,
+     "estimate": 1500000
+    },
+    {
+     "code": "TUR",
+     "reported": 1220000,
+     "estimate": 1200000
+    },
+    {
+     "code": "FIN",
+     "reported": 974000,
+     "estimate": 980000
+    },
+    {
+     "code": "UZB",
+     "reported": 950000,
+     "estimate": 950000
+    },
+    {
+     "code": "SYR",
+     "reported": 800000,
+     "estimate": 800000
+    },
+    {
+     "code": "MEX",
+     "reported": 365000,
+     "estimate": 450000
+    }
+   ],
+   "otherCountries": {
+    "reported": 769000,
+    "estimate": 770000
+   }
+  }
+ ]
+}
