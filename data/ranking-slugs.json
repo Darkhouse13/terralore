@@ -1,0 +1,70 @@
+{
+  "about": "The explicit URL-slug map for /rankings — one human slug per dossier metric key. Hand-authored, never derived: a metric's URL is an editorial decision with a permanence obligation, not a string transformation. Total coverage, kebab-case and uniqueness are enforced by scripts/validate-rankings.mjs; lib/rankings.ts re-asserts at build. `aliases` records metric keys whose page is shared with another key carrying byte-identical data (the validator proves the identity every run): society's `literacy` and education's `literacyRate` are the same UIS indicator reaching the atlas through two pipelines, and publishing it twice would be duplicate content pretending to be two datasets.",
+  "slugs": {
+    "gdp": "gdp",
+    "gdpPerCapita": "gdp-per-capita",
+    "gdpGrowth": "gdp-growth",
+    "inflation": "inflation",
+    "tradePctGdp": "trade-share-of-gdp",
+
+    "population": "population",
+    "lifeExpectancy": "life-expectancy",
+    "urbanPct": "urbanisation",
+    "fertility": "fertility",
+    "literacy": "literacy",
+
+    "wgiVoice": "voice-and-accountability",
+    "wgiStability": "political-stability",
+    "wgiEffectiveness": "government-effectiveness",
+    "wgiRegQuality": "regulatory-quality",
+    "wgiRuleOfLaw": "rule-of-law",
+    "wgiCorruption": "control-of-corruption",
+
+    "healthSpendPctGdp": "health-spending",
+    "physicians": "physicians",
+    "underFiveMortality": "under-five-mortality",
+    "measlesImmunisation": "measles-immunisation",
+    "safeWater": "safe-drinking-water",
+
+    "literacyRate": "literacy",
+    "eduSpendPctGdp": "education-spending",
+    "primaryEnrolment": "primary-enrolment",
+    "secondaryEnrolment": "secondary-enrolment",
+    "tertiaryEnrolment": "tertiary-enrolment",
+
+    "rdSpending": "research-spending",
+    "researchers": "researchers",
+    "internetUsers": "internet-use",
+    "mobileSubs": "mobile-subscriptions",
+    "highTechExports": "high-tech-exports",
+
+    "landArea": "land-area",
+    "forestPct": "forest-cover",
+    "agriPct": "agricultural-land",
+    "co2PerCapita": "co2-per-capita",
+    "renewablePct": "renewable-energy",
+
+    "resourceRents": "resource-rents",
+    "oilRents": "oil-rents",
+    "mineralRents": "mineral-rents",
+    "forestRents": "forest-rents",
+    "electricityAccess": "electricity-access",
+    "prodCopper": "copper-production",
+    "prodIronOre": "iron-ore-production",
+    "prodGold": "gold-production",
+    "prodLithium": "lithium-production",
+    "prodCobalt": "cobalt-production",
+    "prodNickel": "nickel-production",
+    "prodRareEarths": "rare-earths-production",
+    "prodBauxite": "bauxite-production",
+    "prodZinc": "zinc-production",
+    "prodPhosphate": "phosphate-production",
+
+    "milExpPctGdp": "military-burden",
+    "milExpUsd": "military-spending",
+    "armedForces": "armed-forces-personnel"
+  },
+  "aliases": {
+    "literacy": "literacyRate"
+  }
+}

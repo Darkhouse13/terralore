@@ -21,7 +21,7 @@ import geography from "@/data/domains/geography.json";
 import resources from "@/data/domains/resources.json";
 import military from "@/data/domains/military.json";
 
-interface DomainFile {
+export interface DomainFile {
   domain: DomainKey;
   updated: string;
   sources: Record<string, DataSource>;
@@ -42,6 +42,15 @@ const FILES: Partial<Record<DomainKey, DomainFile>> = {
   resources: F(resources),
   military: F(military),
 };
+
+/**
+ * Every domain file, in tab (insertion) order — for cross-nation surfaces
+ * like /rankings that read one metric across all nations rather than one
+ * nation across all metrics.
+ */
+export function allDomainFiles(): DomainFile[] {
+  return Object.values(FILES).filter((f): f is DomainFile => f != null);
+}
 
 export function getDomain(code: string, domain: DomainKey): DomainSection | undefined {
   const entry = FILES[domain]?.data[code];
