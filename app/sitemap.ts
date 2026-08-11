@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { allCountries } from "@/lib/countries";
 import { allHistories, getHistory } from "@/lib/histories";
 import { getDossier } from "@/lib/domains";
+import { allCommodities, commoditiesUpdated } from "@/lib/commodities";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
 
@@ -98,6 +99,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       }));
     }),
+    // The commodities read: the resources domain across nations. Their content
+    // changes only when the USGS MCS table is rebuilt (annually), so the honest
+    // lastmod is the commodities file's own build date — not the corpus date
+    // and not the deploy timestamp.
+    {
+      url: abs(routes.commodities()),
+      lastModified: commoditiesUpdated(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    ...allCommodities().map((c) => ({
+      url: abs(routes.commodity(c.slug)),
+      lastModified: commoditiesUpdated(),
+      changeFrequency: "yearly" as const,
+      priority: 0.7,
+    })),
   ];
 
   for (const country of allCountries()) {

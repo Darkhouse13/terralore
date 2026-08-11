@@ -1,14 +1,24 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
 import { COMMODITY_META } from "@/lib/commodity-meta";
 import {
   commoditiesSource,
+  commoditiesUpdated,
   getCommodity,
   type Commodity,
   type ProducerShare,
 } from "@/lib/commodities";
 import { formatTonnes } from "@/lib/format";
 import { METRIC_DEFS } from "@/lib/metric-defs";
+import {
+  breadcrumbLd,
+  commodityDescription,
+  commodityLd,
+  routes,
+  SITE_NAME,
+} from "@/lib/seo";
 
 /**
  * One commodity, every producer.
@@ -27,6 +37,45 @@ import { METRIC_DEFS } from "@/lib/metric-defs";
 
 export function generateStaticParams() {
   return COMMODITY_META.map((c) => ({ mineral: c.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ mineral: string }>;
+}): Promise<Metadata> {
+  const { mineral } = await params;
+  const c = getCommodity(mineral);
+  if (!c) return { title: `Unknown commodity — ${SITE_NAME}` };
+
+  const path = routes.commodity(c.slug);
+  const description = commodityDescription(c);
+  const lower = c.name.toLowerCase();
+  return {
+    title: `${c.name} — who supplies the world`,
+    description,
+    keywords: [
+      `${lower} production by country`,
+      `world ${lower} mine production`,
+      `largest ${lower} producers`,
+      `${lower} production ${c.years.estimate}`,
+      "USGS Mineral Commodity Summaries",
+    ],
+    alternates: { canonical: path },
+    // The social card comes from this segment's own opengraph-image.tsx.
+    openGraph: {
+      type: "website",
+      title: `${c.name} — who supplies the world`,
+      description,
+      url: path,
+      siteName: SITE_NAME,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${c.name} — who supplies the world`,
+      description,
+    },
+  };
 }
 
 /** "23.9%", "1.4%", "0.04%" — precision follows magnitude, never padding. */
@@ -52,6 +101,17 @@ export default async function CommodityPage({
   const producing = c.producers.filter((p) => p.reported != null || p.estimate != null).length;
 
   return (
+    <>
+    <JsonLd
+      data={[
+        commodityLd(c, source, commoditiesUpdated()),
+        breadcrumbLd([
+          { name: SITE_NAME, path: routes.home() },
+          { name: "Commodities", path: routes.commodities() },
+          { name: c.name, path: routes.commodity(c.slug) },
+        ]),
+      ]}
+    />
     <main className="paper-grain min-h-screen bg-land-0 text-ink">
       <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
         <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
@@ -210,6 +270,7 @@ export default async function CommodityPage({
         </footer>
       </div>
     </main>
+    </>
   );
 }
 

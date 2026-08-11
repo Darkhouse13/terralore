@@ -4,7 +4,9 @@
 // the provenance machine-readable — every chronicle ships its citations as
 // schema.org `citation` nodes pointing at the same references a human sees.
 
-import type { CountryHistory, CountryMeta, Source } from "./types";
+import type { CountryHistory, CountryMeta, DataSource, Source } from "./types";
+import type { Commodity } from "./commodities";
+import { formatTonnes } from "./format";
 
 export const SITE_URL = "https://terralore.co";
 export const SITE_NAME = "Terralore";
@@ -23,6 +25,8 @@ export const routes = {
   dossier: (code: string) => `/country/${code}`,
   journey: (code: string) => `/country/${code}/history`,
   chronicle: (code: string) => `/country/${code}/chronicle`,
+  commodities: () => "/commodities",
+  commodity: (slug: string) => `/commodities/${slug}`,
 };
 
 // ── Social cards ───────────────────────────────────────────────────────────
@@ -124,6 +128,32 @@ export function dossierDescription(
   return clampText(
     `${meta.name} — ${list.toLowerCase()} in one sourced dossier: ${metricCount} indicators, ` +
       `each with its publisher and data vintage.`,
+  );
+}
+
+/** The commodities hub — who supplies the world, in one line with its numbers. */
+export function commoditiesDescription(
+  count: number,
+  nations: number,
+  estimateYear: number,
+): string {
+  return clampText(
+    `Who supplies the world: ${count} minerals, ${nations} producing nations. Each nation's ` +
+      `share of world mine production — USGS ${estimateYear} estimates beside reported figures.`,
+  );
+}
+
+/** One commodity page. Real figures, no superlative without a number beside it. */
+export function commodityDescription(c: Commodity): string {
+  const top = c.producers[0];
+  const lead =
+    top?.shareEstimate != null
+      ? ` ${top.name} leads with ${Math.round(top.shareEstimate * 100)}%; the top three hold ` +
+        `${Math.round(c.topThreeShare * 100)}%.`
+      : "";
+  return clampText(
+    `World ${c.name.toLowerCase()} mine production: ${formatTonnes(c.world.estimate)} in the ` +
+      `${c.years.estimate} USGS estimate.${lead} Every producer's sourced share.`,
   );
 }
 
@@ -281,6 +311,46 @@ export function chronicleLd(history: CountryHistory, meta: CountryMeta): Json {
     articleSection: history.eras.map((e) => e.title),
     isAccessibleForFree: true,
     license: "https://creativecommons.org/licenses/by/4.0/",
+  };
+}
+
+/**
+ * A commodity's world production table, as a Dataset. The `citation` names the
+ * USGS Mineral Commodity Summaries — the one publisher every figure on the
+ * page rests on — and the description states exactly what is measured (the
+ * pinned MCS statistics row), so an engine cannot mistake mine production for
+ * reserves or refining.
+ */
+export function commodityLd(c: Commodity, source: DataSource, updated: string): Json {
+  const url = abs(routes.commodity(c.slug));
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": `${url}#dataset`,
+    name: `World ${c.name.toLowerCase()} mine production by nation`,
+    description:
+      `${c.name} mine production (MCS statistics row: "${c.detail}") for every producer ` +
+      `the USGS lists, with each nation's share of the published world total of ` +
+      `${formatTonnes(c.world.estimate)} — ${c.years.reported} reported figures beside ` +
+      `${c.years.estimate} estimates.`,
+    url,
+    isAccessibleForFree: true,
+    creator: publisher,
+    dateModified: updated,
+    temporalCoverage: `${c.years.reported}/${c.years.estimate}`,
+    variableMeasured: {
+      "@type": "PropertyValue",
+      name: `${c.name} mine production`,
+      unitText: "tonnes",
+    },
+    citation: [
+      {
+        "@type": "CreativeWork",
+        name: source.label,
+        url: source.url,
+        publisher: { "@type": "Organization", name: source.publisher },
+      },
+    ],
   };
 }
 

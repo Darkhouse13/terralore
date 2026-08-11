@@ -1,6 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { allCommodities, commoditiesSource, type Commodity } from "@/lib/commodities";
+import JsonLd from "@/components/JsonLd";
+import {
+  allCommodities,
+  commoditiesSource,
+  commoditiesUpdated,
+  type Commodity,
+} from "@/lib/commodities";
 import { formatTonnes } from "@/lib/format";
+import {
+  breadcrumbLd,
+  collectionLd,
+  commoditiesDescription,
+  routes,
+  SITE_NAME,
+  siteOgImages,
+} from "@/lib/seo";
 
 /**
  * The commodities index — the resources domain read across nations.
@@ -18,16 +33,65 @@ function pct(share: number): string {
   return `${p.toFixed(p >= 10 ? 0 : 1)}%`;
 }
 
+// Evaluated once at build time — the commodities table is memoised.
+const COMMODITIES = allCommodities();
+const PRODUCING = new Set(COMMODITIES.flatMap((c) => c.producers.map((p) => p.code))).size;
+const DESCRIPTION = commoditiesDescription(
+  COMMODITIES.length,
+  PRODUCING,
+  COMMODITIES[0].years.estimate,
+);
+
+export const metadata: Metadata = {
+  title: "Commodities",
+  description: DESCRIPTION,
+  keywords: [
+    "mineral production by country",
+    "world mine production",
+    "largest mineral producers",
+    "USGS Mineral Commodity Summaries",
+    "who produces the most copper lithium cobalt",
+  ],
+  alternates: { canonical: routes.commodities() },
+  openGraph: {
+    type: "website",
+    title: "Commodities — who supplies the world",
+    description: DESCRIPTION,
+    url: routes.commodities(),
+    siteName: SITE_NAME,
+    images: siteOgImages(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Commodities — who supplies the world",
+    description: DESCRIPTION,
+    images: siteOgImages(),
+  },
+};
+
 export default function CommoditiesPage() {
-  const commodities = allCommodities();
+  const commodities = COMMODITIES;
   const source = commoditiesSource();
-  const producing = new Set(
-    commodities.flatMap((c) => c.producers.map((p) => p.code)),
-  ).size;
+  const producing = PRODUCING;
   const ye = commodities[0].years.estimate;
   const yr = commodities[0].years.reported;
 
   return (
+    <>
+    <JsonLd
+      data={[
+        collectionLd({
+          name: `Commodities — ${SITE_NAME}`,
+          description: DESCRIPTION,
+          path: routes.commodities(),
+          items: commodities.map((c) => ({ name: c.name, path: routes.commodity(c.slug) })),
+        }),
+        breadcrumbLd([
+          { name: SITE_NAME, path: routes.home() },
+          { name: "Commodities", path: routes.commodities() },
+        ]),
+      ]}
+    />
     <main className="paper-grain min-h-screen bg-land-0 text-ink">
       <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
         <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
@@ -119,6 +183,7 @@ export default function CommoditiesPage() {
         </footer>
       </div>
     </main>
+    </>
   );
 }
 

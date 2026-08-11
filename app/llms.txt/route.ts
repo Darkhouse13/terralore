@@ -1,6 +1,8 @@
 import { allCountries } from "@/lib/countries";
 import { getHistory } from "@/lib/histories";
 import { allPeriods, allThemes, corpusStats } from "@/lib/chronology";
+import { allCommodities } from "@/lib/commodities";
+import { formatTonnes } from "@/lib/format";
 import { abs, routes, SITE_DESCRIPTION, SITE_NAME } from "@/lib/seo";
 
 /**
@@ -67,6 +69,8 @@ export function GET(): Response {
     `- [The Atlas](${abs(routes.atlas())}): every nation, searchable`,
     `- [Chronology](${abs("/timeline")}): every event by period, across all nations`,
     `- [Themes](${abs("/themes")}): every event by theme, across all nations`,
+    `- [Commodities](${abs(routes.commodities())}): who supplies the world — ten minerals,`,
+    `  every producer's share of world mine production (USGS Mineral Commodity Summaries)`,
     "",
     `### By period`,
     "",
@@ -81,6 +85,20 @@ export function GET(): Response {
       (t) =>
         `- [${t.label}](${abs(`/themes/${t.slug}`)}): ${t.events.length} events across ${t.nations} nations`,
     ),
+    "",
+    `### By commodity`,
+    "",
+    `Mine production shares computed against the published USGS world totals; the latest`,
+    `year is a USGS estimate, the year before it the reported figure.`,
+    "",
+    ...allCommodities().map((c) => {
+      const top = c.producers[0];
+      const lead =
+        top?.shareEstimate != null
+          ? `; ${top.name} leads with ${Math.round(top.shareEstimate * 100)}%`
+          : "";
+      return `- [${c.name}](${abs(routes.commodity(c.slug))}): ${formatTonnes(c.world.estimate)} mined in the ${c.years.estimate} estimate${lead}`;
+    }),
     "",
     `## Nations`,
     "",
