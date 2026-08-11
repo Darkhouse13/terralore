@@ -1,0 +1,3607 @@
+{
+  "doc": "The /compare pair set. Derived by scripts/build-compare-pairs.mjs (tiers, adjacency reconciliation, spot checks) and gated on shared ranked metrics; validated by scripts/validate-compare.mjs. Edit the script, not this file. Slugs order the two ADM0_A3 codes alphabetically; the reverse order 308s.",
+  "gate": {
+    "threshold": 10,
+    "measuredOn": "data/domains/*.json — metric keys where both nations hold a non-null value"
+  },
+  "tier1Exclusions": {
+    "IND-LKA": "mledoze lists a land border; India and Sri Lanka are separated by the Palk Strait"
+  },
+  "pairs": [
+    {
+      "a": "AFG",
+      "b": "CHN",
+      "slug": "afg-vs-chn",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AFG",
+      "b": "IRN",
+      "slug": "afg-vs-irn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AFG",
+      "b": "PAK",
+      "slug": "afg-vs-pak",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AFG",
+      "b": "TJK",
+      "slug": "afg-vs-tjk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AFG",
+      "b": "TKM",
+      "slug": "afg-vs-tkm",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "AFG",
+      "b": "UZB",
+      "slug": "afg-vs-uzb",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AGO",
+      "b": "COD",
+      "slug": "ago-vs-cod",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "AGO",
+      "b": "COG",
+      "slug": "ago-vs-cog",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "AGO",
+      "b": "NAM",
+      "slug": "ago-vs-nam",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "AGO",
+      "b": "PRT",
+      "slug": "ago-vs-prt",
+      "tier": 3,
+      "reason": "colonial tie to 1975",
+      "sharedMetrics": 43
+    },
+    {
+      "a": "AGO",
+      "b": "ZMB",
+      "slug": "ago-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ALB",
+      "b": "GRC",
+      "slug": "alb-vs-grc",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ALB",
+      "b": "KOS",
+      "slug": "alb-vs-kos",
+      "tier": 1,
+      "sharedMetrics": 24
+    },
+    {
+      "a": "ALB",
+      "b": "MKD",
+      "slug": "alb-vs-mkd",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ALB",
+      "b": "MNE",
+      "slug": "alb-vs-mne",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AND",
+      "b": "ESP",
+      "slug": "and-vs-esp",
+      "tier": 1,
+      "sharedMetrics": 34
+    },
+    {
+      "a": "AND",
+      "b": "FRA",
+      "slug": "and-vs-fra",
+      "tier": 1,
+      "sharedMetrics": 34
+    },
+    {
+      "a": "ARE",
+      "b": "OMN",
+      "slug": "are-vs-omn",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARE",
+      "b": "SAU",
+      "slug": "are-vs-sau",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "AUS",
+      "slug": "arg-vs-aus",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ARG",
+      "b": "BOL",
+      "slug": "arg-vs-bol",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ARG",
+      "b": "BRA",
+      "slug": "arg-vs-bra",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARG",
+      "b": "CAN",
+      "slug": "arg-vs-can",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ARG",
+      "b": "CHL",
+      "slug": "arg-vs-chl",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARG",
+      "b": "CHN",
+      "slug": "arg-vs-chn",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARG",
+      "b": "DEU",
+      "slug": "arg-vs-deu",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ARG",
+      "b": "ESP",
+      "slug": "arg-vs-esp",
+      "tier": 3,
+      "reason": "colonial tie and twentieth-century migration",
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "FRA",
+      "slug": "arg-vs-fra",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ARG",
+      "b": "GBR",
+      "slug": "arg-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ARG",
+      "b": "IDN",
+      "slug": "arg-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "IND",
+      "slug": "arg-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "ITA",
+      "slug": "arg-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "JPN",
+      "slug": "arg-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ARG",
+      "b": "KOR",
+      "slug": "arg-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "MEX",
+      "slug": "arg-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "PRY",
+      "slug": "arg-vs-pry",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "RUS",
+      "slug": "arg-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "SAU",
+      "slug": "arg-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "TUR",
+      "slug": "arg-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "URY",
+      "slug": "arg-vs-ury",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARG",
+      "b": "USA",
+      "slug": "arg-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ARG",
+      "b": "ZAF",
+      "slug": "arg-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ARM",
+      "b": "AZE",
+      "slug": "arm-vs-aze",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARM",
+      "b": "GEO",
+      "slug": "arm-vs-geo",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARM",
+      "b": "IRN",
+      "slug": "arm-vs-irn",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ARM",
+      "b": "TUR",
+      "slug": "arm-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "AUS",
+      "b": "BRA",
+      "slug": "aus-vs-bra",
+      "tier": 2,
+      "sharedMetrics": 48
+    },
+    {
+      "a": "AUS",
+      "b": "CAN",
+      "slug": "aus-vs-can",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "AUS",
+      "b": "CHN",
+      "slug": "aus-vs-chn",
+      "tier": 2,
+      "sharedMetrics": 51
+    },
+    {
+      "a": "AUS",
+      "b": "DEU",
+      "slug": "aus-vs-deu",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "FRA",
+      "slug": "aus-vs-fra",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "GBR",
+      "slug": "aus-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "IDN",
+      "slug": "aus-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "AUS",
+      "b": "IND",
+      "slug": "aus-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "AUS",
+      "b": "ITA",
+      "slug": "aus-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "JPN",
+      "slug": "aus-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "KOR",
+      "slug": "aus-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "MEX",
+      "slug": "aus-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "AUS",
+      "b": "NZL",
+      "slug": "aus-vs-nzl",
+      "tier": 3,
+      "reason": "trans-Tasman neighbours; the standing comparison in both publics",
+      "sharedMetrics": 41
+    },
+    {
+      "a": "AUS",
+      "b": "RUS",
+      "slug": "aus-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 50
+    },
+    {
+      "a": "AUS",
+      "b": "SAU",
+      "slug": "aus-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "AUS",
+      "b": "TUR",
+      "slug": "aus-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "AUS",
+      "b": "USA",
+      "slug": "aus-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 49
+    },
+    {
+      "a": "AUS",
+      "b": "ZAF",
+      "slug": "aus-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "AUT",
+      "b": "CHE",
+      "slug": "aut-vs-che",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AUT",
+      "b": "CZE",
+      "slug": "aut-vs-cze",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AUT",
+      "b": "DEU",
+      "slug": "aut-vs-deu",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AUT",
+      "b": "HUN",
+      "slug": "aut-vs-hun",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AUT",
+      "b": "ITA",
+      "slug": "aut-vs-ita",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AUT",
+      "b": "LIE",
+      "slug": "aut-vs-lie",
+      "tier": 1,
+      "sharedMetrics": 31
+    },
+    {
+      "a": "AUT",
+      "b": "SVK",
+      "slug": "aut-vs-svk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AUT",
+      "b": "SVN",
+      "slug": "aut-vs-svn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "AZE",
+      "b": "GEO",
+      "slug": "aze-vs-geo",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "AZE",
+      "b": "IRN",
+      "slug": "aze-vs-irn",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "AZE",
+      "b": "RUS",
+      "slug": "aze-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "AZE",
+      "b": "TUR",
+      "slug": "aze-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BDI",
+      "b": "COD",
+      "slug": "bdi-vs-cod",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BDI",
+      "b": "RWA",
+      "slug": "bdi-vs-rwa",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BDI",
+      "b": "TZA",
+      "slug": "bdi-vs-tza",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BEL",
+      "b": "DEU",
+      "slug": "bel-vs-deu",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BEL",
+      "b": "FRA",
+      "slug": "bel-vs-fra",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BEL",
+      "b": "LUX",
+      "slug": "bel-vs-lux",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BEL",
+      "b": "NLD",
+      "slug": "bel-vs-nld",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BEN",
+      "b": "BFA",
+      "slug": "ben-vs-bfa",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BEN",
+      "b": "NER",
+      "slug": "ben-vs-ner",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BEN",
+      "b": "NGA",
+      "slug": "ben-vs-nga",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BEN",
+      "b": "TGO",
+      "slug": "ben-vs-tgo",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BFA",
+      "b": "CIV",
+      "slug": "bfa-vs-civ",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BFA",
+      "b": "GHA",
+      "slug": "bfa-vs-gha",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BFA",
+      "b": "MLI",
+      "slug": "bfa-vs-mli",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BFA",
+      "b": "NER",
+      "slug": "bfa-vs-ner",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BFA",
+      "b": "TGO",
+      "slug": "bfa-vs-tgo",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BGD",
+      "b": "IND",
+      "slug": "bgd-vs-ind",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BGD",
+      "b": "MMR",
+      "slug": "bgd-vs-mmr",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BGD",
+      "b": "PAK",
+      "slug": "bgd-vs-pak",
+      "tier": 3,
+      "reason": "one state from 1947 to 1971",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BGR",
+      "b": "GRC",
+      "slug": "bgr-vs-grc",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BGR",
+      "b": "MKD",
+      "slug": "bgr-vs-mkd",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BGR",
+      "b": "ROU",
+      "slug": "bgr-vs-rou",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BGR",
+      "b": "SRB",
+      "slug": "bgr-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BGR",
+      "b": "TUR",
+      "slug": "bgr-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BIH",
+      "b": "HRV",
+      "slug": "bih-vs-hrv",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BIH",
+      "b": "MNE",
+      "slug": "bih-vs-mne",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BIH",
+      "b": "SRB",
+      "slug": "bih-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BLR",
+      "b": "LTU",
+      "slug": "blr-vs-ltu",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BLR",
+      "b": "LVA",
+      "slug": "blr-vs-lva",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BLR",
+      "b": "POL",
+      "slug": "blr-vs-pol",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BLR",
+      "b": "RUS",
+      "slug": "blr-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BLR",
+      "b": "UKR",
+      "slug": "blr-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BLZ",
+      "b": "GTM",
+      "slug": "blz-vs-gtm",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BLZ",
+      "b": "MEX",
+      "slug": "blz-vs-mex",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BOL",
+      "b": "BRA",
+      "slug": "bol-vs-bra",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BOL",
+      "b": "CHL",
+      "slug": "bol-vs-chl",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BOL",
+      "b": "PER",
+      "slug": "bol-vs-per",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BOL",
+      "b": "PRY",
+      "slug": "bol-vs-pry",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "CAN",
+      "slug": "bra-vs-can",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "BRA",
+      "b": "CHN",
+      "slug": "bra-vs-chn",
+      "tier": 2,
+      "sharedMetrics": 50
+    },
+    {
+      "a": "BRA",
+      "b": "COL",
+      "slug": "bra-vs-col",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BRA",
+      "b": "DEU",
+      "slug": "bra-vs-deu",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "FRA",
+      "slug": "bra-vs-fra",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "GBR",
+      "slug": "bra-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "GUY",
+      "slug": "bra-vs-guy",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "IDN",
+      "slug": "bra-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "BRA",
+      "b": "IND",
+      "slug": "bra-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 48
+    },
+    {
+      "a": "BRA",
+      "b": "ITA",
+      "slug": "bra-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BRA",
+      "b": "JPN",
+      "slug": "bra-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "KOR",
+      "slug": "bra-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BRA",
+      "b": "MEX",
+      "slug": "bra-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "BRA",
+      "b": "PER",
+      "slug": "bra-vs-per",
+      "tier": 1,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "BRA",
+      "b": "PRT",
+      "slug": "bra-vs-prt",
+      "tier": 3,
+      "reason": "colonial tie and shared language",
+      "sharedMetrics": 45
+    },
+    {
+      "a": "BRA",
+      "b": "PRY",
+      "slug": "bra-vs-pry",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BRA",
+      "b": "RUS",
+      "slug": "bra-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 50
+    },
+    {
+      "a": "BRA",
+      "b": "SAU",
+      "slug": "bra-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "BRA",
+      "b": "SUR",
+      "slug": "bra-vs-sur",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "BRA",
+      "b": "TUR",
+      "slug": "bra-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "BRA",
+      "b": "URY",
+      "slug": "bra-vs-ury",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BRA",
+      "b": "USA",
+      "slug": "bra-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "BRA",
+      "b": "VEN",
+      "slug": "bra-vs-ven",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BRA",
+      "b": "ZAF",
+      "slug": "bra-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "BRN",
+      "b": "MYS",
+      "slug": "brn-vs-mys",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BTN",
+      "b": "CHN",
+      "slug": "btn-vs-chn",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "BTN",
+      "b": "IND",
+      "slug": "btn-vs-ind",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "BWA",
+      "b": "NAM",
+      "slug": "bwa-vs-nam",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BWA",
+      "b": "ZAF",
+      "slug": "bwa-vs-zaf",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "BWA",
+      "b": "ZMB",
+      "slug": "bwa-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "BWA",
+      "b": "ZWE",
+      "slug": "bwa-vs-zwe",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CAF",
+      "b": "CMR",
+      "slug": "caf-vs-cmr",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CAF",
+      "b": "COD",
+      "slug": "caf-vs-cod",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAF",
+      "b": "COG",
+      "slug": "caf-vs-cog",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAF",
+      "b": "SDN",
+      "slug": "caf-vs-sdn",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CAF",
+      "b": "SDS",
+      "slug": "caf-vs-sds",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "CAF",
+      "b": "TCD",
+      "slug": "caf-vs-tcd",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CAN",
+      "b": "CHN",
+      "slug": "can-vs-chn",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "CAN",
+      "b": "DEU",
+      "slug": "can-vs-deu",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAN",
+      "b": "FRA",
+      "slug": "can-vs-fra",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAN",
+      "b": "GBR",
+      "slug": "can-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAN",
+      "b": "IDN",
+      "slug": "can-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "CAN",
+      "b": "IND",
+      "slug": "can-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "CAN",
+      "b": "ITA",
+      "slug": "can-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAN",
+      "b": "JPN",
+      "slug": "can-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAN",
+      "b": "KOR",
+      "slug": "can-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CAN",
+      "b": "MEX",
+      "slug": "can-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "CAN",
+      "b": "RUS",
+      "slug": "can-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "CAN",
+      "b": "SAU",
+      "slug": "can-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CAN",
+      "b": "TUR",
+      "slug": "can-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CAN",
+      "b": "USA",
+      "slug": "can-vs-usa",
+      "tier": 1,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "CAN",
+      "b": "ZAF",
+      "slug": "can-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "CHE",
+      "b": "DEU",
+      "slug": "che-vs-deu",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CHE",
+      "b": "FRA",
+      "slug": "che-vs-fra",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CHE",
+      "b": "ITA",
+      "slug": "che-vs-ita",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CHE",
+      "b": "LIE",
+      "slug": "che-vs-lie",
+      "tier": 1,
+      "sharedMetrics": 31
+    },
+    {
+      "a": "CHL",
+      "b": "PER",
+      "slug": "chl-vs-per",
+      "tier": 1,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "CHN",
+      "b": "DEU",
+      "slug": "chn-vs-deu",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CHN",
+      "b": "FRA",
+      "slug": "chn-vs-fra",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CHN",
+      "b": "GBR",
+      "slug": "chn-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CHN",
+      "b": "IDN",
+      "slug": "chn-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 48
+    },
+    {
+      "a": "CHN",
+      "b": "IND",
+      "slug": "chn-vs-ind",
+      "tier": 1,
+      "sharedMetrics": 49
+    },
+    {
+      "a": "CHN",
+      "b": "ITA",
+      "slug": "chn-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "JPN",
+      "slug": "chn-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CHN",
+      "b": "KAZ",
+      "slug": "chn-vs-kaz",
+      "tier": 1,
+      "sharedMetrics": 49
+    },
+    {
+      "a": "CHN",
+      "b": "KGZ",
+      "slug": "chn-vs-kgz",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CHN",
+      "b": "KOR",
+      "slug": "chn-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "LAO",
+      "slug": "chn-vs-lao",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "MEX",
+      "slug": "chn-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 48
+    },
+    {
+      "a": "CHN",
+      "b": "MMR",
+      "slug": "chn-vs-mmr",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "MNG",
+      "slug": "chn-vs-mng",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "NPL",
+      "slug": "chn-vs-npl",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "PAK",
+      "slug": "chn-vs-pak",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CHN",
+      "b": "PRK",
+      "slug": "chn-vs-prk",
+      "tier": 1,
+      "sharedMetrics": 28
+    },
+    {
+      "a": "CHN",
+      "b": "RUS",
+      "slug": "chn-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 52
+    },
+    {
+      "a": "CHN",
+      "b": "SAU",
+      "slug": "chn-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "CHN",
+      "b": "TJK",
+      "slug": "chn-vs-tjk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CHN",
+      "b": "TUR",
+      "slug": "chn-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "CHN",
+      "b": "USA",
+      "slug": "chn-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 49
+    },
+    {
+      "a": "CHN",
+      "b": "VNM",
+      "slug": "chn-vs-vnm",
+      "tier": 1,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "CHN",
+      "b": "ZAF",
+      "slug": "chn-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "CIV",
+      "b": "GHA",
+      "slug": "civ-vs-gha",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "CIV",
+      "b": "GIN",
+      "slug": "civ-vs-gin",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CIV",
+      "b": "LBR",
+      "slug": "civ-vs-lbr",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "CIV",
+      "b": "MLI",
+      "slug": "civ-vs-mli",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "CMR",
+      "b": "COG",
+      "slug": "cmr-vs-cog",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CMR",
+      "b": "GAB",
+      "slug": "cmr-vs-gab",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CMR",
+      "b": "GNQ",
+      "slug": "cmr-vs-gnq",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "CMR",
+      "b": "NGA",
+      "slug": "cmr-vs-nga",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "CMR",
+      "b": "TCD",
+      "slug": "cmr-vs-tcd",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "COD",
+      "b": "COG",
+      "slug": "cod-vs-cog",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "COD",
+      "b": "RWA",
+      "slug": "cod-vs-rwa",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "COD",
+      "b": "SDS",
+      "slug": "cod-vs-sds",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "COD",
+      "b": "TZA",
+      "slug": "cod-vs-tza",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "COD",
+      "b": "UGA",
+      "slug": "cod-vs-uga",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "COD",
+      "b": "ZMB",
+      "slug": "cod-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "COG",
+      "b": "GAB",
+      "slug": "cog-vs-gab",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "COL",
+      "b": "ECU",
+      "slug": "col-vs-ecu",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "COL",
+      "b": "PAN",
+      "slug": "col-vs-pan",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "COL",
+      "b": "PER",
+      "slug": "col-vs-per",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "COL",
+      "b": "VEN",
+      "slug": "col-vs-ven",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CRI",
+      "b": "NIC",
+      "slug": "cri-vs-nic",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CRI",
+      "b": "PAN",
+      "slug": "cri-vs-pan",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CUB",
+      "b": "USA",
+      "slug": "cub-vs-usa",
+      "tier": 3,
+      "reason": "entangled from 1898 to the present",
+      "sharedMetrics": 41
+    },
+    {
+      "a": "CYP",
+      "b": "GRC",
+      "slug": "cyp-vs-grc",
+      "tier": 3,
+      "reason": "shared language and deep state-to-state ties",
+      "sharedMetrics": 44
+    },
+    {
+      "a": "CZE",
+      "b": "DEU",
+      "slug": "cze-vs-deu",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CZE",
+      "b": "POL",
+      "slug": "cze-vs-pol",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "CZE",
+      "b": "SVK",
+      "slug": "cze-vs-svk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "DNK",
+      "slug": "deu-vs-dnk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "FRA",
+      "slug": "deu-vs-fra",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "GBR",
+      "slug": "deu-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "IDN",
+      "slug": "deu-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "IND",
+      "slug": "deu-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "ITA",
+      "slug": "deu-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "JPN",
+      "slug": "deu-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "KOR",
+      "slug": "deu-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "LUX",
+      "slug": "deu-vs-lux",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "MEX",
+      "slug": "deu-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "NLD",
+      "slug": "deu-vs-nld",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "POL",
+      "slug": "deu-vs-pol",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "RUS",
+      "slug": "deu-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "SAU",
+      "slug": "deu-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "DEU",
+      "b": "TUR",
+      "slug": "deu-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "DEU",
+      "b": "USA",
+      "slug": "deu-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DEU",
+      "b": "ZAF",
+      "slug": "deu-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DJI",
+      "b": "ERI",
+      "slug": "dji-vs-eri",
+      "tier": 1,
+      "sharedMetrics": 35
+    },
+    {
+      "a": "DJI",
+      "b": "ETH",
+      "slug": "dji-vs-eth",
+      "tier": 1,
+      "sharedMetrics": 37
+    },
+    {
+      "a": "DJI",
+      "b": "SOM",
+      "slug": "dji-vs-som",
+      "tier": 1,
+      "sharedMetrics": 33
+    },
+    {
+      "a": "DNK",
+      "b": "ISL",
+      "slug": "dnk-vs-isl",
+      "tier": 3,
+      "reason": "in union until 1944",
+      "sharedMetrics": 41
+    },
+    {
+      "a": "DNK",
+      "b": "SWE",
+      "slug": "dnk-vs-swe",
+      "tier": 3,
+      "reason": "Øresund neighbours with centuries of shared history, no land border",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DOM",
+      "b": "HTI",
+      "slug": "dom-vs-hti",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "DZA",
+      "b": "FRA",
+      "slug": "dza-vs-fra",
+      "tier": 3,
+      "reason": "132 years of colonial entanglement and a large diaspora",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DZA",
+      "b": "LBY",
+      "slug": "dza-vs-lby",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "DZA",
+      "b": "MAR",
+      "slug": "dza-vs-mar",
+      "tier": 1,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "DZA",
+      "b": "MLI",
+      "slug": "dza-vs-mli",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "DZA",
+      "b": "MRT",
+      "slug": "dza-vs-mrt",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DZA",
+      "b": "NER",
+      "slug": "dza-vs-ner",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "DZA",
+      "b": "TUN",
+      "slug": "dza-vs-tun",
+      "tier": 1,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "ECU",
+      "b": "PER",
+      "slug": "ecu-vs-per",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "EGY",
+      "b": "GBR",
+      "slug": "egy-vs-gbr",
+      "tier": 3,
+      "reason": "occupation, protectorate and Suez",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "EGY",
+      "b": "LBY",
+      "slug": "egy-vs-lby",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "EGY",
+      "b": "PSE",
+      "slug": "egy-vs-pse",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "EGY",
+      "b": "SDN",
+      "slug": "egy-vs-sdn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ERI",
+      "b": "ETH",
+      "slug": "eri-vs-eth",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "ERI",
+      "b": "SDN",
+      "slug": "eri-vs-sdn",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "ESP",
+      "b": "FRA",
+      "slug": "esp-vs-fra",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ESP",
+      "b": "GBR",
+      "slug": "esp-vs-gbr",
+      "tier": 3,
+      "reason": "five centuries of entangled history, from the Armada to Gibraltar",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ESP",
+      "b": "ITA",
+      "slug": "esp-vs-ita",
+      "tier": 3,
+      "reason": "similar-sized Mediterranean economies, frequent comparison",
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ESP",
+      "b": "MAR",
+      "slug": "esp-vs-mar",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ESP",
+      "b": "MEX",
+      "slug": "esp-vs-mex",
+      "tier": 3,
+      "reason": "colonial tie (New Spain)",
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ESP",
+      "b": "PRT",
+      "slug": "esp-vs-prt",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "EST",
+      "b": "FIN",
+      "slug": "est-vs-fin",
+      "tier": 3,
+      "reason": "Gulf of Finland neighbours with close linguistic kinship",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "EST",
+      "b": "LVA",
+      "slug": "est-vs-lva",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "EST",
+      "b": "RUS",
+      "slug": "est-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ETH",
+      "b": "KEN",
+      "slug": "eth-vs-ken",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ETH",
+      "b": "SDN",
+      "slug": "eth-vs-sdn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ETH",
+      "b": "SDS",
+      "slug": "eth-vs-sds",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "ETH",
+      "b": "SOM",
+      "slug": "eth-vs-som",
+      "tier": 1,
+      "sharedMetrics": 37
+    },
+    {
+      "a": "FIN",
+      "b": "NOR",
+      "slug": "fin-vs-nor",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FIN",
+      "b": "RUS",
+      "slug": "fin-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "FIN",
+      "b": "SWE",
+      "slug": "fin-vs-swe",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "GBR",
+      "slug": "fra-vs-gbr",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "HTI",
+      "slug": "fra-vs-hti",
+      "tier": 3,
+      "reason": "colonial Saint-Domingue and the independence indemnity",
+      "sharedMetrics": 36
+    },
+    {
+      "a": "FRA",
+      "b": "IDN",
+      "slug": "fra-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "IND",
+      "slug": "fra-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "ITA",
+      "slug": "fra-vs-ita",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "JPN",
+      "slug": "fra-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "KOR",
+      "slug": "fra-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "LUX",
+      "slug": "fra-vs-lux",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "MAR",
+      "slug": "fra-vs-mar",
+      "tier": 3,
+      "reason": "protectorate history (1912–1956) and diaspora",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "MCO",
+      "slug": "fra-vs-mco",
+      "tier": 1,
+      "sharedMetrics": 32
+    },
+    {
+      "a": "FRA",
+      "b": "MEX",
+      "slug": "fra-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "RUS",
+      "slug": "fra-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "SAU",
+      "slug": "fra-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "FRA",
+      "b": "SUR",
+      "slug": "fra-vs-sur",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "FRA",
+      "b": "TUR",
+      "slug": "fra-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "FRA",
+      "b": "USA",
+      "slug": "fra-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "VNM",
+      "slug": "fra-vs-vnm",
+      "tier": 3,
+      "reason": "colonial Indochina and the war that ended it",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "FRA",
+      "b": "ZAF",
+      "slug": "fra-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GAB",
+      "b": "GNQ",
+      "slug": "gab-vs-gnq",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "GBR",
+      "b": "IDN",
+      "slug": "gbr-vs-idn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "IND",
+      "slug": "gbr-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "IRL",
+      "slug": "gbr-vs-irl",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "ITA",
+      "slug": "gbr-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "JAM",
+      "slug": "gbr-vs-jam",
+      "tier": 3,
+      "reason": "colonial history and the Windrush-era diaspora",
+      "sharedMetrics": 39
+    },
+    {
+      "a": "GBR",
+      "b": "JPN",
+      "slug": "gbr-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "KOR",
+      "slug": "gbr-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "MEX",
+      "slug": "gbr-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "NLD",
+      "slug": "gbr-vs-nld",
+      "tier": 3,
+      "reason": "Anglo-Dutch maritime entanglement, wars to William of Orange",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "NZL",
+      "slug": "gbr-vs-nzl",
+      "tier": 3,
+      "reason": "settlement-era ties and diaspora",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "PRT",
+      "slug": "gbr-vs-prt",
+      "tier": 3,
+      "reason": "the Anglo-Portuguese alliance of 1373, the oldest still in force",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "RUS",
+      "slug": "gbr-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "SAU",
+      "slug": "gbr-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "GBR",
+      "b": "TUR",
+      "slug": "gbr-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "GBR",
+      "b": "USA",
+      "slug": "gbr-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GBR",
+      "b": "ZAF",
+      "slug": "gbr-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GEO",
+      "b": "RUS",
+      "slug": "geo-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GEO",
+      "b": "TUR",
+      "slug": "geo-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "GHA",
+      "b": "TGO",
+      "slug": "gha-vs-tgo",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GIN",
+      "b": "GNB",
+      "slug": "gin-vs-gnb",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "GIN",
+      "b": "LBR",
+      "slug": "gin-vs-lbr",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "GIN",
+      "b": "MLI",
+      "slug": "gin-vs-mli",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "GIN",
+      "b": "SEN",
+      "slug": "gin-vs-sen",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "GIN",
+      "b": "SLE",
+      "slug": "gin-vs-sle",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "GMB",
+      "b": "SEN",
+      "slug": "gmb-vs-sen",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GNB",
+      "b": "SEN",
+      "slug": "gnb-vs-sen",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "GRC",
+      "b": "MKD",
+      "slug": "grc-vs-mkd",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GRC",
+      "b": "TUR",
+      "slug": "grc-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GTM",
+      "b": "HND",
+      "slug": "gtm-vs-hnd",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GTM",
+      "b": "MEX",
+      "slug": "gtm-vs-mex",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "GTM",
+      "b": "SLV",
+      "slug": "gtm-vs-slv",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "GUY",
+      "b": "SUR",
+      "slug": "guy-vs-sur",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "GUY",
+      "b": "VEN",
+      "slug": "guy-vs-ven",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "HND",
+      "b": "NIC",
+      "slug": "hnd-vs-nic",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HND",
+      "b": "SLV",
+      "slug": "hnd-vs-slv",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "HRV",
+      "b": "HUN",
+      "slug": "hrv-vs-hun",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HRV",
+      "b": "MNE",
+      "slug": "hrv-vs-mne",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HRV",
+      "b": "SRB",
+      "slug": "hrv-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "HRV",
+      "b": "SVN",
+      "slug": "hrv-vs-svn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HUN",
+      "b": "ROU",
+      "slug": "hun-vs-rou",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HUN",
+      "b": "SRB",
+      "slug": "hun-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "HUN",
+      "b": "SVK",
+      "slug": "hun-vs-svk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HUN",
+      "b": "SVN",
+      "slug": "hun-vs-svn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "HUN",
+      "b": "UKR",
+      "slug": "hun-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IDN",
+      "b": "IND",
+      "slug": "idn-vs-ind",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "IDN",
+      "b": "ITA",
+      "slug": "idn-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IDN",
+      "b": "JPN",
+      "slug": "idn-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IDN",
+      "b": "KOR",
+      "slug": "idn-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IDN",
+      "b": "MEX",
+      "slug": "idn-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "IDN",
+      "b": "MYS",
+      "slug": "idn-vs-mys",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IDN",
+      "b": "NLD",
+      "slug": "idn-vs-nld",
+      "tier": 3,
+      "reason": "the Dutch East Indies and the independence war",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IDN",
+      "b": "PNG",
+      "slug": "idn-vs-png",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "IDN",
+      "b": "RUS",
+      "slug": "idn-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 49
+    },
+    {
+      "a": "IDN",
+      "b": "SAU",
+      "slug": "idn-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IDN",
+      "b": "TLS",
+      "slug": "idn-vs-tls",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "IDN",
+      "b": "TUR",
+      "slug": "idn-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "IDN",
+      "b": "USA",
+      "slug": "idn-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "IDN",
+      "b": "ZAF",
+      "slug": "idn-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "IND",
+      "b": "ITA",
+      "slug": "ind-vs-ita",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IND",
+      "b": "JPN",
+      "slug": "ind-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IND",
+      "b": "KOR",
+      "slug": "ind-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IND",
+      "b": "LKA",
+      "slug": "ind-vs-lka",
+      "tier": 3,
+      "reason": "strait neighbours with millennia of shared history (no land border — see Tier 1 exclusions)",
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IND",
+      "b": "MEX",
+      "slug": "ind-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 48
+    },
+    {
+      "a": "IND",
+      "b": "MMR",
+      "slug": "ind-vs-mmr",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IND",
+      "b": "NPL",
+      "slug": "ind-vs-npl",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IND",
+      "b": "PAK",
+      "slug": "ind-vs-pak",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IND",
+      "b": "RUS",
+      "slug": "ind-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 50
+    },
+    {
+      "a": "IND",
+      "b": "SAU",
+      "slug": "ind-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "IND",
+      "b": "TUR",
+      "slug": "ind-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "IND",
+      "b": "USA",
+      "slug": "ind-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "IND",
+      "b": "ZAF",
+      "slug": "ind-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "IRL",
+      "b": "USA",
+      "slug": "irl-vs-usa",
+      "tier": 3,
+      "reason": "Irish-American diaspora",
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IRN",
+      "b": "IRQ",
+      "slug": "irn-vs-irq",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IRN",
+      "b": "PAK",
+      "slug": "irn-vs-pak",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IRN",
+      "b": "SAU",
+      "slug": "irn-vs-sau",
+      "tier": 3,
+      "reason": "the Gulf's two largest states, frequent comparison",
+      "sharedMetrics": 43
+    },
+    {
+      "a": "IRN",
+      "b": "TKM",
+      "slug": "irn-vs-tkm",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "IRN",
+      "b": "TUR",
+      "slug": "irn-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "IRQ",
+      "b": "JOR",
+      "slug": "irq-vs-jor",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IRQ",
+      "b": "KWT",
+      "slug": "irq-vs-kwt",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "IRQ",
+      "b": "SAU",
+      "slug": "irq-vs-sau",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "IRQ",
+      "b": "SYR",
+      "slug": "irq-vs-syr",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "IRQ",
+      "b": "TUR",
+      "slug": "irq-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ISL",
+      "b": "NOR",
+      "slug": "isl-vs-nor",
+      "tier": 3,
+      "reason": "Iceland's settlement-era origin",
+      "sharedMetrics": 41
+    },
+    {
+      "a": "ITA",
+      "b": "JPN",
+      "slug": "ita-vs-jpn",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ITA",
+      "b": "KOR",
+      "slug": "ita-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ITA",
+      "b": "MEX",
+      "slug": "ita-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ITA",
+      "b": "RUS",
+      "slug": "ita-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "ITA",
+      "b": "SAU",
+      "slug": "ita-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ITA",
+      "b": "SMR",
+      "slug": "ita-vs-smr",
+      "tier": 1,
+      "sharedMetrics": 35
+    },
+    {
+      "a": "ITA",
+      "b": "SVN",
+      "slug": "ita-vs-svn",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ITA",
+      "b": "TUR",
+      "slug": "ita-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ITA",
+      "b": "USA",
+      "slug": "ita-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "ITA",
+      "b": "ZAF",
+      "slug": "ita-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "JOR",
+      "b": "PSE",
+      "slug": "jor-vs-pse",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "JOR",
+      "b": "SAU",
+      "slug": "jor-vs-sau",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "JOR",
+      "b": "SYR",
+      "slug": "jor-vs-syr",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "JPN",
+      "b": "KOR",
+      "slug": "jpn-vs-kor",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "JPN",
+      "b": "MEX",
+      "slug": "jpn-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "JPN",
+      "b": "RUS",
+      "slug": "jpn-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "JPN",
+      "b": "SAU",
+      "slug": "jpn-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "JPN",
+      "b": "TUR",
+      "slug": "jpn-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "JPN",
+      "b": "USA",
+      "slug": "jpn-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "JPN",
+      "b": "ZAF",
+      "slug": "jpn-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "KAZ",
+      "b": "KGZ",
+      "slug": "kaz-vs-kgz",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KAZ",
+      "b": "RUS",
+      "slug": "kaz-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 50
+    },
+    {
+      "a": "KAZ",
+      "b": "TKM",
+      "slug": "kaz-vs-tkm",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "KAZ",
+      "b": "UZB",
+      "slug": "kaz-vs-uzb",
+      "tier": 1,
+      "sharedMetrics": 46
+    },
+    {
+      "a": "KEN",
+      "b": "SDS",
+      "slug": "ken-vs-sds",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "KEN",
+      "b": "SOM",
+      "slug": "ken-vs-som",
+      "tier": 1,
+      "sharedMetrics": 37
+    },
+    {
+      "a": "KEN",
+      "b": "TZA",
+      "slug": "ken-vs-tza",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KEN",
+      "b": "UGA",
+      "slug": "ken-vs-uga",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KGZ",
+      "b": "TJK",
+      "slug": "kgz-vs-tjk",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KGZ",
+      "b": "UZB",
+      "slug": "kgz-vs-uzb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KHM",
+      "b": "LAO",
+      "slug": "khm-vs-lao",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "KHM",
+      "b": "THA",
+      "slug": "khm-vs-tha",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KHM",
+      "b": "VNM",
+      "slug": "khm-vs-vnm",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "KOR",
+      "b": "MEX",
+      "slug": "kor-vs-mex",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "KOR",
+      "b": "PRK",
+      "slug": "kor-vs-prk",
+      "tier": 1,
+      "sharedMetrics": 29
+    },
+    {
+      "a": "KOR",
+      "b": "RUS",
+      "slug": "kor-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "KOR",
+      "b": "SAU",
+      "slug": "kor-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KOR",
+      "b": "TUR",
+      "slug": "kor-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "KOR",
+      "b": "USA",
+      "slug": "kor-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "KOR",
+      "b": "ZAF",
+      "slug": "kor-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "KOS",
+      "b": "MKD",
+      "slug": "kos-vs-mkd",
+      "tier": 1,
+      "sharedMetrics": 24
+    },
+    {
+      "a": "KOS",
+      "b": "MNE",
+      "slug": "kos-vs-mne",
+      "tier": 1,
+      "sharedMetrics": 24
+    },
+    {
+      "a": "KOS",
+      "b": "SRB",
+      "slug": "kos-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 24
+    },
+    {
+      "a": "KWT",
+      "b": "SAU",
+      "slug": "kwt-vs-sau",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "LAO",
+      "b": "MMR",
+      "slug": "lao-vs-mmr",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "LAO",
+      "b": "THA",
+      "slug": "lao-vs-tha",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "LAO",
+      "b": "VNM",
+      "slug": "lao-vs-vnm",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "LBN",
+      "b": "SYR",
+      "slug": "lbn-vs-syr",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "LBR",
+      "b": "SLE",
+      "slug": "lbr-vs-sle",
+      "tier": 1,
+      "sharedMetrics": 40
+    },
+    {
+      "a": "LBY",
+      "b": "NER",
+      "slug": "lby-vs-ner",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "LBY",
+      "b": "SDN",
+      "slug": "lby-vs-sdn",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "LBY",
+      "b": "TCD",
+      "slug": "lby-vs-tcd",
+      "tier": 1,
+      "sharedMetrics": 37
+    },
+    {
+      "a": "LBY",
+      "b": "TUN",
+      "slug": "lby-vs-tun",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "LSO",
+      "b": "ZAF",
+      "slug": "lso-vs-zaf",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "LTU",
+      "b": "LVA",
+      "slug": "ltu-vs-lva",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "LTU",
+      "b": "POL",
+      "slug": "ltu-vs-pol",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "LTU",
+      "b": "RUS",
+      "slug": "ltu-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "LVA",
+      "b": "RUS",
+      "slug": "lva-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MDA",
+      "b": "ROU",
+      "slug": "mda-vs-rou",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MDA",
+      "b": "UKR",
+      "slug": "mda-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MEX",
+      "b": "RUS",
+      "slug": "mex-vs-rus",
+      "tier": 2,
+      "sharedMetrics": 49
+    },
+    {
+      "a": "MEX",
+      "b": "SAU",
+      "slug": "mex-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MEX",
+      "b": "TUR",
+      "slug": "mex-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "MEX",
+      "b": "USA",
+      "slug": "mex-vs-usa",
+      "tier": 1,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "MEX",
+      "b": "ZAF",
+      "slug": "mex-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "MKD",
+      "b": "SRB",
+      "slug": "mkd-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MLI",
+      "b": "MRT",
+      "slug": "mli-vs-mrt",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "MLI",
+      "b": "NER",
+      "slug": "mli-vs-ner",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "MLI",
+      "b": "SEN",
+      "slug": "mli-vs-sen",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MMR",
+      "b": "THA",
+      "slug": "mmr-vs-tha",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MNE",
+      "b": "SRB",
+      "slug": "mne-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "MNG",
+      "b": "RUS",
+      "slug": "mng-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MOZ",
+      "b": "MWI",
+      "slug": "moz-vs-mwi",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MOZ",
+      "b": "SWZ",
+      "slug": "moz-vs-swz",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MOZ",
+      "b": "TZA",
+      "slug": "moz-vs-tza",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MOZ",
+      "b": "ZAF",
+      "slug": "moz-vs-zaf",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MOZ",
+      "b": "ZMB",
+      "slug": "moz-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MOZ",
+      "b": "ZWE",
+      "slug": "moz-vs-zwe",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MRT",
+      "b": "SEN",
+      "slug": "mrt-vs-sen",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "MWI",
+      "b": "TZA",
+      "slug": "mwi-vs-tza",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "MWI",
+      "b": "ZMB",
+      "slug": "mwi-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "MYS",
+      "b": "THA",
+      "slug": "mys-vs-tha",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "NAM",
+      "b": "ZAF",
+      "slug": "nam-vs-zaf",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "NAM",
+      "b": "ZMB",
+      "slug": "nam-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "NER",
+      "b": "NGA",
+      "slug": "ner-vs-nga",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "NER",
+      "b": "TCD",
+      "slug": "ner-vs-tcd",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "NGA",
+      "b": "TCD",
+      "slug": "nga-vs-tcd",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "NGA",
+      "b": "ZAF",
+      "slug": "nga-vs-zaf",
+      "tier": 3,
+      "reason": "Africa's two largest economies",
+      "sharedMetrics": 43
+    },
+    {
+      "a": "NOR",
+      "b": "RUS",
+      "slug": "nor-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "NOR",
+      "b": "SWE",
+      "slug": "nor-vs-swe",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "OMN",
+      "b": "SAU",
+      "slug": "omn-vs-sau",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "OMN",
+      "b": "YEM",
+      "slug": "omn-vs-yem",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "PHL",
+      "b": "USA",
+      "slug": "phl-vs-usa",
+      "tier": 3,
+      "reason": "colonial period (1898–1946) and diaspora",
+      "sharedMetrics": 44
+    },
+    {
+      "a": "POL",
+      "b": "RUS",
+      "slug": "pol-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "POL",
+      "b": "SVK",
+      "slug": "pol-vs-svk",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "POL",
+      "b": "UKR",
+      "slug": "pol-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "PRK",
+      "b": "RUS",
+      "slug": "prk-vs-rus",
+      "tier": 1,
+      "sharedMetrics": 29
+    },
+    {
+      "a": "QAT",
+      "b": "SAU",
+      "slug": "qat-vs-sau",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ROU",
+      "b": "SRB",
+      "slug": "rou-vs-srb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ROU",
+      "b": "UKR",
+      "slug": "rou-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "RUS",
+      "b": "SAU",
+      "slug": "rus-vs-sau",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "RUS",
+      "b": "TUR",
+      "slug": "rus-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "RUS",
+      "b": "UKR",
+      "slug": "rus-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "RUS",
+      "b": "USA",
+      "slug": "rus-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 50
+    },
+    {
+      "a": "RUS",
+      "b": "ZAF",
+      "slug": "rus-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 47
+    },
+    {
+      "a": "RWA",
+      "b": "TZA",
+      "slug": "rwa-vs-tza",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "RWA",
+      "b": "UGA",
+      "slug": "rwa-vs-uga",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "SAU",
+      "b": "TUR",
+      "slug": "sau-vs-tur",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "SAU",
+      "b": "USA",
+      "slug": "sau-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "SAU",
+      "b": "YEM",
+      "slug": "sau-vs-yem",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "SAU",
+      "b": "ZAF",
+      "slug": "sau-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "SDN",
+      "b": "SDS",
+      "slug": "sdn-vs-sds",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "SDN",
+      "b": "TCD",
+      "slug": "sdn-vs-tcd",
+      "tier": 1,
+      "sharedMetrics": 41
+    },
+    {
+      "a": "SDS",
+      "b": "UGA",
+      "slug": "sds-vs-uga",
+      "tier": 1,
+      "sharedMetrics": 38
+    },
+    {
+      "a": "SVK",
+      "b": "UKR",
+      "slug": "svk-vs-ukr",
+      "tier": 1,
+      "sharedMetrics": 42
+    },
+    {
+      "a": "SWZ",
+      "b": "ZAF",
+      "slug": "swz-vs-zaf",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "SYR",
+      "b": "TUR",
+      "slug": "syr-vs-tur",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "TJK",
+      "b": "UZB",
+      "slug": "tjk-vs-uzb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "TKM",
+      "b": "UZB",
+      "slug": "tkm-vs-uzb",
+      "tier": 1,
+      "sharedMetrics": 39
+    },
+    {
+      "a": "TUR",
+      "b": "USA",
+      "slug": "tur-vs-usa",
+      "tier": 2,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "TUR",
+      "b": "ZAF",
+      "slug": "tur-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "TZA",
+      "b": "UGA",
+      "slug": "tza-vs-uga",
+      "tier": 1,
+      "sharedMetrics": 44
+    },
+    {
+      "a": "TZA",
+      "b": "ZMB",
+      "slug": "tza-vs-zmb",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "USA",
+      "b": "VNM",
+      "slug": "usa-vs-vnm",
+      "tier": 3,
+      "reason": "the war and the normalisation that followed",
+      "sharedMetrics": 44
+    },
+    {
+      "a": "USA",
+      "b": "ZAF",
+      "slug": "usa-vs-zaf",
+      "tier": 2,
+      "sharedMetrics": 45
+    },
+    {
+      "a": "ZAF",
+      "b": "ZWE",
+      "slug": "zaf-vs-zwe",
+      "tier": 1,
+      "sharedMetrics": 43
+    },
+    {
+      "a": "ZMB",
+      "b": "ZWE",
+      "slug": "zmb-vs-zwe",
+      "tier": 1,
+      "sharedMetrics": 42
+    }
+  ],
+  "dropped": [
+    {
+      "a": "CHN",
+      "b": "TWN",
+      "slug": "chn-vs-twn",
+      "tier": 3,
+      "reason": "the cross-strait comparison",
+      "sharedMetrics": 5,
+      "droppedBecause": "below the thin-content gate: 5 shared ranked metrics (threshold 10)"
+    },
+    {
+      "a": "CYN",
+      "b": "CYP",
+      "slug": "cyn-vs-cyp",
+      "tier": 3,
+      "reason": "the island's two administrations",
+      "sharedMetrics": 0,
+      "droppedBecause": "below the thin-content gate: 0 shared ranked metrics (threshold 10)"
+    },
+    {
+      "a": "ITA",
+      "b": "VAT",
+      "slug": "ita-vs-vat",
+      "tier": 1,
+      "sharedMetrics": 0,
+      "droppedBecause": "below the thin-content gate: 0 shared ranked metrics (threshold 10)"
+    },
+    {
+      "a": "JPN",
+      "b": "TWN",
+      "slug": "jpn-vs-twn",
+      "tier": 3,
+      "reason": "colonial period 1895–1945",
+      "sharedMetrics": 5,
+      "droppedBecause": "below the thin-content gate: 5 shared ranked metrics (threshold 10)"
+    }
+  ]
+}
