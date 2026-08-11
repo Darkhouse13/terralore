@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
 import { allRankings, rankingsUpdated, type Ranking } from "@/lib/rankings";
 import { DOMAIN_META, type DomainKey } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
-import { routes } from "@/lib/seo";
+import {
+  breadcrumbLd,
+  collectionLd,
+  rankingsDescription,
+  routes,
+  SITE_NAME,
+  siteOgImages,
+} from "@/lib/seo";
 
 /**
  * The rankings index — every dossier indicator, read across nations.
@@ -32,17 +40,58 @@ function byDomain(): [DomainKey, Ranking[]][] {
   return out;
 }
 
+const GROUPS = byDomain();
+const NATIONS = new Set(RANKINGS.flatMap((r) => r.rows.map((x) => x.code))).size;
+const DESCRIPTION = rankingsDescription(RANKINGS.length, GROUPS.length, NATIONS);
+
 export const metadata: Metadata = {
   title: "Rankings",
+  description: DESCRIPTION,
+  keywords: [
+    "country rankings",
+    "nations ranked by indicator",
+    "gdp by country",
+    "life expectancy by country",
+    "sourced world rankings",
+  ],
   alternates: { canonical: routes.rankings() },
+  openGraph: {
+    type: "website",
+    title: "Rankings — every indicator, every nation",
+    description: DESCRIPTION,
+    url: routes.rankings(),
+    siteName: SITE_NAME,
+    images: siteOgImages(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rankings — every indicator, every nation",
+    description: DESCRIPTION,
+    images: siteOgImages(),
+  },
 };
 
 export default function RankingsPage() {
-  const groups = byDomain();
+  const groups = GROUPS;
   const updated = rankingsUpdated();
-  const nations = new Set(RANKINGS.flatMap((r) => r.rows.map((x) => x.code))).size;
+  const nations = NATIONS;
 
   return (
+    <>
+    <JsonLd
+      data={[
+        collectionLd({
+          name: `Rankings — ${SITE_NAME}`,
+          description: DESCRIPTION,
+          path: routes.rankings(),
+          items: RANKINGS.map((r) => ({ name: r.label, path: routes.ranking(r.slug) })),
+        }),
+        breadcrumbLd([
+          { name: SITE_NAME, path: routes.home() },
+          { name: "Rankings", path: routes.rankings() },
+        ]),
+      ]}
+    />
     <main className="paper-grain min-h-screen bg-land-0 text-ink">
       <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
         <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
@@ -118,6 +167,7 @@ export default function RankingsPage() {
         </footer>
       </div>
     </main>
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import { allCountries } from "@/lib/countries";
 import { allHistories, getHistory } from "@/lib/histories";
 import { getDossier } from "@/lib/domains";
 import { allCommodities, commoditiesUpdated } from "@/lib/commodities";
+import { allRankings, rankingsUpdated } from "@/lib/rankings";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
 
@@ -112,6 +113,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...allCommodities().map((c) => ({
       url: abs(routes.commodity(c.slug)),
       lastModified: commoditiesUpdated(),
+      changeFrequency: "yearly" as const,
+      priority: 0.7,
+    })),
+    // The rankings: every dossier indicator read across nations. Each page's
+    // content changes only when its own domain file is rebuilt, so the honest
+    // lastmod is that domain's `updated` date — the hub moves with whichever
+    // domain moved last.
+    {
+      url: abs(routes.rankings()),
+      lastModified: rankingsUpdated(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    ...allRankings().map((r) => ({
+      url: abs(routes.ranking(r.slug)),
+      lastModified: r.updated,
       changeFrequency: "yearly" as const,
       priority: 0.7,
     })),

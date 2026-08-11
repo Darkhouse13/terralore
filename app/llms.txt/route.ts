@@ -2,7 +2,8 @@ import { allCountries } from "@/lib/countries";
 import { getHistory } from "@/lib/histories";
 import { allPeriods, allThemes, corpusStats } from "@/lib/chronology";
 import { allCommodities } from "@/lib/commodities";
-import { formatTonnes } from "@/lib/format";
+import { allRankings } from "@/lib/rankings";
+import { formatMetric, formatTonnes } from "@/lib/format";
 import { abs, routes, SITE_DESCRIPTION, SITE_NAME } from "@/lib/seo";
 
 /**
@@ -71,6 +72,8 @@ export function GET(): Response {
     `- [Themes](${abs("/themes")}): every event by theme, across all nations`,
     `- [Commodities](${abs(routes.commodities())}): who supplies the world — ten minerals,`,
     `  every producer's share of world mine production (USGS Mineral Commodity Summaries)`,
+    `- [Rankings](${abs(routes.rankings())}): every dossier indicator ranked across nations —`,
+    `  highest to lowest, never best to worst; each figure sourced and dated`,
     "",
     `### By period`,
     "",
@@ -98,6 +101,20 @@ export function GET(): Response {
           ? `; ${top.name} leads with ${Math.round(top.shareEstimate * 100)}%`
           : "";
       return `- [${c.name}](${abs(routes.commodity(c.slug))}): ${formatTonnes(c.world.estimate)} mined in the ${c.years.estimate} estimate${lead}`;
+    }),
+    "",
+    `### By ranking`,
+    "",
+    `Each ranking lists every nation with a published figure, highest to lowest.`,
+    `Observation years differ per nation (each row shows its own); nations without`,
+    `data are listed unranked — an absence is never a zero.`,
+    "",
+    ...allRankings().map((r) => {
+      const top = r.rows[0];
+      const lead = top
+        ? `; highest ${top.name} at ${formatMetric(top.value, r.unit)}${top.year != null ? ` (${top.year})` : ""}`
+        : "";
+      return `- [${r.label}](${abs(routes.ranking(r.slug))}): ${r.rows.length} ${r.isMineral ? "producing nations" : "nations"}${lead}`;
     }),
     "",
     `## Nations`,

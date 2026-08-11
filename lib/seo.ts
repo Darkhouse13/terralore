@@ -6,7 +6,8 @@
 
 import type { CountryHistory, CountryMeta, DataSource, Source } from "./types";
 import type { Commodity } from "./commodities";
-import { formatTonnes } from "./format";
+import type { Ranking } from "./rankings";
+import { formatMetric, formatTonnes } from "./format";
 
 export const SITE_URL = "https://terralore.co";
 export const SITE_NAME = "Terralore";
@@ -156,6 +157,38 @@ export function commodityDescription(c: Commodity): string {
   return clampText(
     `World ${c.name.toLowerCase()} mine production: ${formatTonnes(c.world.estimate)} in the ` +
       `${c.years.estimate} USGS estimate.${lead} Every producer's sourced share.`,
+  );
+}
+
+/** The rankings hub — the whole atlas read sideways, in one line with its numbers. */
+export function rankingsDescription(
+  count: number,
+  domains: number,
+  nations: number,
+): string {
+  return clampText(
+    `Every indicator in the atlas ranked across nations: ${count} rankings in ` +
+      `${domains} domains, ${nations} nations. Highest to lowest, each figure ` +
+      `sourced and dated, gaps shown honestly.`,
+  );
+}
+
+/**
+ * One ranking page. Real figures — the leader and the count of ranked nations —
+ * and no superlative beyond "highest", which is arithmetic, not judgment.
+ */
+export function rankingDescription(r: Ranking): string {
+  const top = r.rows[0];
+  const lead = top
+    ? `${top.name} highest at ${formatMetric(top.value, r.unit)}` +
+      `${top.year != null ? ` (${top.year})` : ""}. `
+    : "";
+  const universe = r.isMineral
+    ? `${r.rows.length} producing nations`
+    : `${r.rows.length} nations`;
+  return clampText(
+    `${r.label} ranked across ${universe}, highest to lowest. ${lead}` +
+      `Each figure carries its publisher and observation year.`,
   );
 }
 
@@ -359,6 +392,44 @@ export function commodityLd(c: Commodity, source: DataSource, updated: string): 
         publisher: { "@type": "Organization", name: source.publisher },
       },
     ],
+  };
+}
+
+/**
+ * A ranking page, as a Dataset. The `citation` names the true upstream(s) —
+ * SIPRI behind the military series, UNESCO behind education, the WGI project
+ * behind governance — so an engine attributes the chain, not "a website". The
+ * description states the ordering rule and the vintage spread so the mixed
+ * years cannot be mistaken for a single-year snapshot.
+ */
+export function rankingLd(r: Ranking): Json {
+  const url = abs(routes.ranking(r.slug));
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": `${url}#dataset`,
+    name: `${r.label} by nation — world ranking`,
+    description:
+      `${r.label} for ${r.rows.length} ${r.isMineral ? "producing nations" : "nations"}, ` +
+      `ordered highest to lowest — each nation's latest published observation, with its ` +
+      `own year${r.years ? ` (${r.years.min}–${r.years.max})` : ""}. ${r.definition} ` +
+      `Nations without published data are listed unranked, never as zero.`,
+    url,
+    isAccessibleForFree: true,
+    creator: publisher,
+    dateModified: r.updated,
+    temporalCoverage: r.years ? `${r.years.min}/${r.years.max}` : undefined,
+    variableMeasured: {
+      "@type": "PropertyValue",
+      name: r.label,
+      unitText: r.unit,
+    },
+    citation: r.sources.map((s) => ({
+      "@type": "CreativeWork",
+      name: s.label,
+      url: s.url,
+      publisher: { "@type": "Organization", name: s.publisher },
+    })),
   };
 }
 

@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
 import { allRankings, getRanking, type Ranking } from "@/lib/rankings";
 import { DOMAIN_META } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
-import { routes, SITE_NAME } from "@/lib/seo";
+import {
+  breadcrumbLd,
+  rankingDescription,
+  rankingLd,
+  routes,
+  SITE_NAME,
+} from "@/lib/seo";
 
 /**
  * One indicator, every nation with a published figure — highest to lowest.
@@ -59,9 +66,34 @@ export async function generateMetadata({
   const { slug } = await params;
   const r = getRanking(slug);
   if (!r) return { title: `Unknown ranking — ${SITE_NAME}` };
+
+  const path = routes.ranking(r.slug);
+  const description = rankingDescription(r);
+  const lower = r.label.toLowerCase();
   return {
     title: `${r.label} by nation — world ranking`,
-    alternates: { canonical: routes.ranking(r.slug) },
+    description,
+    keywords: [
+      `${lower} by country`,
+      `${lower} ranking`,
+      `countries ranked by ${lower}`,
+      `highest ${lower}`,
+      ...r.sources.map((s) => s.publisher),
+    ],
+    alternates: { canonical: path },
+    // The social card comes from this segment's own opengraph-image.tsx.
+    openGraph: {
+      type: "website",
+      title: `${r.label} by nation — world ranking`,
+      description,
+      url: path,
+      siteName: SITE_NAME,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${r.label} by nation — world ranking`,
+      description,
+    },
   };
 }
 
@@ -81,6 +113,17 @@ export default async function RankingPage({
   const unitPhrase = UNIT_PHRASE[r.unit];
 
   return (
+    <>
+    <JsonLd
+      data={[
+        rankingLd(r),
+        breadcrumbLd([
+          { name: SITE_NAME, path: routes.home() },
+          { name: "Rankings", path: routes.rankings() },
+          { name: r.label, path: routes.ranking(r.slug) },
+        ]),
+      ]}
+    />
     <main className="paper-grain min-h-screen bg-land-0 text-ink">
       <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
         <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
@@ -362,6 +405,7 @@ export default async function RankingPage({
         </footer>
       </div>
     </main>
+    </>
   );
 }
 
