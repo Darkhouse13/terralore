@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "note": "Publisher schedule config, consumed by scripts/social-publish.mjs. Slot times are FIRST-GUESS defaults (no analytics existed when they were chosen): Pinterest early because pins are evergreen search objects and the morning slot catches EU browsing; Instagram feed at lunch and the carousel at the evening peak; TikTok just after, once the carousel is live. Revise against real per-platform analytics once a few weeks of data exist — this file is the only place the times live.",
+  "timezone": "Africa/Casablanca",
+  "slots": {
+    "pinterest:anchor": "07:30",
+    "pinterest:data": "07:45",
+    "instagram:anchor": "12:00",
+    "instagram:carousel": "19:00",
+    "tiktok:carousel": "19:30"
+  },
+  "platformSettings": {
+    "pinterest": {
+      "note": "board is the Pinterest board ID; unknown until the Pinterest account is connected. Set POSTIZ_PINTEREST_BOARD in the runner's deployment env (docs/social-apps-setup.md §Pinterest) — a null here with no env means Pinterest posts are skipped with a logged reason.",
+      "board": null
+    },
+    "instagram": { "post_type": "post" },
+    "tiktok": {
+      "note": "SELF_ONLY until TikTok's content-posting audit passes (docs/social-apps-setup.md §TikTok); flip privacy_level to PUBLIC_TO_EVERYONE after audit.",
+      "privacy_level": "SELF_ONLY",
+      "duet": false,
+      "stitch": false,
+      "comment": true,
+      "autoAddMusic": "no",
+      "brand_content_toggle": false,
+      "brand_organic_toggle": false,
+      "content_posting_method": "DIRECT_POST"
+    }
+  }
+}
