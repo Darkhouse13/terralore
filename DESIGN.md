@@ -232,9 +232,146 @@ like one thing:
 - **On section openers** (`.stratum-top`) — a short band replaces the full-width
   hairline. A hairline running the full measure says "table row"; a 110px band
   says "new layer", and it keeps these pages off the banned broadsheet default.
-- **In the favicon and OG images** — the mark is a sphere cut in section, showing its
-  bands: limestone at the surface, then copper, verdigris, shoal, and the abyssal
-  below (`scripts/build-icon.mjs`).
+- **In the favicon, OG images and page furniture** — as the **strata pattern**, the
+  brand-device form of the rule (see "The brand mark", below). The favicon itself is
+  the ZENITH mark, not a stratum device.
+
+## The brand mark — ZENITH
+
+The decision is made and codified here; this section is systematization, not
+exploration. The mark is **ZENITH**: the globe stripped to its drawing geometry — a
+horizon, a dome, meridians converging at the zenith, and one accent point at the
+zenith itself. It is the wireframe of Terralore's own globe, not a picture of Earth:
+no landmass, no projection centre, politically neutral by construction. The horizon
+extending past the dome is what keeps it from closing into the generic corporate
+circle-globe.
+
+Source of truth for the geometry:
+`docs/brand/exploration-svgs/zenith-primary.svg` (96 viewBox) and
+`zenith-favicon-32.svg` (32 viewBox). **The geometry is final.** Paths may be
+cleaned (merged, coordinates rounded) but never redrawn.
+
+### Construction — the 96 grid (primary cut)
+
+All coordinates in viewBox units of the 96 × 96 grid:
+
+| Element | Geometry |
+|---|---|
+| Horizon | `y = 66`, from `x = 8` to `x = 88` — overshoots the dome by **8 units** (1/12 of the frame) each side |
+| Dome | semicircle, radius **32**, centre `(48, 66)`, springing at `x = 16 / 80`, crown at `y = 34` |
+| Central meridian | vertical, `x = 48`, horizon to crown |
+| Side meridians | elliptical arcs `rx 18 / ry 32`, feet at `x = 30 / 66`, meeting at the crown |
+| Zenith dot | circle `r = 4.5` at `(48, 21)` — clear of the crown by 8.5 units, on the meridian axis |
+| Stroke | **5.5 units** (5.7% of the frame), butt caps, never scaled independently of the frame |
+
+**Dome height = 32 units** is the mark's own unit of measure:
+
+- **Clearspace = dome height / 2 = 16 units** on all four sides, measured from the
+  horizon's ends, the dome's crown and the dot's top. Nothing enters it — not the
+  wordmark (the lockup gap *is* the clearspace), not a card edge, not other marks.
+- The dot's centre sits at `13/32` of the dome height above the crown.
+
+### Construction — the 32 grid (compact cut)
+
+The compact cut is **not a scale-down** — it is its own drawing, with a heavier
+stroke-to-frame ratio so the mark survives a 16 px tab:
+
+| Element | Geometry |
+|---|---|
+| Horizon | `y = 23.5`, `x = 2 → 30` |
+| Dome | radius **10**, centre `(16, 23.5)` |
+| Side meridians | `rx 5.5 / ry 10`, feet at `x = 10.5 / 21.5` |
+| Zenith dot | `r = 2` at `(16, 8.5)` |
+| Stroke | **2.75 units** (8.6% of the frame) |
+
+### Minimum sizes
+
+| Rendered size | Use |
+|---|---|
+| ≥ 28 px | primary cut (96 grid) |
+| 14–28 px | compact cut (32 grid) |
+| < 14 px | do not render the mark; use the wordmark or nothing |
+
+Favicons, avatars and app icons always use the compact cut. The avatar circular
+crop is safe by construction: the whole drawing sits inside the inscribed circle
+of the 32 frame at ≥ 96 px rendered.
+
+### Colour — mapped to Stratum tokens
+
+The exploration was drawn in its own hexes. Production renders use the nearest
+Stratum token — **no new hex values enter the system**:
+
+| Exploration hex | Role in the exploration | Stratum token | Hex |
+|---|---|---|---|
+| `#F2EAD9` cream | mark on dark ground | `--color-chalk` | `#E6ECEA` |
+| `#C75B28` orange | zenith dot (accent) | `--color-copper` | `#C87244` |
+| `#171511` / `#16263D` ink/navy | mark on light ground | `--color-ink` | `#16201E` |
+| `#0F1B2D` / `#16263D` navy | dark ground | `--color-depth-6` | `#04161F` |
+
+Copper is semantically exact for the dot: the zenith point is *the surveyor's
+hand* — the you-are-here of the whole identity.
+
+**One-colour rules:**
+
+- On the deep: chalk strokes (`--color-chalk` on `--color-depth-6`).
+- On limestone: ink strokes (`--color-ink` on `--color-land-0`).
+- **The dot is the only element that may take the accent** (`--color-copper`), and
+  only in two-colour contexts. In one-colour contexts the dot drops to the mark's
+  own drawing colour (chalk or ink) — per the exploration's one-colour forms. It is
+  never omitted.
+- The compact cut is one-colour by construction: at tab size a 2-unit dot cannot
+  read as a second colour.
+
+### Misuse (never)
+
+- **No thinning the ribs** — the stroke weight is part of the drawing.
+- **No recolouring the dot** outside `--color-copper` (or the drawing colour in
+  one-colour contexts). No verdigris dot, no madder dot, no pigment dots.
+- **No rotation.** The horizon is a horizon.
+- **No landmass added.** The neutrality is the point.
+- **No closing the horizon into a circle or ellipse** — that is the generic globe
+  the overshoot exists to refuse.
+- No gradients, no shadows, no outline-only dot, no placing the mark on a ground
+  that fails 3:1 against its drawing colour without a plate of `depth-6` or
+  `land-0` behind it.
+
+### The wordmark — "Terralore."
+
+The wordmark is the site's display serif (**Literata**) set as **`Terralore.`** —
+capital T, and **always with the terminal full stop** in masthead, lockup and
+signature contexts. The stop is the voice of the brand: the confidence of a
+reference work that intends to be the last word. In two-colour contexts the stop
+takes copper; in one-colour contexts it takes the text colour. It is never
+dropped in those contexts.
+
+Navigation is not a signature context: breadcrumbs and link text keep plain
+"Terralore" — a full stop inside a breadcrumb trail would read as punctuation, not
+voice.
+
+**Lockup:** mark left, wordmark right, gap = the mark's clearspace (16/96 of the
+mark's height), baseline of the wordmark on the mark's horizon. Exported lockup
+SVGs carry the wordmark as **outlined paths** (no live text — the asset must not
+depend on a font being installed); in-app the wordmark renders as styled text via
+`components/brand/Wordmark.tsx`.
+
+### The strata pattern
+
+The strata strip — rows of small pigment blocks, as on the homepage time rail — is
+the brand's **pattern**, promoted to a reusable device
+(`components/brand/StrataPattern.tsx`). `docs/brand/exploration-svgs/strata-fault-reference.svg`
+is reference for proportions only (block height : gap ≈ 10 : 6, one accent block);
+it is **not a logo** and is never used as one.
+
+Rules:
+
+- Blocks are drawn from the ten **event-category pigments** (below) — never from
+  arbitrary colours; at most one block per strip may take copper as the accent.
+- The sequence is **deterministic** — seeded by the surface it decorates (a page
+  slug, a nation code), never random, so two renders of one page are identical.
+- It is furniture, not a mark: baselines of OG cards, section footers, dividers.
+  It never appears inside the mark's clearspace and never substitutes for the mark.
+- One row in page furniture; the fault (two offset columns) is reserved for large
+  print/poster contexts, not the UI.
 
 ### The globe
 
