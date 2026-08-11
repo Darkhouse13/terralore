@@ -8,6 +8,7 @@ import type { DataSource, Metric } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import { metricDefinition } from "@/lib/metric-defs";
 import { commodityByMetricKey } from "@/lib/commodity-meta";
+import { rankingSlug } from "@/lib/ranking-meta";
 import MetricChart, { type ChartAnnotation, type ChartLine } from "./MetricChart";
 import MetricMap from "./MetricMap";
 
@@ -595,6 +596,19 @@ export default function MetricDetail({
                   >
                     Who supplies the world · {commodityByMetricKey.get(metric.key)!.name} →
                   </Link>
+                )}
+                {/* Every metric has a slug (validator-enforced); block wrapper so
+                    this stacks under the commodity link on the prod* metrics. */}
+                {rankingSlug(metric.key) && (
+                  <div>
+                    <Link
+                      href={`/rankings/${rankingSlug(metric.key)}`}
+                      prefetch={false}
+                      className="mt-2.5 inline-block font-mono text-[11px] uppercase tracking-[0.12em] text-chalk-2 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
+                    >
+                      World ranking · {metric.label} →
+                    </Link>
+                  </div>
                 )}
                 {shownCompare.length > 0 && (
                   <p className="mt-2 font-serif text-[12.5px] italic leading-relaxed text-chalk-4">

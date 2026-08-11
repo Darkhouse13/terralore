@@ -27,6 +27,8 @@ export const routes = {
   chronicle: (code: string) => `/country/${code}/chronicle`,
   commodities: () => "/commodities",
   commodity: (slug: string) => `/commodities/${slug}`,
+  rankings: () => "/rankings",
+  ranking: (slug: string) => `/rankings/${slug}`,
 };
 
 // ── Social cards ───────────────────────────────────────────────────────────
