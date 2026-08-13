@@ -32,6 +32,9 @@ export default async function OpengraphImage() {
                 lineHeight: 1.04,
                 letterSpacing: -1.5,
                 color: OG.chalkHi,
+                fontFamily: "Bricolage",
+                fontWeight: 800,
+                textTransform: "uppercase" as const,
                 maxWidth: 940,
               }}
             >
@@ -53,7 +56,8 @@ export default async function OpengraphImage() {
         stat={
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             <div style={{ display: "flex", alignItems: "baseline", gap: 14 }}>
-              <div style={{ fontSize: 44, color: OG.verdigris, letterSpacing: -1 }}>
+              <div style={{ fontSize: 44, color: OG.verdigris,
+                fontFamily: "mono", letterSpacing: -1 }}>
                 {stats.events.toLocaleString("en")}
               </div>
               <div style={{ fontSize: 22, color: OG.chalk3 }}>
