@@ -130,7 +130,12 @@ export default async function ChroniclePage({
       />
 
       <main className="min-h-screen bg-bone text-basalt">
-        <div className="relative mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+        {/* The mounted core (E12): the reading measure never widens — at
+            desktop the column mounts left-of-center and the freed margin
+            carries the depth rail, with each bed's years riding it while
+            that bed passes (sticky, no JS). */}
+        <div className="mount relative mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10 lg:max-w-[55.5rem]">
+          <span aria-hidden className="mount-rail" />
           <Breadcrumb meta={meta} />
 
           <Masthead history={history} meta={meta} eventCount={eventCount} />
@@ -203,7 +208,14 @@ function Masthead({
   eventCount: number;
 }) {
   return (
-    <header className="mt-6 pb-8">
+    <header className="relative mt-6 pb-8">
+      <span aria-hidden className="mount-tick">
+        <span>
+          SPECIMEN {meta.code}
+          <br />
+          THE CHRONICLE
+        </span>
+      </span>
       <p className="eyebrow text-oxide">
         {meta.subregion ?? meta.region} · {meta.continent}
       </p>
@@ -260,7 +272,10 @@ function Masthead({
 
 function Contents({ eras }: { eras: Era[] }) {
   return (
-    <nav aria-label="Chapters" className="mt-8 border-t-2 border-basalt pt-4 pb-8">
+    <nav aria-label="Chapters" className="relative mt-8 border-t-2 border-basalt pt-4 pb-8">
+      <span aria-hidden className="mount-tick">
+        <span>CONTENTS</span>
+      </span>
       <h2 className="eyebrow text-umber">The beds · down is older</h2>
       <ol className="mt-3">
         {eras.map((era, i) => (
@@ -315,14 +330,24 @@ function EraSection({
   })();
 
   return (
-    <section id={era.id} className="scroll-mt-6 py-11">
+    <section id={era.id} className="relative scroll-mt-6 py-11">
+      {/* The bed's depth label moves to the margin at desktop and rides the
+          rail while the bed passes (E12) — the in-flow eyebrow carries it
+          below the mount. */}
+      <span aria-hidden className="mount-tick">
+        <span>
+          Bed {String(n).padStart(2, "0")}
+          <br />
+          {era.period}
+        </span>
+      </span>
       {/* Each bed opens on the rule, with the era's dominant pigment set into
           it as a tick — the one place category colour marks the reading page. */}
       <div aria-hidden className="mb-8 flex items-center gap-0">
         <span className="cut-rule w-full" />
         <span className="h-[8px] w-[42px] flex-none" style={{ background: dominant }} />
       </div>
-      <p className="eyebrow text-oxide">
+      <p className="eyebrow text-oxide lg:sr-only">
         Bed {String(n).padStart(2, "0")} · {era.period}
       </p>
 
@@ -601,7 +626,10 @@ function FigureGallery({
   sourceIndex: Map<string, number>;
 }) {
   return (
-    <section className="border-t-2 border-basalt py-10">
+    <section className="relative border-t-2 border-basalt py-10">
+      <span aria-hidden className="mount-tick">
+        <span>FIGURES</span>
+      </span>
       <h2 className="font-display text-[24px] font-extrabold uppercase leading-tight tracking-tight md:text-[30px]">
         Pivotal figures
       </h2>
@@ -616,7 +644,10 @@ function FigureGallery({
 
 function References({ sources }: { sources: Source[] }) {
   return (
-    <section id="references" className="scroll-mt-6 border-t-2 border-basalt py-10">
+    <section id="references" className="relative scroll-mt-6 border-t-2 border-basalt py-10">
+      <span aria-hidden className="mount-tick">
+        <span>REFS 01–{String(sources.length).padStart(2, "0")}</span>
+      </span>
       <h2 className="font-display text-[24px] font-extrabold uppercase leading-tight tracking-tight md:text-[30px]">
         References
       </h2>

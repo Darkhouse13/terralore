@@ -199,7 +199,8 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
       />
 
       <main id="top" className="min-h-screen bg-bone text-basalt">
-        <div className="mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+        <div className="mount mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10 lg:max-w-[55.5rem]">
+          <span aria-hidden className="mount-rail" />
           <Breadcrumb theme={theme} />
 
           <Masthead theme={theme} densest={densest} continents={continents} />
@@ -260,7 +261,14 @@ function Masthead({
   const last = theme.events[theme.events.length - 1];
 
   return (
-    <header className="settle mt-6 pb-10">
+    <header className="settle relative mt-6 pb-10">
+      <span aria-hidden className="mount-tick">
+        <span>
+          THE ARCHIVE
+          <br />
+          {num(theme.events.length)} EVENTS
+        </span>
+      </span>
       {/* The signature, in this theme's own pigment. Ten theme pages used to be
           identical but for their words; a reader arriving on "War & Rupture"
           should see its pigment before reading it — set as a square block into
@@ -407,7 +415,10 @@ function PeriodSection({
   const href = `/themes/${themeSlug}/${period.slug}`;
 
   return (
-    <section id={`p-${period.slug}`} className="scroll-mt-6 border-t-2 border-basalt py-9">
+    <section id={`p-${period.slug}`} className="relative scroll-mt-6 border-t-2 border-basalt py-9">
+      <span aria-hidden className="mount-tick">
+        <span>{period.label}</span>
+      </span>
       <p className="eyebrow" style={{ color: ink }}>
         {num(events.length)} {events.length === 1 ? "event" : "events"} · {num(nations)}{" "}
         {nations === 1 ? "nation" : "nations"}

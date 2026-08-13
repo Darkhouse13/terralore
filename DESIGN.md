@@ -178,9 +178,16 @@ logged.)
 - **The core sample**: a nation's whole history compressed to one column of
   bands, thickness ∝ recorded events; extracted by the core-pull; tap a band
   to land in its era. Legend: `BAND THICKNESS ∝ RECORDED EVENTS · DEPTH = TIME`.
-- **Section rhythm**: content sits in 20px side gutters on mobile; desktop
-  centers a measured column (~720px reading, up to 1120px for tables) with
-  the beds themselves always full-bleed.
+- **Section rhythm**: content sits in 20px side gutters on mobile. Desktop
+  does not widen the core — it **mounts** it (≥1024px, deviations E12): the
+  content column locks to a bounded measure (~736px reading; data tables may
+  fill to ~840px) set left-of-center inside the page container, the beds
+  themselves always full-bleed. The freed left margin is the instrument, not
+  leftover: a 2px depth rail with mono ticks — era years on a nation's cut,
+  rank decades on a ranking, section names on the front door — implemented
+  with sticky positioning only (`.mount`, `.mount-rail`, `.mount-tick`,
+  `.mount-mark` in `globals.css`). The section cut alone may use width
+  honestly: a wider cut face shows more seams per row, never taller rows.
 - **Category pigments**: the ten event-category pigments of v1 are retained
   unchanged as *data encoding* (they are mineral pigments already, and they
   clear contrast on bone) — logged as a fusion decision in the deviations

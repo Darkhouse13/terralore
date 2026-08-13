@@ -93,7 +93,8 @@ export default function RankingsPage() {
       ]}
     />
     <main className="min-h-screen bg-bone">
-      <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+      <div className="mount mx-auto max-w-4xl px-5 pt-4 pb-16">
+        <span aria-hidden className="mount-rail" />
         <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
@@ -110,7 +111,14 @@ export default function RankingsPage() {
           </ol>
         </nav>
 
-        <header className="settle mt-3 pb-4">
+        <header className="settle relative mt-3 pb-4">
+          <span aria-hidden className="mount-tick">
+            <span>
+              THE INDEX
+              <br />
+              {RANKINGS.length} RANKINGS
+            </span>
+          </span>
           <p className="eyebrow text-umber">The measured, compared</p>
 
           <h1 className="mt-3 max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
@@ -140,10 +148,22 @@ export default function RankingsPage() {
             <Stat label="Nations" value={String(nations)} />
             <Stat label="Latest refresh" value={updated.slice(0, 4)} />
           </dl>
+
+          {/* Domain jump links — 66 rankings should never be blind scroll. */}
+          <nav aria-label="Domains" className="mt-5 flex flex-wrap gap-x-5 gap-y-1 font-mono text-[11px]">
+            {groups.map(([domain]) => (
+              <a key={domain} href={`#d-${domain}`} className="text-oxide">
+                {DOMAIN_META[domain].label.toUpperCase()} ↓
+              </a>
+            ))}
+          </nav>
         </header>
 
         {groups.map(([domain, rankings]) => (
-          <section key={domain} className="mt-10">
+          <section key={domain} id={`d-${domain}`} className="relative mt-10 scroll-mt-4">
+            <span aria-hidden className="mount-tick">
+              <span>{DOMAIN_META[domain].label}</span>
+            </span>
             <h2 className="font-display text-[25px] font-extrabold tracking-tight uppercase">
               {DOMAIN_META[domain].label}
             </h2>

@@ -137,6 +137,83 @@ a {
   white-space: nowrap;
 }
 
+/* ── The mounted core (deviations E12) ────────────────────────────────────
+   A core sample is a narrow vertical thing; a wide screen does not widen
+   the core — it MOUNTS it. At ≥1024px content locks to a bounded column
+   set left-of-center inside the page's own max-width container, and the
+   freed left margin becomes the instrument: a 2px depth rail with mono
+   ticks, read like a core log's depth scale. Sticky positioning only —
+   no scroll listeners, no animation loops.
+
+   Geometry, inside a `.mount` container (which keeps its px-5):
+     rail line    at 1.25rem   (the container's own former text edge)
+     tick text    at 2rem      (0.75rem clear of the rail)
+     content      from 9.5rem  (the mount's left padding)
+
+   Two tick attachments: a direct child of `.mount` spans the container
+   (full-bleed beds); a tick inside a positioned section reaches back into
+   the margin and its sticky span rides the rail while the section passes,
+   then hands off to the next — the depth scale reading itself. A
+   `.mount-mark` is printed at a fixed depth (rank decades) and scrolls
+   with the flow. All of it is aria-hidden apparatus; none of it exists
+   below 1024px. */
+.mount-rail,
+.mount-tick,
+.mount-mark {
+  display: none;
+}
+@media (min-width: 64rem) {
+  .mount {
+    position: relative;
+    padding-left: 9.5rem;
+  }
+  .mount-rail {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.25rem;
+    width: 2px;
+    background: var(--rail, var(--color-basalt));
+  }
+  .mount-tick {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -8.25rem;
+    width: 7.5rem;
+    pointer-events: none;
+  }
+  .mount > .mount-tick {
+    left: 1.25rem;
+  }
+  .mount-tick > span {
+    position: sticky;
+    top: 0.875rem;
+    display: block;
+    padding: 0.25rem 0 0.25rem 0.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1.4;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+    color: var(--tick, var(--color-umber));
+  }
+  .mount-mark {
+    display: block;
+    position: absolute;
+    left: -8.25rem;
+    width: 7.5rem;
+    padding-left: 0.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.14em;
+    color: var(--tick, var(--color-umber));
+  }
+}
+
 /* ── The press — the only pointer feedback ────────────────────────────────
    Every pressable surface depresses 2px in 90ms. No color washes, no
    shadows, no scale. */

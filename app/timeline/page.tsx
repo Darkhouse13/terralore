@@ -100,7 +100,8 @@ export default function ChronologyPage() {
       />
 
       <main className="min-h-screen bg-bone text-basalt">
-        <div className="mx-auto max-w-[62rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+        <div className="mount mx-auto max-w-[62rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+          <span aria-hidden className="mount-rail" />
           <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase text-oxide">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -113,7 +114,14 @@ export default function ChronologyPage() {
             </ol>
           </nav>
 
-          <header className="settle mt-6 pb-10">
+          <header className="settle relative mt-6 pb-10">
+            <span aria-hidden className="mount-tick">
+              <span>
+                THE CHRONOLOGY
+                <br />
+                {allPeriods().length} PERIODS
+              </span>
+            </span>
             <p className="eyebrow text-umber">The archive, read across nations</p>
 
             <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
@@ -169,6 +177,7 @@ export default function ChronologyPage() {
 
           <PeriodList
             title="Deep time and the ancient world"
+            tick="DEEP TIME · BCE"
             blurb="Sparse by nature — what survives from before the common era survives in stone, sediment and a handful of chronicles."
             periods={ancient}
             busiest={busiest}
@@ -177,6 +186,7 @@ export default function ChronologyPage() {
 
           <PeriodList
             title="The common era"
+            tick="THE COMMON ERA"
             blurb="The record thickens as it approaches the present: written archives, then printing, then states that document themselves."
             periods={common}
             busiest={busiest}
@@ -209,12 +219,14 @@ function Stat({ label, value }: { label: string; value: string }) {
 
 function PeriodList({
   title,
+  tick,
   blurb,
   periods,
   busiest,
   total,
 }: {
   title: string;
+  tick: string;
   blurb: string;
   periods: PeriodBucket[];
   busiest: number;
@@ -223,7 +235,10 @@ function PeriodList({
   if (periods.length === 0) return null;
 
   return (
-    <section className="py-11">
+    <section className="relative py-11">
+      <span aria-hidden className="mount-tick">
+        <span>{tick}</span>
+      </span>
       <div aria-hidden className="cut-rule mb-7" />
       <h2 className="font-display text-[22px] font-extrabold uppercase leading-tight tracking-tight md:text-[26px]">
         {title}

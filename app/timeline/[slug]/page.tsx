@@ -161,7 +161,8 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
       />
 
       <main className="min-h-screen bg-bone text-basalt">
-        <div className="mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+        <div className="mount mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10 lg:max-w-[55.5rem]">
+          <span aria-hidden className="mount-rail" />
           <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase text-oxide">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -182,7 +183,14 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
             </ol>
           </nav>
 
-          <header className="settle mt-6 pb-10">
+          <header className="settle relative mt-6 pb-10">
+            <span aria-hidden className="mount-tick">
+              <span>
+                THE CHRONOLOGY
+                <br />
+                {spanLabel(period)}
+              </span>
+            </span>
             <p className="eyebrow text-umber">A world chronology · {spanLabel(period)}</p>
 
             <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
@@ -289,7 +297,12 @@ function ChapterSection({ chapter, showHeading }: { chapter: Chapter; showHeadin
 
 function YearSection({ group }: { group: YearGroup }) {
   return (
-    <section id={group.anchor} className="scroll-mt-6">
+    <section id={group.anchor} className="relative scroll-mt-6">
+      {/* The depth scale (E12): the year itself rides the rail while its
+          stratum passes — depth = time, literally, on this surface. */}
+      <span aria-hidden className="mount-tick">
+        <span className="tabular-nums">{group.label}</span>
+      </span>
       <h3 className="flex items-baseline gap-3 font-mono text-[15px] font-bold leading-none tabular-nums text-oxide">
         {group.dateTime ? (
           <time dateTime={group.dateTime}>{group.label}</time>

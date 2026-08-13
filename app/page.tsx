@@ -26,6 +26,7 @@ const STAMP_DELAY = 560;
 const DOT_DELAY = 940;
 
 function Bed({
+  n,
   href,
   bg,
   title,
@@ -35,6 +36,7 @@ function Bed({
   count,
   delay,
 }: {
+  n: number;
   href: string;
   bg: string;
   title: string;
@@ -53,20 +55,31 @@ function Bed({
         className="settle-fade pressable block"
         style={{ ["--settle-delay" as string]: `${delay}ms`, background: bg }}
       >
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-[18px] md:py-6">
-          <div>
-            <div
-              className="font-display text-[25px] leading-none font-extrabold tracking-tight uppercase md:text-[34px]"
-              style={{ color: titleColor }}
-            >
-              {title}
+        {/* The mounted core (E12): the bed keeps its full-bleed colour; its
+            content locks to the mounted column. The mono subline stacks on
+            mobile and moves to the margin tick at desktop. */}
+        <div className="mount mx-auto max-w-5xl px-5 py-[18px] md:py-6">
+          <span aria-hidden className="mount-rail" style={{ ["--rail" as string]: titleColor }} />
+          <span aria-hidden className="mount-tick">
+            <span style={{ color: subColor }}>
+              {String(n).padStart(2, "0")} · {sub}
+            </span>
+          </span>
+          <div className="flex items-center justify-between lg:max-w-[46rem]">
+            <div>
+              <div
+                className="font-display text-[25px] leading-none font-extrabold tracking-tight uppercase md:text-[34px]"
+                style={{ color: titleColor }}
+              >
+                {title}
+              </div>
+              <div className="mt-1 font-mono text-[11px] lg:sr-only" style={{ color: subColor }}>
+                {sub}
+              </div>
             </div>
-            <div className="mt-1 font-mono text-[11px]" style={{ color: subColor }}>
-              {sub}
+            <div className="font-mono text-[15px]" style={{ color: titleColor }}>
+              {count} ↓
             </div>
-          </div>
-          <div className="font-mono text-[15px]" style={{ color: titleColor }}>
-            {count} ↓
           </div>
         </div>
       </Link>
@@ -94,8 +107,9 @@ export default function Home() {
       />
 
       {/* ── Masthead: the stamp, the mark, the claim ── */}
-      <header className="mx-auto max-w-5xl px-5 pt-7 pb-4 md:pt-12">
-        <div className="flex items-end justify-between">
+      <header className="mount mx-auto max-w-5xl px-5 pt-7 pb-4 md:pt-12">
+        <span aria-hidden className="mount-rail" />
+        <div className="flex items-end justify-between lg:max-w-[46rem]">
           <h1
             className="stamp-in font-display text-[56px] leading-[0.95] font-extrabold tracking-tight md:text-[96px]"
             style={{ ["--settle-delay" as string]: `${STAMP_DELAY}ms` }}
@@ -127,6 +141,7 @@ export default function Home() {
       {/* ── The beds, in stratigraphic order ── */}
       <nav aria-label="Sections">
         <Bed
+          n={1}
           href="/atlas"
           bg="var(--color-sand)"
           title="Nations"
@@ -137,6 +152,7 @@ export default function Home() {
           delay={BED_DELAY[0]}
         />
         <Bed
+          n={2}
           href="/timeline"
           bg="var(--color-clay)"
           title="Histories"
@@ -147,6 +163,7 @@ export default function Home() {
           delay={BED_DELAY[1]}
         />
         <Bed
+          n={3}
           href="/rankings"
           bg="var(--color-oxide)"
           title="Rankings"
@@ -157,6 +174,7 @@ export default function Home() {
           delay={BED_DELAY[2]}
         />
         <Bed
+          n={4}
           href="/compare"
           bg="var(--color-umber)"
           title="Compared"
@@ -167,6 +185,7 @@ export default function Home() {
           delay={BED_DELAY[3]}
         />
         <Bed
+          n={5}
           href="/commodities"
           bg="var(--color-basalt)"
           title="Suppliers"
@@ -181,7 +200,12 @@ export default function Home() {
       {/* ── Dig + the cross-reads ── */}
       <div className="cut-rule rule-draw" style={{ ["--settle-delay" as string]: `${BED_DELAY[5] + 140}ms` }} />
       <div className="settle-fade" style={{ ["--settle-delay" as string]: `${BED_DELAY[5]}ms` }}>
-        <div className="mx-auto max-w-5xl px-5 py-[18px]">
+        <div className="mount mx-auto max-w-5xl px-5 py-[18px]">
+          <span aria-hidden className="mount-rail" />
+          <span aria-hidden className="mount-tick">
+            <span>THE DIG · CROSS-READS</span>
+          </span>
+          <div className="lg:max-w-[46rem]">
           <Link
             href="/atlas"
             prefetch={false}
@@ -198,15 +222,19 @@ export default function Home() {
               BY THEME ↓
             </Link>
           </div>
+          </div>
         </div>
       </div>
 
       {/* ── The creed ── */}
       <div className="cut-rule" />
-      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber">
-        <div>EVERY CLAIM SOURCED</div>
-        <div>ABSENCE ≠ ZERO</div>
-        <div>NO SIDES</div>
+      <footer className="mount mx-auto max-w-5xl px-5 pt-[14px] pb-6">
+        <span aria-hidden className="mount-rail" />
+        <div className="flex justify-between font-mono text-[10px] text-umber lg:max-w-[46rem]">
+          <div>EVERY CLAIM SOURCED</div>
+          <div>ABSENCE ≠ ZERO</div>
+          <div>NO SIDES</div>
+        </div>
       </footer>
     </main>
   );

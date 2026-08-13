@@ -216,7 +216,8 @@ export default async function ThemePeriodPage({
       />
 
       <main id="top" className="min-h-screen bg-bone text-basalt">
-        <div className="mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+        <div className="mount mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10 lg:max-w-[55.5rem]">
+          <span aria-hidden className="mount-rail" />
           <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase text-oxide">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -270,7 +271,10 @@ function Masthead({ slice, title }: { slice: Slice; title: string }) {
   const continents = tally(events);
 
   return (
-    <header className="settle mt-6 pb-10">
+    <header className="settle relative mt-6 pb-10">
+      <span aria-hidden className="mount-tick">
+        <span>{period.label}</span>
+      </span>
       {/* The theme's pigment, set as a square block into the opening rule —
           the same device as the chronicle's era openers. */}
       <div aria-hidden className="mb-7 flex items-center gap-0">

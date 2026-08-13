@@ -73,8 +73,10 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
 
   return (
     <main className="min-h-screen bg-bone">
-      {/* masthead */}
-      <div className="mx-auto max-w-5xl px-5 pt-6 pb-5">
+      {/* masthead — content stays at reading measure while the cut below
+          takes the full tray width (the mounted core, E12: the apparatus
+          may widen, the reading column may not) */}
+      <div className="mx-auto max-w-5xl px-5 pt-6 pb-5 xl:max-w-[80rem]">
         <Link
           href="/"
           className="settle inline-block py-1.5 font-mono text-[10px] tracking-[0.16em] text-oxide"
@@ -93,7 +95,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
 
         {/* dig */}
         <div
-          className="settle mt-5 flex items-center justify-between border-2 border-basalt px-4 py-[11px]"
+          className="settle mt-5 flex items-center justify-between border-2 border-basalt px-4 py-[11px] lg:max-w-[46rem]"
           style={{ ["--settle-delay" as string]: "120ms" }}
         >
           <input
@@ -134,7 +136,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
             ["--settle-delay" as string]: `${Math.min(bi * 60 + 200, 560)}ms`,
           }}
         >
-          <div className="mx-auto max-w-5xl px-5 py-4">
+          <div className="mx-auto max-w-5xl px-5 py-4 xl:max-w-[80rem]">
             <div className="flex items-baseline justify-between">
               <h2
                 id={`h-${slugOf(bed.name)}`}
@@ -148,7 +150,9 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
               </div>
             </div>
 
-            <div className="mt-2 grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+            {/* A wider cut face shows more seams per row — true to the
+                metaphor; stretching row height would not be (E12). */}
+            <div className="mt-2 grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {bed.items.map((e) => (
                 <Link
                   key={e.code}
@@ -201,7 +205,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
       )}
 
       <div className="cut-rule" />
-      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber">
+      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber xl:max-w-[80rem]">
         <div>EVERY CLAIM SOURCED</div>
         <div>ABSENCE ≠ ZERO</div>
         <div>NO SIDES</div>

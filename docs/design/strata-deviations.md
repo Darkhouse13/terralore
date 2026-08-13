@@ -80,6 +80,53 @@ invariant — where the invariant wins by rule.
   micro-labels on clay are basalt, deep-umber-on-clay stays sanctioned at
   display sizes. Proven in `scripts/check-contrast-strata.mjs`.
 
+- **E12 — The mounted core (desktop ≥1024px).** The contract is a
+  390–430px artifact and E3 only said "extend the scale"; stretched to a
+  wide screen the phone layout read barren. The resolution is the
+  metaphor's own: a core sample is a narrow vertical thing, and a wide
+  screen doesn't widen the core — it **mounts** it, like a specimen in a
+  tray or a geologist's core log. Concretely: content locks to a bounded
+  column (46rem reading measure; data tables may fill to ~52rem) set
+  **left-of-center** inside each page's max-width container — asymmetric
+  because a core log is (depth scale left of the core, annotation space
+  right); the assembly stays centered as a whole so both margins are
+  designed. The freed left margin carries the apparatus: a 2px depth
+  rail at the container's former text edge, with mono ticks that read
+  like the log's depth scale — **era years** on a nation's cut and its
+  chronicle (sticky: the current bed's years ride the rail while that
+  bed passes, pure `position: sticky`, no scroll JS), **rank decades**
+  printed at every tenth row on a ranking, **section names** on the
+  front door, **calendar years** on a chronology period page. Labels
+  that stacked under titles on the phone (bed sublines, era periods,
+  bed eyebrows) move into the margin at desktop and become `sr-only`
+  in-flow — the ticks are aria-hidden apparatus, so screen readers keep
+  the original reading order. Rails on coloured beds take the bed's
+  proven title colour (the seam-rule precedent from the section cut);
+  ticks take the bed's proven sub colour. The front door's beds keep
+  full-bleed pigment with content locked to the mounted column, and the
+  Overture choreography is untouched. The section cut is the one
+  surface that uses width honestly instead of mounting: a wider face
+  shows more seams per row (4 columns ≥1280px), never taller rows.
+
+- **E13 — The junction finder (the compare index as wayfinding).** 504
+  alphabetical pairs were an undifferentiated scroll — structure, not
+  rows, was the defect. The index becomes a finder in the language: THE
+  TRAY at the top — two specimen slots, dig for each nation, press
+  COMPARE; a published pair navigates, an unpublished one says so
+  honestly ("no junction cut for this pair") and lists the cuts the
+  set does hold through nation A. The tray and the dig-to-filter field
+  are one small vanilla-JS island served inline on this page only —
+  they are enhancements, hidden until the script runs, so the page
+  without JavaScript is still the whole index. Below, three browse
+  views tabbed in mono on native radios (the `.proof-toggle` pattern
+  family, zero hydration): BY NEIGHBOURHOOD (default — pairs grouped
+  under continent bed-headers walking the section cut's palette, with
+  cross-continent junctions as their own group), MOST ENTANGLED (pairs
+  with crossed events, count descending — an honest number already
+  computed; pairs with none are stated as a count, not padded), and THE
+  G20 (that tier as its own section). Row anatomy is unchanged from the
+  shipped index.
+
 ## C. Invariant collisions
 
 *(none yet — log here if a taboo ever collides with an editorial

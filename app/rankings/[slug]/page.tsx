@@ -146,7 +146,8 @@ export default async function RankingPage({
         ]}
       />
       <main className="min-h-screen bg-bone">
-        <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+        <div className="mount mx-auto max-w-4xl px-5 pt-4 pb-16">
+          <span aria-hidden className="mount-rail" />
           <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -167,7 +168,14 @@ export default async function RankingPage({
             </ol>
           </nav>
 
-          <header className="settle mt-3 pb-4">
+          <header className="settle relative mt-3 pb-4">
+            <span aria-hidden className="mount-tick">
+              <span>
+                {domainLabel}
+                <br />
+                RANKING {String(idx).padStart(2, "0")}/{total}
+              </span>
+            </span>
             <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
               {r.label}
             </h1>
@@ -258,12 +266,28 @@ export default async function RankingPage({
               {r.rows.map((row) => {
                 const width =
                   max > 0 && row.value > 0 ? Math.max((row.value / max) * 100, 0.4) : 0;
+                // Decade rows carry the depth mark, which hangs into the
+                // margin — content-visibility's paint containment would clip
+                // it, so those rows (1 in 10) skip the optimisation.
+                const isDecade = row.rank % 10 === 1;
                 return (
                   <li
                     key={row.code}
-                    className="border-b-2 border-basalt"
-                    style={{ contentVisibility: "auto", containIntrinsicBlockSize: "64px" }}
+                    className="relative border-b-2 border-basalt"
+                    style={
+                      isDecade
+                        ? undefined
+                        : { contentVisibility: "auto", containIntrinsicBlockSize: "64px" }
+                    }
                   >
+                    {/* The depth scale (E12): a printed mark at every rank
+                        decade, passing with the flow like a core log's
+                        depth figures. */}
+                    {isDecade && (
+                      <span aria-hidden className="mount-mark top-[13px]">
+                        #{String(row.rank).padStart(2, "0")}
+                      </span>
+                    )}
                     <div className="flip-scene flip-press">
                       <div className="flip-card h-[62px]">
                         <div className="flip-face pt-[11px]">
@@ -319,7 +343,10 @@ export default async function RankingPage({
 
           {/* ── the gaps, named — a gap has no underside ── */}
           {r.noData.length > 0 && (
-            <section className="mt-8">
+            <section className="relative mt-8">
+              <span aria-hidden className="mount-tick">
+                <span>GAPS · {r.noData.length}</span>
+              </span>
               <h2 className="font-display text-[20px] font-extrabold tracking-tight uppercase">
                 Not observed
               </h2>
@@ -376,7 +403,10 @@ export default async function RankingPage({
             </ul>
           </nav>
 
-          <footer className="mt-10 border-t-2 border-basalt pt-5">
+          <footer className="relative mt-10 border-t-2 border-basalt pt-5">
+            <span aria-hidden className="mount-tick">
+              <span>SOURCES</span>
+            </span>
             <div className="eyebrow mb-3 text-umber">
               {r.sources.length === 1 ? "Source" : "Sources"}
             </div>

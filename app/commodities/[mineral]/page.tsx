@@ -135,7 +135,8 @@ export default async function CommodityPage({
       ]}
     />
     <main className="min-h-screen bg-bone">
-      <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+      <div className="mount mx-auto max-w-4xl px-5 pt-4 pb-16">
+        <span aria-hidden className="mount-rail" />
         <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
@@ -158,7 +159,14 @@ export default async function CommodityPage({
           </ol>
         </nav>
 
-        <header className="settle mt-3 pb-4">
+        <header className="settle relative mt-3 pb-4">
+          <span aria-hidden className="mount-tick">
+            <span>
+              COMMODITY
+              <br />
+              OBSERVED {yr} · {ye} EST
+            </span>
+          </span>
           <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
             {c.name}
           </h1>

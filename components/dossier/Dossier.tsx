@@ -232,14 +232,18 @@ export default function Dossier({
         className="settle select-none"
         style={hasHistory ? { touchAction: "none", cursor: "grab" } : undefined}
       >
-        <div className="mx-auto max-w-5xl px-5 pt-4">
+        <div className="mount mx-auto max-w-5xl px-5 pt-4">
+          <span aria-hidden className="mount-rail" />
+          <span aria-hidden className="mount-tick">
+            <span>SPECIMEN {meta.code}</span>
+          </span>
           <Link
             href="/atlas"
             className="inline-block py-1.5 font-mono text-[10px] tracking-[0.16em] text-oxide"
           >
             ← THE SECTION CUT{meta.continent ? ` · ${meta.continent.toUpperCase()}` : ""}
           </Link>
-          <div className="mt-1 flex items-start justify-between gap-4">
+          <div className="mt-1 flex items-start justify-between gap-4 lg:max-w-[46rem]">
             <div className="min-w-0">
               <h1 className="font-display text-[52px] leading-none font-extrabold tracking-tight break-words uppercase md:text-[72px]">
                 {meta.name}
@@ -294,30 +298,39 @@ export default function Dossier({
               ["--settle-delay" as string]: `${Math.min((i + 1) * 60, 420)}ms`,
             }}
           >
-            <div className="mx-auto max-w-5xl px-5 py-[14px]">
-              <div className="flex items-baseline justify-between gap-3">
-                <div
-                  className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px]"
-                  style={{ color: w.title }}
-                >
-                  {era.period} · {era.title}
+            <div className="mount mx-auto max-w-5xl px-5 py-[14px]">
+              {/* The mounted core (E12): the era's years move to the margin
+                  tick at desktop — the depth scale of the nation's own cut. */}
+              <span aria-hidden className="mount-rail" style={{ ["--rail" as string]: w.title }} />
+              <span aria-hidden className="mount-tick">
+                <span style={{ color: w.sub }}>{era.period}</span>
+              </span>
+              <div className="lg:max-w-[46rem]">
+                <div className="flex items-baseline justify-between gap-3">
+                  <div
+                    className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px]"
+                    style={{ color: w.title }}
+                  >
+                    <span className="lg:sr-only">{era.period} · </span>
+                    {era.title}
+                  </div>
+                  <div className="flex-none font-mono text-[10px]" style={{ color: w.sub }}>
+                    {era.count} EVENTS
+                  </div>
                 </div>
-                <div className="flex-none font-mono text-[10px]" style={{ color: w.sub }}>
-                  {era.count} EVENTS
-                </div>
+                {era.headline.map((e) => (
+                  <div
+                    key={`${e.yearLabel}-${e.title}`}
+                    className="mt-1.5 font-sans text-[14.5px]"
+                    style={{ color: w.title }}
+                  >
+                    {e.yearLabel} · {e.title}{" "}
+                    <span className="font-mono text-[9.5px]" style={{ color: w.sub }}>
+                      {e.refs} {e.refs === 1 ? "REF" : "REFS"}
+                    </span>
+                  </div>
+                ))}
               </div>
-              {era.headline.map((e) => (
-                <div
-                  key={`${e.yearLabel}-${e.title}`}
-                  className="mt-1.5 font-sans text-[14.5px]"
-                  style={{ color: w.title }}
-                >
-                  {e.yearLabel} · {e.title}{" "}
-                  <span className="font-mono text-[9.5px]" style={{ color: w.sub }}>
-                    {e.refs} {e.refs === 1 ? "REF" : "REFS"}
-                  </span>
-                </div>
-              ))}
             </div>
           </Link>
         );
@@ -331,21 +344,28 @@ export default function Dossier({
           className="bed settle pressable block"
           style={{ ["--settle-delay" as string]: "420ms" }}
         >
-          <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
-            <div>
-              <div className="font-display text-[20px] font-extrabold tracking-tight uppercase">
-                Read the chronicle
+          <div className="mount mx-auto max-w-5xl px-5 py-4">
+            <span aria-hidden className="mount-rail" />
+            <span aria-hidden className="mount-tick">
+              <span>THE READING DEPTH</span>
+            </span>
+            <div className="flex items-center justify-between lg:max-w-[46rem]">
+              <div>
+                <div className="font-display text-[20px] font-extrabold tracking-tight uppercase">
+                  Read the chronicle
+                </div>
+                <div className="mt-1 font-mono text-[10px] text-umber">
+                  EVERY ERA, EVENT AND REFERENCE ON ONE PAGE
+                </div>
               </div>
-              <div className="mt-1 font-mono text-[10px] text-umber">
-                EVERY ERA, EVENT AND REFERENCE ON ONE PAGE
-              </div>
+              <div className="font-mono text-[15px] text-oxide">↓</div>
             </div>
-            <div className="font-mono text-[15px] text-oxide">↓</div>
           </div>
         </Link>
       ) : (
         <div className="bed">
-          <div className="mx-auto max-w-5xl px-5 py-4">
+          <div className="mount mx-auto max-w-5xl px-5 py-4">
+            <span aria-hidden className="mount-rail" />
             <div className="eyebrow text-umber">History</div>
             <p className="mt-2 max-w-xl font-sans text-[14.5px] text-umber">
               The sourced chronicle of {meta.name} is being charted and verified — it will
@@ -357,9 +377,13 @@ export default function Dossier({
 
       {/* ── quick facts — the atlas' own reference bed ── */}
       <section className="bed bg-sand">
-        <div className="mx-auto max-w-5xl px-5 py-4">
+        <div className="mount mx-auto max-w-5xl px-5 py-4">
+          <span aria-hidden className="mount-rail" />
+          <span aria-hidden className="mount-tick">
+            <span>ATLAS REF</span>
+          </span>
           <div className="eyebrow text-umber">Quick facts · atlas reference</div>
-          <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-4 md:grid-cols-4">
+          <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-4 md:grid-cols-4 lg:max-w-[46rem]">
             <Fact label="Capital" value={meta.capital[0] ?? "—"} />
             <Fact label="Population" value={formatPopulation(meta.population)} />
             <Fact label="Area" value={formatArea(meta.area)} />
@@ -386,7 +410,8 @@ export default function Dossier({
 
       {territory && (
         <section className="bed">
-          <div className="mx-auto max-w-5xl px-5 py-4">
+          <div className="mount mx-auto max-w-5xl px-5 py-4">
+            <span aria-hidden className="mount-rail" />
             <div className="eyebrow text-umber">Territory</div>
             <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed">
               {territory.text}
@@ -411,7 +436,15 @@ export default function Dossier({
       {/* ── the dossier — specimen rows ── */}
       {available.length > 0 && (
         <section className="bed">
-          <div className="mx-auto max-w-5xl px-5 pt-4 pb-6">
+          {/* Data earns width (E12): the specimen columns fill the mounted
+              tray — each column lands near the contract's native 390px. */}
+          <div className="mount mx-auto max-w-5xl px-5 pt-4 pb-6">
+            <span aria-hidden className="mount-rail" />
+            <span aria-hidden className="mount-tick">
+              <span>
+                DATA · {available.length} {available.length === 1 ? "DOMAIN" : "DOMAINS"}
+              </span>
+            </span>
             <div className="flex items-baseline justify-between">
               <div className="eyebrow text-umber">
                 Dossier · press a specimen — it turns over
@@ -465,10 +498,13 @@ export default function Dossier({
       )}
 
       <div className="cut-rule" />
-      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber">
-        <div>EVERY CLAIM SOURCED</div>
-        <div>ABSENCE ≠ ZERO</div>
-        <div>NO SIDES</div>
+      <footer className="mount mx-auto max-w-5xl px-5 pt-[14px] pb-6">
+        <span aria-hidden className="mount-rail" />
+        <div className="flex justify-between font-mono text-[10px] text-umber lg:max-w-[46rem]">
+          <div>EVERY CLAIM SOURCED</div>
+          <div>ABSENCE ≠ ZERO</div>
+          <div>NO SIDES</div>
+        </div>
       </footer>
 
       {/* ── the extracted core ── */}
@@ -642,7 +678,8 @@ function NoSeriesState({ meta }: { meta: CountryMeta }) {
   const note = NO_DATA_NOTES[meta.code];
   return (
     <section className="bed">
-      <div className="mx-auto max-w-5xl px-5 py-5">
+      <div className="mount mx-auto max-w-5xl px-5 py-5">
+        <span aria-hidden className="mount-rail" />
         <h2 className="max-w-2xl font-display text-[20px] leading-tight font-extrabold tracking-tight uppercase">
           No independent statistical series meets the sourcing bar yet
         </h2>
@@ -689,7 +726,11 @@ function SourcesFooter({
   const stamp = vintageStamp(sources, updated);
   return (
     <footer className="bed">
-      <div className="mx-auto max-w-5xl px-5 py-4">
+      <div className="mount mx-auto max-w-5xl px-5 py-4">
+        <span aria-hidden className="mount-rail" />
+        <span aria-hidden className="mount-tick">
+          <span>SOURCES</span>
+        </span>
         <div className="eyebrow text-umber">Sources &amp; methodology</div>
         {stamp && <p className="mt-2 font-mono text-[11px] text-oxide">{stamp}</p>}
         <ul className="mt-3 flex flex-col gap-2">
