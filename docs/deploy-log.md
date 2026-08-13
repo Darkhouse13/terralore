@@ -6,6 +6,62 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-14 — STRATA × SHOW THE WORK: the whole visual world replaced
+
+The cutover of the strata-rebuild branch (10 commits + merge `fca7a25`):
+every pixel and interaction on the site replaced to the P3 design
+contract (`docs/design/p3-contract.html`, translated in DESIGN.md v2,
+extensions logged in `docs/design/strata-deviations.md`). Content, data,
+URLs, invariants and the SEO/GEO plumbing untouched by design.
+
+What shipped: the Overture front door (pure CSS, once per session,
+≤1.1s then stillness; zero client components on the landing route); the
+globe deleted end to end (renderer + worker + still + builder, ~1,900
+lines and the worker chunk) and replaced by THE SECTION CUT at /atlas;
+the nation page as era beds + the core-pull + specimen dossier; the
+proof-flip on every observed value on every surface (client component
+on the dossier, CSS-only :active + checkbox on the server-rendered
+rankings/compares/commodities); absence as the hatched NOT OBSERVED
+mark everywhere; the chronicle, timeline, themes, 404 and all hubs in
+the reading grammar; ZENITH recolored basalt-on-bone with the oxide
+dot across favicon/manifest/theme-color/JSON-LD logo; OG cards + the
+social pipeline re-skinned to the same world (byte-identical
+determinism re-proven, ledger untouched); three self-hosted faces —
+runtime Google Fonts gone entirely.
+
+Verification, all on the production build then re-checked live:
+
+- `npm run validate` 0 errors (histories, domains, commodities,
+  rankings, compare, geo, social); `tsc` clean; the new seam scan
+  (`scripts/validate-seams.mjs`, in `npm run ci`) 0 word-jams across
+  1,628 prerendered pages.
+- Contrast proven arithmetically: 23/23 strata pairs clear their
+  thresholds (`scripts/check-contrast-strata.mjs`).
+- Lighthouse mobile (medians): front door 98/95, nation 99/96, ranking
+  97/96, compare 96/96, chronicle 96/96 (perf/a11y; BP+SEO 100 across).
+  The lever: analytics now load on first interaction or a 7s idle
+  timer — gtag's ~200ms evaluation was the whole blocking-time story;
+  the accepted trade is that sub-7s zero-interaction bounces go
+  unrecorded.
+- Idle profile: 0 rAF callbacks, 0 running animations over 10 idle
+  seconds on all five surface classes.
+- Bundle: home 201.3 → 188.2 KB gz (and the worker chunk gone);
+  /country/FRA 248.7 → 207.7 KB gz (motion left the dossier; the
+  metric window is now an on-demand chunk). No three.js existed to
+  remove — the audit confirms none returned.
+- Live matrix (desktop + 390px, overflow asserted zero at capture):
+  front door, section cut, JPN + FRA nations, gdp ranking, deu-vs-fra,
+  copper, the 1800s period page — `design-review/17-strata/live-*`.
+  OG cards ×3, icon0.svg, manifest (bone), FRA.md twin all 200 with
+  correct types.
+- GEO factual identity: 3 live twins byte-identical to the committed
+  files; `validate-geo` regenerates all 937 and byte-compares — 0
+  errors. Design touched no facts.
+- No IndexNow: no URL changed. The journey routes stay live but
+  unlinked (deviations E8).
+
+---
+
 ## 2026-08-11 — social publishing infrastructure (Postiz + publisher + daily runner)
 
 Not a site deploy — an infrastructure deploy beside it (no site route
