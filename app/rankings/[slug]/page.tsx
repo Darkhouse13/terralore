@@ -259,7 +259,11 @@ export default async function RankingPage({
                 const width =
                   max > 0 && row.value > 0 ? Math.max((row.value / max) * 100, 0.4) : 0;
                 return (
-                  <li key={row.code} className="border-b-2 border-basalt">
+                  <li
+                    key={row.code}
+                    className="border-b-2 border-basalt"
+                    style={{ contentVisibility: "auto", containIntrinsicBlockSize: "64px" }}
+                  >
                     <div className="flip-scene flip-press">
                       <div className="flip-card h-[62px]">
                         <div className="flip-face pt-[11px]">

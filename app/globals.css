@@ -160,6 +160,7 @@ a {
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
+  -webkit-touch-callout: none; /* no long-press context sheet on a specimen */
   touch-action: pan-y;
 }
 .flip-card {
@@ -200,8 +201,27 @@ a {
 
 /* ── Bed-settle — the entrance (and the overture's spine) ─────────────────
    Beds settle from below with mass, staggered bottom-up (oldest first) by
-   --settle-delay. After the last settle: total stillness. */
+   --settle-delay. After the last settle: total stillness.
+
+   TWO grades, and the difference is load-bearing (the .reveal lesson, kept
+   structural): `.settle` is TRANSFORM-ONLY — the element is opaque from its
+   first frame, so it is LCP-eligible immediately; use it for CONTENT
+   (headers, tables, anything that could be the largest element).
+   `.settle-fade` adds the opacity fade and is reserved for the front door's
+   overture beds, which sit below the stamp and are never the LCP. */
 @keyframes bed-settle {
+  from {
+    transform: translateY(24px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.settle {
+  animation: bed-settle var(--dur-settle) var(--ease-mass) both;
+  animation-delay: var(--settle-delay, 0s);
+}
+@keyframes bed-settle-fade {
   from {
     opacity: 0;
     transform: translateY(24px);
@@ -211,8 +231,8 @@ a {
     transform: translateY(0);
   }
 }
-.settle {
-  animation: bed-settle var(--dur-settle) var(--ease-mass) both;
+.settle-fade {
+  animation: bed-settle-fade var(--dur-settle) var(--ease-mass) both;
   animation-delay: var(--settle-delay, 0s);
 }
 
@@ -274,6 +294,7 @@ a {
    front door sets this class during HTML parse, so a return visit paints the
    settled state with no motion at all. */
 .no-overture .settle,
+.no-overture .settle-fade,
 .no-overture .rule-draw,
 .no-overture .stamp-in,
 .no-overture .dot-arrive,

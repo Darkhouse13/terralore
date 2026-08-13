@@ -73,6 +73,13 @@ invariant — where the invariant wins by rule.
   duplicate the label or fabricate precision the record does not carry
   (the statehood precision-ledger rule).
 
+- **E11 — Small labels on clay are basalt.** The contract's text-on-clay
+  pair (deep umber on clay) measures 4.33:1 — fine for the large display
+  text the prototype set in it, below AA for the 10–11px mono sublabels
+  the production surfaces need. The tokens don't move; the usage does:
+  micro-labels on clay are basalt, deep-umber-on-clay stays sanctioned at
+  display sizes. Proven in `scripts/check-contrast-strata.mjs`.
+
 ## C. Invariant collisions
 
 *(none yet — log here if a taboo ever collides with an editorial

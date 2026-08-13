@@ -32,7 +32,7 @@ const BEDS: {
   hatch?: boolean;
 }[] = [
   { name: "Africa", bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
-  { name: "Asia", bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-umber-deep)" },
+  { name: "Asia", bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-basalt)" },
   { name: "Europe", bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { name: "North America", bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { name: "South America", bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },

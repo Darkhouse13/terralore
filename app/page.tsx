@@ -50,7 +50,7 @@ function Bed({
       <Link
         href={href}
         prefetch={false}
-        className="settle pressable block"
+        className="settle-fade pressable block"
         style={{ ["--settle-delay" as string]: `${delay}ms`, background: bg }}
       >
         <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-[18px] md:py-6">
@@ -142,7 +142,7 @@ export default function Home() {
           title="Histories"
           titleColor="var(--color-basalt)"
           sub="EVERY EVENT DATED + SOURCED"
-          subColor="var(--color-umber-deep)"
+          subColor="var(--color-basalt)"
           count={events}
           delay={BED_DELAY[1]}
         />
@@ -180,7 +180,7 @@ export default function Home() {
 
       {/* ── Dig + the cross-reads ── */}
       <div className="cut-rule rule-draw" style={{ ["--settle-delay" as string]: `${BED_DELAY[5] + 140}ms` }} />
-      <div className="settle" style={{ ["--settle-delay" as string]: `${BED_DELAY[5]}ms` }}>
+      <div className="settle-fade" style={{ ["--settle-delay" as string]: `${BED_DELAY[5]}ms` }}>
         <div className="mx-auto max-w-5xl px-5 py-[18px]">
           <Link
             href="/atlas"

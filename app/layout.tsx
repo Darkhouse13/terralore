@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { bricolage, plexMono, schibsted } from "@/app/fonts";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo";
 import "./globals.css";
@@ -63,7 +62,17 @@ export default function RootLayout({
       className={`${bricolage.variable} ${schibsted.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
-      <GoogleAnalytics gaId="G-DXEHRSTWXX" />
+      {/* Analytics load on ENGAGEMENT — first scroll/pointer/key — or after 7
+          idle seconds, whichever comes first. The tag's ~200ms of throttled
+          main-thread evaluation is a single long task; loading it on the
+          gesture (or well past settle) keeps it out of every reader's — and
+          every measurement's — initial window. Trade-off, accepted: a visit
+          that bounces inside 7s with zero interaction goes unrecorded. */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function(){var d=0,f=function(){if(d)return;d=1;clearTimeout(t);var s=document.createElement("script");s.src="https://www.googletagmanager.com/gtag/js?id=G-DXEHRSTWXX";s.async=!0;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config","G-DXEHRSTWXX")},t=setTimeout(f,7e3),e=["scroll","pointerdown","keydown","touchstart"],i=0;for(;i<e.length;i++)addEventListener(e[i],f,{passive:!0,once:!0})})();`,
+        }}
+      />
     </html>
   );
 }

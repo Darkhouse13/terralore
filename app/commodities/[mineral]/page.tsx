@@ -350,7 +350,10 @@ function Figures({ p, c }: { p: ProducerShare; c: Commodity }) {
 function ProducerRow({ p, c, rank }: { p: ProducerShare; c: Commodity; rank: number }) {
   const source = commoditiesSource();
   return (
-    <li className="border-b-2 border-basalt">
+    <li
+      className="border-b-2 border-basalt"
+      style={{ contentVisibility: "auto", containIntrinsicBlockSize: "70px" }}
+    >
       <div className="flip-scene flip-press">
         <div className="flip-card h-[68px]">
           <div className="flip-face pt-[9px]">

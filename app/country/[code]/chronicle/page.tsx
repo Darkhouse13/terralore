@@ -143,7 +143,6 @@ export default async function ChroniclePage({
                 key={era.id}
                 era={era}
                 n={i + 1}
-                first={i === 0}
                 sources={history.sources}
                 sourceIndex={sourceIndex}
                 code={code}
@@ -285,14 +284,12 @@ function Contents({ eras }: { eras: Era[] }) {
 function EraSection({
   era,
   n,
-  first,
   sources,
   sourceIndex,
   code,
 }: {
   era: Era;
   n: number;
-  first: boolean;
   sources: Source[];
   sourceIndex: Map<string, number>;
   code: string;

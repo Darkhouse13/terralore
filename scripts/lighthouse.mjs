@@ -46,13 +46,18 @@ if (!CHROME) {
   process.exit(1);
 }
 
-// The three surfaces the mission names. FRA is the richest chronicle (and the one
-// history authored as a TS module rather than JSON, so it also exercises that path).
-const PAGES = [
+// The surfaces the strata-rebuild mission names: the front door, one nation,
+// one ranking, one compare — plus the chronicle (the GEO-critical reading
+// depth, kept from the earlier floor).
+const ALL_PAGES = [
   { name: "landing", path: "/" },
-  { name: "dossier", path: "/country/FRA" },
+  { name: "dossier", path: "/country/JPN" },
+  { name: "ranking", path: "/rankings/gdp" },
+  { name: "compare", path: "/compare/deu-vs-fra" },
   { name: "chronicle", path: "/country/FRA/chronicle" },
 ];
+const ONLY = flag("only", null)?.split(",");
+const PAGES = ONLY ? ALL_PAGES.filter((p) => ONLY.includes(p.name)) : ALL_PAGES;
 
 const CATEGORIES = ["performance", "accessibility", "best-practices", "seo"];
 const FLOOR = 95;

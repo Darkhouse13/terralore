@@ -163,14 +163,14 @@ export default async function ComparePairPage({
                     <Link
                       href={routes.dossier(n.code)}
                       prefetch={false}
-                      className="pressable text-oxide"
+                      className="pressable text-umber-deep underline underline-offset-2"
                     >
                       Dossier →
                     </Link>
                     <Link
                       href={routes.chronicle(n.code)}
                       prefetch={false}
-                      className="pressable text-oxide"
+                      className="pressable text-umber-deep underline underline-offset-2"
                     >
                       Chronicle →
                     </Link>
@@ -332,7 +332,10 @@ function MetricRow({ page, row }: { page: ComparePage; row: CompareRow }) {
   const wa = w(row.a.value);
   const wb = w(row.b.value);
   return (
-    <li className="border-b-2 border-basalt">
+    <li
+      className="border-b-2 border-basalt"
+      style={{ contentVisibility: "auto", containIntrinsicBlockSize: "88px" }}
+    >
       <div className="flip-scene flip-press">
         <div className="flip-card h-[86px]">
           <div className="flip-face pt-[10px]">
@@ -398,7 +401,7 @@ function Cell({ code, row, cell }: { code: string; row: CompareRow; cell: { valu
 function EventRow({ ev }: { ev: SharedEvent }) {
   return (
     <li className="grid gap-x-6 gap-y-1 border-t-2 border-basalt py-4 sm:grid-cols-[6.5rem_minmax(0,1fr)]">
-      <div className="font-mono text-[12px] leading-relaxed tabular-nums text-oxide">
+      <div className="font-mono text-[12px] leading-relaxed font-medium tabular-nums text-umber-deep">
         {ev.yearLabel}
       </div>
       <div className="min-w-0">
@@ -411,7 +414,11 @@ function EventRow({ ev }: { ev: SharedEvent }) {
         <p className="mt-2 font-mono text-[10.5px] leading-relaxed text-umber uppercase">
           {CATEGORY_META[ev.category]?.label ?? ev.category}
           {" · from "}
-          <Link href={routes.chronicle(ev.from)} prefetch={false} className="text-oxide">
+          <Link
+            href={routes.chronicle(ev.from)}
+            prefetch={false}
+            className="text-umber-deep underline underline-offset-2"
+          >
             the {ev.fromName} chronicle
           </Link>
           {" · "}
@@ -429,7 +436,7 @@ function EventRow({ ev }: { ev: SharedEvent }) {
                       href={s.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-oxide underline underline-offset-2"
+                      className="text-umber-deep underline underline-offset-2"
                     >
                       {s.label}
                     </a>

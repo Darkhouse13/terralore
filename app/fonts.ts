@@ -15,8 +15,10 @@ import localFont from "next/font/local";
                           17px bed headers to the 96px stamp. Preloaded —
                           the stamp is above the fold on every surface.
 
-     Schibsted Grotesk    body, variable wght 400–700. Preloaded — prose is
-                          frequently the LCP element.
+     Schibsted Grotesk    body, variable wght 400–700. Preloaded: prose and
+                          row text swap late otherwise, and on dense tables
+                          the late swap measured CLS 0.089 — worse than the
+                          ~250ms of LCP the preload costs.
 
      IBM Plex Mono        data: values, years, codes, eyebrows. NOT
                           preloaded: it renders small labels where a swap is

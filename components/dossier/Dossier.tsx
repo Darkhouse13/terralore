@@ -13,9 +13,15 @@ import { DOMAIN_META } from "@/lib/types";
 import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
 import { METRIC_DEFS } from "@/lib/metric-defs";
 import { NO_DATA_NOTES, TERRITORY_NOTES } from "@/lib/territory-notes";
+import dynamic from "next/dynamic";
 import ProofFlip from "@/components/strata/ProofFlip";
 import ProofBack from "@/components/strata/ProofBack";
-import MetricDetail, { type ChartMode } from "./MetricDetail";
+import { type ChartMode } from "./MetricDetail";
+
+// The metric window (chart · rank · map) is a reader's second step, never the
+// first paint — it loads on demand, keeping the window's chart/map/picker
+// code out of the nation page's initial bundle.
+const MetricDetail = dynamic(() => import("./MetricDetail"), { ssr: false });
 import { annotationsForSeries } from "@/lib/annotations";
 import type { EventAnnotation } from "@/lib/annotations";
 
@@ -43,7 +49,7 @@ const ALL_DOMAINS = Object.keys(DOMAIN_META) as DomainKey[];
 // The bed walk, newest era downward. Ground + proven text pair per DESIGN.md §2.
 const BED_WALK = [
   { bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
-  { bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-umber-deep)" },
+  { bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-basalt)" },
   { bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },
