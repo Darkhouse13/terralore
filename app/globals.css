@@ -276,6 +276,32 @@ a {
   display: none;
 }
 
+/* ── The junction finder (compare hub, deviations E13) ────────────────────
+   Three browse views switched by native radios — the .proof-toggle pattern
+   family, zero hydration. The radios are sr-only siblings upstream of the
+   tab labels and the views; :checked drives both the active tab and the
+   visible view, and the oxide focus ring is forwarded to the label. */
+.jview {
+  display: none;
+}
+#jv-nb:checked ~ .jview-nb,
+#jv-me:checked ~ .jview-me,
+#jv-g20:checked ~ .jview-g20 {
+  display: block;
+}
+#jv-nb:checked ~ .jtabs label[for="jv-nb"],
+#jv-me:checked ~ .jtabs label[for="jv-me"],
+#jv-g20:checked ~ .jtabs label[for="jv-g20"] {
+  background: var(--color-basalt);
+  color: var(--color-bone);
+}
+#jv-nb:focus-visible ~ .jtabs label[for="jv-nb"],
+#jv-me:focus-visible ~ .jtabs label[for="jv-me"],
+#jv-g20:focus-visible ~ .jtabs label[for="jv-g20"] {
+  outline: 2px solid var(--color-oxide);
+  outline-offset: 2px;
+}
+
 /* ── Bed-settle — the entrance (and the overture's spine) ─────────────────
    Beds settle from below with mass, staggered bottom-up (oldest first) by
    --settle-delay. After the last settle: total stillness.
