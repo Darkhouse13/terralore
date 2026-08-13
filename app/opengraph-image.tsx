@@ -23,7 +23,7 @@ export default async function OpengraphImage() {
     (
       <OgShell
         seed="terralore"
-        top={<Eyebrow>An interactive globe · a living archive</Eyebrow>}
+        top={<Eyebrow>The reference work of nations · every claim sourced</Eyebrow>}
         middle={
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div

@@ -14,7 +14,7 @@ export const SITE_URL = "https://terralore.co";
 export const SITE_NAME = "Terralore";
 export const SITE_TAGLINE = "An Atlas of How Nations Came to Be";
 export const SITE_DESCRIPTION =
-  "An interactive globe and living archive of world history. Explore any nation and trace the long path it took to become a country — every claim sourced.";
+  "The reference work of nations, laid down in layers. Explore any nation and trace the long path it took to become a country — every claim sourced.";
 
 // The licence of Terralore's own compilations (prose, tables, rankings) — the
 // upstreams beneath them are CC-BY (World Bank) or public domain (USGS), so
