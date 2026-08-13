@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
-import { AnimatePresence, motion } from "motion/react";
 import type { DataSource, Metric } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import { metricDefinition } from "@/lib/metric-defs";
@@ -12,21 +11,26 @@ import { rankingSlug } from "@/lib/ranking-meta";
 import MetricChart, { type ChartAnnotation, type ChartLine } from "./MetricChart";
 import MetricMap from "./MetricMap";
 
-// The metric "window" — a modal that shows the full time series as an interactive
-// chart, with the plain-language definition, range stats and the source citation.
-// Two lenses: VALUE over time, or world RANK over time (#1 = highest). Readers can
-// overlay other nations (or, in value mode, the world average). All comparison
-// series come from a single per-metric file lazy-fetched from public/data/series/
-// (built by scripts/build-series-index.mjs).
+// The metric "window" — the specimen opened flat: the full time series as an
+// interactive chart, the plain-language definition, range stats and the
+// source citation. Two lenses: VALUE over time, or world RANK over time
+// (#1 = highest). Readers can overlay other nations (or, in value mode, the
+// world average); series lazy-fetch from public/data/series/<key>.json.
 //
-// Open/compare/view state is controlled by the Dossier so it can be mirrored to the
-// URL (shareable deep links). Only transient fetch/picker state lives here.
+// Strata grammar: an opaque bone sheet laid over the page (no scrim, no
+// blur — taboo), 2px basalt rules, square corners, the mass curve. Open /
+// compare / lens state is owned by the Dossier so it can be mirrored to the
+// URL (shareable deep links).
 
 export type ChartMode = "value" | "rank";
 
-const PRIMARY_COLOR = "var(--color-copper-bright)";
-const COMPARE_COLORS = ["#7fa9d8", "#d68fa8", "#7cc4b3", "#b98fc4"];
-const WORLD_COLOR = "#6c7772";
+// Series palette on bone: the home nation is oxide (the live label); overlays
+// walk basalt → clay → umber → the indigo category pigment (a data-encoding
+// colour, sanctioned by deviation E4). The world average is the absence tone,
+// dashed — an aggregate, not an observation.
+const PRIMARY_COLOR = "#a64b26";
+const COMPARE_COLORS = ["#221e19", "#c88a5c", "#6e4a32", "#5464a1"];
+const WORLD_COLOR = "#b8ac97";
 export const WORLD_CODE = "__world";
 
 const rankFmt = (v: number) => `#${Math.round(v)}`;
@@ -229,7 +233,7 @@ export default function MetricDetail({
     });
   }
 
-  // range stats (home nation, value lens) + change pill
+  // range stats (home nation, value lens) + change line
   const first = hasSeries ? series[0] : null;
   const lo = hasSeries ? series.reduce((a, b) => (b.value < a.value ? b : a)) : null;
   const hi = hasSeries ? series.reduce((a, b) => (b.value > a.value ? b : a)) : null;
@@ -279,348 +283,313 @@ export default function MetricDetail({
   const colorForCode = (code: string) =>
     COMPARE_COLORS[compare.indexOf(code) % COMPARE_COLORS.length];
 
-  if (!mounted) return null;
+  if (!mounted || !open) return null;
 
   return createPortal(
-    <AnimatePresence>
-      {open && (
-        <motion.div
-          className="fixed inset-0 z-[80] flex items-center justify-center p-4 sm:p-6"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.18 }}
-          style={{ background: "rgba(4,3,8,0.74)", backdropFilter: "blur(3px)" }}
-          onClick={onClose}
-          role="dialog"
-          aria-modal="true"
-          aria-label={`${metric.label} — detail`}
-        >
-          <motion.div
-            className="relative max-h-[90dvh] w-full max-w-[660px] overflow-y-auto rounded-[10px] border border-copper/25 p-6 sm:p-8"
-            initial={{ opacity: 0, y: 12, scale: 0.98 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 8, scale: 0.99 }}
-            transition={{ duration: 0.2, ease: "easeOut" }}
-            style={{
-              background: "linear-gradient(180deg,#0c2e3d,#04161f)",
-              boxShadow: "0 40px 110px -30px rgba(0,0,0,0.9)",
-            }}
-            onClick={(e) => e.stopPropagation()}
+    <div
+      className="fixed inset-0 z-[80] overflow-y-auto bg-bone"
+      role="dialog"
+      aria-modal="true"
+      aria-label={`${metric.label} — detail`}
+    >
+      <div className="settle mx-auto max-w-2xl px-5 pt-4 pb-16">
+        {/* window bar */}
+        <div className="flex items-center justify-between">
+          <div className="eyebrow text-umber">Specimen · {country.name}</div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="pressable -mr-1 border-2 border-basalt px-3 py-1.5 font-mono text-[11px]"
           >
-            <button
-              type="button"
-              onClick={onClose}
-              aria-label="Close"
-              className="absolute right-4 top-4 grid h-8 w-8 place-items-center rounded-full border border-copper/25 text-[16px] text-chalk-3 transition-colors hover:border-copper hover:text-chalk-hi"
-            >
-              ×
-            </button>
+            CLOSE ✕
+          </button>
+        </div>
 
-            {/* heading */}
-            <div className="pr-10">
-              <div className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-chalk-3">
-                {metric.label}
-              </div>
-              <div className="mt-3 flex items-end gap-3.5">
-                <div className="font-display text-[40px] font-[360] leading-none text-chalk-hi">
-                  {formatMetric(metric.value, metric.unit)}
-                </div>
-                {change && (
-                  <span className="mb-1 font-mono text-[12px] tracking-[0.04em]" style={{ color: change.tint }}>
-                    {change.arrow} {change.text}
-                  </span>
-                )}
-                {metric.year != null && (
-                  <span className="mb-1 font-mono text-[11px] tracking-[0.06em] text-chalk-4">
-                    in {metric.year}
-                  </span>
-                )}
+        {/* heading */}
+        <div className="mt-4">
+          <div className="font-display text-[20px] leading-tight font-extrabold tracking-tight uppercase">
+            {metric.label}
+          </div>
+          <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <div className="font-mono text-[34px] leading-none">
+              {formatMetric(metric.value, metric.unit)}
+            </div>
+            {metric.year != null && (
+              <span className="pill">OBSERVED {metric.year}</span>
+            )}
+            {change && (
+              <span className="font-mono text-[11px] text-umber">
+                {change.arrow} {change.text}
+              </span>
+            )}
+          </div>
+        </div>
+
+        <p className="mt-3 max-w-[56ch] font-sans text-[14px] leading-relaxed text-umber">
+          {info}
+        </p>
+
+        {/* chart + lens toggle */}
+        {hasSeries ? (
+          <div className="mt-5 border-2 border-basalt p-2">
+            <div className="flex items-center justify-between gap-3 px-1 pb-1.5">
+              <span className="font-mono text-[10px] tracking-[0.14em] text-umber uppercase">
+                {isRank ? "World rank · #1 = highest" : "Over time"}
+              </span>
+              <div className="inline-flex flex-none">
+                <LensButton active={!isRank} onClick={() => onModeChange("value")}>
+                  Value
+                </LensButton>
+                <LensButton active={isRank} onClick={() => onModeChange("rank")}>
+                  Rank
+                </LensButton>
+                <LensButton active={mapOpen} onClick={onMapToggle}>
+                  Map
+                </LensButton>
               </div>
             </div>
-
-            <p className="mt-4 max-w-[52ch] font-serif text-[14.5px] leading-relaxed text-chalk-read">
-              {info}
-            </p>
-
-            {/* chart + lens toggle */}
-            {hasSeries ? (
-              <div className="mt-6 rounded-[6px] border border-copper/12 bg-[#04161f] p-2">
-                <div className="flex items-center justify-between gap-3 px-1.5 pb-1.5">
-                  <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-chalk-4">
-                    {isRank ? "World rank · #1 = highest" : "Over time"}
-                  </span>
-                  <div className="inline-flex flex-none rounded-full border border-copper/20 p-0.5">
-                    <LensButton active={!isRank} onClick={() => onModeChange("value")}>
-                      Value
-                    </LensButton>
-                    <LensButton active={isRank} onClick={() => onModeChange("rank")}>
-                      Rank
-                    </LensButton>
-                  </div>
-                </div>
-                {isRank && !file ? (
-                  <div className="grid h-[220px] place-items-center px-2 font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-4">
-                    {failed ? "World rankings unavailable" : "Computing world rankings…"}
-                  </div>
-                ) : (
-                  <MetricChart
-                    lines={lines}
-                    unit={metric.unit}
-                    invertY={isRank}
-                    formatValue={isRank ? rankFmt : undefined}
-                    annotations={annotations}
-                  />
-                )}
+            {isRank && !file ? (
+              <div className="grid h-[220px] place-items-center px-2 font-mono text-[11px] tracking-[0.14em] text-umber uppercase">
+                {failed ? "World rankings unavailable" : "Computing world rankings…"}
               </div>
             ) : (
-              <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-5">
-                No time series available for this indicator.
-              </p>
+              <MetricChart
+                lines={lines}
+                unit={metric.unit}
+                invertY={isRank}
+                formatValue={isRank ? rankFmt : undefined}
+                annotations={annotations}
+              />
             )}
+          </div>
+        ) : (
+          <p className="mt-5 font-mono text-[11px] tracking-[0.14em] text-umber uppercase">
+            No time series available for this indicator.
+          </p>
+        )}
 
-            {/* ── What the archive says happened here ────────────────────────
-                The marks on the chart are legible but not readable; this is the
-                readable half, and the actual link between the two depths. The
-                wording is careful on purpose: "in the archive during this
-                period", not "which caused this" — the corpus asserts sourced
-                events, never causation, and neither does this panel. */}
-            {hasSeries && annotations.length > 0 && (
-              <div className="mt-5 rounded-[3px] border border-copper/15 bg-copper/[0.04] px-4 py-3.5">
-                <div className="eyebrow mb-2.5 text-chalk-3">
-                  In the archive during this period
-                </div>
-                <ul className="flex flex-col gap-2">
-                  {annotations.map((a) => (
-                    <li key={`${a.year}-${a.title}`} className="flex items-baseline gap-2.5">
-                      <span
-                        aria-hidden
-                        className="mt-[5px] h-[7px] w-[7px] flex-none rounded-full"
-                        style={{ background: a.tint }}
-                      />
-                      <span className="flex-none font-mono text-[11px] tabular-nums text-chalk-3">
-                        {a.yearLabel}
-                      </span>
-                      <a
-                        href={a.href}
-                        className="text-[13.5px] leading-snug text-chalk-2 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
-                      >
-                        {a.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+        {/* spatial map — the world coloured by this metric */}
+        {hasSeries && mapOpen && (
+          <div className="mt-3 border-2 border-basalt p-2">
+            <div className="px-1 pb-1.5 font-mono text-[10px] tracking-[0.14em] text-umber uppercase">
+              World by {metric.label} · press a nation to compare
+            </div>
+            {file ? (
+              <MetricMap
+                values={mapValues}
+                unit={metric.unit}
+                names={mapNames}
+                homeCode={country.code}
+                compare={mapCompare}
+                colorFor={colorForCode}
+                onToggle={toggleCompare}
+              />
+            ) : (
+              <div className="grid h-[200px] place-items-center font-mono text-[11px] tracking-[0.14em] text-umber uppercase">
+                {failed ? "Map data unavailable" : "Loading map…"}
               </div>
             )}
+          </div>
+        )}
 
-            {/* legend + compare controls */}
-            {hasSeries && (
-              <div className="mt-4">
-                <div className="flex flex-wrap items-center gap-2">
-                  <LegendChip color={PRIMARY_COLOR} flag={country.flag} label={country.name} />
-                  {shownCompare.map((code) => {
-                    const idx = compare.indexOf(code);
-                    const isWorld = code === WORLD_CODE;
-                    const color = isWorld ? WORLD_COLOR : COMPARE_COLORS[idx % COMPARE_COLORS.length];
-                    const label = isWorld ? "World average" : file?.countries[code]?.name ?? code;
-                    const flag = isWorld ? "🌍" : file?.countries[code]?.flag ?? null;
-                    return (
-                      <LegendChip
-                        key={code}
-                        color={color}
-                        flag={flag}
-                        label={label}
-                        onRemove={() => onCompareChange(compare.filter((c) => c !== code))}
+        {/* ── What the archive says happened here — the readable half of the
+            chart's marks. "In the archive during this period", never "which
+            caused this": the corpus asserts sourced events, not causation. */}
+        {hasSeries && annotations.length > 0 && (
+          <div className="mt-4 border-2 border-basalt px-4 py-3">
+            <div className="eyebrow mb-2 text-umber">In the archive during this period</div>
+            <ul className="flex flex-col gap-1.5">
+              {annotations.map((a) => (
+                <li key={`${a.year}-${a.title}`} className="flex items-baseline gap-2.5">
+                  <span
+                    aria-hidden
+                    className="mt-[5px] h-[7px] w-[7px] flex-none"
+                    style={{ background: a.tint }}
+                  />
+                  <span className="flex-none font-mono text-[11px] text-umber tabular-nums">
+                    {a.yearLabel}
+                  </span>
+                  <a href={a.href} className="font-sans text-[13.5px] leading-snug text-oxide">
+                    {a.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* legend + compare controls */}
+        {hasSeries && (
+          <div className="mt-4">
+            <div className="flex flex-wrap items-center gap-2">
+              <LegendChip color={PRIMARY_COLOR} code={country.code} label={country.name} />
+              {shownCompare.map((code) => {
+                const idx = compare.indexOf(code);
+                const isWorld = code === WORLD_CODE;
+                const color = isWorld ? WORLD_COLOR : COMPARE_COLORS[idx % COMPARE_COLORS.length];
+                const label = isWorld ? "World average" : file?.countries[code]?.name ?? code;
+                return (
+                  <LegendChip
+                    key={code}
+                    color={color}
+                    code={isWorld ? "AVG" : code}
+                    label={label}
+                    onRemove={() => onCompareChange(compare.filter((c) => c !== code))}
+                  />
+                );
+              })}
+              {!picking && (
+                <button
+                  type="button"
+                  onClick={enterCompare}
+                  className="pressable border-2 border-basalt px-3 py-[5px] font-mono text-[11px] tracking-[0.1em] uppercase"
+                >
+                  + Compare
+                </button>
+              )}
+            </div>
+
+            {picking && (
+              <div className="mt-3 border-2 border-basalt p-3">
+                {loading && (
+                  <div className="px-1 py-2 font-mono text-[11px] tracking-[0.14em] text-umber uppercase">
+                    Loading nations…
+                  </div>
+                )}
+                {failed && (
+                  <div className="px-1 py-2 font-mono text-[11px] tracking-[0.14em] text-umber uppercase">
+                    Comparison data unavailable.
+                  </div>
+                )}
+                {file && !failed && (
+                  <>
+                    <div className="flex items-center gap-3">
+                      <input
+                        autoFocus
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                        placeholder="Search nations…"
+                        className="min-w-0 flex-1 border-2 border-basalt bg-bone px-3 py-2 font-sans text-[13px] placeholder:text-umber focus:outline-none"
                       />
-                    );
-                  })}
-                  {!picking && (
-                    <button
-                      type="button"
-                      onClick={enterCompare}
-                      className="rounded-[3px] border border-copper/30 px-3 py-[5px] font-mono text-[11px] uppercase tracking-[0.1em] text-chalk-2 transition-colors hover:border-copper hover:text-chalk-hi"
-                    >
-                      + Compare
-                    </button>
-                  )}
-                  <button
-                    type="button"
-                    onClick={onMapToggle}
-                    aria-pressed={mapOpen}
-                    className={`rounded-full border px-3 py-[5px] font-mono text-[11px] uppercase tracking-[0.1em] transition-colors ${
-                      mapOpen
-                        ? "border-copper bg-copper/15 text-chalk-hi"
-                        : "border-copper/30 text-chalk-2 hover:border-copper hover:text-chalk-hi"
-                    }`}
-                  >
-                    🗺 Map
-                  </button>
-                </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setPicking(false);
+                          setQuery("");
+                        }}
+                        className="pressable font-mono text-[11px] tracking-[0.1em] text-oxide uppercase"
+                      >
+                        Done
+                      </button>
+                    </div>
 
-                {picking && (
-                  <div className="mt-3 rounded-[8px] border border-copper/15 bg-[#04161f] p-3">
-                    {loading && (
-                      <div className="px-1 py-2 font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-4">
-                        Loading nations…
-                      </div>
+                    {!isRank && !worldPicked && !query && (
+                      <button
+                        type="button"
+                        onClick={() => onCompareChange([...compare, WORLD_CODE])}
+                        className="pressable mt-2 flex w-full items-center gap-2.5 px-2 py-2 text-left font-sans text-[13px]"
+                      >
+                        <span className="font-mono text-[10px] text-umber">AVG</span>
+                        <span>World average</span>
+                      </button>
                     )}
-                    {failed && (
-                      <div className="px-1 py-2 font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-5">
-                        Comparison data unavailable.
+
+                    {atLimit ? (
+                      <div className="mt-2 px-2 py-2 font-mono text-[10.5px] tracking-[0.12em] text-umber uppercase">
+                        Up to {COMPARE_COLORS.length} nations at once — remove one to add another.
                       </div>
-                    )}
-                    {file && !failed && (
-                      <>
-                        <div className="flex items-center gap-2">
-                          <input
-                            autoFocus
-                            value={query}
-                            onChange={(e) => setQuery(e.target.value)}
-                            placeholder="Search nations…"
-                            className="min-w-0 flex-1 rounded-[5px] border border-copper/20 bg-[#04161f] px-3 py-2 text-[13px] text-chalk placeholder:text-chalk-5 focus:border-copper/50 focus:outline-none"
-                          />
+                    ) : (
+                      <div className="mt-1 max-h-[200px] overflow-y-auto">
+                        {candidates.map(([code, c]) => (
                           <button
+                            key={code}
                             type="button"
                             onClick={() => {
-                              setPicking(false);
+                              onCompareChange([...compare, code]);
                               setQuery("");
                             }}
-                            className="font-mono text-[11px] uppercase tracking-[0.1em] text-chalk-4 transition-colors hover:text-chalk"
+                            className="pressable flex w-full items-center gap-2.5 px-2 py-2 text-left font-sans text-[13px]"
                           >
-                            Done
+                            <span className="w-[34px] flex-none font-mono text-[10px] text-umber">
+                              {code}
+                            </span>
+                            <span className="truncate">{c.name}</span>
+                            <span className="ml-auto flex-none font-mono text-[11px] text-umber">
+                              {formatMetric(c.value, metric.unit)}
+                            </span>
                           </button>
-                        </div>
-
-                        {!isRank && !worldPicked && !query && (
-                          <button
-                            type="button"
-                            onClick={() => onCompareChange([...compare, WORLD_CODE])}
-                            className="mt-2 flex w-full items-center gap-2 rounded-[5px] px-2 py-2 text-left text-[13px] text-chalk-2 transition-colors hover:bg-copper/10"
-                          >
-                            <span className="text-[15px]">🌍</span>
-                            <span>World average</span>
-                          </button>
-                        )}
-
-                        {atLimit ? (
-                          <div className="mt-2 px-2 py-2 font-mono text-[10.5px] uppercase tracking-[0.12em] text-chalk-5">
-                            Up to {COMPARE_COLORS.length} nations at once — remove one to add another.
-                          </div>
-                        ) : (
-                          <div className="mt-1 max-h-[200px] overflow-y-auto">
-                            {candidates.map(([code, c]) => (
-                              <button
-                                key={code}
-                                type="button"
-                                onClick={() => {
-                                  onCompareChange([...compare, code]);
-                                  setQuery("");
-                                }}
-                                className="flex w-full items-center gap-2.5 rounded-[5px] px-2 py-2 text-left text-[13px] text-chalk-2 transition-colors hover:bg-copper/10"
-                              >
-                                <span className="w-[18px] flex-none text-[15px]">{c.flag ?? "·"}</span>
-                                <span className="truncate">{c.name}</span>
-                                <span className="ml-auto flex-none font-mono text-[11px] text-chalk-4">
-                                  {formatMetric(c.value, metric.unit)}
-                                </span>
-                              </button>
-                            ))}
-                            {candidates.length === 0 && (
-                              <div className="px-2 py-3 font-mono text-[11px] uppercase tracking-[0.12em] text-chalk-5">
-                                No matches.
-                              </div>
-                            )}
+                        ))}
+                        {candidates.length === 0 && (
+                          <div className="px-2 py-3 font-mono text-[11px] tracking-[0.12em] text-umber uppercase">
+                            No matches.
                           </div>
                         )}
-                      </>
+                      </div>
                     )}
-                  </div>
+                  </>
                 )}
               </div>
             )}
+          </div>
+        )}
 
-            {/* spatial map — the world coloured by this metric */}
-            {hasSeries && mapOpen && (
-              <div className="mt-4 rounded-[6px] border border-copper/12 bg-[#04161f] p-2">
-                <div className="px-1.5 pb-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-chalk-4">
-                  World by {metric.label} · click a nation to compare
-                </div>
-                {file ? (
-                  <MetricMap
-                    values={mapValues}
-                    unit={metric.unit}
-                    names={mapNames}
-                    homeCode={country.code}
-                    compare={mapCompare}
-                    colorFor={colorForCode}
-                    onToggle={toggleCompare}
-                  />
-                ) : (
-                  <div className="grid h-[200px] place-items-center font-mono text-[11px] uppercase tracking-[0.14em] text-chalk-4">
-                    {failed ? "Map data unavailable" : "Loading map…"}
-                  </div>
-                )}
-              </div>
+        {/* range stats */}
+        {hasSeries && (
+          <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+            <Stat label={`${first!.year}`} value={formatMetric(first!.value, metric.unit)} caption="First" />
+            <Stat label={`${lo!.year}`} value={formatMetric(lo!.value, metric.unit)} caption="Lowest" />
+            <Stat label={`${hi!.year}`} value={formatMetric(hi!.value, metric.unit)} caption="Highest" />
+            <Stat label={`${metric.year ?? "—"}`} value={formatMetric(metric.value, metric.unit)} caption="Latest" />
+          </dl>
+        )}
+
+        {/* source */}
+        {source && (
+          <div className="bed mt-6 pt-4">
+            <div className="eyebrow text-umber">Source</div>
+            <a
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1.5 inline-block font-sans font-medium text-oxide underline underline-offset-2"
+            >
+              {source.label}
+            </a>
+            <div className="mt-1 font-mono text-[10.5px] text-umber">
+              {source.publisher} · {source.license} · accessed {source.accessed}
+            </div>
+            {commodityByMetricKey.has(metric.key) && (
+              <Link
+                href={`/commodities/${commodityByMetricKey.get(metric.key)!.slug}`}
+                prefetch={false}
+                className="mt-2.5 inline-block font-mono text-[11px] tracking-[0.12em] text-oxide uppercase"
+              >
+                Who supplies the world · {commodityByMetricKey.get(metric.key)!.name} →
+              </Link>
             )}
-
-            {/* range stats */}
-            {hasSeries && (
-              <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
-                <Stat label={`${first!.year}`} value={formatMetric(first!.value, metric.unit)} caption="First" />
-                <Stat label={`${lo!.year}`} value={formatMetric(lo!.value, metric.unit)} caption="Lowest" />
-                <Stat label={`${hi!.year}`} value={formatMetric(hi!.value, metric.unit)} caption="Highest" />
-                <Stat label={`${metric.year ?? "—"}`} value={formatMetric(metric.value, metric.unit)} caption="Latest" />
-              </dl>
-            )}
-
-            {/* source */}
-            {source && (
-              <div className="mt-6 border-t border-copper/12 pt-4">
-                <div className="font-mono text-[9.5px] uppercase tracking-[0.2em] text-chalk-3">Source</div>
-                <a
-                  href={source.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-1.5 inline-block font-semibold text-chalk-read underline-offset-2 transition-colors hover:text-copper hover:underline"
+            {/* Every metric has a slug (validator-enforced); block wrapper so
+                this stacks under the commodity link on the prod* metrics. */}
+            {rankingSlug(metric.key) && (
+              <div>
+                <Link
+                  href={`/rankings/${rankingSlug(metric.key)}`}
+                  prefetch={false}
+                  className="mt-2.5 inline-block font-mono text-[11px] tracking-[0.12em] text-oxide uppercase"
                 >
-                  {source.label}
-                </a>
-                <div className="mt-1 font-mono text-[10.5px] tracking-[0.04em] text-chalk-4">
-                  {source.publisher} · {source.license} · accessed {source.accessed}
-                </div>
-                {commodityByMetricKey.has(metric.key) && (
-                  <Link
-                    href={`/commodities/${commodityByMetricKey.get(metric.key)!.slug}`}
-                    prefetch={false}
-                    className="mt-2.5 inline-block font-mono text-[11px] uppercase tracking-[0.12em] text-chalk-2 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
-                  >
-                    Who supplies the world · {commodityByMetricKey.get(metric.key)!.name} →
-                  </Link>
-                )}
-                {/* Every metric has a slug (validator-enforced); block wrapper so
-                    this stacks under the commodity link on the prod* metrics. */}
-                {rankingSlug(metric.key) && (
-                  <div>
-                    <Link
-                      href={`/rankings/${rankingSlug(metric.key)}`}
-                      prefetch={false}
-                      className="mt-2.5 inline-block font-mono text-[11px] uppercase tracking-[0.12em] text-chalk-2 underline-offset-2 transition-colors hover:text-copper-bright hover:underline"
-                    >
-                      World ranking · {metric.label} →
-                    </Link>
-                  </div>
-                )}
-                {shownCompare.length > 0 && (
-                  <p className="mt-2 font-serif text-[12.5px] italic leading-relaxed text-chalk-4">
-                    Compared nations draw on the same indicator and source; figures show each nation&apos;s latest available year.
-                  </p>
-                )}
+                  World ranking · {metric.label} →
+                </Link>
               </div>
             )}
-          </motion.div>
-        </motion.div>
-      )}
-    </AnimatePresence>,
+            {shownCompare.length > 0 && (
+              <p className="mt-2 font-sans text-[12.5px] leading-relaxed text-umber">
+                Compared nations draw on the same indicator and source; figures show each
+                nation&apos;s latest available year.
+              </p>
+            )}
+          </div>
+        )}
+      </div>
+    </div>,
     document.body,
   );
 }
@@ -639,9 +608,9 @@ function LensButton({
       type="button"
       onClick={onClick}
       aria-pressed={active}
-      className={`rounded-full px-3 py-[3px] font-mono text-[10.5px] uppercase tracking-[0.1em] transition-colors ${
-        active ? "bg-copper/20 text-chalk-hi" : "text-chalk-4 hover:text-chalk"
-      }`}
+      className={`pressable border-2 border-basalt px-2.5 py-[3px] font-mono text-[10.5px] tracking-[0.1em] uppercase ${
+        active ? "bg-basalt text-bone" : "text-basalt"
+      } -ml-0.5 first:ml-0`}
     >
       {children}
     </button>
@@ -650,26 +619,26 @@ function LensButton({
 
 function LegendChip({
   color,
-  flag,
+  code,
   label,
   onRemove,
 }: {
   color: string;
-  flag: string | null;
+  code: string;
   label: string;
   onRemove?: () => void;
 }) {
   return (
-    <span className="inline-flex items-center gap-2 rounded-full border border-copper/15 bg-[#04161f] py-[5px] pl-2.5 pr-2 text-[12px] text-chalk">
-      <span className="h-2.5 w-2.5 flex-none rounded-[2px]" style={{ background: color }} />
-      {flag && <span className="text-[13px] leading-none">{flag}</span>}
+    <span className="inline-flex items-center gap-2 border-2 border-basalt py-[4px] pr-2 pl-2.5 font-sans text-[12px]">
+      <span className="h-2.5 w-2.5 flex-none" style={{ background: color }} />
+      <span className="font-mono text-[9.5px] text-umber">{code}</span>
       <span className="max-w-[160px] truncate">{label}</span>
       {onRemove && (
         <button
           type="button"
           onClick={onRemove}
           aria-label={`Remove ${label}`}
-          className="grid h-4 w-4 flex-none place-items-center rounded-full text-[13px] leading-none text-chalk-4 transition-colors hover:text-chalk-hi"
+          className="grid h-4 w-4 flex-none place-items-center text-[13px] leading-none text-umber"
         >
           ×
         </button>
@@ -681,25 +650,23 @@ function LegendChip({
 function Stat({ label, value, caption }: { label: string; value: string; caption: string }) {
   return (
     <div>
-      <div className="font-mono text-[9.5px] uppercase tracking-[0.16em] text-chalk-3">{caption}</div>
-      <div className="mt-1.5 font-display text-[19px] leading-none text-chalk">{value}</div>
-      <div className="mt-1 font-mono text-[10px] tracking-[0.06em] text-chalk-4">{label}</div>
+      <div className="font-mono text-[9.5px] tracking-[0.16em] text-umber uppercase">{caption}</div>
+      <div className="mt-1.5 font-mono text-[17px] leading-none">{value}</div>
+      <div className="mt-1 font-mono text-[10px] text-umber">{label}</div>
     </div>
   );
 }
 
 // Change from the start of the trailing series to the latest value. For
 // already-percentage units we report the swing in percentage points; otherwise a
-// percent change. Neutral palette — up/down is not framed as good or bad.
+// percent change. One neutral tone — up/down is not framed as good or bad.
 function computeChange(
   first: { year: number; value: number } | null,
   metric: Metric,
-): { text: string; arrow: string; tint: string } | null {
+): { text: string; arrow: string } | null {
   if (!first || metric.value == null) return null;
   const diff = metric.value - first.value;
   const arrow = diff > 0 ? "▲" : diff < 0 ? "▼" : "—";
-  const tint =
-    diff > 0 ? "var(--color-verdigris)" : diff < 0 ? "var(--color-madder)" : "var(--color-chalk-4)";
   // Units already expressed on a 0–100 scale move in points, not in percent of
   // themselves: a governance score going 40 → 44 rose four points, and calling
   // that "10%" would invite a comparison the scale does not support.
@@ -710,13 +677,12 @@ function computeChange(
         ? "pts"
         : null;
   if (pointUnit) {
-    return { text: `${Math.abs(diff).toFixed(1)} ${pointUnit} since ${first.year}`, arrow, tint };
+    return { text: `${Math.abs(diff).toFixed(1)} ${pointUnit} since ${first.year}`, arrow };
   }
   if (first.value === 0) return null;
   const pct = (diff / Math.abs(first.value)) * 100;
   return {
     text: `${Math.abs(pct).toFixed(pct >= 100 || pct <= -100 ? 0 : 1)}% since ${first.year}`,
     arrow,
-    tint,
   };
 }

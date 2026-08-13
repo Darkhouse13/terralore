@@ -2,43 +2,53 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { formatPopulation } from "@/lib/format";
+
+/* ── THE SECTION CUT — world navigation ─────────────────────────────────────
+   Continents are beds, nations are seams (contract; DESIGN.md §8). The cut
+   descends the palette in stratigraphic order — Africa first as the oldest
+   inhabited bed, Antarctica last as the one bed with no polity, drawn in the
+   absence hatch. SSG + a client filter; no canvas, no globe, no WebGL.
+
+   Search narrows seams inside their beds; a bed with no matches collapses.
+   Seam rows keep every fact they carry in the initial HTML. */
 
 export interface IndexEntry {
   code: string;
   name: string;
-  flag: string | null;
   continent: string | null;
   subregion: string | null;
   hasHistory: boolean;
   foundingYear?: string;
-  population?: number | null;
   unMember?: boolean | null;
 }
 
-const REGIONS = ["All", "Europe", "Asia", "Africa", "Americas", "Oceania"];
+// The cut, top to bottom. Ground + the proven text pair for that ground
+// (DESIGN.md §2). Antarctica is the absence bed: no polity, no pigment.
+const BEDS: {
+  name: string;
+  bg: string;
+  title: string;
+  sub: string;
+  hatch?: boolean;
+}[] = [
+  { name: "Africa", bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
+  { name: "Asia", bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-umber-deep)" },
+  { name: "Europe", bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { name: "North America", bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { name: "South America", bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { name: "Oceania", bg: "var(--color-basalt)", title: "var(--color-bone)", sub: "var(--color-clay)" },
+  { name: "Antarctica", bg: "var(--color-bone)", title: "var(--color-basalt)", sub: "var(--color-umber)", hatch: true },
+];
 
-function inRegion(e: IndexEntry, r: string): boolean {
-  if (r === "All") return true;
-  if (r === "Americas") return (e.continent ?? "").includes("America");
-  return e.continent === r;
-}
+const slugOf = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
 
 export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
   const [q, setQ] = useState("");
-  const [region, setRegion] = useState("All");
   const total = entries.length;
-
-  const regions = useMemo(
-    () => REGIONS.filter((r) => r === "All" || entries.some((e) => inRegion(e, r))),
-    [entries],
-  );
-
 
   const filtered = useMemo(() => {
     const query = q.trim().toLowerCase();
     return entries
-      .filter((e) => inRegion(e, region))
       .filter(
         (e) =>
           !query ||
@@ -46,20 +56,9 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
           e.code.toLowerCase().includes(query),
       )
       .sort((a, b) => a.name.localeCompare(b.name));
-  }, [entries, q, region]);
+  }, [entries, q]);
 
-  // Continent groups, in a fixed order so the page's outline is stable across
-  // builds (and so Africa does not move because a nation was added).
-  const groups = useMemo(() => {
-    const order = [
-      "Africa",
-      "Asia",
-      "Europe",
-      "North America",
-      "South America",
-      "Oceania",
-      "Antarctica",
-    ];
+  const beds = useMemo(() => {
     const by = new Map<string, IndexEntry[]>();
     for (const e of filtered) {
       const k = e.continent ?? "Other";
@@ -67,213 +66,142 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
       if (list) list.push(e);
       else by.set(k, [e]);
     }
-    return [...by.entries()]
-      .sort((a, b) => {
-        const ia = order.indexOf(a[0]);
-        const ib = order.indexOf(b[0]);
-        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a[0].localeCompare(b[0]);
-      })
-      .map(([name, items]) => ({
-        name,
-        slug: name.toLowerCase().replace(/\s+/g, "-"),
-        items,
-      }));
+    return BEDS.map((bed) => ({ ...bed, items: by.get(bed.name) ?? [] })).filter(
+      (bed) => bed.items.length > 0,
+    );
   }, [filtered]);
 
   return (
-    <main
-      className="min-h-[100dvh] w-full text-chalk"
-      style={{
-        background:
-          "radial-gradient(120% 70% at 50% -10%, #0c2e3d 0%, #04161f 44%, #04161f 100%)",
-      }}
-    >
-      <div className="mx-auto max-w-[1340px] px-6 pb-24 pt-9 md:px-10 lg:px-14">
-        {/* back */}
+    <main className="min-h-screen bg-bone">
+      {/* masthead */}
+      <div className="mx-auto max-w-5xl px-5 pt-6 pb-5">
         <Link
           href="/"
-          className="group inline-flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-2 transition-colors hover:text-chalk"
+          className="settle inline-block py-1.5 font-mono text-[10px] tracking-[0.16em] text-oxide"
         >
-          <span className="text-[15px] transition-transform group-hover:-translate-x-0.5">←</span>
-          The globe
+          ← TERRALORE
         </Link>
+        <h1 className="settle mt-2 font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
+          The section cut
+        </h1>
+        <div
+          className="settle mt-2 font-mono text-[11px] text-oxide"
+          style={{ ["--settle-delay" as string]: "60ms" }}
+        >
+          {total} NATIONS · {beds.length} BEDS · A–Z WITHIN EACH
+        </div>
 
-        {/* header */}
-        <header className="mt-8">
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <div>
-              <div className="font-mono text-[12px] uppercase tracking-[0.26em] text-copper">
-                The index
-              </div>
-              <h1 className="mt-3.5 font-display text-[clamp(42px,6vw,76px)] font-[340] leading-[0.96] tracking-[-0.02em] text-chalk-hi">
-                The Atlas
-              </h1>
-            </div>
-            <div className="pb-2 font-mono text-[13px] tracking-[0.04em] text-chalk-3">
-              <span className="text-[18px] text-copper-bright">{filtered.length}</span> of {total} nations
-            </div>
-          </div>
+        {/* dig */}
+        <div
+          className="settle mt-5 flex items-center justify-between border-2 border-basalt px-4 py-[11px]"
+          style={{ ["--settle-delay" as string]: "120ms" }}
+        >
+          <input
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder={`Dig for a nation — name or code…`}
+            aria-label="Search nations"
+            className="w-full bg-transparent font-sans text-[15px] text-basalt placeholder:text-umber focus:outline-none"
+          />
+          <span className="font-mono text-xs text-oxide">{filtered.length}</span>
+        </div>
 
-          {/* The other two ways in: the corpus read across nations rather than
-              one at a time. */}
-          <nav aria-label="Browse the archive" className="mt-6 flex flex-wrap gap-2.5">
-            <Link
-              href="/timeline"
-              className="inline-flex items-center gap-2 rounded-[4px] border border-copper/25 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.16em] text-chalk-2 transition-colors hover:border-copper hover:text-chalk"
-            >
-              Chronology <span className="text-copper-bright">by period</span>
-            </Link>
-            <Link
-              href="/themes"
-              className="inline-flex items-center gap-2 rounded-[4px] border border-copper/25 px-4 py-2 font-mono text-[12px] uppercase tracking-[0.16em] text-chalk-2 transition-colors hover:border-copper hover:text-chalk"
-            >
-              Themes <span className="text-copper-bright">by subject</span>
-            </Link>
-          </nav>
-
-          {/* search */}
-          <div className="mt-[30px] flex items-center gap-3.5 rounded-[4px] border border-copper/20 bg-white/[0.02] px-[22px] py-3.5">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
-              <circle cx="8" cy="8" r="6" stroke="#8497a0" strokeWidth="1.5" />
-              <line x1="12.5" y1="12.5" x2="16" y2="16" stroke="#8497a0" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
-            <input
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              placeholder={`Search ${total} nations by name or code…`}
-              className="w-full bg-transparent text-[16px] text-land-0 placeholder:text-chalk-4 focus:outline-none"
-            />
-          </div>
-
-          {/* region facets */}
-          <div className="mt-[18px] flex flex-wrap gap-2.5">
-            {regions.map((r) => {
-              const active = r === region;
-              return (
-                <button
-                  key={r}
-                  onClick={() => setRegion(r)}
-                  className={`whitespace-nowrap rounded-[4px] border px-3.5 py-1.5 text-[13px] transition-colors ${
-                    active
-                      ? "border-copper-bright bg-copper-bright font-semibold text-[#04161f]"
-                      : "border-copper/25 text-chalk-2 hover:border-copper/50 hover:text-chalk"
-                  }`}
-                >
-                  {r}
-                </button>
-              );
-            })}
-          </div>
-        </header>
-
-        {/* ── Grouped by continent ────────────────────────────────────────
-            Previously one flat wall of 186 identical cards. Grouping does two
-            jobs at once: it gives a reader somewhere to land, and it gives the
-            HTML a real outline — each continent is an <h2> with its own count,
-            so an engine answering "which nations are in Africa" finds a heading
-            and a list rather than 186 undifferentiated links. The grouping is
-            server-rendered like everything else; the filter narrows within it. */}
-        {groups.map((g) => (
-          <section key={g.name} className="mt-11 first:mt-8" aria-labelledby={`c-${g.slug}`}>
-            <div className="flex items-baseline gap-4">
-              <h2
-                id={`c-${g.slug}`}
-                className="font-display text-[22px] font-[420] text-chalk-hi"
-              >
-                {g.name}
-              </h2>
-              <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-chalk-4">
-                {g.items.length} {g.items.length === 1 ? "nation" : "nations"}
-              </span>
-              <span aria-hidden className="stratum-rule ml-auto max-w-[90px] flex-1" />
-            </div>
-
-            <div className="mt-4 grid gap-2.5 [grid-template-columns:repeat(auto-fill,minmax(330px,1fr))]">
-              {g.items.map((e) => {
-                const nonUN = e.unMember === false;
-                const since = e.foundingYear ?? "—";
-                return (
-                  // A div with a stretched link rather than a link-as-card: the
-                  // chronicle needs its own crawlable anchor, and anchors can't
-                  // nest. The whole card still clicks through to the dossier.
-                  <div
-                    key={e.code}
-                    className="group relative flex items-center gap-4 rounded-[3px] border border-copper/12 bg-white/[0.012] px-[18px] py-[15px] transition-colors hover:border-copper/40 hover:bg-copper/[0.05]"
-                  >
-                    <Link
-                      href={`/country/${e.code}`}
-                      prefetch={false}
-                      aria-label={`${e.name} — the dossier`}
-                      className="absolute inset-0 rounded-[3px]"
-                    />
-                    <span className="grid h-7 w-10 flex-none place-items-center text-[15px] leading-none">
-                      {e.flag ?? "🏳️"}
-                    </span>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-baseline gap-2.5">
-                        <span className="truncate font-display text-[19px] text-land-0">
-                          {e.name}
-                        </span>
-                        <span className="flex-none font-mono text-[10px] tracking-[0.1em] text-chalk-4">
-                          {e.code}
-                        </span>
-                        {nonUN && (
-                          <span className="flex-none rounded-[2px] border border-[rgba(113,126,177,0.45)] px-1.5 py-px font-mono text-[9px] uppercase tracking-[0.1em] text-[#717eb1]">
-                            Non-UN
-                          </span>
-                        )}
-                      </div>
-                      <div className="mt-1.5 flex items-baseline justify-between gap-3 font-mono text-[10.5px] tracking-[0.08em]">
-                        {/* Both sides truncate. A handful of nations carry long
-                            founding strings ("24 September 1973 (declared);
-                            recognised 10 September 1974") which, left
-                            unshrinkable, ran clean out of the card. */}
-                        <span className="min-w-0 flex-1 truncate text-chalk-3">
-                          {e.subregion ?? e.continent ?? "—"}
-                          {e.population != null && ` · ${formatPopulation(e.population)}`}
-                        </span>
-                        <span
-                          title={since === "—" ? undefined : since}
-                          className={`min-w-0 max-w-[55%] flex-none truncate text-right ${
-                            since === "—" ? "text-chalk-5" : "text-chalk-2"
-                          }`}
-                        >
-                          {since}
-                        </span>
-                      </div>
-                    </div>
-                    {e.hasHistory && (
-                      <Link
-                        href={`/country/${e.code}/chronicle`}
-                        prefetch={false}
-                        className="relative z-10 flex-none rounded-[2px] border border-copper/20 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-[0.12em] text-chalk-4 transition-colors hover:border-copper/50 hover:text-copper-bright"
-                      >
-                        Chronicle
-                      </Link>
-                    )}
-                    <span
-                      aria-hidden
-                      className="flex-none text-[15px] text-chalk-5 transition-transform group-hover:translate-x-0.5"
-                    >
-                      →
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
-        ))}
-
-        {/* empty state */}
-        {filtered.length === 0 && (
-          <div className="px-5 py-20 text-center">
-            <div className="font-display text-[30px] text-chalk-2">No nations found</div>
-            <div className="mt-2.5 font-serif text-[17px] italic text-chalk-4">
-              Try a different name, code, or region.
-            </div>
-          </div>
-        )}
+        {/* bed jump links */}
+        <nav
+          aria-label="Continents"
+          className="settle mt-3 flex flex-wrap gap-x-5 gap-y-1 font-mono text-[11px]"
+          style={{ ["--settle-delay" as string]: "180ms" }}
+        >
+          {beds.map((b) => (
+            <a key={b.name} href={`#c-${slugOf(b.name)}`} className="text-oxide">
+              {b.name.toUpperCase()} ↓
+            </a>
+          ))}
+        </nav>
       </div>
+
+      {/* the cut */}
+      {beds.map((bed, bi) => (
+        <section
+          key={bed.name}
+          id={`c-${slugOf(bed.name)}`}
+          aria-labelledby={`h-${slugOf(bed.name)}`}
+          className="bed settle scroll-mt-2"
+          style={{
+            background: bed.hatch
+              ? "repeating-linear-gradient(45deg, var(--color-absent) 0 3px, var(--color-bone) 3px 10px)"
+              : bed.bg,
+            ["--settle-delay" as string]: `${Math.min(bi * 60 + 200, 560)}ms`,
+          }}
+        >
+          <div className="mx-auto max-w-5xl px-5 py-4">
+            <div className="flex items-baseline justify-between">
+              <h2
+                id={`h-${slugOf(bed.name)}`}
+                className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px]"
+                style={{ color: bed.title }}
+              >
+                {bed.name}
+              </h2>
+              <div className="font-mono text-[10px]" style={{ color: bed.sub }}>
+                {bed.items.length} {bed.items.length === 1 ? "SEAM" : "SEAMS"}
+              </div>
+            </div>
+
+            <div className="mt-2 grid gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+              {bed.items.map((e) => (
+                <Link
+                  key={e.code}
+                  href={`/country/${e.code}`}
+                  prefetch={false}
+                  className="pressable flex items-baseline justify-between gap-3 py-[7px]"
+                  style={{ borderTop: `2px solid ${bed.title}` }}
+                >
+                  <span className="min-w-0">
+                    <span
+                      className="truncate font-sans text-[14.5px] font-medium"
+                      style={{ color: bed.title }}
+                    >
+                      {e.name}
+                    </span>
+                    {e.unMember === false && (
+                      <span
+                        className="ml-2 align-middle font-mono text-[8.5px] tracking-[0.1em]"
+                        style={{ color: bed.sub }}
+                      >
+                        NON-UN
+                      </span>
+                    )}
+                  </span>
+                  <span
+                    className="flex-none text-right font-mono text-[10px]"
+                    style={{ color: bed.sub }}
+                  >
+                    {e.code}
+                    {e.foundingYear ? ` · ${e.foundingYear}` : ""}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      ))}
+
+      {filtered.length === 0 && (
+        <div className="bed px-5 py-16 text-center">
+          <div className="font-display text-[25px] font-extrabold uppercase">Nothing dug up</div>
+          <div className="mt-2 font-sans text-[14px] text-umber">
+            Try a different name or three-letter code.
+          </div>
+        </div>
+      )}
+
+      <div className="cut-rule" />
+      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber">
+        <div>EVERY CLAIM SOURCED</div>
+        <div>ABSENCE ≠ ZERO</div>
+        <div>NO SIDES</div>
+      </footer>
     </main>
   );
 }

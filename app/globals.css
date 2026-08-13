@@ -231,6 +231,40 @@ a {
   animation-delay: var(--settle-delay, 0s);
 }
 
+/* The stamp lands with mass — TRANSFORM ONLY: the stamp is the front door's
+   LCP element and must be opaque from its first frame (the .reveal lesson,
+   kept structural). */
+@keyframes stamp-in {
+  from {
+    transform: translateY(-10px) scale(1.04);
+  }
+  to {
+    transform: none;
+  }
+}
+.stamp-in {
+  animation: stamp-in var(--dur-settle) var(--ease-mass) both;
+  animation-delay: var(--settle-delay, 0s);
+}
+
+/* The masthead mark settles with the stamp; its oxide dot arrives last
+   (--dot-delay), closing the overture. */
+.dot-cue svg circle {
+  animation: dot-arrive 160ms linear both;
+  animation-delay: var(--dot-delay, 0s);
+}
+
+/* Replay guard: the overture runs once per session. The inline script on the
+   front door sets this class during HTML parse, so a return visit paints the
+   settled state with no motion at all. */
+.no-overture .settle,
+.no-overture .rule-draw,
+.no-overture .stamp-in,
+.no-overture .dot-arrive,
+.no-overture .dot-cue svg circle {
+  animation: none;
+}
+
 /* ── Parallax — ±6px, CSS only, decorative layers only ──────────────────── */
 @keyframes drift {
   from {

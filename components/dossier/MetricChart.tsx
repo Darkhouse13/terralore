@@ -143,8 +143,8 @@ export default function MetricChart({
     >
       <defs>
         <linearGradient id="metric-area" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="var(--color-copper-bright)" stopOpacity={0.2} />
-          <stop offset="100%" stopColor="var(--color-copper-bright)" stopOpacity={0} />
+          <stop offset="0%" stopColor="#a64b26" stopOpacity={0.16} />
+          <stop offset="100%" stopColor="#a64b26" stopOpacity={0} />
         </linearGradient>
       </defs>
 
@@ -196,7 +196,7 @@ export default function MetricChart({
               y1={yy}
               x2={W - PAD_R}
               y2={yy}
-              stroke="rgba(227, 154, 103,0.12)"
+              stroke="#d9cdb8"
               strokeWidth={1}
             />
             <text
@@ -204,7 +204,7 @@ export default function MetricChart({
               y={yy + 3.5}
               textAnchor="end"
               className="font-mono"
-              style={{ fontSize: 11, fill: "var(--color-chalk-4)" }}
+              style={{ fontSize: 11, fill: "var(--color-umber)" }}
             >
               {fmt(v)}
             </text>
@@ -220,7 +220,7 @@ export default function MetricChart({
           y={H - PAD_B + 20}
           textAnchor={yr === minYr ? "start" : yr === maxYr ? "end" : "middle"}
           className="font-mono"
-          style={{ fontSize: 11, fill: "var(--color-chalk-4)" }}
+          style={{ fontSize: 11, fill: "var(--color-umber)" }}
         >
           {yr}
         </text>
@@ -264,7 +264,7 @@ export default function MetricChart({
             y1={PAD_T}
             x2={x(hoverYear)}
             y2={BASE_Y}
-            stroke="rgba(232,224,208,0.26)"
+            stroke="#b8ac97"
             strokeWidth={1}
           />
           {readout.map((r, i) => (
@@ -274,7 +274,7 @@ export default function MetricChart({
               cy={y(r.pt.value)}
               r={4}
               fill={r.line.color}
-              stroke="var(--color-depth-6)"
+              stroke="var(--color-bone)"
               strokeWidth={1.5}
             />
           ))}
@@ -283,14 +283,14 @@ export default function MetricChart({
               width={TT_W}
               height={TT_H}
               rx={5}
-              fill="rgba(8,7,13,0.97)"
-              stroke="rgba(227, 154, 103,0.35)"
+              fill="#221e19"
+              stroke="#221e19"
             />
             <text
               x={10}
               y={15}
               className="font-mono"
-              style={{ fontSize: 10, letterSpacing: "0.08em", fill: "var(--color-chalk-3)" }}
+              style={{ fontSize: 10, letterSpacing: "0.08em", fill: "#c88a5c" }}
             >
               {hoverYear}
             </text>
@@ -301,7 +301,7 @@ export default function MetricChart({
                   x={TT_W - 20}
                   y={0}
                   textAnchor="end"
-                  style={{ fontSize: 12, fontWeight: 600, fill: "var(--color-chalk-hi)" }}
+                  style={{ fontSize: 12, fontWeight: 600, fill: "#efe7d8" }}
                 >
                   {fmt(r.pt.value)}
                 </text>
