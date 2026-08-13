@@ -148,7 +148,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
               </div>
             </div>
 
-            <div className="mt-2 grid gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-2 grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
               {bed.items.map((e) => (
                 <Link
                   key={e.code}
@@ -157,7 +157,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
                   className="pressable flex items-baseline justify-between gap-3 py-[7px]"
                   style={{ borderTop: `2px solid ${bed.title}` }}
                 >
-                  <span className="min-w-0">
+                  <span className="flex min-w-0 items-baseline gap-2">
                     <span
                       className="truncate font-sans text-[14.5px] font-medium"
                       style={{ color: bed.title }}
@@ -166,16 +166,20 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
                     </span>
                     {e.unMember === false && (
                       <span
-                        className="ml-2 align-middle font-mono text-[8.5px] tracking-[0.1em]"
+                        className="flex-none font-mono text-[8.5px] tracking-[0.1em]"
                         style={{ color: bed.sub }}
                       >
                         NON-UN
                       </span>
                     )}
                   </span>
+                  {/* Some founding labels run long ("24 September 1973 (declared);
+                      recognised 10 September 1974") — the seam truncates them
+                      rather than widening the cut. */}
                   <span
-                    className="flex-none text-right font-mono text-[10px]"
+                    className="max-w-[50%] flex-none truncate text-right font-mono text-[10px]"
                     style={{ color: bed.sub }}
+                    title={e.foundingYear}
                   >
                     {e.code}
                     {e.foundingYear ? ` · ${e.foundingYear}` : ""}
