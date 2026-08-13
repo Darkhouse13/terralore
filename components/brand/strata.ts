@@ -58,8 +58,7 @@ export function strataSequence(seed: string, blocks: number, height: number): St
     seq.push({ color: PIGMENTS[p], width: Math.round(height * (2.6 + rand() * 2.2)) });
   }
   const accentAt = Math.floor(rand() * blocks);
-  // TRANSITIONAL: the strip's one accent block keeps the retired copper until
-  // the Phase-4 OG re-skin recasts the baseline in the Strata pigments.
-  seq[accentAt] = { ...seq[accentAt], color: "#c87244" };
+  // The strip's one accent block is oxide — the Strata accent.
+  seq[accentAt] = { ...seq[accentAt], color: "#a64b26" };
   return seq;
 }

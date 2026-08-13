@@ -52,6 +52,27 @@ invariant — where the invariant wins by rule.
   oxide ring (offset 2px) on every interactive element — 2px per the
   rule weight law, oxide because focus is a live label.
 
+- **E8 — The journey is parked, not shipped off-brand.** The cinematic
+  time-journey (`/country/<code>/history`) could not meet the language +
+  performance bar inside this rebuild (it is built on the retired deep
+  palette, the motion library, and a continuous full-screen stage). Per
+  the mission's own escape hatch it stays live behind its URL — content,
+  metadata and sitemap entry untouched — but no surface links to it. The
+  chronicle is the linked depth. Revisit as its own mission.
+- **E9 — CSS-only proof-flip on server surfaces.** Rankings, compares
+  and commodities are server-rendered with no client JS; their specimens
+  flip with `:active` (press = flip, release = return — the same
+  physics, zero hydration) and the surface-level PROOF VIEW is a native
+  checkbox driving the flip in CSS. The reverse face is aria-hidden and
+  its facts are also present as visually-hidden text, so screen readers
+  lose nothing.
+- **E10 — Dual-dating realized as the record's own label.** The event
+  screen shows the authored `yearLabel` (the record's own precision) as
+  the primary date with the numeric year beneath only where the two
+  differ. Printing a second, more precise date everywhere would either
+  duplicate the label or fabricate precision the record does not carry
+  (the statehood precision-ledger rule).
+
 ## C. Invariant collisions
 
 *(none yet — log here if a taboo ever collides with an editorial
@@ -59,4 +80,17 @@ invariant; the invariant wins and the design routes around it.)*
 
 ## D. Removals (the Chanel rule ledger)
 
-*(one per review pass, logged as they happen)*
+- The globe (runtime renderer, worker, still, builder) — replaced by the
+  section cut; the front door ships zero client components.
+- Emoji flags, everywhere — codes are the mark; the type system carries
+  no emoji by construction.
+- The paper-grain overlay — a transparency effect (taboo) doing mood
+  work the pigments now do.
+- The dossier's "How X compares" bars — the rankings surface owns
+  cross-nation reading; the dossier links there per metric.
+- Metric-card sparklines — the specimen row carries the observation; the
+  series lives one press away in the window, where it has room.
+- The atlas card's duplicate chronicle link — one link per seam; the
+  chronicle affordance lives on the nation page.
+- The serif voice entirely (Literata, italics, the dropcap, the
+  wordmark's terminal stop) — three faces, no exceptions.

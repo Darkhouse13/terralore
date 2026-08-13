@@ -55,6 +55,9 @@ export default async function CompareOgImage({
                   lineHeight: 1.02,
                   letterSpacing: -2,
                   color: OG.chalkHi,
+                fontFamily: "Bricolage",
+                fontWeight: 800,
+                textTransform: "uppercase" as const,
                   maxWidth: 1020,
                 }}
               >
@@ -80,7 +83,8 @@ export default async function CompareOgImage({
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             {page && row ? (
               <div style={{ display: "flex", alignItems: "baseline", gap: 14 }}>
-                <div style={{ fontSize: 42, color: OG.verdigris, letterSpacing: -1 }}>
+                <div style={{ fontSize: 42, color: OG.verdigris,
+                fontFamily: "mono", letterSpacing: -1 }}>
                   {`${formatMetric(row.a.value, row.unit)} · ${formatMetric(row.b.value, row.unit)}`}
                 </div>
                 <div style={{ fontSize: 21, color: OG.chalk3 }}>

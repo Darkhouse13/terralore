@@ -92,38 +92,41 @@ export default function RankingsPage() {
         ]),
       ]}
     />
-    <main className="paper-grain min-h-screen bg-land-0 text-ink">
-      <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-        <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+    <main className="min-h-screen bg-bone">
+      <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+        <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
-              <Link href="/" className="transition-colors hover:text-copper-deep">
-                Terralore
+              <Link href="/" className="text-oxide">
+                ← Terralore
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
-            <li aria-current="page" className="text-copper-deep">
+            <li aria-hidden="true" className="text-oxide">
+              ·
+            </li>
+            <li aria-current="page" className="text-umber">
               Rankings
             </li>
           </ol>
         </nav>
 
-        <header
-          className="mt-9 stratum-top pb-10"
-          style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-        >
-          <p className="eyebrow text-verdigris-deep">The measured, compared</p>
+        <header className="settle mt-3 pb-4">
+          <p className="eyebrow text-umber">The measured, compared</p>
 
-          <h1 className="mt-4 max-w-[18ch] font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
+          <h1 className="mt-3 max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
             Rankings
           </h1>
 
-          <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
+          <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
+            {RANKINGS.length} rankings · {groups.length} domains · {nations} nations
+          </p>
+
+          <p className="mt-3 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
             Every indicator in the atlas, read across nations — highest to lowest,
             never best to worst.
           </p>
 
-          <p className="mt-7 max-w-[46rem] font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
+          <p className="mt-3 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
             {RANKINGS.length}{" "}rankings across {groups.length}{" "}domains, assembled
             from the same sourced figures as each nation&rsquo;s dossier. Only nations with
             a published figure are ranked — a gap is a gap, never a zero — and because
@@ -131,7 +134,7 @@ export default function RankingsPage() {
             can mix vintages; every row shows the year its figure was observed.
           </p>
 
-          <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+          <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
             <Stat label="Rankings" value={String(RANKINGS.length)} />
             <Stat label="Domains" value={String(groups.length)} />
             <Stat label="Nations" value={String(nations)} />
@@ -140,16 +143,11 @@ export default function RankingsPage() {
         </header>
 
         {groups.map(([domain, rankings]) => (
-          <section key={domain} className="py-6">
-            <span
-              aria-hidden
-              className="stratum-rule mb-6 block max-w-[110px]"
-              style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-            />
-            <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
+          <section key={domain} className="mt-10">
+            <h2 className="font-display text-[25px] font-extrabold tracking-tight uppercase">
               {DOMAIN_META[domain].label}
             </h2>
-            <ol className="mt-5">
+            <ol className="mt-4 border-t-2 border-basalt">
               {rankings.map((r) => (
                 <RankingRow key={r.slug} r={r} />
               ))}
@@ -157,8 +155,8 @@ export default function RankingsPage() {
           </section>
         ))}
 
-        <footer className="mt-14 border-t border-land-2 pt-8">
-          <p className="font-mono text-[0.68rem] leading-relaxed text-ink-3">
+        <footer className="mt-14 border-t-2 border-basalt pt-5">
+          <p className="font-mono text-[11px] leading-relaxed text-umber">
             Rankings · Terralore. Each ranking names its publisher, license and data
             vintage on its own page; the same figures, with the same sources, sit on
             each nation&rsquo;s dossier. Nations without published data are listed
@@ -176,10 +174,8 @@ export default function RankingsPage() {
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="eyebrow text-ink-3">{label}</dt>
-      <dd className="mt-1 font-display text-[1.55rem] font-[420] tabular-nums leading-none text-[#16201e]">
-        {value}
-      </dd>
+      <dt className="eyebrow text-umber">{label}</dt>
+      <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">{value}</dd>
     </div>
   );
 }
@@ -194,24 +190,24 @@ function RankingRow({ r }: { r: Ranking }) {
   const top = r.rows[0];
   const bottom = r.rows.at(-1);
   return (
-    <li>
+    <li className="border-b-2 border-basalt">
       <Link
         href={routes.ranking(r.slug)}
         prefetch={false}
-        className="group grid gap-x-6 gap-y-1.5 border-t border-[rgba(22,32,30,0.12)] py-3.5 transition-colors hover:bg-[rgba(87,166,149,0.07)] sm:grid-cols-[minmax(0,15rem)_1fr] sm:items-center"
+        className="pressable grid gap-x-6 gap-y-1 py-3 sm:grid-cols-[minmax(0,16rem)_1fr] sm:items-baseline"
       >
         <div>
-          <h3 className="font-display text-[1.12rem] font-[440] leading-snug text-[#16201e] transition-colors group-hover:text-copper-deep">
+          <h3 className="font-sans text-[14px] font-medium leading-snug text-basalt">
             {r.label}
           </h3>
-          <p className="mt-0.5 font-mono text-[0.68rem] tabular-nums text-ink-3">
+          <p className="mt-0.5 font-mono text-[10.5px] tabular-nums text-umber">
             {r.rows.length} {r.isMineral ? "producers listed" : "nations ranked"}
           </p>
         </div>
-        <p className="font-mono text-[0.72rem] tabular-nums leading-relaxed text-ink-3">
+        <p className="font-mono text-[11px] tabular-nums leading-relaxed text-umber">
           {top && (
             <>
-              highest <span className="text-verdigris-deep">{top.name}</span> ·{" "}
+              highest <span className="text-oxide">{top.name}</span> ·{" "}
               {formatMetric(top.value, r.unit)}
               {top.year != null && ` (${top.year})`}
             </>

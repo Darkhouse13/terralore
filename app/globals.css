@@ -182,6 +182,22 @@ a {
   color: var(--color-bone);
 }
 
+/* CSS-only press-flip for server-rendered surfaces (deviations E9):
+   :active is the press — same physics, zero hydration. The PROOF VIEW
+   control is a native checkbox (.proof-toggle) upstream of the rows. */
+.flip-press:active .flip-card {
+  transform: rotateX(180deg);
+}
+.proof-toggle:checked ~ * .flip-card {
+  transform: rotateX(180deg);
+}
+.proof-toggle:checked ~ * .proof-off {
+  display: none;
+}
+.proof-toggle:not(:checked) ~ * .proof-on {
+  display: none;
+}
+
 /* ── Bed-settle — the entrance (and the overture's spine) ─────────────────
    Beds settle from below with mass, staggered bottom-up (oldest first) by
    --settle-delay. After the last settle: total stillness. */

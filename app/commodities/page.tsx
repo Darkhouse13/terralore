@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import {
-  allCommodities,
-  commoditiesSource,
-  commoditiesUpdated,
-  type Commodity,
-} from "@/lib/commodities";
+import { allCommodities, commoditiesSource, type Commodity } from "@/lib/commodities";
 import { formatTonnes } from "@/lib/format";
 import {
   breadcrumbLd,
@@ -92,40 +87,41 @@ export default function CommoditiesPage() {
         ]),
       ]}
     />
-    <main className="paper-grain min-h-screen bg-land-0 text-ink">
-      <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-        <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+    <main className="min-h-screen bg-bone">
+      <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+        <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
-              <Link href="/" className="transition-colors hover:text-copper-deep">
-                Terralore
+              <Link href="/" className="text-oxide">
+                ← Terralore
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
-            <li aria-current="page" className="text-copper-deep">
+            <li aria-hidden="true" className="text-oxide">
+              ·
+            </li>
+            <li aria-current="page" className="text-umber">
               Commodities
             </li>
           </ol>
         </nav>
 
-        <header
-          className="mt-9 stratum-top pb-10"
-          style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-        >
-          <p className="eyebrow text-verdigris-deep">The measured earth</p>
-
-          <h1 className="mt-4 max-w-[18ch] font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
-            Who supplies the world
+        <header className="settle mt-3 pb-4">
+          <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
+            Suppliers
           </h1>
-
-          <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
+          <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
+            The measured earth · {commodities.length} commodities · {producing}{" "}
+            producing nations
+          </p>
+          <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
             Every dossier says what a nation digs. This is the other axis: one mineral,
             every producer.
           </p>
 
-          <p className="mt-7 max-w-[46rem] font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
+          <p className="mt-4 max-w-2xl font-sans text-[14px] leading-relaxed">
             Ten commodities, from the U.S. Geological Survey&rsquo;s{" "}
-            <em>{source.label}</em> — mine production, in tonnes, for {producing}{" "}
+            <strong className="font-medium text-basalt">{source.label}</strong> — mine
+            production, in tonnes, for {producing}{" "}
             producing nations. Each page lists every producer the USGS names, that
             nation&rsquo;s share of the published world total for {yr} (reported) and{" "}
             {ye}{" "}(estimated), and an honest &ldquo;Rest of world&rdquo; remainder for
@@ -134,7 +130,7 @@ export default function CommoditiesPage() {
             record.
           </p>
 
-          <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+          <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
             <Stat label="Commodities" value={String(commodities.length)} />
             <Stat label="Producing nations" value={String(producing)} />
             <Stat label="Reported year" value={String(yr)} />
@@ -142,41 +138,40 @@ export default function CommoditiesPage() {
           </dl>
         </header>
 
-        <section className="py-2">
-          <span
-            aria-hidden
-            className="stratum-rule mb-7 block max-w-[110px]"
-            style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-          />
-          <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
+        <section className="mt-4">
+          <h2 className="font-display text-[22px] font-extrabold tracking-tight uppercase">
             The ten commodities
           </h2>
-          <p className="mt-2.5 max-w-[46rem] font-serif text-[1.02rem] italic leading-relaxed text-[#454f4c]">
+          <p className="mt-2 max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
             The shaded segments are the three largest producers&rsquo; shares of the{" "}
             {ye}{" "}world estimate — how much of each mineral&rsquo;s map is held by three
             capitals.
           </p>
 
-          <ol className="mt-7">
+          <ol className="mt-4 border-b-2 border-basalt">
             {commodities.map((c) => (
               <CommodityRow key={c.slug} c={c} />
             ))}
           </ol>
         </section>
 
-        <footer className="mt-14 border-t border-land-2 pt-8">
-          <p className="font-mono text-[0.68rem] leading-relaxed text-ink-3">
-            Commodities · Terralore. Source:{" "}
+        <footer className="mt-10 border-t-2 border-basalt pt-5">
+          <div className="eyebrow mb-3 text-umber">Source</div>
+          <p className="font-sans text-[13.5px] leading-relaxed">
             <a
               href={source.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="underline-offset-2 transition-colors hover:text-copper-deep hover:underline"
+              className="font-medium text-oxide underline underline-offset-2"
             >
               {source.label}
-            </a>
-            , {source.publisher} · {source.license} · accessed {source.accessed}. Shares
-            are computed against the published MCS world totals; withheld figures
+            </a>{" "}
+            <span className="text-umber">
+              — {source.publisher} · {source.license} · accessed {source.accessed}.
+            </span>
+          </p>
+          <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-umber">
+            Shares are computed against the published MCS world totals; withheld figures
             (&ldquo;W&rdquo;) and unlisted producers appear inside each page&rsquo;s
             Rest of world, never as zeros.
           </p>
@@ -192,58 +187,56 @@ export default function CommoditiesPage() {
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="eyebrow text-ink-3">{label}</dt>
-      <dd className="mt-1 font-display text-[1.55rem] font-[420] tabular-nums leading-none text-[#16201e]">
-        {value}
-      </dd>
+      <dt className="eyebrow text-umber">{label}</dt>
+      <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">{value}</dd>
     </div>
   );
 }
 
+// The sediment walk, hub scale: the largest producer is the deepest pigment,
+// then upward through the beds — the same order the commodity page's bars use.
+const STEP_CLASS = ["bg-basalt", "bg-umber", "bg-oxide"];
+
 /**
- * One commodity of the core. The bar is a concentration glance — the top three
- * producers' shares as three verdigris steps on a track that is 100% of the
- * published world total — and is aria-hidden decoration: the counts beside it
- * carry the real figures, house rule.
+ * One commodity of the core. The three stacked blocks are a concentration
+ * glance — the top three producers' shares, each drawn on a track that is
+ * 100% of the published world total — and are aria-hidden decoration: the
+ * counts beside them carry the real figures, house rule.
  */
 function CommodityRow({ c }: { c: Commodity }) {
   const top3 = c.producers.filter((p) => p.shareEstimate != null).slice(0, 3);
-  const steps = ["var(--color-verdigris-deep)", "var(--color-verdigris)", "var(--color-verdigris-bright)"];
-  let x = 0;
-  const segments = top3.map((p, i) => {
-    const seg = { x, w: (p.shareEstimate ?? 0) * 100, fill: steps[i] };
-    x += seg.w + 0.35; // a hairline surface gap between fills
-    return seg;
-  });
 
   return (
-    <li>
+    <li className="border-t-2 border-basalt">
       <Link
         href={`/commodities/${c.slug}`}
         prefetch={false}
-        className="group grid gap-x-6 gap-y-2 border-t border-[rgba(22,32,30,0.12)] py-4 transition-colors hover:bg-[rgba(87,166,149,0.07)] sm:grid-cols-[minmax(0,13rem)_1fr] sm:items-center"
+        className="pressable grid gap-x-6 gap-y-2 py-4 sm:grid-cols-[minmax(0,13rem)_1fr] sm:items-center"
       >
         <div>
-          <h3 className="font-display text-[1.2rem] font-[440] leading-snug text-[#16201e] transition-colors group-hover:text-copper-deep">
+          <h3 className="font-display text-[20px] font-extrabold leading-snug tracking-tight uppercase text-basalt">
             {c.name}
           </h3>
-          <p className="mt-0.5 font-mono text-[0.68rem] tabular-nums text-ink-3">
+          <p className="mt-0.5 font-mono text-[11px] tabular-nums text-umber">
             {formatTonnes(c.world.estimate)} · {c.years.estimate} est.
           </p>
         </div>
 
         <div>
-          <svg aria-hidden="true" className="block h-[7px] w-full">
-            <rect width="100%" height="7" rx="2" fill="rgba(22,32,30,0.08)" />
-            {segments.map((s, i) => (
-              <rect key={i} x={`${s.x}%`} width={`${Math.max(s.w, 0.4)}%`} height="7" rx="2" fill={s.fill} />
+          <div aria-hidden="true" className="flex flex-col gap-[2px]">
+            {top3.map((p, i) => (
+              <div
+                key={p.code}
+                className={`h-[6px] ${STEP_CLASS[i]}`}
+                style={{ width: `${Math.max((p.shareEstimate ?? 0) * 100, 0.4)}%` }}
+              />
             ))}
-          </svg>
-          <p className="mt-1.5 font-mono text-[0.72rem] tabular-nums leading-relaxed text-ink-3">
+          </div>
+          <p className="mt-1.5 font-mono text-[11px] tabular-nums leading-relaxed text-umber">
             {top3[0] && (
               <>
                 largest producer{" "}
-                <span className="text-verdigris-deep">{top3[0].name}</span> ·{" "}
+                <span className="text-basalt">{top3[0].name}</span> ·{" "}
                 {pct(top3[0].shareEstimate!)}
               </>
             )}
