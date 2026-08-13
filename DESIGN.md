@@ -1,426 +1,208 @@
-# Terralore — art direction
+# Terralore — art direction v2 — STRATA × SHOW THE WORK
 
-## Why the old look had to go
-
-The site before this pass ran two palettes, and both are on the list of looks that
-signal "generated" rather than "designed":
-
-- The globe, dossier and journey were **navy-to-black with a brass/gold accent** —
-  the default premium-dark template.
-- The chronicle was **warm cream with a high-contrast serif** — the default editorial
-  template.
-
-Neither was ugly. Both were anonymous, and they did not belong to each other: the
-product read as two sites stapled together at `/chronicle`. Worse, neither said
-anything about the subject. A site about *how the earth was divided into nations*
-was using the visual language of a fintech landing page and a Medium post.
-
-### Rejected outright
-
-Per the brief, these are defaults rather than choices, and any direction drifting
-toward one was revised rather than defended:
-
-| Banned | Why it is a default |
-|---|---|
-| Navy + gold | The incumbent. Universal "premium dark" shorthand |
-| Warm cream + high-contrast serif + terracotta | The incumbent chronicle. Universal "thoughtful longform" shorthand |
-| Near-black + one acid-green or vermilion accent | Universal "developer tool" shorthand |
-| Broadsheet with hairline rules everywhere | Structure cosplaying as taste; rules substituting for hierarchy |
+*v2, 2026-08-13. This document is the production translation of the binding
+design contract `docs/design/p3-contract.html` (the approved P3 prototype).
+Where this document and the contract disagree, the contract wins — except
+where a contract taboo collides with an editorial invariant
+(`docs/project-state-2026-08-11.md` §5), in which case the invariant wins and
+the collision is logged in `docs/design/strata-deviations.md`. The v1
+direction (STRATUM — the hypsometric atlas) is retired in full; its one
+surviving element is the ZENITH mark's geometry, recolored (§7). Extensions —
+surfaces the prototype did not cover — are designed inside this language and
+logged in the deviations doc.*
 
 ---
 
-## The three directions considered
-
-Each was grounded in the subject's own materials — cartography, archives, atlases,
-statecraft — rather than in a design trend.
-
-### A. STRATUM — the hypsometric atlas ✅ **chosen**
-
-**Grounded in:** bathymetric sea charts, hypsometric tinting, geological section
-drawings, sediment cores. The way a physical atlas has always drawn the world: not in
-flat fills, but in **discrete bands of depth and elevation**.
-
-**Concept:** depth is the organising idea, and it is already the product's own
-structure. Terralore publishes every nation at three depths — glance, journey, read.
-An atlas encodes depth as tinted bands. So the information architecture *is* the
-palette, and the same device draws the ocean, the timeline and the page furniture.
-Time gets the same treatment: eras are strata, laid down in layers, with deep
-prehistory literally the deepest band.
-
-**Signature element:** **the stratum rule** — a stack of tinted bands (below).
-
-**Why it wins:** it is the only one of the three where the visual language and the
-subject are the same thing. It gives the globe a treatment no other reference site
-has — a sea-charted ocean rather than a dark sphere — and it supplies the journey,
-the timeline and the chronicle with one shared grammar instead of three.
-
-### B. CHANCERY — treaty paper, wax and silk
-
-**Grounded in:** statecraft. Despatch-box porphyry, treaty vellum, wax seals and
-ribbon, the moiré of flag silk, chancery hands, ledger rules.
-
-**Tokens:** `porphyry #2A1216`, `bone #EFE9DC`, `sealwax #8C2B22`, `ribbon #3E6B57`,
-`gilt-thread #C9A15C`. Display: a chancery-flavoured serif. Body: a humanist serif.
-Utility: a ledger mono.
-
-**Signature element:** the **seal** — a circular impression marking every verified
-claim, with ribbon lines connecting a claim to its source.
-
-**Why rejected:** it is the strongest idea for the *chronicle* and the weakest for
-the *globe*, which is the hero. Wax seals and ribbon have nowhere to go on a sphere,
-so the globe would have kept its old treatment — exactly the two-sites-stapled-together
-failure this pass exists to fix. The seal motif also sits one step from kitsch, and
-"verified" badges on a corpus where *everything* is verified are noise. Porphyry +
-gilt is also uncomfortably close to the banned navy + gold, one hue over.
-
-### C. TRANSIT — observatory optics
-
-**Grounded in:** the transit circle, star charts, brass instruments, reticles,
-engraved vernier scales.
-
-**Tokens:** a violet-cool near-black, instrument brass, a cyan reticle line.
-
-**Why rejected:** it is the incumbent wearing a hat. Cool near-black plus a warm
-metallic accent is precisely what the site already did, and the reticle is a single
-accent line on near-black — the third banned default. Discarded early.
-
----
-
-## STRATUM — the specification
-
-### Concept in one line
-
-*The world drawn the way an atlas draws it: in bands of depth.*
-
-### Palette
-
-Every pair below is validated arithmetically by `scripts/check-contrast.mjs`, which
-declares each foreground/background combination with the role it plays and fails the
-build if any falls under its WCAG threshold. **The palette is proven, not eyeballed.**
-
-#### The deep — dark surfaces (globe, journey, dossier)
-
-Six bathymetric steps. Not navy: every step is biased toward teal-cyan, the colour of
-water on a chart, never toward indigo-purple.
-
-| Token | Hex | Role |
-|---|---|---|
-| `--color-depth-6` | `#04161F` | abyssal — the page ground |
-| `--color-depth-5` | `#082230` | the globe's ocean base |
-| `--color-depth-4` | `#0C2E3D` | panel ground |
-| `--color-depth-3` | `#123B4C` | raised panel, hover |
-| `--color-depth-2` | `#1B4E60` | resting borders (decorative) |
-| `--color-depth-1` | `#276F80` | shoal — active borders, graticule, coastal halo |
-
-#### The shore — light surfaces (chronicle, atlas, timeline)
-
-**Limestone, not cream.** Cooler and greyer than the parchment it replaces
-(`#EBE9E0` vs `#F3ECDD`), so it reads as chart stock and survey stone rather than as
-the warm-cream editorial default.
-
-| Token | Hex | Role |
-|---|---|---|
-| `--color-land-0` | `#EBE9E0` | limestone — the reading ground |
-| `--color-land-1` | `#DEDACD` | raised paper, pull-quotes |
-| `--color-land-2` | `#C3BEAC` | rules and edges |
-
-#### Ink and chalk
-
-Ink is iron-gall: near-black with a green-grey cast, never pure `#000`.
-
-| Token | Hex | On |
-|---|---|---|
-| `--color-ink` | `#16201E` | limestone — 13.9:1 |
-| `--color-ink-2` | `#454F4C` | limestone — 7.1:1 |
-| `--color-ink-3` | `#6C7772` | limestone — 3.9:1, large text only |
-| `--color-chalk` | `#E6ECEA` | the deep — 15.4:1 |
-| `--color-chalk-2` | `#AFBFC1` | the deep — 9.7:1 |
-| `--color-chalk-3` | `#8497A0` | the deep — 6.1:1, micro labels |
-
-#### The ramp — three tints used semantically, not decoratively
-
-The old palette had **one** accent (brass) doing every job, which is why data
-visualisation there had no contrast to work with. Stratum has three, and each one
-*means* something. This is the rule that keeps the design from becoming decoration:
-
-| Tint | Hex (base / bright / deep) | Means |
-|---|---|---|
-| **Copper** | `#C87244` / `#E39A67` / `#8A4A28` | *the surveyor's hand* — you are here. Selection, the playhead, the current era, links |
-| **Verdigris** | `#57A695` / `#7CC4B3` / `#2F6E62` | *the measured* — metrics, series, ranks, anything sourced from data |
-| **Madder** | `#B8453B` / `#D9695E` / `#9B322A` | *rupture only* — war, catastrophe. Never used for emphasis |
-
-If a colour choice cannot be justified by one of those three meanings, it is
-decoration and it does not go in.
-
-### Typography
-
-Three families, chosen under a hard performance constraint. The previous system ran
-**four families across five files, 230 KB, all preloaded at high priority ahead of
-the LCP image** — measurably ~1.15 s of transfer on a 1.6 Mbps link before the
-largest element could begin painting. Type here is a performance decision as much as
-an aesthetic one.
-
-| Role | Family | Loading |
-|---|---|---|
-| Display **and** reading | **Literata** | roman preloaded; italic declared separately, **not** preloaded |
-| Interface | **IBM Plex Sans** | preloaded |
-| Cartographic detail | **IBM Plex Mono** | **not** preloaded |
-
-- **One serif does two jobs.** Literata was designed for long-form screen reading and
-  has enough weight and structure to carry display sizes. Using it for both replaces
-  Fraunces + Newsreader and removes a whole family from the critical path.
-- **Plex Sans and Plex Mono are one superfamily** — shared metrics and a shared
-  institutional, surveyed character that suits measured data.
-- **Critical path: 2 files, not 5.** Italic and mono are used for taglines and small
-  labels; a swap on either is imperceptible and neither is ever the LCP element.
-
-#### Type scale
-
-Fluid, `clamp()`-based, ratio ≈ 1.25 at text sizes and opening up at display.
-
-| Step | Size | Use |
-|---|---|---|
-| `display-1` | `clamp(2.75rem, 6vw, 5.5rem)` | landing thesis, the journey's year |
-| `display-2` | `clamp(2rem, 4.2vw, 3.5rem)` | nation name |
-| `title` | `clamp(1.5rem, 2.4vw, 2.125rem)` | era titles |
-| `subtitle` | `1.25rem` | event titles |
-| `body` | `1rem` / `1.2rem` in prose | interface / reading |
-| `small` | `0.875rem` | captions, metric labels |
-| `micro` | `0.6875rem`, `0.22em` tracking, mono, uppercase | eyebrows, codes, coordinates |
-
-### Spacing
-
-A single 4 px base. Scale: **4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · 96 · 128**.
-Nothing between steps. Section rhythm on reading surfaces is 64 / 96.
-
-### Motion principles
-
-1. **Content never fades in from `opacity: 0`.** This is a hard rule, not a
-   preference — it is encoded from a measured regression. An element at `opacity: 0`
-   is not LCP-eligible, which once cost the hero paragraph a 7.6 s LCP and the globe
-   still a 4.8 s one. Decorative layers may fade; anything that carries meaning
-   arrives at full opacity and moves instead.
-2. **Movement is vertical, and it is depth.** Things rise from below — surfacing from
-   a deeper stratum. Nothing slides sideways; sideways is navigation, and this product
-   is about descent.
-3. **Three durations.** `160 ms` state · `320 ms` panel · `900 ms` descent. No others.
-4. **One easing for entrances:** `cubic-bezier(0.16, 1, 0.3, 1)`.
-5. **Reduced motion removes duration, never state.** With `prefers-reduced-motion`,
-   every transition collapses to ~0 but every state change still happens and every
-   control still works — the journey in particular must be fully usable.
-
-### The signature element: the stratum rule
-
-A stack of tinted bands — a bathymetric legend, a sediment core seen in section. It
-is the one device that appears on every surface, which is what makes the product feel
-like one thing:
-
-- **On the globe** — the ocean is banded, not flat: a depth ramp from the shoal at
-  the coastlines out to the abyssal, with a shelf halo tracing every landmass.
-- **On the timeline rail** — each era is a band, its thickness proportional to its
-  span, tinted by its dominant category.
-- **In the chronicle** — section dividers are a short stratum rule tinted by the era's
-  category, replacing the anonymous hairline.
-- **On the dossier** — the active tab sits on a stratum rule rather than a plain
-  underline.
-- **On the chronology** — `/timeline` is the page most literally about depth in
-  time, so its period index *is* the core sample: each period a band whose width
-  carries how much of the record falls there and whose pigment carries what the
-  period was mostly made of.
-- **On theme pages** — each of the ten opens in its own pigment, so arriving on
-  "War & Rupture" feels like madder before the title is read.
-- **On section openers** (`.stratum-top`) — a short band replaces the full-width
-  hairline. A hairline running the full measure says "table row"; a 110px band
-  says "new layer", and it keeps these pages off the banned broadsheet default.
-- **In the favicon, OG images and page furniture** — as the **strata pattern**, the
-  brand-device form of the rule (see "The brand mark", below). The favicon itself is
-  the ZENITH mark, not a stratum device.
-
-## The brand mark — ZENITH
-
-The decision is made and codified here; this section is systematization, not
-exploration. The mark is **ZENITH**: the globe stripped to its drawing geometry — a
-horizon, a dome, meridians converging at the zenith, and one accent point at the
-zenith itself. It is the wireframe of Terralore's own globe, not a picture of Earth:
-no landmass, no projection centre, politically neutral by construction. The horizon
-extending past the dome is what keeps it from closing into the generic corporate
-circle-globe.
-
-Source of truth for the geometry:
-`docs/brand/exploration-svgs/zenith-primary.svg` (96 viewBox) and
-`zenith-favicon-32.svg` (32 viewBox). **The geometry is final.** Paths may be
-cleaned (merged, coordinates rounded) but never redrawn.
-
-### Construction — the 96 grid (primary cut)
-
-All coordinates in viewBox units of the 96 × 96 grid:
-
-| Element | Geometry |
-|---|---|
-| Horizon | `y = 66`, from `x = 8` to `x = 88` — overshoots the dome by **8 units** (1/12 of the frame) each side |
-| Dome | semicircle, radius **32**, centre `(48, 66)`, springing at `x = 16 / 80`, crown at `y = 34` |
-| Central meridian | vertical, `x = 48`, horizon to crown |
-| Side meridians | elliptical arcs `rx 18 / ry 32`, feet at `x = 30 / 66`, meeting at the crown |
-| Zenith dot | circle `r = 4.5` at `(48, 21)` — clear of the crown by 8.5 units, on the meridian axis |
-| Stroke | **5.5 units** (5.7% of the frame), butt caps, never scaled independently of the frame |
-
-**Dome height = 32 units** is the mark's own unit of measure:
-
-- **Clearspace = dome height / 2 = 16 units** on all four sides, measured from the
-  horizon's ends, the dome's crown and the dot's top. Nothing enters it — not the
-  wordmark (the lockup gap *is* the clearspace), not a card edge, not other marks.
-- The dot's centre sits at `13/32` of the dome height above the crown.
-
-### Construction — the 32 grid (compact cut)
-
-The compact cut is **not a scale-down** — it is its own drawing, with a heavier
-stroke-to-frame ratio so the mark survives a 16 px tab:
-
-| Element | Geometry |
-|---|---|
-| Horizon | `y = 23.5`, `x = 2 → 30` |
-| Dome | radius **10**, centre `(16, 23.5)` |
-| Side meridians | `rx 5.5 / ry 10`, feet at `x = 10.5 / 21.5` |
-| Zenith dot | `r = 2` at `(16, 8.5)` |
-| Stroke | **2.75 units** (8.6% of the frame) |
-
-### Minimum sizes
-
-| Rendered size | Use |
-|---|---|
-| ≥ 28 px | primary cut (96 grid) |
-| 14–28 px | compact cut (32 grid) |
-| < 14 px | do not render the mark; use the wordmark or nothing |
-
-Favicons, avatars and app icons always use the compact cut. The avatar circular
-crop is safe by construction: the whole drawing sits inside the inscribed circle
-of the 32 frame at ≥ 96 px rendered.
-
-### Colour — mapped to Stratum tokens
-
-The exploration was drawn in its own hexes. Production renders use the nearest
-Stratum token — **no new hex values enter the system**:
-
-| Exploration hex | Role in the exploration | Stratum token | Hex |
+## 1. The direction in one line
+
+**The earth in section.** Every page is a cut through recorded time: history
+lies in beds (depth = time, down is older, always), data is pinned to the
+face of the cut as specimen tags, and every observed value turns over —
+physically — to show the label on its reverse: the year it was observed and
+who observed it. "Show the work" is not a footer disclaimer; it is the
+central interaction of the site.
+
+The mood is a geological survey's field sheets: warm mineral paper, massive
+type stamped like formation names, monospaced observation labels, 2px ink
+rules cut with a straightedge. Nothing floats, nothing glows, nothing fades
+behind glass. Mass, not chrome.
+
+## 2. Palette — the seven pigments
+
+Defined once as CSS custom properties in `app/globals.css` `@theme`. No
+other color values may enter the system; a surface that seems to need an
+eighth color is a design error.
+
+| Token | Hex | Name | Role |
 |---|---|---|---|
-| `#F2EAD9` cream | mark on dark ground | `--color-chalk` | `#E6ECEA` |
-| `#C75B28` orange | zenith dot (accent) | `--color-copper` | `#C87244` |
-| `#171511` / `#16263D` ink/navy | mark on light ground | `--color-ink` | `#16201E` |
-| `#0F1B2D` / `#16263D` navy | dark ground | `--color-depth-6` | `#04161F` |
+| `--color-bone` | `#EFE7D8` | Bone | the page ground — the only page ground |
+| `--color-sand` | `#E2D3B8` | Sand | first bed, raised panels, specimen-tag pills |
+| `--color-clay` | `#C88A5C` | Clay | second bed, warm mid-ground |
+| `--color-oxide` | `#A64B26` | Oxide | the accent: links, live labels, the zenith dot, third bed |
+| `--color-umber` | `#6E4A32` | Umber | secondary text on bone/sand; fourth bed |
+| `--color-umber-deep` | `#42301F` | Deep umber | secondary text on clay (the contract's own text-on-clay value); fifth bed |
+| `--color-basalt` | `#221E19` | Basalt | ink: primary text, every rule, flip reverses, the core sample |
+| `--color-absent` | `#B8AC97` | Absent | one job only: the hatch stroke of the not-observed mark |
 
-Copper is semantically exact for the dot: the zenith point is *the surveyor's
-hand* — the you-are-here of the whole identity.
+Text-on-bed pairs (all clear WCAG AA at their sizes, proven by
+`scripts/check-contrast-strata.mjs`):
 
-**One-colour rules:**
+- on **bone / sand**: basalt primary, umber secondary, oxide accent
+- on **clay**: basalt primary, deep-umber secondary
+- on **oxide / umber / basalt**: bone primary, sand secondary, clay for the
+  "method:" voice on basalt reverses
 
-- On the deep: chalk strokes (`--color-chalk` on `--color-depth-6`).
-- On limestone: ink strokes (`--color-ink` on `--color-land-0`).
-- **The dot is the only element that may take the accent** (`--color-copper`), and
-  only in two-colour contexts. In one-colour contexts the dot drops to the mark's
-  own drawing colour (chalk or ink) — per the exploration's one-colour forms. It is
-  never omitted.
-- The compact cut is one-colour by construction: at tab size a 2-unit dot cannot
-  read as a second colour.
+**Dark surfaces are geology, not UI.** Basalt appears as the reverse of a
+flipped specimen, as the extracted core sample, and as bed five of a deep
+stack — always as *material*, entered and left by a physical gesture, never
+as a page theme. There is no dark mode.
 
-### Misuse (never)
+## 3. Type — the three faces
 
-- **No thinning the ribs** — the stroke weight is part of the drawing.
-- **No recolouring the dot** outside `--color-copper` (or the drawing colour in
-  one-colour contexts). No verdigris dot, no madder dot, no pigment dots.
-- **No rotation.** The horizon is a horizon.
-- **No landmass added.** The neutrality is the point.
-- **No closing the horizon into a circle or ellipse** — that is the generic globe
-  the overshoot exists to refuse.
-- No gradients, no shadows, no outline-only dot, no placing the mark on a ground
-  that fails 3:1 against its drawing colour without a plate of `depth-6` or
-  `land-0` behind it.
+Self-hosted subsets only (committed in `assets/fonts/`, built by
+`scripts/build-strata-fonts.mjs`; loaded via `next/font/local` in
+`app/fonts.ts`). **No runtime Google Fonts anywhere — house rule.** The
+satori/OG twins of the faces are static TTF instances from the same script.
 
-### The wordmark — "Terralore."
+| Face | File(s) | Voice | Rules |
+|---|---|---|---|
+| **Bricolage Grotesque 800** | `bricolage-display.woff2` (opsz variable, wght pinned 800) | display — formation names | ALL CAPS for stamps and bed titles; line-height 0.95–1.0; never below 16px; never for running prose |
+| **Schibsted Grotesk 400/500/700** | `schibsted-body.woff2` (variable) | body — the reader's voice | sentence case; 1.5–1.6 line-height in prose; 500 for emphasis rows |
+| **IBM Plex Mono 400/500** | `plexmono-400/500.woff2` | data — the instrument's voice | every number, code, year, coordinate, eyebrow and observation label; letter-spacing 0.08–0.16em on eyebrows |
 
-The wordmark is the site's display serif (**Literata**) set as **`Terralore.`** —
-capital T, and **always with the terminal full stop** in masthead, lockup and
-signature contexts. The stop is the voice of the brand: the confidence of a
-reference work that intends to be the last word. In two-colour contexts the stop
-takes copper; in one-colour contexts it takes the text colour. It is never
-dropped in those contexts.
+The rule of voices: **if a human wrote it, Schibsted; if the archive named
+it, Bricolage; if an instrument measured it, Plex Mono.** A number set in
+the body face is a defect.
 
-Navigation is not a signature context: breadcrumbs and link text keep plain
-"Terralore" — a full stop inside a breadcrumb trail would read as punctuation, not
-voice.
+### Type scale (from the contract, extended to desktop)
 
-**Lockup:** mark left, wordmark right, gap = the mark's clearspace (16/96 of the
-mark's height), baseline of the wordmark on the mark's horizon. Exported lockup
-SVGs carry the wordmark as **outlined paths** (no live text — the asset must not
-depend on a font being installed); in-app the wordmark renders as styled text via
-`components/brand/Wordmark.tsx`.
+| Step | px (mobile / desktop) | Face | Use |
+|---|---|---|---|
+| stamp | 56 / 96 | Bricolage 800 | TERRA/LORE, nation names on their own page |
+| title | 42–52 / 64–72 | Bricolage 800 | page titles (ranking, commodity, compare) |
+| bed | 25 / 28 | Bricolage 800 | home beds, section titles |
+| seam | 17 / 19 | Bricolage 800 | era-bed headers, card titles |
+| body | 15 / 16 | Schibsted 400 | prose |
+| row | 14.5 / 15 | Schibsted 400/500 | list and table rows |
+| data | 12.5–13 / 13–14 | Plex Mono 400 | values in rows |
+| label | 10–11 / 10–11 | Plex Mono 400/500 | eyebrows, observation lines, counts |
+| fine | 9–9.5 / 9–10 | Plex Mono 400 | REFS marks, core legend |
 
-### The strata pattern
+## 4. Motion — the physics table
 
-The strata strip — rows of small pigment blocks, as on the homepage time rail — is
-the brand's **pattern**, promoted to a reusable device
-(`components/brand/StrataPattern.tsx`). `docs/brand/exploration-svgs/strata-fault-reference.svg`
-is reference for proportions only (block height : gap ≈ 10 : 6, one accent block);
-it is **not a logo** and is never used as one.
+One curve for everything: **the mass curve `cubic-bezier(.32,.72,0,1)`** —
+things move like stone coming to rest, fast out of the hand and dead-stopped.
+No bounce, no overshoot, no ease-in-out.
 
-Rules:
+| Gesture | Spec |
+|---|---|
+| **bed-settle** | entrance: `translateY(24px)→0` + fade, 380ms mass curve, staggered **bottom-up, oldest first**, ~80ms apart |
+| **overture** | the front door's once-per-session opening: beds settle staggered, 2px basalt rules draw in 240ms as beds lock, TERRA/LORE stamps in, the oxide zenith dot arrives last; **≤1.1s total, then total stillness**. `sessionStorage` skips replay; `prefers-reduced-motion` gets the settled state instantly |
+| **proof-flip** | 320ms mass curve, `rotateX(180deg)` — a specimen turned over on a table, not a page turned in a book. Fires on press, returns on release. Reverse is basalt with the observation label engraved: `OBSERVED <year> · <src> — <org>` + `method:` line. An explicit "PROOF VIEW ⟲" control flips a whole surface at once |
+| **core-pull** | pull down on a nation header: 0.5× resistance, commit at 90px, 460ms extraction/return on the mass curve. The header owns the gesture (pointer capture, `touch-action:none` on the header only) so it never fights scroll or pull-to-refresh; it arms only at `scrollY ≤ 4` |
+| **press** | every pressable surface depresses 2px in 90ms; release restores. This is the only hover/press feedback — no color washes, no shadows |
+| **parallax** | ±6px maximum, CSS-only (no scroll listeners); decorative layers only |
 
-- Blocks are drawn from the ten **event-category pigments** (below) — never from
-  arbitrary colours; at most one block per strip may take copper as the accent.
-- The sequence is **deterministic** — seeded by the surface it decorates (a page
-  slug, a nation code), never random, so two renders of one page are identical.
-- It is furniture, not a mark: baselines of OG cards, section footers, dividers.
-  It never appears inside the mark's clearspace and never substitutes for the mark.
-- One row in page furniture; the fault (two offset columns) is reserved for large
-  print/poster contexts, not the UI.
+**Zero continuous animation at idle.** Nothing loops, nothing pulses,
+nothing auto-plays. After the overture the page is still until touched.
+`prefers-reduced-motion`: every entry in this table collapses to its settled
+end state; the proof-flip swaps faces without rotating.
 
-### The globe
+## 5. The absence mark
 
-The globe is the hero and states the thesis in the first second: *this is an atlas.*
+Missing data is a first-class typographic object, never an empty cell:
 
-- **Ocean:** a bathymetric ramp — `--depth-1` at the coasts falling to `--depth-6`,
-  plus a **shelf halo** offset outward from every landmass. This single detail is what
-  makes it read as a sea chart rather than a dark ball.
-- **Land:** limestone fill with a fine iron-gall coastline.
-- **Graticule:** `--depth-2` hairlines, with the equator and prime meridian a step
-  stronger — a real chart convention, and it orients the eye.
-- **Limb:** a cool `--depth-1` glow. No brass halo.
-- **Selection:** copper — the surveyor's hand.
+- the hatch: `repeating-linear-gradient(45deg, var(--color-absent) 0 3px, var(--color-bone) 3px 7px)`,
+  carrying the mono label `NOT OBSERVED`
+- **a gap has no underside** — the mark does not flip; there is nothing to
+  turn over, and the surface says so in plain language where gaps cluster
+- absence is stated, never zeroed; unranked nations are named, not dropped
+  (invariant §5.5 — the contract and the invariants agree here)
 
-Constraints preserved: the GlobeLite architecture is untouched (pure renderer +
-OffscreenCanvas worker + React shell), rasterisation stays off the main thread, and
-the landing chunk budget does not grow. The still (`globe-still.svg`) is regenerated
-from the same palette so the handover stays invisible.
+## 6. Taboos (refusals, not preferences)
 
-### The event-category pigments
+1. **No dark UI.** Basalt is material (§2), never a page theme.
+2. **No hairlines.** A rule is **2px basalt** or it is absent. No 1px
+   borders, no 50%-opacity dividers.
+3. **No transparency, no blur.** Every surface is opaque pigment. No
+   glassmorphism, no `backdrop-filter`, no rgba washes.
+4. **No rounded-app corners.** Blocks are cut square. The one sanctioned
+   radius is the **specimen pill** (the small year+source tag, radius 9px) —
+   it reads as a tag riveted to the face, per the prototype itself.
+5. **No chart without its source.** Any drawn quantity carries its
+   observation year and source id within the same component, or it is not
+   drawn.
+6. **No shadows, no gradients** except the absence hatch (a pattern, not a
+   gradient wash).
+7. **No emoji in any rendered artifact** (cards ban them by font
+   construction; UI copy bans them by rule).
 
-Ten categories, drawn from the mineral and earth pigments an atlas or an illuminated
-manuscript would actually have had. A different axis from the three-tint semantic
-ramp — except war, which stays in the madder family because rupture is what madder
-means.
+## 7. The ZENITH mark, recolored
 
-| Category | Pigment | | Category | Pigment |
-|---|---|---|---|---|
-| Formation | `#8E6E2E` yellow ochre | | Economy & Trade | `#566F3C` terre verte |
-| Independence | `#A85B2E` burnt orange | | Colonisation | `#96583B` sienna |
-| War & Rupture | `#B0463C` madder | | Peoples & Migration | `#2C6C84` cerulean |
-| Politics & Power | `#5464A1` indigo | | Catastrophe | `#5F6D6C` graphite |
-| Religion | `#85578A` tyrian | | Culture & Ideas | `#2C7566` verdigris |
+Geometry is **frozen** exactly as codified in v1
+(`components/brand/geometry.ts`, `docs/brand/exploration-svgs/`): horizon
+overshooting the dome, meridians to the crown, the zenith dot. The 96-grid
+primary and 32-grid compact cuts, minimum sizes, clearspace (= dome height /
+2) and misuse rules all carry over unchanged.
 
-The narrow mid-dark range is a constraint, not a mannerism: a category mark appears
-on **both** grounds — the journey and timeline rail on the deep, the chronicle and
-theme pages on limestone — so a single value must clear 3:1 against `#04161F` *and*
-`#EBE9E0`. That confines every pigment to roughly `0.116 ≤ L ≤ 0.24`. Four were
-solved numerically rather than guessed.
+Only the colors move to the new world:
 
-### Quality floor (unannounced, non-negotiable)
+| Context | Strokes | Dot |
+|---|---|---|
+| on bone / sand (the normal case) | basalt | **oxide** |
+| on basalt / oxide / umber (dark material) | bone | oxide on umber/basalt; bone on oxide (the dot must not vanish into its own ground) |
+| one-colour contexts | drawing color | drawing color (never omitted) |
 
-- Responsive to **360 px** with no horizontal scroll.
-- **Visible keyboard focus** on every interactive element — copper ring, 3:1 minimum.
-- **`prefers-reduced-motion` respected everywhere**, with the journey fully usable.
-- Touch targets **≥ 24 × 24 px** with adequate spacing.
-- Contrast proven by `scripts/check-contrast.mjs`, not by eye.
+Favicons, manifest, `theme-color`, and the JSON-LD logo all follow: the
+raster plates are **basalt on bone** with the oxide dot; `theme-color` is
+bone `#EFE7D8`; the adaptive SVG favicon draws basalt by default, bone under
+`prefers-color-scheme: dark`.
 
-### The Chanel rule
+**The wordmark** moves to the display face: `TERRALORE` set in Bricolage 800
+(caps, tight), stamped, with no terminal stop — the stop belonged to the
+serif voice, and a stamp does not punctuate itself. Signature contexts pair
+the stamp with the mark; navigation keeps plain text. (Deviation from v1
+logged.)
 
-Every review pass removes one element that does not serve the direction. Removals are
-logged in `PROGRESS.md` so the subtractions are as visible as the additions.
+## 8. Structural grammar
+
+- **Beds**: full-bleed horizontal bands separated by 2px basalt rules; bed
+  order encodes age (down = older) wherever content is temporal. Bed
+  backgrounds walk the palette in stratigraphic order:
+  bone → sand → clay → oxide → umber → basalt.
+- **The section cut**: world navigation. Continents are beds, nations are
+  seams within a bed. SSG/SVG/CSS only — no canvas, no WebGL, no runtime
+  globe.
+- **The specimen tag**: a value + its pill (`'24 S-01`) in a row; press to
+  flip. Universal across dossier, rankings, compares, commodities.
+- **The core sample**: a nation's whole history compressed to one column of
+  bands, thickness ∝ recorded events; extracted by the core-pull; tap a band
+  to land in its era. Legend: `BAND THICKNESS ∝ RECORDED EVENTS · DEPTH = TIME`.
+- **Section rhythm**: content sits in 20px side gutters on mobile; desktop
+  centers a measured column (~720px reading, up to 1120px for tables) with
+  the beds themselves always full-bleed.
+- **Category pigments**: the ten event-category pigments of v1 are retained
+  unchanged as *data encoding* (they are mineral pigments already, and they
+  clear contrast on bone) — logged as a fusion decision in the deviations
+  doc.
+
+## 9. Quality floor (unannounced, non-negotiable)
+
+- Responsive to **360px** with no horizontal scroll.
+- Visible keyboard focus on every interactive element — **2px oxide ring**
+  (offset 2px; the focus ring is exempt from the hairline taboo's "or
+  absent" only in the sense that it must exist).
+- `prefers-reduced-motion` respected everywhere (§4).
+- Touch targets ≥ 24×24px; press-holds suppress text selection and context
+  menu; `touch-action` is surgical, never global.
+- Contrast proven arithmetically by `scripts/check-contrast-strata.mjs`,
+  never by eye.
+- Lighthouse mobile ≥ 95 performance and ≥ 95 accessibility on every
+  surface class.
+- Zero continuous rAF/animation loops at idle.
+
+## 10. The Chanel rule (carried over)
+
+Every review pass removes one element that does not serve the direction.
+Removals are logged in `docs/design/strata-deviations.md` alongside the
+extensions, so the subtractions stay as visible as the additions.
