@@ -2,18 +2,16 @@
 // (components/globe-render) and the metric window's flat map (components/dossier/
 // MetricMap), so the two views tint identically. Kept pure and client-safe.
 //
-// STRATUM: the ramp runs verdigris → limestone → copper, which is the palette's
-// own semantics rather than an arbitrary gradient — verdigris is "the measured"
-// at the low end, copper is "the surveyor's hand" at the high end, and the
-// limestone midpoint is the neutral the reading surfaces are built on. Passing
-// through a light middle (rather than interpolating dark-to-light) keeps
-// adjacent percentile bands distinguishable at the low end, where a straight
-// two-colour ramp compresses everything into near-identical darks.
+// STRATA: the ramp is the bed walk itself — sand at the low end, through
+// clay, to umber at the high end. Light = low, dark = high: a single
+// luminance ordering the eye can read without a legend, drawn entirely from
+// the seven pigments. No-data ground is a bone-adjacent neutral lighter than
+// any observed value, so absence never reads as a low observation.
 
-export const CHORO_LOW = [47, 110, 98] as const; // verdigris-deep — low
-export const CHORO_MID = [201, 196, 178] as const; // limestone — midpoint
-export const CHORO_HIGH = [227, 154, 103] as const; // copper-bright — high
-export const CHORO_NODATA = "rgba(116, 134, 141, 0.28)";
+export const CHORO_LOW = [226, 211, 184] as const; // sand — low
+export const CHORO_MID = [200, 138, 92] as const; // clay — midpoint
+export const CHORO_HIGH = [110, 74, 50] as const; // umber — high
+export const CHORO_NODATA = "#e9e1d2";
 
 /** Interpolate the three-stop ramp at t∈[0,1] → an "rgb(…)" string. */
 export function choroColor(t: number): string {

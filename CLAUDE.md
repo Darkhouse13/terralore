@@ -2,22 +2,28 @@
 
 # Terralore — architecture notes
 
-Interactive 3D-globe encyclopedia of nations. Spin globe → click country →
-basic-info card → **dossier** (multi-domain, sourced data) → optional cinematic
-history journey. The north star is "Quartr for nations" — every domain of a nation
-(economy, society, geography, military, …, plus history) in one beautiful, sourced,
-spatial view. See the `vision-nations-encyclopedia` memory.
+Encyclopedia of nations in the **STRATA × SHOW THE WORK** design world
+(DESIGN.md v2; binding contract `docs/design/p3-contract.html`): the earth in
+section — history in beds (depth = time, down is older), data as specimen rows
+that proof-flip to their observation label, the section cut as world
+navigation. No globe, no canvas, no WebGL anywhere. The north star is "Quartr
+for nations" — every domain of a nation (economy, society, …, plus history) in
+one beautiful, sourced view. See the `vision-nations-encyclopedia` memory.
 
 ## Map of the codebase
 
-- `app/page.tsx` → home (server); computes published-history index + economy
-  headlines, renders `AtlasHome`.
+- `app/page.tsx` → **the front door** (server, zero client components): five
+  beds walking the palette in stratigraphic order; the Overture is pure CSS
+  (bed-settle bottom-up, rule-draw, transform-only stamp, oxide dot last,
+  ≤1.1s), replayed once per session via an inline parse-time script setting
+  `.no-overture` on `<html>`.
 - `app/country/[code]/page.tsx` → **dossier route** (SSG). Loads `getDossier(code)`
   + `getCountry` + `getHistory`, renders the `Dossier`. Every valid code renders
   (Overview from `CountryMeta` even with no domain data).
-- `app/country/[code]/history/page.tsx` → the cinematic history journey (SSG).
-  Renders `TimeJourney` if a history exists, else a dark `StubScreen`. Launched from
-  the dossier's history hero.
+- `app/country/[code]/history/page.tsx` → the cinematic journey — **PARKED**:
+  live behind its URL, still in the sitemap, but no surface links to it
+  (deviations E8). It keeps the retired deep palette + the `motion` dep
+  (route-split, so nothing else pays for it). Revisit as its own mission.
 - `app/country/[code]/chronicle/page.tsx` → **the reading depth** (SSG, server-only).
   The same history as one long-form document: every era, event, figure and reference
   in the initial HTML. The journey paints one moment at a time, so it is a good
@@ -30,23 +36,23 @@ spatial view. See the `vision-nations-encyclopedia` memory.
   history files (`lib/chronology.ts`) — nothing here is authored separately, so a
   chronology entry is always the same record, with the same sources, as the one on
   its nation's chronicle.
-- `app/atlas/page.tsx` → searchable index of all nations.
+- `app/atlas/page.tsx` → **THE SECTION CUT**: continents as beds, nations as
+  seams, Antarctica as the absence-hatched bed; client search via
+  `AtlasIndex` (the one client component on the navigation path).
 - `app/sitemap.ts`, `app/robots.ts`, `app/opengraph-image.tsx` → the discovery
   surface. All three derive from `lib/seo.ts`.
-- `components/GlobeScene.tsx` → client-only globe (react-globe.gl). Antique-atlas look:
-  parchment land polygons on a deep-ocean sphere, brass atmosphere. Accessor callbacks
-  are typed `(o: object)` and cast to `Feature` (the lib types accessors as `object`).
-- `components/CountryCard.tsx`, `AtlasHome.tsx`, `AtlasIndex.tsx`, `Starfield.tsx`.
-- `components/dossier/` → the data dossier. `Dossier.tsx` (client) — header, tabbed
-  domain panels (Overview + one per available domain), history hero, sources footer.
-  `DomainPanel` → grid of `MetricCard`s; `Sparkline` → bespoke SVG (no chart lib).
-- `components/journey/` → the country experience. NOT an article — a cinematic,
-  navigable time-journey you pilot moment-by-moment:
-  - `TimeJourney.tsx` (client) — full-screen dark stage; keyboard (←/→/space), wheel,
-    swipe and click-to-jump navigation; intro → per-era (era-intro + events) → outro.
-  - `TimelineRail.tsx` — the scrubber: era bands, category-tinted ticks, playhead.
-  - `ChapterDrawer.tsx` — a parchment "archive page" that slides in for the full,
-    sourced prose on demand (depth without forcing reading).
+- `components/strata/` → the shared physics: `ProofFlip.tsx` (client — press
+  flips, release returns, keyboard latches; heights fixed) + `ProofBack.tsx`
+  (the standard basalt reverse). Server surfaces use the CSS-only variant
+  instead (`.flip-press` + `.proof-toggle` checkbox — deviations E9).
+- `components/dossier/` → the nation page. `Dossier.tsx` (client) — era beds
+  (newest on top), the core-pull (0.5× resistance, 90px commit, 460ms; header
+  owns the gesture, arms only at scrollY ≤ 4), specimen rows per domain, the
+  URL-hash metric-window contract `#m=<key>&tab=<tab>&c=<codes>&v=rank&map=1`
+  that rankings/commodities deep-link against. `MetricDetail` is a
+  next/dynamic on-demand chunk (chart + rank + map on an opaque bone sheet).
+- `components/journey/` → the parked journey's components (see the route note
+  above) — untouched, unlinked, do not grow them.
 - `lib/journey.ts` → `buildMoments(history)` flattens eras → navigable moments.
 - `lib/chronology.ts` → flattens the whole corpus into nation-tagged `WorldEvent`s,
   bucketed into `Period`s (centuries; millennia before 1000 BCE; one `deep-prehistory`
@@ -126,24 +132,19 @@ keyed on canonical ADM0_A3, shaped `{ domain, updated, sources, data: { CODE: { 
   `FILES` (insertion order = dossier tab order).
 - **Refresh:** `npm run build-domains` (rebuilds all domain files + validates + rebuilds the
   series index). WB updates ~annually. `npm run validate` runs history + domain validators.
-- **Metric window:** a metric card opens the `MetricDetail` modal (`components/dossier/`) with
-  the full interactive `MetricChart`. Two lenses: **value** over time, or **world rank** over
-  time (`#1` = highest, axis inverted). Readers can overlay other nations or the world average.
-  Those series are lazy-fetched client-side from `public/data/series/<metricKey>.json` — one
-  small file per metric, built by `scripts/build-series-index.mjs` (chained into
-  `build-domains`, or `npm run build-series`), mirroring how the globe fetches `/data/*.json`.
-  **Metric `key`s must be globally unique across domains** (the file name + the client's only
-  lookup handle) — the builder throws on collision.
-- **Spatial map:** the window's `🗺 Map` toggle reveals `MetricMap` — a flat, dependency-free
-  SVG world choropleth coloured by the open metric (equirectangular projection of the same
-  `public/data/countries.geo.json` the globe uses). The home nation glows brass, compared
-  nations are outlined in their chart colours, and **clicking a nation toggles it in the
-  comparison** — map, chart and legend move together. The ramp + percentile scale live in
-  `lib/choropleth.ts` (pure, no three.js), shared with `GlobeScene` so both views tint identically.
-- The modal is rendered **once at the `Dossier` level** (not per card): the Dossier owns the
-  open metric + comparison + lens + map state so it can mirror them to the URL hash
-  (`#m=<key>&tab=<tab>&c=<codes>&v=rank&map=1`) via `replaceState` — shareable deep links that
-  reopen the window in-state on load. `MetricCard` is presentational and just calls `onOpenMetric`.
+- **Metric window:** a specimen row's `→` button opens `MetricDetail`
+  (`components/dossier/`, a next/dynamic on-demand chunk) with the full
+  interactive `MetricChart`. Two lenses: **value** over time, or **world rank**
+  over time (`#1` = highest, axis inverted); plus the `MetricMap` flat SVG
+  choropleth (ramp = the bed walk, sand → clay → umber, in `lib/choropleth.ts`).
+  Series lazy-fetch from `public/data/series/<metricKey>.json`, built by
+  `scripts/build-series-index.mjs`. **Metric `key`s must be globally unique
+  across domains** — the builder throws on collision.
+- The window is rendered **once at the `Dossier` level**: the Dossier owns the
+  open metric + comparison + lens + map state so it can mirror them to the URL
+  hash (`#m=<key>&tab=<tab>&c=<codes>&v=rank&map=1`) via `replaceState` —
+  shareable deep links that reopen the window in-state on load. Rankings and
+  commodity pages deep-link against this contract.
 - Every `Metric` carries `value`, `year` (vintage), `unit`, and a `sourceId` that **must
   resolve** in the file's `sources` — `scripts/validate-domains.mjs` enforces this, the
   same trust rule as histories. Missing data is `null` → renders "—"; non-UN/contested
@@ -157,35 +158,37 @@ history corpus's neutral, primary-sourced treatment of disputes.
 ## Gotchas
 
 - Tailwind v4: theme tokens live in `@theme` in `app/globals.css`; `@utility` cannot
-  define pseudo-elements (use a plain class, e.g. `.paper-grain::before`).
-- react-globe.gl touches `window`; it's loaded via `next/dynamic` `{ ssr: false }`.
+  define pseudo-elements (use a plain class).
 - Turbopack dev does NOT type-check — always run `npx tsc --noEmit` before declaring done.
-- The landing page's staggered entrance is a **CSS animation** (`.reveal` /
-  `.reveal-fade` in `globals.css`, stagger via `--reveal-delay`), not React state.
-  It used to be `useState(entered)`, which held every element at `opacity: 0` until
-  hydration — and an `opacity: 0` element is not LCP-eligible, so the hero paragraph
-  measured a 7.6s LCP on text that was server-rendered all along. Do not reintroduce
-  a JS-gated entrance.
-- **The globe is GlobeLite — no three.js anywhere on the site.** Three files:
-  `components/globe-render.ts` (pure renderer: orthographic projection with
-  per-vertex trig precomputed at load, so a frame is multiplications only),
-  `components/globe.worker.ts` (an **OffscreenCanvas worker** that owns all
-  rasterisation — the main thread never draws a pixel, so TBT is
-  architecturally immune to the globe; measured 0 ms over 6 s of spinning at
-  retina DPR under 4× CPU throttle), and `components/GlobeLite.tsx` (React:
-  pointer→drag/hover/select, the tiny view simulation, tooltip). Same
-  behaviours as the old WebGL globe: auto-rotate 1.92°/s, drag-to-spin,
-  hover tooltip, click → 900 ms fly-to + brass rings, choropleth fills.
-  Falls back to main-thread rendering where OffscreenCanvas is missing.
-  `GlobeScene.tsx` (three.js) is retired but kept as the reference — do not
-  re-import it into the landing chunk. Wheel zoom stays off: the home scrolls
-  past the globe, and a wheel-zooming canvas is a scroll trap; on touch,
-  `touch-action: pan-y` keeps vertical swipes scrolling the page.
-- `public/globe-still.svg` (generated by `scripts/build-globe-still.mjs`, same
-  geojson + palette, framed at the globe's opening view) is the zero-JS first
-  paint; it fades once the canvas draws the identical frame. Its geometry
-  (`radiusFor`/`centerYFor` in globe-render.ts) must stay in step with the
-  still's proportions or the handover jumps.
+- **The design system is STRATA** (DESIGN.md v2, contract in `docs/design/`):
+  seven pigments, three self-hosted faces (`app/fonts.ts` ← `assets/fonts/*.woff2`,
+  regenerated by `scripts/build-strata-fonts.mjs` — **no runtime Google Fonts**),
+  one mass curve. Rules are 2px basalt or absent; no transparency/blur/shadows;
+  the only radius is the `.pill`. Contrast is proven by
+  `scripts/check-contrast-strata.mjs` (the old `check-contrast.mjs` is frozen
+  with an in-flight SovereigntyBar diff — do not touch it).
+- **Entrances are two grades and the difference is load-bearing**: `.settle`
+  is TRANSFORM-ONLY (LCP-safe — use for content); `.settle-fade` adds opacity
+  and exists only for the front door's overture beds, which are never the LCP.
+  An `opacity: 0` element is not LCP-eligible — the 7.6s-LCP lesson survives
+  every redesign. Do not reintroduce a JS-gated or opacity-gated entrance on
+  content.
+- **The proof-flip has two implementations, one physics**: client
+  `ProofFlip` (dossier — needs the chart button + proof-view state) and the
+  CSS-only `.flip-press`/`.proof-toggle` pattern on server surfaces
+  (rankings/compares/commodities — zero hydration). Both are 320ms rotateX on
+  the mass curve with a basalt reverse. Keep them in step.
+- **No emoji anywhere in rendered output** (flags included) — the committed
+  font subsets carry none, and satori would try to fetch them (the card path
+  has fetch fused shut). Codes are the mark.
+- **Analytics load `lazyOnload`** (after TTI) — the tag's ~250ms of throttled
+  main-thread work must not count against the pages it measures. Lighthouse
+  floor: ≥95 performance + accessibility, mobile, on every surface class
+  (`scripts/lighthouse.mjs`).
+- **JSX seam check**: this compiler drops the leading space of text after an
+  expression boundary; explicit `{" "}` is load-bearing.
+  `scripts/validate-seams.mjs` scans every prerendered page post-build (in
+  `npm run ci`) and fails on word-jams.
 - **Prefetch discipline:** link-dense pages (atlas grid, timeline hub, theme
   indexes, chronicle footer) set `prefetch={false}` — App Router's default
   prefetch downloads the full payload per static link, which on a 60-link hub

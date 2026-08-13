@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getCountry, allCodes, regionPeers } from "@/lib/countries";
-import { getDossier, getComparisons } from "@/lib/domains";
+import { getCountry, allCodes } from "@/lib/countries";
+import { getDossier } from "@/lib/domains";
 import { DOMAIN_META, type DomainKey } from "@/lib/types";
 import { getHistory } from "@/lib/histories";
 import { annotationsFor } from "@/lib/annotations-server";
-import Dossier from "@/components/dossier/Dossier";
+import Dossier, { type EraBed } from "@/components/dossier/Dossier";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbLd, dossierDescription, dossierLd, mdTwinTypes, routes, SITE_NAME } from "@/lib/seo";
 
@@ -59,7 +59,28 @@ export default async function CountryDossierPage({
 
   const dossier = getDossier(code);
   const history = getHistory(code);
-  const comparisons = getComparisons(code, regionPeers(code));
+
+  // The era beds: NEWEST at the top, oldest at the bottom — depth = time,
+  // down is older, always. Headline events per era are the two with the
+  // deepest sourcing (ties → earliest): a deterministic editorial pick that
+  // needs no new authorship.
+  const eraBeds: EraBed[] = (history?.eras ?? [])
+    .map((era) => ({
+      id: era.id,
+      title: era.title,
+      period: era.period,
+      count: era.events.length,
+      headline: [...era.events]
+        .sort((a, b) => b.sources.length - a.sources.length || a.year - b.year)
+        .slice(0, 2)
+        .sort((a, b) => a.year - b.year)
+        .map((e) => ({
+          yearLabel: e.yearLabel ?? String(Math.abs(e.year)) + (e.year < 0 ? " BCE" : ""),
+          title: e.title,
+          refs: e.sources.length,
+        })),
+    }))
+    .reverse();
 
   return (
     <>
@@ -76,10 +97,9 @@ export default async function CountryDossierPage({
       <Dossier
         meta={meta}
         dossier={dossier}
-        comparisons={comparisons}
-        regionLabel={meta.subregion ?? meta.region}
-        hasHistory={!!history}
-        historyTagline={history?.tagline ?? null}
+        eraBeds={eraBeds}
+        eventsTotal={history ? history.eras.reduce((n, e) => n + e.events.length, 0) : 0}
+        founding={history ? `${history.founding.label} · ${history.founding.yearLabel}` : null}
         annotations={annotationsFor(code)}
       />
     </>

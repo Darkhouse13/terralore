@@ -48,6 +48,9 @@ export default async function CommodityOgImage({
                 lineHeight: 1.0,
                 letterSpacing: -2,
                 color: OG.chalkHi,
+                fontFamily: "Bricolage",
+                fontWeight: 800,
+                textTransform: "uppercase" as const,
                 maxWidth: 1000,
               }}
             >
@@ -70,7 +73,8 @@ export default async function CommodityOgImage({
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             {c ? (
               <div style={{ display: "flex", alignItems: "baseline", gap: 14 }}>
-                <div style={{ fontSize: 46, color: OG.verdigris, letterSpacing: -1 }}>
+                <div style={{ fontSize: 46, color: OG.verdigris,
+                fontFamily: "mono", letterSpacing: -1 }}>
                   {formatTonnes(c.world.estimate)}
                 </div>
                 <div style={{ fontSize: 22, color: OG.chalk3 }}>

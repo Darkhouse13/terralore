@@ -1,10 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "motion/react";
 import type {
-  Comparison,
   CountryDossier,
   CountryMeta,
   DataSource,
@@ -13,31 +11,73 @@ import type {
 } from "@/lib/types";
 import { DOMAIN_META } from "@/lib/types";
 import { formatPopulation, formatArea, formatMetric } from "@/lib/format";
+import { METRIC_DEFS } from "@/lib/metric-defs";
 import { NO_DATA_NOTES, TERRITORY_NOTES } from "@/lib/territory-notes";
-import DomainPanel from "./DomainPanel";
-import MetricDetail, { type ChartMode } from "./MetricDetail";
+import dynamic from "next/dynamic";
+import ProofFlip from "@/components/strata/ProofFlip";
+import ProofBack from "@/components/strata/ProofBack";
+import { type ChartMode } from "./MetricDetail";
+
+// The metric window (chart · rank · map) is a reader's second step, never the
+// first paint — it loads on demand, keeping the window's chart/map/picker
+// code out of the nation page's initial bundle.
+const MetricDetail = dynamic(() => import("./MetricDetail"), { ssr: false });
 import { annotationsForSeries } from "@/lib/annotations";
 import type { EventAnnotation } from "@/lib/annotations";
 
-type Tab = "overview" | DomainKey;
+/* ── The nation page — a section cut through one nation ─────────────────────
+   History lies in ERA BEDS (newest at the top, oldest at the bottom — depth
+   = time, down is older, always); the data dossier is pinned to the face of
+   the cut as SPECIMEN rows, every one flipping to its observation label; the
+   header owns the CORE-PULL: drag down to extract the whole history as a
+   core sample, tap a band to land in its era on the chronicle.
+
+   The metric window (chart · world rank · map) stays URL-addressed:
+   #m=<key>&tab=<domain>&c=<codes>&v=rank&map=1 — the contract rankings and
+   commodities pages deep-link against. */
+
+export interface EraBed {
+  id: string;
+  title: string;
+  period: string;
+  count: number;
+  headline: { yearLabel: string; title: string; refs: number }[];
+}
 
 const ALL_DOMAINS = Object.keys(DOMAIN_META) as DomainKey[];
+
+// The bed walk, newest era downward. Ground + proven text pair per DESIGN.md §2.
+const BED_WALK = [
+  { bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
+  { bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-basalt)" },
+  { bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { bg: "var(--color-basalt)", title: "var(--color-bone)", sub: "var(--color-clay)" },
+];
+
+const shortYear = (y: number | null) =>
+  y == null ? "—" : "’" + String(y).slice(2).padStart(2, "0");
+
+function coordLine(latlng: [number, number] | null): string | null {
+  if (!latlng) return null;
+  const [lat, lng] = latlng;
+  return `${Math.abs(lat).toFixed(1)}${lat >= 0 ? "N" : "S"} ${Math.abs(lng).toFixed(1)}${lng >= 0 ? "E" : "W"}`;
+}
 
 export default function Dossier({
   meta,
   dossier,
-  comparisons,
-  regionLabel,
-  hasHistory,
-  historyTagline,
+  eraBeds,
+  eventsTotal,
+  founding,
   annotations,
 }: {
   meta: CountryMeta;
   dossier: CountryDossier | null;
-  comparisons: Comparison[];
-  regionLabel: string | null;
-  hasHistory: boolean;
-  historyTagline: string | null;
+  eraBeds: EraBed[];
+  eventsTotal: number;
+  founding: string | null;
   /** This nation's chronicle moments, for annotating metric series. */
   annotations: EventAnnotation[];
 }) {
@@ -45,12 +85,10 @@ export default function Dossier({
     () => (dossier ? ALL_DOMAINS.filter((d) => dossier.sections[d]) : []),
     [dossier],
   );
-  const [tab, setTab] = useState<Tab>("overview");
   const sources = dossier?.sources ?? {};
-  const isOverview = tab === "overview";
+  const hasHistory = eraBeds.length > 0;
 
-  // ── The shared metric window (one instance, state-owned here so it can drive
-  // the URL for shareable deep links) ──────────────────────────────────────
+  // ── The shared metric window ──────────────────────────────────────────────
   const metricByKey = useMemo(() => {
     const m = new Map<string, { metric: Metric; domain: DomainKey }>();
     if (dossier) {
@@ -69,6 +107,7 @@ export default function Dossier({
   const [chartMode, setChartMode] = useState<ChartMode>("value");
   const [mapOpen, setMapOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const [allProof, setAllProof] = useState(false);
 
   const openModal = (key: string) => {
     setOpenMetric(key);
@@ -80,17 +119,13 @@ export default function Dossier({
 
   // Restore view state from the URL hash on first mount (deep link), then flip
   // `hydrated` so the URL-writer below runs — never clobbering the incoming hash.
-  // Must be an effect: URL fragments aren't sent to the server, so SSR can't know.
   useEffect(() => {
     /* eslint-disable react-hooks/set-state-in-effect -- one-time external (URL) read */
     const h = window.location.hash;
     if (h.length >= 2) {
       const p = new URLSearchParams(h.slice(1));
       const m = p.get("m");
-      const t = p.get("tab") as Tab | null;
-      if (t && (t === "overview" || available.includes(t as DomainKey))) setTab(t);
       if (m && metricByKey.has(m)) {
-        if (!t) setTab(metricByKey.get(m)!.domain);
         setOpenMetric(m);
         setLastMetric(m);
         const c = p.get("c");
@@ -112,7 +147,7 @@ export default function Dossier({
     if (openMetric) {
       const p = new URLSearchParams();
       p.set("m", openMetric);
-      p.set("tab", tab);
+      p.set("tab", metricByKey.get(openMetric)?.domain ?? "overview");
       if (compare.length) p.set("c", compare.join(","));
       if (chartMode === "rank") p.set("v", "rank");
       if (mapOpen) p.set("map", "1");
@@ -125,16 +160,13 @@ export default function Dossier({
         window.location.pathname + window.location.search + hash,
       );
     }
-  }, [hydrated, openMetric, tab, compare, chartMode, mapOpen]);
+  }, [hydrated, openMetric, compare, chartMode, mapOpen, metricByKey]);
 
   const openInfo = (openMetric ?? lastMetric)
     ? metricByKey.get((openMetric ?? lastMetric)!) ?? null
     : null;
 
-  // Cross-talk: the chronicle moments that fall inside THIS metric's own series
-  // span, filtered to categories that can plausibly move this domain's numbers.
-  // Scoped to the series window rather than the whole history, so a chart of
-  // 1990–2024 is never annotated with the 9th century.
+  // Cross-talk: the chronicle moments inside THIS metric's own series span.
   const openAnnotations = useMemo(() => {
     if (!openInfo?.metric.series?.length || !annotations.length) return [];
     const years = openInfo.metric.series.map((d) => d.year);
@@ -148,134 +180,355 @@ export default function Dossier({
       yearLabel: a.yearLabel,
       title: a.title,
       tint: a.tint,
-      // Straight to the era that holds it, on the readable depth.
       href: `/country/${meta.code}/chronicle#${a.eraId}`,
     }));
   }, [openInfo, annotations, meta.code]);
 
-  // Overview highlights: a curated mix — the first two metrics of each domain.
-  const highlights: Metric[] = available.flatMap(
-    (d) => dossier!.sections[d]!.metrics.slice(0, 2),
-  );
-  const gridMetrics =
-    isOverview || !dossier ? highlights : dossier.sections[tab as DomainKey]?.metrics ?? [];
-  const gridLabel = isOverview ? "Highlights" : DOMAIN_META[tab as DomainKey].label;
+  // ── The core-pull (contract physics: 0.5× resistance, 90px commit, 460ms;
+  // the header owns the gesture and arms only at the very top of the page) ──
+  const [pull, setPull] = useState(0);
+  const [dragging, setDragging] = useState(false);
+  const [coreOpen, setCoreOpen] = useState(false);
+  const dragRef = useRef<{ y0: number; live: boolean }>({ y0: 0, live: false });
+
+  const coreDown = (e: React.PointerEvent) => {
+    if (!hasHistory || window.scrollY > 4) return;
+    dragRef.current = { y0: e.clientY, live: true };
+    (e.target as Element).setPointerCapture?.(e.pointerId);
+    setDragging(true);
+  };
+  const coreMove = (e: React.PointerEvent) => {
+    if (!dragRef.current.live) return;
+    e.preventDefault();
+    const dy = Math.max(0, (e.clientY - dragRef.current.y0) * 0.5);
+    setPull(Math.min(dy, 300));
+  };
+  const coreUp = () => {
+    if (!dragRef.current.live) return;
+    dragRef.current.live = false;
+    setCoreOpen(pull > 90);
+    setDragging(false);
+    setPull(0);
+  };
+
+  const domainsLine = [
+    coordLine(meta.latlng),
+    hasHistory ? `${eventsTotal} EVENTS` : null,
+    available.length ? `${available.length} DOMAINS` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  const territory = TERRITORY_NOTES[meta.code];
 
   return (
-    <main
-      className="relative min-h-[100dvh] w-full overflow-x-hidden text-chalk"
-      style={{
-        background:
-          "radial-gradient(120% 80% at 50% -8%, #0c2e3d 0%, #04161f 46%, #04161f 100%)",
-      }}
-    >
-      <div className="mx-auto max-w-[1340px] px-6 pb-24 pt-9 md:px-10 lg:px-14">
-        {/* back to the globe */}
-        <Link
-          href="/"
-          className="group inline-flex items-center gap-2.5 font-mono text-[12px] uppercase tracking-[0.22em] text-chalk-2 transition-colors hover:text-chalk"
-        >
-          <span className="text-[15px] transition-transform group-hover:-translate-x-0.5">←</span>
-          The globe
-        </Link>
-
-        {/* header */}
-        <header className="mt-8">
-          <div className="font-mono text-[12px] uppercase tracking-[0.26em] text-copper sm:ml-[96px]">
-            {meta.code}
-            {(meta.subregion ?? meta.region) && ` · ${meta.subregion ?? meta.region}`}
-            {meta.continent && ` · ${meta.continent}`}
-          </div>
-          <div className="mt-2 flex items-center gap-[22px]">
-            <div className="flex h-[54px] w-[74px] flex-none items-center justify-center text-[34px] leading-none">
-              {meta.flag ?? "🏳️"}
-            </div>
+    <main className="min-h-screen overflow-x-hidden bg-bone">
+      {/* ── header — owns the core-pull ── */}
+      <div
+        onPointerDown={coreDown}
+        onPointerMove={coreMove}
+        onPointerUp={coreUp}
+        onPointerCancel={coreUp}
+        className="settle select-none"
+        style={hasHistory ? { touchAction: "none", cursor: "grab" } : undefined}
+      >
+        <div className="mx-auto max-w-5xl px-5 pt-4">
+          <Link
+            href="/atlas"
+            className="inline-block py-1.5 font-mono text-[10px] tracking-[0.16em] text-oxide"
+          >
+            ← THE SECTION CUT{meta.continent ? ` · ${meta.continent.toUpperCase()}` : ""}
+          </Link>
+          <div className="mt-1 flex items-start justify-between gap-4">
             <div className="min-w-0">
-              <h1 className="font-display text-[clamp(46px,7vw,82px)] font-[350] leading-[0.92] tracking-[-0.02em] text-chalk-hi">
+              <h1 className="font-display text-[52px] leading-none font-extrabold tracking-tight break-words uppercase md:text-[72px]">
                 {meta.name}
               </h1>
-              {meta.officialName !== meta.name && (
-                <div className="mt-1.5 font-mono text-[13px] tracking-[0.06em] text-chalk-3">
-                  {meta.officialName}
+              {domainsLine && (
+                <div className="mt-2 font-mono text-[11px] text-oxide">{domainsLine}</div>
+              )}
+              {founding && (
+                <div className="mt-1 font-mono text-[10px] text-umber">
+                  {founding.toUpperCase()}
                 </div>
               )}
             </div>
+            {/* the mini core — the nation's whole history in one column */}
+            {hasHistory && (
+              <div
+                aria-hidden
+                className="mt-1.5 flex w-[30px] flex-none flex-col border-2 border-basalt"
+              >
+                {eraBeds.map((era, i) => (
+                  <div
+                    key={era.id}
+                    style={{
+                      height: Math.max(9, Math.round((era.count / eventsTotal) * 100)),
+                      background: BED_WALK[i % BED_WALK.length].bg,
+                    }}
+                  />
+                ))}
+              </div>
+            )}
           </div>
-        </header>
+          {hasHistory && (
+            <div className="pt-2.5 pb-3 font-mono text-[10px] text-umber">
+              ▼ PULL DOWN TO EXTRACT THE CORE
+            </div>
+          )}
+          {!hasHistory && <div className="pb-3" />}
+        </div>
+      </div>
 
-        {/* tab bar — wraps rather than scrolls; no-data domains are dimmed */}
-        <nav className="mt-9">
-          <div className="flex flex-wrap gap-x-[30px] border-b border-copper/15">
-            <TabButton
-              label="Overview"
-              active={isOverview}
-              enabled
-              onClick={() => setTab("overview")}
+      {/* ── the era beds — newest first, downward into time ── */}
+      {eraBeds.map((era, i) => {
+        const w = BED_WALK[i % BED_WALK.length];
+        return (
+          <Link
+            key={era.id}
+            href={`/country/${meta.code}/chronicle#${era.id}`}
+            prefetch={false}
+            className="bed settle pressable block"
+            style={{
+              background: w.bg,
+              ["--settle-delay" as string]: `${Math.min((i + 1) * 60, 420)}ms`,
+            }}
+          >
+            <div className="mx-auto max-w-5xl px-5 py-[14px]">
+              <div className="flex items-baseline justify-between gap-3">
+                <div
+                  className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px]"
+                  style={{ color: w.title }}
+                >
+                  {era.period} · {era.title}
+                </div>
+                <div className="flex-none font-mono text-[10px]" style={{ color: w.sub }}>
+                  {era.count} EVENTS
+                </div>
+              </div>
+              {era.headline.map((e) => (
+                <div
+                  key={`${e.yearLabel}-${e.title}`}
+                  className="mt-1.5 font-sans text-[14.5px]"
+                  style={{ color: w.title }}
+                >
+                  {e.yearLabel} · {e.title}{" "}
+                  <span className="font-mono text-[9.5px]" style={{ color: w.sub }}>
+                    {e.refs} {e.refs === 1 ? "REF" : "REFS"}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </Link>
+        );
+      })}
+
+      {/* ── the reading depth ── */}
+      {hasHistory ? (
+        <Link
+          href={`/country/${meta.code}/chronicle`}
+          prefetch={false}
+          className="bed settle pressable block"
+          style={{ ["--settle-delay" as string]: "420ms" }}
+        >
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
+            <div>
+              <div className="font-display text-[20px] font-extrabold tracking-tight uppercase">
+                Read the chronicle
+              </div>
+              <div className="mt-1 font-mono text-[10px] text-umber">
+                EVERY ERA, EVENT AND REFERENCE ON ONE PAGE
+              </div>
+            </div>
+            <div className="font-mono text-[15px] text-oxide">↓</div>
+          </div>
+        </Link>
+      ) : (
+        <div className="bed">
+          <div className="mx-auto max-w-5xl px-5 py-4">
+            <div className="eyebrow text-umber">History</div>
+            <p className="mt-2 max-w-xl font-sans text-[14.5px] text-umber">
+              The sourced chronicle of {meta.name} is being charted and verified — it will
+              arrive complete.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* ── quick facts — the atlas' own reference bed ── */}
+      <section className="bed bg-sand">
+        <div className="mx-auto max-w-5xl px-5 py-4">
+          <div className="eyebrow text-umber">Quick facts · atlas reference</div>
+          <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-4 md:grid-cols-4">
+            <Fact label="Capital" value={meta.capital[0] ?? "—"} />
+            <Fact label="Population" value={formatPopulation(meta.population)} />
+            <Fact label="Area" value={formatArea(meta.area)} />
+            <Fact label="Region" value={meta.subregion ?? meta.region ?? "—"} />
+            <Fact label="Languages" value={meta.languages.slice(0, 3).join(", ") || "—"} />
+            <Fact
+              label="Currency"
+              value={
+                meta.currencies[0]
+                  ? `${meta.currencies[0].name}${
+                      meta.currencies[0].symbol ? ` (${meta.currencies[0].symbol})` : ""
+                    }`
+                  : "—"
+              }
             />
-            {ALL_DOMAINS.map((d) => {
-              const enabled = available.includes(d);
+            <Fact label="Demonym" value={meta.demonym ?? "—"} />
+            <Fact
+              label="UN member"
+              value={meta.unMember == null ? "—" : meta.unMember ? "Yes" : "No"}
+            />
+          </dl>
+        </div>
+      </section>
+
+      {territory && (
+        <section className="bed">
+          <div className="mx-auto max-w-5xl px-5 py-4">
+            <div className="eyebrow text-umber">Territory</div>
+            <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed">
+              {territory.text}
+              {territory.source && (
+                <>
+                  {" · "}
+                  <a
+                    href={territory.source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-oxide underline underline-offset-2"
+                  >
+                    {territory.source.label}
+                  </a>
+                </>
+              )}
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* ── the dossier — specimen rows ── */}
+      {available.length > 0 && (
+        <section className="bed">
+          <div className="mx-auto max-w-5xl px-5 pt-4 pb-6">
+            <div className="flex items-baseline justify-between">
+              <div className="eyebrow text-umber">
+                Dossier · press a specimen — it turns over
+              </div>
+              <button
+                type="button"
+                onClick={() => setAllProof((v) => !v)}
+                className="pressable py-1 pl-3 font-mono text-[10px] tracking-[0.08em] text-oxide"
+              >
+                {allProof ? "CLOSE PROOFS ⟲" : "PROOF VIEW ⟲"}
+              </button>
+            </div>
+
+            <div className="md:columns-2 md:gap-10">
+              {available.map((d) => {
+                const section = dossier!.sections[d]!;
+                return (
+                  <div key={d} className="mt-5 break-inside-avoid">
+                    <h2 className="font-display text-[15px] font-extrabold tracking-tight uppercase">
+                      {DOMAIN_META[d].label}
+                    </h2>
+                    <div className="mt-1.5">
+                      {section.metrics.map((m) => (
+                        <SpecimenRow
+                          key={m.key}
+                          metric={m}
+                          source={sources[m.sourceId]}
+                          forced={allProof}
+                          onChart={m.series && m.series.length > 1 ? () => openModal(m.key) : undefined}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <p className="mt-5 max-w-2xl font-sans text-xs text-umber">
+              A hatched gap has no underside — there is nothing to turn over. Absence is
+              stated, never zeroed.
+            </p>
+          </div>
+        </section>
+      )}
+
+      {available.length === 0 && <NoSeriesState meta={meta} />}
+
+      {/* ── sources ── */}
+      {Object.keys(sources).length > 0 && (
+        <SourcesFooter sources={sources} updated={dossier?.updated ?? null} />
+      )}
+
+      <div className="cut-rule" />
+      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber">
+        <div>EVERY CLAIM SOURCED</div>
+        <div>ABSENCE ≠ ZERO</div>
+        <div>NO SIDES</div>
+      </footer>
+
+      {/* ── the extracted core ── */}
+      {hasHistory && (
+        <div
+          aria-hidden={!coreOpen}
+          className="fixed inset-x-0 top-0 z-40 mx-auto flex h-dvh w-full max-w-5xl flex-col bg-basalt"
+          style={{
+            transform: coreOpen ? "translateY(0)" : `translateY(calc(-100% + ${pull}px))`,
+            transition: dragging ? "none" : "transform var(--dur-core) var(--ease-mass)",
+          }}
+        >
+          <div className="flex items-center justify-between px-5 pt-[18px] pb-3">
+            <div>
+              <div className="font-display text-[22px] font-extrabold tracking-tight text-bone uppercase">
+                Core sample — {meta.name}
+              </div>
+              <div className="mt-1 font-mono text-[10px] text-clay">
+                TAP A BAND TO LAND IN ITS ERA
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={() => setCoreOpen(false)}
+              tabIndex={coreOpen ? 0 : -1}
+              className="pressable border-2 border-bone px-3 py-2 font-mono text-[11px] text-bone"
+            >
+              PUSH BACK ▲
+            </button>
+          </div>
+          <div className="flex min-h-0 flex-1 flex-col">
+            {eraBeds.map((era, i) => {
+              const w = BED_WALK[i % BED_WALK.length];
               return (
-                <TabButton
-                  key={d}
-                  label={DOMAIN_META[d].label}
-                  active={tab === d}
-                  enabled={enabled}
-                  onClick={enabled ? () => setTab(d) : undefined}
-                />
+                <Link
+                  key={era.id}
+                  href={`/country/${meta.code}/chronicle#${era.id}`}
+                  prefetch={false}
+                  tabIndex={coreOpen ? 0 : -1}
+                  className="flex items-center justify-between border-t-2 border-basalt px-5"
+                  style={{ flex: Math.max(era.count, 6), background: w.bg }}
+                >
+                  <span
+                    className="font-display text-[15px] font-extrabold tracking-tight uppercase md:text-[16px]"
+                    style={{ color: w.title }}
+                  >
+                    {era.title} · {era.period}
+                  </span>
+                  <span className="font-mono text-[10px]" style={{ color: w.sub }}>
+                    {era.count} EVENTS
+                  </span>
+                </Link>
               );
             })}
           </div>
-        </nav>
-
-        {/* tab content */}
-        <div className="mt-11 min-h-[16rem]">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={tab}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -6 }}
-              transition={{ duration: 0.22 }}
-            >
-              {isOverview && (
-                <OverviewTop
-                  meta={meta}
-                  comparisons={comparisons}
-                  regionLabel={regionLabel}
-                />
-              )}
-
-              {available.length === 0 && <NoSeriesState meta={meta} />}
-
-              {gridMetrics.length > 0 && (
-                <section>
-                  <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-3">
-                    {gridLabel}
-                  </div>
-                  <DomainPanel
-                    metrics={gridMetrics}
-                    sources={sources}
-                    onOpenMetric={openModal}
-                  />
-                </section>
-              )}
-            </motion.div>
-          </AnimatePresence>
+          <div className="px-5 pt-3 pb-5 font-mono text-[9px] tracking-[0.12em] text-clay">
+            BAND THICKNESS ∝ RECORDED EVENTS · DEPTH = TIME
+          </div>
         </div>
-
-        {/* history — the flagship sub-experience */}
-        <HistoryHero
-          code={meta.code}
-          name={meta.name}
-          hasHistory={hasHistory}
-          tagline={historyTagline}
-        />
-
-        {/* sources & methodology */}
-        {Object.keys(sources).length > 0 && (
-          <SourcesFooter sources={sources} updated={dossier?.updated ?? null} />
-        )}
-      </div>
+      )}
 
       {/* the shared metric window */}
       {openInfo && (
@@ -298,144 +551,80 @@ export default function Dossier({
   );
 }
 
-function TabButton({
-  label,
-  active,
-  enabled,
-  onClick,
+/* ── one specimen — the universal proof-flip row ───────────────────────────── */
+function SpecimenRow({
+  metric,
+  source,
+  forced,
+  onChart,
 }: {
-  label: string;
-  active: boolean;
-  enabled: boolean;
-  onClick?: () => void;
+  metric: Metric;
+  source?: DataSource;
+  forced: boolean;
+  onChart?: () => void;
 }) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      disabled={!enabled}
-      aria-current={active ? "page" : undefined}
-      className={`relative -mb-px flex-none px-0.5 pb-4 text-[16px] transition-colors ${
-        active
-          ? "font-semibold text-chalk-hi"
-          : enabled
-            ? "font-normal text-chalk-2 hover:text-chalk-hi"
-            : "cursor-default font-normal text-chalk-5"
-      }`}
-    >
-      {label}
-      {/* The active tab sits on the stratum rule rather than a plain underline
-          — the same banded device that draws the globe's shelf halo and the
-          journey's era bands. One signature, everywhere it can carry. */}
-      {active && (
-        <span
-          aria-hidden
-          className="stratum-rule absolute inset-x-0 -bottom-[3px]"
-        />
-      )}
-    </button>
-  );
-}
-
-function OverviewTop({
-  meta,
-  comparisons,
-  regionLabel,
-}: {
-  meta: CountryMeta;
-  comparisons: Comparison[];
-  regionLabel: string | null;
-}) {
-  const note = TERRITORY_NOTES[meta.code];
-  return (
-    <>
-      {note && (
-        <div className="mb-[40px] rounded-[4px] border border-copper/15 bg-copper/[0.04] px-[18px] py-3.5">
-          <div className="eyebrow tracking-[0.26em] text-chalk-3">Territory</div>
-          <p className="mt-2 text-[14px] leading-relaxed text-chalk-2">
-            {note.text}
-            {note.source && (
-              <>
-                {" · "}
-                <a
-                  href={note.source.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-chalk-read underline-offset-2 transition-colors hover:text-copper hover:underline"
-                >
-                  {note.source.label}
-                </a>
-              </>
-            )}
-          </p>
+  const observed = metric.value != null;
+  if (!observed) {
+    return (
+      <div className="flex items-center justify-between gap-3 border-b-2 border-basalt py-[9px]">
+        <div className="min-w-0 truncate font-sans text-[14.5px] font-medium text-umber">
+          {metric.label}
         </div>
-      )}
-      <div
-        className={`mb-[54px] ${
-          comparisons.length > 0
-            ? "lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-12"
-            : ""
-        }`}
-      >
-      {/* quick facts */}
-      <section className="mb-[54px] lg:mb-0">
-        <div className="eyebrow mb-[22px] tracking-[0.26em] text-chalk-3">Quick facts</div>
-        <dl className="grid gap-x-[30px] gap-y-[26px] [grid-template-columns:repeat(auto-fit,minmax(150px,1fr))]">
-        <Fact label="Capital" value={meta.capital[0] ?? "—"} />
-        <Fact label="Population" value={formatPopulation(meta.population)} />
-        <Fact label="Area" value={formatArea(meta.area)} />
-        <Fact label="Region" value={meta.subregion ?? meta.region ?? "—"} />
-        <Fact label="Languages" value={meta.languages.slice(0, 3).join(", ") || "—"} />
-        <Fact
-          label="Currency"
-          value={
-            meta.currencies[0]
-              ? `${meta.currencies[0].name}${
-                  meta.currencies[0].symbol ? ` (${meta.currencies[0].symbol})` : ""
-                }`
-              : "—"
-          }
-        />
-        <Fact label="Demonym" value={meta.demonym ?? "—"} />
-        <Fact
-          label="UN member"
-          value={meta.unMember == null ? "—" : meta.unMember ? "Yes" : "No"}
-        />
-        </dl>
-      </section>
-
-      {/* how this nation compares */}
-      {comparisons.length > 0 && (
-        <section>
-          <div className="eyebrow mb-[18px] tracking-[0.26em] text-chalk-3">
-            How {meta.name} compares
-          </div>
-          <div className="rounded-none border border-copper/15 px-[26px]">
-            {comparisons.map((c, i) => (
-              <ComparisonRow
-                key={`${c.domain}-${c.key}`}
-                c={c}
-                regionLabel={regionLabel}
-                last={i === comparisons.length - 1}
-              />
-            ))}
-          </div>
-        </section>
-      )}
+        <div className="not-observed flex-none">NOT OBSERVED</div>
       </div>
-    </>
+    );
+  }
+  const srcId = metric.sourceId.toUpperCase();
+  const def = METRIC_DEFS[metric.key];
+  return (
+    <div className="flex items-stretch border-b-2 border-basalt">
+      <ProofFlip
+        height={54}
+        forced={forced}
+        className="min-w-0 flex-1"
+        ariaLabel={`${metric.label}: ${formatMetric(metric.value, metric.unit)}, observed ${metric.year ?? "year unknown"}, source ${source?.label ?? metric.sourceId}`}
+        front={
+          <div className="flex h-full items-center justify-between gap-3">
+            <div className="min-w-0 truncate font-sans text-[14.5px] font-medium">
+              {metric.label}
+            </div>
+            <div className="flex flex-none items-center gap-2 font-mono text-[13px]">
+              {formatMetric(metric.value, metric.unit)}
+              <span className="pill">
+                {shortYear(metric.year)} {srcId}
+              </span>
+            </div>
+          </div>
+        }
+        back={
+          <ProofBack
+            line={`OBSERVED ${metric.year ?? "—"} · ${srcId}${source ? ` — ${source.publisher}` : ""}`}
+            note={def}
+            padding="0 8px"
+          />
+        }
+      />
+      {onChart && (
+        <button
+          type="button"
+          onClick={onChart}
+          aria-label={`${metric.label} — series, world rank and map`}
+          className="pressable -my-px ml-2 w-9 flex-none self-center border-2 border-basalt py-1.5 font-mono text-[12px] text-oxide"
+        >
+          →
+        </button>
+      )}
+    </div>
   );
 }
 
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-chalk-3">
-        {label}
-      </dt>
+      <dt className="font-mono text-[10px] tracking-[0.16em] text-umber uppercase">{label}</dt>
       <dd
-        className={`mt-2 text-[18px] font-semibold leading-snug ${
-          value === "—" ? "text-chalk-5" : "text-chalk"
+        className={`mt-1 font-sans text-[15px] leading-snug font-medium ${
+          value === "—" ? "text-umber" : "text-basalt"
         }`}
       >
         {value}
@@ -444,210 +633,50 @@ function Fact({ label, value }: { label: string; value: string }) {
   );
 }
 
-const ordinal = (n: number) => {
-  const t = n % 100;
-  const s = t >= 11 && t <= 13 ? "th" : ["th", "st", "nd", "rd"][n % 10] ?? "th";
-  return `${n}${s}`;
-};
-
-function ComparisonRow({
-  c,
-  regionLabel,
-  last,
-}: {
-  c: Comparison;
-  regionLabel: string | null;
-  last: boolean;
-}) {
-  // Fill = how high it ranks worldwide (rank 1 → full bar).
-  const fill =
-    c.global.total > 1 ? (c.global.total - c.global.rank) / (c.global.total - 1) : 1;
-  return (
-    <div
-      className="py-[22px]"
-      style={{
-        borderBottom: last ? "1px solid transparent" : "1px solid rgba(227, 154, 103,0.1)",
-      }}
-    >
-      <div className="mb-[11px] flex items-baseline justify-between gap-3">
-        <span className="whitespace-nowrap text-[16px] text-chalk">{c.label}</span>
-        <span className="font-display text-[20px] text-chalk-hi">
-          {formatMetric(c.value, c.unit)}
-        </span>
-      </div>
-      {/* Verdigris, not copper. In this palette copper means "the surveyor's
-          hand — you are here" (selection, the playhead, links) and verdigris
-          means "the measured". A rank bar is measured data, so it is verdigris;
-          using the selection colour here would make every bar look like a
-          selected state and leave the palette with no way to say "measured". */}
-      <div
-        className="h-[5px] overflow-hidden rounded-[2px]"
-        style={{ background: "rgba(39,111,128,0.24)" }}
-      >
-        <div
-          className="h-full"
-          style={{
-            width: `${Math.max(3, fill * 100)}%`,
-            background: "linear-gradient(90deg,#2f6e62,#7cc4b3)",
-          }}
-        />
-      </div>
-      <div className="mt-[9px] font-mono text-[10px] uppercase tracking-[0.08em] text-chalk-4">
-        {ordinal(c.global.rank)} of {c.global.total} worldwide
-        {c.regional && regionLabel && (
-          <>
-            {" · "}
-            {ordinal(c.regional.rank)} of {c.regional.total} in {regionLabel}
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function HistoryHero({
-  code,
-  name,
-  hasHistory,
-  tagline,
-}: {
-  code: string;
-  name: string;
-  hasHistory: boolean;
-  tagline: string | null;
-}) {
-  if (!hasHistory) {
-    return (
-      <div className="mt-[54px] rounded-[8px] border border-copper/15 bg-depth-5/40 px-[34px] py-[26px]">
-        <div className="eyebrow tracking-[0.26em] text-chalk-3">History</div>
-        <p className="mt-2 text-[15px] text-chalk-2">
-          The sourced time-journey through {name} is being charted and verified — it will
-          arrive complete.
-        </p>
-      </div>
-    );
-  }
-  return (
-    <div className="mt-[54px]">
-    <Link
-      href={`/country/${code}/history`}
-      className="group flex items-center justify-between gap-6 rounded-[8px] border border-copper/30 px-[34px] py-[30px] transition-colors hover:border-copper"
-      style={{
-        background: "linear-gradient(120deg,rgba(200, 114, 68,0.1),rgba(200, 114, 68,0.02))",
-      }}
-    >
-      <div className="min-w-0">
-        <div className="eyebrow tracking-[0.26em] text-copper">The history journey</div>
-        <p className="mt-3 font-display text-[clamp(24px,3vw,34px)] font-[360] leading-tight tracking-[-0.01em] text-land-0">
-          {tagline ?? `How ${name} came to be`}
-        </p>
-        <p className="mt-2 font-serif text-[17px] text-chalk-2">
-          Pilot a cinematic, sourced journey through its eras — moment by moment.
-        </p>
-      </div>
-      <span
-        className="grid h-[60px] w-[60px] flex-none place-items-center rounded-full text-[24px] text-[#04161f] transition-transform group-hover:translate-x-1"
-        style={{
-          background: "linear-gradient(180deg,#e39a67,#c87244)",
-          boxShadow: "0 12px 30px -14px rgba(227, 154, 103,0.8)",
-        }}
-      >
-        →
-      </span>
-    </Link>
-
-      {/* The reading depth. The journey above is the experience; this is the
-          same sourced material as one long-form document — and the version
-          search engines and answer engines can actually read. */}
-      <Link
-        href={`/country/${code}/chronicle`}
-        className="group mt-3 flex items-center justify-between gap-4 rounded-[8px] border border-copper/[0.14] px-[34px] py-[18px] transition-colors hover:border-copper/40 hover:bg-copper/[0.04]"
-      >
-        <span className="min-w-0">
-          <span className="eyebrow block tracking-[0.26em] text-chalk-3">
-            Prefer to read?
-          </span>
-          <span className="mt-1.5 block font-serif text-[16px] text-chalk-2">
-            The full chronicle of {name} — every era, event and reference on one page.
-          </span>
-        </span>
-        <span className="flex-none font-mono text-[13px] text-copper transition-transform group-hover:translate-x-0.5">
-          →
-        </span>
-      </Link>
-    </div>
-  );
-}
-
 /**
- * The designed empty state for the seven codes with no statistical series.
- *
- * These pages used to end in a void below the Quick Facts — the dimmed tabs
- * said "nothing here" without ever saying why, which reads as an oversight on
- * our part rather than a fact about the world's statistical apparatus. The
- * reasons are not interchangeable (a continent with no government is not the
- * same case as a state recognised by one UN member), so each is named.
- *
- * The bar this states is a real one and it is the same bar the histories obey:
- * a figure appears here only if a named publisher stands behind it.
+ * The designed empty state for the codes with no statistical series: the
+ * reasons are not interchangeable (a continent with no government is not a
+ * state recognised by one UN member), so each is named.
  */
 function NoSeriesState({ meta }: { meta: CountryMeta }) {
   const note = NO_DATA_NOTES[meta.code];
   return (
-    <section className="mt-2 max-w-[46rem]">
-      <span aria-hidden className="stratum-rule mb-6 block max-w-[120px]" />
-      <h2 className="font-display text-[clamp(1.4rem,3vw,1.9rem)] font-[400] leading-tight text-chalk-hi">
-        No independent statistical series meets our sourcing bar yet
-      </h2>
-      <p className="mt-4 font-serif text-[1.05rem] leading-[1.62] text-chalk-read">
-        {note ??
-          `No publisher we draw on reports the economic, social or environmental series for ${meta.name} as a separate entity.`}
-      </p>
-      <p className="mt-4 text-[0.95rem] leading-relaxed text-chalk-2">
-        Every figure in a Terralore dossier carries the publisher that produced it
-        and the year it refers to. Where no such figure exists we record the gap
-        rather than estimating one — an imputed number is indistinguishable from a
-        sourced one once it is rendered in the same card, and that would make the
-        whole dossier un-citable.
-      </p>
-      <p className="mt-4 text-[0.95rem] leading-relaxed text-chalk-2">
-        What is above — capital, population, area, languages, currency — comes from
-        the atlas&apos; own reference dataset. It is a smaller claim, honestly made.
-      </p>
+    <section className="bed">
+      <div className="mx-auto max-w-5xl px-5 py-5">
+        <h2 className="max-w-2xl font-display text-[20px] leading-tight font-extrabold tracking-tight uppercase">
+          No independent statistical series meets the sourcing bar yet
+        </h2>
+        <p className="mt-3 max-w-2xl font-sans text-[14.5px] leading-relaxed">
+          {note ??
+            `No publisher this atlas draws on reports the economic, social or environmental series for ${meta.name} as a separate entity.`}
+        </p>
+        <p className="mt-3 max-w-2xl font-sans text-[13px] leading-relaxed text-umber">
+          Every figure in a Terralore dossier carries the publisher that produced it and the
+          year it refers to. Where no such figure exists the gap is recorded rather than
+          estimated — an imputed number is indistinguishable from a sourced one once it is
+          rendered in the same row, and that would make the whole dossier un-citable. What is
+          above — capital, population, area, languages, currency — comes from the atlas&apos;
+          own reference dataset. It is a smaller claim, honestly made.
+        </p>
+      </div>
     </section>
   );
 }
 
-/**
- * The visible data-vintage stamp.
- *
- * A reference site that shows a number without saying how old it is is asking to
- * be trusted on faith. The vintage was previously only mentioned in a sentence of
- * italic prose at the very bottom of the footer, which is the same as not saying
- * it. This puts the originating publishers and the refresh month where a reader
- * meets them: one line, monospace, above the citations it summarises.
- *
- * Publishers are de-duplicated across the "X / World Bank" redistribution pairs —
- * a reader wants to know the data came from SIPRI and ITU, not that the World Bank
- * appears in four source records.
- */
+/** The visible data-vintage stamp — publishers + refresh month, one mono line. */
 function vintageStamp(
   sources: Record<string, DataSource>,
   updated: string | null,
 ): string | null {
   const list = Object.values(sources);
   if (!list.length || !updated) return null;
-
-  // "SIPRI / World Bank" → the originator is the first segment. World Bank is kept
-  // only when it is a source's sole publisher (i.e. WDI itself).
   const names = new Set<string>();
   for (const s of list) {
     const first = s.publisher.split("/")[0].trim();
     names.add(first === "World Bank" ? "World Bank WDI" : first);
   }
-
   const vintage = updated.slice(0, 7); // YYYY-MM
-  return `Data: ${[...names].join(" · ")} — ${vintage} vintage`;
+  return `DATA: ${[...names].join(" · ")} — ${vintage} VINTAGE`;
 }
 
 function SourcesFooter({
@@ -658,37 +687,34 @@ function SourcesFooter({
   updated: string | null;
 }) {
   const stamp = vintageStamp(sources, updated);
-
   return (
-    <footer className="mt-16 border-t border-copper/[0.12] pt-8">
-      <div className="eyebrow mb-5 tracking-[0.26em] text-chalk-3">
-        Sources &amp; methodology
-      </div>
-      {stamp && (
-        <p className="mb-5 font-mono text-[12px] leading-relaxed tracking-[0.04em] text-copper">
-          {stamp}
+    <footer className="bed">
+      <div className="mx-auto max-w-5xl px-5 py-4">
+        <div className="eyebrow text-umber">Sources &amp; methodology</div>
+        {stamp && <p className="mt-2 font-mono text-[11px] text-oxide">{stamp}</p>}
+        <ul className="mt-3 flex flex-col gap-2">
+          {Object.values(sources).map((s) => (
+            <li key={s.id} className="font-sans text-[13.5px] leading-snug">
+              <a
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-oxide underline underline-offset-2"
+              >
+                {s.label}
+              </a>{" "}
+              <span className="text-umber">
+                — {s.publisher} · {s.license} · accessed {s.accessed}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-umber">
+          Figures show the latest year with data for each indicator; gaps appear as hatched
+          marks rather than being estimated. Disputed and non-UN territories may be partially
+          or wholly absent from these datasets.
         </p>
-      )}
-      <ul className="mb-6 flex flex-col gap-[11px]">
-        {Object.values(sources).map((s) => (
-          <li key={s.id} className="text-[14px] leading-snug text-chalk-2">
-            <a
-              href={s.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-chalk-read transition-colors hover:text-copper hover:underline"
-            >
-              {s.label}
-            </a>{" "}
-            — {s.publisher} · {s.license} · accessed {s.accessed}
-          </li>
-        ))}
-      </ul>
-      <p className="max-w-[680px] font-serif text-[15px] italic leading-relaxed text-chalk-4">
-        Figures show the latest year with data for each indicator; gaps appear as “—”
-        rather than being estimated. Disputed and non-UN territories may be partially or
-        wholly absent from these datasets.
-      </p>
+      </div>
     </footer>
   );
 }

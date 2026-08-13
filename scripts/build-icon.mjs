@@ -8,17 +8,17 @@
 // final — clean them, never redraw them.
 //
 //   app/icon0.svg        the favicon — TRANSPARENT compact cut, theme-adaptive:
-//                        ink by default, chalk under prefers-color-scheme:dark,
+//                        basalt by default, bone under prefers-color-scheme:dark,
 //                        so it reads on both tab-bar colours. `sizes="any"`.
 //   app/favicon.ico      16+32+48 PNG-encoded ICO — the file browsers weight
 //                        most heavily. Rasters cannot media-query, so these
-//                        sit chalk on a depth-6 rounded plate: legible on any
+//                        sit basalt on a bone rounded plate: legible on any
 //                        tab bar by carrying their own ground.
-//   app/icon1.png        512 px, full cut with the copper accent on SOLID
-//                        depth-6 — the Organization logo the JSON-LD points at
+//   app/icon1.png        512 px, full cut with the oxide accent on SOLID
+//                        bone — the Organization logo the JSON-LD points at
 //                        (Google wants a raster that survives any backdrop)
 //                        and the fallback for browsers that skip SVG favicons.
-//   app/apple-icon.png   180 px on solid depth-6. iOS composites transparency
+//   app/apple-icon.png   180 px on solid bone. iOS composites transparency
 //                        onto black and does its own corner masking; solid is
 //                        correct here and only here… and now everywhere, since
 //                        one-colour-on-transparent cannot survive both tab
@@ -39,11 +39,12 @@ import sharp from "sharp";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-// Stratum tokens as literals — this runs outside the CSS layer.
-const CHALK = "#e6ecea";
-const INK = "#16201e";
-const COPPER = "#c87244";
-const DEPTH_6 = "#04161f";
+// Strata pigments as literals — this runs outside the CSS layer. Twin of
+// components/brand/geometry.ts BRAND; if one changes (it should not),
+// change both.
+const BONE = "#efe7d8";
+const BASALT = "#221e19";
+const OXIDE = "#a64b26";
 
 // The two frozen cuts (see components/brand/geometry.ts — keep in step).
 const FULL = {
@@ -67,7 +68,7 @@ const COMPACT = {
  */
 function markSvg(cut, { fg, accent = false, background = null, radius = 0, margin = 0 } = {}) {
   const vb = cut.vb + margin * 2;
-  const dot = accent ? COPPER : fg;
+  const dot = accent ? OXIDE : fg;
   const plate = background
     ? `<rect x="${-margin}" y="${-margin}" width="${vb}" height="${vb}" rx="${radius}" fill="${background}"/>`
     : "";
@@ -86,14 +87,14 @@ const png = (svg, size) =>
 // A vector favicon may carry a media query; rasters below carry a plate.
 const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <title>Terralore</title>
-  <style>svg{color:${INK}}@media(prefers-color-scheme:dark){svg{color:${CHALK}}}</style>
+  <style>svg{color:${BASALT}}@media(prefers-color-scheme:dark){svg{color:${BONE}}}</style>
   <path d="${COMPACT.path}" fill="none" stroke="currentColor" stroke-width="${COMPACT.stroke}"/>
   <circle cx="${COMPACT.dot.cx}" cy="${COMPACT.dot.cy}" r="${COMPACT.dot.r}" fill="currentColor"/>
 </svg>`;
 writeFileSync(join(root, "app/icon0.svg"), faviconSvg);
 
 // ── the logo raster: 512, full cut, accent, solid ground ────────────────────
-const logoSvg = markSvg(FULL, { fg: CHALK, accent: true, background: DEPTH_6, margin: 16 });
+const logoSvg = markSvg(FULL, { fg: BASALT, accent: true, background: BONE, margin: 16 });
 writeFileSync(join(root, "app/icon1.png"), await png(logoSvg, 512));
 
 // ── the apple icon: 180, solid ground ───────────────────────────────────────
@@ -102,13 +103,13 @@ writeFileSync(join(root, "app/apple-icon.png"), await png(logoSvg, 180));
 // ── the manifest icons: 192 + 512, maskable-safe inset ──────────────────────
 // Safe zone is the central 80% circle; margin 24 puts the 80-unit horizon at
 // 80/144 ≈ 56% of the frame — inside the zone with the dot included.
-const maskableSvg = markSvg(FULL, { fg: CHALK, accent: true, background: DEPTH_6, margin: 24 });
+const maskableSvg = markSvg(FULL, { fg: BASALT, accent: true, background: BONE, margin: 24 });
 writeFileSync(join(root, "public/icon-192.png"), await png(maskableSvg, 192));
 writeFileSync(join(root, "public/icon-512.png"), await png(maskableSvg, 512));
 
 // ── the .ico: 16 + 32 + 48, compact cut on a rounded depth-6 plate ──────────
 const icoSizes = [16, 32, 48];
-const icoSvg = markSvg(COMPACT, { fg: CHALK, background: DEPTH_6, radius: 6, margin: 0 });
+const icoSvg = markSvg(COMPACT, { fg: BASALT, background: BONE, radius: 6, margin: 0 });
 const icoPngs = [];
 for (const sz of icoSizes) icoPngs.push(await png(icoSvg, sz));
 const dir = Buffer.alloc(6 + 16 * icoSizes.length);
@@ -140,7 +141,7 @@ const avatarMask = Buffer.from(
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><circle cx="48" cy="48" r="48" fill="#fff"/></svg>`,
 );
 const avatar = await sharp(
-  Buffer.from(markSvg(COMPACT, { fg: CHALK, background: DEPTH_6, margin: 0 })),
+  Buffer.from(markSvg(COMPACT, { fg: BASALT, background: BONE, margin: 0 })),
 )
   .resize(96, 96)
   .composite([{ input: avatarMask, blend: "dest-in" }])

@@ -1,72 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import { IBM_Plex_Mono, IBM_Plex_Sans, Literata } from "next/font/google";
+import { bricolage, plexMono, schibsted } from "@/app/fonts";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo";
 import "./globals.css";
-
-/* ── Type — see DESIGN.md ───────────────────────────────────────────────────
-   Three families, and the loading strategy is a measured decision rather than
-   a preference.
-
-   The previous system ran four families across FIVE files, 230 KB, every one
-   of them preloaded at high priority — which put them ahead of the LCP image
-   in the queue. On Lighthouse's 1.6 Mbps mobile profile that is ~1.15s of
-   transfer before the largest element can begin painting, and it matched the
-   observed FCP 0.9s → LCP 4.2s gap almost exactly.
-
-   Stratum cuts the critical path to TWO files:
-
-     Literata        display AND reading. It was designed for long-form screen
-                     reading and carries enough structure at weight to work at
-                     display sizes, so one family replaces two (Fraunces for
-                     display + Newsreader for reading). Preloaded.
-
-     Literata italic declared as a SEPARATE instance with preload:false. Italic
-                     is used for taglines and emphasis only — never above the
-                     fold on the landing page, and never the LCP element — so
-                     it has no business on the critical path. Declaring it
-                     separately is what makes that possible; a single instance
-                     with style:["normal","italic"] preloads both.
-
-     IBM Plex Sans   interface. Preloaded.
-     IBM Plex Mono   cartographic detail — codes, coordinates, years. One
-                     superfamily with Plex Sans (shared metrics, shared
-                     institutional character). NOT preloaded: it renders small
-                     uppercase labels where a swap is imperceptible.
-
-   `display: "swap"` throughout, so text is always readable immediately in the
-   fallback rather than blocked on a webfont. */
-
-const literata = Literata({
-  variable: "--ff-display",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "600", "700"],
-});
-
-const literataItalic = Literata({
-  variable: "--ff-serif-italic",
-  subsets: ["latin"],
-  display: "swap",
-  style: ["italic"],
-  weight: ["400", "600"],
-  preload: false,
-});
-
-const plexSans = IBM_Plex_Sans({
-  variable: "--ff-sans",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "600"],
-});
-
-const plexMono = IBM_Plex_Mono({
-  variable: "--ff-mono",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500"],
-  preload: false,
-});
 
 export const metadata: Metadata = {
   // metadataBase makes every relative `alternates.canonical` / OG url absolute.
@@ -108,11 +43,12 @@ export const metadata: Metadata = {
   category: "reference",
 };
 
-// The browser-chrome colour is the brand ground (depth-6) — the same token the
-// manifest, the apple icon's plate and the OG cards stand on, so a shared link,
-// an installed app and an open tab all frame the site in one colour.
+// The browser-chrome colour is bone — the one page ground of the strata
+// world, the same value the manifest, the icon plates and the OG cards stand
+// on, so a shared link, an installed app and an open tab all frame the site
+// in one colour.
 export const viewport: Viewport = {
-  themeColor: "#04161f",
+  themeColor: "#efe7d8",
 };
 
 export default function RootLayout({
@@ -123,10 +59,20 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${literata.variable} ${literataItalic.variable} ${plexSans.variable} ${plexMono.variable} h-full antialiased`}
+      className={`${bricolage.variable} ${schibsted.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
-      <GoogleAnalytics gaId="G-DXEHRSTWXX" />
+      {/* Analytics load on ENGAGEMENT — first scroll/pointer/key — or after 7
+          idle seconds, whichever comes first. The tag's ~200ms of throttled
+          main-thread evaluation is a single long task; loading it on the
+          gesture (or well past settle) keeps it out of every reader's — and
+          every measurement's — initial window. Trade-off, accepted: a visit
+          that bounces inside 7s with zero interaction goes unrecorded. */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function(){var d=0,f=function(){if(d)return;d=1;clearTimeout(t);var s=document.createElement("script");s.src="https://www.googletagmanager.com/gtag/js?id=G-DXEHRSTWXX";s.async=!0;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config","G-DXEHRSTWXX")},t=setTimeout(f,7e3),e=["scroll","pointerdown","keydown","touchstart"],i=0;for(;i<e.length;i++)addEventListener(e[i],f,{passive:!0,once:!0})})();`,
+        }}
+      />
     </html>
   );
 }

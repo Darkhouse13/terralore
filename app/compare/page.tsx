@@ -64,31 +64,33 @@ export default function CompareHubPage() {
           ]),
         ]}
       />
-      <main className="paper-grain min-h-screen bg-land-0 text-ink">
-        <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-          <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+      <main className="min-h-screen bg-bone">
+        <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+          <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" className="transition-colors hover:text-copper-deep">
-                  Terralore
+                <Link href="/" className="text-oxide">
+                  ← Terralore
                 </Link>
               </li>
-              <li aria-hidden="true">/</li>
-              <li aria-current="page" className="text-copper-deep">
+              <li aria-hidden="true" className="text-oxide">
+                ·
+              </li>
+              <li aria-current="page" className="text-umber">
                 Compare
               </li>
             </ol>
           </nav>
 
-          <header
-            className="mt-9 stratum-top pb-10"
-            style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-          >
-            <p className="eyebrow text-verdigris-deep">Side by side</p>
-            <h1 className="mt-4 max-w-[16ch] font-display text-[clamp(2.6rem,8vw,4.2rem)] font-[380] leading-[0.96] tracking-[-0.015em] text-[#16201e]">
-              Nations, compared
+          <header className="settle mt-3 pb-4">
+            <p className="eyebrow text-umber">Side by side</p>
+            <h1 className="mt-3 max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
+              Compared
             </h1>
-            <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.1rem,3.2vw,1.35rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
+            <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
+              {pages.length} pairs · {events.toLocaleString("en")} crossed events
+            </p>
+            <p className="mt-3 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
               {pages.length}{" "}
               pairs — every land-border neighbourhood, the G20, and
               a curated set of entangled histories. Each page sets two sourced
@@ -96,38 +98,40 @@ export default function CompareHubPage() {
               the events each chronicle records of the other. Compared, never
               graded.
             </p>
-            <StrataPattern seed="compare" className="mt-7" blocks={28} />
+            <StrataPattern seed="compare" className="mt-5" blocks={28} />
 
-            <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
+            <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
               <Stat label="Pairs" value={String(pages.length)} />
               <Stat label="Crossed events" value={events.toLocaleString("en")} />
               <Stat label="Nations" value={String(new Set(pages.flatMap((p) => [p.a.code, p.b.code])).size)} />
             </dl>
           </header>
 
-          <section className="py-2">
-            <ul className="grid gap-x-8 sm:grid-cols-2">
+          <section className="mt-6">
+            <ul className="grid gap-x-8 border-t-2 border-basalt sm:grid-cols-2">
               {pages.map((p) => (
-                <li key={p.slug} className="border-t border-[rgba(22,32,30,0.1)] py-2.5">
+                <li key={p.slug} className="border-b-2 border-basalt">
                   <Link
                     href={routes.comparePair(p.slug)}
                     prefetch={false}
-                    className="font-sans text-[0.95rem] leading-snug text-[#16201e] transition-colors hover:text-copper-deep"
+                    className="pressable block py-2.5"
                   >
-                    {compareTitle(p)}
+                    <span className="block font-sans text-[14px] font-medium leading-snug text-basalt">
+                      {compareTitle(p)}
+                    </span>
+                    <span className="mt-0.5 block font-mono text-[10.5px] tabular-nums text-umber">
+                      {p.bothCount} shared indicators
+                      {p.sharedEvents.length > 0 &&
+                        ` · ${p.sharedEvents.length} crossed ${p.sharedEvents.length === 1 ? "event" : "events"}`}
+                    </span>
                   </Link>
-                  <p className="mt-0.5 font-mono text-[0.66rem] tabular-nums text-ink-3">
-                    {p.bothCount} shared indicators
-                    {p.sharedEvents.length > 0 &&
-                      ` · ${p.sharedEvents.length} crossed ${p.sharedEvents.length === 1 ? "event" : "events"}`}
-                  </p>
                 </li>
               ))}
             </ul>
           </section>
 
-          <footer className="mt-14 border-t border-land-2 pt-8">
-            <p className="max-w-[680px] font-serif text-[0.95rem] italic leading-relaxed text-ink-2">
+          <footer className="mt-14 border-t-2 border-basalt pt-5">
+            <p className="max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
               The pair set is derived, committed and validated — not generated on
               request: neighbour pairs from the atlas&rsquo;s border data,
               spot-checked against known boundary lists; a thin-content gate
@@ -145,10 +149,8 @@ export default function CompareHubPage() {
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="eyebrow text-ink-3">{label}</dt>
-      <dd className="mt-1 font-display text-[1.55rem] font-[420] tabular-nums leading-none text-[#16201e]">
-        {value}
-      </dd>
+      <dt className="eyebrow text-umber">{label}</dt>
+      <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">{value}</dd>
     </div>
   );
 }

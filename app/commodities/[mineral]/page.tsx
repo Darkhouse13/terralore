@@ -33,7 +33,9 @@ import {
  *
  * Server-rendered, no JavaScript: the whole table — both years, shares,
  * withheld flags — is in the initial HTML, the same discipline as the
- * chronicle and the chronology.
+ * chronicle and the chronology. The proof-flip is CSS-only (deviations E9):
+ * press a row and it turns over to its observation label; PROOF VIEW is a
+ * native checkbox.
  */
 
 export function generateStaticParams() {
@@ -86,6 +88,23 @@ function pct(share: number | null): string {
   return `${p.toFixed(p >= 10 ? 0 : p >= 1 ? 1 : 2)}%`;
 }
 
+// The sediment walk: the largest producer is the deepest pigment, then upward
+// through the beds; everything below the podium is clay. Decoration over text
+// that carries the real figures (house rule).
+const barColor = (rank: number) =>
+  rank === 1
+    ? "var(--color-basalt)"
+    : rank === 2
+      ? "var(--color-umber)"
+      : rank === 3
+        ? "var(--color-oxide)"
+        : "var(--color-clay)";
+
+// The hatch of the Rest of world band: real, published tonnage that is not
+// attributable to a single nation on this page.
+const REST_HATCH =
+  "repeating-linear-gradient(45deg, var(--color-absent) 0 3px, var(--color-bone) 3px 7px)";
+
 export default async function CommodityPage({
   params,
 }: {
@@ -100,6 +119,8 @@ export default async function CommodityPage({
   const top3 = c.producers.filter((p) => p.estimate != null).slice(0, 3);
   const withheld = c.producers.filter((p) => p.reportedWithheld || p.estimateWithheld);
   const producing = c.producers.filter((p) => p.reported != null || p.estimate != null).length;
+  const idx = COMMODITY_META.findIndex((m) => m.slug === c.slug) + 1;
+  const total = COMMODITY_META.length;
 
   return (
     <>
@@ -113,44 +134,45 @@ export default async function CommodityPage({
         ]),
       ]}
     />
-    <main className="paper-grain min-h-screen bg-land-0 text-ink">
-      <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-        <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+    <main className="min-h-screen bg-bone">
+      <div className="mx-auto max-w-4xl px-5 pt-4 pb-16">
+        <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
-              <Link href="/" className="transition-colors hover:text-copper-deep">
-                Terralore
+              <Link href="/commodities" className="text-oxide">
+                ← Suppliers
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
-            <li>
-              <Link href="/commodities" className="transition-colors hover:text-copper-deep">
-                Commodities
-              </Link>
+            <li aria-hidden="true" className="text-oxide">
+              ·
             </li>
-            <li aria-hidden="true">/</li>
-            <li aria-current="page" className="text-copper-deep">
+            <li aria-current="page" className="text-oxide">
               {c.name}
+            </li>
+            <li aria-hidden="true" className="text-oxide">
+              ·
+            </li>
+            <li className="text-umber">
+              {idx}/{total}
             </li>
           </ol>
         </nav>
 
-        <header
-          className="mt-9 stratum-top pb-10"
-          style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-        >
-          <p className="eyebrow text-verdigris-deep">Who supplies the world</p>
-
-          <h1 className="mt-4 max-w-[18ch] font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
+        <header className="settle mt-3 pb-4">
+          <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
             {c.name}
           </h1>
-
-          <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.1rem,3.2vw,1.35rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
+          <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
+            Who supplies the world · tonnes of mine production · observed {yr} · {ye}{" "}
+            est.
+          </p>
+          <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
             {METRIC_DEFS[c.key]}
           </p>
 
-          <p className="mt-6 max-w-[46rem] font-serif text-[1.12rem] leading-[1.66] text-[#16201e]">
-            Figures are <strong>mine production</strong>{" "}— the MCS statistics row
+          <p className="mt-4 max-w-2xl font-sans text-[14px] leading-relaxed">
+            Figures are <strong className="text-basalt">mine production</strong>{" "}— the
+            MCS statistics row
             &ldquo;{c.detail}&rdquo; — as published by the U.S. Geological Survey in the{" "}
             {source.label}. They measure what left mines in each calendar year: not
             reserves in the ground, and not refined or smelted output, which for several
@@ -158,7 +180,7 @@ export default async function CommodityPage({
             estimate; {yr} is the reported figure.
           </p>
 
-          <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+          <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
             <Stat label={`World total · ${ye} est.`} value={formatTonnes(c.world.estimate)} />
             <Stat label={`World total · ${yr}`} value={formatTonnes(c.world.reported)} />
             <Stat label="Producers listed" value={String(producing)} />
@@ -166,7 +188,7 @@ export default async function CommodityPage({
           </dl>
 
           {top3.length === 3 && (
-            <p className="mt-7 max-w-[46rem] font-serif text-[1.02rem] leading-relaxed text-[#454f4c]">
+            <p className="mt-5 max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
               The three largest producers — {top3[0].name}, {top3[1].name} and{" "}
               {top3[2].name} — account for {pct(c.topThreeShare)} of the {ye} world
               estimate of {formatTonnes(c.world.estimate)}.
@@ -175,59 +197,56 @@ export default async function CommodityPage({
         </header>
 
         {/* ── The share table: every listed producer, both years, one residual ── */}
-        <section className="py-2">
-          <span
-            aria-hidden
-            className="stratum-rule mb-7 block max-w-[110px]"
-            style={{ "--stratum-tint": "var(--color-verdigris-deep)" } as React.CSSProperties}
-          />
-          <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
+        <section className="mt-4">
+          <h2 className="font-display text-[22px] font-extrabold tracking-tight uppercase">
             Share of world production
           </h2>
-          <p className="mt-2.5 max-w-[46rem] font-serif text-[1.02rem] italic leading-relaxed text-[#454f4c]">
+          <p className="mt-2 max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
             Each bar is that nation&rsquo;s share of the published world total for the{" "}
             {ye} estimate. Shares are computed against the world total itself, never
             against the sum of the producers listed.
           </p>
 
-          {/* the hatch used by the rest-of-world band */}
-          <svg aria-hidden="true" width="0" height="0" className="absolute">
-            <defs>
-              <pattern
-                id="row-hatch"
-                width="6"
-                height="6"
-                patternUnits="userSpaceOnUse"
-                patternTransform="rotate(45)"
+          <input type="checkbox" id="proofview" className="proof-toggle sr-only" />
+          <div className="mt-3">
+            <div className="flex items-baseline justify-between">
+              <p className="font-sans text-[13px] text-umber">
+                Press a row — the specimen turns over to its label. The track is 100% of
+                the world total: a quarter-width bar is a quarter of the world.
+              </p>
+              <label
+                htmlFor="proofview"
+                className="pressable flex-none py-1 pl-3 font-mono text-[10px] tracking-[0.08em] text-oxide select-none"
               >
-                <line x1="0" y1="0" x2="0" y2="6" stroke="var(--color-verdigris-deep)" strokeWidth="1.6" opacity="0.5" />
-              </pattern>
-            </defs>
-          </svg>
+                <span className="proof-off">PROOF VIEW ⟲</span>
+                <span className="proof-on">CLOSE PROOFS ⟲</span>
+              </label>
+            </div>
 
-          <ol className="mt-7">
-            {c.producers.map((p, i) => (
-              <ProducerRow key={p.code} p={p} c={c} rank={i + 1} />
-            ))}
-          </ol>
+            <ol className="mt-3 border-t-2 border-basalt">
+              {c.producers.map((p, i) => (
+                <ProducerRow key={p.code} p={p} c={c} rank={i + 1} />
+              ))}
+            </ol>
 
-          <RestOfWorldRow c={c} />
+            <RestOfWorldRow c={c} />
 
-          {withheld.length > 0 && (
-            <p className="mt-6 max-w-[46rem] text-[0.92rem] leading-relaxed text-ink-2">
-              {withheld.map((p) => p.name).join(", ")}:{" "}
-              {withheld.length === 1 ? "its" : "their"}{" "}figure is withheld by the
-              USGS (&ldquo;W&rdquo;) to avoid disclosing company proprietary data. A
-              withheld figure is an absence in this table, never a zero; where the USGS
-              folds withheld production into its world total, that tonnage sits inside
-              Rest of world here.
-            </p>
-          )}
+            {withheld.length > 0 && (
+              <p className="mt-6 max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
+                {withheld.map((p) => p.name).join(", ")}:{" "}
+                {withheld.length === 1 ? "its" : "their"}{" "}figure is withheld by the
+                USGS (&ldquo;W&rdquo;) to avoid disclosing company proprietary data. A
+                withheld figure is an absence in this table, never a zero; where the USGS
+                folds withheld production into its world total, that tonnage sits inside
+                Rest of world here.
+              </p>
+            )}
+          </div>
         </section>
 
         {/* ── all ten, for lateral movement ── */}
-        <nav aria-label="All commodities" className="mt-12">
-          <div className="eyebrow mb-4 text-ink-3">The ten commodities</div>
+        <nav aria-label="All commodities" className="mt-10">
+          <div className="eyebrow mb-3 text-umber">The ten commodities</div>
           <ul className="flex flex-wrap gap-2">
             {COMMODITY_META.map((m) => (
               <li key={m.slug}>
@@ -235,10 +254,8 @@ export default async function CommodityPage({
                   href={`/commodities/${m.slug}`}
                   prefetch={false}
                   aria-current={m.slug === c.slug ? "page" : undefined}
-                  className={`inline-block rounded-[3px] border px-3.5 py-1.5 font-sans text-[0.85rem] transition-colors ${
-                    m.slug === c.slug
-                      ? "border-verdigris-deep bg-verdigris-deep text-land-0"
-                      : "border-[rgba(47,110,98,0.35)] text-verdigris-deep hover:bg-[rgba(87,166,149,0.12)]"
+                  className={`pressable inline-block border-2 border-basalt px-3.5 py-1.5 font-sans text-[13px] ${
+                    m.slug === c.slug ? "bg-basalt text-bone" : "text-basalt"
                   }`}
                 >
                   {m.name}
@@ -248,20 +265,22 @@ export default async function CommodityPage({
           </ul>
         </nav>
 
-        <footer className="mt-14 border-t border-land-2 pt-8">
-          <div className="eyebrow mb-4 text-ink-3">Source</div>
-          <p className="text-[0.95rem] leading-relaxed text-ink-2">
+        <footer className="mt-10 border-t-2 border-basalt pt-5">
+          <div className="eyebrow mb-3 text-umber">Source</div>
+          <p className="font-sans text-[13.5px] leading-relaxed">
             <a
               href={source.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-ink underline-offset-2 transition-colors hover:text-copper-deep hover:underline"
+              className="font-medium text-oxide underline underline-offset-2"
             >
               {source.label}
             </a>{" "}
-            — {source.publisher} · {source.license} · accessed {source.accessed}.
+            <span className="text-umber">
+              — {source.publisher} · {source.license} · accessed {source.accessed}.
+            </span>
           </p>
-          <p className="mt-4 max-w-[680px] font-serif text-[0.95rem] italic leading-relaxed text-ink-2">
+          <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-umber">
             Rest of world is the difference between the published world total and the
             producers listed: the MCS &ldquo;Other countries&rdquo; aggregate, withheld
             figures, and production this atlas does not file under a separate entity.
@@ -280,34 +299,39 @@ export default async function CommodityPage({
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="eyebrow text-ink-3">{label}</dt>
-      <dd className="mt-1 font-display text-[1.55rem] font-[420] tabular-nums leading-none text-[#16201e]">
-        {value}
-      </dd>
+      <dt className="eyebrow text-umber">{label}</dt>
+      <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">{value}</dd>
     </div>
   );
 }
 
 /**
- * One producer's share, drawn to an absolute scale: the track is 100% of the
- * published world total, so a 24% bar reads as a quarter of the world at a
+ * One producer's share, drawn to an absolute scale: the sand track is 100% of
+ * the published world total, so a 24% bar reads as a quarter of the world at a
  * glance and the ten pages stay comparable with each other. The bar is
  * aria-hidden decoration; every figure it encodes sits beside it as text.
+ * A withheld estimate renders the absence chip and no bar — an absence has
+ * no length.
  */
-function ShareBar({ share, rest = false }: { share: number | null; rest?: boolean }) {
+function ShareBar({
+  share,
+  fill,
+  border = false,
+}: {
+  share: number | null;
+  fill: string;
+  border?: boolean;
+}) {
   const width = share == null ? 0 : Math.max(share * 100, 0.4);
   return (
-    <svg aria-hidden="true" className="block h-[5px] w-full">
-      <rect width="100%" height="5" rx="2" fill="rgba(22,32,30,0.08)" />
+    <div aria-hidden="true" className="mt-[6px] h-[14px] bg-sand">
       {share != null && (
-        <rect
-          width={`${width}%`}
-          height="5"
-          rx="2"
-          fill={rest ? "url(#row-hatch)" : "var(--color-verdigris-deep)"}
+        <div
+          className={`h-full${border ? " border-2 border-basalt" : ""}`}
+          style={{ width: `${width}%`, background: fill }}
         />
       )}
-    </svg>
+    </div>
   );
 }
 
@@ -315,7 +339,7 @@ function Figures({ p, c }: { p: ProducerShare; c: Commodity }) {
   const cell = (value: number | null, share: number | null, held: boolean) =>
     held ? "withheld (W)" : value == null ? "—" : `${formatTonnes(value)} · ${pct(share)}`;
   return (
-    <p className="mt-1.5 font-mono text-[0.72rem] tabular-nums leading-relaxed text-ink-3">
+    <p className="mt-[3px] font-mono text-[11px] tabular-nums leading-relaxed text-umber">
       {c.years.reported}: {cell(p.reported, p.shareReported, p.reportedWithheld)}
       <span aria-hidden="true"> &nbsp;·&nbsp; </span>
       {c.years.estimate} est.: {cell(p.estimate, p.shareEstimate, p.estimateWithheld)}
@@ -324,24 +348,50 @@ function Figures({ p, c }: { p: ProducerShare; c: Commodity }) {
 }
 
 function ProducerRow({ p, c, rank }: { p: ProducerShare; c: Commodity; rank: number }) {
+  const source = commoditiesSource();
   return (
-    <li className="grid gap-x-6 gap-y-1 border-t border-[rgba(22,32,30,0.12)] py-3.5 sm:grid-cols-[minmax(0,15rem)_1fr] sm:items-center">
-      <div className="flex items-baseline gap-2.5">
-        <span className="w-[1.6rem] flex-none font-mono text-[0.68rem] tabular-nums text-ink-3">
-          {rank}
-        </span>
-        <Link
-          href={`/country/${p.code}#m=${c.key}&tab=resources`}
-          prefetch={false}
-          className="font-display text-[1.08rem] font-[440] leading-snug text-[#16201e] transition-colors hover:text-copper-deep"
-        >
-          {p.flag && <span className="mr-1.5">{p.flag}</span>}
-          {p.name}
-        </Link>
-      </div>
-      <div>
-        <ShareBar share={p.shareEstimate} />
-        <Figures p={p} c={c} />
+    <li
+      className="border-b-2 border-basalt"
+      style={{ contentVisibility: "auto", containIntrinsicBlockSize: "70px" }}
+    >
+      <div className="flip-scene flip-press">
+        <div className="flip-card h-[68px]">
+          <div className="flip-face pt-[9px]">
+            <div className="flex items-baseline justify-between gap-3">
+              <div className="min-w-0 truncate font-mono text-[12.5px] uppercase">
+                <span className="text-oxide">{String(rank).padStart(2, "0")}</span>{" "}
+                <Link
+                  href={`/country/${p.code}#m=${c.key}&tab=resources`}
+                  prefetch={false}
+                  className="text-basalt"
+                >
+                  {p.name}
+                </Link>
+              </div>
+              {p.estimateWithheld && (
+                <span className="not-observed flex-none text-[9.5px]">WITHHELD (W)</span>
+              )}
+            </div>
+            <Figures p={p} c={c} />
+            {!p.estimateWithheld && (
+              <ShareBar share={p.shareEstimate} fill={barColor(rank)} />
+            )}
+            <span className="sr-only">
+              Observed {c.years.estimate} est. · {source.publisher}
+            </span>
+          </div>
+          <div aria-hidden className="flip-face flip-back">
+            <div className="flex h-full flex-col justify-center gap-[3px] px-3">
+              <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase">
+                OBSERVED {c.years.estimate} EST · {source.id.toUpperCase()} —{" "}
+                {source.publisher}
+              </div>
+              <div className="font-sans text-[11.5px] text-clay">
+                mine production, not reserves · share of the published world total
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </li>
   );
@@ -362,26 +412,20 @@ function restCell(value: number, share: number): string {
 /**
  * The residual, as its own row rather than a footnote: world total minus the
  * listed producers. Hatched, not solid — it is real, published tonnage, but
- * not attributable to a single nation on this page.
+ * not attributable to a single nation on this page. It does not flip: the
+ * label belongs to observations of named producers.
  */
 function RestOfWorldRow({ c }: { c: Commodity }) {
   return (
-    <div className="grid gap-x-6 gap-y-1 border-t border-[rgba(22,32,30,0.12)] py-3.5 sm:grid-cols-[minmax(0,15rem)_1fr] sm:items-center">
-      <div className="flex items-baseline gap-2.5">
-        <span className="w-[1.6rem] flex-none" aria-hidden="true" />
-        <span className="font-display text-[1.08rem] font-[440] italic leading-snug text-ink-2">
-          Rest of world
-        </span>
-      </div>
-      <div>
-        <ShareBar share={c.restOfWorld.shareEstimate} rest />
-        <p className="mt-1.5 font-mono text-[0.72rem] tabular-nums leading-relaxed text-ink-3">
-          {c.years.reported}: {restCell(c.restOfWorld.reported, c.restOfWorld.shareReported)}
-          <span aria-hidden="true"> &nbsp;·&nbsp; </span>
-          {c.years.estimate} est.:{" "}
-          {restCell(c.restOfWorld.estimate, c.restOfWorld.shareEstimate)}
-        </p>
-      </div>
+    <div className="border-b-2 border-basalt py-[9px]">
+      <p className="font-mono text-[12.5px] uppercase text-umber">Rest of world</p>
+      <p className="mt-[3px] font-mono text-[11px] tabular-nums leading-relaxed text-umber">
+        {c.years.reported}: {restCell(c.restOfWorld.reported, c.restOfWorld.shareReported)}
+        <span aria-hidden="true"> &nbsp;·&nbsp; </span>
+        {c.years.estimate} est.:{" "}
+        {restCell(c.restOfWorld.estimate, c.restOfWorld.shareEstimate)}
+      </p>
+      <ShareBar share={c.restOfWorld.shareEstimate} fill={REST_HATCH} border />
     </div>
   );
 }

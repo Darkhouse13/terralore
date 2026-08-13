@@ -1,33 +1,33 @@
 /**
- * The wordmark — "Terralore." in the display serif, and the terminal full stop
- * is not optional: this component exists for masthead / lockup / signature
- * contexts, where the stop is the brand's voice (DESIGN.md, "The wordmark").
- * Navigation (breadcrumbs, link text) is not such a context and keeps plain
- * text — it does not use this component.
+ * The wordmark — TERRALORE stamped in the display face (Bricolage 800,
+ * caps). The v1 serif "Terralore." with its terminal stop is retired with
+ * Literata itself (docs/design/strata-deviations.md, E5): a stamped
+ * formation name does not punctuate itself. This component exists for
+ * masthead / lockup / signature contexts; navigation keeps plain text and
+ * does not use it.
  *
- * `tone` names the ground, as on the mark. The stop takes copper in accent
- * contexts and the text colour otherwise. Size and tracking come from the
+ * `tone` names the ground, as on the mark. Size and tracking come from the
  * caller via `className` — the voice is fixed, the scale is contextual.
  */
 export default function Wordmark({
   tone = "auto",
-  accent = true,
   className,
 }: {
   tone?: "light" | "dark" | "auto";
-  accent?: boolean;
   className?: string;
 }) {
   const color =
     tone === "dark"
-      ? "var(--color-chalk)"
+      ? "var(--color-bone)"
       : tone === "light"
-        ? "var(--color-ink)"
+        ? "var(--color-basalt)"
         : undefined;
   return (
-    <span className={`font-display ${className ?? ""}`} style={color ? { color } : undefined}>
+    <span
+      className={`font-display font-extrabold uppercase ${className ?? ""}`}
+      style={color ? { color } : undefined}
+    >
       Terralore
-      <span style={accent ? { color: "var(--color-copper)" } : undefined}>.</span>
     </span>
   );
 }

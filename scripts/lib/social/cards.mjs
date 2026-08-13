@@ -15,8 +15,8 @@
 //   · no CTA furniture, no arrows, no "link in bio" — these are editorial
 //     artifacts; the caption, not the pixels, carries the URL.
 //
-// Chart marks follow the measured grammar: verdigris is the one data hue
-// (D5 — "the measured"), bars are thin with a rounded data end and a clear
+// Chart marks follow the measured grammar: oxide/clay are the data hues
+// bars are thin, square-cut, with a clear
 // gap, values sit in text tokens beside the mark rather than on it.
 
 import { CATEGORY_META } from "@/lib/types";
@@ -25,7 +25,7 @@ import { CARD, h, shell, eyebrow, sourcedLine, clamp, FORMATS } from "./ui.mjs";
 
 /* ── shared pieces ────────────────────────────────────────────────────────── */
 
-/** A thin verdigris bar, width in % of the row's bar track. */
+/** A thin data bar (strata pigments), width in % of the row's bar track. */
 function bar(pct, { height = 14, color = CARD.verdigrisMid } = {}) {
   return h(
     "div",
@@ -35,8 +35,6 @@ function bar(pct, { height = 14, color = CARD.verdigrisMid } = {}) {
         width: `${Math.max(pct, 0.5)}%`,
         height,
         background: color,
-        borderTopRightRadius: 4,
-        borderBottomRightRadius: 4,
       },
     }),
   );
@@ -89,7 +87,9 @@ export function onThisDayCard(subject, format) {
         "div",
         {
           style: {
-            fontFamily: "Literata",
+            fontFamily: "Bricolage",
+            fontWeight: 800,
+            textTransform: "uppercase",
             fontSize: ev.title.length > 46 ? (isPin ? 58 : 54) : isPin ? 72 : 66,
             lineHeight: 1.08,
             color: CARD.chalkHi,
@@ -101,8 +101,7 @@ export function onThisDayCard(subject, format) {
         "div",
         {
           style: {
-            fontFamily: "Literata",
-            fontSize: isPin ? 31 : 29,
+                        fontSize: isPin ? 31 : 29,
             lineHeight: 1.5,
             color: CARD.chalk2,
             maxWidth: format.width - 2 * format.pad.x,
@@ -146,7 +145,9 @@ export function rankingCard(subject, format) {
         "div",
         {
           style: {
-            fontFamily: "Literata",
+            fontFamily: "Bricolage",
+            fontWeight: 800,
+            textTransform: "uppercase",
             fontSize: subject.label.length > 22 ? 52 : 64,
             lineHeight: 1.05,
             color: CARD.chalkHi,
@@ -233,7 +234,7 @@ export function commodityCard(subject, format) {
             : null,
         ),
       ),
-      bar(sharePct, { height: isPin ? 13 : 12, color: muted ? "#3a5a55" : CARD.verdigrisMid }),
+      bar(sharePct, { height: isPin ? 13 : 12, color: muted ? "#b8ac97" : CARD.verdigrisMid }),
     );
 
   return shell({
@@ -245,7 +246,7 @@ export function commodityCard(subject, format) {
       eyebrow(`Who supplies the world · ${subject.estimateYear} est.`),
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: subject.name.length > 14 ? 56 : 68, lineHeight: 1.05, color: CARD.chalkHi } },
+        { style: { fontFamily: "Bricolage", fontWeight: 800, textTransform: "uppercase", fontSize: subject.name.length > 14 ? 56 : 68, lineHeight: 1.05, color: CARD.chalkHi } },
         subject.name,
       ),
       h(
@@ -284,7 +285,7 @@ export function compareCard(subject, format) {
       { style: { display: "flex", flexDirection: "column", gap: 14 } },
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: name.length > 14 ? 44 : 54, lineHeight: 1.08, color: CARD.chalkHi } },
+        { style: { fontFamily: "Bricolage", fontWeight: 800, textTransform: "uppercase", fontSize: name.length > 14 ? 44 : 54, lineHeight: 1.08, color: CARD.chalkHi } },
         name,
       ),
       h("div", { style: { fontFamily: "mono", fontSize: 22, color: CARD.chalk3 } }, `formed ${formation}`),
@@ -306,7 +307,7 @@ export function compareCard(subject, format) {
       eyebrow("Compared · side by side"),
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: 38, color: CARD.chalk2 } },
+        { style: { fontSize: 38, color: CARD.chalk2 } },
         subject.metricLabel,
       ),
     ),
@@ -314,7 +315,7 @@ export function compareCard(subject, format) {
       "div",
       { style: { display: "flex", flexDirection: "column", gap: isPin ? 56 : 40 } },
       side(subject.aName, subject.aFormation, subject.aValueText, subject.aYear, subject.aPct, "a"),
-      h("div", { style: { display: "flex", height: 1, width: "100%", background: "#1c3a44" } }),
+      h("div", { style: { display: "flex", height: 3, width: "100%", background: "#221e19" } }),
       side(subject.bName, subject.bFormation, subject.bValueText, subject.bYear, subject.bPct, "b"),
       h(
         "div",
@@ -340,8 +341,7 @@ function slideIndex(i, total) {
         style: {
           width: 9,
           height: 9,
-          borderRadius: 9,
-          background: k === i ? CARD.copper : "#2a4650",
+          background: k === i ? CARD.copper : "#b8ac97",
         },
       }),
     ),
@@ -373,12 +373,12 @@ export function rankingCarousel(subject) {
       { style: { display: "flex", flexDirection: "column", gap: 30 } },
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: subject.label.length > 22 ? 64 : 84, lineHeight: 1.05, color: CARD.chalkHi } },
+        { style: { fontFamily: "Bricolage", fontWeight: 800, textTransform: "uppercase", fontSize: subject.label.length > 22 ? 64 : 84, lineHeight: 1.05, color: CARD.chalkHi } },
         subject.label,
       ),
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: 30, lineHeight: 1.45, color: CARD.chalk2, maxWidth: 880 } },
+        { style: { fontSize: 30, lineHeight: 1.45, color: CARD.chalk2, maxWidth: 880 } },
         `The ten highest published figures, of ${num(subject.totalRanked)} ${subject.isMineral ? "producers listed" : "nations ranked"} — every figure sourced and dated.` +
           `${subject.isWgi ? " WGI absolute 0–100 scores — model estimates, not percentile ranks." : ""}`,
       ),
@@ -410,7 +410,7 @@ export function rankingCarousel(subject) {
                 "div",
                 { style: { display: "flex", alignItems: "baseline", gap: 20 } },
                 h("div", { style: { fontFamily: "mono", fontSize: 30, color: CARD.chalk3, width: 58 } }, String(r.rank)),
-                h("div", { style: { fontFamily: "Literata", fontSize: r.name.length > 18 ? 36 : 44, color: CARD.chalkHi } }, r.name),
+                h("div", { style: { fontFamily: "Bricolage", fontWeight: 800, textTransform: "uppercase", fontSize: r.name.length > 18 ? 34 : 40, color: CARD.chalkHi } }, r.name),
               ),
               h(
                 "div",
@@ -460,12 +460,12 @@ export function formationCarousel(subject) {
       { style: { display: "flex", flexDirection: "column", gap: 30 } },
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: subject.nationName.length > 14 ? 66 : 88, lineHeight: 1.05, color: CARD.chalkHi } },
+        { style: { fontFamily: "Bricolage", fontWeight: 800, textTransform: "uppercase", fontSize: subject.nationName.length > 14 ? 66 : 88, lineHeight: 1.05, color: CARD.chalkHi } },
         subject.nationName,
       ),
       h(
         "div",
-        { style: { fontFamily: "Literata", fontSize: 32, lineHeight: 1.4, color: CARD.chalk2, maxWidth: 880 } },
+        { style: { fontSize: 32, lineHeight: 1.4, color: CARD.chalk2, maxWidth: 880 } },
         subject.tagline,
       ),
       h(
@@ -493,12 +493,12 @@ export function formationCarousel(subject) {
         h("div", { style: { fontFamily: "mono", fontSize: 34, color: CARD.copperBright } }, ev.yearText),
         h(
           "div",
-          { style: { fontFamily: "Literata", fontSize: ev.title.length > 46 ? 50 : 60, lineHeight: 1.1, color: CARD.chalkHi } },
+          { style: { fontFamily: "Bricolage", fontWeight: 800, textTransform: "uppercase", fontSize: ev.title.length > 46 ? 46 : 56, lineHeight: 1.1, color: CARD.chalkHi } },
           ev.title,
         ),
         h(
           "div",
-          { style: { fontFamily: "Literata", fontSize: 29, lineHeight: 1.5, color: CARD.chalk2 } },
+          { style: { fontSize: 29, lineHeight: 1.5, color: CARD.chalk2 } },
           clamp(ev.summary, 260),
         ),
         categoryChip(ev.category),

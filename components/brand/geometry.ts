@@ -34,13 +34,14 @@ export const ZENITH_COMPACT: ZenithCut = {
 };
 
 // The brand colours as literals, for contexts outside the CSS layer (the OG
-// pipeline renders with satori, which has no CSS custom properties). These are
-// the Stratum tokens — the exploration hexes map onto them (see DESIGN.md):
-// cream #F2EAD9 → chalk, orange #C75B28 → copper, ink/navy → ink / depth-6.
+// pipeline renders with satori, which has no CSS custom properties). These
+// are the Strata pigments (DESIGN.md §2): the mark draws basalt on bone with
+// the oxide dot; on dark material it draws bone, and on oxide ground the dot
+// itself turns bone so it cannot vanish into its own colour.
 export const BRAND = {
-  chalk: "#e6ecea", // mark on the deep
-  ink: "#16201e", // mark on limestone
-  copper: "#c87244", // the zenith dot — the only accent
-  deep: "#04161f", // dark ground (depth-6)
-  limestone: "#ebe9e0", // light ground (land-0)
+  bone: "#efe7d8", // the page ground — mark strokes on dark material
+  basalt: "#221e19", // mark strokes on bone/sand
+  oxide: "#a64b26", // the zenith dot — the only accent
+  sand: "#e2d3b8", // secondary ground
+  umber: "#6e4a32", // secondary text
 } as const;

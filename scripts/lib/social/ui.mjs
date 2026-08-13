@@ -1,7 +1,7 @@
 // ── The ZENITH card grammar as satori element trees, JSX-free ──────────────
-// The node-side twin of lib/og.tsx's shell: same four fixed elements — the
-// deep ground lit from the upper left, a data-first middle, the signature
-// corner, the strata baseline seeded by the surface's own identity. Geometry,
+// The node-side twin of lib/og.tsx's shell (STRATA identity): same fixed
+// elements — the bone ground, a data-first middle, the signature corner,
+// the 4px basalt rule + strata baseline seeded by the surface's identity. Geometry,
 // palette and the strata sequence are IMPORTED from the same pure modules the
 // OG shell reads (components/brand/{geometry,palette,strata}.ts, via the
 // ts-alias loader), so this file holds layout only — no twin copies of brand
@@ -9,9 +9,9 @@
 //
 //   node --import ./scripts/lib/ts-alias-loader.mjs <script>
 //
-// Type hierarchy (docs/brand-codification.md placement contract, applied):
-// Literata for display and reading, IBM Plex Mono for cartographic detail
-// (eyebrows, years, codes, source lines). Nation flags are emoji and emoji
+// Type hierarchy (DESIGN.md v2): Bricolage 800 for stamps, Schibsted for
+// reading, IBM Plex Mono for the instrument voice (eyebrows, years, codes,
+// source lines). Nation flags are emoji and emoji
 // require a network fetch, so flags never appear on cards — nations carry
 // their name, with the ADM0_A3 code in the mono voice where a mark is needed.
 
@@ -31,17 +31,17 @@ export function h(type, props = {}, ...children) {
   };
 }
 
-/** The ZENITH mark — full cut, chalk strokes, copper dot (lib/og.tsx twin). */
+/** The ZENITH mark — full cut, basalt strokes, oxide dot (lib/og.tsx twin). */
 export function zenithMark(size = 46) {
   return h(
     "svg",
     { width: size, height: size, viewBox: "0 0 96 96" },
-    h("path", { d: ZENITH_FULL.path, fill: "none", stroke: BRAND.chalk, strokeWidth: ZENITH_FULL.stroke }),
-    h("circle", { cx: ZENITH_FULL.dot.cx, cy: ZENITH_FULL.dot.cy, r: ZENITH_FULL.dot.r, fill: BRAND.copper }),
+    h("path", { d: ZENITH_FULL.path, fill: "none", stroke: BRAND.basalt, strokeWidth: ZENITH_FULL.stroke }),
+    h("circle", { cx: ZENITH_FULL.dot.cx, cy: ZENITH_FULL.dot.cy, r: ZENITH_FULL.dot.r, fill: BRAND.oxide }),
   );
 }
 
-/** The signature — mark + "Terralore." with the copper stop, lower right. */
+/** The signature — mark + the TERRALORE stamp, lower right. */
 export function signature(scale = 1) {
   return h(
     "div",
@@ -49,9 +49,17 @@ export function signature(scale = 1) {
     zenithMark(46 * scale),
     h(
       "div",
-      { style: { display: "flex", fontFamily: "Literata", fontSize: 30 * scale, color: CARD.chalk } },
-      "Terralore",
-      h("span", { style: { color: CARD.copper } }, "."),
+      {
+        style: {
+          display: "flex",
+          fontFamily: "Bricolage",
+          fontWeight: 800,
+          fontSize: 26 * scale,
+          letterSpacing: -0.5,
+          color: CARD.chalk,
+        },
+      },
+      "TERRALORE",
     ),
   );
 }
@@ -84,7 +92,7 @@ export function eyebrow(text, { size = 24, color = CARD.chalk3 } = {}) {
   );
 }
 
-/** The provenance line every card carries — copper lozenge + mono text. */
+/** The provenance line every card carries — oxide square + mono text. */
 export function sourcedLine(text = "Every claim traceable to a source", { size = 22 } = {}) {
   return h(
     "div",
@@ -94,7 +102,6 @@ export function sourcedLine(text = "Every claim traceable to a source", { size =
         width: Math.round(size / 2),
         height: Math.round(size / 2),
         background: CARD.copper,
-        transform: "rotate(45deg)",
         flexShrink: 0,
       },
     }),
@@ -143,6 +150,7 @@ export function shell({ seed, top, middle, stat, format, signatureScale = 1.25 }
         signature(signatureScale),
       ),
     ),
+    h("div", { style: { display: "flex", width: "100%", height: 4, background: BRAND.basalt } }),
     baseline(seed),
   );
 }

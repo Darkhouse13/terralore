@@ -1,5 +1,4 @@
 import { CATEGORY_META, type EventCategory } from "@/lib/types";
-import { BRAND } from "./geometry";
 
 /**
  * The strata sequence — the brand pattern's data, JSX-free so every renderer
@@ -59,6 +58,7 @@ export function strataSequence(seed: string, blocks: number, height: number): St
     seq.push({ color: PIGMENTS[p], width: Math.round(height * (2.6 + rand() * 2.2)) });
   }
   const accentAt = Math.floor(rand() * blocks);
-  seq[accentAt] = { ...seq[accentAt], color: BRAND.copper };
+  // The strip's one accent block is oxide — the Strata accent.
+  seq[accentAt] = { ...seq[accentAt], color: "#a64b26" };
   return seq;
 }

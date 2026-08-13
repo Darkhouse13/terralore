@@ -32,10 +32,8 @@ export default function AtlasPage() {
       return {
         code: c.code,
         name: c.name,
-        flag: c.flag,
         continent: c.continent,
         subregion: c.subregion,
-        population: c.population,
         unMember: c.unMember,
         hasHistory: !!h,
         foundingYear: h?.founding.yearLabel,

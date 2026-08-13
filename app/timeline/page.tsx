@@ -99,34 +99,32 @@ export default function ChronologyPage() {
         ]}
       />
 
-      <main className="paper-grain min-h-screen bg-land-0 text-ink">
-        <div className="relative z-[1] mx-auto max-w-[62rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-          <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+      <main className="min-h-screen bg-bone text-basalt">
+        <div className="mx-auto max-w-[62rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+          <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase text-oxide">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" className="transition-colors hover:text-copper-deep">
-                  Terralore
-                </Link>
+                <Link href="/">← Terralore</Link>
               </li>
-              <li aria-hidden="true">/</li>
-              <li aria-current="page" className="text-copper-deep">
+              <li aria-hidden="true">·</li>
+              <li aria-current="page" className="text-umber">
                 Chronology
               </li>
             </ol>
           </nav>
 
-          <header className="mt-9 stratum-top pb-10">
-            <p className="eyebrow text-copper-deep">The archive, read across nations</p>
+          <header className="settle mt-6 pb-10">
+            <p className="eyebrow text-umber">The archive, read across nations</p>
 
-            <h1 className="mt-4 max-w-[18ch] font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
+            <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
               The world, in order
             </h1>
 
-            <p className="mt-4 max-w-[46rem] font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
+            <p className="mt-3 max-w-[46rem] font-sans text-[17px] font-medium leading-snug text-umber md:text-[19px]">
               Every chronicle in Terralore is written nation by nation. This is the other axis.
             </p>
 
-            <p className="mt-7 max-w-[46rem] font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
+            <p className="mt-5 max-w-[46rem] font-sans text-[16px] leading-[1.65]">
               Pick a period and read what was happening everywhere in it — the same verified
               records, with the same citations, laid side by side across the whole archive. The
               buckets widen as they go back, because the record does too: decades once the
@@ -135,33 +133,39 @@ export default function ChronologyPage() {
               where the record is measured in hundreds of thousands of years rather than reigns.
             </p>
 
-            <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+            <dl className="mt-7 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
               <Stat label="Sourced events" value={STATS.events.toLocaleString("en-US")} />
               <Stat label="Nations" value={String(STATS.nations)} />
               <Stat label="References" value={STATS.sources.toLocaleString("en-US")} />
               <Stat label="Periods" value={String(periods.length)} />
             </dl>
 
-            <p className="mt-8 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-ink-3">
+            <p className="mt-7 font-mono text-[10px] uppercase tracking-[0.16em] text-umber">
               Earliest record {yearText(STATS.earliest)} · latest {yearText(STATS.latest)}
             </p>
 
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-wrap gap-3">
               <Link
                 href={`/timeline/${common.length ? common[common.length - 1].slug : periods[periods.length - 1].slug}`}
                 prefetch={false}
-                className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+                className="pressable inline-flex items-center gap-2 border-2 border-basalt bg-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-bone"
               >
                 Start with the present
               </Link>
               <Link
                 href={routes.atlas()}
-                className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+                className="pressable inline-flex items-center gap-2 border-2 border-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-oxide"
               >
                 Browse the atlas
               </Link>
             </div>
           </header>
+
+          <p className="font-sans text-[13px] leading-relaxed text-umber">
+            Bands are drawn to the busiest period, square-root scaled so sparse ages stay
+            visible; each band takes the pigment of its period&rsquo;s dominant category. The
+            true count sits beside every band.
+          </p>
 
           <PeriodList
             title="Deep time and the ancient world"
@@ -179,8 +183,8 @@ export default function ChronologyPage() {
             total={STATS.events}
           />
 
-          <footer className="pt-11">
-            <p className="font-mono text-[0.68rem] leading-relaxed text-ink-3">
+          <footer className="border-t-2 border-basalt pt-8">
+            <p className="font-mono text-[10px] leading-relaxed text-umber">
               The Chronology · {SITE_NAME}. Every event on these pages is the same record, with the
               same citations, as the one on its nation&rsquo;s chronicle — nothing here is
               synthesised across borders.
@@ -197,10 +201,8 @@ export default function ChronologyPage() {
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="eyebrow text-ink-3">{label}</dt>
-      <dd className="mt-1 font-display text-[1.55rem] font-[420] tabular-nums leading-none text-[#16201e]">
-        {value}
-      </dd>
+      <dt className="eyebrow text-umber">{label}</dt>
+      <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">{value}</dd>
     </div>
   );
 }
@@ -222,15 +224,15 @@ function PeriodList({
 
   return (
     <section className="py-11">
-      <span aria-hidden className="stratum-rule mb-7 block max-w-[110px]" />
-      <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
+      <div aria-hidden className="cut-rule mb-7" />
+      <h2 className="font-display text-[22px] font-extrabold uppercase leading-tight tracking-tight md:text-[26px]">
         {title}
       </h2>
-      <p className="mt-2.5 max-w-[46rem] font-serif text-[1.02rem] italic leading-relaxed text-[#454f4c]">
+      <p className="mt-2.5 max-w-[46rem] font-sans text-[14.5px] leading-relaxed text-umber">
         {blurb}
       </p>
 
-      <ol className="mt-7">
+      <ol className="mt-7 border-t-2 border-basalt">
         {periods.map((p) => (
           <PeriodRow key={p.slug} period={p} busiest={busiest} total={total} />
         ))}
@@ -248,8 +250,8 @@ function PeriodList({
  * a single continuous column: its **width** carries how much of the record
  * falls there, its **pigment** carries what the period was mostly made of. Read
  * top to bottom, the column is a core sample of recorded history — you can see
- * the archive thin out into deep time, and see the 1940s run madder before you
- * read a single label.
+ * the archive thin out into deep time, and see the 1940s run to war pigment
+ * before you read a single label.
  *
  * The text, the link and the counts are unchanged, so nothing an engine or a
  * screen reader consumes moved: the band is `aria-hidden` decoration layered
@@ -271,43 +273,37 @@ function PeriodRow({
   // history as an invisible hairline.
   const width = Math.max(6, Math.sqrt(n / busiest) * 100);
   const dom = dominantCategory(period.events);
-  const tint = dom?.tint ?? "var(--color-copper)";
+  const tint = dom?.tint ?? "var(--color-clay)";
 
   return (
-    <li>
+    <li className="border-b-2 border-basalt">
       <Link
         href={`/timeline/${period.slug}`}
         prefetch={false}
-        className="group relative grid gap-2 py-3.5 pl-[86px] transition-colors hover:bg-[rgba(200,114,68,0.06)] sm:grid-cols-[minmax(0,17rem)_1fr] sm:items-baseline sm:gap-6"
+        className="pressable grid grid-cols-[70px_1fr] items-center gap-x-4 gap-y-1 py-3.5 sm:grid-cols-[70px_minmax(0,17rem)_1fr] sm:gap-x-6"
       >
-        {/* the stratum: a band of the core, in this period's own pigment */}
-        <span
-          aria-hidden="true"
-          className="absolute bottom-0 left-0 top-0 w-[70px] overflow-hidden"
-        >
+        {/* the stratum: a solid band of the core, in this period's own pigment */}
+        <span aria-hidden="true" className="row-span-2 block self-center overflow-hidden sm:row-span-1">
           <span
-            className="absolute right-0 top-0 h-full transition-[width] duration-200"
+            className="block h-[14px]"
             style={{
               width: `${width}%`,
               background: tint,
-              opacity: 0.72,
             }}
           />
-          {/* the hairline between layers — a bedding plane, not a table rule */}
-          <span className="absolute inset-x-0 top-0 h-px bg-[rgba(22,32,30,0.16)]" />
         </span>
 
         <div>
-          <h3 className="font-display text-[1.16rem] font-[440] leading-snug text-[#16201e] transition-colors group-hover:text-copper-deep">
+          <h3 className="font-display text-[16px] font-extrabold uppercase leading-snug tracking-tight text-basalt">
             {period.label}
           </h3>
-          <p className="mt-0.5 font-mono text-[0.68rem] tabular-nums text-ink-3">
+          <p className="mt-0.5 font-mono text-[10px] tabular-nums text-umber">
             {spanLabel(period)}
           </p>
         </div>
 
-        <p className="font-mono text-[0.72rem] tabular-nums text-ink-3">
-          <span className="text-copper-deep">{n.toLocaleString("en-US")}</span> events ·{" "}
+        <p className="font-mono text-[11px] tabular-nums text-umber sm:text-right">
+          <span className="text-oxide">{n.toLocaleString("en-US")}</span> events ·{" "}
           {period.nations} {period.nations === 1 ? "nation" : "nations"} ·{" "}
           {share >= 1 ? share.toFixed(0) : share.toFixed(1)}%
           {dom && (

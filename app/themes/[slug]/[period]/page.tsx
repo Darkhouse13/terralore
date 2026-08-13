@@ -215,33 +215,29 @@ export default async function ThemePeriodPage({
         ]}
       />
 
-      <main id="top" className="paper-grain min-h-screen bg-land-0 text-ink">
-        <div className="relative z-[1] mx-auto max-w-[46rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
-          <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+      <main id="top" className="min-h-screen bg-bone text-basalt">
+        <div className="mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
+          <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase text-oxide">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href="/" prefetch={false} className="transition-colors hover:text-copper-deep">
-                  Terralore
+                <Link href="/" prefetch={false}>
+                  ← Terralore
                 </Link>
               </li>
-              <li aria-hidden="true">/</li>
+              <li aria-hidden="true">·</li>
               <li>
-                <Link href="/themes" prefetch={false} className="transition-colors hover:text-copper-deep">
+                <Link href="/themes" prefetch={false}>
                   Themes
                 </Link>
               </li>
-              <li aria-hidden="true">/</li>
+              <li aria-hidden="true">·</li>
               <li>
-                <Link
-                  href={`/themes/${theme.slug}`}
-                  prefetch={false}
-                  className="transition-colors hover:text-copper-deep"
-                >
+                <Link href={`/themes/${theme.slug}`} prefetch={false}>
                   {theme.label}
                 </Link>
               </li>
-              <li aria-hidden="true">/</li>
-              <li aria-current="page" className="text-copper-deep">
+              <li aria-hidden="true">·</li>
+              <li aria-current="page" className="text-umber">
                 {slice.period.label}
               </li>
             </ol>
@@ -250,7 +246,7 @@ export default async function ThemePeriodPage({
           <Masthead slice={slice} title={title} />
 
           <article>
-            <ol className="mt-2 space-y-8 border-b border-[rgba(138, 74, 40,0.22)] pb-11">
+            <ol className="mt-2 space-y-8 border-b-2 border-basalt pb-11">
               {events.map((ev, i) => (
                 <EventItem key={`${ev.code}-${ev.year}-${i}`} event={ev} />
               ))}
@@ -274,78 +270,75 @@ function Masthead({ slice, title }: { slice: Slice; title: string }) {
   const continents = tally(events);
 
   return (
-    <header className="mt-9 stratum-top pb-10">
-      <span
-        aria-hidden
-        className="stratum-rule mb-7 block max-w-[110px]"
-        style={{ ["--stratum-tint" as string]: theme.tint }}
-      />
-      <p className="eyebrow flex items-center gap-2.5 text-copper-deep">
+    <header className="settle mt-6 pb-10">
+      {/* The theme's pigment, set as a square block into the opening rule —
+          the same device as the chronicle's era openers. */}
+      <div aria-hidden className="mb-7 flex items-center gap-0">
+        <span className="cut-rule w-full" />
+        <span className="h-[8px] w-[42px] flex-none" style={{ background: theme.tint }} />
+      </div>
+      <p className="eyebrow flex items-center gap-2.5 text-umber">
         <span
           aria-hidden="true"
-          className="inline-block h-2.5 w-2.5 rounded-full"
+          className="inline-block h-2.5 w-2.5"
           style={{ background: theme.tint }}
         />
-        <Link href={`/themes/${theme.slug}`} prefetch={false} className="transition-colors hover:text-copper-deep">
+        <Link href={`/themes/${theme.slug}`} prefetch={false} className="text-oxide">
           {theme.label}
         </Link>
-        <span aria-hidden="true" className="text-ink-3">
-          ·
-        </span>
-        <Link href={`/timeline/${period.slug}`} prefetch={false} className="transition-colors hover:text-copper-deep">
+        <span aria-hidden="true">·</span>
+        <Link href={`/timeline/${period.slug}`} prefetch={false} className="text-oxide">
           {period.label}
         </Link>
       </p>
 
-      <h1 className="mt-4 font-display text-[clamp(2.3rem,7vw,3.6rem)] font-[380] leading-[0.98] tracking-[-0.015em] text-[#16201e]">
+      <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
         {title}
       </h1>
 
-      <p className="mt-5 font-serif text-[1.18rem] font-[340] italic leading-[1.5] text-[#454f4c]">
+      <p className="mt-5 font-sans text-[15px] leading-[1.6] text-umber">
         {standfirst(slice)}
       </p>
 
-      <div className="mt-8 border-l-2 pl-5" style={{ borderColor: theme.tint }}>
-        <dl className="grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
-          <div>
-            <dt className="eyebrow text-ink-3">Events</dt>
-            <dd className="mt-1 font-display text-[1.5rem] font-[420] leading-none tabular-nums text-[#16201e]">
-              {num(events.length)}
-            </dd>
-          </div>
-          <div>
-            <dt className="eyebrow text-ink-3">Nations</dt>
-            <dd className="mt-1 font-display text-[1.5rem] font-[420] leading-none tabular-nums text-[#16201e]">
-              {num(nations)}
-            </dd>
-          </div>
-          <div>
-            <dt className="eyebrow text-ink-3">Earliest</dt>
-            <dd className="mt-1 font-mono text-[0.92rem] tabular-nums text-[#16201e]">
-              {longYear(first.year)}
-            </dd>
-          </div>
-          <div>
-            <dt className="eyebrow text-ink-3">Latest</dt>
-            <dd className="mt-1 font-mono text-[0.92rem] tabular-nums text-[#16201e]">
-              {longYear(last.year)}
-            </dd>
-          </div>
-        </dl>
-      </div>
+      <dl className="mt-7 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+        <div>
+          <dt className="eyebrow text-umber">Events</dt>
+          <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">
+            {num(events.length)}
+          </dd>
+        </div>
+        <div>
+          <dt className="eyebrow text-umber">Nations</dt>
+          <dd className="mt-1 font-mono text-[19px] leading-none tabular-nums">
+            {num(nations)}
+          </dd>
+        </div>
+        <div>
+          <dt className="eyebrow text-umber">Earliest</dt>
+          <dd className="mt-1 font-mono text-[15px] leading-none tabular-nums">
+            {longYear(first.year)}
+          </dd>
+        </div>
+        <div>
+          <dt className="eyebrow text-umber">Latest</dt>
+          <dd className="mt-1 font-mono text-[15px] leading-none tabular-nums">
+            {longYear(last.year)}
+          </dd>
+        </div>
+      </dl>
 
       {continents.length > 1 && (
-        <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
+        <dl className="mt-7 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
           {continents.map(([name, n]) => (
             <div key={name}>
-              <dt className="eyebrow text-ink-3">{name}</dt>
-              <dd className="mt-1 font-mono text-[0.9rem] tabular-nums text-[#16201e]">{num(n)}</dd>
+              <dt className="eyebrow text-umber">{name}</dt>
+              <dd className="mt-1 font-mono text-[14px] tabular-nums">{num(n)}</dd>
             </div>
           ))}
         </dl>
       )}
 
-      <p className="mt-8 font-mono text-[0.68rem] uppercase leading-relaxed tracking-[0.16em] text-ink-3">
+      <p className="mt-7 font-mono text-[10px] uppercase leading-relaxed tracking-[0.16em] text-umber">
         Every entry below is the same record, with the same sources, as the one on
         its nation&rsquo;s chronicle.
       </p>
@@ -359,33 +352,32 @@ function EventItem({ event }: { event: WorldEvent }) {
       <div className="pt-[3px]">
         <YearStamp year={event.year} label={event.yearLabel} />
         {event.continent && (
-          <span className="mt-1.5 block font-mono text-[0.6rem] uppercase leading-tight tracking-[0.12em] text-ink-3">
+          <span className="mt-1.5 block font-mono text-[9.5px] uppercase leading-tight tracking-[0.12em] text-umber">
             {event.continent}
           </span>
         )}
       </div>
 
-      <div className="border-l border-[rgba(138, 74, 40,0.22)] pl-4 sm:pl-6">
-        <p className="font-mono text-[0.68rem] uppercase tracking-[0.14em]">
+      <div className="border-l-2 border-basalt pl-4 sm:pl-6">
+        <p className="font-mono text-[10px] uppercase tracking-[0.14em]">
           <Link
             href={routes.chronicle(event.code)}
             prefetch={false}
-            className="text-copper-deep transition-colors hover:underline"
+            className="text-oxide"
           >
-            {event.flag && <span aria-hidden="true">{event.flag} </span>}
             {event.nation}
           </Link>
         </p>
 
-        <h2 className="mt-1.5 font-display text-[1.14rem] font-[440] leading-snug text-[#16201e]">
+        <h2 className="mt-1.5 font-sans text-[15.5px] font-bold leading-snug">
           {event.title}
         </h2>
 
-        <p className="mt-1.5 font-serif text-[1.03rem] leading-[1.62] text-[#16201e]">
+        <p className="mt-1.5 font-sans text-[14.5px] leading-[1.62]">
           {event.summary}
         </p>
 
-        <p className="mt-2 font-mono text-[0.66rem] leading-relaxed text-ink-3">
+        <p className="mt-2 font-mono text-[10px] leading-relaxed text-umber">
           <span className="uppercase tracking-[0.12em]">Era: </span>
           {event.eraTitle}
         </p>
@@ -402,7 +394,7 @@ function EventItem({ event }: { event: WorldEvent }) {
  * date.
  */
 function YearStamp({ year, label }: { year: number; label: string }) {
-  const cls = "block font-mono text-[0.82rem] font-medium tabular-nums text-copper-deep";
+  const cls = "block font-mono text-[13px] font-medium tabular-nums text-oxide";
   if (year < 1) return <span className={cls}>{label}</span>;
   return (
     <time dateTime={String(year).padStart(4, "0")} className={cls}>
@@ -413,7 +405,7 @@ function YearStamp({ year, label }: { year: number; label: string }) {
 
 function SourceLine({ sources }: { sources: Source[] }) {
   return (
-    <p className="mt-2 font-mono text-[0.66rem] leading-relaxed text-ink-3">
+    <p className="mt-2 font-mono text-[10px] leading-relaxed text-umber">
       <span className="uppercase tracking-[0.12em]">Sources: </span>
       {sources.map((s, i) => (
         <span key={`${s.id}-${i}`}>
@@ -423,14 +415,14 @@ function SourceLine({ sources }: { sources: Source[] }) {
               href={s.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="underline decoration-dotted underline-offset-2 transition-colors hover:text-copper-deep"
+              className="text-oxide underline underline-offset-2"
             >
               {s.label}
             </a>
           ) : (
             <span>{s.label}</span>
           )}
-          {s.publisher && <span className="text-ink-3"> · {s.publisher}</span>}
+          {s.publisher && <span> · {s.publisher}</span>}
         </span>
       ))}
     </p>
@@ -453,15 +445,19 @@ function SliceFooter({
       {(prev || next) && (
         <nav
           aria-label="Adjacent periods"
-          className="grid gap-4 border-b border-[rgba(138, 74, 40,0.22)] pb-9 sm:grid-cols-2"
+          className="grid gap-4 pb-9 sm:grid-cols-2"
         >
           {prev ? (
-            <Link href={`/themes/${theme.slug}/${prev.period.slug}`} prefetch={false} className="group">
-              <span className="eyebrow text-ink-3">← Earlier</span>
-              <span className="mt-1.5 block font-display text-[1.12rem] font-[420] text-[#16201e] transition-colors group-hover:text-copper-deep">
+            <Link
+              href={`/themes/${theme.slug}/${prev.period.slug}`}
+              prefetch={false}
+              className="pressable block border-2 border-basalt px-5 py-4"
+            >
+              <span className="eyebrow text-umber">← Earlier</span>
+              <span className="mt-1.5 block font-display text-[15px] font-extrabold uppercase tracking-tight text-basalt">
                 {theme.label} in {lowerPeriod(prev.period.label)}
               </span>
-              <span className="font-mono text-[0.7rem] tabular-nums text-ink-3">
+              <span className="mt-0.5 block font-mono text-[10px] tabular-nums text-umber">
                 {num(prev.events.length)} events
               </span>
             </Link>
@@ -472,13 +468,13 @@ function SliceFooter({
             <Link
               href={`/themes/${theme.slug}/${next.period.slug}`}
               prefetch={false}
-              className="group sm:text-right"
+              className="pressable block border-2 border-basalt px-5 py-4 sm:text-right"
             >
-              <span className="eyebrow text-ink-3">Later →</span>
-              <span className="mt-1.5 block font-display text-[1.12rem] font-[420] text-[#16201e] transition-colors group-hover:text-copper-deep">
+              <span className="eyebrow text-umber">Later →</span>
+              <span className="mt-1.5 block font-display text-[15px] font-extrabold uppercase tracking-tight text-basalt">
                 {theme.label} in {lowerPeriod(next.period.label)}
               </span>
-              <span className="font-mono text-[0.7rem] tabular-nums text-ink-3">
+              <span className="mt-0.5 block font-mono text-[10px] tabular-nums text-umber">
                 {num(next.events.length)} events
               </span>
             </Link>
@@ -490,21 +486,21 @@ function SliceFooter({
         <Link
           href={`/themes/${theme.slug}`}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="pressable inline-flex items-center gap-2 border-2 border-basalt bg-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-bone"
         >
           All {num(theme.events.length)} {theme.label} events
         </Link>
         <Link
           href={`/timeline/${period.slug}`}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="pressable inline-flex items-center gap-2 border-2 border-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-oxide"
         >
           Every theme in {lowerPeriod(period.label)}
         </Link>
       </div>
 
       <nav aria-label="Other periods in this theme" className="mt-10">
-        <h2 className="eyebrow text-ink-3">{theme.label}, period by period</h2>
+        <h2 className="eyebrow text-umber">{theme.label}, period by period</h2>
         <ul className="mt-3.5 flex flex-wrap gap-x-2 gap-y-2">
           {siblings.map((g) => {
             const here = g.period.slug === period.slug;
@@ -514,16 +510,14 @@ function SliceFooter({
                   href={`/themes/${theme.slug}/${g.period.slug}`}
                   prefetch={false}
                   aria-current={here ? "page" : undefined}
-                  className={`inline-flex items-baseline gap-1.5 rounded-full border px-3 py-1.5 transition-colors ${
-                    here
-                      ? "border-[rgba(138, 74, 40,0.5)] bg-[rgba(200, 114, 68,0.16)]"
-                      : "border-[rgba(138, 74, 40,0.28)] hover:bg-[rgba(200, 114, 68,0.12)]"
+                  className={`pressable inline-flex items-baseline gap-1.5 border-2 border-basalt px-3 py-1.5 ${
+                    here ? "bg-basalt text-bone" : "text-basalt"
                   }`}
                 >
-                  <span className="font-sans text-[0.84rem] text-[#454f4c]">{g.period.label}</span>
+                  <span className="font-sans text-[13px]">{g.period.label}</span>
                   <span
-                    className="font-mono text-[0.66rem] tabular-nums"
-                    style={{ color: theme.ink }}
+                    className="font-mono text-[10px] tabular-nums"
+                    style={here ? undefined : { color: theme.ink }}
                   >
                     {num(g.events.length)}
                   </span>
@@ -534,7 +528,7 @@ function SliceFooter({
         </ul>
       </nav>
 
-      <p className="mt-11 font-mono text-[0.68rem] leading-relaxed text-ink-3">
+      <p className="mt-10 font-mono text-[10px] leading-relaxed text-umber">
         {theme.label} · {period.label} · {SITE_NAME}. Collections are derived from the
         same verified history files as every nation&rsquo;s chronicle; an event is
         published only once each of its claims can be traced to a reliable source.
