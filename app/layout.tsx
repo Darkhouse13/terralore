@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { IBM_Plex_Mono, IBM_Plex_Sans, Literata } from "next/font/google";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo";
 import "./globals.css";
@@ -125,6 +126,7 @@ export default function RootLayout({
       className={`${literata.variable} ${literataItalic.variable} ${plexSans.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
+      <GoogleAnalytics gaId="G-DXEHRSTWXX" />
     </html>
   );
 }
