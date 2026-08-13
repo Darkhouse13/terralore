@@ -21,7 +21,7 @@
 
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { BRAND, ZENITH_FULL } from "@/components/brand/geometry";
+import { ZENITH_FULL } from "@/components/brand/geometry";
 import { CARD } from "@/components/brand/palette";
 import { strataSequence } from "@/components/brand/strata";
 
@@ -80,12 +80,12 @@ export const OG = CARD;
 export function ZenithMark({ size = 46 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 96 96">
-      <path d={ZENITH_FULL.path} fill="none" stroke={BRAND.chalk} strokeWidth={ZENITH_FULL.stroke} />
+      <path d={ZENITH_FULL.path} fill="none" stroke={OG.chalk} strokeWidth={ZENITH_FULL.stroke} />
       <circle
         cx={ZENITH_FULL.dot.cx}
         cy={ZENITH_FULL.dot.cy}
         r={ZENITH_FULL.dot.r}
-        fill={BRAND.copper}
+        fill={OG.copper}
       />
     </svg>
   );

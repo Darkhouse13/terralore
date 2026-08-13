@@ -1,88 +1,45 @@
 @import "tailwindcss";
 
 /* ────────────────────────────────────────────────────────────────────────
-   Terralore — STRATUM
-   The world drawn the way an atlas draws it: in bands of depth.
+   Terralore — STRATA × SHOW THE WORK
+   The earth in section: history in beds, data as specimen tags, every
+   observed value turning over to its label.
 
-   See DESIGN.md for the direction, the two rejected alternatives, and the
-   reasoning. Every foreground/background pair used here is validated
-   arithmetically by scripts/check-contrast.mjs — the palette is proven, not
-   eyeballed. If you change a value, run that script.
+   The binding spec is docs/design/p3-contract.html, translated in DESIGN.md.
+   Seven pigments, three faces, one motion curve. Every foreground/background
+   pair is validated arithmetically by scripts/check-contrast-strata.mjs —
+   proven, not eyeballed. If you change a value, run that script.
+
+   Taboos (DESIGN.md §6): no dark UI, no hairlines (a rule is 2px basalt or
+   absent), no transparency/blur, no rounded corners but the specimen pill,
+   no shadows, no chart without its source.
    ──────────────────────────────────────────────────────────────────────── */
 @theme {
-  /* ── The deep — dark surfaces (globe, journey, dossier) ────────────────
-     Six bathymetric steps. Every one is biased toward teal-cyan, the colour
-     of water on a sea chart — never toward indigo-purple, which is what made
-     the old palette read as generic "premium dark". */
-  --color-depth-6: #04161f; /* abyssal — the page ground */
-  --color-depth-5: #082230; /* the globe's ocean base */
-  --color-depth-4: #0c2e3d; /* panel ground */
-  --color-depth-3: #123b4c; /* raised panel, hover */
-  --color-depth-2: #1b4e60; /* resting borders (decorative) */
-  --color-depth-1: #276f80; /* shoal — active borders, graticule, coastal halo */
+  /* ── The seven pigments ─────────────────────────────────────────────── */
+  --color-bone: #efe7d8; /* the page ground — the only page ground */
+  --color-sand: #e2d3b8; /* first bed · raised panels · specimen pills */
+  --color-clay: #c88a5c; /* second bed · warm mid-ground */
+  --color-oxide: #a64b26; /* the accent: links, live labels, the zenith dot */
+  --color-umber: #6e4a32; /* secondary text on bone/sand · fourth bed */
+  --color-umber-deep: #42301f; /* secondary text on clay (the contract's own value) */
+  --color-basalt: #221e19; /* ink: text, every rule, flip reverses, the core */
+  --color-absent: #b8ac97; /* one job: the hatch stroke of NOT OBSERVED */
 
-  /* ── The shore — light surfaces (chronicle, atlas, timeline) ───────────
-     Limestone, not cream: cooler and greyer than the parchment it replaces,
-     so it reads as chart stock rather than as the warm-cream longform default. */
-  --color-land-0: #ebe9e0; /* the reading ground */
-  --color-land-1: #dedacd; /* raised paper, pull-quotes */
-  --color-land-2: #c3beac; /* rules and edges */
+  /* ── The three faces (minted by next/font/local in app/fonts.ts) ────── */
+  --font-display: var(--ff-display); /* Bricolage Grotesque 800 — formation names */
+  --font-sans: var(--ff-sans); /* Schibsted Grotesk — the reader's voice */
+  --font-mono: var(--ff-mono); /* IBM Plex Mono — the instrument's voice */
 
-  /* ── Ink (on the shore) — iron-gall: near-black with a green-grey cast ── */
-  --color-ink: #16201e; /* 13.9:1 on limestone */
-  --color-ink-2: #454f4c; /* 7.1:1 */
-  --color-ink-3: #6c7772; /* 3.9:1 — large text only */
+  /* ── Motion: one curve, five durations (DESIGN.md §4) ───────────────── */
+  --ease-mass: cubic-bezier(0.32, 0.72, 0, 1);
+  --dur-settle: 380ms; /* bed-settle entrance */
+  --dur-flip: 320ms; /* proof-flip */
+  --dur-core: 460ms; /* core-pull extraction/return */
+  --dur-rule: 240ms; /* rule draw-in during the overture */
+  --dur-press: 90ms; /* the 2px depress */
 
-  /* ── Chalk (on the deep) ──────────────────────────────────────────────── */
-  --color-chalk-hi: #f2f6f4; /* headings, big metric values — 16.9:1 */
-  --color-chalk: #e6ecea; /* primary — 15.4:1 */
-  --color-chalk-2: #afbfc1; /* secondary — 9.7:1 */
-  --color-chalk-3: #8497a0; /* mono eyebrows / labels — 6.1:1 */
-  --color-chalk-4: #71858d; /* micro source / year text — 4.8:1 */
-  --color-chalk-5: #5c6e77; /* no-data / disabled */
-  --color-chalk-read: #c8d6d5; /* serif reading on the deep — 12.3:1 */
-
-  /* ── The ramp — three tints used semantically, never decoratively ──────
-     The old palette had one accent (brass) doing every job, which left data
-     visualisation with no contrast to work with. Each of these MEANS
-     something; if a colour cannot be justified by one of these three
-     meanings, it is decoration and it does not go in. */
-
-  /* Copper — the surveyor's hand: you are here. Selection, playhead,
-     current era, links. */
-  --color-copper: #c87244;
-  --color-copper-bright: #e39a67;
-  --color-copper-deep: #8a4a28;
-
-  /* Verdigris — the measured: metrics, series, ranks, anything sourced. */
-  --color-verdigris: #57a695;
-  --color-verdigris-bright: #7cc4b3;
-  --color-verdigris-deep: #2f6e62;
-
-  /* Madder — rupture only: war, catastrophe. Never used for emphasis. */
-  --color-madder: #b8453b;
-  --color-madder-bright: #d9695e;
-  --color-madder-deep: #9b322a;
-
-  /* Display and reading are the SAME family (Literata) — see DESIGN.md. One
-     serif doing both jobs is what removed a whole family from the critical
-     path. The two aliases are kept because the distinction is semantic and
-     worth keeping in the markup, even where the value is currently identical. */
-  --font-display: var(--ff-display);
-  --font-serif: var(--ff-display);
-  --font-sans: var(--ff-sans);
-  --font-mono: var(--ff-mono);
-
-  --radius-card: 3px;
-
-  /* Motion — three durations, one easing. See DESIGN.md. */
-  --ease-rise: cubic-bezier(0.16, 1, 0.3, 1);
-  --dur-state: 160ms;
-  --dur-panel: 320ms;
-  --dur-descent: 900ms;
-
-  --shadow-lift: 0 1px 2px rgba(22, 32, 30, 0.05), 0 12px 32px -14px rgba(22, 32, 30, 0.24);
-  --shadow-float: 0 2px 6px rgba(2, 10, 14, 0.34), 0 30px 60px -24px rgba(2, 10, 14, 0.66);
+  /* ── The one sanctioned radius: the specimen pill ───────────────────── */
+  --radius-pill: 9px;
 }
 
 :root {
@@ -95,45 +52,264 @@ html {
 }
 
 body {
-  background: var(--color-land-0);
-  color: var(--color-ink);
+  background: var(--color-bone);
+  color: var(--color-basalt);
   font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* ── Focus ───────────────────────────────────────────────────────────────
-   One visible ring everywhere, in copper — "the surveyor's hand", which is
-   exactly what a focus ring is. Copper clears 3:1 against both the deep
-   (5.2:1) and limestone (5.7:1), so one rule serves both surfaces. */
+a {
+  color: var(--color-oxide);
+}
+
+/* ── Focus ────────────────────────────────────────────────────────────────
+   One visible ring everywhere: 2px oxide (the rule weight law applies to
+   focus too), offset so it reads as a surveyor's mark around the target.
+   Oxide clears 3:1 against bone and sand. */
 :focus-visible {
-  outline: 2px solid var(--color-copper);
+  outline: 2px solid var(--color-oxide);
   outline-offset: 2px;
-  border-radius: 2px;
 }
 
-/* ── Reusable editorial primitives ─────────────────────────────────────── */
+::selection {
+  background: var(--color-clay);
+  color: var(--color-basalt);
+}
 
-/* Small uppercase cartographic label */
+/* Scrollbar in the instrument voice: a thin basalt bar on the bone gutter. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-umber) transparent;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-umber);
+}
+
+/* ── Editorial primitives ───────────────────────────────────────────────── */
+
+/* The mono eyebrow — section labels, observation lines, counts. */
 @utility eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.22em;
+  font-size: 0.625rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
-/* Hairline rule, limestone context */
+/* The rule: 2px basalt, or absent. There is no other rule. */
+@utility cut-rule {
+  height: 2px;
+  background: var(--color-basalt);
+}
+
+/* A bed: a full-bleed band opened by the rule. Ground comes from a bg-*
+   utility; text colors follow the proven pairs in DESIGN.md §2. */
+.bed {
+  border-top: 2px solid var(--color-basalt);
+}
+
+/* The specimen pill — the one sanctioned radius. Rides beside a value:
+   observation year + source id. */
+.pill {
+  background: var(--color-sand);
+  border-radius: var(--radius-pill);
+  padding: 2px 8px;
+  font-family: var(--font-mono);
+  font-size: 0.594rem; /* 9.5px */
+  color: var(--color-umber);
+  white-space: nowrap;
+}
+
+/* The absence mark. A gap has no underside — this never flips. */
+.not-observed {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-absent) 0 3px,
+    var(--color-bone) 3px 7px
+  );
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  padding: 4px 10px;
+  color: var(--color-basalt);
+  white-space: nowrap;
+}
+
+/* ── The press — the only pointer feedback ────────────────────────────────
+   Every pressable surface depresses 2px in 90ms. No color washes, no
+   shadows, no scale. */
+.pressable {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform var(--dur-press) var(--ease-mass);
+}
+.pressable:active {
+  transform: translateY(2px);
+}
+
+/* ── The proof-flip — the brand thesis as an interaction ──────────────────
+   A specimen turned over on a table (rotateX, the mass curve). The reverse
+   is basalt: the label engraved on the stone. Physics shared by every
+   surface through these classes; behavior lives in components/strata/
+   ProofFlip.tsx. */
+.flip-scene {
+  perspective: 900px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+}
+.flip-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform var(--dur-flip) var(--ease-mass);
+}
+.flip-card[data-flipped="true"] {
+  transform: rotateX(180deg);
+}
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-back {
+  transform: rotateX(180deg);
+  background: var(--color-basalt);
+  color: var(--color-bone);
+}
+
+/* ── Bed-settle — the entrance (and the overture's spine) ─────────────────
+   Beds settle from below with mass, staggered bottom-up (oldest first) by
+   --settle-delay. After the last settle: total stillness. */
+@keyframes bed-settle {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.settle {
+  animation: bed-settle var(--dur-settle) var(--ease-mass) both;
+  animation-delay: var(--settle-delay, 0s);
+}
+
+/* The overture's rule draw-in: a 2px rule cut left-to-right as its bed
+   locks. Applied to a .cut-rule (or .bed via border it cannot animate —
+   use the standalone rule element for drawn rules). */
+@keyframes rule-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.rule-draw {
+  transform-origin: left center;
+  animation: rule-draw var(--dur-rule) var(--ease-mass) both;
+  animation-delay: var(--settle-delay, 0s);
+}
+
+/* The zenith dot arrives last — the only fade in the system. */
+@keyframes dot-arrive {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dot-arrive {
+  animation: dot-arrive 160ms linear both;
+  animation-delay: var(--settle-delay, 0s);
+}
+
+/* ── Parallax — ±6px, CSS only, decorative layers only ──────────────────── */
+@keyframes drift {
+  from {
+    transform: translateY(-6px);
+  }
+  to {
+    transform: translateY(6px);
+  }
+}
+.parallax {
+  animation: drift linear both;
+  animation-timeline: scroll();
+}
+@supports not (animation-timeline: scroll()) {
+  .parallax {
+    animation: none;
+  }
+}
+
+/* ── Reduced motion: everything collapses to its settled end state ──────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   LEGACY — STRATUM (v1) tokens and devices, kept only while un-rebuilt
+   surfaces still consume them. Every block below dies with the surface
+   that uses it; nothing new may reference anything in this section.
+   Delete-by list: grep for the token before removing.
+   ════════════════════════════════════════════════════════════════════════ */
+@theme {
+  --color-depth-6: #04161f;
+  --color-depth-5: #082230;
+  --color-depth-4: #0c2e3d;
+  --color-depth-3: #123b4c;
+  --color-depth-2: #1b4e60;
+  --color-depth-1: #276f80;
+  --color-land-0: #ebe9e0;
+  --color-land-1: #dedacd;
+  --color-land-2: #c3beac;
+  --color-ink: #16201e;
+  --color-ink-2: #454f4c;
+  --color-ink-3: #6c7772;
+  --color-chalk-hi: #f2f6f4;
+  --color-chalk: #e6ecea;
+  --color-chalk-2: #afbfc1;
+  --color-chalk-3: #8497a0;
+  --color-chalk-4: #71858d;
+  --color-chalk-5: #5c6e77;
+  --color-chalk-read: #c8d6d5;
+  --color-copper: #c87244;
+  --color-copper-bright: #e39a67;
+  --color-copper-deep: #8a4a28;
+  --color-verdigris: #57a695;
+  --color-verdigris-bright: #7cc4b3;
+  --color-verdigris-deep: #2f6e62;
+  --color-madder: #b8453b;
+  --color-madder-bright: #d9695e;
+  --color-madder-deep: #9b322a;
+  --font-serif: var(--ff-sans);
+  --radius-card: 3px;
+  --ease-rise: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-state: 160ms;
+  --dur-panel: 320ms;
+  --dur-descent: 900ms;
+  --shadow-lift: 0 1px 2px rgba(22, 32, 30, 0.05), 0 12px 32px -14px rgba(22, 32, 30, 0.24);
+  --shadow-float: 0 2px 6px rgba(2, 10, 14, 0.34), 0 30px 60px -24px rgba(2, 10, 14, 0.66);
+}
+
 @utility rule {
   height: 1px;
   background: var(--color-land-2);
 }
 
-/* ── The signature element: the stratum rule ────────────────────────────
-   A stack of tinted bands — a bathymetric legend, a sediment core in
-   section. The one device that appears on every surface: under the globe,
-   as the timeline rail's era bands, as chronicle section dividers, and
-   under the dossier's active tab.
-
-   `--stratum-tint` sets the band colour (default copper); the three bands
-   step down in opacity like a depth ramp. */
 .stratum-rule {
   --stratum-tint: var(--color-copper);
   display: block;
@@ -148,12 +324,6 @@ body {
     color-mix(in oklab, var(--stratum-tint) 25%, transparent) 4px 5px
   );
 }
-
-/* A section opener: the stratum rule as a section's leading edge.
-   Replaces the full-width hairline that made the light surfaces read as a
-   broadsheet — the banned default — with the signature device. Short, so it
-   punctuates rather than divides: a hairline running the full measure says
-   "table row", a 110px band says "new layer". */
 .stratum-top {
   position: relative;
 }
@@ -175,7 +345,6 @@ body {
   );
 }
 
-/* Paper grain, layered behind reading content */
 .paper-grain {
   position: relative;
 }
@@ -189,7 +358,6 @@ body {
   mix-blend-mode: multiply;
 }
 
-/* Drop-cap for the opening paragraph of a history */
 .dropcap::first-letter {
   font-family: var(--font-display);
   font-weight: 600;
@@ -200,24 +368,14 @@ body {
   color: var(--color-copper-deep);
 }
 
-/* ── Real italics ──────────────────────────────────────────────────────────
-   next/font mints a distinct family name per instance, and Literata's italic
-   is declared as its own instance so it can stay off the preload path. A
-   family with no italic face does not fall through to another family — the
-   browser synthesises a slanted roman, which on a serif looks visibly wrong.
-   So italic has to be asked for by name. This covers every serif-italic in the
-   app (taglines, pull-quotes, emphasis in prose) without each call site
-   needing to know about the split. */
 .font-serif.italic,
 .prose-history em,
 .prose-history i {
-  font-family: var(--ff-serif-italic), Georgia, serif;
   font-style: italic;
 }
 
-/* Long-form reading prose */
 .prose-history {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.2rem;
   line-height: 1.72;
   color: var(--color-ink);
@@ -225,58 +383,7 @@ body {
 .prose-history p + p {
   margin-top: 1.15em;
 }
-.prose-history em {
-  font-style: italic;
-}
 
-/* Custom scrollbar (subtle, copper thumb) */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(200, 114, 68, 0.5) transparent;
-}
-*::-webkit-scrollbar {
-  width: 9px;
-  height: 9px;
-}
-*::-webkit-scrollbar-thumb {
-  background: rgba(200, 114, 68, 0.45);
-  border-radius: 9px;
-}
-*::-webkit-scrollbar-thumb:hover {
-  background: rgba(200, 114, 68, 0.7);
-}
-
-::selection {
-  background: rgba(200, 114, 68, 0.26);
-}
-
-/* ── Entrance choreography ─────────────────────────────────────────────────
-   Two rules, and the difference between them is load-bearing.
-
-   History: this staggered entrance was once driven by React state, which held
-   every element at opacity:0 until hydration — around 2s on a throttled phone.
-   An element at opacity:0 is NOT LCP-eligible, so the hero paragraph could not
-   become the largest contentful paint until hydration plus a 0.55s stagger had
-   elapsed: a measured 7.6s LCP on text that was server-rendered all along.
-   Moving it to CSS fixed the hydration half of that. It did not fix the other
-   half — the from-state was still opacity:0, and the same trap later cost the
-   globe still a 4.8s LCP for exactly the same reason.
-
-   So the rule (DESIGN.md, motion principle 1) is now structural rather than a
-   matter of remembering:
-
-     .reveal       TRANSFORM ONLY. The element is fully opaque on its first
-                   frame, so it is LCP-eligible immediately and can never be
-                   the cause of a deferred paint. Use this for CONTENT.
-                   It also happens to be the house motion — a rise from a
-                   deeper stratum, which is the direction this product moves.
-
-     .reveal-fade  Animates opacity. DECORATIVE LAYERS ONLY — starfields,
-                   scrims, vignettes. Never put it on text or on an image that
-                   could plausibly be the largest element on screen.
-
-   `both` holds the from-state through the delay so nothing flashes in early.
-   Set the stagger per element with `--reveal-delay`. */
 @keyframes reveal-up {
   from {
     transform: translateY(12px);
@@ -285,12 +392,10 @@ body {
     transform: none;
   }
 }
-
 .reveal {
   animation: reveal-up var(--dur-descent) var(--ease-rise) both;
   animation-delay: var(--reveal-delay, 0s);
 }
-
 @keyframes reveal-fade {
   from {
     opacity: 0;
@@ -299,28 +404,10 @@ body {
     opacity: 1;
   }
 }
-
-/* Decorative layers only — see the note above. */
 .reveal-fade {
   animation: reveal-fade 1.5s ease both;
   animation-delay: var(--reveal-delay, 0s);
 }
-
-/* Respect reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.001ms !important;
-    transition-duration: 0.001ms !important;
-  }
-}
-
-/* Card / panel entrance — the CSS replacement for the landing page's only
-   framer-motion usage. A 121 KB library was being pulled into the landing
-   bundle to fade a card in after a click; this keyframe does the same job in
-   the house motion (a rise from below) and collapses under the reduced-motion
-   block above with everything else. */
 @keyframes card-rise {
   from {
     opacity: 0;

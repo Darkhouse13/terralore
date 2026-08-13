@@ -6,9 +6,9 @@ import { ZENITH_COMPACT, ZENITH_FULL } from "./geometry";
  *
  * - `cut`: `"full"` (96 grid) for ≥ 28 px, `"compact"` (32 grid, its own
  *   heavier drawing) below; `"auto"` picks by `size`.
- * - `tone` names the ground the mark sits on: `"dark"` → chalk strokes,
- *   `"light"` → ink strokes, `"auto"` → `currentColor` (inherit).
- * - `accent`: the dot in copper. Only the full cut ever two-colours — the
+ * - `tone` names the ground the mark sits on: `"dark"` → bone strokes,
+ *   `"light"` → basalt strokes, `"auto"` → `currentColor` (inherit).
+ * - `accent`: the dot in oxide. Only the full cut ever two-colours — the
  *   compact cut is one-colour by construction (a 2-unit dot cannot carry a
  *   second colour at tab size), so `accent` is ignored there.
  *
@@ -30,11 +30,11 @@ export default function Mark({
   const g = cut === "full" || (cut === "auto" && size >= 28) ? ZENITH_FULL : ZENITH_COMPACT;
   const stroke =
     tone === "dark"
-      ? "var(--color-chalk)"
+      ? "var(--color-bone)"
       : tone === "light"
-        ? "var(--color-ink)"
+        ? "var(--color-basalt)"
         : "currentColor";
-  const dot = accent && g === ZENITH_FULL ? "var(--color-copper)" : stroke;
+  const dot = accent && g === ZENITH_FULL ? "var(--color-oxide)" : stroke;
   return (
     <svg
       width={size}

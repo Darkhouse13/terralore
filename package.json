@@ -20,7 +20,8 @@
     "audit:links": "node scripts/audit-links.mjs",
     "audit:precision": "node scripts/audit-precision.mjs --pending",
     "indexnow": "node scripts/indexnow.mjs",
-    "ci": "npm run validate && tsc --noEmit && npm run build"
+    "ci": "npm run validate && tsc --noEmit && npm run build && npm run validate-seams",
+    "validate-seams": "node scripts/validate-seams.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.12",
