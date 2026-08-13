@@ -16,6 +16,12 @@ export const SITE_TAGLINE = "An Atlas of How Nations Came to Be";
 export const SITE_DESCRIPTION =
   "An interactive globe and living archive of world history. Explore any nation and trace the long path it took to become a country — every claim sourced.";
 
+// The licence of Terralore's own compilations (prose, tables, rankings) — the
+// upstreams beneath them are CC-BY (World Bank) or public domain (USGS), so
+// CC-BY 4.0 is the strictest term in the chain. Google's Dataset rich result
+// treats a missing `license` as a warning, so every Dataset node declares it.
+export const CONTENT_LICENSE = "https://creativecommons.org/licenses/by/4.0/";
+
 /** Absolute URL for a site-relative path. */
 export function abs(path: string): string {
   return path.startsWith("http") ? path : `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
@@ -392,7 +398,7 @@ export function chronicleLd(history: CountryHistory, meta: CountryMeta): Json {
     citation: history.sources.map(sourceLd),
     articleSection: history.eras.map((e) => e.title),
     isAccessibleForFree: true,
-    license: "https://creativecommons.org/licenses/by/4.0/",
+    license: CONTENT_LICENSE,
   };
 }
 
@@ -417,6 +423,7 @@ export function commodityLd(c: Commodity, source: DataSource, updated: string): 
       `${c.years.estimate} estimates.`,
     url,
     isAccessibleForFree: true,
+    license: CONTENT_LICENSE,
     creator: publisher,
     dateModified: updated,
     temporalCoverage: `${c.years.reported}/${c.years.estimate}`,
@@ -457,6 +464,7 @@ export function rankingLd(r: Ranking): Json {
       `Nations without published data are listed unranked, never as zero.`,
     url,
     isAccessibleForFree: true,
+    license: CONTENT_LICENSE,
     creator: publisher,
     dateModified: r.updated,
     temporalCoverage: r.years ? `${r.years.min}/${r.years.max}` : undefined,
@@ -494,6 +502,7 @@ export function compareLd(page: ComparePage, metaA: CountryMeta, metaB: CountryM
       `dossiers and chronicles; figures are compared, never graded.`,
     url,
     isAccessibleForFree: true,
+    license: CONTENT_LICENSE,
     creator: publisher,
     dateModified: page.updated,
     about: [countryLd(metaA), countryLd(metaB)],
@@ -527,6 +536,7 @@ export function dossierLd(
     description: `Sourced economic, social, technological, geographic, resource and military indicators for ${meta.name}, each carrying its publisher and data vintage.`,
     url,
     isAccessibleForFree: true,
+    license: CONTENT_LICENSE,
     creator: publisher,
     dateModified: updated ?? undefined,
     about: countryLd(meta),
