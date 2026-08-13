@@ -129,8 +129,8 @@ export default async function ChroniclePage({
         ]}
       />
 
-      <main className="paper-grain min-h-screen bg-land-0 text-ink">
-        <div className="relative z-[1] mx-auto max-w-[46rem] px-5 pb-24 pt-8 md:px-8 md:pt-12">
+      <main className="min-h-screen bg-bone text-basalt">
+        <div className="relative mx-auto max-w-[46rem] px-5 pb-24 pt-6 md:px-8 md:pt-10">
           <Breadcrumb meta={meta} />
 
           <Masthead history={history} meta={meta} eventCount={eventCount} />
@@ -172,30 +172,21 @@ export default async function ChroniclePage({
 
 function Breadcrumb({ meta }: { meta: { code: string; name: string } }) {
   return (
-    <nav aria-label="Breadcrumb" className="eyebrow text-ink-3">
+    <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase text-oxide">
       <ol className="flex flex-wrap items-center gap-2">
         <li>
-          <Link href="/" className="transition-colors hover:text-copper-deep">
-            Terralore
-          </Link>
+          <Link href="/">Terralore</Link>
         </li>
-        <li aria-hidden="true">/</li>
+        <li aria-hidden="true">·</li>
         <li>
-          <Link href="/atlas" className="transition-colors hover:text-copper-deep">
-            Atlas
-          </Link>
+          <Link href="/atlas">The section cut</Link>
         </li>
-        <li aria-hidden="true">/</li>
+        <li aria-hidden="true">·</li>
         <li>
-          <Link
-            href={routes.dossier(meta.code)}
-            className="transition-colors hover:text-copper-deep"
-          >
-            {meta.name}
-          </Link>
+          <Link href={routes.dossier(meta.code)}>{meta.name}</Link>
         </li>
-        <li aria-hidden="true">/</li>
-        <li aria-current="page" className="text-copper-deep">
+        <li aria-hidden="true">·</li>
+        <li aria-current="page" className="text-umber">
           Chronicle
         </li>
       </ol>
@@ -213,68 +204,55 @@ function Masthead({
   eventCount: number;
 }) {
   return (
-    <header className="mt-9 stratum-top pb-10">
-      <p className="eyebrow flex items-center gap-2 text-copper-deep">
-        {meta.flag && <span className="text-base leading-none">{meta.flag}</span>}
-        <span>
-          {meta.subregion ?? meta.region} · {meta.continent}
-        </span>
+    <header className="mt-6 pb-8">
+      <p className="eyebrow text-oxide">
+        {meta.subregion ?? meta.region} · {meta.continent}
       </p>
 
-      <h1 className="mt-4 font-display text-[clamp(2.9rem,9vw,4.6rem)] font-[380] leading-[0.94] tracking-[-0.015em] text-[#16201e]">
+      <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
         {meta.name}
       </h1>
 
-      <p className="mt-4 font-serif text-[clamp(1.15rem,3.4vw,1.45rem)] font-[340] italic leading-[1.45] text-[#454f4c]">
+      <p className="mt-3 font-sans text-[17px] font-medium leading-snug text-umber md:text-[19px]">
         {history.tagline}
       </p>
 
-      <p className="mt-7 font-serif text-[1.18rem] leading-[1.66] text-[#16201e]">
-        {history.summary}
-      </p>
+      <p className="mt-5 font-sans text-[16px] leading-[1.65]">{history.summary}</p>
 
       {/* The headline "became a country" moment, pulled out as a standing fact. */}
-      <div className="mt-8 border-l-2 border-copper/50 bg-[rgba(200, 114, 68,0.07)] px-5 py-4">
-        <p className="eyebrow text-copper-deep">{history.founding.label}</p>
-        <p className="mt-1.5 font-display text-[1.7rem] font-[420] leading-tight text-[#16201e]">
+      <div className="mt-7 border-2 border-basalt bg-sand px-5 py-4">
+        <p className="eyebrow text-umber">{history.founding.label}</p>
+        <p className="mt-1.5 font-display text-[24px] font-extrabold uppercase leading-tight tracking-tight">
           {history.founding.yearLabel}
         </p>
-        <p className="mt-2 font-serif text-[1.02rem] leading-[1.6] text-[#454f4c]">
+        <p className="mt-2 font-sans text-[14.5px] leading-[1.6] text-umber">
           {history.founding.detail}
         </p>
       </div>
 
       {history.quickFacts.length > 0 && (
-        <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
+        <dl className="mt-7 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
           {history.quickFacts.map((f) => (
             <div key={f.label}>
-              <dt className="eyebrow text-ink-3">{f.label}</dt>
-              <dd className="mt-1 font-sans text-[0.97rem] font-medium text-[#16201e]">
-                {f.value}
-              </dd>
+              <dt className="eyebrow text-umber">{f.label}</dt>
+              <dd className="mt-1 font-sans text-[15px] font-medium">{f.value}</dd>
             </div>
           ))}
         </dl>
       )}
 
-      <p className="mt-8 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-ink-3">
-        {history.eras.length} eras · {eventCount} sourced events ·{" "}
+      <p className="mt-7 font-mono text-[10px] uppercase tracking-[0.16em] text-umber">
+        {history.eras.length} beds · {eventCount} sourced events ·{" "}
         {history.sources.length} references · last verified{" "}
         <time dateTime={history.updated}>{formatDate(history.updated)}</time>
       </p>
 
-      <div className="mt-7 flex flex-wrap gap-3">
-        <Link
-          href={routes.journey(meta.code)}
-          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
-        >
-          ▶ Experience the time-journey
-        </Link>
+      <div className="mt-6">
         <Link
           href={routes.dossier(meta.code)}
-          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="pressable inline-flex items-center gap-2 border-2 border-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-oxide"
         >
-          The data dossier
+          The data dossier →
         </Link>
       </div>
     </header>
@@ -283,22 +261,19 @@ function Masthead({
 
 function Contents({ eras }: { eras: Era[] }) {
   return (
-    <nav aria-label="Chapters" className="mt-10 border-b border-[rgba(138, 74, 40,0.22)] pb-9">
-      <h2 className="eyebrow text-ink-3">Chapters</h2>
-      <ol className="mt-4 space-y-2.5">
+    <nav aria-label="Chapters" className="mt-8 border-t-2 border-basalt pt-4 pb-8">
+      <h2 className="eyebrow text-umber">The beds · down is older</h2>
+      <ol className="mt-3">
         {eras.map((era, i) => (
-          <li key={era.id} className="flex gap-3.5">
-            <span className="mt-[3px] w-6 shrink-0 font-mono text-[0.72rem] text-copper-deep">
-              {String(i + 1).padStart(2, "0")}
-            </span>
-            <a
-              href={`#${era.id}`}
-              className="group flex-1 border-b border-transparent transition-colors hover:border-[rgba(138, 74, 40,0.3)]"
-            >
-              <span className="font-display text-[1.12rem] font-[420] text-[#16201e] transition-colors group-hover:text-copper-deep">
+          <li key={era.id} className="border-b-2 border-basalt">
+            <a href={`#${era.id}`} className="pressable flex items-baseline gap-3.5 py-2.5">
+              <span className="w-6 shrink-0 font-mono text-[11px] text-oxide">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span className="flex-1 font-display text-[15px] font-extrabold uppercase leading-snug tracking-tight">
                 {era.title}
               </span>
-              <span className="ml-2 font-mono text-[0.7rem] text-ink-3">{era.period}</span>
+              <span className="flex-none font-mono text-[10px] text-umber">{era.period}</span>
             </a>
           </li>
         ))}
@@ -344,35 +319,29 @@ function EraSection({
 
   return (
     <section id={era.id} className="scroll-mt-6 py-11">
-      {/* The stratum rule opens each chapter — the signature device, tinted by
-          what the era was mostly made of. It replaces an anonymous hairline
-          border with something that carries information. */}
-      {!first && (
-        <span
-          aria-hidden
-          className="stratum-rule mb-10 block"
-          style={{ ["--stratum-tint" as string]: dominant }}
-        />
-      )}
-      <p className="eyebrow text-copper-deep">
-        Chapter {String(n).padStart(2, "0")} · {era.period}
+      {/* Each bed opens on the rule, with the era's dominant pigment set into
+          it as a tick — the one place category colour marks the reading page. */}
+      <div aria-hidden className="mb-8 flex items-center gap-0">
+        <span className="cut-rule w-full" />
+        <span className="h-[8px] w-[42px] flex-none" style={{ background: dominant }} />
+      </div>
+      <p className="eyebrow text-oxide">
+        Bed {String(n).padStart(2, "0")} · {era.period}
       </p>
 
-      <h2 className="mt-3 font-display text-[clamp(1.9rem,5.5vw,2.7rem)] font-[400] leading-[1.04] tracking-[-0.01em] text-[#16201e]">
+      <h2 className="mt-3 font-display text-[26px] font-extrabold uppercase leading-[1.02] tracking-tight md:text-[34px]">
         {era.title}
       </h2>
 
-      <p className="mt-4 font-serif text-[1.18rem] font-[340] italic leading-[1.5] text-[#454f4c]">
+      <p className="mt-3 font-sans text-[16px] font-medium leading-[1.5] text-umber">
         {era.standfirst}
       </p>
 
-      <div className="mt-6">
+      <div className="mt-5">
         {body.map((p, i) => (
           <p
             key={i}
-            className={`font-serif text-[1.13rem] leading-[1.7] text-[#16201e] ${
-              i > 0 ? "mt-[1.1em]" : ""
-            } ${first && i === 0 ? "dropcap" : ""}`}
+            className={`font-sans text-[16px] leading-[1.7] ${i > 0 ? "mt-[1.1em]" : ""}`}
           >
             {p}
           </p>
@@ -380,12 +349,12 @@ function EraSection({
       </div>
 
       {era.pullquote && (
-        <blockquote className="my-9 border-l-2 border-copper/50 pl-6">
-          <p className="font-display text-[1.42rem] font-[380] leading-[1.32] text-[#8a4a28]">
+        <blockquote className="my-8 border-l-[6px] border-basalt pl-5">
+          <p className="font-display text-[19px] font-extrabold leading-[1.3] tracking-tight uppercase">
             “{era.pullquote.text}”
           </p>
           {era.pullquote.attribution && (
-            <cite className="mt-2.5 block font-mono text-[0.7rem] uppercase not-italic tracking-[0.16em] text-ink-3">
+            <cite className="mt-2.5 block font-mono text-[10px] uppercase not-italic tracking-[0.16em] text-umber">
               — {era.pullquote.attribution}
             </cite>
           )}
@@ -394,7 +363,7 @@ function EraSection({
 
       {events.length > 0 && (
         <div className="mt-9">
-          <h3 className="eyebrow text-ink-3">Turning points</h3>
+          <h3 className="eyebrow text-umber">Turning points</h3>
           <ol className="mt-4 space-y-6">
             {events.map((ev, i) => (
               <EventItem key={`${ev.year}-${i}`} event={ev} sourceIndex={sourceIndex} code={code} />
@@ -412,7 +381,7 @@ function EraSection({
 
       {era.figures && era.figures.length > 0 && (
         <div className="mt-9">
-          <h3 className="eyebrow text-ink-3">Figures of the era</h3>
+          <h3 className="eyebrow text-umber">Figures of the era</h3>
           <div className="mt-4 space-y-5">
             {era.figures.map((f) => (
               <FigureItem key={f.name} figure={f} sourceIndex={sourceIndex} />
@@ -422,15 +391,15 @@ function EraSection({
       )}
 
       {era.sources.length > 0 && (
-        <p className="mt-8 font-mono text-[0.68rem] leading-relaxed text-ink-3">
-          <span className="uppercase tracking-[0.16em]">Chapter sources: </span>
+        <p className="mt-8 font-mono text-[10px] leading-relaxed text-umber">
+          <span className="uppercase tracking-[0.16em]">Bed sources: </span>
           {era.sources.map((id, i) => {
             const s = sources.find((x) => x.id === id);
             if (!s) return null;
             return (
               <span key={id}>
                 {i > 0 && ", "}
-                <a href={`#ref-${id}`} className="underline decoration-dotted hover:text-copper-deep">
+                <a href={`#ref-${id}`} className="text-oxide underline underline-offset-2">
                   {s.label}
                 </a>
               </span>
@@ -463,8 +432,8 @@ function MeanwhileElsewhere({
   if (events.length < 2) return null;
 
   return (
-    <aside className="mt-10 border-t border-[rgba(138,74,40,0.18)] pt-6">
-      <h4 className="eyebrow text-ink-3">
+    <aside className="mt-10 border-t-2 border-basalt pt-5">
+      <h4 className="eyebrow text-umber">
         Meanwhile elsewhere
         <span className="sr-only"> — during {eraTitle}</span>
       </h4>
@@ -482,20 +451,17 @@ function MeanwhileElsewhere({
                     1st century CE"), and letting them wrap pushed the nation
                     onto a second row and truncated it to nonsense. The year
                     keeps its full width; the nation truncates if it must. */}
-                <span className="flex items-baseline gap-2 overflow-hidden font-mono text-[0.68rem] uppercase tracking-[0.1em] text-ink-3">
+                <span className="flex items-baseline gap-2 overflow-hidden font-mono text-[10px] uppercase tracking-[0.1em] text-umber">
                   <span
                     aria-hidden
-                    className="h-[7px] w-[7px] flex-none translate-y-[-1px] rounded-full"
+                    className="h-[7px] w-[7px] flex-none translate-y-[-1px]"
                     style={{ background: cat?.tint }}
                   />
                   <span className="flex-none tabular-nums">{e.yearLabel}</span>
                   <span aria-hidden className="flex-none">·</span>
-                  <span className="min-w-0 truncate">
-                    {e.flag ? `${e.flag} ` : ""}
-                    {e.nation}
-                  </span>
+                  <span className="min-w-0 truncate">{e.nation}</span>
                 </span>
-                <span className="mt-1 block font-display text-[1.02rem] font-[440] leading-snug text-[#16201e] transition-colors group-hover:text-copper-deep">
+                <span className="mt-1 block font-sans text-[14.5px] font-medium leading-snug">
                   {e.title}
                 </span>
               </Link>
@@ -525,35 +491,36 @@ function EventItem({
   return (
     <li className="grid grid-cols-[4.6rem_1fr] gap-x-4 sm:grid-cols-[6rem_1fr] sm:gap-x-6">
       <div className="pt-[3px]">
-        <span className="block font-mono text-[0.82rem] font-medium tabular-nums text-copper-deep">
+        <span className="block font-mono text-[13px] font-medium tabular-nums text-oxide">
           {event.yearLabel ?? formatYear(event.year)}
         </span>
+        {event.yearLabel && event.yearLabel !== String(event.year) && event.year > 0 && (
+          <span className="mt-0.5 block font-mono text-[9.5px] tabular-nums text-umber">
+            {formatYear(event.year)}
+          </span>
+        )}
         <span
-          className="mt-1.5 block font-mono text-[0.6rem] uppercase leading-tight tracking-[0.12em] text-ink-3"
+          className="mt-1.5 block font-mono text-[9.5px] uppercase leading-tight tracking-[0.12em]"
           style={{ color: cat?.ink }}
         >
           {cat?.label ?? event.category}
         </span>
       </div>
-      <div className="border-l border-[rgba(138, 74, 40,0.22)] pl-4 sm:pl-6">
-        <h4 className="font-display text-[1.14rem] font-[440] leading-snug text-[#16201e]">
-          {event.title}
-        </h4>
-        <p className="mt-1.5 font-serif text-[1.03rem] leading-[1.62] text-[#16201e]">
-          {event.summary}
-        </p>
+      <div className="border-l-2 border-basalt pl-4 sm:pl-6">
+        <h4 className="font-sans text-[15.5px] font-bold leading-snug">{event.title}</h4>
+        <p className="mt-1.5 font-sans text-[14.5px] leading-[1.62]">{event.summary}</p>
         {dataLink && (
           <Link
             href={dataLink.href}
             prefetch={false}
-            className="mt-2 inline-flex items-center gap-1.5 font-mono text-[0.66rem] uppercase tracking-[0.12em] text-ink-3 transition-colors hover:text-copper-deep"
+            className="mt-2 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.12em] text-oxide"
           >
             <span aria-hidden>↗</span>
             {dataLink.label}
           </Link>
         )}
         {event.sources.length > 0 && (
-          <p className="mt-2 font-mono text-[0.66rem] text-ink-3">
+          <p className="mt-2 font-mono text-[10px] text-umber">
             {event.sources.map((id, i) => {
               const num = sourceIndex.get(id);
               if (!num) return null;
@@ -562,7 +529,7 @@ function EventItem({
                   {i > 0 && " "}
                   <a
                     href={`#ref-${id}`}
-                    className="rounded-sm px-1 py-0.5 text-copper-deep transition-colors hover:bg-[rgba(200, 114, 68,0.16)]"
+                    className="px-1 py-0.5 text-oxide"
                     aria-label={`Reference ${num}`}
                   >
                     [{num}]
@@ -596,28 +563,28 @@ function FigureItem({
 }) {
   const Heading = level === 3 ? "h3" : "h4";
   return (
-    <div className="border-l border-[rgba(138, 74, 40,0.22)] pl-4 sm:pl-6">
-      <Heading className="font-display text-[1.12rem] font-[440] leading-snug text-[#16201e]">
+    <div className="border-l-2 border-basalt pl-4 sm:pl-6">
+      <Heading className="font-sans text-[15.5px] font-bold leading-snug">
         {figure.name}
         {figure.life && (
-          <span className="ml-2 font-mono text-[0.7rem] font-normal text-ink-3">
+          <span className="ml-2 font-mono text-[10.5px] font-normal text-umber">
             {figure.life}
           </span>
         )}
       </Heading>
-      <p className="mt-0.5 font-mono text-[0.66rem] uppercase tracking-[0.14em] text-copper-deep">
+      <p className="mt-0.5 font-mono text-[10px] uppercase tracking-[0.14em] text-oxide">
         {figure.role}
       </p>
-      <p className="mt-2 font-serif text-[1.02rem] leading-[1.62] text-[#16201e]">{figure.blurb}</p>
+      <p className="mt-2 font-sans text-[14.5px] leading-[1.62]">{figure.blurb}</p>
       {figure.sources && figure.sources.length > 0 && (
-        <p className="mt-1.5 font-mono text-[0.66rem] text-ink-3">
+        <p className="mt-1.5 font-mono text-[10px] text-umber">
           {figure.sources.map((id, i) => {
             const num = sourceIndex.get(id);
             if (!num) return null;
             return (
               <span key={id}>
                 {i > 0 && " "}
-                <a href={`#ref-${id}`} className="text-copper-deep hover:underline">
+                <a href={`#ref-${id}`} className="text-oxide">
                   [{num}]
                 </a>
               </span>
@@ -637,8 +604,8 @@ function FigureGallery({
   sourceIndex: Map<string, number>;
 }) {
   return (
-    <section className="stratum-top py-11">
-      <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
+    <section className="border-t-2 border-basalt py-10">
+      <h2 className="font-display text-[24px] font-extrabold uppercase leading-tight tracking-tight md:text-[30px]">
         Pivotal figures
       </h2>
       <div className="mt-6 space-y-6">
@@ -652,11 +619,11 @@ function FigureGallery({
 
 function References({ sources }: { sources: Source[] }) {
   return (
-    <section id="references" className="scroll-mt-6 stratum-top py-11">
-      <h2 className="font-display text-[clamp(1.7rem,4.5vw,2.2rem)] font-[400] leading-tight text-[#16201e]">
+    <section id="references" className="scroll-mt-6 border-t-2 border-basalt py-10">
+      <h2 className="font-display text-[24px] font-extrabold uppercase leading-tight tracking-tight md:text-[30px]">
         References
       </h2>
-      <p className="mt-2.5 font-serif text-[1.02rem] italic leading-relaxed text-[#454f4c]">
+      <p className="mt-2.5 font-sans text-[14.5px] leading-relaxed text-umber">
         Every claim in this chronicle traces to one of the {sources.length} references below.
       </p>
       <ol className="mt-6 space-y-3.5">
@@ -666,17 +633,17 @@ function References({ sources }: { sources: Source[] }) {
             id={`ref-${s.id}`}
             className="scroll-mt-6 grid grid-cols-[2rem_1fr] gap-x-2 text-[0.95rem]"
           >
-            <span className="pt-[2px] font-mono text-[0.74rem] tabular-nums text-copper-deep">
+            <span className="pt-[2px] font-mono text-[11.5px] tabular-nums text-oxide">
               [{i + 1}]
             </span>
             <div>
-              <cite className="font-sans not-italic text-[#16201e]">
+              <cite className="font-sans not-italic">
                 {s.url ? (
                   <a
                     href={s.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline decoration-[rgba(138, 74, 40,0.35)] underline-offset-2 transition-colors hover:text-copper-deep"
+                    className="text-oxide underline underline-offset-2"
                   >
                     {s.label}
                   </a>
@@ -685,11 +652,11 @@ function References({ sources }: { sources: Source[] }) {
                 )}
               </cite>
               {s.publisher && (
-                <span className="ml-1.5 font-mono text-[0.7rem] text-ink-3">
+                <span className="ml-1.5 font-mono text-[10.5px] text-umber">
                   · {s.publisher}
                 </span>
               )}
-              <span className="ml-1.5 font-mono text-[0.64rem] uppercase tracking-[0.12em] text-ink-3">
+              <span className="ml-1.5 font-mono text-[9.5px] uppercase tracking-[0.12em] text-umber">
                 {s.kind}
               </span>
             </div>
@@ -714,34 +681,34 @@ function ChronicleFooter({
   themes: { slug: string; label: string }[];
 }) {
   return (
-    <footer className="pt-11">
+    <footer className="border-t-2 border-basalt pt-8">
       <div className="flex flex-wrap gap-3">
         <Link
-          href={routes.journey(meta.code)}
+          href={routes.dossier(meta.code)}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-[3px] bg-[#16201e] px-5 py-2.5 font-sans text-[0.9rem] font-medium text-land-0 transition-colors hover:bg-[#16201e]"
+          className="pressable inline-flex items-center gap-2 border-2 border-basalt bg-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-bone"
         >
-          ▶ Experience {meta.name} as a time-journey
+          The data dossier →
         </Link>
         <Link
           href={routes.atlas()}
           prefetch={false}
-          className="inline-flex items-center gap-2 rounded-[3px] border border-[rgba(138, 74, 40,0.35)] px-5 py-2.5 font-sans text-[0.9rem] text-[#8a4a28] transition-colors hover:bg-[rgba(200, 114, 68,0.1)]"
+          className="pressable inline-flex items-center gap-2 border-2 border-basalt px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-oxide"
         >
-          Browse the atlas
+          The section cut
         </Link>
       </div>
 
       {/* The same events, read across every nation instead of one. */}
       <nav aria-label="Read across nations" className="mt-10">
-        <h2 className="eyebrow text-ink-3">Read across nations</h2>
+        <h2 className="eyebrow text-umber">Read across nations</h2>
         <ul className="mt-3.5 flex flex-wrap gap-2.5">
           {periods.map((p) => (
             <li key={p.slug}>
               <Link
                 href={`/timeline/${p.slug}`}
                 prefetch={false}
-                className="inline-flex items-center rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                className="pressable inline-flex items-center border-2 border-basalt px-3.5 py-1.5 font-sans text-[13px]"
               >
                 {p.label}
               </Link>
@@ -752,7 +719,7 @@ function ChronicleFooter({
               <Link
                 href={`/themes/${t.slug}`}
                 prefetch={false}
-                className="inline-flex items-center rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                className="pressable inline-flex items-center border-2 border-basalt px-3.5 py-1.5 font-sans text-[13px]"
               >
                 {t.label}
               </Link>
@@ -763,16 +730,15 @@ function ChronicleFooter({
 
       {neighbours.length > 0 && (
         <nav aria-label="Neighbouring chronicles" className="mt-10">
-          <h2 className="eyebrow text-ink-3">Neighbouring chronicles</h2>
+          <h2 className="eyebrow text-umber">Neighbouring chronicles</h2>
           <ul className="mt-3.5 flex flex-wrap gap-2.5">
             {neighbours.map((nb) => (
               <li key={nb.code}>
                 <Link
                   href={routes.chronicle(nb.code)}
                   prefetch={false}
-                  className="inline-flex items-center gap-1.5 rounded-[3px] border border-[rgba(138, 74, 40,0.28)] px-3.5 py-1.5 font-sans text-[0.86rem] text-[#454f4c] transition-colors hover:bg-[rgba(200, 114, 68,0.12)]"
+                  className="pressable inline-flex items-center gap-1.5 border-2 border-basalt px-3.5 py-1.5 font-sans text-[13px]"
                 >
-                  {nb.flag && <span aria-hidden="true">{nb.flag}</span>}
                   {nb.name}
                 </Link>
               </li>
@@ -781,7 +747,7 @@ function ChronicleFooter({
         </nav>
       )}
 
-      <p className="mt-11 font-mono text-[0.68rem] leading-relaxed text-ink-3">
+      <p className="mt-10 font-mono text-[10px] leading-relaxed text-umber">
         The chronicle of {meta.name} · {SITE_NAME} · last verified{" "}
         <time dateTime={history.updated}>{formatDate(history.updated)}</time>. Terralore publishes a
         nation&rsquo;s chapters only once each claim can be traced to a reliable source.

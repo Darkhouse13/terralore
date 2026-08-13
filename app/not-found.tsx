@@ -26,26 +26,25 @@ export default function NotFound() {
   const stats = corpusStats();
 
   return (
-    <main className="grid min-h-[100dvh] place-items-center bg-depth-6 px-6 py-20 text-chalk">
+    <main className="grid min-h-[100dvh] place-items-center bg-bone px-6 py-20">
       <div className="w-full max-w-[38rem]">
-        <span aria-hidden className="stratum-rule mb-8 block max-w-[120px]" />
+        <p className="eyebrow text-oxide">Error 404 · Not observed</p>
 
-        <p className="eyebrow text-copper">Error 404</p>
-
-        <h1 className="mt-4 font-display text-[clamp(2.4rem,7vw,3.6rem)] font-[400] leading-[1.02] tracking-[-0.015em] text-chalk-hi">
+        <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[56px]">
           Not on the chart
         </h1>
 
-        <p className="mt-5 font-serif text-[1.12rem] leading-[1.6] text-chalk-read">
-          Nothing is published at this address. The archive holds{" "}
-          {stats.events.toLocaleString("en")} sourced events across {stats.nations} nations
-          — one of these is a better place to be.
+        <div className="not-observed mt-5 inline-block">NOTHING IS PUBLISHED AT THIS ADDRESS</div>
+
+        <p className="mt-4 font-sans text-[15px] leading-[1.6] text-umber">
+          The archive holds {stats.events.toLocaleString("en")} sourced events across{" "}
+          {stats.nations} nations — one of these is a better place to be.
         </p>
 
-        <nav className="mt-10 flex flex-col divide-y divide-depth-2/70 border-y border-depth-2/70">
+        <nav className="mt-8 flex flex-col border-t-2 border-basalt">
           {[
-            { href: routes.home(), label: "The globe", note: "Spin it, choose a nation" },
-            { href: routes.atlas(), label: "The atlas", note: "Every nation, searchable" },
+            { href: routes.home(), label: "The front door", note: "The whole atlas in section" },
+            { href: routes.atlas(), label: "The section cut", note: "Every nation, searchable" },
             { href: "/timeline", label: "The chronology", note: "Every event, by period" },
             { href: "/themes", label: "The themes", note: "Every event, by subject" },
           ].map((l) => (
@@ -53,17 +52,12 @@ export default function NotFound() {
               key={l.href}
               href={l.href}
               prefetch={false}
-              className="group flex items-baseline justify-between gap-6 py-4 transition-colors hover:text-copper-bright"
+              className="pressable flex items-baseline justify-between gap-6 border-b-2 border-basalt py-3.5"
             >
-              <span className="text-[1.06rem] text-chalk">{l.label}</span>
+              <span className="font-sans text-[15px] font-medium">{l.label}</span>
               <span className="flex items-baseline gap-3 text-right">
-                <span className="hidden text-[0.9rem] text-chalk-3 sm:inline">{l.note}</span>
-                <span
-                  aria-hidden
-                  className="font-mono text-copper transition-transform group-hover:translate-x-0.5"
-                >
-                  →
-                </span>
+                <span className="hidden font-sans text-[13px] text-umber sm:inline">{l.note}</span>
+                <span aria-hidden className="font-mono text-oxide">→</span>
               </span>
             </Link>
           ))}
