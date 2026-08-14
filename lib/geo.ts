@@ -30,7 +30,7 @@ import { allHistories, getHistory } from "./histories";
 import { allRankings, type Ranking } from "./rankings";
 import { allComparePages, compareTitle, type ComparePage } from "./compare";
 import { allCommodities, commoditiesSource, commoditiesUpdated, type Commodity } from "./commodities";
-import { allEntries, type LedgerEntry } from "./ledger";
+import { allEntries, letterSlugs, type LedgerEntry } from "./ledger";
 import { NO_DATA_NOTES, TERRITORY_NOTES } from "./territory-notes";
 import {
   DOMAIN_META,
@@ -559,9 +559,17 @@ function ledgerTwin(e: LedgerEntry): Twin {
     `The complete claim-by-claim change record (${e.changes.length.toLocaleString("en")} changes ` +
       `with claim IDs, prior and new values, and origins): ${SITE_URL}/ledger/${e.slug}.json`,
     "",
-    citation(title, canonicalPath),
-    "",
   );
+
+  if (letterSlugs().includes(e.slug)) {
+    L.push(
+      `This entry was also sent as the Ledger Letter (issue № ${e.slug}) — archived at ` +
+        `${SITE_URL}${routes.ledgerLetter(e.slug)}, plain text at ${SITE_URL}/ledger/letter/${e.slug}.txt.`,
+      "",
+    );
+  }
+
+  L.push(citation(title, canonicalPath), "");
 
   return { path: `${canonicalPath}.md`, canonicalPath, title, description, kind: "ledger", markdown: L.join("\n") };
 }

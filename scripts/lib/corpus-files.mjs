@@ -39,6 +39,9 @@ export function corpusFiles(root) {
     // ledger entries live in public/ (fetchable at /ledger/<slug>.json — the
     // committed file IS the record) and are sealed like every derivation
     ...listDir("public/ledger", (f) => f.endsWith(".json")),
+    // sent letters are records too: the archived copy of what was mailed,
+    // append-only like the entries they digest
+    ...listDir("public/ledger/letter", (f) => f.endsWith(".html") || f.endsWith(".txt")),
     // (b) the published derivations — fetchable at the same path on the live
     // site without the public/ prefix
     ...listDir("public/country", (f) => f.endsWith(".claims.json") || f.endsWith(".md")),

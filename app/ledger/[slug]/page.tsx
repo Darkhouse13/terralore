@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
-import { allEntries, getEntry, type LedgerEntry } from "@/lib/ledger";
+import CaptureBed from "@/components/strata/CaptureBed";
+import { allEntries, getEntry, letterSlugs, type LedgerEntry } from "@/lib/ledger";
 import { DOMAIN_META, type DomainKey } from "@/lib/types";
 import {
   abs,
@@ -298,7 +299,20 @@ export default async function LedgerEntryPage({
               </a>
               . Each nation&rsquo;s own changes are read on its dossier, under THE RECORD.
             </p>
+            {letterSlugs().includes(e.slug) && (
+              <p className="mt-3 font-mono text-[11px] uppercase">
+                <Link
+                  href={routes.ledgerLetter(e.slug)}
+                  prefetch={false}
+                  className="text-oxide"
+                >
+                  Sent as the Ledger Letter — read issue № {e.slug} →
+                </Link>
+              </p>
+            )}
           </section>
+
+          <CaptureBed />
 
           <footer className="mt-10 flex justify-between font-mono text-[10px] text-umber">
             <div>EVERY CLAIM SOURCED</div>

@@ -59,6 +59,9 @@ const ALL_PAGES = [
   { name: "compare", path: "/compare/deu-vs-fra" },
   { name: "compare-hub", path: "/compare" },
   { name: "chronicle", path: "/country/FRA/chronicle" },
+  // The capture surface (deviations E16): the ledger hub carries the letter's
+  // subscription bed, so it holds the floor like every surface class.
+  { name: "ledger", path: "/ledger" },
 ];
 const ONLY = flag("only", null)?.split(",");
 const PAGES = ONLY ? ALL_PAGES.filter((p) => ONLY.includes(p.name)) : ALL_PAGES;

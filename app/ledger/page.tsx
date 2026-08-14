@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import { allEntries } from "@/lib/ledger";
+import CaptureBed from "@/components/strata/CaptureBed";
+import { allEntries, letterSlugs } from "@/lib/ledger";
 import { breadcrumbLd, ledgerDescription, routes, SITE_NAME } from "@/lib/seo";
 
 /**
@@ -135,6 +136,21 @@ export default function LedgerPage() {
             with the refresh itself. Between entries the corpus does not change — the
             seal proves it.
           </p>
+
+          <CaptureBed />
+          {letterSlugs().length > 0 && (
+            <p className="mt-3 font-mono text-[11px] uppercase">
+              <span className="text-umber">The letter archive: </span>
+              {letterSlugs().map((slug, i) => (
+                <span key={slug}>
+                  {i > 0 && <span className="text-umber"> · </span>}
+                  <Link href={routes.ledgerLetter(slug)} prefetch={false} className="text-oxide">
+                    № {slug} →
+                  </Link>
+                </span>
+              ))}
+            </p>
+          )}
 
           <footer className="mt-10 flex justify-between font-mono text-[10px] text-umber">
             <div>EVERY CLAIM SOURCED</div>

@@ -74,6 +74,26 @@ export function getEntry(slug: string): LedgerEntry | undefined {
   return allEntries().find((e) => e.slug === slug);
 }
 
+/** Slugs of entries whose Ledger Letter has been built (the letter archive). */
+export function letterSlugs(): string[] {
+  const dir = join(process.cwd(), "public", "ledger", "letter");
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir)
+    .filter((f) => /^\d{4}\.html$/.test(f))
+    .map((f) => f.replace(/\.html$/, ""))
+    .sort()
+    .reverse();
+}
+
+/** The letter's archived email body (the rows between the builder's markers). */
+export function letterBody(slug: string): string | null {
+  const file = join(process.cwd(), "public", "ledger", "letter", `${slug}.html`);
+  if (!existsSync(file)) return null;
+  const html = readFileSync(file, "utf8");
+  const m = html.match(/<!--LETTER-BODY-START-->([\s\S]*)<!--LETTER-BODY-END-->/);
+  return m ? m[1] : null;
+}
+
 /** The latest recorded changes touching one nation, newest entry first. */
 export function changesForNation(code: string): { entry: LedgerEntry; changes: LedgerChange[] }[] {
   const out: { entry: LedgerEntry; changes: LedgerChange[] }[] = [];

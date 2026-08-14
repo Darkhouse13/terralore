@@ -8,7 +8,7 @@ import { allComparePages, compareUpdated } from "@/lib/compare";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
 import { currentManifest } from "@/lib/integrity";
-import { allEntries } from "@/lib/ledger";
+import { allEntries, letterSlugs } from "@/lib/ledger";
 
 /**
  * Canonical origin and route shapes both come from `lib/seo.ts`, so the sitemap
@@ -103,6 +103,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       }));
     }),
+    // Privacy: hand-authored; its honest lastmod is its last edit, tracked here.
+    {
+      url: abs(routes.privacy()),
+      lastModified: "2026-08-14",
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
     // The seal: /integrity changes exactly when the corpus is resealed, so the
     // seal's own date is the honest lastmod.
     {
@@ -124,6 +131,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: e.date,
       changeFrequency: "never" as const,
       priority: 0.5,
+    })),
+    // The letter archive: a sent letter is as final as its entry.
+    ...letterSlugs().map((slug) => ({
+      url: abs(routes.ledgerLetter(slug)),
+      lastModified: allEntries().find((e) => e.slug === slug)?.date ?? CORPUS_AT,
+      changeFrequency: "never" as const,
+      priority: 0.4,
     })),
     // The commodities read: the resources domain across nations. Their content
     // changes only when the USGS MCS table is rebuilt (annually), so the honest
