@@ -6,7 +6,72 @@ build and the checks below say so.
 
 ---
 
-## 2026-08-14 — STRATA × SHOW THE WORK: the whole visual world replaced
+## 2026-08-14 — The mounted core + the junction finder
+
+Three commits (`9f38674`, `8611cc9`, `b603346`): the desktop adaptation
+the P3 contract never specified, designed inside the language rather
+than adapted (deviations E12), and the compare index rebuilt as
+wayfinding (E13). No URL changed; no IndexNow.
+
+**The mounted core (E12), every surface ≥1024px.** A core sample is a
+narrow vertical thing — the wide screen now MOUNTS it instead of
+stretching it: content locks to a bounded column (46rem reading
+measure; data tables fill to ~52rem) set left-of-center, and the freed
+left margin carries the apparatus: a 2px depth rail with mono ticks —
+era years riding the rail on the nation cut and chronicle (pure
+`position: sticky`, zero scroll JS), rank decades printed at every
+tenth ranking row, section names on the front door, calendar years on
+chronology period pages. Labels that stacked under titles on the phone
+(bed sublines, era periods, bed eyebrows) moved to marginalia with
+`sr-only` in-flow twins, so the reading order is unchanged for screen
+readers. The section cut alone uses width honestly: 4 seam columns
+≥1280px, row height untouched. Overture choreography identical.
+
+**The junction finder (E13).** 504 alphabetical compare rows became:
+THE TRAY (two specimen slots — dig, slot, CUT THE JUNCTION; a published
+pair navigates, a miss reports "no junction cut" and lists the cuts the
+set holds through nation A) + three browse views on native radios (BY
+NEIGHBOURHOOD under continent bed-headers walking the cut's palette,
+default; MOST ENTANGLED — 265 pairs with crossed events, count
+descending, the 239 without stated as a count; THE G20 — all 171
+member pairs by membership, not tier) + a dig-to-filter field. The
+tray and filter are one inline vanilla-JS island on this page only,
+hidden until it runs — without JavaScript the page is still the whole
+index. Row anatomy unchanged.
+
+**Index audit (the >60-undifferentiated-rows sweep):** ranking pages
+(~180 rows) were the other true case — fixed by the decade depth marks;
+rankings index (66 rows) was already domain-sectioned — gained domain
+jump links + margin ticks; atlas is the section cut, timeline hub is
+2 sections of density bands, theme/period pages already carry chapter
+jump navs, commodities is 10 rows — none needed structural surgery.
+
+**A gate found a real defect:** the strata contrast script's ≥3:1
+"label class" had sanctioned sand-on-oxide (3.90:1) at 10–11px, which
+fails AA — E11 extended: micro mono labels on oxide grounds are now
+bone (4.68:1) on the front door, dossier era beds, atlas and compare
+hub. Jump links got real touch targets.
+
+Verification, production build then re-checked live:
+
+- Trio per commit: `npm run validate` 0 errors, `tsc` clean, build
+  green, seam scan 0 word-jams across 1,628 prerendered pages.
+- Lighthouse mobile (median of 3): front door 98/100, nation (JPN)
+  97/100, compare index 95/100 (perf/a11y; BP+SEO 100 across) — the
+  island costs nothing (TBT 78ms) and accessibility hit 100 on all
+  three gated surfaces for the first time (the oxide fix cleared
+  latent flags on landing and dossier too).
+- Reduced-motion: 0 running animations, content visible, on front
+  door, nation, compare index, ranking, chronicle.
+- Touch: tray tap-select and tab switching at 390px, proof-flip press,
+  core-pull commit — all pass.
+- Screenshot matrix: 13 surfaces × 390/1280/1440/1920, horizontal
+  overflow asserted zero at every capture —
+  `design-review/18-mounted-core/`; live re-capture of 6 surfaces × 4
+  widths (again zero overflow) in `…/live/`.
+- Live behavior: tray dig→slot→CUT navigates to /compare/deu-vs-fra;
+  MOST ENTANGLED shows 265 rows; chronicle era ticks are sticky in
+  production. `fuser`-killed the local server after.
 
 The cutover of the strata-rebuild branch (10 commits + merge `fca7a25`):
 every pixel and interaction on the site replaced to the P3 design
