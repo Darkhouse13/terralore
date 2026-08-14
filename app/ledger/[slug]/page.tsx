@@ -306,7 +306,7 @@ export default async function LedgerEntryPage({
                   prefetch={false}
                   className="text-oxide"
                 >
-                  Sent as the Ledger Letter — read issue № {e.slug} →
+                  Issued as the Ledger Letter — read № {e.slug} →
                 </Link>
               </p>
             )}

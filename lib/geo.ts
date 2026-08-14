@@ -563,7 +563,7 @@ function ledgerTwin(e: LedgerEntry): Twin {
 
   if (letterSlugs().includes(e.slug)) {
     L.push(
-      `This entry was also sent as the Ledger Letter (issue № ${e.slug}) — archived at ` +
+      `This entry is also issued as the Ledger Letter (issue № ${e.slug}) — archived at ` +
         `${SITE_URL}${routes.ledgerLetter(e.slug)}, plain text at ${SITE_URL}/ledger/letter/${e.slug}.txt.`,
       "",
     );

@@ -6,6 +6,46 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-14 — the Ledger Letter (f570a3b + 2 follow-ups)
+
+The owned-audience layer: self-hosted listmonk (Coolify service
+`j8lskiymw24…`, v6.2.0 pinned, caps 1.0/512M + 0.5/256M), the list "The
+Ledger" (double opt-in), the capture bed (E16) on /ledger + entries + the
+front door, /privacy, and issue № 0001 of the digest as committed
+artifacts + archive page. Capture is first-party: a priority-1000 proxy
+file routes `terralore.co/subscription/*` to the container — no DNS wait.
+
+- **13:03:36Z** pushed `main` (`f570a3b`); **13:06:38Z** the new seal
+  (2026-08-14.3) served live; letter page 200 from 13:07:15Z.
+- Verification battery: `/ledger/letter/0001` + `.txt`, `/privacy`,
+  `/ledger` all 200; live bytes of the letter artifacts and
+  `/integrity.json` **hash-identical** to the committed files; sitemap
+  carries both new URLs; the entry twin carries the letter line.
+- **Live no-JS capture proof (13:11Z)**: `curl -X POST
+  https://terralore.co/subscription/form` → 200 designed confirmation page
+  ("An e-mail has been sent…" under the TERRALORE stamp) → opt-in email in
+  the mailpit sink → subscriber `confirmed` via the opt-in link →
+  test subscriber deleted. The identical loop was proven pre-deploy
+  end-to-end inside the box.
+- **Found & fixed in flight**: `.dockerignore`'s `**/*.png` had been
+  eating `app/icon1.png` + `public/icon-192/512.png` since the icon
+  rename — the manifest icons and the JSON-LD logo were 404 in
+  production. Negation list updated (with the new letter stamp);
+  **13:10:48Z** all four PNGs live 200.
+- Honesty pass after first deploy: letter/entry/twin copy said "sent" —
+  issue № 0001 is issued and archived but not yet sent (send awaits the
+  Zoho app password, deliverability doc §2–3). Reworded to "issued /
+  the copy subscribers receive", letter rebuilt, resealed 2026-08-14.4.
+- Lighthouse mobile (pre-deploy, production build): landing 98/100/100/100,
+  ledger 98/100/100/100 — floors hold with the capture bed.
+- Not sent, by design: sending is a deliberate act
+  (`scripts/send-letter.mjs`, docs/newsletter-ops.md §2) and waits on the
+  user's Zoho click-work (docs/newsletter-deliverability.md — DNS A record
+  `listmonk`, DMARC, `ledger@terralore.co` + app password).
+- IndexNow after the final deploy: `/privacy`, `/ledger/letter/0001`.
+
+---
+
 ## 2026-08-14 — the Living Record v1 (b99e05f → e233c03)
 
 Seven commits: the claim-identity scheme (doc before code, D14), Layer 1

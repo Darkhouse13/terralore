@@ -106,8 +106,8 @@ export default async function LedgerLetterPage({
               The letter of record № {entry.slug}
             </h1>
             <p className="mt-3 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
-              The digest below is the email as sent to the Ledger&rsquo;s subscribers —
-              archived verbatim, with its{" "}
+              The digest below is letter № {entry.slug} exactly as the Ledger&rsquo;s
+              subscribers receive it — archived verbatim, with its{" "}
               <a
                 href={`/ledger/letter/${entry.slug}.txt`}
                 className="font-mono text-[12.5px] text-oxide underline underline-offset-2"

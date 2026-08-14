@@ -229,7 +229,7 @@ export function buildLetter(slug, root) {
   const footer = {
     page: `
 <tr><td style="${sectionRule}padding:12px 0 28px;">
-  <div style="font-family:${MONO};font-size:11px;line-height:1.8;color:${UMBER};">THE ARCHIVED COPY OF LETTER &#8470; ${esc(entry.slug)}, SENT TO THE LEDGER&#8217;S SUBSCRIBERS.<br />ONE LETTER PER RECORDED REFRESH &middot; DOUBLE OPT-IN &middot; SUBSCRIBE AT <a href="${SITE}/ledger" style="color:${OXIDE};">TERRALORE.CO/LEDGER</a><br />terralore.co &mdash; EVERY CLAIM SOURCED &middot; ABSENCE &ne; ZERO &middot; NO SIDES</div>
+  <div style="font-family:${MONO};font-size:11px;line-height:1.8;color:${UMBER};">LETTER OF RECORD &#8470; ${esc(entry.slug)} &mdash; THE COPY THE LEDGER&#8217;S SUBSCRIBERS RECEIVE.<br />ONE LETTER PER RECORDED REFRESH &middot; DOUBLE OPT-IN &middot; SUBSCRIBE AT <a href="${SITE}/ledger" style="color:${OXIDE};">TERRALORE.CO/LEDGER</a><br />terralore.co &mdash; EVERY CLAIM SOURCED &middot; ABSENCE &ne; ZERO &middot; NO SIDES</div>
 </td></tr>`,
     campaign: `
 <tr><td style="${sectionRule}padding:12px 0 28px;">
@@ -305,7 +305,7 @@ file against the seal with sha256sum alone: ${SITE}/integrity
   const textFooter = {
     page: `
 ${rule}
-The archived copy of letter № ${entry.slug}, sent to The Ledger's subscribers.
+Letter of record № ${entry.slug} — the copy The Ledger's subscribers receive.
 One letter per recorded refresh · double opt-in · subscribe at
 ${SITE}/ledger
 
