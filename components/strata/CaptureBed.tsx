@@ -13,10 +13,28 @@
      bordered row, the fine print carrying the promise.
 
    The `nonce` field is listmonk's honeypot — present and EMPTY, hidden from
-   people and readers, filled only by naive bots. */
+   people and readers, filled only by naive bots.
+
+   The POST is not instant: listmonk sends the double-opt-in email inside the
+   request, so the reader waits on an SMTP round trip (~2s to Zoho). A form
+   that looks inert for two seconds gets clicked twice, so the submit is
+   guarded — the button states what it is doing and the second submit is
+   swallowed. Listmonk dedupes the address either way (two concurrent POSTs
+   make one subscriber); this is so the interface tells the same truth the
+   server does. Delegated, idempotent, ~300 bytes inline: no hydration, no
+   bundle, and with JS off the form posts exactly as before. */
 
 const FORM_ACTION = "/subscription/form";
 const LEDGER_LIST_UUID = "70011fd6-48ff-40cc-bb1d-ee3164f1c76f";
+
+/* One document-level listener however many beds a page mounts. Disabling the
+   button inside the submit handler does not cancel the submission already in
+   flight; it only stops the next one. */
+const SUBMIT_GUARD = `(function(){if(window.__tlCapture)return;window.__tlCapture=1;document.addEventListener("submit",function(e){var f=e.target;if(!f||!f.matches||!f.matches("form[data-capture]"))return;if(f.dataset.sent){e.preventDefault();return}f.dataset.sent="1";f.setAttribute("aria-busy","true");var b=f.querySelector("button[type=submit]");if(b){b.disabled=true;b.textContent="SENDING…"}})})();`;
+
+function SubmitGuard() {
+  return <script dangerouslySetInnerHTML={{ __html: SUBMIT_GUARD }} />;
+}
 
 function Honeypot() {
   return (
@@ -36,7 +54,7 @@ export default function CaptureBed({ variant = "bed" }: { variant?: "bed" | "row
   if (variant === "row") {
     return (
       <div className="mt-3">
-        <form method="post" action={FORM_ACTION} className="flex border-2 border-basalt">
+        <form method="post" action={FORM_ACTION} data-capture className="flex border-2 border-basalt">
           <Honeypot />
           <input type="hidden" name="l" value={LEDGER_LIST_UUID} />
           <label htmlFor="letter-email-row" className="sr-only">
@@ -57,6 +75,7 @@ export default function CaptureBed({ variant = "bed" }: { variant?: "bed" | "row
             SUBSCRIBE
           </button>
         </form>
+        <SubmitGuard />
         <p className="mt-2 font-mono text-[10px] text-umber">
           WHAT CHANGED IN THE RECORD · ONE LETTER PER RECORDED REFRESH · DOUBLE OPT-IN ·
           LEAVE ANYTIME
@@ -72,7 +91,7 @@ export default function CaptureBed({ variant = "bed" }: { variant?: "bed" | "row
         What changed in the world&rsquo;s record — each recorded refresh as one letter:
         the sharpest movements, the counts, and the claim IDs to verify every line.
       </p>
-      <form method="post" action={FORM_ACTION} className="mt-4 flex max-w-2xl">
+      <form method="post" action={FORM_ACTION} data-capture className="mt-4 flex max-w-2xl">
         <Honeypot />
         <input type="hidden" name="l" value={LEDGER_LIST_UUID} />
         <label htmlFor="letter-email" className="sr-only">
@@ -93,6 +112,7 @@ export default function CaptureBed({ variant = "bed" }: { variant?: "bed" | "row
           SUBSCRIBE
         </button>
       </form>
+      <SubmitGuard />
       <p className="mt-3 max-w-2xl font-mono text-[10px] leading-relaxed text-umber">
         DOUBLE OPT-IN — NOTHING ARRIVES UNTIL YOU CONFIRM FROM YOUR INBOX · NO OTHER
         MAIL · LEAVE ANYTIME — UNSUBSCRIBING REMOVES YOUR ADDRESS ·{" "}

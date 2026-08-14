@@ -212,7 +212,10 @@ invariant — where the invariant wins by rule.
   promise in the body voice, a 2px-basalt input joined to an oxide
   SUBSCRIBE cell, and the honesty fine print in the mono fine size —
   double opt-in, no other mail, leave anytime, with the privacy surface
-  linked. It appears on exactly three surfaces: `/ledger` and each
+  linked. The submit carries a ~300-byte inline guard (delegated, idempotent,
+  no hydration, no bundle — the overture's precedent): the button says
+  SENDING… while the POST waits on listmonk's opt-in send, and a second
+  submit is swallowed. With JS off the form posts exactly as before. It appears on exactly three surfaces: `/ledger` and each
   `/ledger/<n>` (the reader who just watched the record work is the
   reader), and the front door as the **row variant** — a sibling cell of
   the dig cell inside the dig row's existing overture moment, so it adds
