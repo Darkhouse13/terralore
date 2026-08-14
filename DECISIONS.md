@@ -307,3 +307,39 @@ applies to contested sovereignty (Taiwan, Kosovo, Northern Cyprus, Somaliland).
 A contested date is the same problem in a smaller frame. The block is the right
 place for the caveat because it is where a reader meets the claim; a footnote
 elsewhere would be a caveat nobody reads.
+
+---
+
+## D14 — Claim identity is content-derived, never hashed or serial
+
+**Chosen:** `TL:<subject>:<measure>:<vintage>` — the claim ID is composed from
+the ADM0_A3 code, the globally-unique metric key (or event year + title slug),
+and the observed year. Identity excludes the value: a changed value under the
+same identity is a *revision* of the same claim; a new observed year is a *new
+claim*. Full scheme in `docs/living-record.md` §1.
+
+**Rejected:** (a) content hashes as IDs (`TL:sha256(…)`), which are perfectly
+unique and perfectly meaningless — a hash changes when the value is revised,
+which makes "the same claim, corrected" inexpressible, and the ledger's whole
+subject is exactly that; (b) serial numbers from a registry file, which are
+stable but assigned, meaning two clean checkouts could mint different IDs for
+the same observation and every new nation would need a registry commit; (c)
+putting the domain in the ID (`TL:FRA:economy:gdp:2024`), which encodes a
+presentation choice (which tab a metric sits in) into an identity that should
+outlive presentation — the metric key is already unique corpus-wide, enforced
+by the series-index builder.
+
+**Why:** the recorder needs to say three different things — *this claim's
+value moved* (revision), *a newer observation superseded this one* (new
+vintage), *this observation left the corpus* (retirement) — and only an
+identity that survives value changes and dies with the observed year can
+carry all three. Content-derived IDs also cost nothing to keep consistent:
+any corpus state, past or present, yields its claim set deterministically,
+which is what lets the diff engine read old states out of git with no
+side-car bookkeeping.
+
+**Cost, stated:** editing an event's title or year retires its claim ID and
+mints a new one, even when a human would say it is "the same event, renamed".
+Accepted: the ledger records the retirement and the birth side by side, which
+is more honest than a registry quietly preserving an ID across a claim whose
+words changed.
