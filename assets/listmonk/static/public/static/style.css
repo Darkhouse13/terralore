@@ -1,0 +1,195 @@
+/* Strata for the Listmonk public pages, served first-party at
+   terralore.co/subscription/*. Seven pigments, system faces (tone carried by
+   weight/case/rules), 2px basalt rules, square corners, no shadows. */
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+}
+body {
+  background: #efe7d8; /* bone */
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #221e19; /* basalt */
+}
+a {
+  color: #a64b26; /* oxide */
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+a:focus-visible,
+input:focus-visible,
+button:focus-visible {
+  outline: 2px solid #a64b26;
+  outline-offset: 2px;
+}
+label {
+  cursor: pointer;
+  color: #221e19;
+}
+
+.container {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.wrap {
+  padding-top: 26px;
+  padding-bottom: 40px;
+}
+
+.header {
+  border-bottom: 2px solid #221e19;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+}
+.stamp {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #221e19;
+  text-decoration: none;
+}
+.eyebrow {
+  margin-top: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: #6e4a32; /* umber */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 21px;
+  margin: 0 0 14px;
+}
+h3 {
+  font-size: 15px;
+}
+.section {
+  margin-bottom: 45px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 11px 14px;
+  border: 2px solid #221e19;
+  border-radius: 0;
+  width: 100%;
+  background: #efe7d8;
+  color: #221e19;
+  font-size: 1em;
+  font-family: inherit;
+}
+input:focus {
+  border-color: #a64b26;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+input[disabled] {
+  opacity: 0.5;
+}
+::placeholder {
+  color: #6e4a32;
+}
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.small,
+.fine {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.error {
+  color: #a64b26;
+  font-weight: bold;
+}
+
+.button {
+  background: #a64b26;
+  padding: 13px 28px;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #efe7d8;
+  display: inline-block;
+  min-width: 150px;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.button:hover {
+  background: #221e19;
+  color: #efe7d8;
+}
+
+ul.lists {
+  list-style: none;
+  margin: 18px 0;
+  padding: 14px 16px;
+  border: 2px solid #221e19;
+  background: #e2d3b8; /* sand */
+}
+ul.lists h2 {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.1em;
+  margin: 0 0 8px;
+}
+ul.lists li {
+  margin-bottom: 6px;
+}
+ul.lists .description {
+  margin: 2px 0 0 22px;
+  color: #6e4a32;
+  font-size: 13px;
+}
+
+.form label {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6e4a32;
+  margin-bottom: 4px;
+}
+
+.footer {
+  border-top: 2px solid #221e19;
+  padding-top: 12px;
+  padding-bottom: 34px;
+  color: #6e4a32;
+}
+.footer .fine.dim a,
+.footer .fine.dim {
+  color: #6e4a32;
+}
+.footer .fine {
+  color: #6e4a32;
+}

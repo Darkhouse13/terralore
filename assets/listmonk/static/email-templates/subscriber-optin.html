@@ -1,0 +1,29 @@
+{{ define "subscriber-optin" }}
+{{ template "header" . }}
+<h2 style="font-size:20px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; margin:0 0 14px; color:#221E19;">Confirm it was you</h2>
+
+<p style="margin:0 0 14px;">You asked to receive <strong>The Ledger</strong> — the letter that reports
+what changed in Terralore&rsquo;s record of the world: new observations as publishers advance
+their vintages, upstream revisions, and series that stop being published. Nothing arrives
+until you confirm below.</p>
+
+<p style="margin:0 0 6px;">What you are agreeing to, plainly:</p>
+<ul style="margin:0 0 16px; padding-left:20px;">
+    <li style="margin-bottom:6px;">One letter per recorded refresh. A recorded refresh is a
+        deliberate act, not a schedule — if nothing was recorded, nothing is sent.</li>
+    <li style="margin-bottom:6px;">No other mail, ever. This confirmation is the only
+        message you receive besides the letters themselves.</li>
+    <li style="margin-bottom:6px;">Leave anytime — every letter carries a one-click
+        unsubscribe, and unsubscribing removes your address from the list.</li>
+</ul>
+
+<p style="margin:0 0 18px;">
+    <a href="{{ .OptinURL }}" class="button" style="background:#A64B26; color:#EFE7D8 !important; display:inline-block; padding:12px 28px; text-decoration:none; font-weight:bold; letter-spacing:0.04em;">CONFIRM SUBSCRIPTION</a>
+</p>
+
+<p style="margin:0; font-family:'Courier New',Courier,monospace; font-size:11.5px; line-height:1.7; color:#6E4A32;">
+    If you did not request this, do nothing — the address stays unconfirmed and is never
+    mailed again. <a href="{{ .UnsubURL }}?manage=true" style="color:#A64B26;">Manage or remove the address</a>.
+</p>
+{{ template "footer" }}
+{{ end }}
