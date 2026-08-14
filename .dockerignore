@@ -3,9 +3,17 @@ node_modules
 .git
 .github
 design
+# PNGs are excluded wholesale (screenshots would bloat the context), but the
+# shipped raster set must be negated EXPLICITLY — this list must move with any
+# icon rename, or the file silently vanishes from production (icon.png →
+# icon1.png did exactly that: the manifest icons and the JSON-LD logo 404'd
+# live until the Ledger Letter mission tripped over it, 2026-08-14).
 **/*.png
-!app/icon.png
+!app/icon1.png
 !app/apple-icon.png
+!public/icon-192.png
+!public/icon-512.png
+!public/brand/letter-stamp.png
 npm-debug.log*
 .env*
 .DS_Store
