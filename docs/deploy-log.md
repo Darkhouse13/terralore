@@ -6,6 +6,59 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-14 — the Living Record v1 (b99e05f → e233c03)
+
+Seven commits: the claim-identity scheme (doc before code, D14), Layer 1
+(claims), Layer 2 (the seal), Layer 3 (the recorder), the cadence hook,
+**Ledger Entry № 0001** riding the first recorded refresh, and the map.
+
+**What shipped.** Every rendered observation is now an addressable claim
+(`TL:<subject>:<measure>:<vintage>` — 12,627 unique IDs), resolvable three
+ways: engraved on the proof-flip reverse (9px sand mono, selectable),
+as a stable fragment on its page, and in committed claims bundles
+(`/country/<A3>.claims.json`, `…/chronicle.claims.json`,
+`/commodities/<slug>.claims.json`) whose citation strings carry the ID.
+Every corpus state is sealed (`/integrity.json`, archived append-only per
+version, explained at `/integrity` — tamper-evidence, no theater), and
+every refresh is now a published diff: `/ledger`, one page + one committed
+JSON per entry, THE RECORD bed on each touched nation (E15).
+
+**Entry № 0001 — the vintage-drift debt paid.** All nine domains + USGS
+minerals re-pulled in one act; the recorder read the diff against the
+June/August corpus: **1,324 new observations** (1,123 measures advanced
+to 2025, 191 to 2024, 2 first-ever), **37 upstream revisions** (mostly
+recomputation-scale), **2 withdrawn** (BIH 2024 inflation; JOR trade
+openness rolled back to 2007), 0 source changes, 179 nations, 4 domains
+moved — governance/health/education/technology/military re-pulled with
+zero value changes, which the entry records rather than assumes.
+Corpus sealed 2026-08-14 (before) → **2026-08-14.2** (after).
+
+**Verified live** (deployment 317, container 113507109112): all new
+canonical URLs 200 (/ledger, /ledger/0001{,.json,.md}, /integrity{,.json},
+both archived seals, claims bundles, the entry OG card); live bytes of
+FRA.claims.json, ledger/0001.json, FRA.md, rankings/gdp.md and
+copper.claims.json **hash-equal to the deployed manifest** — the
+seal verifies its own deploy; `TL:FRA:gdp:2025` engraved and its fragment
+resolving on /country/FRA; RECORD bed live; 19/19 FRA chronicle event
+anchors; /integrity shows the deployed root (64ccec05…); llms.txt carries
+the claims convention + ledger section; sitemap holds /ledger, entries,
+/integrity. Note: during the Coolify rollover (~2 min) responses flapped
+between containers — verification only counts after the queue shows
+`finished`.
+
+**Gates:** validate 0 errors (incl. the three new validators: claims,
+ledger, integrity), tsc clean, constrained build, 0 seam jams,
+**12,357/12,357 claim fragments** resolve in prerendered HTML, Lighthouse
+mobile on /country/JPN (with the RECORD bed) **96/100/100/100** —
+LCP 2.71s, CLS 0.001. GEO factual identity re-verified post-refresh by
+construction (validate-geo byte-compares all 938 twins against the
+refreshed data) and live (hash-equality above). 1,627 URLs → IndexNow
+(HTTP 200). Cadence: Coolify task `monthly-recorder-dryrun`
+(gim2nxc7u52f4mgi5r1mbr4l, `0 5 1 * *`, runner service) — detection
+only, publishes nothing.
+
+---
+
 ## 2026-08-14 — the bench repair (607b578 → bbaa4b1)
 
 One commit (`bbaa4b1`): two shipped bench defects and two logged debts,
