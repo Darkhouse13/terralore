@@ -269,7 +269,7 @@ export default async function RankingPage({
                   THE READOUT LEDGE
                 </div>
                 <div className="mt-2.5 [perspective:900px]">
-                  <div data-ledge-card className="flip-card h-[190px]">
+                  <div data-ledge-card className="flip-card min-h-[190px]">
                     <div className="flip-face flex flex-col justify-center gap-2 border-2 border-basalt p-[18px]">
                       <div className="font-display text-[18px] font-extrabold tracking-tight uppercase">
                         No specimen on the ledge
@@ -349,7 +349,7 @@ export default async function RankingPage({
                         className={`${isDecade ? "" : "cv-row "}relative border-b-2 border-basalt lg:border-b-0`}
                       >
                         <div className="flip-scene flip-press">
-                          <div className="flip-card h-[62px] lg:h-[40px]">
+                          <div className="flip-card min-h-[62px] lg:min-h-[40px]">
                             <div className="flip-face pt-[11px] lg:flex lg:items-center lg:pt-0">
                               <div className="flex items-baseline justify-between gap-3 font-mono text-[12.5px] lg:flex-1 lg:justify-start">
                                 <div className="min-w-0 truncate uppercase">
@@ -386,7 +386,7 @@ export default async function RankingPage({
                               </span>
                             </div>
                             <div aria-hidden className="flip-face flip-back">
-                              <div className="flex h-full flex-col justify-center gap-[3px] px-3 lg:gap-[2px]">
+                              <div className="flex h-full flex-col justify-center gap-[3px] px-3 py-1.5 lg:gap-[2px]">
                                 <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase lg:truncate">
                                   OBSERVED {row.year ?? "—"} · {srcLine}
                                 </div>

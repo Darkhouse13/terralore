@@ -200,17 +200,71 @@ export default function Dossier({
   const [coreOpen, setCoreOpen] = useState(false);
   const dragRef = useRef<{ y0: number; live: boolean }>({ y0: 0, live: false });
 
-  // The bench rail's active bed — the basalt notch (P4 §2).
-  const [selEra, setSelEra] = useState(0);
+  // The bench rail's active bed — the basalt notch (P4 §2). Two states, two
+  // devices: the notch tracks the bed in view (scroll-synced below); the
+  // "◄ FROM THE CORE" mark belongs to a band CLICK only — keeping it off the
+  // notch means scroll-sync never rewraps a bed title.
+  const [notchEra, setNotchEra] = useState(0);
+  const [coreMark, setCoreMark] = useState<number | null>(null);
+  const scrollLockRef = useRef(0); // IO stands down while a band-click scroll runs
+
   const pickEra = (i: number) => {
-    setSelEra(i);
-    document.getElementById(`bed-${eraBeds[i].id}`)?.scrollIntoView({
-      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "auto"
-        : "smooth",
-      block: "start",
+    setNotchEra(i);
+    setCoreMark(i);
+    // Scroll only AFTER the commit paints: moving the core mark can rewrap a
+    // bed title ABOVE the target, and a destination measured against the old
+    // layout lands the bed short (the -28px defect). rAF runs post-commit,
+    // so scrollIntoView measures the final layout. The bed anchors carry
+    // scroll-margin-top sized to the sticky stack (zero-height on this
+    // surface — nothing sticky stands above the beds in the cut column).
+    requestAnimationFrame(() => {
+      const el = document.getElementById(`bed-${eraBeds[i].id}`);
+      if (!el) return;
+      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      scrollLockRef.current = Date.now() + (reduced ? 250 : 1100);
+      el.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
     });
   };
+
+  // Scroll-sync (the repaired P4 §2): the notch follows the bed actually in
+  // view. An IntersectionObserver watches each bed cross a one-line band 6%
+  // below the viewport top — no scroll listeners, no rAF loops; on each
+  // crossing the active bed is recomputed from six rects. ≥64rem only (the
+  // rail does not exist below), attached/detached on the media query.
+  useEffect(() => {
+    if (!hasHistory || typeof IntersectionObserver === "undefined") return;
+    const mq = window.matchMedia("(min-width: 64rem)");
+    let io: IntersectionObserver | null = null;
+    const bedEls = () =>
+      eraBeds
+        .map((e) => document.getElementById(`bed-${e.id}`))
+        .filter(Boolean) as HTMLElement[];
+    const sync = () => {
+      if (Date.now() < scrollLockRef.current) return;
+      const line = window.innerHeight * 0.06;
+      let active = 0;
+      bedEls().forEach((el, i) => {
+        if (el.getBoundingClientRect().top <= line) active = i;
+      });
+      setNotchEra(active);
+    };
+    const attach = () => {
+      if (io || !mq.matches) return;
+      io = new IntersectionObserver(sync, { rootMargin: "-6% 0px -94% 0px" });
+      bedEls().forEach((el) => io!.observe(el));
+    };
+    const detach = () => {
+      io?.disconnect();
+      io = null;
+    };
+    attach();
+    const onMq = () => (mq.matches ? attach() : detach());
+    mq.addEventListener("change", onMq);
+    return () => {
+      mq.removeEventListener("change", onMq);
+      detach();
+    };
+  }, [hasHistory, eraBeds]);
 
   const coreDown = (e: React.PointerEvent) => {
     if (!hasHistory || window.scrollY > 4) return;
@@ -271,19 +325,25 @@ export default function Dossier({
               </div>
               {eraBeds.map((era, i) => {
                 const w = BED_WALK[i % BED_WALK.length];
+                // min-h-[104px]: the legibility floor — a band always fits a
+                // plain year range (≈14 mono chars at 9.5px/0.14em);
+                // proportionality expresses above the floor. Years lead the
+                // label so the ellipsis spends itself on the title; the
+                // title attribute carries the whole line.
                 return (
                   <button
                     key={era.id}
                     type="button"
                     onClick={() => pickEra(i)}
                     aria-label={`${era.title} — ${era.period}, ${era.count} events`}
-                    aria-current={selEra === i ? "true" : undefined}
-                    className="flex min-h-0 items-center justify-center overflow-hidden border-b-2 border-basalt"
+                    aria-current={notchEra === i ? "true" : undefined}
+                    title={`${era.title} — ${era.period} · ${era.count} events`}
+                    className="flex min-h-[104px] items-center justify-center overflow-hidden border-b-2 border-basalt"
                     style={{
                       flex: Math.max(era.count, 6),
                       background: w.bg,
                       borderLeft:
-                        selEra === i
+                        notchEra === i
                           ? "6px solid var(--color-basalt)"
                           : "6px solid transparent",
                     }}
@@ -292,7 +352,7 @@ export default function Dossier({
                       className="max-h-full truncate font-mono text-[9.5px] tracking-[0.14em] uppercase [writing-mode:vertical-rl]"
                       style={{ color: w.sub }}
                     >
-                      {era.title} · {era.count}
+                      {era.period} · {era.title}
                     </span>
                   </button>
                 );
@@ -366,13 +426,17 @@ export default function Dossier({
       {/* ── the era beds — newest first, downward into time ── */}
       {eraBeds.map((era, i) => {
         const w = BED_WALK[i % BED_WALK.length];
+        // scroll-mt-0 IS the sized landing offset: the cut column has no
+        // sticky chrome above the beds (the rail is sticky in its own
+        // column), so a band-click lands the bed top at exactly viewport
+        // top. If sticky chrome ever grows here, this margin is its height.
         return (
           <Link
             key={era.id}
             id={`bed-${era.id}`}
             href={`/country/${meta.code}/chronicle#${era.id}`}
             prefetch={false}
-            className="bed settle pressable block"
+            className="bed settle pressable block scroll-mt-0"
             style={{
               background: w.bg,
               ["--settle-delay" as string]: `${Math.min((i + 1) * 60, 420)}ms`,
@@ -387,7 +451,7 @@ export default function Dossier({
                   >
                     <span>{era.period} · </span>
                     {era.title}
-                    {selEra === i && (
+                    {coreMark === i && (
                       <span className="hidden font-mono text-[10px] font-normal tracking-[0.08em] lg:inline">
                         {" "}
                         ◄ FROM THE CORE
@@ -711,12 +775,11 @@ function SpecimenRow({
   return (
     <div className="flex items-stretch border-b-2 border-basalt">
       <ProofFlip
-        height={54}
         forced={forced}
         className="min-w-0 flex-1"
         ariaLabel={`${metric.label}: ${formatMetric(metric.value, metric.unit)}, observed ${metric.year ?? "year unknown"}, source ${source?.label ?? metric.sourceId}`}
         front={
-          <div className="flex h-full items-center justify-between gap-3">
+          <div className="flex h-full min-h-[54px] items-center justify-between gap-3">
             <div className="min-w-0 truncate font-sans text-[14.5px] font-medium">
               {metric.label}
             </div>
@@ -732,7 +795,7 @@ function SpecimenRow({
           <ProofBack
             line={`OBSERVED ${metric.year ?? "—"} · ${srcId}${source ? ` — ${source.publisher}` : ""}`}
             note={def}
-            padding="0 8px"
+            padding="8px"
           />
         }
       />

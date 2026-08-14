@@ -469,7 +469,7 @@ export default function MetricDetail({
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                         placeholder="Search nations…"
-                        className="min-w-0 flex-1 border-2 border-basalt bg-bone px-3 py-2 font-sans text-[13px] placeholder:text-umber focus:outline-none"
+                        className="min-w-0 flex-1 border-2 border-basalt bg-bone px-3 py-2 font-sans text-[13px] placeholder:text-umber"
                       />
                       <button
                         type="button"

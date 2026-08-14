@@ -363,7 +363,7 @@ function ProducerRow({ p, c, rank }: { p: ProducerShare; c: Commodity; rank: num
       style={{ contentVisibility: "auto", containIntrinsicBlockSize: "70px" }}
     >
       <div className="flip-scene flip-press">
-        <div className="flip-card h-[68px]">
+        <div className="flip-card min-h-[68px]">
           <div className="flip-face pt-[9px]">
             <div className="flex items-baseline justify-between gap-3">
               <div className="min-w-0 truncate font-mono text-[12.5px] uppercase">
@@ -389,7 +389,7 @@ function ProducerRow({ p, c, rank }: { p: ProducerShare; c: Commodity; rank: num
             </span>
           </div>
           <div aria-hidden className="flip-face flip-back">
-            <div className="flex h-full flex-col justify-center gap-[3px] px-3">
+            <div className="flex h-full flex-col justify-center gap-[3px] px-3 py-1.5">
               <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase">
                 OBSERVED {c.years.estimate} EST · {source.id.toUpperCase()} —{" "}
                 {source.publisher}

@@ -10,7 +10,7 @@ import type { ReactNode } from "react";
 export default function ProofBack({
   line,
   note,
-  padding = "0 12px",
+  padding = "7px 12px",
 }: {
   line: string;
   note?: ReactNode;

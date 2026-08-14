@@ -312,8 +312,16 @@ export default function Home() {
                 <span className="font-sans text-[15px] text-umber">Dig for a nation…</span>
                 <span className="font-mono text-xs text-oxide">DIG</span>
               </Link>
-              <div className="mt-3 flex gap-6 font-mono text-[11px] lg:hidden">
-                <Link href="/timeline" prefetch={false} className="text-oxide">
+              {/* The cross-reads. BY THEME shows at every width — the dig
+                  cell is /themes' only front-door entrance. BY PERIOD stays
+                  phone-only at width: /timeline already has two desktop
+                  entrances (the masthead nav's HISTORIES + the Histories
+                  bed), and a third would be noise. */}
+              <div className="mt-3 flex gap-6 font-mono text-[11px] lg:mt-2.5 lg:items-baseline">
+                <span className="hidden text-[10px] tracking-[0.12em] text-umber lg:inline">
+                  READ ACROSS NATIONS
+                </span>
+                <Link href="/timeline" prefetch={false} className="text-oxide lg:hidden">
                   BY PERIOD ↓
                 </Link>
                 <Link href="/themes" prefetch={false} className="text-oxide">

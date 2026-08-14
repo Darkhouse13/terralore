@@ -23,20 +23,19 @@ import type { KeyboardEvent, PointerEvent, ReactNode } from "react";
  *   - under prefers-reduced-motion the global collapse makes the swap
  *     instant — same faces, no rotation.
  *
- * `height` is required: both faces are absolutely positioned, so the row's
- * height is the component's one layout contract.
+ * Layout: the faces grid-stack in one cell (globals.css .flip-card), so the
+ * row sizes to its taller face — no height contract; callers set min-height
+ * on a face for row rhythm if they need one.
  */
 export default function ProofFlip({
   front,
   back,
-  height,
   forced = false,
   className,
   ariaLabel,
 }: {
   front: ReactNode;
   back: ReactNode;
-  height: number;
   forced?: boolean;
   className?: string;
   ariaLabel?: string;
@@ -76,7 +75,7 @@ export default function ProofFlip({
       onBlur={() => setLatched(false)}
       onContextMenu={(e) => e.preventDefault()}
     >
-      <div className="flip-card" data-flipped={flipped} style={{ height }}>
+      <div className="flip-card" data-flipped={flipped}>
         <div className="flip-face" aria-hidden={flipped}>
           {front}
         </div>

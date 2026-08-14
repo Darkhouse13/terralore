@@ -42,51 +42,58 @@
   --radius-pill: 9px;
 }
 
-:root {
-  color-scheme: light;
-}
+/* Element defaults live in the BASE CASCADE LAYER so every text-* utility
+   (layer `utilities`, declared later) outranks them — the unlayered
+   `a { color }` rule used to beat `.text-bone` on the ranking sibling chips
+   (oxide on basalt, 2.9:1). Unlayered author styles defeat ALL layered
+   styles; element defaults must never sit unlayered. */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
 
-html {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
 
-body {
-  background: var(--color-bone);
-  color: var(--color-basalt);
-  font-family: var(--font-sans);
-  -webkit-tap-highlight-color: transparent;
-}
+  body {
+    background: var(--color-bone);
+    color: var(--color-basalt);
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+  }
 
-a {
-  color: var(--color-oxide);
-}
+  a {
+    color: var(--color-oxide);
+  }
 
-/* ── Focus ────────────────────────────────────────────────────────────────
-   One visible ring everywhere: 2px oxide (the rule weight law applies to
-   focus too), offset so it reads as a surveyor's mark around the target.
-   Oxide clears 3:1 against bone and sand. */
-:focus-visible {
-  outline: 2px solid var(--color-oxide);
-  outline-offset: 2px;
-}
+  /* ── Focus ──────────────────────────────────────────────────────────────
+     One visible ring everywhere: 2px oxide (the rule weight law applies to
+     focus too), offset so it reads as a surveyor's mark around the target.
+     Oxide clears 3:1 against bone and sand. */
+  :focus-visible {
+    outline: 2px solid var(--color-oxide);
+    outline-offset: 2px;
+  }
 
-::selection {
-  background: var(--color-clay);
-  color: var(--color-basalt);
-}
+  ::selection {
+    background: var(--color-clay);
+    color: var(--color-basalt);
+  }
 
-/* Scrollbar in the instrument voice: a thin basalt bar on the bone gutter. */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-umber) transparent;
-}
-*::-webkit-scrollbar {
-  width: 9px;
-  height: 9px;
-}
-*::-webkit-scrollbar-thumb {
-  background: var(--color-umber);
+  /* Scrollbar in the instrument voice: a thin basalt bar on the bone gutter. */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-umber) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: var(--color-umber);
+  }
 }
 
 /* ── Editorial primitives ───────────────────────────────────────────────── */
@@ -333,8 +340,13 @@ a {
   -webkit-touch-callout: none; /* no long-press context sheet on a specimen */
   touch-action: pan-y;
 }
+/* GRID-STACK faces (the bench repair): both faces share the one grid cell,
+   so the card sizes to its TALLER face — a long reverse grows the row
+   instead of bleeding across specimen boundaries. The hidden face is the
+   rotated-away one (backface-visibility); no fixed heights anywhere —
+   surfaces set min-height for row rhythm, content sets the rest. */
 .flip-card {
-  position: relative;
+  display: grid;
   transform-style: preserve-3d;
   transition: transform var(--dur-flip) var(--ease-mass);
 }
@@ -342,8 +354,8 @@ a {
   transform: rotateX(180deg);
 }
 .flip-face {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
+  min-width: 0;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }

@@ -236,7 +236,7 @@ export default function CompareHubPage() {
                 spellCheck={false}
                 aria-label="Filter pairs by nation name or code"
                 placeholder="Dig through the junctions — nation or code…"
-                className="w-full bg-transparent font-sans text-[15px] text-basalt placeholder:text-umber focus:outline-none"
+                className="w-full bg-transparent font-sans text-[15px] text-basalt placeholder:text-umber"
               />
               <span id="jcount" className="font-mono text-xs text-oxide" aria-hidden></span>
             </div>
@@ -414,7 +414,7 @@ function TraySlot({ slot, label, divide }: { slot: string; label: string; divide
         spellCheck={false}
         aria-label={`Dig for ${label.toLowerCase()} — name or code`}
         placeholder="Dig — name or code…"
-        className="mt-2 w-full border-2 border-basalt bg-transparent px-3 py-2 font-sans text-[15px] text-basalt placeholder:text-umber focus:outline-none"
+        className="mt-2 w-full border-2 border-basalt bg-transparent px-3 py-2 font-sans text-[15px] text-basalt placeholder:text-umber"
       />
       <div data-chip hidden className="mt-2 flex items-center justify-between gap-3 border-2 border-basalt bg-sand px-3 py-2">
         <span data-chip-name className="min-w-0 truncate font-sans text-[15px] font-medium text-basalt"></span>

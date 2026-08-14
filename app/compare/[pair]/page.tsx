@@ -363,7 +363,7 @@ function MetricRow({ page, row }: { page: ComparePage; row: CompareRow }) {
   return (
     <li className="cv-row-88 border-b-2 border-basalt">
       <div className="flip-scene flip-press">
-        <div className="flip-card h-[86px] lg:h-[56px]">
+        <div className="flip-card min-h-[86px] lg:min-h-[56px]">
           <div className="flip-face pt-[10px] lg:flex lg:flex-col lg:justify-center lg:pt-0">
             <div className="flex items-start justify-between gap-3 lg:grid lg:grid-cols-[minmax(0,1fr)_260px_minmax(0,1fr)] lg:items-center lg:gap-6">
               <Link
@@ -400,7 +400,7 @@ function MetricRow({ page, row }: { page: ComparePage; row: CompareRow }) {
             </span>
           </div>
           <div aria-hidden className="flip-face flip-back">
-            <div className="flex h-full flex-col justify-center gap-[3px] px-3 lg:items-center">
+            <div className="flex h-full flex-col justify-center gap-[3px] px-3 py-1.5 lg:items-center">
               <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase">
                 OBSERVED {page.a.code} {row.a.year ?? "—"} / {page.b.code}{" "}
                 {row.b.year ?? "—"} · SOURCED ON BOTH DOSSIERS

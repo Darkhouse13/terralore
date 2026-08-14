@@ -108,7 +108,7 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
             onChange={(e) => setQ(e.target.value)}
             placeholder={`Dig for a nation — name or code…`}
             aria-label="Search nations"
-            className="w-full bg-transparent font-sans text-[15px] text-basalt placeholder:text-umber focus:outline-none"
+            className="w-full bg-transparent font-sans text-[15px] text-basalt placeholder:text-umber"
           />
           <span className="font-mono text-xs text-oxide">{filtered.length}</span>
         </div>
