@@ -196,8 +196,10 @@ history corpus's neutral, primary-sourced treatment of disputes.
   `scripts/check-contrast-strata.mjs` (arithmetic, 23 pairs) and the USAGE by
   `scripts/contrast-sweep.mjs` (computed styles over every shipped surface —
   needs `CHROME_PATH` + the site served on :3311). The old
-  `check-contrast.mjs` is frozen with an in-flight SovereigntyBar diff — do
-  not touch it. Element defaults in `globals.css` live in `@layer base` so
+  `check-contrast.mjs` validates the retired STRATUM palette and is in no npm
+  script; declare new pairs in `check-contrast-strata.mjs` (its SovereigntyBar
+  diff was parked on `sovereignty-bar-wip`, DECISIONS D15 — the do-not-touch
+  rule is retired). Element defaults in `globals.css` live in `@layer base` so
   text utilities outrank them — never add an unlayered element rule (the
   unlayered `a { color }` once beat `.text-bone` and shipped a 2.9:1 chip).
 - **Entrances are two grades and the difference is load-bearing**: `.settle`

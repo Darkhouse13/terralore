@@ -343,3 +343,47 @@ mints a new one, even when a human would say it is "the same event, renamed".
 Accepted: the ledger records the retirement and the birth side by side, which
 is more honest than a registry quietly preserving an ID across a claim whose
 words changed.
+
+---
+
+## D15 — The sovereignty bar is parked, not finished and not deleted
+
+**Chosen:** commit the two long-uncommitted working-tree diffs
+(`scripts/build-time-events.mjs` +7, `scripts/check-contrast.mjs` +45) verbatim
+to the branch `sovereignty-bar-wip`, and clean main's tree. The branch's commit
+message carries the full intent, the design reasoning, and an account of what
+the STRATA rebuild changed underneath it.
+
+**Rejected:** (a) finish the component — batch 5 of
+`docs/statehood-deepening-plan.md` also requires flagging four territories
+(sourced content work, still gated by `NON_SOVEREIGN_REQUIRED = false` in
+`scripts/validate-histories.mjs`) and building `SovereigntyBar.tsx` in a design
+language it was never drawn for; nothing about that is trivial. (b) `git
+checkout --` the diffs and move on, which is the same as deleting reasoning
+nobody has read against the current design. (c) leave them in place under the
+do-not-touch rule, which is what the last ten missions did.
+
+**Why:** the bar was the STRATUM device for statehood — the Time Globe's
+existence shading flattened onto one axis, sovereign / present-but-not-sovereign
+/ formed-or-restored, placed on chronicle, dossier and journey. Both diffs have
+outlived their premise. `s: 0` was defined by `GlobeLite.tsx`'s `DIMMED_FILL`,
+and STRATA has no globe, no canvas and no WebGL; the payload that builder writes
+(`public/data/time-events.json`) is now read by nothing in `app/`, `components/`
+or `lib/`. The check-contrast block's whole intellectual content is an inversion
+argument — the ladder has to flip between the limestone chronicle and the deep
+dossier so both surfaces agree which end of the scale means presence — and
+STRATA has one ground (bone). Its pairs assert relationships between colours
+that no longer co-occur on any shipped surface, in a file superseded twice over
+by `check-contrast-strata.mjs` (the palette) and `contrast-sweep.mjs` (the
+usage). The `s: 0` branch was already dead code on its own terms: no history
+file sets `sovereign: false`, so the builder's output is byte-identical with the
+diff applied.
+
+**Cost, stated:** a branch nobody may ever open. Accepted — it is cheaper than
+either of the alternatives, and the reasoning worth keeping (the ΔE argument for
+hue-separated marks, the three-meaning vocabulary) is written down where a
+revival would look for it. Two loose threads are recorded rather than pulled:
+`DECISIONS.md` has no D13, though `scripts/validate-histories.mjs` cites it by
+number as the place the sovereign/administered boundary is written down; and
+`public/data/time-events.json` is a tracked 385 KB artifact, rebuilt on every
+`npm run build-data`, that no surface reads.

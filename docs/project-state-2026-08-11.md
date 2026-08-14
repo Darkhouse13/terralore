@@ -228,7 +228,14 @@ GSC access recipe: auto-memory `gsc-access` (ADC token +
 9. Metric window compare palette supports 4 overlay nations; map toggle is
    equirectangular SVG — fine, but no zoom. Known, accepted.
 
-## 9. In-flight work — DO NOT CLOBBER
+## 9. In-flight work — RESOLVED 2026-08-14, no longer in the tree
+
+> **Superseded.** Both diffs were parked verbatim on the branch
+> `sovereignty-bar-wip` and main's tree was cleaned; see DECISIONS.md **D15**
+> for the reasoning and the branch's commit message for the full intent. The
+> STRATA rebuild removed both premises (no globe; one ground instead of two).
+> **The do-not-touch rule below is retired — do not re-inherit it.** The
+> section is kept as written for the record.
 
 Two files are modified but uncommitted in the working tree, from a
 **SovereigntyBar** effort that predates this week's work and belongs to
@@ -308,4 +315,5 @@ the diffs themselves); either finish that component or consciously revert.
 
 *Compiled 2026-08-11 after full execution and independent re-verification of
 `docs/content-expansion-plan.md`. Repo state at commit `f5546dd`; working
-tree clean except the two SovereigntyBar files (§9).*
+tree clean except the two SovereigntyBar files (§9) — since 2026-08-14 parked
+on `sovereignty-bar-wip` (DECISIONS D15), so the tree is clean outright.*
