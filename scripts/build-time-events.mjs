@@ -1,6 +1,16 @@
 #!/usr/bin/env node
+// ── UNCHAINED 2026-08-14 — kept as reference, run by nothing ────────────────
+// The globe this fed does not exist (STRATA: no globe, no canvas, no WebGL),
+// so its output was read by no surface. `public/data/time-events.json` is
+// deleted and this script is no longer chained into `npm run build-data`;
+// running it re-creates a 385 KB file nobody fetches. It survives for the
+// France-parsing pattern that scripts/lib/sources.mjs and
+// scripts/audit-statehood.mjs cite by name, and because branch
+// `sovereignty-bar-wip` patches it. See DECISIONS.md D15. Do not re-chain it
+// without a consumer.
+//
 // ── The Time Globe's corpus: every event, placed in time and space ──────────
-// Emits public/data/time-events.json — the file the landing globe lazy-fetches
+// Emitted public/data/time-events.json — the file the landing globe lazy-fetched
 // the first time a reader touches the time rail. Nothing here is new data:
 // it is the same 4,471 verified events the chronicles carry, reshaped for the
 // sphere (period buckets + nation codes; the client already holds every
@@ -17,7 +27,7 @@
 //     assumption is asserted — a refactor of that file fails this build
 //     instead of quietly dropping a nation from the globe.
 //
-// Run: node scripts/build-time-events.mjs   (chained into `npm run build-data`)
+// Run: node scripts/build-time-events.mjs   (unchained — see the note above)
 
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";

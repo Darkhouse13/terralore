@@ -310,6 +310,71 @@ elsewhere would be a caveat nobody reads.
 
 ---
 
+## D13 — Not-a-state is an allowlist of four, judged on function and not on recognition
+
+*[Reconstructed 2026-08-14 from validator behaviour — `scripts/validate-histories.mjs`
+and `lib/types.ts` both cite "DECISIONS.md D13" by number as the place this boundary
+is written down, and the entry was never written. Reconstructed from what shipped: the
+`NON_SOVEREIGN` allowlist and its two-way gating, the `Statehood.sovereign` doc comment,
+the four blocks' own prose, and §4 of `docs/statehood-deepening-plan.md`, which instructs
+that this be recorded as a decision. Where the record is silent, this entry says so.]*
+
+**Chosen:** `statehood.sovereign` may be present only as the literal `false`, and only
+on four codes — **NCL, GRL, FLK, PRI** — held in a `NON_SOVEREIGN` allowlist inside
+`scripts/validate-histories.mjs`. It carries one narrow meaning: this entity is not a
+sovereign state, and its `statehood.formation` therefore records the birth of its own
+institutions rather than the beginning of statehood. The test is **functioning statehood
+versus administered territory**. De-facto states whose recognition is contested — TWN,
+KOS, PSE, CYN, SOL — are functioning states, keep the standard treatment, and are
+excluded by design.
+
+**Rejected:** (a) a free-text flag any history could set in passing, (b) keying the
+distinction on international recognition, and (c) leaving the four unmarked, which is
+what the corpus did until this field existed.
+
+**Why:** the four blocks each open by saying, in their own sourced prose, that the
+entity is not a sovereign state — New Caledonia "a sui generis collectivity of the
+French Republic", Greenland "an autonomous territory of the Kingdom of Denmark",
+the Falklands "a British Overseas Territory", Puerto Rico "an unincorporated territory
+of the United States" — and the shading drew them exactly like France anyway. A corpus
+that contradicts its own prose in its own picture is worse than one that says nothing.
+
+Recognition is the wrong test for the same reason it was the wrong test in D11: it
+would have swept Taiwan, Kosovo, Palestine, Northern Cyprus and Somaliland in beside
+Greenland, which gets the distinction backwards. Those five govern themselves and are
+argued about; these four are administered by a state that is not them, and say so.
+The question this field answers is whether an entity's institutions are its own to
+run, not whether anyone applauds them.
+
+Nor is this D10 in another costume. D10 is about a state's sovereignty being
+*incomplete or not yet acquired* — a condition on a trajectory, described in
+`formation.detail` and carrying no interruption. This is about an entity that is not
+on that trajectory at all: a permanent condition rather than a phase, which is why it
+is a flag on the block and not an entry in `interruptions`.
+
+The allowlist is deliberately a validator constant rather than data, and it is gated
+both ways: setting `sovereign` on a code outside the list is an error, and an
+allowlisted code that omits it trips the `NON_SOVEREIGN_REQUIRED` gate. Adding a fifth
+territory is therefore a conscious edit to the file where the boundary is written down,
+which is the point of putting it there.
+
+**Cost, stated:** an editorial line drawn by hand, in a constant, that will not
+maintain itself — the four are complete for the corpus as it stands (no other
+dependency carries a history), but a Western Sahara or a Hong Kong would arrive as an
+unflagged sovereign until someone edited the validator. Accepted as the lesser cost:
+the alternative is a field that spreads by imitation into exactly the contested cases
+this decision exists to keep out of it.
+
+**What was actually built, honestly:** the schema and the validator landed; the data
+never did. No history file sets `sovereign: false`, and the gate still reads
+`NON_SOVEREIGN_REQUIRED = false // → true when the four territories are flagged
+(batch 5)`. The renderer this was for is also gone — see **D15**; the shading rule
+("dimmed from formation onward, ghost before it") described the Time Globe, which
+STRATA removed. What survives and still binds is the boundary itself: what the flag
+means, who may carry it, and where that is decided.
+
+---
+
 ## D14 — Claim identity is content-derived, never hashed or serial
 
 **Chosen:** `TL:<subject>:<measure>:<vintage>` — the claim ID is composed from
@@ -382,8 +447,10 @@ diff applied.
 **Cost, stated:** a branch nobody may ever open. Accepted — it is cheaper than
 either of the alternatives, and the reasoning worth keeping (the ΔE argument for
 hue-separated marks, the three-meaning vocabulary) is written down where a
-revival would look for it. Two loose threads are recorded rather than pulled:
-`DECISIONS.md` has no D13, though `scripts/validate-histories.mjs` cites it by
-number as the place the sovereign/administered boundary is written down; and
-`public/data/time-events.json` is a tracked 385 KB artifact, rebuilt on every
-`npm run build-data`, that no surface reads.
+revival would look for it. Two loose threads were recorded rather than pulled,
+and both were closed on 2026-08-14: `DECISIONS.md` had no D13 though
+`scripts/validate-histories.mjs` cites it by number — reconstructed in place
+above; and `public/data/time-events.json`, a tracked 385 KB artifact rebuilt on
+every `npm run build-data` that no surface read, is deleted, with its builder
+unchained from `build-data` and left in the tree as reference only (the branch
+patches it, and two scripts cite its France-parsing pattern by name).
