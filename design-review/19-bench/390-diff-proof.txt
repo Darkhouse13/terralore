@@ -1,0 +1,11 @@
+# 390px pixel-identity proof — the bench build (2026-08-14)
+# capture: scripts/bench-shots.mjs (full-page, content-visibility forced visible
+# so cv:auto placeholder estimates cannot fake a diff), pre-mission build vs bench build.
+# diff: PIL ImageChops.difference().getbbox() — None = zero differing pixels.
+
+home:          IDENTICAL (390x844)
+atlas:         IDENTICAL (390x7799)
+dossier (FRA): IDENTICAL (390x4766)
+ranking-gdp:   IDENTICAL (390x13477)
+compare-index: IDENTICAL (390x31532)
+compare-pair:  IDENTICAL (390x6718)

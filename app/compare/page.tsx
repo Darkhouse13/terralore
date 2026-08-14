@@ -136,9 +136,20 @@ export default function CompareHubPage() {
         ]}
       />
       <main className="min-h-screen bg-bone">
-        <div className="mount mx-auto max-w-5xl px-5 pt-4 pb-16">
-          <span aria-hidden className="mount-rail" />
-          <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
+        {/* Runs during HTML parse — the [data-js] blocks are display-gated by
+            this class, so they are visible from the first frame (zero layout
+            shift) yet absent without JavaScript. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.classList.add("js")`,
+          }}
+        />
+        {/* ≥1280px the tray stands as the sticky left rail with the browse
+            views beside it; at 1024 the tray docks above the bench (P4 E5).
+            The page keeps its name — COMPARED — at every breakpoint; the
+            junction vocabulary lives inside this surface (E14). */}
+        <div className="mx-auto max-w-5xl px-5 pt-4 pb-16 lg:max-w-[1760px] lg:px-10 xl:grid xl:grid-cols-[420px_minmax(0,1fr)] xl:gap-x-10">
+          <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase xl:col-span-2">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
                 <Link href="/" className="text-oxide">
@@ -154,14 +165,7 @@ export default function CompareHubPage() {
             </ol>
           </nav>
 
-          <header className="settle relative mt-3 pb-4">
-            <span aria-hidden className="mount-tick">
-              <span>
-                THE JUNCTIONS
-                <br />
-                {pages.length} CUTS
-              </span>
-            </span>
+          <header className="settle relative mt-3 pb-4 xl:col-span-2">
             <p className="eyebrow text-umber">Side by side</p>
             <h1 className="mt-3 max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
               Compared
@@ -189,12 +193,21 @@ export default function CompareHubPage() {
           {/* ── THE TRAY — slot two specimens, cut the junction ──
               An enhancement: hidden until the island below runs, so the
               no-JavaScript page is simply the whole index. */}
-          <section data-js hidden aria-label="The tray" className="relative mt-4">
-            <span aria-hidden className="mount-tick">
-              <span>THE TRAY</span>
-            </span>
+          <section
+            data-js
+            aria-label="The tray"
+            className="relative mt-4 xl:sticky xl:top-5 xl:col-start-1 xl:row-start-3 xl:self-start"
+          >
+            <div className="mb-3 hidden xl:block">
+              <div className="font-display text-[26px] leading-none font-extrabold tracking-tight uppercase">
+                The junction tray
+              </div>
+              <p className="mt-2 font-sans text-[13.5px] leading-normal text-umber">
+                Two slots. Fill them from the bench, then cut where the histories touch.
+              </p>
+            </div>
             <div className="border-2 border-basalt">
-              <div className="grid sm:grid-cols-2">
+              <div className="grid sm:grid-cols-2 xl:grid-cols-1">
                 <TraySlot slot="a" label="Specimen A" />
                 <TraySlot slot="b" label="Specimen B" divide />
               </div>
@@ -213,9 +226,9 @@ export default function CompareHubPage() {
           </section>
 
           {/* ── the browse views ── */}
-          <section className="relative mt-8">
+          <section className="relative mt-8 xl:col-start-2 xl:row-start-3 xl:mt-4">
             {/* dig-to-filter — the same island; hidden without it */}
-            <div data-js hidden className="mb-4 flex items-center justify-between border-2 border-basalt px-4 py-[11px] lg:max-w-[46rem]">
+            <div data-js className="mb-4 flex items-center justify-between border-2 border-basalt px-4 py-[11px] lg:max-w-[46rem]">
               <input
                 id="jfilter"
                 type="text"
@@ -274,9 +287,6 @@ export default function CompareHubPage() {
                   aria-labelledby={`jh-${slugOf(bed.name)}`}
                   className="relative mt-6 scroll-mt-4"
                 >
-                  <span aria-hidden className="mount-tick">
-                    <span>{bed.name}</span>
-                  </span>
                   <div
                     className="bed flex items-baseline justify-between gap-3 px-4 py-3"
                     style={{ background: bed.bg }}
@@ -292,7 +302,7 @@ export default function CompareHubPage() {
                       {bed.items.length} {bed.items.length === 1 ? "JUNCTION" : "JUNCTIONS"}
                     </span>
                   </div>
-                  <ul className="grid gap-x-8 sm:grid-cols-2">
+                  <ul className="grid gap-x-8 sm:grid-cols-2 xl:grid-cols-3">
                     {bed.items.map((p) => (
                       <PairRow key={p.slug} p={p} />
                     ))}
@@ -304,9 +314,6 @@ export default function CompareHubPage() {
             {/* ── MOST ENTANGLED — crossed events, descending ── */}
             <div className="jview jview-me">
               <div data-pair-group className="relative mt-6">
-                <span aria-hidden className="mount-tick">
-                  <span>ENTANGLED · {entangled.length}</span>
-                </span>
                 <p className="max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
                   {entangled.length}{" "}pairs whose sourced chronicles actually
                   cross, ordered by how often — the count is found in the
@@ -314,7 +321,7 @@ export default function CompareHubPage() {
                   {untangled}{" "}published pairs record no crossed event; they
                   are all in the neighbourhood view.
                 </p>
-                <ul className="mt-4 grid gap-x-8 border-t-2 border-basalt sm:grid-cols-2">
+                <ul className="mt-4 grid gap-x-8 border-t-2 border-basalt sm:grid-cols-2 xl:grid-cols-3">
                   {entangled.map((p) => (
                     <PairRow key={p.slug} p={p} />
                   ))}
@@ -325,16 +332,13 @@ export default function CompareHubPage() {
             {/* ── THE G20 — the tier as its own section ── */}
             <div className="jview jview-g20">
               <div data-pair-group className="relative mt-6">
-                <span aria-hidden className="mount-tick">
-                  <span>G20 · {g20.length}</span>
-                </span>
                 <p className="max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
                   Every pair within the G20&rsquo;s nineteen nation members
                   (the EU and AU hold seats but are not nations) —{" "}
                   {g20.length}{" "}junctions, including the members that also
                   share a land border.
                 </p>
-                <ul className="mt-4 grid gap-x-8 border-t-2 border-basalt sm:grid-cols-2">
+                <ul className="mt-4 grid gap-x-8 border-t-2 border-basalt sm:grid-cols-2 xl:grid-cols-3">
                   {g20.map((p) => (
                     <PairRow key={p.slug} p={p} />
                   ))}
@@ -343,10 +347,7 @@ export default function CompareHubPage() {
             </div>
           </section>
 
-          <footer className="relative mt-14 border-t-2 border-basalt pt-5">
-            <span aria-hidden className="mount-tick">
-              <span>THE SET</span>
-            </span>
+          <footer className="relative mt-14 border-t-2 border-basalt pt-5 xl:col-span-2">
             <p className="max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
               The pair set is derived, committed and validated — not generated on
               request: neighbour pairs from the atlas&rsquo;s border data,
@@ -404,7 +405,7 @@ function TraySlot({ slot, label, divide }: { slot: string; label: string; divide
   return (
     <div
       data-slot={slot}
-      className={`relative px-4 py-3.5 ${divide ? "border-t-2 border-basalt sm:border-t-0 sm:border-l-2" : ""}`}
+      className={`relative px-4 py-3.5 ${divide ? "border-t-2 border-basalt sm:border-t-0 sm:border-l-2 xl:border-t-2 xl:border-l-0" : ""}`}
     >
       <div className="eyebrow text-umber">{label}</div>
       <input
@@ -457,8 +458,8 @@ const ISLAND = `(function () {
     return s[0].toLowerCase() + "-vs-" + s[1].toLowerCase();
   };
 
-  // the enhanced controls exist only once the island does
-  document.querySelectorAll("[data-js]").forEach(function (el) { el.hidden = false; });
+  // the enhanced controls are revealed at parse time (the .js class on
+  // <html>); nothing to unhide here.
 
   // ── the tray ──
   var verdict = document.getElementById("jverdict");

@@ -214,6 +214,99 @@ a {
   }
 }
 
+/* ── The bench build (P4 desktop contract, ≥1024px) ───────────────────────
+   docs/design/p4-desktop-contract.html. Desktop is not a stretched phone:
+   the wide screen recomposes the six P4 surfaces with RULES AS COLUMNS
+   (P4 §4 — the 2px rule used vertically to build multi-column beds).
+   Everything here is inert below 64rem, so the phone renders untouched. */
+
+/* The section cut's seam: a bordered row on the phone, a nowrap chip in the
+   wide cut face's seam flow. --seam-rule carries the bed's proven title
+   colour (the seam-rule precedent). */
+.seam-row {
+  border-top: 2px solid var(--seam-rule, var(--color-basalt));
+}
+@media (min-width: 64rem) {
+  .seam-row {
+    border-top: none;
+  }
+}
+
+/* THE WALL (P4 §3): a ranking's rows in honest columns — two at 1024, three
+   at 1280+ — with the 2px rule as the column joint. Row order runs down each
+   column, the way a quarry wall is read. */
+@media (min-width: 64rem) {
+  .wall {
+    columns: 2;
+    column-gap: 2.75rem;
+    column-rule: 2px solid var(--color-basalt);
+  }
+  .wall > li {
+    break-inside: avoid;
+  }
+  /* Once the ledge island is live, the press lands on the ledge instead of
+     tearing the wall — the row's own CSS flip stands down (it remains the
+     no-JS behaviour). PROOF VIEW (the explicit control) still flips all. */
+  .wall-live .flip-press:active .flip-card {
+    transform: none;
+  }
+  .wall-live .proof-toggle:checked ~ * .flip-card {
+    transform: rotateX(180deg);
+  }
+  /* The selected row — the specimen currently on the ledge. */
+  .wall [data-on-ledge="1"] {
+    background: var(--color-sand);
+  }
+}
+
+/* Three honest columns from 1280 (the ledge stands beside them). */
+@media (min-width: 80rem) {
+  .wall {
+    columns: 3;
+  }
+}
+
+/* THE READOUT LEDGE exists only where the wall does (≥1024px) and only once
+   its island is live — the no-JS page is the wall without the ledge, rows
+   keeping their own CSS flip. Display is CSS-gated so there is nothing to
+   hide by hand. */
+.ledge-root {
+  display: none;
+}
+@media (min-width: 64rem) {
+  .ledge-root[data-live="1"] {
+    display: block;
+  }
+}
+
+/* Wall rows keep the phone's paint containment; inside desktop columns the
+   fragmenter needs real heights, so containment stands down. */
+.cv-row {
+  content-visibility: auto;
+  contain-intrinsic-block-size: 64px;
+}
+.cv-row-88 {
+  content-visibility: auto;
+  contain-intrinsic-block-size: 88px;
+}
+@media (min-width: 64rem) {
+  .cv-row,
+  .cv-row-88 {
+    content-visibility: visible;
+    contain-intrinsic-block-size: none;
+  }
+}
+
+/* The core-pull is a phone gesture (P4 §2 — on desktop the core is already
+   on the bench). Below 64rem the nation header owns the gesture; at width
+   the header is an ordinary header. */
+@media (max-width: 63.9375rem) {
+  .core-grab {
+    touch-action: none;
+    cursor: grab;
+  }
+}
+
 /* ── The press — the only pointer feedback ────────────────────────────────
    Every pressable surface depresses 2px in 90ms. No color washes, no
    shadows, no scale. */
@@ -274,6 +367,15 @@ a {
 }
 .proof-toggle:not(:checked) ~ * .proof-on {
   display: none;
+}
+
+/* JS-only blocks (the junction tray, the dig filter) are revealed by a
+   parse-time script setting .js on <html> — before first paint, so the
+   reveal can never shift the page (the CLS the hidden-attr reveal cost).
+   Without JavaScript the class never lands and the page is the whole
+   index, unchanged. */
+html:not(.js) [data-js] {
+  display: none !important;
 }
 
 /* ── The junction finder (compare hub, deviations E13) ────────────────────
@@ -391,6 +493,22 @@ a {
 .dot-cue svg circle {
   animation: dot-arrive 160ms linear both;
   animation-delay: var(--dot-delay, 0s);
+}
+
+/* Desktop overture timing (P4 overture-at-width): the same settle classes,
+   re-timed at width by --settle-delay-lg / --dot-delay-lg. Must sit AFTER
+   the base animation rules above — same specificity, later wins. Below
+   64rem the phone values are untouched. */
+@media (min-width: 64rem) {
+  .settle,
+  .settle-fade,
+  .rule-draw,
+  .stamp-in {
+    animation-delay: var(--settle-delay-lg, var(--settle-delay, 0s));
+  }
+  .dot-cue svg circle {
+    animation-delay: var(--dot-delay-lg, var(--dot-delay, 0s));
+  }
 }
 
 /* Replay guard: the overture runs once per session. The inline script on the

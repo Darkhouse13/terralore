@@ -132,6 +132,60 @@ invariant — where the invariant wins by rule.
   G20 (that tier as its own section). Row anatomy is unchanged from the
   shipped index.
 
+- **E14 — The bench build (the P4 desktop contract, ≥1024px).**
+  `docs/design/p4-desktop-contract.html` is the amended contract for
+  ≥1024px, with the same legal force as P3. Desktop is a translation of
+  that design, not a stretched phone: six surfaces recompose with RULES
+  AS COLUMNS (the 2px rule used vertically — still no hairlines), inside
+  a 1760px frame whose margins grow at 1920 while beds stay full-bleed
+  within it. The phone (<1024px) ships unchanged — proven pixel-identical
+  by `scripts/bench-shots.mjs` + a per-pixel diff on all six surfaces.
+  **E12's mounted core is superseded on these six surfaces** (front door,
+  section cut, nation, ranking, compare index, compare pair); it remains
+  the desktop grammar of the reading and cross-read surfaces (chronicle,
+  timeline, themes, commodities, rankings hub). Decisions inside the
+  translation:
+  - **Naming (binding):** the nav label is **COMPARED at every
+    breakpoint**; junction vocabulary (the tray, the junction cut, the
+    duel) lives inside the compare surfaces only. The contract mock's
+    front-door bed "JUNCTIONS" and nav item "JUNCTION" are reconciled to
+    COMPARED, and its nation-page "LAY X ON THE BENCH — CUT A JUNCTION ⤬"
+    link ships as "SET X BESIDE ANOTHER NATION — COMPARED →".
+  - **Overture at width:** masthead 0 · headline 60 · beds 120–480 (90ms
+    stagger, **top-down** as the contract cuts the face) · dig row 570 —
+    all 380ms on the mass curve, last motion ends at 950ms. The phone
+    keeps its bottom-up, oldest-first choreography; the same once-per-
+    session guard and reduced-motion collapse serve both.
+  - **The readout ledge is an inline vanilla island** (E13's precedent),
+    not a framework island — ranking pages stay hydration-free. Live,
+    it makes rows focusable buttons (inner link leaves the tab order but
+    stays clickable; the row's visible text is its accessible name), the
+    press lands the specimen on the ledge with the 320ms flip, a new
+    selection re-flips, and the landing is announced politely. While the
+    island is live the row's in-place flip stands down (it would tear the
+    wall); without JavaScript the page is the wall and rows keep their
+    CSS flip. PROOF VIEW still flips the whole wall either way.
+  - **The bench holds the whole dossier** (nine domains), so it flows in
+    its column instead of sticking (the mock benched five specimen rows);
+    the sticky element is the **core rail**, per the mission. Era bands
+    are buttons; the basalt notch marks the bed last chosen from the core.
+  - **The duel flips whole rows:** one specimen per metric carrying both
+    nations' observations and one shared basalt label. Per-side flips
+    would fork the server DOM in two; pressing either side turns the row.
+  - **Dotted leaders on the wall** are 2px dotted in the absent pigment —
+    the contract's own device; logged as the absent token's second
+    sanctioned job (rank → value leader lines, desktop wall only).
+  - **The junction tray reveals at parse time** (a `.js` class stamped on
+    `<html>` before first paint) instead of a post-load `hidden`-attr
+    flip — the reveal could shift the whole index (CLS 0.18 on the live
+    pre-P4 deploy, the one floor breach); now 0.01. No-JS still renders
+    the whole index without the tray.
+  - **Known debt, left standing by the phone-identity law:** the
+    unlayered `a { color }` base rule outranks layered `text-*`
+    utilities, so e.g. a ranking's current sibling chip renders oxide on
+    basalt (2.9:1). Shipped phone rendering is the contract here; fix as
+    its own pass with fresh phone baselines.
+
 ## C. Invariant collisions
 
 *(none yet — log here if a taboo ever collides with an editorial

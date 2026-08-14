@@ -32,6 +32,14 @@ import type { EventAnnotation } from "@/lib/annotations";
    header owns the CORE-PULL: drag down to extract the whole history as a
    core sample, tap a band to land in its era on the chronicle.
 
+   ≥1024px this is THE BENCH (P4 contract §2): the core is permanently
+   extracted as the sticky left rail — clickable era navigation, a basalt
+   notch marking the active bed — because a bench doesn't need a pull
+   gesture; the beds run in the middle column and the dossier becomes the
+   SPECIMEN BENCH. At 1024 the bench drops below the beds (the rail stays);
+   from 1280 it stands as the right column (P4 E5). The core-pull remains
+   the phone's gesture, armed only below 1024px.
+
    The metric window (chart · world rank · map) stays URL-addressed:
    #m=<key>&tab=<domain>&c=<codes>&v=rank&map=1 — the contract rankings and
    commodities pages deep-link against. */
@@ -185,14 +193,28 @@ export default function Dossier({
   }, [openInfo, annotations, meta.code]);
 
   // ── The core-pull (contract physics: 0.5× resistance, 90px commit, 460ms;
-  // the header owns the gesture and arms only at the very top of the page) ──
+  // the header owns the gesture and arms only at the very top of the page).
+  // Phone-only: at ≥1024px the core is already on the bench (P4 §2). ──
   const [pull, setPull] = useState(0);
   const [dragging, setDragging] = useState(false);
   const [coreOpen, setCoreOpen] = useState(false);
   const dragRef = useRef<{ y0: number; live: boolean }>({ y0: 0, live: false });
 
+  // The bench rail's active bed — the basalt notch (P4 §2).
+  const [selEra, setSelEra] = useState(0);
+  const pickEra = (i: number) => {
+    setSelEra(i);
+    document.getElementById(`bed-${eraBeds[i].id}`)?.scrollIntoView({
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
+      block: "start",
+    });
+  };
+
   const coreDown = (e: React.PointerEvent) => {
     if (!hasHistory || window.scrollY > 4) return;
+    if (window.matchMedia("(min-width: 64rem)").matches) return;
     dragRef.current = { y0: e.clientY, live: true };
     (e.target as Element).setPointerCapture?.(e.pointerId);
     setDragging(true);
@@ -221,31 +243,87 @@ export default function Dossier({
 
   const territory = TERRITORY_NOTES[meta.code];
 
+  // The bench grid (P4). A nation without a charted history has no core to
+  // extract — its rail column collapses and the bench moves one track left.
+  const benchGrid = hasHistory
+    ? "lg:mx-auto lg:grid lg:max-w-[1760px] lg:grid-cols-[120px_minmax(0,1fr)] xl:grid-cols-[120px_minmax(0,1fr)_440px]"
+    : "lg:mx-auto lg:grid lg:max-w-[1760px] lg:grid-cols-[minmax(0,1fr)] xl:grid-cols-[minmax(0,1fr)_440px]";
+  const benchMainCol = hasHistory ? "lg:col-start-2" : "lg:col-start-1";
+  const benchAsideCol = hasHistory
+    ? "lg:col-start-2 lg:row-start-2 xl:col-start-3 xl:[grid-row:1/span_2]"
+    : "lg:col-start-1 lg:row-start-2 xl:col-start-2 xl:[grid-row:1/span_2]";
+
   return (
-    <main className="min-h-screen overflow-x-hidden bg-bone">
-      {/* ── header — owns the core-pull ── */}
+    // overflow-x-CLIP, not hidden: clip does not mint a scroll container,
+    // so the bench rail's position:sticky tracks the viewport.
+    <main className="min-h-screen overflow-x-clip bg-bone">
+      {/* THE BENCH (P4): the frame, then rules-as-columns — the core rail,
+          the cut, and (from 1280) the specimen bench. */}
+      <div className={benchGrid}>
+        {/* ── the core, already extracted — the bench's left rail ── */}
+        {hasHistory && (
+          <div className="hidden lg:col-start-1 lg:block lg:border-r-2 lg:border-basalt lg:[grid-row:1/span_3] xl:[grid-row:1/span_2]">
+            <div className="sticky top-0 flex h-dvh flex-col">
+              <div className="border-b-2 border-basalt px-1.5 py-3 text-center font-mono text-[9px] leading-relaxed tracking-[0.14em] text-umber">
+                CORE —
+                <br />
+                EXTRACTED
+              </div>
+              {eraBeds.map((era, i) => {
+                const w = BED_WALK[i % BED_WALK.length];
+                return (
+                  <button
+                    key={era.id}
+                    type="button"
+                    onClick={() => pickEra(i)}
+                    aria-label={`${era.title} — ${era.period}, ${era.count} events`}
+                    aria-current={selEra === i ? "true" : undefined}
+                    className="flex min-h-0 items-center justify-center overflow-hidden border-b-2 border-basalt"
+                    style={{
+                      flex: Math.max(era.count, 6),
+                      background: w.bg,
+                      borderLeft:
+                        selEra === i
+                          ? "6px solid var(--color-basalt)"
+                          : "6px solid transparent",
+                    }}
+                  >
+                    <span
+                      className="max-h-full truncate font-mono text-[9.5px] tracking-[0.14em] uppercase [writing-mode:vertical-rl]"
+                      style={{ color: w.sub }}
+                    >
+                      {era.title} · {era.count}
+                    </span>
+                  </button>
+                );
+              })}
+              <div className="px-1.5 pt-2.5 pb-3 text-center font-mono text-[8.5px] leading-relaxed tracking-[0.1em] text-umber">
+                THICKNESS ∝ EVENTS
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ── the cut — header + era beds + the atlas' own beds ── */}
+        <div className={`${benchMainCol} lg:row-start-1 lg:min-w-0`}>
+      {/* ── header — owns the core-pull (phone only) ── */}
       <div
         onPointerDown={coreDown}
         onPointerMove={coreMove}
         onPointerUp={coreUp}
         onPointerCancel={coreUp}
-        className="settle select-none"
-        style={hasHistory ? { touchAction: "none", cursor: "grab" } : undefined}
+        className={`settle select-none${hasHistory ? " core-grab" : ""}`}
       >
-        <div className="mount mx-auto max-w-5xl px-5 pt-4">
-          <span aria-hidden className="mount-rail" />
-          <span aria-hidden className="mount-tick">
-            <span>SPECIMEN {meta.code}</span>
-          </span>
+        <div className="mx-auto max-w-5xl px-5 pt-4 lg:mx-0 lg:max-w-none lg:px-9 lg:pt-6 lg:pb-5">
           <Link
             href="/atlas"
             className="inline-block py-1.5 font-mono text-[10px] tracking-[0.16em] text-oxide"
           >
             ← THE SECTION CUT{meta.continent ? ` · ${meta.continent.toUpperCase()}` : ""}
           </Link>
-          <div className="mt-1 flex items-start justify-between gap-4 lg:max-w-[46rem]">
+          <div className="mt-1 flex items-start justify-between gap-4">
             <div className="min-w-0">
-              <h1 className="font-display text-[52px] leading-none font-extrabold tracking-tight break-words uppercase md:text-[72px]">
+              <h1 className="font-display text-[52px] leading-none font-extrabold tracking-tight break-words uppercase md:text-[72px] lg:text-[76px]">
                 {meta.name}
               </h1>
               {domainsLine && (
@@ -257,11 +335,12 @@ export default function Dossier({
                 </div>
               )}
             </div>
-            {/* the mini core — the nation's whole history in one column */}
+            {/* the mini core — the phone's glance at the column; the bench
+                rail replaces it at width */}
             {hasHistory && (
               <div
                 aria-hidden
-                className="mt-1.5 flex w-[30px] flex-none flex-col border-2 border-basalt"
+                className="mt-1.5 flex w-[30px] flex-none flex-col border-2 border-basalt lg:hidden"
               >
                 {eraBeds.map((era, i) => (
                   <div
@@ -276,7 +355,7 @@ export default function Dossier({
             )}
           </div>
           {hasHistory && (
-            <div className="pt-2.5 pb-3 font-mono text-[10px] text-umber">
+            <div className="pt-2.5 pb-3 font-mono text-[10px] text-umber lg:hidden">
               ▼ PULL DOWN TO EXTRACT THE CORE
             </div>
           )}
@@ -290,6 +369,7 @@ export default function Dossier({
         return (
           <Link
             key={era.id}
+            id={`bed-${era.id}`}
             href={`/country/${meta.code}/chronicle#${era.id}`}
             prefetch={false}
             className="bed settle pressable block"
@@ -298,38 +378,41 @@ export default function Dossier({
               ["--settle-delay" as string]: `${Math.min((i + 1) * 60, 420)}ms`,
             }}
           >
-            <div className="mount mx-auto max-w-5xl px-5 py-[14px]">
-              {/* The mounted core (E12): the era's years move to the margin
-                  tick at desktop — the depth scale of the nation's own cut. */}
-              <span aria-hidden className="mount-rail" style={{ ["--rail" as string]: w.title }} />
-              <span aria-hidden className="mount-tick">
-                <span style={{ color: w.sub }}>{era.period}</span>
-              </span>
-              <div className="lg:max-w-[46rem]">
+            <div className="mx-auto max-w-5xl px-5 py-[14px] lg:mx-0 lg:max-w-none lg:px-9 lg:py-4">
+              <div>
                 <div className="flex items-baseline justify-between gap-3">
                   <div
                     className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px]"
                     style={{ color: w.title }}
                   >
-                    <span className="lg:sr-only">{era.period} · </span>
+                    <span>{era.period} · </span>
                     {era.title}
+                    {selEra === i && (
+                      <span className="hidden font-mono text-[10px] font-normal tracking-[0.08em] lg:inline">
+                        {" "}
+                        ◄ FROM THE CORE
+                      </span>
+                    )}
                   </div>
                   <div className="flex-none font-mono text-[10px]" style={{ color: w.sub }}>
                     {era.count} EVENTS
+                    <span className="hidden lg:inline"> · READ THE BED →</span>
                   </div>
                 </div>
-                {era.headline.map((e) => (
-                  <div
-                    key={`${e.yearLabel}-${e.title}`}
-                    className="mt-1.5 font-sans text-[14.5px]"
-                    style={{ color: w.title }}
-                  >
-                    {e.yearLabel} · {e.title}{" "}
-                    <span className="font-mono text-[9.5px]" style={{ color: w.sub }}>
-                      {e.refs} {e.refs === 1 ? "REF" : "REFS"}
-                    </span>
-                  </div>
-                ))}
+                <div className="lg:mt-2.5 lg:grid lg:grid-cols-2 lg:gap-x-11 lg:gap-y-2">
+                  {era.headline.map((e) => (
+                    <div
+                      key={`${e.yearLabel}-${e.title}`}
+                      className="mt-1.5 font-sans text-[14.5px] lg:mt-0"
+                      style={{ color: w.title }}
+                    >
+                      {e.yearLabel} · {e.title}{" "}
+                      <span className="font-mono text-[9.5px]" style={{ color: w.sub }}>
+                        {e.refs} {e.refs === 1 ? "REF" : "REFS"}
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </Link>
@@ -344,12 +427,8 @@ export default function Dossier({
           className="bed settle pressable block"
           style={{ ["--settle-delay" as string]: "420ms" }}
         >
-          <div className="mount mx-auto max-w-5xl px-5 py-4">
-            <span aria-hidden className="mount-rail" />
-            <span aria-hidden className="mount-tick">
-              <span>THE READING DEPTH</span>
-            </span>
-            <div className="flex items-center justify-between lg:max-w-[46rem]">
+          <div className="mx-auto max-w-5xl px-5 py-4 lg:mx-0 lg:max-w-none lg:px-9">
+            <div className="flex items-center justify-between">
               <div>
                 <div className="font-display text-[20px] font-extrabold tracking-tight uppercase">
                   Read the chronicle
@@ -364,8 +443,7 @@ export default function Dossier({
         </Link>
       ) : (
         <div className="bed">
-          <div className="mount mx-auto max-w-5xl px-5 py-4">
-            <span aria-hidden className="mount-rail" />
+          <div className="mx-auto max-w-5xl px-5 py-4 lg:mx-0 lg:max-w-none lg:px-9">
             <div className="eyebrow text-umber">History</div>
             <p className="mt-2 max-w-xl font-sans text-[14.5px] text-umber">
               The sourced chronicle of {meta.name} is being charted and verified — it will
@@ -377,13 +455,9 @@ export default function Dossier({
 
       {/* ── quick facts — the atlas' own reference bed ── */}
       <section className="bed bg-sand">
-        <div className="mount mx-auto max-w-5xl px-5 py-4">
-          <span aria-hidden className="mount-rail" />
-          <span aria-hidden className="mount-tick">
-            <span>ATLAS REF</span>
-          </span>
+        <div className="mx-auto max-w-5xl px-5 py-4 lg:mx-0 lg:max-w-none lg:px-9">
           <div className="eyebrow text-umber">Quick facts · atlas reference</div>
-          <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-4 md:grid-cols-4 lg:max-w-[46rem]">
+          <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-4 md:grid-cols-4">
             <Fact label="Capital" value={meta.capital[0] ?? "—"} />
             <Fact label="Population" value={formatPopulation(meta.population)} />
             <Fact label="Area" value={formatArea(meta.area)} />
@@ -410,8 +484,7 @@ export default function Dossier({
 
       {territory && (
         <section className="bed">
-          <div className="mount mx-auto max-w-5xl px-5 py-4">
-            <span aria-hidden className="mount-rail" />
+          <div className="mx-auto max-w-5xl px-5 py-4 lg:mx-0 lg:max-w-none lg:px-9">
             <div className="eyebrow text-umber">Territory</div>
             <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed">
               {territory.text}
@@ -433,21 +506,40 @@ export default function Dossier({
         </section>
       )}
 
+      {/* the lateral move — desktop only; the phone reaches Compared from
+          the front door (nav law: COMPARED, not junction, outside the
+          compare surfaces — deviations E14) */}
+      <Link
+        href="/compare"
+        prefetch={false}
+        className="bed pressable hidden lg:block"
+      >
+        <div className="px-9 py-4 font-mono text-[11px] tracking-[0.1em] text-oxide">
+          SET {meta.name.toUpperCase()} BESIDE ANOTHER NATION — COMPARED →
+        </div>
+      </Link>
+        </div>
+
+        {/* ── the specimen bench — the dossier as the bench's right column
+            (below the beds at 1024, standing from 1280 — P4 E5) ── */}
+        <div className={`${benchAsideCol} lg:min-w-0 xl:border-l-2 xl:border-basalt`}>
       {/* ── the dossier — specimen rows ── */}
       {available.length > 0 && (
-        <section className="bed">
-          {/* Data earns width (E12): the specimen columns fill the mounted
-              tray — each column lands near the contract's native 390px. */}
-          <div className="mount mx-auto max-w-5xl px-5 pt-4 pb-6">
-            <span aria-hidden className="mount-rail" />
-            <span aria-hidden className="mount-tick">
-              <span>
-                DATA · {available.length} {available.length === 1 ? "DOMAIN" : "DOMAINS"}
-              </span>
-            </span>
+        <section className="bed xl:border-t-0">
+          <div className="mx-auto max-w-5xl px-5 pt-4 pb-6 lg:mx-0 lg:max-w-none lg:px-9 xl:px-6">
             <div className="flex items-baseline justify-between">
-              <div className="eyebrow text-umber">
-                Dossier · press a specimen — it turns over
+              <div className="min-w-0">
+                <div className="eyebrow text-umber lg:hidden">
+                  Dossier · press a specimen — it turns over
+                </div>
+                <div className="hidden lg:block">
+                  <div className="font-display text-[20px] font-extrabold tracking-tight uppercase">
+                    Specimen bench
+                  </div>
+                  <div className="mt-1 font-mono text-[9.5px] tracking-[0.1em] text-umber">
+                    PRESS A SPECIMEN — IT TURNS OVER
+                  </div>
+                </div>
               </div>
               <button
                 type="button"
@@ -458,7 +550,7 @@ export default function Dossier({
               </button>
             </div>
 
-            <div className="md:columns-2 md:gap-10">
+            <div className="md:columns-2 md:gap-10 xl:columns-1">
               {available.map((d) => {
                 const section = dossier!.sections[d]!;
                 return (
@@ -491,27 +583,31 @@ export default function Dossier({
       )}
 
       {available.length === 0 && <NoSeriesState meta={meta} />}
+        </div>
 
-      {/* ── sources ── */}
+        {/* ── sources + the creed — the cut's own footing ── */}
+        <div className={`${benchMainCol} lg:row-start-3 lg:min-w-0 xl:row-start-2`}>
       {Object.keys(sources).length > 0 && (
         <SourcesFooter sources={sources} updated={dossier?.updated ?? null} />
       )}
 
       <div className="cut-rule" />
-      <footer className="mount mx-auto max-w-5xl px-5 pt-[14px] pb-6">
-        <span aria-hidden className="mount-rail" />
-        <div className="flex justify-between font-mono text-[10px] text-umber lg:max-w-[46rem]">
+      <footer className="mx-auto max-w-5xl px-5 pt-[14px] pb-6 lg:mx-0 lg:max-w-none lg:px-9">
+        <div className="flex justify-between font-mono text-[10px] text-umber">
           <div>EVERY CLAIM SOURCED</div>
           <div>ABSENCE ≠ ZERO</div>
           <div>NO SIDES</div>
         </div>
       </footer>
+        </div>
+      </div>
 
-      {/* ── the extracted core ── */}
+      {/* ── the extracted core (the phone's pull — the bench rail carries
+          the core at width) ── */}
       {hasHistory && (
         <div
           aria-hidden={!coreOpen}
-          className="fixed inset-x-0 top-0 z-40 mx-auto flex h-dvh w-full max-w-5xl flex-col bg-basalt"
+          className="fixed inset-x-0 top-0 z-40 mx-auto flex h-dvh w-full max-w-5xl flex-col bg-basalt lg:hidden"
           style={{
             transform: coreOpen ? "translateY(0)" : `translateY(calc(-100% + ${pull}px))`,
             transition: dragging ? "none" : "transform var(--dur-core) var(--ease-mass)",
@@ -678,8 +774,7 @@ function NoSeriesState({ meta }: { meta: CountryMeta }) {
   const note = NO_DATA_NOTES[meta.code];
   return (
     <section className="bed">
-      <div className="mount mx-auto max-w-5xl px-5 py-5">
-        <span aria-hidden className="mount-rail" />
+      <div className="mx-auto max-w-5xl px-5 py-5 lg:mx-0 lg:max-w-none lg:px-9 xl:px-6">
         <h2 className="max-w-2xl font-display text-[20px] leading-tight font-extrabold tracking-tight uppercase">
           No independent statistical series meets the sourcing bar yet
         </h2>
@@ -726,11 +821,7 @@ function SourcesFooter({
   const stamp = vintageStamp(sources, updated);
   return (
     <footer className="bed">
-      <div className="mount mx-auto max-w-5xl px-5 py-4">
-        <span aria-hidden className="mount-rail" />
-        <span aria-hidden className="mount-tick">
-          <span>SOURCES</span>
-        </span>
+      <div className="mx-auto max-w-5xl px-5 py-4 lg:mx-0 lg:max-w-none lg:px-9">
         <div className="eyebrow text-umber">Sources &amp; methodology</div>
         {stamp && <p className="mt-2 font-mono text-[11px] text-oxide">{stamp}</p>}
         <ul className="mt-3 flex flex-col gap-2">

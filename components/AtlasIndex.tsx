@@ -73,19 +73,24 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
 
   return (
     <main className="min-h-screen bg-bone">
-      {/* masthead — content stays at reading measure while the cut below
-          takes the full tray width (the mounted core, E12: the apparatus
-          may widen, the reading column may not) */}
-      <div className="mx-auto max-w-5xl px-5 pt-6 pb-5 xl:max-w-[80rem]">
+      {/* ≥1024px the cut face sits in the 1760px frame (P4 E5); the section
+          cut is the one surface that uses width honestly — a wider face
+          shows more seams per row, never taller rows. */}
+      <div className="lg:mx-auto lg:max-w-[1760px]">
+      <div className="mx-auto max-w-5xl px-5 pt-6 pb-5 lg:max-w-none lg:px-10 lg:pt-8">
         <Link
           href="/"
           className="settle inline-block py-1.5 font-mono text-[10px] tracking-[0.16em] text-oxide"
         >
           ← TERRALORE
         </Link>
-        <h1 className="settle mt-2 font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
+        <h1 className="settle mt-2 font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px] lg:text-[52px]">
           The section cut
         </h1>
+        <p className="settle mt-2 hidden max-w-2xl font-sans text-[15px] text-umber lg:block">
+          You are standing in the quarry — the whole wall at once, continents as beds,
+          nations as seams. Deeper is older ground.
+        </p>
         <div
           className="settle mt-2 font-mono text-[11px] text-oxide"
           style={{ ["--settle-delay" as string]: "60ms" }}
@@ -126,13 +131,14 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
         </nav>
       </div>
 
-      {/* the cut */}
+      {/* the cut — at width, RULES AS COLUMNS (P4 §4): a depth column, the
+          bed's name column, and the seam flow, joined by vertical 2px rules */}
       {beds.map((bed, bi) => (
         <section
           key={bed.name}
           id={`c-${slugOf(bed.name)}`}
           aria-labelledby={`h-${slugOf(bed.name)}`}
-          className="bed settle scroll-mt-2"
+          className="bed settle scroll-mt-2 lg:grid lg:grid-cols-[64px_260px_minmax(0,1fr)] lg:items-stretch"
           style={{
             background: bed.hatch
               ? "repeating-linear-gradient(45deg, var(--color-absent) 0 3px, var(--color-bone) 3px 10px)"
@@ -140,11 +146,23 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
             ["--settle-delay" as string]: `${Math.min(bi * 60 + 200, 560)}ms`,
           }}
         >
-          <div className="mx-auto max-w-5xl px-5 py-4 xl:max-w-[80rem]">
-            <div className="flex items-baseline justify-between">
+          {/* the depth scale — apparatus, desktop only */}
+          <div
+            aria-hidden
+            className="hidden items-center justify-center border-r-2 border-basalt py-2.5 font-mono text-[10px] tracking-[0.18em] [writing-mode:vertical-rl] lg:flex"
+            style={{ color: bed.sub }}
+          >
+            {bi === 0
+              ? "0 — SHALLOW"
+              : bi === beds.length - 1
+                ? `${bi} — DEEPEST`
+                : String(bi)}
+          </div>
+          <div className="mx-auto max-w-5xl px-5 py-4 lg:contents">
+            <div className="flex items-baseline justify-between lg:flex-col lg:items-start lg:justify-center lg:gap-1 lg:px-6 lg:py-5">
               <h2
                 id={`h-${slugOf(bed.name)}`}
-                className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px]"
+                className="font-display text-[17px] font-extrabold tracking-tight uppercase md:text-[19px] lg:text-[26px]"
                 style={{ color: bed.title }}
               >
                 {bed.name}
@@ -155,15 +173,15 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
             </div>
 
             {/* A wider cut face shows more seams per row — true to the
-                metaphor; stretching row height would not be (E12). */}
-            <div className="mt-2 grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                metaphor; stretching row height would not be. */}
+            <div className="mt-2 grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:mt-0 lg:flex lg:flex-wrap lg:content-center lg:items-baseline lg:gap-x-[22px] lg:gap-y-1.5 lg:px-6 lg:py-[18px]">
               {bed.items.map((e) => (
                 <Link
                   key={e.code}
                   href={`/country/${e.code}`}
                   prefetch={false}
-                  className="pressable flex items-baseline justify-between gap-3 py-[7px]"
-                  style={{ borderTop: `2px solid ${bed.title}` }}
+                  className="seam-row pressable flex items-baseline justify-between gap-3 py-[7px] lg:justify-start lg:gap-2 lg:py-0 lg:whitespace-nowrap"
+                  style={{ ["--seam-rule" as string]: bed.title }}
                 >
                   <span className="flex min-w-0 items-baseline gap-2">
                     <span
@@ -183,14 +201,17 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
                   </span>
                   {/* Some founding labels run long ("24 September 1973 (declared);
                       recognised 10 September 1974") — the seam truncates them
-                      rather than widening the cut. */}
+                      rather than widening the cut; the wide flow carries the
+                      code alone. */}
                   <span
-                    className="max-w-[50%] flex-none truncate text-right font-mono text-[10px]"
+                    className="max-w-[50%] flex-none truncate text-right font-mono text-[10px] lg:max-w-none lg:text-[9px]"
                     style={{ color: bed.sub }}
                     title={e.foundingYear}
                   >
                     {e.code}
-                    {e.foundingYear ? ` · ${e.foundingYear}` : ""}
+                    <span className="lg:hidden">
+                      {e.foundingYear ? ` · ${e.foundingYear}` : ""}
+                    </span>
                   </span>
                 </Link>
               ))}
@@ -209,11 +230,12 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
       )}
 
       <div className="cut-rule" />
-      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber xl:max-w-[80rem]">
+      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber lg:max-w-none lg:px-10">
         <div>EVERY CLAIM SOURCED</div>
         <div>ABSENCE ≠ ZERO</div>
         <div>NO SIDES</div>
       </footer>
+      </div>
     </main>
   );
 }

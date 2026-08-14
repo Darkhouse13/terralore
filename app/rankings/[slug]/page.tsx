@@ -146,8 +146,10 @@ export default async function RankingPage({
         ]}
       />
       <main className="min-h-screen bg-bone">
-        <div className="mount mx-auto max-w-4xl px-5 pt-4 pb-16">
-          <span aria-hidden className="mount-rail" />
+        {/* ≥1024px: THE WALL + THE READOUT LEDGE (P4 §3) inside the 1760px
+            frame. Two columns at 1024, three from 1280 with the ledge as the
+            sticky right rail (P4 E5). */}
+        <div className="mx-auto max-w-4xl px-5 pt-4 pb-16 lg:max-w-[1760px] lg:px-10">
           <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -168,44 +170,49 @@ export default async function RankingPage({
             </ol>
           </nav>
 
-          <header className="settle relative mt-3 pb-4">
-            <span aria-hidden className="mount-tick">
-              <span>
-                {domainLabel}
-                <br />
-                RANKING {String(idx).padStart(2, "0")}/{total}
-              </span>
-            </span>
-            <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
-              {r.label}
-            </h1>
-            <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
-              {unitPhrase ?? r.unit}
-              {r.years != null &&
-                ` · OBSERVED ${mixed ? `${r.years.min}–${r.years.max}` : r.years.min}`}
-            </p>
-            <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
-              {r.definition}
-            </p>
+          <header className="settle relative mt-3 pb-4 lg:grid lg:grid-cols-[460px_minmax(0,1fr)] lg:items-end lg:gap-11 xl:grid-cols-[460px_minmax(0,1fr)_300px]">
+            <div>
+              <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px] lg:text-[56px]">
+                {r.label}
+              </h1>
+              <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
+                {unitPhrase ?? r.unit}
+                {r.years != null &&
+                  ` · OBSERVED ${mixed ? `${r.years.min}–${r.years.max}` : r.years.min}`}
+              </p>
+              <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
+                {r.definition}
+              </p>
 
-            <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
-              <Stat
-                label={r.isMineral ? "Producers listed" : "Nations ranked"}
-                value={String(r.rows.length)}
-              />
-              <Stat label="Highest" value={formatMetric(r.rows[0]?.value ?? null, r.unit)} />
-              <Stat label="Lowest" value={formatMetric(r.rows.at(-1)?.value ?? null, r.unit)} />
-              <Stat
-                label="Observed"
-                value={
-                  r.years == null
-                    ? "—"
-                    : mixed
-                      ? `${r.years.min}–${r.years.max}`
-                      : String(r.years.min)
-                }
-              />
-            </dl>
+              <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+                <Stat
+                  label={r.isMineral ? "Producers listed" : "Nations ranked"}
+                  value={String(r.rows.length)}
+                />
+                <Stat label="Highest" value={formatMetric(r.rows[0]?.value ?? null, r.unit)} />
+                <Stat label="Lowest" value={formatMetric(r.rows.at(-1)?.value ?? null, r.unit)} />
+                <Stat
+                  label="Observed"
+                  value={
+                    r.years == null
+                      ? "—"
+                      : mixed
+                        ? `${r.years.min}–${r.years.max}`
+                        : String(r.years.min)
+                  }
+                />
+              </dl>
+            </div>
+
+            {/* the whole distribution as one strip — the wall below is its
+                full text (P4). Desktop apparatus; the caption carries the
+                observation window and the source ids, per the chart law. */}
+            <Strip r={r} />
+
+            <p className="hidden pb-1.5 font-sans text-[12.5px] leading-normal text-umber xl:block">
+              Press any row — its specimen turns over on the readout ledge. No bests, no
+              worsts: observations, ranked.
+            </p>
           </header>
 
           {mixed && (
@@ -244,109 +251,165 @@ export default async function RankingPage({
             </p>
           )}
 
-          {/* ── the table: every row a specimen ── */}
-          <input type="checkbox" id="proofview" className="proof-toggle peer sr-only" />
-          <div>
-            <div className="flex items-baseline justify-between">
-              <p className="font-sans text-[13px] text-umber">
-                Press a row — the specimen turns over to its label. Bars are drawn to the
-                highest value. Highest, not best: this page orders figures, it does not
-                grade nations.
-              </p>
-              <label
-                htmlFor="proofview"
-                className="pressable flex-none py-1 pl-3 font-mono text-[10px] tracking-[0.08em] text-oxide select-none"
+          {/* ── the table: every row a specimen. At width, THE WALL — rows in
+              honest columns joined by the 2px rule — with THE READOUT LEDGE
+              beside it: the press lands the specimen on the ledge instead of
+              tearing the wall (its island is inline and vanilla, E13's
+              precedent; without JavaScript the wall stands alone and rows
+              keep their CSS flip). ── */}
+          <div id="wallscope">
+            <input type="checkbox" id="proofview" className="proof-toggle peer sr-only" />
+            <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_340px] xl:items-start xl:gap-x-7">
+              <aside
+                id="ledge"
+                aria-label="The readout ledge"
+                className="ledge-root lg:mb-5 lg:max-w-[420px] xl:sticky xl:top-5 xl:col-start-2 xl:row-start-1 xl:mb-0 xl:max-w-none"
               >
-                <span className="proof-off">PROOF VIEW ⟲</span>
-                <span className="proof-on">CLOSE PROOFS ⟲</span>
-              </label>
-            </div>
-
-            <ol className="mt-3 border-t-2 border-basalt">
-              {r.rows.map((row) => {
-                const width =
-                  max > 0 && row.value > 0 ? Math.max((row.value / max) * 100, 0.4) : 0;
-                // Decade rows carry the depth mark, which hangs into the
-                // margin — content-visibility's paint containment would clip
-                // it, so those rows (1 in 10) skip the optimisation.
-                const isDecade = row.rank % 10 === 1;
-                return (
-                  <li
-                    key={row.code}
-                    className="relative border-b-2 border-basalt"
-                    style={
-                      isDecade
-                        ? undefined
-                        : { contentVisibility: "auto", containIntrinsicBlockSize: "64px" }
-                    }
-                  >
-                    {/* The depth scale (E12): a printed mark at every rank
-                        decade, passing with the flow like a core log's
-                        depth figures. */}
-                    {isDecade && (
-                      <span aria-hidden className="mount-mark top-[13px]">
-                        #{String(row.rank).padStart(2, "0")}
-                      </span>
-                    )}
-                    <div className="flip-scene flip-press">
-                      <div className="flip-card h-[62px]">
-                        <div className="flip-face pt-[11px]">
-                          <div className="flex items-baseline justify-between gap-3 font-mono text-[12.5px]">
-                            <div className="min-w-0 truncate uppercase">
-                              <span className="text-oxide">
-                                {String(row.rank).padStart(2, "0")}
-                              </span>{" "}
-                              <Link
-                                href={`/country/${row.code}#m=${r.key}&tab=${r.domain}`}
-                                prefetch={false}
-                                className="text-basalt"
-                              >
-                                {row.name}
-                              </Link>
-                            </div>
-                            <div className="flex-none">
-                              {formatMetric(row.value, r.unit)}{" "}
-                              <span className="pill">{row.year ?? "—"}</span>
-                            </div>
-                          </div>
-                          {width > 0 && (
-                            <div
-                              aria-hidden
-                              className="mt-[7px] h-[14px]"
-                              style={{ width: `${width}%`, background: barColor(row.rank) }}
-                            />
-                          )}
-                          <span className="sr-only">
-                            Observed {row.year ?? "year unknown"} ·{" "}
-                            {r.sources.map((s) => s.publisher).join(", ")}
-                          </span>
-                        </div>
-                        <div aria-hidden className="flip-face flip-back">
-                          <div className="flex h-full flex-col justify-center gap-[3px] px-3">
-                            <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase">
-                              OBSERVED {row.year ?? "—"} · {srcLine}
-                            </div>
-                            <div className="font-sans text-[11.5px] text-clay">
-                              rank {row.rank} of {r.rows.length}{" "}
-                              {r.isMineral ? "listed producers" : "ranked nations"} · highest,
-                              not best
-                            </div>
-                          </div>
-                        </div>
+                <div className="font-mono text-[10px] tracking-[0.16em] text-umber">
+                  THE READOUT LEDGE
+                </div>
+                <div className="mt-2.5 [perspective:900px]">
+                  <div data-ledge-card className="flip-card h-[190px]">
+                    <div className="flip-face flex flex-col justify-center gap-2 border-2 border-basalt p-[18px]">
+                      <div className="font-display text-[18px] font-extrabold tracking-tight uppercase">
+                        No specimen on the ledge
+                      </div>
+                      <div className="font-sans text-[13px] leading-normal text-umber">
+                        Press any row on the wall. Its specimen lands here and turns over
+                        to its label — year and source.
                       </div>
                     </div>
-                  </li>
-                );
-              })}
-            </ol>
+                    <div className="flip-face flip-back flex flex-col justify-center gap-[7px] p-[18px]">
+                      <div className="font-mono text-[10px] tracking-[0.14em] text-clay">
+                        RANK <span data-l-rank /> · SPECIMEN
+                      </div>
+                      <div
+                        data-l-name
+                        className="font-display text-[22px] leading-tight font-extrabold tracking-tight uppercase"
+                      />
+                      <div className="font-mono text-[15px]">
+                        <span data-l-value />{" "}
+                        <span className="text-[10px] text-clay">
+                          OBSERVED <span data-l-year />
+                        </span>
+                      </div>
+                      <div className="font-mono text-[10px] tracking-[0.06em] uppercase">
+                        {srcLine}
+                      </div>
+                      <a
+                        data-l-link
+                        href="#"
+                        className="font-sans text-[11.5px] underline underline-offset-2"
+                        style={{ color: "var(--color-clay)" }}
+                      >
+                        Open the dossier →
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div aria-live="polite" data-l-announce className="sr-only" />
+                <p className="mt-3.5 font-sans text-[12px] leading-relaxed text-umber">
+                  The strip above the wall is the whole distribution — the wall below is
+                  its full text. Nothing is truncated to a &ldquo;top 10&rdquo;.
+                </p>
+              </aside>
+
+              <div className="xl:col-start-1 xl:row-start-1">
+                <div className="flex items-baseline justify-between">
+                  <p className="font-sans text-[13px] text-umber">
+                    Press a row — the specimen turns over to its label. Bars are drawn to
+                    the highest value. Highest, not best: this page orders figures, it
+                    does not grade nations.
+                  </p>
+                  <label
+                    htmlFor="proofview"
+                    className="pressable flex-none py-1 pl-3 font-mono text-[10px] tracking-[0.08em] text-oxide select-none"
+                  >
+                    <span className="proof-off">PROOF VIEW ⟲</span>
+                    <span className="proof-on">CLOSE PROOFS ⟲</span>
+                  </label>
+                </div>
+
+                <ol id="wall" className="wall mt-3 border-t-2 border-basalt">
+                  {r.rows.map((row) => {
+                    const width =
+                      max > 0 && row.value > 0 ? Math.max((row.value / max) * 100, 0.4) : 0;
+                    // Decade rows render un-contained on the phone (the
+                    // containment shifts a bar by a pixel) — the shipped
+                    // phone rendering is the contract here.
+                    const isDecade = row.rank % 10 === 1;
+                    return (
+                      <li
+                        key={row.code}
+                        data-wall-row
+                        data-rank={String(row.rank).padStart(2, "0")}
+                        data-name={row.name}
+                        data-value={formatMetric(row.value, r.unit)}
+                        data-year={row.year ?? "—"}
+                        className={`${isDecade ? "" : "cv-row "}relative border-b-2 border-basalt lg:border-b-0`}
+                      >
+                        <div className="flip-scene flip-press">
+                          <div className="flip-card h-[62px] lg:h-[40px]">
+                            <div className="flip-face pt-[11px] lg:flex lg:items-center lg:pt-0">
+                              <div className="flex items-baseline justify-between gap-3 font-mono text-[12.5px] lg:flex-1 lg:justify-start">
+                                <div className="min-w-0 truncate uppercase">
+                                  <span className="text-oxide">
+                                    {String(row.rank).padStart(2, "0")}
+                                  </span>{" "}
+                                  <Link
+                                    href={`/country/${row.code}#m=${r.key}&tab=${r.domain}`}
+                                    prefetch={false}
+                                    className="text-basalt"
+                                  >
+                                    {row.name}
+                                  </Link>
+                                </div>
+                                <span
+                                  aria-hidden
+                                  className="hidden lg:block lg:min-w-3 lg:flex-1 lg:self-center lg:border-b-2 lg:border-dotted lg:border-absent"
+                                />
+                                <div className="flex-none">
+                                  {formatMetric(row.value, r.unit)}{" "}
+                                  <span className="pill">{row.year ?? "—"}</span>
+                                </div>
+                              </div>
+                              {width > 0 && (
+                                <div
+                                  aria-hidden
+                                  className="mt-[7px] h-[14px] lg:hidden"
+                                  style={{ width: `${width}%`, background: barColor(row.rank) }}
+                                />
+                              )}
+                              <span className="sr-only">
+                                Observed {row.year ?? "year unknown"} ·{" "}
+                                {r.sources.map((s) => s.publisher).join(", ")}
+                              </span>
+                            </div>
+                            <div aria-hidden className="flip-face flip-back">
+                              <div className="flex h-full flex-col justify-center gap-[3px] px-3 lg:gap-[2px]">
+                                <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase lg:truncate">
+                                  OBSERVED {row.year ?? "—"} · {srcLine}
+                                </div>
+                                <div className="font-sans text-[11.5px] text-clay lg:truncate">
+                                  rank {row.rank} of {r.rows.length}{" "}
+                                  {r.isMineral ? "listed producers" : "ranked nations"} ·
+                                  highest, not best
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </div>
+            </div>
           </div>
 
           {/* ── the gaps, named — a gap has no underside ── */}
           {r.noData.length > 0 && (
             <section className="relative mt-8">
-              <span aria-hidden className="mount-tick">
-                <span>GAPS · {r.noData.length}</span>
-              </span>
               <h2 className="font-display text-[20px] font-extrabold tracking-tight uppercase">
                 Not observed
               </h2>
@@ -404,9 +467,6 @@ export default async function RankingPage({
           </nav>
 
           <footer className="relative mt-10 border-t-2 border-basalt pt-5">
-            <span aria-hidden className="mount-tick">
-              <span>SOURCES</span>
-            </span>
             <div className="eyebrow mb-3 text-umber">
               {r.sources.length === 1 ? "Source" : "Sources"}
             </div>
@@ -440,10 +500,130 @@ export default async function RankingPage({
             </p>
           </footer>
         </div>
+
+        {/* the ledge island — vanilla, inline, this page only (the compare
+            tray's precedent). Without it the wall is complete. */}
+        <script dangerouslySetInnerHTML={{ __html: LEDGE_ISLAND }} />
       </main>
     </>
   );
 }
+
+/**
+ * The whole distribution as one strip (P4): a bar per sampled rank, drawn to
+ * the highest value, with the unobserved as hatched marks at the end. Desktop
+ * apparatus for the wall header; the caption carries counts and the axis.
+ */
+function Strip({ r }: { r: Ranking }) {
+  const max = r.rows[0]?.value ?? 0;
+  if (!(max > 0)) return <div className="hidden lg:block" />;
+  const step = Math.max(1, Math.ceil(r.rows.length / 86));
+  const bars: number[] = [];
+  for (let i = 0; i < r.rows.length; i += step) bars.push(Math.max(0, r.rows[i].value));
+  const hatched = Math.min(6, r.noData.length);
+  return (
+    <div aria-hidden className="hidden pb-1 lg:block">
+      <div className="flex h-[56px] items-end gap-[2px]">
+        {bars.map((v, i) => (
+          <div
+            key={i}
+            className="w-[4px] flex-none bg-basalt"
+            style={{ height: `${Math.max(3, Math.round((v / max) * 52))}px` }}
+          />
+        ))}
+        {Array.from({ length: hatched }, (_, i) => (
+          <div
+            key={`h${i}`}
+            className="w-[4px] flex-none"
+            style={{
+              height: "52px",
+              background:
+                "repeating-linear-gradient(45deg, var(--color-absent) 0 2px, var(--color-bone) 2px 5px)",
+            }}
+          />
+        ))}
+      </div>
+      <div className="mt-1.5 flex justify-between font-mono text-[9px] text-umber">
+        <div>RANK 001</div>
+        <div>
+          THE WHOLE WALL · {r.rows.length} OBSERVED
+          {r.noData.length > 0 && ` + ${r.noData.length} HATCHED`}
+        </div>
+        <div>{String(r.rows.length).padStart(3, "0")}</div>
+      </div>
+    </div>
+  );
+}
+
+/* ── the readout ledge island (P4 §3) ───────────────────────────────────────
+   Enhancement only, ≥1024px: rows become buttons whose press lands the
+   specimen on the ledge with the 320ms flip (a new selection re-flips); the
+   row's in-place flip stands down while the island is live. Keyboard: rows
+   take focus, Enter/Space lands the specimen; the landing is announced
+   politely. No JavaScript → none of this exists and the page is the wall. */
+const LEDGE_ISLAND = `(function () {
+  var mq = window.matchMedia("(min-width: 64rem)");
+  var root = document.getElementById("ledge");
+  var wall = document.getElementById("wall");
+  var scope = document.getElementById("wallscope");
+  if (!root || !wall || !scope) return;
+  var card = root.querySelector("[data-ledge-card]");
+  var out = {
+    rank: root.querySelector("[data-l-rank]"),
+    name: root.querySelector("[data-l-name]"),
+    value: root.querySelector("[data-l-value]"),
+    year: root.querySelector("[data-l-year]")
+  };
+  var link = root.querySelector("[data-l-link]");
+  var announce = root.querySelector("[data-l-announce]");
+  var rows = Array.prototype.slice.call(wall.querySelectorAll("[data-wall-row]"));
+  var current = null, t = null, enhanced = false;
+
+  function land(row) {
+    if (current) current.removeAttribute("data-on-ledge");
+    current = row;
+    row.setAttribute("data-on-ledge", "1");
+    out.rank.textContent = row.getAttribute("data-rank");
+    out.name.textContent = row.getAttribute("data-name");
+    out.value.textContent = row.getAttribute("data-value");
+    out.year.textContent = row.getAttribute("data-year");
+    var a = row.querySelector("a");
+    if (a && link) link.href = a.getAttribute("href");
+    // re-flip: return, then turn the new specimen over (30ms re-arm)
+    card.removeAttribute("data-flipped");
+    clearTimeout(t);
+    t = setTimeout(function () { card.setAttribute("data-flipped", "true"); }, 30);
+    announce.textContent = "On the ledge: rank " + row.getAttribute("data-rank") + ", " +
+      row.getAttribute("data-name") + ", " + row.getAttribute("data-value") +
+      ", observed " + row.getAttribute("data-year");
+  }
+
+  function enhance() {
+    if (enhanced || !mq.matches) return;
+    enhanced = true;
+    root.setAttribute("data-live", "1");
+    scope.classList.add("wall-live");
+    rows.forEach(function (row) {
+      var scene = row.querySelector(".flip-scene");
+      var a = row.querySelector("a");
+      if (a) a.tabIndex = -1;
+      scene.tabIndex = 0;
+      scene.setAttribute("role", "button");
+      // no aria-label: the accessible name is the row's own visible text
+      // (rank, nation, value, plus the sr-only observation line)
+      scene.addEventListener("click", function (e) {
+        if (e.target && e.target.closest && e.target.closest("a")) return;
+        land(row);
+      });
+      scene.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); land(row); }
+      });
+    });
+  }
+
+  enhance();
+  if (mq.addEventListener) mq.addEventListener("change", enhance);
+})();`;
 
 /* ── pieces ───────────────────────────────────────────────────────────────── */
 

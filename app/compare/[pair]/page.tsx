@@ -109,8 +109,10 @@ export default async function ComparePairPage({
         ]}
       />
       <main className="min-h-screen bg-bone">
-        <div className="mount mx-auto max-w-4xl px-5 pt-4 pb-16">
-          <span aria-hidden className="mount-rail" />
+        {/* ≥1024px: the two names flank the junction mark, the figures stand
+            as THE DOSSIER DUEL and the crossed events hang on one spine of
+            years (P4 pair composition, inside the 1760px frame). */}
+        <div className="mx-auto max-w-4xl px-5 pt-4 pb-16 lg:max-w-[1760px] lg:px-10">
           <nav aria-label="Breadcrumb" className="font-mono text-[10px] tracking-[0.16em] uppercase">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
@@ -128,24 +130,29 @@ export default async function ComparePairPage({
           </nav>
 
           <header className="settle relative mt-3 pb-4">
-            <span aria-hidden className="mount-tick">
-              <span>
-                THE JUNCTION
-                <br />
-                {page.a.code} × {page.b.code}
+            <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px] lg:grid lg:max-w-none lg:grid-cols-[1fr_auto_1fr] lg:items-center lg:gap-7">
+              <span className="block lg:text-right lg:text-[54px] lg:leading-none">
+                {page.a.name}
               </span>
-            </span>
-            <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
-              <span className="block">{page.a.name}</span>
-              <span className="my-2 block font-mono text-[13px] leading-none font-normal tracking-[0.16em] text-oxide">
-                AND
+              <span className="my-2 block font-mono text-[13px] leading-none font-normal tracking-[0.16em] text-oxide lg:my-0 lg:text-center">
+                <span className="lg:hidden">AND</span>
+                <span className="hidden lg:block">
+                  <span className="block font-mono text-[26px] leading-none text-oxide">
+                    ⤬
+                  </span>
+                  <span className="mt-1.5 block font-mono text-[10px] leading-relaxed tracking-[0.12em] text-umber">
+                    THE JUNCTION
+                    <br />
+                    {events.length} SHARED {events.length === 1 ? "EVENT" : "EVENTS"}
+                  </span>
+                </span>
               </span>
-              <span className="block">{page.b.name}</span>
+              <span className="block lg:text-[54px] lg:leading-none">{page.b.name}</span>
             </h1>
-            <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
+            <p className="mt-3 font-mono text-[11px] text-oxide uppercase lg:text-center">
               {page.a.formation.yearLabel} · {page.b.formation.yearLabel}
             </p>
-            <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
+            <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber lg:mx-auto lg:text-center">
               Two sourced records set beside each other — the figures each nation
               publishes, and the events each chronicle records of the other.
               Compared, never graded.
@@ -154,7 +161,7 @@ export default async function ComparePairPage({
             <StrataPattern seed={page.slug} className="mt-5" blocks={28} />
 
             {/* the formation lines — the two archives' anchors */}
-            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:mx-auto lg:max-w-4xl">
               {[page.a, page.b].map((n) => (
                 <div key={n.code} className="border-2 border-basalt bg-sand p-4">
                   <Link
@@ -187,7 +194,7 @@ export default async function ComparePairPage({
               ))}
             </div>
 
-            <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+            <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4 lg:mx-auto lg:max-w-4xl">
               <Stat label="Shared indicators" value={String(page.bothCount)} />
               <Stat label="Domains" value={String(page.domains.length)} />
               <Stat label="Crossed events" value={String(events.length)} />
@@ -197,9 +204,15 @@ export default async function ComparePairPage({
 
           {/* ── the data, domain by domain ── */}
           <section className="mt-8 border-t-2 border-basalt pt-5">
-            <h2 className="font-display text-[25px] font-extrabold tracking-tight uppercase">
-              The figures, side by side
-            </h2>
+            <div className="flex items-baseline justify-between gap-4">
+              <h2 className="font-display text-[25px] font-extrabold tracking-tight uppercase">
+                <span className="lg:hidden">The figures, side by side</span>
+                <span className="hidden lg:inline">The dossier duel</span>
+              </h2>
+              <p className="hidden font-mono text-[9.5px] tracking-[0.1em] text-umber lg:block">
+                PRESS A ROW — BOTH SPECIMENS TURN OVER TO THEIR LABELS
+              </p>
+            </div>
 
             <input type="checkbox" id="proofview" className="proof-toggle sr-only" />
             <div>
@@ -222,14 +235,11 @@ export default async function ComparePairPage({
 
               {page.domains.map((d) => (
                 <div key={d.domain} className="relative mt-8">
-                  <span aria-hidden className="mount-tick">
-                    <span>{d.label}</span>
-                  </span>
                   <div className="flex items-baseline justify-between gap-4 border-b-2 border-basalt pb-2">
                     <h3 className="font-display text-[20px] font-extrabold tracking-tight uppercase">
                       {d.label}
                     </h3>
-                    <div className="grid w-[11rem] flex-none grid-cols-2 gap-x-3 text-right font-mono text-[10px] tracking-[0.08em] text-umber uppercase sm:w-[15rem]">
+                    <div className="grid w-[11rem] flex-none grid-cols-2 gap-x-3 text-right font-mono text-[10px] tracking-[0.08em] text-umber uppercase sm:w-[15rem] lg:hidden">
                       <span>
                         <span aria-hidden className="mr-1.5 inline-block h-[8px] w-[8px] bg-basalt" />
                         {page.a.code}
@@ -250,11 +260,8 @@ export default async function ComparePairPage({
             </div>
           </section>
 
-          {/* ── the entangled histories ── */}
+          {/* ── the entangled histories — one spine of years at width ── */}
           <section className="bed relative mt-12 bg-sand px-4 pt-5 pb-6 sm:px-5">
-            <span aria-hidden className="mount-tick">
-              <span>CROSSED · {events.length}</span>
-            </span>
             <h2 className="font-display text-[25px] font-extrabold tracking-tight uppercase">
               Entangled histories
             </h2>
@@ -267,9 +274,17 @@ export default async function ComparePairPage({
                   same record, with the same sources, as on its own chronicle;
                   nothing here was written for this page.
                 </p>
-                <ol className="mt-5">
+                <p className="mt-4 hidden text-center font-mono text-[10px] tracking-[0.16em] text-umber lg:block">
+                  ONE SPINE OF YEARS · TWO WALLS OF EVENTS · {page.a.code} LEFT ·{" "}
+                  {page.b.code} RIGHT
+                </p>
+                <ol className="mt-5 lg:mt-3">
                   {events.map((ev, i) => (
-                    <EventRow key={`${ev.from}-${ev.year}-${i}`} ev={ev} />
+                    <EventRow
+                      key={`${ev.from}-${ev.year}-${i}`}
+                      ev={ev}
+                      side={ev.from === page.a.code ? "a" : "b"}
+                    />
                   ))}
                 </ol>
               </>
@@ -285,9 +300,6 @@ export default async function ComparePairPage({
           </section>
 
           <footer className="relative mt-14 border-t-2 border-basalt pt-5">
-            <span aria-hidden className="mount-tick">
-              <span>PROVENANCE</span>
-            </span>
             <div className="eyebrow mb-3 text-umber">Provenance</div>
             <p className="max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
               Assembled {page.updated}{" "}
@@ -349,28 +361,35 @@ function MetricRow({ page, row }: { page: ComparePage; row: CompareRow }) {
   const wa = w(row.a.value);
   const wb = w(row.b.value);
   return (
-    <li
-      className="border-b-2 border-basalt"
-      style={{ contentVisibility: "auto", containIntrinsicBlockSize: "88px" }}
-    >
+    <li className="cv-row-88 border-b-2 border-basalt">
       <div className="flip-scene flip-press">
-        <div className="flip-card h-[86px]">
-          <div className="flip-face pt-[10px]">
-            <div className="flex items-start justify-between gap-3">
+        <div className="flip-card h-[86px] lg:h-[56px]">
+          <div className="flip-face pt-[10px] lg:flex lg:flex-col lg:justify-center lg:pt-0">
+            <div className="flex items-start justify-between gap-3 lg:grid lg:grid-cols-[minmax(0,1fr)_260px_minmax(0,1fr)] lg:items-center lg:gap-6">
               <Link
                 href={routes.ranking(row.rankingSlug)}
                 prefetch={false}
-                className="min-w-0 truncate font-sans text-[13.5px] font-medium leading-snug text-basalt"
+                className="min-w-0 truncate font-sans text-[13.5px] font-medium leading-snug text-basalt lg:col-start-2 lg:row-start-1 lg:text-center"
               >
                 {row.label}
               </Link>
-              <div className="grid w-[11rem] flex-none grid-cols-2 gap-x-3 text-right sm:w-[15rem]">
-                <Cell code={page.a.code} row={row} cell={row.a} />
-                <Cell code={page.b.code} row={row} cell={row.b} />
+              <div className="grid w-[11rem] flex-none grid-cols-2 gap-x-3 text-right sm:w-[15rem] lg:contents">
+                <Cell
+                  code={page.a.code}
+                  row={row}
+                  cell={row.a}
+                  pos="lg:col-start-1 lg:row-start-1 lg:text-right"
+                />
+                <Cell
+                  code={page.b.code}
+                  row={row}
+                  cell={row.b}
+                  pos="lg:col-start-3 lg:row-start-1 lg:text-left"
+                />
               </div>
             </div>
             {(wa > 0 || wb > 0) && (
-              <div aria-hidden className="mt-[6px] flex flex-col gap-[2px]">
+              <div aria-hidden className="mt-[6px] flex flex-col gap-[2px] lg:hidden">
                 {wa > 0 && <div className="h-[8px] bg-basalt" style={{ width: `${wa}%` }} />}
                 {wb > 0 && <div className="h-[8px] bg-clay" style={{ width: `${wb}%` }} />}
               </div>
@@ -381,7 +400,7 @@ function MetricRow({ page, row }: { page: ComparePage; row: CompareRow }) {
             </span>
           </div>
           <div aria-hidden className="flip-face flip-back">
-            <div className="flex h-full flex-col justify-center gap-[3px] px-3">
+            <div className="flex h-full flex-col justify-center gap-[3px] px-3 lg:items-center">
               <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase">
                 OBSERVED {page.a.code} {row.a.year ?? "—"} / {page.b.code}{" "}
                 {row.b.year ?? "—"} · SOURCED ON BOTH DOSSIERS
@@ -397,31 +416,57 @@ function MetricRow({ page, row }: { page: ComparePage; row: CompareRow }) {
   );
 }
 
-function Cell({ code, row, cell }: { code: string; row: CompareRow; cell: { value: number | null; year: number | null } }) {
+function Cell({
+  code,
+  row,
+  cell,
+  pos,
+}: {
+  code: string;
+  row: CompareRow;
+  cell: { value: number | null; year: number | null };
+  pos: string;
+}) {
   if (cell.value == null) {
-    return <span className="font-mono text-[12px] tabular-nums text-umber">—</span>;
+    // The phone's "—" becomes the full absence mark where the duel has room:
+    // a hatched gap faces a number without apology (P4 pair composition).
+    return (
+      <span className={`font-mono text-[12px] tabular-nums text-umber ${pos}`}>
+        <span className="lg:hidden">—</span>
+        <span className="not-observed hidden lg:inline-block">NOT OBSERVED</span>
+      </span>
+    );
   }
   return (
     <Link
       href={`/country/${code}#m=${row.key}&tab=${row.domain}`}
       prefetch={false}
-      className="min-w-0 font-mono text-[12px] leading-tight tabular-nums text-basalt"
+      className={`min-w-0 font-mono text-[12px] leading-tight tabular-nums text-basalt lg:text-[15px] ${pos}`}
     >
       {formatMetric(cell.value, row.unit)}
-      <span className="mt-[3px] block">
+      <span className="mt-[3px] block lg:mt-0 lg:ml-2 lg:inline">
         <span className="pill">{cell.year ?? "—"}</span>
       </span>
     </Link>
   );
 }
 
-function EventRow({ ev }: { ev: SharedEvent }) {
+function EventRow({ ev, side }: { ev: SharedEvent; side: "a" | "b" }) {
   return (
-    <li className="grid gap-x-6 gap-y-1 border-t-2 border-basalt py-4 sm:grid-cols-[6.5rem_minmax(0,1fr)]">
-      <div className="font-mono text-[12px] leading-relaxed font-medium tabular-nums text-umber-deep">
+    <li className="grid gap-x-6 gap-y-1 border-t-2 border-basalt py-4 sm:grid-cols-[6.5rem_minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_110px_minmax(0,1fr)] lg:items-start">
+      <div className="font-mono text-[12px] leading-relaxed font-medium tabular-nums text-umber-deep lg:col-start-2 lg:row-start-1 lg:text-center lg:text-oxide">
         {ev.yearLabel}
+        {/* the junction mark on the spine — oxide = junction */}
+        <span
+          aria-hidden
+          className="mx-auto mt-1 hidden h-[10px] w-[10px] border-2 border-basalt bg-oxide lg:block"
+        />
       </div>
-      <div className="min-w-0">
+      <div
+        className={`min-w-0 lg:row-start-1 ${
+          side === "a" ? "lg:col-start-1 lg:text-right lg:[&>p]:ml-auto" : "lg:col-start-3"
+        }`}
+      >
         <h3 className="font-sans text-[15px] font-semibold leading-snug text-basalt">
           {ev.title}
         </h3>

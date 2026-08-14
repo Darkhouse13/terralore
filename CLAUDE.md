@@ -3,7 +3,9 @@
 # Terralore — architecture notes
 
 Encyclopedia of nations in the **STRATA × SHOW THE WORK** design world
-(DESIGN.md v2; binding contract `docs/design/p3-contract.html`): the earth in
+(DESIGN.md v2; binding contracts `docs/design/p3-contract.html` for the phone
+and `docs/design/p4-desktop-contract.html` for ≥1024px — the bench build,
+deviations E14; the phone rendering is pixel-frozen): the earth in
 section — history in beds (depth = time, down is older), data as specimen rows
 that proof-flip to their observation label, the section cut as world
 navigation. No globe, no canvas, no WebGL anywhere. The north star is "Quartr

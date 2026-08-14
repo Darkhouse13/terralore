@@ -23,6 +23,9 @@ const flag = (n, d) => {
 const BASE = flag("base", "http://127.0.0.1:3000").replace(/\/$/, "");
 const LABEL = flag("label", "run");
 const RUNS = Number(flag("runs", 1));
+// --form desktop runs Lighthouse's desktop preset (the bench build's second
+// floor); default stays mobile, unchanged.
+const FORM = flag("form", "mobile");
 const OUT = "design-review/lighthouse";
 
 // Chrome: prefer a system install, fall back to the Playwright chromium that is
@@ -79,6 +82,7 @@ function runOne(url, outPath) {
       `--output-path=${outPath}`,
       "--chrome-flags=--headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage",
       "--only-categories=performance,accessibility,best-practices,seo",
+      ...(FORM === "desktop" ? ["--preset=desktop"] : []),
     ],
     { stdio: ["ignore", "ignore", "pipe"], env: { ...process.env, CHROME_PATH: CHROME } },
   );
@@ -145,4 +149,4 @@ if (failed) {
   console.error(`\n✗ at least one category below the ${FLOOR} floor`);
   process.exit(1);
 }
-console.log(`✓ all categories ≥ ${FLOOR} (mobile)`);
+console.log(`✓ all categories ≥ ${FLOOR} (${FORM})`);
