@@ -6,6 +6,81 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-14 — subscribe-flow repair: outbound 465 is blocked (712cba5)
+
+Live defect: submitting the capture form on `/ledger` froze for ~12s, then
+showed an error page — while the subscription committed in listmonk. Reported
+as "the POST leg works; the response leg fails," which is exactly right.
+
+**Root cause — the SMTP port, not the route, the URL or the overlay.**
+listmonk sends the double-opt-in email *inside* the POST request. At 13:47Z
+the Zoho block went live on `smtp.zoho.com:465`, and Hetzner blocks outbound
+465. The dial timed out, the handler 500'd, and the subscriber row was already
+committed. The trail:
+
+```
+POST https://terralore.co/subscription/form
+< HTTP/2 500 ; starttransfer=12.299s ; redirects=0
+
+listmonk: subscribers.go:900 error sending opt-in e-mail for subscriber 9
+          (59fc8533-…): dial tcp 136.143.182.56:465: i/o timeout
+```
+
+Port scan from the box — the evidence that decided the fix:
+
+```
+port 25   : BLOCKED/timeout      port 465  : BLOCKED/timeout
+port 587  : OPEN                 port 2525 : BLOCKED/timeout
+openssl s_client -starttls smtp -connect smtp.zoho.com:587  → cert chain OK
+```
+
+All three suspects from the brief were ruled out on evidence, not assumed:
+`app.root_url` was already `https://terralore.co`; no redirect was ever
+issued, so no route could have been missed; and the 500 body *was* the styled
+overlay — listmonk's handler failed inside a page that rendered correctly.
+
+**Fix (config, on the box):** SMTP block 0 → port **587**, `tls_type`
+**STARTTLS**, applied as a surgical `jsonb_set` on the listmonk `settings`
+row rather than a settings PUT (a partial block crash-loops the app —
+newsletter-ops gotcha). Backup: `/root/smtp-settings-backup-2026-08-14.json`.
+No repo file was involved in the root cause.
+
+**Fix (repo, 712cba5):** the wait it exposed. The POST is ~2s of SMTP round
+trip with an inert-looking form, which is what invites the second click. The
+submit now says SENDING… and swallows a second submit — delegated, idempotent,
+~300 bytes inline, no hydration, and unchanged with JS off (E16 updated).
+
+**Live proof** (`design-review/22-subscribe-repair/`, fresh disposable
+addresses, all deleted after; screenshots 01–08):
+
+| leg | result |
+| --- | --- |
+| POST → confirmation | **200 in 2.02–2.13s** (0.92s warm; 0.27s through the local sink — the rest is Zoho) |
+| double click | **1 POST attempted, not 2**; listmonk also dedupes (two concurrent POSTs → one row) |
+| opt-in email | delivered; every URL in it is first-party `https://terralore.co/subscription/…` |
+| confirm link | designed page → `list_status = confirmed` |
+| leaving | manage form → `unsubscribed`, verified in the DB |
+| genuine error | designed Strata page (`ERROR / Invalid UUID(s)`), 0.23s |
+
+**Recorded, not fixed — listmonk's unsubscribe is campaign-scoped.** The plain
+Unsubscribe button on `/subscription/<campUUID>/<subUUID>` only updates the
+lists that *campaign* targeted. With the zero campaign uuid it renders "You
+have unsubscribed successfully" and updates nothing — verified twice, and
+verified in reverse: attaching list 3 to a campaign made the same POST commit
+immediately. This is not reachable from anything we ship: the opt-in email
+links to `?manage=true`, whose preferences form is not campaign-scoped and
+does commit, and a sent letter's own unsubscribe link carries its campaign
+uuid. **If a bare `UnsubURL` is ever linked outside a campaign, it will lie.**
+
+**Left for the user:** subscriber 5 (the real subscription, 13:48:11Z) is
+still `unconfirmed` — its opt-in email was one of the ones that died on port
+465. It needs a resend from the admin UI; nothing about it was touched here.
+Also worth a look: listmonk authenticates as `hamzabentaieb@terralore.co` but
+sends `From: ledger@terralore.co`. Zoho accepted it, but an unverified alias
+is a deliverability risk worth confirming before the first real send.
+
+---
+
 ## 2026-08-14 — the Ledger Letter (f570a3b + 2 follow-ups)
 
 The owned-audience layer: self-hosted listmonk (Coolify service
