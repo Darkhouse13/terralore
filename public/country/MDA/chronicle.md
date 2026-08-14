@@ -96,6 +96,8 @@ Figures:
 - Maia Sandu (born 1972) — President of Moldova. A reformist and former World Bank economist, Sandu was elected president in 2020 and steered Moldova's application for European Union membership and its 2022 grant of candidate status amid the war in neighbouring Ukraine.
 - Alexander Lebed (1950 – 2002) — Commander of the Russian 14th Army. The Russian general whose 14th Army intervened decisively in the 1992 Transnistria war, ensuring the survival of the breakaway region and a continuing Russian military presence on Moldovan soil.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MDA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MDA/chronicle.claims.json
+
 ## References
 
 - [moldova-history-britannica] Moldova: History — Encyclopaedia Britannica · https://www.britannica.com/place/Moldova/History

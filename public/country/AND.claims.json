@@ -1,0 +1,690 @@
+{
+ "subject": "AND",
+ "name": "Andorra",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/AND",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:AND:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 4039842405.48117,
+   "display": "$4.0 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-gdp-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-gdp-2024, claim TL:AND:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 49303.6491674336,
+   "display": "$49,304",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-gdpPerCapita-2024, claim TL:AND:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.37182032638998,
+   "display": "3.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-gdpGrowth-2024, claim TL:AND:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 81938,
+   "display": "82,000",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-population-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-population-2024, claim TL:AND:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 84.188,
+   "display": "84.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-lifeExpectancy-2024, claim TL:AND:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 88.8850044816278,
+   "display": "88.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-urbanPct-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-urbanPct-2024, claim TL:AND:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.087,
+   "display": "1.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-fertility-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-fertility-2024, claim TL:AND:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 70.6628443,
+   "display": "70.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-wgiVoice-2024, claim TL:AND:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 92.2648945,
+   "display": "92.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-wgiStability-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-wgiStability-2024, claim TL:AND:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 73.8768133,
+   "display": "73.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-wgiEffectiveness-2024, claim TL:AND:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 72.2449856,
+   "display": "72.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-wgiRegQuality-2024, claim TL:AND:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 81.2301636,
+   "display": "81.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-wgiRuleOfLaw-2024, claim TL:AND:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 71.6636167,
+   "display": "71.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-wgiCorruption-2024, claim TL:AND:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 7.69928026,
+   "display": "7.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-healthSpendPctGdp-2023, claim TL:AND:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 5.068,
+   "display": "5.07",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-physicians-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-physicians-2023, claim TL:AND:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 2.5,
+   "display": "2.5",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-underFiveMortality-2024, claim TL:AND:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 98,
+   "display": "98.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-measlesImmunisation-2024, claim TL:AND:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 90.6400018060858,
+   "display": "90.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/AND#claim-safeWater-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-safeWater-2024, claim TL:AND:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 1.89867997169495,
+   "display": "1.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-eduSpendPctGdp-2023, claim TL:AND:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 99.8579545454545,
+   "display": "99.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-primaryEnrolment-2024, claim TL:AND:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 101.923820495605,
+   "display": "101.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-secondaryEnrolment-2024, claim TL:AND:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 67.6767676767677,
+   "display": "67.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-tertiaryEnrolment-2024, claim TL:AND:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:rdSpending:2022",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.15818,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-rdSpending-2022",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-rdSpending-2022, claim TL:AND:rdSpending:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 94.39759827,
+   "display": "94.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-internetUsers-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-internetUsers-2024, claim TL:AND:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 155.692108667529,
+   "display": "156",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/AND#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-mobileSubs-2024, claim TL:AND:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 21.4346319155008,
+   "display": "21.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-highTechExports-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-highTechExports-2023, claim TL:AND:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 470,
+   "display": "470 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-landArea-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-landArea-2023, claim TL:AND:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 34.0425531914894,
+   "display": "34.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-forestPct-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-forestPct-2023, claim TL:AND:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 39.8740425531915,
+   "display": "39.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-agriPct-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-agriPct-2023, claim TL:AND:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 18.7,
+   "display": "18.7%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-renewablePct-2022",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-renewablePct-2022, claim TL:AND:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-resourceRents-2021",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-resourceRents-2021, claim TL:AND:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-mineralRents-2021",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-mineralRents-2021, claim TL:AND:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-forestRents-2021",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-forestRents-2021, claim TL:AND:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AND:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/AND#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Andorra — national dossier\", terralore.co/country/AND#claim-electricityAccess-2023, claim TL:AND:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

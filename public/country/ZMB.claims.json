@@ -1,0 +1,890 @@
+{
+ "subject": "ZMB",
+ "name": "Zambia",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/ZMB",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:ZMB:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 25303185342.2511,
+   "display": "$25 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-gdp-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-gdp-2024, claim TL:ZMB:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1187.10943350064,
+   "display": "$1,187",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-gdpPerCapita-2024, claim TL:ZMB:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.82004825518591,
+   "display": "3.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-gdpGrowth-2024, claim TL:ZMB:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 14.9856262747939,
+   "display": "15.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-inflation-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-inflation-2024, claim TL:ZMB:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 62.5348874064443,
+   "display": "62.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-tradePctGdp-2024, claim TL:ZMB:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 21314956,
+   "display": "21 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-population-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-population-2024, claim TL:ZMB:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 66.528,
+   "display": "66.5 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-lifeExpectancy-2024, claim TL:ZMB:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 45.4703838491279,
+   "display": "45.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-urbanPct-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-urbanPct-2024, claim TL:ZMB:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 4.036,
+   "display": "4.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-fertility-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-fertility-2024, claim TL:ZMB:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 71.7699966430664,
+   "display": "71.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-literacy-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-literacy-2024, claim TL:ZMB:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 49.7157692,
+   "display": "49.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-wgiVoice-2024, claim TL:ZMB:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 64.1728259,
+   "display": "64.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-wgiStability-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-wgiStability-2024, claim TL:ZMB:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 40.9757367,
+   "display": "41.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-wgiEffectiveness-2024, claim TL:ZMB:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 48.2283671,
+   "display": "48.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-wgiRegQuality-2024, claim TL:ZMB:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 47.3064578,
+   "display": "47.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-wgiRuleOfLaw-2024, claim TL:ZMB:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 38.6078994,
+   "display": "38.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-wgiCorruption-2024, claim TL:ZMB:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 5.97841072,
+   "display": "6.0%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-healthSpendPctGdp-2023, claim TL:ZMB:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.324,
+   "display": "0.32",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-physicians-2022",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-physicians-2022, claim TL:ZMB:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 48.4,
+   "display": "48.4",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-underFiveMortality-2024, claim TL:ZMB:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 88,
+   "display": "88.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-measlesImmunisation-2024, claim TL:ZMB:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 71.7699966430664,
+   "display": "71.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-literacyRate-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-literacyRate-2024, claim TL:ZMB:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.07374933049157,
+   "display": "4.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-eduSpendPctGdp-2023, claim TL:ZMB:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 115.550919335782,
+   "display": "115.6%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-primaryEnrolment-2024, claim TL:ZMB:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 56.7889289855957,
+   "display": "56.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-secondaryEnrolment-2024, claim TL:ZMB:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:tertiaryEnrolment:2012",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 3.96159738763825,
+   "display": "4.0%",
+   "unit": "% gross",
+   "observed": 2012,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-tertiaryEnrolment-2012",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-tertiaryEnrolment-2012, claim TL:ZMB:tertiaryEnrolment:2012, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:rdSpending:2008",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.27819,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2008,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-rdSpending-2008",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-rdSpending-2008, claim TL:ZMB:rdSpending:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:researchers:2008",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 41.90146,
+   "display": "42",
+   "unit": "per million",
+   "observed": 2008,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-researchers-2008",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-researchers-2008, claim TL:ZMB:researchers:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 17.10099983,
+   "display": "17.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-internetUsers-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-internetUsers-2024, claim TL:ZMB:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 108.704779873813,
+   "display": "109",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-mobileSubs-2024, claim TL:ZMB:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.4719428559393,
+   "display": "1.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-highTechExports-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-highTechExports-2024, claim TL:ZMB:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 743390,
+   "display": "743,390 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-landArea-2023",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-landArea-2023, claim TL:ZMB:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 59.523784150984,
+   "display": "59.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-forestPct-2023",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-forestPct-2023, claim TL:ZMB:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 32.0679589448338,
+   "display": "32.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-agriPct-2023",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-agriPct-2023, claim TL:ZMB:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.542961477377669,
+   "display": "0.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-co2PerCapita-2024, claim TL:ZMB:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 83,
+   "display": "83.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-renewablePct-2021",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-renewablePct-2021, claim TL:ZMB:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 35.2641479964325,
+   "display": "35.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-resourceRents-2021",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-resourceRents-2021, claim TL:ZMB:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-oilRents-2021",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-oilRents-2021, claim TL:ZMB:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 28.2490949914965,
+   "display": "28.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-mineralRents-2021",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-mineralRents-2021, claim TL:ZMB:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 6.78387314173671,
+   "display": "6.8%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-forestRents-2021",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-forestRents-2021, claim TL:ZMB:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 51.1,
+   "display": "51.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-electricityAccess-2023, claim TL:ZMB:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:prodCopper:2025",
+   "domain": "resources",
+   "metric": "prodCopper",
+   "label": "Copper (mined)",
+   "value": 940000,
+   "display": "940 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-prodCopper-2025",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-prodCopper-2025, claim TL:ZMB:prodCopper:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.33268361976463,
+   "display": "1.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-milExpPctGdp-2024, claim TL:ZMB:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 349668209.787907,
+   "display": "$350 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-milExpUsd-2024, claim TL:ZMB:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 16000,
+   "display": "16,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZMB#claim-armedForces-2020",
+   "citation": "Terralore, \"Zambia — national dossier\", terralore.co/country/ZMB#claim-armedForces-2020, claim TL:ZMB:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

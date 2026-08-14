@@ -1,0 +1,1010 @@
+{
+ "subject": "USA",
+ "name": "United States",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/USA",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:USA:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 28750956130731.2,
+   "display": "$28.75 T",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-gdp-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdp-2024, claim TL:USA:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 84534.0407841548,
+   "display": "$84,534",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdpPerCapita-2024, claim TL:USA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.79300127716779,
+   "display": "2.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdpGrowth-2024, claim TL:USA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.94952520485207,
+   "display": "2.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-inflation-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-inflation-2024, claim TL:USA:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 25.3786342507088,
+   "display": "25.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-tradePctGdp-2024, claim TL:USA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 340110988,
+   "display": "340 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-population-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-population-2024, claim TL:USA:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 78.890243902439,
+   "display": "78.9 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-lifeExpectancy-2024, claim TL:USA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 80.1247798047184,
+   "display": "80.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-urbanPct-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-urbanPct-2024, claim TL:USA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.6265,
+   "display": "1.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-fertility-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-fertility-2024, claim TL:USA:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 72.3731718,
+   "display": "72.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-wgiVoice-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiVoice-2024, claim TL:USA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 64.2697196,
+   "display": "64.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-wgiStability-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiStability-2024, claim TL:USA:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 77.7839316,
+   "display": "77.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiEffectiveness-2024, claim TL:USA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 76.1934585,
+   "display": "76.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiRegQuality-2024, claim TL:USA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 73.5177858,
+   "display": "73.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiRuleOfLaw-2024, claim TL:USA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 69.8551773,
+   "display": "69.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiCorruption-2024, claim TL:USA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 16.69414902,
+   "display": "16.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-healthSpendPctGdp-2023, claim TL:USA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 3.681,
+   "display": "3.68",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-physicians-2022",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-physicians-2022, claim TL:USA:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 6.5,
+   "display": "6.5",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-underFiveMortality-2024, claim TL:USA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 92,
+   "display": "92.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-measlesImmunisation-2024, claim TL:USA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 97.5676884437325,
+   "display": "97.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-safeWater-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-safeWater-2024, claim TL:USA:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:eduSpendPctGdp:2021",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.42038011550903,
+   "display": "5.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-eduSpendPctGdp-2021",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-eduSpendPctGdp-2021, claim TL:USA:eduSpendPctGdp:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:primaryEnrolment:2022",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 96.9717330932617,
+   "display": "97.0%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-primaryEnrolment-2022",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-primaryEnrolment-2022, claim TL:USA:primaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:secondaryEnrolment:2022",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 97.4734878540039,
+   "display": "97.5%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-secondaryEnrolment-2022",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-secondaryEnrolment-2022, claim TL:USA:secondaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:tertiaryEnrolment:2022",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 79.361930847168,
+   "display": "79.4%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-tertiaryEnrolment-2022",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-tertiaryEnrolment-2022, claim TL:USA:tertiaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 3.44716,
+   "display": "3.4%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-rdSpending-2023",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-rdSpending-2023, claim TL:USA:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:researchers:2022",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 4937.49441,
+   "display": "4,937",
+   "unit": "per million",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-researchers-2022",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-researchers-2022, claim TL:USA:researchers:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 94.69380188,
+   "display": "94.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-internetUsers-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-internetUsers-2024, claim TL:USA:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 113.190481805755,
+   "display": "113",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/USA#claim-mobileSubs-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-mobileSubs-2024, claim TL:USA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 24.322982844202,
+   "display": "24.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-highTechExports-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-highTechExports-2024, claim TL:USA:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 9147420,
+   "display": "9,147,420 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-landArea-2023",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-landArea-2023, claim TL:USA:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 33.8669264120375,
+   "display": "33.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-forestPct-2023",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-forestPct-2023, claim TL:USA:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 46.0829793974695,
+   "display": "46.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-agriPct-2023",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-agriPct-2023, claim TL:USA:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 13.6195685039144,
+   "display": "13.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-co2PerCapita-2024, claim TL:USA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 10.9,
+   "display": "10.9%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-renewablePct-2021",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-renewablePct-2021, claim TL:USA:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 1.27994423022721,
+   "display": "1.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-resourceRents-2021",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-resourceRents-2021, claim TL:USA:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.61148265568772,
+   "display": "0.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-oilRents-2021",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-oilRents-2021, claim TL:USA:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.101999501227916,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-mineralRents-2021",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-mineralRents-2021, claim TL:USA:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0377125136209131,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-forestRents-2021",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-forestRents-2021, claim TL:USA:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-electricityAccess-2023",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-electricityAccess-2023, claim TL:USA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodCopper:2025",
+   "domain": "resources",
+   "metric": "prodCopper",
+   "label": "Copper (mined)",
+   "value": 1000000,
+   "display": "1.0 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodCopper-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodCopper-2025, claim TL:USA:prodCopper:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodIronOre:2025",
+   "domain": "resources",
+   "metric": "prodIronOre",
+   "label": "Iron ore",
+   "value": 38000000,
+   "display": "38 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodIronOre-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodIronOre-2025, claim TL:USA:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodGold:2025",
+   "domain": "resources",
+   "metric": "prodGold",
+   "label": "Gold (mined)",
+   "value": 160,
+   "display": "160 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodGold-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodGold-2025, claim TL:USA:prodGold:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodCobalt:2025",
+   "domain": "resources",
+   "metric": "prodCobalt",
+   "label": "Cobalt (mined)",
+   "value": 300,
+   "display": "300 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodCobalt-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodCobalt-2025, claim TL:USA:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodNickel:2025",
+   "domain": "resources",
+   "metric": "prodNickel",
+   "label": "Nickel (mined)",
+   "value": 10000,
+   "display": "10.0 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodNickel-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodNickel-2025, claim TL:USA:prodNickel:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodRareEarths:2025",
+   "domain": "resources",
+   "metric": "prodRareEarths",
+   "label": "Rare earths",
+   "value": 51000,
+   "display": "51.0 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodRareEarths-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodRareEarths-2025, claim TL:USA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodZinc:2025",
+   "domain": "resources",
+   "metric": "prodZinc",
+   "label": "Zinc (mined)",
+   "value": 670000,
+   "display": "670 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodZinc-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodZinc-2025, claim TL:USA:prodZinc:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodPhosphate:2025",
+   "domain": "resources",
+   "metric": "prodPhosphate",
+   "label": "Phosphate rock",
+   "value": 20000000,
+   "display": "20 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/USA#claim-prodPhosphate-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodPhosphate-2025, claim TL:USA:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 3.41921653228044,
+   "display": "3.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-milExpPctGdp-2024, claim TL:USA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 997309000000,
+   "display": "$997 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-milExpUsd-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-milExpUsd-2024, claim TL:USA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 1395000,
+   "display": "1.4 m",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/USA#claim-armedForces-2020",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-armedForces-2020, claim TL:USA:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

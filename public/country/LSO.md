@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:LSO:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/LSO.claims.json
+
 History: "From Thaba Bosiu to the Mountain Kingdom" — the sourced chronicle is at https://terralore.co/country/LSO/chronicle.md (5 eras, 21 events).
 
 ## Sources

@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:SLV:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/SLV.claims.json
+
 History: "From the Pipil land of Cuzcatlan and the ash-buried Maya village of Joya de Ceren to independence from Spain in 1821, a coffee republic ruled by an oligarchy, the slaughter of 1932, the civil war of 1980 to 1992, and the gang crackdown of the Bukele era." — the sourced chronicle is at https://terralore.co/country/SLV/chronicle.md (6 eras, 22 events).
 
 ## Sources

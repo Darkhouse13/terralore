@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:URY:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/URY.claims.json
+
 History: "From the Charrua of the Banda Oriental and a contested frontier between the Spanish and Portuguese empires to Artigas and the Thirty-Three Orientals, the 1828 buffer state between Argentina and Brazil, the reforms of Batlle y Ordonez, the dictatorship of 1973-1985, and a stable, progressive democracy." — the sourced chronicle is at https://terralore.co/country/URY/chronicle.md (6 eras, 26 events).
 
 ## Sources

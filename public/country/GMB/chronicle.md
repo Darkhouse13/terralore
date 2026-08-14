@@ -75,6 +75,8 @@ Figures:
 - Yahya Jammeh (born 1965) — President of The Gambia (1994–2017). Army officer who seized power in the 1994 coup and ruled for 22 years through increasingly repressive means, documented later by a truth commission, before losing the 2016 election and going into exile in Equatorial Guinea in January 2017.
 - Adama Barrow (born 1965) — President of The Gambia. Real-estate businessman and opposition-coalition candidate who defeated Yahya Jammeh in December 2016 and took office in January 2017 after ECOWAS intervention, leading The Gambia's democratic transition and winning re-election in 2021.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GMB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GMB/chronicle.claims.json
+
 ## References
 
 - [britannica-gambia] The Gambia (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/The-Gambia

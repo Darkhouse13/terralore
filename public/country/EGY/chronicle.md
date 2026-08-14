@@ -95,6 +95,8 @@ Figures:
 - Gamal Abdel Nasser (1918–1970; president 1954–1970) — President of Egypt. Leader of the 1952 revolution and architect of Arab nationalism, he nationalised the Suez Canal, championed non-alignment and pursued state-led modernisation including the Aswan High Dam.
 - Anwar Sadat (1918–1981; president 1970–1981) — President of Egypt. He launched the October War of 1973 and then made peace with Israel through the Camp David Accords and the 1979 treaty, winning the Nobel Peace Prize before his assassination in 1981.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:EGY:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/EGY/chronicle.claims.json
+
 ## References
 
 - [worldhistory-narmer] Narmer — World History Encyclopedia · https://www.worldhistory.org/Narmer/

@@ -72,6 +72,8 @@ Figures:
 - Gnassingbé Eyadéma (1935–2005) — President of Togo, 1967–2005. Soldier who took part in the 1963 killing of Olympio, seized power in 1967, and ruled Togo for nearly four decades through the RPT one-party state — Africa's longest-serving leader at his death in 2005.
 - Faure Gnassingbé (born 1966) — President of Togo from 2005. Son of Eyadéma, installed by the army on his father's death in 2005 and confirmed in a disputed election; he has retained power since, including through constitutional changes shifting Togo toward a parliamentary system.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TGO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TGO/chronicle.claims.json
+
 ## References
 
 - [britannica-togo] Togo (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Togo

@@ -85,6 +85,8 @@ Figures:
 - Evo Morales (b. 1959) — First indigenous president of Bolivia. Aymara former coca-growers' union leader and founder of the MAS who in 2006 became Bolivia's first indigenous president. He nationalised hydrocarbons, cut poverty and refounded the state as plurinational, but resigned in 2019 after a disputed election that split the country.
 - Luis Arce (b. 1963) — President of Bolivia (2020-2025). Economist and former finance minister under Morales who led the MAS back to power in 2020, then broke with Morales in a rivalry that fractured the party amid a worsening economic crisis.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BOL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BOL/chronicle.claims.json
+
 ## References
 
 - [unesco-tiwanaku] Tiwanaku: Spiritual and Political Centre of the Tiwanaku Culture — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/567

@@ -102,6 +102,8 @@ Figures:
 - Todor Zhivkov (1911 – 1998) — Communist leader of Bulgaria. Bulgaria's dominant figure from 1954, Zhivkov led the country as the Soviet Union's closest ally for over three decades, presiding over industrialisation and repression alike before being swept aside in November 1989.
 - Zhelyu Zhelev (1935 – 2015) — First democratically elected president. A dissident philosopher whose book on totalitarianism was banned, Zhelev became Bulgaria's first non-communist head of state in 1990 and its first directly elected president in 1992, guiding the early years of democratic transition.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BGR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BGR/chronicle.claims.json
+
 ## References
 
 - [bulgaria-first-empire-britannica] Bulgaria: The first Bulgarian empire — Encyclopaedia Britannica · https://www.britannica.com/place/Bulgaria/The-first-Bulgarian-empire

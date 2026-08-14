@@ -97,6 +97,8 @@ Figures:
 - Robert Schuman (1886 – 1963) — French statesman, born in Luxembourg. Born in Luxembourg City and a chief architect of European integration, his declaration of 9 May 1950 launched the European Coal and Steel Community of which Luxembourg was a founding member.
 - Grand Duke Jean (1921 – 2019) — Grand Duke of Luxembourg. Son of Grand Duchess Charlotte, he served as a volunteer in the Allied liberation of Europe and reigned from 1964 to 2000, presiding over Luxembourg's emergence as a prosperous founder-state of the European Union.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LUX:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LUX/chronicle.claims.json
+
 ## References
 
 - [vdl-history] History of the City of Luxembourg — Ville de Luxembourg (City of Luxembourg) · https://www.vdl.lu/en/city/a-glance/history

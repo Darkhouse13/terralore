@@ -1,0 +1,110 @@
+{
+ "subject": "TWN",
+ "name": "Taiwan",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/TWN",
+ "updated": "2026-07-29",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:TWN:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 801495000000,
+   "display": "$801 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "imf-weo",
+    "label": "World Economic Outlook",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "license": "IMF Terms and Conditions",
+    "accessed": "2026-07-29"
+   },
+   "url": "https://terralore.co/country/TWN#claim-gdp-2024",
+   "citation": "Terralore, \"Taiwan — national dossier\", terralore.co/country/TWN#claim-gdp-2024, claim TL:TWN:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 34251.621,
+   "display": "$34,252",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "imf-weo",
+    "label": "World Economic Outlook",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "license": "IMF Terms and Conditions",
+    "accessed": "2026-07-29"
+   },
+   "url": "https://terralore.co/country/TWN#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Taiwan — national dossier\", terralore.co/country/TWN#claim-gdpPerCapita-2024, claim TL:TWN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 5.3,
+   "display": "5.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "imf-weo",
+    "label": "World Economic Outlook",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "license": "IMF Terms and Conditions",
+    "accessed": "2026-07-29"
+   },
+   "url": "https://terralore.co/country/TWN#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Taiwan — national dossier\", terralore.co/country/TWN#claim-gdpGrowth-2024, claim TL:TWN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.2,
+   "display": "2.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "imf-weo",
+    "label": "World Economic Outlook",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "license": "IMF Terms and Conditions",
+    "accessed": "2026-07-29"
+   },
+   "url": "https://terralore.co/country/TWN#claim-inflation-2024",
+   "citation": "Terralore, \"Taiwan — national dossier\", terralore.co/country/TWN#claim-inflation-2024, claim TL:TWN:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 23400000,
+   "display": "23 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "imf-weo",
+    "label": "World Economic Outlook",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "license": "IMF Terms and Conditions",
+    "accessed": "2026-07-29"
+   },
+   "url": "https://terralore.co/country/TWN#claim-population-2024",
+   "citation": "Terralore, \"Taiwan — national dossier\", terralore.co/country/TWN#claim-population-2024, claim TL:TWN:population:2024, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

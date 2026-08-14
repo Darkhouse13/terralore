@@ -1,0 +1,890 @@
+{
+ "subject": "SYR",
+ "name": "Syria",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/SYR",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:SYR:gdp:2022",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 23622827079.5047,
+   "display": "$24 B",
+   "unit": "USD",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-gdp-2022",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-gdp-2022, claim TL:SYR:gdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:gdpPerCapita:2022",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1051.67149587463,
+   "display": "$1,052",
+   "unit": "USD",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-gdpPerCapita-2022",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-gdpPerCapita-2022, claim TL:SYR:gdpPerCapita:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:gdpGrowth:2022",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 0.732781301861365,
+   "display": "0.7%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-gdpGrowth-2022",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-gdpGrowth-2022, claim TL:SYR:gdpGrowth:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:inflation:2019",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 13.4175653228571,
+   "display": "13.4%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-inflation-2019",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-inflation-2019, claim TL:SYR:inflation:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:tradePctGdp:2022",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 35.6094680799956,
+   "display": "35.6%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-tradePctGdp-2022",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-tradePctGdp-2022, claim TL:SYR:tradePctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 24672760,
+   "display": "25 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-population-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-population-2024, claim TL:SYR:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 72.56,
+   "display": "72.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-lifeExpectancy-2024, claim TL:SYR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 72.0761345758254,
+   "display": "72.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-urbanPct-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-urbanPct-2024, claim TL:SYR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.7,
+   "display": "2.7",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-fertility-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-fertility-2024, claim TL:SYR:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:literacy:2021",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 94.4199981689453,
+   "display": "94.4%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-literacy-2021",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-literacy-2021, claim TL:SYR:literacy:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 24.517035,
+   "display": "24.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-wgiVoice-2024, claim TL:SYR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 25.4439405,
+   "display": "25.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-wgiStability-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-wgiStability-2024, claim TL:SYR:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 18.8174812,
+   "display": "18.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-wgiEffectiveness-2024, claim TL:SYR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 23.3597703,
+   "display": "23.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-wgiRegQuality-2024, claim TL:SYR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 25.7521361,
+   "display": "25.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-wgiRuleOfLaw-2024, claim TL:SYR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 13.4112838,
+   "display": "13.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-wgiCorruption-2024, claim TL:SYR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 2.70998812,
+   "display": "2.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-healthSpendPctGdp-2023, claim TL:SYR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:physicians:2021",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.521,
+   "display": "1.52",
+   "unit": "per 1,000",
+   "observed": 2021,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-physicians-2021",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-physicians-2021, claim TL:SYR:physicians:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 18.4,
+   "display": "18.4",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-underFiveMortality-2024, claim TL:SYR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 81,
+   "display": "81.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-measlesImmunisation-2024, claim TL:SYR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:literacyRate:2021",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 94.4199981689453,
+   "display": "94.4%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-literacyRate-2021",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-literacyRate-2021, claim TL:SYR:literacyRate:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:eduSpendPctGdp:2009",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.13012981414795,
+   "display": "5.1%",
+   "unit": "% of GDP",
+   "observed": 2009,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-eduSpendPctGdp-2009",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-eduSpendPctGdp-2009, claim TL:SYR:eduSpendPctGdp:2009, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 81.4114685058594,
+   "display": "81.4%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-primaryEnrolment-2024, claim TL:SYR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 38.736930847168,
+   "display": "38.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-secondaryEnrolment-2024, claim TL:SYR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:tertiaryEnrolment:2016",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 43.7606582641602,
+   "display": "43.8%",
+   "unit": "% gross",
+   "observed": 2016,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-tertiaryEnrolment-2016",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-tertiaryEnrolment-2016, claim TL:SYR:tertiaryEnrolment:2016, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:rdSpending:2022",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.04217,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-rdSpending-2022",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-rdSpending-2022, claim TL:SYR:rdSpending:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:researchers:2022",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 139.93785,
+   "display": "140",
+   "unit": "per million",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-researchers-2022",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-researchers-2022, claim TL:SYR:researchers:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:internetUsers:2018",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 33.77000046,
+   "display": "33.8%",
+   "unit": "%",
+   "observed": 2018,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-internetUsers-2018",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-internetUsers-2018, claim TL:SYR:internetUsers:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 71.2231424453527,
+   "display": "71",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SYR#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-mobileSubs-2024, claim TL:SYR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:highTechExports:2010",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.38292716055376,
+   "display": "1.4%",
+   "unit": "%",
+   "observed": 2010,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-highTechExports-2010",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-highTechExports-2010, claim TL:SYR:highTechExports:2010, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 183630,
+   "display": "183,630 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-landArea-2023",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-landArea-2023, claim TL:SYR:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 2.84310842454937,
+   "display": "2.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-forestPct-2023",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-forestPct-2023, claim TL:SYR:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 74.0946468441976,
+   "display": "74.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-agriPct-2023",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-agriPct-2023, claim TL:SYR:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 1.27467701221914,
+   "display": "1.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-co2PerCapita-2024, claim TL:SYR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 1.1,
+   "display": "1.1%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-renewablePct-2021",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-renewablePct-2021, claim TL:SYR:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:resourceRents:2020",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 6.37482598047532,
+   "display": "6.4%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-resourceRents-2020",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-resourceRents-2020, claim TL:SYR:resourceRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:oilRents:2020",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 4.01504490668102,
+   "display": "4.0%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-oilRents-2020",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-oilRents-2020, claim TL:SYR:oilRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:mineralRents:2020",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-mineralRents-2020",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-mineralRents-2020, claim TL:SYR:mineralRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:forestRents:2020",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.029288922258981,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-forestRents-2020",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-forestRents-2020, claim TL:SYR:forestRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 88.4,
+   "display": "88.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-electricityAccess-2023, claim TL:SYR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:prodPhosphate:2025",
+   "domain": "resources",
+   "metric": "prodPhosphate",
+   "label": "Phosphate rock",
+   "value": 800000,
+   "display": "800 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SYR#claim-prodPhosphate-2025",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-prodPhosphate-2025, claim TL:SYR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:milExpPctGdp:2010",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 4.05614173609585,
+   "display": "4.1%",
+   "unit": "% of GDP",
+   "observed": 2010,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-milExpPctGdp-2010",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-milExpPctGdp-2010, claim TL:SYR:milExpPctGdp:2010, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:milExpUsd:2011",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 2494887483.1484,
+   "display": "$2.5 B",
+   "unit": "USD",
+   "observed": 2011,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-milExpUsd-2011",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-milExpUsd-2011, claim TL:SYR:milExpUsd:2011, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 269000,
+   "display": "269,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SYR#claim-armedForces-2020",
+   "citation": "Terralore, \"Syria — national dossier\", terralore.co/country/SYR#claim-armedForces-2020, claim TL:SYR:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

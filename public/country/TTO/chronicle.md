@@ -81,6 +81,8 @@ Figures:
 
 - A. N. R. Robinson (1926–2014) — Prime Minister and later President. Tobago-born statesman who was prime minister during the 1990 Jamaat al-Muslimeen coup attempt, when he was taken hostage and reportedly defied his captors, and who later served as president of the republic.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TTO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TTO/chronicle.claims.json
+
 ## References
 
 - [britannica-tt] Trinidad and Tobago — Encyclopaedia Britannica · https://www.britannica.com/place/Trinidad-and-Tobago

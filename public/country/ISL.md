@@ -105,6 +105,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:ISL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/ISL.claims.json
+
 History: "From the Landnám and the world's oldest parliament to a volcanic republic that won its seas." — the sourced chronicle is at https://terralore.co/country/ISL/chronicle.md (6 eras, 25 events).
 
 ## Sources

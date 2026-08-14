@@ -78,6 +78,8 @@ Figures:
 - Múte Bourup Egede (born 1987) — Premier of Greenland, 2021–2025. Leader of the left-green Inuit Ataqatigiit, Egede became Greenland's youngest premier in 2021. He pressed for eventual independence while prioritising economic development and resisting external pressure to alter the island's status.
 - Jens-Frederik Nielsen (born 1986) — Premier of Greenland from 2025. Leader of the centre-right Demokraatit, Nielsen led his party to a surprise win in the March 2025 election and became premier on 7 April 2025, backing a gradual, pragmatic road to independence amid intense international interest in the island.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GRL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GRL/chronicle.claims.json
+
 ## References
 
 - [greenland-history-britannica] Greenland: History — Encyclopædia Britannica · https://www.britannica.com/place/Greenland/History

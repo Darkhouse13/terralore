@@ -85,6 +85,8 @@ Figures:
 
 - Juan Manuel Santos (born 1951) — President and Nobel laureate. President of Colombia from 2010 to 2018 who pursued the negotiations in Havana that produced the 2016 peace agreement with the FARC, for which he was awarded the Nobel Peace Prize.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:COL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/COL/chronicle.claims.json
+
 ## References
 
 - [britannica-colombia] History of Colombia — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Colombia

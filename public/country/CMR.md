@@ -105,6 +105,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:CMR:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/CMR.claims.json
+
 History: "From the Sao of Lake Chad and the Bantu cradle of the Grassfields to a German colony, a divided trusteeship, and a bilingual republic still seeking its unity." — the sourced chronicle is at https://terralore.co/country/CMR/chronicle.md (6 eras, 24 events).
 
 ## Sources

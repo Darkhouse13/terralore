@@ -98,6 +98,8 @@ Figures:
 - Janez Drnovsek (1950 – 2008) — Prime Minister and President. The dominant statesman of Slovenia's first independent decade, Drnovsek led the governments that stabilised the economy and negotiated entry into NATO and the European Union, and later served as president.
 - Borut Pahor (born 1963) — Prime Minister and President. Prime minister when the 2009 Arbitration Agreement with Croatia was signed and later president, he was a central figure in Slovenia's pursuit of a settled border and its place in the European Union.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SVN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SVN/chronicle.claims.json
+
 ## References
 
 - [slovenia-si-past] Our past — Slovenia.si (Government Communication Office) · https://slovenia.si/this-is-slovenia/our-past

@@ -1,0 +1,474 @@
+{
+ "subject": "TLS",
+ "name": "Timor-Leste",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/TLS/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:TLS:event:1000bce:society-of-the-liurai",
+   "year": -1000,
+   "yearLabel": "Pre-colonial era",
+   "title": "Society of the liurai",
+   "summary": "Timor is organized into numerous small kingdoms ruled by hereditary chiefs, the liurai, whose authority rests on kinship, ritual, and the sacred houses central to Timorese culture.",
+   "category": "founding",
+   "era": "kingdoms-and-sandalwood",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    },
+    {
+     "id": "loc-indonesia-study",
+     "label": "Indonesia: A Country Study (Federal Research Division)",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/item/2011038834/"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1000bce-society-of-the-liurai",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1000bce-society-of-the-liurai, claim TL:TLS:event:1000bce:society-of-the-liurai, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:500bce:the-sandalwood-trade",
+   "year": -500,
+   "yearLabel": "Antiquity onward",
+   "title": "The sandalwood trade",
+   "summary": "Timor's prized aromatic sandalwood is traded across maritime Asia to China, India, and beyond, drawing Malay, Chinese, and other merchants and giving the island wide renown.",
+   "category": "economy",
+   "era": "kingdoms-and-sandalwood",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-500bce-the-sandalwood-trade",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-500bce-the-sandalwood-trade, claim TL:TLS:event:500bce:the-sandalwood-trade, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1515:portuguese-arrival-and-missions",
+   "year": 1515,
+   "yearLabel": "Early 16th century",
+   "title": "Portuguese arrival and missions",
+   "summary": "Portuguese traders seeking sandalwood and Dominican missionaries reach Timor and the Solor archipelago, beginning Catholic conversion and a loose Portuguese presence.",
+   "category": "colonization",
+   "era": "portuguese-timor",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1515-portuguese-arrival-and-missions",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1515-portuguese-arrival-and-missions, claim TL:TLS:event:1515:portuguese-arrival-and-missions, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1769:capital-established-at-dili",
+   "year": 1769,
+   "yearLabel": "1769",
+   "title": "Capital established at Dili",
+   "summary": "The Portuguese move their administrative seat from Lifau in Oecusse to Dili on the north coast, which becomes the lasting capital of Portuguese Timor.",
+   "category": "colonization",
+   "era": "portuguese-timor",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    },
+    {
+     "id": "britannica-dili",
+     "label": "Dili",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Dili"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1769-capital-established-at-dili",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1769-capital-established-at-dili, claim TL:TLS:event:1769:capital-established-at-dili, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1859:partition-of-the-island",
+   "year": 1859,
+   "yearLabel": "1859",
+   "title": "Partition of the island",
+   "summary": "A Portuguese-Dutch treaty divides Timor between Dutch West Timor and Portuguese East Timor, leaving Portugal the eastern half plus the Oecusse enclave; the border is finalized in the early 20th century.",
+   "category": "colonization",
+   "era": "portuguese-timor",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    },
+    {
+     "id": "pca-timor-boundaries",
+     "label": "Boundaries in the Island of Timor (Netherlands v. Portugal), Award of 25 June 1914",
+     "publisher": "Permanent Court of Arbitration",
+     "url": "https://www.worldcourts.com/pca/eng/decisions/1914.06.25_Netherlands_v_Portugal.pdf"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1859-partition-of-the-island",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1859-partition-of-the-island, claim TL:TLS:event:1859:partition-of-the-island, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1974:decolonization-begins",
+   "year": 1974,
+   "yearLabel": "1974",
+   "title": "Decolonization begins",
+   "summary": "After Portugal's Carnation Revolution, Lisbon moves to decolonize Timor; rival Timorese parties, the pro-independence Fretilin and pro-integration Apodeti, vie over the colony's future.",
+   "category": "politics",
+   "era": "portuguese-timor",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    },
+    {
+     "id": "britannica-1975-invasion",
+     "label": "1975 invasion of East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/1975-invasion-of-East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1974-decolonization-begins",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1974-decolonization-begins, claim TL:TLS:event:1974:decolonization-begins, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1975:declaration-of-independence",
+   "year": 1975,
+   "yearLabel": "28 November 1975",
+   "title": "Declaration of independence",
+   "summary": "Fretilin unilaterally proclaims the independent Democratic Republic of East Timor in Dili as Portugal withdraws and an Indonesian invasion looms.",
+   "category": "independence",
+   "era": "invasion-and-annexation",
+   "sources": [
+    {
+     "id": "britannica-1975-invasion",
+     "label": "1975 invasion of East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/1975-invasion-of-East-Timor"
+    },
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1975-declaration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1975-declaration-of-independence, claim TL:TLS:event:1975:declaration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1975:indonesian-invasion",
+   "year": 1975,
+   "yearLabel": "7 December 1975",
+   "title": "Indonesian invasion",
+   "summary": "Indonesia launches a full-scale air and sea invasion of Dili, beginning an occupation marked from the start by mass civilian killing.",
+   "category": "war",
+   "era": "invasion-and-annexation",
+   "sources": [
+    {
+     "id": "britannica-1975-invasion",
+     "label": "1975 invasion of East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/1975-invasion-of-East-Timor"
+    },
+    {
+     "id": "history-state-timor",
+     "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations: Timor-Leste",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/timor-leste"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1975-indonesian-invasion",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1975-indonesian-invasion, claim TL:TLS:event:1975:indonesian-invasion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1976:annexation-as-27th-province",
+   "year": 1976,
+   "yearLabel": "17 July 1976",
+   "title": "Annexation as 27th province",
+   "summary": "Indonesia formally annexes the territory as its 27th province, Timor Timur; the United Nations refuses to recognize the annexation and affirms Timorese self-determination.",
+   "category": "politics",
+   "era": "invasion-and-annexation",
+   "sources": [
+    {
+     "id": "britannica-1975-invasion",
+     "label": "1975 invasion of East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/1975-invasion-of-East-Timor"
+    },
+    {
+     "id": "un-untaet-background",
+     "label": "UNTAET Background",
+     "publisher": "United Nations Peacekeeping",
+     "url": "https://peacekeeping.un.org/sites/default/files/past/etimor/UntaetB.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1976-annexation-as-27th-province",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1976-annexation-as-27th-province, claim TL:TLS:event:1976:annexation-as-27th-province, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1991:santa-cruz-massacre",
+   "year": 1991,
+   "yearLabel": "12 November 1991",
+   "title": "Santa Cruz massacre",
+   "summary": "Indonesian troops fire on a peaceful pro-independence procession at Dili's Santa Cruz cemetery, killing at least 250; smuggled video footage brings the occupation to global attention.",
+   "category": "war",
+   "era": "occupation-and-resistance",
+   "sources": [
+    {
+     "id": "britannica-santa-cruz",
+     "label": "Santa Cruz massacre",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Santa-Cruz-massacre"
+    },
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1991-santa-cruz-massacre",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1991-santa-cruz-massacre, claim TL:TLS:event:1991:santa-cruz-massacre, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1992:capture-of-xanana-gusmao",
+   "year": 1992,
+   "yearLabel": "20 November 1992",
+   "title": "Capture of Xanana Gusmao",
+   "summary": "Indonesian forces capture resistance commander Xanana Gusmao in Dili; tried and sentenced to a long prison term in Jakarta, he continues to lead the movement from prison.",
+   "category": "war",
+   "era": "occupation-and-resistance",
+   "sources": [
+    {
+     "id": "timorleste-gov-gusmao",
+     "label": "Biography: Kay Rala Xanana Gusmao",
+     "publisher": "Government of Timor-Leste",
+     "url": "https://timor-leste.gov.tl/?p=3&lang=en"
+    },
+    {
+     "id": "britannica-gusmao",
+     "label": "Xanana Gusmao",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Xanana-Gusmao"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1992-capture-of-xanana-gusmao",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1992-capture-of-xanana-gusmao, claim TL:TLS:event:1992:capture-of-xanana-gusmao, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1996:nobel-peace-prize",
+   "year": 1996,
+   "yearLabel": "1996",
+   "title": "Nobel Peace Prize",
+   "summary": "Bishop Carlos Belo and Jose Ramos-Horta share the Nobel Peace Prize for their work toward a just and peaceful solution to the conflict in East Timor.",
+   "category": "politics",
+   "era": "occupation-and-resistance",
+   "sources": [
+    {
+     "id": "nobel-1996",
+     "label": "The Nobel Peace Prize 1996: Carlos Filipe Ximenes Belo and Jose Ramos-Horta",
+     "publisher": "The Nobel Foundation (NobelPrize.org)",
+     "url": "https://www.nobelprize.org/prizes/peace/1996/summary/"
+    },
+    {
+     "id": "un-sg-nobel-1996",
+     "label": "Secretary-General welcomes award of 1996 Nobel Peace Prize to Bishop Belo and Jose Ramos-Horta",
+     "publisher": "United Nations (SG/SM/6075)",
+     "url": "https://press.un.org/en/1996/19961011.sgsm6075.html"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1996-nobel-peace-prize",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1996-nobel-peace-prize, claim TL:TLS:event:1996:nobel-peace-prize, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1999:independence-referendum",
+   "year": 1999,
+   "yearLabel": "30 August 1999",
+   "title": "Independence referendum",
+   "summary": "In a UN-supervised popular consultation, 78.5 per cent of Timorese reject autonomy within Indonesia and choose a transition to independence.",
+   "category": "independence",
+   "era": "referendum-and-untaet",
+   "sources": [
+    {
+     "id": "un-untaet-background",
+     "label": "UNTAET Background",
+     "publisher": "United Nations Peacekeeping",
+     "url": "https://peacekeeping.un.org/sites/default/files/past/etimor/UntaetB.htm"
+    },
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1999-independence-referendum",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1999-independence-referendum, claim TL:TLS:event:1999:independence-referendum, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1999:post-ballot-violence-and-interfet",
+   "year": 1999,
+   "yearLabel": "September 1999",
+   "title": "Post-ballot violence and INTERFET",
+   "summary": "Pro-Indonesian militias unleash killings and destruction, displacing some 500,000 people; the Australian-led INTERFET deploys from 20 September to restore order.",
+   "category": "war",
+   "era": "referendum-and-untaet",
+   "sources": [
+    {
+     "id": "un-untaet-background",
+     "label": "UNTAET Background",
+     "publisher": "United Nations Peacekeeping",
+     "url": "https://peacekeeping.un.org/sites/default/files/past/etimor/UntaetB.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1999-post-ballot-violence-and-interfet",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1999-post-ballot-violence-and-interfet, claim TL:TLS:event:1999:post-ballot-violence-and-interfet, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:1999:un-administration-established",
+   "year": 1999,
+   "yearLabel": "25 October 1999",
+   "title": "UN administration established",
+   "summary": "Security Council Resolution 1272 creates UNTAET, granting the United Nations full authority to govern East Timor through the transition to independence.",
+   "category": "politics",
+   "era": "referendum-and-untaet",
+   "sources": [
+    {
+     "id": "un-untaet-background",
+     "label": "UNTAET Background",
+     "publisher": "United Nations Peacekeeping",
+     "url": "https://peacekeeping.un.org/sites/default/files/past/etimor/UntaetB.htm"
+    },
+    {
+     "id": "un-untaet-page",
+     "label": "UNTAET (United Nations Transitional Administration in East Timor)",
+     "publisher": "United Nations Peacekeeping",
+     "url": "https://peacekeeping.un.org/en/mission/untaet"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-1999-un-administration-established",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-1999-un-administration-established, claim TL:TLS:event:1999:un-administration-established, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:2002:restoration-of-independence",
+   "year": 2002,
+   "yearLabel": "20 May 2002",
+   "title": "Restoration of independence",
+   "summary": "UNTAET hands over sovereignty; Timor-Leste restores its independence with Xanana Gusmao as first president and soon joins the United Nations.",
+   "category": "founding",
+   "era": "referendum-and-untaet",
+   "sources": [
+    {
+     "id": "history-state-timor",
+     "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations: Timor-Leste",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/timor-leste"
+    },
+    {
+     "id": "un-untaet-background",
+     "label": "UNTAET Background",
+     "publisher": "United Nations Peacekeeping",
+     "url": "https://peacekeeping.un.org/sites/default/files/past/etimor/UntaetB.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-2002-restoration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-2002-restoration-of-independence, claim TL:TLS:event:2002:restoration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:2006:the-2006-crisis",
+   "year": 2006,
+   "yearLabel": "2006",
+   "title": "The 2006 crisis",
+   "summary": "The dismissal of disaffected soldiers triggers fighting in Dili that kills dozens and displaces tens of thousands, topples the prime minister, and brings back international peacekeepers.",
+   "category": "politics",
+   "era": "independent-timor-leste",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-2006-the-2006-crisis",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-2006-the-2006-crisis, claim TL:TLS:event:2006:the-2006-crisis, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:2008:attack-on-the-president",
+   "year": 2008,
+   "yearLabel": "11 February 2008",
+   "title": "Attack on the president",
+   "summary": "Rebel soldiers shoot and gravely wound President Jose Ramos-Horta and attack Prime Minister Xanana Gusmao's convoy; both survive and the rebellion collapses.",
+   "category": "politics",
+   "era": "independent-timor-leste",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-2008-attack-on-the-president",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-2008-attack-on-the-president, claim TL:TLS:event:2008:attack-on-the-president, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:2018:maritime-boundary-treaty-with-australia",
+   "year": 2018,
+   "yearLabel": "6 March 2018",
+   "title": "Maritime boundary treaty with Australia",
+   "summary": "Timor-Leste and Australia sign a treaty settling their disputed Timor Sea boundary, the first reached through UN conciliation, resolving claims over the Greater Sunrise gas field.",
+   "category": "economy",
+   "era": "independent-timor-leste",
+   "sources": [
+    {
+     "id": "britannica-east-timor",
+     "label": "East Timor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/East-Timor"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-2018-maritime-boundary-treaty-with-australia",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-2018-maritime-boundary-treaty-with-australia, claim TL:TLS:event:2018:maritime-boundary-treaty-with-australia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:event:2025:asean-membership",
+   "year": 2025,
+   "yearLabel": "26 October 2025",
+   "title": "ASEAN membership",
+   "summary": "Timor-Leste is admitted as the 11th member of ASEAN at the bloc's summit in Kuala Lumpur, its first enlargement in over two decades and the culmination of a years-long bid.",
+   "category": "politics",
+   "era": "independent-timor-leste",
+   "sources": [
+    {
+     "id": "state-asean-2025",
+     "label": "Timor-Leste's Accession to ASEAN",
+     "publisher": "U.S. Department of State",
+     "url": "https://www.state.gov/releases/office-of-the-spokesperson/2025/10/timor-lestes-accession-to-asean"
+    },
+    {
+     "id": "diplomat-asean-2025",
+     "label": "History Is Made: Timor-Leste Becomes ASEAN's 11th Member",
+     "publisher": "The Diplomat",
+     "url": "https://thediplomat.com/2025/10/history-is-made-timor-leste-becomes-aseans-11th-member/"
+    }
+   ],
+   "url": "https://terralore.co/country/TLS/chronicle#ev-2025-asean-membership",
+   "citation": "Terralore, \"The Chronicle of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest nation.\", terralore.co/country/TLS/chronicle#ev-2025-asean-membership, claim TL:TLS:event:2025:asean-membership, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

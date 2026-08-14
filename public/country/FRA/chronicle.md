@@ -77,6 +77,8 @@ Figures:
 
 - Charles de Gaulle (1890–1970) — General, President. Led Free France in WWII and founded the Fifth Republic, dominating its first decade.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:FRA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/FRA/chronicle.claims.json
+
 ## References
 
 - [eb-france] France — Encyclopædia Britannica · https://www.britannica.com/place/France

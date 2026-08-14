@@ -1,0 +1,790 @@
+{
+ "subject": "GNQ",
+ "name": "Equatorial Guinea",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/GNQ",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:GNQ:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 12765777677.0622,
+   "display": "$13 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-gdp-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-gdp-2024, claim TL:GNQ:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 6745.40013244916,
+   "display": "$6,745",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-gdpPerCapita-2024, claim TL:GNQ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 0.907248245986736,
+   "display": "0.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-gdpGrowth-2024, claim TL:GNQ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.92140227309103,
+   "display": "2.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-inflation-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-inflation-2024, claim TL:GNQ:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 60.5414510975907,
+   "display": "60.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-tradePctGdp-2024, claim TL:GNQ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 1892516,
+   "display": "1.9 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-population-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-population-2024, claim TL:GNQ:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 63.906,
+   "display": "63.9 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-lifeExpectancy-2024, claim TL:GNQ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 71.3574028749806,
+   "display": "71.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-urbanPct-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-urbanPct-2024, claim TL:GNQ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 4.116,
+   "display": "4.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-fertility-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-fertility-2024, claim TL:GNQ:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:literacy:2000",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 88.3099975585938,
+   "display": "88.3%",
+   "unit": "%",
+   "observed": 2000,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-literacy-2000",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-literacy-2000, claim TL:GNQ:literacy:2000, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 26.6499881,
+   "display": "26.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-wgiVoice-2024, claim TL:GNQ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 63.4869552,
+   "display": "63.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-wgiStability-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-wgiStability-2024, claim TL:GNQ:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 28.3476973,
+   "display": "28.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-wgiEffectiveness-2024, claim TL:GNQ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 32.7978063,
+   "display": "32.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-wgiRegQuality-2024, claim TL:GNQ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 30.4540727,
+   "display": "30.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-wgiRuleOfLaw-2024, claim TL:GNQ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 18.0370999,
+   "display": "18.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-wgiCorruption-2024, claim TL:GNQ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.49941635,
+   "display": "3.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-healthSpendPctGdp-2023, claim TL:GNQ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.153,
+   "display": "0.15",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-physicians-2022",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-physicians-2022, claim TL:GNQ:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 68,
+   "display": "68.0",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-underFiveMortality-2024, claim TL:GNQ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 53,
+   "display": "53.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-measlesImmunisation-2024, claim TL:GNQ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:literacyRate:2000",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 88.3099975585938,
+   "display": "88.3%",
+   "unit": "%",
+   "observed": 2000,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-literacyRate-2000",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-literacyRate-2000, claim TL:GNQ:literacyRate:2000, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:primaryEnrolment:2015",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 47.5486488342285,
+   "display": "47.5%",
+   "unit": "% gross",
+   "observed": 2015,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-primaryEnrolment-2015",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-primaryEnrolment-2015, claim TL:GNQ:primaryEnrolment:2015, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:secondaryEnrolment:2005",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 17.7594795227051,
+   "display": "17.8%",
+   "unit": "% gross",
+   "observed": 2005,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-secondaryEnrolment-2005",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-secondaryEnrolment-2005, claim TL:GNQ:secondaryEnrolment:2005, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:tertiaryEnrolment:2000",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 1.84452998638153,
+   "display": "1.8%",
+   "unit": "% gross",
+   "observed": 2000,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-tertiaryEnrolment-2000",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-tertiaryEnrolment-2000, claim TL:GNQ:tertiaryEnrolment:2000, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 63.29930115,
+   "display": "63.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-internetUsers-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-internetUsers-2024, claim TL:GNQ:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:mobileSubs:2022",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 49.5380486763568,
+   "display": "50",
+   "unit": "per 100",
+   "observed": 2022,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-mobileSubs-2022",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-mobileSubs-2022, claim TL:GNQ:mobileSubs:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 28050,
+   "display": "28,050 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-landArea-2023",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-landArea-2023, claim TL:GNQ:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 86.3935828877005,
+   "display": "86.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-forestPct-2023",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-forestPct-2023, claim TL:GNQ:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 3.73333333333333,
+   "display": "3.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-agriPct-2023",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-agriPct-2023, claim TL:GNQ:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 2.55052004844345,
+   "display": "2.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-co2PerCapita-2024, claim TL:GNQ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 4.2,
+   "display": "4.2%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-renewablePct-2022",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-renewablePct-2022, claim TL:GNQ:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 23.500064053404,
+   "display": "23.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-resourceRents-2021",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-resourceRents-2021, claim TL:GNQ:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 14.9400221325798,
+   "display": "14.9%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-oilRents-2021",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-oilRents-2021, claim TL:GNQ:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-mineralRents-2021",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-mineralRents-2021, claim TL:GNQ:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 1.92985225995556,
+   "display": "1.9%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-forestRents-2021",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-forestRents-2021, claim TL:GNQ:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 66.9,
+   "display": "66.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-electricityAccess-2023, claim TL:GNQ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.982185856511218,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-milExpPctGdp-2024, claim TL:GNQ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 113135237.554975,
+   "display": "$113 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-milExpUsd-2024, claim TL:GNQ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GNQ:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 1000,
+   "display": "1,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GNQ#claim-armedForces-2020",
+   "citation": "Terralore, \"Equatorial Guinea — national dossier\", terralore.co/country/GNQ#claim-armedForces-2020, claim TL:GNQ:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

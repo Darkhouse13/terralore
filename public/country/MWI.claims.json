@@ -1,0 +1,890 @@
+{
+ "subject": "MWI",
+ "name": "Malawi",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/MWI",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MWI:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 11316411329.4619,
+   "display": "$11 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-gdp-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-gdp-2024, claim TL:MWI:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 522.570393642547,
+   "display": "$523",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-gdpPerCapita-2024, claim TL:MWI:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 1.6734340852915,
+   "display": "1.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-gdpGrowth-2024, claim TL:MWI:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 32.1796504225025,
+   "display": "32.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-inflation-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-inflation-2024, claim TL:MWI:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:tradePctGdp:2023",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 42.4376683990967,
+   "display": "42.4%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-tradePctGdp-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-tradePctGdp-2023, claim TL:MWI:tradePctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 21655286,
+   "display": "22 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-population-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-population-2024, claim TL:MWI:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 67.561,
+   "display": "67.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-lifeExpectancy-2024, claim TL:MWI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 17.268503531213,
+   "display": "17.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-urbanPct-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-urbanPct-2024, claim TL:MWI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 3.59,
+   "display": "3.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-fertility-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-fertility-2024, claim TL:MWI:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:literacy:2020",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 70.1500015258789,
+   "display": "70.2%",
+   "unit": "%",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-literacy-2020",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-literacy-2020, claim TL:MWI:literacy:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 54.933872,
+   "display": "54.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-wgiVoice-2024, claim TL:MWI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 59.3998253,
+   "display": "59.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-wgiStability-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-wgiStability-2024, claim TL:MWI:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 37.2287788,
+   "display": "37.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-wgiEffectiveness-2024, claim TL:MWI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 45.6372095,
+   "display": "45.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-wgiRegQuality-2024, claim TL:MWI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 54.4467828,
+   "display": "54.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-wgiRuleOfLaw-2024, claim TL:MWI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 34.7249395,
+   "display": "34.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-wgiCorruption-2024, claim TL:MWI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 6.53459597,
+   "display": "6.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-healthSpendPctGdp-2023, claim TL:MWI:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.054,
+   "display": "0.05",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-physicians-2022",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-physicians-2022, claim TL:MWI:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 48.8,
+   "display": "48.8",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-underFiveMortality-2024, claim TL:MWI:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 89,
+   "display": "89.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-measlesImmunisation-2024, claim TL:MWI:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 18.1816539742083,
+   "display": "18.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MWI#claim-safeWater-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-safeWater-2024, claim TL:MWI:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:literacyRate:2020",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 70.1500015258789,
+   "display": "70.2%",
+   "unit": "%",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-literacyRate-2020",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-literacyRate-2020, claim TL:MWI:literacyRate:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.74888371105811,
+   "display": "2.7%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-eduSpendPctGdp-2022, claim TL:MWI:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 139.016258677384,
+   "display": "139.0%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-primaryEnrolment-2024, claim TL:MWI:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 36.644092994481,
+   "display": "36.6%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-secondaryEnrolment-2023, claim TL:MWI:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:tertiaryEnrolment:2022",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 2.70813684546823,
+   "display": "2.7%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-tertiaryEnrolment-2022",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-tertiaryEnrolment-2022, claim TL:MWI:tertiaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:rdSpending:2019",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.17752,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-rdSpending-2019",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-rdSpending-2019, claim TL:MWI:rdSpending:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:researchers:2019",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 25.16829,
+   "display": "25",
+   "unit": "per million",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-researchers-2019",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-researchers-2019, claim TL:MWI:researchers:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 18.96159935,
+   "display": "19.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-internetUsers-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-internetUsers-2024, claim TL:MWI:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 69.260530662121,
+   "display": "69",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MWI#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-mobileSubs-2024, claim TL:MWI:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.64552794448662,
+   "display": "1.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-highTechExports-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-highTechExports-2024, claim TL:MWI:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 94280,
+   "display": "94,280 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-landArea-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-landArea-2023, claim TL:MWI:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 22.4406024607552,
+   "display": "22.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-forestPct-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-forestPct-2023, claim TL:MWI:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 64.1705557912601,
+   "display": "64.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-agriPct-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-agriPct-2023, claim TL:MWI:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.221419380007265,
+   "display": "0.2",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-co2PerCapita-2024, claim TL:MWI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 62.9,
+   "display": "62.9%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-renewablePct-2022",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-renewablePct-2022, claim TL:MWI:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 4.22250421289741,
+   "display": "4.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-resourceRents-2021",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-resourceRents-2021, claim TL:MWI:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-oilRents-2021",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-oilRents-2021, claim TL:MWI:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.00564591527235387,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-mineralRents-2021",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-mineralRents-2021, claim TL:MWI:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 4.20023001186865,
+   "display": "4.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-forestRents-2021",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-forestRents-2021, claim TL:MWI:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 15.6,
+   "display": "15.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-electricityAccess-2023, claim TL:MWI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.02496048269861,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-milExpPctGdp-2024, claim TL:MWI:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 117589994.544906,
+   "display": "$118 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-milExpUsd-2024, claim TL:MWI:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MWI:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 15000,
+   "display": "15,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MWI#claim-armedForces-2020",
+   "citation": "Terralore, \"Malawi — national dossier\", terralore.co/country/MWI#claim-armedForces-2020, claim TL:MWI:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

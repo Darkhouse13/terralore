@@ -97,6 +97,8 @@ Figures:
 - Hashim Thaci (born 1968) — Prime Minister at the declaration of independence. As prime minister, Thaci led the government that declared Kosovo's independence on 17 February 2008. A former KLA leader, he later became president and subsequently faced war-crimes proceedings before a specialist court in The Hague.
 - Hisashi Owada (born 1932) — President of the International Court of Justice. The Japanese jurist who presided over the ICJ when, on 22 July 2010, the Court delivered its advisory opinion that Kosovo's declaration of independence did not violate international law.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KOS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KOS/chronicle.claims.json
+
 ## References
 
 - [history-of-kosovo-britannica] History of Kosovo (ancient Dardania to the medieval period) — Encyclopaedia Britannica · https://www.britannica.com/place/history-of-Kosovo

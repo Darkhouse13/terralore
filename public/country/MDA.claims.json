@@ -1,0 +1,890 @@
+{
+ "subject": "MDA",
+ "name": "Moldova",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/MDA",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MDA:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 18200340853.6517,
+   "display": "$18 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-gdp-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-gdp-2024, claim TL:MDA:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 7576.19589413326,
+   "display": "$7,576",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-gdpPerCapita-2024, claim TL:MDA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 0.103059364371205,
+   "display": "0.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-gdpGrowth-2024, claim TL:MDA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 4.67773516007052,
+   "display": "4.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-inflation-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-inflation-2024, claim TL:MDA:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 88.6661154286831,
+   "display": "88.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-tradePctGdp-2024, claim TL:MDA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 2402306,
+   "display": "2.4 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-population-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-population-2024, claim TL:MDA:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 71.332,
+   "display": "71.3 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-lifeExpectancy-2024, claim TL:MDA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 43.516471862793,
+   "display": "43.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-urbanPct-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-urbanPct-2024, claim TL:MDA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.726,
+   "display": "1.7",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-fertility-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-fertility-2024, claim TL:MDA:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:literacy:2014",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 99.3600006103516,
+   "display": "99.4%",
+   "unit": "%",
+   "observed": 2014,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-literacy-2014",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-literacy-2014, claim TL:MDA:literacy:2014, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 61.8150333,
+   "display": "61.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-wgiVoice-2024, claim TL:MDA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 60.0013863,
+   "display": "60.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-wgiStability-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-wgiStability-2024, claim TL:MDA:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 56.349995,
+   "display": "56.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-wgiEffectiveness-2024, claim TL:MDA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 54.1256767,
+   "display": "54.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-wgiRegQuality-2024, claim TL:MDA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 54.1880698,
+   "display": "54.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-wgiRuleOfLaw-2024, claim TL:MDA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 41.9527948,
+   "display": "42.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-wgiCorruption-2024, claim TL:MDA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 6.7359705,
+   "display": "6.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-healthSpendPctGdp-2023, claim TL:MDA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 4.016,
+   "display": "4.02",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-physicians-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-physicians-2023, claim TL:MDA:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 16.5,
+   "display": "16.5",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-underFiveMortality-2024, claim TL:MDA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 84,
+   "display": "84.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-measlesImmunisation-2024, claim TL:MDA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 75.8158908711072,
+   "display": "75.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MDA#claim-safeWater-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-safeWater-2024, claim TL:MDA:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:literacyRate:2014",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 99.3600006103516,
+   "display": "99.4%",
+   "unit": "%",
+   "observed": 2014,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-literacyRate-2014",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-literacyRate-2014, claim TL:MDA:literacyRate:2014, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 6.55709981918335,
+   "display": "6.6%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-eduSpendPctGdp-2023, claim TL:MDA:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 107.605837807201,
+   "display": "107.6%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-primaryEnrolment-2024, claim TL:MDA:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 99.3439166347193,
+   "display": "99.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-secondaryEnrolment-2024, claim TL:MDA:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 74.7109378669046,
+   "display": "74.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-tertiaryEnrolment-2024, claim TL:MDA:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:rdSpending:2024",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.21589,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-rdSpending-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-rdSpending-2024, claim TL:MDA:rdSpending:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:researchers:2024",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 649.94365,
+   "display": "650",
+   "unit": "per million",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-researchers-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-researchers-2024, claim TL:MDA:researchers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 77.3687973,
+   "display": "77.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-internetUsers-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-internetUsers-2024, claim TL:MDA:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 120.083487069521,
+   "display": "120",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MDA#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-mobileSubs-2024, claim TL:MDA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 2.92514721596985,
+   "display": "2.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-highTechExports-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-highTechExports-2024, claim TL:MDA:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 32930,
+   "display": "32,930 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-landArea-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-landArea-2023, claim TL:MDA:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 11.7370179167932,
+   "display": "11.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-forestPct-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-forestPct-2023, claim TL:MDA:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 74.096568478591,
+   "display": "74.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-agriPct-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-agriPct-2023, claim TL:MDA:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 3.41675873098598,
+   "display": "3.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-co2PerCapita-2024, claim TL:MDA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 21.4,
+   "display": "21.4%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-renewablePct-2021",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-renewablePct-2021, claim TL:MDA:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.235942049452034,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-resourceRents-2021",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-resourceRents-2021, claim TL:MDA:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.0117069637364196,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-oilRents-2021",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-oilRents-2021, claim TL:MDA:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-mineralRents-2021",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-mineralRents-2021, claim TL:MDA:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.224174207052017,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-forestRents-2021",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-forestRents-2021, claim TL:MDA:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-electricityAccess-2023, claim TL:MDA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.597780838491135,
+   "display": "0.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-milExpPctGdp-2024, claim TL:MDA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 110725502.000124,
+   "display": "$111 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-milExpUsd-2024, claim TL:MDA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 6000,
+   "display": "6,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MDA#claim-armedForces-2020",
+   "citation": "Terralore, \"Moldova — national dossier\", terralore.co/country/MDA#claim-armedForces-2020, claim TL:MDA:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:CZE:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/CZE.claims.json
+
 History: "From Great Moravia and the crown of Saint Wenceslas to the heart of Europe, by way of Hus, White Mountain and two peaceful revolutions." — the sourced chronicle is at https://terralore.co/country/CZE/chronicle.md (6 eras, 25 events).
 
 ## Sources

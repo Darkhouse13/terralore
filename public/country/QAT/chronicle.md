@@ -78,6 +78,8 @@ Figures:
 
 - Sheikh Tamim bin Hamad Al Thani (born 1980) — Emir of Qatar (since 2013). Emir since 2013, he steered Qatar through the 2017-2021 blockade and the 2022 World Cup, sustaining its gas wealth and prominent role as a regional diplomatic mediator.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:QAT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/QAT/chronicle.claims.json
+
 ## References
 
 - [unesco-zubarah] Al Zubarah Archaeological Site — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1402/

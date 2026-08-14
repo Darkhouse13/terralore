@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:MLI:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/MLI.claims.json
+
 History: "From the gold of Wagadou to the Sahelian republic" — the sourced chronicle is at https://terralore.co/country/MLI/chronicle.md (6 eras, 22 events).
 
 ## Sources

@@ -79,6 +79,8 @@ Secession crises on Anjouan and Mohéli were resolved by a 2001 Union constituti
 - since 1976: **UN affirms Comorian sovereignty over Mayotte** — The UN General Assembly has repeatedly affirmed Comorian sovereignty over Mayotte and the archipelago's territorial integrity; the Comoros claims the island while France administers it. [euacademic-mayotte, unga-mayotte-resolution]
 - 2026: **The medinas of the sultanates inscribed** — The Medinas of the Historic Sultanates of the Comoros become the archipelago's first World Heritage site — the stone towns of the pre-colonial sultanates recognised on criteria (iii) and (iv). [unesco-comoros-medinas]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:COM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/COM/chronicle.claims.json
+
 ## References
 
 - [britannica-comoros] Comoros: History — Encyclopædia Britannica · https://www.britannica.com/place/Comoros

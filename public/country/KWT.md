@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:KWT:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/KWT.claims.json
+
 History: "From the Bronze Age island of Dilmun and Alexander's Ikaros to a pearling port, an oil-funded welfare state, and the war that defined a nation." — the sourced chronicle is at https://terralore.co/country/KWT/chronicle.md (6 eras, 23 events).
 
 ## Sources

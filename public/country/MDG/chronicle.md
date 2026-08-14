@@ -80,6 +80,8 @@ Figures:
 
 - Didier Ratsiraka (1936–2021) — President of Madagascar. The 'Red Admiral' who led Madagascar's socialist Second Republic from 1975 and dominated its politics for decades.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MDG:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MDG/chronicle.claims.json
+
 ## References
 
 - [eb-madagascar] Madagascar — Encyclopædia Britannica · https://www.britannica.com/place/Madagascar

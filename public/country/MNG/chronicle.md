@@ -82,6 +82,8 @@ Figures:
 
 - Punsalmaagiin Ochirbat (born 1942) — First democratically elected president of Mongolia. Appointed president as Mongolia opened its political system in 1990 and later directly elected, he presided over the adoption of the 1992 democratic constitution and the country's transition from a one-party state to a multiparty democracy and market economy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MNG:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MNG/chronicle.claims.json
+
 ## References
 
 - [britannica-mongolia] Mongolia — Encyclopaedia Britannica · https://www.britannica.com/place/Mongolia

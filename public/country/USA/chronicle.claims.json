@@ -1,0 +1,472 @@
+{
+ "subject": "USA",
+ "name": "United States",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/USA/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:USA:event:13000bce:peopling-of-the-americas",
+   "year": -13000,
+   "yearLabel": "c. 13,000 BCE",
+   "title": "Peopling of the Americas",
+   "summary": "Humans were established across the Americas by at least 13,000–15,000 years ago, having entered via the Beringian land bridge and Pacific coast from Asia during the last Ice Age.",
+   "category": "migration",
+   "era": "indigenous-americas",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-13000bce-peopling-of-the-americas",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-13000bce-peopling-of-the-americas, claim TL:USA:event:13000bce:peopling-of-the-americas, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1100:cahokia-at-its-height",
+   "year": 1100,
+   "yearLabel": "c. 1100 CE",
+   "title": "Cahokia at its height",
+   "summary": "The Mississippian city of Cahokia, near present-day St. Louis, reached its peak as one of the largest urban centres north of Mexico, anchored by monumental earthen mounds.",
+   "category": "culture",
+   "era": "indigenous-americas",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1100-cahokia-at-its-height",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1100-cahokia-at-its-height, claim TL:USA:event:1100:cahokia-at-its-height, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1492:columbus-reaches-the-caribbean",
+   "year": 1492,
+   "yearLabel": "1492 CE",
+   "title": "Columbus reaches the Caribbean",
+   "summary": "Christopher Columbus's landfall opened sustained contact between Europe and the Americas, beginning an era of conquest, colonisation, and devastating disease for Indigenous peoples.",
+   "category": "colonization",
+   "era": "indigenous-americas",
+   "sources": [
+    {
+     "id": "brit-jamestown",
+     "label": "Jamestown Colony",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamestown-Colony"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1492-columbus-reaches-the-caribbean",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1492-columbus-reaches-the-caribbean, claim TL:USA:event:1492:columbus-reaches-the-caribbean, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1607:founding-of-jamestown",
+   "year": 1607,
+   "yearLabel": "1607",
+   "title": "Founding of Jamestown",
+   "summary": "English settlers established Jamestown in Virginia, the first permanent English settlement in North America, financed by the Virginia Company of London.",
+   "category": "colonization",
+   "era": "colonisation-thirteen-colonies",
+   "sources": [
+    {
+     "id": "brit-jamestown",
+     "label": "Jamestown Colony",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamestown-Colony"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1607-founding-of-jamestown",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1607-founding-of-jamestown, claim TL:USA:event:1607:founding-of-jamestown, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1619:first-africans-landed-in-virginia",
+   "year": 1619,
+   "yearLabel": "August 1619",
+   "title": "First Africans landed in Virginia",
+   "summary": "An English ship brought roughly twenty enslaved Africans to Point Comfort, Virginia, marking the beginning of African slavery in the English mainland colonies.",
+   "category": "migration",
+   "era": "colonisation-thirteen-colonies",
+   "sources": [
+    {
+     "id": "nps-1619",
+     "label": "Arrival of the First Africans in 1619",
+     "publisher": "U.S. National Park Service",
+     "url": "https://www.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1619-first-africans-landed-in-virginia",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1619-first-africans-landed-in-virginia, claim TL:USA:event:1619:first-africans-landed-in-virginia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1620:pilgrims-found-plymouth",
+   "year": 1620,
+   "yearLabel": "1620",
+   "title": "Pilgrims found Plymouth",
+   "summary": "Separatist Pilgrims aboard the Mayflower established Plymouth Colony, the first enduring European settlement in New England.",
+   "category": "religion",
+   "era": "colonisation-thirteen-colonies",
+   "sources": [
+    {
+     "id": "brit-plymouth",
+     "label": "Plymouth, Massachusetts",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Plymouth-Massachusetts"
+    },
+    {
+     "id": "brit-mayflower",
+     "label": "Mayflower",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Mayflower-ship"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1620-pilgrims-found-plymouth",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1620-pilgrims-found-plymouth, claim TL:USA:event:1620:pilgrims-found-plymouth, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1754:french-and-indian-war",
+   "year": 1754,
+   "yearLabel": "1754–1763",
+   "title": "French and Indian War",
+   "summary": "Britain's victory in the North American theatre of the Seven Years' War expelled France from the continent but left Britain heavily indebted, prompting new colonial taxes.",
+   "category": "war",
+   "era": "colonisation-thirteen-colonies",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1754-french-and-indian-war",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1754-french-and-indian-war, claim TL:USA:event:1754:french-and-indian-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1776:declaration-of-independence",
+   "year": 1776,
+   "yearLabel": "4 July 1776",
+   "title": "Declaration of Independence",
+   "summary": "The Second Continental Congress adopted the Declaration of Independence, formally announcing the separation of the thirteen colonies from Great Britain.",
+   "category": "independence",
+   "era": "revolution-and-republic",
+   "sources": [
+    {
+     "id": "nara-declaration",
+     "label": "The Declaration of Independence",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/founding-docs/declaration"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1776-declaration-of-independence",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1776-declaration-of-independence, claim TL:USA:event:1776:declaration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1783:treaty-of-paris",
+   "year": 1783,
+   "yearLabel": "1783",
+   "title": "Treaty of Paris",
+   "summary": "Great Britain recognised the independence of the United States, ending the Revolutionary War and ceding territory east of the Mississippi.",
+   "category": "war",
+   "era": "revolution-and-republic",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1783-treaty-of-paris",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1783-treaty-of-paris, claim TL:USA:event:1783:treaty-of-paris, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1788:constitution-ratified",
+   "year": 1788,
+   "yearLabel": "21 June 1788",
+   "title": "Constitution ratified",
+   "summary": "With New Hampshire's ratification the Constitution took effect; the federal government began operating on 4 March 1789 and Washington was inaugurated that April.",
+   "category": "founding",
+   "era": "revolution-and-republic",
+   "sources": [
+    {
+     "id": "nara-declaration",
+     "label": "The Declaration of Independence",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/founding-docs/declaration"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1788-constitution-ratified",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1788-constitution-ratified, claim TL:USA:event:1788:constitution-ratified, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1803:louisiana-purchase",
+   "year": 1803,
+   "yearLabel": "1803",
+   "title": "Louisiana Purchase",
+   "summary": "The United States bought France's Louisiana territory for $15 million, roughly doubling the nation's size and opening the trans-Mississippi West.",
+   "category": "politics",
+   "era": "revolution-and-republic",
+   "sources": [
+    {
+     "id": "brit-lewis-clark",
+     "label": "Lewis and Clark Expedition",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Lewis-and-Clark-Expedition"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1803-louisiana-purchase",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1803-louisiana-purchase, claim TL:USA:event:1803:louisiana-purchase, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1838:trail-of-tears",
+   "year": 1838,
+   "yearLabel": "1838",
+   "title": "Trail of Tears",
+   "summary": "Under the Indian Removal Act, the United States forcibly marched the Cherokee and other southeastern nations west of the Mississippi; thousands died en route.",
+   "category": "migration",
+   "era": "expansion-slavery-civil-war",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1838-trail-of-tears",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1838-trail-of-tears, claim TL:USA:event:1838:trail-of-tears, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1861:american-civil-war",
+   "year": 1861,
+   "yearLabel": "1861–1865",
+   "title": "American Civil War",
+   "summary": "War between the Union and the secessionist Confederacy, ignited at Fort Sumter, became the deadliest conflict in U.S. history and decided the fate of slavery.",
+   "category": "war",
+   "era": "expansion-slavery-civil-war",
+   "sources": [
+    {
+     "id": "brit-civil-war",
+     "label": "American Civil War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/American-Civil-War"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1861-american-civil-war",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1861-american-civil-war, claim TL:USA:event:1861:american-civil-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1863:emancipation-proclamation",
+   "year": 1863,
+   "yearLabel": "1 January 1863",
+   "title": "Emancipation Proclamation",
+   "summary": "President Lincoln declared enslaved people in the rebelling states 'forever free,' redefining the war's purpose and clearing the way for Black enlistment in the Union army.",
+   "category": "politics",
+   "era": "expansion-slavery-civil-war",
+   "sources": [
+    {
+     "id": "nara-emancipation",
+     "label": "The Emancipation Proclamation",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1863-emancipation-proclamation",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1863-emancipation-proclamation, claim TL:USA:event:1863:emancipation-proclamation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1865:thirteenth-amendment-abolishes-slavery",
+   "year": 1865,
+   "yearLabel": "6 December 1865",
+   "title": "Thirteenth Amendment abolishes slavery",
+   "summary": "Ratified after the Union victory, the Thirteenth Amendment abolished slavery and involuntary servitude throughout the United States.",
+   "category": "politics",
+   "era": "expansion-slavery-civil-war",
+   "sources": [
+    {
+     "id": "nara-13th",
+     "label": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/milestone-documents/13th-amendment"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1865-thirteenth-amendment-abolishes-slavery",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1865-thirteenth-amendment-abolishes-slavery, claim TL:USA:event:1865:thirteenth-amendment-abolishes-slavery, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1868:fourteenth-amendment",
+   "year": 1868,
+   "yearLabel": "1868",
+   "title": "Fourteenth Amendment",
+   "summary": "Ratified during Reconstruction, it granted citizenship to all persons born in the United States and guaranteed equal protection of the laws.",
+   "category": "politics",
+   "era": "reconstruction-industry-world-wars",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1868-fourteenth-amendment",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1868-fourteenth-amendment, claim TL:USA:event:1868:fourteenth-amendment, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1869:transcontinental-railroad-completed",
+   "year": 1869,
+   "yearLabel": "1869",
+   "title": "Transcontinental railroad completed",
+   "summary": "The joining of the rails at Promontory, Utah, linked the Atlantic and Pacific coasts, accelerating settlement, commerce, and industrial growth.",
+   "category": "economy",
+   "era": "reconstruction-industry-world-wars",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1869-transcontinental-railroad-completed",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1869-transcontinental-railroad-completed, claim TL:USA:event:1869:transcontinental-railroad-completed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1929:great-depression",
+   "year": 1929,
+   "yearLabel": "1929",
+   "title": "Great Depression",
+   "summary": "The stock market crash of 1929 triggered a decade-long economic collapse, answered by Roosevelt's New Deal programmes of relief, recovery, and reform.",
+   "category": "economy",
+   "era": "reconstruction-industry-world-wars",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1929-great-depression",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1929-great-depression, claim TL:USA:event:1929:great-depression, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1941:attack-on-pearl-harbor",
+   "year": 1941,
+   "yearLabel": "7 December 1941",
+   "title": "Attack on Pearl Harbor",
+   "summary": "Japan's surprise attack on the U.S. naval base in Hawaii brought the United States into the Second World War.",
+   "category": "war",
+   "era": "reconstruction-industry-world-wars",
+   "sources": [
+    {
+     "id": "nara-pearl-harbor",
+     "label": "Joint Address to Congress Leading to a Declaration of War Against Japan (1941)",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1941-attack-on-pearl-harbor",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1941-attack-on-pearl-harbor, claim TL:USA:event:1941:attack-on-pearl-harbor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1954:brown-v-board-of-education",
+   "year": 1954,
+   "yearLabel": "1954",
+   "title": "Brown v. Board of Education",
+   "summary": "The Supreme Court ruled that racial segregation in public schools was unconstitutional, a landmark in the legal assault on Jim Crow.",
+   "category": "politics",
+   "era": "superpower-civil-rights-modern",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1954-brown-v-board-of-education",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1954-brown-v-board-of-education, claim TL:USA:event:1954:brown-v-board-of-education, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1964:civil-rights-act",
+   "year": 1964,
+   "yearLabel": "2 July 1964",
+   "title": "Civil Rights Act",
+   "summary": "Signed by President Johnson, the Act outlawed discrimination based on race, colour, religion, sex, or national origin in employment and public accommodations.",
+   "category": "politics",
+   "era": "superpower-civil-rights-modern",
+   "sources": [
+    {
+     "id": "brit-civil-rights-act",
+     "label": "Civil Rights Act (United States, 1964)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Civil-Rights-Act-United-States-1964"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1964-civil-rights-act",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1964-civil-rights-act, claim TL:USA:event:1964:civil-rights-act, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1965:voting-rights-act",
+   "year": 1965,
+   "yearLabel": "6 August 1965",
+   "title": "Voting Rights Act",
+   "summary": "The Act banned racial discrimination in voting and authorised federal oversight of elections, dramatically expanding Black political participation.",
+   "category": "politics",
+   "era": "superpower-civil-rights-modern",
+   "sources": [
+    {
+     "id": "brit-civil-rights-act",
+     "label": "Civil Rights Act (United States, 1964)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Civil-Rights-Act-United-States-1964"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1965-voting-rights-act",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1965-voting-rights-act, claim TL:USA:event:1965:voting-rights-act, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1969:apollo-11-moon-landing",
+   "year": 1969,
+   "yearLabel": "1969",
+   "title": "Apollo 11 Moon landing",
+   "summary": "American astronauts became the first humans to walk on the Moon, a defining achievement of the Cold War space race.",
+   "category": "culture",
+   "era": "superpower-civil-rights-modern",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1969-apollo-11-moon-landing",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1969-apollo-11-moon-landing, claim TL:USA:event:1969:apollo-11-moon-landing, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1991:end-of-the-cold-war",
+   "year": 1991,
+   "yearLabel": "1991",
+   "title": "End of the Cold War",
+   "summary": "The dissolution of the Soviet Union left the United States as the world's sole superpower and reshaped the international order.",
+   "category": "politics",
+   "era": "superpower-civil-rights-modern",
+   "sources": [
+    {
+     "id": "loc-overview",
+     "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1991-end-of-the-cold-war",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1991-end-of-the-cold-war, claim TL:USA:event:1991:end-of-the-cold-war, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

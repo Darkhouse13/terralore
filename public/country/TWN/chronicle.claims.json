@@ -1,0 +1,419 @@
+{
+ "subject": "TWN",
+ "name": "Taiwan",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/TWN/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:TWN:event:1624:dutch-found-fort-zeelandia",
+   "year": 1624,
+   "yearLabel": "1624",
+   "title": "Dutch found Fort Zeelandia",
+   "summary": "The Dutch East India Company establishes a fortified trading base, Fort Zeelandia, on the southwestern coast near present-day Tainan, beginning roughly four decades of Dutch commercial rule over parts of the island.",
+   "category": "colonization",
+   "era": "austronesian-and-european",
+   "sources": [
+    {
+     "id": "britannica-taiwan",
+     "label": "Taiwan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan"
+    },
+    {
+     "id": "loh-history",
+     "label": "Library of Congress Country Studies",
+     "publisher": "U.S. Library of Congress",
+     "url": "https://www.loc.gov/collections/country-studies/about-this-collection/"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1624-dutch-found-fort-zeelandia",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1624-dutch-found-fort-zeelandia, claim TL:TWN:event:1624:dutch-found-fort-zeelandia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1626:spanish-settle-the-northern-coast",
+   "year": 1626,
+   "yearLabel": "1626",
+   "title": "Spanish settle the northern coast",
+   "summary": "Spanish forces from the Philippines occupy northern Taiwan, building forts at Keelung and Tamsui in response to the Dutch presence in the south.",
+   "category": "colonization",
+   "era": "austronesian-and-european",
+   "sources": [
+    {
+     "id": "britannica-taiwan",
+     "label": "Taiwan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1626-spanish-settle-the-northern-coast",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1626-spanish-settle-the-northern-coast, claim TL:TWN:event:1626:spanish-settle-the-northern-coast, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1642:dutch-expel-the-spanish",
+   "year": 1642,
+   "yearLabel": "1642",
+   "title": "Dutch expel the Spanish",
+   "summary": "A Dutch expedition drives the Spanish from their northern outposts, leaving the Dutch East India Company as the dominant European power on the island.",
+   "category": "war",
+   "era": "austronesian-and-european",
+   "sources": [
+    {
+     "id": "britannica-taiwan",
+     "label": "Taiwan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1642-dutch-expel-the-spanish",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1642-dutch-expel-the-spanish, claim TL:TWN:event:1642:dutch-expel-the-spanish, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1662:koxinga-expels-the-dutch",
+   "year": 1662,
+   "yearLabel": "February 1662",
+   "title": "Koxinga expels the Dutch",
+   "summary": "After a siege begun in 1661, the Ming-loyalist commander Zheng Chenggong (Koxinga) forces the surrender of Fort Zeelandia, ending Dutch rule and founding the Zheng (Tungning) regime on Taiwan.",
+   "category": "war",
+   "era": "austronesian-and-european",
+   "sources": [
+    {
+     "id": "britannica-koxinga",
+     "label": "Zheng Chenggong (Koxinga)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Zheng-Chenggong"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1662-koxinga-expels-the-dutch",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1662-koxinga-expels-the-dutch, claim TL:TWN:event:1662:koxinga-expels-the-dutch, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1683:qing-conquest-of-the-zheng-regime",
+   "year": 1683,
+   "yearLabel": "1683",
+   "title": "Qing conquest of the Zheng regime",
+   "summary": "A Qing fleet defeats the Zheng (Tungning) forces, ending the Ming-loyalist kingdom; Taiwan is annexed the following year and attached to Fujian province as a prefecture.",
+   "category": "war",
+   "era": "tungning-and-qing",
+   "sources": [
+    {
+     "id": "britannica-koxinga",
+     "label": "Zheng Chenggong (Koxinga)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Zheng-Chenggong"
+    },
+    {
+     "id": "britannica-nanjing",
+     "label": "Battle of Nanjing (1659)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Nanjing"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1683-qing-conquest-of-the-zheng-regime",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1683-qing-conquest-of-the-zheng-regime, claim TL:TWN:event:1683:qing-conquest-of-the-zheng-regime, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1885:taiwan-made-a-qing-province",
+   "year": 1885,
+   "yearLabel": "1885",
+   "title": "Taiwan made a Qing province",
+   "summary": "The Qing government raises Taiwan to the status of a separate province, with Liu Mingchuan as reforming first governor promoting railways and modernisation.",
+   "category": "politics",
+   "era": "tungning-and-qing",
+   "sources": [
+    {
+     "id": "britannica-taiwan",
+     "label": "Taiwan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1885-taiwan-made-a-qing-province",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1885-taiwan-made-a-qing-province, claim TL:TWN:event:1885:taiwan-made-a-qing-province, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1895:treaty-of-shimonoseki-cedes-taiwan-to-japan",
+   "year": 1895,
+   "yearLabel": "17 April 1895",
+   "title": "Treaty of Shimonoseki cedes Taiwan to Japan",
+   "summary": "Ending the First Sino-Japanese War, the treaty obliges the Qing empire to cede Taiwan and the Pescadores to Japan, beginning fifty years of Japanese colonial rule.",
+   "category": "colonization",
+   "era": "japanese-colonial",
+   "sources": [
+    {
+     "id": "britannica-shimonoseki",
+     "label": "Treaty of Shimonoseki",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Treaty-of-Shimonoseki"
+    },
+    {
+     "id": "britannica-sino-japanese-war",
+     "label": "First Sino-Japanese War (1894-95)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/First-Sino-Japanese-War-1894-1895"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1895-treaty-of-shimonoseki-cedes-taiwan-to-japan",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1895-treaty-of-shimonoseki-cedes-taiwan-to-japan, claim TL:TWN:event:1895:treaty-of-shimonoseki-cedes-taiwan-to-japan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1895:japanese-colonial-administration",
+   "year": 1895,
+   "yearLabel": "1895",
+   "title": "Japanese colonial administration",
+   "summary": "Japan develops Taiwan with railways, ports, public health and expanded agriculture while suppressing resistance and, from the late 1930s, pursuing intensive assimilation campaigns.",
+   "category": "colonization",
+   "era": "japanese-colonial",
+   "sources": [
+    {
+     "id": "britannica-taiwan",
+     "label": "Taiwan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1895-japanese-colonial-administration",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1895-japanese-colonial-administration, claim TL:TWN:event:1895:japanese-colonial-administration, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1945:roc-takes-over-taiwan",
+   "year": 1945,
+   "yearLabel": "October 1945",
+   "title": "ROC takes over Taiwan",
+   "summary": "After Japan's surrender, the Republic of China under the Nationalists (Kuomintang) takes over the administration of Taiwan from Japan.",
+   "category": "politics",
+   "era": "handover-and-relocation",
+   "sources": [
+    {
+     "id": "britannica-nationalist-rule",
+     "label": "Taiwan: Early Nationalist rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan/Early-Nationalist-rule"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1945-roc-takes-over-taiwan",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1945-roc-takes-over-taiwan, claim TL:TWN:event:1945:roc-takes-over-taiwan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1947:february-28-incident",
+   "year": 1947,
+   "yearLabel": "28 February 1947",
+   "title": "February 28 Incident",
+   "summary": "Protests against Nationalist rule, triggered by a violent monopoly-enforcement episode in Taipei, are crushed by troops; thousands are killed, beginning the long repression known as the White Terror.",
+   "category": "politics",
+   "era": "handover-and-relocation",
+   "sources": [
+    {
+     "id": "britannica-nationalist-rule",
+     "label": "Taiwan: Early Nationalist rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan/Early-Nationalist-rule"
+    },
+    {
+     "id": "britannica-white-terror",
+     "label": "White Terror (Taiwan)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/White-Terror-Taiwan"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1947-february-28-incident",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1947-february-28-incident, claim TL:TWN:event:1947:february-28-incident, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1949:people-s-republic-of-china-proclaimed",
+   "year": 1949,
+   "yearLabel": "1 October 1949",
+   "title": "People's Republic of China proclaimed",
+   "summary": "Having defeated the Nationalists in the Chinese Civil War, Mao Zedong proclaims the People's Republic of China on the mainland; Chiang and his forces withdraw toward Taiwan.",
+   "category": "politics",
+   "era": "handover-and-relocation",
+   "sources": [
+    {
+     "id": "state-chinese-rev",
+     "label": "The Chinese Revolution of 1949",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1949-people-s-republic-of-china-proclaimed",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1949-people-s-republic-of-china-proclaimed, claim TL:TWN:event:1949:people-s-republic-of-china-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1949:roc-government-relocates-to-taiwan",
+   "year": 1949,
+   "yearLabel": "December 1949",
+   "title": "ROC government relocates to Taiwan",
+   "summary": "Chiang Kai-shek's Republic of China central government relocates to Taipei after defeat in the civil war, founding the present self-governing polity on the island; this was not a declaration of independence.",
+   "category": "founding",
+   "era": "handover-and-relocation",
+   "sources": [
+    {
+     "id": "state-chinese-rev",
+     "label": "The Chinese Revolution of 1949",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+    },
+    {
+     "id": "britannica-chiang",
+     "label": "Chiang Kai-shek",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Chiang-Kai-shek"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1949-roc-government-relocates-to-taiwan",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1949-roc-government-relocates-to-taiwan, claim TL:TWN:event:1949:roc-government-relocates-to-taiwan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1971:un-seat-transferred-to-the-prc",
+   "year": 1971,
+   "yearLabel": "October 1971",
+   "title": "UN seat transferred to the PRC",
+   "summary": "The UN General Assembly votes to seat the People's Republic of China in China's place at the United Nations; the ROC's representatives lose the seat. The resolution does not address Taiwan's sovereignty.",
+   "category": "politics",
+   "era": "cold-war-and-status",
+   "sources": [
+    {
+     "id": "state-rapprochement",
+     "label": "Rapprochement with China, 1972",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1971-un-seat-transferred-to-the-prc",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1971-un-seat-transferred-to-the-prc, claim TL:TWN:event:1971:un-seat-transferred-to-the-prc, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1972:shanghai-communique",
+   "year": 1972,
+   "yearLabel": "1972",
+   "title": "Shanghai Communiqué",
+   "summary": "During President Nixon's visit to China, the United States and the PRC issue the Shanghai Communiqué; the U.S. acknowledges the position that there is but one China, beginning normalisation.",
+   "category": "politics",
+   "era": "cold-war-and-status",
+   "sources": [
+    {
+     "id": "state-rapprochement",
+     "label": "Rapprochement with China, 1972",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1972-shanghai-communique",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1972-shanghai-communique, claim TL:TWN:event:1972:shanghai-communique, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1979:u-s-switches-recognition-to-the-prc",
+   "year": 1979,
+   "yearLabel": "1979",
+   "title": "U.S. switches recognition to the PRC",
+   "summary": "The United States establishes formal diplomatic relations with the PRC as the sole legal government of China and ends recognition of the ROC; Congress passes the Taiwan Relations Act to sustain unofficial ties.",
+   "category": "politics",
+   "era": "cold-war-and-status",
+   "sources": [
+    {
+     "id": "state-china-policy",
+     "label": "China Policy (Normalization of Relations, 1979)",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1977-1980/china-policy"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1979-u-s-switches-recognition-to-the-prc",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1979-u-s-switches-recognition-to-the-prc, claim TL:TWN:event:1979:u-s-switches-recognition-to-the-prc, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1965:national-palace-museum-opens-in-taipei",
+   "year": 1965,
+   "yearLabel": "1965",
+   "title": "National Palace Museum opens in Taipei",
+   "summary": "A permanent home opens in Taipei for a vast collection of Chinese imperial art and antiquities, much of it relocated from the mainland around 1948 to 1949.",
+   "category": "culture",
+   "era": "cold-war-and-status",
+   "sources": [
+    {
+     "id": "npm",
+     "label": "National Palace Museum, Taipei",
+     "publisher": "National Palace Museum",
+     "url": "https://www.npm.gov.tw/en/"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1965-national-palace-museum-opens-in-taipei",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1965-national-palace-museum-opens-in-taipei, claim TL:TWN:event:1965:national-palace-museum-opens-in-taipei, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1987:martial-law-lifted",
+   "year": 1987,
+   "yearLabel": "1987",
+   "title": "Martial law lifted",
+   "summary": "President Lee Teng-hui ends nearly four decades of martial law and the ban on travel to the mainland, opening the way to democratic reform.",
+   "category": "politics",
+   "era": "democracy-and-cross-strait",
+   "sources": [
+    {
+     "id": "britannica-lee",
+     "label": "Lee Teng-hui",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Lee-Teng-hui"
+    },
+    {
+     "id": "britannica-successors",
+     "label": "Taiwan: Successors to Chiang Kai-shek",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan/Successors-to-Chiang-Kai-shek"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1987-martial-law-lifted",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1987-martial-law-lifted, claim TL:TWN:event:1987:martial-law-lifted, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:1996:first-direct-presidential-election",
+   "year": 1996,
+   "yearLabel": "1996",
+   "title": "First direct presidential election",
+   "summary": "Lee Teng-hui wins Taiwan's first direct, popular presidential election, becoming its first democratically elected president and completing the democratic transition.",
+   "category": "politics",
+   "era": "democracy-and-cross-strait",
+   "sources": [
+    {
+     "id": "britannica-lee",
+     "label": "Lee Teng-hui",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Lee-Teng-hui"
+    },
+    {
+     "id": "britannica-successors",
+     "label": "Taiwan: Successors to Chiang Kai-shek",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan/Successors-to-Chiang-Kai-shek"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-1996-first-direct-presidential-election",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-1996-first-direct-presidential-election, claim TL:TWN:event:1996:first-direct-presidential-election, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TWN:event:2026:ongoing-cross-strait-dispute",
+   "year": 2026,
+   "yearLabel": "to 2026",
+   "title": "Ongoing cross-strait dispute",
+   "summary": "Into 2026 the dispute remains unresolved: the ROC governs Taiwan while the PRC claims it as a province without controlling it, and no peace treaty has settled the question.",
+   "category": "politics",
+   "era": "democracy-and-cross-strait",
+   "sources": [
+    {
+     "id": "britannica-taiwan",
+     "label": "Taiwan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Taiwan"
+    },
+    {
+     "id": "state-china-policy",
+     "label": "China Policy (Normalization of Relations, 1979)",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1977-1980/china-policy"
+    }
+   ],
+   "url": "https://terralore.co/country/TWN/chronicle#ev-2026-ongoing-cross-strait-dispute",
+   "citation": "Terralore, \"The Chronicle of Taiwan: An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyalist, Qing and Japanese hands, and now the seat of a self-governing polity at the centre of an unresolved cross-strait dispute.\", terralore.co/country/TWN/chronicle#ev-2026-ongoing-cross-strait-dispute, claim TL:TWN:event:2026:ongoing-cross-strait-dispute, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

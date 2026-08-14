@@ -99,6 +99,8 @@ Figures:
 - Urho Kekkonen (1900 – 1986) — President of Finland. President from 1956 to 1982, Kekkonen embodied Finland's Cold War policy of neutrality, managing relations with the Soviet Union while securing Finland's room for manoeuvre and hosting the 1975 Helsinki conference.
 - Sauli Niinisto (born 1948) — President of Finland. President from 2012 to 2024, Niinisto led Finland through its historic decision to abandon non-alignment and join NATO in 2023 in response to Russia's invasion of Ukraine.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:FIN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/FIN/chronicle.claims.json
+
 ## References
 
 - [history-of-finland-britannica] History of Finland — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Finland

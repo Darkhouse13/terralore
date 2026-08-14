@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:GUY:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/GUY.claims.json
+
 History: "From the Amerindian peoples of the Guiana highlands and three Dutch plantation colonies to British Guiana, a society forged by slavery and indenture, and an independent nation now transformed by offshore oil." — the sourced chronicle is at https://terralore.co/country/GUY/chronicle.md (6 eras, 22 events).
 
 ## Sources

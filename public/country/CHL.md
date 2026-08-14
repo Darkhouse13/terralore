@@ -111,6 +111,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:CHL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/CHL.claims.json
+
 History: "From the Mapuche of the south and the moai-builders of Rapa Nui to the Spanish founding of Santiago in 1541, the independence sealed at Maipu in 1818, the nitrate wealth of the War of the Pacific, the rupture of 1973, the Pinochet dictatorship and the long democratic recovery." — the sourced chronicle is at https://terralore.co/country/CHL/chronicle.md (6 eras, 24 events).
 
 ## Sources

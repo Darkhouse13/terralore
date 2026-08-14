@@ -65,6 +65,8 @@ Figures:
 
 - Sheikh Mohamed bin Zayed Al Nahyan (born 1961) — President of the UAE and ruler of Abu Dhabi. A son of the founding president Zayed, he shaped Abu Dhabi's foreign and economic policy for decades before being elected president of the United Arab Emirates in May 2022.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ARE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ARE/chronicle.claims.json
+
 ## References
 
 - [britannica-uae-history] History of the United Arab Emirates — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-the-United-Arab-Emirates

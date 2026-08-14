@@ -1,0 +1,817 @@
+{
+ "subject": "rare-earths",
+ "name": "Rare earths",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/rare-earths",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodRareEarths-total:2024",
+   "value": 380000,
+   "display": "380 kt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-world",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-world, claim TL:WLD:prodRareEarths-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodRareEarths-total:2025",
+   "value": 390000,
+   "display": "390 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-world",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-world, claim TL:WLD:prodRareEarths-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:CHN:prodRareEarths-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.7105263157894737,
+   "display": "71%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodRareEarths:2024",
+    "value": 270000,
+    "display": "270 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-chn, claim TL:CHN:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-chn",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-chn, claim TL:CHN:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodRareEarths-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.6923076923076923,
+   "display": "69%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodRareEarths:2025",
+    "value": 270000,
+    "display": "270 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-chn, claim TL:CHN:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-chn",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-chn, claim TL:CHN:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodRareEarths-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.11973684210526316,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodRareEarths:2024",
+    "value": 45500,
+    "display": "45.5 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-usa, claim TL:USA:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-usa",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-usa, claim TL:USA:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodRareEarths-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.13076923076923078,
+   "display": "13%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodRareEarths:2025",
+    "value": 51000,
+    "display": "51.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-usa, claim TL:USA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-usa",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-usa, claim TL:USA:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodRareEarths-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.07631578947368421,
+   "display": "7.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodRareEarths:2024",
+    "value": 29000,
+    "display": "29.0 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-aus, claim TL:AUS:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-aus",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-aus, claim TL:AUS:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodRareEarths-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.07435897435897436,
+   "display": "7.4%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodRareEarths:2025",
+    "value": 29000,
+    "display": "29.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-aus, claim TL:AUS:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-aus",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-aus, claim TL:AUS:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MMR:prodRareEarths-share:2024",
+   "nation": "MMR",
+   "name": "Myanmar",
+   "value": 0.07105263157894737,
+   "display": "7.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MMR:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MMR:prodRareEarths:2024",
+    "value": 27000,
+    "display": "27.0 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mmr, claim TL:MMR:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-mmr",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mmr, claim TL:MMR:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MMR:prodRareEarths-share:2025",
+   "nation": "MMR",
+   "name": "Myanmar",
+   "value": 0.05641025641025641,
+   "display": "5.6%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MMR:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MMR:prodRareEarths:2025",
+    "value": 22000,
+    "display": "22.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mmr, claim TL:MMR:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-mmr",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mmr, claim TL:MMR:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:prodRareEarths-share:2024",
+   "nation": "THA",
+   "name": "Thailand",
+   "value": 0.005526315789473684,
+   "display": "0.55%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:THA:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:THA:prodRareEarths:2024",
+    "value": 2100,
+    "display": "2,100 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-tha, claim TL:THA:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-tha",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-tha, claim TL:THA:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:prodRareEarths-share:2025",
+   "nation": "THA",
+   "name": "Thailand",
+   "value": 0.012307692307692308,
+   "display": "1.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:THA:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:THA:prodRareEarths:2025",
+    "value": 4800,
+    "display": "4,800 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-tha, claim TL:THA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-tha",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-tha, claim TL:THA:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodRareEarths-share:2024",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.007631578947368421,
+   "display": "0.76%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodRareEarths:2024",
+    "value": 2900,
+    "display": "2,900 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-ind, claim TL:IND:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-ind",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-ind, claim TL:IND:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodRareEarths-share:2025",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.007435897435897436,
+   "display": "0.74%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodRareEarths:2025",
+    "value": 2900,
+    "display": "2,900 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-ind, claim TL:IND:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-ind",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-ind, claim TL:IND:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:prodRareEarths-share:2024",
+   "nation": "MDG",
+   "name": "Madagascar",
+   "value": 0.0036842105263157894,
+   "display": "0.37%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MDG:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MDG:prodRareEarths:2024",
+    "value": 1400,
+    "display": "1,400 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mdg, claim TL:MDG:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-mdg",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mdg, claim TL:MDG:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:prodRareEarths-share:2025",
+   "nation": "MDG",
+   "name": "Madagascar",
+   "value": 0.006923076923076923,
+   "display": "0.69%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MDG:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MDG:prodRareEarths:2025",
+    "value": 2700,
+    "display": "2,700 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mdg, claim TL:MDG:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-mdg",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mdg, claim TL:MDG:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodRareEarths-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.006842105263157895,
+   "display": "0.68%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodRareEarths:2024",
+    "value": 2600,
+    "display": "2,600 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-rus, claim TL:RUS:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-rus",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-rus, claim TL:RUS:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodRareEarths-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.006666666666666667,
+   "display": "0.67%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodRareEarths:2025",
+    "value": 2600,
+    "display": "2,600 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-rus, claim TL:RUS:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-rus",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-rus, claim TL:RUS:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodRareEarths-share:2024",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.0014736842105263158,
+   "display": "0.15%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodRareEarths:2024",
+    "value": 560,
+    "display": "560 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-bra, claim TL:BRA:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-bra",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-bra, claim TL:BRA:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodRareEarths-share:2025",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.005128205128205128,
+   "display": "0.51%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodRareEarths:2025",
+    "value": 2000,
+    "display": "2,000 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-bra, claim TL:BRA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-bra",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-bra, claim TL:BRA:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:prodRareEarths-share:2024",
+   "nation": "NGA",
+   "name": "Nigeria",
+   "value": 0.003947368421052632,
+   "display": "0.39%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:NGA:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:NGA:prodRareEarths:2024",
+    "value": 1500,
+    "display": "1,500 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-nga, claim TL:NGA:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-nga",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-nga, claim TL:NGA:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:prodRareEarths-share:2025",
+   "nation": "NGA",
+   "name": "Nigeria",
+   "value": 0.0038461538461538464,
+   "display": "0.38%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:NGA:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:NGA:prodRareEarths:2025",
+    "value": 1500,
+    "display": "1,500 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-nga, claim TL:NGA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-nga",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-nga, claim TL:NGA:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:prodRareEarths-share:2024",
+   "nation": "VNM",
+   "name": "Vietnam",
+   "value": 0.0007894736842105263,
+   "display": "0.08%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:VNM:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:VNM:prodRareEarths:2024",
+    "value": 300,
+    "display": "300 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-vnm, claim TL:VNM:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-vnm",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-vnm, claim TL:VNM:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:prodRareEarths-share:2025",
+   "nation": "VNM",
+   "name": "Vietnam",
+   "value": 0.0003846153846153846,
+   "display": "0.04%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:VNM:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:VNM:prodRareEarths:2025",
+    "value": 150,
+    "display": "150 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-vnm, claim TL:VNM:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-vnm",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-vnm, claim TL:VNM:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MYS:prodRareEarths-share:2024",
+   "nation": "MYS",
+   "name": "Malaysia",
+   "value": 0.00036842105263157896,
+   "display": "0.04%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MYS:prodRareEarths:2024",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MYS:prodRareEarths:2024",
+    "value": 140,
+    "display": "140 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mys, claim TL:MYS:prodRareEarths:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-mys",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mys, claim TL:MYS:prodRareEarths-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MYS:prodRareEarths-share:2025",
+   "nation": "MYS",
+   "name": "Malaysia",
+   "value": 0.00028205128205128203,
+   "display": "0.03%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MYS:prodRareEarths:2025",
+    "worldTotal": "TL:WLD:prodRareEarths-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MYS:prodRareEarths:2025",
+    "value": 110,
+    "display": "110 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mys, claim TL:MYS:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/rare-earths#claim-mys",
+   "citation": "Terralore, \"Rare earths — who supplies the world\", terralore.co/commodities/rare-earths#claim-mys, claim TL:MYS:prodRareEarths-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

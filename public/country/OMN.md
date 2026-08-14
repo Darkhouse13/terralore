@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:OMN:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/OMN.claims.json
+
 History: "From the copper of Magan and the frankincense roads to a seafaring empire that reached Zanzibar, reborn as a modern sultanate." — the sourced chronicle is at https://terralore.co/country/OMN/chronicle.md (6 eras, 24 events).
 
 ## Sources

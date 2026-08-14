@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:KEN:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/KEN.claims.json
+
 History: "From the cradle of humankind on Lake Turkana to the Swahili coast and a modern East African republic." — the sourced chronicle is at https://terralore.co/country/KEN/chronicle.md (6 eras, 30 events).
 
 ## Sources

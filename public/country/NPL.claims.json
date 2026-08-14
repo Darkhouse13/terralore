@@ -1,0 +1,890 @@
+{
+ "subject": "NPL",
+ "name": "Nepal",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/NPL",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:NPL:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 42914268286.7109,
+   "display": "$43 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-gdp-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-gdp-2024, claim TL:NPL:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1447.31004458428,
+   "display": "$1,447",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-gdpPerCapita-2024, claim TL:NPL:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.66537430744967,
+   "display": "3.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-gdpGrowth-2024, claim TL:NPL:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 4.6850965426577,
+   "display": "4.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-inflation-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-inflation-2024, claim TL:NPL:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 40.5298226771909,
+   "display": "40.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-tradePctGdp-2024, claim TL:NPL:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 29651054,
+   "display": "30 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-population-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-population-2024, claim TL:NPL:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 70.636,
+   "display": "70.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-lifeExpectancy-2024, claim TL:NPL:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 66.772343163029,
+   "display": "66.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-urbanPct-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-urbanPct-2024, claim TL:NPL:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.961,
+   "display": "2.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-fertility-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-fertility-2024, claim TL:NPL:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:literacy:2019",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 68.7099990844727,
+   "display": "68.7%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-literacy-2019",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-literacy-2019, claim TL:NPL:literacy:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 55.8031944,
+   "display": "55.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-wgiVoice-2024, claim TL:NPL:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 58.8121329,
+   "display": "58.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-wgiStability-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-wgiStability-2024, claim TL:NPL:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 34.1416692,
+   "display": "34.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-wgiEffectiveness-2024, claim TL:NPL:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 46.1517079,
+   "display": "46.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-wgiRegQuality-2024, claim TL:NPL:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 51.7386218,
+   "display": "51.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-wgiRuleOfLaw-2024, claim TL:NPL:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 35.0499922,
+   "display": "35.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-wgiCorruption-2024, claim TL:NPL:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 6.15843678,
+   "display": "6.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-healthSpendPctGdp-2023, claim TL:NPL:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.011,
+   "display": "1.01",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-physicians-2023",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-physicians-2023, claim TL:NPL:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 25.1,
+   "display": "25.1",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-underFiveMortality-2024, claim TL:NPL:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 97,
+   "display": "97.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-measlesImmunisation-2024, claim TL:NPL:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 16.4868856683866,
+   "display": "16.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NPL#claim-safeWater-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-safeWater-2024, claim TL:NPL:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:literacyRate:2019",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 68.7099990844727,
+   "display": "68.7%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-literacyRate-2019",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-literacyRate-2019, claim TL:NPL:literacyRate:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.68849173764595,
+   "display": "3.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-eduSpendPctGdp-2024, claim TL:NPL:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:primaryEnrolment:2025",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 128.558746514108,
+   "display": "128.6%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-primaryEnrolment-2025",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-primaryEnrolment-2025, claim TL:NPL:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 90.3878462155916,
+   "display": "90.4%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-secondaryEnrolment-2024, claim TL:NPL:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 21.2915596292014,
+   "display": "21.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-tertiaryEnrolment-2024, claim TL:NPL:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:rdSpending:2010",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.30221,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2010,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-rdSpending-2010",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-rdSpending-2010, claim TL:NPL:rdSpending:2010, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:researchers:2002",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 59.65797,
+   "display": "60",
+   "unit": "per million",
+   "observed": 2002,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-researchers-2002",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-researchers-2002, claim TL:NPL:researchers:2002, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 46.32189941,
+   "display": "46.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-internetUsers-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-internetUsers-2024, claim TL:NPL:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 99.8471420273964,
+   "display": "100",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NPL#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-mobileSubs-2024, claim TL:NPL:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:highTechExports:2022",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 0.617520704475872,
+   "display": "0.6%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-highTechExports-2022",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-highTechExports-2022, claim TL:NPL:highTechExports:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 143350,
+   "display": "143,350 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-landArea-2023",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-landArea-2023, claim TL:NPL:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 41.5907220090687,
+   "display": "41.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-forestPct-2023",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-forestPct-2023, claim TL:NPL:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 26.1185908615277,
+   "display": "26.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-agriPct-2023",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-agriPct-2023, claim TL:NPL:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.535964084109792,
+   "display": "0.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-co2PerCapita-2024, claim TL:NPL:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 73.7,
+   "display": "73.7%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-renewablePct-2021",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-renewablePct-2021, claim TL:NPL:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.498936909947826,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-resourceRents-2021",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-resourceRents-2021, claim TL:NPL:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-oilRents-2021",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-oilRents-2021, claim TL:NPL:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-mineralRents-2021",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-mineralRents-2021, claim TL:NPL:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.492874643993917,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-forestRents-2021",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-forestRents-2021, claim TL:NPL:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 94,
+   "display": "94.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-electricityAccess-2023, claim TL:NPL:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.979452474186084,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-milExpPctGdp-2024, claim TL:NPL:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 426517834.461529,
+   "display": "$427 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-milExpUsd-2024, claim TL:NPL:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NPL:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 112000,
+   "display": "112,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NPL#claim-armedForces-2020",
+   "citation": "Terralore, \"Nepal — national dossier\", terralore.co/country/NPL#claim-armedForces-2020, claim TL:NPL:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

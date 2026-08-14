@@ -97,6 +97,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:STP:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/STP.claims.json
+
 History: "Empty volcanic islands turned by Portugal into one of the world's first slave-plantation societies — a sugar, then cocoa, economy built on bondage and forced labour, scarred by the 1595 revolt of Rei Amador and the 1953 Batepá massacre, and freed at last in 1975." — the sourced chronicle is at https://terralore.co/country/STP/chronicle.md (5 eras, 25 events).
 
 ## Sources

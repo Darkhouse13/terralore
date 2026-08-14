@@ -76,6 +76,8 @@ Figures:
 - Manuel Zelaya (born 1952) — President of Honduras, 2006-2009. Liberal-turned-leftist president whose push for constitutional change ended in his removal by the military and Congress on 28 June 2009, an episode later judged an illegal coup by an OAS truth commission.
 - Xiomara Castro (born 1959) — President of Honduras, 2022-2026. Candidate of the Libre party and wife of Manuel Zelaya, who in January 2022 became the first woman president of Honduras and the first left-wing leader to complete a full term in office.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:HND:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/HND/chronicle.claims.json
+
 ## References
 
 - [britannica-copan] Copán — Encyclopaedia Britannica · https://www.britannica.com/place/Copan

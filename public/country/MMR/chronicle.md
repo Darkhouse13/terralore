@@ -89,6 +89,8 @@ Figures:
 - Aung San Suu Kyi (born 1945) — State counsellor, 2016-2021. After years of house arrest she led the NLD to power and governed from 2016, but was detained and imprisoned in the 2021 coup; her tenure was clouded internationally by the Rohingya crisis.
 - Min Aung Hlaing (born 1956) — Military commander-in-chief and junta leader. Commander-in-chief of Myanmar's armed forces who led the 2021 coup and chairs the ruling State Administration Council; named by UN investigators over the 2017 Rohingya atrocities.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MMR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MMR/chronicle.claims.json
+
 ## References
 
 - [history-of-myanmar] History of Myanmar — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Myanmar

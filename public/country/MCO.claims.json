@@ -1,0 +1,650 @@
+{
+ "subject": "MCO",
+ "name": "Monaco",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/MCO",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MCO:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 11125783372.4794,
+   "display": "$11 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-gdp-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-gdp-2024, claim TL:MCO:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 288001.433369041,
+   "display": "$288,001",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-gdpPerCapita-2024, claim TL:MCO:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 8.51053758860212,
+   "display": "8.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-gdpGrowth-2024, claim TL:MCO:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 38631,
+   "display": "39,000",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-population-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-population-2024, claim TL:MCO:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 86.497,
+   "display": "86.5 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-lifeExpectancy-2024, claim TL:MCO:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-urbanPct-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-urbanPct-2024, claim TL:MCO:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.102,
+   "display": "2.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-fertility-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-fertility-2024, claim TL:MCO:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 71.4953397,
+   "display": "71.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-wgiVoice-2024, claim TL:MCO:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 87.0535015,
+   "display": "87.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-wgiStability-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-wgiStability-2024, claim TL:MCO:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 85.1156279,
+   "display": "85.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-wgiEffectiveness-2024, claim TL:MCO:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 72.2449856,
+   "display": "72.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-wgiRegQuality-2024, claim TL:MCO:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 80.1193607,
+   "display": "80.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-wgiRuleOfLaw-2024, claim TL:MCO:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 84.2952795,
+   "display": "84.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-wgiCorruption-2024, claim TL:MCO:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.11959291,
+   "display": "3.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-healthSpendPctGdp-2023, claim TL:MCO:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:physicians:2020",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 8.609,
+   "display": "8.61",
+   "unit": "per 1,000",
+   "observed": 2020,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-physicians-2020",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-physicians-2020, claim TL:MCO:physicians:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 2.7,
+   "display": "2.7",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-underFiveMortality-2024, claim TL:MCO:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 88,
+   "display": "88.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-measlesImmunisation-2024, claim TL:MCO:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MCO#claim-safeWater-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-safeWater-2024, claim TL:MCO:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 1.73223996162415,
+   "display": "1.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-eduSpendPctGdp-2023, claim TL:MCO:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 120.58309173584,
+   "display": "120.6%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-primaryEnrolment-2024, claim TL:MCO:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 158.546615600586,
+   "display": "158.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-secondaryEnrolment-2024, claim TL:MCO:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 77.4806900024414,
+   "display": "77.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-tertiaryEnrolment-2024, claim TL:MCO:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:rdSpending:2005",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.03821,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2005,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-rdSpending-2005",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-rdSpending-2005, claim TL:MCO:rdSpending:2005, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:researchers:2005",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 309.90455,
+   "display": "310",
+   "unit": "per million",
+   "observed": 2005,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-researchers-2005",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-researchers-2005, claim TL:MCO:researchers:2005, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 99.04489899,
+   "display": "99.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-internetUsers-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-internetUsers-2024, claim TL:MCO:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 107.400792109963,
+   "display": "107",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MCO#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-mobileSubs-2024, claim TL:MCO:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 2.084,
+   "display": "2 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-landArea-2023",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-landArea-2023, claim TL:MCO:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-forestPct-2023",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-forestPct-2023, claim TL:MCO:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-resourceRents-2021",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-resourceRents-2021, claim TL:MCO:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-mineralRents-2021",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-mineralRents-2021, claim TL:MCO:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-forestRents-2021",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-forestRents-2021, claim TL:MCO:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MCO#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Monaco — national dossier\", terralore.co/country/MCO#claim-electricityAccess-2023, claim TL:MCO:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

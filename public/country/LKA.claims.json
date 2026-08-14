@@ -1,0 +1,890 @@
+{
+ "subject": "LKA",
+ "name": "Sri Lanka",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/LKA",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:LKA:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 98963185509.6499,
+   "display": "$99 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-gdp-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-gdp-2024, claim TL:LKA:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 4515.56787322732,
+   "display": "$4,516",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-gdpPerCapita-2024, claim TL:LKA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 5.00871930957159,
+   "display": "5.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-gdpGrowth-2024, claim TL:LKA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": -0.42936004906973,
+   "display": "-0.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-inflation-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-inflation-2024, claim TL:LKA:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 42.3975008711047,
+   "display": "42.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-tradePctGdp-2024, claim TL:LKA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 21916000,
+   "display": "22 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-population-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-population-2024, claim TL:LKA:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 77.672,
+   "display": "77.7 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-lifeExpectancy-2024, claim TL:LKA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 20.2996997058686,
+   "display": "20.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-urbanPct-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-urbanPct-2024, claim TL:LKA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.952,
+   "display": "2.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-fertility-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-fertility-2024, claim TL:LKA:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 92.7399978637695,
+   "display": "92.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-literacy-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-literacy-2024, claim TL:LKA:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 54.6434795,
+   "display": "54.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-wgiVoice-2024, claim TL:LKA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 59.9106677,
+   "display": "59.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-wgiStability-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-wgiStability-2024, claim TL:LKA:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 46.002677,
+   "display": "46.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-wgiEffectiveness-2024, claim TL:LKA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 50.1437699,
+   "display": "50.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-wgiRegQuality-2024, claim TL:LKA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 52.5287187,
+   "display": "52.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-wgiRuleOfLaw-2024, claim TL:LKA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 40.066474,
+   "display": "40.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-wgiCorruption-2024, claim TL:LKA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.68313766,
+   "display": "3.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-healthSpendPctGdp-2023, claim TL:LKA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.136,
+   "display": "1.14",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-physicians-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-physicians-2023, claim TL:LKA:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 5.9,
+   "display": "5.9",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-underFiveMortality-2024, claim TL:LKA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 99,
+   "display": "99.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-measlesImmunisation-2024, claim TL:LKA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 46.9329705143603,
+   "display": "46.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LKA#claim-safeWater-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-safeWater-2024, claim TL:LKA:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 92.7399978637695,
+   "display": "92.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-literacyRate-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-literacyRate-2024, claim TL:LKA:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 1.82774571561927,
+   "display": "1.8%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-eduSpendPctGdp-2023, claim TL:LKA:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 91.4511421235026,
+   "display": "91.5%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-primaryEnrolment-2023, claim TL:LKA:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 87.9534065332114,
+   "display": "88.0%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-secondaryEnrolment-2023, claim TL:LKA:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:tertiaryEnrolment:2023",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 20.7412633848006,
+   "display": "20.7%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-tertiaryEnrolment-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-tertiaryEnrolment-2023, claim TL:LKA:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:rdSpending:2022",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.10506,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-rdSpending-2022",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-rdSpending-2022, claim TL:LKA:rdSpending:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:researchers:2022",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 94.4866,
+   "display": "94",
+   "unit": "per million",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-researchers-2022",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-researchers-2022, claim TL:LKA:researchers:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 54.59,
+   "display": "54.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-internetUsers-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-internetUsers-2024, claim TL:LKA:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 132.548743018664,
+   "display": "133",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LKA#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-mobileSubs-2024, claim TL:LKA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.53793971540437,
+   "display": "1.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-highTechExports-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-highTechExports-2024, claim TL:LKA:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 61860,
+   "display": "61,860 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-landArea-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-landArea-2023, claim TL:LKA:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 34.0048496605238,
+   "display": "34.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-forestPct-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-forestPct-2023, claim TL:LKA:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 48.6081474296799,
+   "display": "48.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-agriPct-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-agriPct-2023, claim TL:LKA:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 1.06473352801606,
+   "display": "1.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-co2PerCapita-2024, claim TL:LKA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 48.8,
+   "display": "48.8%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-renewablePct-2021",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-renewablePct-2021, claim TL:LKA:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.0832444969793704,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-resourceRents-2021",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-resourceRents-2021, claim TL:LKA:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-oilRents-2021",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-oilRents-2021, claim TL:LKA:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-mineralRents-2021",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-mineralRents-2021, claim TL:LKA:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0832444969793704,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-forestRents-2021",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-forestRents-2021, claim TL:LKA:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-electricityAccess-2023, claim TL:LKA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.42539087177796,
+   "display": "1.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-milExpPctGdp-2024, claim TL:LKA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 1333312353.41663,
+   "display": "$1.3 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-milExpUsd-2024, claim TL:LKA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LKA:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 317000,
+   "display": "317,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LKA#claim-armedForces-2020",
+   "citation": "Terralore, \"Sri Lanka — national dossier\", terralore.co/country/LKA#claim-armedForces-2020, claim TL:LKA:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:NGA:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/NGA.claims.json
+
 History: "From the Nok artisans and the great Sahelian and forest kingdoms to a colonial amalgamation, a hard-won independence, and Africa's most populous nation." — the sourced chronicle is at https://terralore.co/country/NGA/chronicle.md (6 eras, 24 events).
 
 ## Sources

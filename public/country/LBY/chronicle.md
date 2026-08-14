@@ -79,6 +79,8 @@ Figures:
 
 - Muammar Gaddafi (1942–2011) — Ruler of Libya, 1969–2011. Leader of the 1969 coup, he ruled Libya for 42 years through a personal system he called the Jamahiriya. Confrontational abroad and repressive at home, he was overthrown and killed in the 2011 uprising amid NATO intervention.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LBY:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LBY/chronicle.claims.json
+
 ## References
 
 - [britannica-libya] Libya — Encyclopaedia Britannica · https://www.britannica.com/place/Libya

@@ -96,6 +96,8 @@ Figures:
 - Vytautas Landsbergis (born 1932) — Leader of Sajudis and head of state. Musicologist who led the Sajudis movement and chaired the Supreme Council that restored independence on 11 March 1990, becoming the new state's first leader and rallying its people during the January 1991 crackdown.
 - Marija Gimbutas (1921 – 1994) — Archaeologist of the Baltic past. Lithuanian-born archaeologist whose work on prehistoric Europe and 'Old European' culture won international renown, a figure of the diaspora that kept Lithuanian scholarship and identity alive abroad.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LTU:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LTU/chronicle.claims.json
+
 ## References
 
 - [mindaugas-britannica] Mindaugas — Encyclopaedia Britannica · https://www.britannica.com/biography/Mindaugas

@@ -84,6 +84,8 @@ Figures:
 
 - Kaysone Phomvihane (1920-1992) — First prime minister and later president of the Lao PDR. The dominant figure of the republic's first generation, he kept Laos closely allied with Vietnam and, in his final years, opened the economy through the New Economic Mechanism before his death in 1992.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LAO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LAO/chronicle.claims.json
+
 ## References
 
 - [laos-history] Laos: History — Encyclopaedia Britannica · https://www.britannica.com/place/Laos/History

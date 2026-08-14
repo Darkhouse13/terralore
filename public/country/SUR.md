@@ -104,6 +104,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:SUR:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/SUR.claims.json
+
 History: "From the Arawak and Carib coast to a Dutch plantation colony built on sugar and slavery, the Maroon republics of the forest, the most ethnically plural society in the Americas, and an independent nation born in 1975." — the sourced chronicle is at https://terralore.co/country/SUR/chronicle.md (6 eras, 19 events).
 
 ## Sources

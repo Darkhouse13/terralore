@@ -97,6 +97,8 @@ Figures:
 - Nelson Mandela (1918–2013) — First President of democratic South Africa. Inaugurated in 1994 after 27 years' imprisonment, he led South Africa's peaceful transition, championed reconciliation, and stepped down after a single term, becoming a global symbol of freedom and forgiveness.
 - Desmond Tutu (1931–2021) — Archbishop and chair of the TRC. Anglican archbishop and Nobel Peace laureate who gave moral voice to the anti-apartheid cause and chaired the Truth and Reconciliation Commission, coining the vision of South Africa as a 'rainbow nation'.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ZAF:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ZAF/chronicle.claims.json
+
 ## References
 
 - [britannica-sahistory] South Africa (country, history and government) — Encyclopaedia Britannica · https://www.britannica.com/place/South-Africa

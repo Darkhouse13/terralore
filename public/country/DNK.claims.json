@@ -1,0 +1,850 @@
+{
+ "subject": "DNK",
+ "name": "Denmark",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/DNK",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:DNK:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 424524722037.047,
+   "display": "$425 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-gdp-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-gdp-2024, claim TL:DNK:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 71026.4832271897,
+   "display": "$71,026",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-gdpPerCapita-2024, claim TL:DNK:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.47783593140312,
+   "display": "3.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-gdpGrowth-2024, claim TL:DNK:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 1.37220049768925,
+   "display": "1.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-inflation-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-inflation-2024, claim TL:DNK:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 131.765030975207,
+   "display": "131.8%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-tradePctGdp-2024, claim TL:DNK:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 5976992,
+   "display": "6.0 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-population-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-population-2024, claim TL:DNK:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 82.2536585365854,
+   "display": "82.3 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-lifeExpectancy-2024, claim TL:DNK:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 88.6960552688405,
+   "display": "88.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-urbanPct-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-urbanPct-2024, claim TL:DNK:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.47,
+   "display": "1.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-fertility-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-fertility-2024, claim TL:DNK:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 90.0154146,
+   "display": "90.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-wgiVoice-2024, claim TL:DNK:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 79.0280276,
+   "display": "79.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-wgiStability-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-wgiStability-2024, claim TL:DNK:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 88.5349172,
+   "display": "88.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-wgiEffectiveness-2024, claim TL:DNK:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 85.3127667,
+   "display": "85.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-wgiRegQuality-2024, claim TL:DNK:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 91.4603795,
+   "display": "91.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-wgiRuleOfLaw-2024, claim TL:DNK:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 94.1568337,
+   "display": "94.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-wgiCorruption-2024, claim TL:DNK:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:healthSpendPctGdp:2024",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 9.38812923,
+   "display": "9.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-healthSpendPctGdp-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-healthSpendPctGdp-2024, claim TL:DNK:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:physicians:2021",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 4.498,
+   "display": "4.50",
+   "unit": "per 1,000",
+   "observed": 2021,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-physicians-2021",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-physicians-2021, claim TL:DNK:physicians:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 4,
+   "display": "4.0",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-underFiveMortality-2024, claim TL:DNK:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 94,
+   "display": "94.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-measlesImmunisation-2024, claim TL:DNK:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 99.9188271389611,
+   "display": "99.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DNK#claim-safeWater-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-safeWater-2024, claim TL:DNK:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 6.35586023330688,
+   "display": "6.4%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-eduSpendPctGdp-2022, claim TL:DNK:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 99.7760925292969,
+   "display": "99.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-primaryEnrolment-2024, claim TL:DNK:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 125.628089904785,
+   "display": "125.6%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-secondaryEnrolment-2024, claim TL:DNK:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 78.9604110717773,
+   "display": "79.0%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-tertiaryEnrolment-2024, claim TL:DNK:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 3.04841,
+   "display": "3.0%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-rdSpending-2023",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-rdSpending-2023, claim TL:DNK:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 8837.51688,
+   "display": "8,838",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-researchers-2023",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-researchers-2023, claim TL:DNK:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 99.76915157,
+   "display": "99.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-internetUsers-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-internetUsers-2024, claim TL:DNK:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 126.686532566268,
+   "display": "127",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DNK#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-mobileSubs-2024, claim TL:DNK:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 17.6194498489345,
+   "display": "17.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-highTechExports-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-highTechExports-2024, claim TL:DNK:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 40000,
+   "display": "40,000 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-landArea-2023",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-landArea-2023, claim TL:DNK:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 15.7815,
+   "display": "15.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-forestPct-2023",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-forestPct-2023, claim TL:DNK:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 65.525,
+   "display": "65.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-agriPct-2023",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-agriPct-2023, claim TL:DNK:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 4.2782054919933,
+   "display": "4.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-co2PerCapita-2024, claim TL:DNK:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 39.5,
+   "display": "39.5%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-renewablePct-2021",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-renewablePct-2021, claim TL:DNK:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.33866438619955,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-resourceRents-2021",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-resourceRents-2021, claim TL:DNK:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.270290117190291,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-oilRents-2021",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-oilRents-2021, claim TL:DNK:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-mineralRents-2021",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-mineralRents-2021, claim TL:DNK:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0132691377186323,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-forestRents-2021",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-forestRents-2021, claim TL:DNK:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-electricityAccess-2023, claim TL:DNK:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.41617454160591,
+   "display": "2.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-milExpPctGdp-2024, claim TL:DNK:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 9958899778.69112,
+   "display": "$10.0 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-milExpUsd-2024, claim TL:DNK:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DNK:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 15000,
+   "display": "15,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DNK#claim-armedForces-2020",
+   "citation": "Terralore, \"Denmark — national dossier\", terralore.co/country/DNK#claim-armedForces-2020, claim TL:DNK:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

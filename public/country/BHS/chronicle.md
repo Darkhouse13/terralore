@@ -76,6 +76,8 @@ Figures:
 
 - Hubert Ingraham (born 1947) — Prime Minister of The Bahamas (1992–2002, 2007–2012). Lawyer and Free National Movement leader who in 1992 ended Lynden Pindling's twenty-five-year rule in the first democratic change of government, and served two further terms as prime minister, presiding over continued growth in tourism and finance.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BHS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BHS/chronicle.claims.json
+
 ## References
 
 - [britannica-history] The Bahamas — British colonization (History) — Encyclopaedia Britannica · https://www.britannica.com/place/The-Bahamas/British-colonization

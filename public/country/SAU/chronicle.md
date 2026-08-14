@@ -90,6 +90,8 @@ Figures:
 - King Faisal (1906 - 1975) — King of Saudi Arabia, 1964-1975. Modernizing monarch who led the 1973 oil embargo and raised Saudi Arabia to the status of a world power before his assassination in 1975.
 - Mohammed bin Salman (born 1985) — Crown Prince and Prime Minister. Architect of Vision 2030, the 2016 program to diversify the economy beyond oil and transform Saudi society, and the dominant figure in 21st-century Saudi politics.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SAU:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SAU/chronicle.claims.json
+
 ## References
 
 - [britannica-saudi-kingdom] Saudi Arabia: The Kingdom of Saudi Arabia — Encyclopaedia Britannica · https://www.britannica.com/place/Saudi-Arabia

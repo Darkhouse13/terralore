@@ -94,6 +94,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:PRI:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/PRI.claims.json
+
 History: "Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo." — the sourced chronicle is at https://terralore.co/country/PRI/chronicle.md (6 eras, 19 events).
 
 ## Sources

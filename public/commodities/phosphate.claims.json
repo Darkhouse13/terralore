@@ -1,0 +1,1521 @@
+{
+ "subject": "phosphate",
+ "name": "Phosphate rock",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/phosphate",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodPhosphate-total:2024",
+   "value": 239000000,
+   "display": "239 Mt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-world",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-world, claim TL:WLD:prodPhosphate-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodPhosphate-total:2025",
+   "value": 250000000,
+   "display": "250 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-world",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-world, claim TL:WLD:prodPhosphate-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:CHN:prodPhosphate-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.4393305439330544,
+   "display": "44%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodPhosphate:2024",
+    "value": 105000000,
+    "display": "105 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-chn, claim TL:CHN:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-chn",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-chn, claim TL:CHN:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodPhosphate-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.44,
+   "display": "44%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodPhosphate:2025",
+    "value": 110000000,
+    "display": "110 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-chn, claim TL:CHN:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-chn",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-chn, claim TL:CHN:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MAR:prodPhosphate-share:2024",
+   "nation": "MAR",
+   "name": "Morocco",
+   "value": 0.1476987447698745,
+   "display": "15%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MAR:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MAR:prodPhosphate:2024",
+    "value": 35300000,
+    "display": "35 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mar, claim TL:MAR:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-mar",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mar, claim TL:MAR:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MAR:prodPhosphate-share:2025",
+   "nation": "MAR",
+   "name": "Morocco",
+   "value": 0.144,
+   "display": "14%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MAR:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MAR:prodPhosphate:2025",
+    "value": 36000000,
+    "display": "36 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mar, claim TL:MAR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-mar",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mar, claim TL:MAR:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodPhosphate-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.08117154811715481,
+   "display": "8.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodPhosphate:2024",
+    "value": 19400000,
+    "display": "19 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-usa, claim TL:USA:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-usa",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-usa, claim TL:USA:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodPhosphate-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.08,
+   "display": "8.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodPhosphate:2025",
+    "value": 20000000,
+    "display": "20 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-usa, claim TL:USA:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-usa",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-usa, claim TL:USA:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodPhosphate-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.0602510460251046,
+   "display": "6.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodPhosphate:2024",
+    "value": 14400000,
+    "display": "14 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-rus, claim TL:RUS:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-rus",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-rus, claim TL:RUS:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodPhosphate-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.056,
+   "display": "5.6%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodPhosphate:2025",
+    "value": 14000000,
+    "display": "14 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-rus, claim TL:RUS:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-rus",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-rus, claim TL:RUS:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JOR:prodPhosphate-share:2024",
+   "nation": "JOR",
+   "name": "Jordan",
+   "value": 0.04811715481171548,
+   "display": "4.8%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:JOR:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:JOR:prodPhosphate:2024",
+    "value": 11500000,
+    "display": "12 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-jor, claim TL:JOR:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-jor",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-jor, claim TL:JOR:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JOR:prodPhosphate-share:2025",
+   "nation": "JOR",
+   "name": "Jordan",
+   "value": 0.048,
+   "display": "4.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:JOR:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:JOR:prodPhosphate:2025",
+    "value": 12000000,
+    "display": "12 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-jor, claim TL:JOR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-jor",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-jor, claim TL:JOR:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SAU:prodPhosphate-share:2024",
+   "nation": "SAU",
+   "name": "Saudi Arabia",
+   "value": 0.04184100418410042,
+   "display": "4.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:SAU:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:SAU:prodPhosphate:2024",
+    "value": 10000000,
+    "display": "10 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sau, claim TL:SAU:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-sau",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sau, claim TL:SAU:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SAU:prodPhosphate-share:2025",
+   "nation": "SAU",
+   "name": "Saudi Arabia",
+   "value": 0.04,
+   "display": "4.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:SAU:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:SAU:prodPhosphate:2025",
+    "value": 10000000,
+    "display": "10 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sau, claim TL:SAU:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-sau",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sau, claim TL:SAU:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:prodPhosphate-share:2024",
+   "nation": "EGY",
+   "name": "Egypt",
+   "value": 0.022175732217573223,
+   "display": "2.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:EGY:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:EGY:prodPhosphate:2024",
+    "value": 5300000,
+    "display": "5.3 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-egy, claim TL:EGY:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-egy",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-egy, claim TL:EGY:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:prodPhosphate-share:2025",
+   "nation": "EGY",
+   "name": "Egypt",
+   "value": 0.022,
+   "display": "2.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:EGY:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:EGY:prodPhosphate:2025",
+    "value": 5500000,
+    "display": "5.5 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-egy, claim TL:EGY:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-egy",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-egy, claim TL:EGY:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodPhosphate-share:2024",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.022175732217573223,
+   "display": "2.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodPhosphate:2024",
+    "value": 5300000,
+    "display": "5.3 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-bra, claim TL:BRA:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-bra",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-bra, claim TL:BRA:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodPhosphate-share:2025",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.02,
+   "display": "2.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodPhosphate:2025",
+    "value": 5000000,
+    "display": "5.0 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-bra, claim TL:BRA:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-bra",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-bra, claim TL:BRA:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodPhosphate-share:2024",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.0200836820083682,
+   "display": "2.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodPhosphate:2024",
+    "value": 4800000,
+    "display": "4.8 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-per, claim TL:PER:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-per",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-per, claim TL:PER:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodPhosphate-share:2025",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.0192,
+   "display": "1.9%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodPhosphate:2025",
+    "value": 4800000,
+    "display": "4.8 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-per, claim TL:PER:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-per",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-per, claim TL:PER:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:prodPhosphate-share:2024",
+   "nation": "TUN",
+   "name": "Tunisia",
+   "value": 0.013723849372384937,
+   "display": "1.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:TUN:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:TUN:prodPhosphate:2024",
+    "value": 3280000,
+    "display": "3.3 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tun, claim TL:TUN:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-tun",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tun, claim TL:TUN:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:prodPhosphate-share:2025",
+   "nation": "TUN",
+   "name": "Tunisia",
+   "value": 0.0132,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:TUN:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:TUN:prodPhosphate:2025",
+    "value": 3300000,
+    "display": "3.3 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tun, claim TL:TUN:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-tun",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tun, claim TL:TUN:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:prodPhosphate-share:2024",
+   "nation": "VNM",
+   "name": "Vietnam",
+   "value": 0.012552301255230125,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:VNM:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:VNM:prodPhosphate:2024",
+    "value": 3000000,
+    "display": "3.0 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-vnm, claim TL:VNM:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-vnm",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-vnm, claim TL:VNM:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:prodPhosphate-share:2025",
+   "nation": "VNM",
+   "name": "Vietnam",
+   "value": 0.012,
+   "display": "1.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:VNM:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:VNM:prodPhosphate:2025",
+    "value": 3000000,
+    "display": "3.0 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-vnm, claim TL:VNM:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-vnm",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-vnm, claim TL:VNM:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SEN:prodPhosphate-share:2024",
+   "nation": "SEN",
+   "name": "Senegal",
+   "value": 0.011715481171548118,
+   "display": "1.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:SEN:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:SEN:prodPhosphate:2024",
+    "value": 2800000,
+    "display": "2.8 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sen, claim TL:SEN:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-sen",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sen, claim TL:SEN:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SEN:prodPhosphate-share:2025",
+   "nation": "SEN",
+   "name": "Senegal",
+   "value": 0.0112,
+   "display": "1.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:SEN:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:SEN:prodPhosphate:2025",
+    "value": 2800000,
+    "display": "2.8 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sen, claim TL:SEN:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-sen",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-sen, claim TL:SEN:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodPhosphate-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.010460251046025104,
+   "display": "1.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodPhosphate:2024",
+    "value": 2500000,
+    "display": "2.5 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-aus, claim TL:AUS:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-aus",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-aus, claim TL:AUS:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodPhosphate-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.01,
+   "display": "1.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodPhosphate:2025",
+    "value": 2500000,
+    "display": "2.5 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-aus, claim TL:AUS:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-aus",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-aus, claim TL:AUS:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZAF:prodPhosphate-share:2024",
+   "nation": "ZAF",
+   "name": "South Africa",
+   "value": 0.009288702928870293,
+   "display": "0.93%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:ZAF:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:ZAF:prodPhosphate:2024",
+    "value": 2220000,
+    "display": "2.2 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-zaf, claim TL:ZAF:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-zaf",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-zaf, claim TL:ZAF:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZAF:prodPhosphate-share:2025",
+   "nation": "ZAF",
+   "name": "South Africa",
+   "value": 0.0088,
+   "display": "0.88%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:ZAF:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:ZAF:prodPhosphate:2025",
+    "value": 2200000,
+    "display": "2.2 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-zaf, claim TL:ZAF:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-zaf",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-zaf, claim TL:ZAF:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DZA:prodPhosphate-share:2024",
+   "nation": "DZA",
+   "name": "Algeria",
+   "value": 0.008368200836820083,
+   "display": "0.84%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:DZA:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:DZA:prodPhosphate:2024",
+    "value": 2000000,
+    "display": "2.0 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-dza, claim TL:DZA:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-dza",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-dza, claim TL:DZA:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DZA:prodPhosphate-share:2025",
+   "nation": "DZA",
+   "name": "Algeria",
+   "value": 0.008,
+   "display": "0.80%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:DZA:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:DZA:prodPhosphate:2025",
+    "value": 2000000,
+    "display": "2.0 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-dza, claim TL:DZA:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-dza",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-dza, claim TL:DZA:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodPhosphate-share:2024",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.007112970711297071,
+   "display": "0.71%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodPhosphate:2024",
+    "value": 1700000,
+    "display": "1.7 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-kaz, claim TL:KAZ:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-kaz",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-kaz, claim TL:KAZ:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodPhosphate-share:2025",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.0076,
+   "display": "0.76%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodPhosphate:2025",
+    "value": 1900000,
+    "display": "1.9 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-kaz, claim TL:KAZ:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-kaz",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-kaz, claim TL:KAZ:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TGO:prodPhosphate-share:2024",
+   "nation": "TGO",
+   "name": "Togo",
+   "value": 0.0065271966527196655,
+   "display": "0.65%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:TGO:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:TGO:prodPhosphate:2024",
+    "value": 1560000,
+    "display": "1.6 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tgo, claim TL:TGO:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-tgo",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tgo, claim TL:TGO:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TGO:prodPhosphate-share:2025",
+   "nation": "TGO",
+   "name": "Togo",
+   "value": 0.0064,
+   "display": "0.64%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:TGO:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:TGO:prodPhosphate:2025",
+    "value": 1600000,
+    "display": "1.6 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tgo, claim TL:TGO:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-tgo",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tgo, claim TL:TGO:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodPhosphate-share:2024",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.007112970711297071,
+   "display": "0.71%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodPhosphate:2024",
+    "value": 1700000,
+    "display": "1.7 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-ind, claim TL:IND:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-ind",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-ind, claim TL:IND:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodPhosphate-share:2025",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.006,
+   "display": "0.60%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodPhosphate:2025",
+    "value": 1500000,
+    "display": "1.5 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-ind, claim TL:IND:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-ind",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-ind, claim TL:IND:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodPhosphate-share:2024",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.005104602510460251,
+   "display": "0.51%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodPhosphate:2024",
+    "value": 1220000,
+    "display": "1.2 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tur, claim TL:TUR:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-tur",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tur, claim TL:TUR:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodPhosphate-share:2025",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.0048,
+   "display": "0.48%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodPhosphate:2025",
+    "value": 1200000,
+    "display": "1.2 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tur, claim TL:TUR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-tur",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-tur, claim TL:TUR:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FIN:prodPhosphate-share:2024",
+   "nation": "FIN",
+   "name": "Finland",
+   "value": 0.004075313807531381,
+   "display": "0.41%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:FIN:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:FIN:prodPhosphate:2024",
+    "value": 974000,
+    "display": "974 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-fin, claim TL:FIN:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-fin",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-fin, claim TL:FIN:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FIN:prodPhosphate-share:2025",
+   "nation": "FIN",
+   "name": "Finland",
+   "value": 0.00392,
+   "display": "0.39%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:FIN:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:FIN:prodPhosphate:2025",
+    "value": 980000,
+    "display": "980 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-fin, claim TL:FIN:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-fin",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-fin, claim TL:FIN:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:UZB:prodPhosphate-share:2024",
+   "nation": "UZB",
+   "name": "Uzbekistan",
+   "value": 0.0039748953974895395,
+   "display": "0.40%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:UZB:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:UZB:prodPhosphate:2024",
+    "value": 950000,
+    "display": "950 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-uzb, claim TL:UZB:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-uzb",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-uzb, claim TL:UZB:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:UZB:prodPhosphate-share:2025",
+   "nation": "UZB",
+   "name": "Uzbekistan",
+   "value": 0.0038,
+   "display": "0.38%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:UZB:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:UZB:prodPhosphate:2025",
+    "value": 950000,
+    "display": "950 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-uzb, claim TL:UZB:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-uzb",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-uzb, claim TL:UZB:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:prodPhosphate-share:2024",
+   "nation": "SYR",
+   "name": "Syria",
+   "value": 0.0033472803347280333,
+   "display": "0.33%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:SYR:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:SYR:prodPhosphate:2024",
+    "value": 800000,
+    "display": "800 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-syr, claim TL:SYR:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-syr",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-syr, claim TL:SYR:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SYR:prodPhosphate-share:2025",
+   "nation": "SYR",
+   "name": "Syria",
+   "value": 0.0032,
+   "display": "0.32%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:SYR:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:SYR:prodPhosphate:2025",
+    "value": 800000,
+    "display": "800 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-syr, claim TL:SYR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-syr",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-syr, claim TL:SYR:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodPhosphate-share:2024",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.0015271966527196652,
+   "display": "0.15%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodPhosphate:2024",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodPhosphate:2024",
+    "value": 365000,
+    "display": "365 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mex, claim TL:MEX:prodPhosphate:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-mex",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mex, claim TL:MEX:prodPhosphate-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodPhosphate-share:2025",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.0018,
+   "display": "0.18%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodPhosphate:2025",
+    "worldTotal": "TL:WLD:prodPhosphate-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodPhosphate:2025",
+    "value": 450000,
+    "display": "450 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mex, claim TL:MEX:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/phosphate#claim-mex",
+   "citation": "Terralore, \"Phosphate rock — who supplies the world\", terralore.co/commodities/phosphate#claim-mex, claim TL:MEX:prodPhosphate-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -96,6 +96,8 @@ Figures:
 - Eleftherios Venizelos (1864 – 1936) — Statesman and seven-time Prime Minister. The dominant Greek statesman of the early 20th century, who led territorial expansion in the Balkan Wars and modernization at home, and whose career was bound up with the era of the Great Idea and the Asia Minor campaign.
 - Konstantinos Karamanlis (1907 – 1998) — Prime Minister and President of the Republic. Statesman who led Greece's return to democracy after the fall of the junta in 1974, oversaw the abolition of the monarchy, and guided the country into the European Communities.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GRC:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GRC/chronicle.claims.json
+
 ## References
 
 - [britannica-greece] Greece (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Greece

@@ -76,6 +76,8 @@ Figures:
 
 - France-Albert René (1935–2019) — President of Seychelles (1977–2004). Took power in the 1977 coup and led a one-party socialist state before overseeing the return to multiparty democracy in 1993; he remained president until 2004.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SYC:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SYC/chronicle.claims.json
+
 ## References
 
 - [wiki-history] History of Seychelles — Wikipedia · https://en.wikipedia.org/wiki/History_of_Seychelles

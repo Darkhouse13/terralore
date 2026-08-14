@@ -95,6 +95,8 @@ Figures:
 - Houari Boumédiène (1932–1978; r. 1965–1978) — President of Algeria. Army commander who overthrew Ben Bella in 1965 and ruled until his death, nationalising the hydrocarbon industry and building a socialist, non-aligned Algerian state.
 - Abdelaziz Bouteflika (1937–2021; r. 1999–2019) — President of Algeria. Veteran of the independence war who as president ended the civil war through national reconciliation but, seeking a fifth term, was forced from office by the 2019 Hirak protests.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:DZA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/DZA/chronicle.claims.json
+
 ## References
 
 - [britannica-masinissa] Masinissa — Encyclopaedia Britannica · https://www.britannica.com/biography/Masinissa

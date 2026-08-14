@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:FRA:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/FRA.claims.json
+
 History: "From the forests of Gaul to the Fifth Republic" — the sourced chronicle is at https://terralore.co/country/FRA/chronicle.md (5 eras, 19 events).
 
 ## Sources

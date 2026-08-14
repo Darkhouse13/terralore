@@ -80,6 +80,8 @@ Master of its waterway at last, Panama built a service and logistics economy aro
 - 2000: **Panama administers the canal** — The Panama Canal Authority assumes full management of the waterway, anchoring a service and logistics economy. [state-panama-canal, britannica-panama]
 - 26 June 2016: **Expanded canal opens** — New Agua Clara and Cocoli locks open, roughly doubling capacity and admitting larger Neopanamax vessels. [britannica-canal-expansion, britannica-panama]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PAN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PAN/chronicle.claims.json
+
 ## References
 
 - [britannica-balboa] Vasco Nunez de Balboa — Encyclopaedia Britannica · https://www.britannica.com/biography/Vasco-Nunez-de-Balboa

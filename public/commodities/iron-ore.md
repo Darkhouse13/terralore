@@ -35,6 +35,8 @@ Shares are computed against the published world total itself, never against the 
 
 Rest of world is the published world total minus the producers listed: the MCS "Other countries" aggregate, withheld figures, and production this atlas does not file under a separate entity. It is real, published tonnage not attributable to a single nation here.
 
+Machine-readable claims — every share and tonnage above as an addressable claim ID with its derivation and a ready citation string: https://terralore.co/commodities/iron-ore.claims.json
+
 ## Sources
 
 - Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-11 · https://www.usgs.gov/centers/national-minerals-information-center

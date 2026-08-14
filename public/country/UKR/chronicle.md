@@ -100,6 +100,8 @@ Figures:
 - Viktor Yushchenko (born 1954) — President of Ukraine. Pro-Western reformer whose disputed defeat in the 2004 election sparked the Orange Revolution; a court-ordered re-run made him president, marking Ukraine's turn toward Europe.
 - Volodymyr Zelensky (born 1978) — President of Ukraine. Elected president in 2019, Zelensky became the wartime leader of Ukraine after Russia's full-scale invasion in February 2022, rallying national and international support for the country's defence.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:UKR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/UKR/chronicle.claims.json
+
 ## References
 
 - [history-ukraine-britannica] History of Ukraine — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Ukraine

@@ -82,6 +82,8 @@ Figures:
 
 - Alpha Condé (b. 1938) — President of Guinea (2010–2021). Long-time opposition leader who became Guinea's first competitively elected president in 2010; re-elected in 2015 and 2020, he was overthrown in the 2021 coup.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GIN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GIN/chronicle.claims.json
+
 ## References
 
 - [britannica-guinea] Guinea — History — Encyclopaedia Britannica · https://www.britannica.com/place/Guinea

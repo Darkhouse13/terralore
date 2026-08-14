@@ -88,6 +88,8 @@ Figures:
 
 - Mohamed Farrah Aidid (1934–1996) — Faction leader in the civil war. Powerful Mogadishu warlord whose militia's clashes with UN and US forces, culminating in the 1993 'Black Hawk Down' battle, helped collapse the international intervention; he was killed in 1996.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SOM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SOM/chronicle.claims.json
+
 ## References
 
 - [britannica-somalia] Somalia (country and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Somalia

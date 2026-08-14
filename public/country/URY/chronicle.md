@@ -84,6 +84,8 @@ Figures:
 
 - Jose Mujica (1935-2025) — Guerrilla, prisoner, and president. Former Tupamaro guerrilla who spent some thirteen years in prison under the dictatorship, then served as president from 2010 to 2015. Famed for his austere lifestyle, he oversaw landmark progressive reforms and became a symbol of modern Uruguay.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:URY:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/URY/chronicle.claims.json
+
 ## References
 
 - [britannica-uruguay] Uruguay — Encyclopaedia Britannica · https://www.britannica.com/place/Uruguay

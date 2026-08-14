@@ -101,6 +101,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:DJI:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/DJI.claims.json
+
 History: "A small Horn of Africa republic at the Bab-el-Mandeb gateway, from ancient trade and early Islam through French Somaliland to a coveted hub of world shipping and foreign military bases." — the sourced chronicle is at https://terralore.co/country/DJI/chronicle.md (6 eras, 24 events).
 
 ## Sources

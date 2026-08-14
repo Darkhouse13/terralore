@@ -30,6 +30,8 @@ Rest of world is the published world total minus the producers listed: the MCS "
 
 United States: its figure is withheld by the USGS ("W") to avoid disclosing company proprietary data. A withheld figure is an absence in this table, never a zero; where the USGS folds withheld production into its world total, that tonnage sits inside Rest of world.
 
+Machine-readable claims — every share and tonnage above as an addressable claim ID with its derivation and a ready citation string: https://terralore.co/commodities/lithium.claims.json
+
 ## Sources
 
 - Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-11 · https://www.usgs.gov/centers/national-minerals-information-center

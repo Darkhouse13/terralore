@@ -85,6 +85,8 @@ Figures:
 - Sultan Hassanal Bolkiah (born 1946; reigned since 1967) — 29th Sultan of Brunei and head of state. Acceding in 1967 and leading Brunei to independence in 1984, he rules as one of the world's last absolute monarchs, combining the offices of sultan and prime minister and presiding over an oil-rich state guided by the Malay Islamic Monarchy ideology.
 - A. M. Azahari (1928-2002) — Leader of the Brunei People's Party. Founder of the Parti Rakyat Brunei, whose armed wing launched the failed 1962 revolt against the sultanate and the Malaysia plan in pursuit of a unified North Kalimantan; he spent the rest of his life in exile.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BRN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BRN/chronicle.claims.json
+
 ## References
 
 - [britannica-history-brunei] History of Brunei — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Brunei

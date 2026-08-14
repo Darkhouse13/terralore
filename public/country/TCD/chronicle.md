@@ -81,6 +81,8 @@ Figures:
 - Idriss Déby Itno (1952–2021) — President of Chad (1990–2021). Seized power in 1990 and ruled for three decades as a key Western military ally in the Sahel; killed in 2021 during a rebel offensive, after which his son succeeded him.
 - Hissène Habré (1942–2021) — President of Chad (1982–1990). Wartime leader who defeated Libya in 1987 but ran a regime blamed for tens of thousands of deaths; convicted of crimes against humanity in Senegal in 2016.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TCD:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TCD/chronicle.claims.json
+
 ## References
 
 - [nature-sahelanthropus] Sahelanthropus tchadensis — Wikipedia · https://en.wikipedia.org/wiki/Sahelanthropus

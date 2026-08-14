@@ -72,6 +72,8 @@ Figures:
 
 - Lee Teng-hui (1923-2020) — President of the Republic of China (1988-2000). Succeeding to the presidency in 1988, he ended martial law, drove constitutional reform, and in 1996 won Taiwan's first direct presidential election, presiding over the island's transition to democracy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TWN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TWN/chronicle.claims.json
+
 ## References
 
 - [britannica-taiwan] Taiwan — Encyclopaedia Britannica · https://www.britannica.com/place/Taiwan

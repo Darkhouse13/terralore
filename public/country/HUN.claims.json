@@ -1,0 +1,850 @@
+{
+ "subject": "HUN",
+ "name": "Hungary",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/HUN",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:HUN:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 222722738925.641,
+   "display": "$223 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-gdp-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-gdp-2024, claim TL:HUN:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 23292.3263882478,
+   "display": "$23,292",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-gdpPerCapita-2024, claim TL:HUN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 0.560117843140432,
+   "display": "0.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-gdpGrowth-2024, claim TL:HUN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 3.70370370370369,
+   "display": "3.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-inflation-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-inflation-2024, claim TL:HUN:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 146.504561505902,
+   "display": "146.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-tradePctGdp-2024, claim TL:HUN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 9562065,
+   "display": "9.6 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-population-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-population-2024, claim TL:HUN:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 76.7243902439025,
+   "display": "76.7 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-lifeExpectancy-2024, claim TL:HUN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 70.491825943218,
+   "display": "70.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-urbanPct-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-urbanPct-2024, claim TL:HUN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.41,
+   "display": "1.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-fertility-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-fertility-2024, claim TL:HUN:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 56.3639304,
+   "display": "56.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-wgiVoice-2024, claim TL:HUN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 73.3475875,
+   "display": "73.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-wgiStability-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-wgiStability-2024, claim TL:HUN:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 61.0995877,
+   "display": "61.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-wgiEffectiveness-2024, claim TL:HUN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 60.146918,
+   "display": "60.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-wgiRegQuality-2024, claim TL:HUN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 60.2749551,
+   "display": "60.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-wgiRuleOfLaw-2024, claim TL:HUN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 48.6530989,
+   "display": "48.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-wgiCorruption-2024, claim TL:HUN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 6.36868954,
+   "display": "6.4%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-healthSpendPctGdp-2023, claim TL:HUN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 3.456,
+   "display": "3.46",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-physicians-2022",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-physicians-2022, claim TL:HUN:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 3.7,
+   "display": "3.7",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-underFiveMortality-2024, claim TL:HUN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 99,
+   "display": "99.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-measlesImmunisation-2024, claim TL:HUN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HUN#claim-safeWater-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-safeWater-2024, claim TL:HUN:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.8011999130249,
+   "display": "3.8%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-eduSpendPctGdp-2022, claim TL:HUN:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 102.887977600098,
+   "display": "102.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-primaryEnrolment-2024, claim TL:HUN:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 107.350929260254,
+   "display": "107.4%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-secondaryEnrolment-2024, claim TL:HUN:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 60.5168685913086,
+   "display": "60.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-tertiaryEnrolment-2024, claim TL:HUN:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 1.37748,
+   "display": "1.4%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-rdSpending-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-rdSpending-2023, claim TL:HUN:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 4567.0829,
+   "display": "4,567",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-researchers-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-researchers-2023, claim TL:HUN:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 93.77898628,
+   "display": "93.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-internetUsers-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-internetUsers-2024, claim TL:HUN:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 104.58063059269,
+   "display": "105",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HUN#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-mobileSubs-2024, claim TL:HUN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 22.5745118826045,
+   "display": "22.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-highTechExports-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-highTechExports-2024, claim TL:HUN:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 91260,
+   "display": "91,260 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-landArea-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-landArea-2023, claim TL:HUN:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 22.4484341442034,
+   "display": "22.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-forestPct-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-forestPct-2023, claim TL:HUN:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 55.6985097523559,
+   "display": "55.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-agriPct-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-agriPct-2023, claim TL:HUN:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 4.45791782423566,
+   "display": "4.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-co2PerCapita-2024, claim TL:HUN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 15.3,
+   "display": "15.3%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-renewablePct-2021",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-renewablePct-2021, claim TL:HUN:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.402362635857113,
+   "display": "0.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-resourceRents-2021",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-resourceRents-2021, claim TL:HUN:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.183887560301271,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-oilRents-2021",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-oilRents-2021, claim TL:HUN:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-mineralRents-2021",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-mineralRents-2021, claim TL:HUN:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0781133973061465,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-forestRents-2021",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-forestRents-2021, claim TL:HUN:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-electricityAccess-2023, claim TL:HUN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.15630980446665,
+   "display": "2.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-milExpPctGdp-2024, claim TL:HUN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 4734698455.68824,
+   "display": "$4.7 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-milExpUsd-2024, claim TL:HUN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HUN:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 46000,
+   "display": "46,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HUN#claim-armedForces-2020",
+   "citation": "Terralore, \"Hungary — national dossier\", terralore.co/country/HUN#claim-armedForces-2020, claim TL:HUN:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

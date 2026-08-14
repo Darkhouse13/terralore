@@ -109,6 +109,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:TGO:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/TGO.claims.json
+
 History: "From the Ewe exodus out of walled Notsé and the mud tower-houses of the Batammariba to the German 'model colony', a partitioned mandate, and a half-century ruled by one family." — the sourced chronicle is at https://terralore.co/country/TGO/chronicle.md (6 eras, 22 events).
 
 ## Sources

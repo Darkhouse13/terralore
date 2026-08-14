@@ -89,6 +89,8 @@ Figures:
 
 - Paul Kagame (born 1957) — President of Rwanda (from 2000). Leader of the RPF that ended the genocide and Rwanda's dominant figure ever since; credited with reconstruction and development but criticised for authoritarian rule and the repression of dissent.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:RWA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/RWA/chronicle.claims.json
+
 ## References
 
 - [wiki-history-rwanda] History of Rwanda — Wikipedia · https://en.wikipedia.org/wiki/History_of_Rwanda

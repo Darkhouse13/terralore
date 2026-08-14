@@ -100,6 +100,8 @@ Figures:
 - Paul-Henri Spaak (1899 – 1972) — Statesman, architect of European integration. Repeatedly Belgium's prime and foreign minister, Spaak was a leading founder of Benelux, the European Communities and NATO, serving as the alliance's secretary general, and is counted among the principal architects of post-war Western Europe.
 - Baudouin (1930 – 1993) — King of the Belgians. Coming to the throne in 1951 after the abdication of his father Leopold III, Baudouin reigned for over four decades, presiding over the decolonisation of the Congo and the long transformation of Belgium into a federal state.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BEL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BEL/chronicle.claims.json
+
 ## References
 
 - [belgium-history-britannica] Belgium: History — Encyclopaedia Britannica · https://www.britannica.com/place/Belgium/History

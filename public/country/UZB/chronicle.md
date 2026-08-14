@@ -88,6 +88,8 @@ Figures:
 - Islam Karimov (1938–2016) — First president of Uzbekistan. Born in Samarkand, the Soviet-era leader who became independent Uzbekistan's first president in 1991 and ruled for 25 years. He prized stability over rights, suppressing dissent and independent Islam until his death in 2016.
 - Shavkat Mirziyoyev (born 1957) — Second president of Uzbekistan. Karimov's prime minister, who succeeded him in 2016 and surprised observers with a programme of economic liberalisation, diplomatic opening and reform, including moves to end forced labour in the cotton industry.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:UZB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/UZB/chronicle.claims.json
+
 ## References
 
 - [britannica-sogdiana] Sogdiana — Central Asia, Silk Road, Persian Empire — Encyclopaedia Britannica · https://www.britannica.com/place/Sogdiana

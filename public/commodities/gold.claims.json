@@ -1,0 +1,881 @@
+{
+ "subject": "gold",
+ "name": "Gold",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/gold",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodGold-total:2024",
+   "value": 3280,
+   "display": "3,280 t",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-world",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-world, claim TL:WLD:prodGold-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodGold-total:2025",
+   "value": 3300,
+   "display": "3,300 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-world",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-world, claim TL:WLD:prodGold-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:CHN:prodGold-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.11493902439024391,
+   "display": "11%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodGold:2024",
+    "value": 377,
+    "display": "377 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-chn, claim TL:CHN:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-chn",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-chn, claim TL:CHN:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodGold-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.11515151515151516,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodGold:2025",
+    "value": 380,
+    "display": "380 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-chn, claim TL:CHN:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-chn",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-chn, claim TL:CHN:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodGold-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.09451219512195122,
+   "display": "9.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodGold:2024",
+    "value": 310,
+    "display": "310 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-rus, claim TL:RUS:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-rus",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-rus, claim TL:RUS:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodGold-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.09393939393939393,
+   "display": "9.4%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodGold:2025",
+    "value": 310,
+    "display": "310 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-rus, claim TL:RUS:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-rus",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-rus, claim TL:RUS:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodGold-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.08658536585365853,
+   "display": "8.7%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodGold:2024",
+    "value": 284,
+    "display": "284 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-aus, claim TL:AUS:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-aus",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-aus, claim TL:AUS:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodGold-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.08484848484848485,
+   "display": "8.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodGold:2025",
+    "value": 280,
+    "display": "280 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-aus, claim TL:AUS:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-aus",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-aus, claim TL:AUS:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodGold-share:2024",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.06097560975609756,
+   "display": "6.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodGold:2024",
+    "value": 200,
+    "display": "200 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-can, claim TL:CAN:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-can",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-can, claim TL:CAN:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodGold-share:2025",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.06060606060606061,
+   "display": "6.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodGold:2025",
+    "value": 200,
+    "display": "200 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-can, claim TL:CAN:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-can",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-can, claim TL:CAN:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodGold-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.049695121951219515,
+   "display": "5.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodGold:2024",
+    "value": 163,
+    "display": "163 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-usa, claim TL:USA:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-usa",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-usa, claim TL:USA:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodGold-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.048484848484848485,
+   "display": "4.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodGold:2025",
+    "value": 160,
+    "display": "160 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-usa, claim TL:USA:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-usa",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-usa, claim TL:USA:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GHA:prodGold-share:2024",
+   "nation": "GHA",
+   "name": "Ghana",
+   "value": 0.04542682926829268,
+   "display": "4.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:GHA:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:GHA:prodGold:2024",
+    "value": 149,
+    "display": "149 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-gha, claim TL:GHA:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-gha",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-gha, claim TL:GHA:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GHA:prodGold-share:2025",
+   "nation": "GHA",
+   "name": "Ghana",
+   "value": 0.045454545454545456,
+   "display": "4.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:GHA:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:GHA:prodGold:2025",
+    "value": 150,
+    "display": "150 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-gha, claim TL:GHA:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-gha",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-gha, claim TL:GHA:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodGold-share:2024",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.042682926829268296,
+   "display": "4.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodGold:2024",
+    "value": 140,
+    "display": "140 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-mex, claim TL:MEX:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-mex",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-mex, claim TL:MEX:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodGold-share:2025",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.04242424242424243,
+   "display": "4.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodGold:2025",
+    "value": 140,
+    "display": "140 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-mex, claim TL:MEX:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-mex",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-mex, claim TL:MEX:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodGold-share:2024",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.039634146341463415,
+   "display": "4.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodGold:2024",
+    "value": 130,
+    "display": "130 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-kaz, claim TL:KAZ:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-kaz",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-kaz, claim TL:KAZ:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodGold-share:2025",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.03939393939393939,
+   "display": "3.9%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodGold:2025",
+    "value": 130,
+    "display": "130 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-kaz, claim TL:KAZ:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-kaz",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-kaz, claim TL:KAZ:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:UZB:prodGold-share:2024",
+   "nation": "UZB",
+   "name": "Uzbekistan",
+   "value": 0.03932926829268293,
+   "display": "3.9%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:UZB:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:UZB:prodGold:2024",
+    "value": 129,
+    "display": "129 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-uzb, claim TL:UZB:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-uzb",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-uzb, claim TL:UZB:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:UZB:prodGold-share:2025",
+   "nation": "UZB",
+   "name": "Uzbekistan",
+   "value": 0.03939393939393939,
+   "display": "3.9%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:UZB:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:UZB:prodGold:2025",
+    "value": 130,
+    "display": "130 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-uzb, claim TL:UZB:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-uzb",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-uzb, claim TL:UZB:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodGold-share:2024",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.032926829268292684,
+   "display": "3.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodGold:2024",
+    "value": 108,
+    "display": "108 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-per, claim TL:PER:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-per",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-per, claim TL:PER:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodGold-share:2025",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.03333333333333333,
+   "display": "3.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodGold:2025",
+    "value": 110,
+    "display": "110 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-per, claim TL:PER:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-per",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-per, claim TL:PER:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodGold-share:2024",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.028658536585365855,
+   "display": "2.9%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodGold:2024",
+    "value": 94,
+    "display": "94 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-idn, claim TL:IDN:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-idn",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-idn, claim TL:IDN:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodGold-share:2025",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.02727272727272727,
+   "display": "2.7%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodGold:2025",
+    "value": 90,
+    "display": "90 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-idn, claim TL:IDN:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-idn",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-idn, claim TL:IDN:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZAF:prodGold-share:2024",
+   "nation": "ZAF",
+   "name": "South Africa",
+   "value": 0.027439024390243903,
+   "display": "2.7%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:ZAF:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:ZAF:prodGold:2024",
+    "value": 90,
+    "display": "90 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-zaf, claim TL:ZAF:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-zaf",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-zaf, claim TL:ZAF:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZAF:prodGold-share:2025",
+   "nation": "ZAF",
+   "name": "South Africa",
+   "value": 0.02727272727272727,
+   "display": "2.7%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:ZAF:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:ZAF:prodGold:2025",
+    "value": 90,
+    "display": "90 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-zaf, claim TL:ZAF:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-zaf",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-zaf, claim TL:ZAF:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodGold-share:2024",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.025,
+   "display": "2.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodGold:2024",
+    "worldTotal": "TL:WLD:prodGold-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodGold:2024",
+    "value": 82,
+    "display": "82 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-bra, claim TL:BRA:prodGold:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-bra",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-bra, claim TL:BRA:prodGold-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodGold-share:2025",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.024242424242424242,
+   "display": "2.4%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodGold:2025",
+    "worldTotal": "TL:WLD:prodGold-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodGold:2025",
+    "value": 80,
+    "display": "80 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-bra, claim TL:BRA:prodGold:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/gold#claim-bra",
+   "citation": "Terralore, \"Gold — who supplies the world\", terralore.co/commodities/gold#claim-bra, claim TL:BRA:prodGold-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

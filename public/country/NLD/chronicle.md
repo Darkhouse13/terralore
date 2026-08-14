@@ -96,6 +96,8 @@ Figures:
 - Anne Frank (1929 – 1945) — Diarist and Holocaust victim. German-born Jewish girl who hid with her family in Amsterdam and kept a diary before her betrayal and deportation; she died at Bergen-Belsen, and her diary became a global testament to the Holocaust.
 - Wilhelmina (1880 – 1962) — Queen of the Netherlands. Reigned 1890–1948 and led Dutch resistance morale from exile in London during the Second World War through her wartime broadcasts.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NLD:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NLD/chronicle.claims.json
+
 ## References
 
 - [britannica-netherlands] Netherlands — Encyclopaedia Britannica · https://www.britannica.com/place/Netherlands

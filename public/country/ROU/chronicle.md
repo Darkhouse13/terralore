@@ -100,6 +100,8 @@ Figures:
 - Ion Iliescu (born 1930) — First post-communist president. A former communist official who led the National Salvation Front that took power in December 1989, Iliescu became Romania's first post-communist president and a dominant figure of the 1990s transition.
 - Klaus Iohannis (born 1959) — President of Romania. An ethnic German from Transylvania and former mayor of Sibiu, Iohannis served as president from 2014, embodying Romania's anchoring in the European Union and NATO and its multi-ethnic Transylvanian heritage.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ROU:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ROU/chronicle.claims.json
+
 ## References
 
 - [dacia-britannica] Dacia — Encyclopaedia Britannica · https://www.britannica.com/place/Dacia

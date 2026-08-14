@@ -89,6 +89,8 @@ Figures:
 - Rafael Correa (born 1963) — President, 2007-2017. Economist and populist leader whose decade-long Citizens' Revolution used oil wealth to expand the state and a new 2008 constitution to reshape Ecuadorian politics.
 - Jamil Mahuad (born 1949) — President who dollarised the economy. President during the financial collapse of 1999 who in January 2000 replaced the sucre with the US dollar; he was driven from office within days, but dollarisation endured.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ECU:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ECU/chronicle.claims.json
+
 ## References
 
 - [britannica-ecuador-history] History of Ecuador — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Ecuador

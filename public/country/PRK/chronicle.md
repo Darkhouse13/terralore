@@ -79,6 +79,8 @@ Figures:
 
 - Kim Jong Un (born 1984) — Leader of North Korea since 2011. The grandson of Kim Il Sung, Kim Jong Un took power in 2011 and consolidated control while expanding the nuclear and missile arsenal. He held unprecedented summits with U.S. and South Korean leaders in 2018-2019 and later declared South Korea the North's principal enemy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PRK:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PRK/chronicle.claims.json
+
 ## References
 
 - [korea-place] Korea (history) — Encyclopaedia Britannica · https://www.britannica.com/place/Korea

@@ -1,0 +1,890 @@
+{
+ "subject": "ETH",
+ "name": "Ethiopia",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/ETH",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:ETH:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 149740297952.986,
+   "display": "$150 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-gdp-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-gdp-2024, claim TL:ETH:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1133.88279681719,
+   "display": "$1,134",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-gdpPerCapita-2024, claim TL:ETH:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 7.61277447511073,
+   "display": "7.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-gdpGrowth-2024, claim TL:ETH:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 21.037746057771,
+   "display": "21.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-inflation-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-inflation-2024, claim TL:ETH:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 17.4004358583187,
+   "display": "17.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-tradePctGdp-2024, claim TL:ETH:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 132059767,
+   "display": "132 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-population-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-population-2024, claim TL:ETH:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 67.603,
+   "display": "67.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-lifeExpectancy-2024, claim TL:ETH:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 23.6222839355469,
+   "display": "23.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-urbanPct-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-urbanPct-2024, claim TL:ETH:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 3.909,
+   "display": "3.9",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-fertility-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-fertility-2024, claim TL:ETH:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 60.4599990844727,
+   "display": "60.5%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-literacy-2022",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-literacy-2022, claim TL:ETH:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 35.1042066,
+   "display": "35.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-wgiVoice-2024, claim TL:ETH:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 33.6960224,
+   "display": "33.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-wgiStability-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-wgiStability-2024, claim TL:ETH:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 38.7798166,
+   "display": "38.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-wgiEffectiveness-2024, claim TL:ETH:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 41.7214465,
+   "display": "41.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-wgiRegQuality-2024, claim TL:ETH:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 38.9119872,
+   "display": "38.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-wgiRuleOfLaw-2024, claim TL:ETH:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 38.9918024,
+   "display": "39.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-wgiCorruption-2024, claim TL:ETH:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 2.80310345,
+   "display": "2.8%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-healthSpendPctGdp-2023, claim TL:ETH:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.143,
+   "display": "0.14",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-physicians-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-physicians-2023, claim TL:ETH:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 44.5,
+   "display": "44.5",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-underFiveMortality-2024, claim TL:ETH:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 72,
+   "display": "72.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-measlesImmunisation-2024, claim TL:ETH:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 13.547200922558,
+   "display": "13.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ETH#claim-safeWater-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-safeWater-2024, claim TL:ETH:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 60.4599990844727,
+   "display": "60.5%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-literacyRate-2022",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-literacyRate-2022, claim TL:ETH:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.2978069565991,
+   "display": "2.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-eduSpendPctGdp-2024, claim TL:ETH:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 84.4160102082984,
+   "display": "84.4%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-primaryEnrolment-2024, claim TL:ETH:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:secondaryEnrolment:2015",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 33.9114221981431,
+   "display": "33.9%",
+   "unit": "% gross",
+   "observed": 2015,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-secondaryEnrolment-2015",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-secondaryEnrolment-2015, claim TL:ETH:secondaryEnrolment:2015, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:tertiaryEnrolment:2014",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 5.9192507771213,
+   "display": "5.9%",
+   "unit": "% gross",
+   "observed": 2014,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-tertiaryEnrolment-2014",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-tertiaryEnrolment-2014, claim TL:ETH:tertiaryEnrolment:2014, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:rdSpending:2017",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.27437,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2017,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-rdSpending-2017",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-rdSpending-2017, claim TL:ETH:rdSpending:2017, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:researchers:2017",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 89.03843,
+   "display": "89",
+   "unit": "per million",
+   "observed": 2017,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-researchers-2017",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-researchers-2017, claim TL:ETH:researchers:2017, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 21.94129944,
+   "display": "21.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-internetUsers-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-internetUsers-2024, claim TL:ETH:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 65.0825091944922,
+   "display": "65",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ETH#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-mobileSubs-2024, claim TL:ETH:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 3.75062055802087,
+   "display": "3.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-highTechExports-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-highTechExports-2023, claim TL:ETH:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 1128498.8,
+   "display": "1,128,499 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-landArea-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-landArea-2023, claim TL:ETH:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 14.9308975782695,
+   "display": "14.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-forestPct-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-forestPct-2023, claim TL:ETH:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 34.0779564851996,
+   "display": "34.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-agriPct-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-agriPct-2023, claim TL:ETH:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.146636636122491,
+   "display": "0.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-co2PerCapita-2024, claim TL:ETH:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 90.6,
+   "display": "90.6%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-renewablePct-2021",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-renewablePct-2021, claim TL:ETH:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 5.86707347361267,
+   "display": "5.9%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-resourceRents-2021",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-resourceRents-2021, claim TL:ETH:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-oilRents-2021",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-oilRents-2021, claim TL:ETH:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.264587228725472,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-mineralRents-2021",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-mineralRents-2021, claim TL:ETH:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 5.60232241207702,
+   "display": "5.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-forestRents-2021",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-forestRents-2021, claim TL:ETH:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 55.4,
+   "display": "55.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-electricityAccess-2023, claim TL:ETH:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.650506448320295,
+   "display": "0.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-milExpPctGdp-2024, claim TL:ETH:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 921665263.86463,
+   "display": "$922 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-milExpUsd-2024, claim TL:ETH:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ETH:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 138000,
+   "display": "138,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ETH#claim-armedForces-2020",
+   "citation": "Terralore, \"Ethiopia — national dossier\", terralore.co/country/ETH#claim-armedForces-2020, claim TL:ETH:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -82,6 +82,8 @@ Figures:
 
 - Isaias Afwerki (born 1946) — EPLF leader and first president of Eritrea. Wartime commander of the EPLF who became Eritrea's first president on independence in 1993 and has ruled the one-party state ever since, without national elections.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ERI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ERI/chronicle.claims.json
+
 ## References
 
 - [jstor-adulis] The Ancient Red Sea Port of Adulis, Eritrea (Eritro-British Expedition report) — JSTOR · https://www.jstor.org/stable/j.ctvh1dpst

@@ -81,6 +81,8 @@ Figures:
 - Marc Forné Molné (born 1946) — Head of Government during the constitutional transition. Cap de govern through much of the 1990s, Forné led Andorra in the years after the 1993 constitution, guiding the new democracy into the United Nations and the Council of Europe and toward closer ties with Europe.
 - The President of France (office since 1607/1870) — French co-prince of Andorra. Heir to the rights of the counts of Foix by way of the kings of Navarre and France, the French head of state serves as one of Andorra's two co-princes, an office unique in the world: a republican president who is also a constitutional prince of a foreign state.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:AND:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/AND/chronicle.claims.json
+
 ## References
 
 - [andorra-britannica] Andorra: History, Facts & Points of Interest — Encyclopaedia Britannica · https://www.britannica.com/place/Andorra

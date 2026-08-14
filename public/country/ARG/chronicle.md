@@ -95,6 +95,8 @@ Figures:
 - Raul Alfonsin (1927-2009) — President, restorer of democracy. First president after the dictatorship, inaugurated in December 1983. He established the CONADEP truth commission and brought the junta leaders to trial, anchoring Argentina's return to democracy.
 - Jorge Rafael Videla (1925-2013) — Junta leader and dictator. Army general who led the 1976 coup and headed the junta during the worst of the Dirty War. He was convicted of crimes against humanity and died in prison.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ARG:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ARG/chronicle.claims.json
+
 ## References
 
 - [britannica-argentina] Argentina — Encyclopaedia Britannica · https://www.britannica.com/place/Argentina

@@ -85,6 +85,8 @@ Figures:
 - Vaira Vīķe-Freiberga (born 1937) — President of Latvia. A scholar who returned from exile to lead the restored republic, Vīķe-Freiberga served as president from 1999 to 2007 and was a leading advocate of Latvia's accession to the European Union and NATO in 2004.
 - Anatolijs Gorbunovs (born 1942) — Chairman of the Supreme Council. As chairman of the Supreme Council he presided over the adoption of the 4 May 1990 Declaration on the Restoration of Independence, a central figure in Latvia's peaceful transition from Soviet rule.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LVA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LVA/chronicle.claims.json
+
 ## References
 
 - [latvia-history-britannica] Latvia: History — Encyclopaedia Britannica · https://www.britannica.com/place/Latvia/History

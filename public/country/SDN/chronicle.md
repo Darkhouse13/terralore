@@ -91,6 +91,8 @@ Figures:
 
 - Omar al-Bashir (born 1944) — President of Sudan, 1989–2019. Seized power in 1989 and ruled until his overthrow in 2019; indicted by the ICC over the Darfur conflict, the first sitting head of state to be so charged.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SDN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SDN/chronicle.claims.json
+
 ## References
 
 - [wiki-kush] Kingdom of Kush — Wikipedia · https://en.wikipedia.org/wiki/Kingdom_of_Kush

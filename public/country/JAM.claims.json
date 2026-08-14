@@ -1,0 +1,810 @@
+{
+ "subject": "JAM",
+ "name": "Jamaica",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/JAM",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:JAM:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 22014397089.7689,
+   "display": "$22 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-gdp-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdp-2024, claim TL:JAM:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 7753.8006955432,
+   "display": "$7,754",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdpPerCapita-2024, claim TL:JAM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": -0.535039063867487,
+   "display": "-0.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdpGrowth-2024, claim TL:JAM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 5.41194447981659,
+   "display": "5.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-inflation-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-inflation-2024, claim TL:JAM:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 2839175,
+   "display": "2.8 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-population-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-population-2024, claim TL:JAM:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 71.606,
+   "display": "71.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-lifeExpectancy-2024, claim TL:JAM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 58.9301585439922,
+   "display": "58.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-urbanPct-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-urbanPct-2024, claim TL:JAM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.351,
+   "display": "1.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-fertility-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-fertility-2024, claim TL:JAM:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 65.3416046,
+   "display": "65.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiVoice-2024, claim TL:JAM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 74.0392932,
+   "display": "74.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-wgiStability-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiStability-2024, claim TL:JAM:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 54.6705042,
+   "display": "54.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiEffectiveness-2024, claim TL:JAM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 56.2960749,
+   "display": "56.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiRegQuality-2024, claim TL:JAM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 55.6279602,
+   "display": "55.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiRuleOfLaw-2024, claim TL:JAM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 45.9061284,
+   "display": "45.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiCorruption-2024, claim TL:JAM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 7.60493946,
+   "display": "7.6%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-healthSpendPctGdp-2023, claim TL:JAM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.46,
+   "display": "0.46",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-physicians-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-physicians-2023, claim TL:JAM:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 17.8,
+   "display": "17.8",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-underFiveMortality-2024, claim TL:JAM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 94,
+   "display": "94.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-measlesImmunisation-2024, claim TL:JAM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.51383018493652,
+   "display": "5.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-eduSpendPctGdp-2024, claim TL:JAM:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 97.2972106933594,
+   "display": "97.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-primaryEnrolment-2024, claim TL:JAM:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 84.4572372436523,
+   "display": "84.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-secondaryEnrolment-2024, claim TL:JAM:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:tertiaryEnrolment:2015",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 26.2334142821948,
+   "display": "26.2%",
+   "unit": "% gross",
+   "observed": 2015,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-tertiaryEnrolment-2015",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-tertiaryEnrolment-2015, claim TL:JAM:tertiaryEnrolment:2015, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:rdSpending:2002",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.06096,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2002,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-rdSpending-2002",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-rdSpending-2002, claim TL:JAM:rdSpending:2002, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 90.10870361,
+   "display": "90.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-internetUsers-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-internetUsers-2024, claim TL:JAM:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 117.693907561175,
+   "display": "118",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/JAM#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-mobileSubs-2024, claim TL:JAM:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 2.64698979146794,
+   "display": "2.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-highTechExports-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-highTechExports-2023, claim TL:JAM:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 10830,
+   "display": "10,830 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-landArea-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-landArea-2023, claim TL:JAM:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 56.190757156048,
+   "display": "56.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-forestPct-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-forestPct-2023, claim TL:JAM:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 38.5041551246537,
+   "display": "38.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-agriPct-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-agriPct-2023, claim TL:JAM:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 2.84378384565939,
+   "display": "2.8",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-co2PerCapita-2024, claim TL:JAM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 10.5,
+   "display": "10.5%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-renewablePct-2021",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-renewablePct-2021, claim TL:JAM:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.457652062306756,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-resourceRents-2021",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-resourceRents-2021, claim TL:JAM:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.294903461359937,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-oilRents-2021",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-oilRents-2021, claim TL:JAM:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-mineralRents-2021",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-mineralRents-2021, claim TL:JAM:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.16274860094682,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-forestRents-2021",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-forestRents-2021, claim TL:JAM:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 97.7,
+   "display": "97.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-electricityAccess-2023, claim TL:JAM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:prodBauxite:2025",
+   "domain": "resources",
+   "metric": "prodBauxite",
+   "label": "Bauxite",
+   "value": 6200000,
+   "display": "6.2 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/JAM#claim-prodBauxite-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-prodBauxite-2025, claim TL:JAM:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.27385736005958,
+   "display": "1.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-milExpPctGdp-2024, claim TL:JAM:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 262511269.974231,
+   "display": "$263 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-milExpUsd-2024, claim TL:JAM:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 6000,
+   "display": "6,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/JAM#claim-armedForces-2020",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-armedForces-2020, claim TL:JAM:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

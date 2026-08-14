@@ -1,0 +1,890 @@
+{
+ "subject": "THA",
+ "name": "Thailand",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/THA",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:THA:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 526517658841.684,
+   "display": "$527 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-gdp-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdp-2024, claim TL:THA:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 7346.62022142185,
+   "display": "$7,347",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdpPerCapita-2024, claim TL:THA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.54182067735289,
+   "display": "2.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdpGrowth-2024, claim TL:THA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 1.36580540798037,
+   "display": "1.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-inflation-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-inflation-2024, claim TL:THA:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 136.747107022451,
+   "display": "136.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-tradePctGdp-2024, claim TL:THA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 71668011,
+   "display": "72 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-population-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-population-2024, claim TL:THA:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 76.564,
+   "display": "76.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-lifeExpectancy-2024, claim TL:THA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 61.8689338391321,
+   "display": "61.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-urbanPct-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-urbanPct-2024, claim TL:THA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.204,
+   "display": "1.2",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-fertility-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-fertility-2024, claim TL:THA:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 91.0999984741211,
+   "display": "91.1%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-literacy-2022",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-literacy-2022, claim TL:THA:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 47.050639,
+   "display": "47.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiVoice-2024, claim TL:THA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 54.2220045,
+   "display": "54.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-wgiStability-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiStability-2024, claim TL:THA:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 56.27225,
+   "display": "56.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiEffectiveness-2024, claim TL:THA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 56.5410603,
+   "display": "56.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiRegQuality-2024, claim TL:THA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 53.2556386,
+   "display": "53.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiRuleOfLaw-2024, claim TL:THA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 37.1805433,
+   "display": "37.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiCorruption-2024, claim TL:THA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 4.53787661,
+   "display": "4.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-healthSpendPctGdp-2023, claim TL:THA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:physicians:2021",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.541,
+   "display": "0.54",
+   "unit": "per 1,000",
+   "observed": 2021,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-physicians-2021",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-physicians-2021, claim TL:THA:physicians:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 9,
+   "display": "9.0",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-underFiveMortality-2024, claim TL:THA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 93,
+   "display": "93.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-measlesImmunisation-2024, claim TL:THA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 91.0999984741211,
+   "display": "91.1%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-literacyRate-2022",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-literacyRate-2022, claim TL:THA:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.52122219628772,
+   "display": "2.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-eduSpendPctGdp-2023, claim TL:THA:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:primaryEnrolment:2025",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 100.728168483387,
+   "display": "100.7%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-primaryEnrolment-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-primaryEnrolment-2025, claim TL:THA:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:secondaryEnrolment:2025",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 92.0872315506486,
+   "display": "92.1%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-secondaryEnrolment-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-secondaryEnrolment-2025, claim TL:THA:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:tertiaryEnrolment:2025",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 49.0776442074561,
+   "display": "49.1%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-tertiaryEnrolment-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-tertiaryEnrolment-2025, claim TL:THA:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.93628,
+   "display": "0.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-rdSpending-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-rdSpending-2023, claim TL:THA:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 1591.96746,
+   "display": "1,592",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-researchers-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-researchers-2023, claim TL:THA:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 90.86718789,
+   "display": "90.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-internetUsers-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-internetUsers-2024, claim TL:THA:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 160.639312286761,
+   "display": "161",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/THA#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-mobileSubs-2024, claim TL:THA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 28.3057768762254,
+   "display": "28.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-highTechExports-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-highTechExports-2024, claim TL:THA:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 510890,
+   "display": "510,890 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-landArea-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-landArea-2023, claim TL:THA:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 38.6873886746658,
+   "display": "38.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-forestPct-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-forestPct-2023, claim TL:THA:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 43.7980778641195,
+   "display": "43.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-agriPct-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-agriPct-2023, claim TL:THA:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 3.96005269352319,
+   "display": "4.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-co2PerCapita-2024, claim TL:THA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 19,
+   "display": "19.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-renewablePct-2021",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-renewablePct-2021, claim TL:THA:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 1.8170265297611,
+   "display": "1.8%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-resourceRents-2021",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-resourceRents-2021, claim TL:THA:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.481657874747012,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-oilRents-2021",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-oilRents-2021, claim TL:THA:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-mineralRents-2021",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-mineralRents-2021, claim TL:THA:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.362259862876361,
+   "display": "0.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-forestRents-2021",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-forestRents-2021, claim TL:THA:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-electricityAccess-2023, claim TL:THA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:prodRareEarths:2025",
+   "domain": "resources",
+   "metric": "prodRareEarths",
+   "label": "Rare earths",
+   "value": 4800,
+   "display": "4,800 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/THA#claim-prodRareEarths-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-prodRareEarths-2025, claim TL:THA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.07876078016919,
+   "display": "1.1%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-milExpPctGdp-2024, claim TL:THA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 5522411647.48004,
+   "display": "$5.5 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-milExpUsd-2024, claim TL:THA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 455000,
+   "display": "455,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/THA#claim-armedForces-2020",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-armedForces-2020, claim TL:THA:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

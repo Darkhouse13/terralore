@@ -1,0 +1,870 @@
+{
+ "subject": "SLV",
+ "name": "El Salvador",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/SLV",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:SLV:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 35364960000,
+   "display": "$35 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-gdp-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdp-2024, claim TL:SLV:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 5579.65969165029,
+   "display": "$5,580",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdpPerCapita-2024, claim TL:SLV:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.60202016121069,
+   "display": "2.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdpGrowth-2024, claim TL:SLV:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 0.853782292567288,
+   "display": "0.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-inflation-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-inflation-2024, claim TL:SLV:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 84.6596461582312,
+   "display": "84.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-tradePctGdp-2024, claim TL:SLV:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 6338193,
+   "display": "6.3 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-population-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-population-2024, claim TL:SLV:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 72.302,
+   "display": "72.3 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-lifeExpectancy-2024, claim TL:SLV:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 75.0674905102199,
+   "display": "75.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-urbanPct-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-urbanPct-2024, claim TL:SLV:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.768,
+   "display": "1.8",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-fertility-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-fertility-2024, claim TL:SLV:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 89.7699966430664,
+   "display": "89.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-literacy-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-literacy-2024, claim TL:SLV:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 43.0499183,
+   "display": "43.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-wgiVoice-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiVoice-2024, claim TL:SLV:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 65.9991479,
+   "display": "66.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-wgiStability-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiStability-2024, claim TL:SLV:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 47.7787327,
+   "display": "47.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiEffectiveness-2024, claim TL:SLV:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 52.083202,
+   "display": "52.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiRegQuality-2024, claim TL:SLV:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 44.6872968,
+   "display": "44.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiRuleOfLaw-2024, claim TL:SLV:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 36.1837975,
+   "display": "36.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiCorruption-2024, claim TL:SLV:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 9.28738594,
+   "display": "9.3%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-healthSpendPctGdp-2023, claim TL:SLV:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.616,
+   "display": "1.62",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-physicians-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-physicians-2023, claim TL:SLV:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 10,
+   "display": "10.0",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-underFiveMortality-2024, claim TL:SLV:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 96,
+   "display": "96.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SLV#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-measlesImmunisation-2024, claim TL:SLV:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 89.7699966430664,
+   "display": "89.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-literacyRate-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-literacyRate-2024, claim TL:SLV:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.31666994094849,
+   "display": "3.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-eduSpendPctGdp-2024, claim TL:SLV:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 89.8804082588561,
+   "display": "89.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-primaryEnrolment-2024, claim TL:SLV:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 62.1425847697468,
+   "display": "62.1%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-secondaryEnrolment-2024, claim TL:SLV:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 32.8347079463918,
+   "display": "32.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-tertiaryEnrolment-2024, claim TL:SLV:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.10152,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-rdSpending-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-rdSpending-2023, claim TL:SLV:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 55.47028,
+   "display": "55",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-researchers-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-researchers-2023, claim TL:SLV:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 66.47769928,
+   "display": "66.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-internetUsers-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-internetUsers-2024, claim TL:SLV:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 176.517423814642,
+   "display": "177",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SLV#claim-mobileSubs-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-mobileSubs-2024, claim TL:SLV:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 5.47333119441725,
+   "display": "5.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-highTechExports-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-highTechExports-2024, claim TL:SLV:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 20720,
+   "display": "20,720 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-landArea-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-landArea-2023, claim TL:SLV:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 27.5279922779923,
+   "display": "27.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-forestPct-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-forestPct-2023, claim TL:SLV:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 57.707528957529,
+   "display": "57.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-agriPct-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-agriPct-2023, claim TL:SLV:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 1.50569728627702,
+   "display": "1.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-co2PerCapita-2024, claim TL:SLV:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 21.9,
+   "display": "21.9%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-renewablePct-2021",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-renewablePct-2021, claim TL:SLV:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.535264947589614,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-resourceRents-2021",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-resourceRents-2021, claim TL:SLV:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.000150418698822045,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-oilRents-2021",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-oilRents-2021, claim TL:SLV:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-mineralRents-2021",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-mineralRents-2021, claim TL:SLV:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.535114528890792,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-forestRents-2021",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-forestRents-2021, claim TL:SLV:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 98.3,
+   "display": "98.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-electricityAccess-2023",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-electricityAccess-2023, claim TL:SLV:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.18611916982816,
+   "display": "1.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-milExpPctGdp-2024, claim TL:SLV:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 425200000,
+   "display": "$425 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-milExpUsd-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-milExpUsd-2024, claim TL:SLV:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SLV:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 42000,
+   "display": "42,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SLV#claim-armedForces-2020",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-armedForces-2020, claim TL:SLV:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

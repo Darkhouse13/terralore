@@ -1,0 +1,630 @@
+{
+ "subject": "LIE",
+ "name": "Liechtenstein",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/LIE",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:LIE:gdp:2023",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 8239379403.22096,
+   "display": "$8.2 B",
+   "unit": "USD",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-gdp-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-gdp-2023, claim TL:LIE:gdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:gdpPerCapita:2023",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 206780.590353385,
+   "display": "$206,781",
+   "unit": "USD",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-gdpPerCapita-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-gdpPerCapita-2023, claim TL:LIE:gdpPerCapita:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:gdpGrowth:2009",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": -1.15748291975636,
+   "display": "-1.2%",
+   "unit": "%",
+   "observed": 2009,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-gdpGrowth-2009",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-gdpGrowth-2009, claim TL:LIE:gdpGrowth:2009, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 40450,
+   "display": "40,000",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-population-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-population-2024, claim TL:LIE:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 84.2,
+   "display": "84.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-lifeExpectancy-2024, claim TL:LIE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 14.657584904886,
+   "display": "14.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-urbanPct-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-urbanPct-2024, claim TL:LIE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.37,
+   "display": "1.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-fertility-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-fertility-2024, claim TL:LIE:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 80.0862806,
+   "display": "80.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-wgiVoice-2024, claim TL:LIE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 92.9235285,
+   "display": "92.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-wgiStability-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-wgiStability-2024, claim TL:LIE:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 84.262401,
+   "display": "84.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-wgiEffectiveness-2024, claim TL:LIE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 79.0872808,
+   "display": "79.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-wgiRegQuality-2024, claim TL:LIE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 86.696949,
+   "display": "86.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-wgiRuleOfLaw-2024, claim TL:LIE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 83.3795282,
+   "display": "83.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-wgiCorruption-2024, claim TL:LIE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 5.71460724,
+   "display": "5.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-healthSpendPctGdp-2023, claim TL:LIE:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LIE#claim-safeWater-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-safeWater-2024, claim TL:LIE:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:eduSpendPctGdp:2011",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.55604004859924,
+   "display": "2.6%",
+   "unit": "% of GDP",
+   "observed": 2011,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-eduSpendPctGdp-2011",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-eduSpendPctGdp-2011, claim TL:LIE:eduSpendPctGdp:2011, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:primaryEnrolment:2021",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 102.110137939453,
+   "display": "102.1%",
+   "unit": "% gross",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-primaryEnrolment-2021",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-primaryEnrolment-2021, claim TL:LIE:primaryEnrolment:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:secondaryEnrolment:2021",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 118.726867675781,
+   "display": "118.7%",
+   "unit": "% gross",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-secondaryEnrolment-2021",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-secondaryEnrolment-2021, claim TL:LIE:secondaryEnrolment:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:tertiaryEnrolment:2021",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 46.0189590454102,
+   "display": "46.0%",
+   "unit": "% gross",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-tertiaryEnrolment-2021",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-tertiaryEnrolment-2021, claim TL:LIE:tertiaryEnrolment:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 6.00984,
+   "display": "6.0%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-rdSpending-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-rdSpending-2023, claim TL:LIE:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 18129.75165,
+   "display": "18,130",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-researchers-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-researchers-2023, claim TL:LIE:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 98.2641983,
+   "display": "98.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-internetUsers-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-internetUsers-2024, claim TL:LIE:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 128.901429646351,
+   "display": "129",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LIE#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-mobileSubs-2024, claim TL:LIE:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 160,
+   "display": "160 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-landArea-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-landArea-2023, claim TL:LIE:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 41.875,
+   "display": "41.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-forestPct-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-forestPct-2023, claim TL:LIE:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 32.3125,
+   "display": "32.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-agriPct-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-agriPct-2023, claim TL:LIE:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 56.9,
+   "display": "56.9%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-renewablePct-2022",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-renewablePct-2022, claim TL:LIE:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:resourceRents:2020",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.00147146668515006,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-resourceRents-2020",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-resourceRents-2020, claim TL:LIE:resourceRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:mineralRents:2020",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-mineralRents-2020",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-mineralRents-2020, claim TL:LIE:mineralRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:forestRents:2020",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.00147146668515006,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-forestRents-2020",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-forestRents-2020, claim TL:LIE:forestRents:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LIE:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LIE#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Liechtenstein — national dossier\", terralore.co/country/LIE#claim-electricityAccess-2023, claim TL:LIE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

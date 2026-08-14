@@ -96,6 +96,8 @@ Figures:
 
 - İsmet İnönü (1884–1973) — Second president of Turkey (1938–1950). Atatürk's chief lieutenant and successor, who led Turkey through the Second World War as a neutral and oversaw its transition to multiparty democracy in 1950.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TUR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TUR/chronicle.claims.json
+
 ## References
 
 - [unesco-catalhoyuk] Neolithic Site of Çatalhöyük — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1405/

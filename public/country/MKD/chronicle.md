@@ -99,6 +99,8 @@ Figures:
 - Ali Ahmeti (born 1959) — Ethnic Albanian political leader. Leader of the ethnic Albanian National Liberation Army during the 2001 insurgency, Ahmeti turned to politics after the Ohrid Framework Agreement, founding a party that became a long-standing partner in the country's coalition governments.
 - Boris Trajkovski (1956 – 2004) — President during the 2001 crisis. President of the republic during the 2001 conflict, Trajkovski helped steer the country toward the Ohrid Framework Agreement and its Euro-Atlantic course before his death in an air crash in 2004.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MKD:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MKD/chronicle.claims.json
+
 ## References
 
 - [philip-britannica] Philip II, king of Macedonia — Encyclopaedia Britannica · https://www.britannica.com/biography/Philip-II-king-of-Macedonia

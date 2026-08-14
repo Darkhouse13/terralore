@@ -79,6 +79,8 @@ Figures:
 - Roza Otunbayeva (born 1950) — Interim President of Kyrgyzstan. A former diplomat who led the interim government formed after the 2010 ouster of Kurmanbek Bakiyev, overseeing the transition to a parliamentary republic. She stepped down after the 2011 election, in Kyrgyzstan's first peaceful transfer of power.
 - Sadyr Japarov (born 1968) — President of Kyrgyzstan. A nationalist politician freed from prison during the 2020 protests, Japarov rose rapidly to become president in January 2021 and oversaw constitutional changes restoring a strong presidential system.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KGZ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KGZ/chronicle.claims.json
+
 ## References
 
 - [kyrgyzstan-history-britannica] Kyrgyzstan: History — Encyclopaedia Britannica · https://www.britannica.com/place/Kyrgyzstan/History

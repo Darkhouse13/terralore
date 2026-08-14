@@ -82,6 +82,8 @@ Figures:
 
 - Manasseh Sogavare — Prime Minister (multiple terms). A dominant figure of recent Solomon Islands politics whose government switched recognition to Beijing in 2019 and signed a security pact with China in 2022.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SLB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SLB/chronicle.claims.json
+
 ## References
 
 - [bbc-solomon] Solomon Islands profile - Timeline — BBC News · https://www.bbc.com/news/world-asia-15897585

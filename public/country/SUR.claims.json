@@ -1,0 +1,810 @@
+{
+ "subject": "SUR",
+ "name": "Suriname",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/SUR",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:SUR:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 4416775112.09627,
+   "display": "$4.4 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-gdp-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-gdp-2024, claim TL:SUR:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 6961.78955961526,
+   "display": "$6,962",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-gdpPerCapita-2024, claim TL:SUR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 1.72095737011739,
+   "display": "1.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-gdpGrowth-2024, claim TL:SUR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 16.2296159130279,
+   "display": "16.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-inflation-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-inflation-2024, claim TL:SUR:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:tradePctGdp:2010",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 90.9613941465855,
+   "display": "91.0%",
+   "unit": "% of GDP",
+   "observed": 2010,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-tradePctGdp-2010",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-tradePctGdp-2010, claim TL:SUR:tradePctGdp:2010, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 634431,
+   "display": "634,000",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-population-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-population-2024, claim TL:SUR:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 73.757,
+   "display": "73.8 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-lifeExpectancy-2024, claim TL:SUR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 65.7641857200885,
+   "display": "65.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-urbanPct-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-urbanPct-2024, claim TL:SUR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.231,
+   "display": "2.2",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-fertility-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-fertility-2024, claim TL:SUR:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:literacy:2012",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 92.870002746582,
+   "display": "92.9%",
+   "unit": "%",
+   "observed": 2012,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-literacy-2012",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-literacy-2012, claim TL:SUR:literacy:2012, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 57.8190313,
+   "display": "57.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-wgiVoice-2024, claim TL:SUR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 74.0632877,
+   "display": "74.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-wgiStability-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-wgiStability-2024, claim TL:SUR:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 42.5072216,
+   "display": "42.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-wgiEffectiveness-2024, claim TL:SUR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 40.3728954,
+   "display": "40.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-wgiRegQuality-2024, claim TL:SUR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 53.3749759,
+   "display": "53.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-wgiRuleOfLaw-2024, claim TL:SUR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 40.2263093,
+   "display": "40.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-wgiCorruption-2024, claim TL:SUR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 5.40666008,
+   "display": "5.4%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-healthSpendPctGdp-2023, claim TL:SUR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.355,
+   "display": "1.35",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-physicians-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-physicians-2023, claim TL:SUR:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 15.8,
+   "display": "15.8",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-underFiveMortality-2024, claim TL:SUR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 73,
+   "display": "73.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-measlesImmunisation-2024, claim TL:SUR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 55.8472410362348,
+   "display": "55.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-safeWater-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-safeWater-2024, claim TL:SUR:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:literacyRate:2012",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 92.870002746582,
+   "display": "92.9%",
+   "unit": "%",
+   "observed": 2012,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-literacyRate-2012",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-literacyRate-2012, claim TL:SUR:literacyRate:2012, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.86623341491363,
+   "display": "2.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-eduSpendPctGdp-2023, claim TL:SUR:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 91.9199272065514,
+   "display": "91.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-primaryEnrolment-2024, claim TL:SUR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 76.1109237670898,
+   "display": "76.1%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-secondaryEnrolment-2023, claim TL:SUR:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 2.56642457392281,
+   "display": "2.6%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SUR#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-tertiaryEnrolment-2024, claim TL:SUR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:internetUsers:2023",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 87.4,
+   "display": "87.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SUR#claim-internetUsers-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-internetUsers-2023, claim TL:SUR:internetUsers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 142.122626416427,
+   "display": "142",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SUR#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-mobileSubs-2024, claim TL:SUR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 10.3729916697731,
+   "display": "10.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-highTechExports-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-highTechExports-2024, claim TL:SUR:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 160507.61,
+   "display": "160,508 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-landArea-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-landArea-2023, claim TL:SUR:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 94.44758351333,
+   "display": "94.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-forestPct-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-forestPct-2023, claim TL:SUR:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 0.445038088848248,
+   "display": "0.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-agriPct-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-agriPct-2023, claim TL:SUR:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 4.06111933370217,
+   "display": "4.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-co2PerCapita-2024, claim TL:SUR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 14.5,
+   "display": "14.5%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-renewablePct-2021",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-renewablePct-2021, claim TL:SUR:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 9.59272209392741,
+   "display": "9.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-resourceRents-2021",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-resourceRents-2021, claim TL:SUR:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 7.93252614181898,
+   "display": "7.9%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-oilRents-2021",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-oilRents-2021, claim TL:SUR:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-mineralRents-2021",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-mineralRents-2021, claim TL:SUR:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 1.64873811666235,
+   "display": "1.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-forestRents-2021",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-forestRents-2021, claim TL:SUR:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 99.6,
+   "display": "99.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-electricityAccess-2023, claim TL:SUR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SUR:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 2000,
+   "display": "2,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SUR#claim-armedForces-2020",
+   "citation": "Terralore, \"Suriname — national dossier\", terralore.co/country/SUR#claim-armedForces-2020, claim TL:SUR:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

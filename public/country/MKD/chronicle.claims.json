@@ -1,0 +1,632 @@
+{
+ "subject": "MKD",
+ "name": "North Macedonia",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/MKD/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MKD:event:359bce:reign-of-philip-ii-of-macedon",
+   "year": -359,
+   "yearLabel": "359–336 BCE",
+   "title": "Reign of Philip II of Macedon",
+   "summary": "Philip II reformed the Macedonian army and won mastery over the Greek city-states at Chaeronea, laying the foundations for the empire his son Alexander the Great would build across Asia.",
+   "category": "politics",
+   "era": "ancient-macedon-and-classical-legacy",
+   "sources": [
+    {
+     "id": "philip-britannica",
+     "label": "Philip II, king of Macedonia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Philip-II-king-of-Macedonia"
+    },
+    {
+     "id": "macedonia-region-britannica",
+     "label": "Macedonia (region, Europe): Map, History & Facts",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Macedonia-region-Europe"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-359bce-reign-of-philip-ii-of-macedon",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-359bce-reign-of-philip-ii-of-macedon, claim TL:MKD:event:359bce:reign-of-philip-ii-of-macedon, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:336bce:conquests-of-alexander-the-great",
+   "year": -336,
+   "yearLabel": "336–323 BCE",
+   "title": "Conquests of Alexander the Great",
+   "summary": "Alexander III led Macedonian and Greek forces in the conquest of the Persian empire, carrying Hellenistic civilization from Egypt to the Indus before his death at Babylon in 323 BCE.",
+   "category": "war",
+   "era": "ancient-macedon-and-classical-legacy",
+   "sources": [
+    {
+     "id": "alexander-britannica",
+     "label": "Alexander the Great",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Alexander-the-Great"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-336bce-conquests-of-alexander-the-great",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-336bce-conquests-of-alexander-the-great, claim TL:MKD:event:336bce:conquests-of-alexander-the-great, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:148bce:macedonia-becomes-a-roman-province",
+   "year": -148,
+   "yearLabel": "148 BCE",
+   "title": "Macedonia becomes a Roman province",
+   "summary": "After Rome defeated the last Macedonian claimant near Pydna, Macedonia was organised as a Roman province, beginning centuries of Roman and later Byzantine rule over the region.",
+   "category": "war",
+   "era": "ancient-macedon-and-classical-legacy",
+   "sources": [
+    {
+     "id": "macedonia-region-britannica",
+     "label": "Macedonia (region, Europe): Map, History & Facts",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Macedonia-region-Europe"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-148bce-macedonia-becomes-a-roman-province",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-148bce-macedonia-becomes-a-roman-province, claim TL:MKD:event:148bce:macedonia-becomes-a-roman-province, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:518:destruction-of-scupi",
+   "year": 518,
+   "yearLabel": "518 CE",
+   "title": "Destruction of Scupi",
+   "summary": "A devastating earthquake destroyed the Roman city of Scupi near present-day Skopje, an event marking the late-antique decline of the region's classical urban life on the eve of Slavic settlement.",
+   "category": "disaster",
+   "era": "ancient-macedon-and-classical-legacy",
+   "sources": [
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-518-destruction-of-scupi",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-518-destruction-of-scupi, claim TL:MKD:event:518:destruction-of-scupi, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:600:slavic-settlement-of-the-region",
+   "year": 600,
+   "yearLabel": "6th–7th c.",
+   "title": "Slavic settlement of the region",
+   "summary": "Slavic tribes migrated into the Macedonian interior from the sixth century, transforming the population of the region and laying the basis for its later Slavic-speaking identity.",
+   "category": "migration",
+   "era": "slavic-settlement-and-samuel-ohrid",
+   "sources": [
+    {
+     "id": "macedonia-region-britannica",
+     "label": "Macedonia (region, Europe): Map, History & Facts",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Macedonia-region-Europe"
+    },
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-600-slavic-settlement-of-the-region",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-600-slavic-settlement-of-the-region, claim TL:MKD:event:600:slavic-settlement-of-the-region, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:886:the-ohrid-literary-school-of-clement-and-naum",
+   "year": 886,
+   "yearLabel": "c. 886",
+   "title": "The Ohrid literary school of Clement and Naum",
+   "summary": "Saint Clement of Ohrid, with Saint Naum, founded a Slavonic literary school at Ohrid, spreading the Slavic script and Christian learning and making the city a cradle of medieval Slavic culture.",
+   "category": "culture",
+   "era": "slavic-settlement-and-samuel-ohrid",
+   "sources": [
+    {
+     "id": "ohrid-unesco",
+     "label": "Natural and Cultural Heritage of the Ohrid region",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/99/"
+    },
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-886-the-ohrid-literary-school-of-clement-and-naum",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-886-the-ohrid-literary-school-of-clement-and-naum, claim TL:MKD:event:886:the-ohrid-literary-school-of-clement-and-naum, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:997:tsar-samuel-s-state-centred-on-ohrid",
+   "year": 997,
+   "yearLabel": "reigned to 1014",
+   "title": "Tsar Samuel's state centred on Ohrid",
+   "summary": "Samuel built a powerful western Bulgarian state with its capital and a patriarchate at Ohrid, resisting Byzantine expansion for decades until his defeat by the emperor Basil II.",
+   "category": "founding",
+   "era": "slavic-settlement-and-samuel-ohrid",
+   "sources": [
+    {
+     "id": "samuel-britannica",
+     "label": "Samuel, tsar of western Bulgaria",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Samuel-tsar-of-western-Bulgaria"
+    },
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-997-tsar-samuel-s-state-centred-on-ohrid",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-997-tsar-samuel-s-state-centred-on-ohrid, claim TL:MKD:event:997:tsar-samuel-s-state-centred-on-ohrid, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1014:battle-of-kleidion-and-the-fall-of-samuel",
+   "year": 1014,
+   "yearLabel": "1014",
+   "title": "Battle of Kleidion and the fall of Samuel",
+   "summary": "The Byzantine emperor Basil II destroyed Samuel's army at Kleidion; the tsar died shortly afterwards, and by 1018 the region was fully reabsorbed into the Byzantine Empire.",
+   "category": "war",
+   "era": "slavic-settlement-and-samuel-ohrid",
+   "sources": [
+    {
+     "id": "samuel-britannica",
+     "label": "Samuel, tsar of western Bulgaria",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Samuel-tsar-of-western-Bulgaria"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1014-battle-of-kleidion-and-the-fall-of-samuel",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1014-battle-of-kleidion-and-the-fall-of-samuel, claim TL:MKD:event:1014:battle-of-kleidion-and-the-fall-of-samuel, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1018:the-archbishopric-of-ohrid",
+   "year": 1018,
+   "yearLabel": "1018",
+   "title": "The Archbishopric of Ohrid",
+   "summary": "After the Byzantine reconquest an autocephalous archbishopric was established at Ohrid, sustaining the city's role as a centre of Orthodox church life and Slavonic learning.",
+   "category": "religion",
+   "era": "slavic-settlement-and-samuel-ohrid",
+   "sources": [
+    {
+     "id": "ohrid-unesco",
+     "label": "Natural and Cultural Heritage of the Ohrid region",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/99/"
+    },
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1018-the-archbishopric-of-ohrid",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1018-the-archbishopric-of-ohrid, claim TL:MKD:event:1018:the-archbishopric-of-ohrid, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1371:ottoman-conquest-of-the-region",
+   "year": 1371,
+   "yearLabel": "late 14th c.",
+   "title": "Ottoman conquest of the region",
+   "summary": "Ottoman forces conquered Macedonia in the late fourteenth century, beginning roughly five centuries of Ottoman rule during which the region's name lapsed as an administrative term.",
+   "category": "war",
+   "era": "ottoman-rule-and-the-macedonian-question",
+   "sources": [
+    {
+     "id": "macedonia-region-britannica",
+     "label": "Macedonia (region, Europe): Map, History & Facts",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Macedonia-region-Europe"
+    },
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1371-ottoman-conquest-of-the-region",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1371-ottoman-conquest-of-the-region, claim TL:MKD:event:1371:ottoman-conquest-of-the-region, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1893:founding-of-imro",
+   "year": 1893,
+   "yearLabel": "1893",
+   "title": "Founding of IMRO",
+   "summary": "The Internal Macedonian Revolutionary Organization was founded at Salonika to work for an autonomous Macedonia, its early leaders combining a Macedonian regional with a Bulgarian national identity.",
+   "category": "politics",
+   "era": "ottoman-rule-and-the-macedonian-question",
+   "sources": [
+    {
+     "id": "imro-britannica",
+     "label": "Internal Macedonian Revolutionary Organization (IMRO)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Internal-Macedonian-Revolutionary-Organization"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1893-founding-of-imro",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1893-founding-of-imro, claim TL:MKD:event:1893:founding-of-imro, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1903:the-ilinden-uprising",
+   "year": 1903,
+   "yearLabel": "2 Aug 1903",
+   "title": "The Ilinden Uprising",
+   "summary": "On St Elijah's Day IMRO launched the Ilinden Uprising against Ottoman rule; though quickly crushed amid severe reprisals, it became a founding event of Macedonian national identity.",
+   "category": "war",
+   "era": "ottoman-rule-and-the-macedonian-question",
+   "sources": [
+    {
+     "id": "ilinden-ebsco",
+     "label": "Ilinden Uprising in Macedonia",
+     "publisher": "EBSCO Research Starters",
+     "url": "https://www.ebsco.com/research-starters/history/ilinden-uprising-macedonia"
+    },
+    {
+     "id": "imro-britannica",
+     "label": "Internal Macedonian Revolutionary Organization (IMRO)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Internal-Macedonian-Revolutionary-Organization"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1903-the-ilinden-uprising",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1903-the-ilinden-uprising, claim TL:MKD:event:1903:the-ilinden-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1903:the-krusevo-republic",
+   "year": 1903,
+   "yearLabel": "Aug 1903",
+   "title": "The Kruševo Republic",
+   "summary": "During the uprising the insurgents proclaimed a short-lived republic in the town of Kruševo, which the Ottoman army overran after about ten days.",
+   "category": "founding",
+   "era": "ottoman-rule-and-the-macedonian-question",
+   "sources": [
+    {
+     "id": "ilinden-ebsco",
+     "label": "Ilinden Uprising in Macedonia",
+     "publisher": "EBSCO Research Starters",
+     "url": "https://www.ebsco.com/research-starters/history/ilinden-uprising-macedonia"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1903-the-krusevo-republic",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1903-the-krusevo-republic, claim TL:MKD:event:1903:the-krusevo-republic, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1913:the-balkan-wars-and-the-partition-of-macedonia",
+   "year": 1913,
+   "yearLabel": "1912–1913",
+   "title": "The Balkan Wars and the partition of Macedonia",
+   "summary": "The Balkan Wars ended Ottoman rule and divided historic Macedonia among Greece, Serbia and Bulgaria; the northern Vardar region passed to Serbia, becoming the core of the future republic.",
+   "category": "war",
+   "era": "partition-and-yugoslav-macedonia",
+   "sources": [
+    {
+     "id": "macedonia-region-britannica",
+     "label": "Macedonia (region, Europe): Map, History & Facts",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Macedonia-region-Europe"
+    },
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1913-the-balkan-wars-and-the-partition-of-macedonia",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1913-the-balkan-wars-and-the-partition-of-macedonia, claim TL:MKD:event:1913:the-balkan-wars-and-the-partition-of-macedonia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1918:vardar-macedonia-within-yugoslavia",
+   "year": 1918,
+   "yearLabel": "1918",
+   "title": "Vardar Macedonia within Yugoslavia",
+   "summary": "After the First World War the Vardar region was incorporated into the Kingdom of Serbs, Croats and Slovenes (later Yugoslavia), where it was administered as part of Serbia and its Slavic identity discouraged.",
+   "category": "politics",
+   "era": "partition-and-yugoslav-macedonia",
+   "sources": [
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1918-vardar-macedonia-within-yugoslavia",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1918-vardar-macedonia-within-yugoslavia, claim TL:MKD:event:1918:vardar-macedonia-within-yugoslavia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1944:proclamation-of-a-macedonian-state-asnom",
+   "year": 1944,
+   "yearLabel": "2 Aug 1944",
+   "title": "Proclamation of a Macedonian state (ASNOM)",
+   "summary": "The Anti-Fascist Assembly for the National Liberation of Macedonia met on St Elijah's Day 1944 and proclaimed a Macedonian state within a future Yugoslav federation.",
+   "category": "founding",
+   "era": "partition-and-yugoslav-macedonia",
+   "sources": [
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1944-proclamation-of-a-macedonian-state-asnom",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1944-proclamation-of-a-macedonian-state-asnom, claim TL:MKD:event:1944:proclamation-of-a-macedonian-state-asnom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1945:socialist-republic-of-macedonia-and-the",
+   "year": 1945,
+   "yearLabel": "1945",
+   "title": "Socialist Republic of Macedonia and the codified language",
+   "summary": "A People's (later Socialist) Republic of Macedonia was constituted as one of Yugoslavia's six republics, and a standard Macedonian literary language was codified for the first time.",
+   "category": "culture",
+   "era": "partition-and-yugoslav-macedonia",
+   "sources": [
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1945-socialist-republic-of-macedonia-and-the",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1945-socialist-republic-of-macedonia-and-the, claim TL:MKD:event:1945:socialist-republic-of-macedonia-and-the, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1963:the-skopje-earthquake",
+   "year": 1963,
+   "yearLabel": "1963",
+   "title": "The Skopje earthquake",
+   "summary": "A powerful earthquake devastated Skopje, killing more than a thousand people; the city was rebuilt with international aid as the modern capital of the republic.",
+   "category": "disaster",
+   "era": "partition-and-yugoslav-macedonia",
+   "sources": [
+    {
+     "id": "nmk-history-britannica",
+     "label": "North Macedonia: History (Ancient, Ottoman, Yugoslav)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1963-the-skopje-earthquake",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1963-the-skopje-earthquake, claim TL:MKD:event:1963:the-skopje-earthquake, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1991:independence-referendum",
+   "year": 1991,
+   "yearLabel": "8 Sep 1991",
+   "title": "Independence referendum",
+   "summary": "Citizens voted by some 96 percent for independence, and the republic seceded peacefully from Yugoslavia under President Kiro Gligorov, alone among the Yugoslav republics in avoiding war.",
+   "category": "independence",
+   "era": "independence-and-the-name-dispute",
+   "sources": [
+    {
+     "id": "nmk-independence-britannica",
+     "label": "North Macedonia: Independence",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/Independence"
+    },
+    {
+     "id": "statedept-macedonia",
+     "label": "A Guide to the United States' History of Recognition: North Macedonia",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/macedonia"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1991-independence-referendum",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1991-independence-referendum, claim TL:MKD:event:1991:independence-referendum, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1993:un-admission-as-fyrom",
+   "year": 1993,
+   "yearLabel": "1993",
+   "title": "UN admission as 'FYROM'",
+   "summary": "Owing to Greece's objection over the name, the country was admitted to the United Nations under the provisional designation 'the former Yugoslav Republic of Macedonia'.",
+   "category": "politics",
+   "era": "independence-and-the-name-dispute",
+   "sources": [
+    {
+     "id": "nmk-independence-britannica",
+     "label": "North Macedonia: Independence",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/North-Macedonia/Independence"
+    },
+    {
+     "id": "statedept-macedonia",
+     "label": "A Guide to the United States' History of Recognition: North Macedonia",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/macedonia"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1993-un-admission-as-fyrom",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1993-un-admission-as-fyrom, claim TL:MKD:event:1993:un-admission-as-fyrom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:1995:the-interim-accord-with-greece",
+   "year": 1995,
+   "yearLabel": "13 Sep 1995",
+   "title": "The Interim Accord with Greece",
+   "summary": "Greece and the country signed an Interim Accord under which Greece agreed not to object to its membership of international bodies referred to by the provisional name.",
+   "category": "politics",
+   "era": "independence-and-the-name-dispute",
+   "sources": [
+    {
+     "id": "icj-interim-accord",
+     "label": "Application of the Interim Accord of 13 September 1995 (the former Yugoslav Republic of Macedonia v. Greece), Judgment of 5 December 2011",
+     "publisher": "International Court of Justice",
+     "url": "https://www.icj-cij.org/case/142"
+    },
+    {
+     "id": "statedept-macedonia",
+     "label": "A Guide to the United States' History of Recognition: North Macedonia",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/macedonia"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-1995-the-interim-accord-with-greece",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-1995-the-interim-accord-with-greece, claim TL:MKD:event:1995:the-interim-accord-with-greece, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2011:icj-rules-against-greece",
+   "year": 2011,
+   "yearLabel": "5 Dec 2011",
+   "title": "ICJ rules against Greece",
+   "summary": "The International Court of Justice held that Greece had breached the Interim Accord by objecting to the country's admission to NATO at the 2008 Bucharest summit.",
+   "category": "politics",
+   "era": "independence-and-the-name-dispute",
+   "sources": [
+    {
+     "id": "icj-interim-accord",
+     "label": "Application of the Interim Accord of 13 September 1995 (the former Yugoslav Republic of Macedonia v. Greece), Judgment of 5 December 2011",
+     "publisher": "International Court of Justice",
+     "url": "https://www.icj-cij.org/case/142"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2011-icj-rules-against-greece",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2011-icj-rules-against-greece, claim TL:MKD:event:2011:icj-rules-against-greece, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2018:the-prespa-agreement",
+   "year": 2018,
+   "yearLabel": "17 Jun 2018",
+   "title": "The Prespa Agreement",
+   "summary": "Greece and the country signed the Prespa Agreement, renaming it the Republic of North Macedonia (used erga omnes), terminating the 1995 accord and distinguishing the modern Slavic state from ancient Macedon.",
+   "category": "politics",
+   "era": "independence-and-the-name-dispute",
+   "sources": [
+    {
+     "id": "prespa-text",
+     "label": "Prespa Agreement (Final Agreement for the Settlement of the Differences), 17 June 2018",
+     "publisher": "Wikisource (treaty text)",
+     "url": "https://en.wikisource.org/wiki/Prespa_agreement"
+    },
+    {
+     "id": "icj-interim-accord",
+     "label": "Application of the Interim Accord of 13 September 1995 (the former Yugoslav Republic of Macedonia v. Greece), Judgment of 5 December 2011",
+     "publisher": "International Court of Justice",
+     "url": "https://www.icj-cij.org/case/142"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2018-the-prespa-agreement",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2018-the-prespa-agreement, claim TL:MKD:event:2018:the-prespa-agreement, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2001:the-ohrid-framework-agreement",
+   "year": 2001,
+   "yearLabel": "13 Aug 2001",
+   "title": "The Ohrid Framework Agreement",
+   "summary": "The agreement ended the 2001 ethnic Albanian insurgency, rejecting territorial partition and granting the Albanian minority greater rights through decentralisation, equitable representation, language rights and double-majority voting.",
+   "category": "politics",
+   "era": "ohrid-framework-nato-and-europe",
+   "sources": [
+    {
+     "id": "ohrid-framework-pam",
+     "label": "Ohrid Agreement (Framework Agreement, 13 August 2001)",
+     "publisher": "Peace Accords Matrix, Kroc Institute, University of Notre Dame",
+     "url": "https://peaceaccords.nd.edu/accord/ohrid-agreement"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2001-the-ohrid-framework-agreement",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2001-the-ohrid-framework-agreement, claim TL:MKD:event:2001:the-ohrid-framework-agreement, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2005:eu-candidate-status",
+   "year": 2005,
+   "yearLabel": "Dec 2005",
+   "title": "EU candidate status",
+   "summary": "Having applied for membership in 2004, the country was granted European Union candidate status in December 2005, opening a long road toward accession.",
+   "category": "politics",
+   "era": "ohrid-framework-nato-and-europe",
+   "sources": [
+    {
+     "id": "eu-council-nmk",
+     "label": "Republic of North Macedonia (EU enlargement policy)",
+     "publisher": "Council of the European Union",
+     "url": "https://www.consilium.europa.eu/en/policies/republic-north-macedonia/"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2005-eu-candidate-status",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2005-eu-candidate-status, claim TL:MKD:event:2005:eu-candidate-status, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2020:north-macedonia-joins-nato",
+   "year": 2020,
+   "yearLabel": "27 Mar 2020",
+   "title": "North Macedonia joins NATO",
+   "summary": "After the Prespa Agreement lifted Greece's objection, North Macedonia deposited its instrument of accession and became NATO's thirtieth member on 27 March 2020.",
+   "category": "politics",
+   "era": "ohrid-framework-nato-and-europe",
+   "sources": [
+    {
+     "id": "nato-membership",
+     "label": "North Macedonia joins NATO as 30th Ally, 27 March 2020",
+     "publisher": "North Atlantic Treaty Organization (NATO)",
+     "url": "https://www.nato.int/cps/ge/natohq/news_174589.htm"
+    },
+    {
+     "id": "statedept-macedonia",
+     "label": "A Guide to the United States' History of Recognition: North Macedonia",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/macedonia"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2020-north-macedonia-joins-nato",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2020-north-macedonia-joins-nato, claim TL:MKD:event:2020:north-macedonia-joins-nato, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2020:bulgaria-blocks-eu-accession-talks",
+   "year": 2020,
+   "yearLabel": "2020",
+   "title": "Bulgaria blocks EU accession talks",
+   "summary": "Bulgaria vetoed the opening of EU accession negotiations over disputes about history, language and identity, including claims that Macedonian derives from Bulgarian.",
+   "category": "politics",
+   "era": "ohrid-framework-nato-and-europe",
+   "sources": [
+    {
+     "id": "bulgaria-ecfr",
+     "label": "How to advance a European solution to Bulgaria's and North Macedonia's dispute",
+     "publisher": "European Council on Foreign Relations (ECFR)",
+     "url": "https://ecfr.eu/article/how-to-advance-a-european-solution-to-bulgarias-and-north-macedonias-dispute/"
+    },
+    {
+     "id": "bulgaria-balkaninsight",
+     "label": "Bulgaria to Maintain Block on North Macedonia's Path to EU",
+     "publisher": "Balkan Insight (BIRN)",
+     "url": "https://balkaninsight.com/2022/04/13/bulgaria-to-maintain-block-on-north-macedonias-path-to-eu-minister/"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2020-bulgaria-blocks-eu-accession-talks",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2020-bulgaria-blocks-eu-accession-talks, claim TL:MKD:event:2020:bulgaria-blocks-eu-accession-talks, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MKD:event:2022:eu-accession-negotiations-open",
+   "year": 2022,
+   "yearLabel": "19 Jul 2022",
+   "title": "EU accession negotiations open",
+   "summary": "Following a French-brokered compromise, North Macedonia formally opened European Union accession negotiations, though Bulgaria's conditions continued to complicate the process.",
+   "category": "politics",
+   "era": "ohrid-framework-nato-and-europe",
+   "sources": [
+    {
+     "id": "eu-council-nmk",
+     "label": "Republic of North Macedonia (EU enlargement policy)",
+     "publisher": "Council of the European Union",
+     "url": "https://www.consilium.europa.eu/en/policies/republic-north-macedonia/"
+    },
+    {
+     "id": "bulgaria-ecfr",
+     "label": "How to advance a European solution to Bulgaria's and North Macedonia's dispute",
+     "publisher": "European Council on Foreign Relations (ECFR)",
+     "url": "https://ecfr.eu/article/how-to-advance-a-european-solution-to-bulgarias-and-north-macedonias-dispute/"
+    }
+   ],
+   "url": "https://terralore.co/country/MKD/chronicle#ev-2022-eu-accession-negotiations-open",
+   "citation": "Terralore, \"The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.\", terralore.co/country/MKD/chronicle#ev-2022-eu-accession-negotiations-open, claim TL:MKD:event:2022:eu-accession-negotiations-open, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

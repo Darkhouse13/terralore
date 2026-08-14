@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:BOL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/BOL.claims.json
+
 History: "From Tiwanaku on the shores of Lake Titicaca and the Inca highlands to the silver mountain of Potosi that bankrolled an empire, the revolt of Tupac Katari, independence in 1825 named for Simon Bolivar, the loss of the sea to Chile, the National Revolution of 1952, and the indigenous-majority politics of the Morales era and after." — the sourced chronicle is at https://terralore.co/country/BOL/chronicle.md (6 eras, 26 events).
 
 ## Sources

@@ -1,0 +1,484 @@
+{
+ "subject": "DEU",
+ "name": "Germany",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/DEU/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:DEU:event:9:battle-of-the-teutoburg-forest",
+   "year": 9,
+   "yearLabel": "9 CE",
+   "title": "Battle of the Teutoburg Forest",
+   "summary": "Germanic tribes under Arminius destroyed three Roman legions commanded by Varus, ending Roman attempts to conquer Germania east of the Rhine and securing the river as a permanent frontier.",
+   "category": "war",
+   "era": "germania-and-rome",
+   "sources": [
+    {
+     "id": "teutoburg-britannica",
+     "label": "Battle of the Teutoburg Forest",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-the-Teutoburg-Forest"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-9-battle-of-the-teutoburg-forest",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-9-battle-of-the-teutoburg-forest, claim TL:DEU:event:9:battle-of-the-teutoburg-forest, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:800:coronation-of-charlemagne",
+   "year": 800,
+   "yearLabel": "25 Dec 800",
+   "title": "Coronation of Charlemagne",
+   "summary": "Pope Leo III crowned the Frankish king Charlemagne Emperor of the Romans in Rome, reviving the western imperial title and binding the German lands into a renewed Christian empire.",
+   "category": "politics",
+   "era": "germania-and-rome",
+   "sources": [
+    {
+     "id": "charlemagne-britannica",
+     "label": "Charlemagne",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Charlemagne"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-800-coronation-of-charlemagne",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-800-coronation-of-charlemagne, claim TL:DEU:event:800:coronation-of-charlemagne, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:843:treaty-of-verdun",
+   "year": 843,
+   "yearLabel": "843 CE",
+   "title": "Treaty of Verdun",
+   "summary": "Charlemagne's grandsons divided the Carolingian empire into three kingdoms. East Francia, the German-speaking eastern share, became the foundation of the future Kingdom of Germany.",
+   "category": "politics",
+   "era": "germania-and-rome",
+   "sources": [
+    {
+     "id": "verdun-britannica",
+     "label": "Treaty of Verdun",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Treaty-of-Verdun"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-843-treaty-of-verdun",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-843-treaty-of-verdun, claim TL:DEU:event:843:treaty-of-verdun, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:962:otto-i-crowned-emperor",
+   "year": 962,
+   "yearLabel": "2 Feb 962",
+   "title": "Otto I crowned emperor",
+   "summary": "Pope John XII crowned Otto I of East Francia emperor in Rome, uniting the German and Italian kingdoms and founding the Holy Roman Empire that would frame German political life for over 800 years.",
+   "category": "founding",
+   "era": "holy-roman-empire-reformation",
+   "sources": [
+    {
+     "id": "otto-britannica",
+     "label": "Otto I, Holy Roman Emperor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Otto-I-Holy-Roman-emperor"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-962-otto-i-crowned-emperor",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-962-otto-i-crowned-emperor, claim TL:DEU:event:962:otto-i-crowned-emperor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1517:luther-s-ninety-five-theses",
+   "year": 1517,
+   "yearLabel": "31 Oct 1517",
+   "title": "Luther's Ninety-five Theses",
+   "summary": "Martin Luther issued his Ninety-five Theses against the sale of indulgences, sparking the Protestant Reformation that split Western Christianity and reshaped German society and language.",
+   "category": "religion",
+   "era": "holy-roman-empire-reformation",
+   "sources": [
+    {
+     "id": "theses-britannica",
+     "label": "Ninety-five Theses",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Ninety-five-Theses"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1517-luther-s-ninety-five-theses",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1517-luther-s-ninety-five-theses, claim TL:DEU:event:1517:luther-s-ninety-five-theses, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1555:peace-of-augsburg",
+   "year": 1555,
+   "yearLabel": "25 Sep 1555",
+   "title": "Peace of Augsburg",
+   "summary": "The imperial diet established the first lasting legal coexistence of Lutheranism and Catholicism, letting each prince set his territory's religion under the principle cuius regio, eius religio.",
+   "category": "religion",
+   "era": "holy-roman-empire-reformation",
+   "sources": [
+    {
+     "id": "augsburg-britannica",
+     "label": "Peace of Augsburg",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Peace-of-Augsburg"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1555-peace-of-augsburg",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1555-peace-of-augsburg, claim TL:DEU:event:1555:peace-of-augsburg, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1618:the-thirty-years-war-and-the-peace-of-westphalia",
+   "year": 1618,
+   "yearLabel": "1618–1648",
+   "title": "The Thirty Years' War and the Peace of Westphalia",
+   "summary": "A devastating European war fought largely in Germany ended with the Peace of Westphalia in 1648, which confirmed the autonomy of the empire's states and entrenched German fragmentation.",
+   "category": "war",
+   "era": "holy-roman-empire-reformation",
+   "sources": [
+    {
+     "id": "westphalia-britannica",
+     "label": "Peace of Westphalia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Peace-of-Westphalia"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1618-the-thirty-years-war-and-the-peace-of-westphalia",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1618-the-thirty-years-war-and-the-peace-of-westphalia, claim TL:DEU:event:1618:the-thirty-years-war-and-the-peace-of-westphalia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1806:dissolution-of-the-holy-roman-empire",
+   "year": 1806,
+   "yearLabel": "6 Aug 1806",
+   "title": "Dissolution of the Holy Roman Empire",
+   "summary": "Under pressure from Napoleon, Emperor Francis II abdicated the imperial crown and dissolved the Holy Roman Empire, ending the medieval framework of German statehood after more than eight centuries.",
+   "category": "politics",
+   "era": "prussia-and-the-road-to-unity",
+   "sources": [
+    {
+     "id": "francis-britannica",
+     "label": "Francis II, Holy Roman Emperor",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Francis-II-Holy-Roman-emperor"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1806-dissolution-of-the-holy-roman-empire",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1806-dissolution-of-the-holy-roman-empire, claim TL:DEU:event:1806:dissolution-of-the-holy-roman-empire, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1815:congress-of-vienna-and-the-german-confederation",
+   "year": 1815,
+   "yearLabel": "1815",
+   "title": "Congress of Vienna and the German Confederation",
+   "summary": "After Napoleon's defeat, the Congress of Vienna created a loose confederation of German states dominated by Austria and Prussia, leaving national unity unfulfilled.",
+   "category": "politics",
+   "era": "prussia-and-the-road-to-unity",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1815-congress-of-vienna-and-the-german-confederation",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1815-congress-of-vienna-and-the-german-confederation, claim TL:DEU:event:1815:congress-of-vienna-and-the-german-confederation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1848:the-revolutions-of-1848",
+   "year": 1848,
+   "yearLabel": "1848–1849",
+   "title": "The Revolutions of 1848",
+   "summary": "Liberal and nationalist uprisings swept the German states, and the Frankfurt Parliament drafted a constitution for a united Germany, but the movement collapsed when the Prussian king refused its imperial crown.",
+   "category": "politics",
+   "era": "prussia-and-the-road-to-unity",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1848-the-revolutions-of-1848",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1848-the-revolutions-of-1848, claim TL:DEU:event:1848:the-revolutions-of-1848, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1871:proclamation-of-the-german-empire",
+   "year": 1871,
+   "yearLabel": "18 Jan 1871",
+   "title": "Proclamation of the German Empire",
+   "summary": "Following victory in the Franco-Prussian War, the German states united as the German Empire, proclaimed in the Hall of Mirrors at Versailles with Wilhelm I as Emperor and Bismarck as Chancellor.",
+   "category": "founding",
+   "era": "prussia-and-the-road-to-unity",
+   "sources": [
+    {
+     "id": "versailles-chateau",
+     "label": "Proclamation of the German Empire, 1871",
+     "publisher": "Château de Versailles",
+     "url": "https://en.chateauversailles.fr/discover/history/key-dates/proclamation-german-empire-1871"
+    },
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1871-proclamation-of-the-german-empire",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1871-proclamation-of-the-german-empire, claim TL:DEU:event:1871:proclamation-of-the-german-empire, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1871:the-bismarckian-empire-and-industrial-rise",
+   "year": 1871,
+   "yearLabel": "1871–1890",
+   "title": "The Bismarckian empire and industrial rise",
+   "summary": "Under Bismarck's chancellorship the empire industrialised rapidly and introduced the world's first national social insurance, while maintaining a careful balance of power in Europe.",
+   "category": "economy",
+   "era": "empire-and-first-world-war",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1871-the-bismarckian-empire-and-industrial-rise",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1871-the-bismarckian-empire-and-industrial-rise, claim TL:DEU:event:1871:the-bismarckian-empire-and-industrial-rise, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1884:german-colonial-expansion",
+   "year": 1884,
+   "yearLabel": "1884–1885",
+   "title": "German colonial expansion",
+   "summary": "Germany acquired colonies in Africa and the Pacific, a latecomer's empire whose rule, including the genocide of the Herero and Nama in South West Africa, left a brutal legacy.",
+   "category": "colonization",
+   "era": "empire-and-first-world-war",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1884-german-colonial-expansion",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1884-german-colonial-expansion, claim TL:DEU:event:1884:german-colonial-expansion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1914:the-first-world-war",
+   "year": 1914,
+   "yearLabel": "1914–1918",
+   "title": "The First World War",
+   "summary": "Germany fought the First World War as the principal Central Power. Four years of total war devastated a generation and ended in German defeat.",
+   "category": "war",
+   "era": "empire-and-first-world-war",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1914-the-first-world-war",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1914-the-first-world-war, claim TL:DEU:event:1914:the-first-world-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1918:abdication-of-wilhelm-ii",
+   "year": 1918,
+   "yearLabel": "9 Nov 1918",
+   "title": "Abdication of Wilhelm II",
+   "summary": "Amid military collapse and revolution, Emperor Wilhelm II abdicated and a republic was proclaimed in Berlin; the armistice followed two days later, ending the war and the monarchy.",
+   "category": "politics",
+   "era": "empire-and-first-world-war",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1918-abdication-of-wilhelm-ii",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1918-abdication-of-wilhelm-ii, claim TL:DEU:event:1918:abdication-of-wilhelm-ii, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1919:the-weimar-republic-and-its-constitution",
+   "year": 1919,
+   "yearLabel": "1919",
+   "title": "The Weimar Republic and its constitution",
+   "summary": "Germany's first democracy adopted the Weimar Constitution in 1919, establishing a parliamentary republic that would be undermined by economic crisis and political extremism.",
+   "category": "politics",
+   "era": "weimar-third-reich-second-world-war",
+   "sources": [
+    {
+     "id": "weimar-bundestag",
+     "label": "The Weimar Republic (1918–1933)",
+     "publisher": "German Bundestag",
+     "url": "https://www.bundestag.de/en/parliament/history"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1919-the-weimar-republic-and-its-constitution",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1919-the-weimar-republic-and-its-constitution, claim TL:DEU:event:1919:the-weimar-republic-and-its-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1933:hitler-appointed-chancellor",
+   "year": 1933,
+   "yearLabel": "30 Jan 1933",
+   "title": "Hitler appointed chancellor",
+   "summary": "President Hindenburg appointed Adolf Hitler chancellor. Within months the Nazis abolished democracy and established a totalitarian one-party dictatorship.",
+   "category": "politics",
+   "era": "weimar-third-reich-second-world-war",
+   "sources": [
+    {
+     "id": "ushmm-keydates",
+     "label": "The Holocaust and World War II: Key Dates",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1933-hitler-appointed-chancellor",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1933-hitler-appointed-chancellor, claim TL:DEU:event:1933:hitler-appointed-chancellor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1939:invasion-of-poland",
+   "year": 1939,
+   "yearLabel": "1 Sep 1939",
+   "title": "Invasion of Poland",
+   "summary": "Germany invaded Poland, igniting the Second World War in Europe and beginning six years of conquest, occupation and total war.",
+   "category": "war",
+   "era": "weimar-third-reich-second-world-war",
+   "sources": [
+    {
+     "id": "ushmm-keydates",
+     "label": "The Holocaust and World War II: Key Dates",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1939-invasion-of-poland",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1939-invasion-of-poland, claim TL:DEU:event:1939:invasion-of-poland, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1941:the-holocaust",
+   "year": 1941,
+   "yearLabel": "1941–1945",
+   "title": "The Holocaust",
+   "summary": "Nazi Germany carried out the systematic, state-organised murder of some six million European Jews, alongside the killing of Roma, disabled people, Soviet prisoners and other victims.",
+   "category": "disaster",
+   "era": "weimar-third-reich-second-world-war",
+   "sources": [
+    {
+     "id": "ushmm-keydates",
+     "label": "The Holocaust and World War II: Key Dates",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1941-the-holocaust",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1941-the-holocaust, claim TL:DEU:event:1941:the-holocaust, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1945:unconditional-surrender",
+   "year": 1945,
+   "yearLabel": "8 May 1945",
+   "title": "Unconditional surrender",
+   "summary": "Germany surrendered unconditionally to the Allies, ending the Second World War in Europe and the Nazi regime amid the ruin of the country.",
+   "category": "war",
+   "era": "weimar-third-reich-second-world-war",
+   "sources": [
+    {
+     "id": "ushmm-keydates",
+     "label": "The Holocaust and World War II: Key Dates",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1945-unconditional-surrender",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1945-unconditional-surrender, claim TL:DEU:event:1945:unconditional-surrender, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1949:founding-of-the-two-german-states",
+   "year": 1949,
+   "yearLabel": "23 May 1949",
+   "title": "Founding of the two German states",
+   "summary": "The Basic Law established the Federal Republic of Germany in the west on 23 May 1949; the German Democratic Republic was founded in the Soviet zone on 7 October 1949, formalising the country's division.",
+   "category": "politics",
+   "era": "division-federal-republic-reunification",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1949-founding-of-the-two-german-states",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1949-founding-of-the-two-german-states, claim TL:DEU:event:1949:founding-of-the-two-german-states, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1961:construction-of-the-berlin-wall",
+   "year": 1961,
+   "yearLabel": "13 Aug 1961",
+   "title": "Construction of the Berlin Wall",
+   "summary": "East Germany began building the Berlin Wall to stop its citizens fleeing west, creating the most potent symbol of the Cold War division of Europe.",
+   "category": "politics",
+   "era": "division-federal-republic-reunification",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1961-construction-of-the-berlin-wall",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1961-construction-of-the-berlin-wall, claim TL:DEU:event:1961:construction-of-the-berlin-wall, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1989:fall-of-the-berlin-wall",
+   "year": 1989,
+   "yearLabel": "9 Nov 1989",
+   "title": "Fall of the Berlin Wall",
+   "summary": "Amid mass protests and the collapse of communist rule across Eastern Europe, the Berlin Wall was opened, ending the division of Berlin and clearing the path to reunification.",
+   "category": "politics",
+   "era": "division-federal-republic-reunification",
+   "sources": [
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    },
+    {
+     "id": "unity-deutschland",
+     "label": "Day of German Unity: Facts and History",
+     "publisher": "Federal Foreign Office (deutschland.de)",
+     "url": "https://www.deutschland.de/en"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1989-fall-of-the-berlin-wall",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1989-fall-of-the-berlin-wall, claim TL:DEU:event:1989:fall-of-the-berlin-wall, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DEU:event:1990:german-reunification",
+   "year": 1990,
+   "yearLabel": "3 Oct 1990",
+   "title": "German reunification",
+   "summary": "The German Democratic Republic acceded to the Federal Republic, reuniting Germany as a single democratic state, now commemorated annually as the Day of German Unity.",
+   "category": "politics",
+   "era": "division-federal-republic-reunification",
+   "sources": [
+    {
+     "id": "unity-deutschland",
+     "label": "Day of German Unity: Facts and History",
+     "publisher": "Federal Foreign Office (deutschland.de)",
+     "url": "https://www.deutschland.de/en"
+    },
+    {
+     "id": "germany-britannica",
+     "label": "Germany",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Germany"
+    }
+   ],
+   "url": "https://terralore.co/country/DEU/chronicle#ev-1990-german-reunification",
+   "citation": "Terralore, \"The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.\", terralore.co/country/DEU/chronicle#ev-1990-german-reunification, claim TL:DEU:event:1990:german-reunification, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

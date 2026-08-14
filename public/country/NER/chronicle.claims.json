@@ -1,0 +1,683 @@
+{
+ "subject": "NER",
+ "name": "Niger",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/NER/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:NER:event:8000bce:burials-begin-at-gobero",
+   "year": -8000,
+   "yearLabel": "c. 8000 BCE",
+   "title": "Burials begin at Gobero",
+   "summary": "Beside a lake in the present-day Ténéré, the Kiffian people began burying their dead at Gobero, creating what archaeologists identify as the oldest known cemetery in the Sahara.",
+   "category": "migration",
+   "era": "green-sahara-and-tenere",
+   "sources": [
+    {
+     "id": "gobero-wiki",
+     "label": "Gobero",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gobero"
+    },
+    {
+     "id": "uchicago-gobero",
+     "label": "Stone Age Graveyard Reveals Lifestyles of a 'Green Sahara'",
+     "publisher": "University of Chicago News",
+     "url": "https://news.uchicago.edu/story/stone-age-graveyard-reveals-lifestyles-green-sahara-two-successive-cultures-thrived-lakeside"
+    },
+    {
+     "id": "sereno-gobero",
+     "label": "Lakeside Cemeteries in the Sahara: 5000 Years of Holocene Population and Environmental Change",
+     "publisher": "Sereno et al., PLoS ONE (PMC)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2515196/"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-8000bce-burials-begin-at-gobero",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-8000bce-burials-begin-at-gobero, claim TL:NER:event:8000bce:burials-begin-at-gobero, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:5000bce:the-tenerean-herders",
+   "year": -5000,
+   "yearLabel": "c. 5th millennium BCE",
+   "title": "The Tenerean herders",
+   "summary": "After a dry interval, the more lightly built Tenerean people reoccupied Gobero, herding cattle as the lake shallowed; their graves include the famous burial of a woman with two children, hands interlinked.",
+   "category": "migration",
+   "era": "green-sahara-and-tenere",
+   "sources": [
+    {
+     "id": "uchicago-gobero",
+     "label": "Stone Age Graveyard Reveals Lifestyles of a 'Green Sahara'",
+     "publisher": "University of Chicago News",
+     "url": "https://news.uchicago.edu/story/stone-age-graveyard-reveals-lifestyles-green-sahara-two-successive-cultures-thrived-lakeside"
+    },
+    {
+     "id": "sereno-gobero",
+     "label": "Lakeside Cemeteries in the Sahara: 5000 Years of Holocene Population and Environmental Change",
+     "publisher": "Sereno et al., PLoS ONE (PMC)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2515196/"
+    },
+    {
+     "id": "gobero-wiki",
+     "label": "Gobero",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gobero"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-5000bce-the-tenerean-herders",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-5000bce-the-tenerean-herders, claim TL:NER:event:5000bce:the-tenerean-herders, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:4000bce:rock-art-of-a-green-sahara",
+   "year": -4000,
+   "yearLabel": "Holocene",
+   "title": "Rock art of a green Sahara",
+   "summary": "Across the Aïr and Ténéré, engraved and painted rock art recorded cattle, giraffes and elephants, documenting a watered landscape utterly unlike the desert that exists today.",
+   "category": "culture",
+   "era": "green-sahara-and-tenere",
+   "sources": [
+    {
+     "id": "nigerheritage-archaeology",
+     "label": "Archaeology of the Green Sahara",
+     "publisher": "NigerHeritage",
+     "url": "https://www.nigerheritage.org/archaeology"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-4000bce-rock-art-of-a-green-sahara",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-4000bce-rock-art-of-a-green-sahara, claim TL:NER:event:4000bce:rock-art-of-a-green-sahara, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:2500bce:the-desert-returns",
+   "year": -2500,
+   "yearLabel": "c. 2500 BCE",
+   "title": "The desert returns",
+   "summary": "As the climate dried, the lakes retreated and the Sahara hardened into desert, pushing human settlement and trade southward toward the Sahel.",
+   "category": "disaster",
+   "era": "green-sahara-and-tenere",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "nigerheritage-archaeology",
+     "label": "Archaeology of the Green Sahara",
+     "publisher": "NigerHeritage",
+     "url": "https://www.nigerheritage.org/archaeology"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-2500bce-the-desert-returns",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-2500bce-the-desert-returns, claim TL:NER:event:2500bce:the-desert-returns, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1405:founding-of-the-sultanate-of-air",
+   "year": 1405,
+   "yearLabel": "early 15th century (c. 1405)",
+   "title": "Founding of the Sultanate of Aïr",
+   "summary": "Tuareg clans of the Aïr massif organised the Sultanate of Aïr, choosing a sultan to mediate their rivalries; its capital Agadez became a major trans-Saharan trading and religious centre. (Some accounts place the city's rise nearer 1449.)",
+   "category": "founding",
+   "era": "air-songhai-and-the-caravans",
+   "sources": [
+    {
+     "id": "sultanate-agadez-wiki",
+     "label": "Sultanate of Agadez",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sultanate_of_Agadez"
+    },
+    {
+     "id": "agadez-wiki",
+     "label": "Agadez",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Agadez"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1405-founding-of-the-sultanate-of-air",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1405-founding-of-the-sultanate-of-air, claim TL:NER:event:1405:founding-of-the-sultanate-of-air, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1500:songhai-pushes-into-air",
+   "year": 1500,
+   "yearLabel": "c. 1500–1501",
+   "title": "Songhai pushes into Aïr",
+   "summary": "The Songhai emperor Askia Muhammad campaigned into the Aïr mountains and established a Songhai presence at Agadez to control the northern caravan markets, the empire's eastern reach into present-day Niger.",
+   "category": "war",
+   "era": "air-songhai-and-the-caravans",
+   "sources": [
+    {
+     "id": "askia-britannica",
+     "label": "Muhammad I Askia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Muhammad-I-Askia"
+    },
+    {
+     "id": "songhai-lumen",
+     "label": "Songhai",
+     "publisher": "Lumen Learning, World Civilization",
+     "url": "https://courses.lumenlearning.com/suny-hccc-worldcivilization/chapter/songhai/"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1500-songhai-pushes-into-air",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1500-songhai-pushes-into-air, claim TL:NER:event:1500:songhai-pushes-into-air, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1500:the-salt-caravans-of-bilma",
+   "year": 1500,
+   "yearLabel": "15th–19th centuries",
+   "title": "The salt caravans of Bilma",
+   "summary": "The azalai salt caravans carried Bilma and Fachi salt and dates southward to the Hausa markets, making Agadez and the eastern oases pillars of the trans-Saharan trade alongside the traffic in enslaved people.",
+   "category": "economy",
+   "era": "air-songhai-and-the-caravans",
+   "sources": [
+    {
+     "id": "agadez-wiki",
+     "label": "Agadez",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Agadez"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1500-the-salt-caravans-of-bilma",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1500-the-salt-caravans-of-bilma, claim TL:NER:event:1500:the-salt-caravans-of-bilma, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:2013:agadez-inscribed-by-unesco",
+   "year": 2013,
+   "yearLabel": "2013",
+   "title": "Agadez inscribed by UNESCO",
+   "summary": "The Historic Centre of Agadez — the mudbrick capital of the Sultanate of Aïr, with its tall earthen mosque minaret — was inscribed as a UNESCO World Heritage Site, recognising its role in trans-Saharan trade and Islam.",
+   "category": "culture",
+   "era": "air-songhai-and-the-caravans",
+   "sources": [
+    {
+     "id": "agadez-wiki",
+     "label": "Agadez",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Agadez"
+    },
+    {
+     "id": "worldheritage-agadez",
+     "label": "Historic Centre of Agadez (World Heritage List, inscribed 2013)",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1268/"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-2013-agadez-inscribed-by-unesco",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-2013-agadez-inscribed-by-unesco, claim TL:NER:event:2013:agadez-inscribed-by-unesco, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1731:founding-of-the-sultanate-of-damagaram",
+   "year": 1731,
+   "yearLabel": "c. 1731",
+   "title": "Founding of the Sultanate of Damagaram",
+   "summary": "Muslim aristocrats founded the Sultanate of Damagaram around Zinder; beginning as a vassal of the declining empire of Bornu, it would expand to dominate much of the southeast of present-day Niger.",
+   "category": "founding",
+   "era": "hausa-damagaram-and-bornu",
+   "sources": [
+    {
+     "id": "damagaram-wiki",
+     "label": "Sultanate of Damagaram",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sultanate_of_Damagaram"
+    },
+    {
+     "id": "africanhistory-damagaram",
+     "label": "A history of the Damagaram sultanate of Zinder, ca. 1730–1899",
+     "publisher": "African History Extra",
+     "url": "https://www.africanhistoryextra.com/p/a-history-of-the-damagaram-sultanate"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1731-founding-of-the-sultanate-of-damagaram",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1731-founding-of-the-sultanate-of-damagaram, claim TL:NER:event:1731:founding-of-the-sultanate-of-damagaram, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1800:zinder-a-trans-saharan-hub",
+   "year": 1800,
+   "yearLabel": "19th century",
+   "title": "Zinder, a trans-Saharan hub",
+   "summary": "Damagaram's capital Zinder grew rich astride the desert route linking Tripoli to Kano, becoming a walled and well-armed trading state and one of the strongest powers in the region.",
+   "category": "economy",
+   "era": "hausa-damagaram-and-bornu",
+   "sources": [
+    {
+     "id": "damagaram-wiki",
+     "label": "Sultanate of Damagaram",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sultanate_of_Damagaram"
+    },
+    {
+     "id": "africanhistory-damagaram",
+     "label": "A history of the Damagaram sultanate of Zinder, ca. 1730–1899",
+     "publisher": "African History Extra",
+     "url": "https://www.africanhistoryextra.com/p/a-history-of-the-damagaram-sultanate"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1800-zinder-a-trans-saharan-hub",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1800-zinder-a-trans-saharan-hub, claim TL:NER:event:1800:zinder-a-trans-saharan-hub, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1804:sokoto-jihad-reshapes-the-hausa-lands",
+   "year": 1804,
+   "yearLabel": "early 19th century",
+   "title": "Sokoto jihad reshapes the Hausa lands",
+   "summary": "The Sokoto Caliphate's rise to the south drove Hausa rivals such as Gobir and the Katsina rulers northward into present-day Niger, recasting the politics of the southern savanna.",
+   "category": "religion",
+   "era": "hausa-damagaram-and-bornu",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "britannica-niger-ref",
+     "label": "Niger (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1804-sokoto-jihad-reshapes-the-hausa-lands",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1804-sokoto-jihad-reshapes-the-hausa-lands, claim TL:NER:event:1804:sokoto-jihad-reshapes-the-hausa-lands, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1851:bornu-s-enduring-influence",
+   "year": 1851,
+   "yearLabel": "mid-19th century",
+   "title": "Bornu's enduring influence",
+   "summary": "The empire of Kanem-Bornu near Lake Chad continued to project Islamic culture and political weight over Niger's east, where many small states had begun as its tributaries.",
+   "category": "politics",
+   "era": "hausa-damagaram-and-bornu",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "britannica-niger-ref",
+     "label": "Niger (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1851-bornu-s-enduring-influence",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1851-bornu-s-enduring-influence, claim TL:NER:event:1851:bornu-s-enduring-influence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1899:the-voulet-chanoine-mission",
+   "year": 1899,
+   "yearLabel": "1899",
+   "title": "The Voulet-Chanoine mission",
+   "summary": "A French military column under Captains Voulet and Chanoine drove across the region with extreme brutality, massacring the people of Birni-N'Konni on 8 May 1899 before disintegrating into mutiny and the murder of Colonel Klobb.",
+   "category": "colonization",
+   "era": "french-conquest-and-colony",
+   "sources": [
+    {
+     "id": "voulet-chanoine-wiki",
+     "label": "Voulet–Chanoine Mission",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Voulet%E2%80%93Chanoine_Mission"
+    },
+    {
+     "id": "ictj-niger",
+     "label": "France Signals Willingness to Discuss Reparations for Colonial Massacres in Niger",
+     "publisher": "International Center for Transitional Justice",
+     "url": "https://www.ictj.org/latest-news/france-signals-willingness-discuss-reparations-colonial-massacres-niger"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1899-the-voulet-chanoine-mission",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1899-the-voulet-chanoine-mission, claim TL:NER:event:1899:the-voulet-chanoine-mission, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1916:the-kaocen-revolt-at-agadez",
+   "year": 1916,
+   "yearLabel": "1916–1917",
+   "title": "The Kaocen revolt at Agadez",
+   "summary": "During the First World War the Tuareg leader Kaocen led a major revolt against French rule, besieging the garrison at Agadez before the rising was crushed.",
+   "category": "war",
+   "era": "french-conquest-and-colony",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "britannica-niger-ref",
+     "label": "Niger (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1916-the-kaocen-revolt-at-agadez",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1916-the-kaocen-revolt-at-agadez, claim TL:NER:event:1916:the-kaocen-revolt-at-agadez, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1922:niger-becomes-a-french-colony",
+   "year": 1922,
+   "yearLabel": "1922",
+   "title": "Niger becomes a French colony",
+   "summary": "After the desert Tuareg were finally subdued in the early 1920s, Niger was constituted as a colony within French West Africa, administered through the federation's governor-general in Dakar.",
+   "category": "colonization",
+   "era": "french-conquest-and-colony",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "britannica-niger-ref",
+     "label": "Niger (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1922-niger-becomes-a-french-colony",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1922-niger-becomes-a-french-colony, claim TL:NER:event:1922:niger-becomes-a-french-colony, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1958:autonomous-republic-within-the-french-community",
+   "year": 1958,
+   "yearLabel": "1958",
+   "title": "Autonomous republic within the French Community",
+   "summary": "In the 1958 referendum Niger voted to become a self-governing republic within the French Community, with Hamani Diori emerging at the head of its government on the road to independence.",
+   "category": "politics",
+   "era": "french-conquest-and-colony",
+   "sources": [
+    {
+     "id": "diori-britannica",
+     "label": "Hamani Diori",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Hamani-Diori"
+    },
+    {
+     "id": "diori-blackpast",
+     "label": "Hamani Diori (1916–1989)",
+     "publisher": "BlackPast.org",
+     "url": "https://www.blackpast.org/global-african-history/hamani-diori-1916-1989/"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1958-autonomous-republic-within-the-french-community",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1958-autonomous-republic-within-the-french-community, claim TL:NER:event:1958:autonomous-republic-within-the-french-community, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1960:niger-gains-independence",
+   "year": 1960,
+   "yearLabel": "3 August 1960",
+   "title": "Niger gains independence",
+   "summary": "Niger became a sovereign republic on 3 August 1960 with Hamani Diori as its first president; the United States recognised it the same day. Diori established a one-party state closely tied to France.",
+   "category": "independence",
+   "era": "independence-uranium-and-drought",
+   "sources": [
+    {
+     "id": "statedept-niger",
+     "label": "A Guide to the History of Recognition: Niger",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/niger"
+    },
+    {
+     "id": "diori-britannica",
+     "label": "Hamani Diori",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Hamani-Diori"
+    },
+    {
+     "id": "diori-blackpast",
+     "label": "Hamani Diori (1916–1989)",
+     "publisher": "BlackPast.org",
+     "url": "https://www.blackpast.org/global-african-history/hamani-diori-1916-1989/"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1960-niger-gains-independence",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1960-niger-gains-independence, claim TL:NER:event:1960:niger-gains-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1968:the-great-sahel-drought",
+   "year": 1968,
+   "yearLabel": "1968–1974",
+   "title": "The Great Sahel drought",
+   "summary": "A catastrophic drought devastated Niger's crops and herds; the famine of this period and the 1980s killed many and left hundreds of thousands dependent on food aid, deepening the crisis of the Diori regime.",
+   "category": "disaster",
+   "era": "independence-uranium-and-drought",
+   "sources": [
+    {
+     "id": "sahel-drought-env",
+     "label": "Sahel Drought and Famine, 1968–1985",
+     "publisher": "Environment & Society Portal",
+     "url": "https://www.environmentandsociety.org/tools/keywords/sahel-drought-and-famine-1968-1985"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1968-the-great-sahel-drought",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1968-the-great-sahel-drought, claim TL:NER:event:1968:the-great-sahel-drought, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1971:uranium-mining-begins-at-arlit",
+   "year": 1971,
+   "yearLabel": "1971",
+   "title": "Uranium mining begins at Arlit",
+   "summary": "After deposits were developed from 1968 through the company SOMAÏR, the open-pit mine at Arlit began commercial uranium production in 1971, founding the industry that became Niger's leading export.",
+   "category": "economy",
+   "era": "independence-uranium-and-drought",
+   "sources": [
+    {
+     "id": "world-nuclear-niger",
+     "label": "Uranium in Niger",
+     "publisher": "World Nuclear Association",
+     "url": "https://world-nuclear.org/information-library/country-profiles/countries-g-n/niger"
+    },
+    {
+     "id": "somair-wiki",
+     "label": "SOMAÏR",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/SOMAIR"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1971-uranium-mining-begins-at-arlit",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1971-uranium-mining-begins-at-arlit, claim TL:NER:event:1971:uranium-mining-begins-at-arlit, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1974:kountche-s-coup-ousts-diori",
+   "year": 1974,
+   "yearLabel": "15 April 1974",
+   "title": "Kountché's coup ousts Diori",
+   "summary": "Amid famine, corruption allegations over relief supplies, and a dispute with France over uranium prices, Lieutenant-Colonel Seyni Kountché overthrew President Diori, beginning thirteen years of military rule.",
+   "category": "politics",
+   "era": "independence-uranium-and-drought",
+   "sources": [
+    {
+     "id": "coup-1974-wiki",
+     "label": "1974 Nigerien coup d'état",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1974_Nigerien_coup_d%27%C3%A9tat"
+    },
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "diori-britannica",
+     "label": "Hamani Diori",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Hamani-Diori"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1974-kountche-s-coup-ousts-diori",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1974-kountche-s-coup-ousts-diori, claim TL:NER:event:1974:kountche-s-coup-ousts-diori, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1993:transition-to-multiparty-democracy",
+   "year": 1993,
+   "yearLabel": "1991–1993",
+   "title": "Transition to multiparty democracy",
+   "summary": "A 1991 national conference opened Niger's politics; elections in 1993 brought the first freely chosen government, beginning a turbulent experiment in multiparty rule.",
+   "category": "politics",
+   "era": "democracy-rebellions-and-coups",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "britannica-niger-ref",
+     "label": "Niger (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Niger"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1993-transition-to-multiparty-democracy",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1993-transition-to-multiparty-democracy, claim TL:NER:event:1993:transition-to-multiparty-democracy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:1990:first-tuareg-rebellion",
+   "year": 1990,
+   "yearLabel": "1990–1995",
+   "title": "First Tuareg rebellion",
+   "summary": "Tuareg fighters in the north rebelled over marginalisation and the distribution of uranium wealth; the rising was ended by a 1995 peace accord promising decentralisation.",
+   "category": "war",
+   "era": "democracy-rebellions-and-coups",
+   "sources": [
+    {
+     "id": "tuareg-90s-wiki",
+     "label": "Tuareg rebellion (1990–1995)",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tuareg_rebellion_(1990%E2%80%931995)"
+    },
+    {
+     "id": "minorityrights-tuareg",
+     "label": "Tuareg in Niger",
+     "publisher": "Minority Rights Group",
+     "url": "https://minorityrights.org/communities/tuareg-2/"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-1990-first-tuareg-rebellion",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-1990-first-tuareg-rebellion, claim TL:NER:event:1990:first-tuareg-rebellion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:2007:second-tuareg-rebellion",
+   "year": 2007,
+   "yearLabel": "2007–2009",
+   "title": "Second Tuareg rebellion",
+   "summary": "The Niger Movement for Justice (MNJ) launched a new insurgency, attacking the army and the uranium-mining zone around Agadez and Arlit, before a settlement was reached in 2009.",
+   "category": "war",
+   "era": "democracy-rebellions-and-coups",
+   "sources": [
+    {
+     "id": "tuareg-2007-wiki",
+     "label": "Tuareg rebellion (2007–2009)",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tuareg_rebellion_(2007%E2%80%932009)"
+    },
+    {
+     "id": "minorityrights-tuareg",
+     "label": "Tuareg in Niger",
+     "publisher": "Minority Rights Group",
+     "url": "https://minorityrights.org/communities/tuareg-2/"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-2007-second-tuareg-rebellion",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-2007-second-tuareg-rebellion, claim TL:NER:event:2007:second-tuareg-rebellion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:2010:coup-ousts-president-tandja",
+   "year": 2010,
+   "yearLabel": "2010",
+   "title": "Coup ousts President Tandja",
+   "summary": "The army removed President Mamadou Tandja after he manoeuvred to extend his term, one of a series of military interventions that punctuated Niger's democratic experiment.",
+   "category": "politics",
+   "era": "democracy-rebellions-and-coups",
+   "sources": [
+    {
+     "id": "hist-niger-wiki",
+     "label": "History of Niger",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Niger"
+    },
+    {
+     "id": "coup-2023-wiki",
+     "label": "2023 Nigerien coup d'état",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2023_Nigerien_coup_d%27%C3%A9tat"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-2010-coup-ousts-president-tandja",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-2010-coup-ousts-president-tandja, claim TL:NER:event:2010:coup-ousts-president-tandja, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NER:event:2023:coup-against-president-bazoum",
+   "year": 2023,
+   "yearLabel": "26 July 2023",
+   "title": "Coup against President Bazoum",
+   "summary": "The presidential guard detained elected president Mohamed Bazoum and General Abdourahamane Tchiani proclaimed a military junta — Niger's fifth coup since independence — drawing condemnation from ECOWAS and the West.",
+   "category": "politics",
+   "era": "democracy-rebellions-and-coups",
+   "sources": [
+    {
+     "id": "coup-2023-wiki",
+     "label": "2023 Nigerien coup d'état",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2023_Nigerien_coup_d%27%C3%A9tat"
+    },
+    {
+     "id": "hrw-niger-2023",
+     "label": "Niger: Two Years On, Ex-President Still Arbitrarily Detained",
+     "publisher": "Human Rights Watch",
+     "url": "https://www.hrw.org/news/2025/07/23/niger-two-years-on-ex-president-still-arbitrarily-detained"
+    }
+   ],
+   "url": "https://terralore.co/country/NER/chronicle#ev-2023-coup-against-president-bazoum",
+   "citation": "Terralore, \"The Chronicle of Niger: From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups.\", terralore.co/country/NER/chronicle#ev-2023-coup-against-president-bazoum, claim TL:NER:event:2023:coup-against-president-bazoum, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -1,0 +1,850 @@
+{
+ "subject": "BGD",
+ "name": "Bangladesh",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/BGD",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:BGD:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 450119432068.852,
+   "display": "$450 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-gdp-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-gdp-2024, claim TL:BGD:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 2593.41611680774,
+   "display": "$2,593",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-gdpPerCapita-2024, claim TL:BGD:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 4.22325911250161,
+   "display": "4.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-gdpGrowth-2024, claim TL:BGD:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 10.4657482763412,
+   "display": "10.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-inflation-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-inflation-2024, claim TL:BGD:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 26.7780758040478,
+   "display": "26.8%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-tradePctGdp-2024, claim TL:BGD:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 173562364,
+   "display": "174 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-population-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-population-2024, claim TL:BGD:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 74.93,
+   "display": "74.9 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-lifeExpectancy-2024, claim TL:BGD:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 32.6783196323307,
+   "display": "32.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-urbanPct-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-urbanPct-2024, claim TL:BGD:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.138,
+   "display": "2.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-fertility-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-fertility-2024, claim TL:BGD:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 79,
+   "display": "79.0%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-literacy-2022",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-literacy-2022, claim TL:BGD:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 36.5322872,
+   "display": "36.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-wgiVoice-2024, claim TL:BGD:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 40.9048506,
+   "display": "40.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-wgiStability-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-wgiStability-2024, claim TL:BGD:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 39.305124,
+   "display": "39.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-wgiEffectiveness-2024, claim TL:BGD:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 39.8788257,
+   "display": "39.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-wgiRegQuality-2024, claim TL:BGD:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 40.4414129,
+   "display": "40.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-wgiRuleOfLaw-2024, claim TL:BGD:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 25.5454805,
+   "display": "25.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-wgiCorruption-2024, claim TL:BGD:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 2.17014575,
+   "display": "2.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-healthSpendPctGdp-2023, claim TL:BGD:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.722,
+   "display": "0.72",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-physicians-2023",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-physicians-2023, claim TL:BGD:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 30.5,
+   "display": "30.5",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-underFiveMortality-2024, claim TL:BGD:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 96,
+   "display": "96.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-measlesImmunisation-2024, claim TL:BGD:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 59.1254259857148,
+   "display": "59.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-safeWater-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-safeWater-2024, claim TL:BGD:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 79,
+   "display": "79.0%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-literacyRate-2022",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-literacyRate-2022, claim TL:BGD:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.0343847791384,
+   "display": "2.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-eduSpendPctGdp-2024, claim TL:BGD:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 106.491310395865,
+   "display": "106.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-primaryEnrolment-2024, claim TL:BGD:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 64.2997191043961,
+   "display": "64.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-secondaryEnrolment-2024, claim TL:BGD:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 23.7295608009814,
+   "display": "23.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BGD#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-tertiaryEnrolment-2024, claim TL:BGD:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 53.42171316,
+   "display": "53.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BGD#claim-internetUsers-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-internetUsers-2024, claim TL:BGD:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 108.077037369691,
+   "display": "108",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BGD#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-mobileSubs-2024, claim TL:BGD:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:highTechExports:2018",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 0.539452073551698,
+   "display": "0.5%",
+   "unit": "%",
+   "observed": 2018,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-highTechExports-2018",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-highTechExports-2018, claim TL:BGD:highTechExports:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 129980,
+   "display": "129,980 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-landArea-2023",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-landArea-2023, claim TL:BGD:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 14.4899215263887,
+   "display": "14.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-forestPct-2023",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-forestPct-2023, claim TL:BGD:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 72.311124788429,
+   "display": "72.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-agriPct-2023",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-agriPct-2023, claim TL:BGD:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.715539343541092,
+   "display": "0.7",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-co2PerCapita-2024, claim TL:BGD:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 25,
+   "display": "25.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-renewablePct-2021",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-renewablePct-2021, claim TL:BGD:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.610069177584654,
+   "display": "0.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-resourceRents-2021",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-resourceRents-2021, claim TL:BGD:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.0315771885826906,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-oilRents-2021",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-oilRents-2021, claim TL:BGD:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-mineralRents-2021",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-mineralRents-2021, claim TL:BGD:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0751845026992809,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-forestRents-2021",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-forestRents-2021, claim TL:BGD:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 99.5,
+   "display": "99.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-electricityAccess-2023, claim TL:BGD:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.941321120606305,
+   "display": "0.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-milExpPctGdp-2024, claim TL:BGD:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 4034561892.72044,
+   "display": "$4.0 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-milExpUsd-2024, claim TL:BGD:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BGD:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 227000,
+   "display": "227,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BGD#claim-armedForces-2020",
+   "citation": "Terralore, \"Bangladesh — national dossier\", terralore.co/country/BGD#claim-armedForces-2020, claim TL:BGD:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

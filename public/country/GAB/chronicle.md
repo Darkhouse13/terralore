@@ -69,6 +69,8 @@ Figures:
 - Léon M'ba (1902–1967) — First president of Gabon. Former colonial official and Libreville mayor who led Gabon to independence and became its first president in 1961; pro-French and authoritarian, he was restored by French troops after a 1964 coup and died in office in 1967.
 - Omar Bongo (1935–2009) — President of Gabon, 1967–2009. Succeeded M'ba in 1967 and ruled for over four decades through a one-party then dominant-party state funded by oil; converted to Islam in 1973, taking the name Omar. One of Africa's longest-serving leaders.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GAB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GAB/chronicle.claims.json
+
 ## References
 
 - [britannica-history-gabon] History of Gabon — Encyclopædia Britannica · https://www.britannica.com/topic/history-of-Gabon

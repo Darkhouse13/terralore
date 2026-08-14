@@ -90,6 +90,8 @@ Figures:
 
 - Ellen Johnson Sirleaf (born 1938) — President of Liberia, 2006–2018. Harvard-trained economist who in 2005 became the first woman elected to lead an African nation, led Liberia's post-war recovery and the response to the 2014 Ebola epidemic, and shared the 2011 Nobel Peace Prize.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LBR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LBR/chronicle.claims.json
+
 ## References
 
 - [britannica-liberia-history] Liberia — History (Colonialism, Civil War, Reconstruction) — Encyclopaedia Britannica · https://www.britannica.com/place/Liberia/History

@@ -1,0 +1,555 @@
+{
+ "subject": "MCO",
+ "name": "Monaco",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/MCO/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MCO:event:550bce:monoikos-named-by-hecataeus",
+   "year": -550,
+   "yearLabel": "c. 550–500 BCE",
+   "title": "Monoikos named by Hecataeus",
+   "summary": "The Greek geographer Hecataeus of Miletus refers to Monoikos as a Ligurian town, the earliest known mention of the site that would become Monaco; later the Phocaeans of Massalia developed it as a port.",
+   "category": "founding",
+   "era": "ancient-monoikos",
+   "sources": [
+    {
+     "id": "gouv-ancient-port",
+     "label": "A port during Greek then Roman antiquity",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/An-ancient-history-Prehistory-and-Antiquity/A-port-during-Greek-then-Roman-antiquity"
+    },
+    {
+     "id": "globalsecurity-early",
+     "label": "Monaco: Early History",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-1.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-550bce-monoikos-named-by-hecataeus",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-550bce-monoikos-named-by-hecataeus, claim TL:MCO:event:550bce:monoikos-named-by-hecataeus, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:300bce:the-harbour-at-its-height",
+   "year": -300,
+   "yearLabel": "c. 300 BCE",
+   "title": "The harbour at its height",
+   "summary": "The port of Monoikos, associated with the cult of Hercules, flourished as part of Mediterranean trade, as shown by coins and goods recovered from the harbour.",
+   "category": "economy",
+   "era": "ancient-monoikos",
+   "sources": [
+    {
+     "id": "gouv-ancient-port",
+     "label": "A port during Greek then Roman antiquity",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/An-ancient-history-Prehistory-and-Antiquity/A-port-during-Greek-then-Roman-antiquity"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-300bce-the-harbour-at-its-height",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-300bce-the-harbour-at-its-height, claim TL:MCO:event:300bce:the-harbour-at-its-height, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:137bce:portus-herculis-monoeci-under-rome",
+   "year": -137,
+   "yearLabel": "from 137 BCE",
+   "title": "Portus Herculis Monoeci under Rome",
+   "summary": "After Rome's conquest of the region the harbour became Portus Herculis Monoeci, a refuge on the route between Italy, Gaul and Hispania used by Roman expeditions.",
+   "category": "war",
+   "era": "ancient-monoikos",
+   "sources": [
+    {
+     "id": "gouv-ancient-port",
+     "label": "A port during Greek then Roman antiquity",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/An-ancient-history-Prehistory-and-Antiquity/A-port-during-Greek-then-Roman-antiquity"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-137bce-portus-herculis-monoeci-under-rome",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-137bce-portus-herculis-monoeci-under-rome, claim TL:MCO:event:137bce:portus-herculis-monoeci-under-rome, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:50bce:caesar-uses-the-port",
+   "year": -50,
+   "yearLabel": "c. 50 BCE",
+   "title": "Caesar uses the port",
+   "summary": "Julius Caesar is recorded as having used the harbour of Monoeci around 50 BCE, a measure of its importance as a Roman anchorage on the Ligurian coast.",
+   "category": "war",
+   "era": "ancient-monoikos",
+   "sources": [
+    {
+     "id": "gouv-ancient-port",
+     "label": "A port during Greek then Roman antiquity",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/An-ancient-history-Prehistory-and-Antiquity/A-port-during-Greek-then-Roman-antiquity"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-50bce-caesar-uses-the-port",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-50bce-caesar-uses-the-port, claim TL:MCO:event:50bce:caesar-uses-the-port, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1215:genoa-fortifies-the-rock",
+   "year": 1215,
+   "yearLabel": "10 June 1215",
+   "title": "Genoa fortifies the Rock",
+   "summary": "Genoese Ghibellines under Fulco del Cassello began building a fortress of four towers on the Rock of Monaco, offering land and tax exemptions to draw settlers to the new stronghold.",
+   "category": "founding",
+   "era": "genoese-fortress-grimaldi-seizure",
+   "sources": [
+    {
+     "id": "gouv-palace",
+     "label": "Monaco - Prince's Palace",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://www.gouv.mc/en/government-institutions/history-and-heritage/places/monaco-prince-s-palace"
+    },
+    {
+     "id": "globalsecurity-1215-1662",
+     "label": "Monaco: 1215 to 1662",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-2.htm"
+    },
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1215-genoa-fortifies-the-rock",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1215-genoa-fortifies-the-rock, claim TL:MCO:event:1215:genoa-fortifies-the-rock, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1297:grimaldi-seizes-the-rock",
+   "year": 1297,
+   "yearLabel": "8 January 1297",
+   "title": "Grimaldi seizes the Rock",
+   "summary": "François Grimaldi, called Malizia, took the fortress disguised as a Franciscan monk, beginning the Grimaldi presence in Monaco, an event commemorated by the armed monks of the princely coat of arms.",
+   "category": "founding",
+   "era": "genoese-fortress-grimaldi-seizure",
+   "sources": [
+    {
+     "id": "gouv-grimaldi-1297",
+     "label": "Occupation of the Rocher by François Grimaldi",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/The-beginnings-of-independence-Middle-Ages/Occupation-of-the-Rocher-by-Francois-Grimaldi"
+    },
+    {
+     "id": "gouv-palace",
+     "label": "Monaco - Prince's Palace",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://www.gouv.mc/en/government-institutions/history-and-heritage/places/monaco-prince-s-palace"
+    },
+    {
+     "id": "britannica-grimaldi",
+     "label": "Grimaldi family",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Grimaldi-family"
+    },
+    {
+     "id": "britannica-summary",
+     "label": "Monaco summary",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/summary/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1297-grimaldi-seizes-the-rock",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1297-grimaldi-seizes-the-rock, claim TL:MCO:event:1297:grimaldi-seizes-the-rock, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1346:purchase-of-menton",
+   "year": 1346,
+   "yearLabel": "1346",
+   "title": "Purchase of Menton",
+   "summary": "Charles I Grimaldi, regarded as the founder of the principality, enlarged the Grimaldi domain by purchasing the lordship of Menton, which remained Monégasque until 1861.",
+   "category": "politics",
+   "era": "genoese-fortress-grimaldi-seizure",
+   "sources": [
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1346-purchase-of-menton",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1346-purchase-of-menton, claim TL:MCO:event:1346:purchase-of-menton, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1355:purchase-of-roquebrune",
+   "year": 1355,
+   "yearLabel": "1355",
+   "title": "Purchase of Roquebrune",
+   "summary": "The Grimaldi added the lordship of Roquebrune to their possessions, completing the territory that, with Monaco and Menton, would define the principality for five centuries.",
+   "category": "politics",
+   "era": "genoese-fortress-grimaldi-seizure",
+   "sources": [
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1355-purchase-of-roquebrune",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1355-purchase-of-roquebrune, claim TL:MCO:event:1355:purchase-of-roquebrune, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1612:honore-ii-takes-the-title-of-prince",
+   "year": 1612,
+   "yearLabel": "1612",
+   "title": "Honoré II takes the title of Prince",
+   "summary": "Honoré II became the first Grimaldi to call himself Prince and Lord of Monaco, marking the principality's emergence as a sovereign state out of the medieval lordship.",
+   "category": "politics",
+   "era": "lordship-principality-french-protection",
+   "sources": [
+    {
+     "id": "globalsecurity-1215-1662",
+     "label": "Monaco: 1215 to 1662",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-2.htm"
+    },
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1612-honore-ii-takes-the-title-of-prince",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1612-honore-ii-takes-the-title-of-prince, claim TL:MCO:event:1612:honore-ii-takes-the-title-of-prince, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1641:treaty-of-peronne",
+   "year": 1641,
+   "yearLabel": "14 September 1641",
+   "title": "Treaty of Péronne",
+   "summary": "Honoré II and Louis XIII signed the Treaty of Péronne, shifting Monaco from Spanish to French protection while recognising the principality's independence and the prince's sovereignty.",
+   "category": "politics",
+   "era": "lordship-principality-french-protection",
+   "sources": [
+    {
+     "id": "gouv-french-protection",
+     "label": "French protection (Treaty of Péronne, 1641)",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/From-the-Renaissance-to-the-Age-of-Enlightenment/French-protection"
+    },
+    {
+     "id": "globalsecurity-1215-1662",
+     "label": "Monaco: 1215 to 1662",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-2.htm"
+    },
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1641-treaty-of-peronne",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1641-treaty-of-peronne, claim TL:MCO:event:1641:treaty-of-peronne, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1642:french-titles-for-the-grimaldi",
+   "year": 1642,
+   "yearLabel": "from 1642",
+   "title": "French titles for the Grimaldi",
+   "summary": "Under the Péronne settlement the prince of Monaco received French titles and estates, including the duchy of Valentinois, binding the dynasty to the French crown.",
+   "category": "politics",
+   "era": "lordship-principality-french-protection",
+   "sources": [
+    {
+     "id": "gouv-french-protection",
+     "label": "French protection (Treaty of Péronne, 1641)",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/From-the-Renaissance-to-the-Age-of-Enlightenment/French-protection"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1642-french-titles-for-the-grimaldi",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1642-french-titles-for-the-grimaldi, claim TL:MCO:event:1642:french-titles-for-the-grimaldi, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1685:the-fortress-becomes-a-palace",
+   "year": 1685,
+   "yearLabel": "17th century",
+   "title": "The fortress becomes a palace",
+   "summary": "Honoré I and Honoré II employed leading architects to transform the Genoese fortress into a princely residence, creating one of the most remarkable palaces of the seventeenth century.",
+   "category": "culture",
+   "era": "lordship-principality-french-protection",
+   "sources": [
+    {
+     "id": "gouv-palace",
+     "label": "Monaco - Prince's Palace",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://www.gouv.mc/en/government-institutions/history-and-heritage/places/monaco-prince-s-palace"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1685-the-fortress-becomes-a-palace",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1685-the-fortress-becomes-a-palace, claim TL:MCO:event:1685:the-fortress-becomes-a-palace, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1793:revolutionary-france-annexes-monaco",
+   "year": 1793,
+   "yearLabel": "1793",
+   "title": "Revolutionary France annexes Monaco",
+   "summary": "Revolutionary France abolished the Grimaldi sovereignty and annexed the principality, expelling the dynasty and scattering the palace's art collections.",
+   "category": "war",
+   "era": "revolution-cession-monte-carlo",
+   "sources": [
+    {
+     "id": "gouv-secession",
+     "label": "Secession of Menton and Roquebrune (Treaty of 1861)",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/Times-of-trouble-1793-1861/Secession-of-Menton-and-Roquebrune"
+    },
+    {
+     "id": "gouv-palace",
+     "label": "Monaco - Prince's Palace",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://www.gouv.mc/en/government-institutions/history-and-heritage/places/monaco-prince-s-palace"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1793-revolutionary-france-annexes-monaco",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1793-revolutionary-france-annexes-monaco, claim TL:MCO:event:1793:revolutionary-france-annexes-monaco, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1848:menton-and-roquebrune-secede",
+   "year": 1848,
+   "yearLabel": "1848",
+   "title": "Menton and Roquebrune secede",
+   "summary": "Amid the revolutions of 1848, Menton and Roquebrune declared themselves free towns, banished the prince and sought union with Sardinia, which then occupied them.",
+   "category": "politics",
+   "era": "revolution-cession-monte-carlo",
+   "sources": [
+    {
+     "id": "gouv-secession",
+     "label": "Secession of Menton and Roquebrune (Treaty of 1861)",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/Times-of-trouble-1793-1861/Secession-of-Menton-and-Roquebrune"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1848-menton-and-roquebrune-secede",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1848-menton-and-roquebrune-secede, claim TL:MCO:event:1848:menton-and-roquebrune-secede, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1861:cession-of-menton-and-roquebrune",
+   "year": 1861,
+   "yearLabel": "2 February 1861",
+   "title": "Cession of Menton and Roquebrune",
+   "summary": "By the Franco-Monégasque Treaty, Prince Charles III ceded Menton and Roquebrune to France for four million francs; France recognised Monaco's sovereignty over its remaining territory.",
+   "category": "politics",
+   "era": "revolution-cession-monte-carlo",
+   "sources": [
+    {
+     "id": "gouv-secession",
+     "label": "Secession of Menton and Roquebrune (Treaty of 1861)",
+     "publisher": "Government of Monaco (gouv.mc)",
+     "url": "https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/Times-of-trouble-1793-1861/Secession-of-Menton-and-Roquebrune"
+    },
+    {
+     "id": "globalsecurity-1815-present",
+     "label": "Monaco: 1815 to Present",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-4.htm"
+    },
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1861-cession-of-menton-and-roquebrune",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1861-cession-of-menton-and-roquebrune, claim TL:MCO:event:1861:cession-of-menton-and-roquebrune, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1863:founding-of-the-societe-des-bains-de-mer",
+   "year": 1863,
+   "yearLabel": "2 April 1863",
+   "title": "Founding of the Société des Bains de Mer",
+   "summary": "Charles III established the Société des Bains de Mer to develop a casino quarter, leasing the gambling monopoly to François Blanc, who had previously enriched the spa of Homburg.",
+   "category": "economy",
+   "era": "revolution-cession-monte-carlo",
+   "sources": [
+    {
+     "id": "sbm-history",
+     "label": "History of the company (Société des Bains de Mer)",
+     "publisher": "Monte-Carlo Société des Bains de Mer",
+     "url": "https://www.montecarlosbm-corporate.com/the-company/history/"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1863-founding-of-the-societe-des-bains-de-mer",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1863-founding-of-the-societe-des-bains-de-mer, claim TL:MCO:event:1863:founding-of-the-societe-des-bains-de-mer, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1866:monte-carlo-named",
+   "year": 1866,
+   "yearLabel": "1 June 1866",
+   "title": "Monte-Carlo named",
+   "summary": "Prince Charles III decreed that the new casino district be called Monte-Carlo in his honour; its gambling revenues rebuilt Monaco's finances and let the principality abolish direct taxation in 1869.",
+   "category": "economy",
+   "era": "revolution-cession-monte-carlo",
+   "sources": [
+    {
+     "id": "sbm-history",
+     "label": "History of the company (Société des Bains de Mer)",
+     "publisher": "Monte-Carlo Société des Bains de Mer",
+     "url": "https://www.montecarlosbm-corporate.com/the-company/history/"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1866-monte-carlo-named",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1866-monte-carlo-named, claim TL:MCO:event:1866:monte-carlo-named, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1911:monaco-s-first-constitution",
+   "year": 1911,
+   "yearLabel": "5 January 1911",
+   "title": "Monaco's first constitution",
+   "summary": "Prince Albert I granted Monaco a constitution on 5 January 1911, ending absolute princely rule and beginning the principality's evolution into a constitutional state.",
+   "category": "politics",
+   "era": "sovereignty-tied-to-france-modern-state",
+   "sources": [
+    {
+     "id": "globalsecurity-1815-present",
+     "label": "Monaco: 1815 to Present",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-4.htm"
+    },
+    {
+     "id": "britannica-albert1",
+     "label": "Albert, prince of Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Albert-prince-of-Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1911-monaco-s-first-constitution",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1911-monaco-s-first-constitution, claim TL:MCO:event:1911:monaco-s-first-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1918:franco-monegasque-treaty-of-1918",
+   "year": 1918,
+   "yearLabel": "17 July 1918",
+   "title": "Franco-Monégasque Treaty of 1918",
+   "summary": "Signed amid a succession crisis, the treaty aligned Monaco's policy with French interests and provided that the principality would fall under French protection should the Grimaldi line end; it was noted in the 1919 Treaty of Versailles.",
+   "category": "politics",
+   "era": "sovereignty-tied-to-france-modern-state",
+   "sources": [
+    {
+     "id": "monaco-coe-accession",
+     "label": "The history of Monaco's accession",
+     "publisher": "Permanent Representation of Monaco to the Council of Europe (gouv.mc)",
+     "url": "https://monaco-coe.gouv.mc/en/monaco-and-the-council-of-europe/20-years-of-membership/the-history-of-monaco-s-accession"
+    },
+    {
+     "id": "britannica-monaco",
+     "label": "Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1918-franco-monegasque-treaty-of-1918",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1918-franco-monegasque-treaty-of-1918, claim TL:MCO:event:1918:franco-monegasque-treaty-of-1918, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1956:rainier-iii-marries-grace-kelly",
+   "year": 1956,
+   "yearLabel": "19 April 1956",
+   "title": "Rainier III marries Grace Kelly",
+   "summary": "Prince Rainier III married the American actress Grace Kelly, who became Princess Grace; their union brought the principality international glamour and helped drive its post-war revival.",
+   "category": "culture",
+   "era": "sovereignty-tied-to-france-modern-state",
+   "sources": [
+    {
+     "id": "britannica-rainier",
+     "label": "Rainier III, prince de Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Rainier-III-prince-de-Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1956-rainier-iii-marries-grace-kelly",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1956-rainier-iii-marries-grace-kelly, claim TL:MCO:event:1956:rainier-iii-marries-grace-kelly, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1962:the-1962-constitution",
+   "year": 1962,
+   "yearLabel": "1962",
+   "title": "The 1962 constitution",
+   "summary": "Rainier III promulgated a new constitution that reduced the sovereign's powers, abolished capital punishment and granted women the right to vote.",
+   "category": "politics",
+   "era": "sovereignty-tied-to-france-modern-state",
+   "sources": [
+    {
+     "id": "britannica-rainier",
+     "label": "Rainier III, prince de Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Rainier-III-prince-de-Monaco"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1962-the-1962-constitution",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1962-the-1962-constitution, claim TL:MCO:event:1962:the-1962-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:1993:monaco-joins-the-united-nations",
+   "year": 1993,
+   "yearLabel": "28 May 1993",
+   "title": "Monaco joins the United Nations",
+   "summary": "Monaco was admitted as the 183rd member state of the United Nations, an unambiguous international recognition of its full sovereignty.",
+   "category": "independence",
+   "era": "sovereignty-tied-to-france-modern-state",
+   "sources": [
+    {
+     "id": "un-members",
+     "label": "United Nations Member States (Monaco admitted 28 May 1993)",
+     "publisher": "United Nations",
+     "url": "https://www.un.org/en/about-us/member-states"
+    },
+    {
+     "id": "monaco-coe-accession",
+     "label": "The history of Monaco's accession",
+     "publisher": "Permanent Representation of Monaco to the Council of Europe (gouv.mc)",
+     "url": "https://monaco-coe.gouv.mc/en/monaco-and-the-council-of-europe/20-years-of-membership/the-history-of-monaco-s-accession"
+    },
+    {
+     "id": "globalsecurity-1815-present",
+     "label": "Monaco: 1815 to Present",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-4.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-1993-monaco-joins-the-united-nations",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-1993-monaco-joins-the-united-nations, claim TL:MCO:event:1993:monaco-joins-the-united-nations, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MCO:event:2002:treaty-of-2002-guarantees-independence",
+   "year": 2002,
+   "yearLabel": "24 October 2002",
+   "title": "Treaty of 2002 guarantees independence",
+   "summary": "A new Franco-Monégasque treaty, with the revised constitution and succession law, ended the clause returning Monaco to France if the Grimaldi line failed, guaranteeing the principality's continued independence.",
+   "category": "independence",
+   "era": "sovereignty-tied-to-france-modern-state",
+   "sources": [
+    {
+     "id": "britannica-albert2",
+     "label": "Albert II, prince of Monaco",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Albert-II-prince-de-Monaco"
+    },
+    {
+     "id": "monaco-coe-accession",
+     "label": "The history of Monaco's accession",
+     "publisher": "Permanent Representation of Monaco to the Council of Europe (gouv.mc)",
+     "url": "https://monaco-coe.gouv.mc/en/monaco-and-the-council-of-europe/20-years-of-membership/the-history-of-monaco-s-accession"
+    },
+    {
+     "id": "globalsecurity-1815-present",
+     "label": "Monaco: 1815 to Present",
+     "publisher": "GlobalSecurity.org",
+     "url": "https://www.globalsecurity.org/military/world/europe/mc-history-4.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/MCO/chronicle#ev-2002-treaty-of-2002-guarantees-independence",
+   "citation": "Terralore, \"The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.\", terralore.co/country/MCO/chronicle#ev-2002-treaty-of-2002-guarantees-independence, claim TL:MCO:event:2002:treaty-of-2002-guarantees-independence, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

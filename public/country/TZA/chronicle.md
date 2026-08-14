@@ -85,6 +85,8 @@ After the Ujamaa years Tanzania moved peacefully to multiparty democracy and ste
 - 1996: **Dodoma confirmed as capital** — Tanzania advances the long-planned move of its capital to the central city of Dodoma, while Dar es Salaam remains the largest city and commercial centre. [wiki-history-tanzania]
 - March 2021: **Samia Suluhu Hassan becomes president** — On the death of President John Magufuli, Vice-President Samia Suluhu Hassan is sworn in as the first female president of the United Republic of Tanzania. [wiki-samia-suluhu, wiki-president-tanzania]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TZA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TZA/chronicle.claims.json
+
 ## References
 
 - [britannica-laetoli] Laetoli — Encyclopaedia Britannica · https://www.britannica.com/place/Laetoli

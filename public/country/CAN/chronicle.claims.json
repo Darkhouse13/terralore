@@ -1,0 +1,593 @@
+{
+ "subject": "CAN",
+ "name": "Canada",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/CAN/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:CAN:event:15000bce:peopling-of-the-continent",
+   "year": -15000,
+   "yearLabel": "c. 13,000 BCE or earlier",
+   "title": "Peopling of the continent",
+   "summary": "The ancestors of First Nations were established across the Americas by the end of the last Ice Age, developing diverse societies, languages, and economies over thousands of years before European contact.",
+   "category": "migration",
+   "era": "indigenous-peoples-before-contact",
+   "sources": [
+    {
+     "id": "cdn-enc-indigenous",
+     "label": "First Nations and Indigenous peoples in Canada",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/first-nations"
+    },
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-15000bce-peopling-of-the-continent",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-15000bce-peopling-of-the-continent, claim TL:CAN:event:15000bce:peopling-of-the-continent, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1000:norse-arrival-at-l-anse-aux-meadows",
+   "year": 1000,
+   "yearLabel": "c. 1000",
+   "title": "Norse arrival at L'Anse aux Meadows",
+   "summary": "Norse explorers established a short-lived base at L'Anse aux Meadows on the northern tip of Newfoundland around the year 1000 — the first known European presence in the Americas, now a UNESCO World Heritage Site.",
+   "category": "migration",
+   "era": "indigenous-peoples-before-contact",
+   "sources": [
+    {
+     "id": "unesco-lanse",
+     "label": "L'Anse aux Meadows National Historic Site",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/4/"
+    },
+    {
+     "id": "brit-lanse",
+     "label": "L'Anse aux Meadows",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/LAnse-aux-Meadows"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1000-norse-arrival-at-l-anse-aux-meadows",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1000-norse-arrival-at-l-anse-aux-meadows, claim TL:CAN:event:1000:norse-arrival-at-l-anse-aux-meadows, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1497:john-cabot-reaches-the-atlantic-coast",
+   "year": 1497,
+   "yearLabel": "1497",
+   "title": "John Cabot reaches the Atlantic coast",
+   "summary": "Sailing for England, John Cabot reached the coast of present-day Atlantic Canada in 1497, beginning the sustained European interest in the region's fisheries and lands that would follow.",
+   "category": "colonization",
+   "era": "indigenous-peoples-before-contact",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    },
+    {
+     "id": "cdn-enc-indigenous",
+     "label": "First Nations and Indigenous peoples in Canada",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/first-nations"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1497-john-cabot-reaches-the-atlantic-coast",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1497-john-cabot-reaches-the-atlantic-coast, claim TL:CAN:event:1497:john-cabot-reaches-the-atlantic-coast, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1534:jacques-cartier-explores-the-st-lawrence",
+   "year": 1534,
+   "yearLabel": "1534",
+   "title": "Jacques Cartier explores the St. Lawrence",
+   "summary": "Jacques Cartier explored the Gulf of St. Lawrence and claimed the region for France, opening the way for later French interest in the fur trade and settlement.",
+   "category": "colonization",
+   "era": "new-france-and-the-fur-trade",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    },
+    {
+     "id": "cdn-enc-champlain",
+     "label": "Samuel de Champlain",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/samuel-de-champlain"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1534-jacques-cartier-explores-the-st-lawrence",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1534-jacques-cartier-explores-the-st-lawrence, claim TL:CAN:event:1534:jacques-cartier-explores-the-st-lawrence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1608:champlain-founds-quebec",
+   "year": 1608,
+   "yearLabel": "1608",
+   "title": "Champlain founds Quebec",
+   "summary": "Samuel de Champlain established Quebec as a fortified trading post on the St. Lawrence, founding the colony of New France and anchoring the French fur trade in alliance with Indigenous nations.",
+   "category": "founding",
+   "era": "new-france-and-the-fur-trade",
+   "sources": [
+    {
+     "id": "cdn-enc-champlain",
+     "label": "Samuel de Champlain",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/samuel-de-champlain"
+    },
+    {
+     "id": "vmnf-champlain",
+     "label": "Samuel de Champlain, Virtual Museum of New France",
+     "publisher": "Canadian Museum of History",
+     "url": "https://www.historymuseum.ca/virtual-museum-of-new-france/the-explorers/samuel-de-champlain-1604-1616/"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1608-champlain-founds-quebec",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1608-champlain-founds-quebec, claim TL:CAN:event:1608:champlain-founds-quebec, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1642:founding-of-montreal",
+   "year": 1642,
+   "yearLabel": "1642",
+   "title": "Founding of Montreal",
+   "summary": "French missionaries and settlers founded Ville-Marie, the future Montreal, as a mission and trading settlement that became a hub of the fur trade and a gateway to the interior.",
+   "category": "founding",
+   "era": "new-france-and-the-fur-trade",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1642-founding-of-montreal",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1642-founding-of-montreal, claim TL:CAN:event:1642:founding-of-montreal, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1759:battle-of-the-plains-of-abraham",
+   "year": 1759,
+   "yearLabel": "13 September 1759",
+   "title": "Battle of the Plains of Abraham",
+   "summary": "British forces defeated the French outside Quebec City in the decisive Battle of the Plains of Abraham, the turning point of the Seven Years' War in North America that led to the fall of New France.",
+   "category": "war",
+   "era": "new-france-and-the-fur-trade",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    },
+    {
+     "id": "cdn-enc-quebec-act",
+     "label": "Quebec Act, 1774",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/quebec-act"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1759-battle-of-the-plains-of-abraham",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1759-battle-of-the-plains-of-abraham, claim TL:CAN:event:1759:battle-of-the-plains-of-abraham, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1763:treaty-of-paris-cedes-new-france-to-britain",
+   "year": 1763,
+   "yearLabel": "1763",
+   "title": "Treaty of Paris cedes New France to Britain",
+   "summary": "The Treaty of Paris ended the Seven Years' War, with France ceding its North American mainland territories to Britain and bringing the French Catholic population of Canada under British rule.",
+   "category": "war",
+   "era": "british-conquest-and-british-north-america",
+   "sources": [
+    {
+     "id": "brit-bna-act",
+     "label": "British North America Act",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/British-North-America-Act"
+    },
+    {
+     "id": "cdn-enc-quebec-act",
+     "label": "Quebec Act, 1774",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/quebec-act"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1763-treaty-of-paris-cedes-new-france-to-britain",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1763-treaty-of-paris-cedes-new-france-to-britain, claim TL:CAN:event:1763:treaty-of-paris-cedes-new-france-to-britain, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1774:quebec-act",
+   "year": 1774,
+   "yearLabel": "1774",
+   "title": "Quebec Act",
+   "summary": "The Quebec Act restored French civil law, guaranteed freedom of Catholic worship, and enlarged Quebec's boundaries, securing the loyalty of French Canadians while inflaming the Thirteen Colonies.",
+   "category": "politics",
+   "era": "british-conquest-and-british-north-america",
+   "sources": [
+    {
+     "id": "cdn-enc-quebec-act",
+     "label": "Quebec Act, 1774",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/quebec-act"
+    },
+    {
+     "id": "ukparl-quebec-act",
+     "label": "Quebec Act 1774",
+     "publisher": "UK Parliament",
+     "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/collections1/parliament-and-canada/quebec-act-1774/"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1774-quebec-act",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1774-quebec-act, claim TL:CAN:event:1774:quebec-act, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1791:constitutional-act-divides-the-canadas",
+   "year": 1791,
+   "yearLabel": "1791",
+   "title": "Constitutional Act divides the Canadas",
+   "summary": "The Constitutional Act split Quebec into Upper Canada and Lower Canada, creating separate English- and French-majority colonies each with an elected assembly.",
+   "category": "politics",
+   "era": "british-conquest-and-british-north-america",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1791-constitutional-act-divides-the-canadas",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1791-constitutional-act-divides-the-canadas, claim TL:CAN:event:1791:constitutional-act-divides-the-canadas, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1837:rebellions-in-upper-and-lower-canada",
+   "year": 1837,
+   "yearLabel": "1837–1838",
+   "title": "Rebellions in Upper and Lower Canada",
+   "summary": "Armed uprisings against oligarchic colonial rule in both Canadas were suppressed but led to Lord Durham's report and, ultimately, to responsible government.",
+   "category": "politics",
+   "era": "british-conquest-and-british-north-america",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1837-rebellions-in-upper-and-lower-canada",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1837-rebellions-in-upper-and-lower-canada, claim TL:CAN:event:1837:rebellions-in-upper-and-lower-canada, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1867:confederation-the-dominion-of-canada",
+   "year": 1867,
+   "yearLabel": "1 July 1867",
+   "title": "Confederation — the Dominion of Canada",
+   "summary": "The British North America Act united Ontario, Quebec, Nova Scotia, and New Brunswick into the self-governing Dominion of Canada, with Sir John A. Macdonald as first prime minister.",
+   "category": "founding",
+   "era": "confederation-and-nation-building",
+   "sources": [
+    {
+     "id": "brit-bna-act",
+     "label": "British North America Act",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/British-North-America-Act"
+    },
+    {
+     "id": "cdn-enc-confederation",
+     "label": "Confederation",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/confederation"
+    },
+    {
+     "id": "cmh-bna-act",
+     "label": "British North America Act, 1867",
+     "publisher": "Canadian Museum of History",
+     "url": "https://www.historymuseum.ca/teachers-zone/stories-of-confederation/from-charlottetown-to-london/british-north-america-act-1867/"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1867-confederation-the-dominion-of-canada",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1867-confederation-the-dominion-of-canada, claim TL:CAN:event:1867:confederation-the-dominion-of-canada, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1869:red-river-resistance-and-manitoba",
+   "year": 1869,
+   "yearLabel": "1869–1870",
+   "title": "Red River Resistance and Manitoba",
+   "summary": "Métis led by Louis Riel resisted the transfer of Rupert's Land to Canada, securing rights that shaped the creation of the province of Manitoba in 1870.",
+   "category": "politics",
+   "era": "confederation-and-nation-building",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    },
+    {
+     "id": "cdn-enc-confederation",
+     "label": "Confederation",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/confederation"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1869-red-river-resistance-and-manitoba",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1869-red-river-resistance-and-manitoba, claim TL:CAN:event:1869:red-river-resistance-and-manitoba, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1876:the-indian-act",
+   "year": 1876,
+   "yearLabel": "1876",
+   "title": "The Indian Act",
+   "summary": "The Indian Act consolidated federal control over the lives, lands, and governance of First Nations peoples, becoming a central instrument of assimilation and dispossession that remains in force in amended form.",
+   "category": "politics",
+   "era": "confederation-and-nation-building",
+   "sources": [
+    {
+     "id": "cdn-enc-indigenous",
+     "label": "First Nations and Indigenous peoples in Canada",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/first-nations"
+    },
+    {
+     "id": "nctr-reports",
+     "label": "Truth and Reconciliation Commission reports",
+     "publisher": "National Centre for Truth and Reconciliation",
+     "url": "https://nctr.ca/records/reports/"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1876-the-indian-act",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1876-the-indian-act, claim TL:CAN:event:1876:the-indian-act, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1885:canadian-pacific-railway-completed",
+   "year": 1885,
+   "yearLabel": "7 November 1885",
+   "title": "Canadian Pacific Railway completed",
+   "summary": "The driving of the last spike at Craigellachie completed the transcontinental Canadian Pacific Railway, binding the new nation together and fulfilling a promise made to British Columbia at Confederation.",
+   "category": "economy",
+   "era": "confederation-and-nation-building",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    },
+    {
+     "id": "cdn-enc-confederation",
+     "label": "Confederation",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/confederation"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1885-canadian-pacific-railway-completed",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1885-canadian-pacific-railway-completed, claim TL:CAN:event:1885:canadian-pacific-railway-completed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1885:north-west-resistance-and-the-execution-of-riel",
+   "year": 1885,
+   "yearLabel": "1885",
+   "title": "North-West Resistance and the execution of Riel",
+   "summary": "Métis and First Nations grievances on the prairies erupted in the North-West Resistance; its defeat and the hanging of Louis Riel deepened the divide between French and English Canada.",
+   "category": "war",
+   "era": "confederation-and-nation-building",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1885-north-west-resistance-and-the-execution-of-riel",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1885-north-west-resistance-and-the-execution-of-riel, claim TL:CAN:event:1885:north-west-resistance-and-the-execution-of-riel, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1914:canada-in-the-first-world-war",
+   "year": 1914,
+   "yearLabel": "1914–1918",
+   "title": "Canada in the First World War",
+   "summary": "Canada fought in the First World War as part of the British Empire but as a distinct national force; the costly victory at Vimy Ridge in 1917 became a symbol of emerging nationhood.",
+   "category": "war",
+   "era": "world-wars-and-growing-autonomy",
+   "sources": [
+    {
+     "id": "vac-vimy",
+     "label": "The Battle of Vimy Ridge",
+     "publisher": "Veterans Affairs Canada",
+     "url": "https://www.veterans.gc.ca/en/remembrance/military-history/first-world-war/battle-vimy-ridge"
+    },
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1914-canada-in-the-first-world-war",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1914-canada-in-the-first-world-war, claim TL:CAN:event:1914:canada-in-the-first-world-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1917:conscription-crisis",
+   "year": 1917,
+   "yearLabel": "1917",
+   "title": "Conscription Crisis",
+   "summary": "The imposition of compulsory military service deeply divided English and French Canada, becoming one of the most divisive episodes in Canadian political history.",
+   "category": "politics",
+   "era": "world-wars-and-growing-autonomy",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1917-conscription-crisis",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1917-conscription-crisis, claim TL:CAN:event:1917:conscription-crisis, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1931:statute-of-westminster",
+   "year": 1931,
+   "yearLabel": "1931",
+   "title": "Statute of Westminster",
+   "summary": "The Statute of Westminster granted Canada legislative independence from the British Parliament, a landmark in its evolution toward full sovereignty.",
+   "category": "independence",
+   "era": "world-wars-and-growing-autonomy",
+   "sources": [
+    {
+     "id": "cdn-enc-westminster",
+     "label": "Statute of Westminster, 1931",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/statute-of-westminster"
+    },
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1931-statute-of-westminster",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1931-statute-of-westminster, claim TL:CAN:event:1931:statute-of-westminster, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1939:canada-in-the-second-world-war",
+   "year": 1939,
+   "yearLabel": "1939–1945",
+   "title": "Canada in the Second World War",
+   "summary": "Canada entered the Second World War by its own parliamentary decision and mobilised on a vast scale, contributing major forces to the Allied victory and emerging more industrialised and autonomous.",
+   "category": "war",
+   "era": "world-wars-and-growing-autonomy",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1939-canada-in-the-second-world-war",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1939-canada-in-the-second-world-war, claim TL:CAN:event:1939:canada-in-the-second-world-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1965:a-new-national-flag-and-a-maturing-identity",
+   "year": 1965,
+   "yearLabel": "1965",
+   "title": "A new national flag and a maturing identity",
+   "summary": "Canada adopted the red-and-white maple leaf flag in 1965, a symbol of a distinct national identity as the post-war country built a welfare state and universal health care.",
+   "category": "culture",
+   "era": "modern-canada-multiculturalism-and-reconciliation",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1965-a-new-national-flag-and-a-maturing-identity",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1965-a-new-national-flag-and-a-maturing-identity, claim TL:CAN:event:1965:a-new-national-flag-and-a-maturing-identity, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1971:official-multiculturalism-policy",
+   "year": 1971,
+   "yearLabel": "8 October 1971",
+   "title": "Official multiculturalism policy",
+   "summary": "Canada became the first country to adopt multiculturalism as official government policy, within a bilingual framework, recognising the contributions of diverse cultural communities.",
+   "category": "migration",
+   "era": "modern-canada-multiculturalism-and-reconciliation",
+   "sources": [
+    {
+     "id": "pier21-multiculturalism",
+     "label": "Canadian Multiculturalism Policy, 1971",
+     "publisher": "Canadian Museum of Immigration at Pier 21",
+     "url": "https://pier21.ca/research/immigration-history/canadian-multiculturalism-policy-1971"
+    },
+    {
+     "id": "cdn-enc-multiculturalism",
+     "label": "Canadian Multiculturalism Act",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/canadian-multiculturalism-act"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1971-official-multiculturalism-policy",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1971-official-multiculturalism-policy, claim TL:CAN:event:1971:official-multiculturalism-policy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1982:patriation-of-the-constitution",
+   "year": 1982,
+   "yearLabel": "17 April 1982",
+   "title": "Patriation of the Constitution",
+   "summary": "The Constitution Act, 1982, patriated Canada's constitution, entrenched the Charter of Rights and Freedoms, recognised Aboriginal rights, and ended the need for British legislation — completing Canada's path to full sovereignty.",
+   "category": "independence",
+   "era": "modern-canada-multiculturalism-and-reconciliation",
+   "sources": [
+    {
+     "id": "cdn-enc-constitution-1982",
+     "label": "Constitution Act, 1982",
+     "publisher": "The Canadian Encyclopedia",
+     "url": "https://www.thecanadianencyclopedia.ca/en/article/constitution-act-1982"
+    },
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1982-patriation-of-the-constitution",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1982-patriation-of-the-constitution, claim TL:CAN:event:1982:patriation-of-the-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:1995:quebec-sovereignty-referendum",
+   "year": 1995,
+   "yearLabel": "30 October 1995",
+   "title": "Quebec sovereignty referendum",
+   "summary": "Quebec voters narrowly rejected sovereignty in the 1995 referendum, the closest of two votes on independence, underlining the enduring tension over the place of Quebec within Canada.",
+   "category": "politics",
+   "era": "modern-canada-multiculturalism-and-reconciliation",
+   "sources": [
+    {
+     "id": "brit-canada",
+     "label": "Canada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Canada"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-1995-quebec-sovereignty-referendum",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-1995-quebec-sovereignty-referendum, claim TL:CAN:event:1995:quebec-sovereignty-referendum, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:event:2015:truth-and-reconciliation-commission-reports",
+   "year": 2015,
+   "yearLabel": "2015",
+   "title": "Truth and Reconciliation Commission reports",
+   "summary": "After years of survivor testimony, the Truth and Reconciliation Commission documented the harms of the residential school system, described it as cultural genocide, and issued 94 Calls to Action for reconciliation.",
+   "category": "politics",
+   "era": "modern-canada-multiculturalism-and-reconciliation",
+   "sources": [
+    {
+     "id": "nctr-reports",
+     "label": "Truth and Reconciliation Commission reports",
+     "publisher": "National Centre for Truth and Reconciliation",
+     "url": "https://nctr.ca/records/reports/"
+    },
+    {
+     "id": "cmhr-residential-schools",
+     "label": "Canada's Indian residential schools: Childhood denied",
+     "publisher": "Canadian Museum for Human Rights",
+     "url": "https://humanrights.ca/story/canadas-indian-residential-schools-childhood-denied"
+    }
+   ],
+   "url": "https://terralore.co/country/CAN/chronicle#ev-2015-truth-and-reconciliation-commission-reports",
+   "citation": "Terralore, \"The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.\", terralore.co/country/CAN/chronicle#ev-2015-truth-and-reconciliation-commission-reports, claim TL:CAN:event:2015:truth-and-reconciliation-commission-reports, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

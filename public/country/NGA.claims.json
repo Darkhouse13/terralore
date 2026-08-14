@@ -1,0 +1,890 @@
+{
+ "subject": "NGA",
+ "name": "Nigeria",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/NGA",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:NGA:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 252261880141.151,
+   "display": "$252 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-gdp-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-gdp-2024, claim TL:NGA:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1084.16041805436,
+   "display": "$1,084",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-gdpPerCapita-2024, claim TL:NGA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 4.06236408888319,
+   "display": "4.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-gdpGrowth-2024, claim TL:NGA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 33.2420966545406,
+   "display": "33.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-inflation-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-inflation-2024, claim TL:NGA:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 232679478,
+   "display": "233 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-population-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-population-2024, claim TL:NGA:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 54.635,
+   "display": "54.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-lifeExpectancy-2024, claim TL:NGA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 62.9755675573659,
+   "display": "63.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-urbanPct-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-urbanPct-2024, claim TL:NGA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 4.382,
+   "display": "4.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-fertility-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-fertility-2024, claim TL:NGA:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 70.4100036621094,
+   "display": "70.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-literacy-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-literacy-2024, claim TL:NGA:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 44.1328988,
+   "display": "44.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-wgiVoice-2024, claim TL:NGA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 31.6874346,
+   "display": "31.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-wgiStability-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-wgiStability-2024, claim TL:NGA:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 31.7683438,
+   "display": "31.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-wgiEffectiveness-2024, claim TL:NGA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 44.8748237,
+   "display": "44.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-wgiRegQuality-2024, claim TL:NGA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 39.6344736,
+   "display": "39.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-wgiRuleOfLaw-2024, claim TL:NGA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 25.2937973,
+   "display": "25.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-wgiCorruption-2024, claim TL:NGA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 4.19086456,
+   "display": "4.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-healthSpendPctGdp-2023, claim TL:NGA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.38,
+   "display": "0.38",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-physicians-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-physicians-2023, claim TL:NGA:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 115.6,
+   "display": "115.6",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-underFiveMortality-2024, claim TL:NGA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 57,
+   "display": "57.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-measlesImmunisation-2024, claim TL:NGA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 29.904599188308,
+   "display": "29.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-safeWater-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-safeWater-2024, claim TL:NGA:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 70.4100036621094,
+   "display": "70.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-literacyRate-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-literacyRate-2024, claim TL:NGA:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 0.319069049792343,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-eduSpendPctGdp-2023, claim TL:NGA:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 89.5871124267578,
+   "display": "89.6%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-primaryEnrolment-2023, claim TL:NGA:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 46.8931503295898,
+   "display": "46.9%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-secondaryEnrolment-2023, claim TL:NGA:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:tertiaryEnrolment:2011",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 9.74153350922586,
+   "display": "9.7%",
+   "unit": "% gross",
+   "observed": 2011,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-tertiaryEnrolment-2011",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-tertiaryEnrolment-2011, claim TL:NGA:tertiaryEnrolment:2011, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:rdSpending:2019",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.28444,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-rdSpending-2019",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-rdSpending-2019, claim TL:NGA:rdSpending:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:researchers:2019",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 22.12011,
+   "display": "22",
+   "unit": "per million",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-researchers-2019",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-researchers-2019, claim TL:NGA:researchers:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 41.21139908,
+   "display": "41.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-internetUsers-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-internetUsers-2024, claim TL:NGA:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 70.7619057835431,
+   "display": "71",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/NGA#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-mobileSubs-2024, claim TL:NGA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 2.71167186435579,
+   "display": "2.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-highTechExports-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-highTechExports-2024, claim TL:NGA:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 910770,
+   "display": "910,770 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-landArea-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-landArea-2023, claim TL:NGA:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 23.2078900271199,
+   "display": "23.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-forestPct-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-forestPct-2023, claim TL:NGA:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 76.1972932793131,
+   "display": "76.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-agriPct-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-agriPct-2023, claim TL:NGA:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.566917637661195,
+   "display": "0.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-co2PerCapita-2024, claim TL:NGA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 80.3,
+   "display": "80.3%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-renewablePct-2021",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-renewablePct-2021, claim TL:NGA:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 8.55295423830806,
+   "display": "8.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-resourceRents-2021",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-resourceRents-2021, claim TL:NGA:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 6.24674969005013,
+   "display": "6.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-oilRents-2021",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-oilRents-2021, claim TL:NGA:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.00800831809870735,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-mineralRents-2021",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-mineralRents-2021, claim TL:NGA:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 1.13371531183728,
+   "display": "1.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-forestRents-2021",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-forestRents-2021, claim TL:NGA:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 61.2,
+   "display": "61.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-electricityAccess-2023, claim TL:NGA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:prodRareEarths:2025",
+   "domain": "resources",
+   "metric": "prodRareEarths",
+   "label": "Rare earths",
+   "value": 1500,
+   "display": "1,500 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/NGA#claim-prodRareEarths-2025",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-prodRareEarths-2025, claim TL:NGA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.555429367236392,
+   "display": "0.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-milExpPctGdp-2024, claim TL:NGA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 1133303623.27648,
+   "display": "$1.1 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-milExpUsd-2024, claim TL:NGA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NGA:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 223000,
+   "display": "223,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/NGA#claim-armedForces-2020",
+   "citation": "Terralore, \"Nigeria — national dossier\", terralore.co/country/NGA#claim-armedForces-2020, claim TL:NGA:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

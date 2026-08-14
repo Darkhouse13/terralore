@@ -82,6 +82,8 @@ Figures:
 - Bob Marley (1945 - 1981) — Reggae musician and global icon. Singer, songwriter, and Rastafari adherent whose music with the Wailers made reggae a global force and Jamaica's most powerful cultural export. His Legend remains the best-selling reggae album of all time.
 - Usain Bolt (born 1986) — Sprinter and Olympic champion. Trelawny-born sprinter widely regarded as the greatest of all time, winner of Olympic gold in the 100m and 200m at three consecutive Games and holder of world records that still stand.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:JAM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/JAM/chronicle.claims.json
+
 ## References
 
 - [britannica-jamaica-history] Jamaica: History — Encyclopaedia Britannica · https://www.britannica.com/place/Jamaica/History

@@ -75,6 +75,8 @@ Since the war the islands have prospered on fisheries and looked to offshore oil
 - 2025: **UN reiterates call for negotiations** — The UN Special Committee on Decolonisation again adopted a resolution asking Argentina and the United Kingdom to resume talks toward resolving the sovereignty dispute. [un-press-2025, un-decolonization]
 - present: **Contested status and an oil prospect** — The islands remain a British Overseas Territory claimed by Argentina, with an economy led by fisheries and the prospect of Sea Lion offshore oil development. [un-decolonization, sealion-rockhopper]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:FLK:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/FLK/chronicle.claims.json
+
 ## References
 
 - [britannica-falklands] Falkland Islands — History — Encyclopaedia Britannica · https://www.britannica.com/place/Falkland-Islands

@@ -1,0 +1,910 @@
+{
+ "subject": "EGY",
+ "name": "Egypt",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/EGY",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:EGY:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 389059911003.566,
+   "display": "$389 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-gdp-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-gdp-2024, claim TL:EGY:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 3338.47371395895,
+   "display": "$3,338",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-gdpPerCapita-2024, claim TL:EGY:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.3991692678251,
+   "display": "2.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-gdpGrowth-2024, claim TL:EGY:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 28.2705899322082,
+   "display": "28.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-inflation-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-inflation-2024, claim TL:EGY:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 39.6007520873733,
+   "display": "39.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-tradePctGdp-2024, claim TL:EGY:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 116538258,
+   "display": "117 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-population-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-population-2024, claim TL:EGY:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 71.806,
+   "display": "71.8 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-lifeExpectancy-2024, claim TL:EGY:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 42.8004363938404,
+   "display": "42.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-urbanPct-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-urbanPct-2024, claim TL:EGY:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.735,
+   "display": "2.7",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-fertility-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-fertility-2024, claim TL:EGY:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 79.4531619498685,
+   "display": "79.5%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-literacy-2022",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-literacy-2022, claim TL:EGY:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 28.8341534,
+   "display": "28.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-wgiVoice-2024, claim TL:EGY:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 49.1898949,
+   "display": "49.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-wgiStability-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-wgiStability-2024, claim TL:EGY:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 49.4532828,
+   "display": "49.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-wgiEffectiveness-2024, claim TL:EGY:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 46.9854499,
+   "display": "47.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-wgiRegQuality-2024, claim TL:EGY:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 44.0301801,
+   "display": "44.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-wgiRuleOfLaw-2024, claim TL:EGY:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 31.1152849,
+   "display": "31.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-wgiCorruption-2024, claim TL:EGY:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 4.88449335,
+   "display": "4.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-healthSpendPctGdp-2023, claim TL:EGY:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:physicians:2020",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.671,
+   "display": "0.67",
+   "unit": "per 1,000",
+   "observed": 2020,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-physicians-2020",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-physicians-2020, claim TL:EGY:physicians:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 22.4,
+   "display": "22.4",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-underFiveMortality-2024, claim TL:EGY:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 97,
+   "display": "97.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-measlesImmunisation-2024, claim TL:EGY:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 78.9401588327765,
+   "display": "78.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-safeWater-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-safeWater-2024, claim TL:EGY:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 79.4531619498685,
+   "display": "79.5%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-literacyRate-2022",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-literacyRate-2022, claim TL:EGY:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:eduSpendPctGdp:2008",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.76082992553711,
+   "display": "3.8%",
+   "unit": "% of GDP",
+   "observed": 2008,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-eduSpendPctGdp-2008",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-eduSpendPctGdp-2008, claim TL:EGY:eduSpendPctGdp:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 96.7073863024522,
+   "display": "96.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-primaryEnrolment-2024, claim TL:EGY:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 84.8286031306453,
+   "display": "84.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-secondaryEnrolment-2024, claim TL:EGY:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:tertiaryEnrolment:2025",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 38.0398346509947,
+   "display": "38.0%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-tertiaryEnrolment-2025",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-tertiaryEnrolment-2025, claim TL:EGY:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:rdSpending:2024",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 1.01757,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-rdSpending-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-rdSpending-2024, claim TL:EGY:rdSpending:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:researchers:2024",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 1120.22393,
+   "display": "1,120",
+   "unit": "per million",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-researchers-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-researchers-2024, claim TL:EGY:researchers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 74.64839935,
+   "display": "74.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-internetUsers-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-internetUsers-2024, claim TL:EGY:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 97.1295066037455,
+   "display": "97",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/EGY#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-mobileSubs-2024, claim TL:EGY:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 3.81290087814207,
+   "display": "3.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-highTechExports-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-highTechExports-2024, claim TL:EGY:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 995450,
+   "display": "995,450 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-landArea-2023",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-landArea-2023, claim TL:EGY:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 0.0451855944547692,
+   "display": "0.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-forestPct-2023",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-forestPct-2023, claim TL:EGY:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 4.07654829474107,
+   "display": "4.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-agriPct-2023",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-agriPct-2023, claim TL:EGY:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 2.50251380967098,
+   "display": "2.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-co2PerCapita-2024, claim TL:EGY:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 6.1,
+   "display": "6.1%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-renewablePct-2021",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-renewablePct-2021, claim TL:EGY:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 5.1391200748227,
+   "display": "5.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-resourceRents-2021",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-resourceRents-2021, claim TL:EGY:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 2.98581458250197,
+   "display": "3.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-oilRents-2021",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-oilRents-2021, claim TL:EGY:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-mineralRents-2021",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-mineralRents-2021, claim TL:EGY:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.107579624880014,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-forestRents-2021",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-forestRents-2021, claim TL:EGY:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-electricityAccess-2023, claim TL:EGY:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:prodPhosphate:2025",
+   "domain": "resources",
+   "metric": "prodPhosphate",
+   "label": "Phosphate rock",
+   "value": 5500000,
+   "display": "5.5 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/EGY#claim-prodPhosphate-2025",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-prodPhosphate-2025, claim TL:EGY:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.665263620234986,
+   "display": "0.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-milExpPctGdp-2024, claim TL:EGY:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 2396211163.82267,
+   "display": "$2.4 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-milExpUsd-2024, claim TL:EGY:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EGY:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 836000,
+   "display": "836,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/EGY#claim-armedForces-2020",
+   "citation": "Terralore, \"Egypt — national dossier\", terralore.co/country/EGY#claim-armedForces-2020, claim TL:EGY:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

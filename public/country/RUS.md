@@ -117,6 +117,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:RUS:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/RUS.claims.json
+
 History: "From the Viking princes of Kiev to a continental empire spanning eleven time zones." — the sourced chronicle is at https://terralore.co/country/RUS/chronicle.md (6 eras, 30 events).
 
 ## Sources

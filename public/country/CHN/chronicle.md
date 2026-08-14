@@ -97,6 +97,8 @@ Figures:
 - Mao Zedong (1893-1976) — Founding leader of the People's Republic. Chairman of the Chinese Communist Party who led the Communists to victory in 1949 and ruled until 1976. He unified the country under party control but his campaigns, the Great Leap Forward and the Cultural Revolution, caused tens of millions of deaths and vast suffering.
 - Deng Xiaoping (1904-1997) — Architect of China's economic reform. Paramount leader who launched the 'reform and opening' policies from 1978, transforming China's economy while preserving one-party rule. His era lifted hundreds of millions out of poverty but also saw the 1989 Tiananmen crackdown.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CHN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CHN/chronicle.claims.json
+
 ## References
 
 - [britannica-china] China — Encyclopaedia Britannica · https://www.britannica.com/place/China

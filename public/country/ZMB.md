@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:ZMB:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/ZMB.claims.json
+
 History: "From Iron Age farmers and the kingdoms of the Zambezi and Luapula to the Copperbelt, Northern Rhodesia, and a landlocked African republic." — the sourced chronicle is at https://terralore.co/country/ZMB/chronicle.md (6 eras, 28 events).
 
 ## Sources

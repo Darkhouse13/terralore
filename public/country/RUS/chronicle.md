@@ -100,6 +100,8 @@ Figures:
 - Boris Yeltsin (1931-2007) — First President of the Russian Federation. Reformist leader who helped end Soviet rule and became Russia's first president, presiding over the turbulent transition to a market economy, the 1993 constitutional crisis, and the rise of the oligarchs before handing power to Vladimir Putin.
 - Vladimir Putin (born 1952) — President of the Russian Federation. Dominant figure of post-Soviet Russia who, as president and prime minister since 2000, stabilized the economy on energy revenues, centralized state power, annexed Crimea in 2014, and launched the full-scale invasion of Ukraine in 2022.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:RUS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/RUS/chronicle.claims.json
+
 ## References
 
 - [britannica-russia] Russia — Encyclopaedia Britannica · https://www.britannica.com/place/Russia

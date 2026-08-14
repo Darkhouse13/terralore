@@ -1,0 +1,689 @@
+{
+ "subject": "zinc",
+ "name": "Zinc",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/zinc",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodZinc-total:2024",
+   "value": 11900000,
+   "display": "12 Mt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-world",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-world, claim TL:WLD:prodZinc-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodZinc-total:2025",
+   "value": 13000000,
+   "display": "13 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-world",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-world, claim TL:WLD:prodZinc-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:CHN:prodZinc-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.33613445378151263,
+   "display": "34%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodZinc:2024",
+    "value": 4000000,
+    "display": "4.0 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-chn, claim TL:CHN:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-chn",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-chn, claim TL:CHN:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodZinc-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.3153846153846154,
+   "display": "32%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodZinc:2025",
+    "value": 4100000,
+    "display": "4.1 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-chn, claim TL:CHN:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-chn",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-chn, claim TL:CHN:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodZinc-share:2024",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.10672268907563025,
+   "display": "11%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodZinc:2024",
+    "value": 1270000,
+    "display": "1.3 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-per, claim TL:PER:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-per",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-per, claim TL:PER:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodZinc-share:2025",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.11538461538461539,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodZinc:2025",
+    "value": 1500000,
+    "display": "1.5 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-per, claim TL:PER:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-per",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-per, claim TL:PER:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodZinc-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.09243697478991597,
+   "display": "9.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodZinc:2024",
+    "value": 1100000,
+    "display": "1.1 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-aus, claim TL:AUS:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-aus",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-aus, claim TL:AUS:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodZinc-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.08461538461538462,
+   "display": "8.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodZinc:2025",
+    "value": 1100000,
+    "display": "1.1 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-aus, claim TL:AUS:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-aus",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-aus, claim TL:AUS:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodZinc-share:2024",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.07277310924369748,
+   "display": "7.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodZinc:2024",
+    "value": 866000,
+    "display": "866 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-ind, claim TL:IND:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-ind",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-ind, claim TL:IND:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodZinc-share:2025",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.06692307692307692,
+   "display": "6.7%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodZinc:2025",
+    "value": 870000,
+    "display": "870 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-ind, claim TL:IND:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-ind",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-ind, claim TL:IND:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodZinc-share:2024",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.06495798319327731,
+   "display": "6.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodZinc:2024",
+    "value": 773000,
+    "display": "773 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-mex, claim TL:MEX:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-mex",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-mex, claim TL:MEX:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodZinc-share:2025",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.06,
+   "display": "6.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodZinc:2025",
+    "value": 780000,
+    "display": "780 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-mex, claim TL:MEX:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-mex",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-mex, claim TL:MEX:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodZinc-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.06378151260504202,
+   "display": "6.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodZinc:2024",
+    "value": 759000,
+    "display": "759 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-usa, claim TL:USA:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-usa",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-usa, claim TL:USA:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodZinc-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.05153846153846154,
+   "display": "5.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodZinc:2025",
+    "value": 670000,
+    "display": "670 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-usa, claim TL:USA:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-usa",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-usa, claim TL:USA:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BOL:prodZinc-share:2024",
+   "nation": "BOL",
+   "name": "Bolivia",
+   "value": 0.043025210084033615,
+   "display": "4.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BOL:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BOL:prodZinc:2024",
+    "value": 512000,
+    "display": "512 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-bol, claim TL:BOL:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-bol",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-bol, claim TL:BOL:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BOL:prodZinc-share:2025",
+   "nation": "BOL",
+   "name": "Bolivia",
+   "value": 0.038461538461538464,
+   "display": "3.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BOL:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BOL:prodZinc:2025",
+    "value": 500000,
+    "display": "500 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-bol, claim TL:BOL:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-bol",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-bol, claim TL:BOL:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodZinc-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.026050420168067228,
+   "display": "2.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodZinc:2024",
+    "value": 310000,
+    "display": "310 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-rus, claim TL:RUS:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-rus",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-rus, claim TL:RUS:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodZinc-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.03307692307692308,
+   "display": "3.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodZinc:2025",
+    "value": 430000,
+    "display": "430 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-rus, claim TL:RUS:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-rus",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-rus, claim TL:RUS:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodZinc-share:2024",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.031512605042016806,
+   "display": "3.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodZinc:2024",
+    "value": 375000,
+    "display": "375 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-kaz, claim TL:KAZ:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-kaz",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-kaz, claim TL:KAZ:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodZinc-share:2025",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.027692307692307693,
+   "display": "2.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodZinc:2025",
+    "value": 360000,
+    "display": "360 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-kaz, claim TL:KAZ:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-kaz",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-kaz, claim TL:KAZ:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SWE:prodZinc-share:2024",
+   "nation": "SWE",
+   "name": "Sweden",
+   "value": 0.02008403361344538,
+   "display": "2.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:SWE:prodZinc:2024",
+    "worldTotal": "TL:WLD:prodZinc-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:SWE:prodZinc:2024",
+    "value": 239000,
+    "display": "239 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-swe, claim TL:SWE:prodZinc:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-swe",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-swe, claim TL:SWE:prodZinc-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SWE:prodZinc-share:2025",
+   "nation": "SWE",
+   "name": "Sweden",
+   "value": 0.01769230769230769,
+   "display": "1.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:SWE:prodZinc:2025",
+    "worldTotal": "TL:WLD:prodZinc-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:SWE:prodZinc:2025",
+    "value": 230000,
+    "display": "230 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-swe, claim TL:SWE:prodZinc:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/zinc#claim-swe",
+   "citation": "Terralore, \"Zinc — who supplies the world\", terralore.co/commodities/zinc#claim-swe, claim TL:SWE:prodZinc-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

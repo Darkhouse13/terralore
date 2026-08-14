@@ -1,0 +1,890 @@
+{
+ "subject": "PAK",
+ "name": "Pakistan",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/PAK",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:PAK:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 371570000121.266,
+   "display": "$372 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-gdp-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-gdp-2024, claim TL:PAK:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1478.77277977996,
+   "display": "$1,479",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-gdpPerCapita-2024, claim TL:PAK:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.04898287335465,
+   "display": "3.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-gdpGrowth-2024, claim TL:PAK:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 12.6325318530452,
+   "display": "12.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-inflation-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-inflation-2024, claim TL:PAK:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 27.5784683520695,
+   "display": "27.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-tradePctGdp-2024, claim TL:PAK:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 251269164,
+   "display": "251 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-population-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-population-2024, claim TL:PAK:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 67.799,
+   "display": "67.8 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-lifeExpectancy-2024, claim TL:PAK:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 39.1734368360905,
+   "display": "39.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-urbanPct-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-urbanPct-2024, claim TL:PAK:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 3.547,
+   "display": "3.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-fertility-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-fertility-2024, claim TL:PAK:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:literacy:2021",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 58.8600006103516,
+   "display": "58.9%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-literacy-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-literacy-2021, claim TL:PAK:literacy:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 36.4355649,
+   "display": "36.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-wgiVoice-2024, claim TL:PAK:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 30.6476878,
+   "display": "30.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-wgiStability-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-wgiStability-2024, claim TL:PAK:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 39.6677025,
+   "display": "39.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-wgiEffectiveness-2024, claim TL:PAK:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 42.3591418,
+   "display": "42.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-wgiRegQuality-2024, claim TL:PAK:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 39.4597729,
+   "display": "39.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-wgiRuleOfLaw-2024, claim TL:PAK:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 26.2849685,
+   "display": "26.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-wgiCorruption-2024, claim TL:PAK:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 2.51988316,
+   "display": "2.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-healthSpendPctGdp-2023, claim TL:PAK:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:physicians:2021",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.16,
+   "display": "1.16",
+   "unit": "per 1,000",
+   "observed": 2021,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-physicians-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-physicians-2021, claim TL:PAK:physicians:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 56,
+   "display": "56.0",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-underFiveMortality-2024, claim TL:PAK:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 86,
+   "display": "86.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-measlesImmunisation-2024, claim TL:PAK:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 44.9737364064737,
+   "display": "45.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PAK#claim-safeWater-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-safeWater-2024, claim TL:PAK:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:literacyRate:2021",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 58.8600006103516,
+   "display": "58.9%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-literacyRate-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-literacyRate-2021, claim TL:PAK:literacyRate:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 1.94658005237579,
+   "display": "1.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-eduSpendPctGdp-2023, claim TL:PAK:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 83.726068200404,
+   "display": "83.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-primaryEnrolment-2024, claim TL:PAK:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 48.2805022055997,
+   "display": "48.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-secondaryEnrolment-2024, claim TL:PAK:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 10.8564126844434,
+   "display": "10.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-tertiaryEnrolment-2024, claim TL:PAK:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.16399,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-rdSpending-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-rdSpending-2023, claim TL:PAK:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 473.71632,
+   "display": "474",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-researchers-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-researchers-2023, claim TL:PAK:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 57.253,
+   "display": "57.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-internetUsers-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-internetUsers-2024, claim TL:PAK:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 76.8544559649986,
+   "display": "77",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PAK#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-mobileSubs-2024, claim TL:PAK:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 2.43815248015808,
+   "display": "2.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-highTechExports-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-highTechExports-2024, claim TL:PAK:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 770880,
+   "display": "770,880 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-landArea-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-landArea-2023, claim TL:PAK:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 4.67242631797426,
+   "display": "4.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-forestPct-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-forestPct-2023, claim TL:PAK:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 46.6933893731839,
+   "display": "46.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-agriPct-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-agriPct-2023, claim TL:PAK:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.811831809174961,
+   "display": "0.8",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-co2PerCapita-2024, claim TL:PAK:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 41.6,
+   "display": "41.6%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-renewablePct-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-renewablePct-2021, claim TL:PAK:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 1.43561633294011,
+   "display": "1.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-resourceRents-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-resourceRents-2021, claim TL:PAK:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.380197434318265,
+   "display": "0.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-oilRents-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-oilRents-2021, claim TL:PAK:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.0687357166320551,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-mineralRents-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-mineralRents-2021, claim TL:PAK:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.128676978113697,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-forestRents-2021",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-forestRents-2021, claim TL:PAK:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 95.6,
+   "display": "95.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-electricityAccess-2023, claim TL:PAK:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.66760037007452,
+   "display": "2.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-milExpPctGdp-2024, claim TL:PAK:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 10165952756.2448,
+   "display": "$10 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-milExpUsd-2024, claim TL:PAK:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PAK:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 943000,
+   "display": "943,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PAK#claim-armedForces-2020",
+   "citation": "Terralore, \"Pakistan — national dossier\", terralore.co/country/PAK#claim-armedForces-2020, claim TL:PAK:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

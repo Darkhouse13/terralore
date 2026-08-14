@@ -1,0 +1,649 @@
+{
+ "subject": "EST",
+ "name": "Estonia",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/EST/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:EST:event:9000bce:the-kunda-culture",
+   "year": -9000,
+   "yearLabel": "c. 9000 BCE",
+   "title": "The Kunda culture",
+   "summary": "Mesolithic hunter-fishers of the Kunda culture, named for the Estonian town of Kunda, settled the eastern Baltic forest zone after the Ice Age, among the earliest inhabitants of the region.",
+   "category": "migration",
+   "era": "ancient-estonians-northern-crusades",
+   "sources": [
+    {
+     "id": "ancient-estonia-ref",
+     "label": "Ancient Estonia and the Kunda culture",
+     "publisher": "Klaipeda University, Archaeologia Baltica (peer-reviewed journal)",
+     "url": "https://e-journals.ku.lt/journal/AB/article/1371/file/pdf"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-9000bce-the-kunda-culture",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-9000bce-the-kunda-culture, claim TL:EST:event:9000bce:the-kunda-culture, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1202:foundation-of-the-brothers-of-the-sword",
+   "year": 1202,
+   "yearLabel": "1202",
+   "title": "Foundation of the Brothers of the Sword",
+   "summary": "Bishop Albert of Riga established the Livonian Brothers of the Sword, the military order that, with the Teutonic Knights and the Danes, drove the Northern Crusades into Estonia.",
+   "category": "religion",
+   "era": "ancient-estonians-northern-crusades",
+   "sources": [
+    {
+     "id": "northern-crusades-britannica",
+     "label": "Northern Crusades",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Northern-Crusades"
+    },
+    {
+     "id": "livonian-crusade-ref",
+     "label": "Livonian Crusades: Christianization of Estonia",
+     "publisher": "History Maps",
+     "url": "https://history-maps.com/story/History-of-Estonia/event/Livonian-Crusades-Christianization-of-Estonia"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1202-foundation-of-the-brothers-of-the-sword",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1202-foundation-of-the-brothers-of-the-sword, claim TL:EST:event:1202:foundation-of-the-brothers-of-the-sword, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1219:danish-conquest-and-the-founding-of-tallinn",
+   "year": 1219,
+   "yearLabel": "1219",
+   "title": "Danish conquest and the founding of Tallinn",
+   "summary": "Danish crusaders defeated the northern Estonians and built a fortress on Toompea hill, giving rise to Tallinn (Reval); northern Estonia became a Danish duchy within Terra Mariana.",
+   "category": "war",
+   "era": "ancient-estonians-northern-crusades",
+   "sources": [
+    {
+     "id": "tallinn-unesco",
+     "label": "Historic Centre (Old Town) of Tallinn",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/822/"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1219-danish-conquest-and-the-founding-of-tallinn",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1219-danish-conquest-and-the-founding-of-tallinn, claim TL:EST:event:1219:danish-conquest-and-the-founding-of-tallinn, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1343:st-george-s-night-uprising",
+   "year": 1343,
+   "yearLabel": "1343–1345",
+   "title": "St George's Night Uprising",
+   "summary": "Estonian peasants rose against their German and Danish overlords in a great revolt that was suppressed; in its wake Denmark sold its Estonian lands to the Teutonic Order in 1346.",
+   "category": "war",
+   "era": "ancient-estonians-northern-crusades",
+   "sources": [
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    },
+    {
+     "id": "ancient-estonia-ref",
+     "label": "Ancient Estonia and the Kunda culture",
+     "publisher": "Klaipeda University, Archaeologia Baltica (peer-reviewed journal)",
+     "url": "https://e-journals.ku.lt/journal/AB/article/1371/file/pdf"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1343-st-george-s-night-uprising",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1343-st-george-s-night-uprising, claim TL:EST:event:1343:st-george-s-night-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1285:reval-joins-the-hanseatic-league",
+   "year": 1285,
+   "yearLabel": "1285",
+   "title": "Reval joins the Hanseatic League",
+   "summary": "Tallinn, known as Reval, entered the Hanseatic League and grew into a wealthy port linking Russian trade to the markets of the Baltic and the North Sea.",
+   "category": "economy",
+   "era": "hanseatic-tallinn-danish-swedish-rule",
+   "sources": [
+    {
+     "id": "tallinn-unesco",
+     "label": "Historic Centre (Old Town) of Tallinn",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/822/"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1285-reval-joins-the-hanseatic-league",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1285-reval-joins-the-hanseatic-league, claim TL:EST:event:1285:reval-joins-the-hanseatic-league, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1558:the-livonian-war",
+   "year": 1558,
+   "yearLabel": "1558–1583",
+   "title": "The Livonian War",
+   "summary": "A twenty-five-year struggle for Livonia pitted Russia against Sweden, Denmark and Poland-Lithuania, shattering the old crusader confederation as the towns and provinces sought new protectors.",
+   "category": "war",
+   "era": "hanseatic-tallinn-danish-swedish-rule",
+   "sources": [
+    {
+     "id": "livonian-war-britannica",
+     "label": "Livonian War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Livonian-War"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1558-the-livonian-war",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1558-the-livonian-war, claim TL:EST:event:1558:the-livonian-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1561:reval-submits-to-sweden",
+   "year": 1561,
+   "yearLabel": "1561",
+   "title": "Reval submits to Sweden",
+   "summary": "Amid the collapse of the Livonian Order, the city council of Reval and the nobles of northern Estonia placed themselves under the protection of the Swedish crown, the start of Swedish rule.",
+   "category": "politics",
+   "era": "hanseatic-tallinn-danish-swedish-rule",
+   "sources": [
+    {
+     "id": "livonian-war-britannica",
+     "label": "Livonian War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Livonian-War"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1561-reval-submits-to-sweden",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1561-reval-submits-to-sweden, claim TL:EST:event:1561:reval-submits-to-sweden, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1632:founding-of-the-university-of-tartu",
+   "year": 1632,
+   "yearLabel": "1632",
+   "title": "Founding of the University of Tartu",
+   "summary": "King Gustavus Adolphus of Sweden founded the university at Tartu (Dorpat), a lasting institution of learning and a hallmark of the era later recalled as the 'good old Swedish time'.",
+   "category": "culture",
+   "era": "hanseatic-tallinn-danish-swedish-rule",
+   "sources": [
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1632-founding-of-the-university-of-tartu",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1632-founding-of-the-university-of-tartu, claim TL:EST:event:1632:founding-of-the-university-of-tartu, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1721:treaty-of-nystad",
+   "year": 1721,
+   "yearLabel": "1721",
+   "title": "Treaty of Nystad",
+   "summary": "Sweden ceded Estonia and Livonia to Russia, which organised them into governorates and confirmed the privileges of the Baltic German nobility, beginning two centuries of Russian imperial rule.",
+   "category": "politics",
+   "era": "russian-empire-national-awakening",
+   "sources": [
+    {
+     "id": "nystad-britannica",
+     "label": "Peace of Nystad",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Peace-of-Nystad"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1721-treaty-of-nystad",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1721-treaty-of-nystad, claim TL:EST:event:1721:treaty-of-nystad, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1816:abolition-of-serfdom",
+   "year": 1816,
+   "yearLabel": "1816–1819",
+   "title": "Abolition of serfdom",
+   "summary": "Serfdom was abolished in the Estonian and Livonian governorates ahead of the rest of Russia, freeing the peasantry and laying the social groundwork for the later national awakening.",
+   "category": "politics",
+   "era": "russian-empire-national-awakening",
+   "sources": [
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1816-abolition-of-serfdom",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1816-abolition-of-serfdom, claim TL:EST:event:1816:abolition-of-serfdom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1869:the-first-estonian-song-festival",
+   "year": 1869,
+   "yearLabel": "1869",
+   "title": "The first Estonian Song Festival",
+   "summary": "The first all-Estonian Song Festival was held at Tartu, founded by Johann Voldemar Jannsen, making mass choral singing the central expression of an awakening national identity.",
+   "category": "culture",
+   "era": "russian-empire-national-awakening",
+   "sources": [
+    {
+     "id": "song-festival-ref",
+     "label": "A history of the Estonian Song Celebration: timeline from 1869 to today",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/culture/a-history-of-the-estonian-song-celebration-timeline-from-1869-to-today/"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1869-the-first-estonian-song-festival",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1869-the-first-estonian-song-festival, claim TL:EST:event:1869:the-first-estonian-song-festival, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1878:jakobson-and-the-national-press",
+   "year": 1878,
+   "yearLabel": "1878",
+   "title": "Jakobson and the national press",
+   "summary": "Carl Robert Jakobson founded the newspaper Sakala, a leading voice of the national awakening that demanded equal rights for Estonians and an end to Baltic German privilege.",
+   "category": "culture",
+   "era": "russian-empire-national-awakening",
+   "sources": [
+    {
+     "id": "jakobson-ref",
+     "label": "Carl Robert Jakobson and the national awakening",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/culture/estonia-how-the-singing-revolution-sparked-independence/"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1878-jakobson-and-the-national-press",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1878-jakobson-and-the-national-press, claim TL:EST:event:1878:jakobson-and-the-national-press, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1918:declaration-of-independence",
+   "year": 1918,
+   "yearLabel": "24 Feb 1918",
+   "title": "Declaration of Independence",
+   "summary": "The Salvation Committee proclaimed the independent Republic of Estonia and appointed a provisional government under Konstantin Päts, the founding act of the Estonian state.",
+   "category": "independence",
+   "era": "first-republic-war-of-independence",
+   "sources": [
+    {
+     "id": "independence-decl-ref",
+     "label": "Estonia celebrates Independence Day: How was freedom declared in 1918?",
+     "publisher": "ERR (Estonian Public Broadcasting)",
+     "url": "https://news.err.ee/1609610981/estonia-celebrates-independence-day-how-was-freedom-declared-in-1918"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1918-declaration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1918-declaration-of-independence, claim TL:EST:event:1918:declaration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1918:the-war-of-independence",
+   "year": 1918,
+   "yearLabel": "1918–1920",
+   "title": "The War of Independence",
+   "summary": "The Estonian army, with Finnish, British and other allied support, repelled the Soviet Red Army and the Baltic German Landeswehr, securing the survival of the new republic.",
+   "category": "war",
+   "era": "first-republic-war-of-independence",
+   "sources": [
+    {
+     "id": "independence-decl-ref",
+     "label": "Estonia celebrates Independence Day: How was freedom declared in 1918?",
+     "publisher": "ERR (Estonian Public Broadcasting)",
+     "url": "https://news.err.ee/1609610981/estonia-celebrates-independence-day-how-was-freedom-declared-in-1918"
+    },
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1918-the-war-of-independence",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1918-the-war-of-independence, claim TL:EST:event:1918:the-war-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1920:treaty-of-tartu",
+   "year": 1920,
+   "yearLabel": "2 Feb 1920",
+   "title": "Treaty of Tartu",
+   "summary": "Soviet Russia recognised Estonian independence de jure and renounced 'voluntarily and forever' all sovereign rights over Estonia, ending the war and fixing the eastern border at Narva and Petseri.",
+   "category": "independence",
+   "era": "first-republic-war-of-independence",
+   "sources": [
+    {
+     "id": "tartu-peace-vm",
+     "label": "Tartu Peace, 2 February 1920",
+     "publisher": "Estonian Ministry of Foreign Affairs (vm.ee)",
+     "url": "https://vm.ee/en/tartu-peace"
+    },
+    {
+     "id": "tartu-tartu100",
+     "label": "Estonia marks the anniversary of the Tartu Peace Treaty",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/security/estonia-marks-the-anniversary-of-the-tartu-peace-treaty/"
+    },
+    {
+     "id": "tartu-britannica",
+     "label": "Treaty of Tartu",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Treaty-of-Tartu"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1920-treaty-of-tartu",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1920-treaty-of-tartu, claim TL:EST:event:1920:treaty-of-tartu, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1934:the-era-of-silence",
+   "year": 1934,
+   "yearLabel": "1934",
+   "title": "The 'era of silence'",
+   "summary": "Amid depression and political instability, Konstantin Päts assumed authoritarian powers, suspending parliamentary politics in an interlude later called the 'era of silence'.",
+   "category": "politics",
+   "era": "first-republic-war-of-independence",
+   "sources": [
+    {
+     "id": "estonia-history-britannica",
+     "label": "Estonia: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/History"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1934-the-era-of-silence",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1934-the-era-of-silence, claim TL:EST:event:1934:the-era-of-silence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1939:the-molotov-ribbentrop-pact",
+   "year": 1939,
+   "yearLabel": "23 Aug 1939",
+   "title": "The Molotov-Ribbentrop Pact",
+   "summary": "The secret protocol of the German-Soviet pact assigned Estonia to the Soviet sphere of influence, sealing the country's fate without its knowledge or consent.",
+   "category": "politics",
+   "era": "occupation-annexation-non-recognition",
+   "sources": [
+    {
+     "id": "mrp-ref",
+     "label": "Estonia in the grip of the Molotov-Ribbentrop Pact",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/security/estonia-in-the-grip-of-the-molotov-ribbentrop-pact-and-the-realpolitik-of-great-powers/"
+    },
+    {
+     "id": "estonia-occupation-britannica",
+     "label": "Estonia: Independence lost (Soviet occupation, World War II)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/Independence-lost"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1939-the-molotov-ribbentrop-pact",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1939-the-molotov-ribbentrop-pact, claim TL:EST:event:1939:the-molotov-ribbentrop-pact, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1940:soviet-occupation-and-annexation",
+   "year": 1940,
+   "yearLabel": "Jun–Aug 1940",
+   "title": "Soviet occupation and annexation",
+   "summary": "The Red Army occupied Estonia on 16-17 June 1940 and, after a staged election, the country was annexed into the Soviet Union in August, ending the independent republic.",
+   "category": "war",
+   "era": "occupation-annexation-non-recognition",
+   "sources": [
+    {
+     "id": "estonia-occupation-britannica",
+     "label": "Estonia: Independence lost (Soviet occupation, World War II)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/Independence-lost"
+    },
+    {
+     "id": "mrp-ref",
+     "label": "Estonia in the grip of the Molotov-Ribbentrop Pact",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/security/estonia-in-the-grip-of-the-molotov-ribbentrop-pact-and-the-realpolitik-of-great-powers/"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1940-soviet-occupation-and-annexation",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1940-soviet-occupation-and-annexation, claim TL:EST:event:1940:soviet-occupation-and-annexation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1941:the-june-deportation",
+   "year": 1941,
+   "yearLabel": "14 Jun 1941",
+   "title": "The June deportation",
+   "summary": "Soviet authorities deported more than 10,000 people from Estonia to Siberia in a single operation, most of them women, children and the elderly, days before the German invasion.",
+   "category": "disaster",
+   "era": "occupation-annexation-non-recognition",
+   "sources": [
+    {
+     "id": "deportations-valitsus",
+     "label": "Commemoration in Tallinn of victims of the deportations of June 1941",
+     "publisher": "Government of the Republic of Estonia (valitsus.ee)",
+     "url": "https://www.valitsus.ee/en/news/commemoration-tallinn-victims-deportations-june-1941"
+    },
+    {
+     "id": "estonia-occupation-britannica",
+     "label": "Estonia: Independence lost (Soviet occupation, World War II)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/Independence-lost"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1941-the-june-deportation",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1941-the-june-deportation, claim TL:EST:event:1941:the-june-deportation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1944:soviet-reoccupation",
+   "year": 1944,
+   "yearLabel": "1944",
+   "title": "Soviet reoccupation",
+   "summary": "After three years of Nazi occupation, the Soviet Union reconquered Estonia in 1944, beginning a second occupation marked by further mass deportations and armed 'Forest Brother' resistance.",
+   "category": "war",
+   "era": "occupation-annexation-non-recognition",
+   "sources": [
+    {
+     "id": "estonia-occupation-britannica",
+     "label": "Estonia: Independence lost (Soviet occupation, World War II)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/Independence-lost"
+    },
+    {
+     "id": "deportations-valitsus",
+     "label": "Commemoration in Tallinn of victims of the deportations of June 1941",
+     "publisher": "Government of the Republic of Estonia (valitsus.ee)",
+     "url": "https://www.valitsus.ee/en/news/commemoration-tallinn-victims-deportations-june-1941"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1944-soviet-reoccupation",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1944-soviet-reoccupation, claim TL:EST:event:1944:soviet-reoccupation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1940:western-non-recognition",
+   "year": 1940,
+   "yearLabel": "from 1940",
+   "title": "Western non-recognition",
+   "summary": "Following the Stimson Doctrine, the United States and many other states refused to recognise the Soviet annexation de jure, holding that Estonia remained a sovereign state under occupation.",
+   "category": "politics",
+   "era": "occupation-annexation-non-recognition",
+   "sources": [
+    {
+     "id": "continuity-icds",
+     "label": "What Made the Restoration of Estonian Independence Possible? (non-recognition and state continuity)",
+     "publisher": "International Centre for Defence and Security (ICDS)",
+     "url": "https://icds.ee/en/what-made-the-restoration-of-estonian-independence-possible/"
+    },
+    {
+     "id": "estonia-occupation-britannica",
+     "label": "Estonia: Independence lost (Soviet occupation, World War II)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Estonia/Independence-lost"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1940-western-non-recognition",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1940-western-non-recognition, claim TL:EST:event:1940:western-non-recognition, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1988:the-singing-revolution",
+   "year": 1988,
+   "yearLabel": "Sep 1988",
+   "title": "The Singing Revolution",
+   "summary": "Some 300,000 people gathered at the Tallinn Song Festival Grounds in mass patriotic singing; the artist Heinz Valk named the movement the 'Singing Revolution'.",
+   "category": "politics",
+   "era": "singing-revolution-restoration-europe",
+   "sources": [
+    {
+     "id": "singing-revolution-ew",
+     "label": "Estonia: how the singing revolution sparked independence",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/culture/estonia-how-the-singing-revolution-sparked-independence/"
+    },
+    {
+     "id": "restoration-err",
+     "label": "Taking back what was theirs: the restoration of Estonia's independence in August 1991",
+     "publisher": "ERR (Estonian Public Broadcasting)",
+     "url": "https://news.err.ee/118828/taking-back-what-was-theirs-the-restoration-of-estonia-s-independence-in-august-1991"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1988-the-singing-revolution",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1988-the-singing-revolution, claim TL:EST:event:1988:the-singing-revolution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1989:the-baltic-way",
+   "year": 1989,
+   "yearLabel": "23 Aug 1989",
+   "title": "The Baltic Way",
+   "summary": "On the pact's fiftieth anniversary, about two million people formed a 600-kilometre human chain from Tallinn to Vilnius, demanding independence and condemning the Molotov-Ribbentrop Pact.",
+   "category": "politics",
+   "era": "singing-revolution-restoration-europe",
+   "sources": [
+    {
+     "id": "singing-revolution-ew",
+     "label": "Estonia: how the singing revolution sparked independence",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/culture/estonia-how-the-singing-revolution-sparked-independence/"
+    },
+    {
+     "id": "mrp-ref",
+     "label": "Estonia in the grip of the Molotov-Ribbentrop Pact",
+     "publisher": "Estonian World",
+     "url": "https://estonianworld.com/security/estonia-in-the-grip-of-the-molotov-ribbentrop-pact-and-the-realpolitik-of-great-powers/"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1989-the-baltic-way",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1989-the-baltic-way, claim TL:EST:event:1989:the-baltic-way, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:1991:restoration-of-independence",
+   "year": 1991,
+   "yearLabel": "20 Aug 1991",
+   "title": "Restoration of independence",
+   "summary": "The Supreme Council voted to restore Estonian independence on the basis of legal continuity with the 1918 republic during the failed Moscow coup; recognition and UN membership swiftly followed.",
+   "category": "independence",
+   "era": "singing-revolution-restoration-europe",
+   "sources": [
+    {
+     "id": "restoration-err",
+     "label": "Taking back what was theirs: the restoration of Estonia's independence in August 1991",
+     "publisher": "ERR (Estonian Public Broadcasting)",
+     "url": "https://news.err.ee/118828/taking-back-what-was-theirs-the-restoration-of-estonia-s-independence-in-august-1991"
+    },
+    {
+     "id": "continuity-icds",
+     "label": "What Made the Restoration of Estonian Independence Possible? (non-recognition and state continuity)",
+     "publisher": "International Centre for Defence and Security (ICDS)",
+     "url": "https://icds.ee/en/what-made-the-restoration-of-estonian-independence-possible/"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-1991-restoration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-1991-restoration-of-independence, claim TL:EST:event:1991:restoration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:2004:accession-to-nato",
+   "year": 2004,
+   "yearLabel": "29 Mar 2004",
+   "title": "Accession to NATO",
+   "summary": "Estonia became a full member of NATO when its instruments of accession were deposited in Washington, anchoring its security in the Western alliance.",
+   "category": "politics",
+   "era": "singing-revolution-restoration-europe",
+   "sources": [
+    {
+     "id": "nato-mfa",
+     "label": "Timeline of Estonia's accession to NATO",
+     "publisher": "Estonian Ministry of Foreign Affairs / Estonia in NATO (nato.mfa.ee)",
+     "url": "https://nato.mfa.ee/timeline-of-estonias-accession-to-nato/"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-2004-accession-to-nato",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-2004-accession-to-nato, claim TL:EST:event:2004:accession-to-nato, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:2004:accession-to-the-european-union",
+   "year": 2004,
+   "yearLabel": "1 May 2004",
+   "title": "Accession to the European Union",
+   "summary": "Estonia joined the European Union, completing its post-Soviet return to Europe after a 2003 referendum in which two-thirds of voters approved membership.",
+   "category": "politics",
+   "era": "singing-revolution-restoration-europe",
+   "sources": [
+    {
+     "id": "eu-mfa-timeline",
+     "label": "Estonia and the European Union: Timeline of Relations",
+     "publisher": "Estonian Ministry of Foreign Affairs / Estonia in EU (eu.mfa.ee)",
+     "url": "https://eu.mfa.ee/estonia-eu-timeline/"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-2004-accession-to-the-european-union",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-2004-accession-to-the-european-union, claim TL:EST:event:2004:accession-to-the-european-union, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:EST:event:2014:the-unratified-border-treaty",
+   "year": 2014,
+   "yearLabel": "2005 & 2014",
+   "title": "The unratified border treaty",
+   "summary": "A border treaty with Russia, settling the post-war frontier at Narva and Petseri, was signed in 2005 and again in 2014 but remains unratified, leaving the boundary formally unconcluded.",
+   "category": "politics",
+   "era": "singing-revolution-restoration-europe",
+   "sources": [
+    {
+     "id": "border-trialoog",
+     "label": "Russian provocations and Estonia's borders: why international law matters",
+     "publisher": "Trialoog, Tallinn University of Technology (TalTech)",
+     "url": "https://trialoog.taltech.ee/en/venemaa-provokatsioonid-ja-eesti-piirid-miks-on-rahvusvaheline-oigus-oluline/"
+    },
+    {
+     "id": "border-err",
+     "label": "Foreign minister: We can initiate ratifying Estonia-Russia border treaty",
+     "publisher": "ERR (Estonian Public Broadcasting)",
+     "url": "https://news.err.ee/1608113959/foreign-minister-we-can-initiate-ratifying-estonia-russia-border-treaty"
+    }
+   ],
+   "url": "https://terralore.co/country/EST/chronicle#ev-2014-the-unratified-border-treaty",
+   "citation": "Terralore, \"The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.\", terralore.co/country/EST/chronicle#ev-2014-the-unratified-border-treaty, claim TL:EST:event:2014:the-unratified-border-treaty, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -76,6 +76,8 @@ Figures:
 
 - Walter Lini (1942–1999) — Founding Prime Minister of Vanuatu. First leader of independent Vanuatu, who set the young republic's course of non-alignment, custom and Pacific solidarity that still shapes its climate diplomacy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:VUT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/VUT/chronicle.claims.json
+
 ## References
 
 - [britannica-history] Vanuatu — History (Melanesian, Colonization, Independence) — Encyclopædia Britannica · https://www.britannica.com/place/Vanuatu/History

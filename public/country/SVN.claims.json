@@ -1,0 +1,850 @@
+{
+ "subject": "SVN",
+ "name": "Slovenia",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/SVN",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:SVN:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 72972015197.3859,
+   "display": "$73 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-gdp-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-gdp-2024, claim TL:SVN:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 34301.0318686594,
+   "display": "$34,301",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-gdpPerCapita-2024, claim TL:SVN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 1.73139722479493,
+   "display": "1.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-gdpGrowth-2024, claim TL:SVN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 1.96562656432512,
+   "display": "2.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-inflation-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-inflation-2024, claim TL:SVN:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 155.657928684474,
+   "display": "155.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-tradePctGdp-2024, claim TL:SVN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 2127400,
+   "display": "2.1 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-population-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-population-2024, claim TL:SVN:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 82.2853658536585,
+   "display": "82.3 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-lifeExpectancy-2024, claim TL:SVN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 55.7577708405917,
+   "display": "55.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-urbanPct-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-urbanPct-2024, claim TL:SVN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.52,
+   "display": "1.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-fertility-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-fertility-2024, claim TL:SVN:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 75.3519851,
+   "display": "75.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-wgiVoice-2024, claim TL:SVN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 78.2087684,
+   "display": "78.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-wgiStability-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-wgiStability-2024, claim TL:SVN:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 72.521532,
+   "display": "72.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-wgiEffectiveness-2024, claim TL:SVN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 67.4509563,
+   "display": "67.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-wgiRegQuality-2024, claim TL:SVN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 73.8081992,
+   "display": "73.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-wgiRuleOfLaw-2024, claim TL:SVN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 61.5046962,
+   "display": "61.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-wgiCorruption-2024, claim TL:SVN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:healthSpendPctGdp:2024",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 9.87630939,
+   "display": "9.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-healthSpendPctGdp-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-healthSpendPctGdp-2024, claim TL:SVN:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 3.367,
+   "display": "3.37",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-physicians-2022",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-physicians-2022, claim TL:SVN:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 2.3,
+   "display": "2.3",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-underFiveMortality-2024, claim TL:SVN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 95,
+   "display": "95.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-measlesImmunisation-2024, claim TL:SVN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 99.5745942010052,
+   "display": "99.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SVN#claim-safeWater-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-safeWater-2024, claim TL:SVN:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.28065013885498,
+   "display": "5.3%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-eduSpendPctGdp-2022, claim TL:SVN:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 100.884101867676,
+   "display": "100.9%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-primaryEnrolment-2023, claim TL:SVN:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 107.626876831055,
+   "display": "107.6%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-secondaryEnrolment-2023, claim TL:SVN:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:tertiaryEnrolment:2023",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 80.0806884765625,
+   "display": "80.1%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-tertiaryEnrolment-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-tertiaryEnrolment-2023, claim TL:SVN:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 2.13385,
+   "display": "2.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-rdSpending-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-rdSpending-2023, claim TL:SVN:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 5616.34857,
+   "display": "5,616",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-researchers-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-researchers-2023, claim TL:SVN:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 90.76355487,
+   "display": "90.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-internetUsers-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-internetUsers-2024, claim TL:SVN:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 130.86090177123,
+   "display": "131",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SVN#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-mobileSubs-2024, claim TL:SVN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 8.34338034336379,
+   "display": "8.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-highTechExports-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-highTechExports-2024, claim TL:SVN:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 20134.5,
+   "display": "20,135 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-landArea-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-landArea-2023, claim TL:SVN:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 61.1748938389332,
+   "display": "61.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-forestPct-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-forestPct-2023, claim TL:SVN:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 30.355856862599,
+   "display": "30.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-agriPct-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-agriPct-2023, claim TL:SVN:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 6.26652251574692,
+   "display": "6.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-co2PerCapita-2024, claim TL:SVN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 23.4,
+   "display": "23.4%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-renewablePct-2021",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-renewablePct-2021, claim TL:SVN:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.189323915465621,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-resourceRents-2021",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-resourceRents-2021, claim TL:SVN:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.0000290014634526052,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-oilRents-2021",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-oilRents-2021, claim TL:SVN:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-mineralRents-2021",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-mineralRents-2021, claim TL:SVN:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.161994846724178,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-forestRents-2021",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-forestRents-2021, claim TL:SVN:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-electricityAccess-2023, claim TL:SVN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.31001116486788,
+   "display": "1.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-milExpPctGdp-2024, claim TL:SVN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 951904999.881012,
+   "display": "$952 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-milExpUsd-2024, claim TL:SVN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SVN:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 7000,
+   "display": "7,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SVN#claim-armedForces-2020",
+   "citation": "Terralore, \"Slovenia — national dossier\", terralore.co/country/SVN#claim-armedForces-2020, claim TL:SVN:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

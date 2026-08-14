@@ -71,6 +71,8 @@ Figures:
 
 - Heydar Aliyev (1923–2003) — President of Azerbaijan (1993–2003); Soviet-era party leader. A former KGB officer who led Soviet Azerbaijan from 1969, Aliyev returned to power in 1993 and stabilised the independent state, building it on Caspian oil revenues before handing the presidency to his son.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:AZE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/AZE/chronicle.claims.json
+
 ## References
 
 - [unesco-gobustan] Gobustan Rock Art Cultural Landscape — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1076/

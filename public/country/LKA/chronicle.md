@@ -79,6 +79,8 @@ Figures:
 
 - S. W. R. D. Bandaranaike (1899–1959) — Prime minister of Ceylon. Founder of the Sri Lanka Freedom Party, he came to power in 1956 on a wave of Sinhalese nationalism, making Sinhalese the sole official language and elevating Buddhism in public life before his assassination by a Buddhist monk in 1959.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LKA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LKA/chronicle.claims.json
+
 ## References
 
 - [britannica-history-srilanka] History of Sri Lanka — Encyclopædia Britannica · https://www.britannica.com/topic/history-of-Sri-Lanka

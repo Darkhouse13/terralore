@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:COL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/COL.claims.json
+
 History: "From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace." — the sourced chronicle is at https://terralore.co/country/COL/chronicle.md (6 eras, 26 events).
 
 ## Sources

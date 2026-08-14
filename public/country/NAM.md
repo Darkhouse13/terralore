@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:NAM:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/NAM.claims.json
+
 History: "From the San and Khoekhoe of the Namib and the rock art of Twyfelfontein, through the German colonial genocide of the Herero and Nama, decades of South African rule and apartheid, and the long liberation struggle, to independence under Sam Nujoma on 21 March 1990." — the sourced chronicle is at https://terralore.co/country/NAM/chronicle.md (6 eras, 27 events).
 
 ## Sources

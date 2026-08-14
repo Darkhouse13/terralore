@@ -9,6 +9,7 @@ import { meanwhileElsewhere, periodFor, themeSlug } from "@/lib/chronology";
 import { metricLinkFor } from "@/lib/annotations";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
+import { assignEventKeys, type EventKey } from "@/lib/claim-id";
 
 /**
  * The Chronicle — the reading depth.
@@ -95,6 +96,9 @@ export default async function ChroniclePage({
 
   const sourceIndex = new Map(history.sources.map((s, i) => [s.id, i + 1]));
   const eventCount = history.eras.reduce((n, e) => n + e.events.length, 0);
+  // Claim anchors: every event's stable fragment (living-record §1.3), the
+  // same assignment lib/claims.ts publishes in the chronicle claims bundle.
+  const eventKeys = assignEventKeys(history.eras);
   const allFigures = collectFigures(history);
 
   const neighbours = meta.borders
@@ -151,6 +155,7 @@ export default async function ChroniclePage({
                 sources={history.sources}
                 sourceIndex={sourceIndex}
                 code={code}
+                eventKeys={eventKeys[i]}
               />
             ))}
           </article>
@@ -302,22 +307,28 @@ function EraSection({
   sources,
   sourceIndex,
   code,
+  eventKeys,
 }: {
   era: Era;
   n: number;
   sources: Source[];
   sourceIndex: Map<string, number>;
   code: string;
+  eventKeys: EventKey[];
 }) {
   const body = era.body ?? [];
-  const events = [...era.events].sort((a, b) => a.year - b.year);
+  // Keys are assigned in authored order (identity), display sorts by year —
+  // pair before sorting so each event keeps its own anchor.
+  const events = era.events
+    .map((ev, i) => ({ ev, anchor: eventKeys[i]?.fragment }))
+    .sort((a, b) => a.ev.year - b.ev.year);
 
   // The era's dominant category — the pigment its stratum band is laid down in,
   // exactly as the journey's timeline rail computes it. Same corpus, same rule,
   // so a reader who has seen the rail recognises the band here.
   const dominant = (() => {
     const counts = new Map<string, number>();
-    for (const ev of events) counts.set(ev.category, (counts.get(ev.category) ?? 0) + 1);
+    for (const { ev } of events) counts.set(ev.category, (counts.get(ev.category) ?? 0) + 1);
     let tint = "var(--color-copper)";
     let best = 0;
     for (const [cat, c] of counts) {
@@ -387,8 +398,14 @@ function EraSection({
         <div className="mt-9">
           <h3 className="eyebrow text-umber">Turning points</h3>
           <ol className="mt-4 space-y-6">
-            {events.map((ev, i) => (
-              <EventItem key={`${ev.year}-${i}`} event={ev} sourceIndex={sourceIndex} code={code} />
+            {events.map(({ ev, anchor }, i) => (
+              <EventItem
+                key={`${ev.year}-${i}`}
+                event={ev}
+                anchor={anchor}
+                sourceIndex={sourceIndex}
+                code={code}
+              />
             ))}
           </ol>
         </div>
@@ -497,10 +514,13 @@ function MeanwhileElsewhere({
 
 function EventItem({
   event,
+  anchor,
   sourceIndex,
   code,
 }: {
   event: TimelineEvent;
+  /** The event's claim fragment (living-record §1.3) — its stable anchor. */
+  anchor?: string;
   sourceIndex: Map<string, number>;
   code: string;
 }) {
@@ -511,7 +531,10 @@ function EventItem({
   // that speaks to it, and inventing a link would be worse than offering none.
   const dataLink = metricLinkFor(code, event.category);
   return (
-    <li className="grid grid-cols-[4.6rem_1fr] gap-x-4 sm:grid-cols-[6rem_1fr] sm:gap-x-6">
+    <li
+      id={anchor}
+      className="grid scroll-mt-6 grid-cols-[4.6rem_1fr] gap-x-4 sm:grid-cols-[6rem_1fr] sm:gap-x-6"
+    >
       <div className="pt-[3px]">
         <span className="block font-mono text-[13px] font-medium tabular-nums text-oxide">
           {event.yearLabel ?? formatYear(event.year)}

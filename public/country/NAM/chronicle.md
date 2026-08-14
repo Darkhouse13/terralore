@@ -93,6 +93,8 @@ Figures:
 
 - Sam Nujoma (1929–2025) — First President of Namibia. Founding president of independent Namibia, he led the country from 1990 to 2005, championing national reconciliation while remaining the dominant figure of its liberation and its early statehood.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NAM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NAM/chronicle.claims.json
+
 ## References
 
 - [britannica-namibia] Namibia (country, history and government) — Encyclopaedia Britannica · https://www.britannica.com/place/Namibia

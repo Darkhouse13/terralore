@@ -1,0 +1,475 @@
+{
+ "subject": "JAM",
+ "name": "Jamaica",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/JAM/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:JAM:event:600:taino-settlement-of-xaymaca",
+   "year": 600,
+   "yearLabel": "c. 600 CE",
+   "title": "Taino settlement of Xaymaca",
+   "summary": "Arawak-speaking peoples settle the island they call Xaymaca, building villages led by caciques and farming cassava and corn.",
+   "category": "migration",
+   "era": "taino-xaymaca",
+   "sources": [
+    {
+     "id": "loc-columbus-taino",
+     "label": "Columbus and the Taino",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    },
+    {
+     "id": "britannica-jamaica-history",
+     "label": "Jamaica: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/History"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-600-taino-settlement-of-xaymaca",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-600-taino-settlement-of-xaymaca, claim TL:JAM:event:600:taino-settlement-of-xaymaca, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1494:columbus-reaches-jamaica",
+   "year": 1494,
+   "yearLabel": "5 May 1494",
+   "title": "Columbus reaches Jamaica",
+   "summary": "On his second voyage Christopher Columbus arrives off the north coast, claiming the island for Spain and naming a harbour Santa Gloria.",
+   "category": "colonization",
+   "era": "taino-xaymaca",
+   "sources": [
+    {
+     "id": "britannica-jamaica-history",
+     "label": "Jamaica: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/History"
+    },
+    {
+     "id": "loc-columbus-taino",
+     "label": "Columbus and the Taino",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1494-columbus-reaches-jamaica",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1494-columbus-reaches-jamaica, claim TL:JAM:event:1494:columbus-reaches-jamaica, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1509:sevilla-la-nueva-founded",
+   "year": 1509,
+   "yearLabel": "1509 CE",
+   "title": "Sevilla la Nueva founded",
+   "summary": "Spain establishes its first permanent settlement on the north coast, beginning a colonial era that all but exterminates the Taino.",
+   "category": "colonization",
+   "era": "spanish-english-conquest",
+   "sources": [
+    {
+     "id": "britannica-jamaica-history",
+     "label": "Jamaica: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/History"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1509-sevilla-la-nueva-founded",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1509-sevilla-la-nueva-founded, claim TL:JAM:event:1509:sevilla-la-nueva-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1655:english-conquest",
+   "year": 1655,
+   "yearLabel": "1655 CE",
+   "title": "English conquest",
+   "summary": "An English force under Penn and Venables seizes the island for Cromwell, launching the sugar-and-slavery plantation economy.",
+   "category": "war",
+   "era": "spanish-english-conquest",
+   "sources": [
+    {
+     "id": "britannica-jamaica-history",
+     "label": "Jamaica: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/History"
+    },
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1655-english-conquest",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1655-english-conquest, claim TL:JAM:event:1655:english-conquest, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1692:port-royal-earthquake",
+   "year": 1692,
+   "yearLabel": "7 June 1692",
+   "title": "Port Royal earthquake",
+   "summary": "A powerful earthquake and tsunami sink much of the buccaneer city of Port Royal, killing thousands and ending its golden age.",
+   "category": "disaster",
+   "era": "spanish-english-conquest",
+   "sources": [
+    {
+     "id": "britannica-jamaica-history",
+     "label": "Jamaica: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/History"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1692-port-royal-earthquake",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1692-port-royal-earthquake, claim TL:JAM:event:1692:port-royal-earthquake, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1739:maroon-treaties",
+   "year": 1739,
+   "yearLabel": "1739-1740",
+   "title": "Maroon treaties",
+   "summary": "Treaties with Cudjoe's Leeward Maroons and Nanny's Windward Maroons end the First Maroon War, granting them land and autonomy.",
+   "category": "politics",
+   "era": "slavery-resistance",
+   "sources": [
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    },
+    {
+     "id": "nlj-maroons",
+     "label": "The Jamaican Maroons",
+     "publisher": "National Library of Jamaica",
+     "url": "https://www.nlj.gov.jm/history-notes/The%20Maroons%20edited%20final.htm"
+    },
+    {
+     "id": "unesco-blue-mountains",
+     "label": "Blue and John Crow Mountains",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1356/"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1739-maroon-treaties",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1739-maroon-treaties, claim TL:JAM:event:1739:maroon-treaties, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1760:tacky-s-revolt",
+   "year": 1760,
+   "yearLabel": "1760 CE",
+   "title": "Tacky's Revolt",
+   "summary": "A major slave rebellion led by the Akan leader Tacky sweeps the island before being crushed with the aid of the Maroons.",
+   "category": "war",
+   "era": "slavery-resistance",
+   "sources": [
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1760-tacky-s-revolt",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1760-tacky-s-revolt, claim TL:JAM:event:1760:tacky-s-revolt, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1831:the-baptist-war",
+   "year": 1831,
+   "yearLabel": "Dec 1831 - 1832",
+   "title": "The Baptist War",
+   "summary": "Samuel Sharpe leads a Christmas rebellion of tens of thousands; its suppression hastens the end of slavery in the empire.",
+   "category": "war",
+   "era": "slavery-resistance",
+   "sources": [
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1831-the-baptist-war",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1831-the-baptist-war, claim TL:JAM:event:1831:the-baptist-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1838:emancipation",
+   "year": 1838,
+   "yearLabel": "1 Aug 1838",
+   "title": "Emancipation",
+   "summary": "After the Abolition Act of 1833 and a period of apprenticeship, the enslaved people of Jamaica gain full freedom.",
+   "category": "politics",
+   "era": "slavery-resistance",
+   "sources": [
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    },
+    {
+     "id": "britannica-jamaica-history",
+     "label": "Jamaica: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/History"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1838-emancipation",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1838-emancipation, claim TL:JAM:event:1838:emancipation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1865:morant-bay-rebellion",
+   "year": 1865,
+   "yearLabel": "Oct 1865",
+   "title": "Morant Bay rebellion",
+   "summary": "Paul Bogle's uprising is brutally crushed; Bogle and George William Gordon are executed, and Jamaica becomes a crown colony.",
+   "category": "politics",
+   "era": "crown-colony-garvey",
+   "sources": [
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1865-morant-bay-rebellion",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1865-morant-bay-rebellion, claim TL:JAM:event:1865:morant-bay-rebellion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1914:garvey-founds-the-unia",
+   "year": 1914,
+   "yearLabel": "1914 CE",
+   "title": "Garvey founds the UNIA",
+   "summary": "Marcus Garvey establishes the Universal Negro Improvement Association, building the largest Pan-African movement of its age.",
+   "category": "politics",
+   "era": "crown-colony-garvey",
+   "sources": [
+    {
+     "id": "britannica-garvey",
+     "label": "Marcus Garvey",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Marcus-Garvey"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1914-garvey-founds-the-unia",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1914-garvey-founds-the-unia, claim TL:JAM:event:1914:garvey-founds-the-unia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1930:birth-of-rastafari",
+   "year": 1930,
+   "yearLabel": "1930s",
+   "title": "Birth of Rastafari",
+   "summary": "The Rastafari movement emerges in Jamaica after the crowning of Haile Selassie I, drawing on Garvey's vision of African redemption.",
+   "category": "religion",
+   "era": "crown-colony-garvey",
+   "sources": [
+    {
+     "id": "britannica-rastafari",
+     "label": "Rastafari",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Rastafari"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1930-birth-of-rastafari",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1930-birth-of-rastafari, claim TL:JAM:event:1930:birth-of-rastafari, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1938:labour-rebellions",
+   "year": 1938,
+   "yearLabel": "1938 CE",
+   "title": "Labour rebellions",
+   "summary": "Island-wide worker uprisings give rise to Bustamante's union and Manley's PNP, founding modern Jamaican party politics.",
+   "category": "politics",
+   "era": "crown-colony-garvey",
+   "sources": [
+    {
+     "id": "britannica-jamaica-british-rule",
+     "label": "Jamaica: British rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/British-rule"
+    },
+    {
+     "id": "britannica-jamaica-independent",
+     "label": "Jamaica: The independent country",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1938-labour-rebellions",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1938-labour-rebellions, claim TL:JAM:event:1938:labour-rebellions, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1944:universal-adult-suffrage",
+   "year": 1944,
+   "yearLabel": "1944 CE",
+   "title": "Universal adult suffrage",
+   "summary": "A new constitution grants every adult the vote, the first in the British Caribbean, and Jamaica holds its first elections under it.",
+   "category": "politics",
+   "era": "self-rule-independence",
+   "sources": [
+    {
+     "id": "britannica-jamaica-independent",
+     "label": "Jamaica: The independent country",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1944-universal-adult-suffrage",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1944-universal-adult-suffrage, claim TL:JAM:event:1944:universal-adult-suffrage, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1958:west-indies-federation",
+   "year": 1958,
+   "yearLabel": "1958 CE",
+   "title": "West Indies Federation",
+   "summary": "Jamaica joins the federation of British Caribbean colonies as its largest member, an experiment in regional union.",
+   "category": "politics",
+   "era": "self-rule-independence",
+   "sources": [
+    {
+     "id": "britannica-jamaica-independent",
+     "label": "Jamaica: The independent country",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+    },
+    {
+     "id": "unesco-federation-archives",
+     "label": "The Federal Archives Fonds, 1958-1962 (West Indies Federation)",
+     "publisher": "UNESCO Memory of the World",
+     "url": "https://www.unesco.org/en/memory-world/lac/federal-archives-fonds-1958-1962"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1958-west-indies-federation",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1958-west-indies-federation, claim TL:JAM:event:1958:west-indies-federation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1961:referendum-to-leave-the-federation",
+   "year": 1961,
+   "yearLabel": "19 Sept 1961",
+   "title": "Referendum to leave the federation",
+   "summary": "Jamaicans vote to withdraw from the West Indies Federation, dooming it and opening the way to separate independence.",
+   "category": "politics",
+   "era": "self-rule-independence",
+   "sources": [
+    {
+     "id": "unesco-federation-archives",
+     "label": "The Federal Archives Fonds, 1958-1962 (West Indies Federation)",
+     "publisher": "UNESCO Memory of the World",
+     "url": "https://www.unesco.org/en/memory-world/lac/federal-archives-fonds-1958-1962"
+    },
+    {
+     "id": "britannica-jamaica-independent",
+     "label": "Jamaica: The independent country",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1961-referendum-to-leave-the-federation",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1961-referendum-to-leave-the-federation, claim TL:JAM:event:1961:referendum-to-leave-the-federation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1962:independence",
+   "year": 1962,
+   "yearLabel": "6 Aug 1962",
+   "title": "Independence",
+   "summary": "Jamaica becomes an independent nation within the Commonwealth, with Alexander Bustamante as its first prime minister.",
+   "category": "independence",
+   "era": "self-rule-independence",
+   "sources": [
+    {
+     "id": "britannica-jamaica-independent",
+     "label": "Jamaica: The independent country",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+    },
+    {
+     "id": "jis-independence",
+     "label": "Independence",
+     "publisher": "Jamaica Information Service",
+     "url": "https://jis.gov.jm/information/independence/"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1962-independence",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1962-independence, claim TL:JAM:event:1962:independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1962:two-party-democracy",
+   "year": 1962,
+   "yearLabel": "1962 CE",
+   "title": "Two-party democracy",
+   "summary": "Independent Jamaica settles into a competitive democracy contested by the JLP and the PNP, with peaceful alternations of power.",
+   "category": "politics",
+   "era": "modern-jamaica",
+   "sources": [
+    {
+     "id": "britannica-jamaica-independent",
+     "label": "Jamaica: The independent country",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1962-two-party-democracy",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1962-two-party-democracy, claim TL:JAM:event:1962:two-party-democracy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:1973:reggae-goes-global",
+   "year": 1973,
+   "yearLabel": "early 1970s",
+   "title": "Reggae goes global",
+   "summary": "Bob Marley and the Wailers bring reggae and the Rastafari message to a worldwide audience, making Jamaica a cultural superpower.",
+   "category": "culture",
+   "era": "modern-jamaica",
+   "sources": [
+    {
+     "id": "britannica-reggae",
+     "label": "Reggae",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/art/reggae"
+    },
+    {
+     "id": "britannica-bob-marley",
+     "label": "Bob Marley",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Bob-Marley"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-1973-reggae-goes-global",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-1973-reggae-goes-global, claim TL:JAM:event:1973:reggae-goes-global, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:2008:bolt-s-sprinting-dynasty",
+   "year": 2008,
+   "yearLabel": "2008-2016",
+   "title": "Bolt's sprinting dynasty",
+   "summary": "Usain Bolt wins the 100m and 200m at three straight Olympics, cementing Jamaica's dominance of world sprinting.",
+   "category": "culture",
+   "era": "modern-jamaica",
+   "sources": [
+    {
+     "id": "britannica-bolt",
+     "label": "Usain Bolt",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Usain-Bolt"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-2008-bolt-s-sprinting-dynasty",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-2008-bolt-s-sprinting-dynasty, claim TL:JAM:event:2008:bolt-s-sprinting-dynasty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:event:2015:world-heritage-inscription",
+   "year": 2015,
+   "yearLabel": "2015 CE",
+   "title": "World Heritage inscription",
+   "summary": "The Blue and John Crow Mountains, refuge of the Maroons, become Jamaica's first UNESCO World Heritage Site.",
+   "category": "culture",
+   "era": "modern-jamaica",
+   "sources": [
+    {
+     "id": "unesco-blue-mountains",
+     "label": "Blue and John Crow Mountains",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1356/"
+    }
+   ],
+   "url": "https://terralore.co/country/JAM/chronicle#ev-2015-world-heritage-inscription",
+   "citation": "Terralore, \"The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.\", terralore.co/country/JAM/chronicle#ev-2015-world-heritage-inscription, claim TL:JAM:event:2015:world-heritage-inscription, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

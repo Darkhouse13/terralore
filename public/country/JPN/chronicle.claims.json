@@ -1,0 +1,606 @@
+{
+ "subject": "JPN",
+ "name": "Japan",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/JPN/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:JPN:event:300:rise-of-the-yamato-state",
+   "year": 300,
+   "yearLabel": "c. 3rd-4th century CE",
+   "title": "Rise of the Yamato state",
+   "summary": "Clan leaders on the Yamato plain consolidate power, build monumental kofun tombs, and establish the imperial lineage claiming descent from the sun goddess Amaterasu.",
+   "category": "founding",
+   "era": "yamato-asuka",
+   "sources": [
+    {
+     "id": "jimmu",
+     "label": "Jimmu",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Jimmu"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-300-rise-of-the-yamato-state",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-300-rise-of-the-yamato-state, claim TL:JPN:event:300:rise-of-the-yamato-state, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:538:introduction-of-buddhism",
+   "year": 538,
+   "yearLabel": "c. 538-552 CE",
+   "title": "Introduction of Buddhism",
+   "summary": "Buddhism reaches Japan from the Korean kingdom of Baekje, traditionally dated to 552; it is championed by the Soga clan over conservative opposition.",
+   "category": "religion",
+   "era": "yamato-asuka",
+   "sources": [
+    {
+     "id": "asuka-period",
+     "label": "Asuka period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Asuka-period"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-538-introduction-of-buddhism",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-538-introduction-of-buddhism, claim TL:JPN:event:538:introduction-of-buddhism, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:604:prince-shotoku-s-seventeen-article-constitution",
+   "year": 604,
+   "yearLabel": "604 CE",
+   "title": "Prince Shotoku's Seventeen-Article Constitution",
+   "summary": "As regent, Prince Shotoku promulgates a set of Confucian and Buddhist moral precepts for government and intensifies the adoption of Chinese institutions.",
+   "category": "politics",
+   "era": "yamato-asuka",
+   "sources": [
+    {
+     "id": "shotoku",
+     "label": "Shotoku, Taishi",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Shotoku-Taishi"
+    },
+    {
+     "id": "asuka-period",
+     "label": "Asuka period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Asuka-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-604-prince-shotoku-s-seventeen-article-constitution",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-604-prince-shotoku-s-seventeen-article-constitution, claim TL:JPN:event:604:prince-shotoku-s-seventeen-article-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:645:the-taika-reform",
+   "year": 645,
+   "yearLabel": "645 CE",
+   "title": "The Taika Reform",
+   "summary": "A court coup destroys Soga dominance and inaugurates reforms reorganizing land and administration along centralized Chinese lines, the basis of the ritsuryo state.",
+   "category": "politics",
+   "era": "yamato-asuka",
+   "sources": [
+    {
+     "id": "asuka-period",
+     "label": "Asuka period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Asuka-period"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-645-the-taika-reform",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-645-the-taika-reform, claim TL:JPN:event:645:the-taika-reform, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:710:capital-established-at-nara",
+   "year": 710,
+   "yearLabel": "710 CE",
+   "title": "Capital established at Nara",
+   "summary": "The court founds Japan's first permanent capital, Heijo-kyo (Nara), modeled on the Tang Chinese capital, beginning the Nara period.",
+   "category": "politics",
+   "era": "nara-heian",
+   "sources": [
+    {
+     "id": "nara-period",
+     "label": "Nara period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Nara-period"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-710-capital-established-at-nara",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-710-capital-established-at-nara, claim TL:JPN:event:710:capital-established-at-nara, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:794:capital-moved-to-heian-kyo-kyoto",
+   "year": 794,
+   "yearLabel": "794 CE",
+   "title": "Capital moved to Heian-kyo (Kyoto)",
+   "summary": "Emperor Kanmu relocates the capital to Heian-kyo, the site of Kyoto, opening the Heian period and a long era of aristocratic court culture.",
+   "category": "politics",
+   "era": "nara-heian",
+   "sources": [
+    {
+     "id": "heian-period",
+     "label": "Heian period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Heian-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-794-capital-moved-to-heian-kyo-kyoto",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-794-capital-moved-to-heian-kyo-kyoto, claim TL:JPN:event:794:capital-moved-to-heian-kyo-kyoto, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1010:the-tale-of-genji",
+   "year": 1010,
+   "yearLabel": "c. 1010 CE",
+   "title": "The Tale of Genji",
+   "summary": "The court lady Murasaki Shikibu completes The Tale of Genji, widely regarded as the world's first full-length novel and the summit of Heian literature.",
+   "category": "culture",
+   "era": "nara-heian",
+   "sources": [
+    {
+     "id": "tale-of-genji",
+     "label": "The Tale of Genji",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/The-Tale-of-Genji"
+    },
+    {
+     "id": "murasaki",
+     "label": "Murasaki Shikibu",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Murasaki-Shikibu"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1010-the-tale-of-genji",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1010-the-tale-of-genji, claim TL:JPN:event:1010:the-tale-of-genji, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1180:genpei-war",
+   "year": 1180,
+   "yearLabel": "1180-1185 CE",
+   "title": "Genpei War",
+   "summary": "Civil war between the Taira and Minamoto warrior clans ends with Minamoto victory at Dan-no-ura in 1185, shattering court supremacy and ushering in warrior rule.",
+   "category": "war",
+   "era": "nara-heian",
+   "sources": [
+    {
+     "id": "minamoto-yoritomo",
+     "label": "Minamoto Yoritomo",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Minamoto-Yoritomo"
+    },
+    {
+     "id": "kamakura-period",
+     "label": "Kamakura period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Kamakura-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1180-genpei-war",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1180-genpei-war, claim TL:JPN:event:1180:genpei-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1192:minamoto-yoritomo-becomes-shogun",
+   "year": 1192,
+   "yearLabel": "1192 CE",
+   "title": "Minamoto Yoritomo becomes shogun",
+   "summary": "Yoritomo is appointed shogun, formalizing the Kamakura shogunate and a system of warrior government that would last, in varying forms, until 1868.",
+   "category": "politics",
+   "era": "kamakura-muromachi",
+   "sources": [
+    {
+     "id": "minamoto-yoritomo",
+     "label": "Minamoto Yoritomo",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Minamoto-Yoritomo"
+    },
+    {
+     "id": "kamakura-period",
+     "label": "Kamakura period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Kamakura-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1192-minamoto-yoritomo-becomes-shogun",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1192-minamoto-yoritomo-becomes-shogun, claim TL:JPN:event:1192:minamoto-yoritomo-becomes-shogun, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1274:mongol-invasions-repelled",
+   "year": 1274,
+   "yearLabel": "1274 and 1281 CE",
+   "title": "Mongol invasions repelled",
+   "summary": "Kublai Khan's Yuan forces twice attempt to invade Japan; both fleets are wrecked by typhoons later mythologized as the kamikaze, or divine winds.",
+   "category": "war",
+   "era": "kamakura-muromachi",
+   "sources": [
+    {
+     "id": "kamakura-period",
+     "label": "Kamakura period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Kamakura-period"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1274-mongol-invasions-repelled",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1274-mongol-invasions-repelled, claim TL:JPN:event:1274:mongol-invasions-repelled, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1338:ashikaga-takauji-founds-the-muromachi-shogunate",
+   "year": 1338,
+   "yearLabel": "1338 CE",
+   "title": "Ashikaga Takauji founds the Muromachi shogunate",
+   "summary": "Takauji establishes the second shogunate, ruling from Kyoto's Muromachi district and presiding over a brilliant if unstable cultural era.",
+   "category": "politics",
+   "era": "kamakura-muromachi",
+   "sources": [
+    {
+     "id": "muromachi-period",
+     "label": "Muromachi period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Muromachi-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1338-ashikaga-takauji-founds-the-muromachi-shogunate",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1338-ashikaga-takauji-founds-the-muromachi-shogunate, claim TL:JPN:event:1338:ashikaga-takauji-founds-the-muromachi-shogunate, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1467:onin-war",
+   "year": 1467,
+   "yearLabel": "1467-1477 CE",
+   "title": "Onin War",
+   "summary": "A succession dispute ignites a decade of warfare that devastates Kyoto, cripples shogunal authority, and tips Japan into the fragmented Sengoku era.",
+   "category": "war",
+   "era": "kamakura-muromachi",
+   "sources": [
+    {
+     "id": "muromachi-period",
+     "label": "Muromachi period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Muromachi-period"
+    },
+    {
+     "id": "sengoku-period",
+     "label": "Sengoku period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Sengoku-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1467-onin-war",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1467-onin-war, claim TL:JPN:event:1467:onin-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1543:arrival-of-europeans-and-firearms",
+   "year": 1543,
+   "yearLabel": "c. 1543 CE",
+   "title": "Arrival of Europeans and firearms",
+   "summary": "Portuguese traders reach Japan, introducing firearms and, soon after, Christianity, adding new pressures to the Sengoku wars.",
+   "category": "migration",
+   "era": "sengoku-edo",
+   "sources": [
+    {
+     "id": "sengoku-period",
+     "label": "Sengoku period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Sengoku-period"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1543-arrival-of-europeans-and-firearms",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1543-arrival-of-europeans-and-firearms, claim TL:JPN:event:1543:arrival-of-europeans-and-firearms, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1590:hideyoshi-completes-unification",
+   "year": 1590,
+   "yearLabel": "1590 CE",
+   "title": "Hideyoshi completes unification",
+   "summary": "Toyotomi Hideyoshi brings the last domains under central control, finishing the reunification of Japan begun by Oda Nobunaga.",
+   "category": "war",
+   "era": "sengoku-edo",
+   "sources": [
+    {
+     "id": "toyotomi-hideyoshi",
+     "label": "Toyotomi Hideyoshi",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Toyotomi-Hideyoshi"
+    },
+    {
+     "id": "azuchi-momoyama-period",
+     "label": "Azuchi-Momoyama period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Azuchi-Momoyama-period"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1590-hideyoshi-completes-unification",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1590-hideyoshi-completes-unification, claim TL:JPN:event:1590:hideyoshi-completes-unification, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1600:battle-of-sekigahara",
+   "year": 1600,
+   "yearLabel": "1600 CE",
+   "title": "Battle of Sekigahara",
+   "summary": "Tokugawa Ieyasu defeats a rival coalition in the decisive battle that makes him master of Japan and clears the path to the shogunate.",
+   "category": "war",
+   "era": "sengoku-edo",
+   "sources": [
+    {
+     "id": "battle-of-sekigahara",
+     "label": "Battle of Sekigahara",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Sekigahara"
+    },
+    {
+     "id": "tokugawa-ieyasu",
+     "label": "Tokugawa Ieyasu",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Tokugawa-Ieyasu"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1600-battle-of-sekigahara",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1600-battle-of-sekigahara, claim TL:JPN:event:1600:battle-of-sekigahara, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1603:tokugawa-shogunate-founded",
+   "year": 1603,
+   "yearLabel": "1603 CE",
+   "title": "Tokugawa shogunate founded",
+   "summary": "Ieyasu is appointed shogun and establishes his government at Edo, beginning the Tokugawa (Edo) period of long internal peace.",
+   "category": "politics",
+   "era": "sengoku-edo",
+   "sources": [
+    {
+     "id": "tokugawa-ieyasu",
+     "label": "Tokugawa Ieyasu",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Tokugawa-Ieyasu"
+    },
+    {
+     "id": "sakoku",
+     "label": "Sakoku",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/sakoku"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1603-tokugawa-shogunate-founded",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1603-tokugawa-shogunate-founded, claim TL:JPN:event:1603:tokugawa-shogunate-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1639:sakoku-national-seclusion",
+   "year": 1639,
+   "yearLabel": "c. 1633-1639 CE",
+   "title": "Sakoku: national seclusion",
+   "summary": "A series of edicts seals Japan from most foreign contact, banning Christianity and overseas travel and restricting trade to Nagasaki for over two centuries.",
+   "category": "politics",
+   "era": "sengoku-edo",
+   "sources": [
+    {
+     "id": "sakoku",
+     "label": "Sakoku",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/sakoku"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1639-sakoku-national-seclusion",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1639-sakoku-national-seclusion, claim TL:JPN:event:1639:sakoku-national-seclusion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1868:meiji-restoration",
+   "year": 1868,
+   "yearLabel": "1868 CE",
+   "title": "Meiji Restoration",
+   "summary": "A coup ends the Tokugawa shogunate and restores direct imperial rule under Emperor Meiji, launching rapid modernization and Westernization.",
+   "category": "politics",
+   "era": "meiji-empire",
+   "sources": [
+    {
+     "id": "meiji-restoration",
+     "label": "Meiji Restoration",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Meiji-Restoration"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1868-meiji-restoration",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1868-meiji-restoration, claim TL:JPN:event:1868:meiji-restoration, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1889:meiji-constitution-promulgated",
+   "year": 1889,
+   "yearLabel": "1889 CE",
+   "title": "Meiji Constitution promulgated",
+   "summary": "Japan adopts a Western-influenced constitution establishing a constitutional monarchy with an imperial parliament, the Diet.",
+   "category": "politics",
+   "era": "meiji-empire",
+   "sources": [
+    {
+     "id": "meiji-restoration",
+     "label": "Meiji Restoration",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Meiji-Restoration"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1889-meiji-constitution-promulgated",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1889-meiji-constitution-promulgated, claim TL:JPN:event:1889:meiji-constitution-promulgated, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1904:russo-japanese-war",
+   "year": 1904,
+   "yearLabel": "1904-1905 CE",
+   "title": "Russo-Japanese War",
+   "summary": "Japan's victory over Russia marks the first modern defeat of a European power by an Asian state and confirms Japan as a major power.",
+   "category": "war",
+   "era": "meiji-empire",
+   "sources": [
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1904-russo-japanese-war",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1904-russo-japanese-war, claim TL:JPN:event:1904:russo-japanese-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1941:attack-on-pearl-harbor",
+   "year": 1941,
+   "yearLabel": "1941 CE",
+   "title": "Attack on Pearl Harbor",
+   "summary": "Japan attacks the U.S. fleet at Pearl Harbor, bringing the United States into World War II and opening the Pacific War.",
+   "category": "war",
+   "era": "meiji-empire",
+   "sources": [
+    {
+     "id": "pacific-war",
+     "label": "Pacific War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Pacific-War"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1941-attack-on-pearl-harbor",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1941-attack-on-pearl-harbor, claim TL:JPN:event:1941:attack-on-pearl-harbor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1945:atomic-bombings-and-surrender",
+   "year": 1945,
+   "yearLabel": "1945 CE",
+   "title": "Atomic bombings and surrender",
+   "summary": "The United States drops atomic bombs on Hiroshima and Nagasaki on August 6 and 9; Japan announces surrender, formalized on September 2, ending World War II.",
+   "category": "war",
+   "era": "meiji-empire",
+   "sources": [
+    {
+     "id": "atomic-bombings",
+     "label": "Atomic bombings of Hiroshima and Nagasaki",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/atomic-bombings-of-Hiroshima-and-Nagasaki"
+    },
+    {
+     "id": "pacific-war",
+     "label": "Pacific War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Pacific-War"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1945-atomic-bombings-and-surrender",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1945-atomic-bombings-and-surrender, claim TL:JPN:event:1945:atomic-bombings-and-surrender, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1947:pacifist-constitution-takes-effect",
+   "year": 1947,
+   "yearLabel": "1947 CE",
+   "title": "Pacifist constitution takes effect",
+   "summary": "Japan's postwar constitution establishes democracy and popular sovereignty, makes the emperor a symbol of the state, and renounces war under Article 9.",
+   "category": "politics",
+   "era": "postwar-modern",
+   "sources": [
+    {
+     "id": "state-occupation",
+     "label": "Occupation and Reconstruction of Japan, 1945-52",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/japan-reconstruction"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1947-pacifist-constitution-takes-effect",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1947-pacifist-constitution-takes-effect, claim TL:JPN:event:1947:pacifist-constitution-takes-effect, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1952:treaty-of-san-francisco-and-end-of-occupation",
+   "year": 1952,
+   "yearLabel": "1951-1952 CE",
+   "title": "Treaty of San Francisco and end of occupation",
+   "summary": "Signed in 1951 and effective in 1952, the peace treaty restores Japanese sovereignty and ends the Allied occupation.",
+   "category": "independence",
+   "era": "postwar-modern",
+   "sources": [
+    {
+     "id": "state-occupation",
+     "label": "Occupation and Reconstruction of Japan, 1945-52",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/japan-reconstruction"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1952-treaty-of-san-francisco-and-end-of-occupation",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1952-treaty-of-san-francisco-and-end-of-occupation, claim TL:JPN:event:1952:treaty-of-san-francisco-and-end-of-occupation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:1964:postwar-economic-miracle",
+   "year": 1964,
+   "yearLabel": "1964 CE",
+   "title": "Postwar economic miracle",
+   "summary": "Hosting the Tokyo Olympics symbolizes Japan's recovery as it becomes an industrial powerhouse during decades of rapid, sustained growth.",
+   "category": "economy",
+   "era": "postwar-modern",
+   "sources": [
+    {
+     "id": "state-occupation",
+     "label": "Occupation and Reconstruction of Japan, 1945-52",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/japan-reconstruction"
+    },
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-1964-postwar-economic-miracle",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-1964-postwar-economic-miracle, claim TL:JPN:event:1964:postwar-economic-miracle, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JPN:event:2011:tohoku-earthquake-and-fukushima-disaster",
+   "year": 2011,
+   "yearLabel": "2011 CE",
+   "title": "Tohoku earthquake and Fukushima disaster",
+   "summary": "A magnitude-9.0 earthquake and tsunami devastate northeastern Japan and trigger meltdowns at the Fukushima Daiichi nuclear plant.",
+   "category": "disaster",
+   "era": "postwar-modern",
+   "sources": [
+    {
+     "id": "japan-place",
+     "label": "Japan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Japan"
+    }
+   ],
+   "url": "https://terralore.co/country/JPN/chronicle#ev-2011-tohoku-earthquake-and-fukushima-disaster",
+   "citation": "Terralore, \"The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.\", terralore.co/country/JPN/chronicle#ev-2011-tohoku-earthquake-and-fukushima-disaster, claim TL:JPN:event:2011:tohoku-earthquake-and-fukushima-disaster, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

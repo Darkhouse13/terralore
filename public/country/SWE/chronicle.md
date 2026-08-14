@@ -99,6 +99,8 @@ Figures:
 - Per Albin Hansson (1885 – 1946) — Prime Minister and architect of the welfare state. Social Democratic prime minister for most of 1932–1946, Hansson gave Sweden the idea of the folkhemmet, the 'people's home', and steered the country through the Second World War as a neutral, laying the foundations of its welfare model.
 - Dag Hammarskjöld (1905 – 1961) — Diplomat and UN Secretary-General. A Swedish economist and statesman, Hammarskjöld served as the second Secretary-General of the United Nations from 1953 until his death in 1961, embodying Sweden's postwar identity as a neutral champion of international order.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SWE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SWE/chronicle.claims.json
+
 ## References
 
 - [sweden-history-britannica] Sweden: History — Encyclopaedia Britannica · https://www.britannica.com/place/Sweden

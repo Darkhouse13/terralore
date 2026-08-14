@@ -1,0 +1,707 @@
+{
+ "subject": "MDG",
+ "name": "Madagascar",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/MDG/chronicle",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MDG:event:500:austronesian-settlement-of-madagascar",
+   "year": 500,
+   "yearLabel": "c. 5th–7th century CE",
+   "title": "Austronesian settlement of Madagascar",
+   "summary": "Seafarers from the Borneo region cross the Indian Ocean and become the island's first lasting inhabitants.",
+   "category": "migration",
+   "era": "settlement",
+   "sources": [
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    },
+    {
+     "id": "wiki-history",
+     "label": "History of Madagascar",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Madagascar"
+    },
+    {
+     "id": "wiki-malagasy-people",
+     "label": "Malagasy peoples",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Malagasy_peoples"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-500-austronesian-settlement-of-madagascar",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-500-austronesian-settlement-of-madagascar, claim TL:MDG:event:500:austronesian-settlement-of-madagascar, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:700:bantu-african-arrivals",
+   "year": 700,
+   "yearLabel": "1st millennium CE",
+   "title": "Bantu African arrivals",
+   "summary": "Migrants from the East African mainland mix with Austronesian settlers, forming the Malagasy people and language.",
+   "category": "migration",
+   "era": "settlement",
+   "sources": [
+    {
+     "id": "wiki-malagasy-people",
+     "label": "Malagasy peoples",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Malagasy_peoples"
+    },
+    {
+     "id": "wiki-history",
+     "label": "History of Madagascar",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-700-bantu-african-arrivals",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-700-bantu-african-arrivals, claim TL:MDG:event:700:bantu-african-arrivals, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1000:swahili-and-arab-trade-contacts",
+   "year": 1000,
+   "yearLabel": "c. 10th–12th century",
+   "title": "Swahili and Arab trade contacts",
+   "summary": "Muslim Swahili traders (the Antalaotra) settle the northwest coast, linking Madagascar to Indian Ocean commerce.",
+   "category": "economy",
+   "era": "settlement",
+   "sources": [
+    {
+     "id": "wiki-antalaotra",
+     "label": "Antalaotra",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Antalaotra"
+    },
+    {
+     "id": "unesco-silkroad",
+     "label": "Madagascar on the Maritime Silk Roads",
+     "publisher": "UNESCO Silk Roads Programme",
+     "url": "https://en.unesco.org/silkroad/content/did-you-know-madagascar-maritime-silk-roads"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1000-swahili-and-arab-trade-contacts",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1000-swahili-and-arab-trade-contacts, claim TL:MDG:event:1000:swahili-and-arab-trade-contacts, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1050:bantu-and-tamil-arrivals-deepen-the-mix",
+   "year": 1050,
+   "yearLabel": "c. 11th century",
+   "title": "Bantu and Tamil arrivals deepen the mix",
+   "summary": "Bantu-speaking migrants from southeast Africa arrive in numbers alongside Tamil merchants from southern India, drawing the island's population from three continents.",
+   "category": "migration",
+   "era": "settlement",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1050-bantu-and-tamil-arrivals-deepen-the-mix",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1050-bantu-and-tamil-arrivals-deepen-the-mix, claim TL:MDG:event:1050:bantu-and-tamil-arrivals-deepen-the-mix, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1610:rise-of-the-sakalava-kingdom",
+   "year": 1610,
+   "yearLabel": "early–mid 17th century",
+   "title": "Rise of the Sakalava kingdom",
+   "summary": "The Maroseraña dynasty builds the island's largest realm on the west coast, later dividing into Menabe and Boina.",
+   "category": "founding",
+   "era": "coastal-kingdoms",
+   "sources": [
+    {
+     "id": "lumen-kingdoms",
+     "label": "The Kingdoms of Madagascar",
+     "publisher": "Lumen Learning / SUNY World Civilization",
+     "url": "https://courses.lumenlearning.com/suny-hccc-worldcivilization/chapter/the-kingdoms-of-madagascar/"
+    },
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1610-rise-of-the-sakalava-kingdom",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1610-rise-of-the-sakalava-kingdom, claim TL:MDG:event:1610:rise-of-the-sakalava-kingdom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1685:ile-sainte-marie-pirate-haven",
+   "year": 1685,
+   "yearLabel": "late 17th century",
+   "title": "Île Sainte-Marie pirate haven",
+   "summary": "The northeastern island becomes a major base on the pirate 'Round'; legend later names it the site of Libertalia.",
+   "category": "economy",
+   "era": "coastal-kingdoms",
+   "sources": [
+    {
+     "id": "goldenage-saintemarie",
+     "label": "Ile Sainte-Marie, Madagascar",
+     "publisher": "Golden Age of Piracy",
+     "url": "https://goldenageofpiracy.org/locations/madagascar/ile-sainte-marie"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1685-ile-sainte-marie-pirate-haven",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1685-ile-sainte-marie-pirate-haven, claim TL:MDG:event:1685:ile-sainte-marie-pirate-haven, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1712:ratsimilaho-unites-the-betsimisaraka",
+   "year": 1712,
+   "yearLabel": "c. 1712",
+   "title": "Ratsimilaho unites the Betsimisaraka",
+   "summary": "Ratsimilaho forges the eastern peoples into the Betsimisaraka confederation, becoming a dominant king by 1730.",
+   "category": "founding",
+   "era": "coastal-kingdoms",
+   "sources": [
+    {
+     "id": "lumen-kingdoms",
+     "label": "The Kingdoms of Madagascar",
+     "publisher": "Lumen Learning / SUNY World Civilization",
+     "url": "https://courses.lumenlearning.com/suny-hccc-worldcivilization/chapter/the-kingdoms-of-madagascar/"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1712-ratsimilaho-unites-the-betsimisaraka",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1712-ratsimilaho-unites-the-betsimisaraka, claim TL:MDG:event:1712:ratsimilaho-unites-the-betsimisaraka, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1550:portuguese-and-french-trading-posts",
+   "year": 1550,
+   "yearLabel": "16th–17th centuries",
+   "title": "Portuguese and French trading posts",
+   "summary": "European powers establish coastal posts but never hold ground inland; the island's kingdoms keep the terms of trade.",
+   "category": "economy",
+   "era": "coastal-kingdoms",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1550-portuguese-and-french-trading-posts",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1550-portuguese-and-french-trading-posts, claim TL:MDG:event:1550:portuguese-and-french-trading-posts, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1787:andrianampoinimerina-unifies-imerina",
+   "year": 1787,
+   "yearLabel": "1787–1810",
+   "title": "Andrianampoinimerina unifies Imerina",
+   "summary": "From Ambohimanga and Antananarivo, the king ends civil war and begins the conquest of much of the island.",
+   "category": "founding",
+   "era": "merina-monarchy",
+   "sources": [
+    {
+     "id": "wiki-andrianampoinimerina",
+     "label": "Andrianampoinimerina",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Andrianampoinimerina"
+    },
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1787-andrianampoinimerina-unifies-imerina",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1787-andrianampoinimerina-unifies-imerina, claim TL:MDG:event:1787:andrianampoinimerina-unifies-imerina, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1817:radama-i-britain-and-the-missionaries",
+   "year": 1817,
+   "yearLabel": "1810s–1820s",
+   "title": "Radama I, Britain and the missionaries",
+   "summary": "Radama I is recognised King of Madagascar by Britain and admits the London Missionary Society, bringing literacy and Christianity.",
+   "category": "religion",
+   "era": "merina-monarchy",
+   "sources": [
+    {
+     "id": "wiki-radama",
+     "label": "Radama I",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Radama_I"
+    },
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    },
+    {
+     "id": "unesco-ambohimanga",
+     "label": "Royal Hill of Ambohimanga (World Heritage List)",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/950/"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1817-radama-i-britain-and-the-missionaries",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1817-radama-i-britain-and-the-missionaries, claim TL:MDG:event:1817:radama-i-britain-and-the-missionaries, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1818:the-london-missionary-society-arrives",
+   "year": 1818,
+   "yearLabel": "1818 onwards",
+   "title": "The London Missionary Society arrives",
+   "summary": "LMS missionaries open schools, render Malagasy in the Latin alphabet and translate the Bible — literacy arrives with a creed attached.",
+   "category": "culture",
+   "era": "merina-monarchy",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1818-the-london-missionary-society-arrives",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1818-the-london-missionary-society-arrives, claim TL:MDG:event:1818:the-london-missionary-society-arrives, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1835:ranavalona-i-bans-christianity",
+   "year": 1835,
+   "yearLabel": "1835",
+   "title": "Ranavalona I bans Christianity",
+   "summary": "Fearing foreign influence, the queen proscribes Christian practice; persecution and executions follow over decades.",
+   "category": "religion",
+   "era": "merina-monarchy",
+   "sources": [
+    {
+     "id": "wiki-ranavalona1",
+     "label": "Ranavalona I",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ranavalona_I"
+    },
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1835-ranavalona-i-bans-christianity",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1835-ranavalona-i-bans-christianity, claim TL:MDG:event:1835:ranavalona-i-bans-christianity, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1881:treaty-of-peace-friendship-and-commerce-with",
+   "year": 1881,
+   "yearLabel": "1881",
+   "title": "Treaty of peace, friendship and commerce with the United States",
+   "summary": "Following a commercial convention in 1867, Washington concludes a full treaty with the Kingdom of Madagascar — a sovereign state in the diplomatic record fifteen years before annexation.",
+   "category": "politics",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "statedept-madagascar",
+     "label": "A Guide to the United States' History of Recognition: Madagascar",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1881-treaty-of-peace-friendship-and-commerce-with",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1881-treaty-of-peace-friendship-and-commerce-with, claim TL:MDG:event:1881:treaty-of-peace-friendship-and-commerce-with, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1883:first-franco-hova-war",
+   "year": 1883,
+   "yearLabel": "1883–1885",
+   "title": "First Franco-Hova War",
+   "summary": "France invades and takes Antsiranana (Diego Suarez), the deep northern harbour it had wanted for a generation.",
+   "category": "war",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1883-first-franco-hova-war",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1883-first-franco-hova-war, claim TL:MDG:event:1883:first-franco-hova-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1890:britain-accepts-a-french-protectorate",
+   "year": 1890,
+   "yearLabel": "1890",
+   "title": "Britain accepts a French protectorate",
+   "summary": "London concedes the imposition of a protectorate over the island; the government in Antananarivo, never consulted, refuses to accept it.",
+   "category": "colonization",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    },
+    {
+     "id": "statedept-madagascar",
+     "label": "A Guide to the United States' History of Recognition: Madagascar",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1890-britain-accepts-a-french-protectorate",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1890-britain-accepts-a-french-protectorate, claim TL:MDG:event:1890:britain-accepts-a-french-protectorate, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1895:french-capture-antananarivo",
+   "year": 1895,
+   "yearLabel": "1895",
+   "title": "French capture Antananarivo",
+   "summary": "Franco-Hova war ends with the fall of the capital; Madagascar is forced into a French protectorate.",
+   "category": "colonization",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    },
+    {
+     "id": "wiki-ranavalona3",
+     "label": "Ranavalona III",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ranavalona_III"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1895-french-capture-antananarivo",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1895-french-capture-antananarivo, claim TL:MDG:event:1895:french-capture-antananarivo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1897:monarchy-abolished-ranavalona-iii-exiled",
+   "year": 1897,
+   "yearLabel": "1897",
+   "title": "Monarchy abolished, Ranavalona III exiled",
+   "summary": "France ends the Merina monarchy and exiles the last queen, ultimately to Algiers, where she dies in 1917.",
+   "category": "colonization",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "wiki-ranavalona3",
+     "label": "Ranavalona III",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ranavalona_III"
+    },
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1897-monarchy-abolished-ranavalona-iii-exiled",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1897-monarchy-abolished-ranavalona-iii-exiled, claim TL:MDG:event:1897:monarchy-abolished-ranavalona-iii-exiled, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1896:the-pacification-campaign",
+   "year": 1896,
+   "yearLabel": "1896–1911",
+   "title": "The 'pacification' campaign",
+   "summary": "The formal declaration of a colony opens fifteen years of French military operations against a resistance that never conceded the point.",
+   "category": "war",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1896-the-pacification-campaign",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1896-the-pacification-campaign, claim TL:MDG:event:1896:the-pacification-campaign, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1942:the-battle-of-madagascar",
+   "year": 1942,
+   "yearLabel": "1942",
+   "title": "The Battle of Madagascar",
+   "summary": "British forces invade the Vichy-administered island to deny its harbours to the Japanese navy; the colonial administration's prestige does not recover.",
+   "category": "war",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1942-the-battle-of-madagascar",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1942-the-battle-of-madagascar, claim TL:MDG:event:1942:the-battle-of-madagascar, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1946:madagascar-becomes-a-french-overseas-territory",
+   "year": 1946,
+   "yearLabel": "1946",
+   "title": "Madagascar becomes a French overseas territory",
+   "summary": "Reorganisation gives Malagasy deputies representation in Paris; its failure to deliver independence sends nationalists to arms the following year.",
+   "category": "politics",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1946-madagascar-becomes-a-french-overseas-territory",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1946-madagascar-becomes-a-french-overseas-territory, claim TL:MDG:event:1946:madagascar-becomes-a-french-overseas-territory, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1947:the-malagasy-uprising",
+   "year": 1947,
+   "yearLabel": "1947–1948",
+   "title": "The Malagasy Uprising",
+   "summary": "A nationalist insurrection from March 1947 is suppressed with great loss of life; estimates range up to roughly 90,000 dead.",
+   "category": "war",
+   "era": "conquest-colony",
+   "sources": [
+    {
+     "id": "wiki-uprising",
+     "label": "Malagasy Uprising",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Malagasy_Uprising"
+    },
+    {
+     "id": "globalvoices-uprising",
+     "label": "In Madagascar, People Remember One of the Deadliest French Colonial Wars in History",
+     "publisher": "Global Voices",
+     "url": "https://globalvoices.org/2017/04/09/in-madagascar-people-remember-one-of-the-deadliest-french-colonial-wars-in-history/"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1947-the-malagasy-uprising",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1947-the-malagasy-uprising, claim TL:MDG:event:1947:the-malagasy-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1960:independence-from-france",
+   "year": 1960,
+   "yearLabel": "26 June 1960",
+   "title": "Independence from France",
+   "summary": "Madagascar becomes a sovereign republic; Philibert Tsiranana is its first president.",
+   "category": "independence",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    },
+    {
+     "id": "aaregistry-independence",
+     "label": "Madagascar Gains Independence From France",
+     "publisher": "African American Registry",
+     "url": "https://aaregistry.org/story/madagascar-gains-independence-from-france/"
+    },
+    {
+     "id": "statedept-madagascar",
+     "label": "A Guide to the United States' History of Recognition: Madagascar",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1960-independence-from-france",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1960-independence-from-france, claim TL:MDG:event:1960:independence-from-france, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1972:the-rotaka-topples-tsiranana",
+   "year": 1972,
+   "yearLabel": "1972",
+   "title": "The rotaka topples Tsiranana",
+   "summary": "Economic stagnation triggers mass protests; the first president hands power to a military council, ending the First Republic.",
+   "category": "politics",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1972-the-rotaka-topples-tsiranana",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1972-the-rotaka-topples-tsiranana, claim TL:MDG:event:1972:the-rotaka-topples-tsiranana, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1975:ratsiraka-and-the-socialist-republic",
+   "year": 1975,
+   "yearLabel": "1975",
+   "title": "Ratsiraka and the socialist republic",
+   "summary": "Didier Ratsiraka takes power, founds the Democratic Republic and nationalises the economy under the 'Red Book'.",
+   "category": "politics",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "conversation-ratsiraka",
+     "label": "Didier Ratsiraka: the legacy of Madagascar's 'Red Admiral'",
+     "publisher": "The Conversation",
+     "url": "https://theconversation.com/didier-ratsiraka-the-legacy-of-madagascars-red-admiral-143017"
+    },
+    {
+     "id": "eb-madagascar",
+     "label": "Madagascar",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Madagascar"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1975-ratsiraka-and-the-socialist-republic",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1975-ratsiraka-and-the-socialist-republic, claim TL:MDG:event:1975:ratsiraka-and-the-socialist-republic, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:2002:ravalomanana-and-the-2002-crisis",
+   "year": 2002,
+   "yearLabel": "2002",
+   "title": "Ravalomanana and the 2002 crisis",
+   "summary": "A disputed election triggers months of confrontation; Marc Ravalomanana takes power and Ratsiraka flees.",
+   "category": "politics",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "eb-ravalomanana",
+     "label": "Marc Ravalomanana",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Marc-Ravalomanana"
+    },
+    {
+     "id": "reliefweb-timeline",
+     "label": "Madagascar Timeline: Madagascar's turbulent political history",
+     "publisher": "ReliefWeb / IRIN",
+     "url": "https://reliefweb.int/report/madagascar/madagascar-timeline-madagascars-turbulent-political-history"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-2002-ravalomanana-and-the-2002-crisis",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-2002-ravalomanana-and-the-2002-crisis, claim TL:MDG:event:2002:ravalomanana-and-the-2002-crisis, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:2009:the-2009-coup",
+   "year": 2009,
+   "yearLabel": "2009",
+   "title": "The 2009 coup",
+   "summary": "Andry Rajoelina ousts Ravalomanana with military backing, in a transfer widely condemned as unconstitutional.",
+   "category": "politics",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "reliefweb-timeline",
+     "label": "Madagascar Timeline: Madagascar's turbulent political history",
+     "publisher": "ReliefWeb / IRIN",
+     "url": "https://reliefweb.int/report/madagascar/madagascar-timeline-madagascars-turbulent-political-history"
+    },
+    {
+     "id": "eb-ravalomanana",
+     "label": "Marc Ravalomanana",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Marc-Ravalomanana"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-2009-the-2009-coup",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-2009-the-2009-coup, claim TL:MDG:event:2009:the-2009-coup, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:1992:the-third-republic-constitution",
+   "year": 1992,
+   "yearLabel": "1992",
+   "title": "The Third Republic constitution",
+   "summary": "Democratic reforms end the socialist republic and usher in a new constitution and multiparty politics.",
+   "category": "politics",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-1992-the-third-republic-constitution",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-1992-the-third-republic-constitution, claim TL:MDG:event:1992:the-third-republic-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:2007:rainforests-of-the-atsinanana-inscribed",
+   "year": 2007,
+   "yearLabel": "2007",
+   "title": "Rainforests of the Atsinanana inscribed",
+   "summary": "Six eastern national parks — home to species found nowhere else after 60 million years of isolation — join the World Heritage List.",
+   "category": "culture",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "unesco-atsinanana",
+     "label": "Rainforests of the Atsinanana (World Heritage List)",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1257/"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-2007-rainforests-of-the-atsinanana-inscribed",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-2007-rainforests-of-the-atsinanana-inscribed, claim TL:MDG:event:2007:rainforests-of-the-atsinanana-inscribed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:2010:the-rainforests-are-listed-in-danger",
+   "year": 2010,
+   "yearLabel": "2010",
+   "title": "The rainforests are listed in Danger",
+   "summary": "Three years after inscription, illegal logging and lemur hunting put the Atsinanana on the List of World Heritage in Danger.",
+   "category": "disaster",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "unesco-atsinanana",
+     "label": "Rainforests of the Atsinanana (World Heritage List)",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1257/"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-2010-the-rainforests-are-listed-in-danger",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-2010-the-rainforests-are-listed-in-danger, claim TL:MDG:event:2010:the-rainforests-are-listed-in-danger, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:2021:drought-and-famine-in-the-grand-sud",
+   "year": 2021,
+   "yearLabel": "2021",
+   "title": "Drought and famine in the Grand Sud",
+   "summary": "The worst drought in four decades leaves over 1.14 million people food insecure and some 14,000 in IPC Phase 5 — catastrophe — in the island's far south.",
+   "category": "disaster",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "un-madagascar-drought",
+     "label": "Madagascar's hungry 'holding on for dear life', WFP chief warns",
+     "publisher": "UN News",
+     "url": "https://news.un.org/en/story/2021/06/1094632"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-2021-drought-and-famine-in-the-grand-sud",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-2021-drought-and-famine-in-the-grand-sud, claim TL:MDG:event:2021:drought-and-famine-in-the-grand-sud, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:event:2023:rajoelina-wins-a-third-term",
+   "year": 2023,
+   "yearLabel": "November 2023",
+   "title": "Rajoelina wins a third term",
+   "summary": "An election boycotted by ten rivals, preceded by six weeks of protest, returns Rajoelina on the lowest turnout in the country's history.",
+   "category": "politics",
+   "era": "republics",
+   "sources": [
+    {
+     "id": "bbc-madagascar",
+     "label": "Madagascar country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-africa-13861843"
+    }
+   ],
+   "url": "https://terralore.co/country/MDG/chronicle#ev-2023-rajoelina-wins-a-third-term",
+   "citation": "Terralore, \"The Chronicle of Madagascar: From Austronesian outriggers to the island republics\", terralore.co/country/MDG/chronicle#ev-2023-rajoelina-wins-a-third-term, claim TL:MDG:event:2023:rajoelina-wins-a-third-term, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

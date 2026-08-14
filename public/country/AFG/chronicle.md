@@ -92,6 +92,8 @@ Figures:
 
 - Mullah Mohammad Omar (c. 1960–2013) — Founder and leader of the Taliban. The reclusive founder of the Taliban, recognised in 1996 as 'commander of the faithful'. His refusal to surrender Osama bin Laden after the 11 September attacks precipitated the US-led intervention that toppled his government in 2001.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:AFG:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/AFG/chronicle.claims.json
+
 ## References
 
 - [worldhistory-bactria] Bactria — World History Encyclopedia · https://www.worldhistory.org/Bactria/

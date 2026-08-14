@@ -80,6 +80,8 @@ Figures:
 - Eddie Mabo (1936–1992) — Torres Strait Islander land-rights campaigner. Led the legal challenge that produced the 1992 High Court decision bearing his name, overturning terra nullius and establishing native title in Australian law.
 - Gough Whitlam (1916–2014) — Prime Minister of Australia. His reformist government of the 1970s dismantled the last of the White Australia policy, embraced multiculturalism, and advanced Aboriginal land rights before its dramatic dismissal in 1975.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:AUS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/AUS/chronicle.claims.json
+
 ## References
 
 - [brit-australia] Australia (country) — Encyclopaedia Britannica · https://www.britannica.com/place/Australia

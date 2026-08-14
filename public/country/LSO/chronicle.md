@@ -65,6 +65,8 @@ Coups, a contested monarchy and a great water scheme define independent Lesotho,
 - 1998: **Disputed election and SADC intervention** — A contested election sparks unrest and a South African-led SADC military intervention; much of Maseru is left in ruins. [wiki-history-lesotho]
 - 1998–2002: **Katse and Mohale dams completed** — The Katse Dam (Phase 1A) and then the Mohale Dam are completed, sending Lesotho's mountain water to South Africa's Vaal system in exchange for royalties. [lhwp-conversation, wiki-lesotho, afdb-lhwp]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LSO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LSO/chronicle.claims.json
+
 ## References
 
 - [eb-lesotho] Lesotho: The Sotho kingdom (1824–69) — Encyclopaedia Britannica · https://www.britannica.com/place/Lesotho

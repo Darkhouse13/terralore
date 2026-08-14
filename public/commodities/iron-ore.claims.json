@@ -1,0 +1,1137 @@
+{
+ "subject": "iron-ore",
+ "name": "Iron ore",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/iron-ore",
+ "updated": "2026-08-11",
+ "detail": "Mine production: Usable ore",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodIronOre-total:2024",
+   "value": 2600000000,
+   "display": "2600 Mt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-world",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-world, claim TL:WLD:prodIronOre-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodIronOre-total:2025",
+   "value": 2600000000,
+   "display": "2600 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-world",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-world, claim TL:WLD:prodIronOre-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:AUS:prodIronOre-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.3776923076923077,
+   "display": "38%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodIronOre:2024",
+    "value": 982000000,
+    "display": "982 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-aus, claim TL:AUS:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-aus",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-aus, claim TL:AUS:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodIronOre-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.3769230769230769,
+   "display": "38%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodIronOre:2025",
+    "value": 980000000,
+    "display": "980 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-aus, claim TL:AUS:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-aus",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-aus, claim TL:AUS:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodIronOre-share:2024",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.1646153846153846,
+   "display": "16%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodIronOre:2024",
+    "value": 428000000,
+    "display": "428 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-bra, claim TL:BRA:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-bra",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-bra, claim TL:BRA:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodIronOre-share:2025",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.16153846153846155,
+   "display": "16%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodIronOre:2025",
+    "value": 420000000,
+    "display": "420 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-bra, claim TL:BRA:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-bra",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-bra, claim TL:BRA:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodIronOre-share:2024",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.10846153846153846,
+   "display": "11%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodIronOre:2024",
+    "value": 282000000,
+    "display": "282 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ind, claim TL:IND:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-ind",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ind, claim TL:IND:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodIronOre-share:2025",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.11923076923076924,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodIronOre:2025",
+    "value": 310000000,
+    "display": "310 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ind, claim TL:IND:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-ind",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ind, claim TL:IND:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodIronOre-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.11269230769230769,
+   "display": "11%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodIronOre:2024",
+    "value": 293000000,
+    "display": "293 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chn, claim TL:CHN:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-chn",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chn, claim TL:CHN:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodIronOre-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.11153846153846154,
+   "display": "11%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodIronOre:2025",
+    "value": 290000000,
+    "display": "290 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chn, claim TL:CHN:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-chn",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chn, claim TL:CHN:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRN:prodIronOre-share:2024",
+   "nation": "IRN",
+   "name": "Iran",
+   "value": 0.03461538461538462,
+   "display": "3.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IRN:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IRN:prodIronOre:2024",
+    "value": 90000000,
+    "display": "90 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-irn, claim TL:IRN:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-irn",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-irn, claim TL:IRN:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRN:prodIronOre-share:2025",
+   "nation": "IRN",
+   "name": "Iran",
+   "value": 0.03576923076923077,
+   "display": "3.6%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IRN:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IRN:prodIronOre:2025",
+    "value": 93000000,
+    "display": "93 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-irn, claim TL:IRN:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-irn",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-irn, claim TL:IRN:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodIronOre-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.035,
+   "display": "3.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodIronOre:2024",
+    "value": 91000000,
+    "display": "91 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-rus, claim TL:RUS:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-rus",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-rus, claim TL:RUS:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodIronOre-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.03307692307692308,
+   "display": "3.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodIronOre:2025",
+    "value": 86000000,
+    "display": "86 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-rus, claim TL:RUS:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-rus",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-rus, claim TL:RUS:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodIronOre-share:2024",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.026923076923076925,
+   "display": "2.7%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodIronOre:2024",
+    "value": 70000000,
+    "display": "70 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-can, claim TL:CAN:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-can",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-can, claim TL:CAN:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodIronOre-share:2025",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.02653846153846154,
+   "display": "2.7%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodIronOre:2025",
+    "value": 69000000,
+    "display": "69 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-can, claim TL:CAN:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-can",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-can, claim TL:CAN:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZAF:prodIronOre-share:2024",
+   "nation": "ZAF",
+   "name": "South Africa",
+   "value": 0.024615384615384615,
+   "display": "2.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:ZAF:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:ZAF:prodIronOre:2024",
+    "value": 64000000,
+    "display": "64 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-zaf, claim TL:ZAF:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-zaf",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-zaf, claim TL:ZAF:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZAF:prodIronOre-share:2025",
+   "nation": "ZAF",
+   "name": "South Africa",
+   "value": 0.025384615384615384,
+   "display": "2.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:ZAF:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:ZAF:prodIronOre:2025",
+    "value": 66000000,
+    "display": "66 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-zaf, claim TL:ZAF:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-zaf",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-zaf, claim TL:ZAF:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:UKR:prodIronOre-share:2024",
+   "nation": "UKR",
+   "name": "Ukraine",
+   "value": 0.021038461538461537,
+   "display": "2.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:UKR:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:UKR:prodIronOre:2024",
+    "value": 54700000,
+    "display": "55 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ukr, claim TL:UKR:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-ukr",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ukr, claim TL:UKR:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:UKR:prodIronOre-share:2025",
+   "nation": "UKR",
+   "name": "Ukraine",
+   "value": 0.02,
+   "display": "2.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:UKR:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:UKR:prodIronOre:2025",
+    "value": 52000000,
+    "display": "52 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ukr, claim TL:UKR:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-ukr",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-ukr, claim TL:UKR:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodIronOre-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.017346153846153844,
+   "display": "1.7%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodIronOre:2024",
+    "value": 45100000,
+    "display": "45 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-usa, claim TL:USA:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-usa",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-usa, claim TL:USA:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodIronOre-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.014615384615384615,
+   "display": "1.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodIronOre:2025",
+    "value": 38000000,
+    "display": "38 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-usa, claim TL:USA:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-usa",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-usa, claim TL:USA:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodIronOre-share:2024",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.01423076923076923,
+   "display": "1.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodIronOre:2024",
+    "value": 37000000,
+    "display": "37 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-kaz, claim TL:KAZ:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-kaz",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-kaz, claim TL:KAZ:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodIronOre-share:2025",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.013461538461538462,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodIronOre:2025",
+    "value": 35000000,
+    "display": "35 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-kaz, claim TL:KAZ:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-kaz",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-kaz, claim TL:KAZ:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SWE:prodIronOre-share:2024",
+   "nation": "SWE",
+   "name": "Sweden",
+   "value": 0.009615384615384616,
+   "display": "0.96%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:SWE:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:SWE:prodIronOre:2024",
+    "value": 25000000,
+    "display": "25 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-swe, claim TL:SWE:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-swe",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-swe, claim TL:SWE:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SWE:prodIronOre-share:2025",
+   "nation": "SWE",
+   "name": "Sweden",
+   "value": 0.01,
+   "display": "1.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:SWE:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:SWE:prodIronOre:2025",
+    "value": 26000000,
+    "display": "26 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-swe, claim TL:SWE:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-swe",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-swe, claim TL:SWE:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodIronOre-share:2024",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.007615384615384615,
+   "display": "0.76%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodIronOre:2024",
+    "value": 19800000,
+    "display": "20 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-per, claim TL:PER:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-per",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-per, claim TL:PER:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodIronOre-share:2025",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.008076923076923077,
+   "display": "0.81%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodIronOre:2025",
+    "value": 21000000,
+    "display": "21 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-per, claim TL:PER:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-per",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-per, claim TL:PER:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHL:prodIronOre-share:2024",
+   "nation": "CHL",
+   "name": "Chile",
+   "value": 0.006923076923076923,
+   "display": "0.69%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHL:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHL:prodIronOre:2024",
+    "value": 18000000,
+    "display": "18 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chl, claim TL:CHL:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-chl",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chl, claim TL:CHL:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHL:prodIronOre-share:2025",
+   "nation": "CHL",
+   "name": "Chile",
+   "value": 0.007307692307692308,
+   "display": "0.73%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHL:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHL:prodIronOre:2025",
+    "value": 19000000,
+    "display": "19 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chl, claim TL:CHL:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-chl",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-chl, claim TL:CHL:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodIronOre-share:2024",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.006538461538461538,
+   "display": "0.65%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodIronOre:2024",
+    "value": 17000000,
+    "display": "17 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-tur, claim TL:TUR:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-tur",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-tur, claim TL:TUR:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodIronOre-share:2025",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.006923076923076923,
+   "display": "0.69%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodIronOre:2025",
+    "value": 18000000,
+    "display": "18 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-tur, claim TL:TUR:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-tur",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-tur, claim TL:TUR:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MRT:prodIronOre-share:2024",
+   "nation": "MRT",
+   "name": "Mauritania",
+   "value": 0.0055,
+   "display": "0.55%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MRT:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MRT:prodIronOre:2024",
+    "value": 14300000,
+    "display": "14 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mrt, claim TL:MRT:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-mrt",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mrt, claim TL:MRT:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MRT:prodIronOre-share:2025",
+   "nation": "MRT",
+   "name": "Mauritania",
+   "value": 0.0057692307692307696,
+   "display": "0.58%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MRT:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MRT:prodIronOre:2025",
+    "value": 15000000,
+    "display": "15 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mrt, claim TL:MRT:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-mrt",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mrt, claim TL:MRT:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodIronOre-share:2024",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.003,
+   "display": "0.30%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodIronOre:2024",
+    "worldTotal": "TL:WLD:prodIronOre-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodIronOre:2024",
+    "value": 7800000,
+    "display": "7.8 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mex, claim TL:MEX:prodIronOre:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-mex",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mex, claim TL:MEX:prodIronOre-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodIronOre-share:2025",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.0029615384615384616,
+   "display": "0.30%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodIronOre:2025",
+    "worldTotal": "TL:WLD:prodIronOre-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodIronOre:2025",
+    "value": 7700000,
+    "display": "7.7 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mex, claim TL:MEX:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/iron-ore#claim-mex",
+   "citation": "Terralore, \"Iron ore — who supplies the world\", terralore.co/commodities/iron-ore#claim-mex, claim TL:MEX:prodIronOre-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:ARG:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/ARG.claims.json
+
 History: "From the Diaguita, Guarani and Mapuche worlds of the Rio de la Plata to a Spanish viceroyalty, the independence declared at Tucuman in 1816, an age of mass immigration, the Peron era, and a hard road back to democracy after the dictatorship of 1976-1983." — the sourced chronicle is at https://terralore.co/country/ARG/chronicle.md (6 eras, 29 events).
 
 ## Sources

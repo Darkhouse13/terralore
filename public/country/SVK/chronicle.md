@@ -95,6 +95,8 @@ Figures:
 - Michal Kováč (1930 – 2016) — First President of independent Slovakia. Elected by parliament in 1993 as the first head of state of the new Slovak Republic, Kováč defended the country's fledgling democratic institutions during the politically turbulent early years of independence.
 - Andrej Kiska (born 1963) — President of Slovakia. A philanthropist elected president in 2014, Kiska led Slovakia during a period of full integration into the European Union and the euro area and became a prominent voice for the rule of law.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SVK:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SVK/chronicle.claims.json
+
 ## References
 
 - [slovakia-britannica] Slovakia — Encyclopaedia Britannica · https://www.britannica.com/place/Slovakia

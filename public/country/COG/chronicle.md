@@ -82,6 +82,8 @@ Figures:
 - Pascal Lissouba (1931–2020) — President of the Congo, 1992–1997. Agronomist and politician of UPADS who won the Congo's first multiparty presidential election in 1992; his presidency collapsed in the 1997 civil war, after which he went into exile.
 - Denis Sassou Nguesso (born 1943) — President of the Congo, 1979–1992 and since 1997. Army officer who led the Marxist People's Republic from 1979, lost power at the 1991 national conference, and returned through the 1997 civil war; he has ruled since, among the longest-serving leaders in Africa.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:COG:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/COG/chronicle.claims.json
+
 ## References
 
 - [britannica-rep-congo] Republic of the Congo — Encyclopædia Britannica · https://www.britannica.com/place/Republic-of-the-Congo

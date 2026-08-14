@@ -98,6 +98,8 @@ Figures:
 - Richard Holbrooke (1941 – 2010) — US diplomat and chief negotiator. As US Assistant Secretary of State, Holbrooke led the shuttle diplomacy of 1995 that brought the warring parties to Dayton, brokering the agreement that ended the Bosnian War.
 - Carl Bildt (born 1949) — First High Representative for Bosnia and Herzegovina. The former Swedish prime minister became the first High Representative under Dayton, charged with overseeing the civilian implementation of the peace and the building of the post-war state.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BIH:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BIH/chronicle.claims.json
+
 ## References
 
 - [bih-history-britannica] Bosnia and Herzegovina: History — Encyclopaedia Britannica · https://www.britannica.com/place/Bosnia-and-Herzegovina/History

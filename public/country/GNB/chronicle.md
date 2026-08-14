@@ -71,6 +71,8 @@ Figures:
 - Luís Cabral (1931–2009) — First President of Guinea-Bissau (1974–1980). Half-brother of Amílcar Cabral and a PAIGC leader who became the independent republic's first president in 1974, governing a one-party state until he was overthrown in the 1980 coup led by Nino Vieira.
 - João Bernardo "Nino" Vieira (1939–2009) — President of Guinea-Bissau (1980–1999; 2005–2009). A PAIGC war veteran who seized power in 1980 and dominated politics for decades; ousted in the 1998–1999 civil war, he returned as elected president in 2005 before being assassinated by soldiers in March 2009.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GNB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GNB/chronicle.claims.json
+
 ## References
 
 - [britannica-gnb] Guinea-Bissau (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Guinea-Bissau

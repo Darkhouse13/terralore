@@ -87,6 +87,8 @@ Figures:
 
 - Martin Luther King Jr. (1929–1968) — Civil rights leader. The most prominent leader of the nonviolent civil rights movement, whose campaigns helped secure the Civil Rights and Voting Rights Acts before his assassination in 1968.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:USA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/USA/chronicle.claims.json
+
 ## References
 
 - [nara-declaration] The Declaration of Independence — U.S. National Archives · https://www.archives.gov/founding-docs/declaration

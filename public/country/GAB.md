@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:GAB:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/GAB.claims.json
+
 History: "From the rainforest hunter-gatherers and the Bantu migrations of the Ogooué basin, through the Atlantic and slave trades of the Myènè coast, the founding of Libreville and French Equatorial Africa, to independence in 1960 and the long Bongo era ended by the coup of 2023." — the sourced chronicle is at https://terralore.co/country/GAB/chronicle.md (5 eras, 20 events).
 
 ## Sources

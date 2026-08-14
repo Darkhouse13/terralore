@@ -93,6 +93,8 @@ Figures:
 
 - Benito Mussolini (1883 – 1945) — Fascist dictator of Italy (1922–1943/45). Founder of Italian Fascism who seized power in 1922 and ruled as dictator, abolishing democracy, enacting racial laws and allying with Nazi Germany. He was overthrown in 1943 and executed by partisans in 1945.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ITA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ITA/chronicle.claims.json
+
 ## References
 
 - [britannica-italy] Italy (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Italy

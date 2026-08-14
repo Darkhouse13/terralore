@@ -78,6 +78,8 @@ Figures:
 - Alfredo Stroessner (1912-2006) — Military dictator of Paraguay. Army general who seized power in 1954 and ruled Paraguay for thirty-five years through the Colorado Party and the military, in one of Latin America's longest dictatorships, until his overthrow in 1989.
 - Fernando Lugo (1951-) — President of Paraguay. Former Roman Catholic bishop who won the presidency in 2008, ending more than six decades of Colorado Party rule in the first transfer of power between parties in Paraguay's history; he was removed by a disputed impeachment in 2012.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PRY:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PRY/chronicle.claims.json
+
 ## References
 
 - [britannica-paraguay] Paraguay — Encyclopaedia Britannica · https://www.britannica.com/place/Paraguay

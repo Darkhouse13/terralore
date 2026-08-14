@@ -97,6 +97,8 @@ Figures:
 - Winston Churchill (1874–1965) — Prime Minister of the United Kingdom. Led Britain through the Second World War as a defiant wartime leader; his record also includes the contested wartime policies surrounding the 1943 Bengal famine.
 - Clement Attlee (1883–1967) — Prime Minister of the United Kingdom. Headed the 1945 Labour government that built the welfare state and the National Health Service and oversaw the independence of India.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GBR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GBR/chronicle.claims.json
+
 ## References
 
 - [brit-roman-britain] Roman Britain — Encyclopaedia Britannica · https://www.britannica.com/place/United-Kingdom

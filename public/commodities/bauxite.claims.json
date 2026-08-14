@@ -1,0 +1,881 @@
+{
+ "subject": "bauxite",
+ "name": "Bauxite",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/bauxite",
+ "updated": "2026-08-11",
+ "detail": "Bauxite, mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodBauxite-total:2024",
+   "value": 428000000,
+   "display": "428 Mt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-world",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-world, claim TL:WLD:prodBauxite-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodBauxite-total:2025",
+   "value": 440000000,
+   "display": "440 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-world",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-world, claim TL:WLD:prodBauxite-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:GIN:prodBauxite-share:2024",
+   "nation": "GIN",
+   "name": "Guinea",
+   "value": 0.3317757009345794,
+   "display": "33%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:GIN:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:GIN:prodBauxite:2024",
+    "value": 142000000,
+    "display": "142 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-gin, claim TL:GIN:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-gin",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-gin, claim TL:GIN:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:prodBauxite-share:2025",
+   "nation": "GIN",
+   "name": "Guinea",
+   "value": 0.3409090909090909,
+   "display": "34%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:GIN:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:GIN:prodBauxite:2025",
+    "value": 150000000,
+    "display": "150 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-gin, claim TL:GIN:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-gin",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-gin, claim TL:GIN:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodBauxite-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.2336448598130841,
+   "display": "23%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodBauxite:2024",
+    "value": 100000000,
+    "display": "100 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-aus, claim TL:AUS:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-aus",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-aus, claim TL:AUS:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodBauxite-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.22045454545454546,
+   "display": "22%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodBauxite:2025",
+    "value": 97000000,
+    "display": "97 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-aus, claim TL:AUS:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-aus",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-aus, claim TL:AUS:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodBauxite-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.18808411214953272,
+   "display": "19%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodBauxite:2024",
+    "value": 80500000,
+    "display": "81 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-chn, claim TL:CHN:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-chn",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-chn, claim TL:CHN:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodBauxite-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.19772727272727272,
+   "display": "20%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodBauxite:2025",
+    "value": 87000000,
+    "display": "87 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-chn, claim TL:CHN:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-chn",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-chn, claim TL:CHN:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodBauxite-share:2024",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.07710280373831775,
+   "display": "7.7%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodBauxite:2024",
+    "value": 33000000,
+    "display": "33 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-bra, claim TL:BRA:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-bra",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-bra, claim TL:BRA:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodBauxite-share:2025",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.075,
+   "display": "7.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodBauxite:2025",
+    "value": 33000000,
+    "display": "33 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-bra, claim TL:BRA:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-bra",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-bra, claim TL:BRA:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodBauxite-share:2024",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.05841121495327103,
+   "display": "5.8%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodBauxite:2024",
+    "value": 25000000,
+    "display": "25 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-ind, claim TL:IND:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-ind",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-ind, claim TL:IND:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodBauxite-share:2025",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.056818181818181816,
+   "display": "5.7%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodBauxite:2025",
+    "value": 25000000,
+    "display": "25 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-ind, claim TL:IND:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-ind",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-ind, claim TL:IND:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodBauxite-share:2024",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.023130841121495327,
+   "display": "2.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodBauxite:2024",
+    "value": 9900000,
+    "display": "9.9 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-idn, claim TL:IDN:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-idn",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-idn, claim TL:IDN:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodBauxite-share:2025",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.022727272727272728,
+   "display": "2.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodBauxite:2025",
+    "value": 10000000,
+    "display": "10 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-idn, claim TL:IDN:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-idn",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-idn, claim TL:IDN:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:prodBauxite-share:2024",
+   "nation": "JAM",
+   "name": "Jamaica",
+   "value": 0.013761682242990654,
+   "display": "1.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:JAM:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:JAM:prodBauxite:2024",
+    "value": 5890000,
+    "display": "5.9 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-jam, claim TL:JAM:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-jam",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-jam, claim TL:JAM:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:JAM:prodBauxite-share:2025",
+   "nation": "JAM",
+   "name": "Jamaica",
+   "value": 0.014090909090909091,
+   "display": "1.4%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:JAM:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:JAM:prodBauxite:2025",
+    "value": 6200000,
+    "display": "6.2 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-jam, claim TL:JAM:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-jam",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-jam, claim TL:JAM:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodBauxite-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.012780373831775702,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodBauxite:2024",
+    "value": 5470000,
+    "display": "5.5 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-rus, claim TL:RUS:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-rus",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-rus, claim TL:RUS:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodBauxite-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.012954545454545455,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodBauxite:2025",
+    "value": 5700000,
+    "display": "5.7 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-rus, claim TL:RUS:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-rus",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-rus, claim TL:RUS:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SAU:prodBauxite-share:2024",
+   "nation": "SAU",
+   "name": "Saudi Arabia",
+   "value": 0.012850467289719626,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:SAU:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:SAU:prodBauxite:2024",
+    "value": 5500000,
+    "display": "5.5 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-sau, claim TL:SAU:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-sau",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-sau, claim TL:SAU:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SAU:prodBauxite-share:2025",
+   "nation": "SAU",
+   "name": "Saudi Arabia",
+   "value": 0.012954545454545455,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:SAU:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:SAU:prodBauxite:2025",
+    "value": 5700000,
+    "display": "5.7 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-sau, claim TL:SAU:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-sau",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-sau, claim TL:SAU:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodBauxite-share:2024",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.011168224299065421,
+   "display": "1.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodBauxite:2024",
+    "value": 4780000,
+    "display": "4.8 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-kaz, claim TL:KAZ:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-kaz",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-kaz, claim TL:KAZ:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodBauxite-share:2025",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.01090909090909091,
+   "display": "1.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodBauxite:2025",
+    "value": 4800000,
+    "display": "4.8 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-kaz, claim TL:KAZ:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-kaz",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-kaz, claim TL:KAZ:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodBauxite-share:2024",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.008551401869158879,
+   "display": "0.86%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodBauxite:2024",
+    "value": 3660000,
+    "display": "3.7 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-tur, claim TL:TUR:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-tur",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-tur, claim TL:TUR:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodBauxite-share:2025",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.008636363636363636,
+   "display": "0.86%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodBauxite:2025",
+    "value": 3800000,
+    "display": "3.8 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-tur, claim TL:TUR:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-tur",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-tur, claim TL:TUR:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:prodBauxite-share:2024",
+   "nation": "VNM",
+   "name": "Vietnam",
+   "value": 0.00866822429906542,
+   "display": "0.87%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:VNM:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:VNM:prodBauxite:2024",
+    "value": 3710000,
+    "display": "3.7 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-vnm, claim TL:VNM:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-vnm",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-vnm, claim TL:VNM:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:prodBauxite-share:2025",
+   "nation": "VNM",
+   "name": "Vietnam",
+   "value": 0.008636363636363636,
+   "display": "0.86%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:VNM:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:VNM:prodBauxite:2025",
+    "value": 3800000,
+    "display": "3.8 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-vnm, claim TL:VNM:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-vnm",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-vnm, claim TL:VNM:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GRC:prodBauxite-share:2024",
+   "nation": "GRC",
+   "name": "Greece",
+   "value": 0.0022663551401869157,
+   "display": "0.23%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:GRC:prodBauxite:2024",
+    "worldTotal": "TL:WLD:prodBauxite-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:GRC:prodBauxite:2024",
+    "value": 970000,
+    "display": "970 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-grc, claim TL:GRC:prodBauxite:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-grc",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-grc, claim TL:GRC:prodBauxite-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GRC:prodBauxite-share:2025",
+   "nation": "GRC",
+   "name": "Greece",
+   "value": 0.002181818181818182,
+   "display": "0.22%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:GRC:prodBauxite:2025",
+    "worldTotal": "TL:WLD:prodBauxite-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:GRC:prodBauxite:2025",
+    "value": 960000,
+    "display": "960 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-grc, claim TL:GRC:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/bauxite#claim-grc",
+   "citation": "Terralore, \"Bauxite — who supplies the world\", terralore.co/commodities/bauxite#claim-grc, claim TL:GRC:prodBauxite-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

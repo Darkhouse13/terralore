@@ -98,6 +98,8 @@ Figures:
 - John Hume (1937 – 2020) — Nationalist leader and Nobel laureate. Leader of the SDLP, Hume was a principal architect of the peace process whose insistence on non-violence and dialogue helped produce the Good Friday Agreement, for which he shared the 1998 Nobel Peace Prize with David Trimble.
 - Mary Robinson (born 1944) — President of Ireland. Elected in 1990 as Ireland's first woman president, Robinson came to symbolise a more open, outward-looking republic during the years of European integration and the early peace process, later serving as UN High Commissioner for Human Rights.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:IRL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/IRL/chronicle.claims.json
+
 ## References
 
 - [ebsco-christianity] Ireland Converts to Christianity — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/ireland-converts-christianity

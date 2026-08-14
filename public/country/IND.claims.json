@@ -1,0 +1,1010 @@
+{
+ "subject": "IND",
+ "name": "India",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/IND",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:IND:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 3909891533858.08,
+   "display": "$3.91 T",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-gdp-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdp-2024, claim TL:IND:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 2694.73780859961,
+   "display": "$2,695",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdpPerCapita-2024, claim TL:IND:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 6.49476552383821,
+   "display": "6.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdpGrowth-2024, claim TL:IND:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 4.95303550973656,
+   "display": "5.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-inflation-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-inflation-2024, claim TL:IND:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 44.6492935069676,
+   "display": "44.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-tradePctGdp-2024, claim TL:IND:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 1450935791,
+   "display": "1.45 bn",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-population-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-population-2024, claim TL:IND:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 72.235,
+   "display": "72.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-lifeExpectancy-2024, claim TL:IND:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 35.3788972368389,
+   "display": "35.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-urbanPct-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-urbanPct-2024, claim TL:IND:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.962,
+   "display": "2.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-fertility-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-fertility-2024, claim TL:IND:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 78.1625330351403,
+   "display": "78.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-literacy-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-literacy-2024, claim TL:IND:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 55.4677802,
+   "display": "55.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-wgiVoice-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiVoice-2024, claim TL:IND:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 52.4723123,
+   "display": "52.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-wgiStability-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiStability-2024, claim TL:IND:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 59.2076282,
+   "display": "59.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiEffectiveness-2024, claim TL:IND:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 53.3476378,
+   "display": "53.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiRegQuality-2024, claim TL:IND:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 56.2895569,
+   "display": "56.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiRuleOfLaw-2024, claim TL:IND:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 41.8767696,
+   "display": "41.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiCorruption-2024, claim TL:IND:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.33944035,
+   "display": "3.3%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-healthSpendPctGdp-2023, claim TL:IND:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:physicians:2020",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.723,
+   "display": "0.72",
+   "unit": "per 1,000",
+   "observed": 2020,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-physicians-2020",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-physicians-2020, claim TL:IND:physicians:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 26.6,
+   "display": "26.6",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-underFiveMortality-2024, claim TL:IND:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 97,
+   "display": "97.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-measlesImmunisation-2024, claim TL:IND:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 76.4421942140842,
+   "display": "76.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-safeWater-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-safeWater-2024, claim TL:IND:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 78.1625330351403,
+   "display": "78.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-literacyRate-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-literacyRate-2024, claim TL:IND:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.09865814174589,
+   "display": "4.1%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-eduSpendPctGdp-2022, claim TL:IND:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:primaryEnrolment:2025",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 111.033783181676,
+   "display": "111.0%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-primaryEnrolment-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-primaryEnrolment-2025, claim TL:IND:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:secondaryEnrolment:2025",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 79.594985086469,
+   "display": "79.6%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-secondaryEnrolment-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-secondaryEnrolment-2025, claim TL:IND:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:tertiaryEnrolment:2025",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 34.4465039692543,
+   "display": "34.4%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-tertiaryEnrolment-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-tertiaryEnrolment-2025, claim TL:IND:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:rdSpending:2020",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.64558,
+   "display": "0.6%",
+   "unit": "% of GDP",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-rdSpending-2020",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-rdSpending-2020, claim TL:IND:rdSpending:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:researchers:2020",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 259.26325,
+   "display": "259",
+   "unit": "per million",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-researchers-2020",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-researchers-2020, claim TL:IND:researchers:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:internetUsers:2025",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 70,
+   "display": "70.0%",
+   "unit": "%",
+   "observed": 2025,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-internetUsers-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-internetUsers-2025, claim TL:IND:internetUsers:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 79.3526921826412,
+   "display": "79",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IND#claim-mobileSubs-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-mobileSubs-2024, claim TL:IND:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 18.5723946411049,
+   "display": "18.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-highTechExports-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-highTechExports-2024, claim TL:IND:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 2973190,
+   "display": "2,973,190 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-landArea-2023",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-landArea-2023, claim TL:IND:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 24.5390304689576,
+   "display": "24.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-forestPct-2023",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-forestPct-2023, claim TL:IND:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 60.0604064994165,
+   "display": "60.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-agriPct-2023",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-agriPct-2023, claim TL:IND:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 2.17365173535787,
+   "display": "2.2",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-co2PerCapita-2024, claim TL:IND:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 34.9,
+   "display": "34.9%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-renewablePct-2021",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-renewablePct-2021, claim TL:IND:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 3.15934537555664,
+   "display": "3.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-resourceRents-2021",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-resourceRents-2021, claim TL:IND:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.325610194100608,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-oilRents-2021",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-oilRents-2021, claim TL:IND:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 1.31522382631184,
+   "display": "1.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-mineralRents-2021",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-mineralRents-2021, claim TL:IND:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.160725947336095,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-forestRents-2021",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-forestRents-2021, claim TL:IND:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 99.5,
+   "display": "99.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-electricityAccess-2023",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-electricityAccess-2023, claim TL:IND:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodCopper:2025",
+   "domain": "resources",
+   "metric": "prodCopper",
+   "label": "Copper (mined)",
+   "value": 23000,
+   "display": "23.0 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-prodCopper-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodCopper-2025, claim TL:IND:prodCopper:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodIronOre:2025",
+   "domain": "resources",
+   "metric": "prodIronOre",
+   "label": "Iron ore",
+   "value": 310000000,
+   "display": "310 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-prodIronOre-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodIronOre-2025, claim TL:IND:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodRareEarths:2025",
+   "domain": "resources",
+   "metric": "prodRareEarths",
+   "label": "Rare earths",
+   "value": 2900,
+   "display": "2,900 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-prodRareEarths-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodRareEarths-2025, claim TL:IND:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodBauxite:2025",
+   "domain": "resources",
+   "metric": "prodBauxite",
+   "label": "Bauxite",
+   "value": 25000000,
+   "display": "25 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-prodBauxite-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodBauxite-2025, claim TL:IND:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodZinc:2025",
+   "domain": "resources",
+   "metric": "prodZinc",
+   "label": "Zinc (mined)",
+   "value": 870000,
+   "display": "870 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-prodZinc-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodZinc-2025, claim TL:IND:prodZinc:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodPhosphate:2025",
+   "domain": "resources",
+   "metric": "prodPhosphate",
+   "label": "Phosphate rock",
+   "value": 1500000,
+   "display": "1.5 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IND#claim-prodPhosphate-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodPhosphate-2025, claim TL:IND:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.2712033218142,
+   "display": "2.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-milExpPctGdp-2024, claim TL:IND:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 86125976248.5524,
+   "display": "$86 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-milExpUsd-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-milExpUsd-2024, claim TL:IND:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 3068000,
+   "display": "3.1 m",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IND#claim-armedForces-2020",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-armedForces-2020, claim TL:IND:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

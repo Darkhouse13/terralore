@@ -97,6 +97,8 @@ Figures:
 
 - Nguyen Van Linh (1915-1998) — Reform-era party leader. As general secretary of the Communist Party of Vietnam from 1986, he became the leading political champion of the Doi Moi reforms that opened the country's economy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:VNM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/VNM/chronicle.claims.json
+
 ## References
 
 - [vietnam-place] Vietnam — Encyclopaedia Britannica · https://www.britannica.com/place/Vietnam

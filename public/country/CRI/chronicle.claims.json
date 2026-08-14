@@ -1,0 +1,527 @@
+{
+ "subject": "CRI",
+ "name": "Costa Rica",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/CRI/chronicle",
+ "updated": "2026-08-11",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:CRI:event:500:diquis-chiefdoms-and-the-stone-spheres",
+   "year": 500,
+   "yearLabel": "c. 500-1500 CE",
+   "title": "Diquis chiefdoms and the stone spheres",
+   "summary": "Chiefdom societies in the Diquis delta carve more than 300 near-perfect stone spheres and build settlements of mounds and paved precincts.",
+   "category": "culture",
+   "era": "precolumbian-chiefdoms",
+   "sources": [
+    {
+     "id": "unesco-diquis",
+     "label": "Precolumbian Chiefdom Settlements with Stone Spheres of the Diquis",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1453/"
+    },
+    {
+     "id": "met-sphere",
+     "label": "A Stone Sphere from Costa Rica",
+     "publisher": "The Metropolitan Museum of Art",
+     "url": "https://www.metmuseum.org/perspectives/stone-sphere-costa-rica"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-500-diquis-chiefdoms-and-the-stone-spheres",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-500-diquis-chiefdoms-and-the-stone-spheres, claim TL:CRI:event:500:diquis-chiefdoms-and-the-stone-spheres, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:2014:unesco-world-heritage-inscription",
+   "year": 2014,
+   "yearLabel": "2014 CE",
+   "title": "UNESCO World Heritage inscription",
+   "summary": "The Diquis settlements with their stone spheres become Costa Rica's first cultural World Heritage Site, recognised as unique evidence of pre-Columbian chiefdom societies.",
+   "category": "culture",
+   "era": "precolumbian-chiefdoms",
+   "sources": [
+    {
+     "id": "unesco-diquis",
+     "label": "Precolumbian Chiefdom Settlements with Stone Spheres of the Diquis",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1453/"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-2014-unesco-world-heritage-inscription",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-2014-unesco-world-heritage-inscription, claim TL:CRI:event:2014:unesco-world-heritage-inscription, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1502:columbus-reaches-the-rich-coast",
+   "year": 1502,
+   "yearLabel": "1502 CE",
+   "title": "Columbus reaches the Rich Coast",
+   "summary": "On his fourth voyage Columbus lands on the Caribbean coast; gifts of gold inspire the name Costa Rica, the Rich Coast.",
+   "category": "colonization",
+   "era": "spanish-colony",
+   "sources": [
+    {
+     "id": "britannica-history-cr",
+     "label": "History of Costa Rica",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Costa-Rica"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1502-columbus-reaches-the-rich-coast",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1502-columbus-reaches-the-rich-coast, claim TL:CRI:event:1502:columbus-reaches-the-rich-coast, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1563:founding-of-cartago",
+   "year": 1563,
+   "yearLabel": "1563 CE",
+   "title": "Founding of Cartago",
+   "summary": "The Spanish establish Cartago in the Central Valley as the colonial capital, which it remains until 1823.",
+   "category": "colonization",
+   "era": "spanish-colony",
+   "sources": [
+    {
+     "id": "britannica-history-cr",
+     "label": "History of Costa Rica",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Costa-Rica"
+    },
+    {
+     "id": "britannica-cartago",
+     "label": "Cartago",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cartago"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1563-founding-of-cartago",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1563-founding-of-cartago, claim TL:CRI:event:1563:founding-of-cartago, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1821:independence-from-spain",
+   "year": 1821,
+   "yearLabel": "15 Sept 1821",
+   "title": "Independence from Spain",
+   "summary": "Central America, Costa Rica included, declares independence from Spain; the province soon joins the Mexican Empire and then a regional federation.",
+   "category": "independence",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "britannica-history-cr",
+     "label": "History of Costa Rica",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Costa-Rica"
+    },
+    {
+     "id": "britannica-independence-cr",
+     "label": "Costa Rica: Independence",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Costa-Rica/Independence"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1821-independence-from-spain",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1821-independence-from-spain, claim TL:CRI:event:1821:independence-from-spain, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1808:coffee-arrives-from-cuba",
+   "year": 1808,
+   "yearLabel": "1808 CE",
+   "title": "Coffee arrives from Cuba",
+   "summary": "Thirteen years before independence, coffee is introduced and becomes the principal crop of a province that had never had one — a dominance lasting into the 20th century.",
+   "category": "economy",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "bbc-costarica",
+     "label": "Costa Rica country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19414068"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1808-coffee-arrives-from-cuba",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1808-coffee-arrives-from-cuba, claim TL:CRI:event:1808:coffee-arrives-from-cuba, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1824:juan-mora-fernandez-first-head-of-state",
+   "year": 1824,
+   "yearLabel": "1824 CE",
+   "title": "Juan Mora Fernandez, first head of state",
+   "summary": "Costa Rica's first elected head of state founds schools and courts and promotes coffee planting through free land grants.",
+   "category": "politics",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "encyclopedia-mora",
+     "label": "Mora Fernandez, Juan (1784-1854)",
+     "publisher": "Encyclopedia.com (Dictionary of Latin American History)",
+     "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mora-fernandez-juan-1784-1854"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1824-juan-mora-fernandez-first-head-of-state",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1824-juan-mora-fernandez-first-head-of-state, claim TL:CRI:event:1824:juan-mora-fernandez-first-head-of-state, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1838:withdrawal-from-the-federation",
+   "year": 1838,
+   "yearLabel": "1838 CE",
+   "title": "Withdrawal from the federation",
+   "summary": "Disenchanted with the strife of the United Provinces of Central America, Costa Rica severs its federal ties and charts an independent course.",
+   "category": "politics",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "britannica-history-cr",
+     "label": "History of Costa Rica",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Costa-Rica"
+    },
+    {
+     "id": "britannica-independence-cr",
+     "label": "Costa Rica: Independence",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Costa-Rica/Independence"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1838-withdrawal-from-the-federation",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1838-withdrawal-from-the-federation, claim TL:CRI:event:1838:withdrawal-from-the-federation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1848:costa-rica-declares-itself-sovereign",
+   "year": 1848,
+   "yearLabel": "30 Aug 1848",
+   "title": "Costa Rica declares itself sovereign",
+   "summary": "A decade after leaving the federation, the republic formally declares independence and notifies Washington on 5 September.",
+   "category": "independence",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "statedept-costarica",
+     "label": "A Guide to the United States' History of Recognition: Costa Rica",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/costa-rica"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1848-costa-rica-declares-itself-sovereign",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1848-costa-rica-declares-itself-sovereign, claim TL:CRI:event:1848:costa-rica-declares-itself-sovereign, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1849:us-recognition-on-paper",
+   "year": 1849,
+   "yearLabel": "24 Apr 1849",
+   "title": "US recognition — on paper",
+   "summary": "Washington recognises Costa Rican independence by empowering its charge d'affaires in Guatemala, who never visits the country and reaches no agreement by post.",
+   "category": "politics",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "statedept-costarica",
+     "label": "A Guide to the United States' History of Recognition: Costa Rica",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/costa-rica"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1849-us-recognition-on-paper",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1849-us-recognition-on-paper, claim TL:CRI:event:1849:us-recognition-on-paper, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1851:diplomatic-relations-established",
+   "year": 1851,
+   "yearLabel": "24 Mar 1851",
+   "title": "Diplomatic relations established",
+   "summary": "Costa Rican minister Felipe Molina presents his credentials in Washington; a US consulate opens in San Jose the following year.",
+   "category": "politics",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "statedept-costarica",
+     "label": "A Guide to the United States' History of Recognition: Costa Rica",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/costa-rica"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1851-diplomatic-relations-established",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1851-diplomatic-relations-established, claim TL:CRI:event:1851:diplomatic-relations-established, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1856:national-war-against-william-walker",
+   "year": 1856,
+   "yearLabel": "1856-1857",
+   "title": "National War against William Walker",
+   "summary": "Costa Rica joins Central America in defeating the American filibuster William Walker; the soldier Juan Santamaria becomes a national hero.",
+   "category": "war",
+   "era": "independence-republic",
+   "sources": [
+    {
+     "id": "britannica-walker",
+     "label": "William Walker",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/William-Walker"
+    },
+    {
+     "id": "britannica-santamaria",
+     "label": "Juan Santamaria",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Juan-Santamaria"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1856-national-war-against-william-walker",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1856-national-war-against-william-walker, claim TL:CRI:event:1856:national-war-against-william-walker, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1872:minor-keith-and-the-banana-railways",
+   "year": 1872,
+   "yearLabel": "1872 CE",
+   "title": "Minor Keith and the banana railways",
+   "summary": "Minor C. Keith begins building railways and planting bananas, ventures that in 1899 merge into the United Fruit Company and reshape the Caribbean coast.",
+   "category": "economy",
+   "era": "coffee-bananas-democracy",
+   "sources": [
+    {
+     "id": "britannica-keith",
+     "label": "Minor C. Keith",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Minor-C-Keith"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1872-minor-keith-and-the-banana-railways",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1872-minor-keith-and-the-banana-railways, claim TL:CRI:event:1872:minor-keith-and-the-banana-railways, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1890:first-free-election-in-central-america",
+   "year": 1890,
+   "yearLabel": "1890 CE",
+   "title": "First free election in Central America",
+   "summary": "Costa Rica holds what is regarded as the first free and honest election in Central America, beginning a long democratic tradition.",
+   "category": "politics",
+   "era": "coffee-bananas-democracy",
+   "sources": [
+    {
+     "id": "britannica-history-cr",
+     "label": "History of Costa Rica",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Costa-Rica"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1890-first-free-election-in-central-america",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1890-first-free-election-in-central-america, claim TL:CRI:event:1890:first-free-election-in-central-america, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1948:disputed-election-sparks-civil-war",
+   "year": 1948,
+   "yearLabel": "1948 CE",
+   "title": "Disputed election sparks civil war",
+   "summary": "The annulment of the 1948 election to bar president-elect Otilio Ulate triggers a brief but bloody civil war.",
+   "category": "politics",
+   "era": "coffee-bananas-democracy",
+   "sources": [
+    {
+     "id": "britannica-figueres",
+     "label": "Jose Figueres Ferrer",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-Figueres-Ferrer"
+    },
+    {
+     "id": "britannica-ulate",
+     "label": "Otilio Ulate",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Otilio-Ulate"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1948-disputed-election-sparks-civil-war",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1948-disputed-election-sparks-civil-war, claim TL:CRI:event:1948:disputed-election-sparks-civil-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1948:figueres-leads-the-civil-war",
+   "year": 1948,
+   "yearLabel": "1948 CE",
+   "title": "Figueres leads the civil war",
+   "summary": "Jose Figueres Ferrer leads an armed uprising in support of president-elect Ulate; the two-month war kills about 2,000 people before the government surrenders.",
+   "category": "war",
+   "era": "civil-war-abolition-army",
+   "sources": [
+    {
+     "id": "britannica-figueres",
+     "label": "Jose Figueres Ferrer",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-Figueres-Ferrer"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1948-figueres-leads-the-civil-war",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1948-figueres-leads-the-civil-war, claim TL:CRI:event:1948:figueres-leads-the-civil-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1949:constitution-abolishes-the-army",
+   "year": 1949,
+   "yearLabel": "1949 CE",
+   "title": "Constitution abolishes the army",
+   "summary": "Figueres's junta promulgates a new constitution that bans a standing army, grants women the vote, and nationalises the banks, then hands power to Ulate.",
+   "category": "politics",
+   "era": "civil-war-abolition-army",
+   "sources": [
+    {
+     "id": "britannica-figueres",
+     "label": "Jose Figueres Ferrer",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-Figueres-Ferrer"
+    },
+    {
+     "id": "britannica-ulate",
+     "label": "Otilio Ulate",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Otilio-Ulate"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1949-constitution-abolishes-the-army",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1949-constitution-abolishes-the-army, claim TL:CRI:event:1949:constitution-abolishes-the-army, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1970:national-park-system-created",
+   "year": 1970,
+   "yearLabel": "1970 CE",
+   "title": "National park system created",
+   "summary": "Costa Rica establishes a national park system that grows to protect roughly a quarter of the country, anchoring its conservation and ecotourism economy.",
+   "category": "economy",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "britannica-21st-century",
+     "label": "Costa Rica in the 21st century",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Costa-Rica/Costa-Rica-in-the-21st-century"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1970-national-park-system-created",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1970-national-park-system-created, claim TL:CRI:event:1970:national-park-system-created, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1987:oscar-arias-wins-the-nobel-peace-prize",
+   "year": 1987,
+   "yearLabel": "1987 CE",
+   "title": "Oscar Arias wins the Nobel Peace Prize",
+   "summary": "President Oscar Arias Sanchez is awarded the Nobel Peace Prize for the Central American peace plan signed by the region's leaders in August 1987.",
+   "category": "politics",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "britannica-arias",
+     "label": "Oscar Arias Sanchez",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Oscar-Arias-Sanchez"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1987-oscar-arias-wins-the-nobel-peace-prize",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1987-oscar-arias-wins-the-nobel-peace-prize, claim TL:CRI:event:1987:oscar-arias-wins-the-nobel-peace-prize, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:1985:a-country-without-an-army-raises-a-force",
+   "year": 1985,
+   "yearLabel": "1985 CE",
+   "title": "A country without an army raises a force",
+   "summary": "After clashes with Sandinista troops across the San Juan, a US-trained anti-guerrilla force begins operating — the limits of demilitarisation in a region at war.",
+   "category": "war",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "bbc-costarica",
+     "label": "Costa Rica country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19414068"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-1985-a-country-without-an-army-raises-a-force",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-1985-a-country-without-an-army-raises-a-force, claim TL:CRI:event:1985:a-country-without-an-army-raises-a-force, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:2000:san-juan-navigation-dispute-settled",
+   "year": 2000,
+   "yearLabel": "2000 CE",
+   "title": "San Juan navigation dispute settled",
+   "summary": "Costa Rica and Nicaragua resolve a long-standing quarrel over navigation on the river that forms their border.",
+   "category": "politics",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "bbc-costarica",
+     "label": "Costa Rica country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19414068"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-2000-san-juan-navigation-dispute-settled",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-2000-san-juan-navigation-dispute-settled, claim TL:CRI:event:2000:san-juan-navigation-dispute-settled, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:2007:recognition-switches-from-taipei-to-beijing",
+   "year": 2007,
+   "yearLabel": "2007 CE",
+   "title": "Recognition switches from Taipei to Beijing",
+   "summary": "Costa Rica transfers diplomatic recognition to the People's Republic of China in pursuit of investment.",
+   "category": "politics",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "bbc-costarica",
+     "label": "Costa Rica country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19414068"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-2007-recognition-switches-from-taipei-to-beijing",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-2007-recognition-switches-from-taipei-to-beijing, claim TL:CRI:event:2007:recognition-switches-from-taipei-to-beijing, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:2010:laura-chinchilla-first-woman-president",
+   "year": 2010,
+   "yearLabel": "2010 CE",
+   "title": "Laura Chinchilla, first woman president",
+   "summary": "Costa Rica elects its first female head of state.",
+   "category": "politics",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "bbc-costarica",
+     "label": "Costa Rica country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19414068"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-2010-laura-chinchilla-first-woman-president",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-2010-laura-chinchilla-first-woman-president, claim TL:CRI:event:2010:laura-chinchilla-first-woman-president, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:2014:diquis-spheres-named-world-heritage",
+   "year": 2014,
+   "yearLabel": "2014 CE",
+   "title": "Diquis spheres named World Heritage",
+   "summary": "UNESCO inscribes the Diquis chiefdom settlements and their stone spheres as Costa Rica's first cultural World Heritage Site.",
+   "category": "culture",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "unesco-diquis",
+     "label": "Precolumbian Chiefdom Settlements with Stone Spheres of the Diquis",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1453/"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-2014-diquis-spheres-named-world-heritage",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-2014-diquis-spheres-named-world-heritage, claim TL:CRI:event:2014:diquis-spheres-named-world-heritage, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CRI:event:2015:the-hague-settles-isla-portillos",
+   "year": 2015,
+   "yearLabel": "2015 CE",
+   "title": "The Hague settles Isla Portillos",
+   "summary": "The International Court of Justice rules that sovereignty over the disputed San Juan wetland belongs to Costa Rica — a demilitarised state settling its border in court.",
+   "category": "politics",
+   "era": "modern-costa-rica",
+   "sources": [
+    {
+     "id": "bbc-costarica",
+     "label": "Costa Rica country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19414068"
+    }
+   ],
+   "url": "https://terralore.co/country/CRI/chronicle#ev-2015-the-hague-settles-isla-portillos",
+   "citation": "Terralore, \"The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.\", terralore.co/country/CRI/chronicle#ev-2015-the-hague-settles-isla-portillos, claim TL:CRI:event:2015:the-hague-settles-isla-portillos, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

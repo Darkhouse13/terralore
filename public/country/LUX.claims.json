@@ -1,0 +1,850 @@
+{
+ "subject": "LUX",
+ "name": "Luxembourg",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/LUX",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:LUX:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 93279851863.4062,
+   "display": "$93 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-gdp-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-gdp-2024, claim TL:LUX:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 137781.681659123,
+   "display": "$137,782",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-gdpPerCapita-2024, claim TL:LUX:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 0.35861253942069,
+   "display": "0.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-gdpGrowth-2024, claim TL:LUX:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.05113269954859,
+   "display": "2.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-inflation-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-inflation-2024, claim TL:LUX:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 351.267921153192,
+   "display": "351.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-tradePctGdp-2024, claim TL:LUX:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 677012,
+   "display": "677,000",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-population-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-population-2024, claim TL:LUX:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 83.1951219512195,
+   "display": "83.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-lifeExpectancy-2024, claim TL:LUX:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 94.8438702866393,
+   "display": "94.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-urbanPct-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-urbanPct-2024, claim TL:LUX:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.25,
+   "display": "1.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-fertility-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-fertility-2024, claim TL:LUX:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 85.9966191,
+   "display": "86.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-wgiVoice-2024, claim TL:LUX:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 84.2238592,
+   "display": "84.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-wgiStability-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-wgiStability-2024, claim TL:LUX:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 91.0007125,
+   "display": "91.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-wgiEffectiveness-2024, claim TL:LUX:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 83.8609523,
+   "display": "83.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-wgiRegQuality-2024, claim TL:LUX:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 87.2859802,
+   "display": "87.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-wgiRuleOfLaw-2024, claim TL:LUX:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 88.656893,
+   "display": "88.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-wgiCorruption-2024, claim TL:LUX:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:healthSpendPctGdp:2024",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 5.89136267,
+   "display": "5.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-healthSpendPctGdp-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-healthSpendPctGdp-2024, claim TL:LUX:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:physicians:2017",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 2.984,
+   "display": "2.98",
+   "unit": "per 1,000",
+   "observed": 2017,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-physicians-2017",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-physicians-2017, claim TL:LUX:physicians:2017, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 2.2,
+   "display": "2.2",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-underFiveMortality-2024, claim TL:LUX:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 99,
+   "display": "99.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-measlesImmunisation-2024, claim TL:LUX:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 99.6530550152333,
+   "display": "99.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/LUX#claim-safeWater-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-safeWater-2024, claim TL:LUX:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.74451994895935,
+   "display": "3.7%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-eduSpendPctGdp-2022, claim TL:LUX:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 99.2204437255859,
+   "display": "99.2%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-primaryEnrolment-2024, claim TL:LUX:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 108.577438354492,
+   "display": "108.6%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-secondaryEnrolment-2024, claim TL:LUX:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 22.4103698730469,
+   "display": "22.4%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-tertiaryEnrolment-2024, claim TL:LUX:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 1.07045,
+   "display": "1.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-rdSpending-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-rdSpending-2023, claim TL:LUX:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 5359.06637,
+   "display": "5,359",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-researchers-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-researchers-2023, claim TL:LUX:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:internetUsers:2025",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 99.12902211,
+   "display": "99.1%",
+   "unit": "%",
+   "observed": 2025,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-internetUsers-2025",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-internetUsers-2025, claim TL:LUX:internetUsers:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:mobileSubs:2023",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 144.474949556306,
+   "display": "144",
+   "unit": "per 100",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/LUX#claim-mobileSubs-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-mobileSubs-2023, claim TL:LUX:mobileSubs:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 5.0736120319212,
+   "display": "5.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-highTechExports-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-highTechExports-2024, claim TL:LUX:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 2574.46,
+   "display": "2,574 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-landArea-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-landArea-2023, claim TL:LUX:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 34.4538272103664,
+   "display": "34.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-forestPct-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-forestPct-2023, claim TL:LUX:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 51.6606200912036,
+   "display": "51.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-agriPct-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-agriPct-2023, claim TL:LUX:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 10.5572722492364,
+   "display": "10.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-co2PerCapita-2024, claim TL:LUX:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 20.5,
+   "display": "20.5%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-renewablePct-2021",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-renewablePct-2021, claim TL:LUX:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.00475136757511518,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-resourceRents-2021",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-resourceRents-2021, claim TL:LUX:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-oilRents-2021",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-oilRents-2021, claim TL:LUX:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-mineralRents-2021",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-mineralRents-2021, claim TL:LUX:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.00475136757511518,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-forestRents-2021",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-forestRents-2021, claim TL:LUX:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-electricityAccess-2023, claim TL:LUX:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.962679157025622,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-milExpPctGdp-2024, claim TL:LUX:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 871643141.196422,
+   "display": "$872 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-milExpUsd-2024, claim TL:LUX:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LUX:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 1000,
+   "display": "1,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/LUX#claim-armedForces-2020",
+   "citation": "Terralore, \"Luxembourg — national dossier\", terralore.co/country/LUX#claim-armedForces-2020, claim TL:LUX:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -95,6 +95,8 @@ Figures:
 - Pope John XXIII (1881 – 1963) — Pope who called Vatican II. John XXIII convened the Second Vatican Council in 1962 to renew the church for the modern world, opening it in Saint Peter's before his death the following year.
 - Pope John Paul II (1920 – 2005) — Globe-spanning modern pope. Elected in 1978 as the first non-Italian pope in centuries, John Paul II travelled the world and lent decisive moral weight to the fall of communism, projecting vast influence from the smallest state.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:VAT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/VAT/chronicle.claims.json
+
 ## References
 
 - [sanpietro-tomb] The Tomb of Saint Peter — Fabbrica di San Pietro / basilicasanpietro.va · https://www.basilicasanpietro.va/en/san-pietro/the-tomb-of-saint-peter

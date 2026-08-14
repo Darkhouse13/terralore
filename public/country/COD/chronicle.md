@@ -92,6 +92,8 @@ Figures:
 
 - Laurent-Désiré Kabila (1939–2001) — President (1997–2001). Veteran guerrilla who ousted Mobutu in 1997, then fell out with his foreign backers, triggering the Second Congo War; assassinated in 2001.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:COD:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/COD/chronicle.claims.json
+
 ## References
 
 - [eb-kongo] Kongo (historical kingdom, Africa) — Encyclopædia Britannica · https://www.britannica.com/place/Kongo-historical-kingdom-Africa

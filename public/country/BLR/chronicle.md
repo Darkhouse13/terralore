@@ -98,6 +98,8 @@ Figures:
 - Stanislau Shushkevich (1934 – 2022) — First head of independent Belarus. A physicist who chaired the Supreme Soviet of newly independent Belarus, Shushkevich signed the Belavezha Accords in 1991 that dissolved the Soviet Union. A reformer, he was forced from office in 1994 as Lukashenka rose to power.
 - Alyaksandr Lukashenka (born 1954) — President of Belarus since 1994. Elected in 1994 as Belarus's first president, the former collective-farm manager built a durable authoritarian state, anchored Belarus to Russia through the Union State, and clung to power after the disputed 2020 election that the EU refused to recognise.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BLR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BLR/chronicle.claims.json
+
 ## References
 
 - [belarus-britannica] Belarus — Encyclopaedia Britannica · https://www.britannica.com/place/Belarus

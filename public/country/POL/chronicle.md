@@ -96,6 +96,8 @@ Figures:
 - Lech Walesa (born 1943) — Solidarity leader and President. An electrician at the Gdansk shipyard, Walesa led the strikes that created Solidarity and became its enduring symbol. Awarded the Nobel Peace Prize in 1983, he was elected president of a democratic Poland in 1990.
 - Pope John Paul II (1920 – 2005) — Pope and moral leader. Born Karol Wojtyla in Wadowice, he became archbishop of Krakow and in 1978 the first Polish pope. His pilgrimages home galvanised national hope and lent decisive moral support to the Solidarity movement.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:POL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/POL/chronicle.claims.json
+
 ## References
 
 - [mieszko-britannica] Mieszko I — Encyclopaedia Britannica · https://www.britannica.com/biography/Mieszko-I

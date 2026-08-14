@@ -84,6 +84,8 @@ Figures:
 - Lazaro Cardenas (1895-1970) — President of Mexico. President from 1934 to 1940 who carried out sweeping land reform and nationalised the oil industry in 1938, shaping the social and economic order of modern Mexico.
 - Vicente Fox (born 1942) — President of Mexico. Businessman and politician whose election in 2000 ended more than seven decades of PRI dominance, inaugurating a new era of multiparty democracy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MEX:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MEX/chronicle.claims.json
+
 ## References
 
 - [britannica-olmec] Olmec — Encyclopaedia Britannica · https://www.britannica.com/topic/Olmec

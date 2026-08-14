@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:VEN:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/VEN.claims.json
+
 History: "From the indigenous peoples of the Orinoco and the coast Columbus reached in 1498, through the Spanish 'little Venice' and the Captaincy General of Caracas, to the cradle of South American independence, the petro-state built on Lake Maracaibo oil, and the Bolivarian Revolution and crisis of the present." — the sourced chronicle is at https://terralore.co/country/VEN/chronicle.md (6 eras, 26 events).
 
 ## Sources

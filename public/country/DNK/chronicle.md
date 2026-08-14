@@ -97,6 +97,8 @@ Figures:
 - Margrethe II (born 1940) — Queen of Denmark (reigned 1972-2024). Margrethe II reigned for fifty-two years as a popular constitutional monarch and accomplished artist before abdicating in January 2024 in favour of her son Frederik X, the first voluntary abdication by a Danish sovereign in nearly nine centuries.
 - Niels Bohr (1885 – 1962) — Physicist and Nobel laureate. Founder of the Copenhagen school of quantum mechanics and 1922 Nobel laureate, Bohr was Denmark's foremost scientist; he escaped occupied Denmark in 1943 and contributed to wartime atomic research before championing the peaceful use of nuclear energy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:DNK:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/DNK/chronicle.claims.json
+
 ## References
 
 - [jelling-unesco] Jelling Mounds, Runic Stones and Church — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/697/

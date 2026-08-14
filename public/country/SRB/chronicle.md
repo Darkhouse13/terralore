@@ -101,6 +101,8 @@ Figures:
 - Boris Tadić (born 1958) — President of Serbia. President during Montenegro's secession, Kosovo's 2008 declaration and the referral to the ICJ, Tadić steered a pro-European course, oversaw Serbia's EU membership application and rejected Kosovo's independence while pursuing dialogue.
 - Aleksandar Vučić (born 1970) — President of Serbia. Dominant in Serbian politics since the 2010s as prime minister and then president, Vučić has led the EU-facilitated dialogue with Pristina, agreeing the 2023 normalisation framework at Ohrid while maintaining Serbia's non-recognition of Kosovo.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SRB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SRB/chronicle.claims.json
+
 ## References
 
 - [serbia-history-britannica] Serbia: History — Encyclopaedia Britannica · https://www.britannica.com/place/Serbia

@@ -93,6 +93,8 @@ Figures:
 - Mohamed Bazoum (born 1960) — President of Niger (2021–2023). Elected in 2021 in Niger's first transfer of power between elected presidents, he was overthrown and detained by his own presidential guard in the coup of 26 July 2023.
 - Abdourahamane Tchiani (born c. 1960) — Military junta leader. Commander of the presidential guard who led the July 2023 coup against President Bazoum and proclaimed himself head of the National Council for the Safeguard of the Homeland.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NER:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NER/chronicle.claims.json
+
 ## References
 
 - [gobero-wiki] Gobero — Wikipedia · https://en.wikipedia.org/wiki/Gobero

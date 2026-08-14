@@ -85,6 +85,8 @@ Figures:
 - Antonio de Oliveira Salazar (1889 - 1970) — Dictator and prime minister. An economics professor who became prime minister in 1932 and ruled Portugal for thirty-six years through the authoritarian Estado Novo, maintaining censorship, a single political movement and the African empire until illness ended his rule in 1968.
 - Antonio de Spinola (1910 - 1996) — General and transitional president. A colonial war veteran whose book Portugal and the Future argued the African wars could not be won militarily, helping to incite the Carnation Revolution; he briefly served as president during the transition before resigning in 1974.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PRT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PRT/chronicle.claims.json
+
 ## References
 
 - [afonso-britannica] Afonso I, king of Portugal — Encyclopaedia Britannica · https://www.britannica.com/biography/Afonso-I-king-of-Portugal

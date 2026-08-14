@@ -1,0 +1,750 @@
+{
+ "subject": "DJI",
+ "name": "Djibouti",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/DJI",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:DJI:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 4152145939.98458,
+   "display": "$4.2 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-gdp-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdp-2024, claim TL:DJI:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 3552.72335079222,
+   "display": "$3,553",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdpPerCapita-2024, claim TL:DJI:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 6.98048467276334,
+   "display": "7.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdpGrowth-2024, claim TL:DJI:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.1120116728497,
+   "display": "2.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-inflation-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-inflation-2024, claim TL:DJI:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 241.237463098287,
+   "display": "241.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-tradePctGdp-2024, claim TL:DJI:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 1168722,
+   "display": "1.2 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-population-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-population-2024, claim TL:DJI:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 66.202,
+   "display": "66.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-lifeExpectancy-2024, claim TL:DJI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 72.9052635052978,
+   "display": "72.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-urbanPct-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-urbanPct-2024, claim TL:DJI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.618,
+   "display": "2.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-fertility-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-fertility-2024, claim TL:DJI:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 35.0586389,
+   "display": "35.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiVoice-2024, claim TL:DJI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 56.3908861,
+   "display": "56.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-wgiStability-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiStability-2024, claim TL:DJI:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 41.7537153,
+   "display": "41.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiEffectiveness-2024, claim TL:DJI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 41.412989,
+   "display": "41.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiRegQuality-2024, claim TL:DJI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 39.5750381,
+   "display": "39.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiRuleOfLaw-2024, claim TL:DJI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 29.8234701,
+   "display": "29.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiCorruption-2024, claim TL:DJI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 2.28316021,
+   "display": "2.3%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-healthSpendPctGdp-2023, claim TL:DJI:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.211,
+   "display": "0.21",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-physicians-2022",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-physicians-2022, claim TL:DJI:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 48.9,
+   "display": "48.9",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-underFiveMortality-2024, claim TL:DJI:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 75,
+   "display": "75.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-measlesImmunisation-2024, claim TL:DJI:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:eduSpendPctGdp:2018",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.75143003463745,
+   "display": "3.8%",
+   "unit": "% of GDP",
+   "observed": 2018,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-eduSpendPctGdp-2018",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-eduSpendPctGdp-2018, claim TL:DJI:eduSpendPctGdp:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:tertiaryEnrolment:2011",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 5.16012001037598,
+   "display": "5.2%",
+   "unit": "% gross",
+   "observed": 2011,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/DJI#claim-tertiaryEnrolment-2011",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-tertiaryEnrolment-2011, claim TL:DJI:tertiaryEnrolment:2011, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 65.29889679,
+   "display": "65.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DJI#claim-internetUsers-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-internetUsers-2024, claim TL:DJI:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:mobileSubs:2023",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 48.4504884885996,
+   "display": "48",
+   "unit": "per 100",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/DJI#claim-mobileSubs-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-mobileSubs-2023, claim TL:DJI:mobileSubs:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 3.27550022198031,
+   "display": "3.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-highTechExports-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-highTechExports-2023, claim TL:DJI:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 23180,
+   "display": "23,180 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-landArea-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-landArea-2023, claim TL:DJI:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 0.260724762726488,
+   "display": "0.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-forestPct-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-forestPct-2023, claim TL:DJI:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 73.5073339085419,
+   "display": "73.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-agriPct-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-agriPct-2023, claim TL:DJI:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.765537056716653,
+   "display": "0.8",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-co2PerCapita-2024, claim TL:DJI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 26.9,
+   "display": "26.9%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-renewablePct-2022",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-renewablePct-2022, claim TL:DJI:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.277110490356489,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-resourceRents-2021",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-resourceRents-2021, claim TL:DJI:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-oilRents-2021",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-oilRents-2021, claim TL:DJI:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-mineralRents-2021",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-mineralRents-2021, claim TL:DJI:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.277110490356489,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-forestRents-2021",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-forestRents-2021, claim TL:DJI:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 65.2,
+   "display": "65.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-electricityAccess-2023, claim TL:DJI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:milExpPctGdp:2008",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.62758252462798,
+   "display": "2.6%",
+   "unit": "% of GDP",
+   "observed": 2008,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-milExpPctGdp-2008",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-milExpPctGdp-2008, claim TL:DJI:milExpPctGdp:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:milExpUsd:2008",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 36274835.2755161,
+   "display": "$36 M",
+   "unit": "USD",
+   "observed": 2008,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-milExpUsd-2008",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-milExpUsd-2008, claim TL:DJI:milExpUsd:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:DJI:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 13000,
+   "display": "13,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/DJI#claim-armedForces-2020",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-armedForces-2020, claim TL:DJI:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

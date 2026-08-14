@@ -84,6 +84,8 @@ Figures:
 - Henri Guisan (1874 – 1960) — General of the Swiss Army in the Second World War. Elected commander-in-chief in 1939, Guisan embodied Swiss resolve during the war. His 1940 address to officers on the Rütli and the Réduit strategy of Alpine defence rallied the nation as it stood encircled by the Axis.
 - Charles Pictet de Rochemont (1755 – 1824) — Architect of recognised neutrality. The Genevan diplomat whose negotiations in 1815 won the international guarantee of Swiss neutrality that carried the Confederation safely through the wars of the following century.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CHE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CHE/chronicle.claims.json
+
 ## References
 
 - [aboutch-history] The History of Switzerland — Federal Department of Foreign Affairs (aboutswitzerland.eda.admin.ch) · https://www.aboutswitzerland.eda.admin.ch/en/the-history-of-switzerland

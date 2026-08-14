@@ -82,6 +82,8 @@ Figures:
 - Ziaur Rahman (1936–1981) — President of Bangladesh; founder of the BNP. An army officer of the Liberation War who took power after the 1975 coup, became president in 1977 and founded the Bangladesh Nationalist Party, emphasising food production and rural development before his assassination in 1981.
 - Sheikh Hasina Wazed (born 1947) — Prime Minister of Bangladesh (1996–2001, 2009–2024). A surviving daughter of Sheikh Mujibur Rahman who led the Awami League and governed Bangladesh for fifteen unbroken years, overseeing rapid economic growth before being driven from power by the 2024 uprising.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BGD:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BGD/chronicle.claims.json
+
 ## References
 
 - [britannica-pala] Pala dynasty — Encyclopædia Britannica · https://www.britannica.com/topic/Pala-dynasty

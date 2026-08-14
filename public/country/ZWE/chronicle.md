@@ -77,6 +77,8 @@ Figures:
 
 - Robert Mugabe (1924–2019) — Prime Minister and President of Zimbabwe. Liberation-war leader of ZANU who became Zimbabwe's first prime minister in 1980 and later executive president, ruling for thirty-seven years until forced from office in 2017; his rule encompassed both independence and decades of repression and economic decline.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ZWE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ZWE/chronicle.claims.json
+
 ## References
 
 - [unesco-greatzim] Great Zimbabwe National Monument — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/364/

@@ -111,6 +111,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:VNM:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/VNM.claims.json
+
 History: "A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform." — the sourced chronicle is at https://terralore.co/country/VNM/chronicle.md (6 eras, 29 events).
 
 ## Sources

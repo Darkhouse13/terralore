@@ -1,0 +1,910 @@
+{
+ "subject": "PRT",
+ "name": "Portugal",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/PRT",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:PRT:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 313271185085.102,
+   "display": "$313 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-gdp-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-gdp-2024, claim TL:PRT:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 29292.242104753,
+   "display": "$29,292",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-gdpPerCapita-2024, claim TL:PRT:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.13967177177636,
+   "display": "2.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-gdpGrowth-2024, claim TL:PRT:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.41613187791884,
+   "display": "2.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-inflation-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-inflation-2024, claim TL:PRT:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 89.696408854026,
+   "display": "89.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-tradePctGdp-2024, claim TL:PRT:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 10694681,
+   "display": "11 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-population-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-population-2024, claim TL:PRT:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 82.3829268292683,
+   "display": "82.4 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-lifeExpectancy-2024, claim TL:PRT:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 61.3281907341332,
+   "display": "61.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-urbanPct-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-urbanPct-2024, claim TL:PRT:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.41,
+   "display": "1.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-fertility-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-fertility-2024, claim TL:PRT:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:literacy:2011",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 94.4800033569336,
+   "display": "94.5%",
+   "unit": "%",
+   "observed": 2011,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-literacy-2011",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-literacy-2011, claim TL:PRT:literacy:2011, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 78.9923138,
+   "display": "79.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-wgiVoice-2024, claim TL:PRT:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 75.0659657,
+   "display": "75.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-wgiStability-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-wgiStability-2024, claim TL:PRT:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 69.76339,
+   "display": "69.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-wgiEffectiveness-2024, claim TL:PRT:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 66.5361271,
+   "display": "66.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-wgiRegQuality-2024, claim TL:PRT:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 75.4172468,
+   "display": "75.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-wgiRuleOfLaw-2024, claim TL:PRT:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 64.5372586,
+   "display": "64.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-wgiCorruption-2024, claim TL:PRT:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:healthSpendPctGdp:2024",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 10.24061108,
+   "display": "10.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-healthSpendPctGdp-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-healthSpendPctGdp-2024, claim TL:PRT:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 5.851,
+   "display": "5.85",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-physicians-2022",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-physicians-2022, claim TL:PRT:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 3.2,
+   "display": "3.2",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-underFiveMortality-2024, claim TL:PRT:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 99,
+   "display": "99.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-measlesImmunisation-2024, claim TL:PRT:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 95.2173479483637,
+   "display": "95.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-safeWater-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-safeWater-2024, claim TL:PRT:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:literacyRate:2011",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 94.4800033569336,
+   "display": "94.5%",
+   "unit": "%",
+   "observed": 2011,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-literacyRate-2011",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-literacyRate-2011, claim TL:PRT:literacyRate:2011, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.55160999298096,
+   "display": "4.6%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-eduSpendPctGdp-2022, claim TL:PRT:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 110.98851776123,
+   "display": "111.0%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-primaryEnrolment-2023, claim TL:PRT:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 120.347076416016,
+   "display": "120.3%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-secondaryEnrolment-2023, claim TL:PRT:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:tertiaryEnrolment:2023",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 77.6778182983398,
+   "display": "77.7%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-tertiaryEnrolment-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-tertiaryEnrolment-2023, claim TL:PRT:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 1.69491,
+   "display": "1.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-rdSpending-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-rdSpending-2023, claim TL:PRT:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 5983.27041,
+   "display": "5,983",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-researchers-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-researchers-2023, claim TL:PRT:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 88.48704454,
+   "display": "88.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-internetUsers-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-internetUsers-2024, claim TL:PRT:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 124.129981203404,
+   "display": "124",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PRT#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-mobileSubs-2024, claim TL:PRT:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 6.77343918950435,
+   "display": "6.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-highTechExports-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-highTechExports-2024, claim TL:PRT:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 91605.6,
+   "display": "91,606 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-landArea-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-landArea-2023, claim TL:PRT:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 36.154994891142,
+   "display": "36.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-forestPct-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-forestPct-2023, claim TL:PRT:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 43.33752194189,
+   "display": "43.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-agriPct-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-agriPct-2023, claim TL:PRT:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 3.32476489948602,
+   "display": "3.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-co2PerCapita-2024, claim TL:PRT:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 32.3,
+   "display": "32.3%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-renewablePct-2021",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-renewablePct-2021, claim TL:PRT:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.291415692065373,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-resourceRents-2021",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-resourceRents-2021, claim TL:PRT:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.0518131827535177,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-oilRents-2021",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-oilRents-2021, claim TL:PRT:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.148671649451181,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-mineralRents-2021",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-mineralRents-2021, claim TL:PRT:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0909308598606746,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-forestRents-2021",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-forestRents-2021, claim TL:PRT:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-electricityAccess-2023, claim TL:PRT:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:prodLithium:2025",
+   "domain": "resources",
+   "metric": "prodLithium",
+   "label": "Lithium (mined)",
+   "value": 380,
+   "display": "380 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PRT#claim-prodLithium-2025",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-prodLithium-2025, claim TL:PRT:prodLithium:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.53226822745255,
+   "display": "1.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-milExpPctGdp-2024, claim TL:PRT:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 4641618584.64707,
+   "display": "$4.6 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-milExpUsd-2024, claim TL:PRT:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRT:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 52000,
+   "display": "52,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PRT#claim-armedForces-2020",
+   "citation": "Terralore, \"Portugal — national dossier\", terralore.co/country/PRT#claim-armedForces-2020, claim TL:PRT:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

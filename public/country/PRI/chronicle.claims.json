@@ -1,0 +1,419 @@
+{
+ "subject": "PRI",
+ "name": "Puerto Rico",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/PRI/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:PRI:event:1000:taino-settle-boriken",
+   "year": 1000,
+   "yearLabel": "by c. 1000 CE",
+   "title": "Taíno settle Borikén",
+   "summary": "Arawak-speaking peoples develop the Taíno culture on the island they call Borikén, living in cacique-led villages and farming cassava and other tropical crops.",
+   "category": "migration",
+   "era": "taino-borinquen",
+   "sources": [
+    {
+     "id": "britannica-pr-history",
+     "label": "Puerto Rico: History",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/History"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1000-taino-settle-boriken",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1000-taino-settle-boriken, claim TL:PRI:event:1000:taino-settle-boriken, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1493:columbus-claims-the-island",
+   "year": 1493,
+   "yearLabel": "19 Nov 1493",
+   "title": "Columbus claims the island",
+   "summary": "On his second voyage, Christopher Columbus reaches the island and claims it for Spain, naming it San Juan Bautista.",
+   "category": "colonization",
+   "era": "taino-borinquen",
+   "sources": [
+    {
+     "id": "britannica-pr-history",
+     "label": "Puerto Rico: History",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/History"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1493-columbus-claims-the-island",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1493-columbus-claims-the-island, claim TL:PRI:event:1493:columbus-claims-the-island, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1508:ponce-de-leon-founds-caparra",
+   "year": 1508,
+   "yearLabel": "1508 CE",
+   "title": "Ponce de León founds Caparra",
+   "summary": "Juan Ponce de León establishes the island's first Spanish settlement and becomes its first governor; the colony is soon moved to the islet of San Juan.",
+   "category": "colonization",
+   "era": "spanish-colony",
+   "sources": [
+    {
+     "id": "britannica-ponce-de-leon",
+     "label": "Juan Ponce de León",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Juan-Ponce-de-Leon"
+    },
+    {
+     "id": "britannica-caparra",
+     "label": "Caparra, historical settlement",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Caparra"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1508-ponce-de-leon-founds-caparra",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1508-ponce-de-leon-founds-caparra, claim TL:PRI:event:1508:ponce-de-leon-founds-caparra, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1539:el-morro-and-the-fortification-of-san-juan",
+   "year": 1539,
+   "yearLabel": "from 1539",
+   "title": "El Morro and the fortification of San Juan",
+   "summary": "Spain begins the great harbour castle of El Morro; with La Fortaleza and a city wall completed by 1678, San Juan becomes a key Caribbean stronghold.",
+   "category": "war",
+   "era": "spanish-colony",
+   "sources": [
+    {
+     "id": "nps-saju-elmorro",
+     "label": "El Morro, San Juan National Historic Site",
+     "publisher": "U.S. National Park Service",
+     "url": "https://www.nps.gov/saju/learn/historyculture/el-morro.htm"
+    },
+    {
+     "id": "unesco-la-fortaleza",
+     "label": "La Fortaleza and San Juan National Historic Site",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/266"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1539-el-morro-and-the-fortification-of-san-juan",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1539-el-morro-and-the-fortification-of-san-juan, claim TL:PRI:event:1539:el-morro-and-the-fortification-of-san-juan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1595:el-morro-repels-francis-drake",
+   "year": 1595,
+   "yearLabel": "1595 CE",
+   "title": "El Morro repels Francis Drake",
+   "summary": "The new fortifications withstand an attack by the English privateer Sir Francis Drake, proving San Juan's defences.",
+   "category": "war",
+   "era": "spanish-colony",
+   "sources": [
+    {
+     "id": "nps-saju-elmorro",
+     "label": "El Morro, San Juan National Historic Site",
+     "publisher": "U.S. National Park Service",
+     "url": "https://www.nps.gov/saju/learn/historyculture/el-morro.htm"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1595-el-morro-repels-francis-drake",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1595-el-morro-repels-francis-drake, claim TL:PRI:event:1595:el-morro-repels-francis-drake, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1868:grito-de-lares",
+   "year": 1868,
+   "yearLabel": "23 Sept 1868",
+   "title": "Grito de Lares",
+   "summary": "Rebels seize Lares and proclaim a Republic of Puerto Rico; though crushed, the uprising becomes the foundational moment of the island's independence movement.",
+   "category": "independence",
+   "era": "late-spanish-rule",
+   "sources": [
+    {
+     "id": "loc-lares-1868",
+     "label": "The Grito de Lares: The Rebellion of 1868",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/puerto-rico-books-and-pamphlets/articles-and-essays/nineteenth-century-puerto-rico/rebellion-of-1868/"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1868-grito-de-lares",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1868-grito-de-lares, claim TL:PRI:event:1868:grito-de-lares, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1873:abolition-of-slavery",
+   "year": 1873,
+   "yearLabel": "1873 CE",
+   "title": "Abolition of slavery",
+   "summary": "Spain abolishes slavery in Puerto Rico, a reform widely linked to the pressure generated by the Lares revolt.",
+   "category": "politics",
+   "era": "late-spanish-rule",
+   "sources": [
+    {
+     "id": "loc-lares-1868",
+     "label": "The Grito de Lares: The Rebellion of 1868",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/puerto-rico-books-and-pamphlets/articles-and-essays/nineteenth-century-puerto-rico/rebellion-of-1868/"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1873-abolition-of-slavery",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1873-abolition-of-slavery, claim TL:PRI:event:1873:abolition-of-slavery, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1897:charter-of-autonomy",
+   "year": 1897,
+   "yearLabel": "1897 CE",
+   "title": "Charter of Autonomy",
+   "summary": "Spain grants Puerto Rico an Autonomous Charter conceding limited self-government, only months before the Spanish-American War.",
+   "category": "politics",
+   "era": "late-spanish-rule",
+   "sources": [
+    {
+     "id": "loc-lares-1868",
+     "label": "The Grito de Lares: The Rebellion of 1868",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/collections/puerto-rico-books-and-pamphlets/articles-and-essays/nineteenth-century-puerto-rico/rebellion-of-1868/"
+    },
+    {
+     "id": "loc-1898-pr-overview",
+     "label": "The Changing of the Guard: Puerto Rico in 1898",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/world-of-1898/puerto-rico-overview"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1897-charter-of-autonomy",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1897-charter-of-autonomy, claim TL:PRI:event:1897:charter-of-autonomy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1898:treaty-of-paris-cedes-puerto-rico",
+   "year": 1898,
+   "yearLabel": "10 Dec 1898",
+   "title": "Treaty of Paris cedes Puerto Rico",
+   "summary": "After the Spanish-American War, Spain cedes Puerto Rico, Guam, and the Philippines to the United States, ending Spanish rule on the island.",
+   "category": "war",
+   "era": "late-spanish-rule",
+   "sources": [
+    {
+     "id": "history-state-spanish-american-war",
+     "label": "The Spanish-American War, 1898",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
+    },
+    {
+     "id": "loc-treaty-of-paris",
+     "label": "Treaty of Paris of 1898",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/world-of-1898/treaty-of-paris"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1898-treaty-of-paris-cedes-puerto-rico",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1898-treaty-of-paris-cedes-puerto-rico, claim TL:PRI:event:1898:treaty-of-paris-cedes-puerto-rico, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1898:u-s-takes-control-of-puerto-rico",
+   "year": 1898,
+   "yearLabel": "1898 CE",
+   "title": "U.S. takes control of Puerto Rico",
+   "summary": "American military rule begins; the island passes from Spain to the United States as a new colonial relationship is established.",
+   "category": "colonization",
+   "era": "us-rule-citizenship",
+   "sources": [
+    {
+     "id": "loc-1898-pr-overview",
+     "label": "The Changing of the Guard: Puerto Rico in 1898",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/world-of-1898/puerto-rico-overview"
+    },
+    {
+     "id": "britannica-us-rule",
+     "label": "Puerto Rico: Rule by the United States",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/Rule-by-the-United-States"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1898-u-s-takes-control-of-puerto-rico",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1898-u-s-takes-control-of-puerto-rico, claim TL:PRI:event:1898:u-s-takes-control-of-puerto-rico, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1917:jones-shafroth-act-grants-citizenship",
+   "year": 1917,
+   "yearLabel": "2 Mar 1917",
+   "title": "Jones-Shafroth Act grants citizenship",
+   "summary": "Congress collectively confers U.S. citizenship on Puerto Ricans and restructures the island's government, but without the federal vote.",
+   "category": "politics",
+   "era": "us-rule-citizenship",
+   "sources": [
+    {
+     "id": "loc-jones-act",
+     "label": "1917: Jones-Shafroth Act",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/latinx-civil-rights/jones-shafroth-act"
+    },
+    {
+     "id": "britannica-jones-act",
+     "label": "Jones-Shafroth Act",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Jones-Shafroth-Act"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1917-jones-shafroth-act-grants-citizenship",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1917-jones-shafroth-act-grants-citizenship, claim TL:PRI:event:1917:jones-shafroth-act-grants-citizenship, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1930:albizu-campos-leads-the-nationalists",
+   "year": 1930,
+   "yearLabel": "1930 CE",
+   "title": "Albizu Campos leads the Nationalists",
+   "summary": "Pedro Albizu Campos becomes president of the Nationalist Party, intensifying the campaign for outright independence.",
+   "category": "independence",
+   "era": "us-rule-citizenship",
+   "sources": [
+    {
+     "id": "britannica-albizu-campos",
+     "label": "Pedro Albizu Campos",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Pedro-Albizu-Campos"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1930-albizu-campos-leads-the-nationalists",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1930-albizu-campos-leads-the-nationalists, claim TL:PRI:event:1930:albizu-campos-leads-the-nationalists, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1948:first-elected-governor",
+   "year": 1948,
+   "yearLabel": "1948 CE",
+   "title": "First elected governor",
+   "summary": "Luis Muñoz Marín is elected the island's first governor; his administration launches Operation Bootstrap to industrialise the economy.",
+   "category": "politics",
+   "era": "commonwealth-1952",
+   "sources": [
+    {
+     "id": "britannica-munoz-marin",
+     "label": "Luis Muñoz Marín",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Luis-Munoz-Marin"
+    },
+    {
+     "id": "britannica-commonwealth",
+     "label": "Puerto Rico: The Commonwealth",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/The-commonwealth"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1948-first-elected-governor",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1948-first-elected-governor, claim TL:PRI:event:1948:first-elected-governor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1952:commonwealth-established",
+   "year": 1952,
+   "yearLabel": "25 July 1952",
+   "title": "Commonwealth established",
+   "summary": "Muñoz Marín proclaims the Constitution of the Commonwealth (Estado Libre Asociado), giving Puerto Rico self-government within U.S. sovereignty.",
+   "category": "founding",
+   "era": "commonwealth-1952",
+   "sources": [
+    {
+     "id": "britannica-commonwealth",
+     "label": "Puerto Rico: The Commonwealth",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/The-commonwealth"
+    },
+    {
+     "id": "loc-pr-constitution",
+     "label": "Guide to Law Online: Puerto Rico — Constitution",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/law-us-puerto-rico/constitution"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1952-commonwealth-established",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1952-commonwealth-established, claim TL:PRI:event:1952:commonwealth-established, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:1967:status-plebiscites",
+   "year": 1967,
+   "yearLabel": "1967-1998",
+   "title": "Status plebiscites",
+   "summary": "Non-binding votes in 1967, 1993, and 1998 ask Puerto Ricans to choose among commonwealth, statehood, and independence, producing no binding resolution.",
+   "category": "politics",
+   "era": "commonwealth-1952",
+   "sources": [
+    {
+     "id": "britannica-status-debate",
+     "label": "Puerto Rico: The Debate over Political Status",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/The-debate-over-political-status"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-1967-status-plebiscites",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-1967-status-plebiscites, claim TL:PRI:event:1967:status-plebiscites, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:2003:u-s-navy-leaves-vieques",
+   "year": 2003,
+   "yearLabel": "1 May 2003",
+   "title": "U.S. Navy leaves Vieques",
+   "summary": "After years of civil disobedience following a 1999 death, the Navy ends weapons testing and withdraws from Vieques.",
+   "category": "politics",
+   "era": "contemporary-puerto-rico",
+   "sources": [
+    {
+     "id": "britannica-status-debate",
+     "label": "Puerto Rico: The Debate over Political Status",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/The-debate-over-political-status"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-2003-u-s-navy-leaves-vieques",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-2003-u-s-navy-leaves-vieques, claim TL:PRI:event:2003:u-s-navy-leaves-vieques, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:2016:debt-crisis-and-promesa",
+   "year": 2016,
+   "yearLabel": "2015-2016",
+   "title": "Debt crisis and PROMESA",
+   "summary": "With debt declared unpayable in 2015, Congress passes PROMESA in 2016, installing a federal oversight board over the island's finances.",
+   "category": "economy",
+   "era": "contemporary-puerto-rico",
+   "sources": [
+    {
+     "id": "britannica-status-debate",
+     "label": "Puerto Rico: The Debate over Political Status",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/The-debate-over-political-status"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-2016-debt-crisis-and-promesa",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-2016-debt-crisis-and-promesa, claim TL:PRI:event:2016:debt-crisis-and-promesa, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:2017:hurricane-maria",
+   "year": 2017,
+   "yearLabel": "20 Sept 2017",
+   "title": "Hurricane Maria",
+   "summary": "A devastating hurricane wrecks Puerto Rico's power grid and infrastructure, with an official death toll later estimated near 2,975.",
+   "category": "disaster",
+   "era": "contemporary-puerto-rico",
+   "sources": [
+    {
+     "id": "britannica-hurricane-maria",
+     "label": "Hurricane Maria",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Hurricane-Maria"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-2017-hurricane-maria",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-2017-hurricane-maria, claim TL:PRI:event:2017:hurricane-maria, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PRI:event:2017:statehood-plebiscites",
+   "year": 2017,
+   "yearLabel": "2012-2020",
+   "title": "Statehood plebiscites",
+   "summary": "Votes in 2012, 2017, and 2020 favour statehood, but the 2017 ballot was boycotted and drew only about 23% turnout, and Congress has not acted.",
+   "category": "politics",
+   "era": "contemporary-puerto-rico",
+   "sources": [
+    {
+     "id": "britannica-status-debate",
+     "label": "Puerto Rico: The Debate over Political Status",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Puerto-Rico/The-debate-over-political-status"
+    }
+   ],
+   "url": "https://terralore.co/country/PRI/chronicle#ev-2017-statehood-plebiscites",
+   "citation": "Terralore, \"The Chronicle of Puerto Rico: Borikén of the Taíno, four centuries a Spanish stronghold of the Indies, now a self-governing Commonwealth of the United States poised between the questions of statehood, independence, and the status quo.\", terralore.co/country/PRI/chronicle#ev-2017-statehood-plebiscites, claim TL:PRI:event:2017:statehood-plebiscites, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:SRB:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/SRB.claims.json
+
 History: "From the medieval Nemanjić kingdom and the field of Kosovo to a modern Balkan republic at the centre of Europe's last great territorial dispute." — the sourced chronicle is at https://terralore.co/country/SRB/chronicle.md (6 eras, 30 events).
 
 ## Sources

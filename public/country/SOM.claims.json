@@ -1,0 +1,750 @@
+{
+ "subject": "SOM",
+ "name": "Somalia",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/SOM",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:SOM:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 11967000000,
+   "display": "$12 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-gdp-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-gdp-2024, claim TL:SOM:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 629.538899449007,
+   "display": "$630",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-gdpPerCapita-2024, claim TL:SOM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 4.11139335779471,
+   "display": "4.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-gdpGrowth-2024, claim TL:SOM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 130.325060583271,
+   "display": "130.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-tradePctGdp-2024, claim TL:SOM:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 19009151,
+   "display": "19 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-population-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-population-2024, claim TL:SOM:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 58.967,
+   "display": "59.0 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-lifeExpectancy-2024, claim TL:SOM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 54.6176465524521,
+   "display": "54.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-urbanPct-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-urbanPct-2024, claim TL:SOM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 6.013,
+   "display": "6.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-fertility-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-fertility-2024, claim TL:SOM:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 54.1199989318848,
+   "display": "54.1%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-literacy-2022",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-literacy-2022, claim TL:SOM:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 29.2625304,
+   "display": "29.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-wgiVoice-2024, claim TL:SOM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 27.2373976,
+   "display": "27.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-wgiStability-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-wgiStability-2024, claim TL:SOM:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 13.4236225,
+   "display": "13.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-wgiEffectiveness-2024, claim TL:SOM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 27.6160004,
+   "display": "27.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-wgiRegQuality-2024, claim TL:SOM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 19.0073717,
+   "display": "19.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-wgiRuleOfLaw-2024, claim TL:SOM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 11.7011473,
+   "display": "11.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-wgiCorruption-2024, claim TL:SOM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.74413586,
+   "display": "3.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-healthSpendPctGdp-2023, claim TL:SOM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:physicians:2014",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.048,
+   "display": "0.05",
+   "unit": "per 1,000",
+   "observed": 2014,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-physicians-2014",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-physicians-2014, claim TL:SOM:physicians:2014, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 101.1,
+   "display": "101.1",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-underFiveMortality-2024, claim TL:SOM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 64,
+   "display": "64.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-measlesImmunisation-2024, claim TL:SOM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 54.1199989318848,
+   "display": "54.1%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-literacyRate-2022",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-literacyRate-2022, claim TL:SOM:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 20.9155502319336,
+   "display": "20.9%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-primaryEnrolment-2023, claim TL:SOM:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 3.34785008430481,
+   "display": "3.3%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/SOM#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-secondaryEnrolment-2023, claim TL:SOM:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 27.94020081,
+   "display": "27.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SOM#claim-internetUsers-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-internetUsers-2024, claim TL:SOM:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:mobileSubs:2023",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 53.9579646939598,
+   "display": "54",
+   "unit": "per 100",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/SOM#claim-mobileSubs-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-mobileSubs-2023, claim TL:SOM:mobileSubs:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 627340,
+   "display": "627,340 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-landArea-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-landArea-2023, claim TL:SOM:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 9.16528517231485,
+   "display": "9.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-forestPct-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-forestPct-2023, claim TL:SOM:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 70.3433544808238,
+   "display": "70.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-agriPct-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-agriPct-2023, claim TL:SOM:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.0455149206821494,
+   "display": "0.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-co2PerCapita-2024, claim TL:SOM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 95.4,
+   "display": "95.4%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-renewablePct-2022",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-renewablePct-2022, claim TL:SOM:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 11.2356934915275,
+   "display": "11.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-resourceRents-2021",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-resourceRents-2021, claim TL:SOM:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-oilRents-2021",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-oilRents-2021, claim TL:SOM:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-mineralRents-2021",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-mineralRents-2021, claim TL:SOM:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 11.2356934915275,
+   "display": "11.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-forestRents-2021",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-forestRents-2021, claim TL:SOM:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 50.3,
+   "display": "50.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-electricityAccess-2023, claim TL:SOM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.58578050121769,
+   "display": "1.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-milExpPctGdp-2024, claim TL:SOM:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 201854000,
+   "display": "$202 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-milExpUsd-2024, claim TL:SOM:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:SOM:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 14000,
+   "display": "14,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/SOM#claim-armedForces-2020",
+   "citation": "Terralore, \"Somalia — national dossier\", terralore.co/country/SOM#claim-armedForces-2020, claim TL:SOM:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

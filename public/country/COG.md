@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:COG:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/COG.claims.json
+
 History: "From the Bantu peoples and the coastal Kingdom of Loango, through the Atlantic slave trade, Brazza's founding of Brazzaville and the colony of Middle Congo within French Equatorial Africa, to independence in 1960, the Marxist People's Republic, and the long rule of Denis Sassou Nguesso." — the sourced chronicle is at https://terralore.co/country/COG/chronicle.md (6 eras, 27 events).
 
 ## Sources

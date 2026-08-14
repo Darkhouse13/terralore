@@ -78,6 +78,8 @@ Figures:
 - Saparmurat Niyazov ('Türkmenbaşy') (1940–2006) — First president of Turkmenistan (1991–2006). Ruled independent Turkmenistan as an authoritarian president for life, building an extensive personality cult around himself and his book the Ruhnama while resting power on the country's vast gas wealth.
 - Gurbanguly Berdimuhamedow (born 1957) — President of Turkmenistan (2007–2022). A former dentist and health minister who succeeded Niyazov, ruled for three terms with continued one-party control, and engineered the 2022 succession of his son before chairing the People's Council.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TKM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TKM/chronicle.claims.json
+
 ## References
 
 - [britannica-turkmenistan] Turkmenistan — Encyclopædia Britannica · https://www.britannica.com/place/Turkmenistan

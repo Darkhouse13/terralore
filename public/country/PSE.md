@@ -105,6 +105,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:PSE:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/PSE.claims.json
+
 History: "An ancient and contested land at the crossroads of three continents and three faiths, whose people declared an independent state in 1988 and whose modern history is defined by dispossession and the struggle for self-determination." — the sourced chronicle is at https://terralore.co/country/PSE/chronicle.md (6 eras, 34 events).
 
 ## Sources

@@ -1,0 +1,438 @@
+{
+ "subject": "MEX",
+ "name": "Mexico",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/MEX/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MEX:event:1200bce:olmec-civilisation-flourishes",
+   "year": -1200,
+   "yearLabel": "c. 1200 BCE",
+   "title": "Olmec civilisation flourishes",
+   "summary": "The Olmec arise on the Gulf coast as the first complex society of Mesoamerica, carving colossal stone heads and shaping a cultural template inherited by later peoples.",
+   "category": "founding",
+   "era": "mesoamerican-civilisations",
+   "sources": [
+    {
+     "id": "britannica-olmec",
+     "label": "Olmec",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Olmec"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1200bce-olmec-civilisation-flourishes",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1200bce-olmec-civilisation-flourishes, claim TL:MEX:event:1200bce:olmec-civilisation-flourishes, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:100:teotihuacan-city-of-the-gods",
+   "year": 100,
+   "yearLabel": "1st-7th c. CE",
+   "title": "Teotihuacan, city of the gods",
+   "summary": "Teotihuacan grows into a metropolis of monumental pyramids and a planned ceremonial axis, dominating central Mexico before its decline around 550-650 CE.",
+   "category": "culture",
+   "era": "mesoamerican-civilisations",
+   "sources": [
+    {
+     "id": "unesco-teotihuacan",
+     "label": "Pre-Hispanic City of Teotihuacan",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/414/"
+    },
+    {
+     "id": "britannica-pyramid-sun",
+     "label": "Pyramid of the Sun",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Pyramid-of-the-Sun"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-100-teotihuacan-city-of-the-gods",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-100-teotihuacan-city-of-the-gods, claim TL:MEX:event:100:teotihuacan-city-of-the-gods, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:250:classic-maya-civilisation",
+   "year": 250,
+   "yearLabel": "c. 250-900 CE",
+   "title": "Classic Maya civilisation",
+   "summary": "Maya city-states reach their height, producing hieroglyphic writing, advanced calendars, and astronomy, before the southern lowland centres are abandoned by about 900 CE.",
+   "category": "culture",
+   "era": "mesoamerican-civilisations",
+   "sources": [
+    {
+     "id": "britannica-maya",
+     "label": "Maya",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Maya-people"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-250-classic-maya-civilisation",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-250-classic-maya-civilisation, claim TL:MEX:event:250:classic-maya-civilisation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1325:founding-of-tenochtitlan",
+   "year": 1325,
+   "yearLabel": "1325 CE",
+   "title": "Founding of Tenochtitlan",
+   "summary": "The Mexica establish their capital on an island in Lake Texcoco, the site of present-day Mexico City.",
+   "category": "founding",
+   "era": "aztec-empire",
+   "sources": [
+    {
+     "id": "natgeo-aztec",
+     "label": "Aztec Civilization",
+     "publisher": "National Geographic Education",
+     "url": "https://education.nationalgeographic.org/resource/aztec-civilization/"
+    },
+    {
+     "id": "britannica-aztec-people",
+     "label": "Aztec",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Aztec"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1325-founding-of-tenochtitlan",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1325-founding-of-tenochtitlan, claim TL:MEX:event:1325:founding-of-tenochtitlan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1428:the-triple-alliance",
+   "year": 1428,
+   "yearLabel": "1428 CE",
+   "title": "The Triple Alliance",
+   "summary": "Tenochtitlan, Texcoco, and Tlacopan ally, inaugurating the tribute empire of the Aztecs across central Mexico.",
+   "category": "politics",
+   "era": "aztec-empire",
+   "sources": [
+    {
+     "id": "natgeo-aztec",
+     "label": "Aztec Civilization",
+     "publisher": "National Geographic Education",
+     "url": "https://education.nationalgeographic.org/resource/aztec-civilization/"
+    },
+    {
+     "id": "britannica-aztec-people",
+     "label": "Aztec",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Aztec"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1428-the-triple-alliance",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1428-the-triple-alliance, claim TL:MEX:event:1428:the-triple-alliance, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1502:reign-of-moctezuma-ii",
+   "year": 1502,
+   "yearLabel": "1502 CE",
+   "title": "Reign of Moctezuma II",
+   "summary": "Moctezuma II ascends as huey tlatoani, ruling the empire at its territorial peak until the Spanish arrival.",
+   "category": "politics",
+   "era": "aztec-empire",
+   "sources": [
+    {
+     "id": "britannica-aztec-people",
+     "label": "Aztec",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Aztec"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1502-reign-of-moctezuma-ii",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1502-reign-of-moctezuma-ii, claim TL:MEX:event:1502:reign-of-moctezuma-ii, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1519:cortes-lands-in-mexico",
+   "year": 1519,
+   "yearLabel": "1519 CE",
+   "title": "Cortes lands in Mexico",
+   "summary": "Hernan Cortes arrives on the Gulf coast and marches inland, allying with peoples opposed to Mexica rule.",
+   "category": "colonization",
+   "era": "conquest-new-spain",
+   "sources": [
+    {
+     "id": "britannica-cortes",
+     "label": "Hernan Cortes",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Hernan-Cortes"
+    },
+    {
+     "id": "britannica-battle-tenochtitlan",
+     "label": "Battle of Tenochtitlan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Tenochtitlan"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1519-cortes-lands-in-mexico",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1519-cortes-lands-in-mexico, claim TL:MEX:event:1519:cortes-lands-in-mexico, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1521:fall-of-tenochtitlan",
+   "year": 1521,
+   "yearLabel": "13 Aug 1521",
+   "title": "Fall of Tenochtitlan",
+   "summary": "After a siege of some three months, the city falls to Cortes and his indigenous allies, ending the Aztec empire.",
+   "category": "war",
+   "era": "conquest-new-spain",
+   "sources": [
+    {
+     "id": "britannica-battle-tenochtitlan",
+     "label": "Battle of Tenochtitlan",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Tenochtitlan"
+    },
+    {
+     "id": "britannica-cortes",
+     "label": "Hernan Cortes",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Hernan-Cortes"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1521-fall-of-tenochtitlan",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1521-fall-of-tenochtitlan, claim TL:MEX:event:1521:fall-of-tenochtitlan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1535:viceroyalty-of-new-spain-established",
+   "year": 1535,
+   "yearLabel": "1535 CE",
+   "title": "Viceroyalty of New Spain established",
+   "summary": "Spain formalises colonial government under a viceroy, with Mexico City as the capital of a vast realm.",
+   "category": "colonization",
+   "era": "conquest-new-spain",
+   "sources": [
+    {
+     "id": "britannica-cortes",
+     "label": "Hernan Cortes",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Hernan-Cortes"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1535-viceroyalty-of-new-spain-established",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1535-viceroyalty-of-new-spain-established, claim TL:MEX:event:1535:viceroyalty-of-new-spain-established, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1810:grito-de-dolores",
+   "year": 1810,
+   "yearLabel": "16 Sept 1810",
+   "title": "Grito de Dolores",
+   "summary": "Miguel Hidalgo calls for rebellion against Spanish rule, beginning the Mexican War of Independence.",
+   "category": "independence",
+   "era": "independence-early-republic",
+   "sources": [
+    {
+     "id": "britannica-grito",
+     "label": "Grito de Dolores",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Grito-de-Dolores"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1810-grito-de-dolores",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1810-grito-de-dolores, claim TL:MEX:event:1810:grito-de-dolores, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1821:independence-consummated",
+   "year": 1821,
+   "yearLabel": "27 Sept 1821",
+   "title": "Independence consummated",
+   "summary": "The Army of the Three Guarantees enters Mexico City following the Treaty of Cordoba, ending Spanish rule.",
+   "category": "independence",
+   "era": "independence-early-republic",
+   "sources": [
+    {
+     "id": "lumen-independence",
+     "label": "Winning Independence",
+     "publisher": "Lumen Learning, SUNY World History",
+     "url": "https://courses.lumenlearning.com/suny-worldhistory/"
+    },
+    {
+     "id": "britannica-grito",
+     "label": "Grito de Dolores",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Grito-de-Dolores"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1821-independence-consummated",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1821-independence-consummated, claim TL:MEX:event:1821:independence-consummated, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1824:first-federal-republic",
+   "year": 1824,
+   "yearLabel": "1824 CE",
+   "title": "First federal republic",
+   "summary": "The Constitution of 1824 founds the United Mexican States as a federal republic, with Guadalupe Victoria as first president.",
+   "category": "politics",
+   "era": "independence-early-republic",
+   "sources": [
+    {
+     "id": "lumen-independence",
+     "label": "Winning Independence",
+     "publisher": "Lumen Learning, SUNY World History",
+     "url": "https://courses.lumenlearning.com/suny-worldhistory/"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1824-first-federal-republic",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1824-first-federal-republic, claim TL:MEX:event:1824:first-federal-republic, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1846:mexican-american-war",
+   "year": 1846,
+   "yearLabel": "1846-1848",
+   "title": "Mexican-American War",
+   "summary": "Defeat by the United States costs Mexico roughly half its territory under the Treaty of Guadalupe Hidalgo.",
+   "category": "war",
+   "era": "independence-early-republic",
+   "sources": [
+    {
+     "id": "britannica-juarez",
+     "label": "Benito Juarez",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Benito-Juarez"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1846-mexican-american-war",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1846-mexican-american-war, claim TL:MEX:event:1846:mexican-american-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1857:constitution-of-the-reform",
+   "year": 1857,
+   "yearLabel": "1857 CE",
+   "title": "Constitution of the Reform",
+   "summary": "The liberal Constitution of 1857 limits church and army privileges and establishes a bill of rights, deepening conflict between liberals and conservatives.",
+   "category": "politics",
+   "era": "reform-porfiriato-revolution",
+   "sources": [
+    {
+     "id": "britannica-la-reforma",
+     "label": "La Reforma",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/La-Reforma"
+    },
+    {
+     "id": "britannica-juarez",
+     "label": "Benito Juarez",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Benito-Juarez"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1857-constitution-of-the-reform",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1857-constitution-of-the-reform, claim TL:MEX:event:1857:constitution-of-the-reform, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1867:fall-of-the-second-empire",
+   "year": 1867,
+   "yearLabel": "1867 CE",
+   "title": "Fall of the Second Empire",
+   "summary": "Mexican forces under Juarez defeat the French intervention; Emperor Maximilian is captured and executed, restoring the republic.",
+   "category": "war",
+   "era": "reform-porfiriato-revolution",
+   "sources": [
+    {
+     "id": "britannica-juarez",
+     "label": "Benito Juarez",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Benito-Juarez"
+    },
+    {
+     "id": "britannica-la-reforma",
+     "label": "La Reforma",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/La-Reforma"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1867-fall-of-the-second-empire",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1867-fall-of-the-second-empire, claim TL:MEX:event:1867:fall-of-the-second-empire, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1876:the-porfiriato",
+   "year": 1876,
+   "yearLabel": "1876-1911",
+   "title": "The Porfiriato",
+   "summary": "Porfirio Diaz rules Mexico for over three decades, modernising the economy while entrenching authoritarian government and land inequality.",
+   "category": "politics",
+   "era": "reform-porfiriato-revolution",
+   "sources": [
+    {
+     "id": "britannica-juarez",
+     "label": "Benito Juarez",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Benito-Juarez"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1876-the-porfiriato",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1876-the-porfiriato, claim TL:MEX:event:1876:the-porfiriato, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1910:mexican-revolution",
+   "year": 1910,
+   "yearLabel": "1910-1920",
+   "title": "Mexican Revolution",
+   "summary": "A decade of revolution and civil war overthrows Diaz, costs over a million lives, and produces the Constitution of 1917.",
+   "category": "war",
+   "era": "reform-porfiriato-revolution",
+   "sources": [
+    {
+     "id": "britannica-mexican-revolution",
+     "label": "Mexican Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Mexican-Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1910-mexican-revolution",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1910-mexican-revolution, claim TL:MEX:event:1910:mexican-revolution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1938:oil-nationalisation",
+   "year": 1938,
+   "yearLabel": "1938 CE",
+   "title": "Oil nationalisation",
+   "summary": "President Lazaro Cardenas nationalises the petroleum industry, creating Pemex and asserting economic sovereignty.",
+   "category": "economy",
+   "era": "modern-mexico",
+   "sources": [
+    {
+     "id": "britannica-vicente-fox",
+     "label": "Vicente Fox",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Vicente-Fox"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1938-oil-nationalisation",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1938-oil-nationalisation, claim TL:MEX:event:1938:oil-nationalisation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:1994:nafta-and-the-zapatista-uprising",
+   "year": 1994,
+   "yearLabel": "1 Jan 1994",
+   "title": "NAFTA and the Zapatista uprising",
+   "summary": "The North American Free Trade Agreement takes effect as the Zapatistas rise in Chiapas; a peso crisis follows that December.",
+   "category": "economy",
+   "era": "modern-mexico",
+   "sources": [
+    {
+     "id": "britannica-zapatista",
+     "label": "Zapatista National Liberation Army (EZLN)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Zapatista-National-Liberation-Army"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-1994-nafta-and-the-zapatista-uprising",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-1994-nafta-and-the-zapatista-uprising, claim TL:MEX:event:1994:nafta-and-the-zapatista-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:event:2000:end-of-one-party-rule",
+   "year": 2000,
+   "yearLabel": "2000 CE",
+   "title": "End of one-party rule",
+   "summary": "Vicente Fox's election ends 71 years of uninterrupted PRI government, marking Mexico's democratic alternation of power.",
+   "category": "politics",
+   "era": "modern-mexico",
+   "sources": [
+    {
+     "id": "britannica-vicente-fox",
+     "label": "Vicente Fox",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Vicente-Fox"
+    }
+   ],
+   "url": "https://terralore.co/country/MEX/chronicle#ev-2000-end-of-one-party-rule",
+   "citation": "Terralore, \"The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.\", terralore.co/country/MEX/chronicle#ev-2000-end-of-one-party-rule, claim TL:MEX:event:2000:end-of-one-party-rule, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

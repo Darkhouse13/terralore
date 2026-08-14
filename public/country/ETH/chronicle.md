@@ -97,6 +97,8 @@ Figures:
 - Haile Selassie I (1892–1975) — Emperor of Ethiopia (r. 1930–1974). Last emperor of the Solomonic dynasty, moderniser and global symbol of resistance to Italian aggression, deposed in the 1974 revolution and revered as a messianic figure in Rastafari belief.
 - Mengistu Haile Mariam (b. 1937) — Derg chairman and head of state (1977–1991). Leader of the Marxist Derg whose rule encompassed the Red Terror, the wars of the 1980s and the famine of 1983–85; he fled to Zimbabwe in 1991 and was later convicted of genocide in absentia.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ETH:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ETH/chronicle.claims.json
+
 ## References
 
 - [britannica-ethiopia] Ethiopia (country overview) — Encyclopaedia Britannica · https://www.britannica.com/place/Ethiopia

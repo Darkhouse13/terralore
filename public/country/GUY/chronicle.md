@@ -76,6 +76,8 @@ A poor, debt-burdened nation at the turn of the century, Guyana has been transfo
 - Dec 2019: **First oil production** — Production begins in the Stabroek block; within a few years Guyana exceeds 600,000 barrels a day and becomes one of the world's fastest-growing economies. [eia-guyana]
 - May 2026: **ICJ hearings on the merits** — Public hearings on the merits of Arbitral Award of 3 October 1899 (Guyana v. Venezuela) are held at the International Court of Justice, a decisive stage in the long-running Essequibo controversy. [icj-guyana-venezuela]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GUY:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GUY/chronicle.claims.json
+
 ## References
 
 - [britannica-guyana-history] Guyana — History (Colonialism, Independence, Culture) — Encyclopaedia Britannica · https://www.britannica.com/place/Guyana/History

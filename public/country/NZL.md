@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:NZL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/NZL.claims.json
+
 History: "From the last great Polynesian voyages to a bicultural Pacific democracy founded on a contested treaty." — the sourced chronicle is at https://terralore.co/country/NZL/chronicle.md (6 eras, 20 events).
 
 ## Sources

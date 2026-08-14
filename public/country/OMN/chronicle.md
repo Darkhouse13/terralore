@@ -79,6 +79,8 @@ Figures:
 - Qaboos bin Said (1940 - 2020) — Sultan of Oman, 1970-2020. Architect of modern Oman, who overthrew his father in 1970, ended the country's isolation, defeated the Dhofar rebellion and led a half-century renaissance.
 - Haitham bin Tariq (born 1954) — Sultan of Oman since 2020. Cousin and successor of Qaboos, who acceded in January 2020 and has launched Oman Vision 2040, a new Basic Statute and a primogeniture succession.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:OMN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/OMN/chronicle.claims.json
+
 ## References
 
 - [britannica-oman] Oman: The early period — Encyclopaedia Britannica · https://www.britannica.com/place/Oman/The-early-period

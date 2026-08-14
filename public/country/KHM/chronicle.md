@@ -88,6 +88,8 @@ Figures:
 - Hun Sen (born 1952) — Long-serving prime minister. Prime minister of Cambodia from 1985 to 2023, a former Khmer Rouge cadre who defected, he built the Cambodian People's Party into a dominant force, presiding over growth and stability alongside deepening authoritarianism before handing power to his son.
 - Hun Manet (born 1977) — Prime minister since 2023. Eldest son of Hun Sen and a West Point graduate and army commander, he succeeded his father as prime minister in August 2023, continuing the family's and the Cambodian People's Party's hold on power.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KHM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KHM/chronicle.claims.json
+
 ## References
 
 - [cambodia-place] Cambodia — Encyclopaedia Britannica · https://www.britannica.com/place/Cambodia

@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:PRY:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/PRY.claims.json
+
 History: "From the Guarani world of the great rivers and the Spanish founding of Asuncion to the Jesuit missions, independence in 1811, the isolation of Dr Francia and the Lopez dynasty, the catastrophe of the Triple Alliance war, the Chaco War, the long Stroessner dictatorship, and a democratic, Guarani-speaking republic in the age of Itaipu." — the sourced chronicle is at https://terralore.co/country/PRY/chronicle.md (6 eras, 23 events).
 
 ## Sources

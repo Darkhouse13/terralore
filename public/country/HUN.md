@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:HUN:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/HUN.claims.json
+
 History: "From the Magyar conquest of the Carpathian Basin to a European republic, by way of Mohács and Trianon." — the sourced chronicle is at https://terralore.co/country/HUN/chronicle.md (6 eras, 28 events).
 
 ## Sources

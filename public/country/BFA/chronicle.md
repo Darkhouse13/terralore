@@ -72,6 +72,8 @@ Figures:
 
 - Blaise Compaoré (born 1951) — President of Burkina Faso (1987–2014). Came to power in the 1987 coup that killed Thomas Sankara and ruled for 27 years until a popular uprising forced his resignation in 2014; later convicted in absentia over Sankara's assassination.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BFA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BFA/chronicle.claims.json
+
 ## References
 
 - [britannica-mossi-states] Mossi states — Encyclopædia Britannica · https://www.britannica.com/place/Mossi-states

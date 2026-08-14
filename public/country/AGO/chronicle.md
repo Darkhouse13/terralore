@@ -85,6 +85,8 @@ Figures:
 
 - João Lourenço (born 1954) — President of Angola (since 2017). Former defence minister who succeeded dos Santos in 2017, launching anti-corruption drives and efforts to diversify Angola's oil-dependent economy while keeping the MPLA in power.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:AGO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/AGO/chronicle.claims.json
+
 ## References
 
 - [britannica-angola] Angola — Colonialism, Independence, Civil War (history) — Encyclopaedia Britannica · https://www.britannica.com/place/Angola

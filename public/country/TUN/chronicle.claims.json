@@ -1,0 +1,536 @@
+{
+ "subject": "TUN",
+ "name": "Tunisia",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/TUN/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:TUN:event:814bce:foundation-of-carthage",
+   "year": -814,
+   "yearLabel": "c. 814 BCE",
+   "title": "Foundation of Carthage",
+   "summary": "Phoenician settlers from Tyre establish Carthage, which grows into a dominant Mediterranean trading power.",
+   "category": "founding",
+   "era": "carthage",
+   "sources": [
+    {
+     "id": "eb-carthage146",
+     "label": "Battle of Carthage (146 BCE)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Carthage-146-BCE"
+    },
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-814bce-foundation-of-carthage",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-814bce-foundation-of-carthage, claim TL:TUN:event:814bce:foundation-of-carthage, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:218bce:hannibal-s-war-on-rome",
+   "year": -218,
+   "yearLabel": "218 BCE",
+   "title": "Hannibal's war on Rome",
+   "summary": "In the Second Punic War Hannibal invades Italy with elephants and wins at Cannae, before defeat at Zama in 202 BCE.",
+   "category": "war",
+   "era": "carthage",
+   "sources": [
+    {
+     "id": "eb-punicwars",
+     "label": "Punic Wars",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Punic-Wars"
+    },
+    {
+     "id": "whe-punicwars",
+     "label": "Punic Wars",
+     "publisher": "World History Encyclopedia",
+     "url": "https://www.worldhistory.org/Punic_Wars/"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-218bce-hannibal-s-war-on-rome",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-218bce-hannibal-s-war-on-rome, claim TL:TUN:event:218bce:hannibal-s-war-on-rome, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:146bce:rome-destroys-carthage",
+   "year": -146,
+   "yearLabel": "146 BCE",
+   "title": "Rome destroys Carthage",
+   "summary": "Roman armies raze Carthage in the Third Punic War; its lands become the province of Africa.",
+   "category": "war",
+   "era": "carthage",
+   "sources": [
+    {
+     "id": "eb-carthage146",
+     "label": "Battle of Carthage (146 BCE)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Carthage-146-BCE"
+    },
+    {
+     "id": "africaproconsularis",
+     "label": "Africa Proconsularis (Roman province)",
+     "publisher": "UNRV Roman History",
+     "url": "https://www.unrv.com/provinces/africa.php"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-146bce-rome-destroys-carthage",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-146bce-rome-destroys-carthage, claim TL:TUN:event:146bce:rome-destroys-carthage, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:29bce:augustus-refounds-carthage",
+   "year": -29,
+   "yearLabel": "c. 29 BCE",
+   "title": "Augustus refounds Carthage",
+   "summary": "Carthage is rebuilt as the capital of Africa Proconsularis, a prosperous grain-exporting Roman province.",
+   "category": "politics",
+   "era": "roman-byzantine",
+   "sources": [
+    {
+     "id": "africaproconsularis",
+     "label": "Africa Proconsularis (Roman province)",
+     "publisher": "UNRV Roman History",
+     "url": "https://www.unrv.com/provinces/africa.php"
+    },
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-29bce-augustus-refounds-carthage",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-29bce-augustus-refounds-carthage, claim TL:TUN:event:29bce:augustus-refounds-carthage, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:238:amphitheatre-of-el-djem",
+   "year": 238,
+   "yearLabel": "c. 238 CE",
+   "title": "Amphitheatre of El Djem",
+   "summary": "The colossal amphitheatre of Thysdrus is built, the largest Roman amphitheatre in Africa and a later UNESCO World Heritage Site.",
+   "category": "culture",
+   "era": "roman-byzantine",
+   "sources": [
+    {
+     "id": "unesco-eljem",
+     "label": "Amphitheatre of El Jem — World Heritage List",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/38/"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-238-amphitheatre-of-el-djem",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-238-amphitheatre-of-el-djem, claim TL:TUN:event:238:amphitheatre-of-el-djem, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:439:vandals-take-carthage",
+   "year": 439,
+   "yearLabel": "439 CE",
+   "title": "Vandals take Carthage",
+   "summary": "Gaiseric's Vandals seize Carthage, making it the capital of a kingdom in North Africa.",
+   "category": "war",
+   "era": "roman-byzantine",
+   "sources": [
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    },
+    {
+     "id": "africaproconsularis",
+     "label": "Africa Proconsularis (Roman province)",
+     "publisher": "UNRV Roman History",
+     "url": "https://www.unrv.com/provinces/africa.php"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-439-vandals-take-carthage",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-439-vandals-take-carthage, claim TL:TUN:event:439:vandals-take-carthage, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:534:byzantine-reconquest",
+   "year": 534,
+   "yearLabel": "533–534 CE",
+   "title": "Byzantine reconquest",
+   "summary": "Belisarius restores Carthage to the Eastern Roman Empire, ending Vandal rule.",
+   "category": "war",
+   "era": "roman-byzantine",
+   "sources": [
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-534-byzantine-reconquest",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-534-byzantine-reconquest, claim TL:TUN:event:534:byzantine-reconquest, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:670:founding-of-kairouan",
+   "year": 670,
+   "yearLabel": "670 CE",
+   "title": "Founding of Kairouan",
+   "summary": "Uqba ibn Nafi establishes Kairouan with its Great Mosque, the first Arab-Muslim capital of the Maghreb.",
+   "category": "religion",
+   "era": "islam-dynasties",
+   "sources": [
+    {
+     "id": "unesco-kairouan",
+     "label": "Kairouan — World Heritage List",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/499"
+    },
+    {
+     "id": "smarthistory-kairouan",
+     "label": "The Great Mosque of Kairouan",
+     "publisher": "Smarthistory",
+     "url": "https://smarthistory.org/the-great-mosque-of-kairouan/"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-670-founding-of-kairouan",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-670-founding-of-kairouan, claim TL:TUN:event:670:founding-of-kairouan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:800:aghlabid-dynasty",
+   "year": 800,
+   "yearLabel": "800–909 CE",
+   "title": "Aghlabid dynasty",
+   "summary": "The Aghlabids rule Ifriqiya from Kairouan, rebuild the Great Mosque in stone, and conquer Sicily.",
+   "category": "politics",
+   "era": "islam-dynasties",
+   "sources": [
+    {
+     "id": "smarthistory-kairouan",
+     "label": "The Great Mosque of Kairouan",
+     "publisher": "Smarthistory",
+     "url": "https://smarthistory.org/the-great-mosque-of-kairouan/"
+    },
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-800-aghlabid-dynasty",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-800-aghlabid-dynasty, claim TL:TUN:event:800:aghlabid-dynasty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:909:fatimid-caliphate",
+   "year": 909,
+   "yearLabel": "909 CE",
+   "title": "Fatimid Caliphate",
+   "summary": "The Shia Fatimids overthrow the Aghlabids; after moving to Cairo in 972 they leave the Zirids to govern locally.",
+   "category": "religion",
+   "era": "islam-dynasties",
+   "sources": [
+    {
+     "id": "smarthistory-kairouan",
+     "label": "The Great Mosque of Kairouan",
+     "publisher": "Smarthistory",
+     "url": "https://smarthistory.org/the-great-mosque-of-kairouan/"
+    },
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-909-fatimid-caliphate",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-909-fatimid-caliphate, claim TL:TUN:event:909:fatimid-caliphate, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1229:hafsid-dynasty-rules-from-tunis",
+   "year": 1229,
+   "yearLabel": "1229–1574",
+   "title": "Hafsid dynasty rules from Tunis",
+   "summary": "The Hafsids make Tunis a prosperous capital of trade and learning until the Ottoman conquest.",
+   "category": "economy",
+   "era": "islam-dynasties",
+   "sources": [
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    },
+    {
+     "id": "smarthistory-kairouan",
+     "label": "The Great Mosque of Kairouan",
+     "publisher": "Smarthistory",
+     "url": "https://smarthistory.org/the-great-mosque-of-kairouan/"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1229-hafsid-dynasty-rules-from-tunis",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1229-hafsid-dynasty-rules-from-tunis, claim TL:TUN:event:1229:hafsid-dynasty-rules-from-tunis, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1574:ottoman-conquest-of-tunis",
+   "year": 1574,
+   "yearLabel": "1574",
+   "title": "Ottoman conquest of Tunis",
+   "summary": "The Ottomans take Tunis from Spain, making Tunisia an autonomous province of the empire.",
+   "category": "war",
+   "era": "ottoman-husaynid",
+   "sources": [
+    {
+     "id": "wiki-ottoman-tunisia",
+     "label": "Ottoman Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ottoman_Tunisia"
+    },
+    {
+     "id": "eb-husaynid",
+     "label": "Husaynid dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Husaynid-dynasty"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1574-ottoman-conquest-of-tunis",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1574-ottoman-conquest-of-tunis, claim TL:TUN:event:1574:ottoman-conquest-of-tunis, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1705:husaynid-dynasty-founded",
+   "year": 1705,
+   "yearLabel": "1705",
+   "title": "Husaynid dynasty founded",
+   "summary": "Al-Husayn ibn Ali is proclaimed bey, founding the dynasty that rules Tunisia until 1957.",
+   "category": "politics",
+   "era": "ottoman-husaynid",
+   "sources": [
+    {
+     "id": "eb-husaynid",
+     "label": "Husaynid dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Husaynid-dynasty"
+    },
+    {
+     "id": "wiki-husaynid",
+     "label": "Husainid dynasty",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Husainid_dynasty"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1705-husaynid-dynasty-founded",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1705-husaynid-dynasty-founded, claim TL:TUN:event:1705:husaynid-dynasty-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1861:first-written-constitution",
+   "year": 1861,
+   "yearLabel": "1861",
+   "title": "First written constitution",
+   "summary": "Tunisia adopts the Arab world's first written constitution amid attempts at modernising reform.",
+   "category": "politics",
+   "era": "ottoman-husaynid",
+   "sources": [
+    {
+     "id": "wiki-tunisia-history",
+     "label": "History of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1861-first-written-constitution",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1861-first-written-constitution, claim TL:TUN:event:1861:first-written-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1881:treaty-of-bardo",
+   "year": 1881,
+   "yearLabel": "12 May 1881",
+   "title": "Treaty of Bardo",
+   "summary": "The bey signs the Treaty of Bardo, placing Tunisia under a French protectorate.",
+   "category": "colonization",
+   "era": "protectorate-independence",
+   "sources": [
+    {
+     "id": "wiki-bardo",
+     "label": "Treaty of Bardo (1881)",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Treaty_of_Bardo"
+    },
+    {
+     "id": "wiki-french-protectorate",
+     "label": "French protectorate of Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/French_protectorate_of_Tunisia"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1881-treaty-of-bardo",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1881-treaty-of-bardo, claim TL:TUN:event:1881:treaty-of-bardo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1934:neo-destour-founded",
+   "year": 1934,
+   "yearLabel": "1934",
+   "title": "Neo-Destour founded",
+   "summary": "Habib Bourguiba and colleagues break from the Destour to form the Neo-Destour, the engine of the independence movement.",
+   "category": "politics",
+   "era": "protectorate-independence",
+   "sources": [
+    {
+     "id": "wiki-neodestour",
+     "label": "Neo Destour",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Neo_Destour"
+    },
+    {
+     "id": "eb-bourguiba",
+     "label": "Habib Bourguiba",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Habib-Bourguiba"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1934-neo-destour-founded",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1934-neo-destour-founded, claim TL:TUN:event:1934:neo-destour-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1956:tunisian-independence",
+   "year": 1956,
+   "yearLabel": "20 March 1956",
+   "title": "Tunisian independence",
+   "summary": "France recognises Tunisian sovereignty; Bourguiba becomes prime minister.",
+   "category": "independence",
+   "era": "protectorate-independence",
+   "sources": [
+    {
+     "id": "wiki-independence",
+     "label": "Tunisian independence",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tunisian_independence"
+    },
+    {
+     "id": "eb-bourguiba",
+     "label": "Habib Bourguiba",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Habib-Bourguiba"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1956-tunisian-independence",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1956-tunisian-independence, claim TL:TUN:event:1956:tunisian-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1957:republic-proclaimed",
+   "year": 1957,
+   "yearLabel": "25 July 1957",
+   "title": "Republic proclaimed",
+   "summary": "The monarchy is abolished and Tunisia becomes a republic with Bourguiba as first president.",
+   "category": "politics",
+   "era": "protectorate-independence",
+   "sources": [
+    {
+     "id": "eb-bourguiba",
+     "label": "Habib Bourguiba",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Habib-Bourguiba"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1957-republic-proclaimed",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1957-republic-proclaimed, claim TL:TUN:event:1957:republic-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1956:code-of-personal-status",
+   "year": 1956,
+   "yearLabel": "1956",
+   "title": "Code of Personal Status",
+   "summary": "Bourguiba's government bans polygamy and expands women's rights, a landmark reform in the Arab world.",
+   "category": "culture",
+   "era": "republic-revolution",
+   "sources": [
+    {
+     "id": "wiki-personal-status",
+     "label": "Code of Personal Status in Tunisia",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Code_of_Personal_Status_in_Tunisia"
+    },
+    {
+     "id": "eb-bourguiba",
+     "label": "Habib Bourguiba",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Habib-Bourguiba"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1956-code-of-personal-status",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1956-code-of-personal-status, claim TL:TUN:event:1956:code-of-personal-status, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:1987:ben-ali-takes-power",
+   "year": 1987,
+   "yearLabel": "1987",
+   "title": "Ben Ali takes power",
+   "summary": "Zine El Abidine Ben Ali removes Bourguiba in a bloodless coup, beginning twenty-three years of authoritarian rule.",
+   "category": "politics",
+   "era": "republic-revolution",
+   "sources": [
+    {
+     "id": "eb-jasmine",
+     "label": "Jasmine Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Jasmine-Revolution"
+    },
+    {
+     "id": "wiki-jasmine",
+     "label": "Jasmine Revolution",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jasmine_Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-1987-ben-ali-takes-power",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-1987-ben-ali-takes-power, claim TL:TUN:event:1987:ben-ali-takes-power, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:2010:mohamed-bouazizi-self-immolation",
+   "year": 2010,
+   "yearLabel": "17 Dec 2010",
+   "title": "Mohamed Bouazizi self-immolation",
+   "summary": "A street vendor sets himself alight in Sidi Bouzid, triggering nationwide protests.",
+   "category": "politics",
+   "era": "republic-revolution",
+   "sources": [
+    {
+     "id": "eb-jasmine",
+     "label": "Jasmine Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Jasmine-Revolution"
+    },
+    {
+     "id": "wiki-jasmine",
+     "label": "Jasmine Revolution",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jasmine_Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-2010-mohamed-bouazizi-self-immolation",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-2010-mohamed-bouazizi-self-immolation, claim TL:TUN:event:2010:mohamed-bouazizi-self-immolation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUN:event:2011:jasmine-revolution-ousts-ben-ali",
+   "year": 2011,
+   "yearLabel": "14 Jan 2011",
+   "title": "Jasmine Revolution ousts Ben Ali",
+   "summary": "Ben Ali flees the country; the uprising sparks the wider Arab Spring and a Tunisian democratic transition.",
+   "category": "independence",
+   "era": "republic-revolution",
+   "sources": [
+    {
+     "id": "eb-jasmine",
+     "label": "Jasmine Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Jasmine-Revolution"
+    },
+    {
+     "id": "wiki-jasmine",
+     "label": "Jasmine Revolution",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jasmine_Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/TUN/chronicle#ev-2011-jasmine-revolution-ousts-ben-ali",
+   "citation": "Terralore, \"The Chronicle of Tunisia: From Carthage to the cradle of the Arab Spring\", terralore.co/country/TUN/chronicle#ev-2011-jasmine-revolution-ousts-ben-ali, claim TL:TUN:event:2011:jasmine-revolution-ousts-ben-ali, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

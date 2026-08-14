@@ -1,0 +1,830 @@
+{
+ "subject": "PSE",
+ "name": "Palestine",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/PSE",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:PSE:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 13711100000,
+   "display": "$14 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-gdp-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-gdp-2024, claim TL:PSE:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 2592.30591217647,
+   "display": "$2,592",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-gdpPerCapita-2024, claim TL:PSE:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": -26.5575264529877,
+   "display": "-26.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-gdpGrowth-2024, claim TL:PSE:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 53.6691458303782,
+   "display": "53.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-inflation-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-inflation-2024, claim TL:PSE:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 81.3136801569531,
+   "display": "81.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-tradePctGdp-2024, claim TL:PSE:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 5289152,
+   "display": "5.3 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-population-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-population-2024, claim TL:PSE:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 69.213,
+   "display": "69.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-lifeExpectancy-2024, claim TL:PSE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 87.1196014117004,
+   "display": "87.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-urbanPct-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-urbanPct-2024, claim TL:PSE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 3.25,
+   "display": "3.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-fertility-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-fertility-2024, claim TL:PSE:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 97.9389541214558,
+   "display": "97.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-literacy-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-literacy-2024, claim TL:PSE:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 33.291311,
+   "display": "33.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-wgiVoice-2024, claim TL:PSE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 33.8433017,
+   "display": "33.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-wgiStability-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-wgiStability-2024, claim TL:PSE:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 29.9794589,
+   "display": "30.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-wgiEffectiveness-2024, claim TL:PSE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 47.4876908,
+   "display": "47.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-wgiRegQuality-2024, claim TL:PSE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 39.9364904,
+   "display": "39.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-wgiRuleOfLaw-2024, claim TL:PSE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 36.3001054,
+   "display": "36.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-wgiCorruption-2024, claim TL:PSE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 10.73343945,
+   "display": "10.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-healthSpendPctGdp-2023, claim TL:PSE:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:physicians:2018",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 2.168,
+   "display": "2.17",
+   "unit": "per 1,000",
+   "observed": 2018,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-physicians-2018",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-physicians-2018, claim TL:PSE:physicians:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 37.9,
+   "display": "37.9",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-underFiveMortality-2024, claim TL:PSE:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 89,
+   "display": "89.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-measlesImmunisation-2024, claim TL:PSE:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 80.6420172046077,
+   "display": "80.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/PSE#claim-safeWater-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-safeWater-2024, claim TL:PSE:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 97.9389541214558,
+   "display": "97.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-literacyRate-2024",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-literacyRate-2024, claim TL:PSE:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:eduSpendPctGdp:2021",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.43442010879517,
+   "display": "5.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-eduSpendPctGdp-2021",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-eduSpendPctGdp-2021, claim TL:PSE:eduSpendPctGdp:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 91.4422361153306,
+   "display": "91.4%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-primaryEnrolment-2023, claim TL:PSE:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:secondaryEnrolment:2023",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 89.1210984011759,
+   "display": "89.1%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-secondaryEnrolment-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-secondaryEnrolment-2023, claim TL:PSE:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:tertiaryEnrolment:2023",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 44.4904623709098,
+   "display": "44.5%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-tertiaryEnrolment-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-tertiaryEnrolment-2023, claim TL:PSE:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:rdSpending:2013",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.45434,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2013,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-rdSpending-2013",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-rdSpending-2013, claim TL:PSE:rdSpending:2013, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:researchers:2013",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 584.35347,
+   "display": "584",
+   "unit": "per million",
+   "observed": 2013,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-researchers-2013",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-researchers-2013, claim TL:PSE:researchers:2013, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:internetUsers:2023",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 86.63765334,
+   "display": "86.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-internetUsers-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-internetUsers-2023, claim TL:PSE:internetUsers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:mobileSubs:2023",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 76.6918854204372,
+   "display": "77",
+   "unit": "per 100",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/PSE#claim-mobileSubs-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-mobileSubs-2023, claim TL:PSE:mobileSubs:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.84344953927492,
+   "display": "1.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-highTechExports-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-highTechExports-2023, claim TL:PSE:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 6025,
+   "display": "6,025 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-landArea-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-landArea-2023, claim TL:PSE:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 1.68298755186722,
+   "display": "1.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-forestPct-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-forestPct-2023, claim TL:PSE:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 64.9294605809129,
+   "display": "64.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-agriPct-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-agriPct-2023, claim TL:PSE:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 15.4,
+   "display": "15.4%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-renewablePct-2022",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-renewablePct-2022, claim TL:PSE:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-resourceRents-2021",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-resourceRents-2021, claim TL:PSE:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-oilRents-2021",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-oilRents-2021, claim TL:PSE:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-mineralRents-2021",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-mineralRents-2021, claim TL:PSE:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-forestRents-2021",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-forestRents-2021, claim TL:PSE:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-electricityAccess-2023, claim TL:PSE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PSE:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 0,
+   "display": "0",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/PSE#claim-armedForces-2020",
+   "citation": "Terralore, \"Palestine — national dossier\", terralore.co/country/PSE#claim-armedForces-2020, claim TL:PSE:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -1,0 +1,535 @@
+{
+ "subject": "BWA",
+ "name": "Botswana",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/BWA/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:BWA:event:24000bce:rock-art-at-tsodilo-hills",
+   "year": -24000,
+   "yearLabel": "c. 24,000 BP",
+   "title": "Rock art at Tsodilo Hills",
+   "summary": "San hunter-gatherers paint the Tsodilo Hills; some images are dated to around 24,000 years before present, part of a record of over 4,500 paintings.",
+   "category": "culture",
+   "era": "san-and-tsodilo",
+   "sources": [
+    {
+     "id": "unesco-tsodilo",
+     "label": "Tsodilo (World Heritage List)",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/1021/"
+    },
+    {
+     "id": "wiki-tsodilo",
+     "label": "Tsodilo",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tsodilo"
+    },
+    {
+     "id": "britmuseum-tsodilo",
+     "label": "Tsodilo Hills, Botswana — African Rock Art",
+     "publisher": "British Museum",
+     "url": "https://africanrockart.britishmuseum.org/country/botswana/tsodilo/"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-24000bce-rock-art-at-tsodilo-hills",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-24000bce-rock-art-at-tsodilo-hills, claim TL:BWA:event:24000bce:rock-art-at-tsodilo-hills, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1:herders-and-farmers-arrive",
+   "year": 1,
+   "yearLabel": "c. 2,000 years ago",
+   "title": "Herders and farmers arrive",
+   "summary": "Peoples bringing cattle, sheep and pottery move into present-day Botswana, beginning the long shift from hunter-gathering toward herding and farming societies.",
+   "category": "migration",
+   "era": "san-and-tsodilo",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    },
+    {
+     "id": "britannica-botswana",
+     "label": "Botswana — History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1-herders-and-farmers-arrive",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1-herders-and-farmers-arrive, claim TL:BWA:event:1:herders-and-farmers-arrive, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:200:early-bantu-settlement",
+   "year": 200,
+   "yearLabel": "c. 200 CE",
+   "title": "Early Bantu settlement",
+   "summary": "Bantu-speaking settlers, among them the ancestors of the Kalanga, establish farming and cattle-keeping communities in the eastern part of the region.",
+   "category": "migration",
+   "era": "san-and-tsodilo",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-200-early-bantu-settlement",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-200-early-bantu-settlement, claim TL:BWA:event:200:early-bantu-settlement, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1750:rise-of-the-tswana-merafe",
+   "year": 1750,
+   "yearLabel": "mid-18th century",
+   "title": "Rise of the Tswana merafe",
+   "summary": "The Bangwaketse form the first major Tswana state in the region, followed by the Bakwena, Bangwato and Batawana, cattle-keeping chiefdoms ruled by dikgosi.",
+   "category": "founding",
+   "era": "tswana-chiefdoms",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    },
+    {
+     "id": "britannica-botswana",
+     "label": "Botswana — History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1750-rise-of-the-tswana-merafe",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1750-rise-of-the-tswana-merafe, claim TL:BWA:event:1750:rise-of-the-tswana-merafe, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1810:the-difaqane-convulses-the-region",
+   "year": 1810,
+   "yearLabel": "early 19th century",
+   "title": "The difaqane convulses the region",
+   "summary": "Wars and forced migrations linked to the wider mfecane/difaqane disrupt Tswana society, bringing raiding, displacement and famine.",
+   "category": "war",
+   "era": "tswana-chiefdoms",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    },
+    {
+     "id": "sahistory-matabele",
+     "label": "Matabele Wars 1836–1896",
+     "publisher": "South African History Online",
+     "url": "https://www.sahistory.org.za/article/matabele-wars-1836-1896"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1810-the-difaqane-convulses-the-region",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1810-the-difaqane-convulses-the-region, claim TL:BWA:event:1810:the-difaqane-convulses-the-region, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1826:sebego-expels-the-kololo",
+   "year": 1826,
+   "yearLabel": "1826",
+   "title": "Sebego expels the Kololo",
+   "summary": "Sebego, regent of the Bangwaketse, raises some 4,000 men and permanently drives the invading Kololo out of the region.",
+   "category": "war",
+   "era": "tswana-chiefdoms",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1826-sebego-expels-the-kololo",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1826-sebego-expels-the-kololo, claim TL:BWA:event:1826:sebego-expels-the-kololo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1837:ndebele-raids-under-mzilikazi",
+   "year": 1837,
+   "yearLabel": "1830s",
+   "title": "Ndebele raids under Mzilikazi",
+   "summary": "Mzilikazi's Ndebele raid Tswana communities through the 1830s, capturing cattle, women and children before migrating north across the Limpopo.",
+   "category": "war",
+   "era": "tswana-chiefdoms",
+   "sources": [
+    {
+     "id": "sahistory-matabele",
+     "label": "Matabele Wars 1836–1896",
+     "publisher": "South African History Online",
+     "url": "https://www.sahistory.org.za/article/matabele-wars-1836-1896"
+    },
+    {
+     "id": "worldhistory-matabele",
+     "label": "Matabeleland: The Ndebele Empire in Southern Africa",
+     "publisher": "World History Encyclopedia",
+     "url": "https://www.worldhistory.org/Matabeleland/"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1837-ndebele-raids-under-mzilikazi",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1837-ndebele-raids-under-mzilikazi, claim TL:BWA:event:1837:ndebele-raids-under-mzilikazi, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1816:london-missionary-society-arrives",
+   "year": 1816,
+   "yearLabel": "1816",
+   "title": "London Missionary Society arrives",
+   "summary": "LMS missionaries reach the Tswana lands; Robert Moffat later founds Kuruman and translates the Bible into Setswana.",
+   "category": "religion",
+   "era": "missionaries-and-pressure",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    },
+    {
+     "id": "britannica-botswana",
+     "label": "Botswana — History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1816-london-missionary-society-arrives",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1816-london-missionary-society-arrives, claim TL:BWA:event:1816:london-missionary-society-arrives, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1845:livingstone-founds-kolobeng",
+   "year": 1845,
+   "yearLabel": "1845",
+   "title": "Livingstone founds Kolobeng",
+   "summary": "David Livingstone establishes the Kolobeng mission among the Bakwena near Kgosi Sechele, his only church and the source of his single convert.",
+   "category": "religion",
+   "era": "missionaries-and-pressure",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1845-livingstone-founds-kolobeng",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1845-livingstone-founds-kolobeng, claim TL:BWA:event:1845:livingstone-founds-kolobeng, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1852:boer-attack-on-the-bakwena",
+   "year": 1852,
+   "yearLabel": "1852",
+   "title": "Boer attack on the Bakwena",
+   "summary": "Transvaal Boers attack Sechele's Bakwena and sack Livingstone's Kolobeng mission, part of mounting pressure from the Transvaal on Tswana land.",
+   "category": "war",
+   "era": "missionaries-and-pressure",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1852-boer-attack-on-the-bakwena",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1852-boer-attack-on-the-bakwena, claim TL:BWA:event:1852:boer-attack-on-the-bakwena, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1875:khama-iii-becomes-kgosi-of-the-bangwato",
+   "year": 1875,
+   "yearLabel": "1875",
+   "title": "Khama III becomes kgosi of the Bangwato",
+   "summary": "The Christian reformer Khama III takes the Bangwato chieftainship, banning liquor and aligning his powerful morafe with the missionaries.",
+   "category": "politics",
+   "era": "missionaries-and-pressure",
+   "sources": [
+    {
+     "id": "encyaf-khama",
+     "label": "Khama III",
+     "publisher": "Encyclopaedia Africana",
+     "url": "https://encyclopaediaafricana.com/khama-iii/"
+    },
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1875-khama-iii-becomes-kgosi-of-the-bangwato",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1875-khama-iii-becomes-kgosi-of-the-bangwato, claim TL:BWA:event:1875:khama-iii-becomes-kgosi-of-the-bangwato, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1885:bechuanaland-protectorate-declared",
+   "year": 1885,
+   "yearLabel": "31 March 1885",
+   "title": "Bechuanaland Protectorate declared",
+   "summary": "After Sir Charles Warren's expedition, Britain proclaims a protectorate over the territory north of the Molopo to check Boer and German expansion.",
+   "category": "colonization",
+   "era": "bechuanaland-protectorate",
+   "sources": [
+    {
+     "id": "wiki-bechuanaland",
+     "label": "Bechuanaland Protectorate",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bechuanaland_Protectorate"
+    },
+    {
+     "id": "britannica-botswana",
+     "label": "Botswana — History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1885-bechuanaland-protectorate-declared",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1885-bechuanaland-protectorate-declared, claim TL:BWA:event:1885:bechuanaland-protectorate-declared, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1895:the-three-kings-mission-to-britain",
+   "year": 1895,
+   "yearLabel": "1895",
+   "title": "The three kings' mission to Britain",
+   "summary": "Khama III, Sebele I and Bathoen I travel to Britain and persuade the government to keep the protectorate out of Cecil Rhodes's British South Africa Company.",
+   "category": "politics",
+   "era": "bechuanaland-protectorate",
+   "sources": [
+    {
+     "id": "wiki-bechuanaland",
+     "label": "Bechuanaland Protectorate",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bechuanaland_Protectorate"
+    },
+    {
+     "id": "encyaf-khama",
+     "label": "Khama III",
+     "publisher": "Encyclopaedia Africana",
+     "url": "https://encyclopaediaafricana.com/khama-iii/"
+    },
+    {
+     "id": "wiki-bathoen",
+     "label": "Bathoen I",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bathoen_I"
+    },
+    {
+     "id": "makingafrican-willoughby",
+     "label": "William Charles Willoughby and the 1895 visit of the three kings",
+     "publisher": "Making African Connections Digital Archive",
+     "url": "https://makingafricanconnections.org/s/archive/item/2110"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1895-the-three-kings-mission-to-britain",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1895-the-three-kings-mission-to-britain, claim TL:BWA:event:1895:the-three-kings-mission-to-britain, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1895:capital-moved-to-mafeking",
+   "year": 1895,
+   "yearLabel": "1895",
+   "title": "Capital moved to Mafeking",
+   "summary": "The protectorate's administration is seated at Mafeking, a town outside the territory's own borders, where it remains until the 1960s.",
+   "category": "colonization",
+   "era": "bechuanaland-protectorate",
+   "sources": [
+    {
+     "id": "wiki-bechuanaland",
+     "label": "Bechuanaland Protectorate",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bechuanaland_Protectorate"
+    },
+    {
+     "id": "britannica-botswana",
+     "label": "Botswana — History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Botswana"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1895-capital-moved-to-mafeking",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1895-capital-moved-to-mafeking, claim TL:BWA:event:1895:capital-moved-to-mafeking, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1948:seretse-khama-marries-ruth-williams",
+   "year": 1948,
+   "yearLabel": "1948",
+   "title": "Seretse Khama marries Ruth Williams",
+   "summary": "Bangwato heir Seretse Khama marries Englishwoman Ruth Williams in London, igniting a crisis with apartheid South Africa and Britain.",
+   "category": "politics",
+   "era": "bechuanaland-protectorate",
+   "sources": [
+    {
+     "id": "britannica-seretse",
+     "label": "Sir Seretse Khama",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Seretse-Khama"
+    },
+    {
+     "id": "wiki-seretse",
+     "label": "Seretse Khama",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Seretse_Khama"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1948-seretse-khama-marries-ruth-williams",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1948-seretse-khama-marries-ruth-williams, claim TL:BWA:event:1948:seretse-khama-marries-ruth-williams, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1950:exile-and-return-of-seretse-khama",
+   "year": 1950,
+   "yearLabel": "1950–1956",
+   "title": "Exile and return of Seretse Khama",
+   "summary": "Britain exiles Seretse and Ruth to appease South Africa; he is allowed home in 1956 after renouncing the Bangwato throne, fuelling nationalism.",
+   "category": "politics",
+   "era": "bechuanaland-protectorate",
+   "sources": [
+    {
+     "id": "britannica-seretse",
+     "label": "Sir Seretse Khama",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Seretse-Khama"
+    },
+    {
+     "id": "wiki-seretse",
+     "label": "Seretse Khama",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Seretse_Khama"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1950-exile-and-return-of-seretse-khama",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1950-exile-and-return-of-seretse-khama, claim TL:BWA:event:1950:exile-and-return-of-seretse-khama, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1965:bdp-wins-the-first-general-election",
+   "year": 1965,
+   "yearLabel": "1965",
+   "title": "BDP wins the first general election",
+   "summary": "Seretse Khama's Bechuanaland Democratic Party wins self-government elections; Gaborone is built as the new capital.",
+   "category": "politics",
+   "era": "independence-and-democracy",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    },
+    {
+     "id": "britannica-seretse",
+     "label": "Sir Seretse Khama",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Seretse-Khama"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1965-bdp-wins-the-first-general-election",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1965-bdp-wins-the-first-general-election, claim TL:BWA:event:1965:bdp-wins-the-first-general-election, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1966:independence-of-botswana",
+   "year": 1966,
+   "yearLabel": "30 September 1966",
+   "title": "Independence of Botswana",
+   "summary": "The protectorate becomes the Republic of Botswana with Seretse Khama as first president, entering nationhood as one of the world's poorest states.",
+   "category": "independence",
+   "era": "independence-and-democracy",
+   "sources": [
+    {
+     "id": "wiki-history-bw",
+     "label": "History of Botswana",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Botswana"
+    },
+    {
+     "id": "britannica-seretse",
+     "label": "Sir Seretse Khama",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Seretse-Khama"
+    },
+    {
+     "id": "wiki-bechuanaland",
+     "label": "Bechuanaland Protectorate",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bechuanaland_Protectorate"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1966-independence-of-botswana",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1966-independence-of-botswana, claim TL:BWA:event:1966:independence-of-botswana, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1967:diamonds-discovered-at-orapa",
+   "year": 1967,
+   "yearLabel": "1967",
+   "title": "Diamonds discovered at Orapa",
+   "summary": "De Beers geologists locate a major diamond kimberlite pipe at Orapa, the find that would transform Botswana's economy.",
+   "category": "economy",
+   "era": "independence-and-democracy",
+   "sources": [
+    {
+     "id": "wiki-orapa",
+     "label": "Orapa diamond mine",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Orapa_diamond_mine"
+    },
+    {
+     "id": "theboar-botswana",
+     "label": "Diamonds to development: Botswana's post-independence economic growth",
+     "publisher": "The Boar",
+     "url": "https://theboar.org/2026/02/charlotte-roff-examines-how-botswana-used-diamond-wealth-and-strong-institutions-to-achieve-sustained-growth-while-avoiding-the-resource-curse/"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1967-diamonds-discovered-at-orapa",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1967-diamonds-discovered-at-orapa, claim TL:BWA:event:1967:diamonds-discovered-at-orapa, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1969:debswana-partnership-formed",
+   "year": 1969,
+   "yearLabel": "1969",
+   "title": "Debswana partnership formed",
+   "summary": "Botswana and De Beers form a 50-50 joint venture to mine diamonds, securing for the state a direct share of mineral wealth.",
+   "category": "economy",
+   "era": "independence-and-democracy",
+   "sources": [
+    {
+     "id": "wiki-orapa",
+     "label": "Orapa diamond mine",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Orapa_diamond_mine"
+    },
+    {
+     "id": "theboar-botswana",
+     "label": "Diamonds to development: Botswana's post-independence economic growth",
+     "publisher": "The Boar",
+     "url": "https://theboar.org/2026/02/charlotte-roff-examines-how-botswana-used-diamond-wealth-and-strong-institutions-to-achieve-sustained-growth-while-avoiding-the-resource-curse/"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1969-debswana-partnership-formed",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1969-debswana-partnership-formed, claim TL:BWA:event:1969:debswana-partnership-formed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BWA:event:1980:death-of-seretse-khama",
+   "year": 1980,
+   "yearLabel": "1980",
+   "title": "Death of Seretse Khama",
+   "summary": "Botswana's founding president dies in office; power passes peacefully to Vice-President Quett Masire, confirming the country's democratic stability.",
+   "category": "politics",
+   "era": "independence-and-democracy",
+   "sources": [
+    {
+     "id": "britannica-seretse",
+     "label": "Sir Seretse Khama",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Seretse-Khama"
+    },
+    {
+     "id": "wiki-seretse",
+     "label": "Seretse Khama",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Seretse_Khama"
+    }
+   ],
+   "url": "https://terralore.co/country/BWA/chronicle#ev-1980-death-of-seretse-khama",
+   "citation": "Terralore, \"The Chronicle of Botswana: From the rock art of the Kalahari to a diamond democracy\", terralore.co/country/BWA/chronicle#ev-1980-death-of-seretse-khama, claim TL:BWA:event:1980:death-of-seretse-khama, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

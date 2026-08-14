@@ -80,6 +80,8 @@ The 2013 Séléka coup triggered a sectarian civil war, leaving the country reli
 - 6 February 2019: **Khartoum peace agreement** — President Touadéra's government and fourteen armed groups signed a peace accord in Khartoum, but implementation was partial and fighting soon resumed. [wiki-car-civil-war]
 - 2020–2021: **CPC offensive and Wagner** — A rebel coalition (the CPC) attacked around the December 2020 elections; the government, increasingly backed by Russian Wagner Group mercenaries deployed from 2018, pushed it back with MINUSCA's help. [wiki-car-civil-war, factbook-car]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CAF:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CAF/chronicle.claims.json
+
 ## References
 
 - [britannica-car-history] Central African Republic — History — Encyclopaedia Britannica · https://www.britannica.com/place/Central-African-Republic/History

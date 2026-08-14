@@ -1,0 +1,990 @@
+{
+ "subject": "MEX",
+ "name": "Mexico",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/MEX",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MEX:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 1856365616165.94,
+   "display": "$1.86 T",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-gdp-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdp-2024, claim TL:MEX:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 14185.7812248529,
+   "display": "$14,186",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdpPerCapita-2024, claim TL:MEX:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 1.42742769080466,
+   "display": "1.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdpGrowth-2024, claim TL:MEX:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 4.72225588452932,
+   "display": "4.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-inflation-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-inflation-2024, claim TL:MEX:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 74.5889079825143,
+   "display": "74.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-tradePctGdp-2024, claim TL:MEX:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 130861007,
+   "display": "131 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-population-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-population-2024, claim TL:MEX:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 75.264,
+   "display": "75.3 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-lifeExpectancy-2024, claim TL:MEX:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 79.7538805976118,
+   "display": "79.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-urbanPct-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-urbanPct-2024, claim TL:MEX:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.892,
+   "display": "1.9",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-fertility-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-fertility-2024, claim TL:MEX:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 95.5500030517578,
+   "display": "95.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-literacy-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-literacy-2024, claim TL:MEX:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 50.9282349,
+   "display": "50.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiVoice-2024, claim TL:MEX:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 53.6732923,
+   "display": "53.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-wgiStability-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiStability-2024, claim TL:MEX:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 47.0640988,
+   "display": "47.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiEffectiveness-2024, claim TL:MEX:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 51.7749322,
+   "display": "51.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiRegQuality-2024, claim TL:MEX:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 37.1058908,
+   "display": "37.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiRuleOfLaw-2024, claim TL:MEX:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 28.8100291,
+   "display": "28.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiCorruption-2024, claim TL:MEX:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 5.50398684,
+   "display": "5.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-healthSpendPctGdp-2023, claim TL:MEX:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 2.588,
+   "display": "2.59",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-physicians-2022",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-physicians-2022, claim TL:MEX:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 13.1,
+   "display": "13.1",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-underFiveMortality-2024, claim TL:MEX:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 80,
+   "display": "80.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-measlesImmunisation-2024, claim TL:MEX:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 42.9666311513801,
+   "display": "43.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-safeWater-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-safeWater-2024, claim TL:MEX:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 95.5500030517578,
+   "display": "95.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-literacyRate-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-literacyRate-2024, claim TL:MEX:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.05987977981567,
+   "display": "4.1%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-eduSpendPctGdp-2022, claim TL:MEX:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 102.280960083008,
+   "display": "102.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-primaryEnrolment-2024, claim TL:MEX:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 103.093322753906,
+   "display": "103.1%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-secondaryEnrolment-2024, claim TL:MEX:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 48.203441619873,
+   "display": "48.2%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-tertiaryEnrolment-2024, claim TL:MEX:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:rdSpending:2024",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.25372,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-rdSpending-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-rdSpending-2024, claim TL:MEX:rdSpending:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:researchers:2024",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 438.24497,
+   "display": "438",
+   "unit": "per million",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-researchers-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-researchers-2024, claim TL:MEX:researchers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 83.12233799,
+   "display": "83.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-internetUsers-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-internetUsers-2024, claim TL:MEX:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 116.486713265167,
+   "display": "116",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/MEX#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-mobileSubs-2024, claim TL:MEX:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 19.3037596613987,
+   "display": "19.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-highTechExports-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-highTechExports-2024, claim TL:MEX:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 1943950,
+   "display": "1,943,950 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-landArea-2023",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-landArea-2023, claim TL:MEX:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 33.5959176419147,
+   "display": "33.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-forestPct-2023",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-forestPct-2023, claim TL:MEX:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 50.6933879986625,
+   "display": "50.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-agriPct-2023",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-agriPct-2023, claim TL:MEX:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 3.63738680384754,
+   "display": "3.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-co2PerCapita-2024, claim TL:MEX:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 13,
+   "display": "13.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-renewablePct-2021",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-renewablePct-2021, claim TL:MEX:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 3.64307338835023,
+   "display": "3.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-resourceRents-2021",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-resourceRents-2021, claim TL:MEX:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 2.06594374719816,
+   "display": "2.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-oilRents-2021",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-oilRents-2021, claim TL:MEX:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 1.36465937318187,
+   "display": "1.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-mineralRents-2021",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-mineralRents-2021, claim TL:MEX:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.105388324112049,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-forestRents-2021",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-forestRents-2021, claim TL:MEX:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 99.7,
+   "display": "99.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-electricityAccess-2023, claim TL:MEX:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodCopper:2025",
+   "domain": "resources",
+   "metric": "prodCopper",
+   "label": "Copper (mined)",
+   "value": 690000,
+   "display": "690 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-prodCopper-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodCopper-2025, claim TL:MEX:prodCopper:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodIronOre:2025",
+   "domain": "resources",
+   "metric": "prodIronOre",
+   "label": "Iron ore",
+   "value": 7700000,
+   "display": "7.7 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-prodIronOre-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodIronOre-2025, claim TL:MEX:prodIronOre:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodGold:2025",
+   "domain": "resources",
+   "metric": "prodGold",
+   "label": "Gold (mined)",
+   "value": 140,
+   "display": "140 t",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-prodGold-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodGold-2025, claim TL:MEX:prodGold:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodZinc:2025",
+   "domain": "resources",
+   "metric": "prodZinc",
+   "label": "Zinc (mined)",
+   "value": 780000,
+   "display": "780 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-prodZinc-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodZinc-2025, claim TL:MEX:prodZinc:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodPhosphate:2025",
+   "domain": "resources",
+   "metric": "prodPhosphate",
+   "label": "Phosphate rock",
+   "value": 450000,
+   "display": "450 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/MEX#claim-prodPhosphate-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodPhosphate-2025, claim TL:MEX:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.893257529320534,
+   "display": "0.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-milExpPctGdp-2024, claim TL:MEX:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 16726425452.0934,
+   "display": "$17 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-milExpUsd-2024, claim TL:MEX:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 341000,
+   "display": "341,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/MEX#claim-armedForces-2020",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-armedForces-2020, claim TL:MEX:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

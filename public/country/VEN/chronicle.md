@@ -86,6 +86,8 @@ Figures:
 - Hugo Chavez (1954-2013) — President, founder of the Bolivarian Revolution. Army officer who led a failed 1992 coup, won the presidency in 1998, and reshaped Venezuela through the Bolivarian Revolution, a polarising oil-funded socialist project, until his death from cancer in 2013.
 - Nicolas Maduro (born 1962) — President. Chavez's chosen successor, narrowly elected in 2013, under whom Venezuela suffered a severe economic collapse and mass emigration, and whose 2024 re-election was widely disputed.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:VEN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/VEN/chronicle.claims.json
+
 ## References
 
 - [britannica-venezuela] Venezuela — Encyclopaedia Britannica · https://www.britannica.com/place/Venezuela

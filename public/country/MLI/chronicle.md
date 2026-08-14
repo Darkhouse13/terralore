@@ -83,6 +83,8 @@ Figures:
 
 - Amadou Toumani Touré (1948–2020) — Soldier and President of Mali. Led the 1991 coup that ended Traoré's rule and oversaw the transition to democracy, then served as elected president (2002–2012) until himself ousted in the 2012 coup.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MLI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MLI/chronicle.claims.json
+
 ## References
 
 - [met-transsaharan] The Trans-Saharan Gold Trade (7th–14th Century) — The Metropolitan Museum of Art · https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century

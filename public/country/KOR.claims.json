@@ -1,0 +1,890 @@
+{
+ "subject": "KOR",
+ "name": "South Korea",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/KOR",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:KOR:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 1875388209406.8,
+   "display": "$1.88 T",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-gdp-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdp-2024, claim TL:KOR:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 36238.639908315,
+   "display": "$36,239",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdpPerCapita-2024, claim TL:KOR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.00361101838986,
+   "display": "2.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdpGrowth-2024, claim TL:KOR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.32174328643542,
+   "display": "2.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-inflation-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-inflation-2024, claim TL:KOR:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 84.6424951192038,
+   "display": "84.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-tradePctGdp-2024, claim TL:KOR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 51751065,
+   "display": "52 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-population-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-population-2024, claim TL:KOR:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 83.6292682926829,
+   "display": "83.6 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-lifeExpectancy-2024, claim TL:KOR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 81.1682528469686,
+   "display": "81.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-urbanPct-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-urbanPct-2024, claim TL:KOR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 0.748,
+   "display": "0.7",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-fertility-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-fertility-2024, claim TL:KOR:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:literacy:2008",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 97.9700012207031,
+   "display": "98.0%",
+   "unit": "%",
+   "observed": 2008,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-literacy-2008",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-literacy-2008, claim TL:KOR:literacy:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 70.987799,
+   "display": "71.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-wgiVoice-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiVoice-2024, claim TL:KOR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 76.8155059,
+   "display": "76.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-wgiStability-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiStability-2024, claim TL:KOR:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 80.2483639,
+   "display": "80.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiEffectiveness-2024, claim TL:KOR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 70.8498709,
+   "display": "70.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiRegQuality-2024, claim TL:KOR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 76.19689,
+   "display": "76.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiRuleOfLaw-2024, claim TL:KOR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 65.0511972,
+   "display": "65.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiCorruption-2024, claim TL:KOR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:healthSpendPctGdp:2024",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 8.67656994,
+   "display": "8.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-healthSpendPctGdp-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-healthSpendPctGdp-2024, claim TL:KOR:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 2.61,
+   "display": "2.61",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-physicians-2022",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-physicians-2022, claim TL:KOR:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 2.8,
+   "display": "2.8",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-underFiveMortality-2024, claim TL:KOR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 97,
+   "display": "97.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-measlesImmunisation-2024, claim TL:KOR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 99.2826694575636,
+   "display": "99.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/KOR#claim-safeWater-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-safeWater-2024, claim TL:KOR:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:literacyRate:2008",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 97.9700012207031,
+   "display": "98.0%",
+   "unit": "%",
+   "observed": 2008,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-literacyRate-2008",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-literacyRate-2008, claim TL:KOR:literacyRate:2008, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.40910005569458,
+   "display": "5.4%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-eduSpendPctGdp-2022, claim TL:KOR:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 100.866508483887,
+   "display": "100.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-primaryEnrolment-2024, claim TL:KOR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 96.2539901733398,
+   "display": "96.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-secondaryEnrolment-2024, claim TL:KOR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 111.853302001953,
+   "display": "111.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-tertiaryEnrolment-2024, claim TL:KOR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 4.94352,
+   "display": "4.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-rdSpending-2023",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-rdSpending-2023, claim TL:KOR:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 9471.82543,
+   "display": "9,472",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-researchers-2023",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-researchers-2023, claim TL:KOR:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 97.89563777,
+   "display": "97.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-internetUsers-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-internetUsers-2024, claim TL:KOR:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 172.520241179065,
+   "display": "173",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/KOR#claim-mobileSubs-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-mobileSubs-2024, claim TL:KOR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 36.2582559366674,
+   "display": "36.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-highTechExports-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-highTechExports-2024, claim TL:KOR:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 97600,
+   "display": "97,600 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-landArea-2023",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-landArea-2023, claim TL:KOR:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 64.108606557377,
+   "display": "64.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-forestPct-2023",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-forestPct-2023, claim TL:KOR:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 16.0655737704918,
+   "display": "16.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-agriPct-2023",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-agriPct-2023, claim TL:KOR:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 11.3622569893006,
+   "display": "11.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-co2PerCapita-2024, claim TL:KOR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 3.6,
+   "display": "3.6%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-renewablePct-2021",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-renewablePct-2021, claim TL:KOR:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.049812574781783,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-resourceRents-2021",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-resourceRents-2021, claim TL:KOR:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.0283124162355571,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-oilRents-2021",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-oilRents-2021, claim TL:KOR:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.000483293114651688,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-mineralRents-2021",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-mineralRents-2021, claim TL:KOR:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0147189954905301,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-forestRents-2021",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-forestRents-2021, claim TL:KOR:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-electricityAccess-2023",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-electricityAccess-2023, claim TL:KOR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.56205259386748,
+   "display": "2.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-milExpPctGdp-2024, claim TL:KOR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 47571318596.7228,
+   "display": "$48 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-milExpUsd-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-milExpUsd-2024, claim TL:KOR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 569000,
+   "display": "569,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/KOR#claim-armedForces-2020",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-armedForces-2020, claim TL:KOR:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

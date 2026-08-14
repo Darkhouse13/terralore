@@ -98,6 +98,8 @@ Figures:
 - Francisco Franco (1892 – 1975) — Dictator of Spain. Leader of the Nationalist forces in the civil war, Franco ruled Spain as an authoritarian dictator from 1939 until his death in 1975, suppressing dissent and regional identities through a repressive one-party state.
 - Adolfo Suárez (1932 – 2014) — Prime minister of the democratic transition. As Spain's first democratically elected prime minister of the post-Franco era, Suárez dismantled the institutions of the dictatorship, legalised political parties and guided the country to the 1978 constitution.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ESP:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ESP/chronicle.claims.json
+
 ## References
 
 - [spain-britannica] Spain — Encyclopaedia Britannica · https://www.britannica.com/place/Spain

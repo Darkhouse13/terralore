@@ -93,6 +93,8 @@ Figures:
 - Yoweri Museveni (born 1944) — President of Uganda (from 1986). Guerrilla leader of the National Resistance Army who seized Kampala in 1986 and went on to rule for more than three decades, restoring stability and the economy but removing constitutional limits on his power.
 - Joseph Kony (born c. 1961) — Leader of the Lord's Resistance Army. Self-proclaimed spirit medium who led the Lord's Resistance Army from 1987 in a brutal insurgency in northern Uganda, later indicted by the International Criminal Court for crimes against humanity.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:UGA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/UGA/chronicle.claims.json
+
 ## References
 
 - [wiki-history-uganda] History of Uganda — Wikipedia · https://en.wikipedia.org/wiki/History_of_Uganda

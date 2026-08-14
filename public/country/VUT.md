@@ -97,6 +97,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:VUT:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/VUT.claims.json
+
 History: "Eighty islands of ash, coral and kastom" — the sourced chronicle is at https://terralore.co/country/VUT/chronicle.md (6 eras, 19 events).
 
 ## Sources

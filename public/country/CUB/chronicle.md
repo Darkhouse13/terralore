@@ -83,6 +83,8 @@ Figures:
 - Raul Castro (born 1931) — Revolutionary and head of state. Fidel Castro's brother and comrade from the revolution who served as president from 2008 and led the Communist Party until 2021. He oversaw cautious economic reform and the 2014-15 opening to the United States.
 - Miguel Diaz-Canel (born 1960) — President of Cuba. Politician who became president in 2018 and first secretary of the Communist Party in 2021, the first person not named Castro to hold Cuba's leading posts since the 1959 revolution.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CUB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CUB/chronicle.claims.json
+
 ## References
 
 - [britannica-taino] Taino — Encyclopaedia Britannica · https://www.britannica.com/topic/Taino

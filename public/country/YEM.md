@@ -103,6 +103,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:YEM:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/YEM.claims.json
+
 History: "From the incense kingdoms of Saba and the great Marib Dam to the long Zaidi imamate, the union of two states, and a war the UN calls one of the world's worst humanitarian crises." — the sourced chronicle is at https://terralore.co/country/YEM/chronicle.md (6 eras, 25 events).
 
 ## Sources

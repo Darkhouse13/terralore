@@ -78,6 +78,8 @@ From the 1970s a Māori cultural and legal renaissance reshaped the nation: the 
 - 1995: **Waikato-Tainui settlement and Crown apology** — The Crown signed a Deed of Settlement with Waikato-Tainui including a formal royal apology for the wars and confiscations of the 1860s, a model for later Treaty settlements such as Ngāi Tahu in 1998. [teara-settlements, nzh-raupatu]
 - 1990 / 1993: **UNESCO World Heritage recognition** — Tongariro National Park — inscribed for its dual natural and Māori cultural significance — and Te Wahipounamu in the south were recognised by UNESCO, honouring both landscape and Māori heritage. [unesco-tongariro, unesco-tewahipounamu]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NZL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NZL/chronicle.claims.json
+
 ## References
 
 - [brit-nz] New Zealand (country) — Encyclopaedia Britannica · https://www.britannica.com/place/New-Zealand

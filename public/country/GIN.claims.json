@@ -1,0 +1,850 @@
+{
+ "subject": "GIN",
+ "name": "Guinea",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/GIN",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:GIN:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 25008678293.4084,
+   "display": "$25 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-gdp-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-gdp-2024, claim TL:GIN:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1694.95375862193,
+   "display": "$1,695",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-gdpPerCapita-2024, claim TL:GIN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 5.35004659051708,
+   "display": "5.4%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-gdpGrowth-2024, claim TL:GIN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 8.12313914948596,
+   "display": "8.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-inflation-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-inflation-2024, claim TL:GIN:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 97.7778177312748,
+   "display": "97.8%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-tradePctGdp-2024, claim TL:GIN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 14754785,
+   "display": "15 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-population-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-population-2024, claim TL:GIN:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 60.904,
+   "display": "60.9 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-lifeExpectancy-2024, claim TL:GIN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 38.0713036688655,
+   "display": "38.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-urbanPct-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-urbanPct-2024, claim TL:GIN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 4.131,
+   "display": "4.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-fertility-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-fertility-2024, claim TL:GIN:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:literacy:2018",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 39.6199989318848,
+   "display": "39.6%",
+   "unit": "%",
+   "observed": 2018,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-literacy-2018",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-literacy-2018, claim TL:GIN:literacy:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 35.6814842,
+   "display": "35.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-wgiVoice-2024, claim TL:GIN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 48.1677456,
+   "display": "48.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-wgiStability-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-wgiStability-2024, claim TL:GIN:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 34.0710252,
+   "display": "34.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-wgiEffectiveness-2024, claim TL:GIN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 40.7989887,
+   "display": "40.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-wgiRegQuality-2024, claim TL:GIN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 37.2080174,
+   "display": "37.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-wgiRuleOfLaw-2024, claim TL:GIN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 24.0821006,
+   "display": "24.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-wgiCorruption-2024, claim TL:GIN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.69442987,
+   "display": "3.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-healthSpendPctGdp-2023, claim TL:GIN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.21,
+   "display": "0.21",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-physicians-2022",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-physicians-2022, claim TL:GIN:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 92.1,
+   "display": "92.1",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-underFiveMortality-2024, claim TL:GIN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 60,
+   "display": "60.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-measlesImmunisation-2024, claim TL:GIN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:literacyRate:2018",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 39.6199989318848,
+   "display": "39.6%",
+   "unit": "%",
+   "observed": 2018,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-literacyRate-2018",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-literacyRate-2018, claim TL:GIN:literacyRate:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 1.72470879088585,
+   "display": "1.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-eduSpendPctGdp-2023, claim TL:GIN:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:primaryEnrolment:2020",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 100.474517822266,
+   "display": "100.5%",
+   "unit": "% gross",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-primaryEnrolment-2020",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-primaryEnrolment-2020, claim TL:GIN:primaryEnrolment:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:secondaryEnrolment:2014",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 38.5548782348633,
+   "display": "38.6%",
+   "unit": "% gross",
+   "observed": 2014,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-secondaryEnrolment-2014",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-secondaryEnrolment-2014, claim TL:GIN:secondaryEnrolment:2014, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:tertiaryEnrolment:2014",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 10.8547201156616,
+   "display": "10.9%",
+   "unit": "% gross",
+   "observed": 2014,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-tertiaryEnrolment-2014",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-tertiaryEnrolment-2014, claim TL:GIN:tertiaryEnrolment:2014, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 33.30469894,
+   "display": "33.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/GIN#claim-internetUsers-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-internetUsers-2024, claim TL:GIN:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:mobileSubs:2023",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 97.8794996455513,
+   "display": "98",
+   "unit": "per 100",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/GIN#claim-mobileSubs-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-mobileSubs-2023, claim TL:GIN:mobileSubs:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:highTechExports:2016",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 0.899971742078623,
+   "display": "0.9%",
+   "unit": "%",
+   "observed": 2016,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-highTechExports-2016",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-highTechExports-2016, claim TL:GIN:highTechExports:2016, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 245720,
+   "display": "245,720 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-landArea-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-landArea-2023, claim TL:GIN:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 24.6988442129253,
+   "display": "24.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-forestPct-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-forestPct-2023, claim TL:GIN:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 73.2292487384014,
+   "display": "73.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-agriPct-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-agriPct-2023, claim TL:GIN:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.352794025802477,
+   "display": "0.4",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-co2PerCapita-2024, claim TL:GIN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 66.6,
+   "display": "66.6%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-renewablePct-2022",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-renewablePct-2022, claim TL:GIN:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 4.51955879028644,
+   "display": "4.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-resourceRents-2021",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-resourceRents-2021, claim TL:GIN:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-oilRents-2021",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-oilRents-2021, claim TL:GIN:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-mineralRents-2021",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-mineralRents-2021, claim TL:GIN:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 4.51955879028644,
+   "display": "4.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-forestRents-2021",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-forestRents-2021, claim TL:GIN:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 51.1,
+   "display": "51.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-electricityAccess-2023, claim TL:GIN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:prodBauxite:2025",
+   "domain": "resources",
+   "metric": "prodBauxite",
+   "label": "Bauxite",
+   "value": 150000000,
+   "display": "150 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/GIN#claim-prodBauxite-2025",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-prodBauxite-2025, claim TL:GIN:prodBauxite:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.05370337042453,
+   "display": "2.1%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-milExpPctGdp-2024, claim TL:GIN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 562455950.499682,
+   "display": "$562 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-milExpUsd-2024, claim TL:GIN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GIN:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 13000,
+   "display": "13,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/GIN#claim-armedForces-2020",
+   "citation": "Terralore, \"Guinea — national dossier\", terralore.co/country/GIN#claim-armedForces-2020, claim TL:GIN:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

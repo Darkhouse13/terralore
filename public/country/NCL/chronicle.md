@@ -74,6 +74,8 @@ The Accord's three referendums all rejected independence — the third boycotted
 - 21 November 2025: **The FLNKS loses its moderates** — PALIKA and then the UPM quit the coalition that had carried the independence cause since 1984, and five FLNKS members resign from the eleven-member executive. [rnz-flnks-split]
 - 2024–2025: **Nickel, still the ground everyone stands on** — Through the unrest and its aftermath the territory mined 116,000 tonnes of nickel in 2024 and an estimated 140,000 in 2025 — one of the largest outputs on earth, and the revenue any future status has to be paid for out of. [usgs-mcs-ncl]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NCL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NCL/chronicle.claims.json
+
 ## References
 
 - [britannica-ncl] New Caledonia — Encyclopaedia Britannica · https://www.britannica.com/place/New-Caledonia-French-unique-collectivity-Pacific-Ocean

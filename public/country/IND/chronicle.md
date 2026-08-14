@@ -82,6 +82,8 @@ Figures:
 - Jawaharlal Nehru (1889–1964) — First Prime Minister of India. A leading figure of the independence movement and India's first prime minister, who shaped the new republic's democratic institutions, secular constitution and non-aligned foreign policy.
 - B. R. Ambedkar (1891–1956) — Chief architect of the Constitution. A jurist, economist and social reformer who chaired the drafting committee of the Constitution and championed the rights of the Dalits and other marginalised communities.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:IND:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/IND/chronicle.claims.json
+
 ## References
 
 - [worldhistory-indus] Indus Valley Civilization — World History Encyclopedia · https://www.worldhistory.org/Indus_Valley_Civilization/

@@ -91,6 +91,8 @@ Figures:
 
 - Frederick Chiluba (1943–2011) — Second President of Zambia. Trade unionist who led the Movement for Multiparty Democracy to victory in 1991, ending Kaunda's long rule; his presidency liberalised the economy but was later marked by corruption allegations.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ZMB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ZMB/chronicle.claims.json
+
 ## References
 
 - [britannica-zambia-history] History of Zambia — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Zambia

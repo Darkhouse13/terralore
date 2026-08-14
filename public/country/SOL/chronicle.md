@@ -70,6 +70,8 @@ Three decades of de facto self-rule have not resolved Somaliland's status, which
 - 26 December 2025: **Israel recognises Somaliland** — Israel announced formal recognition of Somaliland — the first UN member state to do so. Somalia condemned the step as unlawful, and a broad range of states at the UN reaffirmed that they regard Somaliland as part of Somalia. [aljazeera-israel, un-sc-meeting, britannica-who-recognizes]
 - as of mid-2026: **Status still disputed and unresolved** — Somaliland continues to govern itself de facto and claims sovereignty, yet it is recognised by only one UN member state; the African Union and the great majority of governments still regard it as part of Somalia, leaving its status unsettled. [wiki-international-recognition, britannica-who-recognizes, un-sc-meeting]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SOL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SOL/chronicle.claims.json
+
 ## References
 
 - [wiki-zeila] Zeila — Wikipedia · https://en.wikipedia.org/wiki/Zeila

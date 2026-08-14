@@ -1,0 +1,555 @@
+{
+ "subject": "THA",
+ "name": "Thailand",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/THA/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:THA:event:1238:founding-of-the-sukhothai-kingdom",
+   "year": 1238,
+   "yearLabel": "1238",
+   "title": "Founding of the Sukhothai kingdom",
+   "summary": "Tai chiefs cast off Khmer rule and establish Sukhothai in the upper Chao Phraya valley, traditionally counted as the first independent Thai kingdom.",
+   "category": "founding",
+   "era": "tai-origins-sukhothai",
+   "sources": [
+    {
+     "id": "eb-sukhothai",
+     "label": "Sukhothai kingdom",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Sukhothai-kingdom"
+    },
+    {
+     "id": "unesco-sukhothai",
+     "label": "Historic Town of Sukhothai and Associated Historic Towns",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/574/"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1238-founding-of-the-sukhothai-kingdom",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1238-founding-of-the-sukhothai-kingdom, claim TL:THA:event:1238:founding-of-the-sukhothai-kingdom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1283:creation-of-the-thai-script",
+   "year": 1283,
+   "yearLabel": "1283",
+   "title": "Creation of the Thai script",
+   "summary": "King Ramkhamhaeng is traditionally credited with devising the Thai alphabet, recorded on a stone inscription dated 1292, the earliest known text in the Thai language.",
+   "category": "culture",
+   "era": "tai-origins-sukhothai",
+   "sources": [
+    {
+     "id": "eb-ramkhamhaeng",
+     "label": "Ramkhamhaeng",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Ramkhamhaeng"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1283-creation-of-the-thai-script",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1283-creation-of-the-thai-script, claim TL:THA:event:1283:creation-of-the-thai-script, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1279:reign-of-ramkhamhaeng-the-great",
+   "year": 1279,
+   "yearLabel": "c. 1279–1298",
+   "title": "Reign of Ramkhamhaeng the Great",
+   "summary": "Sukhothai reaches its zenith under Ramkhamhaeng, who expands its reach, opens relations with China, and champions Theravada Buddhism.",
+   "category": "politics",
+   "era": "tai-origins-sukhothai",
+   "sources": [
+    {
+     "id": "eb-ramkhamhaeng",
+     "label": "Ramkhamhaeng",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Ramkhamhaeng"
+    },
+    {
+     "id": "eb-sukhothai",
+     "label": "Sukhothai kingdom",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Sukhothai-kingdom"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1279-reign-of-ramkhamhaeng-the-great",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1279-reign-of-ramkhamhaeng-the-great, claim TL:THA:event:1279:reign-of-ramkhamhaeng-the-great, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1438:sukhothai-absorbed-by-ayutthaya",
+   "year": 1438,
+   "yearLabel": "by 1438",
+   "title": "Sukhothai absorbed by Ayutthaya",
+   "summary": "After a century of decline, Sukhothai is reduced to a vassal and finally incorporated into the expanding kingdom of Ayutthaya.",
+   "category": "politics",
+   "era": "tai-origins-sukhothai",
+   "sources": [
+    {
+     "id": "eb-sukhothai",
+     "label": "Sukhothai kingdom",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Sukhothai-kingdom"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1438-sukhothai-absorbed-by-ayutthaya",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1438-sukhothai-absorbed-by-ayutthaya, claim TL:THA:event:1438:sukhothai-absorbed-by-ayutthaya, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1351:foundation-of-ayutthaya",
+   "year": 1351,
+   "yearLabel": "1351",
+   "title": "Foundation of Ayutthaya",
+   "summary": "King Ramathibodi I founds Ayutthaya at the meeting of three rivers, beginning a kingdom that would dominate the Chao Phraya basin for over four centuries.",
+   "category": "founding",
+   "era": "ayutthaya",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    },
+    {
+     "id": "unesco-ayutthaya",
+     "label": "Historic City of Ayutthaya",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/576/"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1351-foundation-of-ayutthaya",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1351-foundation-of-ayutthaya, claim TL:THA:event:1351:foundation-of-ayutthaya, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1569:first-burmese-conquest-of-ayutthaya",
+   "year": 1569,
+   "yearLabel": "1569",
+   "title": "First Burmese conquest of Ayutthaya",
+   "summary": "Burmese forces capture Ayutthaya and reduce it to vassalage; the kingdom later recovers its full independence under King Naresuan.",
+   "category": "war",
+   "era": "ayutthaya",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1569-first-burmese-conquest-of-ayutthaya",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1569-first-burmese-conquest-of-ayutthaya, claim TL:THA:event:1569:first-burmese-conquest-of-ayutthaya, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1656:reign-of-king-narai-and-the-french-embassies",
+   "year": 1656,
+   "yearLabel": "1656–1688",
+   "title": "Reign of King Narai and the French embassies",
+   "summary": "Under Narai, Ayutthaya reaches a height of international contact, exchanging embassies with Louis XIV's France and welcoming traders from across Eurasia.",
+   "category": "culture",
+   "era": "ayutthaya",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    },
+    {
+     "id": "unesco-ayutthaya",
+     "label": "Historic City of Ayutthaya",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/576/"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1656-reign-of-king-narai-and-the-french-embassies",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1656-reign-of-king-narai-and-the-french-embassies, claim TL:THA:event:1656:reign-of-king-narai-and-the-french-embassies, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1767:sack-of-ayutthaya-by-burma",
+   "year": 1767,
+   "yearLabel": "1767",
+   "title": "Sack of Ayutthaya by Burma",
+   "summary": "A Burmese army storms and burns Ayutthaya after a prolonged siege, ending the kingdom and leaving the celebrated city in ruins.",
+   "category": "war",
+   "era": "ayutthaya",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    },
+    {
+     "id": "eb-taksin",
+     "label": "Taksin",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Taksin"
+    },
+    {
+     "id": "unesco-ayutthaya",
+     "label": "Historic City of Ayutthaya",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/576/"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1767-sack-of-ayutthaya-by-burma",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1767-sack-of-ayutthaya-by-burma, claim TL:THA:event:1767:sack-of-ayutthaya-by-burma, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1767:taksin-establishes-thonburi",
+   "year": 1767,
+   "yearLabel": "1767",
+   "title": "Taksin establishes Thonburi",
+   "summary": "Taksin rallies resistance after the fall of Ayutthaya, drives out the Burmese, and founds a new capital at Thonburi, where he is crowned king.",
+   "category": "founding",
+   "era": "thonburi-early-bangkok",
+   "sources": [
+    {
+     "id": "eb-taksin",
+     "label": "Taksin",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Taksin"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1767-taksin-establishes-thonburi",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1767-taksin-establishes-thonburi, claim TL:THA:event:1767:taksin-establishes-thonburi, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1782:founding-of-the-chakri-dynasty-and-bangkok",
+   "year": 1782,
+   "yearLabel": "1782",
+   "title": "Founding of the Chakri dynasty and Bangkok",
+   "summary": "After Taksin's fall, the general Chao Phraya Chakri takes the throne as Rama I, founds the Chakri dynasty, and establishes the new capital of Bangkok.",
+   "category": "founding",
+   "era": "thonburi-early-bangkok",
+   "sources": [
+    {
+     "id": "eb-rama-i",
+     "label": "Rama I",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Rama-I"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1782-founding-of-the-chakri-dynasty-and-bangkok",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1782-founding-of-the-chakri-dynasty-and-bangkok, claim TL:THA:event:1782:founding-of-the-chakri-dynasty-and-bangkok, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1782:reign-of-rama-i",
+   "year": 1782,
+   "yearLabel": "1782–1809",
+   "title": "Reign of Rama I",
+   "summary": "Rama I rebuilds the Siamese state, revising its laws and Buddhist scriptures and restoring its power over neighbouring vassal states.",
+   "category": "politics",
+   "era": "thonburi-early-bangkok",
+   "sources": [
+    {
+     "id": "eb-rama-i",
+     "label": "Rama I",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Rama-I"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1782-reign-of-rama-i",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1782-reign-of-rama-i, claim TL:THA:event:1782:reign-of-rama-i, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1855:the-bowring-treaty",
+   "year": 1855,
+   "yearLabel": "1855",
+   "title": "The Bowring Treaty",
+   "summary": "King Mongkut signs the Bowring Treaty with Britain, opening Siam to Western trade and granting extraterritoriality; comparable treaties with other powers follow.",
+   "category": "economy",
+   "era": "siam-survival-reform",
+   "sources": [
+    {
+     "id": "eb-bowring",
+     "label": "Bowring Treaty",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Bowring-Treaty"
+    },
+    {
+     "id": "eb-mongkut",
+     "label": "Mongkut (Rama IV)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Mongkut"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1855-the-bowring-treaty",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1855-the-bowring-treaty, claim TL:THA:event:1855:the-bowring-treaty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1868:reforms-of-chulalongkorn-rama-v",
+   "year": 1868,
+   "yearLabel": "1868–1910",
+   "title": "Reforms of Chulalongkorn (Rama V)",
+   "summary": "Chulalongkorn abolishes slavery, reorganises the administration, and modernises law, finance, education, and infrastructure, building a centralised modern state.",
+   "category": "politics",
+   "era": "siam-survival-reform",
+   "sources": [
+    {
+     "id": "eb-chulalongkorn",
+     "label": "Chulalongkorn (Rama V)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Chulalongkorn"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1868-reforms-of-chulalongkorn-rama-v",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1868-reforms-of-chulalongkorn-rama-v, claim TL:THA:event:1868:reforms-of-chulalongkorn-rama-v, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1893:franco-siamese-crisis-and-loss-of-laos",
+   "year": 1893,
+   "yearLabel": "1893",
+   "title": "Franco-Siamese crisis and loss of Laos",
+   "summary": "After French gunboats threaten Bangkok, Siam cedes the Lao territories east of the Mekong to French Indochina, the heaviest of its frontier concessions.",
+   "category": "war",
+   "era": "siam-survival-reform",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1893-franco-siamese-crisis-and-loss-of-laos",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1893-franco-siamese-crisis-and-loss-of-laos, claim TL:THA:event:1893:franco-siamese-crisis-and-loss-of-laos, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1896:anglo-french-guarantee-of-siam-s-independence",
+   "year": 1896,
+   "yearLabel": "15 January 1896",
+   "title": "Anglo-French guarantee of Siam's independence",
+   "summary": "Britain and France declare their mutual respect for the independence of Siam's core territory, fixing the kingdom as a buffer state between their empires.",
+   "category": "politics",
+   "era": "siam-survival-reform",
+   "sources": [
+    {
+     "id": "siam-society-1896",
+     "label": "The Anglo-French Declaration of January 1896 and the Independence of Siam",
+     "publisher": "The Siam Society (Journal of the Siam Society)",
+     "url": "https://thesiamsociety.org/wp-content/uploads/1970/03/JSS_058_2h_Jeshurun_AngloFrenchDeclarationJanuary1896.pdf"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1896-anglo-french-guarantee-of-siam-s-independence",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1896-anglo-french-guarantee-of-siam-s-independence, claim TL:THA:event:1896:anglo-french-guarantee-of-siam-s-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1932:constitutional-revolution",
+   "year": 1932,
+   "yearLabel": "24 June 1932",
+   "title": "Constitutional revolution",
+   "summary": "The People's Party stages a bloodless coup forcing King Prajadhipok to accept a constitution, ending the absolute monarchy and creating a constitutional one.",
+   "category": "politics",
+   "era": "constitutional-revolution-war",
+   "sources": [
+    {
+     "id": "eb-pridi",
+     "label": "Pridi Phanomyong",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Pridi-Phanomyong"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1932-constitutional-revolution",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1932-constitutional-revolution, claim TL:THA:event:1932:constitutional-revolution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1939:siam-renamed-thailand",
+   "year": 1939,
+   "yearLabel": "1939",
+   "title": "Siam renamed Thailand",
+   "summary": "The nationalist government of Phibun changes the country's name from Siam to Thailand, asserting a Tai national identity.",
+   "category": "politics",
+   "era": "constitutional-revolution-war",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1939-siam-renamed-thailand",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1939-siam-renamed-thailand, claim TL:THA:event:1939:siam-renamed-thailand, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1942:alliance-with-japan-in-world-war-ii",
+   "year": 1942,
+   "yearLabel": "1942",
+   "title": "Alliance with Japan in World War II",
+   "summary": "Phibun's government allies Thailand with Japan and declares war on Britain and the United States, while the Free Thai movement under Pridi resists covertly.",
+   "category": "war",
+   "era": "constitutional-revolution-war",
+   "sources": [
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    },
+    {
+     "id": "eb-pridi",
+     "label": "Pridi Phanomyong",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Pridi-Phanomyong"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1942-alliance-with-japan-in-world-war-ii",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1942-alliance-with-japan-in-world-war-ii, claim TL:THA:event:1942:alliance-with-japan-in-world-war-ii, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1946:death-of-king-ananda-and-accession-of-bhumibol",
+   "year": 1946,
+   "yearLabel": "1946",
+   "title": "Death of King Ananda and accession of Bhumibol",
+   "summary": "King Ananda Mahidol (Rama VIII) dies of a gunshot in unexplained circumstances and is succeeded by his brother Bhumibol Adulyadej (Rama IX).",
+   "category": "politics",
+   "era": "constitutional-revolution-war",
+   "sources": [
+    {
+     "id": "eb-bhumibol",
+     "label": "Bhumibol Adulyadej (Rama IX)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Bhumibol-Adulyadej"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1946-death-of-king-ananda-and-accession-of-bhumibol",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1946-death-of-king-ananda-and-accession-of-bhumibol, claim TL:THA:event:1946:death-of-king-ananda-and-accession-of-bhumibol, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:1973:student-uprising-ends-military-rule",
+   "year": 1973,
+   "yearLabel": "14 October 1973",
+   "title": "Student uprising ends military rule",
+   "summary": "A mass student-led uprising, with royal intervention by King Bhumibol, forces the ruling generals from power and briefly opens a democratic interlude.",
+   "category": "politics",
+   "era": "modern-thailand",
+   "sources": [
+    {
+     "id": "eb-bhumibol",
+     "label": "Bhumibol Adulyadej (Rama IX)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Bhumibol-Adulyadej"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-1973-student-uprising-ends-military-rule",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-1973-student-uprising-ends-military-rule, claim TL:THA:event:1973:student-uprising-ends-military-rule, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:2006:coup-against-thaksin-shinawatra",
+   "year": 2006,
+   "yearLabel": "19 September 2006",
+   "title": "Coup against Thaksin Shinawatra",
+   "summary": "The military ousts populist Prime Minister Thaksin Shinawatra while he is abroad, opening nearly two decades of conflict between his movement and the establishment.",
+   "category": "politics",
+   "era": "modern-thailand",
+   "sources": [
+    {
+     "id": "eb-bhumibol",
+     "label": "Bhumibol Adulyadej (Rama IX)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Bhumibol-Adulyadej"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-2006-coup-against-thaksin-shinawatra",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-2006-coup-against-thaksin-shinawatra, claim TL:THA:event:2006:coup-against-thaksin-shinawatra, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:2014:coup-against-yingluck-shinawatra",
+   "year": 2014,
+   "yearLabel": "May 2014",
+   "title": "Coup against Yingluck Shinawatra",
+   "summary": "The army overthrows the government of Yingluck Shinawatra, ruling directly and later entrenching its role in a new constitution adopted in 2017.",
+   "category": "politics",
+   "era": "modern-thailand",
+   "sources": [
+    {
+     "id": "eb-vajiralongkorn",
+     "label": "Vajiralongkorn (Rama X)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Vajiralongkorn"
+    },
+    {
+     "id": "eb-thailand",
+     "label": "Thailand",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Thailand"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-2014-coup-against-yingluck-shinawatra",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-2014-coup-against-yingluck-shinawatra, claim TL:THA:event:2014:coup-against-yingluck-shinawatra, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:THA:event:2016:death-of-bhumibol-accession-of-vajiralongkorn",
+   "year": 2016,
+   "yearLabel": "13 October 2016",
+   "title": "Death of Bhumibol; accession of Vajiralongkorn",
+   "summary": "King Bhumibol Adulyadej dies after a 70-year reign and is succeeded by his son Maha Vajiralongkorn (Rama X), who formally accepts the throne in December 2016.",
+   "category": "politics",
+   "era": "modern-thailand",
+   "sources": [
+    {
+     "id": "eb-bhumibol",
+     "label": "Bhumibol Adulyadej (Rama IX)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Bhumibol-Adulyadej"
+    },
+    {
+     "id": "eb-vajiralongkorn",
+     "label": "Vajiralongkorn (Rama X)",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Vajiralongkorn"
+    }
+   ],
+   "url": "https://terralore.co/country/THA/chronicle#ev-2016-death-of-bhumibol-accession-of-vajiralongkorn",
+   "citation": "Terralore, \"The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.\", terralore.co/country/THA/chronicle#ev-2016-death-of-bhumibol-accession-of-vajiralongkorn, claim TL:THA:event:2016:death-of-bhumibol-accession-of-vajiralongkorn, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

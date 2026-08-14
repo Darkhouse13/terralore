@@ -1,0 +1,625 @@
+{
+ "subject": "nickel",
+ "name": "Nickel",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/nickel",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodNickel-total:2024",
+   "value": 3710000,
+   "display": "3.7 Mt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-world",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-world, claim TL:WLD:prodNickel-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodNickel-total:2025",
+   "value": 3900000,
+   "display": "3.9 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-world",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-world, claim TL:WLD:prodNickel-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:IDN:prodNickel-share:2024",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.6226415094339622,
+   "display": "62%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodNickel:2024",
+    "value": 2310000,
+    "display": "2.3 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-idn, claim TL:IDN:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-idn",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-idn, claim TL:IDN:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodNickel-share:2025",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.6666666666666666,
+   "display": "67%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodNickel:2025",
+    "value": 2600000,
+    "display": "2.6 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-idn, claim TL:IDN:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-idn",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-idn, claim TL:IDN:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PHL:prodNickel-share:2024",
+   "nation": "PHL",
+   "name": "Philippines",
+   "value": 0.0954177897574124,
+   "display": "9.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PHL:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PHL:prodNickel:2024",
+    "value": 354000,
+    "display": "354 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-phl, claim TL:PHL:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-phl",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-phl, claim TL:PHL:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PHL:prodNickel-share:2025",
+   "nation": "PHL",
+   "name": "Philippines",
+   "value": 0.06923076923076923,
+   "display": "6.9%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PHL:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PHL:prodNickel:2025",
+    "value": 270000,
+    "display": "270 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-phl, claim TL:PHL:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-phl",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-phl, claim TL:PHL:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodNickel-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.05525606469002695,
+   "display": "5.5%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodNickel:2024",
+    "value": 205000,
+    "display": "205 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-rus, claim TL:RUS:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-rus",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-rus, claim TL:RUS:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodNickel-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.05128205128205128,
+   "display": "5.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodNickel:2025",
+    "value": 200000,
+    "display": "200 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-rus, claim TL:RUS:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-rus",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-rus, claim TL:RUS:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodNickel-share:2024",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.03369272237196765,
+   "display": "3.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodNickel:2024",
+    "value": 125000,
+    "display": "125 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-can, claim TL:CAN:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-can",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-can, claim TL:CAN:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodNickel-share:2025",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.035897435897435895,
+   "display": "3.6%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodNickel:2025",
+    "value": 140000,
+    "display": "140 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-can, claim TL:CAN:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-can",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-can, claim TL:CAN:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NCL:prodNickel-share:2024",
+   "nation": "NCL",
+   "name": "New Caledonia",
+   "value": 0.031266846361185985,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:NCL:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:NCL:prodNickel:2024",
+    "value": 116000,
+    "display": "116 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-ncl, claim TL:NCL:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-ncl",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-ncl, claim TL:NCL:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:NCL:prodNickel-share:2025",
+   "nation": "NCL",
+   "name": "New Caledonia",
+   "value": 0.035897435897435895,
+   "display": "3.6%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:NCL:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:NCL:prodNickel:2025",
+    "value": 140000,
+    "display": "140 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-ncl, claim TL:NCL:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-ncl",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-ncl, claim TL:NCL:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodNickel-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.03099730458221024,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodNickel:2024",
+    "value": 115000,
+    "display": "115 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-chn, claim TL:CHN:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-chn",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-chn, claim TL:CHN:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodNickel-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.03076923076923077,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodNickel:2025",
+    "value": 120000,
+    "display": "120 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-chn, claim TL:CHN:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-chn",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-chn, claim TL:CHN:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodNickel-share:2024",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.018194070080862535,
+   "display": "1.8%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodNickel:2024",
+    "value": 67500,
+    "display": "67.5 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-bra, claim TL:BRA:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-bra",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-bra, claim TL:BRA:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:prodNickel-share:2025",
+   "nation": "BRA",
+   "name": "Brazil",
+   "value": 0.017948717948717947,
+   "display": "1.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:BRA:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:BRA:prodNickel:2025",
+    "value": 70000,
+    "display": "70.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-bra, claim TL:BRA:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-bra",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-bra, claim TL:BRA:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodNickel-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.026415094339622643,
+   "display": "2.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodNickel:2024",
+    "value": 98000,
+    "display": "98.0 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-aus, claim TL:AUS:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-aus",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-aus, claim TL:AUS:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodNickel-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.011538461538461539,
+   "display": "1.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodNickel:2025",
+    "value": 45000,
+    "display": "45.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-aus, claim TL:AUS:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-aus",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-aus, claim TL:AUS:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodNickel-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.0020188679245283017,
+   "display": "0.20%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodNickel:2024",
+    "worldTotal": "TL:WLD:prodNickel-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodNickel:2024",
+    "value": 7490,
+    "display": "7,490 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-usa, claim TL:USA:prodNickel:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-usa",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-usa, claim TL:USA:prodNickel-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodNickel-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.002564102564102564,
+   "display": "0.26%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodNickel:2025",
+    "worldTotal": "TL:WLD:prodNickel-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodNickel:2025",
+    "value": 10000,
+    "display": "10.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-usa, claim TL:USA:prodNickel:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/nickel#claim-usa",
+   "citation": "Terralore, \"Nickel — who supplies the world\", terralore.co/commodities/nickel#claim-usa, claim TL:USA:prodNickel-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

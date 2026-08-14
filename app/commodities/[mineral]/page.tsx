@@ -12,6 +12,7 @@ import {
 } from "@/lib/commodities";
 import { formatTonnes } from "@/lib/format";
 import { METRIC_DEFS } from "@/lib/metric-defs";
+import { producerFragment, shareClaimId } from "@/lib/claim-id";
 import {
   breadcrumbLd,
   commodityDescription,
@@ -188,7 +189,10 @@ export default async function CommodityPage({
             estimate; {yr} is the reported figure.
           </p>
 
-          <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4">
+          <dl
+            id="claim-world"
+            className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4"
+          >
             <Stat label={`World total · ${ye} est.`} value={formatTonnes(c.world.estimate)} />
             <Stat label={`World total · ${yr}`} value={formatTonnes(c.world.reported)} />
             <Stat label="Producers listed" value={String(producing)} />
@@ -357,8 +361,15 @@ function Figures({ p, c }: { p: ProducerShare; c: Commodity }) {
 
 function ProducerRow({ p, c, rank }: { p: ProducerShare; c: Commodity; rank: number }) {
   const source = commoditiesSource();
+  // The row's claim fragment; the estimate-year share claim is the one the
+  // bar draws, so its ID is the one engraved on the reverse.
+  const claim =
+    !p.estimateWithheld && p.shareEstimate != null
+      ? shareClaimId(p.code, c.key, c.years.estimate)
+      : null;
   return (
     <li
+      id={producerFragment(p.code)}
       className="border-b-2 border-basalt"
       style={{ contentVisibility: "auto", containIntrinsicBlockSize: "70px" }}
     >
@@ -396,6 +407,12 @@ function ProducerRow({ p, c, rank }: { p: ProducerShare; c: Commodity; rank: num
               </div>
               <div className="font-sans text-[11.5px] text-clay">
                 mine production, not reserves · share of the published world total
+                {claim && (
+                  <span className="font-mono text-[9px] tracking-[0.06em] text-sand select-text">
+                    {" "}
+                    · {claim}
+                  </span>
+                )}
               </div>
             </div>
           </div>

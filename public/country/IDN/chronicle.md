@@ -85,6 +85,8 @@ Figures:
 
 - Suharto (1921–2008) — Second president; leader of the New Order. The general who oversaw the 1965-66 mass killings and supplanted Sukarno, ruling Indonesia from 1967-68 until 1998. His New Order brought economic development but also authoritarianism, military repression and large-scale corruption.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:IDN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/IDN/chronicle.claims.json
+
 ## References
 
 - [britannica-srivijaya] Srivijaya empire — Encyclopaedia Britannica · https://www.britannica.com/place/Srivijaya-empire

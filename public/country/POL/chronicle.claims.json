@@ -1,0 +1,581 @@
+{
+ "subject": "POL",
+ "name": "Poland",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/POL/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:POL:event:966:the-baptism-of-poland",
+   "year": 966,
+   "yearLabel": "966",
+   "title": "The Baptism of Poland",
+   "summary": "Duke Mieszko I accepted Christianity in the Latin rite, conventionally dated to 14 April 966, bringing his realm into Western Christendom and marking the traditional birth of the Polish state.",
+   "category": "religion",
+   "era": "birth-of-the-piast-state",
+   "sources": [
+    {
+     "id": "mieszko-britannica",
+     "label": "Mieszko I",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Mieszko-I"
+    },
+    {
+     "id": "culture-baptism",
+     "label": "Historical Facts about the Baptism of Poland",
+     "publisher": "Culture.pl (Adam Mickiewicz Institute)",
+     "url": "https://culture.pl/en/article/historical-facts-about-the-baptism-of-poland"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-966-the-baptism-of-poland",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-966-the-baptism-of-poland, claim TL:POL:event:966:the-baptism-of-poland, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1000:congress-of-gniezno",
+   "year": 1000,
+   "yearLabel": "1000",
+   "title": "Congress of Gniezno",
+   "summary": "Emperor Otto III made pilgrimage to Gniezno and an independent Polish church province was established, recognising the young state's standing within Christian Europe.",
+   "category": "religion",
+   "era": "birth-of-the-piast-state",
+   "sources": [
+    {
+     "id": "poland-history-britannica",
+     "label": "Poland: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1000-congress-of-gniezno",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1000-congress-of-gniezno, claim TL:POL:event:1000:congress-of-gniezno, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1025:coronation-of-boleslaw-i-the-brave",
+   "year": 1025,
+   "yearLabel": "1025",
+   "title": "Coronation of Boleslaw I the Brave",
+   "summary": "Boleslaw I was crowned king at Gniezno, the first ruler to bear the royal title of Poland and to win recognition of the realm as a kingdom rather than a duchy.",
+   "category": "politics",
+   "era": "birth-of-the-piast-state",
+   "sources": [
+    {
+     "id": "poland-history-britannica",
+     "label": "Poland: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    },
+    {
+     "id": "pma-crown",
+     "label": "1000 Years of the Polish Crown",
+     "publisher": "Polish Museum of America",
+     "url": "https://www.polishmuseumofamerica.org/1000-years-of-the-polish-crown/"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1025-coronation-of-boleslaw-i-the-brave",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1025-coronation-of-boleslaw-i-the-brave, claim TL:POL:event:1025:coronation-of-boleslaw-i-the-brave, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1138:testament-of-boleslaw-iii-and-fragmentation",
+   "year": 1138,
+   "yearLabel": "1138",
+   "title": "Testament of Boleslaw III and fragmentation",
+   "summary": "The dying Boleslaw III Wrymouth divided Poland among his sons, beginning nearly two centuries of fragmentation into rival duchies that weakened the state against its neighbours.",
+   "category": "politics",
+   "era": "birth-of-the-piast-state",
+   "sources": [
+    {
+     "id": "poland-history-britannica",
+     "label": "Poland: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1138-testament-of-boleslaw-iii-and-fragmentation",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1138-testament-of-boleslaw-iii-and-fragmentation, claim TL:POL:event:1138:testament-of-boleslaw-iii-and-fragmentation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1333:reign-of-casimir-iii-the-great",
+   "year": 1333,
+   "yearLabel": "1333–1370",
+   "title": "Reign of Casimir III the Great",
+   "summary": "The last Piast king reformed the law, founded the University of Krakow in 1364, expanded the kingdom and welcomed Jewish settlers, leaving Poland prosperous and consolidated.",
+   "category": "politics",
+   "era": "piast-jagiellonian-kingdom",
+   "sources": [
+    {
+     "id": "casimir-britannica",
+     "label": "Casimir III the Great",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Casimir-III"
+    },
+    {
+     "id": "poland-history-britannica",
+     "label": "Poland: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1333-reign-of-casimir-iii-the-great",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1333-reign-of-casimir-iii-the-great, claim TL:POL:event:1333:reign-of-casimir-iii-the-great, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1385:union-of-krewo-and-the-jagiellonian-dynasty",
+   "year": 1385,
+   "yearLabel": "1385",
+   "title": "Union of Krewo and the Jagiellonian dynasty",
+   "summary": "The agreement at Krewo arranged the marriage of Queen Jadwiga to Jogaila of Lithuania, who was baptised as Wladyslaw II Jagiello, joining Poland and Lithuania under a new dynasty.",
+   "category": "politics",
+   "era": "piast-jagiellonian-kingdom",
+   "sources": [
+    {
+     "id": "poland-history-britannica",
+     "label": "Poland: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    },
+    {
+     "id": "lublin-britannica",
+     "label": "Union of Lublin",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Union-of-Lublin"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1385-union-of-krewo-and-the-jagiellonian-dynasty",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1385-union-of-krewo-and-the-jagiellonian-dynasty, claim TL:POL:event:1385:union-of-krewo-and-the-jagiellonian-dynasty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1410:battle-of-grunwald",
+   "year": 1410,
+   "yearLabel": "15 Jul 1410",
+   "title": "Battle of Grunwald",
+   "summary": "Polish and Lithuanian forces under Wladyslaw II Jagiello destroyed the army of the Teutonic Knights at Grunwald, halting the Order's eastward expansion in the Baltic.",
+   "category": "war",
+   "era": "piast-jagiellonian-kingdom",
+   "sources": [
+    {
+     "id": "grunwald-britannica",
+     "label": "Battle of Grunwald (1410)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Grunwald-1410"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1410-battle-of-grunwald",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1410-battle-of-grunwald, claim TL:POL:event:1410:battle-of-grunwald, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1543:copernicus-publishes-on-the-revolutions",
+   "year": 1543,
+   "yearLabel": "1543",
+   "title": "Copernicus publishes 'On the Revolutions'",
+   "summary": "The Polish astronomer Nicolaus Copernicus published his heliocentric theory, placing the Sun rather than the Earth at the centre of the cosmos and helping to launch modern astronomy.",
+   "category": "culture",
+   "era": "piast-jagiellonian-kingdom",
+   "sources": [
+    {
+     "id": "copernicus-britannica",
+     "label": "Nicolaus Copernicus",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Nicolaus-Copernicus"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1543-copernicus-publishes-on-the-revolutions",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1543-copernicus-publishes-on-the-revolutions, claim TL:POL:event:1543:copernicus-publishes-on-the-revolutions, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1569:union-of-lublin",
+   "year": 1569,
+   "yearLabel": "1 Jul 1569",
+   "title": "Union of Lublin",
+   "summary": "Poland and the Grand Duchy of Lithuania united into a single federal state, the Polish-Lithuanian Commonwealth, ruled by an elected monarch and a common Sejm, one of Europe's largest powers.",
+   "category": "politics",
+   "era": "polish-lithuanian-commonwealth",
+   "sources": [
+    {
+     "id": "lublin-britannica",
+     "label": "Union of Lublin",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Union-of-Lublin"
+    },
+    {
+     "id": "lublin-unesco",
+     "label": "The Act of the Union of Lublin document",
+     "publisher": "UNESCO Memory of the World",
+     "url": "https://www.unesco.org/en/memory-world/act-union-lublin-document"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1569-union-of-lublin",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1569-union-of-lublin, claim TL:POL:event:1569:union-of-lublin, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1683:relief-of-vienna",
+   "year": 1683,
+   "yearLabel": "12 Sep 1683",
+   "title": "Relief of Vienna",
+   "summary": "King John III Sobieski led the allied cavalry charge that broke the Ottoman siege of Vienna, marking the high point of the Commonwealth's military reputation in Europe.",
+   "category": "war",
+   "era": "polish-lithuanian-commonwealth",
+   "sources": [
+    {
+     "id": "sobieski-britannica",
+     "label": "John III Sobieski",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/John-III-Sobieski"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1683-relief-of-vienna",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1683-relief-of-vienna, claim TL:POL:event:1683:relief-of-vienna, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1655:the-deluge",
+   "year": 1655,
+   "yearLabel": "1655–1660",
+   "title": "The Deluge",
+   "summary": "A devastating Swedish invasion during the Second Northern War ravaged the Commonwealth, causing enormous loss of life and population and accelerating the state's long decline.",
+   "category": "war",
+   "era": "polish-lithuanian-commonwealth",
+   "sources": [
+    {
+     "id": "deluge-reference",
+     "label": "The Deluge (Swedish invasion, 1655-1660)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    },
+    {
+     "id": "poland-history-britannica",
+     "label": "Poland: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1655-the-deluge",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1655-the-deluge, claim TL:POL:event:1655:the-deluge, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1772:the-partitions-of-poland",
+   "year": 1772,
+   "yearLabel": "1772–1795",
+   "title": "The Partitions of Poland",
+   "summary": "In three stages (1772, 1793, 1795) Russia, Prussia and Austria divided the Commonwealth among themselves, despite the reforming Constitution of 3 May 1791, ending Polish statehood for 123 years.",
+   "category": "politics",
+   "era": "polish-lithuanian-commonwealth",
+   "sources": [
+    {
+     "id": "partitions-britannica",
+     "label": "Partitions of Poland",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Partitions-of-Poland"
+    },
+    {
+     "id": "constitution1791-reference",
+     "label": "Constitution of 3 May 1791",
+     "publisher": "Polish History Museum / Google Arts & Culture",
+     "url": "https://artsandculture.google.com/story/the-constitution-of-3-may-1791-polish-history-museum/GAUBxqydkc8F0A"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1772-the-partitions-of-poland",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1772-the-partitions-of-poland, claim TL:POL:event:1772:the-partitions-of-poland, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1815:congress-of-vienna-and-the-congress-kingdom",
+   "year": 1815,
+   "yearLabel": "1815",
+   "title": "Congress of Vienna and the 'Congress Kingdom'",
+   "summary": "The post-Napoleonic settlement re-divided the Polish lands and created a nominally autonomous Kingdom of Poland under the Russian tsar, entrenching foreign rule.",
+   "category": "politics",
+   "era": "partitions-and-fight-for-independence",
+   "sources": [
+    {
+     "id": "partitioned-poland-reference",
+     "label": "History of Poland (1795-1918)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    },
+    {
+     "id": "partitions-britannica",
+     "label": "Partitions of Poland",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Partitions-of-Poland"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1815-congress-of-vienna-and-the-congress-kingdom",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1815-congress-of-vienna-and-the-congress-kingdom, claim TL:POL:event:1815:congress-of-vienna-and-the-congress-kingdom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1830:the-november-uprising",
+   "year": 1830,
+   "yearLabel": "1830–1831",
+   "title": "The November Uprising",
+   "summary": "Poles in the Russian partition rose against the tsar; after initial successes the rising was crushed, bringing reprisals, the end of the Kingdom's autonomy and a wave of political exile.",
+   "category": "war",
+   "era": "partitions-and-fight-for-independence",
+   "sources": [
+    {
+     "id": "partitioned-poland-reference",
+     "label": "History of Poland (1795-1918)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1830-the-november-uprising",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1830-the-november-uprising, claim TL:POL:event:1830:the-november-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1863:the-january-uprising",
+   "year": 1863,
+   "yearLabel": "1863–1864",
+   "title": "The January Uprising",
+   "summary": "A protracted guerrilla insurrection against Russian rule ended in defeat and severe repression, including executions, deportations to Siberia and intensified Russification.",
+   "category": "war",
+   "era": "partitions-and-fight-for-independence",
+   "sources": [
+    {
+     "id": "partitioned-poland-reference",
+     "label": "History of Poland (1795-1918)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1863-the-january-uprising",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1863-the-january-uprising, claim TL:POL:event:1863:the-january-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1918:restoration-of-independence",
+   "year": 1918,
+   "yearLabel": "11 Nov 1918",
+   "title": "Restoration of independence",
+   "summary": "As the partitioning empires collapsed at the end of the First World War, an independent Polish state was proclaimed under Jozef Pilsudski, ending 123 years without statehood.",
+   "category": "independence",
+   "era": "partitions-and-fight-for-independence",
+   "sources": [
+    {
+     "id": "partitioned-poland-reference",
+     "label": "History of Poland (1795-1918)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Poland/History"
+    },
+    {
+     "id": "partitions-britannica",
+     "label": "Partitions of Poland",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Partitions-of-Poland"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1918-restoration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1918-restoration-of-independence, claim TL:POL:event:1918:restoration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1920:battle-of-warsaw",
+   "year": 1920,
+   "yearLabel": "Aug 1920",
+   "title": "Battle of Warsaw",
+   "summary": "Polish forces under Pilsudski halted the advance of the Soviet Red Army outside Warsaw, securing the independence of the young republic in the Polish-Soviet War.",
+   "category": "war",
+   "era": "second-republic-and-second-world-war",
+   "sources": [
+    {
+     "id": "pilsudski-britannica",
+     "label": "Jozef Pilsudski",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jozef-Pilsudski"
+    },
+    {
+     "id": "partitions-britannica",
+     "label": "Partitions of Poland",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Partitions-of-Poland"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1920-battle-of-warsaw",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1920-battle-of-warsaw, claim TL:POL:event:1920:battle-of-warsaw, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1939:german-and-soviet-invasion-of-poland",
+   "year": 1939,
+   "yearLabel": "1 Sep 1939",
+   "title": "German and Soviet invasion of Poland",
+   "summary": "Nazi Germany invaded on 1 September, starting the Second World War in Europe; the Soviet Union invaded from the east on 17 September, and the two powers again partitioned Poland.",
+   "category": "war",
+   "era": "second-republic-and-second-world-war",
+   "sources": [
+    {
+     "id": "invasion-ushmm",
+     "label": "Invasion of Poland, Fall 1939",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939"
+    },
+    {
+     "id": "invasion-britannica",
+     "label": "Invasion of Poland (1939)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Invasion-of-Poland"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1939-german-and-soviet-invasion-of-poland",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1939-german-and-soviet-invasion-of-poland, claim TL:POL:event:1939:german-and-soviet-invasion-of-poland, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1940:auschwitz-birkenau-and-the-holocaust-on-polish",
+   "year": 1940,
+   "yearLabel": "1940–1945",
+   "title": "Auschwitz-Birkenau and the Holocaust on Polish soil",
+   "summary": "Germany operated its largest concentration and extermination camp at Auschwitz-Birkenau, where some 1.1 million people, overwhelmingly Jews, were murdered as part of the genocide carried out across occupied Poland.",
+   "category": "war",
+   "era": "second-republic-and-second-world-war",
+   "sources": [
+    {
+     "id": "auschwitz-unesco",
+     "label": "Auschwitz Birkenau German Nazi Concentration and Extermination Camp (1940-1945)",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/31/"
+    },
+    {
+     "id": "polish-victims-ushmm",
+     "label": "Polish Victims",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/polish-victims"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1940-auschwitz-birkenau-and-the-holocaust-on-polish",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1940-auschwitz-birkenau-and-the-holocaust-on-polish, claim TL:POL:event:1940:auschwitz-birkenau-and-the-holocaust-on-polish, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1944:the-warsaw-uprising",
+   "year": 1944,
+   "yearLabel": "1 Aug 1944",
+   "title": "The Warsaw Uprising",
+   "summary": "The Polish Home Army rose against the German occupiers in Warsaw; after 63 days the rising was crushed, much of the city was destroyed and tens of thousands of civilians were killed.",
+   "category": "war",
+   "era": "second-republic-and-second-world-war",
+   "sources": [
+    {
+     "id": "polish-victims-ushmm",
+     "label": "Polish Victims",
+     "publisher": "United States Holocaust Memorial Museum",
+     "url": "https://encyclopedia.ushmm.org/content/en/article/polish-victims"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1944-the-warsaw-uprising",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1944-the-warsaw-uprising, claim TL:POL:event:1944:the-warsaw-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1947:establishment-of-communist-rule",
+   "year": 1947,
+   "yearLabel": "1947",
+   "title": "Establishment of communist rule",
+   "summary": "Backed by the Soviet Union and rigged elections, a communist government consolidated power, founding the Polish People's Republic within the Soviet bloc.",
+   "category": "politics",
+   "era": "communist-poland-solidarity-modern-republic",
+   "sources": [
+    {
+     "id": "walesa-britannica",
+     "label": "Lech Walesa",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Lech-Walesa"
+    },
+    {
+     "id": "solidarity-britannica",
+     "label": "Solidarity (Polish trade union)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Solidarity"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1947-establishment-of-communist-rule",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1947-establishment-of-communist-rule, claim TL:POL:event:1947:establishment-of-communist-rule, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1980:birth-of-solidarity",
+   "year": 1980,
+   "yearLabel": "Aug 1980",
+   "title": "Birth of Solidarity",
+   "summary": "Strikes at the Gdansk shipyard led by Lech Walesa produced Solidarity, the first independent trade union in the Soviet bloc, which rapidly grew to about ten million members.",
+   "category": "politics",
+   "era": "communist-poland-solidarity-modern-republic",
+   "sources": [
+    {
+     "id": "solidarity-britannica",
+     "label": "Solidarity (Polish trade union)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Solidarity"
+    },
+    {
+     "id": "walesa-britannica",
+     "label": "Lech Walesa",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Lech-Walesa"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1980-birth-of-solidarity",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1980-birth-of-solidarity, claim TL:POL:event:1980:birth-of-solidarity, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1981:martial-law",
+   "year": 1981,
+   "yearLabel": "13 Dec 1981",
+   "title": "Martial law",
+   "summary": "The communist authorities imposed martial law, banned Solidarity and interned its leaders, including Walesa, driving the movement underground for the rest of the decade.",
+   "category": "politics",
+   "era": "communist-poland-solidarity-modern-republic",
+   "sources": [
+    {
+     "id": "solidarity-britannica",
+     "label": "Solidarity (Polish trade union)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Solidarity"
+    },
+    {
+     "id": "walesa-britannica",
+     "label": "Lech Walesa",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Lech-Walesa"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1981-martial-law",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1981-martial-law, claim TL:POL:event:1981:martial-law, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:1989:semi-free-elections-and-the-fall-of-communism",
+   "year": 1989,
+   "yearLabel": "4 Jun 1989",
+   "title": "Semi-free elections and the fall of communism",
+   "summary": "Round Table talks produced partly free elections that Solidarity won overwhelmingly, ending communist rule in Poland and helping trigger the collapse of the Soviet bloc.",
+   "category": "independence",
+   "era": "communist-poland-solidarity-modern-republic",
+   "sources": [
+    {
+     "id": "solidarity-britannica",
+     "label": "Solidarity (Polish trade union)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Solidarity"
+    },
+    {
+     "id": "walesa-britannica",
+     "label": "Lech Walesa",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Lech-Walesa"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-1989-semi-free-elections-and-the-fall-of-communism",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-1989-semi-free-elections-and-the-fall-of-communism, claim TL:POL:event:1989:semi-free-elections-and-the-fall-of-communism, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:event:2004:accession-to-the-european-union",
+   "year": 2004,
+   "yearLabel": "1 May 2004",
+   "title": "Accession to the European Union",
+   "summary": "Poland joined the European Union, completing its return to the West after the fall of communism and accelerating its economic and political integration into Europe.",
+   "category": "politics",
+   "era": "communist-poland-solidarity-modern-republic",
+   "sources": [
+    {
+     "id": "poland-eu-gov",
+     "label": "Poland in the EU",
+     "publisher": "Government of Poland (gov.pl)",
+     "url": "https://www.gov.pl/web/eu/poland-in-the-eu"
+    }
+   ],
+   "url": "https://terralore.co/country/POL/chronicle#ev-2004-accession-to-the-european-union",
+   "citation": "Terralore, \"The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.\", terralore.co/country/POL/chronicle#ev-2004-accession-to-the-european-union, claim TL:POL:event:2004:accession-to-the-european-union, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

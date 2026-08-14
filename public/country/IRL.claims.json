@@ -1,0 +1,850 @@
+{
+ "subject": "IRL",
+ "name": "Ireland",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/IRL",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:IRL:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 609157459747.205,
+   "display": "$609 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-gdp-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-gdp-2024, claim TL:IRL:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 112894.953240805,
+   "display": "$112,895",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-gdpPerCapita-2024, claim TL:IRL:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 2.59946721553708,
+   "display": "2.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-gdpGrowth-2024, claim TL:IRL:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.11344999577317,
+   "display": "2.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-inflation-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-inflation-2024, claim TL:IRL:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 246.169874857401,
+   "display": "246.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-tradePctGdp-2024, claim TL:IRL:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 5395790,
+   "display": "5.4 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-population-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-population-2024, claim TL:IRL:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 83.009756097561,
+   "display": "83.0 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-lifeExpectancy-2024, claim TL:IRL:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 64.3470379255585,
+   "display": "64.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-urbanPct-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-urbanPct-2024, claim TL:IRL:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.47,
+   "display": "1.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-fertility-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-fertility-2024, claim TL:IRL:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 85.5124618,
+   "display": "85.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-wgiVoice-2024, claim TL:IRL:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 78.0218154,
+   "display": "78.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-wgiStability-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-wgiStability-2024, claim TL:IRL:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 82.6755532,
+   "display": "82.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-wgiEffectiveness-2024, claim TL:IRL:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 83.1635984,
+   "display": "83.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-wgiRegQuality-2024, claim TL:IRL:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 84.3524795,
+   "display": "84.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-wgiRuleOfLaw-2024, claim TL:IRL:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 79.686442,
+   "display": "79.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-wgiCorruption-2024, claim TL:IRL:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:healthSpendPctGdp:2024",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 6.85410833,
+   "display": "6.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-healthSpendPctGdp-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-healthSpendPctGdp-2024, claim TL:IRL:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 3.875,
+   "display": "3.88",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-physicians-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-physicians-2023, claim TL:IRL:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 3.9,
+   "display": "3.9",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-underFiveMortality-2024, claim TL:IRL:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 90,
+   "display": "90.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-measlesImmunisation-2024, claim TL:IRL:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 96.1250111631294,
+   "display": "96.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/IRL#claim-safeWater-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-safeWater-2024, claim TL:IRL:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:eduSpendPctGdp:2021",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 2.90461993217468,
+   "display": "2.9%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-eduSpendPctGdp-2021",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-eduSpendPctGdp-2021, claim TL:IRL:eduSpendPctGdp:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:primaryEnrolment:2022",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 96.4761428833008,
+   "display": "96.5%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-primaryEnrolment-2022",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-primaryEnrolment-2022, claim TL:IRL:primaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:secondaryEnrolment:2022",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 130.604965209961,
+   "display": "130.6%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-secondaryEnrolment-2022",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-secondaryEnrolment-2022, claim TL:IRL:secondaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:tertiaryEnrolment:2022",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 77.5933380126953,
+   "display": "77.6%",
+   "unit": "% gross",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-tertiaryEnrolment-2022",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-tertiaryEnrolment-2022, claim TL:IRL:tertiaryEnrolment:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 1.58829,
+   "display": "1.6%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-rdSpending-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-rdSpending-2023, claim TL:IRL:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 5752.79698,
+   "display": "5,753",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-researchers-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-researchers-2023, claim TL:IRL:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 97.18769836,
+   "display": "97.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-internetUsers-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-internetUsers-2024, claim TL:IRL:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 112.638817343502,
+   "display": "113",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/IRL#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-mobileSubs-2024, claim TL:IRL:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 53.5184328432158,
+   "display": "53.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-highTechExports-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-highTechExports-2024, claim TL:IRL:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 68890,
+   "display": "68,890 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-landArea-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-landArea-2023, claim TL:IRL:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 11.5259108724053,
+   "display": "11.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-forestPct-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-forestPct-2023, claim TL:IRL:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 60.8070837567136,
+   "display": "60.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-agriPct-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-agriPct-2023, claim TL:IRL:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 6.03605774131313,
+   "display": "6.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-co2PerCapita-2024, claim TL:IRL:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 12.7,
+   "display": "12.7%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-renewablePct-2021",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-renewablePct-2021, claim TL:IRL:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.10098823103923,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-resourceRents-2021",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-resourceRents-2021, claim TL:IRL:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.00194465680647297,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-oilRents-2021",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-oilRents-2021, claim TL:IRL:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.0362496707797038,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-mineralRents-2021",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-mineralRents-2021, claim TL:IRL:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0117159689556259,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-forestRents-2021",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-forestRents-2021, claim TL:IRL:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-electricityAccess-2023, claim TL:IRL:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.239096332495524,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-milExpPctGdp-2024, claim TL:IRL:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 1330503579.37914,
+   "display": "$1.3 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-milExpUsd-2024, claim TL:IRL:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IRL:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 9000,
+   "display": "9,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/IRL#claim-armedForces-2020",
+   "citation": "Terralore, \"Ireland — national dossier\", terralore.co/country/IRL#claim-armedForces-2020, claim TL:IRL:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

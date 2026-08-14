@@ -1,0 +1,830 @@
+{
+ "subject": "BLZ",
+ "name": "Belize",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/BLZ",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:BLZ:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 3203631800,
+   "display": "$3.2 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-gdp-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdp-2024, claim TL:BLZ:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 7681.24400583113,
+   "display": "$7,681",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdpPerCapita-2024, claim TL:BLZ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.50466435023895,
+   "display": "3.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdpGrowth-2024, claim TL:BLZ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 3.28955985952768,
+   "display": "3.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-inflation-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-inflation-2024, claim TL:BLZ:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 108.972446521476,
+   "display": "109.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-tradePctGdp-2024, claim TL:BLZ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 417072,
+   "display": "417,000",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-population-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-population-2024, claim TL:BLZ:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 73.739,
+   "display": "73.7 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-lifeExpectancy-2024, claim TL:BLZ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 41.7532107338224,
+   "display": "41.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-urbanPct-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-urbanPct-2024, claim TL:BLZ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.021,
+   "display": "2.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-fertility-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-fertility-2024, claim TL:BLZ:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 87.879997253418,
+   "display": "87.9%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-literacy-2022",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-literacy-2022, claim TL:BLZ:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 58.6688121,
+   "display": "58.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiVoice-2024, claim TL:BLZ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 79.2986992,
+   "display": "79.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-wgiStability-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiStability-2024, claim TL:BLZ:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 48.8303528,
+   "display": "48.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiEffectiveness-2024, claim TL:BLZ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 47.7644224,
+   "display": "47.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiRegQuality-2024, claim TL:BLZ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 50.1294796,
+   "display": "50.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiRuleOfLaw-2024, claim TL:BLZ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 44.6078242,
+   "display": "44.6",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiCorruption-2024, claim TL:BLZ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 4.14735794,
+   "display": "4.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-healthSpendPctGdp-2023, claim TL:BLZ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:physicians:2018",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 1.086,
+   "display": "1.09",
+   "unit": "per 1,000",
+   "observed": 2018,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-physicians-2018",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-physicians-2018, claim TL:BLZ:physicians:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 12.7,
+   "display": "12.7",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-underFiveMortality-2024, claim TL:BLZ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 84,
+   "display": "84.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-measlesImmunisation-2024, claim TL:BLZ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 87.879997253418,
+   "display": "87.9%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-literacyRate-2022",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-literacyRate-2022, claim TL:BLZ:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.62276317232973,
+   "display": "4.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-eduSpendPctGdp-2024, claim TL:BLZ:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 96.4819245941926,
+   "display": "96.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-primaryEnrolment-2024, claim TL:BLZ:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 86.4571583269413,
+   "display": "86.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-secondaryEnrolment-2024, claim TL:BLZ:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 24.8098643151325,
+   "display": "24.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-tertiaryEnrolment-2024, claim TL:BLZ:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 80.00582262,
+   "display": "80.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-internetUsers-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-internetUsers-2024, claim TL:BLZ:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:mobileSubs:2022",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 67.1750266305468,
+   "display": "67",
+   "unit": "per 100",
+   "observed": 2022,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-mobileSubs-2022",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-mobileSubs-2022, claim TL:BLZ:mobileSubs:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 0.000191087699111545,
+   "display": "0.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-highTechExports-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-highTechExports-2024, claim TL:BLZ:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 22810,
+   "display": "22,810 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-landArea-2023",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-landArea-2023, claim TL:BLZ:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 54.5186321788689,
+   "display": "54.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-forestPct-2023",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-forestPct-2023, claim TL:BLZ:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 7.97895659798334,
+   "display": "8.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-agriPct-2023",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-agriPct-2023, claim TL:BLZ:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.932452909809338,
+   "display": "0.9",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-co2PerCapita-2024, claim TL:BLZ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 30.8,
+   "display": "30.8%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-renewablePct-2022",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-renewablePct-2022, claim TL:BLZ:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.523036536890701,
+   "display": "0.5%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-resourceRents-2021",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-resourceRents-2021, claim TL:BLZ:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.280281956428533,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-oilRents-2021",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-oilRents-2021, claim TL:BLZ:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-mineralRents-2021",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-mineralRents-2021, claim TL:BLZ:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.241103335046054,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-forestRents-2021",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-forestRents-2021, claim TL:BLZ:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 99.6,
+   "display": "99.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-electricityAccess-2023, claim TL:BLZ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.898885869151742,
+   "display": "0.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-milExpPctGdp-2024, claim TL:BLZ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 30137800,
+   "display": "$30 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-milExpUsd-2024, claim TL:BLZ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLZ:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 2000,
+   "display": "2,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLZ#claim-armedForces-2020",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-armedForces-2020, claim TL:BLZ:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

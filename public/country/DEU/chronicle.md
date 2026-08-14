@@ -92,6 +92,8 @@ Figures:
 - Konrad Adenauer (1876 – 1967) — First Chancellor of the Federal Republic of Germany. Adenauer led West Germany from 1949 to 1963, anchoring it firmly in the democratic West, securing reconciliation with former enemies and overseeing the postwar economic recovery that restored German prosperity and credibility.
 - Helmut Kohl (1930 – 2017) — Chancellor of reunification. Chancellor from 1982 to 1998, Kohl seized the opening created by the fall of the Wall to drive German reunification in 1990 and championed deeper European integration, including the creation of the euro.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:DEU:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/DEU/chronicle.claims.json
+
 ## References
 
 - [germany-britannica] Germany — Encyclopaedia Britannica · https://www.britannica.com/place/Germany

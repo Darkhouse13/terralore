@@ -109,6 +109,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:GRC:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/GRC.claims.json
+
 History: "Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence." — the sourced chronicle is at https://terralore.co/country/GRC/chronicle.md (6 eras, 27 events).
 
 ## Sources

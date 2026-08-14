@@ -1,0 +1,945 @@
+{
+ "subject": "copper",
+ "name": "Copper",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/copper",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodCopper-total:2024",
+   "value": 23000000,
+   "display": "23 Mt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-world",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-world, claim TL:WLD:prodCopper-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodCopper-total:2025",
+   "value": 23000000,
+   "display": "23 Mt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-world",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-world, claim TL:WLD:prodCopper-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:CHL:prodCopper-share:2024",
+   "nation": "CHL",
+   "name": "Chile",
+   "value": 0.23956521739130435,
+   "display": "24%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHL:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHL:prodCopper:2024",
+    "value": 5510000,
+    "display": "5.5 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chl, claim TL:CHL:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-chl",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chl, claim TL:CHL:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHL:prodCopper-share:2025",
+   "nation": "CHL",
+   "name": "Chile",
+   "value": 0.23043478260869565,
+   "display": "23%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHL:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHL:prodCopper:2025",
+    "value": 5300000,
+    "display": "5.3 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chl, claim TL:CHL:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-chl",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chl, claim TL:CHL:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COD:prodCopper-share:2024",
+   "nation": "COD",
+   "name": "DR Congo",
+   "value": 0.13,
+   "display": "13%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:COD:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:COD:prodCopper:2024",
+    "value": 2990000,
+    "display": "3.0 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-cod, claim TL:COD:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-cod",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-cod, claim TL:COD:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COD:prodCopper-share:2025",
+   "nation": "COD",
+   "name": "DR Congo",
+   "value": 0.1391304347826087,
+   "display": "14%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:COD:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:COD:prodCopper:2025",
+    "value": 3200000,
+    "display": "3.2 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-cod, claim TL:COD:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-cod",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-cod, claim TL:COD:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodCopper-share:2024",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.1191304347826087,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodCopper:2024",
+    "value": 2740000,
+    "display": "2.7 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-per, claim TL:PER:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-per",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-per, claim TL:PER:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PER:prodCopper-share:2025",
+   "nation": "PER",
+   "name": "Peru",
+   "value": 0.11739130434782609,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PER:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PER:prodCopper:2025",
+    "value": 2700000,
+    "display": "2.7 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-per, claim TL:PER:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-per",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-per, claim TL:PER:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodCopper-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.08,
+   "display": "8.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodCopper:2024",
+    "value": 1840000,
+    "display": "1.8 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chn, claim TL:CHN:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-chn",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chn, claim TL:CHN:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodCopper-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.0782608695652174,
+   "display": "7.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodCopper:2025",
+    "value": 1800000,
+    "display": "1.8 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chn, claim TL:CHN:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-chn",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-chn, claim TL:CHN:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodCopper-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.04434782608695652,
+   "display": "4.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodCopper:2024",
+    "value": 1020000,
+    "display": "1.0 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-rus, claim TL:RUS:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-rus",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-rus, claim TL:RUS:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodCopper-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.05652173913043478,
+   "display": "5.7%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodCopper:2025",
+    "value": 1300000,
+    "display": "1.3 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-rus, claim TL:RUS:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-rus",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-rus, claim TL:RUS:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodCopper-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.04565217391304348,
+   "display": "4.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodCopper:2024",
+    "value": 1050000,
+    "display": "1.1 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-usa, claim TL:USA:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-usa",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-usa, claim TL:USA:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodCopper-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.043478260869565216,
+   "display": "4.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodCopper:2025",
+    "value": 1000000,
+    "display": "1.0 Mt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-usa, claim TL:USA:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-usa",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-usa, claim TL:USA:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:prodCopper-share:2024",
+   "nation": "ZMB",
+   "name": "Zambia",
+   "value": 0.035782608695652175,
+   "display": "3.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:ZMB:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:ZMB:prodCopper:2024",
+    "value": 823000,
+    "display": "823 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-zmb, claim TL:ZMB:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-zmb",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-zmb, claim TL:ZMB:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZMB:prodCopper-share:2025",
+   "nation": "ZMB",
+   "name": "Zambia",
+   "value": 0.0408695652173913,
+   "display": "4.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:ZMB:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:ZMB:prodCopper:2025",
+    "value": 940000,
+    "display": "940 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-zmb, claim TL:ZMB:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-zmb",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-zmb, claim TL:ZMB:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodCopper-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.03326086956521739,
+   "display": "3.3%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodCopper:2024",
+    "value": 765000,
+    "display": "765 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-aus, claim TL:AUS:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-aus",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-aus, claim TL:AUS:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodCopper-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.03173913043478261,
+   "display": "3.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodCopper:2025",
+    "value": 730000,
+    "display": "730 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-aus, claim TL:AUS:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-aus",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-aus, claim TL:AUS:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodCopper-share:2024",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.04391304347826087,
+   "display": "4.4%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodCopper:2024",
+    "value": 1010000,
+    "display": "1.0 Mt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-idn, claim TL:IDN:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-idn",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-idn, claim TL:IDN:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodCopper-share:2025",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.030869565217391304,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodCopper:2025",
+    "value": 710000,
+    "display": "710 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-idn, claim TL:IDN:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-idn",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-idn, claim TL:IDN:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodCopper-share:2024",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.03147826086956522,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodCopper:2024",
+    "value": 724000,
+    "display": "724 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-kaz, claim TL:KAZ:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-kaz",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-kaz, claim TL:KAZ:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KAZ:prodCopper-share:2025",
+   "nation": "KAZ",
+   "name": "Kazakhstan",
+   "value": 0.030869565217391304,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:KAZ:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:KAZ:prodCopper:2025",
+    "value": 710000,
+    "display": "710 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-kaz, claim TL:KAZ:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-kaz",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-kaz, claim TL:KAZ:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodCopper-share:2024",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.03117391304347826,
+   "display": "3.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodCopper:2024",
+    "value": 717000,
+    "display": "717 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-mex, claim TL:MEX:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-mex",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-mex, claim TL:MEX:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MEX:prodCopper-share:2025",
+   "nation": "MEX",
+   "name": "Mexico",
+   "value": 0.03,
+   "display": "3.0%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MEX:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MEX:prodCopper:2025",
+    "value": 690000,
+    "display": "690 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-mex, claim TL:MEX:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-mex",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-mex, claim TL:MEX:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodCopper-share:2024",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.022391304347826088,
+   "display": "2.2%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodCopper:2024",
+    "value": 515000,
+    "display": "515 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-can, claim TL:CAN:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-can",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-can, claim TL:CAN:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodCopper-share:2025",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.021739130434782608,
+   "display": "2.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodCopper:2025",
+    "value": 500000,
+    "display": "500 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-can, claim TL:CAN:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-can",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-can, claim TL:CAN:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:prodCopper-share:2024",
+   "nation": "POL",
+   "name": "Poland",
+   "value": 0.017391304347826087,
+   "display": "1.7%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:POL:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:POL:prodCopper:2024",
+    "value": 400000,
+    "display": "400 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-pol, claim TL:POL:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-pol",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-pol, claim TL:POL:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:POL:prodCopper-share:2025",
+   "nation": "POL",
+   "name": "Poland",
+   "value": 0.017826086956521738,
+   "display": "1.8%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:POL:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:POL:prodCopper:2025",
+    "value": 410000,
+    "display": "410 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-pol, claim TL:POL:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-pol",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-pol, claim TL:POL:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodCopper-share:2024",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.0011739130434782609,
+   "display": "0.12%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodCopper:2024",
+    "worldTotal": "TL:WLD:prodCopper-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodCopper:2024",
+    "value": 27000,
+    "display": "27.0 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-ind, claim TL:IND:prodCopper:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-ind",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-ind, claim TL:IND:prodCopper-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IND:prodCopper-share:2025",
+   "nation": "IND",
+   "name": "India",
+   "value": 0.001,
+   "display": "0.10%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IND:prodCopper:2025",
+    "worldTotal": "TL:WLD:prodCopper-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IND:prodCopper:2025",
+    "value": 23000,
+    "display": "23.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-ind, claim TL:IND:prodCopper:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/copper#claim-ind",
+   "citation": "Terralore, \"Copper — who supplies the world\", terralore.co/commodities/copper#claim-ind, claim TL:IND:prodCopper-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

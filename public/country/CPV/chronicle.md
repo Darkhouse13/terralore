@@ -85,6 +85,8 @@ Figures:
 
 - Cesária Évora (1941–2011) — Singer, the "barefoot diva". Cape Verde's most celebrated artist, who from the 1990s brought the morna to the world stage, singing in Creole and performing barefoot in solidarity with the islands' poor; she won a Grammy in 2004 and became a global symbol of Cape Verdean identity and sodade.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CPV:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CPV/chronicle.claims.json
+
 ## References
 
 - [britannica-cv] History of Cabo Verde — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Cabo-Verde

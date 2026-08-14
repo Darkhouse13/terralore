@@ -75,6 +75,8 @@ Senegal built a record of peaceful elections while a long separatist conflict si
 - 2022: **Casamance peace agreement** — A peace deal between the government and MFDC factions proves more durable than earlier ceasefires; violence drops sharply. [wiki-mfdc, newhumanitarian-casamance]
 - 2024: **Faye wins after democratic crisis** — After Macky Sall's attempt to delay the election is overturned, Bassirou Diomaye Faye wins; power passes peacefully again. [usip-senegal, wiki-faye]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SEN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SEN/chronicle.claims.json
+
 ## References
 
 - [wiki-takrur] Takrur — Wikipedia · https://en.wikipedia.org/wiki/Takrur

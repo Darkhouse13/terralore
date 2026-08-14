@@ -93,6 +93,8 @@ Figures:
 - Abimael Guzman (1934-2021) — Founder of the Shining Path. Former philosophy professor who founded the Maoist Shining Path and led its violent insurgency from 1980. Captured in 1992 and imprisoned for life, he died in custody in 2021.
 - Alberto Fujimori (1938-2024) — President of Peru. President from 1990, who defeated the Shining Path and tamed hyperinflation but ruled with growing authoritarianism, staging a self-coup in 1992. He was later convicted of corruption and human-rights crimes.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PER:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PER/chronicle.claims.json
+
 ## References
 
 - [britannica-peru-history] Peru: History — Encyclopaedia Britannica · https://www.britannica.com/place/Peru/History

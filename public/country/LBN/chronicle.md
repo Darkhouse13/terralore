@@ -87,6 +87,8 @@ Figures:
 
 - Rafic Hariri (1944–2005) — Prime minister of Lebanon. Businessman and statesman who led the post-war reconstruction of Beirut as prime minister; his 2005 assassination triggered the Cedar Revolution and the Syrian withdrawal.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LBN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LBN/chronicle.claims.json
+
 ## References
 
 - [unesco-byblos] Byblos — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/295/

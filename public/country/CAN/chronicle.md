@@ -91,6 +91,8 @@ Figures:
 
 - Pierre Elliott Trudeau (1919–2000) — Prime Minister and architect of patriation. Introduced official multiculturalism in 1971 and championed the 1982 patriation of the constitution and the Charter of Rights and Freedoms, shaping the legal foundations of modern Canada.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CAN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CAN/chronicle.claims.json
+
 ## References
 
 - [brit-canada] Canada — Encyclopaedia Britannica · https://www.britannica.com/place/Canada

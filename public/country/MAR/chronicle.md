@@ -89,6 +89,8 @@ Figures:
 - Mohammed V (1909–1961) — Sultan and first king of independent Morocco. His exile by the French in 1953 made him a symbol of the nation; on his return he led Morocco to the restoration of independence in 1956 and took the title of king in 1957.
 - Hassan II (1929–1999; r. 1961–1999) — King of Morocco. Ruled Morocco for nearly four decades through coups and unrest, and organised the 1975 Green March that brought much of the Western Sahara under Moroccan control.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MAR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MAR/chronicle.claims.json
+
 ## References
 
 - [unesco-volubilis] Archaeological Site of Volubilis — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/836/

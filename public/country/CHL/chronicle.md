@@ -93,6 +93,8 @@ Figures:
 - Patricio Aylwin (1918-2016) — President, restorer of democracy. Christian Democrat inaugurated in March 1990 as the first president after the dictatorship; he established the Rettig truth commission and anchored Chile's democratic transition.
 - Gabriel Boric (born 1986) — President of Chile. Former student leader who in 2021 became the youngest president in Chilean history; he championed a new constitution to replace the Pinochet-era charter, though successive drafts were rejected.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CHL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CHL/chronicle.claims.json
+
 ## References
 
 - [britannica-history-chile] History of Chile — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Chile

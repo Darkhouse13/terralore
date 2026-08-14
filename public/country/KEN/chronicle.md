@@ -87,6 +87,8 @@ Figures:
 
 - Daniel arap Moi (1924–2020) — Second president of Kenya (1978–2002). Kenyatta's successor, who ruled for 24 years over a one-party state, survived a 1982 coup attempt, and eventually presided over the return to multiparty politics before stepping down in 2002.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KEN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KEN/chronicle.claims.json
+
 ## References
 
 - [britannica-nariokotome] Nariokotome (Turkana Boy) — Encyclopaedia Britannica · https://www.britannica.com/place/Nariokotome

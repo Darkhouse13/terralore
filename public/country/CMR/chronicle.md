@@ -88,6 +88,8 @@ Figures:
 
 - Paul Biya (born 1933) — President of Cameroon since 1982. Cameroon's second president, in power since 1982; he survived a 1984 coup attempt, presided over a managed transition to multiparty politics, removed term limits in 2008, and remains one of the world's longest-serving heads of state.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CMR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CMR/chronicle.claims.json
+
 ## References
 
 - [britannica-cameroon] Cameroon (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Cameroon

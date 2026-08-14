@@ -77,6 +77,8 @@ Figures:
 
 - Francis Ona (1953–2005) — Bougainville secessionist leader. A former mine surveyor and landowner whose 1988 sabotage of the Panguna copper mine over land and environmental grievances triggered the Bougainville conflict; he led the secessionist movement and never accepted the peace process.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PNG:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PNG/chronicle.claims.json
+
 ## References
 
 - [brit-png] Papua New Guinea — Encyclopædia Britannica · https://www.britannica.com/place/Papua-New-Guinea

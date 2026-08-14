@@ -93,6 +93,8 @@ Figures:
 - Luiz Inacio Lula da Silva (born 1945) — President of Brazil. Former metalworker and union leader who rose to the presidency in 2003, expanded social programmes, was imprisoned and later cleared in the Lava Jato affair, and returned to office after the 2022 election.
 - Fernando Henrique Cardoso (born 1931) — President of Brazil. Sociologist and statesman associated with the Plano Real that conquered hyperinflation, and president from 1995 to 2002 during a period of stabilisation and reform.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BRA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BRA/chronicle.claims.json
+
 ## References
 
 - [britannica-brazil] Brazil — Encyclopaedia Britannica · https://www.britannica.com/place/Brazil

@@ -79,6 +79,8 @@ Figures:
 
 - Pierre Nkurunziza (1964–2020) — President; former CNDD-FDD rebel leader. Led the CNDD-FDD to power and governed from 2005 until his death in 2020; his disputed 2015 third term plunged Burundi into a new political crisis.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BDI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BDI/chronicle.claims.json
+
 ## References
 
 - [britannica-history] Burundi: History — Encyclopaedia Britannica · https://www.britannica.com/place/Burundi/History

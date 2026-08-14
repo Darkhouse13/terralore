@@ -80,6 +80,8 @@ Figures:
 - Nursultan Nazarbayev (born 1940) — First President of Kazakhstan. Soviet-era party chief who led independent Kazakhstan from 1991 to 2019, renounced its nuclear arsenal, moved the capital to Astana, and built an oil-rich but tightly controlled state, retaining influence as 'Leader of the Nation' until the 2022 unrest.
 - Kassym-Jomart Tokayev (born 1953) — President of Kazakhstan. Career diplomat who succeeded Nazarbayev in 2019 and, after the violent 'Bloody January' of 2022, used the crisis to break his predecessor's network and consolidate power, restoring the capital's name to Astana and winning a new term that year.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KAZ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KAZ/chronicle.claims.json
+
 ## References
 
 - [britannica-kazakhstan] Kazakhstan — Encyclopædia Britannica · https://www.britannica.com/place/Kazakhstan

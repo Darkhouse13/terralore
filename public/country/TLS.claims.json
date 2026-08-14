@@ -1,0 +1,830 @@
+{
+ "subject": "TLS",
+ "name": "Timor-Leste",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/TLS",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:TLS:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 1865608515.41321,
+   "display": "$1.9 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-gdp-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdp-2024, claim TL:TLS:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 1331.9705130185,
+   "display": "$1,332",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdpPerCapita-2024, claim TL:TLS:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": -9.10069369772735,
+   "display": "-9.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdpGrowth-2024, claim TL:TLS:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.06284153005468,
+   "display": "2.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-inflation-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-inflation-2024, claim TL:TLS:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 95.4485021286221,
+   "display": "95.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-tradePctGdp-2024, claim TL:TLS:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 1400638,
+   "display": "1.4 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-population-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-population-2024, claim TL:TLS:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 67.904,
+   "display": "67.9 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-lifeExpectancy-2024, claim TL:TLS:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 28.6641074179574,
+   "display": "28.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-urbanPct-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-urbanPct-2024, claim TL:TLS:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.627,
+   "display": "2.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-fertility-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-fertility-2024, claim TL:TLS:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:literacy:2022",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 69.4000015258789,
+   "display": "69.4%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-literacy-2022",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-literacy-2022, claim TL:TLS:literacy:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 62.8971107,
+   "display": "62.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiVoice-2024, claim TL:TLS:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 74.8794996,
+   "display": "74.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-wgiStability-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiStability-2024, claim TL:TLS:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 33.8688152,
+   "display": "33.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiEffectiveness-2024, claim TL:TLS:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 43.2827099,
+   "display": "43.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiRegQuality-2024, claim TL:TLS:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 46.1963829,
+   "display": "46.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiRuleOfLaw-2024, claim TL:TLS:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 40.213296,
+   "display": "40.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiCorruption-2024, claim TL:TLS:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 9.59779453,
+   "display": "9.6%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-healthSpendPctGdp-2023, claim TL:TLS:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:physicians:2020",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.752,
+   "display": "0.75",
+   "unit": "per 1,000",
+   "observed": 2020,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-physicians-2020",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-physicians-2020, claim TL:TLS:physicians:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 47.6,
+   "display": "47.6",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-underFiveMortality-2024, claim TL:TLS:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 72,
+   "display": "72.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-measlesImmunisation-2024, claim TL:TLS:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:literacyRate:2022",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 69.4000015258789,
+   "display": "69.4%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-literacyRate-2022",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-literacyRate-2022, claim TL:TLS:literacyRate:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.24052834781801,
+   "display": "5.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-eduSpendPctGdp-2023, claim TL:TLS:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:primaryEnrolment:2023",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 119.652693100113,
+   "display": "119.7%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-primaryEnrolment-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-primaryEnrolment-2023, claim TL:TLS:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:secondaryEnrolment:2020",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 84.7410404382553,
+   "display": "84.7%",
+   "unit": "% gross",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-secondaryEnrolment-2020",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-secondaryEnrolment-2020, claim TL:TLS:secondaryEnrolment:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:tertiaryEnrolment:2023",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 30.9611108169641,
+   "display": "31.0%",
+   "unit": "% gross",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TLS#claim-tertiaryEnrolment-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-tertiaryEnrolment-2023, claim TL:TLS:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:internetUsers:2021",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 35.04199982,
+   "display": "35.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TLS#claim-internetUsers-2021",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-internetUsers-2021, claim TL:TLS:internetUsers:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 116.382391453038,
+   "display": "116",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TLS#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-mobileSubs-2024, claim TL:TLS:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.52605032155587,
+   "display": "1.5%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-highTechExports-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-highTechExports-2023, claim TL:TLS:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 14870,
+   "display": "14,870 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-landArea-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-landArea-2023, claim TL:TLS:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 61.6610625420309,
+   "display": "61.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-forestPct-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-forestPct-2023, claim TL:TLS:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 22.9589778076664,
+   "display": "23.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-agriPct-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-agriPct-2023, claim TL:TLS:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.499343870436187,
+   "display": "0.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-co2PerCapita-2024, claim TL:TLS:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 11.4,
+   "display": "11.4%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-renewablePct-2022",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-renewablePct-2022, claim TL:TLS:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 34.7297460391742,
+   "display": "34.7%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-resourceRents-2021",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-resourceRents-2021, claim TL:TLS:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 5.29715520859989,
+   "display": "5.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-oilRents-2021",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-oilRents-2021, claim TL:TLS:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-mineralRents-2021",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-mineralRents-2021, claim TL:TLS:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0537192368212247,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-forestRents-2021",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-forestRents-2021, claim TL:TLS:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-electricityAccess-2023, claim TL:TLS:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.66415662650602,
+   "display": "2.7%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-milExpPctGdp-2024, claim TL:TLS:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 46400000,
+   "display": "$46 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-milExpUsd-2024, claim TL:TLS:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TLS:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 2000,
+   "display": "2,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TLS#claim-armedForces-2020",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-armedForces-2020, claim TL:TLS:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

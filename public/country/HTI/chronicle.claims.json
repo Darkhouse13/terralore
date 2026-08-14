@@ -1,0 +1,539 @@
+{
+ "subject": "HTI",
+ "name": "Haiti",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/HTI/chronicle",
+ "updated": "2026-08-11",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:HTI:event:1492:columbus-lands-on-hispaniola",
+   "year": 1492,
+   "yearLabel": "6 Dec 1492",
+   "title": "Columbus lands on Hispaniola",
+   "summary": "Christopher Columbus reaches the Taino island of Quisqueya and names it La Isla Espanola, beginning Spanish colonisation of the Americas.",
+   "category": "colonization",
+   "era": "taino-spanish-hispaniola",
+   "sources": [
+    {
+     "id": "loc-columbus-taino",
+     "label": "Columbus and the Taino",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    },
+    {
+     "id": "britannica-hispaniola",
+     "label": "Hispaniola",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Hispaniola"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1492-columbus-lands-on-hispaniola",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1492-columbus-lands-on-hispaniola, claim TL:HTI:event:1492:columbus-lands-on-hispaniola, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1500:collapse-of-the-taino",
+   "year": 1500,
+   "yearLabel": "early 16th c.",
+   "title": "Collapse of the Taino",
+   "summary": "Forced labour, violence, and Old World disease devastate the Indigenous population within a generation of contact.",
+   "category": "disaster",
+   "era": "taino-spanish-hispaniola",
+   "sources": [
+    {
+     "id": "britannica-history-haiti",
+     "label": "History of Haiti",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Haiti"
+    },
+    {
+     "id": "loc-columbus-taino",
+     "label": "Columbus and the Taino",
+     "publisher": "Library of Congress",
+     "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1500-collapse-of-the-taino",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1500-collapse-of-the-taino, claim TL:HTI:event:1500:collapse-of-the-taino, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1697:france-gains-saint-domingue",
+   "year": 1697,
+   "yearLabel": "1697 CE",
+   "title": "France gains Saint-Domingue",
+   "summary": "The Treaty of Rijswijk transfers the western third of Hispaniola from Spain to France, creating the colony of Saint-Domingue.",
+   "category": "colonization",
+   "era": "saint-domingue",
+   "sources": [
+    {
+     "id": "britannica-rijswijk",
+     "label": "Treaty of Rijswijk",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Treaty-of-Rijswijk"
+    },
+    {
+     "id": "britannica-saint-domingue",
+     "label": "Saint-Domingue",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Saint-Domingue"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1697-france-gains-saint-domingue",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1697-france-gains-saint-domingue, claim TL:HTI:event:1697:france-gains-saint-domingue, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1789:world-s-richest-colony",
+   "year": 1789,
+   "yearLabel": "by 1789",
+   "title": "World's richest colony",
+   "summary": "Saint-Domingue, with roughly half a million enslaved Africans, has become the leading producer of sugar and coffee and France's most valuable colony.",
+   "category": "economy",
+   "era": "saint-domingue",
+   "sources": [
+    {
+     "id": "britannica-saint-domingue",
+     "label": "Saint-Domingue",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Saint-Domingue"
+    },
+    {
+     "id": "britannica-haitian-revolution",
+     "label": "Haitian Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Haitian-Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1789-world-s-richest-colony",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1789-world-s-richest-colony, claim TL:HTI:event:1789:world-s-richest-colony, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1791:the-slave-uprising-begins",
+   "year": 1791,
+   "yearLabel": "Aug 1791",
+   "title": "The slave uprising begins",
+   "summary": "A massive revolt of the enslaved erupts on the northern plain of Saint-Domingue, opening the Haitian Revolution.",
+   "category": "war",
+   "era": "haitian-revolution-independence",
+   "sources": [
+    {
+     "id": "britannica-haitian-revolution",
+     "label": "Haitian Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Haitian-Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1791-the-slave-uprising-begins",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1791-the-slave-uprising-begins, claim TL:HTI:event:1791:the-slave-uprising-begins, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1802:napoleon-s-expedition-toussaint-deported",
+   "year": 1802,
+   "yearLabel": "1802 CE",
+   "title": "Napoleon's expedition; Toussaint deported",
+   "summary": "Napoleon sends an army to restore slavery; Toussaint Louverture is seized and deported to France, where he dies in 1803.",
+   "category": "war",
+   "era": "haitian-revolution-independence",
+   "sources": [
+    {
+     "id": "britannica-toussaint",
+     "label": "Toussaint Louverture",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Toussaint-Louverture"
+    },
+    {
+     "id": "britannica-haitian-revolution",
+     "label": "Haitian Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Haitian-Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1802-napoleon-s-expedition-toussaint-deported",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1802-napoleon-s-expedition-toussaint-deported, claim TL:HTI:event:1802:napoleon-s-expedition-toussaint-deported, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1804:independence-proclaimed",
+   "year": 1804,
+   "yearLabel": "1 Jan 1804",
+   "title": "Independence proclaimed",
+   "summary": "Jean-Jacques Dessalines declares independence at Gonaives, founding Haiti as the world's first Black republic.",
+   "category": "independence",
+   "era": "haitian-revolution-independence",
+   "sources": [
+    {
+     "id": "britannica-dessalines",
+     "label": "Jean-Jacques Dessalines",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jean-Jacques-Dessalines"
+    },
+    {
+     "id": "britannica-history-haiti",
+     "label": "History of Haiti",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Haiti"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1804-independence-proclaimed",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1804-independence-proclaimed, claim TL:HTI:event:1804:independence-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1811:christophe-crowned-king-henry-i",
+   "year": 1811,
+   "yearLabel": "1811 CE",
+   "title": "Christophe crowned King Henry I",
+   "summary": "Henry Christophe proclaims a kingdom in northern Haiti and builds the Citadelle Laferriere; the south remains a republic under Petion.",
+   "category": "politics",
+   "era": "kingdom-republic-indemnity",
+   "sources": [
+    {
+     "id": "britannica-christophe",
+     "label": "Henry Christophe",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Henry-Christophe"
+    },
+    {
+     "id": "unesco-national-history-park",
+     "label": "National History Park - Citadel, Sans Souci, Ramiers",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/180/"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1811-christophe-crowned-king-henry-i",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1811-christophe-crowned-king-henry-i, claim TL:HTI:event:1811:christophe-crowned-king-henry-i, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1825:the-french-indemnity",
+   "year": 1825,
+   "yearLabel": "1825 CE",
+   "title": "The French indemnity",
+   "summary": "France recognises Haitian independence only in exchange for an indemnity of 150 million francs, burdening Haiti with crippling debt.",
+   "category": "economy",
+   "era": "kingdom-republic-indemnity",
+   "sources": [
+    {
+     "id": "britannica-history-haiti",
+     "label": "History of Haiti",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Haiti"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1825-the-french-indemnity",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1825-the-french-indemnity, claim TL:HTI:event:1825:the-french-indemnity, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1821:boyer-unifies-hispaniola",
+   "year": 1821,
+   "yearLabel": "1821 CE",
+   "title": "Boyer unifies Hispaniola",
+   "summary": "After Santo Domingo declares independence, Haitian forces move east and govern the whole island — a republic of former slaves administering the oldest European colony in the Americas.",
+   "category": "politics",
+   "era": "kingdom-republic-indemnity",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1821-boyer-unifies-hispaniola",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1821-boyer-unifies-hispaniola, claim TL:HTI:event:1821:boyer-unifies-hispaniola, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1844:dominican-republic-secedes",
+   "year": 1844,
+   "yearLabel": "1844 CE",
+   "title": "Dominican Republic secedes",
+   "summary": "The eastern, Spanish-speaking part of Hispaniola breaks from Haitian rule to form the independent Dominican Republic.",
+   "category": "politics",
+   "era": "kingdom-republic-indemnity",
+   "sources": [
+    {
+     "id": "britannica-hispaniola",
+     "label": "Hispaniola",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Hispaniola"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1844-dominican-republic-secedes",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1844-dominican-republic-secedes, claim TL:HTI:event:1844:dominican-republic-secedes, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1849:the-second-empire-of-faustin-soulouque",
+   "year": 1849,
+   "yearLabel": "1849-1859",
+   "title": "The Second Empire of Faustin Soulouque",
+   "summary": "General Soulouque makes himself emperor and spends his reign in repeated attempts to reconquer the east.",
+   "category": "politics",
+   "era": "kingdom-republic-indemnity",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1849-the-second-empire-of-faustin-soulouque",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1849-the-second-empire-of-faustin-soulouque, claim TL:HTI:event:1849:the-second-empire-of-faustin-soulouque, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1862:the-united-states-recognises-haiti",
+   "year": 1862,
+   "yearLabel": "12 Jul 1862",
+   "title": "The United States recognises Haiti",
+   "summary": "Fifty-eight years after independence — and only in the middle of its own civil war — Washington recognises the republic a slave revolt had founded.",
+   "category": "politics",
+   "era": "kingdom-republic-indemnity",
+   "sources": [
+    {
+     "id": "statedept-haiti",
+     "label": "A Guide to the United States' History of Recognition: Haiti",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/haiti"
+    },
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1862-the-united-states-recognises-haiti",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1862-the-united-states-recognises-haiti, claim TL:HTI:event:1862:the-united-states-recognises-haiti, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1915:united-states-occupation",
+   "year": 1915,
+   "yearLabel": "1915-1934",
+   "title": "United States occupation",
+   "summary": "U.S. Marines occupy Haiti for nineteen years, controlling its finances and building infrastructure amid widespread resentment and resistance.",
+   "category": "war",
+   "era": "occupation-duvaliers",
+   "sources": [
+    {
+     "id": "history-state-occupation",
+     "label": "U.S. Invasion and Occupation of Haiti, 1915-34",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1914-1920/haiti"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1915-united-states-occupation",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1915-united-states-occupation, claim TL:HTI:event:1915:united-states-occupation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1957:papa-doc-duvalier-takes-power",
+   "year": 1957,
+   "yearLabel": "1957 CE",
+   "title": "Papa Doc Duvalier takes power",
+   "summary": "Francois Duvalier becomes president and establishes a personal dictatorship enforced by the Tontons Macoutes, declaring himself president for life.",
+   "category": "politics",
+   "era": "occupation-duvaliers",
+   "sources": [
+    {
+     "id": "britannica-duvaliers",
+     "label": "Haiti: Military regimes and the Duvaliers",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Haiti/Military-regimes-and-the-Duvaliers"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1957-papa-doc-duvalier-takes-power",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1957-papa-doc-duvalier-takes-power, claim TL:HTI:event:1957:papa-doc-duvalier-takes-power, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1964:president-for-life",
+   "year": 1964,
+   "yearLabel": "1964 CE",
+   "title": "President for Life",
+   "summary": "Duvalier proclaims himself president for life and crushes an uprising at Jeremie with hundreds killed; his anti-communism keeps American support flowing.",
+   "category": "politics",
+   "era": "occupation-duvaliers",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1964-president-for-life",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1964-president-for-life, claim TL:HTI:event:1964:president-for-life, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1986:fall-of-baby-doc",
+   "year": 1986,
+   "yearLabel": "7 Feb 1986",
+   "title": "Fall of Baby Doc",
+   "summary": "A popular uprising drives Jean-Claude 'Baby Doc' Duvalier into exile, ending a 29-year family dictatorship in which an estimated 40,000-60,000 Haitians were killed.",
+   "category": "politics",
+   "era": "occupation-duvaliers",
+   "sources": [
+    {
+     "id": "britannica-duvaliers",
+     "label": "Haiti: Military regimes and the Duvaliers",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Haiti/Military-regimes-and-the-Duvaliers"
+    },
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1986-fall-of-baby-doc",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1986-fall-of-baby-doc, claim TL:HTI:event:1986:fall-of-baby-doc, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1990:aristide-elected",
+   "year": 1990,
+   "yearLabel": "Dec 1990",
+   "title": "Aristide elected",
+   "summary": "Jean-Bertrand Aristide wins Haiti's first free presidential election; he is overthrown in 1991 and restored in 1994.",
+   "category": "politics",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "britannica-aristide",
+     "label": "Jean-Bertrand Aristide",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jean-Bertrand-Aristide"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1990-aristide-elected",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1990-aristide-elected, claim TL:HTI:event:1990:aristide-elected, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:1994:twenty-thousand-us-troops-restore-aristide",
+   "year": 1994,
+   "yearLabel": "1994 CE",
+   "title": "Twenty thousand US troops restore Aristide",
+   "summary": "An American-led intervention reverses the 1991 coup and returns the elected president to office.",
+   "category": "war",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-1994-twenty-thousand-us-troops-restore-aristide",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-1994-twenty-thousand-us-troops-restore-aristide, claim TL:HTI:event:1994:twenty-thousand-us-troops-restore-aristide, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:2004:aristide-leaves-again-the-un-deploys",
+   "year": 2004,
+   "yearLabel": "2004 CE",
+   "title": "Aristide leaves again; the UN deploys",
+   "summary": "An armed rebellion drives Aristide from the country a second time; US Marines land and a UN stabilisation force takes over, staying until 2019.",
+   "category": "politics",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-2004-aristide-leaves-again-the-un-deploys",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-2004-aristide-leaves-again-the-un-deploys, claim TL:HTI:event:2004:aristide-leaves-again-the-un-deploys, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:2010:catastrophic-earthquake",
+   "year": 2010,
+   "yearLabel": "12 Jan 2010",
+   "title": "Catastrophic earthquake",
+   "summary": "A magnitude 7.0 earthquake devastates Port-au-Prince; death-toll estimates vary widely and remain disputed, with around three million people affected.",
+   "category": "disaster",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "britannica-earthquake",
+     "label": "2010 Haiti earthquake",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/2010-Haiti-earthquake"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-2010-catastrophic-earthquake",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-2010-catastrophic-earthquake, claim TL:HTI:event:2010:catastrophic-earthquake, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:2016:hurricane-matthew",
+   "year": 2016,
+   "yearLabel": "Oct 2016",
+   "title": "Hurricane Matthew",
+   "summary": "The strongest storm to strike the region in a decade kills hundreds and destroys thousands of homes.",
+   "category": "disaster",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-2016-hurricane-matthew",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-2016-hurricane-matthew, claim TL:HTI:event:2016:hurricane-matthew, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:2021:assassination-of-president-moise",
+   "year": 2021,
+   "yearLabel": "7 Jul 2021",
+   "title": "Assassination of President Moise",
+   "summary": "President Jovenel Moise is assassinated at his home, accelerating Haiti's slide into gang rule and state collapse.",
+   "category": "politics",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "un-news-haiti-2025",
+     "label": "UN Security Council approves new force for Haiti amid gang violence",
+     "publisher": "United Nations News",
+     "url": "https://news.un.org/en/story/2025/09/1166006"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-2021-assassination-of-president-moise",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-2021-assassination-of-president-moise, claim TL:HTI:event:2021:assassination-of-president-moise, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:2021:a-second-great-earthquake",
+   "year": 2021,
+   "yearLabel": "14 Aug 2021",
+   "title": "A second great earthquake",
+   "summary": "Five weeks after the assassination, a magnitude 7.2 quake in the south-west kills some 2,200 people.",
+   "category": "disaster",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "bbc-haiti",
+     "label": "Haiti country profile",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/world-latin-america-19548810"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-2021-a-second-great-earthquake",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-2021-a-second-great-earthquake, claim TL:HTI:event:2021:a-second-great-earthquake, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:event:2024:transitional-council-and-security-mission",
+   "year": 2024,
+   "yearLabel": "2024-2026",
+   "title": "Transitional council and security mission",
+   "summary": "A transitional presidential council and a Kenyan-led security mission seek to restore order as gangs control most of the capital and a strengthened UN-authorised force is approved.",
+   "category": "politics",
+   "era": "democracy-earthquake-crisis",
+   "sources": [
+    {
+     "id": "un-news-haiti-2025",
+     "label": "UN Security Council approves new force for Haiti amid gang violence",
+     "publisher": "United Nations News",
+     "url": "https://news.un.org/en/story/2025/09/1166006"
+    }
+   ],
+   "url": "https://terralore.co/country/HTI/chronicle#ev-2024-transitional-council-and-security-mission",
+   "citation": "Terralore, \"The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.\", terralore.co/country/HTI/chronicle#ev-2024-transitional-council-and-security-mission, claim TL:HTI:event:2024:transitional-council-and-security-mission, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

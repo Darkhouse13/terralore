@@ -87,6 +87,8 @@ Figures:
 - Bhumibol Adulyadej (Rama IX) (1927–2016) — King of Thailand. Thailand's longest-reigning monarch, on the throne from 1946 to 2016, he became the revered symbol of national unity and used his moral authority to intervene decisively at moments of crisis such as the 1973 uprising.
 - Vajiralongkorn (Rama X) (born 1952) — King of Thailand. Son and successor of Bhumibol, he became king in 2016 and gave royal assent to the military-backed 2017 constitution, reigning over a kingdom still contending with recurring political upheaval.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:THA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/THA/chronicle.claims.json
+
 ## References
 
 - [eb-thailand] Thailand — Encyclopædia Britannica · https://www.britannica.com/place/Thailand

@@ -1,0 +1,890 @@
+{
+ "subject": "ESP",
+ "name": "Spain",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/ESP",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:ESP:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 1725671652742.19,
+   "display": "$1.73 T",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-gdp-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-gdp-2024, claim TL:ESP:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 35326.7683069278,
+   "display": "$35,327",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-gdpPerCapita-2024, claim TL:ESP:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.45525405630191,
+   "display": "3.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-gdpGrowth-2024, claim TL:ESP:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 2.77417826534772,
+   "display": "2.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-inflation-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-inflation-2024, claim TL:ESP:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 69.9502612382631,
+   "display": "70.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-tradePctGdp-2024, claim TL:ESP:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 48848840,
+   "display": "49 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-population-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-population-2024, claim TL:ESP:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 83.8878048780488,
+   "display": "83.9 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-lifeExpectancy-2024, claim TL:ESP:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 80.315199821207,
+   "display": "80.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-urbanPct-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-urbanPct-2024, claim TL:ESP:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.1,
+   "display": "1.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-fertility-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-fertility-2024, claim TL:ESP:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:literacy:2021",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 99.6999969482422,
+   "display": "99.7%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-literacy-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-literacy-2021, claim TL:ESP:literacy:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 76.9498381,
+   "display": "76.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-wgiVoice-2024, claim TL:ESP:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 65.8432851,
+   "display": "65.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-wgiStability-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-wgiStability-2024, claim TL:ESP:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 72.9391098,
+   "display": "72.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-wgiEffectiveness-2024, claim TL:ESP:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 64.6542875,
+   "display": "64.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-wgiRegQuality-2024, claim TL:ESP:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 73.0011894,
+   "display": "73.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-wgiRuleOfLaw-2024, claim TL:ESP:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 62.3193026,
+   "display": "62.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-wgiCorruption-2024, claim TL:ESP:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 9.2206583,
+   "display": "9.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-healthSpendPctGdp-2023, claim TL:ESP:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 4.294,
+   "display": "4.29",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-physicians-2022",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-physicians-2022, claim TL:ESP:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 3.2,
+   "display": "3.2",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-underFiveMortality-2024, claim TL:ESP:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 97,
+   "display": "97.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-measlesImmunisation-2024, claim TL:ESP:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 99.4584646653876,
+   "display": "99.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ESP#claim-safeWater-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-safeWater-2024, claim TL:ESP:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:literacyRate:2021",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 99.6999969482422,
+   "display": "99.7%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-literacyRate-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-literacyRate-2021, claim TL:ESP:literacyRate:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:eduSpendPctGdp:2022",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.58553981781006,
+   "display": "4.6%",
+   "unit": "% of GDP",
+   "observed": 2022,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-eduSpendPctGdp-2022",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-eduSpendPctGdp-2022, claim TL:ESP:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 102.936981201172,
+   "display": "102.9%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-primaryEnrolment-2024, claim TL:ESP:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 118.537803649902,
+   "display": "118.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-secondaryEnrolment-2024, claim TL:ESP:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 93.7689666748047,
+   "display": "93.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-tertiaryEnrolment-2024, claim TL:ESP:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:rdSpending:2023",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 1.49362,
+   "display": "1.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-rdSpending-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-rdSpending-2023, claim TL:ESP:rdSpending:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:researchers:2023",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 3653.80306,
+   "display": "3,654",
+   "unit": "per million",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-researchers-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-researchers-2023, claim TL:ESP:researchers:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 95.7574516,
+   "display": "95.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-internetUsers-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-internetUsers-2024, claim TL:ESP:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 130.260997343256,
+   "display": "130",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ESP#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-mobileSubs-2024, claim TL:ESP:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 9.28447661569937,
+   "display": "9.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-highTechExports-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-highTechExports-2024, claim TL:ESP:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 499697.4,
+   "display": "499,697 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-landArea-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-landArea-2023, claim TL:ESP:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 37.1925889548355,
+   "display": "37.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-forestPct-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-forestPct-2023, claim TL:ESP:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 49.5753269878931,
+   "display": "49.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-agriPct-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-agriPct-2023, claim TL:ESP:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 4.50540688376633,
+   "display": "4.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-co2PerCapita-2024, claim TL:ESP:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 19,
+   "display": "19.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-renewablePct-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-renewablePct-2021, claim TL:ESP:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.115181021827658,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-resourceRents-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-resourceRents-2021, claim TL:ESP:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.000151493558291056,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-oilRents-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-oilRents-2021, claim TL:ESP:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.0964957986887776,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-mineralRents-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-mineralRents-2021, claim TL:ESP:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.0179665098501539,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-forestRents-2021",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-forestRents-2021, claim TL:ESP:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-electricityAccess-2023, claim TL:ESP:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.43210737406914,
+   "display": "1.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-milExpPctGdp-2024, claim TL:ESP:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 24615397928.7413,
+   "display": "$25 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-milExpUsd-2024, claim TL:ESP:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ESP:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 199000,
+   "display": "199,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ESP#claim-armedForces-2020",
+   "citation": "Terralore, \"Spain — national dossier\", terralore.co/country/ESP#claim-armedForces-2020, claim TL:ESP:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

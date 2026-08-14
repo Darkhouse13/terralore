@@ -80,6 +80,8 @@ Figures:
 - Hafez al-Assad (1930–2000) — President of Syria. An air-force commander who seized power in 1970 and ruled Syria for three decades, building a centralised one-party state aligned with the Soviet Union and dominated by the security services. He was succeeded on his death by his son Bashar.
 - Bashar al-Assad (born 1965; president 2000–2024) — President of Syria. Successor to his father Hafez, whose response to the 2011 uprising led to a civil war that devastated Syria. His government fell in December 2024 when he fled the country amid a rebel offensive, ending the Assad family's long rule.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SYR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SYR/chronicle.claims.json
+
 ## References
 
 - [britannica-syria] Syria — history — Encyclopaedia Britannica · https://www.britannica.com/place/Syria

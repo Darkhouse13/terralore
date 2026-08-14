@@ -97,6 +97,8 @@ Figures:
 
 - Kim Dae-jung (1924-2009) — President and democracy advocate. A dissident once sentenced to death under military rule, he became president in 1998, led South Korea out of financial crisis, and pursued reconciliation with the North through the Sunshine Policy, winning the 2000 Nobel Peace Prize.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KOR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KOR/chronicle.claims.json
+
 ## References
 
 - [korea-place] Korea (history) — Encyclopaedia Britannica · https://www.britannica.com/place/Korea

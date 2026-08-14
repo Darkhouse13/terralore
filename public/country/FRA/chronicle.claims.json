@@ -1,0 +1,377 @@
+{
+ "subject": "FRA",
+ "name": "France",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/FRA/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:FRA:event:600bce:foundation-of-massalia-marseille",
+   "year": -600,
+   "yearLabel": "c. 600 BCE",
+   "title": "Foundation of Massalia (Marseille)",
+   "summary": "Greek colonists from Phocaea establish a trading port — the oldest city in France.",
+   "category": "founding",
+   "era": "gaul",
+   "sources": [
+    {
+     "id": "eb-marseille",
+     "label": "Marseille",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/Marseille"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-600bce-foundation-of-massalia-marseille",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-600bce-foundation-of-massalia-marseille, claim TL:FRA:event:600bce:foundation-of-massalia-marseille, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:52bce:siege-of-alesia",
+   "year": -52,
+   "yearLabel": "52 BCE",
+   "title": "Siege of Alesia",
+   "summary": "Caesar defeats Vercingetorix, completing the Roman conquest of Gaul.",
+   "category": "war",
+   "era": "gaul",
+   "sources": [
+    {
+     "id": "eb-alesia",
+     "label": "Battle of Alesia",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Alesia"
+    },
+    {
+     "id": "eb-vercingetorix",
+     "label": "Vercingetorix",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Vercingetorix"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-52bce-siege-of-alesia",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-52bce-siege-of-alesia, claim TL:FRA:event:52bce:siege-of-alesia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:50bce:gaul-becomes-roman",
+   "year": -50,
+   "yearLabel": "50 BCE",
+   "title": "Gaul becomes Roman",
+   "summary": "Gaul is incorporated into the Roman world; Latin, Roman law and cities reshape the land.",
+   "category": "politics",
+   "era": "gaul",
+   "sources": [
+    {
+     "id": "eb-france",
+     "label": "France",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/France"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-50bce-gaul-becomes-roman",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-50bce-gaul-becomes-roman, claim TL:FRA:event:50bce:gaul-becomes-roman, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:496:baptism-of-clovis-i",
+   "year": 496,
+   "yearLabel": "c. 496–508",
+   "title": "Baptism of Clovis I",
+   "summary": "The first Frankish king to adopt Catholic Christianity, aligning crown and Church.",
+   "category": "religion",
+   "era": "franks",
+   "sources": [
+    {
+     "id": "eb-clovis",
+     "label": "Clovis I",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Clovis-I"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-496-baptism-of-clovis-i",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-496-baptism-of-clovis-i, claim TL:FRA:event:496:baptism-of-clovis-i, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:800:charlemagne-crowned-emperor",
+   "year": 800,
+   "yearLabel": "800",
+   "title": "Charlemagne crowned Emperor",
+   "summary": "Pope Leo III crowns Charlemagne in Rome, reviving the Western imperial title.",
+   "category": "politics",
+   "era": "franks",
+   "sources": [
+    {
+     "id": "eb-charlemagne",
+     "label": "Charlemagne",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Charlemagne"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-800-charlemagne-crowned-emperor",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-800-charlemagne-crowned-emperor, claim TL:FRA:event:800:charlemagne-crowned-emperor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:843:treaty-of-verdun",
+   "year": 843,
+   "yearLabel": "843",
+   "title": "Treaty of Verdun",
+   "summary": "Charlemagne's empire is split; West Francia becomes the seed of France.",
+   "category": "founding",
+   "era": "franks",
+   "sources": [
+    {
+     "id": "eb-verdun",
+     "label": "Treaty of Verdun",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Treaty-of-Verdun"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-843-treaty-of-verdun",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-843-treaty-of-verdun, claim TL:FRA:event:843:treaty-of-verdun, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:987:hugh-capet-elected-king",
+   "year": 987,
+   "yearLabel": "987",
+   "title": "Hugh Capet elected king",
+   "summary": "Beginning of the Capetian dynasty and the long consolidation of the French crown.",
+   "category": "founding",
+   "era": "franks",
+   "sources": [
+    {
+     "id": "eb-hugh-capet",
+     "label": "Hugh Capet",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Hugh-Capet"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-987-hugh-capet-elected-king",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-987-hugh-capet-elected-king, claim TL:FRA:event:987:hugh-capet-elected-king, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1337:hundred-years-war-begins",
+   "year": 1337,
+   "yearLabel": "1337",
+   "title": "Hundred Years' War begins",
+   "summary": "A dynastic struggle with England that would last until 1453 and forge French identity.",
+   "category": "war",
+   "era": "kingdom",
+   "sources": [
+    {
+     "id": "eb-hundred-years",
+     "label": "Hundred Years' War",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Hundred-Years-War"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1337-hundred-years-war-begins",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1337-hundred-years-war-begins, claim TL:FRA:event:1337:hundred-years-war-begins, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1429:joan-of-arc-at-orleans",
+   "year": 1429,
+   "yearLabel": "1429",
+   "title": "Joan of Arc at Orléans",
+   "summary": "Joan lifts the siege of Orléans, reversing English fortunes; she is executed in 1431.",
+   "category": "war",
+   "era": "kingdom",
+   "sources": [
+    {
+     "id": "eb-joan",
+     "label": "St. Joan of Arc",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Saint-Joan-of-Arc"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1429-joan-of-arc-at-orleans",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1429-joan-of-arc-at-orleans, claim TL:FRA:event:1429:joan-of-arc-at-orleans, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1598:edict-of-nantes",
+   "year": 1598,
+   "yearLabel": "1598",
+   "title": "Edict of Nantes",
+   "summary": "Henry IV grants toleration to Protestants, ending the Wars of Religion.",
+   "category": "religion",
+   "era": "kingdom",
+   "sources": [
+    {
+     "id": "eb-nantes",
+     "label": "Edict of Nantes",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/Edict-of-Nantes"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1598-edict-of-nantes",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1598-edict-of-nantes, claim TL:FRA:event:1598:edict-of-nantes, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1643:reign-of-louis-xiv",
+   "year": 1643,
+   "yearLabel": "1643–1715",
+   "title": "Reign of Louis XIV",
+   "summary": "Absolutism and the court of Versailles make France the dominant power in Europe.",
+   "category": "politics",
+   "era": "kingdom",
+   "sources": [
+    {
+     "id": "eb-louis-xiv",
+     "label": "Louis XIV",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Louis-XIV-king-of-France"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1643-reign-of-louis-xiv",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1643-reign-of-louis-xiv, claim TL:FRA:event:1643:reign-of-louis-xiv, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1789:storming-of-the-bastille",
+   "year": 1789,
+   "yearLabel": "14 July 1789",
+   "title": "Storming of the Bastille",
+   "summary": "The opening act of the French Revolution; later France's national day.",
+   "category": "war",
+   "era": "revolution",
+   "sources": [
+    {
+     "id": "eb-revolution",
+     "label": "French Revolution",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/event/French-Revolution"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1789-storming-of-the-bastille",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1789-storming-of-the-bastille, claim TL:FRA:event:1789:storming-of-the-bastille, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1789:declaration-of-the-rights-of-man",
+   "year": 1789,
+   "yearLabel": "Aug 1789",
+   "title": "Declaration of the Rights of Man",
+   "summary": "Proclaims liberty, equality and popular sovereignty — a founding text of modern democracy.",
+   "category": "politics",
+   "era": "revolution",
+   "sources": [
+    {
+     "id": "eb-rights-of-man",
+     "label": "Declaration of the Rights of Man and of the Citizen",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/topic/Declaration-of-the-Rights-of-Man-and-of-the-Citizen"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1789-declaration-of-the-rights-of-man",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1789-declaration-of-the-rights-of-man, claim TL:FRA:event:1789:declaration-of-the-rights-of-man, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1804:napoleon-crowned-emperor",
+   "year": 1804,
+   "yearLabel": "1804",
+   "title": "Napoleon crowned Emperor",
+   "summary": "Bonaparte founds the First Empire and exports the Napoleonic Code across Europe.",
+   "category": "politics",
+   "era": "revolution",
+   "sources": [
+    {
+     "id": "eb-napoleon",
+     "label": "Napoleon I",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Napoleon-I"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1804-napoleon-crowned-emperor",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1804-napoleon-crowned-emperor, claim TL:FRA:event:1804:napoleon-crowned-emperor, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1815:battle-of-waterloo",
+   "year": 1815,
+   "yearLabel": "1815",
+   "title": "Battle of Waterloo",
+   "summary": "Napoleon's final defeat ends the Empire and the Napoleonic Wars.",
+   "category": "war",
+   "era": "revolution",
+   "sources": [
+    {
+     "id": "eb-napoleon",
+     "label": "Napoleon I",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Napoleon-I"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1815-battle-of-waterloo",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1815-battle-of-waterloo, claim TL:FRA:event:1815:battle-of-waterloo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1905:separation-of-church-and-state",
+   "year": 1905,
+   "yearLabel": "1905",
+   "title": "Separation of Church and State",
+   "summary": "The 1905 law establishes laïcité — France's distinctive secularism.",
+   "category": "politics",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "eb-france",
+     "label": "France",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/France"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1905-separation-of-church-and-state",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1905-separation-of-church-and-state, claim TL:FRA:event:1905:separation-of-church-and-state, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1944:liberation-of-paris",
+   "year": 1944,
+   "yearLabel": "Aug 1944",
+   "title": "Liberation of Paris",
+   "summary": "Allied and Free French forces liberate Paris after four years of occupation.",
+   "category": "war",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "eb-france",
+     "label": "France",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/France"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1944-liberation-of-paris",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1944-liberation-of-paris, claim TL:FRA:event:1944:liberation-of-paris, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1958:fifth-republic-founded",
+   "year": 1958,
+   "yearLabel": "1958",
+   "title": "Fifth Republic founded",
+   "summary": "De Gaulle's new constitution creates the strong presidency that governs France today.",
+   "category": "founding",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "eb-fifth-republic",
+     "label": "France — The Fifth Republic",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/France/The-Fifth-Republic"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1958-fifth-republic-founded",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1958-fifth-republic-founded, claim TL:FRA:event:1958:fifth-republic-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:FRA:event:1957:founding-member-of-the-eec",
+   "year": 1957,
+   "yearLabel": "1957",
+   "title": "Founding member of the EEC",
+   "summary": "France signs the Treaty of Rome, beginning European integration.",
+   "category": "economy",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "eb-france",
+     "label": "France",
+     "publisher": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/place/France"
+    }
+   ],
+   "url": "https://terralore.co/country/FRA/chronicle#ev-1957-founding-member-of-the-eec",
+   "citation": "Terralore, \"The Chronicle of France: From the forests of Gaul to the Fifth Republic\", terralore.co/country/FRA/chronicle#ev-1957-founding-member-of-the-eec, claim TL:FRA:event:1957:founding-member-of-the-eec, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

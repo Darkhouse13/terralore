@@ -84,6 +84,8 @@ Figures:
 - Zulfikar Ali Bhutto (1928–1979) — President and Prime Minister of Pakistan. A charismatic statesman who took power after the 1971 defeat, gave Pakistan its 1973 constitution and launched its nuclear programme, before being overthrown by Zia-ul-Haq and executed in 1979.
 - Mohammad Zia-ul-Haq (1924–1988) — Military ruler of Pakistan. The army chief who seized power in 1977, had Bhutto hanged, and ruled through martial law and a programme of Islamisation until his death in a 1988 plane crash.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PAK:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PAK/chronicle.claims.json
+
 ## References
 
 - [britannica-indus] Indus civilization — Encyclopædia Britannica · https://www.britannica.com/topic/Indus-civilization

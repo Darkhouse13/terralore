@@ -91,6 +91,8 @@ Figures:
 
 - Abd Rabbuh Mansur Hadi (born 1945) — President of Yemen, 2012–2022. Saleh's vice-president who became president in the 2012 transition; forced from Sanaa by the Houthi advance in 2014–15, he led the internationally recognised government from exile and later Aden until handing authority to a presidential council in 2022.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:YEM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/YEM/chronicle.claims.json
+
 ## References
 
 - [britannica-yemen-history] Yemen: History (ancient kingdoms, Islam, the imamate, unification and war) — Encyclopaedia Britannica · https://www.britannica.com/place/Yemen/History

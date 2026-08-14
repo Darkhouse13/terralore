@@ -86,6 +86,8 @@ Figures:
 
 - Joaquim Chissano (born 1939) — President of Mozambique 1986–2005. Succeeding Machel in 1986, Chissano steered FRELIMO away from Marxism, signed the 1992 Rome peace accords ending the civil war, and won the country's first multiparty elections in 1994.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MOZ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MOZ/chronicle.claims.json
+
 ## References
 
 - [britannica-moz] Mozambique — Encyclopaedia Britannica · https://www.britannica.com/place/Mozambique

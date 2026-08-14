@@ -1,0 +1,512 @@
+{
+ "subject": "GTM",
+ "name": "Guatemala",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/GTM/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:GTM:event:900bce:tikal-settled-in-the-peten",
+   "year": -900,
+   "yearLabel": "c. 900-300 BCE",
+   "title": "Tikal settled in the Peten",
+   "summary": "A village forms at Tikal in the Middle Formative period and grows into a ceremonial centre of the lowland Maya.",
+   "category": "founding",
+   "era": "maya-civilisation",
+   "sources": [
+    {
+     "id": "britannica-tikal",
+     "label": "Tikal",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Tikal"
+    },
+    {
+     "id": "unesco-tikal",
+     "label": "Tikal National Park",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/64/"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-900bce-tikal-settled-in-the-peten",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-900bce-tikal-settled-in-the-peten, claim TL:GTM:event:900bce:tikal-settled-in-the-peten, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:600:tikal-at-its-height",
+   "year": 600,
+   "yearLabel": "c. 600-800 CE",
+   "title": "Tikal at its height",
+   "summary": "Tikal reaches its architectural and artistic peak as one of the dominant city-states of the Classic Maya world.",
+   "category": "culture",
+   "era": "maya-civilisation",
+   "sources": [
+    {
+     "id": "unesco-tikal",
+     "label": "Tikal National Park",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/64/"
+    },
+    {
+     "id": "britannica-tikal",
+     "label": "Tikal",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Tikal"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-600-tikal-at-its-height",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-600-tikal-at-its-height, claim TL:GTM:event:600:tikal-at-its-height, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:900:classic-maya-collapse",
+   "year": 900,
+   "yearLabel": "c. 900 CE",
+   "title": "Classic Maya collapse",
+   "summary": "Tikal and the southern lowland centres are depopulated and abandoned as the Classic Maya order disintegrates.",
+   "category": "disaster",
+   "era": "maya-civilisation",
+   "sources": [
+    {
+     "id": "britannica-maya",
+     "label": "Maya",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Maya-people"
+    },
+    {
+     "id": "unesco-tikal",
+     "label": "Tikal National Park",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/64/"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-900-classic-maya-collapse",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-900-classic-maya-collapse, claim TL:GTM:event:900:classic-maya-collapse, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1524:conquest-under-pedro-de-alvarado",
+   "year": 1524,
+   "yearLabel": "1524 CE",
+   "title": "Conquest under Pedro de Alvarado",
+   "summary": "Alvarado invades from Mexico, defeats the K'iche', and burns their capital Q'umarkaj, beginning Spanish rule in Guatemala.",
+   "category": "colonization",
+   "era": "postclassic-conquest",
+   "sources": [
+    {
+     "id": "britannica-alvarado",
+     "label": "Pedro de Alvarado",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Pedro-de-Alvarado"
+    },
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1524-conquest-under-pedro-de-alvarado",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1524-conquest-under-pedro-de-alvarado, claim TL:GTM:event:1524:conquest-under-pedro-de-alvarado, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1543:santiago-de-los-caballeros-re-founded",
+   "year": 1543,
+   "yearLabel": "1543 CE",
+   "title": "Santiago de los Caballeros re-founded",
+   "summary": "After a flood destroys the earlier capital, the colonial seat of the Captaincy General is established at present-day Antigua Guatemala.",
+   "category": "colonization",
+   "era": "postclassic-conquest",
+   "sources": [
+    {
+     "id": "britannica-antigua",
+     "label": "Antigua Guatemala",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Antigua-Guatemala"
+    },
+    {
+     "id": "unesco-antigua",
+     "label": "Antigua Guatemala",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/65/"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1543-santiago-de-los-caballeros-re-founded",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1543-santiago-de-los-caballeros-re-founded, claim TL:GTM:event:1543:santiago-de-los-caballeros-re-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1554:the-popol-vuh-set-down",
+   "year": 1554,
+   "yearLabel": "c. 1554-1558",
+   "title": "The Popol Vuh set down",
+   "summary": "The K'iche' creation epic, the Popol Vuh, is written in alphabetic K'iche', preserving Maya mythology and dynastic history.",
+   "category": "culture",
+   "era": "postclassic-conquest",
+   "sources": [
+    {
+     "id": "britannica-popol-vuh",
+     "label": "Popol Vuh",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Popol-Vuh"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1554-the-popol-vuh-set-down",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1554-the-popol-vuh-set-down, claim TL:GTM:event:1554:the-popol-vuh-set-down, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1773:santa-marta-earthquakes-ruin-antigua",
+   "year": 1773,
+   "yearLabel": "1773 CE",
+   "title": "Santa Marta earthquakes ruin Antigua",
+   "summary": "Powerful earthquakes devastate the colonial capital, leading to the transfer of government to present-day Guatemala City.",
+   "category": "disaster",
+   "era": "colony-independence",
+   "sources": [
+    {
+     "id": "britannica-antigua",
+     "label": "Antigua Guatemala",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Antigua-Guatemala"
+    },
+    {
+     "id": "unesco-antigua",
+     "label": "Antigua Guatemala",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/65/"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1773-santa-marta-earthquakes-ruin-antigua",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1773-santa-marta-earthquakes-ruin-antigua, claim TL:GTM:event:1773:santa-marta-earthquakes-ruin-antigua, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1821:independence-from-spain",
+   "year": 1821,
+   "yearLabel": "15 Sept 1821",
+   "title": "Independence from Spain",
+   "summary": "Guatemala City signs the Act of Independence of Central America, ending nearly three centuries of Spanish rule.",
+   "category": "independence",
+   "era": "colony-independence",
+   "sources": [
+    {
+     "id": "britannica-central-america",
+     "label": "Central America: Independence, 1808-23",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Central-America/Independence-1808-23"
+    },
+    {
+     "id": "loc-guatemala",
+     "label": "Guatemala: Country Guide (Hispanic Reading Room)",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/guatemala-country-guide/"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1821-independence-from-spain",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1821-independence-from-spain, claim TL:GTM:event:1821:independence-from-spain, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1823:federal-republic-of-central-america",
+   "year": 1823,
+   "yearLabel": "1823-1824",
+   "title": "Federal Republic of Central America",
+   "summary": "The former captaincy general forms a federation of five states, with Guatemala City as its capital.",
+   "category": "founding",
+   "era": "colony-independence",
+   "sources": [
+    {
+     "id": "britannica-central-america",
+     "label": "Central America: Independence, 1808-23",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Central-America/Independence-1808-23"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1823-federal-republic-of-central-america",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1823-federal-republic-of-central-america, claim TL:GTM:event:1823:federal-republic-of-central-america, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1847:republic-of-guatemala-proclaimed",
+   "year": 1847,
+   "yearLabel": "1847 CE",
+   "title": "Republic of Guatemala proclaimed",
+   "summary": "With the federation dissolved, Guatemala declares itself a sovereign republic under Conservative rule.",
+   "category": "politics",
+   "era": "colony-independence",
+   "sources": [
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    },
+    {
+     "id": "britannica-central-america",
+     "label": "Central America: Independence, 1808-23",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Central-America/Independence-1808-23"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1847-republic-of-guatemala-proclaimed",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1847-republic-of-guatemala-proclaimed, claim TL:GTM:event:1847:republic-of-guatemala-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1871:liberal-revolution",
+   "year": 1871,
+   "yearLabel": "1871 CE",
+   "title": "Liberal revolution",
+   "summary": "Justo Rufino Barrios and the Liberals seize power, launching coffee-based modernisation and the expropriation of communal and Maya lands.",
+   "category": "politics",
+   "era": "coffee-liberal-dictatorships",
+   "sources": [
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1871-liberal-revolution",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1871-liberal-revolution, claim TL:GTM:event:1871:liberal-revolution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1873:the-coffee-economy",
+   "year": 1873,
+   "yearLabel": "from 1870s",
+   "title": "The coffee economy",
+   "summary": "Coffee becomes Guatemala's dominant export, financing railways and ports while binding the Maya to plantation labour.",
+   "category": "economy",
+   "era": "coffee-liberal-dictatorships",
+   "sources": [
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1873-the-coffee-economy",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1873-the-coffee-economy, claim TL:GTM:event:1873:the-coffee-economy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1901:rise-of-the-united-fruit-company",
+   "year": 1901,
+   "yearLabel": "early 20th c.",
+   "title": "Rise of the United Fruit Company",
+   "summary": "United Fruit acquires extensive lands, railways, and the main port, becoming Guatemala's largest landowner and a dominant economic force.",
+   "category": "economy",
+   "era": "coffee-liberal-dictatorships",
+   "sources": [
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    },
+    {
+     "id": "history-state-guatemala",
+     "label": "Foreign Relations of the United States, 1952-1954, Guatemala",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/historicaldocuments/frus1952-54Guat"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1901-rise-of-the-united-fruit-company",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1901-rise-of-the-united-fruit-company, claim TL:GTM:event:1901:rise-of-the-united-fruit-company, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1931:dictatorship-of-jorge-ubico",
+   "year": 1931,
+   "yearLabel": "1931-1944",
+   "title": "Dictatorship of Jorge Ubico",
+   "summary": "General Ubico rules for thirteen years, repressing labour and opposition while sustaining the coffee oligarchy and ties to United Fruit.",
+   "category": "politics",
+   "era": "coffee-liberal-dictatorships",
+   "sources": [
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1931-dictatorship-of-jorge-ubico",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1931-dictatorship-of-jorge-ubico, claim TL:GTM:event:1931:dictatorship-of-jorge-ubico, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1944:october-revolution",
+   "year": 1944,
+   "yearLabel": "1944 CE",
+   "title": "October Revolution",
+   "summary": "A popular uprising ends the Ubico dictatorship and ushers in democratic reform under Juan Jose Arevalo.",
+   "category": "politics",
+   "era": "revolution-coup-war",
+   "sources": [
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    },
+    {
+     "id": "history-state-guatemala",
+     "label": "Foreign Relations of the United States, 1952-1954, Guatemala",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/historicaldocuments/frus1952-54Guat"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1944-october-revolution",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1944-october-revolution, claim TL:GTM:event:1944:october-revolution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1952:agrarian-reform-under-arbenz",
+   "year": 1952,
+   "yearLabel": "1952 CE",
+   "title": "Agrarian reform under Arbenz",
+   "summary": "President Arbenz's Decree 900 expropriates idle lands, including United Fruit estates, for the landless, alarming Washington.",
+   "category": "politics",
+   "era": "revolution-coup-war",
+   "sources": [
+    {
+     "id": "history-state-guatemala",
+     "label": "Foreign Relations of the United States, 1952-1954, Guatemala",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/historicaldocuments/frus1952-54Guat"
+    },
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1952-agrarian-reform-under-arbenz",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1952-agrarian-reform-under-arbenz, claim TL:GTM:event:1952:agrarian-reform-under-arbenz, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1954:cia-backed-coup-overthrows-arbenz",
+   "year": 1954,
+   "yearLabel": "Jun 1954",
+   "title": "CIA-backed coup overthrows Arbenz",
+   "summary": "The covert operation PBSUCCESS pressures Arbenz to resign on 27 June 1954, ending the reform era and installing military rule.",
+   "category": "politics",
+   "era": "revolution-coup-war",
+   "sources": [
+    {
+     "id": "history-state-guatemala",
+     "label": "Foreign Relations of the United States, 1952-1954, Guatemala",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/historicaldocuments/frus1952-54Guat"
+    },
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1954-cia-backed-coup-overthrows-arbenz",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1954-cia-backed-coup-overthrows-arbenz, claim TL:GTM:event:1954:cia-backed-coup-overthrows-arbenz, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1960:civil-war-and-the-maya-genocide",
+   "year": 1960,
+   "yearLabel": "1960-1996",
+   "title": "Civil war and the Maya genocide",
+   "summary": "A thirty-six-year conflict leaves some 200,000 dead or disappeared, mostly Maya, with the state held by the CEH to have committed genocide.",
+   "category": "war",
+   "era": "revolution-coup-war",
+   "sources": [
+    {
+     "id": "unesco-peace-accords",
+     "label": "Guatemala Peace Agreements, 1996 (Memory of the World)",
+     "publisher": "UNESCO",
+     "url": "https://www.unesco.org/en/memory-world/lac/guatemala-peace-agreements-1996"
+    },
+    {
+     "id": "britannica-rios-montt",
+     "label": "Efrain Rios Montt",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-Efrain-Rios-Montt"
+    },
+    {
+     "id": "britannica-guatemala-history",
+     "label": "Guatemala: History (Postcolonial period and after)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Guatemala/The-postcolonial-period"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1960-civil-war-and-the-maya-genocide",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1960-civil-war-and-the-maya-genocide, claim TL:GTM:event:1960:civil-war-and-the-maya-genocide, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1996:firm-and-lasting-peace-accords",
+   "year": 1996,
+   "yearLabel": "29 Dec 1996",
+   "title": "Firm and Lasting Peace accords",
+   "summary": "The government and the URNG sign the final peace agreement in Guatemala City, ending the civil war.",
+   "category": "politics",
+   "era": "revolution-coup-war",
+   "sources": [
+    {
+     "id": "unesco-peace-accords",
+     "label": "Guatemala Peace Agreements, 1996 (Memory of the World)",
+     "publisher": "UNESCO",
+     "url": "https://www.unesco.org/en/memory-world/lac/guatemala-peace-agreements-1996"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1996-firm-and-lasting-peace-accords",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1996-firm-and-lasting-peace-accords, claim TL:GTM:event:1996:firm-and-lasting-peace-accords, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:1999:memory-of-silence-report",
+   "year": 1999,
+   "yearLabel": "1999 CE",
+   "title": "Memory of Silence report",
+   "summary": "The UN-backed Commission for Historical Clarification publishes its findings, attributing the bulk of wartime atrocities to the state and finding acts of genocide against the Maya.",
+   "category": "politics",
+   "era": "modern-guatemala",
+   "sources": [
+    {
+     "id": "unesco-peace-accords",
+     "label": "Guatemala Peace Agreements, 1996 (Memory of the World)",
+     "publisher": "UNESCO",
+     "url": "https://www.unesco.org/en/memory-world/lac/guatemala-peace-agreements-1996"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-1999-memory-of-silence-report",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-1999-memory-of-silence-report, claim TL:GTM:event:1999:memory-of-silence-report, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:2013:rios-montt-convicted-of-genocide",
+   "year": 2013,
+   "yearLabel": "2013 CE",
+   "title": "Rios Montt convicted of genocide",
+   "summary": "A Guatemalan court convicts the former dictator of genocide against the Ixil Maya, the first such verdict by a national court, though it is soon annulled.",
+   "category": "politics",
+   "era": "modern-guatemala",
+   "sources": [
+    {
+     "id": "britannica-rios-montt",
+     "label": "Efrain Rios Montt",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-Efrain-Rios-Montt"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-2013-rios-montt-convicted-of-genocide",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-2013-rios-montt-convicted-of-genocide, claim TL:GTM:event:2013:rios-montt-convicted-of-genocide, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:GTM:event:2023:election-of-bernardo-arevalo",
+   "year": 2023,
+   "yearLabel": "2023-2024",
+   "title": "Election of Bernardo Arevalo",
+   "summary": "Anti-corruption candidate Bernardo Arevalo wins the presidency and, despite attempts to block him, is inaugurated in January 2024.",
+   "category": "politics",
+   "era": "modern-guatemala",
+   "sources": [
+    {
+     "id": "usip-guatemala-2023",
+     "label": "Sometimes the Good Guys Win: Guatemala's Shocking 2023 Election",
+     "publisher": "United States Institute of Peace",
+     "url": "https://www.usip.org/publications/2024/04/sometimes-good-guys-win-guatemalas-shocking-2023-election"
+    }
+   ],
+   "url": "https://terralore.co/country/GTM/chronicle#ev-2023-election-of-bernardo-arevalo",
+   "citation": "Terralore, \"The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.\", terralore.co/country/GTM/chronicle#ev-2023-election-of-bernardo-arevalo, claim TL:GTM:event:2023:election-of-bernardo-arevalo, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

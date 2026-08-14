@@ -83,6 +83,8 @@ Figures:
 
 - Mohamed Bouazizi (1984–2011) — Street vendor whose protest sparked the revolution. His self-immolation in Sidi Bouzid in December 2010 ignited the Jasmine Revolution and, beyond Tunisia, the Arab Spring.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TUN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TUN/chronicle.claims.json
+
 ## References
 
 - [eb-carthage146] Battle of Carthage (146 BCE) — Encyclopaedia Britannica · https://www.britannica.com/event/Battle-of-Carthage-146-BCE

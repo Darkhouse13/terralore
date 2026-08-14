@@ -100,6 +100,8 @@ Figures:
 - Franjo Tudjman (1922 – 1999) — First President of independent Croatia. Leader of the Croatian Democratic Union and president from 1990, Tudjman led Croatia to independence and through the war that secured it, a dominant and divisive figure in the founding of the modern state.
 - Ante Gotovina (born 1955) — Croatian army general. Commander in Operation Storm in 1995, Gotovina was indicted and convicted by the ICTY but acquitted on appeal in November 2012; he is regarded by many Croats as a national hero.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:HRV:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/HRV/chronicle.claims.json
+
 ## References
 
 - [croatia-history-britannica] Croatia: History — Encyclopaedia Britannica · https://www.britannica.com/place/Croatia/History

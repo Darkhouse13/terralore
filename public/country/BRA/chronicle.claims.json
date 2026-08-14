@@ -1,0 +1,620 @@
+{
+ "subject": "BRA",
+ "name": "Brazil",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/BRA/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:BRA:event:10000bce:ancient-settlement-of-the-land",
+   "year": -10000,
+   "yearLabel": "by c. 10,000 BCE",
+   "title": "Ancient settlement of the land",
+   "summary": "Hunter-gatherer peoples occupy what is now Brazil over many millennia, leaving rock art and ancient sites across the interior and the northeast.",
+   "category": "migration",
+   "era": "indigenous-peoples",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    },
+    {
+     "id": "ibge-indigenous",
+     "label": "Indigenous Peoples (Indigenas)",
+     "publisher": "IBGE, Brazilian Institute of Geography and Statistics",
+     "url": "https://www.ibge.gov.br/en/"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-10000bce-ancient-settlement-of-the-land",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-10000bce-ancient-settlement-of-the-land, claim TL:BRA:event:10000bce:ancient-settlement-of-the-land, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1:tupi-guarani-expansion",
+   "year": 1,
+   "yearLabel": "1st millennium CE",
+   "title": "Tupi-Guarani expansion",
+   "summary": "Tupi-Guarani-speaking peoples spread across the Atlantic coast and into the interior, developing the farming and village societies later encountered by Europeans.",
+   "category": "migration",
+   "era": "indigenous-peoples",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1-tupi-guarani-expansion",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1-tupi-guarani-expansion, claim TL:BRA:event:1:tupi-guarani-expansion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1000:complex-amazonian-societies",
+   "year": 1000,
+   "yearLabel": "c. 1000 CE",
+   "title": "Complex Amazonian societies",
+   "summary": "Riverine peoples of Amazonia sustain substantial settled populations, managing forests and soils on a scale long underestimated by outsiders.",
+   "category": "culture",
+   "era": "indigenous-peoples",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1000-complex-amazonian-societies",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1000-complex-amazonian-societies, claim TL:BRA:event:1000:complex-amazonian-societies, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1500:some-thousand-nations-at-contact",
+   "year": 1500,
+   "yearLabel": "1500 CE",
+   "title": "Some thousand nations at contact",
+   "summary": "On the eve of European arrival, perhaps two to four million people in hundreds of distinct nations inhabit the territory of present-day Brazil.",
+   "category": "culture",
+   "era": "indigenous-peoples",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    },
+    {
+     "id": "ibge-indigenous",
+     "label": "Indigenous Peoples (Indigenas)",
+     "publisher": "IBGE, Brazilian Institute of Geography and Statistics",
+     "url": "https://www.ibge.gov.br/en/"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1500-some-thousand-nations-at-contact",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1500-some-thousand-nations-at-contact, claim TL:BRA:event:1500:some-thousand-nations-at-contact, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1500:cabral-claims-brazil-for-portugal",
+   "year": 1500,
+   "yearLabel": "April 1500",
+   "title": "Cabral claims Brazil for Portugal",
+   "summary": "Pedro Alvares Cabral makes landfall on the coast near present-day Porto Seguro and claims the land for the Portuguese crown.",
+   "category": "colonization",
+   "era": "portuguese-colony",
+   "sources": [
+    {
+     "id": "britannica-cabral",
+     "label": "Pedro Alvares Cabral",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Pedro-Alvares-Cabral"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1500-cabral-claims-brazil-for-portugal",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1500-cabral-claims-brazil-for-portugal, claim TL:BRA:event:1500:cabral-claims-brazil-for-portugal, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1530:the-sugar-economy",
+   "year": 1530,
+   "yearLabel": "1530s onward",
+   "title": "The sugar economy",
+   "summary": "Sugar plantations and mills worked by enslaved labour rise in Pernambuco and Bahia, making Brazil a leading producer and the colony's chief source of wealth.",
+   "category": "economy",
+   "era": "portuguese-colony",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1530-the-sugar-economy",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1530-the-sugar-economy, claim TL:BRA:event:1530:the-sugar-economy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1538:transatlantic-slave-trade",
+   "year": 1538,
+   "yearLabel": "16th-19th c.",
+   "title": "Transatlantic slave trade",
+   "summary": "Brazil becomes the largest single destination of the Atlantic slave trade, receiving roughly 4.8-5 million enslaved Africans over more than three centuries.",
+   "category": "migration",
+   "era": "portuguese-colony",
+   "sources": [
+    {
+     "id": "slavevoyages",
+     "label": "Trans-Atlantic Slave Trade Database",
+     "publisher": "SlaveVoyages, Emory University",
+     "url": "https://www.slavevoyages.org/"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1538-transatlantic-slave-trade",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1538-transatlantic-slave-trade, claim TL:BRA:event:1538:transatlantic-slave-trade, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1695:gold-rush-in-minas-gerais",
+   "year": 1695,
+   "yearLabel": "1690s",
+   "title": "Gold rush in Minas Gerais",
+   "summary": "The discovery of gold in the interior sets off a vast rush, founding towns such as Ouro Preto and shifting the colony's centre southward.",
+   "category": "economy",
+   "era": "portuguese-colony",
+   "sources": [
+    {
+     "id": "unesco-ouro-preto",
+     "label": "Historic Town of Ouro Preto",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/124/"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1695-gold-rush-in-minas-gerais",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1695-gold-rush-in-minas-gerais, claim TL:BRA:event:1695:gold-rush-in-minas-gerais, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1808:the-court-moves-to-rio",
+   "year": 1808,
+   "yearLabel": "1808-1821",
+   "title": "The court moves to Rio",
+   "summary": "Fleeing Napoleon, the Portuguese royal court relocates to Rio de Janeiro, which becomes the seat of the empire and is opened to wider trade.",
+   "category": "politics",
+   "era": "portuguese-colony",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    },
+    {
+     "id": "britannica-pedro-i",
+     "label": "Pedro I, Emperor of Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Pedro-I-emperor-of-Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1808-the-court-moves-to-rio",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1808-the-court-moves-to-rio, claim TL:BRA:event:1808:the-court-moves-to-rio, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1822:independence-and-the-empire",
+   "year": 1822,
+   "yearLabel": "7 Sept 1822",
+   "title": "Independence and the Empire",
+   "summary": "Dom Pedro proclaims independence at the Cry of Ipiranga and is acclaimed Emperor Pedro I, founding the Empire of Brazil.",
+   "category": "independence",
+   "era": "empire-of-brazil",
+   "sources": [
+    {
+     "id": "britannica-pedro-i",
+     "label": "Pedro I, Emperor of Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Pedro-I-emperor-of-Brazil"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1822-independence-and-the-empire",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1822-independence-and-the-empire, claim TL:BRA:event:1822:independence-and-the-empire, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1840:reign-of-pedro-ii-begins",
+   "year": 1840,
+   "yearLabel": "1840 CE",
+   "title": "Reign of Pedro II begins",
+   "summary": "Pedro II assumes personal rule, beginning a long reign that brings political stability and the rise of the coffee economy.",
+   "category": "politics",
+   "era": "empire-of-brazil",
+   "sources": [
+    {
+     "id": "britannica-pedro-ii",
+     "label": "Pedro II, Emperor of Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Pedro-II-emperor-of-Brazil"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1840-reign-of-pedro-ii-begins",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1840-reign-of-pedro-ii-begins, claim TL:BRA:event:1840:reign-of-pedro-ii-begins, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1864:war-of-the-triple-alliance",
+   "year": 1864,
+   "yearLabel": "1864-1870",
+   "title": "War of the Triple Alliance",
+   "summary": "Brazil, Argentina, and Uruguay defeat Paraguay in the deadliest war in South American history, at enormous human and financial cost.",
+   "category": "war",
+   "era": "empire-of-brazil",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1864-war-of-the-triple-alliance",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1864-war-of-the-triple-alliance, claim TL:BRA:event:1864:war-of-the-triple-alliance, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1888:abolition-of-slavery",
+   "year": 1888,
+   "yearLabel": "13 May 1888",
+   "title": "Abolition of slavery",
+   "summary": "Princess Isabel signs the Lei Aurea, abolishing slavery without compensation; Brazil is the last country in the Americas to do so.",
+   "category": "politics",
+   "era": "empire-of-brazil",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1888-abolition-of-slavery",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1888-abolition-of-slavery, claim TL:BRA:event:1888:abolition-of-slavery, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1889:proclamation-of-the-republic",
+   "year": 1889,
+   "yearLabel": "15 Nov 1889",
+   "title": "Proclamation of the Republic",
+   "summary": "A military coup led by Marshal Deodoro da Fonseca deposes Pedro II and proclaims the Republic, ending the monarchy.",
+   "category": "politics",
+   "era": "empire-of-brazil",
+   "sources": [
+    {
+     "id": "britannica-deodoro",
+     "label": "Manuel Deodoro da Fonseca",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Manuel-Deodoro-da-Fonseca"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1889-proclamation-of-the-republic",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1889-proclamation-of-the-republic, claim TL:BRA:event:1889:proclamation-of-the-republic, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1891:first-republican-constitution",
+   "year": 1891,
+   "yearLabel": "1891 CE",
+   "title": "First republican constitution",
+   "summary": "The Constitution of 1891 establishes a federal republic with strong states, modelled in part on the United States.",
+   "category": "politics",
+   "era": "old-republic",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1891-first-republican-constitution",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1891-first-republican-constitution, claim TL:BRA:event:1891:first-republican-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1896:war-of-canudos",
+   "year": 1896,
+   "yearLabel": "1896-1897",
+   "title": "War of Canudos",
+   "summary": "The army crushes a large millenarian community in the Bahian backlands, exposing the gulf between the republican coast and the impoverished interior.",
+   "category": "war",
+   "era": "old-republic",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1896-war-of-canudos",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1896-war-of-canudos, claim TL:BRA:event:1896:war-of-canudos, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1888:mass-immigration",
+   "year": 1888,
+   "yearLabel": "late 19th-early 20th c.",
+   "title": "Mass immigration",
+   "summary": "Millions of immigrants, especially Italians, Portuguese, Spaniards, and Japanese, arrive to work coffee and settle the south, reshaping Brazilian society.",
+   "category": "migration",
+   "era": "old-republic",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1888-mass-immigration",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1888-mass-immigration, claim TL:BRA:event:1888:mass-immigration, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1930:revolution-of-1930",
+   "year": 1930,
+   "yearLabel": "1930 CE",
+   "title": "Revolution of 1930",
+   "summary": "A disputed election amid the Depression brings down the Old Republic, and Getulio Vargas takes power, beginning a new era.",
+   "category": "politics",
+   "era": "old-republic",
+   "sources": [
+    {
+     "id": "britannica-vargas",
+     "label": "Getulio Vargas",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Getulio-Vargas"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1930-revolution-of-1930",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1930-revolution-of-1930, claim TL:BRA:event:1930:revolution-of-1930, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1937:the-estado-novo",
+   "year": 1937,
+   "yearLabel": "1937-1945",
+   "title": "The Estado Novo",
+   "summary": "Vargas imposes a centralised dictatorship, ruling by decree, banning parties, and censoring the press until his ouster in 1945.",
+   "category": "politics",
+   "era": "vargas-and-dictatorship",
+   "sources": [
+    {
+     "id": "britannica-vargas",
+     "label": "Getulio Vargas",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Getulio-Vargas"
+    },
+    {
+     "id": "britannica-estado-novo",
+     "label": "Estado Novo (Brazilian history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Estado-Novo-Brazilian-history"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1937-the-estado-novo",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1937-the-estado-novo, claim TL:BRA:event:1937:the-estado-novo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1960:inauguration-of-brasilia",
+   "year": 1960,
+   "yearLabel": "21 Apr 1960",
+   "title": "Inauguration of Brasilia",
+   "summary": "The purpose-built modernist capital, designed by Lucio Costa and Oscar Niemeyer, is inaugurated in the interior, shifting Brazil's centre of gravity inland.",
+   "category": "politics",
+   "era": "vargas-and-dictatorship",
+   "sources": [
+    {
+     "id": "unesco-brasilia",
+     "label": "Brasilia",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/445/"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1960-inauguration-of-brasilia",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1960-inauguration-of-brasilia, claim TL:BRA:event:1960:inauguration-of-brasilia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1964:military-coup",
+   "year": 1964,
+   "yearLabel": "1 Apr 1964",
+   "title": "Military coup",
+   "summary": "The armed forces overthrow President Joao Goulart and seize power, beginning twenty-one years of military dictatorship.",
+   "category": "politics",
+   "era": "vargas-and-dictatorship",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1964-military-coup",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1964-military-coup, claim TL:BRA:event:1964:military-coup, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1968:institutional-act-number-five",
+   "year": 1968,
+   "yearLabel": "13 Dec 1968",
+   "title": "Institutional Act Number Five",
+   "summary": "AI-5 suspends habeas corpus and civil liberties, opening the regime's most repressive phase of censorship, torture, and disappearances.",
+   "category": "politics",
+   "era": "vargas-and-dictatorship",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1968-institutional-act-number-five",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1968-institutional-act-number-five, claim TL:BRA:event:1968:institutional-act-number-five, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1985:return-to-civilian-rule",
+   "year": 1985,
+   "yearLabel": "1985 CE",
+   "title": "Return to civilian rule",
+   "summary": "After a gradual political opening, the military hands power back to civilians, ending the dictatorship.",
+   "category": "politics",
+   "era": "vargas-and-dictatorship",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1985-return-to-civilian-rule",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1985-return-to-civilian-rule, claim TL:BRA:event:1985:return-to-civilian-rule, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1988:the-citizen-constitution",
+   "year": 1988,
+   "yearLabel": "1988 CE",
+   "title": "The Citizen Constitution",
+   "summary": "A new constitution restores full democracy and enshrines an expansive charter of civil, political, and social rights.",
+   "category": "politics",
+   "era": "modern-democracy",
+   "sources": [
+    {
+     "id": "constitutionnet-brazil",
+     "label": "Constitutional history of Brazil",
+     "publisher": "ConstitutionNet, International IDEA",
+     "url": "https://constitutionnet.org/country/constitutional-history-brazil"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1988-the-citizen-constitution",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1988-the-citizen-constitution, claim TL:BRA:event:1988:the-citizen-constitution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:1994:plano-real-ends-hyperinflation",
+   "year": 1994,
+   "yearLabel": "1994 CE",
+   "title": "Plano Real ends hyperinflation",
+   "summary": "A new currency and stabilisation plan tame runaway inflation, reshaping the economy and politics of the 1990s.",
+   "category": "economy",
+   "era": "modern-democracy",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-1994-plano-real-ends-hyperinflation",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-1994-plano-real-ends-hyperinflation, claim TL:BRA:event:1994:plano-real-ends-hyperinflation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:2003:lula-and-social-inclusion",
+   "year": 2003,
+   "yearLabel": "2003-2010",
+   "title": "Lula and social inclusion",
+   "summary": "Luiz Inacio Lula da Silva's governments expand social programmes during a commodities boom, lifting millions out of poverty.",
+   "category": "politics",
+   "era": "modern-democracy",
+   "sources": [
+    {
+     "id": "britannica-lula",
+     "label": "Luiz Inacio Lula da Silva",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Luiz-Inacio-Lula-da-Silva"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-2003-lula-and-social-inclusion",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-2003-lula-and-social-inclusion, claim TL:BRA:event:2003:lula-and-social-inclusion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:2016:impeachment-amid-lava-jato",
+   "year": 2016,
+   "yearLabel": "2016 CE",
+   "title": "Impeachment amid Lava Jato",
+   "summary": "President Dilma Rousseff is impeached as the sweeping Car Wash corruption investigation reshapes Brazilian politics.",
+   "category": "politics",
+   "era": "modern-democracy",
+   "sources": [
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-2016-impeachment-amid-lava-jato",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-2016-impeachment-amid-lava-jato, claim TL:BRA:event:2016:impeachment-amid-lava-jato, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BRA:event:2023:brasilia-attacked-democracy-holds",
+   "year": 2023,
+   "yearLabel": "8 Jan 2023",
+   "title": "Brasilia attacked, democracy holds",
+   "summary": "Supporters of the defeated president storm the Congress, presidential palace, and Supreme Court; the institutions withstand the assault.",
+   "category": "politics",
+   "era": "modern-democracy",
+   "sources": [
+    {
+     "id": "britannica-lula",
+     "label": "Luiz Inacio Lula da Silva",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Luiz-Inacio-Lula-da-Silva"
+    },
+    {
+     "id": "britannica-brazil",
+     "label": "Brazil",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Brazil"
+    }
+   ],
+   "url": "https://terralore.co/country/BRA/chronicle#ev-2023-brasilia-attacked-democracy-holds",
+   "citation": "Terralore, \"The Chronicle of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy.\", terralore.co/country/BRA/chronicle#ev-2023-brasilia-attacked-democracy-holds, claim TL:BRA:event:2023:brasilia-attacked-democracy-holds, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

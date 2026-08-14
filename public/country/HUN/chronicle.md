@@ -99,6 +99,8 @@ Figures:
 - Imre Nagy (1896 – 1958) — Reform communist premier. Premier during the 1956 revolution, Nagy backed a multi-party government and declared Hungary's neutrality and exit from the Warsaw Pact. After the Soviet crushing of the rising he was captured and, in 1958, executed; he was reburied with honours in 1989.
 - János Kádár (1912 – 1989) — Communist leader of Hungary. Installed by the Soviets in 1956 and leader until 1988, Kádár presided over the reprisals after the revolution but then built the relatively liberal 'goulash communism' that made Hungary the most relaxed state in the Soviet bloc.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:HUN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/HUN/chronicle.claims.json
+
 ## References
 
 - [arpad-britannica] Árpád, ruler of Hungary — Encyclopaedia Britannica · https://www.britannica.com/biography/Arpad-ruler-of-Hungary

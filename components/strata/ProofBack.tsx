@@ -10,10 +10,14 @@ import type { ReactNode } from "react";
 export default function ProofBack({
   line,
   note,
+  claim,
   padding = "7px 12px",
 }: {
   line: string;
   note?: ReactNode;
+  /** The observation's claim ID (lib/claim-id.ts) — engraved small, selectable,
+      case preserved (metric keys are case-sensitive identity). */
+  claim?: string;
   padding?: string;
 }) {
   return (
@@ -24,6 +28,11 @@ export default function ProofBack({
       <div className="font-mono text-[10.5px] tracking-[0.08em] uppercase">{line}</div>
       {note ? (
         <div className="font-sans text-[11.5px] leading-snug text-clay">{note}</div>
+      ) : null}
+      {claim ? (
+        <div className="font-mono text-[9px] tracking-[0.06em] text-sand select-text">
+          {claim}
+        </div>
       ) : null}
     </div>
   );

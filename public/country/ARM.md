@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:ARM:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/ARM.claims.json
+
 History: "From the kingdom of Urartu and the world's first Christian state through Ani and the genocide to a republic reborn in 1991." — the sourced chronicle is at https://terralore.co/country/ARM/chronicle.md (6 eras, 23 events).
 
 ## Sources

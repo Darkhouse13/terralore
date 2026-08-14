@@ -69,6 +69,8 @@ Figures:
 - Dean Barrow (born 1951) — Prime Minister of Belize (2008–2020). Belize's first prime minister of African Belizean descent and its longest-serving, leading the United Democratic Party through three terms; under his government the Special Agreement with Guatemala advanced toward referenda and the International Court of Justice.
 - John Briceño (born 1960) — Prime Minister of Belize (since 2020). Leader of the People's United Party who became prime minister in 2020, governing as Belize pressed its case at the International Court of Justice and managed the reef-and-tourism economy that anchors the modern nation.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BLZ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BLZ/chronicle.claims.json
+
 ## References
 
 - [britannica-history-belize] History of Belize — Encyclopædia Britannica · https://www.britannica.com/topic/history-of-Belize

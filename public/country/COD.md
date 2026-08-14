@@ -110,6 +110,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:COD:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/COD.claims.json
+
 History: "From the savanna kingdoms to Africa's heart" — the sourced chronicle is at https://terralore.co/country/COD/chronicle.md (6 eras, 27 events).
 
 ## Sources

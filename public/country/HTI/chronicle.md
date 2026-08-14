@@ -83,6 +83,8 @@ Figures:
 
 - Jean-Bertrand Aristide (born 1953) — President of Haiti. Former Catholic priest and Haiti's first freely elected president, twice ousted from power, whose turbulent career framed the country's fraught transition to democracy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:HTI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/HTI/chronicle.claims.json
+
 ## References
 
 - [britannica-history-haiti] History of Haiti — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Haiti

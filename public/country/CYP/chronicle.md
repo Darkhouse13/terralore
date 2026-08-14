@@ -101,6 +101,8 @@ Figures:
 - Rauf Denktaş (1924 – 2012) — Turkish Cypriot leader. The dominant Turkish Cypriot political figure of the late twentieth century, Denktaş proclaimed the 'Turkish Republic of Northern Cyprus' in 1983 and led it for two decades, championing a separate Turkish Cypriot statehood that won recognition only from Turkey.
 - Archbishop Makarios III (1913 – 1977) — President of Cyprus. Target of the 1974 coup that sought to unite Cyprus with Greece, Makarios escaped the island and returned after the junta's fall to resume the presidency of a now-partitioned republic, which he led until his death in 1977.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CYP:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CYP/chronicle.claims.json
+
 ## References
 
 - [cyprus-history-britannica] Cyprus: History — Encyclopaedia Britannica · https://www.britannica.com/place/Cyprus/History

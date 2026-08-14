@@ -1,0 +1,770 @@
+{
+ "subject": "HTI",
+ "name": "Haiti",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/HTI",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:HTI:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 25224154990.7946,
+   "display": "$25 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-gdp-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-gdp-2024, claim TL:HTI:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 2142.62330526788,
+   "display": "$2,143",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-gdpPerCapita-2024, claim TL:HTI:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": -4.16963395808132,
+   "display": "-4.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-gdpGrowth-2024, claim TL:HTI:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 26.9490564091987,
+   "display": "26.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-inflation-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-inflation-2024, claim TL:HTI:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 22.2478853726107,
+   "display": "22.2%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-tradePctGdp-2024, claim TL:HTI:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 11772557,
+   "display": "12 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-population-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-population-2024, claim TL:HTI:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 65.119,
+   "display": "65.1 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-lifeExpectancy-2024, claim TL:HTI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 55.0372652481002,
+   "display": "55.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-urbanPct-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-urbanPct-2024, claim TL:HTI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.625,
+   "display": "2.6",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-fertility-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-fertility-2024, claim TL:HTI:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:literacy:2017",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 68.0100021362305,
+   "display": "68.0%",
+   "unit": "%",
+   "observed": 2017,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-literacy-2017",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-literacy-2017, claim TL:HTI:literacy:2017, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 34.7109239,
+   "display": "34.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-wgiVoice-2024, claim TL:HTI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 45.3741882,
+   "display": "45.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-wgiStability-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-wgiStability-2024, claim TL:HTI:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 12.147424,
+   "display": "12.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-wgiEffectiveness-2024, claim TL:HTI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 31.7826473,
+   "display": "31.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-wgiRegQuality-2024, claim TL:HTI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 29.3691461,
+   "display": "29.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-wgiRuleOfLaw-2024, claim TL:HTI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 16.6757919,
+   "display": "16.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-wgiCorruption-2024, claim TL:HTI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 3.19156528,
+   "display": "3.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-healthSpendPctGdp-2023, claim TL:HTI:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.292,
+   "display": "0.29",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-physicians-2022",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-physicians-2022, claim TL:HTI:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 52.8,
+   "display": "52.8",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-underFiveMortality-2024, claim TL:HTI:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 77,
+   "display": "77.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-measlesImmunisation-2024, claim TL:HTI:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:literacyRate:2017",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 68.0100021362305,
+   "display": "68.0%",
+   "unit": "%",
+   "observed": 2017,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-literacyRate-2017",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-literacyRate-2017, claim TL:HTI:literacyRate:2017, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 0.964648012977964,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-eduSpendPctGdp-2023, claim TL:HTI:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:primaryEnrolment:2016",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 183.989440244666,
+   "display": "184.0%",
+   "unit": "% gross",
+   "observed": 2016,
+   "source": {
+    "id": "wb-unesco",
+    "label": "Education statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HTI#claim-primaryEnrolment-2016",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-primaryEnrolment-2016, claim TL:HTI:primaryEnrolment:2016, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 47.8614006,
+   "display": "47.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HTI#claim-internetUsers-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-internetUsers-2024, claim TL:HTI:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:mobileSubs:2022",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 65.1889329311174,
+   "display": "65",
+   "unit": "per 100",
+   "observed": 2022,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HTI#claim-mobileSubs-2022",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-mobileSubs-2022, claim TL:HTI:mobileSubs:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 27560,
+   "display": "27,560 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-landArea-2023",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-landArea-2023, claim TL:HTI:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 12.2630624092888,
+   "display": "12.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-forestPct-2023",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-forestPct-2023, claim TL:HTI:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 65.1306240928882,
+   "display": "65.1%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-agriPct-2023",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-agriPct-2023, claim TL:HTI:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.298473814991934,
+   "display": "0.3",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-co2PerCapita-2024, claim TL:HTI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 76.7,
+   "display": "76.7%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-renewablePct-2021",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-renewablePct-2021, claim TL:HTI:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 0.327641965983974,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-resourceRents-2021",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-resourceRents-2021, claim TL:HTI:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-oilRents-2021",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-oilRents-2021, claim TL:HTI:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-mineralRents-2021",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-mineralRents-2021, claim TL:HTI:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.327641965983974,
+   "display": "0.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-forestRents-2021",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-forestRents-2021, claim TL:HTI:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 51.3,
+   "display": "51.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-electricityAccess-2023, claim TL:HTI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.068443100204951,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-milExpPctGdp-2024, claim TL:HTI:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 19751091.2623219,
+   "display": "$20 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-milExpUsd-2024, claim TL:HTI:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HTI:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 1000,
+   "display": "1,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HTI#claim-armedForces-2020",
+   "citation": "Terralore, \"Haiti — national dossier\", terralore.co/country/HTI#claim-armedForces-2020, claim TL:HTI:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -77,6 +77,8 @@ Figures:
 - Hussein bin Talal (1935 - 1999) — King of Jordan, 1953-1999. Reigned for nearly half a century, navigating the loss of the West Bank, Black September and Cold War rivalries, and signing the 1994 peace treaty with Israel before his death in 1999.
 - Abdullah II (born 1962) — King of Jordan since 1999. Succeeded his father King Hussein in 1999, pursuing economic liberalisation and modernisation while steering Jordan through the Iraq War, the Arab Spring and the Syrian refugee crisis.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:JOR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/JOR/chronicle.claims.json
+
 ## References
 
 - [britannica-jordan-history] Jordan: History — Encyclopaedia Britannica · https://www.britannica.com/place/Jordan/History

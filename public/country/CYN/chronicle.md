@@ -74,6 +74,8 @@ Repeated UN-led efforts to reunite the island, above all the Annan Plan put to r
 - 2013: **The eurozone crisis reaches the island** — The Republic of Cyprus negotiates a deal to extricate its financial sector from the eurozone debt crisis; the north, outside the EU and using the Turkish lira, is affected differently. [bbc-cyprus]
 - 2018: **New crossings at Deryneia and Lefke** — The first new buffer-zone crossings in eight years open in the east and the west of the island. [bbc-cyprus]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CYN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CYN/chronicle.claims.json
+
 ## References
 
 - [britannica-cyprus] Cyprus — Encyclopaedia Britannica · https://www.britannica.com/place/Cyprus

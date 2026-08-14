@@ -107,6 +107,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:POL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/POL.claims.json
+
 History: "A thousand years between the great powers, surviving partition and conquest to rise again." — the sourced chronicle is at https://terralore.co/country/POL/chronicle.md (6 eras, 25 events).
 
 ## Sources

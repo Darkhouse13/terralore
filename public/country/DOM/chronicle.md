@@ -84,6 +84,8 @@ Stable democracy and one of the region's fastest-growing economies have transfor
 - 2020 CE: **Abinader and a new political era** — Luis Abinader of the Modern Revolutionary Party wins the presidency, continuing the peaceful alternation of power in a consolidated democracy. [britannica-dr]
 - 2024 CE: **Among the region's top economies** — The Dominican Republic ranks among the fastest-growing economies in Latin America and the Caribbean, driven by tourism, manufacturing, mining, and remittances. [worldbank-dr]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:DOM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/DOM/chronicle.claims.json
+
 ## References
 
 - [britannica-dr] History of the Dominican Republic — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Dominican-Republic

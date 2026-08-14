@@ -80,6 +80,8 @@ Figures:
 - Mahathir Mohamad (born 1925) — Prime Minister (1981–2003; 2018–2020). Malaysia's longest-serving prime minister, who led a sweeping industrialisation drive and assertive nationalism over twenty-two years, then returned in 2018 at age 92 to head the alliance that toppled the scandal-hit Barisan Nasional government.
 - Anwar Ibrahim (born 1947) — Prime Minister of Malaysia (from 2022). Once Mahathir's deputy, dismissed and jailed in 1998, he spent two decades as a reform figurehead in opposition before becoming prime minister in November 2022, leading a multiethnic coalition pledged to clean government.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MYS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MYS/chronicle.claims.json
+
 ## References
 
 - [britannica-srivijaya] Srivijaya empire — Encyclopaedia Britannica · https://www.britannica.com/place/Srivijaya-empire

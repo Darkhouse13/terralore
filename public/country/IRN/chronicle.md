@@ -96,6 +96,8 @@ Figures:
 
 - Ayatollah Ruhollah Khomeini (1902–1989) — Founder and first Supreme Leader of the Islamic Republic. A Shia cleric whose opposition to the shah from exile made him the figurehead of the 1979 revolution. He returned to lead the new Islamic Republic, enshrining clerical rule through the doctrine of velayat-e faqih.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:IRN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/IRN/chronicle.claims.json
+
 ## References
 
 - [britannica-elam] Elam — ancient region, Iran — Encyclopaedia Britannica · https://www.britannica.com/place/Elam

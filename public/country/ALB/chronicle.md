@@ -99,6 +99,8 @@ Figures:
 - Ramiz Alia (1925 – 2011) — Last communist head of state. Successor to Hoxha, Alia conceded political pluralism in December 1990 under popular pressure, opening the way to multiparty elections and the end of one-party rule in Albania.
 - Ismail Qemali (1844 – 1919) — Symbol of the national question. The founder of independent Albania remains the emblem of the unfinished national question: the state he proclaimed at Vlore in 1912 left half the Albanian nation, above all in Kosovo, beyond its 1913 borders.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ALB:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ALB/chronicle.claims.json
+
 ## References
 
 - [history-of-albania-britannica] History of Albania — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Albania

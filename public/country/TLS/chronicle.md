@@ -73,6 +73,8 @@ Figures:
 
 - Xanana Gusmao (born 1946) — Resistance leader and first president. Commander of Falintil and the unifying leader of the resistance, captured and imprisoned by Indonesia in 1992, he became Timor-Leste's first president in 2002 and later served repeatedly as prime minister, including from 2023.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TLS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TLS/chronicle.claims.json
+
 ## References
 
 - [britannica-east-timor] East Timor — Encyclopaedia Britannica · https://www.britannica.com/place/East-Timor

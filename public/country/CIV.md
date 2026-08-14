@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:CIV:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/CIV.claims.json
+
 History: "From the Dyula trading empire of Kong and the Baoulé migration under Queen Abla Pokou to French conquest, the cocoa-fuelled 'Ivorian miracle' under Houphouët-Boigny, and the civil wars that tested the nation." — the sourced chronicle is at https://terralore.co/country/CIV/chronicle.md (6 eras, 28 events).
 
 ## Sources

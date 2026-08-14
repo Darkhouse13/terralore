@@ -86,6 +86,8 @@ Figures:
 - Eduard Shevardnadze (1928 – 2014) — President of Georgia. Former Soviet foreign minister who led Georgia through the turbulent 1990s after Gamsakhurdia's overthrow, presiding over the wars in Abkhazia and South Ossetia before resigning in the 2003 Rose Revolution.
 - Mikheil Saakashvili (born 1967) — President of Georgia. Reformer brought to power by the 2003 Rose Revolution, Saakashvili pursued anti-corruption reforms and a strong pro-Western course; his presidency saw the 2008 war with Russia over South Ossetia.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GEO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GEO/chronicle.claims.json
+
 ## References
 
 - [history-georgia-britannica] History of Georgia — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Georgia

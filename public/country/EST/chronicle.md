@@ -98,6 +98,8 @@ Figures:
 - Heinz Valk (born 1936) — Artist and Singing Revolution figure. The artist and activist who coined the term 'Singing Revolution' and gave the movement its enduring slogan, 'One day, no matter what, we will win', voicing the peaceful mass mobilisation that carried Estonia to freedom.
 - Lennart Meri (1929 – 2006) — Writer and first president of the restored republic. Writer, film-maker and statesman deported as a child in 1941, Meri served as foreign minister and then as the first president of the restored Estonia, championing its integration into Europe and the transatlantic alliance.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:EST:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/EST/chronicle.claims.json
+
 ## References
 
 - [ancient-estonia-ref] Ancient Estonia and the Kunda culture — Klaipeda University, Archaeologia Baltica (peer-reviewed journal) · https://e-journals.ku.lt/journal/AB/article/1371/file/pdf

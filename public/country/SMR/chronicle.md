@@ -97,6 +97,8 @@ Figures:
 - The Grand and General Council (60 members) — Parliament of the modern republic. San Marino's elected legislature of sixty members, which appoints the Captains Regent and the chief officers of state. Reformed from an oligarchic body into a democratic parliament after the Arengo of 1906, it remains the central institution of the modern republic.
 - San Marino's euro coinage (since the 2000s) — Symbol of monetary sovereignty. Under its monetary agreement with the European Union, the republic uses the euro and mints a limited number of coins bearing its own national designs. Sought after by collectors, the coins are a modern emblem of a tiny state's enduring sovereignty.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SMR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SMR/chronicle.claims.json
+
 ## References
 
 - [britannica-sanmarino-history] History of San Marino — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-San-Marino

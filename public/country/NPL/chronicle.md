@@ -81,6 +81,8 @@ Figures:
 
 - Pushpa Kamal Dahal 'Prachanda' — Maoist leader and prime minister. Leader of the Communist Party of Nepal (Maoist) during the 1996–2006 insurgency, he later entered mainstream politics and served several terms as prime minister of the republic, including a term beginning in December 2022.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NPL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NPL/chronicle.claims.json
+
 ## References
 
 - [britannica-nepal-history] Nepal — History (Himalayas, Monarchy, Unification) — Encyclopædia Britannica · https://www.britannica.com/place/Nepal/History

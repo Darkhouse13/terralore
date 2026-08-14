@@ -1,0 +1,506 @@
+{
+ "subject": "CUB",
+ "name": "Cuba",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/CUB/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:CUB:event:1492:columbus-reaches-cuba",
+   "year": 1492,
+   "yearLabel": "27 Oct 1492",
+   "title": "Columbus reaches Cuba",
+   "summary": "On his first voyage Christopher Columbus anchors off the northern coast of Cuba and claims the island for Spain, his first encounter with the Taino there.",
+   "category": "colonization",
+   "era": "taino-conquest",
+   "sources": [
+    {
+     "id": "britannica-taino",
+     "label": "Taino",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Taino"
+    },
+    {
+     "id": "loc-cuba-study",
+     "label": "Cuba: A Country Study",
+     "publisher": "Library of Congress, Federal Research Division",
+     "url": "https://www.loc.gov/resource/frdcstdy.cubacountrystudy00huds/"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1492-columbus-reaches-cuba",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1492-columbus-reaches-cuba, claim TL:CUB:event:1492:columbus-reaches-cuba, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1511:spanish-conquest-begins",
+   "year": 1511,
+   "yearLabel": "1511 CE",
+   "title": "Spanish conquest begins",
+   "summary": "Diego Velazquez leads the conquest of Cuba, founding Baracoa as the first Spanish settlement; further towns follow within a few years.",
+   "category": "colonization",
+   "era": "taino-conquest",
+   "sources": [
+    {
+     "id": "loc-cuba-study",
+     "label": "Cuba: A Country Study",
+     "publisher": "Library of Congress, Federal Research Division",
+     "url": "https://www.loc.gov/resource/frdcstdy.cubacountrystudy00huds/"
+    },
+    {
+     "id": "britannica-cuba",
+     "label": "Cuba",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cuba"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1511-spanish-conquest-begins",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1511-spanish-conquest-begins, claim TL:CUB:event:1511:spanish-conquest-begins, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1520:collapse-of-the-taino",
+   "year": 1520,
+   "yearLabel": "by c. 1520-1550",
+   "title": "Collapse of the Taino",
+   "summary": "Forced labour, starvation, and Old World disease all but extinguish the indigenous Taino, prompting the import of enslaved Africans.",
+   "category": "disaster",
+   "era": "taino-conquest",
+   "sources": [
+    {
+     "id": "britannica-taino",
+     "label": "Taino",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Taino"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1520-collapse-of-the-taino",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1520-collapse-of-the-taino, claim TL:CUB:event:1520:collapse-of-the-taino, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1519:founding-of-havana",
+   "year": 1519,
+   "yearLabel": "1519 CE",
+   "title": "Founding of Havana",
+   "summary": "The Spanish found Havana, whose harbour becomes an obligatory stop on the route to the New World and the most heavily fortified port of the Caribbean.",
+   "category": "founding",
+   "era": "spanish-colony-sugar",
+   "sources": [
+    {
+     "id": "unesco-havana",
+     "label": "Old Havana and its Fortification System",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/204/"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1519-founding-of-havana",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1519-founding-of-havana, claim TL:CUB:event:1519:founding-of-havana, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1558:the-fortifications-of-havana",
+   "year": 1558,
+   "yearLabel": "begun 1558",
+   "title": "The fortifications of Havana",
+   "summary": "Construction of the Castillo de la Real Fuerza and, later, the Morro and La Cabana fortresses makes Havana the fortified key to the Indies.",
+   "category": "colonization",
+   "era": "spanish-colony-sugar",
+   "sources": [
+    {
+     "id": "unesco-havana",
+     "label": "Old Havana and its Fortification System",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/204/"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1558-the-fortifications-of-havana",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1558-the-fortifications-of-havana, claim TL:CUB:event:1558:the-fortifications-of-havana, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1820:sugar-and-slavery-boom",
+   "year": 1820,
+   "yearLabel": "19th c.",
+   "title": "Sugar-and-slavery boom",
+   "summary": "Cuba becomes the world's leading sugar producer, importing over 600,000 enslaved Africans; by 1860 it makes nearly a third of the world's sugar.",
+   "category": "economy",
+   "era": "spanish-colony-sugar",
+   "sources": [
+    {
+     "id": "britannica-sugar-slavery",
+     "label": "Cuba: Sugarcane and the growth of slavery",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cuba/Sugarcane-and-the-growth-of-slavery"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1820-sugar-and-slavery-boom",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1820-sugar-and-slavery-boom, claim TL:CUB:event:1820:sugar-and-slavery-boom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1868:grito-de-yara",
+   "year": 1868,
+   "yearLabel": "10 Oct 1868",
+   "title": "Grito de Yara",
+   "summary": "Carlos Manuel de Cespedes frees his slaves and proclaims independence at La Demajagua, beginning the Ten Years' War against Spain.",
+   "category": "independence",
+   "era": "wars-of-independence",
+   "sources": [
+    {
+     "id": "britannica-cespedes",
+     "label": "Carlos Manuel de Cespedes",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Carlos-Manuel-de-Cespedes"
+    },
+    {
+     "id": "britannica-cuba",
+     "label": "Cuba",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cuba"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1868-grito-de-yara",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1868-grito-de-yara, claim TL:CUB:event:1868:grito-de-yara, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1895:marti-s-war-of-independence",
+   "year": 1895,
+   "yearLabel": "1895 CE",
+   "title": "Marti's War of Independence",
+   "summary": "Jose Marti orders the resumption of war and lands in Cuba, dying at Dos Rios on 19 May; the rising continues under Gomez and Maceo.",
+   "category": "independence",
+   "era": "wars-of-independence",
+   "sources": [
+    {
+     "id": "britannica-marti",
+     "label": "Jose Marti",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-Marti"
+    },
+    {
+     "id": "loc-marti",
+     "label": "Jose Marti — The World of 1898: The Spanish-American War",
+     "publisher": "Library of Congress",
+     "url": "https://guides.loc.gov/world-of-1898/jose-marti"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1895-marti-s-war-of-independence",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1895-marti-s-war-of-independence, claim TL:CUB:event:1895:marti-s-war-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1898:sinking-of-the-uss-maine",
+   "year": 1898,
+   "yearLabel": "15 Feb 1898",
+   "title": "Sinking of the USS Maine",
+   "summary": "The U.S. battleship Maine explodes in Havana harbour, propelling the United States toward war with Spain over Cuba.",
+   "category": "war",
+   "era": "wars-of-independence",
+   "sources": [
+    {
+     "id": "statedept-spanamwar",
+     "label": "The Spanish-American War, 1898",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1898-sinking-of-the-uss-maine",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1898-sinking-of-the-uss-maine, claim TL:CUB:event:1898:sinking-of-the-uss-maine, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1898:spanish-american-war-ends-spanish-rule",
+   "year": 1898,
+   "yearLabel": "10 Dec 1898",
+   "title": "Spanish-American War ends Spanish rule",
+   "summary": "After Spain's defeat, the Treaty of Paris ends Spanish dominion over Cuba; the Teller Amendment had disclaimed U.S. annexation.",
+   "category": "war",
+   "era": "wars-of-independence",
+   "sources": [
+    {
+     "id": "statedept-spanamwar",
+     "label": "The Spanish-American War, 1898",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
+    },
+    {
+     "id": "archives-platt",
+     "label": "Platt Amendment (1903)",
+     "publisher": "U.S. National Archives, Milestone Documents",
+     "url": "https://www.archives.gov/milestone-documents/platt-amendment"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1898-spanish-american-war-ends-spanish-rule",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1898-spanish-american-war-ends-spanish-rule, claim TL:CUB:event:1898:spanish-american-war-ends-spanish-rule, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1901:the-platt-amendment",
+   "year": 1901,
+   "yearLabel": "1901 CE",
+   "title": "The Platt Amendment",
+   "summary": "The U.S. Congress conditions withdrawal on the Platt Amendment, reserving a right of intervention and a naval base at Guantanamo Bay; Cuba writes it into its constitution.",
+   "category": "politics",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "archives-platt",
+     "label": "Platt Amendment (1903)",
+     "publisher": "U.S. National Archives, Milestone Documents",
+     "url": "https://www.archives.gov/milestone-documents/platt-amendment"
+    },
+    {
+     "id": "britannica-platt",
+     "label": "Platt Amendment",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Platt-Amendment"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1901-the-platt-amendment",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1901-the-platt-amendment, claim TL:CUB:event:1901:the-platt-amendment, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1902:republic-of-cuba-proclaimed",
+   "year": 1902,
+   "yearLabel": "20 May 1902",
+   "title": "Republic of Cuba proclaimed",
+   "summary": "The United States ends its occupation and the Republic of Cuba is installed under Tomas Estrada Palma, its first president.",
+   "category": "founding",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "statedept-cuba",
+     "label": "A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations, by Country: Cuba",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/countries/cuba"
+    },
+    {
+     "id": "britannica-estrada-palma",
+     "label": "Tomas Estrada Palma",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Tomas-Estrada-Palma"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1902-republic-of-cuba-proclaimed",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1902-republic-of-cuba-proclaimed, claim TL:CUB:event:1902:republic-of-cuba-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1933:fall-of-machado",
+   "year": 1933,
+   "yearLabel": "Aug 1933",
+   "title": "Fall of Machado",
+   "summary": "Amid depression and unrest the army forces dictator Gerardo Machado to flee, opening the era of Fulgencio Batista.",
+   "category": "politics",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "britannica-cuban-revolution",
+     "label": "Cuban Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Cuban-Revolution"
+    },
+    {
+     "id": "britannica-republic-1902",
+     "label": "Republic of Cuba (1902-1959)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Republic-of-Cuba-1902-1959"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1933-fall-of-machado",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1933-fall-of-machado, claim TL:CUB:event:1933:fall-of-machado, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1952:batista-s-coup",
+   "year": 1952,
+   "yearLabel": "Mar 1952",
+   "title": "Batista's coup",
+   "summary": "Anticipating electoral defeat, Fulgencio Batista seizes power in a bloodless coup and rules as dictator, provoking armed opposition.",
+   "category": "politics",
+   "era": "republic",
+   "sources": [
+    {
+     "id": "britannica-26-july",
+     "label": "26th of July Movement",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/26th-of-July-Movement"
+    },
+    {
+     "id": "britannica-republic-1902",
+     "label": "Republic of Cuba (1902-1959)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Republic-of-Cuba-1902-1959"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1952-batista-s-coup",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1952-batista-s-coup, claim TL:CUB:event:1952:batista-s-coup, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1959:triumph-of-the-revolution",
+   "year": 1959,
+   "yearLabel": "1 Jan 1959",
+   "title": "Triumph of the Revolution",
+   "summary": "Batista flees and the 26th of July Movement takes power; Fidel Castro soon leads the new government, which turns toward socialism.",
+   "category": "politics",
+   "era": "revolution-cold-war",
+   "sources": [
+    {
+     "id": "britannica-cuban-revolution",
+     "label": "Cuban Revolution",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Cuban-Revolution"
+    },
+    {
+     "id": "britannica-26-july",
+     "label": "26th of July Movement",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/26th-of-July-Movement"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1959-triumph-of-the-revolution",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1959-triumph-of-the-revolution, claim TL:CUB:event:1959:triumph-of-the-revolution, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1961:bay-of-pigs-invasion",
+   "year": 1961,
+   "yearLabel": "Apr 1961",
+   "title": "Bay of Pigs invasion",
+   "summary": "A brigade of U.S.-backed Cuban exiles lands at the Bay of Pigs in an attempt to overthrow Castro and is defeated within days.",
+   "category": "war",
+   "era": "revolution-cold-war",
+   "sources": [
+    {
+     "id": "statedept-bayofpigs",
+     "label": "The Bay of Pigs Invasion and its Aftermath, April 1961-October 1962",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1961-1968/bay-of-pigs"
+    },
+    {
+     "id": "britannica-bay-of-pigs",
+     "label": "Bay of Pigs invasion",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Bay-of-Pigs-invasion"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1961-bay-of-pigs-invasion",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1961-bay-of-pigs-invasion, claim TL:CUB:event:1961:bay-of-pigs-invasion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1962:u-s-embargo-made-comprehensive",
+   "year": 1962,
+   "yearLabel": "Feb 1962",
+   "title": "U.S. embargo made comprehensive",
+   "summary": "President Kennedy expands the trade embargo to cover nearly all commerce with Cuba and makes it permanent.",
+   "category": "economy",
+   "era": "revolution-cold-war",
+   "sources": [
+    {
+     "id": "statedept-bayofpigs",
+     "label": "The Bay of Pigs Invasion and its Aftermath, April 1961-October 1962",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1961-1968/bay-of-pigs"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1962-u-s-embargo-made-comprehensive",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1962-u-s-embargo-made-comprehensive, claim TL:CUB:event:1962:u-s-embargo-made-comprehensive, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1962:cuban-missile-crisis",
+   "year": 1962,
+   "yearLabel": "Oct 1962",
+   "title": "Cuban Missile Crisis",
+   "summary": "Soviet nuclear missiles in Cuba trigger a thirteen-day confrontation; a U.S. quarantine and a Soviet agreement to withdraw the missiles avert nuclear war.",
+   "category": "war",
+   "era": "revolution-cold-war",
+   "sources": [
+    {
+     "id": "statedept-missilecrisis",
+     "label": "The Cuban Missile Crisis, October 1962",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+    },
+    {
+     "id": "britannica-missile-crisis",
+     "label": "Cuban missile crisis",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Cuban-missile-crisis"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1962-cuban-missile-crisis",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1962-cuban-missile-crisis, claim TL:CUB:event:1962:cuban-missile-crisis, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:1991:the-special-period-begins",
+   "year": 1991,
+   "yearLabel": "1991 CE",
+   "title": "The Special Period begins",
+   "summary": "The Soviet collapse ends Cuba's subsidies and trade; Castro declares a special period of rationing and austerity as GDP contracts sharply.",
+   "category": "economy",
+   "era": "special-period-present",
+   "sources": [
+    {
+     "id": "britannica-cuba-1991",
+     "label": "Cuba since 1991",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cuba/Cuba-since-1991"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-1991-the-special-period-begins",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-1991-the-special-period-begins, claim TL:CUB:event:1991:the-special-period-begins, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:2008:raul-castro-assumes-the-presidency",
+   "year": 2008,
+   "yearLabel": "2008 CE",
+   "title": "Raul Castro assumes the presidency",
+   "summary": "An ailing Fidel Castro hands power to his brother Raul, who introduces gradual economic reforms.",
+   "category": "politics",
+   "era": "special-period-present",
+   "sources": [
+    {
+     "id": "britannica-cuba-1991",
+     "label": "Cuba since 1991",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cuba/Cuba-since-1991"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-2008-raul-castro-assumes-the-presidency",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-2008-raul-castro-assumes-the-presidency, claim TL:CUB:event:2008:raul-castro-assumes-the-presidency, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:2014:thaw-with-the-united-states",
+   "year": 2014,
+   "yearLabel": "17 Dec 2014",
+   "title": "Thaw with the United States",
+   "summary": "Obama and Raul Castro announce normalisation; diplomatic relations are restored and embassies reopen in 2015, though the embargo remains.",
+   "category": "politics",
+   "era": "special-period-present",
+   "sources": [
+    {
+     "id": "statedept-relations-2015",
+     "label": "Re-Establishment of Diplomatic Relations With Cuba",
+     "publisher": "U.S. Department of State (2009-2017 archive)",
+     "url": "https://2009-2017.state.gov/r/pa/prs/ps/2015/07/244623.htm"
+    },
+    {
+     "id": "britannica-cuba-1991",
+     "label": "Cuba since 1991",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Cuba/Cuba-since-1991"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-2014-thaw-with-the-united-states",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-2014-thaw-with-the-united-states, claim TL:CUB:event:2014:thaw-with-the-united-states, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:event:2018:leadership-beyond-the-castros",
+   "year": 2018,
+   "yearLabel": "2018-2021",
+   "title": "Leadership beyond the Castros",
+   "summary": "Miguel Diaz-Canel becomes president in 2018 and Communist Party leader in 2021, the first non-Castro to hold the top posts since 1959.",
+   "category": "politics",
+   "era": "special-period-present",
+   "sources": [
+    {
+     "id": "britannica-diaz-canel",
+     "label": "Miguel Diaz-Canel",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Miguel-Diaz-Canel"
+    }
+   ],
+   "url": "https://terralore.co/country/CUB/chronicle#ev-2018-leadership-beyond-the-castros",
+   "citation": "Terralore, \"The Chronicle of Cuba: From the Taino and the fortified key to the Indies to a sugar colony, a contested republic, and a socialist revolution at the edge of the Cold War.\", terralore.co/country/CUB/chronicle#ev-2018-leadership-beyond-the-castros, claim TL:CUB:event:2018:leadership-beyond-the-castros, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

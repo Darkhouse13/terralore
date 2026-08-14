@@ -96,6 +96,8 @@ Figures:
 - Vaclav Havel (1936 – 2011) — Dissident playwright and President. A playwright imprisoned for his dissent and a founder of Charter 77, Havel became the moral leader of the Velvet Revolution. Elected president of Czechoslovakia in 1989, he served as the first president of the Czech Republic from 1993 to 2003.
 - Alexander Dubcek (1921 – 1992) — Reform Communist leader of the Prague Spring. As first secretary of the Communist Party in 1968, Dubcek led the Prague Spring reforms aimed at 'socialism with a human face'. The Warsaw Pact invasion ended the experiment, but he re-emerged in 1989 as a symbol of the Velvet Revolution.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CZE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CZE/chronicle.claims.json
+
 ## References
 
 - [cyril-methodius-britannica] Saints Cyril and Methodius — Encyclopaedia Britannica · https://www.britannica.com/biography/Saints-Cyril-and-Methodius

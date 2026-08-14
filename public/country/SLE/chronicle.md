@@ -86,6 +86,8 @@ Figures:
 - Siaka Stevens (1905–1988) — First President of Sierra Leone. Trade unionist and APC leader who became prime minister in 1968 and first president in 1971, turning Sierra Leone into a one-party state in 1978 and ruling until 1985 amid deepening corruption and decline.
 - Foday Sankoh (1937–2003) — Leader of the Revolutionary United Front. Founder and commander of the RUF, who launched the 1991 invasion and led a campaign of terror through Sierra Leone's civil war; captured in 2000, he died in 2003 while awaiting trial for war crimes.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SLE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SLE/chronicle.claims.json
+
 ## References
 
 - [britannica-sierra-leone] Sierra Leone (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Sierra-Leone

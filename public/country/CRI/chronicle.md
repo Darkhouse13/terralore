@@ -88,6 +88,8 @@ Figures:
 
 - Oscar Arias Sanchez (born 1940) — President and Nobel laureate. President in 1986-90 and 2006-10 whose Central American peace plan earned him the 1987 Nobel Peace Prize, embodying Costa Rica's identity as a demilitarised broker of peace.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CRI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CRI/chronicle.claims.json
+
 ## References
 
 - [britannica-history-cr] History of Costa Rica — Encyclopaedia Britannica · https://www.britannica.com/topic/history-of-Costa-Rica

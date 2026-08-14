@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:NER:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/NER.claims.json
+
 History: "From the green Sahara and the caravan sultanate of Aïr to a French colony forged in violence, an independent republic, and a Sahelian state of uranium, drought and coups." — the sourced chronicle is at https://terralore.co/country/NER/chronicle.md (6 eras, 25 events).
 
 ## Sources

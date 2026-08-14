@@ -109,6 +109,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:JOR:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/JOR.claims.json
+
 History: "From the Iron Age kingdoms east of the Jordan and the rose-red city of Petra to the Hashemite kingdom of Amman." — the sourced chronicle is at https://terralore.co/country/JOR/chronicle.md (6 eras, 27 events).
 
 ## Sources

@@ -1,0 +1,517 @@
+{
+ "subject": "AUS",
+ "name": "Australia",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/AUS/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:AUS:event:65000bce:aboriginal-peoples-settle-the-continent",
+   "year": -65000,
+   "yearLabel": "c. 65,000+ years ago",
+   "title": "Aboriginal peoples settle the continent",
+   "summary": "Aboriginal peoples reached Australia at least 65,000 years ago, crossing from Southeast Asia to the joined landmass of Sahul and beginning the world's oldest continuous human occupation of a single territory.",
+   "category": "migration",
+   "era": "aboriginal-australia",
+   "sources": [
+    {
+     "id": "brit-aboriginal",
+     "label": "Australian Aboriginal peoples",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Australian-Aboriginal"
+    },
+    {
+     "id": "nma-aboriginal",
+     "label": "Defining Moments: Aboriginal and Torres Strait Islander history",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-65000bce-aboriginal-peoples-settle-the-continent",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-65000bce-aboriginal-peoples-settle-the-continent, claim TL:AUS:event:65000bce:aboriginal-peoples-settle-the-continent, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:50000bce:settlement-across-the-whole-continent",
+   "year": -50000,
+   "yearLabel": "c. 50,000–45,000 years ago",
+   "title": "Settlement across the whole continent",
+   "summary": "Within tens of thousands of years, Aboriginal peoples had spread across the entire continent, from tropical north to the cold south, developing diverse cultures adapted to every environment.",
+   "category": "migration",
+   "era": "aboriginal-australia",
+   "sources": [
+    {
+     "id": "brit-aboriginal",
+     "label": "Australian Aboriginal peoples",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Australian-Aboriginal"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-50000bce-settlement-across-the-whole-continent",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-50000bce-settlement-across-the-whole-continent, claim TL:AUS:event:50000bce:settlement-across-the-whole-continent, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1500bce:hundreds-of-nations-and-languages",
+   "year": -1500,
+   "yearLabel": "before European contact",
+   "title": "Hundreds of nations and languages",
+   "summary": "By the time of European contact the continent was home to hundreds of distinct nations speaking around 250 languages, sustaining complex law, kinship, trade, art, and spiritual systems centred on connection to Country.",
+   "category": "culture",
+   "era": "aboriginal-australia",
+   "sources": [
+    {
+     "id": "brit-aboriginal",
+     "label": "Australian Aboriginal peoples",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Australian-Aboriginal"
+    },
+    {
+     "id": "nma-aboriginal",
+     "label": "Defining Moments: Aboriginal and Torres Strait Islander history",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1500bce-hundreds-of-nations-and-languages",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1500bce-hundreds-of-nations-and-languages, claim TL:AUS:event:1500bce:hundreds-of-nations-and-languages, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1770:cook-charts-and-claims-the-east-coast",
+   "year": 1770,
+   "yearLabel": "22 August 1770",
+   "title": "Cook charts and claims the east coast",
+   "summary": "Lieutenant James Cook charted the eastern coast of the continent aboard HMB Endeavour and claimed it for Britain as New South Wales, opening the way to British colonisation.",
+   "category": "colonization",
+   "era": "european-contact-first-fleet",
+   "sources": [
+    {
+     "id": "nma-cook",
+     "label": "Defining Moments: Cook claims Australia",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/cook-claims-australia"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1770-cook-charts-and-claims-the-east-coast",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1770-cook-charts-and-claims-the-east-coast, claim TL:AUS:event:1770:cook-charts-and-claims-the-east-coast, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1788:the-first-fleet-founds-the-penal-colony",
+   "year": 1788,
+   "yearLabel": "26 January 1788",
+   "title": "The First Fleet founds the penal colony",
+   "summary": "Captain Arthur Phillip's First Fleet established a British penal colony at Sydney Cove, beginning permanent European settlement and the dispossession of Aboriginal peoples of the Sydney region.",
+   "category": "colonization",
+   "era": "european-contact-first-fleet",
+   "sources": [
+    {
+     "id": "nma-first-fleet",
+     "label": "Defining Moments: Convict cargo and the First Fleet",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/convict-cargo"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1788-the-first-fleet-founds-the-penal-colony",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1788-the-first-fleet-founds-the-penal-colony, claim TL:AUS:event:1788:the-first-fleet-founds-the-penal-colony, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1789:smallpox-devastates-aboriginal-peoples",
+   "year": 1789,
+   "yearLabel": "1789",
+   "title": "Smallpox devastates Aboriginal peoples",
+   "summary": "A smallpox epidemic spread among Aboriginal peoples around Sydney, killing a large proportion of the Eora and neighbouring peoples and compounding the impact of land seizure and conflict.",
+   "category": "disaster",
+   "era": "european-contact-first-fleet",
+   "sources": [
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    },
+    {
+     "id": "nma-aboriginal",
+     "label": "Defining Moments: Aboriginal and Torres Strait Islander history",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1789-smallpox-devastates-aboriginal-peoples",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1789-smallpox-devastates-aboriginal-peoples, claim TL:AUS:event:1789:smallpox-devastates-aboriginal-peoples, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1824:the-frontier-wars",
+   "year": 1824,
+   "yearLabel": "1820s–1900s",
+   "title": "The frontier wars",
+   "summary": "Across the continent, the expansion of pastoral settlement met Aboriginal resistance in a long, dispersed frontier conflict of raids, reprisals, and massacres that, with introduced disease, devastated Aboriginal peoples and dispossessed them of their land.",
+   "category": "war",
+   "era": "colonial-expansion-gold-frontier",
+   "sources": [
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    },
+    {
+     "id": "nma-aboriginal",
+     "label": "Defining Moments: Aboriginal and Torres Strait Islander history",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1824-the-frontier-wars",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1824-the-frontier-wars, claim TL:AUS:event:1824:the-frontier-wars, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1851:gold-rushes-begin",
+   "year": 1851,
+   "yearLabel": "1851",
+   "title": "Gold rushes begin",
+   "summary": "Discoveries of gold in New South Wales and Victoria triggered rushes that drew hundreds of thousands of migrants, transforming the colonies' population, economy, and society within a decade.",
+   "category": "economy",
+   "era": "colonial-expansion-gold-frontier",
+   "sources": [
+    {
+     "id": "brit-gold-rushes",
+     "label": "Australian gold rushes",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Australian-gold-rushes"
+    },
+    {
+     "id": "nma-eureka",
+     "label": "Defining Moments: Eureka Stockade",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/eureka-stockade"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1851-gold-rushes-begin",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1851-gold-rushes-begin, claim TL:AUS:event:1851:gold-rushes-begin, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1854:eureka-stockade",
+   "year": 1854,
+   "yearLabel": "3 December 1854",
+   "title": "Eureka Stockade",
+   "summary": "Goldminers at Ballarat rebelled against oppressive licensing and the denial of political rights; troops stormed their stockade, killing more than twenty, but the revolt helped secure democratic reforms.",
+   "category": "politics",
+   "era": "colonial-expansion-gold-frontier",
+   "sources": [
+    {
+     "id": "nma-eureka",
+     "label": "Defining Moments: Eureka Stockade",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/eureka-stockade"
+    },
+    {
+     "id": "brit-gold-rushes",
+     "label": "Australian gold rushes",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Australian-gold-rushes"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1854-eureka-stockade",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1854-eureka-stockade, claim TL:AUS:event:1854:eureka-stockade, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1901:federation-creates-the-commonwealth-of-australia",
+   "year": 1901,
+   "yearLabel": "1 January 1901",
+   "title": "Federation creates the Commonwealth of Australia",
+   "summary": "Six self-governing colonies federated under a written Constitution to form the Commonwealth of Australia, a new federal nation with a parliament in which power was shared between the Commonwealth and the states.",
+   "category": "founding",
+   "era": "federation-new-nation",
+   "sources": [
+    {
+     "id": "nma-federation",
+     "label": "Defining Moments: Federation",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/federation"
+    },
+    {
+     "id": "naa-federation",
+     "label": "The Federation of Australia",
+     "publisher": "National Archives of Australia",
+     "url": "https://www.naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/government-and-democracy/federation/federation-australia"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1901-federation-creates-the-commonwealth-of-australia",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1901-federation-creates-the-commonwealth-of-australia, claim TL:AUS:event:1901:federation-creates-the-commonwealth-of-australia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1901:immigration-restriction-act-and-white-australia",
+   "year": 1901,
+   "yearLabel": "1901",
+   "title": "Immigration Restriction Act and 'White Australia'",
+   "summary": "One of the new parliament's first laws established the cornerstone of the 'White Australia' policy, using a dictation test to exclude non-European migrants and keep the nation overwhelmingly white and British.",
+   "category": "migration",
+   "era": "federation-new-nation",
+   "sources": [
+    {
+     "id": "naa-immigration-restriction",
+     "label": "The Immigration Restriction Act 1901",
+     "publisher": "National Archives of Australia",
+     "url": "https://www.naa.gov.au/explore-collection/immigration-and-citizenship/immigration-restriction-act-1901"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1901-immigration-restriction-act-and-white-australia",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1901-immigration-restriction-act-and-white-australia, claim TL:AUS:event:1901:immigration-restriction-act-and-white-australia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1902:women-win-the-federal-vote",
+   "year": 1902,
+   "yearLabel": "1902",
+   "title": "Women win the federal vote",
+   "summary": "The Commonwealth Franchise Act gave most (non-Aboriginal) women the right to vote and to stand for the federal parliament, making Australia one of the first nations to enfranchise women nationally.",
+   "category": "politics",
+   "era": "federation-new-nation",
+   "sources": [
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    },
+    {
+     "id": "nma-federation",
+     "label": "Defining Moments: Federation",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/federation"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1902-women-win-the-federal-vote",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1902-women-win-the-federal-vote, claim TL:AUS:event:1902:women-win-the-federal-vote, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1915:gallipoli-landing-and-the-anzac-legend",
+   "year": 1915,
+   "yearLabel": "25 April 1915",
+   "title": "Gallipoli landing and the Anzac legend",
+   "summary": "Australian and New Zealand troops landed at Gallipoli in a costly campaign that, despite ending in withdrawal, became a foundational national story commemorated each year on Anzac Day.",
+   "category": "war",
+   "era": "world-wars-immigration-20th-century",
+   "sources": [
+    {
+     "id": "awm-immigration-restriction",
+     "label": "The Immigration Restriction Act and the Anzacs",
+     "publisher": "Australian War Memorial",
+     "url": "https://www.awm.gov.au/learn/schools/resources/anzac-diversity/chinese-anzacs/immigration-restriction"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1915-gallipoli-landing-and-the-anzac-legend",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1915-gallipoli-landing-and-the-anzac-legend, claim TL:AUS:event:1915:gallipoli-landing-and-the-anzac-legend, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1910:the-stolen-generations",
+   "year": 1910,
+   "yearLabel": "c. 1910–1970s",
+   "title": "The Stolen Generations",
+   "summary": "Under official assimilation policies, governments and churches forcibly removed many thousands of Aboriginal and Torres Strait Islander children from their families over decades, causing profound and lasting harm.",
+   "category": "politics",
+   "era": "world-wars-immigration-20th-century",
+   "sources": [
+    {
+     "id": "nma-apology",
+     "label": "Defining Moments: National Apology",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/national-apology"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1910-the-stolen-generations",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1910-the-stolen-generations, claim TL:AUS:event:1910:the-stolen-generations, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1942:bombing-of-darwin",
+   "year": 1942,
+   "yearLabel": "19 February 1942",
+   "title": "Bombing of Darwin",
+   "summary": "Japanese aircraft bombed Darwin during the Second World War, the largest attack ever mounted on Australia, prompting Australia to turn increasingly toward the United States for security.",
+   "category": "war",
+   "era": "world-wars-immigration-20th-century",
+   "sources": [
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1942-bombing-of-darwin",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1942-bombing-of-darwin, claim TL:AUS:event:1942:bombing-of-darwin, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1945:post-war-mass-immigration",
+   "year": 1945,
+   "yearLabel": "1945–1970s",
+   "title": "Post-war mass immigration",
+   "summary": "A large post-war immigration programme brought millions of migrants, first from Europe and later from Asia and beyond, transforming Australia into a far more diverse society.",
+   "category": "migration",
+   "era": "world-wars-immigration-20th-century",
+   "sources": [
+    {
+     "id": "naa-immigration-restriction",
+     "label": "The Immigration Restriction Act 1901",
+     "publisher": "National Archives of Australia",
+     "url": "https://www.naa.gov.au/explore-collection/immigration-and-citizenship/immigration-restriction-act-1901"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1945-post-war-mass-immigration",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1945-post-war-mass-immigration, claim TL:AUS:event:1945:post-war-mass-immigration, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1967:the-1967-referendum",
+   "year": 1967,
+   "yearLabel": "27 May 1967",
+   "title": "The 1967 referendum",
+   "summary": "Australians voted by nearly 91 per cent to let the Commonwealth make laws for Aboriginal people and to include them in the census, a landmark in the struggle for Aboriginal rights and recognition.",
+   "category": "politics",
+   "era": "world-wars-immigration-20th-century",
+   "sources": [
+    {
+     "id": "moadoph-1967",
+     "label": "1967: Indigenous Affairs referendum",
+     "publisher": "Museum of Australian Democracy",
+     "url": "https://moadoph.gov.au/explore/democracy/1967-indigenous-affairs"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1967-the-1967-referendum",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1967-the-1967-referendum, claim TL:AUS:event:1967:the-1967-referendum, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1986:australia-act-and-full-legal-independence",
+   "year": 1986,
+   "yearLabel": "3 March 1986",
+   "title": "Australia Act and full legal independence",
+   "summary": "The Australia Act 1986, building on the Statute of Westminster adopted in 1942, ended the British Parliament's power to legislate for Australia and abolished appeals to the Privy Council, completing Australia's legal independence.",
+   "category": "independence",
+   "era": "modern-australia-reconciliation",
+   "sources": [
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1986-australia-act-and-full-legal-independence",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1986-australia-act-and-full-legal-independence, claim TL:AUS:event:1986:australia-act-and-full-legal-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:1992:mabo-decision-overturns-terra-nullius",
+   "year": 1992,
+   "yearLabel": "3 June 1992",
+   "title": "Mabo decision overturns terra nullius",
+   "summary": "The High Court ruled in Mabo v Queensland that the continent had not been terra nullius and that Aboriginal and Torres Strait Islander peoples could hold native title, leading to the Native Title Act 1993.",
+   "category": "politics",
+   "era": "modern-australia-reconciliation",
+   "sources": [
+    {
+     "id": "aiatsis-mabo",
+     "label": "The Mabo Case",
+     "publisher": "Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS)",
+     "url": "https://aiatsis.gov.au/explore/mabo-case"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-1992-mabo-decision-overturns-terra-nullius",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-1992-mabo-decision-overturns-terra-nullius, claim TL:AUS:event:1992:mabo-decision-overturns-terra-nullius, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:2008:national-apology-to-the-stolen-generations",
+   "year": 2008,
+   "yearLabel": "13 February 2008",
+   "title": "National Apology to the Stolen Generations",
+   "summary": "Prime Minister Kevin Rudd delivered a formal apology in parliament to Aboriginal and Torres Strait Islander peoples, and especially to the Stolen Generations harmed by past policies of forced child removal.",
+   "category": "politics",
+   "era": "modern-australia-reconciliation",
+   "sources": [
+    {
+     "id": "nma-apology",
+     "label": "Defining Moments: National Apology",
+     "publisher": "National Museum of Australia",
+     "url": "https://www.nma.gov.au/defining-moments/resources/national-apology"
+    },
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-2008-national-apology-to-the-stolen-generations",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-2008-national-apology-to-the-stolen-generations, claim TL:AUS:event:2008:national-apology-to-the-stolen-generations, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:event:2023:voice-to-parliament-referendum",
+   "year": 2023,
+   "yearLabel": "14 October 2023",
+   "title": "Voice to Parliament referendum",
+   "summary": "Australians voted against a constitutional amendment to recognise First Peoples and establish an Aboriginal and Torres Strait Islander Voice to Parliament, leaving questions of recognition and reconciliation unresolved.",
+   "category": "politics",
+   "era": "modern-australia-reconciliation",
+   "sources": [
+    {
+     "id": "brit-australia",
+     "label": "Australia (country)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Australia"
+    }
+   ],
+   "url": "https://terralore.co/country/AUS/chronicle#ev-2023-voice-to-parliament-referendum",
+   "citation": "Terralore, \"The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.\", terralore.co/country/AUS/chronicle#ev-2023-voice-to-parliament-referendum, claim TL:AUS:event:2023:voice-to-parliament-referendum, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

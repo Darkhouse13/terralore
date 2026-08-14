@@ -74,6 +74,8 @@ Figures:
 
 - Sir Anerood Jugnauth (1930–2021) — Prime Minister and later President. Dominant figure of post-1982 politics who oversaw much of the island's economic diversification and the transition to a republic in 1992.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MUS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MUS/chronicle.claims.json
+
 ## References
 
 - [eb-mauritius] Mauritius — Encyclopædia Britannica · https://www.britannica.com/place/Mauritius

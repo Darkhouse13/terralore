@@ -96,6 +96,8 @@ Figures:
 - King George VI (1895 – 1952) — King of the United Kingdom. In April 1942 he awarded the George Cross to the island of Malta, declaring that it bore witness to a heroism and devotion that would long be famous in history, the only time the medal has honoured a whole population.
 - Dom Mintoff (1916 – 2012) — Prime Minister of Malta. The dominant Labour leader of post-independence Malta who secured the withdrawal of British forces in 1979 and pressed for the islands' neutrality and non-alignment, written into the constitution in 1987.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MLT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MLT/chronicle.claims.json
+
 ## References
 
 - [whe-temples] The Megalithic Temples of Malta — World History Encyclopedia · https://www.worldhistory.org/article/1678/the-megalithic-temples-of-malta/

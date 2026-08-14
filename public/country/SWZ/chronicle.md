@@ -69,6 +69,8 @@ Figures:
 - King Sobhuza II (1899–1982) — Ngwenyama; led Swaziland to independence. Reigned for some six decades, campaigned to recover Swazi land, led the country to independence in 1968, and in 1973 repealed the constitution to rule by decree.
 - King Mswati III (born 1968) — Ngwenyama of Eswatini. Crowned in 1986, he rules as an absolute monarch; in 2018 he renamed Swaziland as Eswatini, and faced major pro-democracy protests in 2021.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SWZ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SWZ/chronicle.claims.json
+
 ## References
 
 - [britannica-eswatini] Eswatini — Encyclopaedia Britannica · https://www.britannica.com/place/Eswatini

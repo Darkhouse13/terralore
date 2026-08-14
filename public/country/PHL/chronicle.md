@@ -85,6 +85,8 @@ Figures:
 
 - Corazon Aquino (1933-2009) — President (1986-1992); leader of People Power. Widow of slain opposition leader Benigno Aquino, she became the figurehead of the 1986 People Power Revolution and the first female president of the Philippines, restoring democratic rule.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PHL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PHL/chronicle.claims.json
+
 ## References
 
 - [britannica-philippines] Philippines (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Philippines

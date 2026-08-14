@@ -92,6 +92,8 @@ Figures:
 
 - Douglas MacArthur (1880-1964) — Supreme Commander for the Allied Powers. As head of the Allied occupation from 1945, the American general directed the demilitarization and democratic reform of Japan, including the drafting of its 1947 constitution.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:JPN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/JPN/chronicle.claims.json
+
 ## References
 
 - [jimmu] Jimmu — Encyclopaedia Britannica · https://www.britannica.com/topic/Jimmu

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import { allRankings, getRanking, type Ranking } from "@/lib/rankings";
+import { claimId } from "@/lib/claim-id";
 import { DOMAIN_META } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
 import {
@@ -394,6 +395,15 @@ export default async function RankingPage({
                                   rank {row.rank} of {r.rows.length}{" "}
                                   {r.isMineral ? "listed producers" : "ranked nations"} ·
                                   highest, not best
+                                  {/* a rank is arithmetic over the dossier claim — the
+                                      row resolves to it (living-record §1.2); the key's
+                                      case is identity, so no uppercase here */}
+                                  {row.year != null && (
+                                    <span className="font-mono text-[9px] tracking-[0.06em] text-sand select-text">
+                                      {" "}
+                                      · {claimId(row.code, r.key, row.year)}
+                                    </span>
+                                  )}
                                 </div>
                               </div>
                             </div>

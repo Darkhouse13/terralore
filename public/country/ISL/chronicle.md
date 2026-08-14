@@ -96,6 +96,8 @@ Figures:
 - Vigdís Finnbogadóttir (born 1930) — President of Iceland. Elected president in 1980, Vigdís Finnbogadóttir was the world's first popularly elected woman head of state, serving until 1996 and becoming an enduring symbol of modern Iceland.
 - Geir Hallgrímsson (1925 – 1990) — Prime Minister during the Third Cod War. Prime minister from 1974 to 1978, he led Iceland through the Third Cod War and the brinkmanship over the Keflavík base that secured British recognition of the 200-mile limit in 1976.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ISL:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ISL/chronicle.claims.json
+
 ## References
 
 - [iceland-britannica] Iceland: History — Encyclopaedia Britannica · https://www.britannica.com/place/Iceland/History

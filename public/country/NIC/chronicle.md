@@ -85,6 +85,8 @@ Figures:
 
 - Rosario Murillo (born 1951) — Vice-president of Nicaragua. Wife of Daniel Ortega and a dominant figure in his government, she became vice-president in 2017 and a central architect of the post-2018 consolidation of power.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NIC:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NIC/chronicle.claims.json
+
 ## References
 
 - [britannica-nicaragua] Nicaragua — Encyclopædia Britannica · https://www.britannica.com/place/Nicaragua

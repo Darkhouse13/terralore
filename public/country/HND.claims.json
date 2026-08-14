@@ -1,0 +1,890 @@
+{
+ "subject": "HND",
+ "name": "Honduras",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/HND",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:HND:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 37093565854.0437,
+   "display": "$37 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-gdp-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-gdp-2024, claim TL:HND:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 3426.43483328923,
+   "display": "$3,426",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-gdpPerCapita-2024, claim TL:HND:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 3.55397003296669,
+   "display": "3.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-gdpGrowth-2024, claim TL:HND:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 4.60621098127107,
+   "display": "4.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-inflation-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-inflation-2024, claim TL:HND:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 91.1101585856976,
+   "display": "91.1%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-tradePctGdp-2024, claim TL:HND:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 10825703,
+   "display": "11 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-population-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-population-2024, claim TL:HND:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 73.044,
+   "display": "73.0 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-lifeExpectancy-2024, claim TL:HND:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 58.7850728104829,
+   "display": "58.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-urbanPct-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-urbanPct-2024, claim TL:HND:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 2.476,
+   "display": "2.5",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-fertility-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-fertility-2024, claim TL:HND:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:literacy:2024",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 88.25,
+   "display": "88.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-literacy-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-literacy-2024, claim TL:HND:literacy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 45.4105717,
+   "display": "45.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-wgiVoice-2024, claim TL:HND:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 56.2064218,
+   "display": "56.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-wgiStability-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-wgiStability-2024, claim TL:HND:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 39.2915482,
+   "display": "39.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-wgiEffectiveness-2024, claim TL:HND:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 44.9578114,
+   "display": "45.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-wgiRegQuality-2024, claim TL:HND:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 36.7110928,
+   "display": "36.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-wgiRuleOfLaw-2024, claim TL:HND:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 22.6603858,
+   "display": "22.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-wgiCorruption-2024, claim TL:HND:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 7.70976162,
+   "display": "7.7%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-healthSpendPctGdp-2023, claim TL:HND:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:physicians:2020",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.489,
+   "display": "0.49",
+   "unit": "per 1,000",
+   "observed": 2020,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-physicians-2020",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-physicians-2020, claim TL:HND:physicians:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 15,
+   "display": "15.0",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-underFiveMortality-2024, claim TL:HND:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 79,
+   "display": "79.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-measlesImmunisation-2024, claim TL:HND:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 65.5162211788382,
+   "display": "65.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/HND#claim-safeWater-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-safeWater-2024, claim TL:HND:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:literacyRate:2024",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 88.25,
+   "display": "88.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-literacyRate-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-literacyRate-2024, claim TL:HND:literacyRate:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.54962037172702,
+   "display": "4.5%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-eduSpendPctGdp-2023, claim TL:HND:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 78.9690848390083,
+   "display": "79.0%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-primaryEnrolment-2024, claim TL:HND:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 51.7639813154374,
+   "display": "51.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-secondaryEnrolment-2024, claim TL:HND:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 23.3177890777588,
+   "display": "23.3%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-tertiaryEnrolment-2024, claim TL:HND:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:rdSpending:2019",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.05997,
+   "display": "0.1%",
+   "unit": "% of GDP",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-rdSpending-2019",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-rdSpending-2019, claim TL:HND:rdSpending:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:researchers:2019",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 187.83669,
+   "display": "188",
+   "unit": "per million",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-researchers-2019",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-researchers-2019, claim TL:HND:researchers:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 58.62269974,
+   "display": "58.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-internetUsers-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-internetUsers-2024, claim TL:HND:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 70.9397440517258,
+   "display": "71",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/HND#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-mobileSubs-2024, claim TL:HND:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 3.87334759570957,
+   "display": "3.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-highTechExports-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-highTechExports-2024, claim TL:HND:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 111890,
+   "display": "111,890 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-landArea-2023",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-landArea-2023, claim TL:HND:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 56.2732147645008,
+   "display": "56.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-forestPct-2023",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-forestPct-2023, claim TL:HND:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 31.9599606756636,
+   "display": "32.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-agriPct-2023",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-agriPct-2023, claim TL:HND:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 1.13551979026212,
+   "display": "1.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-co2PerCapita-2024, claim TL:HND:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 45.9,
+   "display": "45.9%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-renewablePct-2021",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-renewablePct-2021, claim TL:HND:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 1.22455313744521,
+   "display": "1.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-resourceRents-2021",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-resourceRents-2021, claim TL:HND:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.00101153040386899,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-oilRents-2021",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-oilRents-2021, claim TL:HND:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0.384580133990368,
+   "display": "0.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-mineralRents-2021",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-mineralRents-2021, claim TL:HND:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 0.838961473050968,
+   "display": "0.8%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-forestRents-2021",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-forestRents-2021, claim TL:HND:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 95.6,
+   "display": "95.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-electricityAccess-2023, claim TL:HND:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 1.57536270602411,
+   "display": "1.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-milExpPctGdp-2024, claim TL:HND:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 581271651.183095,
+   "display": "$581 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-milExpUsd-2024, claim TL:HND:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:HND:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 23000,
+   "display": "23,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/HND#claim-armedForces-2020",
+   "citation": "Terralore, \"Honduras — national dossier\", terralore.co/country/HND#claim-armedForces-2020, claim TL:HND:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -115,6 +115,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:BRA:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/BRA.claims.json
+
 History: "From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the Americas, and on to an empire, a republic, and a modern democracy." — the sourced chronicle is at https://terralore.co/country/BRA/chronicle.md (6 eras, 28 events).
 
 ## Sources

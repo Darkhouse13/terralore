@@ -83,6 +83,8 @@ Figures:
 - Hans-Adam II (born 1945) — Reigning prince and reformer. Succeeding in 1989, Hans-Adam II modernised the principality's finances and pressed the family's claims abroad, suing over the confiscated van Laer painting and winning a 2003 referendum that enlarged his constitutional powers; in 2004 he handed day-to-day governance to his son Alois.
 - Pieter van Laer's painting — Object of the ICJ dispute. A seventeenth-century work owned by the Liechtenstein family since the eighteenth century and seized in 1945, its 1991 loan from Brno to Cologne triggered Prince Hans-Adam II's German lawsuit and ultimately the case Liechtenstein v. Germany before the International Court of Justice.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:LIE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/LIE/chronicle.claims.json
+
 ## References
 
 - [liechtenstein-history-britannica] Liechtenstein: History (Alpine, Principality, Sovereignty) — Encyclopaedia Britannica · https://www.britannica.com/place/Liechtenstein/History

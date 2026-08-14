@@ -105,6 +105,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:BLZ:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/BLZ.claims.json
+
 History: "From the great Maya cities of Caracol, Xunantunich and Lamanai, through the logwood and mahogany camps of the British Baymen, the slavery on which they rested and the Creole, Garifuna, Maya and Mestizo society that grew up around them, to the colony of British Honduras and independence as Belize on 21 September 1981 — its frontier still claimed by Guatemala before the International Court of Justice." — the sourced chronicle is at https://terralore.co/country/BLZ/chronicle.md (5 eras, 24 events).
 
 ## Sources

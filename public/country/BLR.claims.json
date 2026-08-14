@@ -1,0 +1,890 @@
+{
+ "subject": "BLR",
+ "name": "Belarus",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/BLR",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:BLR:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 75961865471.9129,
+   "display": "$76 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-gdp-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdp-2024, claim TL:BLR:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 8317.63399913792,
+   "display": "$8,318",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdpPerCapita-2024, claim TL:BLR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 4.00984852465452,
+   "display": "4.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdpGrowth-2024, claim TL:BLR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 5.78531910427998,
+   "display": "5.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-inflation-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-inflation-2024, claim TL:BLR:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 131.91792910245,
+   "display": "131.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-tradePctGdp-2024, claim TL:BLR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 9132629,
+   "display": "9.1 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-population-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-population-2024, claim TL:BLR:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 74.3653414634147,
+   "display": "74.4 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-lifeExpectancy-2024, claim TL:BLR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 79.1551015210848,
+   "display": "79.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-urbanPct-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-urbanPct-2024, claim TL:BLR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 1.217,
+   "display": "1.2",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-fertility-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-fertility-2024, claim TL:BLR:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:literacy:2019",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 99.870002746582,
+   "display": "99.9%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-literacy-2019",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-literacy-2019, claim TL:BLR:literacy:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 27.2627222,
+   "display": "27.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiVoice-2024, claim TL:BLR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 59.4495003,
+   "display": "59.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-wgiStability-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiStability-2024, claim TL:BLR:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 37.6995982,
+   "display": "37.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiEffectiveness-2024, claim TL:BLR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 35.4281591,
+   "display": "35.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiRegQuality-2024, claim TL:BLR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 35.7852241,
+   "display": "35.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiRuleOfLaw-2024, claim TL:BLR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 36.1526013,
+   "display": "36.2",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiCorruption-2024, claim TL:BLR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 7.08167362,
+   "display": "7.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-healthSpendPctGdp-2023, claim TL:BLR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 4.717,
+   "display": "4.72",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-physicians-2023",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-physicians-2023, claim TL:BLR:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 2.3,
+   "display": "2.3",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-underFiveMortality-2024, claim TL:BLR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 98,
+   "display": "98.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-measlesImmunisation-2024, claim TL:BLR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 93.0597552933534,
+   "display": "93.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BLR#claim-safeWater-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-safeWater-2024, claim TL:BLR:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:literacyRate:2019",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 99.870002746582,
+   "display": "99.9%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-literacyRate-2019",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-literacyRate-2019, claim TL:BLR:literacyRate:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:eduSpendPctGdp:2024",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 5.04593992233276,
+   "display": "5.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-eduSpendPctGdp-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-eduSpendPctGdp-2024, claim TL:BLR:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 96.8224030073024,
+   "display": "96.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-primaryEnrolment-2024, claim TL:BLR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 94.7902702871216,
+   "display": "94.8%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-secondaryEnrolment-2024, claim TL:BLR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 70.1107509145358,
+   "display": "70.1%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-tertiaryEnrolment-2024, claim TL:BLR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:rdSpending:2024",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.5872,
+   "display": "0.6%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-rdSpending-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-rdSpending-2024, claim TL:BLR:rdSpending:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:researchers:2024",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 1567.81421,
+   "display": "1,568",
+   "unit": "per million",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-researchers-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-researchers-2024, claim TL:BLR:researchers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 94.26182128,
+   "display": "94.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-internetUsers-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-internetUsers-2024, claim TL:BLR:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 131.123016605614,
+   "display": "131",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BLR#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-mobileSubs-2024, claim TL:BLR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:highTechExports:2021",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 6.01576846359853,
+   "display": "6.0%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-highTechExports-2021",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-highTechExports-2021, claim TL:BLR:highTechExports:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 202983,
+   "display": "202,983 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-landArea-2023",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-landArea-2023, claim TL:BLR:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 43.4080686559958,
+   "display": "43.4%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-forestPct-2023",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-forestPct-2023, claim TL:BLR:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 39.5796692333841,
+   "display": "39.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-agriPct-2023",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-agriPct-2023, claim TL:BLR:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 5.93649429972465,
+   "display": "5.9",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-co2PerCapita-2024, claim TL:BLR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 8.2,
+   "display": "8.2%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-renewablePct-2021",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-renewablePct-2021, claim TL:BLR:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 1.86330240223309,
+   "display": "1.9%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-resourceRents-2021",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-resourceRents-2021, claim TL:BLR:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.81410582144289,
+   "display": "0.8%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-oilRents-2021",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-oilRents-2021, claim TL:BLR:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-mineralRents-2021",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-mineralRents-2021, claim TL:BLR:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 1.00983526941144,
+   "display": "1.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-forestRents-2021",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-forestRents-2021, claim TL:BLR:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 100,
+   "display": "100.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-electricityAccess-2023, claim TL:BLR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.07364910790144,
+   "display": "2.1%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-milExpPctGdp-2024, claim TL:BLR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 1491391768.48364,
+   "display": "$1.5 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-milExpUsd-2024, claim TL:BLR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BLR:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 158000,
+   "display": "158,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BLR#claim-armedForces-2020",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-armedForces-2020, claim TL:BLR:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

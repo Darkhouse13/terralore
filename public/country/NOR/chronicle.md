@@ -97,6 +97,8 @@ Figures:
 - Jens Stoltenberg (born 1959) — Prime Minister of Norway. Prime minister during the 2010 Barents Sea agreement with Russia, which ended one of the last great Arctic boundary disputes. He later became Secretary General of NATO, reflecting Norway's continued strategic weight in the north.
 - Gro Harlem Brundtland (born 1939) — Prime Minister of Norway. Norway's first woman prime minister and head of government during the 1994 EU referendum, which her government supported but voters rejected. She symbolised modern Norway's prosperity, welfare model and international engagement.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NOR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NOR/chronicle.claims.json
+
 ## References
 
 - [harald-snl] Harald 1 Hårfagre — Store norske leksikon · https://snl.no/Harald_1_H%C3%A5rfagre

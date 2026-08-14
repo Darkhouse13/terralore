@@ -103,6 +103,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:GNQ:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/GNQ.claims.json
+
 History: "From the Bubi of Bioko and the Fang of Río Muni, through the Portuguese sighting of Fernando Pó, Spain's cocoa colony and a British anti-slavery base, to independence in 1968, the terror of Macías Nguema, the long rule of his nephew Obiang, and the oil wealth of the 1990s." — the sourced chronicle is at https://terralore.co/country/GNQ/chronicle.md (6 eras, 28 events).
 
 ## Sources

@@ -78,6 +78,8 @@ Within two years of independence the new state collapses into a civil war marked
 - 12 Sep 2018: **Revitalised peace agreement (R-ARCSS)** — After repeated failed ceasefires, the government and opposition sign the R-ARCSS, providing for a unified army, a new constitution and elections. [accord-rtgonu, commons-primer]
 - 22 Feb 2020: **Unity government formed** — A Revitalised Transitional Government of National Unity is sworn in, with Riek Machar again first vice-president under President Salva Kiir, though the peace remains fragile. [accord-rtgonu]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SDS:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SDS/chronicle.claims.json
+
 ## References
 
 - [wiki-history-ss] History of South Sudan — Wikipedia · https://en.wikipedia.org/wiki/History_of_South_Sudan

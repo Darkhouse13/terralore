@@ -1,0 +1,870 @@
+{
+ "subject": "TCD",
+ "name": "Chad",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/TCD",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:TCD:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 19518819751.283,
+   "display": "$20 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-gdp-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-gdp-2024, claim TL:TCD:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 961.55975562506,
+   "display": "$962",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-gdpPerCapita-2024, claim TL:TCD:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 4.19925854085865,
+   "display": "4.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-gdpGrowth-2024, claim TL:TCD:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 8.89950732263754,
+   "display": "8.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-inflation-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-inflation-2024, claim TL:TCD:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 47.8679892951699,
+   "display": "47.9%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-tradePctGdp-2024, claim TL:TCD:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 20299123,
+   "display": "20 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-population-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-population-2024, claim TL:TCD:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 55.238,
+   "display": "55.2 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-lifeExpectancy-2024, claim TL:TCD:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 26.9315292389497,
+   "display": "26.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-urbanPct-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-urbanPct-2024, claim TL:TCD:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 6.028,
+   "display": "6.0",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-fertility-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-fertility-2024, claim TL:TCD:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:literacy:2019",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 30.6299991607666,
+   "display": "30.6%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-literacy-2019",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-literacy-2019, claim TL:TCD:literacy:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 30.267189,
+   "display": "30.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-wgiVoice-2024, claim TL:TCD:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 35.5073843,
+   "display": "35.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-wgiStability-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-wgiStability-2024, claim TL:TCD:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 29.9423228,
+   "display": "29.9",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-wgiEffectiveness-2024, claim TL:TCD:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 37.7058267,
+   "display": "37.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-wgiRegQuality-2024, claim TL:TCD:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 32.1012472,
+   "display": "32.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-wgiRuleOfLaw-2024, claim TL:TCD:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 19.7006119,
+   "display": "19.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-wgiCorruption-2024, claim TL:TCD:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 4.99707747,
+   "display": "5.0%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-healthSpendPctGdp-2023, claim TL:TCD:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.085,
+   "display": "0.09",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-physicians-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-physicians-2023, claim TL:TCD:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 97.3,
+   "display": "97.3",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-underFiveMortality-2024, claim TL:TCD:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 66,
+   "display": "66.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-measlesImmunisation-2024, claim TL:TCD:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 6.34082647389426,
+   "display": "6.3%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/TCD#claim-safeWater-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-safeWater-2024, claim TL:TCD:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:literacyRate:2019",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 30.6299991607666,
+   "display": "30.6%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-literacyRate-2019",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-literacyRate-2019, claim TL:TCD:literacyRate:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 3.20149725837724,
+   "display": "3.2%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-eduSpendPctGdp-2023, claim TL:TCD:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 88.464521953345,
+   "display": "88.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-primaryEnrolment-2024, claim TL:TCD:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:secondaryEnrolment:2024",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 23.49298947746,
+   "display": "23.5%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-secondaryEnrolment-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-secondaryEnrolment-2024, claim TL:TCD:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:tertiaryEnrolment:2020",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 4.39665967267065,
+   "display": "4.4%",
+   "unit": "% gross",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-tertiaryEnrolment-2020",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-tertiaryEnrolment-2020, claim TL:TCD:tertiaryEnrolment:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:rdSpending:2016",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.23294,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2016,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-rdSpending-2016",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-rdSpending-2016, claim TL:TCD:rdSpending:2016, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:researchers:2016",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 56.72121,
+   "display": "57",
+   "unit": "per million",
+   "observed": 2016,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-researchers-2016",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-researchers-2016, claim TL:TCD:researchers:2016, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 12.62689972,
+   "display": "12.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-internetUsers-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-internetUsers-2024, claim TL:TCD:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 72.9289782617702,
+   "display": "73",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/TCD#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-mobileSubs-2024, claim TL:TCD:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 1259200,
+   "display": "1,259,200 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-landArea-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-landArea-2023, claim TL:TCD:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 3.16103105146125,
+   "display": "3.2%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-forestPct-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-forestPct-2023, claim TL:TCD:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 39.9756194409149,
+   "display": "40.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-agriPct-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-agriPct-2023, claim TL:TCD:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.142508619707364,
+   "display": "0.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-co2PerCapita-2024, claim TL:TCD:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 70,
+   "display": "70.0%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-renewablePct-2022",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-renewablePct-2022, claim TL:TCD:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 21.3429312625159,
+   "display": "21.3%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-resourceRents-2021",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-resourceRents-2021, claim TL:TCD:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 16.7515661611417,
+   "display": "16.8%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-oilRents-2021",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-oilRents-2021, claim TL:TCD:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-mineralRents-2021",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-mineralRents-2021, claim TL:TCD:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 4.57787415477362,
+   "display": "4.6%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-forestRents-2021",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-forestRents-2021, claim TL:TCD:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 12,
+   "display": "12.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-electricityAccess-2023, claim TL:TCD:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 2.98484990097129,
+   "display": "3.0%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-milExpPctGdp-2024, claim TL:TCD:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 557711240.140698,
+   "display": "$558 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-milExpUsd-2024, claim TL:TCD:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TCD:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 45000,
+   "display": "45,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/TCD#claim-armedForces-2020",
+   "citation": "Terralore, \"Chad — national dossier\", terralore.co/country/TCD#claim-armedForces-2020, claim TL:TCD:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

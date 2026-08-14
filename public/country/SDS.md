@@ -102,6 +102,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:SDS:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/SDS.claims.json
+
 History: "From the cattle camps of the Nile to the world's newest nation" — the sourced chronicle is at https://terralore.co/country/SDS/chronicle.md (6 eras, 29 events).
 
 ## Sources

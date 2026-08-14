@@ -1,0 +1,669 @@
+{
+ "subject": "VNM",
+ "name": "Vietnam",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/VNM/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:VNM:event:2879bce:legendary-founding-of-van-lang",
+   "year": -2879,
+   "yearLabel": "c. 2879 BCE (traditional)",
+   "title": "Legendary founding of Van Lang",
+   "summary": "Vietnamese tradition dates the kingdom of Van Lang and its line of Hung kings to 2879 BCE; the historical Bronze Age Dong Son culture of the Red River delta flourished in the first millennium BCE.",
+   "category": "founding",
+   "era": "origins-and-chinese-rule",
+   "sources": [
+    {
+     "id": "hung-vuong",
+     "label": "Hung Vuong",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Hung-Vuong"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-2879bce-legendary-founding-of-van-lang",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-2879bce-legendary-founding-of-van-lang, claim TL:VNM:event:2879bce:legendary-founding-of-van-lang, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:257bce:kingdom-of-au-lac-and-co-loa",
+   "year": -257,
+   "yearLabel": "c. 3rd century BCE",
+   "title": "Kingdom of Au Lac and Co Loa",
+   "summary": "An Duong Vuong overthrows the last Hung king and unites the land as Au Lac, building the fortified capital of Co Loa north of modern Hanoi.",
+   "category": "founding",
+   "era": "origins-and-chinese-rule",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-257bce-kingdom-of-au-lac-and-co-loa",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-257bce-kingdom-of-au-lac-and-co-loa, claim TL:VNM:event:257bce:kingdom-of-au-lac-and-co-loa, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:111bce:han-conquest-begins-chinese-rule",
+   "year": -111,
+   "yearLabel": "111 BCE",
+   "title": "Han conquest begins Chinese rule",
+   "summary": "The Chinese Han dynasty conquers the region, opening more than a thousand years of direct Chinese administration, taxation, and cultural influence.",
+   "category": "colonization",
+   "era": "origins-and-chinese-rule",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-111bce-han-conquest-begins-chinese-rule",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-111bce-han-conquest-begins-chinese-rule, claim TL:VNM:event:111bce:han-conquest-begins-chinese-rule, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:40:revolt-of-the-trung-sisters",
+   "year": 40,
+   "yearLabel": "40-43 CE",
+   "title": "Revolt of the Trung sisters",
+   "summary": "Trung Trac and Trung Nhi lead a rebellion that briefly drives out the Chinese before being defeated in 43 CE; they become lasting symbols of Vietnamese resistance.",
+   "category": "war",
+   "era": "origins-and-chinese-rule",
+   "sources": [
+    {
+     "id": "trung-sisters",
+     "label": "Trung Sisters",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Trung-Sisters"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-40-revolt-of-the-trung-sisters",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-40-revolt-of-the-trung-sisters, claim TL:VNM:event:40:revolt-of-the-trung-sisters, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:938:battle-of-bach-dang-and-independence",
+   "year": 938,
+   "yearLabel": "938 CE",
+   "title": "Battle of Bach Dang and independence",
+   "summary": "Ngo Quyen destroys a Southern Han fleet at the Bach Dang River using hidden iron-tipped stakes, ending Chinese rule; he proclaims himself king in 939.",
+   "category": "independence",
+   "era": "origins-and-chinese-rule",
+   "sources": [
+    {
+     "id": "ngo-quyen",
+     "label": "Ngo Quyen",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Ngo-Quyen"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-938-battle-of-bach-dang-and-independence",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-938-battle-of-bach-dang-and-independence, claim TL:VNM:event:938:battle-of-bach-dang-and-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1009:founding-of-the-ly-dynasty",
+   "year": 1009,
+   "yearLabel": "1009 CE",
+   "title": "Founding of the Ly dynasty",
+   "summary": "Ly Cong Uan takes the throne and founds the Ly dynasty, moving the capital to Thang Long (Hanoi) in 1010 and establishing the enduring institutions of independent Dai Viet.",
+   "category": "politics",
+   "era": "independent-dynasties",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1009-founding-of-the-ly-dynasty",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1009-founding-of-the-ly-dynasty, claim TL:VNM:event:1009:founding-of-the-ly-dynasty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1258:tran-defeat-of-the-mongol-invasions",
+   "year": 1258,
+   "yearLabel": "1258, 1285 and 1288 CE",
+   "title": "Tran defeat of the Mongol invasions",
+   "summary": "Under Tran Hung Dao the Tran dynasty repels three invasions by Kublai Khan's Mongols, climaxing in the 1288 victory at the Bach Dang River where the Mongol fleet is destroyed on hidden stakes.",
+   "category": "war",
+   "era": "independent-dynasties",
+   "sources": [
+    {
+     "id": "tran-dynasty",
+     "label": "Tran dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Tran-dynasty"
+    },
+    {
+     "id": "tran-hung-dao",
+     "label": "Tran Hung Dao",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Tran-Hung-Dao"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1258-tran-defeat-of-the-mongol-invasions",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1258-tran-defeat-of-the-mongol-invasions, claim TL:VNM:event:1258:tran-defeat-of-the-mongol-invasions, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1407:ming-china-occupies-dai-viet",
+   "year": 1407,
+   "yearLabel": "1407 CE",
+   "title": "Ming China occupies Dai Viet",
+   "summary": "The Chinese Ming dynasty conquers Dai Viet and imposes two decades of harsh direct rule, provoking widespread resistance.",
+   "category": "colonization",
+   "era": "independent-dynasties",
+   "sources": [
+    {
+     "id": "le-loi",
+     "label": "Le Loi",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Le-Loi"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1407-ming-china-occupies-dai-viet",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1407-ming-china-occupies-dai-viet, claim TL:VNM:event:1407:ming-china-occupies-dai-viet, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1428:le-loi-expels-the-ming-and-founds-the-le-dynasty",
+   "year": 1428,
+   "yearLabel": "1428 CE",
+   "title": "Le Loi expels the Ming and founds the Le dynasty",
+   "summary": "After a ten-year war of liberation, Le Loi drives out the Ming, restores independence, and establishes the Le dynasty, which would rule, nominally, for centuries.",
+   "category": "independence",
+   "era": "independent-dynasties",
+   "sources": [
+    {
+     "id": "le-loi",
+     "label": "Le Loi",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Le-Loi"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1428-le-loi-expels-the-ming-and-founds-the-le-dynasty",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1428-le-loi-expels-the-ming-and-founds-the-le-dynasty, claim TL:VNM:event:1428:le-loi-expels-the-ming-and-founds-the-le-dynasty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1471:conquest-of-champa-s-capital",
+   "year": 1471,
+   "yearLabel": "1471 CE",
+   "title": "Conquest of Champa's capital",
+   "summary": "Emperor Le Thanh Tong's forces capture Vijaya, the capital of Champa, accelerating the southward expansion (Nam tien) of Vietnamese settlement.",
+   "category": "war",
+   "era": "independent-dynasties",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1471-conquest-of-champa-s-capital",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1471-conquest-of-champa-s-capital, claim TL:VNM:event:1471:conquest-of-champa-s-capital, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1771:tay-son-rebellion",
+   "year": 1771,
+   "yearLabel": "1771-1789 CE",
+   "title": "Tay Son rebellion",
+   "summary": "A peasant-led uprising overthrows the Nguyen and Trinh lords and the Le dynasty, and in 1789 routs an invading Chinese Qing army near Thang Long.",
+   "category": "war",
+   "era": "nguyen-dynasty",
+   "sources": [
+    {
+     "id": "gia-long",
+     "label": "Gia Long",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Gia-Long"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1771-tay-son-rebellion",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1771-tay-son-rebellion, claim TL:VNM:event:1771:tay-son-rebellion, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1802:gia-long-founds-the-nguyen-dynasty",
+   "year": 1802,
+   "yearLabel": "1802 CE",
+   "title": "Gia Long founds the Nguyen dynasty",
+   "summary": "Nguyen Anh defeats the Tay Son, reunifies the country, and is crowned emperor as Gia Long at Hue, founding Vietnam's last imperial dynasty.",
+   "category": "founding",
+   "era": "nguyen-dynasty",
+   "sources": [
+    {
+     "id": "gia-long",
+     "label": "Gia Long",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Gia-Long"
+    },
+    {
+     "id": "nguyen-dynasty",
+     "label": "Nguyen dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Nguyen-dynasty"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1802-gia-long-founds-the-nguyen-dynasty",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1802-gia-long-founds-the-nguyen-dynasty, claim TL:VNM:event:1802:gia-long-founds-the-nguyen-dynasty, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1804:the-name-vietnam-adopted",
+   "year": 1804,
+   "yearLabel": "1804 CE",
+   "title": "The name Vietnam adopted",
+   "summary": "The unified realm is recognized under the name Vietnam, with its capital at Hue and a centralized administration modeled on Qing China.",
+   "category": "politics",
+   "era": "nguyen-dynasty",
+   "sources": [
+    {
+     "id": "nguyen-dynasty",
+     "label": "Nguyen dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Nguyen-dynasty"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1804-the-name-vietnam-adopted",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1804-the-name-vietnam-adopted, claim TL:VNM:event:1804:the-name-vietnam-adopted, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1820:reign-of-minh-mang",
+   "year": 1820,
+   "yearLabel": "1820-1841 CE",
+   "title": "Reign of Minh Mang",
+   "summary": "Emperor Minh Mang consolidates the Confucian state, completes administrative reforms, and intensifies suspicion of European traders and Catholic missionaries.",
+   "category": "politics",
+   "era": "nguyen-dynasty",
+   "sources": [
+    {
+     "id": "nguyen-dynasty",
+     "label": "Nguyen dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Nguyen-dynasty"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1820-reign-of-minh-mang",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1820-reign-of-minh-mang, claim TL:VNM:event:1820:reign-of-minh-mang, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1858:french-attack-on-da-nang",
+   "year": 1858,
+   "yearLabel": "1858 CE",
+   "title": "French attack on Da Nang",
+   "summary": "A French and Spanish naval force assaults Da Nang, beginning the military conquest that would bring Vietnam under colonial rule.",
+   "category": "war",
+   "era": "nguyen-dynasty",
+   "sources": [
+    {
+     "id": "french-indochina",
+     "label": "French Indochina / Conquest of Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/French-Indochina"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1858-french-attack-on-da-nang",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1858-french-attack-on-da-nang, claim TL:VNM:event:1858:french-attack-on-da-nang, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1862:france-annexes-cochinchina",
+   "year": 1862,
+   "yearLabel": "1862 CE",
+   "title": "France annexes Cochinchina",
+   "summary": "Following the capture of Saigon, France secures the southern provinces of Cochinchina as a colony, its first permanent foothold in Vietnam.",
+   "category": "colonization",
+   "era": "french-indochina",
+   "sources": [
+    {
+     "id": "french-indochina",
+     "label": "French Indochina / Conquest of Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/French-Indochina"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1862-france-annexes-cochinchina",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1862-france-annexes-cochinchina, claim TL:VNM:event:1862:france-annexes-cochinchina, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1887:french-indochina-established",
+   "year": 1887,
+   "yearLabel": "17 October 1887",
+   "title": "French Indochina established",
+   "summary": "France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi.",
+   "category": "colonization",
+   "era": "french-indochina",
+   "sources": [
+    {
+     "id": "french-indochina",
+     "label": "French Indochina / Conquest of Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/French-Indochina"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1887-french-indochina-established",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1887-french-indochina-established, claim TL:VNM:event:1887:french-indochina-established, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1930:founding-of-the-indochinese-communist-party",
+   "year": 1930,
+   "yearLabel": "1930 CE",
+   "title": "Founding of the Indochinese Communist Party",
+   "summary": "Ho Chi Minh helps unite rival communist groups into the Indochinese Communist Party, which becomes the organizational core of the independence struggle.",
+   "category": "politics",
+   "era": "french-indochina",
+   "sources": [
+    {
+     "id": "ho-chi-minh",
+     "label": "Ho Chi Minh",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Ho-Chi-Minh"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1930-founding-of-the-indochinese-communist-party",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1930-founding-of-the-indochinese-communist-party, claim TL:VNM:event:1930:founding-of-the-indochinese-communist-party, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1945:great-vietnamese-famine",
+   "year": 1945,
+   "yearLabel": "1944-1945 CE",
+   "title": "Great Vietnamese Famine",
+   "summary": "Under Japanese occupation and wartime mismanagement, famine strikes northern Vietnam, killing an estimated one to two million people and deepening revolutionary discontent.",
+   "category": "disaster",
+   "era": "french-indochina",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1945-great-vietnamese-famine",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1945-great-vietnamese-famine, claim TL:VNM:event:1945:great-vietnamese-famine, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1945:declaration-of-independence",
+   "year": 1945,
+   "yearLabel": "2 September 1945",
+   "title": "Declaration of independence",
+   "summary": "As Japan surrenders, the Viet Minh seize power in the August Revolution and Ho Chi Minh proclaims the Democratic Republic of Vietnam in Hanoi's Ba Dinh Square.",
+   "category": "independence",
+   "era": "french-indochina",
+   "sources": [
+    {
+     "id": "declaration-1945",
+     "label": "Proclamation of Independence of the Democratic Republic of Vietnam (1945)",
+     "publisher": "Columbia University, Asia for Educators",
+     "url": "https://afe.easia.columbia.edu/ps/vietnam/independence.pdf"
+    },
+    {
+     "id": "ho-chi-minh",
+     "label": "Ho Chi Minh",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Ho-Chi-Minh"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1945-declaration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1945-declaration-of-independence, claim TL:VNM:event:1945:declaration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1946:first-indochina-war",
+   "year": 1946,
+   "yearLabel": "1946-1954 CE",
+   "title": "First Indochina War",
+   "summary": "War between France and the Viet Minh ends with the French defeat at Dien Bien Phu on 7 May 1954, terminating French colonial rule in Vietnam.",
+   "category": "war",
+   "era": "wars-and-reunification",
+   "sources": [
+    {
+     "id": "first-indochina-war",
+     "label": "First Indochina War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/First-Indochina-War"
+    },
+    {
+     "id": "dien-bien-phu",
+     "label": "Dien Bien Phu and the Fall of French Indochina, 1954",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1946-first-indochina-war",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1946-first-indochina-war, claim TL:VNM:event:1946:first-indochina-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1954:geneva-accords-divide-vietnam",
+   "year": 1954,
+   "yearLabel": "1954 CE",
+   "title": "Geneva Accords divide Vietnam",
+   "summary": "The Geneva Conference partitions Vietnam at the 17th parallel into a communist North and an anti-communist South pending reunification elections that are never held.",
+   "category": "politics",
+   "era": "wars-and-reunification",
+   "sources": [
+    {
+     "id": "geneva-accords",
+     "label": "Geneva Accords",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Geneva-Accords"
+    },
+    {
+     "id": "dien-bien-phu",
+     "label": "Dien Bien Phu and the Fall of French Indochina, 1954",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1954-geneva-accords-divide-vietnam",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1954-geneva-accords-divide-vietnam, claim TL:VNM:event:1954:geneva-accords-divide-vietnam, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1964:gulf-of-tonkin-and-u-s-escalation",
+   "year": 1964,
+   "yearLabel": "1964 CE",
+   "title": "Gulf of Tonkin and U.S. escalation",
+   "summary": "The Gulf of Tonkin incident leads Congress to pass a resolution authorizing the vast escalation of direct U.S. military involvement in the war.",
+   "category": "war",
+   "era": "wars-and-reunification",
+   "sources": [
+    {
+     "id": "gulf-of-tonkin",
+     "label": "Gulf of Tonkin Resolution (1964)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Gulf-of-Tonkin-Resolution"
+    },
+    {
+     "id": "vietnam-war",
+     "label": "Vietnam War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Vietnam-War"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1964-gulf-of-tonkin-and-u-s-escalation",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1964-gulf-of-tonkin-and-u-s-escalation, claim TL:VNM:event:1964:gulf-of-tonkin-and-u-s-escalation, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1968:tet-offensive",
+   "year": 1968,
+   "yearLabel": "1968 CE",
+   "title": "Tet Offensive",
+   "summary": "A coordinated communist surprise offensive across South Vietnam, though costly militarily, undermines American public support and shifts the war toward U.S. withdrawal.",
+   "category": "war",
+   "era": "wars-and-reunification",
+   "sources": [
+    {
+     "id": "vietnam-war",
+     "label": "Vietnam War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Vietnam-War"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1968-tet-offensive",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1968-tet-offensive, claim TL:VNM:event:1968:tet-offensive, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1975:fall-of-saigon-and-reunification",
+   "year": 1975,
+   "yearLabel": "30 April 1975",
+   "title": "Fall of Saigon and reunification",
+   "summary": "North Vietnamese forces capture Saigon, ending the war; the country is formally reunified as the Socialist Republic of Vietnam on 2 July 1976.",
+   "category": "independence",
+   "era": "wars-and-reunification",
+   "sources": [
+    {
+     "id": "vietnam-war",
+     "label": "Vietnam War",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Vietnam-War"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1975-fall-of-saigon-and-reunification",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1975-fall-of-saigon-and-reunification, claim TL:VNM:event:1975:fall-of-saigon-and-reunification, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1979:sino-vietnamese-war",
+   "year": 1979,
+   "yearLabel": "1979 CE",
+   "title": "Sino-Vietnamese War",
+   "summary": "China invades northern Vietnam in response to Vietnam's ousting of the Khmer Rouge in Cambodia; the brief but bloody border war deepens Vietnam's isolation.",
+   "category": "war",
+   "era": "doi-moi-and-modern",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1979-sino-vietnamese-war",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1979-sino-vietnamese-war, claim TL:VNM:event:1979:sino-vietnamese-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1986:doi-moi-reforms-launched",
+   "year": 1986,
+   "yearLabel": "1986 CE",
+   "title": "Doi Moi reforms launched",
+   "summary": "The Communist Party's Sixth Congress adopts Doi Moi, replacing central planning with a socialist-oriented market economy and opening Vietnam to private enterprise and foreign investment.",
+   "category": "economy",
+   "era": "doi-moi-and-modern",
+   "sources": [
+    {
+     "id": "doi-moi",
+     "label": "Doi Moi (Renovation)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/money/doi-moi"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1986-doi-moi-reforms-launched",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1986-doi-moi-reforms-launched, claim TL:VNM:event:1986:doi-moi-reforms-launched, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:1995:normalization-with-the-u-s-and-asean-membership",
+   "year": 1995,
+   "yearLabel": "1995 CE",
+   "title": "Normalization with the U.S. and ASEAN membership",
+   "summary": "Vietnam restores diplomatic relations with the United States and joins the Association of Southeast Asian Nations, ending decades of isolation.",
+   "category": "politics",
+   "era": "doi-moi-and-modern",
+   "sources": [
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-1995-normalization-with-the-u-s-and-asean-membership",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-1995-normalization-with-the-u-s-and-asean-membership, claim TL:VNM:event:1995:normalization-with-the-u-s-and-asean-membership, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VNM:event:2007:accession-to-the-world-trade-organization",
+   "year": 2007,
+   "yearLabel": "2007 CE",
+   "title": "Accession to the World Trade Organization",
+   "summary": "Vietnam joins the WTO, cementing its integration into the global economy and accelerating an export-driven manufacturing boom.",
+   "category": "economy",
+   "era": "doi-moi-and-modern",
+   "sources": [
+    {
+     "id": "doi-moi",
+     "label": "Doi Moi (Renovation)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/money/doi-moi"
+    },
+    {
+     "id": "vietnam-place",
+     "label": "Vietnam",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Vietnam"
+    }
+   ],
+   "url": "https://terralore.co/country/VNM/chronicle#ev-2007-accession-to-the-world-trade-organization",
+   "citation": "Terralore, \"The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.\", terralore.co/country/VNM/chronicle#ev-2007-accession-to-the-world-trade-organization, claim TL:VNM:event:2007:accession-to-the-world-trade-organization, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

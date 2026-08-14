@@ -81,6 +81,8 @@ Figures:
 - Hastings Kamuzu Banda (c. 1898–1997) — First President of Malawi. British-trained physician who led Malawi to independence in 1964 and ruled as autocratic life-president from 1971 until his defeat in the 1994 multiparty election; he relinquished power peacefully and died in 1997.
 - Bakili Muluzi (born 1943) — President of Malawi, 1994–2004. United Democratic Front leader who defeated Banda in the 1994 election to become Malawi's first democratically elected president of the multiparty era, serving two terms.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MWI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MWI/chronicle.claims.json
+
 ## References
 
 - [britannica-malawi] Malawi (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Malawi

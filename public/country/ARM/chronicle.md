@@ -85,6 +85,8 @@ Figures:
 
 - Levon Ter-Petrosyan (born 1945) — First president of independent Armenia (1991–1998). Led Armenia to independence in 1991 and through the first years of statehood and the first Nagorno-Karabakh War before resigning in 1998.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:ARM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/ARM/chronicle.claims.json
+
 ## References
 
 - [britannica-urartu] Urartu — Encyclopædia Britannica · https://www.britannica.com/place/Urartu

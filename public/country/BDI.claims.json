@@ -1,0 +1,850 @@
+{
+ "subject": "BDI",
+ "name": "Burundi",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/BDI",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:BDI:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 3082433067.32634,
+   "display": "$3.1 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-gdp-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-gdp-2024, claim TL:BDI:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 219.424830882698,
+   "display": "$219",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-gdpPerCapita-2024, claim TL:BDI:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 4.11227376264944,
+   "display": "4.1%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-gdpGrowth-2024, claim TL:BDI:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:inflation:2024",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 20.2124925027847,
+   "display": "20.2%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-inflation-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-inflation-2024, claim TL:BDI:inflation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 14047786,
+   "display": "14 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-population-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-population-2024, claim TL:BDI:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 63.818,
+   "display": "63.8 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-lifeExpectancy-2024, claim TL:BDI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 24.8302838651025,
+   "display": "24.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-urbanPct-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-urbanPct-2024, claim TL:BDI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 4.789,
+   "display": "4.8",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-fertility-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-fertility-2024, claim TL:BDI:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:literacy:2020",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 71.3374789737041,
+   "display": "71.3%",
+   "unit": "%",
+   "observed": 2020,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-literacy-2020",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-literacy-2020, claim TL:BDI:literacy:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 30.7338088,
+   "display": "30.7",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-wgiVoice-2024, claim TL:BDI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 42.3840199,
+   "display": "42.4",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-wgiStability-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-wgiStability-2024, claim TL:BDI:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 31.7781047,
+   "display": "31.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-wgiEffectiveness-2024, claim TL:BDI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 42.0271013,
+   "display": "42.0",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-wgiRegQuality-2024, claim TL:BDI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 34.5421294,
+   "display": "34.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-wgiRuleOfLaw-2024, claim TL:BDI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 18.251816,
+   "display": "18.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-wgiCorruption-2024, claim TL:BDI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 9.09471226,
+   "display": "9.1%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-healthSpendPctGdp-2023, claim TL:BDI:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:physicians:2022",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.078,
+   "display": "0.08",
+   "unit": "per 1,000",
+   "observed": 2022,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-physicians-2022",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-physicians-2022, claim TL:BDI:physicians:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 47.1,
+   "display": "47.1",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-underFiveMortality-2024, claim TL:BDI:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 86,
+   "display": "86.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/BDI#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-measlesImmunisation-2024, claim TL:BDI:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:literacyRate:2020",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 71.3374789737041,
+   "display": "71.3%",
+   "unit": "%",
+   "observed": 2020,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-literacyRate-2020",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-literacyRate-2020, claim TL:BDI:literacyRate:2020, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:eduSpendPctGdp:2025",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 4.5040397644043,
+   "display": "4.5%",
+   "unit": "% of GDP",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-eduSpendPctGdp-2025",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-eduSpendPctGdp-2025, claim TL:BDI:eduSpendPctGdp:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:primaryEnrolment:2025",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 100.627548217773,
+   "display": "100.6%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-primaryEnrolment-2025",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-primaryEnrolment-2025, claim TL:BDI:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:secondaryEnrolment:2025",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 23.1256008148193,
+   "display": "23.1%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-secondaryEnrolment-2025",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-secondaryEnrolment-2025, claim TL:BDI:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:tertiaryEnrolment:2025",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 6.38454008102417,
+   "display": "6.4%",
+   "unit": "% gross",
+   "observed": 2025,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-tertiaryEnrolment-2025",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-tertiaryEnrolment-2025, claim TL:BDI:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:rdSpending:2018",
+   "domain": "technology",
+   "metric": "rdSpending",
+   "label": "R&D spending",
+   "value": 0.21312,
+   "display": "0.2%",
+   "unit": "% of GDP",
+   "observed": 2018,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-rdSpending-2018",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-rdSpending-2018, claim TL:BDI:rdSpending:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:researchers:2018",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 22.4816,
+   "display": "22",
+   "unit": "per million",
+   "observed": 2018,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-researchers-2018",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-researchers-2018, claim TL:BDI:researchers:2018, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 8.595999718,
+   "display": "8.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-internetUsers-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-internetUsers-2024, claim TL:BDI:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:mobileSubs:2023",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 63.1631365759764,
+   "display": "63",
+   "unit": "per 100",
+   "observed": 2023,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/BDI#claim-mobileSubs-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-mobileSubs-2023, claim TL:BDI:mobileSubs:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:highTechExports:2023",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 1.30508367041098,
+   "display": "1.3%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-highTechExports-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-highTechExports-2023, claim TL:BDI:highTechExports:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 25680,
+   "display": "25,680 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-landArea-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-landArea-2023, claim TL:BDI:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 10.8894080996885,
+   "display": "10.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-forestPct-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-forestPct-2023, claim TL:BDI:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 83.8865576323987,
+   "display": "83.9%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-agriPct-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-agriPct-2023, claim TL:BDI:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.0689574855425617,
+   "display": "0.1",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-co2PerCapita-2024, claim TL:BDI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:renewablePct:2022",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 83,
+   "display": "83.0%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-renewablePct-2022",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-renewablePct-2022, claim TL:BDI:renewablePct:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 13.9570339894077,
+   "display": "14.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-resourceRents-2021",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-resourceRents-2021, claim TL:BDI:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-oilRents-2021",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-oilRents-2021, claim TL:BDI:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 0,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-mineralRents-2021",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-mineralRents-2021, claim TL:BDI:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 13.9570339894077,
+   "display": "14.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-forestRents-2021",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-forestRents-2021, claim TL:BDI:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 11.6,
+   "display": "11.6%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-electricityAccess-2023, claim TL:BDI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 3.80127919699841,
+   "display": "3.8%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-milExpPctGdp-2024, claim TL:BDI:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 171829784.578258,
+   "display": "$172 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-milExpUsd-2024, claim TL:BDI:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:BDI:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 31000,
+   "display": "31,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/BDI#claim-armedForces-2020",
+   "citation": "Terralore, \"Burundi — national dossier\", terralore.co/country/BDI#claim-armedForces-2020, claim TL:BDI:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

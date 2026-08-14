@@ -1,0 +1,817 @@
+{
+ "subject": "cobalt",
+ "name": "Cobalt",
+ "kind": "commodity-shares",
+ "canonical": "https://terralore.co/commodities/cobalt",
+ "updated": "2026-08-11",
+ "detail": "Mine production",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity Shares are Terralore computations: tonnage over the published MCS world total (derivedFrom names both input claims). Tonnage claims are the same claims, with the same IDs, as on each nation's dossier where the year matches.",
+ "worldTotals": [
+  {
+   "id": "TL:WLD:prodCobalt-total:2024",
+   "value": 302000,
+   "display": "302 kt",
+   "unit": "tonnes",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-world",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-world, claim TL:WLD:prodCobalt-total:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:WLD:prodCobalt-total:2025",
+   "value": 310000,
+   "display": "310 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-world",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-world, claim TL:WLD:prodCobalt-total:2025, retrieved <YYYY-MM-DD>."
+  }
+ ],
+ "claims": [
+  {
+   "id": "TL:COD:prodCobalt-share:2024",
+   "nation": "COD",
+   "name": "DR Congo",
+   "value": 0.7483443708609272,
+   "display": "75%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:COD:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:COD:prodCobalt:2024",
+    "value": 226000,
+    "display": "226 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cod, claim TL:COD:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-cod",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cod, claim TL:COD:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COD:prodCobalt-share:2025",
+   "nation": "COD",
+   "name": "DR Congo",
+   "value": 0.7419354838709677,
+   "display": "74%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:COD:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:COD:prodCobalt:2025",
+    "value": 230000,
+    "display": "230 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cod, claim TL:COD:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-cod",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cod, claim TL:COD:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodCobalt-share:2024",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.11589403973509933,
+   "display": "12%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodCobalt:2024",
+    "value": 35000,
+    "display": "35.0 kt",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-idn, claim TL:IDN:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-idn",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-idn, claim TL:IDN:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:IDN:prodCobalt-share:2025",
+   "nation": "IDN",
+   "name": "Indonesia",
+   "value": 0.14193548387096774,
+   "display": "14%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:IDN:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:IDN:prodCobalt:2025",
+    "value": 44000,
+    "display": "44.0 kt",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-idn, claim TL:IDN:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-idn",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-idn, claim TL:IDN:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodCobalt-share:2024",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.026490066225165563,
+   "display": "2.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodCobalt:2024",
+    "value": 8000,
+    "display": "8,000 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-rus, claim TL:RUS:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-rus",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-rus, claim TL:RUS:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:prodCobalt-share:2025",
+   "nation": "RUS",
+   "name": "Russia",
+   "value": 0.024838709677419354,
+   "display": "2.5%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:RUS:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:RUS:prodCobalt:2025",
+    "value": 7700,
+    "display": "7,700 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-rus, claim TL:RUS:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-rus",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-rus, claim TL:RUS:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:prodCobalt-share:2024",
+   "nation": "MDG",
+   "name": "Madagascar",
+   "value": 0.010264900662251655,
+   "display": "1.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:MDG:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:MDG:prodCobalt:2024",
+    "value": 3100,
+    "display": "3,100 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-mdg, claim TL:MDG:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-mdg",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-mdg, claim TL:MDG:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDG:prodCobalt-share:2025",
+   "nation": "MDG",
+   "name": "Madagascar",
+   "value": 0.012580645161290323,
+   "display": "1.3%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:MDG:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:MDG:prodCobalt:2025",
+    "value": 3900,
+    "display": "3,900 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-mdg, claim TL:MDG:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-mdg",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-mdg, claim TL:MDG:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodCobalt-share:2024",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.015827814569536424,
+   "display": "1.6%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodCobalt:2024",
+    "value": 4780,
+    "display": "4,780 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-aus, claim TL:AUS:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-aus",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-aus, claim TL:AUS:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:AUS:prodCobalt-share:2025",
+   "nation": "AUS",
+   "name": "Australia",
+   "value": 0.011935483870967743,
+   "display": "1.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:AUS:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:AUS:prodCobalt:2025",
+    "value": 3700,
+    "display": "3,700 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-aus, claim TL:AUS:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-aus",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-aus, claim TL:AUS:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PHL:prodCobalt-share:2024",
+   "nation": "PHL",
+   "name": "Philippines",
+   "value": 0.010264900662251655,
+   "display": "1.0%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PHL:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PHL:prodCobalt:2024",
+    "value": 3100,
+    "display": "3,100 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-phl, claim TL:PHL:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-phl",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-phl, claim TL:PHL:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PHL:prodCobalt-share:2025",
+   "nation": "PHL",
+   "name": "Philippines",
+   "value": 0.011935483870967743,
+   "display": "1.2%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PHL:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PHL:prodCobalt:2025",
+    "value": 3700,
+    "display": "3,700 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-phl, claim TL:PHL:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-phl",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-phl, claim TL:PHL:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodCobalt-share:2024",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.01109271523178808,
+   "display": "1.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodCobalt:2024",
+    "value": 3350,
+    "display": "3,350 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-can, claim TL:CAN:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-can",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-can, claim TL:CAN:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CAN:prodCobalt-share:2025",
+   "nation": "CAN",
+   "name": "Canada",
+   "value": 0.01129032258064516,
+   "display": "1.1%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CAN:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CAN:prodCobalt:2025",
+    "value": 3500,
+    "display": "3,500 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-can, claim TL:CAN:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-can",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-can, claim TL:CAN:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PNG:prodCobalt-share:2024",
+   "nation": "PNG",
+   "name": "Papua New Guinea",
+   "value": 0.008708609271523178,
+   "display": "0.87%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:PNG:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:PNG:prodCobalt:2024",
+    "value": 2630,
+    "display": "2,630 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-png, claim TL:PNG:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-png",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-png, claim TL:PNG:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:PNG:prodCobalt-share:2025",
+   "nation": "PNG",
+   "name": "Papua New Guinea",
+   "value": 0.00903225806451613,
+   "display": "0.90%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:PNG:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:PNG:prodCobalt:2025",
+    "value": 2800,
+    "display": "2,800 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-png, claim TL:PNG:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-png",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-png, claim TL:PNG:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodCobalt-share:2024",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.006622516556291391,
+   "display": "0.66%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodCobalt:2024",
+    "value": 2000,
+    "display": "2,000 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-chn, claim TL:CHN:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-chn",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-chn, claim TL:CHN:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CHN:prodCobalt-share:2025",
+   "nation": "CHN",
+   "name": "China",
+   "value": 0.0064516129032258064,
+   "display": "0.65%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CHN:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CHN:prodCobalt:2025",
+    "value": 2000,
+    "display": "2,000 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-chn, claim TL:CHN:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-chn",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-chn, claim TL:CHN:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:prodCobalt-share:2024",
+   "nation": "CUB",
+   "name": "Cuba",
+   "value": 0.01142384105960265,
+   "display": "1.1%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:CUB:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:CUB:prodCobalt:2024",
+    "value": 3450,
+    "display": "3,450 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cub, claim TL:CUB:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-cub",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cub, claim TL:CUB:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:CUB:prodCobalt-share:2025",
+   "nation": "CUB",
+   "name": "Cuba",
+   "value": 0.0064516129032258064,
+   "display": "0.65%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:CUB:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:CUB:prodCobalt:2025",
+    "value": 2000,
+    "display": "2,000 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cub, claim TL:CUB:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-cub",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-cub, claim TL:CUB:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodCobalt-share:2024",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.00728476821192053,
+   "display": "0.73%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodCobalt:2024",
+    "value": 2200,
+    "display": "2,200 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-tur, claim TL:TUR:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-tur",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-tur, claim TL:TUR:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:TUR:prodCobalt-share:2025",
+   "nation": "TUR",
+   "name": "Türkiye",
+   "value": 0.006129032258064516,
+   "display": "0.61%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:TUR:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:TUR:prodCobalt:2025",
+    "value": 1900,
+    "display": "1,900 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-tur, claim TL:TUR:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-tur",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-tur, claim TL:TUR:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodCobalt-share:2024",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.0006622516556291391,
+   "display": "0.07%",
+   "unit": "share of the published world total",
+   "observed": 2024,
+   "usgsEstimate": false,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodCobalt:2024",
+    "worldTotal": "TL:WLD:prodCobalt-total:2024"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodCobalt:2024",
+    "value": 200,
+    "display": "200 t",
+    "unit": "tonnes",
+    "observed": 2024,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-usa, claim TL:USA:prodCobalt:2024, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-usa",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-usa, claim TL:USA:prodCobalt-share:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:prodCobalt-share:2025",
+   "nation": "USA",
+   "name": "United States",
+   "value": 0.000967741935483871,
+   "display": "0.10%",
+   "unit": "share of the published world total",
+   "observed": 2025,
+   "usgsEstimate": true,
+   "derivedFrom": {
+    "tonnage": "TL:USA:prodCobalt:2025",
+    "worldTotal": "TL:WLD:prodCobalt-total:2025"
+   },
+   "tonnage": {
+    "id": "TL:USA:prodCobalt:2025",
+    "value": 300,
+    "display": "300 t",
+    "unit": "tonnes",
+    "observed": 2025,
+    "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-usa, claim TL:USA:prodCobalt:2025, retrieved <YYYY-MM-DD>."
+   },
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-11"
+   },
+   "url": "https://terralore.co/commodities/cobalt#claim-usa",
+   "citation": "Terralore, \"Cobalt — who supplies the world\", terralore.co/commodities/cobalt#claim-usa, claim TL:USA:prodCobalt-share:2025, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

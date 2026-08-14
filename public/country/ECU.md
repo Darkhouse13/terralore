@@ -108,6 +108,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:ECU:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/ECU.claims.json
+
 History: "From the Valdivia potters and the Quitu-Cara of the high Andes to a northern Inca capital, the Real Audiencia of Quito, the first cry of independence in 1809, the victory at Pichincha in 1822, and the separate republic born in 1830 on the line of the Equator." — the sourced chronicle is at https://terralore.co/country/ECU/chronicle.md (6 eras, 24 events).
 
 ## Sources

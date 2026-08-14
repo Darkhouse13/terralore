@@ -86,6 +86,8 @@ Figures:
 - Laurent Gbagbo (born 1945) — President of Côte d'Ivoire, 2000–2011. A historian and long-time opposition leader who became president in 2000. His refusal to concede the 2010 election to Ouattara triggered the post-election crisis; captured in 2011, he was later tried and acquitted at the International Criminal Court.
 - Alassane Ouattara (born 1942) — President of Côte d'Ivoire since 2011. A northern Muslim economist and former prime minister long excluded from power by the politics of 'Ivoirité'. Recognised as winner of the 2010 election, he took office after Gbagbo's capture in 2011 and oversaw economic recovery, winning further terms in 2015 and 2020.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:CIV:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/CIV/chronicle.claims.json
+
 ## References
 
 - [britannica-civ-history] History of Côte d'Ivoire — Encyclopædia Britannica · https://www.britannica.com/topic/history-of-Cote-dIvoire

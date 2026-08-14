@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:GNB:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/GNB.claims.json
+
 History: "From the Mandinka empire of Kaabu and the coastal peoples of the Rivers of Guinea, through Portuguese slaving forts, a very late colonial conquest, and Amílcar Cabral's guerrilla war, to independence in 1973–1974 and decades of coups." — the sourced chronicle is at https://terralore.co/country/GNB/chronicle.md (5 eras, 26 events).
 
 ## Sources

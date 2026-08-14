@@ -76,6 +76,8 @@ The Navy left Vieques, a debt crisis and Hurricane Maria shook the island, and t
 - 20 Sept 2017: **Hurricane Maria** — A devastating hurricane wrecks Puerto Rico's power grid and infrastructure, with an official death toll later estimated near 2,975. [britannica-hurricane-maria]
 - 2012-2020: **Statehood plebiscites** — Votes in 2012, 2017, and 2020 favour statehood, but the 2017 ballot was boycotted and drew only about 23% turnout, and Congress has not acted. [britannica-status-debate]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PRI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PRI/chronicle.claims.json
+
 ## References
 
 - [britannica-pr-history] Puerto Rico: History — Encyclopædia Britannica · https://www.britannica.com/place/Puerto-Rico/History

@@ -16,6 +16,7 @@ import { NO_DATA_NOTES, TERRITORY_NOTES } from "@/lib/territory-notes";
 import dynamic from "next/dynamic";
 import ProofFlip from "@/components/strata/ProofFlip";
 import ProofBack from "@/components/strata/ProofBack";
+import { claimFragment, claimId } from "@/lib/claim-id";
 import { type ChartMode } from "./MetricDetail";
 
 // The metric window (chart · rank · map) is a reader's second step, never the
@@ -626,6 +627,7 @@ export default function Dossier({
                       {section.metrics.map((m) => (
                         <SpecimenRow
                           key={m.key}
+                          code={meta.code}
                           metric={m}
                           source={sources[m.sourceId]}
                           forced={allProof}
@@ -749,11 +751,13 @@ export default function Dossier({
 
 /* ── one specimen — the universal proof-flip row ───────────────────────────── */
 function SpecimenRow({
+  code,
   metric,
   source,
   forced,
   onChart,
 }: {
+  code: string;
   metric: Metric;
   source?: DataSource;
   forced: boolean;
@@ -772,8 +776,15 @@ function SpecimenRow({
   }
   const srcId = metric.sourceId.toUpperCase();
   const def = METRIC_DEFS[metric.key];
+  // The claim identity — the row's stable fragment and the ID engraved on the
+  // reverse (docs/living-record.md §1). A year-less observation cannot be
+  // claimed; it flips to its label but mints no ID.
+  const claim = metric.year != null ? claimId(code, metric.key, metric.year) : undefined;
   return (
-    <div className="flex items-stretch border-b-2 border-basalt">
+    <div
+      id={metric.year != null ? claimFragment(metric.key, metric.year) : undefined}
+      className="flex items-stretch border-b-2 border-basalt"
+    >
       <ProofFlip
         forced={forced}
         className="min-w-0 flex-1"
@@ -795,6 +806,7 @@ function SpecimenRow({
           <ProofBack
             line={`OBSERVED ${metric.year ?? "—"} · ${srcId}${source ? ` — ${source.publisher}` : ""}`}
             note={def}
+            claim={claim}
             padding="8px"
           />
         }

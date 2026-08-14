@@ -83,6 +83,8 @@ Figures:
 - Jerry John Rawlings (1947–2020) — Military ruler and President of Ghana. Air force officer who seized power in 1979 and again in 1981, ruled through the PNDC, then led Ghana back to constitutional democracy, winning the 1992 and 1996 elections as the Fourth Republic's first president.
 - John Dramani Mahama (born 1958) — President of Ghana. NDC leader who served as president from 2012, lost re-election in 2016, and returned to office after winning the December 2024 election, illustrating Ghana's pattern of peaceful democratic alternation.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GHA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GHA/chronicle.claims.json
+
 ## References
 
 - [britannica-ghana] Ghana (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Ghana

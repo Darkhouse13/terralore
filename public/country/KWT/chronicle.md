@@ -80,6 +80,8 @@ Figures:
 
 - Sheikh Sabah Al-Ahmad Al-Sabah (1929 - 2020) — Emir of Kuwait, 2006-2020. Long-serving foreign minister who became emir in 2006 and was widely respected as a mediator in Gulf and Arab disputes and an advocate of humanitarian aid.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:KWT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/KWT/chronicle.claims.json
+
 ## References
 
 - [britannica-kuwait] Kuwait: History — Encyclopaedia Britannica · https://www.britannica.com/place/Kuwait/History

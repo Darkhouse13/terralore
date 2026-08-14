@@ -96,6 +96,8 @@ Figures:
 - Leopold Figl (1902 – 1965) — Foreign Minister and Chancellor. A survivor of Nazi concentration camps and a leading figure of the Second Republic, Figl signed the Austrian State Treaty for Austria in 1955 and is remembered for proclaiming 'Austria is free!' on its conclusion.
 - Karl Gruber (1909 – 1995) — Foreign Minister of Austria. As foreign minister of the new republic, Gruber negotiated the 1946 agreement with the Italian premier De Gasperi that committed Italy to autonomy for German-speaking South Tyrol, the basis of the later settlement.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:AUT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/AUT/chronicle.claims.json
+
 ## References
 
 - [habsburg-ostarrichi] Ostarrîchi: Austria under the Babenbergs — Die Welt der Habsburger (The World of the Habsburgs) · https://www.habsburger.net/en/chapter/ostarrichi-austria-under-babenbergs

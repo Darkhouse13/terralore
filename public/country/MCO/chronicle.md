@@ -84,6 +84,8 @@ Figures:
 - Rainier III (1923 – 2005) — Sovereign Prince of Monaco. The 31st hereditary ruler, who reigned from 1949 to 2005, Rainier III modernised Monaco's economy beyond gambling, reclaimed land for the Fontvieille district and gave the principality the constitution of 1962. His marriage to Grace Kelly made Monaco internationally famous.
 - Princess Grace (Grace Kelly) (1929 – 1982) — Princess consort of Monaco. The American Academy Award-winning actress who married Rainier III in 1956 and became Princess Grace of Monaco. Her glamour transformed the principality's image; she died in a car accident in 1982.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MCO:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MCO/chronicle.claims.json
+
 ## References
 
 - [britannica-monaco] Monaco — Encyclopaedia Britannica · https://www.britannica.com/place/Monaco

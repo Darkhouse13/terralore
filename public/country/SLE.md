@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:SLE:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/SLE.claims.json
+
 History: "From the Mende, Temne, and Sherbro of the Rice Coast through Bunce Island and the Atlantic slave trade to Freetown's 'Province of Freedom', the Krio, the Hut Tax War, independence, and a brutal civil war survived." — the sourced chronicle is at https://terralore.co/country/SLE/chronicle.md (6 eras, 27 events).
 
 ## Sources

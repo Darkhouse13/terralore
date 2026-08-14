@@ -78,6 +78,8 @@ Figures:
 - Ronnie Brunswijk (born 1961) — Maroon rebel leader and later vice-president. Former soldier who led the mainly Maroon Jungle Commando in the Interior War of the late 1980s and decades later entered government, serving as vice-president from 2020.
 - Jennifer Geerlings-Simons (born 1953) — President of Suriname. Physician and longtime parliamentarian who in 2025 became Suriname's first woman president, taking office amid an economic crisis and the prospect of new oil wealth.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SUR:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SUR/chronicle.claims.json
+
 ## References
 
 - [britannica-suriname] Suriname: History — Encyclopaedia Britannica · https://www.britannica.com/place/Suriname/History

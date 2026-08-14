@@ -1,0 +1,890 @@
+{
+ "subject": "ZWE",
+ "name": "Zimbabwe",
+ "kind": "dossier-observations",
+ "canonical": "https://terralore.co/country/ZWE",
+ "updated": "2026-08-10",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:ZWE:gdp:2024",
+   "domain": "economy",
+   "metric": "gdp",
+   "label": "GDP",
+   "value": 41539411516.4448,
+   "display": "$42 B",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-gdp-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-gdp-2024, claim TL:ZWE:gdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:gdpPerCapita:2024",
+   "domain": "economy",
+   "metric": "gdpPerCapita",
+   "label": "GDP per capita",
+   "value": 2497.20332208763,
+   "display": "$2,497",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-gdpPerCapita-2024, claim TL:ZWE:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:gdpGrowth:2024",
+   "domain": "economy",
+   "metric": "gdpGrowth",
+   "label": "GDP growth",
+   "value": 1.74239524880791,
+   "display": "1.7%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-gdpGrowth-2024, claim TL:ZWE:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:inflation:2022",
+   "domain": "economy",
+   "metric": "inflation",
+   "label": "Inflation",
+   "value": 104.705170628667,
+   "display": "104.7%",
+   "unit": "%",
+   "observed": 2022,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-inflation-2022",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-inflation-2022, claim TL:ZWE:inflation:2022, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:tradePctGdp:2024",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 41.4865312656314,
+   "display": "41.5%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-tradePctGdp-2024, claim TL:ZWE:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:population:2024",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 16634373,
+   "display": "17 m",
+   "unit": "people",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-population-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-population-2024, claim TL:ZWE:population:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:lifeExpectancy:2024",
+   "domain": "society",
+   "metric": "lifeExpectancy",
+   "label": "Life expectancy",
+   "value": 63.064,
+   "display": "63.1 yrs",
+   "unit": "years",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-lifeExpectancy-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-lifeExpectancy-2024, claim TL:ZWE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:urbanPct:2024",
+   "domain": "society",
+   "metric": "urbanPct",
+   "label": "Urban population",
+   "value": 39.8933716820696,
+   "display": "39.9%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-urbanPct-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-urbanPct-2024, claim TL:ZWE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:fertility:2024",
+   "domain": "society",
+   "metric": "fertility",
+   "label": "Fertility rate",
+   "value": 3.674,
+   "display": "3.7",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-fertility-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-fertility-2024, claim TL:ZWE:fertility:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:literacy:2019",
+   "domain": "society",
+   "metric": "literacy",
+   "label": "Literacy rate",
+   "value": 93.2300033569336,
+   "display": "93.2%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-literacy-2019",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-literacy-2019, claim TL:ZWE:literacy:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:wgiVoice:2024",
+   "domain": "governance",
+   "metric": "wgiVoice",
+   "label": "Voice & accountability",
+   "value": 34.8037239,
+   "display": "34.8",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-wgiVoice-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-wgiVoice-2024, claim TL:ZWE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:wgiStability:2024",
+   "domain": "governance",
+   "metric": "wgiStability",
+   "label": "Political stability",
+   "value": 48.5183369,
+   "display": "48.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-wgiStability-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-wgiStability-2024, claim TL:ZWE:wgiStability:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:wgiEffectiveness:2024",
+   "domain": "governance",
+   "metric": "wgiEffectiveness",
+   "label": "Government effectiveness",
+   "value": 32.136983,
+   "display": "32.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-wgiEffectiveness-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-wgiEffectiveness-2024, claim TL:ZWE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:wgiRegQuality:2024",
+   "domain": "governance",
+   "metric": "wgiRegQuality",
+   "label": "Regulatory quality",
+   "value": 36.2828944,
+   "display": "36.3",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-wgiRegQuality-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-wgiRegQuality-2024, claim TL:ZWE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:wgiRuleOfLaw:2024",
+   "domain": "governance",
+   "metric": "wgiRuleOfLaw",
+   "label": "Rule of law",
+   "value": 36.1235607,
+   "display": "36.1",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-wgiRuleOfLaw-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-wgiRuleOfLaw-2024, claim TL:ZWE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:wgiCorruption:2024",
+   "domain": "governance",
+   "metric": "wgiCorruption",
+   "label": "Control of corruption",
+   "value": 22.5194258,
+   "display": "22.5",
+   "unit": "score",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wgi",
+    "label": "Worldwide Governance Indicators (via World Bank API)",
+    "publisher": "Worldwide Governance Indicators / World Bank",
+    "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-wgiCorruption-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-wgiCorruption-2024, claim TL:ZWE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:healthSpendPctGdp:2023",
+   "domain": "health",
+   "metric": "healthSpendPctGdp",
+   "label": "Health spending",
+   "value": 2.92601609,
+   "display": "2.9%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-healthSpendPctGdp-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-healthSpendPctGdp-2023, claim TL:ZWE:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:physicians:2023",
+   "domain": "health",
+   "metric": "physicians",
+   "label": "Physicians",
+   "value": 0.136,
+   "display": "0.14",
+   "unit": "per 1,000",
+   "observed": 2023,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-physicians-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-physicians-2023, claim TL:ZWE:physicians:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:underFiveMortality:2024",
+   "domain": "health",
+   "metric": "underFiveMortality",
+   "label": "Under-5 mortality",
+   "value": 64.7,
+   "display": "64.7",
+   "unit": "per 1,000 births",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-underFiveMortality-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-underFiveMortality-2024, claim TL:ZWE:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:measlesImmunisation:2024",
+   "domain": "health",
+   "metric": "measlesImmunisation",
+   "label": "Measles immunisation",
+   "value": 90,
+   "display": "90.0%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unicef-who",
+    "label": "Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI)",
+    "publisher": "UNICEF and WHO / World Bank",
+    "url": "https://childmortality.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-measlesImmunisation-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-measlesImmunisation-2024, claim TL:ZWE:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:safeWater:2024",
+   "domain": "health",
+   "metric": "safeWater",
+   "label": "Safe drinking water",
+   "value": 25.460563358156,
+   "display": "25.5%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-who",
+    "label": "Global Health Observatory (WHO, via World Bank WDI)",
+    "publisher": "WHO / World Bank",
+    "url": "https://www.who.int/data/gho",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-safeWater-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-safeWater-2024, claim TL:ZWE:safeWater:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:literacyRate:2019",
+   "domain": "education",
+   "metric": "literacyRate",
+   "label": "Adult literacy",
+   "value": 93.2300033569336,
+   "display": "93.2%",
+   "unit": "%",
+   "observed": 2019,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-literacyRate-2019",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-literacyRate-2019, claim TL:ZWE:literacyRate:2019, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:eduSpendPctGdp:2023",
+   "domain": "education",
+   "metric": "eduSpendPctGdp",
+   "label": "Education spending",
+   "value": 0.384771297211919,
+   "display": "0.4%",
+   "unit": "% of GDP",
+   "observed": 2023,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-eduSpendPctGdp-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-eduSpendPctGdp-2023, claim TL:ZWE:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:primaryEnrolment:2024",
+   "domain": "education",
+   "metric": "primaryEnrolment",
+   "label": "Primary enrolment",
+   "value": 93.0772110334414,
+   "display": "93.1%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-primaryEnrolment-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-primaryEnrolment-2024, claim TL:ZWE:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:secondaryEnrolment:2013",
+   "domain": "education",
+   "metric": "secondaryEnrolment",
+   "label": "Secondary enrolment",
+   "value": 52.4158515930176,
+   "display": "52.4%",
+   "unit": "% gross",
+   "observed": 2013,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-secondaryEnrolment-2013",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-secondaryEnrolment-2013, claim TL:ZWE:secondaryEnrolment:2013, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:tertiaryEnrolment:2024",
+   "domain": "education",
+   "metric": "tertiaryEnrolment",
+   "label": "Tertiary enrolment",
+   "value": 7.74912957845971,
+   "display": "7.7%",
+   "unit": "% gross",
+   "observed": 2024,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-tertiaryEnrolment-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-tertiaryEnrolment-2024, claim TL:ZWE:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:researchers:2012",
+   "domain": "technology",
+   "metric": "researchers",
+   "label": "Researchers (per million)",
+   "value": 95.1253,
+   "display": "95",
+   "unit": "per million",
+   "observed": 2012,
+   "source": {
+    "id": "wb-unesco",
+    "label": "R&D statistics (UNESCO UIS, via World Bank WDI)",
+    "publisher": "UNESCO Institute for Statistics / World Bank",
+    "url": "https://uis.unesco.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-researchers-2012",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-researchers-2012, claim TL:ZWE:researchers:2012, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:internetUsers:2024",
+   "domain": "technology",
+   "metric": "internetUsers",
+   "label": "Internet users",
+   "value": 41.64279938,
+   "display": "41.6%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-internetUsers-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-internetUsers-2024, claim TL:ZWE:internetUsers:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:mobileSubs:2024",
+   "domain": "technology",
+   "metric": "mobileSubs",
+   "label": "Mobile subscriptions",
+   "value": 94.2451753366358,
+   "display": "94",
+   "unit": "per 100",
+   "observed": 2024,
+   "source": {
+    "id": "wb-itu",
+    "label": "ICT indicators (ITU, via World Bank WDI)",
+    "publisher": "ITU / World Bank",
+    "url": "https://www.itu.int/en/ITU-D/Statistics",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-15"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-mobileSubs-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-mobileSubs-2024, claim TL:ZWE:mobileSubs:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:highTechExports:2024",
+   "domain": "technology",
+   "metric": "highTechExports",
+   "label": "High-tech exports",
+   "value": 2.79801736625087,
+   "display": "2.8%",
+   "unit": "%",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-highTechExports-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-highTechExports-2024, claim TL:ZWE:highTechExports:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:landArea:2023",
+   "domain": "geography",
+   "metric": "landArea",
+   "label": "Land area",
+   "value": 386850,
+   "display": "386,850 km²",
+   "unit": "km²",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-landArea-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-landArea-2023, claim TL:ZWE:landArea:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:forestPct:2023",
+   "domain": "geography",
+   "metric": "forestPct",
+   "label": "Forest area",
+   "value": 44.7366421093447,
+   "display": "44.7%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-forestPct-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-forestPct-2023, claim TL:ZWE:forestPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:agriPct:2023",
+   "domain": "geography",
+   "metric": "agriPct",
+   "label": "Agricultural land",
+   "value": 41.791706346129,
+   "display": "41.8%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-agriPct-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-agriPct-2023, claim TL:ZWE:agriPct:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:co2PerCapita:2024",
+   "domain": "geography",
+   "metric": "co2PerCapita",
+   "label": "CO₂ per capita (t)",
+   "value": 0.772821434267465,
+   "display": "0.8",
+   "unit": "ratio",
+   "observed": 2024,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-co2PerCapita-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-co2PerCapita-2024, claim TL:ZWE:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:renewablePct:2021",
+   "domain": "geography",
+   "metric": "renewablePct",
+   "label": "Renewable energy",
+   "value": 82.4,
+   "display": "82.4%",
+   "unit": "%",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-renewablePct-2021",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-renewablePct-2021, claim TL:ZWE:renewablePct:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:resourceRents:2021",
+   "domain": "resources",
+   "metric": "resourceRents",
+   "label": "Resource rents",
+   "value": 6.39845161112644,
+   "display": "6.4%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-resourceRents-2021",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-resourceRents-2021, claim TL:ZWE:resourceRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:oilRents:2021",
+   "domain": "resources",
+   "metric": "oilRents",
+   "label": "Oil rents",
+   "value": 0.0477688089316108,
+   "display": "0.0%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-oilRents-2021",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-oilRents-2021, claim TL:ZWE:oilRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:mineralRents:2021",
+   "domain": "resources",
+   "metric": "mineralRents",
+   "label": "Mineral rents",
+   "value": 4.24065959200093,
+   "display": "4.2%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-mineralRents-2021",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-mineralRents-2021, claim TL:ZWE:mineralRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:forestRents:2021",
+   "domain": "resources",
+   "metric": "forestRents",
+   "label": "Forest rents",
+   "value": 1.81989235157518,
+   "display": "1.8%",
+   "unit": "% of GDP",
+   "observed": 2021,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-forestRents-2021",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-forestRents-2021, claim TL:ZWE:forestRents:2021, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:electricityAccess:2023",
+   "domain": "resources",
+   "metric": "electricityAccess",
+   "label": "Electricity access",
+   "value": 62,
+   "display": "62.0%",
+   "unit": "%",
+   "observed": 2023,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-electricityAccess-2023",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-electricityAccess-2023, claim TL:ZWE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:prodLithium:2025",
+   "domain": "resources",
+   "metric": "prodLithium",
+   "label": "Lithium (mined)",
+   "value": 28000,
+   "display": "28.0 kt",
+   "unit": "tonnes",
+   "observed": 2025,
+   "source": {
+    "id": "usgs-mcs",
+    "label": "Mineral Commodity Summaries 2026",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center",
+    "license": "Public domain (U.S. Government work)",
+    "accessed": "2026-08-10"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-prodLithium-2025",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-prodLithium-2025, claim TL:ZWE:prodLithium:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:milExpPctGdp:2024",
+   "domain": "military",
+   "metric": "milExpPctGdp",
+   "label": "Military burden",
+   "value": 0.351195023855751,
+   "display": "0.4%",
+   "unit": "% of GDP",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-milExpPctGdp-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-milExpPctGdp-2024, claim TL:ZWE:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:milExpUsd:2024",
+   "domain": "military",
+   "metric": "milExpUsd",
+   "label": "Defense spending",
+   "value": 98394292.7162675,
+   "display": "$98 M",
+   "unit": "USD",
+   "observed": 2024,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-milExpUsd-2024",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-milExpUsd-2024, claim TL:ZWE:milExpUsd:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:ZWE:armedForces:2020",
+   "domain": "military",
+   "metric": "armedForces",
+   "label": "Armed forces",
+   "value": 51000,
+   "display": "51,000",
+   "unit": "people",
+   "observed": 2020,
+   "source": {
+    "id": "wb-sipri",
+    "label": "Military Expenditure Database (via World Development Indicators)",
+    "publisher": "SIPRI / World Bank",
+    "url": "https://www.sipri.org/databases/milex",
+    "license": "CC BY 4.0",
+    "accessed": "2026-06-14"
+   },
+   "url": "https://terralore.co/country/ZWE#claim-armedForces-2020",
+   "citation": "Terralore, \"Zimbabwe — national dossier\", terralore.co/country/ZWE#claim-armedForces-2020, claim TL:ZWE:armedForces:2020, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

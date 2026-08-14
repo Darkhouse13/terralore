@@ -80,6 +80,8 @@ Figures:
 
 - Rigoberta Menchu (born 1959) — Indigenous-rights activist, Nobel laureate. K'iche' Maya activist whose family was killed during the civil war and who won the 1992 Nobel Peace Prize for her struggle for the rights of indigenous peoples. She later founded Guatemala's first indigenous political party.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GTM:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GTM/chronicle.claims.json
+
 ## References
 
 - [britannica-tikal] Tikal — Encyclopaedia Britannica · https://www.britannica.com/place/Tikal

@@ -80,6 +80,8 @@ Figures:
 
 - Nayib Bukele (born 1981) — President of El Salvador. Former mayor of San Salvador elected president in 2019, who made El Salvador the first nation to adopt Bitcoin as legal tender and, after 2022, led a sweeping gang crackdown that cut homicides dramatically while drawing criticism over mass detentions and civil liberties; re-elected by a landslide in 2024.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:SLV:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/SLV/chronicle.claims.json
+
 ## References
 
 - [unesco-joya-ceren] Joya de Ceren Archaeological Site — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/675/

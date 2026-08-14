@@ -106,6 +106,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:CHE:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/CHE.claims.json
+
 History: "From a forest-valley oath against the Habsburgs to the armed neutrality at the heart of Europe." — the sourced chronicle is at https://terralore.co/country/CHE/chronicle.md (5 eras, 23 events).
 
 ## Sources

@@ -248,6 +248,11 @@ function commodityTwin(c: Commodity): Twin {
     );
   }
 
+  L.push(
+    `Machine-readable claims — every share and tonnage above as an addressable claim ` +
+      `ID with its derivation and a ready citation string: ${SITE_URL}${canonicalPath}.claims.json`,
+    "",
+  );
   L.push("## Sources", "", sourceLine(source), "", citation(title, canonicalPath), "");
   return { path: `${canonicalPath}.md`, canonicalPath, title, description, kind: "commodity", markdown: L.join("\n") };
 }
@@ -319,6 +324,10 @@ function dossierTwin(meta: CountryMeta): Twin {
       `Every metric above is also ranked across all nations: ${SITE_URL}${routes.rankings()} ` +
         `(markdown twins at /rankings/<metric>.md).`,
       "",
+      `Machine-readable claims — every figure above as an addressable claim ID ` +
+        `(TL:${meta.code}:<metric>:<year>) with value, source, license and a ready ` +
+        `citation string: ${SITE_URL}${canonicalPath}.claims.json`,
+      "",
     );
   }
 
@@ -382,6 +391,13 @@ function chronicleTwin(meta: CountryMeta, history: CountryHistory): Twin {
       L.push("");
     }
   }
+
+  L.push(
+    `Machine-readable claims — every event above as an addressable claim ID ` +
+      `(TL:${meta.code}:event:<year>:<slug>) with its sources and a ready citation ` +
+      `string: ${SITE_URL}${canonicalPath}.claims.json`,
+    "",
+  );
 
   L.push("## References", "");
   for (const s of history.sources) {

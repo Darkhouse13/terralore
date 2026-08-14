@@ -85,6 +85,8 @@ Figures:
 - Jigme Singye Wangchuck (born 1955; reigned 1972–2006) — Fourth Druk Gyalpo. The fourth king, who articulated Gross National Happiness, opened Bhutan cautiously to the world, and voluntarily set in motion the country's transition to constitutional democracy before abdicating in 2006.
 - Jigme Khesar Namgyel Wangchuck (born 1980; reigning from 2006) — Fifth Druk Gyalpo. Oxford-educated fifth king, enthroned in 2008, who oversaw Bhutan's first democratic elections and the coming into force of its Constitution, presiding over a constitutional monarchy.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BTN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BTN/chronicle.claims.json
+
 ## References
 
 - [britannica-bhutan-history] Bhutan — History — Encyclopaedia Britannica · https://www.britannica.com/place/Bhutan/History

@@ -1,0 +1,742 @@
+{
+ "subject": "KOR",
+ "name": "South Korea",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/KOR/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:KOR:event:2333bce:legendary-founding-of-gojoseon",
+   "year": -2333,
+   "yearLabel": "2333 BCE (legendary)",
+   "title": "Legendary founding of Gojoseon",
+   "summary": "According to the Samguk yusa, the mythical Dangun establishes Gojoseon, traditionally regarded as the first Korean kingdom; the date is commemorated as National Foundation Day.",
+   "category": "founding",
+   "era": "gojoseon-three-kingdoms",
+   "sources": [
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    },
+    {
+     "id": "gojoseon-whe",
+     "label": "Gojoseon",
+     "publisher": "World History Encyclopedia",
+     "url": "https://www.worldhistory.org/Gojoseon/"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-2333bce-legendary-founding-of-gojoseon",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-2333bce-legendary-founding-of-gojoseon, claim TL:KOR:event:2333bce:legendary-founding-of-gojoseon, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:108bce:fall-of-gojoseon-to-han-china",
+   "year": -108,
+   "yearLabel": "108 BCE",
+   "title": "Fall of Gojoseon to Han China",
+   "summary": "The Han dynasty conquers Gojoseon and establishes commanderies in the north, fragmenting the peninsula into smaller competing states.",
+   "category": "war",
+   "era": "gojoseon-three-kingdoms",
+   "sources": [
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    },
+    {
+     "id": "gojoseon-whe",
+     "label": "Gojoseon",
+     "publisher": "World History Encyclopedia",
+     "url": "https://www.worldhistory.org/Gojoseon/"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-108bce-fall-of-gojoseon-to-han-china",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-108bce-fall-of-gojoseon-to-han-china, claim TL:KOR:event:108bce:fall-of-gojoseon-to-han-china, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:57bce:emergence-of-the-three-kingdoms",
+   "year": -57,
+   "yearLabel": "c. 57 BCE - 1st century CE",
+   "title": "Emergence of the Three Kingdoms",
+   "summary": "Silla, Goguryeo, and Baekje take shape as the three dominant kingdoms of the peninsula, each later adopting Buddhism and centralized rule.",
+   "category": "founding",
+   "era": "gojoseon-three-kingdoms",
+   "sources": [
+    {
+     "id": "three-kingdoms",
+     "label": "Three Kingdoms period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Three-Kingdoms-period"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-57bce-emergence-of-the-three-kingdoms",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-57bce-emergence-of-the-three-kingdoms, claim TL:KOR:event:57bce:emergence-of-the-three-kingdoms, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:372:introduction-of-buddhism",
+   "year": 372,
+   "yearLabel": "c. 372 CE",
+   "title": "Introduction of Buddhism",
+   "summary": "Buddhism is officially adopted in Goguryeo and spreads through the kingdoms, becoming a major force in art, statecraft, and religious life.",
+   "category": "religion",
+   "era": "gojoseon-three-kingdoms",
+   "sources": [
+    {
+     "id": "three-kingdoms",
+     "label": "Three Kingdoms period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Three-Kingdoms-period"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-372-introduction-of-buddhism",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-372-introduction-of-buddhism, claim TL:KOR:event:372:introduction-of-buddhism, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:668:silla-unifies-the-peninsula",
+   "year": 668,
+   "yearLabel": "668 CE",
+   "title": "Silla unifies the peninsula",
+   "summary": "Allied with Tang China, Silla conquers Baekje in 660 and Goguryeo in 668, then expels the Tang, achieving the first unification of Korea under native rule.",
+   "category": "war",
+   "era": "gojoseon-three-kingdoms",
+   "sources": [
+    {
+     "id": "three-kingdoms",
+     "label": "Three Kingdoms period",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Three-Kingdoms-period"
+    },
+    {
+     "id": "korea-unified-silla",
+     "label": "Unified Silla dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Unified-Silla-dynasty"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-668-silla-unifies-the-peninsula",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-668-silla-unifies-the-peninsula, claim TL:KOR:event:668:silla-unifies-the-peninsula, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:751:bulguksa-and-seokguram-built",
+   "year": 751,
+   "yearLabel": "c. 751 CE",
+   "title": "Bulguksa and Seokguram built",
+   "summary": "Unified Silla constructs the Bulguksa temple and the Seokguram grotto near Gyeongju, masterpieces of Buddhist art later inscribed as UNESCO World Heritage.",
+   "category": "culture",
+   "era": "unified-silla-goryeo",
+   "sources": [
+    {
+     "id": "korea-unified-silla",
+     "label": "Unified Silla dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Unified-Silla-dynasty"
+    },
+    {
+     "id": "seokguram-unesco",
+     "label": "Seokguram Grotto and Bulguksa Temple",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/736"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-751-bulguksa-and-seokguram-built",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-751-bulguksa-and-seokguram-built, claim TL:KOR:event:751:bulguksa-and-seokguram-built, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:918:wang-geon-founds-goryeo",
+   "year": 918,
+   "yearLabel": "918 CE",
+   "title": "Wang Geon founds Goryeo",
+   "summary": "The general Wang Geon establishes the Goryeo dynasty at Kaesong; by 936 he reunifies the peninsula, giving rise to the Western name Korea.",
+   "category": "founding",
+   "era": "unified-silla-goryeo",
+   "sources": [
+    {
+     "id": "korea-goryeo",
+     "label": "Koryo (Goryeo) dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-918-wang-geon-founds-goryeo",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-918-wang-geon-founds-goryeo, claim TL:KOR:event:918:wang-geon-founds-goryeo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1231:mongol-invasions-begin",
+   "year": 1231,
+   "yearLabel": "1231 CE",
+   "title": "Mongol invasions begin",
+   "summary": "Mongol armies invade Goryeo; after prolonged resistance from Ganghwa Island, Korea submits to Yuan overlordship for roughly a century.",
+   "category": "war",
+   "era": "unified-silla-goryeo",
+   "sources": [
+    {
+     "id": "korea-goryeo",
+     "label": "Koryo (Goryeo) dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1231-mongol-invasions-begin",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1231-mongol-invasions-begin, claim TL:KOR:event:1231:mongol-invasions-begin, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1251:tripitaka-koreana-completed",
+   "year": 1251,
+   "yearLabel": "1236-1251 CE",
+   "title": "Tripitaka Koreana completed",
+   "summary": "Goryeo Buddhists carve the entire Buddhist canon onto more than 80,000 woodblocks as a prayer for deliverance from the Mongols, a printing landmark preserved at Haeinsa.",
+   "category": "religion",
+   "era": "unified-silla-goryeo",
+   "sources": [
+    {
+     "id": "korea-goryeo",
+     "label": "Koryo (Goryeo) dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    },
+    {
+     "id": "tripitaka-unesco",
+     "label": "Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/737"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1251-tripitaka-koreana-completed",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1251-tripitaka-koreana-completed, claim TL:KOR:event:1251:tripitaka-koreana-completed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1392:fall-of-goryeo",
+   "year": 1392,
+   "yearLabel": "1392 CE",
+   "title": "Fall of Goryeo",
+   "summary": "Weakened by factionalism and Mongol decline, Goryeo is overthrown by the general Yi Seong-gye, who founds the Joseon dynasty.",
+   "category": "politics",
+   "era": "unified-silla-goryeo",
+   "sources": [
+    {
+     "id": "joseon-dynasty",
+     "label": "Joseon dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Joseon-dynasty"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1392-fall-of-goryeo",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1392-fall-of-goryeo, claim TL:KOR:event:1392:fall-of-goryeo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1392:joseon-dynasty-founded",
+   "year": 1392,
+   "yearLabel": "1392 CE",
+   "title": "Joseon dynasty founded",
+   "summary": "Yi Seong-gye establishes the Joseon dynasty, adopts Neo-Confucianism as state ideology, and soon moves the capital to Hanyang (Seoul).",
+   "category": "founding",
+   "era": "joseon-dynasty",
+   "sources": [
+    {
+     "id": "joseon-dynasty",
+     "label": "Joseon dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Joseon-dynasty"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1392-joseon-dynasty-founded",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1392-joseon-dynasty-founded, claim TL:KOR:event:1392:joseon-dynasty-founded, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1443:creation-of-hangul",
+   "year": 1443,
+   "yearLabel": "1443-1446 CE",
+   "title": "Creation of hangul",
+   "summary": "King Sejong the Great sponsors the Korean alphabet, completed in 1443 and promulgated in 1446 to make literacy accessible to ordinary people.",
+   "category": "culture",
+   "era": "joseon-dynasty",
+   "sources": [
+    {
+     "id": "joseon-dynasty",
+     "label": "Joseon dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Joseon-dynasty"
+    },
+    {
+     "id": "hunminjeongeum-unesco",
+     "label": "Hunminjeongeum Manuscript",
+     "publisher": "UNESCO Memory of the World",
+     "url": "https://www.unesco.org/en/memory-world"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1443-creation-of-hangul",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1443-creation-of-hangul, claim TL:KOR:event:1443:creation-of-hangul, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1592:japanese-imjin-invasions-repelled",
+   "year": 1592,
+   "yearLabel": "1592-1598 CE",
+   "title": "Japanese (Imjin) invasions repelled",
+   "summary": "Toyotomi Hideyoshi's forces invade Korea; resistance led by Admiral Yi Sun-sin and his turtle ships, with Ming Chinese aid, ultimately drives them out.",
+   "category": "war",
+   "era": "joseon-dynasty",
+   "sources": [
+    {
+     "id": "joseon-dynasty",
+     "label": "Joseon dynasty",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Joseon-dynasty"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1592-japanese-imjin-invasions-repelled",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1592-japanese-imjin-invasions-repelled, claim TL:KOR:event:1592:japanese-imjin-invasions-repelled, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1905:korea-made-a-japanese-protectorate",
+   "year": 1905,
+   "yearLabel": "1905 CE",
+   "title": "Korea made a Japanese protectorate",
+   "summary": "After defeating Russia, Japan imposes a protectorate treaty stripping Korea of its diplomatic sovereignty, a prelude to full annexation.",
+   "category": "colonization",
+   "era": "joseon-dynasty",
+   "sources": [
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1905-korea-made-a-japanese-protectorate",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1905-korea-made-a-japanese-protectorate, claim TL:KOR:event:1905:korea-made-a-japanese-protectorate, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1910:japanese-annexation-of-korea",
+   "year": 1910,
+   "yearLabel": "1910 CE",
+   "title": "Japanese annexation of Korea",
+   "summary": "Japan formally annexes Korea, ending the Joseon dynasty and more than five centuries of Korean monarchy and beginning 35 years of colonial rule.",
+   "category": "colonization",
+   "era": "joseon-dynasty",
+   "sources": [
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1910-japanese-annexation-of-korea",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1910-japanese-annexation-of-korea, claim TL:KOR:event:1910:japanese-annexation-of-korea, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1910:annexation-and-colonial-government",
+   "year": 1910,
+   "yearLabel": "1910 CE",
+   "title": "Annexation and colonial government",
+   "summary": "Japan installs a Government-General in Seoul, ruling Korea through military and police power and beginning systematic economic exploitation.",
+   "category": "colonization",
+   "era": "japanese-colonial-rule",
+   "sources": [
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1910-annexation-and-colonial-government",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1910-annexation-and-colonial-government, claim TL:KOR:event:1910:annexation-and-colonial-government, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1919:march-first-movement",
+   "year": 1919,
+   "yearLabel": "1 March 1919",
+   "title": "March First Movement",
+   "summary": "A Declaration of Independence sparks nationwide demonstrations by some two million Koreans; the peaceful protests are violently suppressed with thousands killed.",
+   "category": "independence",
+   "era": "japanese-colonial-rule",
+   "sources": [
+    {
+     "id": "march-first-movement",
+     "label": "March First Movement",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/March-First-Movement"
+    },
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1919-march-first-movement",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1919-march-first-movement, claim TL:KOR:event:1919:march-first-movement, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1919:korean-provisional-government-formed",
+   "year": 1919,
+   "yearLabel": "April 1919",
+   "title": "Korean Provisional Government formed",
+   "summary": "Korean nationalists establish a Provisional Government in exile in Shanghai to coordinate the independence struggle against Japanese rule.",
+   "category": "politics",
+   "era": "japanese-colonial-rule",
+   "sources": [
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1919-korean-provisional-government-formed",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1919-korean-provisional-government-formed, claim TL:KOR:event:1919:korean-provisional-government-formed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1939:forced-labor-and-wartime-mobilization",
+   "year": 1939,
+   "yearLabel": "c. 1939-1945 CE",
+   "title": "Forced labor and wartime mobilization",
+   "summary": "As the Pacific War expands, Japan conscripts hundreds of thousands of Koreans for forced labor and military service and coerces women into sexual slavery.",
+   "category": "colonization",
+   "era": "japanese-colonial-rule",
+   "sources": [
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1939-forced-labor-and-wartime-mobilization",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1939-forced-labor-and-wartime-mobilization, claim TL:KOR:event:1939:forced-labor-and-wartime-mobilization, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1945:liberation-from-japan",
+   "year": 1945,
+   "yearLabel": "15 August 1945",
+   "title": "Liberation from Japan",
+   "summary": "Japan's surrender ends 35 years of colonial rule; Koreans celebrate Gwangbokjeol, the Restoration of Light, even as foreign occupation and division loom.",
+   "category": "independence",
+   "era": "japanese-colonial-rule",
+   "sources": [
+    {
+     "id": "korea-japanese-rule",
+     "label": "Korea Under Japanese Rule",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+    },
+    {
+     "id": "state-korean-war",
+     "label": "The Korean War and Japan's Recovery",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1945-liberation-from-japan",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1945-liberation-from-japan, claim TL:KOR:event:1945:liberation-from-japan, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1945:division-at-the-38th-parallel",
+   "year": 1945,
+   "yearLabel": "1945 CE",
+   "title": "Division at the 38th parallel",
+   "summary": "The peninsula is split into Soviet and American occupation zones along the 38th parallel, setting the stage for two rival Korean states.",
+   "category": "politics",
+   "era": "division-war-rebuilding",
+   "sources": [
+    {
+     "id": "state-korean-war",
+     "label": "The Korean War and Japan's Recovery",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1945-division-at-the-38th-parallel",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1945-division-at-the-38th-parallel, claim TL:KOR:event:1945:division-at-the-38th-parallel, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1948:republic-of-korea-proclaimed",
+   "year": 1948,
+   "yearLabel": "15 August 1948",
+   "title": "Republic of Korea proclaimed",
+   "summary": "South Korea is established under President Syngman Rhee after a constitution is promulgated and UN-observed elections held; the DPRK is founded in the north weeks later.",
+   "category": "founding",
+   "era": "division-war-rebuilding",
+   "sources": [
+    {
+     "id": "first-republic",
+     "label": "Syngman Rhee",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Syngman-Rhee"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1948-republic-of-korea-proclaimed",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1948-republic-of-korea-proclaimed, claim TL:KOR:event:1948:republic-of-korea-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1950:the-korean-war",
+   "year": 1950,
+   "yearLabel": "25 June 1950",
+   "title": "The Korean War",
+   "summary": "North Korea invades the South; a US-led UN force and Chinese intervention turn the war into a grinding stalemate that devastates the peninsula and kills millions.",
+   "category": "war",
+   "era": "division-war-rebuilding",
+   "sources": [
+    {
+     "id": "state-korean-war",
+     "label": "The Korean War and Japan's Recovery",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1950-the-korean-war",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1950-the-korean-war, claim TL:KOR:event:1950:the-korean-war, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1953:korean-war-armistice",
+   "year": 1953,
+   "yearLabel": "27 July 1953",
+   "title": "Korean War armistice",
+   "summary": "An armistice halts the fighting near the 38th parallel and creates the Demilitarized Zone; no peace treaty is signed, freezing the division to the present day.",
+   "category": "war",
+   "era": "division-war-rebuilding",
+   "sources": [
+    {
+     "id": "state-korean-war",
+     "label": "The Korean War and Japan's Recovery",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1953-korean-war-armistice",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1953-korean-war-armistice, claim TL:KOR:event:1953:korean-war-armistice, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1961:park-chung-hee-s-military-coup",
+   "year": 1961,
+   "yearLabel": "16 May 1961",
+   "title": "Park Chung-hee's military coup",
+   "summary": "General Park Chung-hee seizes power and launches state-led, export-driven industrialization, the Miracle on the Han River, alongside authoritarian repression.",
+   "category": "politics",
+   "era": "division-war-rebuilding",
+   "sources": [
+    {
+     "id": "park-chung-hee",
+     "label": "Park Chung-Hee",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Park-Chung-Hee"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1961-park-chung-hee-s-military-coup",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1961-park-chung-hee-s-military-coup, claim TL:KOR:event:1961:park-chung-hee-s-military-coup, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1980:gwangju-uprising",
+   "year": 1980,
+   "yearLabel": "18-27 May 1980",
+   "title": "Gwangju Uprising",
+   "summary": "A pro-democracy uprising in Gwangju is crushed by the military with heavy loss of life, becoming a catalyst and symbol for South Korea's democracy movement.",
+   "category": "politics",
+   "era": "democratization-modern",
+   "sources": [
+    {
+     "id": "gwangju-uprising",
+     "label": "Gwangju Uprising",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Gwangju-Uprising"
+    },
+    {
+     "id": "gwangju-unesco",
+     "label": "Archives for the May 18th Democratic Uprising in Gwangju",
+     "publisher": "UNESCO Memory of the World",
+     "url": "https://www.unesco.org/en/memory-world/human-rights-documentary-heritage-1980-archives-may-18th-democratic-uprising-against-military-regime"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1980-gwangju-uprising",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1980-gwangju-uprising, claim TL:KOR:event:1980:gwangju-uprising, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1987:june-democratic-struggle",
+   "year": 1987,
+   "yearLabel": "June 1987",
+   "title": "June Democratic Struggle",
+   "summary": "Millions protest nationwide, forcing the regime to grant direct presidential elections and democratic reform, founding the present Sixth Republic.",
+   "category": "politics",
+   "era": "democratization-modern",
+   "sources": [
+    {
+     "id": "june-struggle",
+     "label": "June Democratic Struggle (1987): A Resource Guide",
+     "publisher": "U.S. Library of Congress",
+     "url": "https://guides.loc.gov/south-korean-democratization-movement/june-uprising"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1987-june-democratic-struggle",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1987-june-democratic-struggle, claim TL:KOR:event:1987:june-democratic-struggle, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1988:seoul-summer-olympics",
+   "year": 1988,
+   "yearLabel": "1988 CE",
+   "title": "Seoul Summer Olympics",
+   "summary": "Seoul hosts the Summer Olympics, showcasing South Korea's recovery and helping cement its turn toward democracy and global engagement.",
+   "category": "culture",
+   "era": "democratization-modern",
+   "sources": [
+    {
+     "id": "seoul-1988",
+     "label": "Seoul 1988 Olympic Games",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Seoul-1988-Olympic-Games"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1988-seoul-summer-olympics",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1988-seoul-summer-olympics, claim TL:KOR:event:1988:seoul-summer-olympics, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:1997:asian-financial-crisis-and-imf-rescue",
+   "year": 1997,
+   "yearLabel": "1997-1998 CE",
+   "title": "Asian financial crisis and IMF rescue",
+   "summary": "A regional financial crisis forces South Korea to seek a major IMF bailout; sweeping reforms follow under President Kim Dae-jung.",
+   "category": "economy",
+   "era": "democratization-modern",
+   "sources": [
+    {
+     "id": "kim-dae-jung",
+     "label": "Kim Dae-Jung",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Kim-Dae-Jung"
+    },
+    {
+     "id": "korea-place",
+     "label": "Korea (history)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Korea"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-1997-asian-financial-crisis-and-imf-rescue",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-1997-asian-financial-crisis-and-imf-rescue, claim TL:KOR:event:1997:asian-financial-crisis-and-imf-rescue, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KOR:event:2000:first-inter-korean-summit",
+   "year": 2000,
+   "yearLabel": "June 2000",
+   "title": "First inter-Korean summit",
+   "summary": "President Kim Dae-jung meets North Korea's Kim Jong-il in Pyongyang under the Sunshine Policy; Kim Dae-jung receives the Nobel Peace Prize that year.",
+   "category": "politics",
+   "era": "democratization-modern",
+   "sources": [
+    {
+     "id": "kim-dae-jung",
+     "label": "Kim Dae-Jung",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Kim-Dae-Jung"
+    }
+   ],
+   "url": "https://terralore.co/country/KOR/chronicle#ev-2000-first-inter-korean-summit",
+   "citation": "Terralore, \"The Chronicle of South Korea: A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse.\", terralore.co/country/KOR/chronicle#ev-2000-first-inter-korean-summit, claim TL:KOR:event:2000:first-inter-korean-summit, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

@@ -78,6 +78,8 @@ Figures:
 - Ismail Omar Guelleh (born 1947) — President of Djibouti (since 1999). Nephew and long-time chief of staff of Hassan Gouled Aptidon, he succeeded him in 1999 and, after term limits were removed in 2010, has remained in power, presiding over the country's rise as a host of foreign military bases.
 - Ahmed Dini Ahmed (1932–2004) — Afar leader and head of the armed FRUD. Veteran Afar politician who proclaimed the 1977 independence declaration and later led the hardline faction of the FRUD rebellion until the final peace accord of 2001.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:DJI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/DJI/chronicle.claims.json
+
 ## References
 
 - [britannica-djibouti] Djibouti (country and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Djibouti

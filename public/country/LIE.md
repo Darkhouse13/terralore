@@ -90,6 +90,8 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
+Machine-readable claims — every figure above as an addressable claim ID (TL:LIE:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/LIE.claims.json
+
 History: "A principality bought into being, the last survivor of the Holy Roman Empire, ruled from afar before it found itself." — the sourced chronicle is at https://terralore.co/country/LIE/chronicle.md (5 eras, 22 events).
 
 ## Sources

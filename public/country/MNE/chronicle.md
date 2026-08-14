@@ -97,6 +97,8 @@ Figures:
 - Dusko Markovic (born 1958) — Prime Minister at NATO accession. Prime minister who led Montenegro into NATO in June 2017, attending the accession ceremony in Washington as the country completed its principal Euro-Atlantic goal.
 - Jens Stoltenberg (born 1959) — NATO Secretary General. Secretary General who welcomed Montenegro as the Alliance's twenty-ninth member in 2017, hailing its entry 'with a seat at the table as an equal' and its independence guaranteed.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MNE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MNE/chronicle.claims.json
+
 ## References
 
 - [montenegro-history-britannica] Montenegro: History — Encyclopaedia Britannica · https://www.britannica.com/place/Montenegro/History

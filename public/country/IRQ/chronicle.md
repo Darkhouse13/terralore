@@ -85,6 +85,8 @@ The 2003 invasion toppled Saddam Hussein but unleashed insurgency and sectarian 
 - June 2014: **ISIS seizes Mosul and proclaims a caliphate** — The jihadist group ISIS sweeps across northern Iraq, captures Mosul, and declares a 'caliphate', imposing extreme violence and destroying heritage sites including parts of Hatra, Ashur and Nimrud. [britannica-isis]
 - 2017: **Liberation of Mosul and defeat of ISIS** — Backed by a US-led coalition, Iraqi forces retake Mosul in July 2017 after months of urban warfare, and Iraq declares victory over ISIS in December 2017, ending its territorial control. [britannica-isis, britannica-iraq-war]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:IRQ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/IRQ/chronicle.claims.json
+
 ## References
 
 - [britannica-iraq-history] Iraq — History — Encyclopædia Britannica · https://www.britannica.com/place/Iraq/History

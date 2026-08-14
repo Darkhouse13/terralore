@@ -88,6 +88,8 @@ Figures:
 - Yasser Arafat (1929-2004) — PLO chairman and first president of the Palestinian Authority. Leader of the PLO from 1969, Arafat proclaimed the Palestinian Declaration of Independence in 1988, signed the Oslo Accords, and shared the 1994 Nobel Peace Prize; he became the foremost symbol of Palestinian national aspirations.
 - Francesca Albanese (born 1977) — UN Special Rapporteur on the occupied Palestinian territory. An international lawyer appointed Special Rapporteur in 2022, Albanese authored the 2024 report 'Anatomy of a Genocide', finding reasonable grounds to believe genocide was being committed in Gaza.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:PSE:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/PSE/chronicle.claims.json
+
 ## References
 
 - [britannica-palestine] Palestine - region, history — Encyclopaedia Britannica · https://www.britannica.com/place/Palestine

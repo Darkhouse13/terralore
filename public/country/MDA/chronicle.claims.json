@@ -1,0 +1,617 @@
+{
+ "subject": "MDA",
+ "name": "Moldova",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/MDA/chronicle",
+ "updated": "2026-06-13",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:MDA:event:1349:founding-of-the-principality-of-moldavia",
+   "year": 1349,
+   "yearLabel": "c. 1349",
+   "title": "Founding of the Principality of Moldavia",
+   "summary": "Vlach migrants from Maramures established a principality east of the Carpathians; its independence is traditionally attributed to the voivode Bogdan I, making Moldavia the second Romanian principality.",
+   "category": "founding",
+   "era": "principality-of-moldavia",
+   "sources": [
+    {
+     "id": "moldavia-britannica",
+     "label": "Moldavia (historical principality)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldavia"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1349-founding-of-the-principality-of-moldavia",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1349-founding-of-the-principality-of-moldavia, claim TL:MDA:event:1349:founding-of-the-principality-of-moldavia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1457:reign-of-stephen-the-great",
+   "year": 1457,
+   "yearLabel": "1457–1504",
+   "title": "Reign of Stephen the Great",
+   "summary": "Stephen IV ruled Moldavia for nearly half a century, winning European renown for resisting the Ottomans while defending the principality against Hungary and Poland and endowing many churches and monasteries.",
+   "category": "politics",
+   "era": "principality-of-moldavia",
+   "sources": [
+    {
+     "id": "stephen-britannica",
+     "label": "Stephen (Stephen the Great), prince of Moldavia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Stephen-prince-of-Moldavia"
+    },
+    {
+     "id": "moldavia-britannica",
+     "label": "Moldavia (historical principality)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldavia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1457-reign-of-stephen-the-great",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1457-reign-of-stephen-the-great, claim TL:MDA:event:1457:reign-of-stephen-the-great, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1475:battle-of-vaslui",
+   "year": 1475,
+   "yearLabel": "1475",
+   "title": "Battle of Vaslui",
+   "summary": "Stephen the Great destroyed a much larger Ottoman army at Vaslui, a victory celebrated across Christian Europe that briefly halted the Turkish advance into Moldavia.",
+   "category": "war",
+   "era": "principality-of-moldavia",
+   "sources": [
+    {
+     "id": "stephen-britannica",
+     "label": "Stephen (Stephen the Great), prince of Moldavia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Stephen-prince-of-Moldavia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1475-battle-of-vaslui",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1475-battle-of-vaslui, claim TL:MDA:event:1475:battle-of-vaslui, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1476:defeat-at-valea-alba",
+   "year": 1476,
+   "yearLabel": "1476",
+   "title": "Defeat at Valea Alba",
+   "summary": "An Ottoman counter-offensive under Sultan Mehmed II defeated Stephen at Valea Alba; though he survived and recovered, the campaign exposed the mounting pressure on the small principality.",
+   "category": "war",
+   "era": "principality-of-moldavia",
+   "sources": [
+    {
+     "id": "stephen-britannica",
+     "label": "Stephen (Stephen the Great), prince of Moldavia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Stephen-prince-of-Moldavia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1476-defeat-at-valea-alba",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1476-defeat-at-valea-alba, claim TL:MDA:event:1476:defeat-at-valea-alba, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1538:moldavia-becomes-an-ottoman-tributary",
+   "year": 1538,
+   "yearLabel": "16th century",
+   "title": "Moldavia becomes an Ottoman tributary",
+   "summary": "Following the death of Stephen the Great, Moldavia was reduced to a tributary vassal of the Ottoman Empire, keeping its princes, church and laws but paying tribute and following the sultan's lead in foreign affairs.",
+   "category": "war",
+   "era": "ottoman-vassalage-and-phanariots",
+   "sources": [
+    {
+     "id": "moldavia-britannica",
+     "label": "Moldavia (historical principality)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldavia"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1538-moldavia-becomes-an-ottoman-tributary",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1538-moldavia-becomes-an-ottoman-tributary, claim TL:MDA:event:1538:moldavia-becomes-an-ottoman-tributary, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1711:beginning-of-phanariot-rule",
+   "year": 1711,
+   "yearLabel": "1711",
+   "title": "Beginning of Phanariot rule",
+   "summary": "After Prince Dimitrie Cantemir's failed alliance with Russia, the Porte ended native rule and began appointing Greek princes from the Phanar district of Constantinople, who governed until 1821.",
+   "category": "politics",
+   "era": "ottoman-vassalage-and-phanariots",
+   "sources": [
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    },
+    {
+     "id": "moldavia-britannica",
+     "label": "Moldavia (historical principality)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldavia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1711-beginning-of-phanariot-rule",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1711-beginning-of-phanariot-rule, claim TL:MDA:event:1711:beginning-of-phanariot-rule, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1812:partition-of-moldavia-at-the-treaty-of-bucharest",
+   "year": 1812,
+   "yearLabel": "1812",
+   "title": "Partition of Moldavia at the Treaty of Bucharest",
+   "summary": "The Treaty of Bucharest ending the Russo-Turkish War allowed Russia to annex Bessarabia, the eastern half of the principality between the Prut and the Dniester, splitting Moldavia in two.",
+   "category": "war",
+   "era": "ottoman-vassalage-and-phanariots",
+   "sources": [
+    {
+     "id": "bucharest-britannica",
+     "label": "Treaty of Bucharest (1812)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Treaty-of-Bucharest-1812"
+    },
+    {
+     "id": "bessarabia-britannica",
+     "label": "Bessarabia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Bessarabia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1812-partition-of-moldavia-at-the-treaty-of-bucharest",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1812-partition-of-moldavia-at-the-treaty-of-bucharest, claim TL:MDA:event:1812:partition-of-moldavia-at-the-treaty-of-bucharest, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1812:annexation-of-bessarabia",
+   "year": 1812,
+   "yearLabel": "28 May 1812",
+   "title": "Annexation of Bessarabia",
+   "summary": "By the Treaty of Bucharest, Russia annexed the land between the Prut and the Dniester from the Ottoman Empire, organizing it as the province of Bessarabia and severing it from the rest of Moldavia.",
+   "category": "colonization",
+   "era": "russian-bessarabia",
+   "sources": [
+    {
+     "id": "bucharest-britannica",
+     "label": "Treaty of Bucharest (1812)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Treaty-of-Bucharest-1812"
+    },
+    {
+     "id": "bessarabia-britannica",
+     "label": "Bessarabia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Bessarabia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1812-annexation-of-bessarabia",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1812-annexation-of-bessarabia, claim TL:MDA:event:1812:annexation-of-bessarabia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1828:curtailment-of-bessarabian-autonomy",
+   "year": 1828,
+   "yearLabel": "1828–1829",
+   "title": "Curtailment of Bessarabian autonomy",
+   "summary": "After an initial period of limited self-government, Russia integrated Bessarabia into the imperial administration, beginning a policy of Russification that made Russian the language of government and schooling.",
+   "category": "politics",
+   "era": "russian-bessarabia",
+   "sources": [
+    {
+     "id": "bessarabia-britannica",
+     "label": "Bessarabia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Bessarabia"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1828-curtailment-of-bessarabian-autonomy",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1828-curtailment-of-bessarabian-autonomy, claim TL:MDA:event:1828:curtailment-of-bessarabian-autonomy, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1856:southern-bessarabia-briefly-returned",
+   "year": 1856,
+   "yearLabel": "1856",
+   "title": "Southern Bessarabia briefly returned",
+   "summary": "The Treaty of Paris ending the Crimean War returned the southern strip of Bessarabia to Moldavia; Russia recovered it in 1878 at the Congress of Berlin, underlining the province's status as a contested borderland.",
+   "category": "war",
+   "era": "russian-bessarabia",
+   "sources": [
+    {
+     "id": "bessarabia-britannica",
+     "label": "Bessarabia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Bessarabia"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1856-southern-bessarabia-briefly-returned",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1856-southern-bessarabia-briefly-returned, claim TL:MDA:event:1856:southern-bessarabia-briefly-returned, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1903:kishinev-pogrom",
+   "year": 1903,
+   "yearLabel": "April 1903",
+   "title": "Kishinev pogrom",
+   "summary": "A violent anti-Jewish pogrom in the provincial capital Kishinev (Chisinau) drew international condemnation and became a notorious symbol of the persecution of Jews in the late Russian Empire.",
+   "category": "disaster",
+   "era": "russian-bessarabia",
+   "sources": [
+    {
+     "id": "bessarabia-britannica",
+     "label": "Bessarabia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Bessarabia"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1903-kishinev-pogrom",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1903-kishinev-pogrom, claim TL:MDA:event:1903:kishinev-pogrom, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1917:moldavian-democratic-republic-proclaimed",
+   "year": 1917,
+   "yearLabel": "15 Dec 1917",
+   "title": "Moldavian Democratic Republic proclaimed",
+   "summary": "After the Russian Revolution, the Sfatul Tarii (national council) in Chisinau proclaimed the Moldavian Democratic Republic, soon declaring full independence from Russia amid the turmoil of 1917-1918.",
+   "category": "independence",
+   "era": "union-romania-and-soviet-creation",
+   "sources": [
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    },
+    {
+     "id": "union-1918-reference",
+     "label": "Union of 27 March 1918: the National Archive Agency provides access to the Sfatul Tarii collection",
+     "publisher": "Moldpres (Moldova State News Agency)",
+     "url": "https://www.moldpres.md/eng/society/union-of-march-27-1918-the-national-archive-agency-provides-access-to-the-sfatul-tarii-collection"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1917-moldavian-democratic-republic-proclaimed",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1917-moldavian-democratic-republic-proclaimed, claim TL:MDA:event:1917:moldavian-democratic-republic-proclaimed, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1918:union-of-bessarabia-with-romania",
+   "year": 1918,
+   "yearLabel": "27 Mar 1918",
+   "title": "Union of Bessarabia with Romania",
+   "summary": "The Sfatul Tarii voted to unite Bessarabia with Romania (27 March, Old Style; 9 April, New Style); the union, at first conditional on autonomy, was made unconditional in November 1918.",
+   "category": "politics",
+   "era": "union-romania-and-soviet-creation",
+   "sources": [
+    {
+     "id": "union-1918-reference",
+     "label": "Union of 27 March 1918: the National Archive Agency provides access to the Sfatul Tarii collection",
+     "publisher": "Moldpres (Moldova State News Agency)",
+     "url": "https://www.moldpres.md/eng/society/union-of-march-27-1918-the-national-archive-agency-provides-access-to-the-sfatul-tarii-collection"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1918-union-of-bessarabia-with-romania",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1918-union-of-bessarabia-with-romania, claim TL:MDA:event:1918:union-of-bessarabia-with-romania, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1924:creation-of-the-moldavian-assr",
+   "year": 1924,
+   "yearLabel": "1924",
+   "title": "Creation of the Moldavian ASSR",
+   "summary": "Refusing to recognize the loss of Bessarabia, the Soviet Union established the Moldavian Autonomous Soviet Socialist Republic on the east bank of the Dniester within Soviet Ukraine, as a standing claim to the territory across the river.",
+   "category": "politics",
+   "era": "union-romania-and-soviet-creation",
+   "sources": [
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    },
+    {
+     "id": "moldavia-britannica",
+     "label": "Moldavia (historical principality)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldavia"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1924-creation-of-the-moldavian-assr",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1924-creation-of-the-moldavian-assr, claim TL:MDA:event:1924:creation-of-the-moldavian-assr, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1920:international-recognition-of-the-union",
+   "year": 1920,
+   "yearLabel": "28 Oct 1920",
+   "title": "International recognition of the union",
+   "summary": "A treaty signed in Paris by Romania, Britain, France, Italy and Japan recognized the union of Bessarabia with Romania, though the Soviet Union never accepted it.",
+   "category": "politics",
+   "era": "union-romania-and-soviet-creation",
+   "sources": [
+    {
+     "id": "union-1918-reference",
+     "label": "Union of 27 March 1918: the National Archive Agency provides access to the Sfatul Tarii collection",
+     "publisher": "Moldpres (Moldova State News Agency)",
+     "url": "https://www.moldpres.md/eng/society/union-of-march-27-1918-the-national-archive-agency-provides-access-to-the-sfatul-tarii-collection"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1920-international-recognition-of-the-union",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1920-international-recognition-of-the-union, claim TL:MDA:event:1920:international-recognition-of-the-union, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1940:soviet-annexation-of-bessarabia",
+   "year": 1940,
+   "yearLabel": "28 Jun 1940",
+   "title": "Soviet annexation of Bessarabia",
+   "summary": "Acting on the secret protocol of the Molotov-Ribbentrop Pact, the Red Army occupied Bessarabia after an ultimatum to Romania, ending more than two decades of Romanian rule.",
+   "category": "war",
+   "era": "soviet-moldavia",
+   "sources": [
+    {
+     "id": "soviet-occupation-reference",
+     "label": "Bessarabia's Annexation: Impact and Legacy of the USSR Ultimatum",
+     "publisher": "Radio Moldova (public broadcaster)",
+     "url": "https://radiomoldova.md/p/36482"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1940-soviet-annexation-of-bessarabia",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1940-soviet-annexation-of-bessarabia, claim TL:MDA:event:1940:soviet-annexation-of-bessarabia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1940:creation-of-the-moldavian-ssr",
+   "year": 1940,
+   "yearLabel": "2 Aug 1940",
+   "title": "Creation of the Moldavian SSR",
+   "summary": "The Soviet Union proclaimed the Moldavian Soviet Socialist Republic, joining most of annexed Bessarabia to the Moldavian ASSR east of the Dniester, with the new republic's borders deliberately reshaped.",
+   "category": "politics",
+   "era": "soviet-moldavia",
+   "sources": [
+    {
+     "id": "soviet-occupation-reference",
+     "label": "Bessarabia's Annexation: Impact and Legacy of the USSR Ultimatum",
+     "publisher": "Radio Moldova (public broadcaster)",
+     "url": "https://radiomoldova.md/p/36482"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1940-creation-of-the-moldavian-ssr",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1940-creation-of-the-moldavian-ssr, claim TL:MDA:event:1940:creation-of-the-moldavian-ssr, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1946:the-man-made-famine",
+   "year": 1946,
+   "yearLabel": "1946–1947",
+   "title": "The man-made famine",
+   "summary": "A famine aggravated by harsh Soviet grain requisitioning swept Moldavia in 1946-1947, killing well over a hundred thousand people in one of the least-known episodes of Stalinist terror.",
+   "category": "disaster",
+   "era": "soviet-moldavia",
+   "sources": [
+    {
+     "id": "famine-reference",
+     "label": "A Moldavian Holodomor? The Great Famine in Soviet Moldova, 1946-1947",
+     "publisher": "Stanford University, Center for Russian, East European and Eurasian Studies",
+     "url": "https://creees.stanford.edu/events/moldavian-holodomor-great-famine-soviet-moldova-1946-1947"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1946-the-man-made-famine",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1946-the-man-made-famine, claim TL:MDA:event:1946:the-man-made-famine, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1949:operation-south-deportations",
+   "year": 1949,
+   "yearLabel": "6 Jul 1949",
+   "title": "Operation South deportations",
+   "summary": "On the night of 5-6 July 1949 Soviet authorities deported tens of thousands of Moldavians condemned as kulaks to Siberia and Kazakhstan, accelerating the forced collectivization of agriculture.",
+   "category": "disaster",
+   "era": "soviet-moldavia",
+   "sources": [
+    {
+     "id": "deportations-reference",
+     "label": "Moldova Commemorates Victims of Soviet Deportations",
+     "publisher": "Balkan Insight (BIRN)",
+     "url": "https://balkaninsight.com/2023/07/06/moldova-commemorates-victims-of-soviet-deportations/"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1949-operation-south-deportations",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1949-operation-south-deportations, claim TL:MDA:event:1949:operation-south-deportations, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1991:declaration-of-independence",
+   "year": 1991,
+   "yearLabel": "27 Aug 1991",
+   "title": "Declaration of Independence",
+   "summary": "Moldova's parliament declared independence from the Soviet Union on 27 August 1991, in the wake of the failed Moscow coup, with Mircea Snegur as the new state's first president.",
+   "category": "independence",
+   "era": "independence-transnistria-europe",
+   "sources": [
+    {
+     "id": "independence-reference",
+     "label": "Mircea Snegur, Who Led Moldova's Independence Drive and Became President, Dies at 83",
+     "publisher": "Radio Free Europe / Radio Liberty",
+     "url": "https://www.rferl.org/a/mircea-snegur-moldova-independence-president-death/32592653.html"
+    },
+    {
+     "id": "moldova-history-britannica",
+     "label": "Moldova: History",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Moldova/History"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1991-declaration-of-independence",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1991-declaration-of-independence, claim TL:MDA:event:1991:declaration-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1992:the-transnistria-war-and-ceasefire",
+   "year": 1992,
+   "yearLabel": "21 Jul 1992",
+   "title": "The Transnistria war and ceasefire",
+   "summary": "War with the Russian-backed Transnistrian separatists peaked in the battle for Bender; the intervention of the Russian 14th Army proved decisive, and a ceasefire on 21 July 1992 froze the conflict, leaving Russian troops in place.",
+   "category": "war",
+   "era": "independence-transnistria-europe",
+   "sources": [
+    {
+     "id": "transnistria-jamestown",
+     "label": "Twenty Years of Russian 'Peacekeeping' in Moldova",
+     "publisher": "The Jamestown Foundation",
+     "url": "https://jamestown.org/twenty-years-of-russian-peacekeeping-in-moldova/"
+    },
+    {
+     "id": "osce-conflict",
+     "label": "Conflict prevention and resolution (5+2 format)",
+     "publisher": "OSCE Mission to Moldova",
+     "url": "https://moldova.osce.org/mission-to-moldova/104529"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1992-the-transnistria-war-and-ceasefire",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1992-the-transnistria-war-and-ceasefire, claim TL:MDA:event:1992:the-transnistria-war-and-ceasefire, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1993:osce-mission-to-moldova",
+   "year": 1993,
+   "yearLabel": "1993",
+   "title": "OSCE Mission to Moldova",
+   "summary": "The OSCE established its Mission to Moldova to facilitate a comprehensive settlement consolidating Moldova's sovereignty and territorial integrity with a special status for Transnistria, later working through the 5+2 format.",
+   "category": "politics",
+   "era": "independence-transnistria-europe",
+   "sources": [
+    {
+     "id": "osce-about",
+     "label": "About the OSCE Mission to Moldova",
+     "publisher": "OSCE Mission to Moldova",
+     "url": "https://moldova.osce.org/mission-to-moldova/105893"
+    },
+    {
+     "id": "osce-conflict",
+     "label": "Conflict prevention and resolution (5+2 format)",
+     "publisher": "OSCE Mission to Moldova",
+     "url": "https://moldova.osce.org/mission-to-moldova/104529"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1993-osce-mission-to-moldova",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1993-osce-mission-to-moldova, claim TL:MDA:event:1993:osce-mission-to-moldova, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:1994:autonomy-for-gagauzia",
+   "year": 1994,
+   "yearLabel": "1994",
+   "title": "Autonomy for Gagauzia",
+   "summary": "A Moldovan law granted broad self-government to the Turkic-speaking Gagauz of the south, creating the autonomous territorial unit of Gagauzia and peacefully resolving their bid for separation.",
+   "category": "politics",
+   "era": "independence-transnistria-europe",
+   "sources": [
+    {
+     "id": "osce-gagauzia",
+     "label": "Rule of law (work on Gagauzia's autonomy)",
+     "publisher": "OSCE Mission to Moldova",
+     "url": "https://moldova.osce.org/mission-to-moldova/104969"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-1994-autonomy-for-gagauzia",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-1994-autonomy-for-gagauzia, claim TL:MDA:event:1994:autonomy-for-gagauzia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:2018:un-resolution-on-foreign-forces",
+   "year": 2018,
+   "yearLabel": "22 Jun 2018",
+   "title": "UN resolution on foreign forces",
+   "summary": "The UN General Assembly adopted resolution 72/282 by 64 votes to 15, urging Russia to complete the unconditional withdrawal of its Operational Group of Forces from Moldova, in line with the 1999 OSCE Istanbul commitments.",
+   "category": "politics",
+   "era": "independence-transnistria-europe",
+   "sources": [
+    {
+     "id": "un-resolution-72-282",
+     "label": "Complete and unconditional withdrawal of foreign military forces from the territory of the Republic of Moldova (A/RES/72/282)",
+     "publisher": "United Nations General Assembly",
+     "url": "https://digitallibrary.un.org/record/1632767?ln=en"
+    },
+    {
+     "id": "transnistria-jamestown",
+     "label": "Twenty Years of Russian 'Peacekeeping' in Moldova",
+     "publisher": "The Jamestown Foundation",
+     "url": "https://jamestown.org/twenty-years-of-russian-peacekeeping-in-moldova/"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-2018-un-resolution-on-foreign-forces",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-2018-un-resolution-on-foreign-forces, claim TL:MDA:event:2018:un-resolution-on-foreign-forces, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:MDA:event:2022:eu-candidate-status",
+   "year": 2022,
+   "yearLabel": "23 Jun 2022",
+   "title": "EU candidate status",
+   "summary": "After applying for membership on 3 March 2022, Moldova was granted European Union candidate status by the European Council on 23 June 2022, opening accession negotiations in 2024.",
+   "category": "politics",
+   "era": "independence-transnistria-europe",
+   "sources": [
+    {
+     "id": "eu-candidate-ec",
+     "label": "Moldova: Enlargement and Eastern Neighbourhood",
+     "publisher": "European Commission",
+     "url": "https://enlargement.ec.europa.eu/european-neighbourhood-policy/countries-region/moldova_en"
+    },
+    {
+     "id": "eu-candidate-ep",
+     "label": "Statement on the decision of the European Council of 23 June 2022 on granting EU candidate status to Moldova",
+     "publisher": "European Parliament",
+     "url": "https://www.europarl.europa.eu/delegations/en/statement-on-the-decision-of-the-europea/product-details/20220623DPU33297"
+    }
+   ],
+   "url": "https://terralore.co/country/MDA/chronicle#ev-2022-eu-candidate-status",
+   "citation": "Terralore, \"The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.\", terralore.co/country/MDA/chronicle#ev-2022-eu-candidate-status, claim TL:MDA:event:2022:eu-candidate-status, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

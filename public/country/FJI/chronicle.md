@@ -79,6 +79,8 @@ Figures:
 
 - Frank Bainimarama (born 1954) — Military commander and Prime Minister. Naval commodore who led the 2006 coup, governed by decree, then won elected office in 2014 under the new constitution before losing power in 2022.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:FJI:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/FJI/chronicle.claims.json
+
 ## References
 
 - [eb-fiji-history] Fiji — History (Melanesian, Colonialism, Independence) — Encyclopædia Britannica · https://www.britannica.com/place/Fiji-republic-Pacific-Ocean/History

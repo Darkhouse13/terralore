@@ -1,0 +1,576 @@
+{
+ "subject": "COL",
+ "name": "Colombia",
+ "kind": "chronicle-events",
+ "canonical": "https://terralore.co/country/COL/chronicle",
+ "updated": "2026-06-15",
+ "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
+ "claims": [
+  {
+   "id": "TL:COL:event:1bce:san-agustin-megaliths",
+   "year": -1,
+   "yearLabel": "1st-8th c. CE",
+   "title": "San Agustin megaliths",
+   "summary": "In the upper Magdalena valley, the San Agustin culture carves the largest assemblage of monumental religious statuary in South America, later a UNESCO World Heritage site.",
+   "category": "culture",
+   "era": "pre-columbian",
+   "sources": [
+    {
+     "id": "unesco-san-agustin",
+     "label": "San Agustin Archaeological Park",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/744"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1bce-san-agustin-megaliths",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1bce-san-agustin-megaliths, claim TL:COL:event:1bce:san-agustin-megaliths, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:600:tierradentro-tombs",
+   "year": 600,
+   "yearLabel": "6th-10th c. CE",
+   "title": "Tierradentro tombs",
+   "summary": "The people of Tierradentro hew vast painted underground burial chambers into the mountains, a unique record of a developed pre-Hispanic Andean society.",
+   "category": "culture",
+   "era": "pre-columbian",
+   "sources": [
+    {
+     "id": "unesco-tierradentro",
+     "label": "National Archaeological Park of Tierradentro",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/743"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-600-tierradentro-tombs",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-600-tierradentro-tombs, claim TL:COL:event:600:tierradentro-tombs, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:800:rise-of-the-muisca",
+   "year": 800,
+   "yearLabel": "c. 800-1500 CE",
+   "title": "Rise of the Muisca",
+   "summary": "The Muisca chiefdoms flourish on the high plateau around Bogota and Tunja, celebrated for goldwork, salt, and trade across the Andes.",
+   "category": "founding",
+   "era": "pre-columbian",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+     "id": "banrep-museo-oro",
+     "label": "Museo del Oro (Gold Museum)",
+     "publisher": "Banco de la Republica de Colombia",
+     "url": "https://www.banrepcultural.org/museo-del-oro"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-800-rise-of-the-muisca",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-800-rise-of-the-muisca, claim TL:COL:event:800:rise-of-the-muisca, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1500:the-el-dorado-tradition",
+   "year": 1500,
+   "yearLabel": "by 1500 CE",
+   "title": "The El Dorado tradition",
+   "summary": "At Lake Guatavita, Muisca ritual offerings of gold to the waters give rise to the legend of El Dorado that would lure Spanish expeditions inland.",
+   "category": "religion",
+   "era": "pre-columbian",
+   "sources": [
+    {
+     "id": "banrep-museo-oro",
+     "label": "Museo del Oro (Gold Museum)",
+     "publisher": "Banco de la Republica de Colombia",
+     "url": "https://www.banrepcultural.org/museo-del-oro"
+    },
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1500-the-el-dorado-tradition",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1500-the-el-dorado-tradition, claim TL:COL:event:1500:the-el-dorado-tradition, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1538:founding-of-bogota",
+   "year": 1538,
+   "yearLabel": "6 Aug 1538",
+   "title": "Founding of Bogota",
+   "summary": "Gonzalo Jimenez de Quesada founds Santa Fe de Bogota after subduing the Muisca, establishing the capital of the New Kingdom of Granada.",
+   "category": "colonization",
+   "era": "conquest-and-colony",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+     "id": "britannica-bogota",
+     "label": "Bogota",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Bogota"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1538-founding-of-bogota",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1538-founding-of-bogota, claim TL:COL:event:1538:founding-of-bogota, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1549:audiencia-of-bogota",
+   "year": 1549,
+   "yearLabel": "1549 CE",
+   "title": "Audiencia of Bogota",
+   "summary": "The crown establishes a royal court and administrative tribunal at Bogota, opening the formal colonial era in New Granada.",
+   "category": "politics",
+   "era": "conquest-and-colony",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1549-audiencia-of-bogota",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1549-audiencia-of-bogota, claim TL:COL:event:1549:audiencia-of-bogota, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1610:cartagena-fortified",
+   "year": 1610,
+   "yearLabel": "16th-18th c.",
+   "title": "Cartagena fortified",
+   "summary": "Cartagena de Indias is built into the most complete fortified port in South America, guarding the empire's wealth against repeated pirate and naval assaults.",
+   "category": "war",
+   "era": "conquest-and-colony",
+   "sources": [
+    {
+     "id": "unesco-cartagena",
+     "label": "Port, Fortresses and Group of Monuments, Cartagena",
+     "publisher": "UNESCO World Heritage Centre",
+     "url": "https://whc.unesco.org/en/list/285"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1610-cartagena-fortified",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1610-cartagena-fortified, claim TL:COL:event:1610:cartagena-fortified, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1739:viceroyalty-of-new-granada",
+   "year": 1739,
+   "yearLabel": "1717, restored 1739",
+   "title": "Viceroyalty of New Granada",
+   "summary": "Spain governs the territory through the Viceroyalty of New Granada, capital Bogota, encompassing modern Colombia, Panama, Ecuador, and Venezuela.",
+   "category": "politics",
+   "era": "conquest-and-colony",
+   "sources": [
+    {
+     "id": "britannica-new-granada",
+     "label": "Viceroyalty of New Granada",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Viceroyalty-of-New-Granada"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1739-viceroyalty-of-new-granada",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1739-viceroyalty-of-new-granada, claim TL:COL:event:1739:viceroyalty-of-new-granada, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1781:the-comunero-revolt",
+   "year": 1781,
+   "yearLabel": "1781 CE",
+   "title": "The Comunero revolt",
+   "summary": "A popular rising against new Bourbon taxes sweeps the interior, an early sign of the unrest that would lead to the independence movement.",
+   "category": "politics",
+   "era": "conquest-and-colony",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+     "id": "loc-colombia",
+     "label": "Colombia: A Country Study",
+     "publisher": "U.S. Library of Congress, Federal Research Division",
+     "url": "https://www.loc.gov/item/2010009203/"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1781-the-comunero-revolt",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1781-the-comunero-revolt, claim TL:COL:event:1781:the-comunero-revolt, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1810:cry-of-independence",
+   "year": 1810,
+   "yearLabel": "20 Jul 1810",
+   "title": "Cry of independence",
+   "summary": "A junta seizes power in Bogota, beginning the New Granadan independence movement amid the crisis of Spanish royal authority.",
+   "category": "independence",
+   "era": "independence-gran-colombia",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1810-cry-of-independence",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1810-cry-of-independence, claim TL:COL:event:1810:cry-of-independence, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1819:battle-of-boyaca",
+   "year": 1819,
+   "yearLabel": "7 Aug 1819",
+   "title": "Battle of Boyaca",
+   "summary": "Bolivar and Santander rout the royalist army at the Boyaca bridge, securing the liberation of New Granada and opening the road to Bogota.",
+   "category": "independence",
+   "era": "independence-gran-colombia",
+   "sources": [
+    {
+     "id": "britannica-boyaca",
+     "label": "Battle of Boyaca",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/Battle-of-Boyaca"
+    },
+    {
+     "id": "britannica-bolivar",
+     "label": "Simon Bolivar",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Simon-Bolivar"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1819-battle-of-boyaca",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1819-battle-of-boyaca, claim TL:COL:event:1819:battle-of-boyaca, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1821:congress-of-cucuta",
+   "year": 1821,
+   "yearLabel": "1821 CE",
+   "title": "Congress of Cucuta",
+   "summary": "The republic of Gran Colombia is formally organised, uniting New Granada, Venezuela, and Ecuador under Bolivar's presidency.",
+   "category": "politics",
+   "era": "independence-gran-colombia",
+   "sources": [
+    {
+     "id": "britannica-gran-colombia",
+     "label": "Gran Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Gran-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1821-congress-of-cucuta",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1821-congress-of-cucuta, claim TL:COL:event:1821:congress-of-cucuta, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1830:breakup-of-gran-colombia",
+   "year": 1830,
+   "yearLabel": "1830 CE",
+   "title": "Breakup of Gran Colombia",
+   "summary": "Venezuela and Ecuador secede and Bolivar dies near Santa Marta; the union dissolves, leaving New Granada as a separate state.",
+   "category": "politics",
+   "era": "independence-gran-colombia",
+   "sources": [
+    {
+     "id": "britannica-gran-colombia",
+     "label": "Gran Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Gran-Colombia"
+    },
+    {
+     "id": "britannica-bolivar",
+     "label": "Simon Bolivar",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Simon-Bolivar"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1830-breakup-of-gran-colombia",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1830-breakup-of-gran-colombia, claim TL:COL:event:1830:breakup-of-gran-colombia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1863:united-states-of-colombia",
+   "year": 1863,
+   "yearLabel": "1863 CE",
+   "title": "United States of Colombia",
+   "summary": "A Liberal-led federal constitution reorganises the country as the loosely united States of Colombia, intensifying partisan and regional rivalry.",
+   "category": "politics",
+   "era": "partisan-republic",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+     "id": "loc-colombia",
+     "label": "Colombia: A Country Study",
+     "publisher": "U.S. Library of Congress, Federal Research Division",
+     "url": "https://www.loc.gov/item/2010009203/"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1863-united-states-of-colombia",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1863-united-states-of-colombia, claim TL:COL:event:1863:united-states-of-colombia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1886:the-constitution-of-1886",
+   "year": 1886,
+   "yearLabel": "1886 CE",
+   "title": "The Constitution of 1886",
+   "summary": "A Conservative-led charter creates a centralised Republic of Colombia with a strong presidency and a renewed alliance with the Catholic Church.",
+   "category": "politics",
+   "era": "partisan-republic",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1886-the-constitution-of-1886",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1886-the-constitution-of-1886, claim TL:COL:event:1886:the-constitution-of-1886, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1899:war-of-a-thousand-days",
+   "year": 1899,
+   "yearLabel": "1899-1902",
+   "title": "War of a Thousand Days",
+   "summary": "Liberals and the Conservative government fight Colombia's deadliest civil war, with an estimated 100,000 dead, leaving the country ruined.",
+   "category": "war",
+   "era": "partisan-republic",
+   "sources": [
+    {
+     "id": "britannica-thousand-days",
+     "label": "The War of a Thousand Days",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/The-War-of-a-Thousand-Days"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1899-war-of-a-thousand-days",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1899-war-of-a-thousand-days, claim TL:COL:event:1899:war-of-a-thousand-days, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1903:separation-of-panama",
+   "year": 1903,
+   "yearLabel": "3 Nov 1903",
+   "title": "Separation of Panama",
+   "summary": "Backed by U.S. warships, Panama secedes after Colombia rejects the canal treaty; the United States recognises it and secures the canal zone.",
+   "category": "politics",
+   "era": "partisan-republic",
+   "sources": [
+    {
+     "id": "history-state-panama",
+     "label": "The Panama Canal and Panamanian Independence, 1903",
+     "publisher": "U.S. Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1899-1913/panama-canal"
+    },
+    {
+     "id": "britannica-thousand-days",
+     "label": "The War of a Thousand Days",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/event/The-War-of-a-Thousand-Days"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1903-separation-of-panama",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1903-separation-of-panama, claim TL:COL:event:1903:separation-of-panama, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1948:assassination-of-gaitan-and-the-bogotazo",
+   "year": 1948,
+   "yearLabel": "9 Apr 1948",
+   "title": "Assassination of Gaitan and the Bogotazo",
+   "summary": "The killing of Liberal leader Jorge Eliecer Gaitan triggers the Bogotazo riots that devastate Bogota and ignite a decade of bloodshed.",
+   "category": "politics",
+   "era": "la-violencia",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+     "id": "loc-colombia",
+     "label": "Colombia: A Country Study",
+     "publisher": "U.S. Library of Congress, Federal Research Division",
+     "url": "https://www.loc.gov/item/2010009203/"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1948-assassination-of-gaitan-and-the-bogotazo",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1948-assassination-of-gaitan-and-the-bogotazo, claim TL:COL:event:1948:assassination-of-gaitan-and-the-bogotazo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1948:la-violencia",
+   "year": 1948,
+   "yearLabel": "c. 1948-1958",
+   "title": "La Violencia",
+   "summary": "Partisan warfare between Liberals and Conservatives ravages the countryside, killing an estimated two hundred thousand or more Colombians.",
+   "category": "war",
+   "era": "la-violencia",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    },
+    {
+     "id": "loc-colombia",
+     "label": "Colombia: A Country Study",
+     "publisher": "U.S. Library of Congress, Federal Research Division",
+     "url": "https://www.loc.gov/item/2010009203/"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1948-la-violencia",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1948-la-violencia, claim TL:COL:event:1948:la-violencia, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1958:the-national-front",
+   "year": 1958,
+   "yearLabel": "1958-1974",
+   "title": "The National Front",
+   "summary": "Liberals and Conservatives agree to alternate the presidency and share offices, ending partisan war but closing politics to other movements.",
+   "category": "politics",
+   "era": "la-violencia",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1958-the-national-front",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1958-the-national-front, claim TL:COL:event:1958:the-national-front, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1958:garcia-marquez-and-macondo",
+   "year": 1958,
+   "yearLabel": "1958 CE",
+   "title": "Garcia Marquez and Macondo",
+   "summary": "The journalist and novelist Gabriel Garcia Marquez gives literary form to Colombia's history of violence and wonder, later winning the 1982 Nobel Prize.",
+   "category": "culture",
+   "era": "la-violencia",
+   "sources": [
+    {
+     "id": "britannica-garcia-marquez",
+     "label": "Gabriel Garcia Marquez",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1958-garcia-marquez-and-macondo",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1958-garcia-marquez-and-macondo, claim TL:COL:event:1958:garcia-marquez-and-macondo, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1964:founding-of-the-farc",
+   "year": 1964,
+   "yearLabel": "1964 CE",
+   "title": "Founding of the FARC",
+   "summary": "Peasant self-defence groups consolidate into the Revolutionary Armed Forces of Colombia, the largest of the leftist guerrilla movements.",
+   "category": "war",
+   "era": "conflict-and-peace",
+   "sources": [
+    {
+     "id": "britannica-farc",
+     "label": "Revolutionary Armed Forces of Colombia (FARC)",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/Revolutionary-Armed-Forces-of-Colombia"
+    },
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1964-founding-of-the-farc",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1964-founding-of-the-farc, claim TL:COL:event:1964:founding-of-the-farc, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:1980:cartels-and-paramilitaries",
+   "year": 1980,
+   "yearLabel": "1980s-1990s",
+   "title": "Cartels and paramilitaries",
+   "summary": "Cocaine cartels and right-wing paramilitary forces intensify the conflict with assassinations, bombings, kidnappings, and massacres of civilians.",
+   "category": "war",
+   "era": "conflict-and-peace",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-1980-cartels-and-paramilitaries",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1980-cartels-and-paramilitaries, claim TL:COL:event:1980:cartels-and-paramilitaries, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:2016:peace-accord-with-the-farc",
+   "year": 2016,
+   "yearLabel": "2016 CE",
+   "title": "Peace accord with the FARC",
+   "summary": "After four years of talks in Havana, the Santos government and the FARC sign a peace agreement; Santos receives the Nobel Peace Prize.",
+   "category": "politics",
+   "era": "conflict-and-peace",
+   "sources": [
+    {
+     "id": "nobel-santos",
+     "label": "The Nobel Peace Prize 2016 - Juan Manuel Santos",
+     "publisher": "The Nobel Foundation",
+     "url": "https://www.nobelprize.org/prizes/peace/2016/santos/facts/"
+    },
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-2016-peace-accord-with-the-farc",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-2016-peace-accord-with-the-farc, claim TL:COL:event:2016:peace-accord-with-the-farc, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:2022:truth-commission-report",
+   "year": 2022,
+   "yearLabel": "2022 CE",
+   "title": "Truth Commission report",
+   "summary": "The official Truth Commission estimates about 450,000 killed in 1985-2018 and millions displaced, the great majority of the dead civilians.",
+   "category": "war",
+   "era": "conflict-and-peace",
+   "sources": [
+    {
+     "id": "truth-commission",
+     "label": "Final Report of the Commission for the Clarification of Truth, Coexistence and Non-Repetition",
+     "publisher": "Comision de la Verdad (Colombia)",
+     "url": "https://www.comisiondelaverdad.co/en"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-2022-truth-commission-report",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-2022-truth-commission-report, claim TL:COL:event:2022:truth-commission-report, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:COL:event:2022:election-of-gustavo-petro",
+   "year": 2022,
+   "yearLabel": "2022 CE",
+   "title": "Election of Gustavo Petro",
+   "summary": "Colombia elects Gustavo Petro, a former guerrilla, as its first leftist president, pledging a policy of total peace with remaining armed groups.",
+   "category": "politics",
+   "era": "conflict-and-peace",
+   "sources": [
+    {
+     "id": "britannica-colombia",
+     "label": "History of Colombia",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/topic/history-of-Colombia"
+    }
+   ],
+   "url": "https://terralore.co/country/COL/chronicle#ev-2022-election-of-gustavo-petro",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-2022-election-of-gustavo-petro, claim TL:COL:event:2022:election-of-gustavo-petro, retrieved <YYYY-MM-DD>."
+  }
+ ]
+}

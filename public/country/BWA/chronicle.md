@@ -66,6 +66,8 @@ A penniless protectorate becomes a stable democracy and, on the strength of Orap
 - 1969: **Debswana partnership formed** — Botswana and De Beers form a 50-50 joint venture to mine diamonds, securing for the state a direct share of mineral wealth. [wiki-orapa, theboar-botswana]
 - 1980: **Death of Seretse Khama** — Botswana's founding president dies in office; power passes peacefully to Vice-President Quett Masire, confirming the country's democratic stability. [britannica-seretse, wiki-seretse]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BWA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BWA/chronicle.claims.json
+
 ## References
 
 - [unesco-tsodilo] Tsodilo (World Heritage List) — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1021/

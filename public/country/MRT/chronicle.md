@@ -75,6 +75,8 @@ After withdrawing from Western Sahara, Mauritania endured a succession of milita
 - August 2005: **Coup ends the Taya era** — A military council overthrows President Ould Taya, beginning a period of transition punctuated by a further coup in 2008. [britannica-mauritania]
 - 2007: **Slavery criminalised** — A law makes slavery a criminal offence; the constitution later recognises it as a crime against humanity in 2012, although rights groups report that descent-based slavery has persisted in practice. [antislavery-mauritania, minorityrights-mauritania]
 
+Machine-readable claims — every event above as an addressable claim ID (TL:MRT:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/MRT/chronicle.claims.json
+
 ## References
 
 - [britannica-mauritania] Mauritania — Encyclopaedia Britannica · https://www.britannica.com/place/Mauritania

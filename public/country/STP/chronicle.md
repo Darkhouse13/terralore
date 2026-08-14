@@ -73,6 +73,8 @@ Figures:
 
 - Miguel Trovoada (born 1936) — President (1991–2001). A founding figure of the independence movement and former prime minister who, returning from exile, won the first free elections in 1991 and served two terms as president.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:STP:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/STP/chronicle.claims.json
+
 ## References
 
 - [britannica-stp] São Tomé and Príncipe — Encyclopaedia Britannica · https://www.britannica.com/place/Sao-Tome-and-Principe

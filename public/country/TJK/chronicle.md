@@ -74,6 +74,8 @@ Figures:
 
 - Emomali Rahmon (born 1952) — President of Tajikistan. Leader of Tajikistan since 1992, first as chairman of the Supreme Soviet and, from 1994, as president. He oversaw the end of the civil war and the 1997 peace, and has since consolidated power, being styled 'Leader of the Nation' in 2015.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:TJK:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/TJK/chronicle.claims.json
+
 ## References
 
 - [britannica-history-tajikistan] History of Tajikistan — Encyclopædia Britannica · https://www.britannica.com/topic/history-of-Tajikistan

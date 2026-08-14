@@ -92,6 +92,8 @@ Figures:
 
 - Nicéphore Soglo (born 1934) — Transitional Prime Minister and President. Technocrat appointed to lead the transitional government after the 1990 National Conference, he won the 1991 presidential election, presiding over Benin's early democratic era before losing to Kérékou in 1996.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:BEN:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/BEN/chronicle.claims.json
+
 ## References
 
 - [britannica-benin] Benin — History — Encyclopaedia Britannica · https://www.britannica.com/place/Benin

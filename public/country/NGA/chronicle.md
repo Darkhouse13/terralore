@@ -92,6 +92,8 @@ Figures:
 
 - Olusegun Obasanjo (born 1937) — President of Nigeria (1999–2007). Former military ruler who returned as the first elected president of the Fourth Republic, overseeing the consolidation of civilian rule and the creation of anti-corruption institutions.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:NGA:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/NGA/chronicle.claims.json
+
 ## References
 
 - [britannica-nigeria] Nigeria (country overview and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Nigeria

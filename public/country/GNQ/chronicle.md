@@ -82,6 +82,8 @@ Figures:
 
 - Teodoro Obiang Nguema Mbasogo (born 1942) — President of Equatorial Guinea since 1979. Seized power from his uncle Macías in 1979 and has ruled ever since, among the world's longest-serving leaders; his tenure was transformed by offshore oil from the mid-1990s, bringing high GDP per capita alongside enduring poverty, corruption charges and human-rights criticism.
 
+Machine-readable claims — every event above as an addressable claim ID (TL:GNQ:event:<year>:<slug>) with its sources and a ready citation string: https://terralore.co/country/GNQ/chronicle.claims.json
+
 ## References
 
 - [britannica-history-eg] History of Equatorial Guinea — Encyclopædia Britannica · https://www.britannica.com/topic/history-of-Equatorial-Guinea
