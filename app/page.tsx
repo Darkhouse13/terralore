@@ -1,6 +1,7 @@
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import Mark from "@/components/brand/Mark";
+import CaptureBed from "@/components/strata/CaptureBed";
 import { organizationLd, websiteLd } from "@/lib/seo";
 import { corpusStats } from "@/lib/chronology";
 import { allCountries } from "@/lib/countries";
@@ -328,6 +329,10 @@ export default function Home() {
                   BY THEME ↓
                 </Link>
               </div>
+              {/* The Ledger Letter's modest presence (deviations E16): a
+                  sibling cell of the dig cell, inside the same overture
+                  moment — no new bed, no new motion timing. */}
+              <CaptureBed variant="row" />
             </div>
             <div className="hidden justify-between font-mono text-[10px] text-umber lg:flex">
               <div>EVERY CLAIM SOURCED</div>

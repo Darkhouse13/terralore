@@ -65,7 +65,11 @@ export const routes = {
   // Entry slugs are zero-padded record numbers ("0001") — permanent, ordinal,
   // dated inside the record rather than in the URL.
   ledgerEntry: (slug: string) => `/ledger/${slug}`,
+  // The letter as a page: each sent issue is also a linkable document under
+  // the ledger (letter archive = content surface).
+  ledgerLetter: (slug: string) => `/ledger/letter/${slug}`,
   integrity: () => "/integrity",
+  privacy: () => "/privacy",
 };
 
 // ── Social cards ───────────────────────────────────────────────────────────

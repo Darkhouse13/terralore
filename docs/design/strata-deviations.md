@@ -203,6 +203,30 @@ invariant — where the invariant wins by rule.
   against the surface's `select-none` (an ID you cannot copy is
   decoration), and are never uppercased — metric-key case is identity.
 
+- **E16 — The Ledger Letter's capture bed and the letter surfaces.** The
+  contract predates the corpus having an owned audience; the extension
+  stays inside the existing grammar — no new pigments, no new physics, no
+  hydration. The **capture bed** (`components/strata/CaptureBed.tsx`) is a
+  server-only form POSTing first-party to `/subscription/form` (the
+  self-hosted listmonk behind the proxy): eyebrow in oxide, the one-line
+  promise in the body voice, a 2px-basalt input joined to an oxide
+  SUBSCRIBE cell, and the honesty fine print in the mono fine size —
+  double opt-in, no other mail, leave anytime, with the privacy surface
+  linked. It appears on exactly three surfaces: `/ledger` and each
+  `/ledger/<n>` (the reader who just watched the record work is the
+  reader), and the front door as the **row variant** — a sibling cell of
+  the dig cell inside the dig row's existing overture moment, so it adds
+  no bed, no rule of its own, and no motion timing; the promise rides the
+  placeholder and the mono fine-print line. The listmonk-served pages the
+  form lands on (confirm, manage, unsubscribe) are restyled in the same
+  language (`assets/listmonk/static/`), system faces standing in for the
+  three faces off-site. `/privacy` joins the reading surfaces (mounted
+  core on bone) as the plain-language account of what the letter stores.
+  Sent letters are archived as reading pages under `/ledger/letter/<n>`
+  (E17 territory: the email template itself lives in email-client
+  reality — tables, hex pigments, system faces — the strata voice
+  surviving Outlook rather than fighting it).
+
 *(none yet — log here if a taboo ever collides with an editorial
 invariant; the invariant wins and the design routes around it.)*
 
