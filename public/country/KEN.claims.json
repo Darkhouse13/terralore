@@ -3,128 +3,128 @@
  "name": "Kenya",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/KEN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:KEN:gdp:2024",
+   "id": "TL:KEN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 120339557905.932,
-   "display": "$120 B",
+   "value": 135941278878.815,
+   "display": "$136 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-gdp-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-gdp-2024, claim TL:KEN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-gdp-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-gdp-2025, claim TL:KEN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:gdpPerCapita:2024",
+   "id": "TL:KEN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 2132.43452097647,
-   "display": "$2,132",
+   "value": 2362.86091198611,
+   "display": "$2,363",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-gdpPerCapita-2024, claim TL:KEN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-gdpPerCapita-2025, claim TL:KEN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:gdpGrowth:2024",
+   "id": "TL:KEN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.72473994710138,
-   "display": "4.7%",
+   "value": 4.63261093844984,
+   "display": "4.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-gdpGrowth-2024, claim TL:KEN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-gdpGrowth-2025, claim TL:KEN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:inflation:2024",
+   "id": "TL:KEN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.48978854243448,
-   "display": "4.5%",
+   "value": 4.06912878540729,
+   "display": "4.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-inflation-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-inflation-2024, claim TL:KEN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-inflation-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-inflation-2025, claim TL:KEN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:tradePctGdp:2024",
+   "id": "TL:KEN:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 40.1860139968756,
-   "display": "40.2%",
+   "value": 37.5210445911226,
+   "display": "37.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-tradePctGdp-2024, claim TL:KEN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-tradePctGdp-2025, claim TL:KEN:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:population:2024",
+   "id": "TL:KEN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 56432944,
-   "display": "56 m",
+   "value": 57532493,
+   "display": "58 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-population-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-population-2024, claim TL:KEN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-population-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-population-2025, claim TL:KEN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KEN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-lifeExpectancy-2024, claim TL:KEN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:urbanPct:2024",
+   "id": "TL:KEN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 31.8937831721599,
-   "display": "31.9%",
+   "value": 32.2121192871745,
+   "display": "32.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-urbanPct-2024, claim TL:KEN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-urbanPct-2025, claim TL:KEN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KEN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-fertility-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-fertility-2024, claim TL:KEN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-literacy-2000",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-literacy-2000, claim TL:KEN:literacy:2000, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-wgiVoice-2024, claim TL:KEN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-wgiStability-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-wgiStability-2024, claim TL:KEN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-wgiEffectiveness-2024, claim TL:KEN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-wgiRegQuality-2024, claim TL:KEN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-wgiRuleOfLaw-2024, claim TL:KEN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-wgiCorruption-2024, claim TL:KEN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-healthSpendPctGdp-2023, claim TL:KEN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-physicians-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-physicians-2023, claim TL:KEN:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-underFiveMortality-2024, claim TL:KEN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-measlesImmunisation-2024, claim TL:KEN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-literacyRate-2000",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-literacyRate-2000, claim TL:KEN:literacyRate:2000, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-eduSpendPctGdp-2024, claim TL:KEN:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-primaryEnrolment-2023, claim TL:KEN:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-secondaryEnrolment-2023, claim TL:KEN:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-tertiaryEnrolment-2024, claim TL:KEN:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-rdSpending-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-rdSpending-2024, claim TL:KEN:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-researchers-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-researchers-2024, claim TL:KEN:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-internetUsers-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-internetUsers-2024, claim TL:KEN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-mobileSubs-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-mobileSubs-2024, claim TL:KEN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-highTechExports-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-highTechExports-2024, claim TL:KEN:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-landArea-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-landArea-2023, claim TL:KEN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-forestPct-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-forestPct-2023, claim TL:KEN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-agriPct-2023",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-agriPct-2023, claim TL:KEN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-co2PerCapita-2024, claim TL:KEN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-renewablePct-2021",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-renewablePct-2021, claim TL:KEN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-resourceRents-2021",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-resourceRents-2021, claim TL:KEN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-oilRents-2021",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-oilRents-2021, claim TL:KEN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-mineralRents-2021",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-mineralRents-2021, claim TL:KEN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-forestRents-2021",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-forestRents-2021, claim TL:KEN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KEN:electricityAccess:2023",
+   "id": "TL:KEN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 76.2,
-   "display": "76.2%",
+   "value": 77,
+   "display": "77.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KEN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-electricityAccess-2023, claim TL:KEN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KEN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-electricityAccess-2024, claim TL:KEN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KEN:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-milExpPctGdp-2024, claim TL:KEN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-milExpUsd-2024, claim TL:KEN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KEN#claim-armedForces-2020",
    "citation": "Terralore, \"Kenya — national dossier\", terralore.co/country/KEN#claim-armedForces-2020, claim TL:KEN:armedForces:2020, retrieved <YYYY-MM-DD>."

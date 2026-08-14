@@ -3,128 +3,128 @@
  "name": "Mauritius",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MUS",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MUS:gdp:2024",
+   "id": "TL:MUS:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 14937861786.17,
-   "display": "$15 B",
+   "value": 16157804491.7614,
+   "display": "$16 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-gdp-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-gdp-2024, claim TL:MUS:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-gdp-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-gdp-2025, claim TL:MUS:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:gdpPerCapita:2024",
+   "id": "TL:MUS:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 11990.7798944837,
-   "display": "$11,991",
+   "value": 12991.2935987166,
+   "display": "$12,991",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-gdpPerCapita-2024, claim TL:MUS:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-gdpPerCapita-2025, claim TL:MUS:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:gdpGrowth:2024",
+   "id": "TL:MUS:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.92512304864294,
-   "display": "4.9%",
+   "value": 3.15157395305867,
+   "display": "3.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-gdpGrowth-2024, claim TL:MUS:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-gdpGrowth-2025, claim TL:MUS:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:inflation:2024",
+   "id": "TL:MUS:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.6045220384796,
-   "display": "3.6%",
+   "value": 3.67359279962943,
+   "display": "3.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-inflation-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-inflation-2024, claim TL:MUS:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-inflation-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-inflation-2025, claim TL:MUS:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:tradePctGdp:2024",
+   "id": "TL:MUS:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 145.421700301153,
-   "display": "145.4%",
+   "value": 139.942681072644,
+   "display": "139.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-tradePctGdp-2024, claim TL:MUS:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-tradePctGdp-2025, claim TL:MUS:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:population:2024",
+   "id": "TL:MUS:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1245779,
+   "value": 1243741,
    "display": "1.2 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-population-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-population-2024, claim TL:MUS:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-population-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-population-2025, claim TL:MUS:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MUS:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-lifeExpectancy-2024, claim TL:MUS:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:urbanPct:2024",
+   "id": "TL:MUS:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 39.0162147027917,
+   "value": 39.0369663368524,
    "display": "39.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-urbanPct-2024",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-urbanPct-2024, claim TL:MUS:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-urbanPct-2025",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-urbanPct-2025, claim TL:MUS:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MUS:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-fertility-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-fertility-2024, claim TL:MUS:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-literacy-2023",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-literacy-2023, claim TL:MUS:literacy:2023, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-wgiVoice-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-wgiVoice-2024, claim TL:MUS:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-wgiStability-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-wgiStability-2024, claim TL:MUS:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-wgiEffectiveness-2024, claim TL:MUS:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-wgiRegQuality-2024, claim TL:MUS:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-wgiRuleOfLaw-2024, claim TL:MUS:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-wgiCorruption-2024, claim TL:MUS:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-healthSpendPctGdp-2023, claim TL:MUS:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-physicians-2022",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-physicians-2022, claim TL:MUS:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-underFiveMortality-2024, claim TL:MUS:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-measlesImmunisation-2024, claim TL:MUS:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-literacyRate-2023",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-literacyRate-2023, claim TL:MUS:literacyRate:2023, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-eduSpendPctGdp-2024, claim TL:MUS:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-primaryEnrolment-2024, claim TL:MUS:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-secondaryEnrolment-2024, claim TL:MUS:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-tertiaryEnrolment-2024, claim TL:MUS:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-rdSpending-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-rdSpending-2024, claim TL:MUS:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-researchers-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-researchers-2024, claim TL:MUS:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-internetUsers-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-internetUsers-2024, claim TL:MUS:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-mobileSubs-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-mobileSubs-2024, claim TL:MUS:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-highTechExports-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-highTechExports-2024, claim TL:MUS:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-landArea-2023",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-landArea-2023, claim TL:MUS:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-forestPct-2023",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-forestPct-2023, claim TL:MUS:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-agriPct-2023",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-agriPct-2023, claim TL:MUS:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-co2PerCapita-2024, claim TL:MUS:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-renewablePct-2021",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-renewablePct-2021, claim TL:MUS:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-resourceRents-2021",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-resourceRents-2021, claim TL:MUS:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-oilRents-2021",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-oilRents-2021, claim TL:MUS:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-mineralRents-2021",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-mineralRents-2021, claim TL:MUS:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-forestRents-2021",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-forestRents-2021, claim TL:MUS:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MUS:electricityAccess:2023",
+   "id": "TL:MUS:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MUS#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-electricityAccess-2023, claim TL:MUS:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MUS#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-electricityAccess-2024, claim TL:MUS:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MUS:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-milExpPctGdp-2024, claim TL:MUS:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-milExpUsd-2024",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-milExpUsd-2024, claim TL:MUS:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MUS#claim-armedForces-2020",
    "citation": "Terralore, \"Mauritius — national dossier\", terralore.co/country/MUS#claim-armedForces-2020, claim TL:MUS:armedForces:2020, retrieved <YYYY-MM-DD>."

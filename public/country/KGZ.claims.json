@@ -3,128 +3,128 @@
  "name": "Kyrgyzstan",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/KGZ",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:KGZ:gdp:2024",
+   "id": "TL:KGZ:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 17478259659.2625,
-   "display": "$17 B",
+   "value": 22623752095.4613,
+   "display": "$23 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-gdp-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-gdp-2024, claim TL:KGZ:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-gdp-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-gdp-2025, claim TL:KGZ:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:gdpPerCapita:2024",
+   "id": "TL:KGZ:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 2420.18542283831,
-   "display": "$2,420",
+   "value": 3080.96893823359,
+   "display": "$3,081",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-gdpPerCapita-2024, claim TL:KGZ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-gdpPerCapita-2025, claim TL:KGZ:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:gdpGrowth:2024",
+   "id": "TL:KGZ:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 9.04013556120012,
-   "display": "9.0%",
+   "value": 11.0960203357132,
+   "display": "11.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-gdpGrowth-2024, claim TL:KGZ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-gdpGrowth-2025, claim TL:KGZ:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:inflation:2024",
+   "id": "TL:KGZ:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.99760701207323,
-   "display": "5.0%",
+   "value": 8.21496013406325,
+   "display": "8.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-inflation-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-inflation-2024, claim TL:KGZ:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-inflation-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-inflation-2025, claim TL:KGZ:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:tradePctGdp:2024",
+   "id": "TL:KGZ:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 127.650577802859,
-   "display": "127.7%",
+   "value": 92.4074476416439,
+   "display": "92.4%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-tradePctGdp-2024, claim TL:KGZ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-tradePctGdp-2025, claim TL:KGZ:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:population:2024",
+   "id": "TL:KGZ:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 7221868,
-   "display": "7.2 m",
+   "value": 7343064,
+   "display": "7.3 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-population-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-population-2024, claim TL:KGZ:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-population-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-population-2025, claim TL:KGZ:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KGZ:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-lifeExpectancy-2024, claim TL:KGZ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:urbanPct:2024",
+   "id": "TL:KGZ:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 34.7219977865937,
+   "value": 34.7463537261057,
    "display": "34.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-urbanPct-2024",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-urbanPct-2024, claim TL:KGZ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-urbanPct-2025",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-urbanPct-2025, claim TL:KGZ:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KGZ:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-fertility-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-fertility-2024, claim TL:KGZ:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-literacy-2009",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-literacy-2009, claim TL:KGZ:literacy:2009, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-wgiVoice-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-wgiVoice-2024, claim TL:KGZ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-wgiStability-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-wgiStability-2024, claim TL:KGZ:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-wgiEffectiveness-2024, claim TL:KGZ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-wgiRegQuality-2024, claim TL:KGZ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-wgiRuleOfLaw-2024, claim TL:KGZ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-wgiCorruption-2024, claim TL:KGZ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-healthSpendPctGdp-2023, claim TL:KGZ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-physicians-2023",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-physicians-2023, claim TL:KGZ:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-underFiveMortality-2024, claim TL:KGZ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-measlesImmunisation-2024, claim TL:KGZ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-safeWater-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-safeWater-2024, claim TL:KGZ:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-literacyRate-2009",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-literacyRate-2009, claim TL:KGZ:literacyRate:2009, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-eduSpendPctGdp-2023, claim TL:KGZ:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-primaryEnrolment-2025",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-primaryEnrolment-2025, claim TL:KGZ:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-secondaryEnrolment-2025",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-secondaryEnrolment-2025, claim TL:KGZ:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-tertiaryEnrolment-2025",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-tertiaryEnrolment-2025, claim TL:KGZ:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-rdSpending-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-rdSpending-2024, claim TL:KGZ:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-internetUsers-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-internetUsers-2024, claim TL:KGZ:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-mobileSubs-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-mobileSubs-2024, claim TL:KGZ:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-highTechExports-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-highTechExports-2024, claim TL:KGZ:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-landArea-2023",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-landArea-2023, claim TL:KGZ:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-forestPct-2023",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-forestPct-2023, claim TL:KGZ:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-agriPct-2023",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-agriPct-2023, claim TL:KGZ:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-co2PerCapita-2024, claim TL:KGZ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-renewablePct-2021",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-renewablePct-2021, claim TL:KGZ:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-resourceRents-2021",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-resourceRents-2021, claim TL:KGZ:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-oilRents-2021",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-oilRents-2021, claim TL:KGZ:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-mineralRents-2021",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-mineralRents-2021, claim TL:KGZ:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-forestRents-2021",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-forestRents-2021, claim TL:KGZ:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KGZ:electricityAccess:2023",
+   "id": "TL:KGZ:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KGZ#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-electricityAccess-2023, claim TL:KGZ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KGZ#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-electricityAccess-2024, claim TL:KGZ:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KGZ:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-milExpPctGdp-2024, claim TL:KGZ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-milExpUsd-2024",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-milExpUsd-2024, claim TL:KGZ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KGZ#claim-armedForces-2020",
    "citation": "Terralore, \"Kyrgyzstan — national dossier\", terralore.co/country/KGZ#claim-armedForces-2020, claim TL:KGZ:armedForces:2020, retrieved <YYYY-MM-DD>."

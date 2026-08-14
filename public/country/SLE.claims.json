@@ -3,128 +3,128 @@
  "name": "Sierra Leone",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SLE",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SLE:gdp:2024",
+   "id": "TL:SLE:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 6971127235.3123,
-   "display": "$7.0 B",
+   "value": 7464157904.43509,
+   "display": "$7.5 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-gdp-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-gdp-2024, claim TL:SLE:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-gdp-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-gdp-2025, claim TL:SLE:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:gdpPerCapita:2024",
+   "id": "TL:SLE:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 806.654650417726,
-   "display": "$807",
+   "value": 846.296172499617,
+   "display": "$846",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-gdpPerCapita-2024, claim TL:SLE:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-gdpPerCapita-2025, claim TL:SLE:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:gdpGrowth:2024",
+   "id": "TL:SLE:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.29322336690163,
-   "display": "4.3%",
+   "value": 4.60865077581276,
+   "display": "4.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-gdpGrowth-2024, claim TL:SLE:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-gdpGrowth-2025, claim TL:SLE:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:inflation:2024",
+   "id": "TL:SLE:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 28.6337500014115,
-   "display": "28.6%",
+   "value": 7.48750166612986,
+   "display": "7.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-inflation-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-inflation-2024, claim TL:SLE:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-inflation-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-inflation-2025, claim TL:SLE:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:tradePctGdp:2024",
+   "id": "TL:SLE:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 40.5454450452166,
-   "display": "40.5%",
+   "value": 49.0960746822456,
+   "display": "49.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-tradePctGdp-2024, claim TL:SLE:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-tradePctGdp-2025, claim TL:SLE:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:population:2024",
+   "id": "TL:SLE:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 8642022,
-   "display": "8.6 m",
+   "value": 8819794,
+   "display": "8.8 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-population-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-population-2024, claim TL:SLE:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-population-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-population-2025, claim TL:SLE:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SLE:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-lifeExpectancy-2024, claim TL:SLE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:urbanPct:2024",
+   "id": "TL:SLE:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 45.3626823156371,
-   "display": "45.4%",
+   "value": 45.9267781356681,
+   "display": "45.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-urbanPct-2024",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-urbanPct-2024, claim TL:SLE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-urbanPct-2025",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-urbanPct-2025, claim TL:SLE:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SLE:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-fertility-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-fertility-2024, claim TL:SLE:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-literacy-2019",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-literacy-2019, claim TL:SLE:literacy:2019, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-wgiVoice-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-wgiVoice-2024, claim TL:SLE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-wgiStability-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-wgiStability-2024, claim TL:SLE:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-wgiEffectiveness-2024, claim TL:SLE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-wgiRegQuality-2024, claim TL:SLE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-wgiRuleOfLaw-2024, claim TL:SLE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-wgiCorruption-2024, claim TL:SLE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-healthSpendPctGdp-2023, claim TL:SLE:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-physicians-2022",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-physicians-2022, claim TL:SLE:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-underFiveMortality-2024, claim TL:SLE:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-measlesImmunisation-2024, claim TL:SLE:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-safeWater-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-safeWater-2024, claim TL:SLE:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-literacyRate-2019",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-literacyRate-2019, claim TL:SLE:literacyRate:2019, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-eduSpendPctGdp-2023, claim TL:SLE:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-primaryEnrolment-2024, claim TL:SLE:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-secondaryEnrolment-2023, claim TL:SLE:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-tertiaryEnrolment-2002",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-tertiaryEnrolment-2002, claim TL:SLE:tertiaryEnrolment:2002, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-internetUsers-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-internetUsers-2024, claim TL:SLE:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-mobileSubs-2022",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-mobileSubs-2022, claim TL:SLE:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-highTechExports-2018",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-highTechExports-2018, claim TL:SLE:highTechExports:2018, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-landArea-2023",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-landArea-2023, claim TL:SLE:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-forestPct-2023",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-forestPct-2023, claim TL:SLE:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-agriPct-2023",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-agriPct-2023, claim TL:SLE:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-co2PerCapita-2024, claim TL:SLE:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-renewablePct-2022",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-renewablePct-2022, claim TL:SLE:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-resourceRents-2021",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-resourceRents-2021, claim TL:SLE:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-oilRents-2021",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-oilRents-2021, claim TL:SLE:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-mineralRents-2021",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-mineralRents-2021, claim TL:SLE:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-forestRents-2021",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-forestRents-2021, claim TL:SLE:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLE:electricityAccess:2023",
+   "id": "TL:SLE:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 35.5,
-   "display": "35.5%",
+   "value": 39.2,
+   "display": "39.2%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLE#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-electricityAccess-2023, claim TL:SLE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLE#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-electricityAccess-2024, claim TL:SLE:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SLE:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-milExpPctGdp-2024, claim TL:SLE:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-milExpUsd-2024",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-milExpUsd-2024, claim TL:SLE:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLE#claim-armedForces-2020",
    "citation": "Terralore, \"Sierra Leone — national dossier\", terralore.co/country/SLE#claim-armedForces-2020, claim TL:SLE:armedForces:2020, retrieved <YYYY-MM-DD>."

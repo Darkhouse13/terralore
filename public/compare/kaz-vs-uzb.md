@@ -3,7 +3,7 @@
 Kazakhstan and Uzbekistan side by side: 45 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/kaz-vs-uzb
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Kazakhstan | Observed | Uzbekistan | Observed |
 |---|---|---|---|---|
-| GDP | $291 B | 2024 | $115 B | 2024 |
-| GDP per capita | $14,155 | 2024 | $3,162 | 2024 |
-| GDP growth | 5.0% | 2024 | 6.5% | 2024 |
-| Inflation | 8.7% | 2024 | 9.6% | 2024 |
-| Trade openness | 57.2% | 2024 | 60.7% | 2024 |
+| GDP | $306 B | 2025 | $147 B | 2025 |
+| GDP per capita | $14,692 | 2025 | $3,968 | 2025 |
+| GDP growth | 6.5% | 2025 | 7.7% | 2025 |
+| Inflation | 11.4% | 2025 | 8.8% | 2025 |
+| Trade openness | 57.2% | 2024 | 57.4% | 2025 |
 
 ## Society
 
 | Metric | Kazakhstan | Observed | Uzbekistan | Observed |
 |---|---|---|---|---|
-| Population | 21 m | 2024 | 36 m | 2024 |
+| Population | 21 m | 2025 | 37 m | 2025 |
 | Life expectancy | 74.5 yrs | 2024 | 72.5 yrs | 2024 |
-| Urban population | 62.1% | 2024 | 51.0% | 2024 |
+| Urban population | 62.4% | 2025 | 51.0% | 2025 |
 | Fertility rate | 3.0 | 2024 | 3.5 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 14.8% | 2021 | 0.9% | 2021 |
 | Mineral rents | 9.1% | 2021 | 8.5% | 2021 |
 | Forest rents | 0.0% | 2021 | 0.0% | 2021 |
-| Electricity access | 100.0% | 2023 | 100.0% | 2023 |
+| Electricity access | 100.0% | 2024 | 100.0% | 2024 |
 | Copper (mined) | 710 kt | 2025 | — | — |
 | Iron ore | 35 Mt | 2025 | — | — |
 | Gold (mined) | 130 t | 2025 | 130 t | 2025 |
@@ -114,14 +114,14 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/KAZ/chronicle.md and https://terralore.co/country/UZB/chronicle.md.
 

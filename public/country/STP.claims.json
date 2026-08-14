@@ -3,108 +3,128 @@
  "name": "São Tomé and Príncipe",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/STP",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:STP:gdp:2024",
+   "id": "TL:STP:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 822154621.088897,
-   "display": "$822 M",
+   "value": 981293586.906408,
+   "display": "$981 M",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-gdp-2024",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-gdp-2024, claim TL:STP:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-gdp-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-gdp-2025, claim TL:STP:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:STP:gdpPerCapita:2024",
+   "id": "TL:STP:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 3490.56883486557,
-   "display": "$3,491",
+   "value": 4084.40062145233,
+   "display": "$4,084",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-gdpPerCapita-2024, claim TL:STP:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-gdpPerCapita-2025, claim TL:STP:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:STP:gdpGrowth:2024",
+   "id": "TL:STP:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.09999940100751,
-   "display": "1.1%",
+   "value": 1.02847453097097,
+   "display": "1.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-gdpGrowth-2024, claim TL:STP:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-gdpGrowth-2025, claim TL:STP:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:STP:inflation:2024",
+   "id": "TL:STP:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 14.3519273571008,
-   "display": "14.4%",
+   "value": 11.0474362281814,
+   "display": "11.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-inflation-2024",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-inflation-2024, claim TL:STP:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-inflation-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-inflation-2025, claim TL:STP:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:STP:population:2024",
+   "id": "TL:STP:tradePctGdp:2025",
+   "domain": "economy",
+   "metric": "tradePctGdp",
+   "label": "Trade openness",
+   "value": 46.5686308941032,
+   "display": "46.6%",
+   "unit": "% of GDP",
+   "observed": 2025,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-14"
+   },
+   "url": "https://terralore.co/country/STP#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-tradePctGdp-2025, claim TL:STP:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:STP:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 235536,
-   "display": "236,000",
+   "value": 240254,
+   "display": "240,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-population-2024",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-population-2024, claim TL:STP:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-population-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-population-2025, claim TL:STP:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:STP:lifeExpectancy:2024",
@@ -121,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-lifeExpectancy-2024, claim TL:STP:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:STP:urbanPct:2024",
+   "id": "TL:STP:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 68.8710170184884,
-   "display": "68.9%",
+   "value": 69.1721865415984,
+   "display": "69.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-urbanPct-2024",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-urbanPct-2024, claim TL:STP:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-urbanPct-2025",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-urbanPct-2025, claim TL:STP:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:STP:fertility:2024",
@@ -161,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-fertility-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-fertility-2024, claim TL:STP:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-literacy-2019",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-literacy-2019, claim TL:STP:literacy:2019, retrieved <YYYY-MM-DD>."
@@ -201,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-wgiVoice-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-wgiVoice-2024, claim TL:STP:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-wgiStability-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-wgiStability-2024, claim TL:STP:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-wgiEffectiveness-2024, claim TL:STP:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-wgiRegQuality-2024, claim TL:STP:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-wgiRuleOfLaw-2024, claim TL:STP:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-wgiCorruption-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-wgiCorruption-2024, claim TL:STP:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-healthSpendPctGdp-2023, claim TL:STP:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-physicians-2022",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-physicians-2022, claim TL:STP:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-underFiveMortality-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-underFiveMortality-2024, claim TL:STP:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-measlesImmunisation-2024, claim TL:STP:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-safeWater-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-safeWater-2024, claim TL:STP:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-literacyRate-2019",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-literacyRate-2019, claim TL:STP:literacyRate:2019, retrieved <YYYY-MM-DD>."
@@ -441,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-eduSpendPctGdp-2023, claim TL:STP:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-primaryEnrolment-2017",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-primaryEnrolment-2017, claim TL:STP:primaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -481,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-secondaryEnrolment-2017",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-secondaryEnrolment-2017, claim TL:STP:secondaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -501,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-tertiaryEnrolment-2015",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-tertiaryEnrolment-2015, claim TL:STP:tertiaryEnrolment:2015, retrieved <YYYY-MM-DD>."
@@ -521,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-internetUsers-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-internetUsers-2024, claim TL:STP:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-mobileSubs-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-mobileSubs-2024, claim TL:STP:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-highTechExports-2023",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-highTechExports-2023, claim TL:STP:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-landArea-2023",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-landArea-2023, claim TL:STP:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-forestPct-2023",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-forestPct-2023, claim TL:STP:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-agriPct-2023",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-agriPct-2023, claim TL:STP:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-co2PerCapita-2024",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-co2PerCapita-2024, claim TL:STP:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-renewablePct-2022",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-renewablePct-2022, claim TL:STP:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -681,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-resourceRents-2021",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-resourceRents-2021, claim TL:STP:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-oilRents-2021",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-oilRents-2021, claim TL:STP:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-mineralRents-2021",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-mineralRents-2021, claim TL:STP:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/STP#claim-forestRents-2021",
    "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-forestRents-2021, claim TL:STP:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:STP:electricityAccess:2023",
+   "id": "TL:STP:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 81.3,
-   "display": "81.3%",
+   "value": 77.7,
+   "display": "77.7%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/STP#claim-electricityAccess-2023",
-   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-electricityAccess-2023, claim TL:STP:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/STP#claim-electricityAccess-2024",
+   "citation": "Terralore, \"São Tomé and Príncipe — national dossier\", terralore.co/country/STP#claim-electricityAccess-2024, claim TL:STP:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   }
  ]
 }

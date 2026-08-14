@@ -3,7 +3,7 @@
 Djibouti and Eritrea side by side: 35 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/dji-vs-eri
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Djibouti | Observed | Eritrea | Observed |
 |---|---|---|---|---|
-| GDP | $4.2 B | 2024 | $2.1 B | 2011 |
-| GDP per capita | $3,553 | 2024 | $689 | 2011 |
-| GDP growth | 7.0% | 2024 | 8.7% | 2011 |
-| Inflation | 2.1% | 2024 | — | — |
-| Trade openness | 241.2% | 2024 | 47.4% | 2011 |
+| GDP | $4.6 B | 2025 | $2.1 B | 2011 |
+| GDP per capita | $3,906 | 2025 | $689 | 2011 |
+| GDP growth | 6.5% | 2025 | 8.7% | 2011 |
+| Inflation | -0.3% | 2025 | — | — |
+| Trade openness | 206.3% | 2025 | 47.4% | 2011 |
 
 ## Society
 
 | Metric | Djibouti | Observed | Eritrea | Observed |
 |---|---|---|---|---|
-| Population | 1.2 m | 2024 | 3.5 m | 2024 |
+| Population | 1.2 m | 2025 | 3.6 m | 2025 |
 | Life expectancy | 66.2 yrs | 2024 | 68.9 yrs | 2024 |
-| Urban population | 72.9% | 2024 | 34.5% | 2024 |
+| Urban population | 73.0% | 2025 | 34.5% | 2025 |
 | Fertility rate | 2.6 | 2024 | 3.7 | 2024 |
 
 ## Governance
@@ -87,7 +87,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.0% | 2011 |
 | Mineral rents | 0.0% | 2021 | 24.6% | 2011 |
 | Forest rents | 0.3% | 2021 | 2.3% | 2011 |
-| Electricity access | 65.2% | 2023 | 54.4% | 2023 |
+| Electricity access | 69.2% | 2024 | 55.3% | 2024 |
 
 ## Military
 
@@ -105,13 +105,13 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/DJI/chronicle.md and https://terralore.co/country/ERI/chronicle.md.
 

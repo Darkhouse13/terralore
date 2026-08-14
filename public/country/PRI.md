@@ -3,7 +3,7 @@
 Puerto Rico — economy, society, governance, health, education, technology, geography and resources in one sourced dossier: 35 indicators, each with its…
 
 Canonical: https://terralore.co/country/PRI
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,18 +21,18 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $126 B | 2024 | World Development Indicators |
-| GDP per capita | $39,344 | 2024 | World Development Indicators |
-| GDP growth | 3.2% | 2024 | World Development Indicators |
-| Trade openness | 94.6% | 2024 | World Development Indicators |
+| GDP | $129 B | 2025 | World Development Indicators |
+| GDP per capita | $40,620 | 2025 | World Development Indicators |
+| GDP growth | 0.3% | 2025 | World Development Indicators |
+| Trade openness | 90.5% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 3.2 m | 2024 | World Development Indicators |
+| Population | 3.2 m | 2025 | World Development Indicators |
 | Life expectancy | 81.9 yrs | 2024 | World Development Indicators |
-| Urban population | 94.3% | 2024 | World Development Indicators |
+| Urban population | 94.3% | 2025 | World Development Indicators |
 | Fertility rate | 0.9 | 2024 | World Development Indicators |
 | Literacy rate | 92.4% | 2017 | World Development Indicators |
 
@@ -90,7 +90,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 0.0% | 2021 | World Development Indicators |
 | Forest rents | 0.0% | 2021 | World Development Indicators |
-| Electricity access | 100.0% | 2023 | World Development Indicators |
+| Electricity access | 100.0% | 2024 | World Development Indicators |
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
@@ -100,10 +100,10 @@ History: "Borikén of the Taíno, four centuries a Spanish stronghold of the Ind
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
 
 Citation template: Terralore, "Puerto Rico — national dossier", terralore.co/country/PRI, retrieved <YYYY-MM-DD>.

@@ -3,88 +3,88 @@
  "name": "Bolivia",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/BOL",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:BOL:gdp:2024",
+   "id": "TL:BOL:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 54881327452.9667,
-   "display": "$55 B",
+   "value": 64768947525.3256,
+   "display": "$65 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-gdp-2024",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-gdp-2024, claim TL:BOL:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-gdp-2025",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-gdp-2025, claim TL:BOL:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BOL:gdpPerCapita:2024",
+   "id": "TL:BOL:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 4421.16609889999,
-   "display": "$4,421",
+   "value": 5147.81081955367,
+   "display": "$5,148",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-gdpPerCapita-2024, claim TL:BOL:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-gdpPerCapita-2025, claim TL:BOL:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BOL:gdpGrowth:2024",
+   "id": "TL:BOL:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -1.12335595517212,
-   "display": "-1.1%",
+   "value": -1.58237567348246,
+   "display": "-1.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-gdpGrowth-2024, claim TL:BOL:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-gdpGrowth-2025, claim TL:BOL:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BOL:inflation:2024",
+   "id": "TL:BOL:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 5.09976568317427,
-   "display": "5.1%",
+   "value": 19.517120804733,
+   "display": "19.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-inflation-2024",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-inflation-2024, claim TL:BOL:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-inflation-2025",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-inflation-2025, claim TL:BOL:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BOL:tradePctGdp:2024",
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-tradePctGdp-2024, claim TL:BOL:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BOL:population:2024",
+   "id": "TL:BOL:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 12413315,
-   "display": "12 m",
+   "value": 12581843,
+   "display": "13 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-population-2024",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-population-2024, claim TL:BOL:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-population-2025",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-population-2025, claim TL:BOL:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BOL:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-lifeExpectancy-2024, claim TL:BOL:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BOL:urbanPct:2024",
+   "id": "TL:BOL:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 71.2361453773988,
-   "display": "71.2%",
+   "value": 71.5631037265869,
+   "display": "71.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-urbanPct-2024",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-urbanPct-2024, claim TL:BOL:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-urbanPct-2025",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-urbanPct-2025, claim TL:BOL:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BOL:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-fertility-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-fertility-2024, claim TL:BOL:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-literacy-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-literacy-2024, claim TL:BOL:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-wgiVoice-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-wgiVoice-2024, claim TL:BOL:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-wgiStability-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-wgiStability-2024, claim TL:BOL:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-wgiEffectiveness-2024, claim TL:BOL:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-wgiRegQuality-2024, claim TL:BOL:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-wgiRuleOfLaw-2024, claim TL:BOL:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-wgiCorruption-2024, claim TL:BOL:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-healthSpendPctGdp-2023, claim TL:BOL:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-physicians-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-physicians-2021, claim TL:BOL:physicians:2021, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-underFiveMortality-2024, claim TL:BOL:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-measlesImmunisation-2024, claim TL:BOL:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-literacyRate-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-literacyRate-2024, claim TL:BOL:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-eduSpendPctGdp-2024, claim TL:BOL:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-primaryEnrolment-2024, claim TL:BOL:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-secondaryEnrolment-2024, claim TL:BOL:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-rdSpending-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-rdSpending-2021, claim TL:BOL:rdSpending:2021, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-researchers-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-researchers-2021, claim TL:BOL:researchers:2021, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-internetUsers-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-internetUsers-2024, claim TL:BOL:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-mobileSubs-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-mobileSubs-2024, claim TL:BOL:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-highTechExports-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-highTechExports-2024, claim TL:BOL:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-landArea-2023",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-landArea-2023, claim TL:BOL:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-forestPct-2023",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-forestPct-2023, claim TL:BOL:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-agriPct-2023",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-agriPct-2023, claim TL:BOL:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-co2PerCapita-2024, claim TL:BOL:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-renewablePct-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-renewablePct-2021, claim TL:BOL:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-resourceRents-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-resourceRents-2021, claim TL:BOL:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-oilRents-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-oilRents-2021, claim TL:BOL:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-mineralRents-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-mineralRents-2021, claim TL:BOL:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-forestRents-2021",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-forestRents-2021, claim TL:BOL:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BOL:electricityAccess:2023",
+   "id": "TL:BOL:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 99.8,
-   "display": "99.8%",
+   "value": 96.6,
+   "display": "96.6%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BOL#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-electricityAccess-2023, claim TL:BOL:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BOL#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-electricityAccess-2024, claim TL:BOL:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BOL:prodZinc:2025",
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-prodZinc-2025",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-prodZinc-2025, claim TL:BOL:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-milExpPctGdp-2024, claim TL:BOL:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-milExpUsd-2024",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-milExpUsd-2024, claim TL:BOL:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BOL#claim-armedForces-2020",
    "citation": "Terralore, \"Bolivia — national dossier\", terralore.co/country/BOL#claim-armedForces-2020, claim TL:BOL:armedForces:2020, retrieved <YYYY-MM-DD>."

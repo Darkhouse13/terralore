@@ -3,95 +3,95 @@
  "name": "Timor-Leste",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/TLS",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:TLS:gdp:2024",
+   "id": "TL:TLS:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1865608515.41321,
+   "value": 1902180257.82737,
    "display": "$1.9 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-gdp-2024",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdp-2024, claim TL:TLS:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-gdp-2025",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdp-2025, claim TL:TLS:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TLS:gdpPerCapita:2024",
+   "id": "TL:TLS:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 1331.9705130185,
-   "display": "$1,332",
+   "value": 1340.9640193437,
+   "display": "$1,341",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdpPerCapita-2024, claim TL:TLS:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdpPerCapita-2025, claim TL:TLS:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TLS:gdpGrowth:2024",
+   "id": "TL:TLS:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -9.10069369772735,
-   "display": "-9.1%",
+   "value": 6.97538939119629,
+   "display": "7.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdpGrowth-2024, claim TL:TLS:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-gdpGrowth-2025, claim TL:TLS:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TLS:inflation:2024",
+   "id": "TL:TLS:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.06284153005468,
-   "display": "2.1%",
+   "value": 0.428322848346937,
+   "display": "0.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-inflation-2024",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-inflation-2024, claim TL:TLS:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-inflation-2025",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-inflation-2025, claim TL:TLS:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TLS:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 95.4485021286221,
+   "value": 95.4485030105899,
    "display": "95.4%",
    "unit": "% of GDP",
    "observed": 2024,
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-tradePctGdp-2024, claim TL:TLS:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TLS:population:2024",
+   "id": "TL:TLS:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1400638,
+   "value": 1418517,
    "display": "1.4 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-population-2024",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-population-2024, claim TL:TLS:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-population-2025",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-population-2025, claim TL:TLS:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TLS:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-lifeExpectancy-2024, claim TL:TLS:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TLS:urbanPct:2024",
+   "id": "TL:TLS:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 28.6641074179574,
-   "display": "28.7%",
+   "value": 28.7864318960935,
+   "display": "28.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-urbanPct-2024",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-urbanPct-2024, claim TL:TLS:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-urbanPct-2025",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-urbanPct-2025, claim TL:TLS:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TLS:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-fertility-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-fertility-2024, claim TL:TLS:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-literacy-2022",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-literacy-2022, claim TL:TLS:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-wgiVoice-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiVoice-2024, claim TL:TLS:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-wgiStability-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiStability-2024, claim TL:TLS:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiEffectiveness-2024, claim TL:TLS:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiRegQuality-2024, claim TL:TLS:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiRuleOfLaw-2024, claim TL:TLS:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-wgiCorruption-2024, claim TL:TLS:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-healthSpendPctGdp-2023, claim TL:TLS:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-physicians-2020",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-physicians-2020, claim TL:TLS:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-underFiveMortality-2024, claim TL:TLS:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-measlesImmunisation-2024, claim TL:TLS:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-literacyRate-2022",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-literacyRate-2022, claim TL:TLS:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-eduSpendPctGdp-2023, claim TL:TLS:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-primaryEnrolment-2023, claim TL:TLS:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-secondaryEnrolment-2020",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-secondaryEnrolment-2020, claim TL:TLS:secondaryEnrolment:2020, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-tertiaryEnrolment-2023, claim TL:TLS:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-internetUsers-2021",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-internetUsers-2021, claim TL:TLS:internetUsers:2021, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-mobileSubs-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-mobileSubs-2024, claim TL:TLS:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-highTechExports-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-highTechExports-2023, claim TL:TLS:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-landArea-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-landArea-2023, claim TL:TLS:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-forestPct-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-forestPct-2023, claim TL:TLS:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-agriPct-2023",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-agriPct-2023, claim TL:TLS:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-co2PerCapita-2024, claim TL:TLS:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-renewablePct-2022",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-renewablePct-2022, claim TL:TLS:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-resourceRents-2021",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-resourceRents-2021, claim TL:TLS:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-oilRents-2021",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-oilRents-2021, claim TL:TLS:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-mineralRents-2021",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-mineralRents-2021, claim TL:TLS:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-forestRents-2021",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-forestRents-2021, claim TL:TLS:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TLS:electricityAccess:2023",
+   "id": "TL:TLS:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 100,
-   "display": "100.0%",
+   "value": 94.3,
+   "display": "94.3%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TLS#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-electricityAccess-2023, claim TL:TLS:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TLS#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-electricityAccess-2024, claim TL:TLS:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TLS:milExpPctGdp:2024",
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-milExpPctGdp-2024, claim TL:TLS:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-milExpUsd-2024",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-milExpUsd-2024, claim TL:TLS:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TLS#claim-armedForces-2020",
    "citation": "Terralore, \"Timor-Leste — national dossier\", terralore.co/country/TLS#claim-armedForces-2020, claim TL:TLS:armedForces:2020, retrieved <YYYY-MM-DD>."

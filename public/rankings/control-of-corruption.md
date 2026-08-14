@@ -3,7 +3,7 @@
 Control of corruption ranked across 179 nations, highest to lowest. Denmark highest at 94.2 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/control-of-corruption
-Updated: 2026-08-10 (the governance domain's last refresh)
+Updated: 2026-08-14 (the governance domain's last refresh)
 
 Definition: Perceived extent to which public power is used for private gain, scored 0–100 (higher = less corruption perceived).
 Unit: score. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 Citation template: Terralore, "Control of corruption by nation — world ranking", terralore.co/rankings/control-of-corruption, retrieved <YYYY-MM-DD>.

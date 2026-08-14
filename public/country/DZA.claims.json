@@ -3,128 +3,128 @@
  "name": "Algeria",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/DZA",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:DZA:gdp:2024",
+   "id": "TL:DZA:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 269322281664.773,
-   "display": "$269 B",
+   "value": 287031225987.736,
+   "display": "$287 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-gdp-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-gdp-2024, claim TL:DZA:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-gdp-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-gdp-2025, claim TL:DZA:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:gdpPerCapita:2024",
+   "id": "TL:DZA:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 5752.99076651465,
-   "display": "$5,753",
+   "value": 6051.00322704182,
+   "display": "$6,051",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-gdpPerCapita-2024, claim TL:DZA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-gdpPerCapita-2025, claim TL:DZA:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:gdpGrowth:2024",
+   "id": "TL:DZA:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.69999999907979,
-   "display": "3.7%",
+   "value": 3.815543719231,
+   "display": "3.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-gdpGrowth-2024, claim TL:DZA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-gdpGrowth-2025, claim TL:DZA:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:inflation:2024",
+   "id": "TL:DZA:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.04611455313434,
-   "display": "4.0%",
+   "value": 1.41835151429016,
+   "display": "1.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-inflation-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-inflation-2024, claim TL:DZA:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-inflation-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-inflation-2025, claim TL:DZA:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:tradePctGdp:2024",
+   "id": "TL:DZA:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 40.1345741170703,
-   "display": "40.1%",
+   "value": 38.9789440161631,
+   "display": "39.0%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-tradePctGdp-2024, claim TL:DZA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-tradePctGdp-2025, claim TL:DZA:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:population:2024",
+   "id": "TL:DZA:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 46814308,
+   "value": 47435312,
    "display": "47 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-population-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-population-2024, claim TL:DZA:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-population-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-population-2025, claim TL:DZA:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DZA:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-lifeExpectancy-2024, claim TL:DZA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:urbanPct:2024",
+   "id": "TL:DZA:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 75.2792907190618,
-   "display": "75.3%",
+   "value": 75.8187358069877,
+   "display": "75.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-urbanPct-2024",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-urbanPct-2024, claim TL:DZA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-urbanPct-2025",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-urbanPct-2025, claim TL:DZA:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DZA:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-fertility-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-fertility-2024, claim TL:DZA:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-literacy-2008",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-literacy-2008, claim TL:DZA:literacy:2008, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-wgiVoice-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-wgiVoice-2024, claim TL:DZA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-wgiStability-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-wgiStability-2024, claim TL:DZA:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-wgiEffectiveness-2024, claim TL:DZA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-wgiRegQuality-2024, claim TL:DZA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-wgiRuleOfLaw-2024, claim TL:DZA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-wgiCorruption-2024, claim TL:DZA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-healthSpendPctGdp-2023, claim TL:DZA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-physicians-2022",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-physicians-2022, claim TL:DZA:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-underFiveMortality-2024, claim TL:DZA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-measlesImmunisation-2024, claim TL:DZA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-safeWater-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-safeWater-2024, claim TL:DZA:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-literacyRate-2008",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-literacyRate-2008, claim TL:DZA:literacyRate:2008, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-eduSpendPctGdp-2024, claim TL:DZA:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-primaryEnrolment-2025",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-primaryEnrolment-2025, claim TL:DZA:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-secondaryEnrolment-2024, claim TL:DZA:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-tertiaryEnrolment-2024, claim TL:DZA:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-rdSpending-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-rdSpending-2024, claim TL:DZA:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-researchers-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-researchers-2024, claim TL:DZA:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-internetUsers-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-internetUsers-2024, claim TL:DZA:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-mobileSubs-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-mobileSubs-2024, claim TL:DZA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-highTechExports-2017",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-highTechExports-2017, claim TL:DZA:highTechExports:2017, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-landArea-2023",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-landArea-2023, claim TL:DZA:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-forestPct-2023",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-forestPct-2023, claim TL:DZA:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-agriPct-2023",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-agriPct-2023, claim TL:DZA:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-co2PerCapita-2024, claim TL:DZA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-renewablePct-2021",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-renewablePct-2021, claim TL:DZA:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-resourceRents-2021",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-resourceRents-2021, claim TL:DZA:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-oilRents-2021",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-oilRents-2021, claim TL:DZA:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-mineralRents-2021",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-mineralRents-2021, claim TL:DZA:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-forestRents-2021",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-forestRents-2021, claim TL:DZA:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DZA:electricityAccess:2023",
+   "id": "TL:DZA:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DZA#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-electricityAccess-2023, claim TL:DZA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DZA#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-electricityAccess-2024, claim TL:DZA:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DZA:prodPhosphate:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-prodPhosphate-2025, claim TL:DZA:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-milExpPctGdp-2024, claim TL:DZA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-milExpUsd-2024",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-milExpUsd-2024, claim TL:DZA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DZA#claim-armedForces-2020",
    "citation": "Terralore, \"Algeria — national dossier\", terralore.co/country/DZA#claim-armedForces-2020, claim TL:DZA:armedForces:2020, retrieved <YYYY-MM-DD>."

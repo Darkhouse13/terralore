@@ -3,128 +3,128 @@
  "name": "Mauritania",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MRT",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MRT:gdp:2024",
+   "id": "TL:MRT:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 10908045686.8808,
-   "display": "$11 B",
+   "value": 11679910946.4371,
+   "display": "$12 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-gdp-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-gdp-2024, claim TL:MRT:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-gdp-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-gdp-2025, claim TL:MRT:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:gdpPerCapita:2024",
+   "id": "TL:MRT:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 2110.12036938187,
-   "display": "$2,110",
+   "value": 2197.51046251309,
+   "display": "$2,198",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-gdpPerCapita-2024, claim TL:MRT:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-gdpPerCapita-2025, claim TL:MRT:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:gdpGrowth:2024",
+   "id": "TL:MRT:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 6.30760213290844,
-   "display": "6.3%",
+   "value": 4.02891976567948,
+   "display": "4.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-gdpGrowth-2024, claim TL:MRT:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-gdpGrowth-2025, claim TL:MRT:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:inflation:2024",
+   "id": "TL:MRT:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.49164347481972,
-   "display": "2.5%",
+   "value": 1.54796926167072,
+   "display": "1.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-inflation-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-inflation-2024, claim TL:MRT:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-inflation-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-inflation-2025, claim TL:MRT:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:tradePctGdp:2024",
+   "id": "TL:MRT:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 93.5988355881472,
-   "display": "93.6%",
+   "value": 94.0242632380265,
+   "display": "94.0%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-tradePctGdp-2024, claim TL:MRT:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-tradePctGdp-2025, claim TL:MRT:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:population:2024",
+   "id": "TL:MRT:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 5169395,
-   "display": "5.2 m",
+   "value": 5315065,
+   "display": "5.3 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-population-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-population-2024, claim TL:MRT:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-population-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-population-2025, claim TL:MRT:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MRT:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-lifeExpectancy-2024, claim TL:MRT:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:urbanPct:2024",
+   "id": "TL:MRT:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 60.6068586411829,
-   "display": "60.6%",
+   "value": 61.4888190537696,
+   "display": "61.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-urbanPct-2024",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-urbanPct-2024, claim TL:MRT:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-urbanPct-2025",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-urbanPct-2025, claim TL:MRT:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MRT:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-fertility-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-fertility-2024, claim TL:MRT:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-literacy-2020",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-literacy-2020, claim TL:MRT:literacy:2020, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-wgiVoice-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-wgiVoice-2024, claim TL:MRT:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-wgiStability-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-wgiStability-2024, claim TL:MRT:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-wgiEffectiveness-2024, claim TL:MRT:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-wgiRegQuality-2024, claim TL:MRT:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-wgiRuleOfLaw-2024, claim TL:MRT:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-wgiCorruption-2024, claim TL:MRT:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-healthSpendPctGdp-2023, claim TL:MRT:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-physicians-2022",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-physicians-2022, claim TL:MRT:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-underFiveMortality-2024, claim TL:MRT:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-measlesImmunisation-2024, claim TL:MRT:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-literacyRate-2020",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-literacyRate-2020, claim TL:MRT:literacyRate:2020, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-eduSpendPctGdp-2024, claim TL:MRT:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-primaryEnrolment-2024, claim TL:MRT:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-secondaryEnrolment-2020",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-secondaryEnrolment-2020, claim TL:MRT:secondaryEnrolment:2020, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-tertiaryEnrolment-2020",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-tertiaryEnrolment-2020, claim TL:MRT:tertiaryEnrolment:2020, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-rdSpending-2018",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-rdSpending-2018, claim TL:MRT:rdSpending:2018, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-internetUsers-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-internetUsers-2024, claim TL:MRT:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-mobileSubs-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-mobileSubs-2024, claim TL:MRT:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-highTechExports-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-highTechExports-2024, claim TL:MRT:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-landArea-2023",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-landArea-2023, claim TL:MRT:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-forestPct-2023",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-forestPct-2023, claim TL:MRT:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-agriPct-2023",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-agriPct-2023, claim TL:MRT:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-co2PerCapita-2024, claim TL:MRT:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-renewablePct-2022",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-renewablePct-2022, claim TL:MRT:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-resourceRents-2021",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-resourceRents-2021, claim TL:MRT:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-oilRents-2021",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-oilRents-2021, claim TL:MRT:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-mineralRents-2021",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-mineralRents-2021, claim TL:MRT:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-forestRents-2021",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-forestRents-2021, claim TL:MRT:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MRT:electricityAccess:2023",
+   "id": "TL:MRT:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 50.3,
-   "display": "50.3%",
+   "value": 52.2,
+   "display": "52.2%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MRT#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-electricityAccess-2023, claim TL:MRT:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MRT#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-electricityAccess-2024, claim TL:MRT:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MRT:prodIronOre:2025",
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-prodIronOre-2025",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-prodIronOre-2025, claim TL:MRT:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-milExpPctGdp-2024, claim TL:MRT:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-milExpUsd-2024",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-milExpUsd-2024, claim TL:MRT:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MRT#claim-armedForces-2020",
    "citation": "Terralore, \"Mauritania — national dossier\", terralore.co/country/MRT#claim-armedForces-2020, claim TL:MRT:armedForces:2020, retrieved <YYYY-MM-DD>."

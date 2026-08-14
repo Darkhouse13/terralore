@@ -3,128 +3,128 @@
  "name": "South Korea",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/KOR",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:KOR:gdp:2024",
+   "id": "TL:KOR:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1875388209406.8,
-   "display": "$1.88 T",
+   "value": 1872374961553.15,
+   "display": "$1.87 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-gdp-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdp-2024, claim TL:KOR:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-gdp-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdp-2025, claim TL:KOR:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:gdpPerCapita:2024",
+   "id": "TL:KOR:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 36238.639908315,
-   "display": "$36,239",
+   "value": 36226.9663637512,
+   "display": "$36,227",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdpPerCapita-2024, claim TL:KOR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdpPerCapita-2025, claim TL:KOR:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:gdpGrowth:2024",
+   "id": "TL:KOR:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.00361101838986,
-   "display": "2.0%",
+   "value": 1.00701840291242,
+   "display": "1.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdpGrowth-2024, claim TL:KOR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-gdpGrowth-2025, claim TL:KOR:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:inflation:2024",
+   "id": "TL:KOR:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.32174328643542,
-   "display": "2.3%",
+   "value": 2.12309421458659,
+   "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-inflation-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-inflation-2024, claim TL:KOR:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-inflation-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-inflation-2025, claim TL:KOR:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:tradePctGdp:2024",
+   "id": "TL:KOR:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 84.6424951192038,
-   "display": "84.6%",
+   "value": 86.3616006442431,
+   "display": "86.4%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-tradePctGdp-2024, claim TL:KOR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-tradePctGdp-2025, claim TL:KOR:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:population:2024",
+   "id": "TL:KOR:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 51751065,
+   "value": 51684564,
    "display": "52 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-population-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-population-2024, claim TL:KOR:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-population-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-population-2025, claim TL:KOR:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KOR:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-lifeExpectancy-2024, claim TL:KOR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:urbanPct:2024",
+   "id": "TL:KOR:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 81.1682528469686,
+   "value": 81.1740263306674,
    "display": "81.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-urbanPct-2024",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-urbanPct-2024, claim TL:KOR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-urbanPct-2025",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-urbanPct-2025, claim TL:KOR:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KOR:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-fertility-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-fertility-2024, claim TL:KOR:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-literacy-2008",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-literacy-2008, claim TL:KOR:literacy:2008, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-wgiVoice-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiVoice-2024, claim TL:KOR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-wgiStability-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiStability-2024, claim TL:KOR:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiEffectiveness-2024, claim TL:KOR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiRegQuality-2024, claim TL:KOR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiRuleOfLaw-2024, claim TL:KOR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-wgiCorruption-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-wgiCorruption-2024, claim TL:KOR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-healthSpendPctGdp-2024, claim TL:KOR:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-physicians-2022",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-physicians-2022, claim TL:KOR:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-underFiveMortality-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-underFiveMortality-2024, claim TL:KOR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-measlesImmunisation-2024, claim TL:KOR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-safeWater-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-safeWater-2024, claim TL:KOR:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-literacyRate-2008",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-literacyRate-2008, claim TL:KOR:literacyRate:2008, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-eduSpendPctGdp-2022, claim TL:KOR:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-primaryEnrolment-2024, claim TL:KOR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-secondaryEnrolment-2024, claim TL:KOR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-tertiaryEnrolment-2024, claim TL:KOR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-rdSpending-2023",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-rdSpending-2023, claim TL:KOR:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-researchers-2023",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-researchers-2023, claim TL:KOR:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-internetUsers-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-internetUsers-2024, claim TL:KOR:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-mobileSubs-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-mobileSubs-2024, claim TL:KOR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-highTechExports-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-highTechExports-2024, claim TL:KOR:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-landArea-2023",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-landArea-2023, claim TL:KOR:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-forestPct-2023",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-forestPct-2023, claim TL:KOR:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-agriPct-2023",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-agriPct-2023, claim TL:KOR:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-co2PerCapita-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-co2PerCapita-2024, claim TL:KOR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-renewablePct-2021",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-renewablePct-2021, claim TL:KOR:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-resourceRents-2021",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-resourceRents-2021, claim TL:KOR:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-oilRents-2021",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-oilRents-2021, claim TL:KOR:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-mineralRents-2021",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-mineralRents-2021, claim TL:KOR:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-forestRents-2021",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-forestRents-2021, claim TL:KOR:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOR:electricityAccess:2023",
+   "id": "TL:KOR:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOR#claim-electricityAccess-2023",
-   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-electricityAccess-2023, claim TL:KOR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOR#claim-electricityAccess-2024",
+   "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-electricityAccess-2024, claim TL:KOR:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KOR:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-milExpPctGdp-2024, claim TL:KOR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-milExpUsd-2024",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-milExpUsd-2024, claim TL:KOR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOR#claim-armedForces-2020",
    "citation": "Terralore, \"South Korea — national dossier\", terralore.co/country/KOR#claim-armedForces-2020, claim TL:KOR:armedForces:2020, retrieved <YYYY-MM-DD>."

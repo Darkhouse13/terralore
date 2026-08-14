@@ -3,128 +3,128 @@
  "name": "Lesotho",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/LSO",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:LSO:gdp:2024",
+   "id": "TL:LSO:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 2271759454.51107,
-   "display": "$2.3 B",
+   "value": 2573572920.05159,
+   "display": "$2.6 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-gdp-2024",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-gdp-2024, claim TL:LSO:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-gdp-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-gdp-2025, claim TL:LSO:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:gdpPerCapita:2024",
+   "id": "TL:LSO:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 971.90771824829,
-   "display": "$972",
+   "value": 1088.96276223185,
+   "display": "$1,089",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-gdpPerCapita-2024, claim TL:LSO:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-gdpPerCapita-2025, claim TL:LSO:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:gdpGrowth:2024",
+   "id": "TL:LSO:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.85452253179545,
-   "display": "2.9%",
+   "value": 1.98256080770996,
+   "display": "2.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-gdpGrowth-2024, claim TL:LSO:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-gdpGrowth-2025, claim TL:LSO:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:inflation:2024",
+   "id": "TL:LSO:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 6.10544624245032,
-   "display": "6.1%",
+   "value": 4.27011140706666,
+   "display": "4.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-inflation-2024",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-inflation-2024, claim TL:LSO:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-inflation-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-inflation-2025, claim TL:LSO:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:tradePctGdp:2023",
+   "id": "TL:LSO:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 141.51375589725,
-   "display": "141.5%",
+   "value": 153.981493548807,
+   "display": "154.0%",
    "unit": "% of GDP",
-   "observed": 2023,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-tradePctGdp-2023",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-tradePctGdp-2023, claim TL:LSO:tradePctGdp:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-tradePctGdp-2025, claim TL:LSO:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:population:2024",
+   "id": "TL:LSO:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 2337423,
-   "display": "2.3 m",
+   "value": 2363325,
+   "display": "2.4 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-population-2024",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-population-2024, claim TL:LSO:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-population-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-population-2025, claim TL:LSO:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LSO:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-lifeExpectancy-2024, claim TL:LSO:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:urbanPct:2024",
+   "id": "TL:LSO:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 43.6780334209246,
-   "display": "43.7%",
+   "value": 44.6695855817109,
+   "display": "44.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-urbanPct-2024",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-urbanPct-2024, claim TL:LSO:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-urbanPct-2025",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-urbanPct-2025, claim TL:LSO:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LSO:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-fertility-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-fertility-2024, claim TL:LSO:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-literacy-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-literacy-2024, claim TL:LSO:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-wgiVoice-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-wgiVoice-2024, claim TL:LSO:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-wgiStability-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-wgiStability-2024, claim TL:LSO:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-wgiEffectiveness-2024, claim TL:LSO:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-wgiRegQuality-2024, claim TL:LSO:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-wgiRuleOfLaw-2024, claim TL:LSO:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-wgiCorruption-2024, claim TL:LSO:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-healthSpendPctGdp-2023, claim TL:LSO:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-physicians-2022",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-physicians-2022, claim TL:LSO:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-underFiveMortality-2024, claim TL:LSO:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-measlesImmunisation-2024, claim TL:LSO:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-safeWater-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-safeWater-2024, claim TL:LSO:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-literacyRate-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-literacyRate-2024, claim TL:LSO:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-eduSpendPctGdp-2024, claim TL:LSO:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-primaryEnrolment-2024, claim TL:LSO:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-secondaryEnrolment-2017",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-secondaryEnrolment-2017, claim TL:LSO:secondaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-tertiaryEnrolment-2018",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-tertiaryEnrolment-2018, claim TL:LSO:tertiaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-rdSpending-2023",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-rdSpending-2023, claim TL:LSO:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-researchers-2023",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-researchers-2023, claim TL:LSO:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-internetUsers-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-internetUsers-2024, claim TL:LSO:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-mobileSubs-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-mobileSubs-2024, claim TL:LSO:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-highTechExports-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-highTechExports-2024, claim TL:LSO:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-landArea-2023",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-landArea-2023, claim TL:LSO:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-forestPct-2023",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-forestPct-2023, claim TL:LSO:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-agriPct-2023",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-agriPct-2023, claim TL:LSO:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-co2PerCapita-2024, claim TL:LSO:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-renewablePct-2022",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-renewablePct-2022, claim TL:LSO:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-resourceRents-2021",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-resourceRents-2021, claim TL:LSO:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-oilRents-2021",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-oilRents-2021, claim TL:LSO:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-mineralRents-2021",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-mineralRents-2021, claim TL:LSO:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-forestRents-2021",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-forestRents-2021, claim TL:LSO:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LSO:electricityAccess:2023",
+   "id": "TL:LSO:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 57.3,
-   "display": "57.3%",
+   "value": 60.6,
+   "display": "60.6%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LSO#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-electricityAccess-2023, claim TL:LSO:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LSO#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-electricityAccess-2024, claim TL:LSO:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LSO:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-milExpPctGdp-2024, claim TL:LSO:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-milExpUsd-2024",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-milExpUsd-2024, claim TL:LSO:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LSO#claim-armedForces-2020",
    "citation": "Terralore, \"Lesotho — national dossier\", terralore.co/country/LSO#claim-armedForces-2020, claim TL:LSO:armedForces:2020, retrieved <YYYY-MM-DD>."

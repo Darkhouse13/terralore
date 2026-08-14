@@ -3,128 +3,128 @@
  "name": "Seychelles",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SYC",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SYC:gdp:2024",
+   "id": "TL:SYC:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 2167239562.46013,
-   "display": "$2.2 B",
+   "value": 2387022853.48583,
+   "display": "$2.4 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-gdp-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-gdp-2024, claim TL:SYC:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-gdp-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-gdp-2025, claim TL:SYC:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:gdpPerCapita:2024",
+   "id": "TL:SYC:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 17858.8226383978,
-   "display": "$17,859",
+   "value": 19449.3836346926,
+   "display": "$19,449",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-gdpPerCapita-2024, claim TL:SYC:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-gdpPerCapita-2025, claim TL:SYC:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:gdpGrowth:2024",
+   "id": "TL:SYC:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.46568066415341,
-   "display": "3.5%",
+   "value": 5.79795669973812,
+   "display": "5.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-gdpGrowth-2024, claim TL:SYC:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-gdpGrowth-2025, claim TL:SYC:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:inflation:2024",
+   "id": "TL:SYC:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.311726050919668,
+   "value": 0.297589655467556,
    "display": "0.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-inflation-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-inflation-2024, claim TL:SYC:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-inflation-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-inflation-2025, claim TL:SYC:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:tradePctGdp:2024",
+   "id": "TL:SYC:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 188.369185297411,
-   "display": "188.4%",
+   "value": 172.28733997155,
+   "display": "172.3%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-tradePctGdp-2024, claim TL:SYC:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-tradePctGdp-2025, claim TL:SYC:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:population:2024",
+   "id": "TL:SYC:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 121354,
-   "display": "121,000",
+   "value": 122730,
+   "display": "123,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-population-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-population-2024, claim TL:SYC:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-population-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-population-2025, claim TL:SYC:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SYC:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-lifeExpectancy-2024, claim TL:SYC:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:urbanPct:2024",
+   "id": "TL:SYC:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 45.2898622460415,
-   "display": "45.3%",
+   "value": 45.4828390704609,
+   "display": "45.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-urbanPct-2024",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-urbanPct-2024, claim TL:SYC:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-urbanPct-2025",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-urbanPct-2025, claim TL:SYC:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SYC:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-fertility-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-fertility-2024, claim TL:SYC:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-literacy-2010",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-literacy-2010, claim TL:SYC:literacy:2010, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-wgiVoice-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-wgiVoice-2024, claim TL:SYC:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-wgiStability-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-wgiStability-2024, claim TL:SYC:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-wgiEffectiveness-2024, claim TL:SYC:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-wgiRegQuality-2024, claim TL:SYC:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-wgiRuleOfLaw-2024, claim TL:SYC:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-wgiCorruption-2024, claim TL:SYC:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-healthSpendPctGdp-2023, claim TL:SYC:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-physicians-2022",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-physicians-2022, claim TL:SYC:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-underFiveMortality-2024, claim TL:SYC:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-measlesImmunisation-2024, claim TL:SYC:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-safeWater-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-safeWater-2024, claim TL:SYC:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-literacyRate-2010",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-literacyRate-2010, claim TL:SYC:literacyRate:2010, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-eduSpendPctGdp-2023, claim TL:SYC:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-primaryEnrolment-2024, claim TL:SYC:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-secondaryEnrolment-2024, claim TL:SYC:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-tertiaryEnrolment-2024, claim TL:SYC:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-rdSpending-2016",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-rdSpending-2016, claim TL:SYC:rdSpending:2016, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-researchers-2005",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-researchers-2005, claim TL:SYC:researchers:2005, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-internetUsers-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-internetUsers-2024, claim TL:SYC:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-mobileSubs-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-mobileSubs-2024, claim TL:SYC:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-highTechExports-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-highTechExports-2024, claim TL:SYC:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-landArea-2023",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-landArea-2023, claim TL:SYC:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-forestPct-2023",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-forestPct-2023, claim TL:SYC:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-agriPct-2023",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-agriPct-2023, claim TL:SYC:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-co2PerCapita-2024, claim TL:SYC:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-renewablePct-2022",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-renewablePct-2022, claim TL:SYC:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-resourceRents-2021",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-resourceRents-2021, claim TL:SYC:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-oilRents-2021",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-oilRents-2021, claim TL:SYC:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-mineralRents-2021",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-mineralRents-2021, claim TL:SYC:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-forestRents-2021",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-forestRents-2021, claim TL:SYC:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SYC:electricityAccess:2023",
+   "id": "TL:SYC:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SYC#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-electricityAccess-2023, claim TL:SYC:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SYC#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-electricityAccess-2024, claim TL:SYC:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SYC:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-milExpPctGdp-2024, claim TL:SYC:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-milExpUsd-2024",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-milExpUsd-2024, claim TL:SYC:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SYC#claim-armedForces-2020",
    "citation": "Terralore, \"Seychelles — national dossier\", terralore.co/country/SYC#claim-armedForces-2020, claim TL:SYC:armedForces:2020, retrieved <YYYY-MM-DD>."

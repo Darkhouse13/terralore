@@ -3,7 +3,7 @@
 DR Congo — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 46 indicators, each…
 
 Canonical: https://terralore.co/country/COD
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $71 B | 2024 | World Development Indicators |
-| GDP per capita | $649 | 2024 | World Development Indicators |
-| GDP growth | 6.1% | 2024 | World Development Indicators |
+| GDP | $91 B | 2025 | World Development Indicators |
+| GDP per capita | $807 | 2025 | World Development Indicators |
+| GDP growth | 5.8% | 2025 | World Development Indicators |
 | Inflation | 2.9% | 2016 | World Development Indicators |
-| Trade openness | 100.6% | 2024 | World Development Indicators |
+| Trade openness | 87.3% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 109 m | 2024 | World Development Indicators |
+| Population | 113 m | 2025 | World Development Indicators |
 | Life expectancy | 62.1 yrs | 2024 | World Development Indicators |
-| Urban population | 44.7% | 2024 | World Development Indicators |
+| Urban population | 45.1% | 2025 | World Development Indicators |
 | Fertility rate | 6.0 | 2024 | World Development Indicators |
 | Literacy rate | 68.5% | 2023 | World Development Indicators |
 
@@ -96,7 +96,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.6% | 2021 | World Development Indicators |
 | Mineral rents | 28.8% | 2021 | World Development Indicators |
 | Forest rents | 9.4% | 2021 | World Development Indicators |
-| Electricity access | 22.1% | 2023 | World Development Indicators |
+| Electricity access | 22.5% | 2024 | World Development Indicators |
 | Copper (mined) | 3.2 Mt | 2025 | Mineral Commodity Summaries 2026 |
 | Cobalt (mined) | 230 kt | 2025 | Mineral Commodity Summaries 2026 |
 
@@ -116,13 +116,13 @@ History: "From the savanna kingdoms to Africa's heart" — the sourced chronicle
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "DR Congo — national dossier", terralore.co/country/COD, retrieved <YYYY-MM-DD>.

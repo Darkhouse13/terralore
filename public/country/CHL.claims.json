@@ -3,128 +3,128 @@
  "name": "Chile",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/CHL",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:CHL:gdp:2024",
+   "id": "TL:CHL:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 330267137371.592,
-   "display": "$330 B",
+   "value": 357371159574.862,
+   "display": "$357 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-gdp-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-gdp-2024, claim TL:CHL:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-gdp-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-gdp-2025, claim TL:CHL:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:gdpPerCapita:2024",
+   "id": "TL:CHL:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 16709.8893972307,
-   "display": "$16,710",
+   "value": 17994.5911957485,
+   "display": "$17,995",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-gdpPerCapita-2024, claim TL:CHL:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-gdpPerCapita-2025, claim TL:CHL:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:gdpGrowth:2024",
+   "id": "TL:CHL:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.64431154871538,
-   "display": "2.6%",
+   "value": 2.45925474781374,
+   "display": "2.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-gdpGrowth-2024, claim TL:CHL:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-gdpGrowth-2025, claim TL:CHL:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:inflation:2024",
+   "id": "TL:CHL:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.29763891572524,
-   "display": "4.3%",
+   "value": 4.21293601694293,
+   "display": "4.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-inflation-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-inflation-2024, claim TL:CHL:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-inflation-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-inflation-2025, claim TL:CHL:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:tradePctGdp:2024",
+   "id": "TL:CHL:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 63.859857248066,
-   "display": "63.9%",
+   "value": 64.984377042281,
+   "display": "65.0%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-tradePctGdp-2024, claim TL:CHL:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-tradePctGdp-2025, claim TL:CHL:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:population:2024",
+   "id": "TL:CHL:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 19764771,
+   "value": 19859921,
    "display": "20 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-population-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-population-2024, claim TL:CHL:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-population-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-population-2025, claim TL:CHL:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CHL:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-lifeExpectancy-2024, claim TL:CHL:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:urbanPct:2024",
+   "id": "TL:CHL:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 88.9950908479196,
-   "display": "89.0%",
+   "value": 89.1772830019223,
+   "display": "89.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-urbanPct-2024",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-urbanPct-2024, claim TL:CHL:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-urbanPct-2025",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-urbanPct-2025, claim TL:CHL:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CHL:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-fertility-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-fertility-2024, claim TL:CHL:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-literacy-2017",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-literacy-2017, claim TL:CHL:literacy:2017, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-wgiVoice-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-wgiVoice-2024, claim TL:CHL:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-wgiStability-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-wgiStability-2024, claim TL:CHL:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-wgiEffectiveness-2024, claim TL:CHL:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-wgiRegQuality-2024, claim TL:CHL:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-wgiRuleOfLaw-2024, claim TL:CHL:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-wgiCorruption-2024, claim TL:CHL:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-healthSpendPctGdp-2024, claim TL:CHL:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-physicians-2023",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-physicians-2023, claim TL:CHL:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-underFiveMortality-2024, claim TL:CHL:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-measlesImmunisation-2024, claim TL:CHL:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-safeWater-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-safeWater-2024, claim TL:CHL:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-literacyRate-2017",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-literacyRate-2017, claim TL:CHL:literacyRate:2017, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-eduSpendPctGdp-2022, claim TL:CHL:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-primaryEnrolment-2024, claim TL:CHL:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-secondaryEnrolment-2024, claim TL:CHL:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-tertiaryEnrolment-2024, claim TL:CHL:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-rdSpending-2022",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-rdSpending-2022, claim TL:CHL:rdSpending:2022, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-researchers-2022",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-researchers-2022, claim TL:CHL:researchers:2022, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-internetUsers-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-internetUsers-2024, claim TL:CHL:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-mobileSubs-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-mobileSubs-2024, claim TL:CHL:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-highTechExports-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-highTechExports-2024, claim TL:CHL:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-landArea-2023",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-landArea-2023, claim TL:CHL:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-forestPct-2023",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-forestPct-2023, claim TL:CHL:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-agriPct-2023",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-agriPct-2023, claim TL:CHL:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-co2PerCapita-2024, claim TL:CHL:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-renewablePct-2021",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-renewablePct-2021, claim TL:CHL:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-resourceRents-2021",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-resourceRents-2021, claim TL:CHL:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-oilRents-2021",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-oilRents-2021, claim TL:CHL:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-mineralRents-2021",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-mineralRents-2021, claim TL:CHL:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-forestRents-2021",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-forestRents-2021, claim TL:CHL:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CHL:electricityAccess:2023",
+   "id": "TL:CHL:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 100,
-   "display": "100.0%",
+   "value": 99,
+   "display": "99.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CHL#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-electricityAccess-2023, claim TL:CHL:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CHL#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-electricityAccess-2024, claim TL:CHL:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CHL:prodCopper:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-prodCopper-2025",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-prodCopper-2025, claim TL:CHL:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-prodIronOre-2025",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-prodIronOre-2025, claim TL:CHL:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-prodLithium-2025",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-prodLithium-2025, claim TL:CHL:prodLithium:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-milExpPctGdp-2024, claim TL:CHL:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-milExpUsd-2024",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-milExpUsd-2024, claim TL:CHL:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CHL#claim-armedForces-2020",
    "citation": "Terralore, \"Chile — national dossier\", terralore.co/country/CHL#claim-armedForces-2020, claim TL:CHL:armedForces:2020, retrieved <YYYY-MM-DD>."

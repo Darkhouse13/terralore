@@ -3,7 +3,7 @@
 Senegal — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 45 indicators, each with…
 
 Canonical: https://terralore.co/country/SEN
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $33 B | 2024 | World Development Indicators |
-| GDP per capita | $1,773 | 2024 | World Development Indicators |
-| GDP growth | 6.1% | 2024 | World Development Indicators |
-| Inflation | 0.8% | 2024 | World Development Indicators |
-| Trade openness | 68.1% | 2024 | World Development Indicators |
+| GDP | $37 B | 2025 | World Development Indicators |
+| GDP per capita | $1,955 | 2025 | World Development Indicators |
+| GDP growth | 6.7% | 2025 | World Development Indicators |
+| Inflation | 1.5% | 2025 | World Development Indicators |
+| Trade openness | 71.1% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 19 m | 2024 | World Development Indicators |
+| Population | 19 m | 2025 | World Development Indicators |
 | Life expectancy | 68.9 yrs | 2024 | World Development Indicators |
-| Urban population | 55.2% | 2024 | World Development Indicators |
+| Urban population | 55.8% | 2025 | World Development Indicators |
 | Fertility rate | 3.8 | 2024 | World Development Indicators |
 | Literacy rate | 50.4% | 2023 | World Development Indicators |
 
@@ -96,7 +96,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 2.9% | 2021 | World Development Indicators |
 | Forest rents | 1.5% | 2021 | World Development Indicators |
-| Electricity access | 74.2% | 2023 | World Development Indicators |
+| Electricity access | 82.9% | 2024 | World Development Indicators |
 | Phosphate rock | 2.8 Mt | 2025 | Mineral Commodity Summaries 2026 |
 
 ## Military
@@ -115,13 +115,13 @@ History: "From Takrur to a poet's republic" — the sourced chronicle is at http
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Senegal — national dossier", terralore.co/country/SEN, retrieved <YYYY-MM-DD>.

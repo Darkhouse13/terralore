@@ -3,7 +3,7 @@
 Forest area ranked across 178 nations, highest to lowest. Suriname highest at 94.4% (2023). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/forest-cover
-Updated: 2026-06-14 (the geography domain's last refresh)
+Updated: 2026-08-14 (the geography domain's last refresh)
 
 Definition: Share of land area under forest cover.
 Unit: %. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -206,6 +206,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
 
 Citation template: Terralore, "Forest area by nation — world ranking", terralore.co/rankings/forest-cover, retrieved <YYYY-MM-DD>.

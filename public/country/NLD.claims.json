@@ -3,128 +3,128 @@
  "name": "Netherlands",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/NLD",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:NLD:gdp:2024",
+   "id": "TL:NLD:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1214927698572.66,
-   "display": "$1.21 T",
+   "value": 1332767651100.39,
+   "display": "$1.33 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-gdp-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-gdp-2024, claim TL:NLD:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-gdp-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-gdp-2025, claim TL:NLD:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:gdpPerCapita:2024",
+   "id": "TL:NLD:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 67520.4218956281,
-   "display": "$67,520",
+   "value": 73683.917132794,
+   "display": "$73,684",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-gdpPerCapita-2024, claim TL:NLD:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-gdpPerCapita-2025, claim TL:NLD:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:gdpGrowth:2024",
+   "id": "TL:NLD:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.08100584845663,
-   "display": "1.1%",
+   "value": 1.78463214703797,
+   "display": "1.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-gdpGrowth-2024, claim TL:NLD:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-gdpGrowth-2025, claim TL:NLD:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:inflation:2024",
+   "id": "TL:NLD:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.34754304219953,
+   "value": 3.2595766451366,
    "display": "3.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-inflation-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-inflation-2024, claim TL:NLD:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-inflation-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-inflation-2025, claim TL:NLD:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:tradePctGdp:2024",
+   "id": "TL:NLD:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 153.83065216636,
-   "display": "153.8%",
+   "value": 150.119970359267,
+   "display": "150.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-tradePctGdp-2024, claim TL:NLD:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-tradePctGdp-2025, claim TL:NLD:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:population:2024",
+   "id": "TL:NLD:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 17993485,
+   "value": 18087633,
    "display": "18 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-population-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-population-2024, claim TL:NLD:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-population-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-population-2025, claim TL:NLD:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NLD:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-lifeExpectancy-2024, claim TL:NLD:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:urbanPct:2024",
+   "id": "TL:NLD:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 95.6396517079336,
-   "display": "95.6%",
+   "value": 95.9385903481191,
+   "display": "95.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-urbanPct-2024",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-urbanPct-2024, claim TL:NLD:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-urbanPct-2025",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-urbanPct-2025, claim TL:NLD:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NLD:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-fertility-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-fertility-2024, claim TL:NLD:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-wgiVoice-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-wgiVoice-2024, claim TL:NLD:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-wgiStability-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-wgiStability-2024, claim TL:NLD:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-wgiEffectiveness-2024, claim TL:NLD:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-wgiRegQuality-2024, claim TL:NLD:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-wgiRuleOfLaw-2024, claim TL:NLD:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-wgiCorruption-2024, claim TL:NLD:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-healthSpendPctGdp-2024, claim TL:NLD:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-physicians-2022",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-physicians-2022, claim TL:NLD:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-underFiveMortality-2024, claim TL:NLD:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-measlesImmunisation-2024, claim TL:NLD:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-safeWater-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-safeWater-2024, claim TL:NLD:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-eduSpendPctGdp-2022, claim TL:NLD:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-primaryEnrolment-2023, claim TL:NLD:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-secondaryEnrolment-2023, claim TL:NLD:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-tertiaryEnrolment-2023, claim TL:NLD:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-rdSpending-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-rdSpending-2023, claim TL:NLD:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-researchers-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-researchers-2023, claim TL:NLD:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-internetUsers-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-internetUsers-2024, claim TL:NLD:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-mobileSubs-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-mobileSubs-2024, claim TL:NLD:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-highTechExports-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-highTechExports-2024, claim TL:NLD:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-landArea-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-landArea-2023, claim TL:NLD:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-forestPct-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-forestPct-2023, claim TL:NLD:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-agriPct-2023",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-agriPct-2023, claim TL:NLD:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-co2PerCapita-2024, claim TL:NLD:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-renewablePct-2021",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-renewablePct-2021, claim TL:NLD:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-resourceRents-2021",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-resourceRents-2021, claim TL:NLD:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-oilRents-2021",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-oilRents-2021, claim TL:NLD:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-mineralRents-2021",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-mineralRents-2021, claim TL:NLD:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-forestRents-2021",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-forestRents-2021, claim TL:NLD:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NLD:electricityAccess:2023",
+   "id": "TL:NLD:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NLD#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-electricityAccess-2023, claim TL:NLD:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NLD#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-electricityAccess-2024, claim TL:NLD:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NLD:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-milExpPctGdp-2024, claim TL:NLD:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-milExpUsd-2024",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-milExpUsd-2024, claim TL:NLD:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NLD#claim-armedForces-2020",
    "citation": "Terralore, \"Netherlands — national dossier\", terralore.co/country/NLD#claim-armedForces-2020, claim TL:NLD:armedForces:2020, retrieved <YYYY-MM-DD>."

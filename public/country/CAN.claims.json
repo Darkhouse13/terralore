@@ -3,128 +3,128 @@
  "name": "Canada",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/CAN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:CAN:gdp:2024",
+   "id": "TL:CAN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 2243636826633.76,
-   "display": "$2.24 T",
+   "value": 2319899772425.92,
+   "display": "$2.32 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-gdp-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-gdp-2024, claim TL:CAN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-gdp-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-gdp-2025, claim TL:CAN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:gdpPerCapita:2024",
+   "id": "TL:CAN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 54340.3477224733,
-   "display": "$54,340",
+   "value": 55697.6639660837,
+   "display": "$55,698",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-gdpPerCapita-2024, claim TL:CAN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-gdpPerCapita-2025, claim TL:CAN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:gdpGrowth:2024",
+   "id": "TL:CAN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.55479521049516,
-   "display": "1.6%",
+   "value": 1.74268536175708,
+   "display": "1.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-gdpGrowth-2024, claim TL:CAN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-gdpGrowth-2025, claim TL:CAN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:inflation:2024",
+   "id": "TL:CAN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.38158383281173,
-   "display": "2.4%",
+   "value": 2.07232411149103,
+   "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-inflation-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-inflation-2024, claim TL:CAN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-inflation-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-inflation-2025, claim TL:CAN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:tradePctGdp:2024",
+   "id": "TL:CAN:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 65.1499212653783,
-   "display": "65.1%",
+   "value": 63.5105049692227,
+   "display": "63.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-tradePctGdp-2024, claim TL:CAN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-tradePctGdp-2025, claim TL:CAN:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:population:2024",
+   "id": "TL:CAN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 41288599,
-   "display": "41 m",
+   "value": 41651653,
+   "display": "42 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-population-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-population-2024, claim TL:CAN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-population-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-population-2025, claim TL:CAN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CAN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-lifeExpectancy-2024, claim TL:CAN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:urbanPct:2024",
+   "id": "TL:CAN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 82.7002565766633,
-   "display": "82.7%",
+   "value": 82.8757020253886,
+   "display": "82.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-urbanPct-2024, claim TL:CAN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-urbanPct-2025, claim TL:CAN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CAN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-fertility-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-fertility-2024, claim TL:CAN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-wgiVoice-2024, claim TL:CAN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-wgiStability-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-wgiStability-2024, claim TL:CAN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-wgiEffectiveness-2024, claim TL:CAN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-wgiRegQuality-2024, claim TL:CAN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-wgiRuleOfLaw-2024, claim TL:CAN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-wgiCorruption-2024, claim TL:CAN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-healthSpendPctGdp-2024, claim TL:CAN:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-physicians-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-physicians-2023, claim TL:CAN:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-underFiveMortality-2024, claim TL:CAN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-measlesImmunisation-2024, claim TL:CAN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-safeWater-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-safeWater-2024, claim TL:CAN:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-eduSpendPctGdp-2022, claim TL:CAN:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-primaryEnrolment-2023, claim TL:CAN:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-secondaryEnrolment-2023, claim TL:CAN:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-tertiaryEnrolment-2023, claim TL:CAN:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-rdSpending-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-rdSpending-2024, claim TL:CAN:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-researchers-2022",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-researchers-2022, claim TL:CAN:researchers:2022, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-internetUsers-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-internetUsers-2024, claim TL:CAN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-mobileSubs-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-mobileSubs-2024, claim TL:CAN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-highTechExports-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-highTechExports-2024, claim TL:CAN:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-landArea-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-landArea-2023, claim TL:CAN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-forestPct-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-forestPct-2023, claim TL:CAN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-agriPct-2023",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-agriPct-2023, claim TL:CAN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -651,7 +651,7 @@
    "domain": "geography",
    "metric": "co2PerCapita",
    "label": "CO₂ per capita (t)",
-   "value": 13.9983582392805,
+   "value": 14.0072704088031,
    "display": "14.0",
    "unit": "ratio",
    "observed": 2024,
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-co2PerCapita-2024, claim TL:CAN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-renewablePct-2021",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-renewablePct-2021, claim TL:CAN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-resourceRents-2021",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-resourceRents-2021, claim TL:CAN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-oilRents-2021",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-oilRents-2021, claim TL:CAN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-mineralRents-2021",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-mineralRents-2021, claim TL:CAN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-forestRents-2021",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-forestRents-2021, claim TL:CAN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CAN:electricityAccess:2023",
+   "id": "TL:CAN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CAN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-electricityAccess-2023, claim TL:CAN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CAN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-electricityAccess-2024, claim TL:CAN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CAN:prodCopper:2025",
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-prodCopper-2025",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-prodCopper-2025, claim TL:CAN:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-prodIronOre-2025",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-prodIronOre-2025, claim TL:CAN:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-prodGold-2025",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-prodGold-2025, claim TL:CAN:prodGold:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-prodLithium-2025",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-prodLithium-2025, claim TL:CAN:prodLithium:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-prodCobalt-2025",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-prodCobalt-2025, claim TL:CAN:prodCobalt:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-prodNickel-2025",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-prodNickel-2025, claim TL:CAN:prodNickel:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-milExpPctGdp-2024, claim TL:CAN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-milExpUsd-2024, claim TL:CAN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CAN#claim-armedForces-2020",
    "citation": "Terralore, \"Canada — national dossier\", terralore.co/country/CAN#claim-armedForces-2020, claim TL:CAN:armedForces:2020, retrieved <YYYY-MM-DD>."

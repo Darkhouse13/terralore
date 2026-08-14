@@ -3,128 +3,128 @@
  "name": "Paraguay",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/PRY",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:PRY:gdp:2024",
+   "id": "TL:PRY:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 44458118397.4445,
-   "display": "$44 B",
+   "value": 49278227554.3339,
+   "display": "$49 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-gdp-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-gdp-2024, claim TL:PRY:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-gdp-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-gdp-2025, claim TL:PRY:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:gdpPerCapita:2024",
+   "id": "TL:PRY:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 6416.09708970845,
-   "display": "$6,416",
+   "value": 7026.61906146401,
+   "display": "$7,027",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-gdpPerCapita-2024, claim TL:PRY:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-gdpPerCapita-2025, claim TL:PRY:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:gdpGrowth:2024",
+   "id": "TL:PRY:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.24996010464072,
-   "display": "4.2%",
+   "value": 6.64262511156879,
+   "display": "6.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-gdpGrowth-2024, claim TL:PRY:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-gdpGrowth-2025, claim TL:PRY:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:inflation:2024",
+   "id": "TL:PRY:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.83540271728533,
-   "display": "3.8%",
+   "value": 4.0380642333938,
+   "display": "4.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-inflation-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-inflation-2024, claim TL:PRY:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-inflation-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-inflation-2025, claim TL:PRY:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:tradePctGdp:2024",
+   "id": "TL:PRY:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 76.8311565430624,
-   "display": "76.8%",
+   "value": 76.4780703309698,
+   "display": "76.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-tradePctGdp-2024, claim TL:PRY:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-tradePctGdp-2025, claim TL:PRY:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:population:2024",
+   "id": "TL:PRY:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 6929153,
-   "display": "6.9 m",
+   "value": 7013078,
+   "display": "7.0 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-population-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-population-2024, claim TL:PRY:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-population-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-population-2025, claim TL:PRY:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRY:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-lifeExpectancy-2024, claim TL:PRY:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:urbanPct:2024",
+   "id": "TL:PRY:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 69.8622585886961,
-   "display": "69.9%",
+   "value": 70.3897639855864,
+   "display": "70.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-urbanPct-2024",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-urbanPct-2024, claim TL:PRY:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-urbanPct-2025",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-urbanPct-2025, claim TL:PRY:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRY:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-fertility-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-fertility-2024, claim TL:PRY:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-literacy-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-literacy-2024, claim TL:PRY:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-wgiVoice-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-wgiVoice-2024, claim TL:PRY:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-wgiStability-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-wgiStability-2024, claim TL:PRY:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-wgiEffectiveness-2024, claim TL:PRY:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-wgiRegQuality-2024, claim TL:PRY:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-wgiRuleOfLaw-2024, claim TL:PRY:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-wgiCorruption-2024, claim TL:PRY:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-healthSpendPctGdp-2023, claim TL:PRY:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-physicians-2022",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-physicians-2022, claim TL:PRY:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-underFiveMortality-2024, claim TL:PRY:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-measlesImmunisation-2024, claim TL:PRY:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-safeWater-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-safeWater-2024, claim TL:PRY:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-literacyRate-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-literacyRate-2024, claim TL:PRY:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-eduSpendPctGdp-2024, claim TL:PRY:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-primaryEnrolment-2024, claim TL:PRY:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-secondaryEnrolment-2024, claim TL:PRY:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-tertiaryEnrolment-2010",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-tertiaryEnrolment-2010, claim TL:PRY:tertiaryEnrolment:2010, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-rdSpending-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-rdSpending-2023, claim TL:PRY:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-researchers-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-researchers-2023, claim TL:PRY:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-internetUsers-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-internetUsers-2024, claim TL:PRY:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-mobileSubs-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-mobileSubs-2023, claim TL:PRY:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-highTechExports-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-highTechExports-2024, claim TL:PRY:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-landArea-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-landArea-2023, claim TL:PRY:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-forestPct-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-forestPct-2023, claim TL:PRY:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-agriPct-2023",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-agriPct-2023, claim TL:PRY:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-co2PerCapita-2024, claim TL:PRY:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-renewablePct-2021",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-renewablePct-2021, claim TL:PRY:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-resourceRents-2021",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-resourceRents-2021, claim TL:PRY:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-oilRents-2021",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-oilRents-2021, claim TL:PRY:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-mineralRents-2021",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-mineralRents-2021, claim TL:PRY:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-forestRents-2021",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-forestRents-2021, claim TL:PRY:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRY:electricityAccess:2023",
+   "id": "TL:PRY:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 99.8,
    "display": "99.8%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRY#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-electricityAccess-2023, claim TL:PRY:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRY#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-electricityAccess-2024, claim TL:PRY:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRY:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-milExpPctGdp-2024, claim TL:PRY:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-milExpUsd-2024",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-milExpUsd-2024, claim TL:PRY:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRY#claim-armedForces-2020",
    "citation": "Terralore, \"Paraguay — national dossier\", terralore.co/country/PRY#claim-armedForces-2020, claim TL:PRY:armedForces:2020, retrieved <YYYY-MM-DD>."

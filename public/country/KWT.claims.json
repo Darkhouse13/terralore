@@ -3,117 +3,97 @@
  "name": "Kuwait",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/KWT",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:KWT:gdp:2024",
+   "id": "TL:KWT:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 160227273053.334,
-   "display": "$160 B",
+   "value": 157209026926.418,
+   "display": "$157 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-gdp-2024",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-gdp-2024, claim TL:KWT:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-gdp-2025",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-gdp-2025, claim TL:KWT:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KWT:gdpPerCapita:2024",
+   "id": "TL:KWT:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 32717.7186631255,
-   "display": "$32,718",
+   "value": 32312.3119953634,
+   "display": "$32,312",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-gdpPerCapita-2024, claim TL:KWT:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-gdpPerCapita-2025, claim TL:KWT:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KWT:gdpGrowth:2024",
+   "id": "TL:KWT:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -2.56011099967517,
-   "display": "-2.6%",
+   "value": 2.731825804492,
+   "display": "2.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-gdpGrowth-2024, claim TL:KWT:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-gdpGrowth-2025, claim TL:KWT:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KWT:inflation:2024",
+   "id": "TL:KWT:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.89855072463762,
-   "display": "2.9%",
+   "value": 2.36195936682045,
+   "display": "2.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-inflation-2024",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-inflation-2024, claim TL:KWT:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-inflation-2025",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-inflation-2025, claim TL:KWT:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KWT:tradePctGdp:2023",
+   "id": "TL:KWT:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 96.0797881582,
-   "display": "96.1%",
+   "value": 93.9909162684119,
+   "display": "94.0%",
    "unit": "% of GDP",
-   "observed": 2023,
-   "source": {
-    "id": "wb-wdi",
-    "label": "World Development Indicators",
-    "publisher": "World Bank",
-    "url": "https://data.worldbank.org",
-    "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
-   },
-   "url": "https://terralore.co/country/KWT#claim-tradePctGdp-2023",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-tradePctGdp-2023, claim TL:KWT:tradePctGdp:2023, retrieved <YYYY-MM-DD>."
-  },
-  {
-   "id": "TL:KWT:population:2024",
-   "domain": "society",
-   "metric": "population",
-   "label": "Population",
-   "value": 4897263,
-   "display": "4.9 m",
-   "unit": "people",
    "observed": 2024,
    "source": {
     "id": "wb-wdi",
@@ -121,10 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-population-2024",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-population-2024, claim TL:KWT:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-tradePctGdp-2024, claim TL:KWT:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:KWT:population:2025",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 4865298,
+   "display": "4.9 m",
+   "unit": "people",
+   "observed": 2025,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-14"
+   },
+   "url": "https://terralore.co/country/KWT#claim-population-2025",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-population-2025, claim TL:KWT:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KWT:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-lifeExpectancy-2024, claim TL:KWT:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KWT:urbanPct:2024",
+   "id": "TL:KWT:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-urbanPct-2024",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-urbanPct-2024, claim TL:KWT:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-urbanPct-2025",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-urbanPct-2025, claim TL:KWT:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KWT:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-fertility-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-fertility-2024, claim TL:KWT:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-literacy-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-literacy-2020, claim TL:KWT:literacy:2020, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-wgiVoice-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-wgiVoice-2024, claim TL:KWT:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-wgiStability-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-wgiStability-2024, claim TL:KWT:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-wgiEffectiveness-2024, claim TL:KWT:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-wgiRegQuality-2024, claim TL:KWT:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-wgiRuleOfLaw-2024, claim TL:KWT:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-wgiCorruption-2024, claim TL:KWT:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-healthSpendPctGdp-2023, claim TL:KWT:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-physicians-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-physicians-2020, claim TL:KWT:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-underFiveMortality-2024, claim TL:KWT:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-measlesImmunisation-2024, claim TL:KWT:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-safeWater-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-safeWater-2024, claim TL:KWT:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-literacyRate-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-literacyRate-2020, claim TL:KWT:literacyRate:2020, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-eduSpendPctGdp-2024, claim TL:KWT:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-primaryEnrolment-2021",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-primaryEnrolment-2021, claim TL:KWT:primaryEnrolment:2021, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-secondaryEnrolment-2015",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-secondaryEnrolment-2015, claim TL:KWT:secondaryEnrolment:2015, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-tertiaryEnrolment-2021",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-tertiaryEnrolment-2021, claim TL:KWT:tertiaryEnrolment:2021, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-rdSpending-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-rdSpending-2024, claim TL:KWT:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-researchers-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-researchers-2024, claim TL:KWT:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-internetUsers-2025",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-internetUsers-2025, claim TL:KWT:internetUsers:2025, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-mobileSubs-2023",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-mobileSubs-2023, claim TL:KWT:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-highTechExports-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-highTechExports-2024, claim TL:KWT:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-landArea-2023",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-landArea-2023, claim TL:KWT:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-forestPct-2023",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-forestPct-2023, claim TL:KWT:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-agriPct-2023",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-agriPct-2023, claim TL:KWT:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-co2PerCapita-2024, claim TL:KWT:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-renewablePct-2021",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-renewablePct-2021, claim TL:KWT:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-resourceRents-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-resourceRents-2020, claim TL:KWT:resourceRents:2020, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-oilRents-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-oilRents-2020, claim TL:KWT:oilRents:2020, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-mineralRents-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-mineralRents-2020, claim TL:KWT:mineralRents:2020, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-forestRents-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-forestRents-2020, claim TL:KWT:forestRents:2020, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KWT:electricityAccess:2023",
+   "id": "TL:KWT:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KWT#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-electricityAccess-2023, claim TL:KWT:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KWT#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-electricityAccess-2024, claim TL:KWT:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KWT:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-milExpPctGdp-2024, claim TL:KWT:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-milExpUsd-2024",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-milExpUsd-2024, claim TL:KWT:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KWT#claim-armedForces-2020",
    "citation": "Terralore, \"Kuwait — national dossier\", terralore.co/country/KWT#claim-armedForces-2020, claim TL:KWT:armedForces:2020, retrieved <YYYY-MM-DD>."

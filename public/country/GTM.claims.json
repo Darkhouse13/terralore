@@ -3,128 +3,128 @@
  "name": "Guatemala",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/GTM",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:GTM:gdp:2024",
+   "id": "TL:GTM:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 113199581158.203,
-   "display": "$113 B",
+   "value": 123306008821.471,
+   "display": "$123 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-gdp-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-gdp-2024, claim TL:GTM:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-gdp-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-gdp-2025, claim TL:GTM:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:gdpPerCapita:2024",
+   "id": "TL:GTM:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 6150.02571438505,
-   "display": "$6,150",
+   "value": 6598.18032988711,
+   "display": "$6,598",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-gdpPerCapita-2024, claim TL:GTM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-gdpPerCapita-2025, claim TL:GTM:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:gdpGrowth:2024",
+   "id": "TL:GTM:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.65186382894819,
-   "display": "3.7%",
+   "value": 4.28003207921405,
+   "display": "4.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-gdpGrowth-2024, claim TL:GTM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-gdpGrowth-2025, claim TL:GTM:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:inflation:2024",
+   "id": "TL:GTM:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.86992752918294,
-   "display": "2.9%",
+   "value": 1.48841591086169,
+   "display": "1.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-inflation-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-inflation-2024, claim TL:GTM:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-inflation-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-inflation-2025, claim TL:GTM:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:tradePctGdp:2024",
+   "id": "TL:GTM:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 47.344196760267,
-   "display": "47.3%",
+   "value": 46.527609355823,
+   "display": "46.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-tradePctGdp-2024, claim TL:GTM:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-tradePctGdp-2025, claim TL:GTM:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:population:2024",
+   "id": "TL:GTM:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 18406359,
-   "display": "18 m",
+   "value": 18687881,
+   "display": "19 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-population-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-population-2024, claim TL:GTM:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-population-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-population-2025, claim TL:GTM:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GTM:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-lifeExpectancy-2024, claim TL:GTM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:urbanPct:2024",
+   "id": "TL:GTM:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 55.9547027274763,
-   "display": "56.0%",
+   "value": 56.2972033013999,
+   "display": "56.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-urbanPct-2024",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-urbanPct-2024, claim TL:GTM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-urbanPct-2025",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-urbanPct-2025, claim TL:GTM:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GTM:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-fertility-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-fertility-2024, claim TL:GTM:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-literacy-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-literacy-2024, claim TL:GTM:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-wgiVoice-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-wgiVoice-2024, claim TL:GTM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-wgiStability-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-wgiStability-2024, claim TL:GTM:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-wgiEffectiveness-2024, claim TL:GTM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-wgiRegQuality-2024, claim TL:GTM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-wgiRuleOfLaw-2024, claim TL:GTM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-wgiCorruption-2024, claim TL:GTM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-healthSpendPctGdp-2023, claim TL:GTM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-physicians-2020",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-physicians-2020, claim TL:GTM:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-underFiveMortality-2024, claim TL:GTM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-measlesImmunisation-2024, claim TL:GTM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-safeWater-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-safeWater-2024, claim TL:GTM:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-literacyRate-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-literacyRate-2024, claim TL:GTM:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-eduSpendPctGdp-2024, claim TL:GTM:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-primaryEnrolment-2024, claim TL:GTM:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-secondaryEnrolment-2024, claim TL:GTM:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-tertiaryEnrolment-2023, claim TL:GTM:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-rdSpending-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-rdSpending-2023, claim TL:GTM:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-researchers-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-researchers-2023, claim TL:GTM:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-internetUsers-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-internetUsers-2024, claim TL:GTM:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-mobileSubs-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-mobileSubs-2024, claim TL:GTM:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-highTechExports-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-highTechExports-2024, claim TL:GTM:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-landArea-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-landArea-2023, claim TL:GTM:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-forestPct-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-forestPct-2023, claim TL:GTM:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-agriPct-2023",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-agriPct-2023, claim TL:GTM:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-co2PerCapita-2024, claim TL:GTM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-renewablePct-2021",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-renewablePct-2021, claim TL:GTM:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-resourceRents-2021",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-resourceRents-2021, claim TL:GTM:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-oilRents-2021",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-oilRents-2021, claim TL:GTM:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-mineralRents-2021",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-mineralRents-2021, claim TL:GTM:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-forestRents-2021",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-forestRents-2021, claim TL:GTM:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GTM:electricityAccess:2023",
+   "id": "TL:GTM:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 100,
-   "display": "100.0%",
+   "value": 90.9,
+   "display": "90.9%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GTM#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-electricityAccess-2023, claim TL:GTM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GTM#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-electricityAccess-2024, claim TL:GTM:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GTM:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-milExpPctGdp-2024, claim TL:GTM:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-milExpUsd-2024",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-milExpUsd-2024, claim TL:GTM:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GTM#claim-armedForces-2020",
    "citation": "Terralore, \"Guatemala — national dossier\", terralore.co/country/GTM#claim-armedForces-2020, claim TL:GTM:armedForces:2020, retrieved <YYYY-MM-DD>."

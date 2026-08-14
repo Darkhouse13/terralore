@@ -3,7 +3,7 @@
 Papua New Guinea — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 43 indicators…
 
 Canonical: https://terralore.co/country/PNG
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $32 B | 2024 | World Development Indicators |
-| GDP per capita | $3,007 | 2024 | World Development Indicators |
-| GDP growth | 3.8% | 2024 | World Development Indicators |
-| Inflation | 0.6% | 2024 | World Development Indicators |
+| GDP | $32 B | 2025 | World Development Indicators |
+| GDP per capita | $3,020 | 2025 | World Development Indicators |
+| GDP growth | 5.6% | 2025 | World Development Indicators |
+| Inflation | 4.4% | 2025 | World Development Indicators |
 | Trade openness | 131.1% | 2004 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 11 m | 2024 | World Development Indicators |
+| Population | 11 m | 2025 | World Development Indicators |
 | Life expectancy | 66.3 yrs | 2024 | World Development Indicators |
-| Urban population | 15.4% | 2024 | World Development Indicators |
+| Urban population | 15.8% | 2025 | World Development Indicators |
 | Fertility rate | 3.1 | 2024 | World Development Indicators |
 | Literacy rate | 87.0% | 2022 | World Development Indicators |
 
@@ -94,7 +94,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 1.9% | 2021 | World Development Indicators |
 | Mineral rents | 14.4% | 2021 | World Development Indicators |
 | Forest rents | 2.0% | 2021 | World Development Indicators |
-| Electricity access | 20.5% | 2023 | World Development Indicators |
+| Electricity access | 43.3% | 2024 | World Development Indicators |
 | Cobalt (mined) | 2,800 t | 2025 | Mineral Commodity Summaries 2026 |
 
 ## Military
@@ -113,13 +113,13 @@ History: "From the world's first farmers and 800 languages to a young Pacific na
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Papua New Guinea — national dossier", terralore.co/country/PNG, retrieved <YYYY-MM-DD>.

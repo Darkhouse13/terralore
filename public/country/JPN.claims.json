@@ -3,96 +3,96 @@
  "name": "Japan",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/JPN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:JPN:gdp:2024",
+   "id": "TL:JPN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 4027597523550.58,
-   "display": "$4.03 T",
+   "value": 4435162999976.94,
+   "display": "$4.44 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-gdp-2024",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-gdp-2024, claim TL:JPN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-gdp-2025",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-gdp-2025, claim TL:JPN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JPN:gdpPerCapita:2024",
+   "id": "TL:JPN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 32487.0778047567,
-   "display": "$32,487",
+   "value": 35951.0449549304,
+   "display": "$35,951",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-gdpPerCapita-2024, claim TL:JPN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-gdpPerCapita-2025, claim TL:JPN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JPN:gdpGrowth:2024",
+   "id": "TL:JPN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 0.104309021773304,
-   "display": "0.1%",
+   "value": 1.19311288444599,
+   "display": "1.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-gdpGrowth-2024, claim TL:JPN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-gdpGrowth-2025, claim TL:JPN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JPN:inflation:2024",
+   "id": "TL:JPN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.73853681635241,
-   "display": "2.7%",
+   "value": 3.17253034260248,
+   "display": "3.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-inflation-2024",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-inflation-2024, claim TL:JPN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-inflation-2025",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-inflation-2025, claim TL:JPN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JPN:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 46.4069516150859,
-   "display": "46.4%",
+   "value": 44.8529388577573,
+   "display": "44.9%",
    "unit": "% of GDP",
    "observed": 2024,
    "source": {
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-tradePctGdp-2024, claim TL:JPN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JPN:population:2024",
+   "id": "TL:JPN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 123975371,
-   "display": "124 m",
+   "value": 123366734,
+   "display": "123 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-population-2024",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-population-2024, claim TL:JPN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-population-2025",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-population-2025, claim TL:JPN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JPN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-lifeExpectancy-2024, claim TL:JPN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JPN:urbanPct:2024",
+   "id": "TL:JPN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 92.1901718034531,
-   "display": "92.2%",
+   "value": 92.3001449420786,
+   "display": "92.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-urbanPct-2024, claim TL:JPN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-urbanPct-2025, claim TL:JPN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JPN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-fertility-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-fertility-2024, claim TL:JPN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-wgiVoice-2024, claim TL:JPN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-wgiStability-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-wgiStability-2024, claim TL:JPN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-wgiEffectiveness-2024, claim TL:JPN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-wgiRegQuality-2024, claim TL:JPN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-wgiRuleOfLaw-2024, claim TL:JPN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-wgiCorruption-2024, claim TL:JPN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-healthSpendPctGdp-2023, claim TL:JPN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-physicians-2022",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-physicians-2022, claim TL:JPN:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-underFiveMortality-2024, claim TL:JPN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-measlesImmunisation-2024, claim TL:JPN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-safeWater-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-safeWater-2024, claim TL:JPN:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-eduSpendPctGdp-2021",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-eduSpendPctGdp-2021, claim TL:JPN:eduSpendPctGdp:2021, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-primaryEnrolment-2023, claim TL:JPN:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-secondaryEnrolment-2023, claim TL:JPN:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-tertiaryEnrolment-2023, claim TL:JPN:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-rdSpending-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-rdSpending-2023, claim TL:JPN:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-researchers-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-researchers-2023, claim TL:JPN:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-internetUsers-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-internetUsers-2024, claim TL:JPN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-mobileSubs-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-mobileSubs-2023, claim TL:JPN:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-highTechExports-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-highTechExports-2024, claim TL:JPN:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-landArea-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-landArea-2023, claim TL:JPN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-forestPct-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-forestPct-2023, claim TL:JPN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-agriPct-2023",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-agriPct-2023, claim TL:JPN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-co2PerCapita-2024, claim TL:JPN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-renewablePct-2021",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-renewablePct-2021, claim TL:JPN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-resourceRents-2021",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-resourceRents-2021, claim TL:JPN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-oilRents-2021",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-oilRents-2021, claim TL:JPN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-mineralRents-2021",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-mineralRents-2021, claim TL:JPN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-forestRents-2021",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-forestRents-2021, claim TL:JPN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JPN:electricityAccess:2023",
+   "id": "TL:JPN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JPN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-electricityAccess-2023, claim TL:JPN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JPN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-electricityAccess-2024, claim TL:JPN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JPN:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-milExpPctGdp-2024, claim TL:JPN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-milExpUsd-2024, claim TL:JPN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JPN#claim-armedForces-2020",
    "citation": "Terralore, \"Japan — national dossier\", terralore.co/country/JPN#claim-armedForces-2020, claim TL:JPN:armedForces:2020, retrieved <YYYY-MM-DD>."

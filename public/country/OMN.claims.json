@@ -3,95 +3,95 @@
  "name": "Oman",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/OMN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:OMN:gdp:2024",
+   "id": "TL:OMN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 107137198769.386,
-   "display": "$107 B",
+   "value": 109604780696.23,
+   "display": "$110 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-gdp-2024",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-gdp-2024, claim TL:OMN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-gdp-2025",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-gdp-2025, claim TL:OMN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:OMN:gdpPerCapita:2024",
+   "id": "TL:OMN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 20285.2272897377,
-   "display": "$20,285",
+   "value": 19947.3966227092,
+   "display": "$19,947",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-gdpPerCapita-2024, claim TL:OMN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-gdpPerCapita-2025, claim TL:OMN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:OMN:gdpGrowth:2024",
+   "id": "TL:OMN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.63163221127449,
-   "display": "1.6%",
+   "value": 2.39787382295398,
+   "display": "2.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-gdpGrowth-2024, claim TL:OMN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-gdpGrowth-2025, claim TL:OMN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:OMN:inflation:2024",
+   "id": "TL:OMN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.593589236248469,
-   "display": "0.6%",
+   "value": 0.967741935483928,
+   "display": "1.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-inflation-2024",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-inflation-2024, claim TL:OMN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-inflation-2025",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-inflation-2025, claim TL:OMN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:OMN:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 114.852671522017,
+   "value": 114.852671596819,
    "display": "114.9%",
    "unit": "% of GDP",
    "observed": 2024,
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-tradePctGdp-2024, claim TL:OMN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:OMN:population:2024",
+   "id": "TL:OMN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 5281538,
-   "display": "5.3 m",
+   "value": 5494691,
+   "display": "5.5 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-population-2024",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-population-2024, claim TL:OMN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-population-2025",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-population-2025, claim TL:OMN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:OMN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-lifeExpectancy-2024, claim TL:OMN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:OMN:urbanPct:2024",
+   "id": "TL:OMN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 79.4440302814714,
-   "display": "79.4%",
+   "value": 79.4781383307689,
+   "display": "79.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-urbanPct-2024, claim TL:OMN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-urbanPct-2025, claim TL:OMN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:OMN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-fertility-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-fertility-2024, claim TL:OMN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-literacy-2022",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-literacy-2022, claim TL:OMN:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-wgiVoice-2024, claim TL:OMN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-wgiStability-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-wgiStability-2024, claim TL:OMN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-wgiEffectiveness-2024, claim TL:OMN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-wgiRegQuality-2024, claim TL:OMN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-wgiRuleOfLaw-2024, claim TL:OMN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-wgiCorruption-2024, claim TL:OMN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-healthSpendPctGdp-2023, claim TL:OMN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-physicians-2022",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-physicians-2022, claim TL:OMN:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-underFiveMortality-2024, claim TL:OMN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-measlesImmunisation-2024, claim TL:OMN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-safeWater-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-safeWater-2024, claim TL:OMN:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-literacyRate-2022",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-literacyRate-2022, claim TL:OMN:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-eduSpendPctGdp-2022, claim TL:OMN:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-primaryEnrolment-2024, claim TL:OMN:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-secondaryEnrolment-2024, claim TL:OMN:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-tertiaryEnrolment-2024, claim TL:OMN:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-rdSpending-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-rdSpending-2024, claim TL:OMN:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-researchers-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-researchers-2024, claim TL:OMN:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-internetUsers-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-internetUsers-2024, claim TL:OMN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-mobileSubs-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-mobileSubs-2024, claim TL:OMN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-highTechExports-2023",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-highTechExports-2023, claim TL:OMN:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-landArea-2023",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-landArea-2023, claim TL:OMN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-forestPct-2023",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-forestPct-2023, claim TL:OMN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-agriPct-2023",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-agriPct-2023, claim TL:OMN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-co2PerCapita-2024, claim TL:OMN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-renewablePct-2021",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-renewablePct-2021, claim TL:OMN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-resourceRents-2021",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-resourceRents-2021, claim TL:OMN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-oilRents-2021",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-oilRents-2021, claim TL:OMN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-mineralRents-2021",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-mineralRents-2021, claim TL:OMN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-forestRents-2021",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-forestRents-2021, claim TL:OMN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:OMN:electricityAccess:2023",
+   "id": "TL:OMN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/OMN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-electricityAccess-2023, claim TL:OMN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/OMN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-electricityAccess-2024, claim TL:OMN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:OMN:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-milExpPctGdp-2024, claim TL:OMN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-milExpUsd-2024, claim TL:OMN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/OMN#claim-armedForces-2020",
    "citation": "Terralore, \"Oman — national dossier\", terralore.co/country/OMN#claim-armedForces-2020, claim TL:OMN:armedForces:2020, retrieved <YYYY-MM-DD>."

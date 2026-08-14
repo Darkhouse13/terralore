@@ -3,7 +3,7 @@
 South Africa and Zimbabwe side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/zaf-vs-zwe
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | South Africa | Observed | Zimbabwe | Observed |
 |---|---|---|---|---|
-| GDP | $401 B | 2024 | $42 B | 2024 |
-| GDP per capita | $6,267 | 2024 | $2,497 | 2024 |
-| GDP growth | 0.5% | 2024 | 1.7% | 2024 |
-| Inflation | 4.4% | 2024 | 104.7% | 2022 |
-| Trade openness | 61.6% | 2024 | 41.5% | 2024 |
+| GDP | $427 B | 2025 | $51 B | 2025 |
+| GDP per capita | $6,598 | 2025 | $3,021 | 2025 |
+| GDP growth | 1.1% | 2025 | 8.1% | 2025 |
+| Inflation | 3.2% | 2025 | 104.7% | 2022 |
+| Trade openness | 60.9% | 2025 | 41.5% | 2024 |
 
 ## Society
 
 | Metric | South Africa | Observed | Zimbabwe | Observed |
 |---|---|---|---|---|
-| Population | 64 m | 2024 | 17 m | 2024 |
+| Population | 65 m | 2025 | 17 m | 2025 |
 | Life expectancy | 66.3 yrs | 2024 | 63.1 yrs | 2024 |
-| Urban population | 63.7% | 2024 | 39.9% | 2024 |
+| Urban population | 63.8% | 2025 | 40.5% | 2025 |
 | Fertility rate | 2.2 | 2024 | 3.7 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.4% | 2021 | 0.0% | 2021 |
 | Mineral rents | 3.8% | 2021 | 4.2% | 2021 |
 | Forest rents | 0.6% | 2021 | 1.8% | 2021 |
-| Electricity access | 87.7% | 2023 | 62.0% | 2023 |
+| Electricity access | 90.2% | 2024 | 62.0% | 2024 |
 | Iron ore | 66 Mt | 2025 | — | — |
 | Gold (mined) | 90 t | 2025 | — | — |
 | Phosphate rock | 2.2 Mt | 2025 | — | — |
@@ -115,14 +115,14 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/ZAF/chronicle.md and https://terralore.co/country/ZWE/chronicle.md.
 

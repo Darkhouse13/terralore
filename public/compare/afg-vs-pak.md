@@ -3,7 +3,7 @@
 Afghanistan and Pakistan side by side: 41 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/afg-vs-pak
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Afghanistan | Observed | Pakistan | Observed |
 |---|---|---|---|---|
-| GDP | $17 B | 2023 | $372 B | 2024 |
-| GDP per capita | $414 | 2023 | $1,479 | 2024 |
-| GDP growth | 2.3% | 2023 | 3.0% | 2024 |
-| Inflation | -6.6% | 2024 | 12.6% | 2024 |
-| Trade openness | 67.6% | 2023 | 27.6% | 2024 |
+| GDP | $18 B | 2024 | $407 B | 2025 |
+| GDP per capita | $417 | 2024 | $1,596 | 2025 |
+| GDP growth | 1.9% | 2024 | 3.7% | 2025 |
+| Inflation | -6.6% | 2024 | 3.5% | 2025 |
+| Trade openness | 83.8% | 2024 | 27.2% | 2025 |
 
 ## Society
 
 | Metric | Afghanistan | Observed | Pakistan | Observed |
 |---|---|---|---|---|
-| Population | 43 m | 2024 | 251 m | 2024 |
+| Population | 44 m | 2025 | 255 m | 2025 |
 | Life expectancy | 66.3 yrs | 2024 | 67.8 yrs | 2024 |
-| Urban population | 25.7% | 2024 | 39.2% | 2024 |
+| Urban population | 25.9% | 2025 | 39.5% | 2025 |
 | Fertility rate | 4.8 | 2024 | 3.5 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.4% | 2021 |
 | Mineral rents | 0.0% | 2021 | 0.1% | 2021 |
 | Forest rents | 0.4% | 2021 | 0.1% | 2021 |
-| Electricity access | 85.3% | 2023 | 95.6% | 2023 |
+| Electricity access | 87.8% | 2024 | 95.7% | 2024 |
 
 ## Military
 
@@ -110,13 +110,13 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/AFG/chronicle.md and https://terralore.co/country/PAK/chronicle.md.
 

@@ -3,7 +3,7 @@
 Rwanda and Uganda side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/rwa-vs-uga
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Rwanda | Observed | Uganda | Observed |
 |---|---|---|---|---|
-| GDP | $14 B | 2024 | $54 B | 2024 |
-| GDP per capita | $1,000 | 2024 | $1,078 | 2024 |
-| GDP growth | 8.9% | 2024 | 6.1% | 2024 |
-| Inflation | 1.8% | 2024 | 3.3% | 2024 |
-| Trade openness | 70.0% | 2024 | 42.7% | 2024 |
+| GDP | $16 B | 2025 | $62 B | 2025 |
+| GDP per capita | $1,124 | 2025 | $1,206 | 2025 |
+| GDP growth | 9.4% | 2025 | 6.3% | 2025 |
+| Inflation | 5.9% | 2025 | 3.6% | 2025 |
+| Trade openness | 56.7% | 2025 | 50.2% | 2025 |
 
 ## Society
 
 | Metric | Rwanda | Observed | Uganda | Observed |
 |---|---|---|---|---|
-| Population | 14 m | 2024 | 50 m | 2024 |
+| Population | 15 m | 2025 | 51 m | 2025 |
 | Life expectancy | 68.0 yrs | 2024 | 68.5 yrs | 2024 |
-| Urban population | 29.9% | 2024 | 31.3% | 2024 |
+| Urban population | 30.9% | 2025 | 31.9% | 2025 |
 | Fertility rate | 3.6 | 2024 | 4.2 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.0% | 2021 |
 | Mineral rents | 0.0% | 2021 | 0.0% | 2021 |
 | Forest rents | 4.0% | 2021 | 7.5% | 2021 |
-| Electricity access | 63.9% | 2023 | 51.5% | 2023 |
+| Electricity access | 72.0% | 2024 | 55.3% | 2024 |
 
 ## Military
 
@@ -110,13 +110,13 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/RWA/chronicle.md and https://terralore.co/country/UGA/chronicle.md.
 

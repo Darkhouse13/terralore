@@ -3,108 +3,108 @@
  "name": "Turkmenistan",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/TKM",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:TKM:gdp:2024",
+   "id": "TL:TKM:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 51387209872.2994,
-   "display": "$51 B",
+   "value": 49828621355.6516,
+   "display": "$50 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-gdp-2024",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-gdp-2024, claim TL:TKM:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-gdp-2025",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-gdp-2025, claim TL:TKM:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TKM:gdpPerCapita:2024",
+   "id": "TL:TKM:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 6856.65802730208,
-   "display": "$6,857",
+   "value": 6540.17876401136,
+   "display": "$6,540",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-gdpPerCapita-2024, claim TL:TKM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-gdpPerCapita-2025, claim TL:TKM:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TKM:gdpGrowth:2024",
+   "id": "TL:TKM:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 6.2994265836889,
+   "value": 6.30000003697894,
    "display": "6.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-gdpGrowth-2024, claim TL:TKM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-gdpGrowth-2025, claim TL:TKM:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TKM:tradePctGdp:2024",
+   "id": "TL:TKM:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 28.7346076303052,
-   "display": "28.7%",
+   "value": 28.1660712907997,
+   "display": "28.2%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-tradePctGdp-2024, claim TL:TKM:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-tradePctGdp-2025, claim TL:TKM:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TKM:population:2024",
+   "id": "TL:TKM:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 7494498,
-   "display": "7.5 m",
+   "value": 7618847,
+   "display": "7.6 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-population-2024",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-population-2024, claim TL:TKM:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-population-2025",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-population-2025, claim TL:TKM:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TKM:lifeExpectancy:2024",
@@ -121,30 +121,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-lifeExpectancy-2024, claim TL:TKM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TKM:urbanPct:2024",
+   "id": "TL:TKM:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 47.0875253910294,
+   "value": 47.1053608253747,
    "display": "47.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-urbanPct-2024",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-urbanPct-2024, claim TL:TKM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-urbanPct-2025",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-urbanPct-2025, claim TL:TKM:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TKM:fertility:2024",
@@ -161,7 +161,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-fertility-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-fertility-2024, claim TL:TKM:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-literacy-2022",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-literacy-2022, claim TL:TKM:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-wgiVoice-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-wgiVoice-2024, claim TL:TKM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-wgiStability-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-wgiStability-2024, claim TL:TKM:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-wgiEffectiveness-2024, claim TL:TKM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-wgiRegQuality-2024, claim TL:TKM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-wgiRuleOfLaw-2024, claim TL:TKM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-wgiCorruption-2024, claim TL:TKM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-healthSpendPctGdp-2023, claim TL:TKM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-physicians-2023",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-physicians-2023, claim TL:TKM:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-underFiveMortality-2024, claim TL:TKM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-measlesImmunisation-2024, claim TL:TKM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-safeWater-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-safeWater-2024, claim TL:TKM:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-literacyRate-2022",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-literacyRate-2022, claim TL:TKM:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-eduSpendPctGdp-2024, claim TL:TKM:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-primaryEnrolment-2024, claim TL:TKM:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-secondaryEnrolment-2024, claim TL:TKM:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-tertiaryEnrolment-2024, claim TL:TKM:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-rdSpending-2023",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-rdSpending-2023, claim TL:TKM:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-internetUsers-2016",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-internetUsers-2016, claim TL:TKM:internetUsers:2016, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-mobileSubs-2021",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-mobileSubs-2021, claim TL:TKM:mobileSubs:2021, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-landArea-2023",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-landArea-2023, claim TL:TKM:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-forestPct-2023",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-forestPct-2023, claim TL:TKM:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-agriPct-2023",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-agriPct-2023, claim TL:TKM:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-co2PerCapita-2024, claim TL:TKM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-renewablePct-2021",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-renewablePct-2021, claim TL:TKM:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-resourceRents-2019",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-resourceRents-2019, claim TL:TKM:resourceRents:2019, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-oilRents-2019",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-oilRents-2019, claim TL:TKM:oilRents:2019, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-mineralRents-2019",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-mineralRents-2019, claim TL:TKM:mineralRents:2019, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-forestRents-2019",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-forestRents-2019, claim TL:TKM:forestRents:2019, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TKM:electricityAccess:2023",
+   "id": "TL:TKM:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TKM#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-electricityAccess-2023, claim TL:TKM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TKM#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-electricityAccess-2024, claim TL:TKM:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TKM:armedForces:2020",
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TKM#claim-armedForces-2020",
    "citation": "Terralore, \"Turkmenistan — national dossier\", terralore.co/country/TKM#claim-armedForces-2020, claim TL:TKM:armedForces:2020, retrieved <YYYY-MM-DD>."

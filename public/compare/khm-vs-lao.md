@@ -3,7 +3,7 @@
 Cambodia and Laos side by side: 43 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/khm-vs-lao
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Cambodia | Observed | Laos | Observed |
 |---|---|---|---|---|
-| GDP | $46 B | 2024 | $17 B | 2024 |
-| GDP per capita | $2,628 | 2024 | $2,124 | 2024 |
-| GDP growth | 6.0% | 2024 | 4.1% | 2024 |
-| Inflation | 0.8% | 2024 | 23.1% | 2024 |
-| Trade openness | 143.4% | 2024 | 75.1% | 2016 |
+| GDP | $51 B | 2025 | $18 B | 2025 |
+| GDP per capita | $2,872 | 2025 | $2,325 | 2025 |
+| GDP growth | 5.3% | 2025 | 4.5% | 2025 |
+| Inflation | 2.4% | 2025 | 7.7% | 2025 |
+| Trade openness | 136.1% | 2025 | 75.1% | 2016 |
 
 ## Society
 
 | Metric | Cambodia | Observed | Laos | Observed |
 |---|---|---|---|---|
-| Population | 18 m | 2024 | 7.8 m | 2024 |
+| Population | 18 m | 2025 | 7.9 m | 2025 |
 | Life expectancy | 70.8 yrs | 2024 | 69.2 yrs | 2024 |
-| Urban population | 40.9% | 2024 | 39.6% | 2024 |
+| Urban population | 41.1% | 2025 | 40.3% | 2025 |
 | Fertility rate | 2.5 | 2024 | 2.4 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.0% | 2021 |
 | Mineral rents | 0.0% | 2021 | 3.9% | 2021 |
 | Forest rents | 0.8% | 2021 | 1.5% | 2021 |
-| Electricity access | 95.0% | 2023 | 96.5% | 2023 |
+| Electricity access | 99.2% | 2024 | 96.5% | 2024 |
 
 ## Military
 
@@ -110,13 +110,13 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/KHM/chronicle.md and https://terralore.co/country/LAO/chronicle.md.
 

@@ -3,128 +3,128 @@
  "name": "Mozambique",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MOZ",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MOZ:gdp:2024",
+   "id": "TL:MOZ:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 22745341305.0622,
-   "display": "$23 B",
+   "value": 22337997046.1913,
+   "display": "$22 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-gdp-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-gdp-2024, claim TL:MOZ:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-gdp-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-gdp-2025, claim TL:MOZ:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:gdpPerCapita:2024",
+   "id": "TL:MOZ:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 656.776824637306,
-   "display": "$657",
+   "value": 626.914419215727,
+   "display": "$627",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-gdpPerCapita-2024, claim TL:MOZ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-gdpPerCapita-2025, claim TL:MOZ:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:gdpGrowth:2024",
+   "id": "TL:MOZ:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.14854964610538,
-   "display": "2.1%",
+   "value": -0.523485382072337,
+   "display": "-0.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-gdpGrowth-2024, claim TL:MOZ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-gdpGrowth-2025, claim TL:MOZ:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:inflation:2024",
+   "id": "TL:MOZ:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.07856834812022,
-   "display": "4.1%",
+   "value": 4.3684695014615,
+   "display": "4.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-inflation-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-inflation-2024, claim TL:MOZ:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-inflation-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-inflation-2025, claim TL:MOZ:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:tradePctGdp:2024",
+   "id": "TL:MOZ:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 95.659420351194,
-   "display": "95.7%",
+   "value": 97.1038097628682,
+   "display": "97.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-tradePctGdp-2024, claim TL:MOZ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-tradePctGdp-2025, claim TL:MOZ:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:population:2024",
+   "id": "TL:MOZ:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 34631766,
-   "display": "35 m",
+   "value": 35631653,
+   "display": "36 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-population-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-population-2024, claim TL:MOZ:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-population-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-population-2025, claim TL:MOZ:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MOZ:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-lifeExpectancy-2024, claim TL:MOZ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:urbanPct:2024",
+   "id": "TL:MOZ:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 36.4332337447237,
-   "display": "36.4%",
+   "value": 37.2077944927189,
+   "display": "37.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-urbanPct-2024",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-urbanPct-2024, claim TL:MOZ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-urbanPct-2025",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-urbanPct-2025, claim TL:MOZ:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MOZ:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-fertility-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-fertility-2024, claim TL:MOZ:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-literacy-2022",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-literacy-2022, claim TL:MOZ:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-wgiVoice-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-wgiVoice-2024, claim TL:MOZ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-wgiStability-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-wgiStability-2024, claim TL:MOZ:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-wgiEffectiveness-2024, claim TL:MOZ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-wgiRegQuality-2024, claim TL:MOZ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-wgiRuleOfLaw-2024, claim TL:MOZ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-wgiCorruption-2024, claim TL:MOZ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-healthSpendPctGdp-2023, claim TL:MOZ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-physicians-2022",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-physicians-2022, claim TL:MOZ:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-underFiveMortality-2024, claim TL:MOZ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-measlesImmunisation-2024, claim TL:MOZ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-safeWater-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-safeWater-2024, claim TL:MOZ:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-literacyRate-2022",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-literacyRate-2022, claim TL:MOZ:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-eduSpendPctGdp-2022, claim TL:MOZ:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-primaryEnrolment-2022",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-primaryEnrolment-2022, claim TL:MOZ:primaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-secondaryEnrolment-2017",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-secondaryEnrolment-2017, claim TL:MOZ:secondaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-tertiaryEnrolment-2018",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-tertiaryEnrolment-2018, claim TL:MOZ:tertiaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-rdSpending-2015",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-rdSpending-2015, claim TL:MOZ:rdSpending:2015, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-researchers-2015",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-researchers-2015, claim TL:MOZ:researchers:2015, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-internetUsers-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-internetUsers-2024, claim TL:MOZ:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-mobileSubs-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-mobileSubs-2024, claim TL:MOZ:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-highTechExports-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-highTechExports-2024, claim TL:MOZ:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-landArea-2023",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-landArea-2023, claim TL:MOZ:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-forestPct-2023",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-forestPct-2023, claim TL:MOZ:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-agriPct-2023",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-agriPct-2023, claim TL:MOZ:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-co2PerCapita-2024, claim TL:MOZ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-renewablePct-2021",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-renewablePct-2021, claim TL:MOZ:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-resourceRents-2021",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-resourceRents-2021, claim TL:MOZ:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-oilRents-2021",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-oilRents-2021, claim TL:MOZ:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-mineralRents-2021",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-mineralRents-2021, claim TL:MOZ:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-forestRents-2021",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-forestRents-2021, claim TL:MOZ:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MOZ:electricityAccess:2023",
+   "id": "TL:MOZ:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 36,
-   "display": "36.0%",
+   "value": 36.9,
+   "display": "36.9%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MOZ#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-electricityAccess-2023, claim TL:MOZ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MOZ#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-electricityAccess-2024, claim TL:MOZ:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MOZ:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-milExpPctGdp-2024, claim TL:MOZ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-milExpUsd-2024",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-milExpUsd-2024, claim TL:MOZ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MOZ#claim-armedForces-2020",
    "citation": "Terralore, \"Mozambique — national dossier\", terralore.co/country/MOZ#claim-armedForces-2020, claim TL:MOZ:armedForces:2020, retrieved <YYYY-MM-DD>."

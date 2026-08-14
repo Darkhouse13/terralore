@@ -3,7 +3,7 @@
 Phosphate rock ranked across 23 producing nations, highest to lowest. China highest at 110 Mt (2025). Each figure carries its publisher and observation…
 
 Canonical: https://terralore.co/rankings/phosphate-production
-Updated: 2026-08-10 (the resources domain's last refresh)
+Updated: 2026-08-14 (the resources domain's last refresh)
 
 Definition: Phosphate rock mined, the raw material of most fertiliser. The latest year is a USGS estimate.
 Unit: tonnes. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -40,6 +40,6 @@ Note: the USGS names only the producers it lists; a nation absent here is not re
 
 ## Sources
 
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Citation template: Terralore, "Phosphate rock by nation — world ranking", terralore.co/rankings/phosphate-production, retrieved <YYYY-MM-DD>.

@@ -3,7 +3,7 @@
 Adult literacy ranked across 141 nations, highest to lowest. North Korea highest at 100.0% (2008). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/literacy
-Updated: 2026-08-10 (the education domain's last refresh)
+Updated: 2026-08-14 (the education domain's last refresh)
 
 Definition: Share of people aged 15 and over who can read and write a short simple statement about their everyday life. Many high-income countries stopped surveying this, so the figure is often missing rather than low.
 Unit: %. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -210,6 +210,6 @@ The same figures appear identically in the dossier's Education tab and its Socie
 
 ## Sources
 
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
 
 Citation template: Terralore, "Adult literacy by nation — world ranking", terralore.co/rankings/literacy, retrieved <YYYY-MM-DD>.

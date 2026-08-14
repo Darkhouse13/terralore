@@ -3,7 +3,7 @@
 Voice & accountability ranked across 179 nations, highest to lowest. Norway highest at 90.6 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/voice-and-accountability
-Updated: 2026-08-10 (the governance domain's last refresh)
+Updated: 2026-08-14 (the governance domain's last refresh)
 
 Definition: How far citizens can select their government, speak freely, associate and access a free press — a 0–100 score aggregated from survey and expert assessments.
 Unit: score. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 Citation template: Terralore, "Voice & accountability by nation — world ranking", terralore.co/rankings/voice-and-accountability, retrieved <YYYY-MM-DD>.

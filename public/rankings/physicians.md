@@ -3,7 +3,7 @@
 Physicians ranked across 174 nations, highest to lowest. Cuba highest at 9.54 (2021). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/physicians
-Updated: 2026-08-10 (the health domain's last refresh)
+Updated: 2026-08-14 (the health domain's last refresh)
 
 Definition: Practising physicians per 1,000 people, from the most recent year a count was reported.
 Unit: per 1,000. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
 
 Citation template: Terralore, "Physicians by nation — world ranking", terralore.co/rankings/physicians, retrieved <YYYY-MM-DD>.

@@ -3,128 +3,128 @@
  "name": "Sweden",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SWE",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SWE:gdp:2024",
+   "id": "TL:SWE:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 603715224265.798,
-   "display": "$604 B",
+   "value": 668998664082.081,
+   "display": "$669 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-gdp-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-gdp-2024, claim TL:SWE:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-gdp-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-gdp-2025, claim TL:SWE:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:gdpPerCapita:2024",
+   "id": "TL:SWE:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 57117.4877440616,
-   "display": "$57,117",
+   "value": 63133.2126736715,
+   "display": "$63,133",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-gdpPerCapita-2024, claim TL:SWE:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-gdpPerCapita-2025, claim TL:SWE:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:gdpGrowth:2024",
+   "id": "TL:SWE:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 0.820071806703865,
-   "display": "0.8%",
+   "value": 1.54316373266217,
+   "display": "1.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-gdpGrowth-2024, claim TL:SWE:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-gdpGrowth-2025, claim TL:SWE:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:inflation:2024",
+   "id": "TL:SWE:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.83581658224034,
-   "display": "2.8%",
+   "value": 0.679869285243995,
+   "display": "0.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-inflation-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-inflation-2024, claim TL:SWE:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-inflation-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-inflation-2025, claim TL:SWE:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:tradePctGdp:2024",
+   "id": "TL:SWE:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 105.883091480464,
-   "display": "105.9%",
+   "value": 104.335210186728,
+   "display": "104.3%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-tradePctGdp-2024, claim TL:SWE:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-tradePctGdp-2025, claim TL:SWE:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:population:2024",
+   "id": "TL:SWE:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 10569709,
+   "value": 10596620,
    "display": "11 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-population-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-population-2024, claim TL:SWE:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-population-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-population-2025, claim TL:SWE:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWE:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-lifeExpectancy-2024, claim TL:SWE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:urbanPct:2024",
+   "id": "TL:SWE:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 88.8559748346228,
-   "display": "88.9%",
+   "value": 89.0778677789555,
+   "display": "89.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-urbanPct-2024",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-urbanPct-2024, claim TL:SWE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-urbanPct-2025",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-urbanPct-2025, claim TL:SWE:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWE:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-fertility-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-fertility-2024, claim TL:SWE:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-wgiVoice-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-wgiVoice-2024, claim TL:SWE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-wgiStability-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-wgiStability-2024, claim TL:SWE:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-wgiEffectiveness-2024, claim TL:SWE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-wgiRegQuality-2024, claim TL:SWE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-wgiRuleOfLaw-2024, claim TL:SWE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-wgiCorruption-2024, claim TL:SWE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-healthSpendPctGdp-2024, claim TL:SWE:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-physicians-2021",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-physicians-2021, claim TL:SWE:physicians:2021, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-underFiveMortality-2024, claim TL:SWE:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-measlesImmunisation-2024, claim TL:SWE:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-safeWater-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-safeWater-2024, claim TL:SWE:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-eduSpendPctGdp-2022, claim TL:SWE:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-primaryEnrolment-2024, claim TL:SWE:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-secondaryEnrolment-2024, claim TL:SWE:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-tertiaryEnrolment-2024, claim TL:SWE:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-rdSpending-2023",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-rdSpending-2023, claim TL:SWE:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-researchers-2023",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-researchers-2023, claim TL:SWE:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-internetUsers-2025",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-internetUsers-2025, claim TL:SWE:internetUsers:2025, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-mobileSubs-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-mobileSubs-2024, claim TL:SWE:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-highTechExports-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-highTechExports-2024, claim TL:SWE:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-landArea-2023",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-landArea-2023, claim TL:SWE:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-forestPct-2023",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-forestPct-2023, claim TL:SWE:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-agriPct-2023",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-agriPct-2023, claim TL:SWE:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-co2PerCapita-2024, claim TL:SWE:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-renewablePct-2021",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-renewablePct-2021, claim TL:SWE:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-resourceRents-2021",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-resourceRents-2021, claim TL:SWE:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-oilRents-2021",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-oilRents-2021, claim TL:SWE:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-mineralRents-2021",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-mineralRents-2021, claim TL:SWE:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-forestRents-2021",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-forestRents-2021, claim TL:SWE:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWE:electricityAccess:2023",
+   "id": "TL:SWE:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWE#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-electricityAccess-2023, claim TL:SWE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWE#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-electricityAccess-2024, claim TL:SWE:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWE:prodIronOre:2025",
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-prodIronOre-2025",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-prodIronOre-2025, claim TL:SWE:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-prodZinc-2025",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-prodZinc-2025, claim TL:SWE:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-milExpPctGdp-2024, claim TL:SWE:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-milExpUsd-2024",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-milExpUsd-2024, claim TL:SWE:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWE#claim-armedForces-2020",
    "citation": "Terralore, \"Sweden — national dossier\", terralore.co/country/SWE#claim-armedForces-2020, claim TL:SWE:armedForces:2020, retrieved <YYYY-MM-DD>."

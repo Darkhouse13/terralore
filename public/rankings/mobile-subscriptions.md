@@ -3,7 +3,7 @@
 Mobile subscriptions ranked across 179 nations, highest to lowest. Fiji highest at 574 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/mobile-subscriptions
-Updated: 2026-06-15 (the technology domain's last refresh)
+Updated: 2026-08-14 (the technology domain's last refresh)
 
 Definition: Active mobile-cellular subscriptions per 100 people.
 Unit: per 100. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
 
 Citation template: Terralore, "Mobile subscriptions by nation — world ranking", terralore.co/rankings/mobile-subscriptions, retrieved <YYYY-MM-DD>.

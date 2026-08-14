@@ -3,7 +3,7 @@
 Germany and Luxembourg side by side: 42 shared sourced indicators across 9 domains, and the 10 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/deu-vs-lux
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Germany | Observed | Luxembourg | Observed |
 |---|---|---|---|---|
-| GDP | $4.69 T | 2024 | $93 B | 2024 |
-| GDP per capita | $56,104 | 2024 | $137,782 | 2024 |
-| GDP growth | -0.5% | 2024 | 0.4% | 2024 |
-| Inflation | 2.3% | 2024 | 2.1% | 2024 |
-| Trade openness | 79.1% | 2024 | 351.3% | 2024 |
+| GDP | $5.05 T | 2025 | $101 B | 2025 |
+| GDP per capita | $60,496 | 2025 | $147,252 | 2025 |
+| GDP growth | 0.2% | 2025 | 0.6% | 2025 |
+| Inflation | 2.2% | 2025 | 2.3% | 2025 |
+| Trade openness | 78.5% | 2025 | 349.9% | 2025 |
 
 ## Society
 
 | Metric | Germany | Observed | Luxembourg | Observed |
 |---|---|---|---|---|
-| Population | 84 m | 2024 | 677,000 | 2024 |
+| Population | 83 m | 2025 | 687,000 | 2025 |
 | Life expectancy | 80.8 yrs | 2024 | 83.2 yrs | 2024 |
-| Urban population | 82.0% | 2024 | 94.8% | 2024 |
+| Urban population | 82.1% | 2025 | 94.9% | 2025 |
 | Fertility rate | 1.4 | 2024 | 1.3 | 2024 |
 
 ## Governance
@@ -89,7 +89,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.0% | 2021 |
 | Mineral rents | 0.0% | 2021 | 0.0% | 2021 |
 | Forest rents | 0.0% | 2021 | 0.0% | 2021 |
-| Electricity access | 100.0% | 2023 | 100.0% | 2023 |
+| Electricity access | 100.0% | 2024 | 100.0% | 2024 |
 
 ## Military
 
@@ -118,13 +118,13 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/DEU/chronicle.md and https://terralore.co/country/LUX/chronicle.md.
 

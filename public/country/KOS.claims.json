@@ -3,128 +3,128 @@
  "name": "Kosovo",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/KOS",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:KOS:gdp:2024",
+   "id": "TL:KOS:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 11197246322.588,
-   "display": "$11 B",
+   "value": 12456403306.8191,
+   "display": "$12 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-gdp-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-gdp-2024, claim TL:KOS:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-gdp-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-gdp-2025, claim TL:KOS:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOS:gdpPerCapita:2024",
+   "id": "TL:KOS:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 7023.06598512878,
-   "display": "$7,023",
+   "value": 7899.41841135202,
+   "display": "$7,899",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-gdpPerCapita-2024, claim TL:KOS:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-gdpPerCapita-2025, claim TL:KOS:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOS:gdpGrowth:2024",
+   "id": "TL:KOS:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.5730971681166,
-   "display": "4.6%",
+   "value": 3.59217142544483,
+   "display": "3.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-gdpGrowth-2024, claim TL:KOS:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-gdpGrowth-2025, claim TL:KOS:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOS:inflation:2024",
+   "id": "TL:KOS:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.61944994559476,
-   "display": "1.6%",
+   "value": 3.85953869869506,
+   "display": "3.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-inflation-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-inflation-2024, claim TL:KOS:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-inflation-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-inflation-2025, claim TL:KOS:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOS:tradePctGdp:2024",
+   "id": "TL:KOS:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 113.789651964133,
-   "display": "113.8%",
+   "value": 118.190884160552,
+   "display": "118.2%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-tradePctGdp-2024, claim TL:KOS:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-tradePctGdp-2025, claim TL:KOS:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOS:population:2024",
+   "id": "TL:KOS:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1594353,
+   "value": 1576876,
    "display": "1.6 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-population-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-population-2024, claim TL:KOS:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-population-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-population-2025, claim TL:KOS:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KOS:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-lifeExpectancy-2024, claim TL:KOS:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KOS:urbanPct:2024",
+   "id": "TL:KOS:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 50.3214443938994,
-   "display": "50.3%",
+   "value": 50.9260971650398,
+   "display": "50.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KOS#claim-urbanPct-2024",
-   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-urbanPct-2024, claim TL:KOS:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KOS#claim-urbanPct-2025",
+   "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-urbanPct-2025, claim TL:KOS:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KOS:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-fertility-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-fertility-2024, claim TL:KOS:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-wgiVoice-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-wgiVoice-2024, claim TL:KOS:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-wgiStability-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-wgiStability-2024, claim TL:KOS:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-wgiEffectiveness-2024, claim TL:KOS:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-wgiRegQuality-2024, claim TL:KOS:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-wgiRuleOfLaw-2024, claim TL:KOS:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-wgiCorruption-2024, claim TL:KOS:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-underFiveMortality-2024, claim TL:KOS:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-internetUsers-2018",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-internetUsers-2018, claim TL:KOS:internetUsers:2018, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-mobileSubs-2022",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-mobileSubs-2022, claim TL:KOS:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-resourceRents-2021",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-resourceRents-2021, claim TL:KOS:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-oilRents-2021",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-oilRents-2021, claim TL:KOS:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-mineralRents-2021",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-mineralRents-2021, claim TL:KOS:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-forestRents-2021",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-forestRents-2021, claim TL:KOS:forestRents:2021, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-milExpPctGdp-2024, claim TL:KOS:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KOS#claim-milExpUsd-2024",
    "citation": "Terralore, \"Kosovo — national dossier\", terralore.co/country/KOS#claim-milExpUsd-2024, claim TL:KOS:milExpUsd:2024, retrieved <YYYY-MM-DD>."

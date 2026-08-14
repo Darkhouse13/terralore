@@ -3,128 +3,128 @@
  "name": "Morocco",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MAR",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MAR:gdp:2024",
+   "id": "TL:MAR:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 160610994054.734,
-   "display": "$161 B",
+   "value": 182374250612.28,
+   "display": "$182 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-gdp-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-gdp-2024, claim TL:MAR:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-gdp-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-gdp-2025, claim TL:MAR:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:gdpPerCapita:2024",
+   "id": "TL:MAR:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 4153.1943359375,
-   "display": "$4,153",
+   "value": 4672.46826171875,
+   "display": "$4,672",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-gdpPerCapita-2024, claim TL:MAR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-gdpPerCapita-2025, claim TL:MAR:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:gdpGrowth:2024",
+   "id": "TL:MAR:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.79336515978963,
-   "display": "3.8%",
+   "value": 4.59524349182247,
+   "display": "4.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-gdpGrowth-2024, claim TL:MAR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-gdpGrowth-2025, claim TL:MAR:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:inflation:2024",
+   "id": "TL:MAR:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.985256592004507,
-   "display": "1.0%",
+   "value": 0.701902154839545,
+   "display": "0.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-inflation-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-inflation-2024, claim TL:MAR:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-inflation-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-inflation-2025, claim TL:MAR:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:tradePctGdp:2024",
+   "id": "TL:MAR:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 92.1872446062404,
-   "display": "92.2%",
+   "value": 93.1016567989424,
+   "display": "93.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-tradePctGdp-2024, claim TL:MAR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-tradePctGdp-2025, claim TL:MAR:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:population:2024",
+   "id": "TL:MAR:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 38081173,
+   "value": 38430770,
    "display": "38 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-population-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-population-2024, claim TL:MAR:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-population-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-population-2025, claim TL:MAR:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MAR:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-lifeExpectancy-2024, claim TL:MAR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:urbanPct:2024",
+   "id": "TL:MAR:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 62.7998124018197,
-   "display": "62.8%",
+   "value": 63.1278612260269,
+   "display": "63.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-urbanPct-2024",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-urbanPct-2024, claim TL:MAR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-urbanPct-2025",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-urbanPct-2025, claim TL:MAR:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MAR:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-fertility-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-fertility-2024, claim TL:MAR:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-literacy-2014",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-literacy-2014, claim TL:MAR:literacy:2014, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-wgiVoice-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-wgiVoice-2024, claim TL:MAR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-wgiStability-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-wgiStability-2024, claim TL:MAR:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-wgiEffectiveness-2024, claim TL:MAR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-wgiRegQuality-2024, claim TL:MAR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-wgiRuleOfLaw-2024, claim TL:MAR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-wgiCorruption-2024, claim TL:MAR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-healthSpendPctGdp-2023, claim TL:MAR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-physicians-2021",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-physicians-2021, claim TL:MAR:physicians:2021, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-underFiveMortality-2024, claim TL:MAR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-measlesImmunisation-2024, claim TL:MAR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-safeWater-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-safeWater-2024, claim TL:MAR:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-literacyRate-2014",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-literacyRate-2014, claim TL:MAR:literacyRate:2014, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-eduSpendPctGdp-2023, claim TL:MAR:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-primaryEnrolment-2024, claim TL:MAR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-secondaryEnrolment-2024, claim TL:MAR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-tertiaryEnrolment-2024, claim TL:MAR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-rdSpending-2010",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-rdSpending-2010, claim TL:MAR:rdSpending:2010, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-researchers-2016",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-researchers-2016, claim TL:MAR:researchers:2016, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-internetUsers-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-internetUsers-2024, claim TL:MAR:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-mobileSubs-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-mobileSubs-2024, claim TL:MAR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-highTechExports-2023",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-highTechExports-2023, claim TL:MAR:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-landArea-2023",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-landArea-2023, claim TL:MAR:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-forestPct-2023",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-forestPct-2023, claim TL:MAR:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-agriPct-2023",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-agriPct-2023, claim TL:MAR:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-co2PerCapita-2024, claim TL:MAR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-renewablePct-2021",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-renewablePct-2021, claim TL:MAR:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-resourceRents-2021",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-resourceRents-2021, claim TL:MAR:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-oilRents-2021",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-oilRents-2021, claim TL:MAR:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-mineralRents-2021",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-mineralRents-2021, claim TL:MAR:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-forestRents-2021",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-forestRents-2021, claim TL:MAR:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MAR:electricityAccess:2023",
+   "id": "TL:MAR:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MAR#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-electricityAccess-2023, claim TL:MAR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MAR#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-electricityAccess-2024, claim TL:MAR:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MAR:prodPhosphate:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-prodPhosphate-2025, claim TL:MAR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-milExpPctGdp-2024, claim TL:MAR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-milExpUsd-2024",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-milExpUsd-2024, claim TL:MAR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MAR#claim-armedForces-2020",
    "citation": "Terralore, \"Morocco — national dossier\", terralore.co/country/MAR#claim-armedForces-2020, claim TL:MAR:armedForces:2020, retrieved <YYYY-MM-DD>."

@@ -1,198 +1,198 @@
 # GDP per capita by nation — world ranking
 
-GDP per capita ranked across 179 nations, highest to lowest. Monaco highest at $288,001 (2024). Each figure carries its publisher and observation year.
+GDP per capita ranked across 179 nations, highest to lowest. Monaco highest at $288,002 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/gdp-per-capita
-Updated: 2026-07-29 (the economy domain's last refresh)
+Updated: 2026-08-14 (the economy domain's last refresh)
 
 Definition: GDP divided by population — a rough measure of average economic output per person.
 Unit: USD. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
 
-Note: this table mixes vintages — each publisher carries a nation's latest available year, so observations run from 2011 to 2024. Every row shows its own.
+Note: this table mixes vintages — each publisher carries a nation's latest available year, so observations run from 2011 to 2025. Every row shows its own.
 
 ## Ranking (179 nations)
 
 | Rank | Nation | Value | Observed |
 |---|---|---|---|
-| 1 | Monaco | $288,001 | 2024 |
-| 2 | Liechtenstein | $206,781 | 2023 |
-| 3 | Luxembourg | $137,782 | 2024 |
-| 4 | Ireland | $112,895 | 2024 |
-| 5 | Switzerland | $103,998 | 2024 |
-| 6 | Norway | $86,785 | 2024 |
-| 7 | Iceland | $86,041 | 2024 |
-| 8 | United States | $84,534 | 2024 |
-| 9 | Qatar | $76,689 | 2024 |
-| 10 | Denmark | $71,026 | 2024 |
-| 11 | Netherlands | $67,520 | 2024 |
-| 12 | Australia | $64,604 | 2024 |
-| 13 | San Marino | $59,880 | 2023 |
-| 14 | Greenland | $58,499 | 2023 |
-| 15 | Austria | $58,269 | 2024 |
-| 16 | Sweden | $57,117 | 2024 |
-| 17 | Belgium | $56,615 | 2024 |
-| 18 | Germany | $56,104 | 2024 |
-| 19 | Canada | $54,340 | 2024 |
-| 20 | United Kingdom | $53,246 | 2024 |
-| 21 | Finland | $53,150 | 2024 |
-| 22 | United Arab Emirates | $50,274 | 2024 |
-| 23 | Andorra | $49,304 | 2024 |
-| 24 | New Zealand | $49,205 | 2024 |
-| 25 | France | $46,103 | 2024 |
-| 26 | Malta | $43,899 | 2024 |
-| 27 | Italy | $40,385 | 2024 |
-| 28 | Bahamas | $39,455 | 2024 |
-| 29 | Puerto Rico | $39,344 | 2024 |
-| 30 | Cyprus | $38,674 | 2024 |
-| 31 | South Korea | $36,239 | 2024 |
-| 32 | Spain | $35,327 | 2024 |
-| 33 | Saudi Arabia | $35,122 | 2024 |
-| 34 | Slovenia | $34,301 | 2024 |
-| 35 | Taiwan | $34,252 | 2024 |
-| 36 | Brunei | $33,153 | 2024 |
-| 37 | Kuwait | $32,718 | 2024 |
-| 38 | Japan | $32,487 | 2024 |
-| 39 | Czechia | $31,823 | 2024 |
-| 40 | Estonia | $31,428 | 2024 |
-| 41 | Guyana | $29,675 | 2024 |
-| 42 | Lithuania | $29,384 | 2024 |
-| 43 | Portugal | $29,292 | 2024 |
+| 1 | Monaco | $288,002 | 2024 |
+| 2 | Liechtenstein | $220,167 | 2024 |
+| 3 | Luxembourg | $147,252 | 2025 |
+| 4 | Ireland | $131,592 | 2025 |
+| 5 | Switzerland | $114,769 | 2025 |
+| 6 | Iceland | $98,323 | 2025 |
+| 7 | Norway | $94,594 | 2025 |
+| 8 | United States | $90,027 | 2025 |
+| 9 | Denmark | $76,970 | 2025 |
+| 10 | Netherlands | $73,684 | 2025 |
+| 11 | Qatar | $72,525 | 2025 |
+| 12 | Australia | $65,130 | 2025 |
+| 13 | Sweden | $63,133 | 2025 |
+| 14 | Austria | $62,930 | 2025 |
+| 15 | Belgium | $60,750 | 2025 |
+| 16 | Germany | $60,496 | 2025 |
+| 17 | San Marino | $59,871 | 2023 |
+| 18 | Greenland | $58,499 | 2023 |
+| 19 | United Kingdom | $57,602 | 2025 |
+| 20 | Finland | $56,149 | 2025 |
+| 21 | Canada | $55,698 | 2025 |
+| 22 | Andorra | $54,292 | 2025 |
+| 23 | United Arab Emirates | $50,274 | 2024 |
+| 24 | New Zealand | $49,591 | 2025 |
+| 25 | France | $48,986 | 2025 |
+| 26 | Malta | $47,907 | 2025 |
+| 27 | Italy | $43,309 | 2025 |
+| 28 | Cyprus | $41,783 | 2025 |
+| 29 | Puerto Rico | $40,620 | 2025 |
+| 30 | Bahamas | $39,455 | 2024 |
+| 31 | Spain | $38,627 | 2025 |
+| 32 | Slovenia | $37,376 | 2025 |
+| 33 | South Korea | $36,227 | 2025 |
+| 34 | Japan | $35,951 | 2025 |
+| 35 | Czechia | $35,917 | 2025 |
+| 36 | Saudi Arabia | $34,537 | 2025 |
+| 37 | Estonia | $34,418 | 2025 |
+| 38 | Taiwan | $34,252 | 2024 |
+| 39 | Lithuania | $32,959 | 2025 |
+| 40 | Guyana | $32,414 | 2025 |
+| 41 | Kuwait | $32,312 | 2025 |
+| 42 | Brunei | $32,235 | 2025 |
+| 43 | Portugal | $32,082 | 2025 |
 | 44 | New Caledonia | $29,213 | 2024 |
-| 45 | Slovakia | $25,993 | 2024 |
-| 46 | Poland | $25,104 | 2024 |
-| 47 | Greece | $24,626 | 2024 |
-| 48 | Croatia | $24,050 | 2024 |
-| 49 | Uruguay | $23,907 | 2024 |
-| 50 | Latvia | $23,409 | 2024 |
-| 51 | Hungary | $23,292 | 2024 |
-| 52 | Oman | $20,285 | 2024 |
-| 53 | Romania | $20,080 | 2024 |
-| 54 | Panama | $19,161 | 2024 |
-| 55 | Trinidad and Tobago | $18,733 | 2024 |
-| 56 | Costa Rica | $18,587 | 2024 |
-| 57 | Seychelles | $17,859 | 2024 |
-| 58 | Bulgaria | $17,596 | 2024 |
-| 59 | Chile | $16,710 | 2024 |
-| 60 | Türkiye | $15,893 | 2024 |
-| 61 | Russia | $14,889 | 2024 |
-| 62 | Mexico | $14,186 | 2024 |
-| 63 | Kazakhstan | $14,155 | 2024 |
-| 64 | Argentina | $13,970 | 2024 |
-| 65 | Serbia | $13,679 | 2024 |
-| 66 | China | $13,303 | 2024 |
-| 67 | Montenegro | $13,263 | 2024 |
-| 68 | Mauritius | $11,991 | 2024 |
-| 69 | Malaysia | $11,874 | 2024 |
-| 70 | Albania | $11,378 | 2024 |
-| 71 | Dominican Republic | $10,876 | 2024 |
-| 72 | Brazil | $10,311 | 2024 |
-| 73 | Cuba | $9,605 | 2020 |
-| 74 | Bosnia and Herzegovina | $9,359 | 2024 |
-| 75 | North Macedonia | $9,292 | 2024 |
-| 76 | Georgia | $9,241 | 2024 |
-| 77 | Armenia | $8,556 | 2024 |
-| 78 | Peru | $8,452 | 2024 |
-| 79 | Belarus | $8,318 | 2024 |
-| 80 | Gabon | $8,230 | 2024 |
-| 81 | Colombia | $7,919 | 2024 |
-| 82 | Jamaica | $7,754 | 2024 |
-| 83 | Botswana | $7,696 | 2024 |
-| 84 | Belize | $7,681 | 2024 |
-| 85 | Moldova | $7,576 | 2024 |
-| 86 | Thailand | $7,347 | 2024 |
-| 87 | Azerbaijan | $7,284 | 2024 |
-| 88 | Kosovo | $7,023 | 2024 |
-| 89 | Suriname | $6,962 | 2024 |
-| 90 | Ecuador | $6,875 | 2024 |
-| 91 | Turkmenistan | $6,857 | 2024 |
-| 92 | Mongolia | $6,751 | 2024 |
-| 93 | Equatorial Guinea | $6,745 | 2024 |
-| 94 | Libya | $6,569 | 2024 |
-| 95 | Fiji | $6,426 | 2024 |
-| 96 | Paraguay | $6,416 | 2024 |
-| 97 | South Africa | $6,267 | 2024 |
-| 98 | Guatemala | $6,150 | 2024 |
-| 99 | Iraq | $6,074 | 2024 |
-| 100 | Algeria | $5,753 | 2024 |
-| 101 | El Salvador | $5,580 | 2024 |
-| 102 | Ukraine | $5,389 | 2024 |
-| 103 | Cape Verde | $5,192 | 2024 |
-| 104 | Iran | $5,190 | 2024 |
-| 105 | Indonesia | $4,925 | 2024 |
-| 106 | Vietnam | $4,717 | 2024 |
-| 107 | Jordan | $4,618 | 2024 |
-| 108 | Sri Lanka | $4,516 | 2024 |
-| 109 | Bolivia | $4,421 | 2024 |
-| 110 | Namibia | $4,413 | 2024 |
-| 111 | Venezuela | $4,218 | 2024 |
-| 112 | Tunisia | $4,181 | 2024 |
-| 113 | Morocco | $4,153 | 2024 |
-| 114 | Philippines | $3,985 | 2024 |
-| 115 | Eswatini | $3,910 | 2024 |
-| 116 | Bhutan | $3,831 | 2023 |
-| 117 | Djibouti | $3,553 | 2024 |
-| 118 | São Tomé and Príncipe | $3,491 | 2024 |
-| 119 | Lebanon | $3,478 | 2023 |
-| 120 | Honduras | $3,426 | 2024 |
-| 121 | Vanuatu | $3,411 | 2024 |
-| 122 | Egypt | $3,338 | 2024 |
-| 123 | Uzbekistan | $3,162 | 2024 |
-| 124 | Papua New Guinea | $3,007 | 2024 |
-| 125 | Nicaragua | $2,848 | 2024 |
-| 126 | Ivory Coast | $2,728 | 2024 |
-| 127 | India | $2,695 | 2024 |
-| 128 | Angola | $2,666 | 2024 |
-| 129 | Cambodia | $2,628 | 2024 |
-| 130 | Bangladesh | $2,593 | 2024 |
-| 131 | Palestine | $2,592 | 2024 |
-| 132 | Zimbabwe | $2,497 | 2024 |
-| 133 | Congo | $2,482 | 2024 |
-| 134 | Kyrgyzstan | $2,420 | 2024 |
-| 135 | Ghana | $2,391 | 2024 |
-| 136 | Haiti | $2,143 | 2024 |
-| 137 | Kenya | $2,132 | 2024 |
-| 138 | Laos | $2,124 | 2024 |
-| 139 | Mauritania | $2,110 | 2024 |
-| 140 | Solomon Islands | $1,934 | 2024 |
-| 141 | Cameroon | $1,830 | 2024 |
-| 142 | Senegal | $1,773 | 2024 |
-| 143 | Guinea | $1,695 | 2024 |
-| 144 | Comoros | $1,663 | 2024 |
-| 145 | Benin | $1,485 | 2024 |
-| 146 | Pakistan | $1,479 | 2024 |
-| 147 | Nepal | $1,447 | 2024 |
-| 148 | Myanmar | $1,359 | 2024 |
-| 149 | Tajikistan | $1,341 | 2024 |
-| 150 | Timor-Leste | $1,332 | 2024 |
-| 151 | Zambia | $1,187 | 2024 |
-| 152 | Tanzania | $1,187 | 2024 |
-| 153 | Ethiopia | $1,134 | 2024 |
-| 154 | Togo | $1,119 | 2024 |
-| 155 | Mali | $1,095 | 2024 |
-| 156 | Nigeria | $1,084 | 2024 |
-| 157 | South Sudan | $1,080 | 2015 |
-| 158 | Uganda | $1,078 | 2024 |
-| 159 | Syria | $1,052 | 2022 |
-| 160 | Guinea-Bissau | $1,008 | 2024 |
-| 161 | Rwanda | $1,000 | 2024 |
-| 162 | Sudan | $985 | 2024 |
-| 163 | Burkina Faso | $982 | 2024 |
-| 164 | Lesotho | $972 | 2024 |
-| 165 | Chad | $962 | 2024 |
-| 166 | Gambia | $871 | 2024 |
-| 167 | Liberia | $851 | 2024 |
-| 168 | Sierra Leone | $807 | 2024 |
-| 169 | Niger | $735 | 2024 |
-| 170 | Eritrea | $689 | 2011 |
-| 171 | Mozambique | $657 | 2024 |
-| 172 | DR Congo | $649 | 2024 |
-| 173 | Yemen | $634 | 2018 |
-| 174 | Somalia | $630 | 2024 |
-| 175 | Madagascar | $545 | 2024 |
-| 176 | Malawi | $523 | 2024 |
-| 177 | Central African Republic | $516 | 2024 |
-| 178 | Afghanistan | $414 | 2023 |
-| 179 | Burundi | $219 | 2024 |
+| 45 | Slovakia | $28,544 | 2025 |
+| 46 | Poland | $28,420 | 2025 |
+| 47 | Croatia | $27,104 | 2025 |
+| 48 | Greece | $26,948 | 2025 |
+| 49 | Latvia | $26,312 | 2025 |
+| 50 | Hungary | $25,907 | 2025 |
+| 51 | Uruguay | $25,216 | 2025 |
+| 52 | Romania | $22,538 | 2025 |
+| 53 | Bulgaria | $20,328 | 2025 |
+| 54 | Costa Rica | $19,970 | 2025 |
+| 55 | Oman | $19,947 | 2025 |
+| 56 | Panama | $19,790 | 2025 |
+| 57 | Seychelles | $19,449 | 2025 |
+| 58 | Trinidad and Tobago | $18,967 | 2025 |
+| 59 | Türkiye | $18,599 | 2025 |
+| 60 | Chile | $17,995 | 2025 |
+| 61 | Russia | $17,547 | 2025 |
+| 62 | Serbia | $15,262 | 2025 |
+| 63 | Argentina | $14,898 | 2025 |
+| 64 | Montenegro | $14,817 | 2025 |
+| 65 | Kazakhstan | $14,692 | 2025 |
+| 66 | Mexico | $13,889 | 2025 |
+| 67 | China | $13,862 | 2025 |
+| 68 | Malaysia | $13,125 | 2025 |
+| 69 | Albania | $12,998 | 2025 |
+| 70 | Mauritius | $12,991 | 2025 |
+| 71 | Dominican Republic | $11,059 | 2025 |
+| 72 | Brazil | $10,713 | 2025 |
+| 73 | North Macedonia | $10,490 | 2025 |
+| 74 | Bosnia and Herzegovina | $10,382 | 2025 |
+| 75 | Belarus | $10,279 | 2025 |
+| 76 | Georgia | $9,692 | 2025 |
+| 77 | Peru | $9,684 | 2025 |
+| 78 | Cuba | $9,605 | 2020 |
+| 79 | Armenia | $9,474 | 2025 |
+| 80 | Moldova | $8,622 | 2025 |
+| 81 | Colombia | $8,562 | 2025 |
+| 82 | Gabon | $8,263 | 2025 |
+| 83 | Thailand | $8,057 | 2025 |
+| 84 | Jamaica | $8,003 | 2025 |
+| 85 | Kosovo | $7,899 | 2025 |
+| 86 | Belize | $7,865 | 2025 |
+| 87 | Botswana | $7,778 | 2025 |
+| 88 | Azerbaijan | $7,411 | 2025 |
+| 89 | Ecuador | $7,125 | 2025 |
+| 90 | Mongolia | $7,108 | 2025 |
+| 91 | Suriname | $7,070 | 2025 |
+| 92 | Paraguay | $7,027 | 2025 |
+| 93 | Fiji | $6,642 | 2025 |
+| 94 | Equatorial Guinea | $6,615 | 2025 |
+| 95 | Guatemala | $6,598 | 2025 |
+| 96 | South Africa | $6,598 | 2025 |
+| 97 | Turkmenistan | $6,540 | 2025 |
+| 98 | Libya | $6,449 | 2025 |
+| 99 | Algeria | $6,051 | 2025 |
+| 100 | Ukraine | $5,866 | 2025 |
+| 101 | Cape Verde | $5,796 | 2025 |
+| 102 | El Salvador | $5,767 | 2025 |
+| 103 | Iraq | $5,410 | 2025 |
+| 104 | Jordan | $5,348 | 2025 |
+| 105 | Bolivia | $5,148 | 2025 |
+| 106 | Vietnam | $5,066 | 2025 |
+| 107 | Indonesia | $5,060 | 2025 |
+| 108 | Sri Lanka | $5,002 | 2025 |
+| 109 | Namibia | $4,876 | 2025 |
+| 110 | Morocco | $4,672 | 2025 |
+| 111 | Tunisia | $4,657 | 2025 |
+| 112 | Bhutan | $4,493 | 2025 |
+| 113 | Lebanon | $4,473 | 2024 |
+| 114 | Philippines | $4,171 | 2025 |
+| 115 | Eswatini | $4,108 | 2025 |
+| 116 | São Tomé and Príncipe | $4,084 | 2025 |
+| 117 | Vanuatu | $4,039 | 2025 |
+| 118 | Uzbekistan | $3,968 | 2025 |
+| 119 | Iran | $3,924 | 2025 |
+| 120 | Djibouti | $3,906 | 2025 |
+| 121 | Honduras | $3,598 | 2025 |
+| 122 | Venezuela | $3,495 | 2025 |
+| 123 | Ghana | $3,257 | 2025 |
+| 124 | Nicaragua | $3,173 | 2025 |
+| 125 | Palestine | $3,171 | 2025 |
+| 126 | Angola | $3,129 | 2025 |
+| 127 | Egypt | $3,086 | 2025 |
+| 128 | Kyrgyzstan | $3,081 | 2025 |
+| 129 | Ivory Coast | $3,050 | 2025 |
+| 130 | Zimbabwe | $3,021 | 2025 |
+| 131 | Papua New Guinea | $3,020 | 2025 |
+| 132 | Cambodia | $2,872 | 2025 |
+| 133 | India | $2,702 | 2025 |
+| 134 | Haiti | $2,694 | 2025 |
+| 135 | Bangladesh | $2,597 | 2025 |
+| 136 | Congo | $2,515 | 2025 |
+| 137 | Kenya | $2,363 | 2025 |
+| 138 | Laos | $2,325 | 2025 |
+| 139 | Mauritania | $2,198 | 2025 |
+| 140 | Solomon Islands | $2,086 | 2025 |
+| 141 | Comoros | $2,056 | 2025 |
+| 142 | Cameroon | $1,972 | 2025 |
+| 143 | Senegal | $1,955 | 2025 |
+| 144 | Guinea | $1,877 | 2025 |
+| 145 | Benin | $1,658 | 2025 |
+| 146 | Tajikistan | $1,637 | 2025 |
+| 147 | Pakistan | $1,596 | 2025 |
+| 148 | Nepal | $1,536 | 2025 |
+| 149 | Myanmar | $1,489 | 2025 |
+| 150 | Togo | $1,384 | 2025 |
+| 151 | Timor-Leste | $1,341 | 2025 |
+| 152 | Tanzania | $1,319 | 2025 |
+| 153 | Zambia | $1,318 | 2025 |
+| 154 | Nigeria | $1,224 | 2025 |
+| 155 | Uganda | $1,206 | 2025 |
+| 156 | Mali | $1,193 | 2025 |
+| 157 | Sudan | $1,165 | 2025 |
+| 158 | Burkina Faso | $1,148 | 2025 |
+| 159 | Guinea-Bissau | $1,124 | 2025 |
+| 160 | Rwanda | $1,124 | 2025 |
+| 161 | Lesotho | $1,089 | 2025 |
+| 162 | South Sudan | $1,080 | 2015 |
+| 163 | Syria | $1,057 | 2022 |
+| 164 | Chad | $1,022 | 2025 |
+| 165 | Ethiopia | $933 | 2025 |
+| 166 | Gambia | $919 | 2025 |
+| 167 | Liberia | $915 | 2025 |
+| 168 | Sierra Leone | $846 | 2025 |
+| 169 | DR Congo | $807 | 2025 |
+| 170 | Niger | $775 | 2025 |
+| 171 | Eritrea | $689 | 2011 |
+| 172 | Malawi | $672 | 2025 |
+| 173 | Somalia | $661 | 2025 |
+| 174 | Yemen | $634 | 2018 |
+| 175 | Mozambique | $627 | 2025 |
+| 176 | Madagascar | $599 | 2025 |
+| 177 | Central African Republic | $556 | 2025 |
+| 178 | Afghanistan | $417 | 2024 |
+| 179 | Burundi | $234 | 2025 |
 
 ## No data (7 nations)
 
@@ -208,7 +208,7 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-07-29 · https://www.imf.org/en/Publications/WEO
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-08-14 · https://www.imf.org/en/Publications/WEO
 
 Citation template: Terralore, "GDP per capita by nation — world ranking", terralore.co/rankings/gdp-per-capita, retrieved <YYYY-MM-DD>.

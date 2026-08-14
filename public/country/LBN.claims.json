@@ -3,117 +3,97 @@
  "name": "Lebanon",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/LBN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:LBN:gdp:2023",
+   "id": "TL:LBN:gdp:2024",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 20078620356.9931,
-   "display": "$20 B",
+   "value": 25971643441.3408,
+   "display": "$26 B",
    "unit": "USD",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-gdp-2023",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-gdp-2023, claim TL:LBN:gdp:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-gdp-2024",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-gdp-2024, claim TL:LBN:gdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LBN:gdpPerCapita:2023",
+   "id": "TL:LBN:gdpPerCapita:2024",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 3477.72489842684,
-   "display": "$3,478",
+   "value": 4473.27134441128,
+   "display": "$4,473",
    "unit": "USD",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-gdpPerCapita-2023",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-gdpPerCapita-2023, claim TL:LBN:gdpPerCapita:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-gdpPerCapita-2024",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-gdpPerCapita-2024, claim TL:LBN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LBN:gdpGrowth:2023",
+   "id": "TL:LBN:gdpGrowth:2024",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -0.760584470257314,
-   "display": "-0.8%",
+   "value": -7.07989192861814,
+   "display": "-7.1%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-gdpGrowth-2023",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-gdpGrowth-2023, claim TL:LBN:gdpGrowth:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-gdpGrowth-2024",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-gdpGrowth-2024, claim TL:LBN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LBN:inflation:2024",
+   "id": "TL:LBN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 45.2430422716718,
-   "display": "45.2%",
+   "value": 14.597595869611,
+   "display": "14.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-inflation-2024",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-inflation-2024, claim TL:LBN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-inflation-2025",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-inflation-2025, claim TL:LBN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LBN:tradePctGdp:2023",
+   "id": "TL:LBN:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 104.206410069182,
-   "display": "104.2%",
+   "value": 82.2323604617121,
+   "display": "82.2%",
    "unit": "% of GDP",
-   "observed": 2023,
-   "source": {
-    "id": "wb-wdi",
-    "label": "World Development Indicators",
-    "publisher": "World Bank",
-    "url": "https://data.worldbank.org",
-    "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
-   },
-   "url": "https://terralore.co/country/LBN#claim-tradePctGdp-2023",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-tradePctGdp-2023, claim TL:LBN:tradePctGdp:2023, retrieved <YYYY-MM-DD>."
-  },
-  {
-   "id": "TL:LBN:population:2024",
-   "domain": "society",
-   "metric": "population",
-   "label": "Population",
-   "value": 5805962,
-   "display": "5.8 m",
-   "unit": "people",
    "observed": 2024,
    "source": {
     "id": "wb-wdi",
@@ -121,10 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-population-2024",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-population-2024, claim TL:LBN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-tradePctGdp-2024, claim TL:LBN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:LBN:population:2025",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 5849421,
+   "display": "5.8 m",
+   "unit": "people",
+   "observed": 2025,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-14"
+   },
+   "url": "https://terralore.co/country/LBN#claim-population-2025",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-population-2025, claim TL:LBN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LBN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-lifeExpectancy-2024, claim TL:LBN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LBN:urbanPct:2024",
+   "id": "TL:LBN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 90.703695784554,
-   "display": "90.7%",
+   "value": 90.9602314263044,
+   "display": "91.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-urbanPct-2024, claim TL:LBN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-urbanPct-2025, claim TL:LBN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LBN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-fertility-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-fertility-2024, claim TL:LBN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-literacy-2019",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-literacy-2019, claim TL:LBN:literacy:2019, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-wgiVoice-2024, claim TL:LBN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-wgiStability-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-wgiStability-2024, claim TL:LBN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-wgiEffectiveness-2024, claim TL:LBN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-wgiRegQuality-2024, claim TL:LBN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-wgiRuleOfLaw-2024, claim TL:LBN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-wgiCorruption-2024, claim TL:LBN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-healthSpendPctGdp-2023, claim TL:LBN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-physicians-2020",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-physicians-2020, claim TL:LBN:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-underFiveMortality-2024, claim TL:LBN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-measlesImmunisation-2024, claim TL:LBN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-safeWater-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-safeWater-2024, claim TL:LBN:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-literacyRate-2019",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-literacyRate-2019, claim TL:LBN:literacyRate:2019, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-eduSpendPctGdp-2024, claim TL:LBN:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-primaryEnrolment-2024, claim TL:LBN:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-secondaryEnrolment-2024, claim TL:LBN:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-tertiaryEnrolment-2023, claim TL:LBN:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-internetUsers-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-internetUsers-2024, claim TL:LBN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-mobileSubs-2022",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-mobileSubs-2022, claim TL:LBN:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-highTechExports-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-highTechExports-2024, claim TL:LBN:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-landArea-2023",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-landArea-2023, claim TL:LBN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-forestPct-2023",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-forestPct-2023, claim TL:LBN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-agriPct-2023",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-agriPct-2023, claim TL:LBN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-co2PerCapita-2024, claim TL:LBN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-renewablePct-2021",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-renewablePct-2021, claim TL:LBN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-resourceRents-2021",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-resourceRents-2021, claim TL:LBN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-oilRents-2021",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-oilRents-2021, claim TL:LBN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-mineralRents-2021",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-mineralRents-2021, claim TL:LBN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-forestRents-2021",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-forestRents-2021, claim TL:LBN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LBN:electricityAccess:2023",
+   "id": "TL:LBN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LBN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-electricityAccess-2023, claim TL:LBN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LBN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-electricityAccess-2024, claim TL:LBN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LBN:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-milExpPctGdp-2024, claim TL:LBN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-milExpUsd-2024, claim TL:LBN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LBN#claim-armedForces-2020",
    "citation": "Terralore, \"Lebanon — national dossier\", terralore.co/country/LBN#claim-armedForces-2020, claim TL:LBN:armedForces:2020, retrieved <YYYY-MM-DD>."

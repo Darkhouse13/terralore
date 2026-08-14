@@ -3,128 +3,128 @@
  "name": "Montenegro",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MNE",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MNE:gdp:2024",
+   "id": "TL:MNE:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 8270016670.86774,
-   "display": "$8.3 B",
+   "value": 9232801464.79257,
+   "display": "$9.2 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-gdp-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-gdp-2024, claim TL:MNE:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-gdp-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-gdp-2025, claim TL:MNE:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:gdpPerCapita:2024",
+   "id": "TL:MNE:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 13263.3281277699,
-   "display": "$13,263",
+   "value": 14816.8380299947,
+   "display": "$14,817",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-gdpPerCapita-2024, claim TL:MNE:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-gdpPerCapita-2025, claim TL:MNE:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:gdpGrowth:2024",
+   "id": "TL:MNE:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.16409886329913,
-   "display": "3.2%",
+   "value": 2.74455354258522,
+   "display": "2.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-gdpGrowth-2024, claim TL:MNE:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-gdpGrowth-2025, claim TL:MNE:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:inflation:2024",
+   "id": "TL:MNE:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.33675009282281,
-   "display": "3.3%",
+   "value": 3.89960910704956,
+   "display": "3.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-inflation-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-inflation-2024, claim TL:MNE:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-inflation-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-inflation-2025, claim TL:MNE:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:tradePctGdp:2024",
+   "id": "TL:MNE:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 109.944104480975,
-   "display": "109.9%",
+   "value": 105.773801433894,
+   "display": "105.8%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-tradePctGdp-2024, claim TL:MNE:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-tradePctGdp-2025, claim TL:MNE:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:population:2024",
+   "id": "TL:MNE:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 623525,
-   "display": "624,000",
+   "value": 623129,
+   "display": "623,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-population-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-population-2024, claim TL:MNE:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-population-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-population-2025, claim TL:MNE:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MNE:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-lifeExpectancy-2024, claim TL:MNE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:urbanPct:2024",
+   "id": "TL:MNE:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 65.5422314706266,
-   "display": "65.5%",
+   "value": 65.6085083521036,
+   "display": "65.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-urbanPct-2024",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-urbanPct-2024, claim TL:MNE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-urbanPct-2025",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-urbanPct-2025, claim TL:MNE:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MNE:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-fertility-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-fertility-2024, claim TL:MNE:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-literacy-2018",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-literacy-2018, claim TL:MNE:literacy:2018, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-wgiVoice-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-wgiVoice-2024, claim TL:MNE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-wgiStability-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-wgiStability-2024, claim TL:MNE:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-wgiEffectiveness-2024, claim TL:MNE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-wgiRegQuality-2024, claim TL:MNE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-wgiRuleOfLaw-2024, claim TL:MNE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-wgiCorruption-2024, claim TL:MNE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-healthSpendPctGdp-2023, claim TL:MNE:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-physicians-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-physicians-2023, claim TL:MNE:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-underFiveMortality-2024, claim TL:MNE:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-measlesImmunisation-2024, claim TL:MNE:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-safeWater-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-safeWater-2024, claim TL:MNE:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-literacyRate-2018",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-literacyRate-2018, claim TL:MNE:literacyRate:2018, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-primaryEnrolment-2023, claim TL:MNE:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-secondaryEnrolment-2023, claim TL:MNE:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-tertiaryEnrolment-2023, claim TL:MNE:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-rdSpending-2019",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-rdSpending-2019, claim TL:MNE:rdSpending:2019, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-researchers-2019",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-researchers-2019, claim TL:MNE:researchers:2019, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-internetUsers-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-internetUsers-2024, claim TL:MNE:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-mobileSubs-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-mobileSubs-2024, claim TL:MNE:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-highTechExports-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-highTechExports-2024, claim TL:MNE:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-landArea-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-landArea-2023, claim TL:MNE:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-forestPct-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-forestPct-2023, claim TL:MNE:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-agriPct-2023",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-agriPct-2023, claim TL:MNE:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-renewablePct-2021",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-renewablePct-2021, claim TL:MNE:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-resourceRents-2021",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-resourceRents-2021, claim TL:MNE:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-oilRents-2021",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-oilRents-2021, claim TL:MNE:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-mineralRents-2021",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-mineralRents-2021, claim TL:MNE:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-forestRents-2021",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-forestRents-2021, claim TL:MNE:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MNE:electricityAccess:2023",
+   "id": "TL:MNE:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MNE#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-electricityAccess-2023, claim TL:MNE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MNE#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-electricityAccess-2024, claim TL:MNE:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MNE:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-milExpPctGdp-2024, claim TL:MNE:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-milExpUsd-2024",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-milExpUsd-2024, claim TL:MNE:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MNE#claim-armedForces-2020",
    "citation": "Terralore, \"Montenegro — national dossier\", terralore.co/country/MNE#claim-armedForces-2020, claim TL:MNE:armedForces:2020, retrieved <YYYY-MM-DD>."

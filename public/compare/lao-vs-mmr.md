@@ -3,7 +3,7 @@
 Laos and Myanmar side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/lao-vs-mmr
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Laos | Observed | Myanmar | Observed |
 |---|---|---|---|---|
-| GDP | $17 B | 2024 | $74 B | 2024 |
-| GDP per capita | $2,124 | 2024 | $1,359 | 2024 |
-| GDP growth | 4.1% | 2024 | -1.0% | 2024 |
-| Inflation | 23.1% | 2024 | 8.8% | 2019 |
+| GDP | $18 B | 2025 | $82 B | 2025 |
+| GDP per capita | $2,325 | 2025 | $1,489 | 2025 |
+| GDP growth | 4.5% | 2025 | -2.0% | 2025 |
+| Inflation | 7.7% | 2025 | 8.8% | 2019 |
 | Trade openness | 75.1% | 2016 | — | — |
 
 ## Society
 
 | Metric | Laos | Observed | Myanmar | Observed |
 |---|---|---|---|---|
-| Population | 7.8 m | 2024 | 55 m | 2024 |
+| Population | 7.9 m | 2025 | 55 m | 2025 |
 | Life expectancy | 69.2 yrs | 2024 | 67.1 yrs | 2024 |
-| Urban population | 39.6% | 2024 | 30.4% | 2024 |
+| Urban population | 40.3% | 2025 | 30.6% | 2025 |
 | Fertility rate | 2.4 | 2024 | 2.1 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.1% | 2021 |
 | Mineral rents | 3.9% | 2021 | 2.0% | 2021 |
 | Forest rents | 1.5% | 2021 | 2.2% | 2021 |
-| Electricity access | 96.5% | 2023 | 76.8% | 2023 |
+| Electricity access | 96.5% | 2024 | 80.4% | 2024 |
 | Rare earths | — | — | 22.0 kt | 2025 |
 
 ## Military
@@ -111,14 +111,14 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/LAO/chronicle.md and https://terralore.co/country/MMR/chronicle.md.
 

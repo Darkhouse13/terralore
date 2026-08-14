@@ -3,117 +3,97 @@
  "name": "Vanuatu",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/VUT",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:VUT:gdp:2024",
+   "id": "TL:VUT:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1117972034.22642,
-   "display": "$1.1 B",
+   "value": 1353658840.63993,
+   "display": "$1.4 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-gdp-2024",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-gdp-2024, claim TL:VUT:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-gdp-2025",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-gdp-2025, claim TL:VUT:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VUT:gdpPerCapita:2024",
+   "id": "TL:VUT:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 3410.77023167097,
-   "display": "$3,411",
+   "value": 4038.73520713411,
+   "display": "$4,039",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-gdpPerCapita-2024, claim TL:VUT:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-gdpPerCapita-2025, claim TL:VUT:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VUT:gdpGrowth:2024",
+   "id": "TL:VUT:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 0.942185362275907,
-   "display": "0.9%",
+   "value": 3.05357824026483,
+   "display": "3.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-gdpGrowth-2024, claim TL:VUT:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-gdpGrowth-2025, claim TL:VUT:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VUT:inflation:2023",
+   "id": "TL:VUT:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 11.1825017088175,
-   "display": "11.2%",
+   "value": 0.656455142231905,
+   "display": "0.7%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-inflation-2023",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-inflation-2023, claim TL:VUT:inflation:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-inflation-2025",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-inflation-2025, claim TL:VUT:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VUT:tradePctGdp:2022",
+   "id": "TL:VUT:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 63.5996121674253,
-   "display": "63.6%",
+   "value": 73.3835043414732,
+   "display": "73.4%",
    "unit": "% of GDP",
-   "observed": 2022,
-   "source": {
-    "id": "wb-wdi",
-    "label": "World Development Indicators",
-    "publisher": "World Bank",
-    "url": "https://data.worldbank.org",
-    "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
-   },
-   "url": "https://terralore.co/country/VUT#claim-tradePctGdp-2022",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-tradePctGdp-2022, claim TL:VUT:tradePctGdp:2022, retrieved <YYYY-MM-DD>."
-  },
-  {
-   "id": "TL:VUT:population:2024",
-   "domain": "society",
-   "metric": "population",
-   "label": "Population",
-   "value": 327777,
-   "display": "328,000",
-   "unit": "people",
    "observed": 2024,
    "source": {
     "id": "wb-wdi",
@@ -121,10 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-population-2024",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-population-2024, claim TL:VUT:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-tradePctGdp-2024",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-tradePctGdp-2024, claim TL:VUT:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:VUT:population:2025",
+   "domain": "society",
+   "metric": "population",
+   "label": "Population",
+   "value": 335169,
+   "display": "335,000",
+   "unit": "people",
+   "observed": 2025,
+   "source": {
+    "id": "wb-wdi",
+    "label": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org",
+    "license": "CC BY 4.0",
+    "accessed": "2026-08-14"
+   },
+   "url": "https://terralore.co/country/VUT#claim-population-2025",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-population-2025, claim TL:VUT:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:VUT:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-lifeExpectancy-2024, claim TL:VUT:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VUT:urbanPct:2024",
+   "id": "TL:VUT:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 22.2866933360645,
+   "value": 22.3219888836722,
    "display": "22.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-urbanPct-2024",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-urbanPct-2024, claim TL:VUT:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-urbanPct-2025",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-urbanPct-2025, claim TL:VUT:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:VUT:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-fertility-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-fertility-2024, claim TL:VUT:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-literacy-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-literacy-2023, claim TL:VUT:literacy:2023, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-wgiVoice-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-wgiVoice-2024, claim TL:VUT:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-wgiStability-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-wgiStability-2024, claim TL:VUT:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-wgiEffectiveness-2024, claim TL:VUT:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-wgiRegQuality-2024, claim TL:VUT:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-wgiRuleOfLaw-2024, claim TL:VUT:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-wgiCorruption-2024, claim TL:VUT:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-healthSpendPctGdp-2023, claim TL:VUT:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-physicians-2019",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-physicians-2019, claim TL:VUT:physicians:2019, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-underFiveMortality-2024, claim TL:VUT:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-measlesImmunisation-2024, claim TL:VUT:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-safeWater-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-safeWater-2024, claim TL:VUT:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-literacyRate-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-literacyRate-2023, claim TL:VUT:literacyRate:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-eduSpendPctGdp-2024, claim TL:VUT:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-primaryEnrolment-2024, claim TL:VUT:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-secondaryEnrolment-2023, claim TL:VUT:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-tertiaryEnrolment-2004",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-tertiaryEnrolment-2004, claim TL:VUT:tertiaryEnrolment:2004, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-internetUsers-2015",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-internetUsers-2015, claim TL:VUT:internetUsers:2015, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-mobileSubs-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-mobileSubs-2023, claim TL:VUT:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-landArea-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-landArea-2023, claim TL:VUT:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-forestPct-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-forestPct-2023, claim TL:VUT:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-agriPct-2023",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-agriPct-2023, claim TL:VUT:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-co2PerCapita-2024, claim TL:VUT:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-renewablePct-2022",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-renewablePct-2022, claim TL:VUT:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-resourceRents-2021",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-resourceRents-2021, claim TL:VUT:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-oilRents-2021",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-oilRents-2021, claim TL:VUT:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-mineralRents-2021",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-mineralRents-2021, claim TL:VUT:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VUT#claim-forestRents-2021",
    "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-forestRents-2021, claim TL:VUT:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VUT:electricityAccess:2023",
+   "id": "TL:VUT:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 61.6,
-   "display": "61.6%",
+   "value": 65.5,
+   "display": "65.5%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VUT#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-electricityAccess-2023, claim TL:VUT:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VUT#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Vanuatu — national dossier\", terralore.co/country/VUT#claim-electricityAccess-2024, claim TL:VUT:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   }
  ]
 }

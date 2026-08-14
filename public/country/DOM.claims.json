@@ -3,128 +3,128 @@
  "name": "Dominican Republic",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/DOM",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:DOM:gdp:2024",
+   "id": "TL:DOM:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 124282245638.568,
-   "display": "$124 B",
+   "value": 127407463759.043,
+   "display": "$127 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-gdp-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-gdp-2024, claim TL:DOM:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-gdp-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-gdp-2025, claim TL:DOM:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:gdpPerCapita:2024",
+   "id": "TL:DOM:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 10875.6618443092,
-   "display": "$10,876",
+   "value": 11059.2081531834,
+   "display": "$11,059",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-gdpPerCapita-2024, claim TL:DOM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-gdpPerCapita-2025, claim TL:DOM:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:gdpGrowth:2024",
+   "id": "TL:DOM:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.95352204492849,
-   "display": "5.0%",
+   "value": 2.11739113534632,
+   "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-gdpGrowth-2024, claim TL:DOM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-gdpGrowth-2025, claim TL:DOM:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:inflation:2024",
+   "id": "TL:DOM:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.30223338951227,
-   "display": "3.3%",
+   "value": 3.8731176804813,
+   "display": "3.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-inflation-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-inflation-2024, claim TL:DOM:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-inflation-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-inflation-2025, claim TL:DOM:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:tradePctGdp:2024",
+   "id": "TL:DOM:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 51.7835143952326,
-   "display": "51.8%",
+   "value": 51.4949057079303,
+   "display": "51.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-tradePctGdp-2024, claim TL:DOM:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-tradePctGdp-2025, claim TL:DOM:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:population:2024",
+   "id": "TL:DOM:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 11427557,
-   "display": "11 m",
+   "value": 11520487,
+   "display": "12 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-population-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-population-2024, claim TL:DOM:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-population-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-population-2025, claim TL:DOM:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DOM:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-lifeExpectancy-2024, claim TL:DOM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:urbanPct:2024",
+   "id": "TL:DOM:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 72.4121874752151,
-   "display": "72.4%",
+   "value": 72.517694062591,
+   "display": "72.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-urbanPct-2024",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-urbanPct-2024, claim TL:DOM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-urbanPct-2025",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-urbanPct-2025, claim TL:DOM:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DOM:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-fertility-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-fertility-2024, claim TL:DOM:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-literacy-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-literacy-2024, claim TL:DOM:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-wgiVoice-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-wgiVoice-2024, claim TL:DOM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-wgiStability-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-wgiStability-2024, claim TL:DOM:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-wgiEffectiveness-2024, claim TL:DOM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-wgiRegQuality-2024, claim TL:DOM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-wgiRuleOfLaw-2024, claim TL:DOM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-wgiCorruption-2024, claim TL:DOM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-healthSpendPctGdp-2023, claim TL:DOM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-physicians-2023",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-physicians-2023, claim TL:DOM:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-underFiveMortality-2024, claim TL:DOM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-measlesImmunisation-2024, claim TL:DOM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-safeWater-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-safeWater-2024, claim TL:DOM:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-literacyRate-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-literacyRate-2024, claim TL:DOM:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-eduSpendPctGdp-2023, claim TL:DOM:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-primaryEnrolment-2024, claim TL:DOM:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-secondaryEnrolment-2024, claim TL:DOM:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-tertiaryEnrolment-2024, claim TL:DOM:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-researchers-2022",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-researchers-2022, claim TL:DOM:researchers:2022, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-internetUsers-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-internetUsers-2024, claim TL:DOM:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-mobileSubs-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-mobileSubs-2024, claim TL:DOM:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-highTechExports-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-highTechExports-2024, claim TL:DOM:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-landArea-2023",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-landArea-2023, claim TL:DOM:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-forestPct-2023",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-forestPct-2023, claim TL:DOM:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-agriPct-2023",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-agriPct-2023, claim TL:DOM:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-co2PerCapita-2024, claim TL:DOM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-renewablePct-2021",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-renewablePct-2021, claim TL:DOM:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-resourceRents-2021",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-resourceRents-2021, claim TL:DOM:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-oilRents-2021",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-oilRents-2021, claim TL:DOM:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-mineralRents-2021",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-mineralRents-2021, claim TL:DOM:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-forestRents-2021",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-forestRents-2021, claim TL:DOM:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DOM:electricityAccess:2023",
+   "id": "TL:DOM:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 99.6,
-   "display": "99.6%",
+   "value": 99.5,
+   "display": "99.5%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DOM#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-electricityAccess-2023, claim TL:DOM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DOM#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-electricityAccess-2024, claim TL:DOM:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DOM:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-milExpPctGdp-2024, claim TL:DOM:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-milExpUsd-2024",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-milExpUsd-2024, claim TL:DOM:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DOM#claim-armedForces-2020",
    "citation": "Terralore, \"Dominican Republic — national dossier\", terralore.co/country/DOM#claim-armedForces-2020, claim TL:DOM:armedForces:2020, retrieved <YYYY-MM-DD>."

@@ -3,128 +3,128 @@
  "name": "Cape Verde",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/CPV",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:CPV:gdp:2024",
+   "id": "TL:CPV:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 2725414150.72735,
-   "display": "$2.7 B",
+   "value": 3056630435.32463,
+   "display": "$3.1 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-gdp-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-gdp-2024, claim TL:CPV:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-gdp-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-gdp-2025, claim TL:CPV:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:gdpPerCapita:2024",
+   "id": "TL:CPV:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 5192.48157325878,
-   "display": "$5,192",
+   "value": 5796.47207860911,
+   "display": "$5,796",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-gdpPerCapita-2024, claim TL:CPV:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-gdpPerCapita-2025, claim TL:CPV:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:gdpGrowth:2024",
+   "id": "TL:CPV:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 7.24388538990945,
-   "display": "7.2%",
+   "value": 6.29698518253096,
+   "display": "6.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-gdpGrowth-2024, claim TL:CPV:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-gdpGrowth-2025, claim TL:CPV:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:inflation:2024",
+   "id": "TL:CPV:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.0481698336865,
-   "display": "1.0%",
+   "value": 2.34333897365163,
+   "display": "2.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-inflation-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-inflation-2024, claim TL:CPV:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-inflation-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-inflation-2025, claim TL:CPV:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:tradePctGdp:2024",
+   "id": "TL:CPV:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 96.5053536678629,
-   "display": "96.5%",
+   "value": 95.3284601191981,
+   "display": "95.3%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-tradePctGdp-2024, claim TL:CPV:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-tradePctGdp-2025, claim TL:CPV:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:population:2024",
+   "id": "TL:CPV:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 524877,
-   "display": "525,000",
+   "value": 527326,
+   "display": "527,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-population-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-population-2024, claim TL:CPV:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-population-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-population-2025, claim TL:CPV:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CPV:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-lifeExpectancy-2024, claim TL:CPV:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:urbanPct:2024",
+   "id": "TL:CPV:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 76.7721471004354,
-   "display": "76.8%",
+   "value": 77.6300668010068,
+   "display": "77.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-urbanPct-2024",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-urbanPct-2024, claim TL:CPV:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-urbanPct-2025",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-urbanPct-2025, claim TL:CPV:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CPV:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-fertility-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-fertility-2024, claim TL:CPV:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-literacy-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-literacy-2024, claim TL:CPV:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-wgiVoice-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-wgiVoice-2024, claim TL:CPV:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-wgiStability-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-wgiStability-2024, claim TL:CPV:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-wgiEffectiveness-2024, claim TL:CPV:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-wgiRegQuality-2024, claim TL:CPV:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-wgiRuleOfLaw-2024, claim TL:CPV:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-wgiCorruption-2024, claim TL:CPV:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-healthSpendPctGdp-2023, claim TL:CPV:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-physicians-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-physicians-2023, claim TL:CPV:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-underFiveMortality-2024, claim TL:CPV:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-measlesImmunisation-2024, claim TL:CPV:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-literacyRate-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-literacyRate-2024, claim TL:CPV:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-eduSpendPctGdp-2023, claim TL:CPV:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-primaryEnrolment-2022",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-primaryEnrolment-2022, claim TL:CPV:primaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-secondaryEnrolment-2022",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-secondaryEnrolment-2022, claim TL:CPV:secondaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-tertiaryEnrolment-2018",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-tertiaryEnrolment-2018, claim TL:CPV:tertiaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-rdSpending-2011",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-rdSpending-2011, claim TL:CPV:rdSpending:2011, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-researchers-2014",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-researchers-2014, claim TL:CPV:researchers:2014, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-internetUsers-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-internetUsers-2024, claim TL:CPV:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-mobileSubs-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-mobileSubs-2024, claim TL:CPV:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-highTechExports-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-highTechExports-2023, claim TL:CPV:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-landArea-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-landArea-2023, claim TL:CPV:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-forestPct-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-forestPct-2023, claim TL:CPV:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-agriPct-2023",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-agriPct-2023, claim TL:CPV:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-co2PerCapita-2024, claim TL:CPV:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-renewablePct-2022",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-renewablePct-2022, claim TL:CPV:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-resourceRents-2021",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-resourceRents-2021, claim TL:CPV:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-oilRents-2021",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-oilRents-2021, claim TL:CPV:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-mineralRents-2021",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-mineralRents-2021, claim TL:CPV:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-forestRents-2021",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-forestRents-2021, claim TL:CPV:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:CPV:electricityAccess:2023",
+   "id": "TL:CPV:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 98.6,
-   "display": "98.6%",
+   "value": 98.4,
+   "display": "98.4%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/CPV#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-electricityAccess-2023, claim TL:CPV:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/CPV#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-electricityAccess-2024, claim TL:CPV:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:CPV:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-milExpPctGdp-2024, claim TL:CPV:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-milExpUsd-2024",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-milExpUsd-2024, claim TL:CPV:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/CPV#claim-armedForces-2020",
    "citation": "Terralore, \"Cape Verde — national dossier\", terralore.co/country/CPV#claim-armedForces-2020, claim TL:CPV:armedForces:2020, retrieved <YYYY-MM-DD>."

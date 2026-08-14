@@ -3,7 +3,7 @@
 DR Congo and South Sudan side by side: 37 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/cod-vs-sds
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | DR Congo | Observed | South Sudan | Observed |
 |---|---|---|---|---|
-| GDP | $71 B | 2024 | $12 B | 2015 |
-| GDP per capita | $649 | 2024 | $1,080 | 2015 |
-| GDP growth | 6.1% | 2024 | -10.8% | 2015 |
+| GDP | $91 B | 2025 | $12 B | 2015 |
+| GDP per capita | $807 | 2025 | $1,080 | 2015 |
+| GDP growth | 5.8% | 2025 | -10.8% | 2015 |
 | Inflation | 2.9% | 2016 | 91.4% | 2024 |
-| Trade openness | 100.6% | 2024 | 65.6% | 2015 |
+| Trade openness | 87.3% | 2025 | 65.6% | 2015 |
 
 ## Society
 
 | Metric | DR Congo | Observed | South Sudan | Observed |
 |---|---|---|---|---|
-| Population | 109 m | 2024 | 12 m | 2024 |
+| Population | 113 m | 2025 | 12 m | 2025 |
 | Life expectancy | 62.1 yrs | 2024 | 57.7 yrs | 2024 |
-| Urban population | 44.7% | 2024 | 21.4% | 2024 |
+| Urban population | 45.1% | 2025 | 21.7% | 2025 |
 | Fertility rate | 6.0 | 2024 | 3.8 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.6% | 2021 | 10.4% | 2015 |
 | Mineral rents | 28.8% | 2021 | 0.0% | 2015 |
 | Forest rents | 9.4% | 2021 | 2.6% | 2015 |
-| Electricity access | 22.1% | 2023 | 5.4% | 2023 |
+| Electricity access | 22.5% | 2024 | 5.4% | 2024 |
 | Copper (mined) | 3.2 Mt | 2025 | — | — |
 | Cobalt (mined) | 230 kt | 2025 | — | — |
 
@@ -110,14 +110,14 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/COD/chronicle.md and https://terralore.co/country/SDS/chronicle.md.
 

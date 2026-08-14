@@ -3,128 +3,128 @@
  "name": "Mexico",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MEX",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MEX:gdp:2024",
+   "id": "TL:MEX:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1856365616165.94,
-   "display": "$1.86 T",
+   "value": 1832641364775.52,
+   "display": "$1.83 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-gdp-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdp-2024, claim TL:MEX:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-gdp-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdp-2025, claim TL:MEX:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:gdpPerCapita:2024",
+   "id": "TL:MEX:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 14185.7812248529,
-   "display": "$14,186",
+   "value": 13889.2339628708,
+   "display": "$13,889",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdpPerCapita-2024, claim TL:MEX:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdpPerCapita-2025, claim TL:MEX:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:gdpGrowth:2024",
+   "id": "TL:MEX:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.42742769080466,
-   "display": "1.4%",
+   "value": 0.561683456144578,
+   "display": "0.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdpGrowth-2024, claim TL:MEX:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-gdpGrowth-2025, claim TL:MEX:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:inflation:2024",
+   "id": "TL:MEX:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.72225588452932,
-   "display": "4.7%",
+   "value": 3.80668650726485,
+   "display": "3.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-inflation-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-inflation-2024, claim TL:MEX:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-inflation-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-inflation-2025, claim TL:MEX:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:tradePctGdp:2024",
+   "id": "TL:MEX:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 74.5889079825143,
-   "display": "74.6%",
+   "value": 79.9239525815655,
+   "display": "79.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-tradePctGdp-2024, claim TL:MEX:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-tradePctGdp-2025, claim TL:MEX:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:population:2024",
+   "id": "TL:MEX:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 130861007,
-   "display": "131 m",
+   "value": 131946900,
+   "display": "132 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-population-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-population-2024, claim TL:MEX:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-population-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-population-2025, claim TL:MEX:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MEX:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-lifeExpectancy-2024, claim TL:MEX:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:urbanPct:2024",
+   "id": "TL:MEX:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 79.7538805976118,
-   "display": "79.8%",
+   "value": 80.0408930629723,
+   "display": "80.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-urbanPct-2024",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-urbanPct-2024, claim TL:MEX:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-urbanPct-2025",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-urbanPct-2025, claim TL:MEX:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MEX:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-fertility-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-fertility-2024, claim TL:MEX:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-literacy-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-literacy-2024, claim TL:MEX:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-wgiVoice-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiVoice-2024, claim TL:MEX:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-wgiStability-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiStability-2024, claim TL:MEX:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiEffectiveness-2024, claim TL:MEX:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiRegQuality-2024, claim TL:MEX:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiRuleOfLaw-2024, claim TL:MEX:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-wgiCorruption-2024, claim TL:MEX:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-healthSpendPctGdp-2023, claim TL:MEX:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-physicians-2022",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-physicians-2022, claim TL:MEX:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-underFiveMortality-2024, claim TL:MEX:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-measlesImmunisation-2024, claim TL:MEX:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-safeWater-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-safeWater-2024, claim TL:MEX:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-literacyRate-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-literacyRate-2024, claim TL:MEX:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-eduSpendPctGdp-2022, claim TL:MEX:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-primaryEnrolment-2024, claim TL:MEX:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-secondaryEnrolment-2024, claim TL:MEX:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-tertiaryEnrolment-2024, claim TL:MEX:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-rdSpending-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-rdSpending-2024, claim TL:MEX:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-researchers-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-researchers-2024, claim TL:MEX:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-internetUsers-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-internetUsers-2024, claim TL:MEX:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-mobileSubs-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-mobileSubs-2024, claim TL:MEX:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-highTechExports-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-highTechExports-2024, claim TL:MEX:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-landArea-2023",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-landArea-2023, claim TL:MEX:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-forestPct-2023",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-forestPct-2023, claim TL:MEX:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-agriPct-2023",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-agriPct-2023, claim TL:MEX:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-co2PerCapita-2024, claim TL:MEX:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-renewablePct-2021",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-renewablePct-2021, claim TL:MEX:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-resourceRents-2021",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-resourceRents-2021, claim TL:MEX:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-oilRents-2021",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-oilRents-2021, claim TL:MEX:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-mineralRents-2021",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-mineralRents-2021, claim TL:MEX:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-forestRents-2021",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-forestRents-2021, claim TL:MEX:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MEX:electricityAccess:2023",
+   "id": "TL:MEX:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 99.7,
-   "display": "99.7%",
+   "value": 99.8,
+   "display": "99.8%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MEX#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-electricityAccess-2023, claim TL:MEX:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MEX#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-electricityAccess-2024, claim TL:MEX:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MEX:prodCopper:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-prodCopper-2025",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodCopper-2025, claim TL:MEX:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-prodIronOre-2025",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodIronOre-2025, claim TL:MEX:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-prodGold-2025",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodGold-2025, claim TL:MEX:prodGold:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-prodZinc-2025",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodZinc-2025, claim TL:MEX:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-prodPhosphate-2025, claim TL:MEX:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-milExpPctGdp-2024, claim TL:MEX:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-milExpUsd-2024",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-milExpUsd-2024, claim TL:MEX:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -981,7 +981,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MEX#claim-armedForces-2020",
    "citation": "Terralore, \"Mexico — national dossier\", terralore.co/country/MEX#claim-armedForces-2020, claim TL:MEX:armedForces:2020, retrieved <YYYY-MM-DD>."

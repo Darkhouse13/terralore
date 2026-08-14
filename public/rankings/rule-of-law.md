@@ -3,7 +3,7 @@
 Rule of law ranked across 179 nations, highest to lowest. Finland highest at 91.8 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/rule-of-law
-Updated: 2026-08-10 (the governance domain's last refresh)
+Updated: 2026-08-14 (the governance domain's last refresh)
 
 Definition: Perceived confidence in contract enforcement, property rights, the police and the courts, scored 0–100.
 Unit: score. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 Citation template: Terralore, "Rule of law by nation — world ranking", terralore.co/rankings/rule-of-law, retrieved <YYYY-MM-DD>.

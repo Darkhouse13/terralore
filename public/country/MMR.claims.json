@@ -3,68 +3,68 @@
  "name": "Myanmar",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/MMR",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:MMR:gdp:2024",
+   "id": "TL:MMR:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 74068349523.8095,
-   "display": "$74 B",
+   "value": 81665773809.5238,
+   "display": "$82 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MMR#claim-gdp-2024",
-   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-gdp-2024, claim TL:MMR:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MMR#claim-gdp-2025",
+   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-gdp-2025, claim TL:MMR:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MMR:gdpPerCapita:2024",
+   "id": "TL:MMR:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 1359.05001560107,
-   "display": "$1,359",
+   "value": 1488.87527836542,
+   "display": "$1,489",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MMR#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-gdpPerCapita-2024, claim TL:MMR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MMR#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-gdpPerCapita-2025, claim TL:MMR:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MMR:gdpGrowth:2024",
+   "id": "TL:MMR:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -0.97204641363362,
-   "display": "-1.0%",
+   "value": -2.01184475795665,
+   "display": "-2.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MMR#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-gdpGrowth-2024, claim TL:MMR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MMR#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-gdpGrowth-2025, claim TL:MMR:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MMR:inflation:2019",
@@ -81,30 +81,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-inflation-2019",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-inflation-2019, claim TL:MMR:inflation:2019, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MMR:population:2024",
+   "id": "TL:MMR:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 54500091,
+   "value": 54850648,
    "display": "55 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MMR#claim-population-2024",
-   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-population-2024, claim TL:MMR:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MMR#claim-population-2025",
+   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-population-2025, claim TL:MMR:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MMR:lifeExpectancy:2024",
@@ -121,30 +121,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-lifeExpectancy-2024, claim TL:MMR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MMR:urbanPct:2024",
+   "id": "TL:MMR:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 30.4499084074136,
-   "display": "30.4%",
+   "value": 30.5836915476767,
+   "display": "30.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MMR#claim-urbanPct-2024",
-   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-urbanPct-2024, claim TL:MMR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MMR#claim-urbanPct-2025",
+   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-urbanPct-2025, claim TL:MMR:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MMR:fertility:2024",
@@ -161,7 +161,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-fertility-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-fertility-2024, claim TL:MMR:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-literacy-2020",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-literacy-2020, claim TL:MMR:literacy:2020, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-wgiVoice-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-wgiVoice-2024, claim TL:MMR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-wgiStability-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-wgiStability-2024, claim TL:MMR:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-wgiEffectiveness-2024, claim TL:MMR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-wgiRegQuality-2024, claim TL:MMR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-wgiRuleOfLaw-2024, claim TL:MMR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-wgiCorruption-2024, claim TL:MMR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-healthSpendPctGdp-2023, claim TL:MMR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-physicians-2019",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-physicians-2019, claim TL:MMR:physicians:2019, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-underFiveMortality-2024, claim TL:MMR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-measlesImmunisation-2024, claim TL:MMR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-safeWater-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-safeWater-2024, claim TL:MMR:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-literacyRate-2020",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-literacyRate-2020, claim TL:MMR:literacyRate:2020, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-eduSpendPctGdp-2019",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-eduSpendPctGdp-2019, claim TL:MMR:eduSpendPctGdp:2019, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-primaryEnrolment-2018",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-primaryEnrolment-2018, claim TL:MMR:primaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-secondaryEnrolment-2018",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-secondaryEnrolment-2018, claim TL:MMR:secondaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-tertiaryEnrolment-2018",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-tertiaryEnrolment-2018, claim TL:MMR:tertiaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-rdSpending-2023",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-rdSpending-2023, claim TL:MMR:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-researchers-2023",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-researchers-2023, claim TL:MMR:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-internetUsers-2020",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-internetUsers-2020, claim TL:MMR:internetUsers:2020, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-mobileSubs-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-mobileSubs-2024, claim TL:MMR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-highTechExports-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-highTechExports-2024, claim TL:MMR:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-landArea-2023",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-landArea-2023, claim TL:MMR:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-forestPct-2023",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-forestPct-2023, claim TL:MMR:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-agriPct-2023",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-agriPct-2023, claim TL:MMR:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-co2PerCapita-2024, claim TL:MMR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-renewablePct-2021",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-renewablePct-2021, claim TL:MMR:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-resourceRents-2021",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-resourceRents-2021, claim TL:MMR:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-oilRents-2021",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-oilRents-2021, claim TL:MMR:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-mineralRents-2021",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-mineralRents-2021, claim TL:MMR:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-forestRents-2021",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-forestRents-2021, claim TL:MMR:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:MMR:electricityAccess:2023",
+   "id": "TL:MMR:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 76.8,
-   "display": "76.8%",
+   "value": 80.4,
+   "display": "80.4%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/MMR#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-electricityAccess-2023, claim TL:MMR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/MMR#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-electricityAccess-2024, claim TL:MMR:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:MMR:prodRareEarths:2025",
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-prodRareEarths-2025",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-prodRareEarths-2025, claim TL:MMR:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-milExpPctGdp-2024, claim TL:MMR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-milExpUsd-2024",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-milExpUsd-2024, claim TL:MMR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/MMR#claim-armedForces-2020",
    "citation": "Terralore, \"Myanmar — national dossier\", terralore.co/country/MMR#claim-armedForces-2020, claim TL:MMR:armedForces:2020, retrieved <YYYY-MM-DD>."

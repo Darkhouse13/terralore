@@ -3,108 +3,108 @@
  "name": "Jamaica",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/JAM",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:JAM:gdp:2024",
+   "id": "TL:JAM:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 22014397089.7689,
-   "display": "$22 B",
+   "value": 22704903217.5631,
+   "display": "$23 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-gdp-2024",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdp-2024, claim TL:JAM:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-gdp-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdp-2025, claim TL:JAM:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JAM:gdpPerCapita:2024",
+   "id": "TL:JAM:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 7753.8006955432,
-   "display": "$7,754",
+   "value": 8002.92104076242,
+   "display": "$8,003",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdpPerCapita-2024, claim TL:JAM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdpPerCapita-2025, claim TL:JAM:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JAM:gdpGrowth:2024",
+   "id": "TL:JAM:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -0.535039063867487,
-   "display": "-0.5%",
+   "value": 0.0816454877745656,
+   "display": "0.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdpGrowth-2024, claim TL:JAM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-gdpGrowth-2025, claim TL:JAM:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JAM:inflation:2024",
+   "id": "TL:JAM:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 5.41194447981659,
-   "display": "5.4%",
+   "value": 4.00459048079239,
+   "display": "4.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-inflation-2024",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-inflation-2024, claim TL:JAM:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-inflation-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-inflation-2025, claim TL:JAM:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JAM:population:2024",
+   "id": "TL:JAM:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 2839175,
+   "value": 2837077,
    "display": "2.8 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-population-2024",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-population-2024, claim TL:JAM:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-population-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-population-2025, claim TL:JAM:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JAM:lifeExpectancy:2024",
@@ -121,30 +121,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-lifeExpectancy-2024, claim TL:JAM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JAM:urbanPct:2024",
+   "id": "TL:JAM:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 58.9301585439922,
-   "display": "58.9%",
+   "value": 59.4254051751628,
+   "display": "59.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-urbanPct-2024",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-urbanPct-2024, claim TL:JAM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-urbanPct-2025",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-urbanPct-2025, claim TL:JAM:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JAM:fertility:2024",
@@ -161,7 +161,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-fertility-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-fertility-2024, claim TL:JAM:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-wgiVoice-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiVoice-2024, claim TL:JAM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-wgiStability-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiStability-2024, claim TL:JAM:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiEffectiveness-2024, claim TL:JAM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiRegQuality-2024, claim TL:JAM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiRuleOfLaw-2024, claim TL:JAM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-wgiCorruption-2024, claim TL:JAM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-healthSpendPctGdp-2023, claim TL:JAM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-physicians-2023",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-physicians-2023, claim TL:JAM:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-underFiveMortality-2024, claim TL:JAM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-measlesImmunisation-2024, claim TL:JAM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-eduSpendPctGdp-2024, claim TL:JAM:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-primaryEnrolment-2024, claim TL:JAM:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-secondaryEnrolment-2024, claim TL:JAM:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-tertiaryEnrolment-2015",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-tertiaryEnrolment-2015, claim TL:JAM:tertiaryEnrolment:2015, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-rdSpending-2002",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-rdSpending-2002, claim TL:JAM:rdSpending:2002, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-internetUsers-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-internetUsers-2024, claim TL:JAM:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-mobileSubs-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-mobileSubs-2024, claim TL:JAM:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-highTechExports-2023",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-highTechExports-2023, claim TL:JAM:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-landArea-2023",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-landArea-2023, claim TL:JAM:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-forestPct-2023",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-forestPct-2023, claim TL:JAM:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-agriPct-2023",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-agriPct-2023, claim TL:JAM:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-co2PerCapita-2024, claim TL:JAM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-renewablePct-2021",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-renewablePct-2021, claim TL:JAM:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-resourceRents-2021",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-resourceRents-2021, claim TL:JAM:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-oilRents-2021",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-oilRents-2021, claim TL:JAM:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-mineralRents-2021",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-mineralRents-2021, claim TL:JAM:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,30 +701,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-forestRents-2021",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-forestRents-2021, claim TL:JAM:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:JAM:electricityAccess:2023",
+   "id": "TL:JAM:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 97.7,
    "display": "97.7%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/JAM#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-electricityAccess-2023, claim TL:JAM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/JAM#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-electricityAccess-2024, claim TL:JAM:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:JAM:prodBauxite:2025",
@@ -741,7 +741,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-prodBauxite-2025",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-prodBauxite-2025, claim TL:JAM:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-milExpPctGdp-2024, claim TL:JAM:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-milExpUsd-2024",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-milExpUsd-2024, claim TL:JAM:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/JAM#claim-armedForces-2020",
    "citation": "Terralore, \"Jamaica — national dossier\", terralore.co/country/JAM#claim-armedForces-2020, claim TL:JAM:armedForces:2020, retrieved <YYYY-MM-DD>."

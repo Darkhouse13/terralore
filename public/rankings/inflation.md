@@ -3,12 +3,12 @@
 Inflation ranked across 170 nations, highest to lowest. Venezuela highest at 254.9% (2016). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/inflation
-Updated: 2026-07-29 (the economy domain's last refresh)
+Updated: 2026-08-14 (the economy domain's last refresh)
 
 Definition: Annual change in consumer prices, measured by the consumer price index.
 Unit: %. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
 
-Note: this table mixes vintages — each publisher carries a nation's latest available year, so observations run from 2014 to 2024. Every row shows its own.
+Note: this table mixes vintages — each publisher carries a nation's latest available year, so observations run from 2014 to 2025. Every row shows its own.
 
 ## Ranking (170 nations)
 
@@ -19,171 +19,171 @@ Note: this table mixes vintages — each publisher carries a nation's latest ava
 | 3 | Sudan | 138.8% | 2022 |
 | 4 | Zimbabwe | 104.7% | 2022 |
 | 5 | South Sudan | 91.4% | 2024 |
-| 6 | Türkiye | 58.5% | 2024 |
-| 7 | Palestine | 53.7% | 2024 |
-| 8 | Lebanon | 45.2% | 2024 |
-| 9 | Nigeria | 33.2% | 2024 |
-| 10 | Iran | 32.5% | 2024 |
-| 11 | Malawi | 32.2% | 2024 |
-| 12 | Sierra Leone | 28.6% | 2024 |
-| 13 | Egypt | 28.3% | 2024 |
-| 14 | Angola | 28.2% | 2024 |
-| 15 | Haiti | 26.9% | 2024 |
-| 16 | Laos | 23.1% | 2024 |
-| 17 | Ghana | 22.8% | 2024 |
-| 18 | Ethiopia | 21.0% | 2024 |
-| 19 | Burundi | 20.2% | 2024 |
-| 20 | Suriname | 16.2% | 2024 |
-| 21 | Zambia | 15.0% | 2024 |
-| 22 | São Tomé and Príncipe | 14.4% | 2024 |
-| 23 | Syria | 13.4% | 2019 |
-| 24 | Pakistan | 12.6% | 2024 |
-| 25 | Gambia | 11.6% | 2024 |
-| 26 | Vanuatu | 11.2% | 2023 |
-| 27 | Bangladesh | 10.5% | 2024 |
-| 28 | Uzbekistan | 9.6% | 2024 |
-| 29 | Niger | 9.1% | 2024 |
-| 30 | Chad | 8.9% | 2024 |
-| 31 | Myanmar | 8.8% | 2019 |
-| 32 | Kazakhstan | 8.7% | 2024 |
-| 33 | Russia | 8.4% | 2024 |
-| 34 | Liberia | 8.2% | 2024 |
-| 35 | Guinea | 8.1% | 2024 |
-| 36 | Yemen | 8.1% | 2014 |
-| 37 | Madagascar | 7.6% | 2024 |
-| 38 | Tunisia | 7.2% | 2024 |
-| 39 | Colombia | 6.6% | 2024 |
-| 40 | Ukraine | 6.5% | 2024 |
-| 41 | Mongolia | 6.2% | 2024 |
-| 42 | Lesotho | 6.1% | 2024 |
-| 43 | Tajikistan | 6.0% | 2016 |
-| 44 | Iceland | 5.9% | 2024 |
-| 45 | Belarus | 5.8% | 2024 |
-| 46 | Romania | 5.7% | 2024 |
-| 47 | Jamaica | 5.4% | 2024 |
-| 48 | Bolivia | 5.1% | 2024 |
-| 49 | Comoros | 5.1% | 2024 |
-| 50 | Kyrgyzstan | 5.0% | 2024 |
-| 51 | India | 5.0% | 2024 |
-| 52 | Uruguay | 4.8% | 2024 |
-| 53 | Mexico | 4.7% | 2024 |
-| 54 | Nepal | 4.7% | 2024 |
-| 55 | Moldova | 4.7% | 2024 |
-| 56 | Serbia | 4.7% | 2024 |
-| 57 | Nicaragua | 4.6% | 2024 |
-| 58 | Honduras | 4.6% | 2024 |
-| 59 | Cameroon | 4.5% | 2024 |
-| 60 | Kenya | 4.5% | 2024 |
-| 61 | Brazil | 4.4% | 2024 |
-| 62 | South Africa | 4.4% | 2024 |
-| 63 | Solomon Islands | 4.3% | 2024 |
-| 64 | Chile | 4.3% | 2024 |
-| 65 | Namibia | 4.2% | 2024 |
-| 66 | Burkina Faso | 4.2% | 2024 |
-| 67 | Mozambique | 4.1% | 2024 |
-| 68 | Algeria | 4.0% | 2024 |
-| 69 | Fiji | 3.9% | 2024 |
-| 70 | Paraguay | 3.8% | 2024 |
-| 71 | Poland | 3.8% | 2024 |
-| 72 | Guinea-Bissau | 3.8% | 2024 |
-| 73 | Hungary | 3.7% | 2024 |
-| 74 | Vietnam | 3.6% | 2024 |
-| 75 | Mauritius | 3.6% | 2024 |
-| 76 | Estonia | 3.5% | 2024 |
-| 77 | North Macedonia | 3.5% | 2024 |
-| 78 | Ivory Coast | 3.5% | 2024 |
-| 79 | Netherlands | 3.3% | 2024 |
-| 80 | Montenegro | 3.3% | 2024 |
-| 81 | Uganda | 3.3% | 2024 |
-| 82 | Dominican Republic | 3.3% | 2024 |
-| 83 | Belize | 3.3% | 2024 |
-| 84 | United Kingdom | 3.3% | 2024 |
-| 85 | Philippines | 3.2% | 2024 |
-| 86 | Mali | 3.2% | 2024 |
-| 87 | Australia | 3.2% | 2024 |
-| 88 | Norway | 3.1% | 2024 |
-| 89 | Belgium | 3.1% | 2024 |
-| 90 | Congo | 3.1% | 2024 |
-| 91 | Tanzania | 3.1% | 2024 |
-| 92 | Croatia | 3.0% | 2024 |
-| 93 | United States | 2.9% | 2024 |
-| 94 | Austria | 2.9% | 2024 |
-| 95 | New Zealand | 2.9% | 2024 |
-| 96 | Equatorial Guinea | 2.9% | 2024 |
-| 97 | Guyana | 2.9% | 2024 |
-| 98 | Kuwait | 2.9% | 2024 |
-| 99 | DR Congo | 2.9% | 2016 |
-| 100 | Guatemala | 2.9% | 2024 |
-| 101 | Togo | 2.9% | 2024 |
-| 102 | Sweden | 2.8% | 2024 |
-| 103 | Botswana | 2.8% | 2024 |
-| 104 | Spain | 2.8% | 2024 |
-| 105 | Bhutan | 2.8% | 2024 |
-| 106 | Slovakia | 2.8% | 2024 |
-| 107 | Greece | 2.7% | 2024 |
-| 108 | Japan | 2.7% | 2024 |
-| 109 | Eswatini | 2.6% | 2019 |
-| 110 | Mauritania | 2.5% | 2024 |
-| 111 | Bulgaria | 2.4% | 2024 |
-| 112 | Czechia | 2.4% | 2024 |
-| 113 | Portugal | 2.4% | 2024 |
-| 114 | Canada | 2.4% | 2024 |
-| 115 | South Korea | 2.3% | 2024 |
-| 116 | Germany | 2.3% | 2024 |
-| 117 | Albania | 2.2% | 2024 |
-| 118 | Azerbaijan | 2.2% | 2024 |
-| 119 | Taiwan | 2.2% | 2024 |
-| 120 | Indonesia | 2.2% | 2024 |
-| 121 | Libya | 2.1% | 2024 |
-| 122 | Ireland | 2.1% | 2024 |
-| 123 | Djibouti | 2.1% | 2024 |
-| 124 | Timor-Leste | 2.1% | 2024 |
-| 125 | Luxembourg | 2.1% | 2024 |
-| 126 | Peru | 2.0% | 2024 |
-| 127 | France | 2.0% | 2024 |
-| 128 | Slovenia | 2.0% | 2024 |
-| 129 | Malaysia | 1.8% | 2024 |
-| 130 | Cyprus | 1.8% | 2024 |
-| 131 | Rwanda | 1.8% | 2024 |
-| 132 | Bosnia and Herzegovina | 1.7% | 2024 |
-| 133 | Saudi Arabia | 1.7% | 2024 |
-| 134 | United Arab Emirates | 1.7% | 2024 |
-| 135 | Malta | 1.7% | 2024 |
-| 136 | Kosovo | 1.6% | 2024 |
-| 137 | Finland | 1.6% | 2024 |
-| 138 | Jordan | 1.6% | 2024 |
-| 139 | Ecuador | 1.5% | 2024 |
-| 140 | Central African Republic | 1.5% | 2024 |
-| 141 | Denmark | 1.4% | 2024 |
-| 142 | Thailand | 1.4% | 2024 |
-| 143 | Qatar | 1.3% | 2024 |
-| 144 | Latvia | 1.3% | 2024 |
-| 145 | San Marino | 1.2% | 2024 |
-| 146 | Gabon | 1.2% | 2024 |
-| 147 | Benin | 1.2% | 2024 |
-| 148 | Georgia | 1.1% | 2024 |
-| 149 | Switzerland | 1.1% | 2024 |
-| 150 | Cape Verde | 1.0% | 2024 |
-| 151 | Morocco | 1.0% | 2024 |
-| 152 | Italy | 1.0% | 2024 |
-| 153 | El Salvador | 0.9% | 2024 |
-| 154 | Cambodia | 0.8% | 2024 |
-| 155 | Senegal | 0.8% | 2024 |
-| 156 | Lithuania | 0.7% | 2024 |
-| 157 | Panama | 0.7% | 2024 |
-| 158 | Papua New Guinea | 0.6% | 2024 |
-| 159 | Oman | 0.6% | 2024 |
-| 160 | New Caledonia | 0.6% | 2016 |
-| 161 | Trinidad and Tobago | 0.5% | 2024 |
-| 162 | Bahamas | 0.4% | 2024 |
-| 163 | Seychelles | 0.3% | 2024 |
-| 164 | Armenia | 0.3% | 2024 |
-| 165 | China | 0.2% | 2024 |
-| 166 | Brunei | -0.4% | 2024 |
-| 167 | Costa Rica | -0.4% | 2024 |
-| 168 | Sri Lanka | -0.4% | 2024 |
-| 169 | Afghanistan | -6.6% | 2024 |
-| 170 | Iraq | -12.3% | 2024 |
+| 6 | Iran | 42.2% | 2025 |
+| 7 | Türkiye | 34.9% | 2025 |
+| 8 | Burundi | 34.1% | 2025 |
+| 9 | Haiti | 28.6% | 2025 |
+| 10 | Malawi | 28.4% | 2025 |
+| 11 | Nigeria | 23.0% | 2025 |
+| 12 | Angola | 20.2% | 2025 |
+| 13 | Bolivia | 19.5% | 2025 |
+| 14 | Lebanon | 14.6% | 2025 |
+| 15 | Ghana | 14.2% | 2025 |
+| 16 | Egypt | 14.1% | 2025 |
+| 17 | Zambia | 13.9% | 2025 |
+| 18 | Syria | 13.4% | 2019 |
+| 19 | Ethiopia | 13.2% | 2025 |
+| 20 | Ukraine | 12.7% | 2025 |
+| 21 | Gambia | 11.6% | 2024 |
+| 22 | Kazakhstan | 11.4% | 2025 |
+| 23 | São Tomé and Príncipe | 11.0% | 2025 |
+| 24 | Palestine | 9.8% | 2025 |
+| 25 | Suriname | 9.2% | 2025 |
+| 26 | Myanmar | 8.8% | 2019 |
+| 27 | Uzbekistan | 8.8% | 2025 |
+| 28 | Bangladesh | 8.8% | 2025 |
+| 29 | Russia | 8.7% | 2025 |
+| 30 | Mongolia | 8.6% | 2025 |
+| 31 | Liberia | 8.3% | 2025 |
+| 32 | Kyrgyzstan | 8.2% | 2025 |
+| 33 | Yemen | 8.1% | 2014 |
+| 34 | Madagascar | 8.1% | 2025 |
+| 35 | Moldova | 7.8% | 2025 |
+| 36 | Laos | 7.7% | 2025 |
+| 37 | Sierra Leone | 7.5% | 2025 |
+| 38 | Romania | 7.2% | 2025 |
+| 39 | Belarus | 6.6% | 2025 |
+| 40 | Bosnia and Herzegovina | 6.1% | 2023 |
+| 41 | Tajikistan | 6.0% | 2016 |
+| 42 | Rwanda | 5.9% | 2025 |
+| 43 | Azerbaijan | 5.6% | 2025 |
+| 44 | Tunisia | 5.2% | 2025 |
+| 45 | Colombia | 5.1% | 2025 |
+| 46 | Brazil | 5.0% | 2025 |
+| 47 | Estonia | 4.8% | 2025 |
+| 48 | Uruguay | 4.7% | 2025 |
+| 49 | Honduras | 4.6% | 2025 |
+| 50 | Bulgaria | 4.6% | 2025 |
+| 51 | Papua New Guinea | 4.4% | 2025 |
+| 52 | Hungary | 4.4% | 2025 |
+| 53 | Mozambique | 4.4% | 2025 |
+| 54 | Lesotho | 4.3% | 2025 |
+| 55 | Chile | 4.2% | 2025 |
+| 56 | Iceland | 4.1% | 2025 |
+| 57 | North Macedonia | 4.1% | 2025 |
+| 58 | Kenya | 4.1% | 2025 |
+| 59 | Paraguay | 4.0% | 2025 |
+| 60 | Jamaica | 4.0% | 2025 |
+| 61 | Slovakia | 4.0% | 2025 |
+| 62 | Montenegro | 3.9% | 2025 |
+| 63 | Serbia | 3.9% | 2025 |
+| 64 | United Kingdom | 3.9% | 2025 |
+| 65 | Dominican Republic | 3.9% | 2025 |
+| 66 | Georgia | 3.9% | 2025 |
+| 67 | Kosovo | 3.9% | 2025 |
+| 68 | Poland | 3.8% | 2025 |
+| 69 | Mexico | 3.8% | 2025 |
+| 70 | Lithuania | 3.8% | 2025 |
+| 71 | Latvia | 3.7% | 2025 |
+| 72 | Croatia | 3.7% | 2025 |
+| 73 | Mauritius | 3.7% | 2025 |
+| 74 | Uganda | 3.6% | 2025 |
+| 75 | Bhutan | 3.6% | 2025 |
+| 76 | Guinea | 3.5% | 2025 |
+| 77 | Pakistan | 3.5% | 2025 |
+| 78 | Austria | 3.5% | 2025 |
+| 79 | Namibia | 3.5% | 2025 |
+| 80 | Cameroon | 3.4% | 2025 |
+| 81 | Solomon Islands | 3.4% | 2025 |
+| 82 | Guyana | 3.3% | 2025 |
+| 83 | Tanzania | 3.3% | 2025 |
+| 84 | Vietnam | 3.3% | 2025 |
+| 85 | Armenia | 3.3% | 2025 |
+| 86 | Mali | 3.3% | 2025 |
+| 87 | Netherlands | 3.3% | 2025 |
+| 88 | Comoros | 3.2% | 2025 |
+| 89 | South Africa | 3.2% | 2025 |
+| 90 | Japan | 3.2% | 2025 |
+| 91 | Norway | 3.1% | 2025 |
+| 92 | United States | 2.9% | 2024 |
+| 93 | Equatorial Guinea | 2.9% | 2024 |
+| 94 | DR Congo | 2.9% | 2016 |
+| 95 | Australia | 2.9% | 2025 |
+| 96 | New Zealand | 2.8% | 2025 |
+| 97 | Spain | 2.7% | 2025 |
+| 98 | Botswana | 2.7% | 2025 |
+| 99 | Nepal | 2.7% | 2025 |
+| 100 | Eswatini | 2.6% | 2019 |
+| 101 | Greece | 2.5% | 2025 |
+| 102 | Belgium | 2.5% | 2025 |
+| 103 | Czechia | 2.5% | 2025 |
+| 104 | Congo | 2.4% | 2025 |
+| 105 | India | 2.4% | 2025 |
+| 106 | Slovenia | 2.4% | 2025 |
+| 107 | Malta | 2.4% | 2025 |
+| 108 | Kuwait | 2.4% | 2025 |
+| 109 | Cambodia | 2.4% | 2025 |
+| 110 | Cape Verde | 2.3% | 2025 |
+| 111 | Portugal | 2.3% | 2025 |
+| 112 | San Marino | 2.3% | 2025 |
+| 113 | Luxembourg | 2.3% | 2025 |
+| 114 | Ireland | 2.2% | 2025 |
+| 115 | Taiwan | 2.2% | 2024 |
+| 116 | Germany | 2.2% | 2025 |
+| 117 | Albania | 2.1% | 2025 |
+| 118 | South Korea | 2.1% | 2025 |
+| 119 | Saudi Arabia | 2.1% | 2025 |
+| 120 | Nicaragua | 2.1% | 2025 |
+| 121 | Canada | 2.1% | 2025 |
+| 122 | Indonesia | 1.9% | 2025 |
+| 123 | Denmark | 1.9% | 2025 |
+| 124 | Libya | 1.8% | 2025 |
+| 125 | Gabon | 1.8% | 2025 |
+| 126 | Jordan | 1.8% | 2025 |
+| 127 | Philippines | 1.7% | 2025 |
+| 128 | Mauritania | 1.5% | 2025 |
+| 129 | Italy | 1.5% | 2025 |
+| 130 | Peru | 1.5% | 2025 |
+| 131 | Guatemala | 1.5% | 2025 |
+| 132 | Senegal | 1.5% | 2025 |
+| 133 | Algeria | 1.4% | 2025 |
+| 134 | Malaysia | 1.4% | 2025 |
+| 135 | Qatar | 1.3% | 2024 |
+| 136 | United Arab Emirates | 1.3% | 2025 |
+| 137 | Benin | 1.1% | 2025 |
+| 138 | Belize | 1.1% | 2025 |
+| 139 | Central African Republic | 1.0% | 2025 |
+| 140 | Trinidad and Tobago | 1.0% | 2025 |
+| 141 | Oman | 1.0% | 2025 |
+| 142 | France | 0.9% | 2025 |
+| 143 | Guinea-Bissau | 0.9% | 2025 |
+| 144 | Ecuador | 0.7% | 2025 |
+| 145 | Morocco | 0.7% | 2025 |
+| 146 | Sweden | 0.7% | 2025 |
+| 147 | Vanuatu | 0.7% | 2025 |
+| 148 | New Caledonia | 0.6% | 2016 |
+| 149 | Togo | 0.4% | 2025 |
+| 150 | Timor-Leste | 0.4% | 2025 |
+| 151 | Bahamas | 0.4% | 2024 |
+| 152 | Finland | 0.3% | 2025 |
+| 153 | Iraq | 0.3% | 2025 |
+| 154 | Seychelles | 0.3% | 2025 |
+| 155 | El Salvador | 0.3% | 2025 |
+| 156 | Switzerland | 0.2% | 2025 |
+| 157 | Cyprus | 0.1% | 2025 |
+| 158 | Ivory Coast | 0.1% | 2025 |
+| 159 | China | 0.1% | 2025 |
+| 160 | Costa Rica | -0.1% | 2025 |
+| 161 | Thailand | -0.1% | 2025 |
+| 162 | Panama | -0.2% | 2025 |
+| 163 | Brunei | -0.3% | 2025 |
+| 164 | Djibouti | -0.3% | 2025 |
+| 165 | Burkina Faso | -0.6% | 2025 |
+| 166 | Fiji | -1.4% | 2025 |
+| 167 | Chad | -3.9% | 2025 |
+| 168 | Niger | -4.5% | 2025 |
+| 169 | Sri Lanka | -4.8% | 2025 |
+| 170 | Afghanistan | -6.6% | 2024 |
 
 ## No data (16 nations)
 
@@ -208,7 +208,7 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-07-29 · https://www.imf.org/en/Publications/WEO
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-08-14 · https://www.imf.org/en/Publications/WEO
 
 Citation template: Terralore, "Inflation by nation — world ranking", terralore.co/rankings/inflation, retrieved <YYYY-MM-DD>.

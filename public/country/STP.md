@@ -1,9 +1,9 @@
 # São Tomé and Príncipe — national dossier
 
-São Tomé and Príncipe — economy, society, governance, health, education, technology, geography and resources in one sourced dossier: 38 indicators, each…
+São Tomé and Príncipe — economy, society, governance, health, education, technology, geography and resources in one sourced dossier: 39 indicators, each…
 
 Canonical: https://terralore.co/country/STP
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,18 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $822 M | 2024 | World Development Indicators |
-| GDP per capita | $3,491 | 2024 | World Development Indicators |
-| GDP growth | 1.1% | 2024 | World Development Indicators |
-| Inflation | 14.4% | 2024 | World Development Indicators |
+| GDP | $981 M | 2025 | World Development Indicators |
+| GDP per capita | $4,084 | 2025 | World Development Indicators |
+| GDP growth | 1.0% | 2025 | World Development Indicators |
+| Inflation | 11.0% | 2025 | World Development Indicators |
+| Trade openness | 46.6% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 236,000 | 2024 | World Development Indicators |
+| Population | 240,000 | 2025 | World Development Indicators |
 | Life expectancy | 69.9 yrs | 2024 | World Development Indicators |
-| Urban population | 68.9% | 2024 | World Development Indicators |
+| Urban population | 69.2% | 2025 | World Development Indicators |
 | Fertility rate | 3.6 | 2024 | World Development Indicators |
 | Literacy rate | 87.4% | 2019 | World Development Indicators |
 
@@ -93,7 +94,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 0.0% | 2021 | World Development Indicators |
 | Forest rents | 1.9% | 2021 | World Development Indicators |
-| Electricity access | 81.3% | 2023 | World Development Indicators |
+| Electricity access | 77.7% | 2024 | World Development Indicators |
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
@@ -103,11 +104,11 @@ History: "Empty volcanic islands turned by Portugal into one of the world's firs
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
 
 Citation template: Terralore, "São Tomé and Príncipe — national dossier", terralore.co/country/STP, retrieved <YYYY-MM-DD>.

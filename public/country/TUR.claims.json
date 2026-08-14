@@ -3,128 +3,128 @@
  "name": "Türkiye",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/TUR",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:TUR:gdp:2024",
+   "id": "TL:TUR:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1359123768774.12,
-   "display": "$1.36 T",
+   "value": 1597293229287,
+   "display": "$1.60 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-gdp-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-gdp-2024, claim TL:TUR:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-gdp-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-gdp-2025, claim TL:TUR:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:gdpPerCapita:2024",
+   "id": "TL:TUR:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 15892.7157287241,
-   "display": "$15,893",
+   "value": 18599.4420922378,
+   "display": "$18,599",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-gdpPerCapita-2024, claim TL:TUR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-gdpPerCapita-2025, claim TL:TUR:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:gdpGrowth:2024",
+   "id": "TL:TUR:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.3276230893799,
-   "display": "3.3%",
+   "value": 3.60462514082589,
+   "display": "3.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-gdpGrowth-2024, claim TL:TUR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-gdpGrowth-2025, claim TL:TUR:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:inflation:2024",
+   "id": "TL:TUR:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 58.5064507300342,
-   "display": "58.5%",
+   "value": 34.8811629820306,
+   "display": "34.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-inflation-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-inflation-2024, claim TL:TUR:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-inflation-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-inflation-2025, claim TL:TUR:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:tradePctGdp:2024",
+   "id": "TL:TUR:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 54.5988061195916,
-   "display": "54.6%",
+   "value": 49.9346783626928,
+   "display": "49.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-tradePctGdp-2024, claim TL:TUR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-tradePctGdp-2025, claim TL:TUR:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:population:2024",
+   "id": "TL:TUR:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 85518661,
+   "value": 85878556,
    "display": "86 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-population-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-population-2024, claim TL:TUR:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-population-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-population-2025, claim TL:TUR:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TUR:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-lifeExpectancy-2024, claim TL:TUR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:urbanPct:2024",
+   "id": "TL:TUR:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 89.3443122873887,
-   "display": "89.3%",
+   "value": 89.494060002186,
+   "display": "89.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-urbanPct-2024",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-urbanPct-2024, claim TL:TUR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-urbanPct-2025",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-urbanPct-2025, claim TL:TUR:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TUR:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-fertility-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-fertility-2024, claim TL:TUR:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-literacy-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-literacy-2021, claim TL:TUR:literacy:2021, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-wgiVoice-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-wgiVoice-2024, claim TL:TUR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-wgiStability-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-wgiStability-2024, claim TL:TUR:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-wgiEffectiveness-2024, claim TL:TUR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-wgiRegQuality-2024, claim TL:TUR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-wgiRuleOfLaw-2024, claim TL:TUR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-wgiCorruption-2024, claim TL:TUR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-healthSpendPctGdp-2023, claim TL:TUR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-physicians-2022",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-physicians-2022, claim TL:TUR:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-underFiveMortality-2024, claim TL:TUR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-measlesImmunisation-2024, claim TL:TUR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-literacyRate-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-literacyRate-2021, claim TL:TUR:literacyRate:2021, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-eduSpendPctGdp-2022, claim TL:TUR:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-primaryEnrolment-2023, claim TL:TUR:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-secondaryEnrolment-2023, claim TL:TUR:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-tertiaryEnrolment-2023, claim TL:TUR:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-rdSpending-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-rdSpending-2023, claim TL:TUR:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-researchers-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-researchers-2023, claim TL:TUR:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-internetUsers-2025",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-internetUsers-2025, claim TL:TUR:internetUsers:2025, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-mobileSubs-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-mobileSubs-2024, claim TL:TUR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-highTechExports-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-highTechExports-2024, claim TL:TUR:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-landArea-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-landArea-2023, claim TL:TUR:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-forestPct-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-forestPct-2023, claim TL:TUR:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-agriPct-2023",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-agriPct-2023, claim TL:TUR:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-co2PerCapita-2024, claim TL:TUR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-renewablePct-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-renewablePct-2021, claim TL:TUR:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-resourceRents-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-resourceRents-2021, claim TL:TUR:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-oilRents-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-oilRents-2021, claim TL:TUR:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-mineralRents-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-mineralRents-2021, claim TL:TUR:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-forestRents-2021",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-forestRents-2021, claim TL:TUR:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TUR:electricityAccess:2023",
+   "id": "TL:TUR:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TUR#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-electricityAccess-2023, claim TL:TUR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TUR#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-electricityAccess-2024, claim TL:TUR:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TUR:prodIronOre:2025",
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-prodIronOre-2025",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-prodIronOre-2025, claim TL:TUR:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-prodCobalt-2025",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-prodCobalt-2025, claim TL:TUR:prodCobalt:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-prodBauxite-2025",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-prodBauxite-2025, claim TL:TUR:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-prodPhosphate-2025, claim TL:TUR:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-milExpPctGdp-2024, claim TL:TUR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-milExpUsd-2024",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-milExpUsd-2024, claim TL:TUR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TUR#claim-armedForces-2020",
    "citation": "Terralore, \"Türkiye — national dossier\", terralore.co/country/TUR#claim-armedForces-2020, claim TL:TUR:armedForces:2020, retrieved <YYYY-MM-DD>."

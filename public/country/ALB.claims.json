@@ -3,128 +3,128 @@
  "name": "Albania",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/ALB",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:ALB:gdp:2024",
+   "id": "TL:ALB:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 27046429296.6673,
-   "display": "$27 B",
+   "value": 30540188271.3421,
+   "display": "$31 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-gdp-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-gdp-2024, claim TL:ALB:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-gdp-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-gdp-2025, claim TL:ALB:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:gdpPerCapita:2024",
+   "id": "TL:ALB:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 11377.7757431099,
-   "display": "$11,378",
+   "value": 12998.147869552,
+   "display": "$12,998",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-gdpPerCapita-2024, claim TL:ALB:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-gdpPerCapita-2025, claim TL:ALB:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:gdpGrowth:2024",
+   "id": "TL:ALB:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.04592845095348,
-   "display": "4.0%",
+   "value": 3.78893836241024,
+   "display": "3.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-gdpGrowth-2024, claim TL:ALB:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-gdpGrowth-2025, claim TL:ALB:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:inflation:2024",
+   "id": "TL:ALB:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.21587375089991,
-   "display": "2.2%",
+   "value": 2.14618551167388,
+   "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-inflation-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-inflation-2024, claim TL:ALB:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-inflation-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-inflation-2025, claim TL:ALB:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:tradePctGdp:2024",
+   "id": "TL:ALB:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 79.4546360752224,
+   "value": 79.5328146239161,
    "display": "79.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-tradePctGdp-2024, claim TL:ALB:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-tradePctGdp-2025, claim TL:ALB:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:population:2024",
+   "id": "TL:ALB:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 2377128,
-   "display": "2.4 m",
+   "value": 2349580,
+   "display": "2.3 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-population-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-population-2024, claim TL:ALB:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-population-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-population-2025, claim TL:ALB:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ALB:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-lifeExpectancy-2024, claim TL:ALB:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:urbanPct:2024",
+   "id": "TL:ALB:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 58.5463634043555,
-   "display": "58.5%",
+   "value": 58.871474331067,
+   "display": "58.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-urbanPct-2024",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-urbanPct-2024, claim TL:ALB:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-urbanPct-2025",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-urbanPct-2025, claim TL:ALB:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ALB:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-fertility-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-fertility-2024, claim TL:ALB:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-literacy-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-literacy-2023, claim TL:ALB:literacy:2023, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-wgiVoice-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-wgiVoice-2024, claim TL:ALB:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-wgiStability-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-wgiStability-2024, claim TL:ALB:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-wgiEffectiveness-2024, claim TL:ALB:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-wgiRegQuality-2024, claim TL:ALB:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-wgiRuleOfLaw-2024, claim TL:ALB:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-wgiCorruption-2024, claim TL:ALB:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-healthSpendPctGdp-2023, claim TL:ALB:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-physicians-2020",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-physicians-2020, claim TL:ALB:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-underFiveMortality-2024, claim TL:ALB:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-measlesImmunisation-2024, claim TL:ALB:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-safeWater-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-safeWater-2024, claim TL:ALB:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-literacyRate-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-literacyRate-2023, claim TL:ALB:literacyRate:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-eduSpendPctGdp-2023, claim TL:ALB:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-primaryEnrolment-2024, claim TL:ALB:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-secondaryEnrolment-2024, claim TL:ALB:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-tertiaryEnrolment-2024, claim TL:ALB:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-rdSpending-2022",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-rdSpending-2022, claim TL:ALB:rdSpending:2022, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-researchers-2022",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-researchers-2022, claim TL:ALB:researchers:2022, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-internetUsers-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-internetUsers-2024, claim TL:ALB:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-mobileSubs-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-mobileSubs-2024, claim TL:ALB:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-highTechExports-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-highTechExports-2024, claim TL:ALB:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-landArea-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-landArea-2023, claim TL:ALB:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-forestPct-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-forestPct-2023, claim TL:ALB:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-agriPct-2023",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-agriPct-2023, claim TL:ALB:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-co2PerCapita-2024, claim TL:ALB:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-renewablePct-2021",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-renewablePct-2021, claim TL:ALB:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-resourceRents-2021",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-resourceRents-2021, claim TL:ALB:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-oilRents-2021",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-oilRents-2021, claim TL:ALB:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-mineralRents-2021",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-mineralRents-2021, claim TL:ALB:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-forestRents-2021",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-forestRents-2021, claim TL:ALB:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ALB:electricityAccess:2023",
+   "id": "TL:ALB:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ALB#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-electricityAccess-2023, claim TL:ALB:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ALB#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-electricityAccess-2024, claim TL:ALB:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ALB:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-milExpPctGdp-2024, claim TL:ALB:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-milExpUsd-2024",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-milExpUsd-2024, claim TL:ALB:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ALB#claim-armedForces-2020",
    "citation": "Terralore, \"Albania — national dossier\", terralore.co/country/ALB#claim-armedForces-2020, claim TL:ALB:armedForces:2020, retrieved <YYYY-MM-DD>."

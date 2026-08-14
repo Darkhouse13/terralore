@@ -3,7 +3,7 @@
  "name": "Yemen",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/YEM",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -21,7 +21,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-gdp-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-gdp-2018, claim TL:YEM:gdp:2018, retrieved <YYYY-MM-DD>."
@@ -41,7 +41,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-gdpPerCapita-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-gdpPerCapita-2018, claim TL:YEM:gdpPerCapita:2018, retrieved <YYYY-MM-DD>."
@@ -61,7 +61,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-gdpGrowth-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-gdpGrowth-2018, claim TL:YEM:gdpGrowth:2018, retrieved <YYYY-MM-DD>."
@@ -81,7 +81,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-inflation-2014",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-inflation-2014, claim TL:YEM:inflation:2014, retrieved <YYYY-MM-DD>."
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-tradePctGdp-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-tradePctGdp-2018, claim TL:YEM:tradePctGdp:2018, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:YEM:population:2024",
+   "id": "TL:YEM:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 40583164,
-   "display": "41 m",
+   "value": 41773878,
+   "display": "42 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/YEM#claim-population-2024",
-   "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-population-2024, claim TL:YEM:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/YEM#claim-population-2025",
+   "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-population-2025, claim TL:YEM:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:YEM:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-lifeExpectancy-2024, claim TL:YEM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:YEM:urbanPct:2024",
+   "id": "TL:YEM:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 36.8077517596594,
-   "display": "36.8%",
+   "value": 37.0336664607078,
+   "display": "37.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/YEM#claim-urbanPct-2024",
-   "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-urbanPct-2024, claim TL:YEM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/YEM#claim-urbanPct-2025",
+   "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-urbanPct-2025, claim TL:YEM:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:YEM:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-fertility-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-fertility-2024, claim TL:YEM:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-wgiVoice-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-wgiVoice-2024, claim TL:YEM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-wgiStability-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-wgiStability-2024, claim TL:YEM:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-wgiEffectiveness-2024, claim TL:YEM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-wgiRegQuality-2024, claim TL:YEM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-wgiRuleOfLaw-2024, claim TL:YEM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-wgiCorruption-2024, claim TL:YEM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-healthSpendPctGdp-2023, claim TL:YEM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-physicians-2023",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-physicians-2023, claim TL:YEM:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-underFiveMortality-2024, claim TL:YEM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-measlesImmunisation-2024, claim TL:YEM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-eduSpendPctGdp-2008",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-eduSpendPctGdp-2008, claim TL:YEM:eduSpendPctGdp:2008, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-primaryEnrolment-2016",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-primaryEnrolment-2016, claim TL:YEM:primaryEnrolment:2016, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-secondaryEnrolment-2016",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-secondaryEnrolment-2016, claim TL:YEM:secondaryEnrolment:2016, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-tertiaryEnrolment-2011",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-tertiaryEnrolment-2011, claim TL:YEM:tertiaryEnrolment:2011, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-internetUsers-2019",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-internetUsers-2019, claim TL:YEM:internetUsers:2019, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-mobileSubs-2023",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-mobileSubs-2023, claim TL:YEM:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-highTechExports-2015",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-highTechExports-2015, claim TL:YEM:highTechExports:2015, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-landArea-2023",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-landArea-2023, claim TL:YEM:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-forestPct-2023",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-forestPct-2023, claim TL:YEM:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-agriPct-2023",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-agriPct-2023, claim TL:YEM:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-co2PerCapita-2024, claim TL:YEM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-renewablePct-2021",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-renewablePct-2021, claim TL:YEM:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-resourceRents-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-resourceRents-2018, claim TL:YEM:resourceRents:2018, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-oilRents-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-oilRents-2018, claim TL:YEM:oilRents:2018, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-mineralRents-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-mineralRents-2018, claim TL:YEM:mineralRents:2018, retrieved <YYYY-MM-DD>."
@@ -701,30 +701,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-forestRents-2018",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-forestRents-2018, claim TL:YEM:forestRents:2018, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:YEM:electricityAccess:2023",
+   "id": "TL:YEM:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 83.6,
-   "display": "83.6%",
+   "value": 86.3,
+   "display": "86.3%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/YEM#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-electricityAccess-2023, claim TL:YEM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/YEM#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-electricityAccess-2024, claim TL:YEM:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:YEM:milExpPctGdp:2014",
@@ -741,7 +741,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-milExpPctGdp-2014",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-milExpPctGdp-2014, claim TL:YEM:milExpPctGdp:2014, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-milExpUsd-2014",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-milExpUsd-2014, claim TL:YEM:milExpUsd:2014, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/YEM#claim-armedForces-2020",
    "citation": "Terralore, \"Yemen — national dossier\", terralore.co/country/YEM#claim-armedForces-2020, claim TL:YEM:armedForces:2020, retrieved <YYYY-MM-DD>."

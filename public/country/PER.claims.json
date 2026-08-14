@@ -3,128 +3,128 @@
  "name": "Peru",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/PER",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:PER:gdp:2024",
+   "id": "TL:PER:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 289221969062.941,
-   "display": "$289 B",
+   "value": 334854659181.893,
+   "display": "$335 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-gdp-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-gdp-2024, claim TL:PER:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-gdp-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-gdp-2025, claim TL:PER:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:gdpPerCapita:2024",
+   "id": "TL:PER:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 8452.37167056621,
-   "display": "$8,452",
+   "value": 9684.41170314988,
+   "display": "$9,684",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-gdpPerCapita-2024, claim TL:PER:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-gdpPerCapita-2025, claim TL:PER:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:gdpGrowth:2024",
+   "id": "TL:PER:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.30394098171516,
-   "display": "3.3%",
+   "value": 3.43056395124466,
+   "display": "3.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-gdpGrowth-2024, claim TL:PER:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-gdpGrowth-2025, claim TL:PER:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:inflation:2024",
+   "id": "TL:PER:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.00770739412712,
-   "display": "2.0%",
+   "value": 1.53125450314273,
+   "display": "1.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-inflation-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-inflation-2024, claim TL:PER:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-inflation-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-inflation-2025, claim TL:PER:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:tradePctGdp:2024",
+   "id": "TL:PER:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 51.4758878672647,
-   "display": "51.5%",
+   "value": 51.8154829678647,
+   "display": "51.8%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-tradePctGdp-2024, claim TL:PER:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-tradePctGdp-2025, claim TL:PER:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:population:2024",
+   "id": "TL:PER:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 34217848,
-   "display": "34 m",
+   "value": 34576665,
+   "display": "35 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-population-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-population-2024, claim TL:PER:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-population-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-population-2025, claim TL:PER:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PER:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-lifeExpectancy-2024, claim TL:PER:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:urbanPct:2024",
+   "id": "TL:PER:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 85.1912729600355,
-   "display": "85.2%",
+   "value": 85.5963484845463,
+   "display": "85.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-urbanPct-2024",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-urbanPct-2024, claim TL:PER:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-urbanPct-2025",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-urbanPct-2025, claim TL:PER:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PER:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-fertility-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-fertility-2024, claim TL:PER:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-literacy-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-literacy-2024, claim TL:PER:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-wgiVoice-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-wgiVoice-2024, claim TL:PER:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-wgiStability-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-wgiStability-2024, claim TL:PER:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-wgiEffectiveness-2024, claim TL:PER:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-wgiRegQuality-2024, claim TL:PER:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-wgiRuleOfLaw-2024, claim TL:PER:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-wgiCorruption-2024, claim TL:PER:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-healthSpendPctGdp-2023, claim TL:PER:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-physicians-2023",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-physicians-2023, claim TL:PER:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-underFiveMortality-2024, claim TL:PER:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-measlesImmunisation-2024, claim TL:PER:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-safeWater-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-safeWater-2024, claim TL:PER:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-literacyRate-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-literacyRate-2024, claim TL:PER:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-eduSpendPctGdp-2024, claim TL:PER:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-primaryEnrolment-2024, claim TL:PER:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-secondaryEnrolment-2024, claim TL:PER:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-tertiaryEnrolment-2017",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-tertiaryEnrolment-2017, claim TL:PER:tertiaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-rdSpending-2023",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-rdSpending-2023, claim TL:PER:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-internetUsers-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-internetUsers-2024, claim TL:PER:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-mobileSubs-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-mobileSubs-2024, claim TL:PER:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-highTechExports-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-highTechExports-2024, claim TL:PER:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-landArea-2023",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-landArea-2023, claim TL:PER:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-forestPct-2023",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-forestPct-2023, claim TL:PER:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-agriPct-2023",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-agriPct-2023, claim TL:PER:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-co2PerCapita-2024, claim TL:PER:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-renewablePct-2021",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-renewablePct-2021, claim TL:PER:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-resourceRents-2021",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-resourceRents-2021, claim TL:PER:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-oilRents-2021",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-oilRents-2021, claim TL:PER:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-mineralRents-2021",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-mineralRents-2021, claim TL:PER:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-forestRents-2021",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-forestRents-2021, claim TL:PER:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PER:electricityAccess:2023",
+   "id": "TL:PER:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 96.2,
-   "display": "96.2%",
+   "value": 96.5,
+   "display": "96.5%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PER#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-electricityAccess-2023, claim TL:PER:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PER#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-electricityAccess-2024, claim TL:PER:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PER:prodCopper:2025",
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-prodCopper-2025",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-prodCopper-2025, claim TL:PER:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-prodIronOre-2025",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-prodIronOre-2025, claim TL:PER:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-prodGold-2025",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-prodGold-2025, claim TL:PER:prodGold:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-prodZinc-2025",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-prodZinc-2025, claim TL:PER:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-prodPhosphate-2025, claim TL:PER:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-milExpPctGdp-2024, claim TL:PER:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-milExpUsd-2024",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-milExpUsd-2024, claim TL:PER:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PER#claim-armedForces-2020",
    "citation": "Terralore, \"Peru — national dossier\", terralore.co/country/PER#claim-armedForces-2020, claim TL:PER:armedForces:2020, retrieved <YYYY-MM-DD>."

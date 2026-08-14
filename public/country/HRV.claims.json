@@ -3,128 +3,128 @@
  "name": "Croatia",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/HRV",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:HRV:gdp:2024",
+   "id": "TL:HRV:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 92983810328.9088,
-   "display": "$93 B",
+   "value": 105060182186.274,
+   "display": "$105 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-gdp-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-gdp-2024, claim TL:HRV:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-gdp-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-gdp-2025, claim TL:HRV:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:gdpPerCapita:2024",
+   "id": "TL:HRV:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 24050.4397933135,
-   "display": "$24,050",
+   "value": 27103.9116109268,
+   "display": "$27,104",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-gdpPerCapita-2024, claim TL:HRV:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-gdpPerCapita-2025, claim TL:HRV:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:gdpGrowth:2024",
+   "id": "TL:HRV:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.82688702890739,
-   "display": "3.8%",
+   "value": 3.40307537181749,
+   "display": "3.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-gdpGrowth-2024, claim TL:HRV:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-gdpGrowth-2025, claim TL:HRV:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:inflation:2024",
+   "id": "TL:HRV:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.97200477643618,
-   "display": "3.0%",
+   "value": 3.69153459605729,
+   "display": "3.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-inflation-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-inflation-2024, claim TL:HRV:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-inflation-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-inflation-2025, claim TL:HRV:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:tradePctGdp:2024",
+   "id": "TL:HRV:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 104.912326073253,
-   "display": "104.9%",
+   "value": 100.986286636193,
+   "display": "101.0%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-tradePctGdp-2024, claim TL:HRV:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-tradePctGdp-2025, claim TL:HRV:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:population:2024",
+   "id": "TL:HRV:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 3866200,
+   "value": 3876200,
    "display": "3.9 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-population-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-population-2024, claim TL:HRV:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-population-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-population-2025, claim TL:HRV:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:HRV:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-lifeExpectancy-2024, claim TL:HRV:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:urbanPct:2024",
+   "id": "TL:HRV:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 57.5158981711443,
-   "display": "57.5%",
+   "value": 57.8144543604143,
+   "display": "57.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-urbanPct-2024",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-urbanPct-2024, claim TL:HRV:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-urbanPct-2025",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-urbanPct-2025, claim TL:HRV:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:HRV:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-fertility-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-fertility-2024, claim TL:HRV:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-literacy-2001",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-literacy-2001, claim TL:HRV:literacy:2001, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-wgiVoice-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-wgiVoice-2024, claim TL:HRV:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-wgiStability-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-wgiStability-2024, claim TL:HRV:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-wgiEffectiveness-2024, claim TL:HRV:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-wgiRegQuality-2024, claim TL:HRV:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-wgiRuleOfLaw-2024, claim TL:HRV:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-wgiCorruption-2024, claim TL:HRV:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-healthSpendPctGdp-2023, claim TL:HRV:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-physicians-2022",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-physicians-2022, claim TL:HRV:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-underFiveMortality-2024, claim TL:HRV:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-measlesImmunisation-2024, claim TL:HRV:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-safeWater-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-safeWater-2024, claim TL:HRV:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-literacyRate-2001",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-literacyRate-2001, claim TL:HRV:literacyRate:2001, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-eduSpendPctGdp-2021",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-eduSpendPctGdp-2021, claim TL:HRV:eduSpendPctGdp:2021, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-primaryEnrolment-2023, claim TL:HRV:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-secondaryEnrolment-2023, claim TL:HRV:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-tertiaryEnrolment-2023, claim TL:HRV:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-rdSpending-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-rdSpending-2023, claim TL:HRV:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-researchers-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-researchers-2023, claim TL:HRV:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-internetUsers-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-internetUsers-2024, claim TL:HRV:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-mobileSubs-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-mobileSubs-2024, claim TL:HRV:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-highTechExports-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-highTechExports-2024, claim TL:HRV:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-landArea-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-landArea-2023, claim TL:HRV:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-forestPct-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-forestPct-2023, claim TL:HRV:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-agriPct-2023",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-agriPct-2023, claim TL:HRV:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-co2PerCapita-2024, claim TL:HRV:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-renewablePct-2021",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-renewablePct-2021, claim TL:HRV:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-resourceRents-2021",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-resourceRents-2021, claim TL:HRV:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-oilRents-2021",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-oilRents-2021, claim TL:HRV:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-mineralRents-2021",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-mineralRents-2021, claim TL:HRV:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-forestRents-2021",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-forestRents-2021, claim TL:HRV:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:HRV:electricityAccess:2023",
+   "id": "TL:HRV:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/HRV#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-electricityAccess-2023, claim TL:HRV:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/HRV#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-electricityAccess-2024, claim TL:HRV:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:HRV:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-milExpPctGdp-2024, claim TL:HRV:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-milExpUsd-2024",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-milExpUsd-2024, claim TL:HRV:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/HRV#claim-armedForces-2020",
    "citation": "Terralore, \"Croatia — national dossier\", terralore.co/country/HRV#claim-armedForces-2020, claim TL:HRV:armedForces:2020, retrieved <YYYY-MM-DD>."

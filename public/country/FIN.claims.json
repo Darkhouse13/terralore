@@ -3,128 +3,128 @@
  "name": "Finland",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/FIN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:FIN:gdp:2024",
+   "id": "TL:FIN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 298696961297.656,
-   "display": "$299 B",
+   "value": 317039368819.607,
+   "display": "$317 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-gdp-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-gdp-2024, claim TL:FIN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-gdp-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-gdp-2025, claim TL:FIN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:gdpPerCapita:2024",
+   "id": "TL:FIN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 53149.7671934051,
-   "display": "$53,150",
+   "value": 56148.580949046,
+   "display": "$56,149",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-gdpPerCapita-2024, claim TL:FIN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-gdpPerCapita-2025, claim TL:FIN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:gdpGrowth:2024",
+   "id": "TL:FIN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 0.416171964862073,
-   "display": "0.4%",
+   "value": 0.173444509584499,
+   "display": "0.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-gdpGrowth-2024, claim TL:FIN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-gdpGrowth-2025, claim TL:FIN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:inflation:2024",
+   "id": "TL:FIN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.56568906231615,
-   "display": "1.6%",
+   "value": 0.337874659400574,
+   "display": "0.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-inflation-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-inflation-2024, claim TL:FIN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-inflation-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-inflation-2025, claim TL:FIN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:tradePctGdp:2024",
+   "id": "TL:FIN:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 83.4601015353507,
-   "display": "83.5%",
+   "value": 83.3959439712015,
+   "display": "83.4%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-tradePctGdp-2024, claim TL:FIN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-tradePctGdp-2025, claim TL:FIN:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:population:2024",
+   "id": "TL:FIN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 5619911,
+   "value": 5646436,
    "display": "5.6 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-population-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-population-2024, claim TL:FIN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-population-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-population-2025, claim TL:FIN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:FIN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-lifeExpectancy-2024, claim TL:FIN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:urbanPct:2024",
+   "id": "TL:FIN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 74.2637190463636,
-   "display": "74.3%",
+   "value": 74.5247844319848,
+   "display": "74.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-urbanPct-2024, claim TL:FIN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-urbanPct-2025, claim TL:FIN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:FIN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-fertility-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-fertility-2024, claim TL:FIN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-wgiVoice-2024, claim TL:FIN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-wgiStability-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-wgiStability-2024, claim TL:FIN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-wgiEffectiveness-2024, claim TL:FIN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-wgiRegQuality-2024, claim TL:FIN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-wgiRuleOfLaw-2024, claim TL:FIN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-wgiCorruption-2024, claim TL:FIN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-healthSpendPctGdp-2023, claim TL:FIN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-physicians-2021",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-physicians-2021, claim TL:FIN:physicians:2021, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-underFiveMortality-2024, claim TL:FIN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-measlesImmunisation-2024, claim TL:FIN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-safeWater-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-safeWater-2024, claim TL:FIN:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-eduSpendPctGdp-2022, claim TL:FIN:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-primaryEnrolment-2024, claim TL:FIN:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-secondaryEnrolment-2024, claim TL:FIN:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-tertiaryEnrolment-2024, claim TL:FIN:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-rdSpending-2023",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-rdSpending-2023, claim TL:FIN:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-researchers-2023",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-researchers-2023, claim TL:FIN:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-internetUsers-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-internetUsers-2024, claim TL:FIN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-mobileSubs-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-mobileSubs-2024, claim TL:FIN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-highTechExports-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-highTechExports-2024, claim TL:FIN:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-landArea-2023",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-landArea-2023, claim TL:FIN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-forestPct-2023",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-forestPct-2023, claim TL:FIN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-agriPct-2023",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-agriPct-2023, claim TL:FIN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-co2PerCapita-2024, claim TL:FIN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-renewablePct-2021",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-renewablePct-2021, claim TL:FIN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-resourceRents-2021",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-resourceRents-2021, claim TL:FIN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-oilRents-2021",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-oilRents-2021, claim TL:FIN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-mineralRents-2021",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-mineralRents-2021, claim TL:FIN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-forestRents-2021",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-forestRents-2021, claim TL:FIN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:FIN:electricityAccess:2023",
+   "id": "TL:FIN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/FIN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-electricityAccess-2023, claim TL:FIN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/FIN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-electricityAccess-2024, claim TL:FIN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:FIN:prodPhosphate:2025",
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-prodPhosphate-2025, claim TL:FIN:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-milExpPctGdp-2024, claim TL:FIN:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-milExpUsd-2024, claim TL:FIN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/FIN#claim-armedForces-2020",
    "citation": "Terralore, \"Finland — national dossier\", terralore.co/country/FIN#claim-armedForces-2020, claim TL:FIN:armedForces:2020, retrieved <YYYY-MM-DD>."

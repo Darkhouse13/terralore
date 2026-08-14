@@ -3,7 +3,7 @@
 Costa Rica and Panama side by side: 41 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/cri-vs-pan
-Updated: 2026-08-11 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Costa Rica | Observed | Panama | Observed |
 |---|---|---|---|---|
-| GDP | $95 B | 2024 | $87 B | 2024 |
-| GDP per capita | $18,587 | 2024 | $19,161 | 2024 |
-| GDP growth | 4.3% | 2024 | 2.7% | 2024 |
-| Inflation | -0.4% | 2024 | 0.7% | 2024 |
-| Trade openness | 71.3% | 2024 | 83.7% | 2024 |
+| GDP | $103 B | 2025 | $90 B | 2025 |
+| GDP per capita | $19,970 | 2025 | $19,790 | 2025 |
+| GDP growth | 4.6% | 2025 | 4.4% | 2025 |
+| Inflation | -0.1% | 2025 | -0.2% | 2025 |
+| Trade openness | 71.5% | 2025 | 83.7% | 2024 |
 
 ## Society
 
 | Metric | Costa Rica | Observed | Panama | Observed |
 |---|---|---|---|---|
-| Population | 5.1 m | 2024 | 4.5 m | 2024 |
+| Population | 5.2 m | 2025 | 4.6 m | 2025 |
 | Life expectancy | 81.0 yrs | 2024 | 79.8 yrs | 2024 |
-| Urban population | 79.3% | 2024 | 66.0% | 2024 |
+| Urban population | 79.7% | 2025 | 66.2% | 2025 |
 | Fertility rate | 1.3 | 2024 | 2.1 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.0% | 2021 |
 | Mineral rents | 0.0% | 2021 | 3.6% | 2021 |
 | Forest rents | 0.8% | 2021 | 0.1% | 2021 |
-| Electricity access | 100.0% | 2023 | 97.0% | 2023 |
+| Electricity access | 99.8% | 2024 | 96.0% | 2024 |
 
 ## Military
 
@@ -107,13 +107,13 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/CRI/chronicle.md and https://terralore.co/country/PAN/chronicle.md.
 

@@ -3,128 +3,128 @@
  "name": "Angola",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/AGO",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:AGO:gdp:2024",
+   "id": "TL:AGO:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 100998916781.079,
-   "display": "$101 B",
+   "value": 122174889423.635,
+   "display": "$122 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-gdp-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-gdp-2024, claim TL:AGO:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-gdp-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-gdp-2025, claim TL:AGO:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:gdpPerCapita:2024",
+   "id": "TL:AGO:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 2665.87444776753,
-   "display": "$2,666",
+   "value": 3129.47662331063,
+   "display": "$3,129",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-gdpPerCapita-2024, claim TL:AGO:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-gdpPerCapita-2025, claim TL:AGO:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:gdpGrowth:2024",
+   "id": "TL:AGO:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.42390664406875,
-   "display": "4.4%",
+   "value": 3.13353542450008,
+   "display": "3.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-gdpGrowth-2024, claim TL:AGO:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-gdpGrowth-2025, claim TL:AGO:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:inflation:2024",
+   "id": "TL:AGO:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 28.2404948915772,
-   "display": "28.2%",
+   "value": 20.1620197572331,
+   "display": "20.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-inflation-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-inflation-2024, claim TL:AGO:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-inflation-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-inflation-2025, claim TL:AGO:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:tradePctGdp:2024",
+   "id": "TL:AGO:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 50.8422305562091,
-   "display": "50.8%",
+   "value": 34.6466403704517,
+   "display": "34.6%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-tradePctGdp-2024, claim TL:AGO:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-tradePctGdp-2025, claim TL:AGO:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:population:2024",
+   "id": "TL:AGO:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 37885849,
-   "display": "38 m",
+   "value": 39040039,
+   "display": "39 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-population-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-population-2024, claim TL:AGO:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-population-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-population-2025, claim TL:AGO:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AGO:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-lifeExpectancy-2024, claim TL:AGO:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:urbanPct:2024",
+   "id": "TL:AGO:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 70.6551379036435,
-   "display": "70.7%",
+   "value": 71.4615915176085,
+   "display": "71.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-urbanPct-2024",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-urbanPct-2024, claim TL:AGO:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-urbanPct-2025",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-urbanPct-2025, claim TL:AGO:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AGO:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-fertility-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-fertility-2024, claim TL:AGO:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-literacy-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-literacy-2023, claim TL:AGO:literacy:2023, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-wgiVoice-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-wgiVoice-2024, claim TL:AGO:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-wgiStability-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-wgiStability-2024, claim TL:AGO:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-wgiEffectiveness-2024, claim TL:AGO:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-wgiRegQuality-2024, claim TL:AGO:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-wgiRuleOfLaw-2024, claim TL:AGO:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-wgiCorruption-2024, claim TL:AGO:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-healthSpendPctGdp-2023, claim TL:AGO:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-physicians-2022",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-physicians-2022, claim TL:AGO:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-underFiveMortality-2024, claim TL:AGO:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-measlesImmunisation-2024, claim TL:AGO:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-literacyRate-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-literacyRate-2023, claim TL:AGO:literacyRate:2023, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-eduSpendPctGdp-2023, claim TL:AGO:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-primaryEnrolment-2023, claim TL:AGO:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-secondaryEnrolment-2023, claim TL:AGO:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-tertiaryEnrolment-2024, claim TL:AGO:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-rdSpending-2016",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-rdSpending-2016, claim TL:AGO:rdSpending:2016, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-researchers-2016",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-researchers-2016, claim TL:AGO:researchers:2016, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-internetUsers-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-internetUsers-2024, claim TL:AGO:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-mobileSubs-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-mobileSubs-2024, claim TL:AGO:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-highTechExports-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-highTechExports-2024, claim TL:AGO:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-landArea-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-landArea-2023, claim TL:AGO:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-forestPct-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-forestPct-2023, claim TL:AGO:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-agriPct-2023",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-agriPct-2023, claim TL:AGO:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-co2PerCapita-2024, claim TL:AGO:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-renewablePct-2021",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-renewablePct-2021, claim TL:AGO:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-resourceRents-2021",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-resourceRents-2021, claim TL:AGO:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-oilRents-2021",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-oilRents-2021, claim TL:AGO:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-mineralRents-2021",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-mineralRents-2021, claim TL:AGO:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-forestRents-2021",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-forestRents-2021, claim TL:AGO:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AGO:electricityAccess:2023",
+   "id": "TL:AGO:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 51.1,
-   "display": "51.1%",
+   "value": 55.5,
+   "display": "55.5%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AGO#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-electricityAccess-2023, claim TL:AGO:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AGO#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-electricityAccess-2024, claim TL:AGO:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AGO:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-milExpPctGdp-2024, claim TL:AGO:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-milExpUsd-2024",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-milExpUsd-2024, claim TL:AGO:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AGO#claim-armedForces-2020",
    "citation": "Terralore, \"Angola — national dossier\", terralore.co/country/AGO#claim-armedForces-2020, claim TL:AGO:armedForces:2020, retrieved <YYYY-MM-DD>."

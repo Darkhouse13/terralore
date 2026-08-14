@@ -3,128 +3,128 @@
  "name": "Australia",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/AUS",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:AUS:gdp:2024",
+   "id": "TL:AUS:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1757022451652.83,
-   "display": "$1.76 T",
+   "value": 1798518933689.21,
+   "display": "$1.80 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-gdp-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-gdp-2024, claim TL:AUS:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-gdp-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-gdp-2025, claim TL:AUS:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:gdpPerCapita:2024",
+   "id": "TL:AUS:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 64603.9856308464,
-   "display": "$64,604",
+   "value": 65129.7227990563,
+   "display": "$65,130",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-gdpPerCapita-2024, claim TL:AUS:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-gdpPerCapita-2025, claim TL:AUS:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:gdpGrowth:2024",
+   "id": "TL:AUS:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.37340773365975,
+   "value": 1.35039785076631,
    "display": "1.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-gdpGrowth-2024, claim TL:AUS:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-gdpGrowth-2025, claim TL:AUS:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:inflation:2024",
+   "id": "TL:AUS:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.16656665428797,
-   "display": "3.2%",
+   "value": 2.87403791660173,
+   "display": "2.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-inflation-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-inflation-2024, claim TL:AUS:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-inflation-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-inflation-2025, claim TL:AUS:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:tradePctGdp:2024",
+   "id": "TL:AUS:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 47.1453811065195,
-   "display": "47.1%",
+   "value": 45.9014493880126,
+   "display": "45.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-tradePctGdp-2024, claim TL:AUS:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-tradePctGdp-2025, claim TL:AUS:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:population:2024",
+   "id": "TL:AUS:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 27196812,
-   "display": "27 m",
+   "value": 27614411,
+   "display": "28 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-population-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-population-2024, claim TL:AUS:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-population-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-population-2025, claim TL:AUS:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AUS:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-lifeExpectancy-2024, claim TL:AUS:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:urbanPct:2024",
+   "id": "TL:AUS:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 87.6021469990446,
-   "display": "87.6%",
+   "value": 87.7192672666333,
+   "display": "87.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-urbanPct-2024",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-urbanPct-2024, claim TL:AUS:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-urbanPct-2025",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-urbanPct-2025, claim TL:AUS:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AUS:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-fertility-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-fertility-2024, claim TL:AUS:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-wgiVoice-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-wgiVoice-2024, claim TL:AUS:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-wgiStability-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-wgiStability-2024, claim TL:AUS:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-wgiEffectiveness-2024, claim TL:AUS:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-wgiRegQuality-2024, claim TL:AUS:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-wgiRuleOfLaw-2024, claim TL:AUS:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-wgiCorruption-2024, claim TL:AUS:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-healthSpendPctGdp-2023, claim TL:AUS:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-physicians-2022",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-physicians-2022, claim TL:AUS:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-underFiveMortality-2024, claim TL:AUS:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-measlesImmunisation-2024, claim TL:AUS:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-eduSpendPctGdp-2022, claim TL:AUS:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-primaryEnrolment-2024, claim TL:AUS:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-secondaryEnrolment-2024, claim TL:AUS:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-tertiaryEnrolment-2024, claim TL:AUS:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-rdSpending-2021",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-rdSpending-2021, claim TL:AUS:rdSpending:2021, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-researchers-2010",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-researchers-2010, claim TL:AUS:researchers:2010, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-internetUsers-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-internetUsers-2024, claim TL:AUS:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-mobileSubs-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-mobileSubs-2024, claim TL:AUS:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-highTechExports-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-highTechExports-2024, claim TL:AUS:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-landArea-2023",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-landArea-2023, claim TL:AUS:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-forestPct-2023",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-forestPct-2023, claim TL:AUS:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-agriPct-2023",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-agriPct-2023, claim TL:AUS:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -631,7 +631,7 @@
    "domain": "geography",
    "metric": "co2PerCapita",
    "label": "CO₂ per capita (t)",
-   "value": 14.0973544987552,
+   "value": 14.0986639619808,
    "display": "14.1",
    "unit": "ratio",
    "observed": 2024,
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-co2PerCapita-2024, claim TL:AUS:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-renewablePct-2021",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-renewablePct-2021, claim TL:AUS:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-resourceRents-2021",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-resourceRents-2021, claim TL:AUS:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-oilRents-2021",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-oilRents-2021, claim TL:AUS:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-mineralRents-2021",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-mineralRents-2021, claim TL:AUS:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-forestRents-2021",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-forestRents-2021, claim TL:AUS:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AUS:electricityAccess:2023",
+   "id": "TL:AUS:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AUS#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-electricityAccess-2023, claim TL:AUS:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AUS#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-electricityAccess-2024, claim TL:AUS:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AUS:prodCopper:2025",
@@ -781,7 +781,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodCopper-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodCopper-2025, claim TL:AUS:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodIronOre-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodIronOre-2025, claim TL:AUS:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodGold-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodGold-2025, claim TL:AUS:prodGold:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodLithium-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodLithium-2025, claim TL:AUS:prodLithium:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodCobalt-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodCobalt-2025, claim TL:AUS:prodCobalt:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodNickel-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodNickel-2025, claim TL:AUS:prodNickel:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodRareEarths-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodRareEarths-2025, claim TL:AUS:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodBauxite-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodBauxite-2025, claim TL:AUS:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodZinc-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodZinc-2025, claim TL:AUS:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-prodPhosphate-2025, claim TL:AUS:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -981,7 +981,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-milExpPctGdp-2024, claim TL:AUS:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -1001,7 +1001,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-milExpUsd-2024",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-milExpUsd-2024, claim TL:AUS:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -1021,7 +1021,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AUS#claim-armedForces-2020",
    "citation": "Terralore, \"Australia — national dossier\", terralore.co/country/AUS#claim-armedForces-2020, claim TL:AUS:armedForces:2020, retrieved <YYYY-MM-DD>."

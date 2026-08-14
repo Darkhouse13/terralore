@@ -3,7 +3,7 @@
 Czechia — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 42 indicators, each with…
 
 Canonical: https://terralore.co/country/CZE
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $347 B | 2024 | World Development Indicators |
-| GDP per capita | $31,823 | 2024 | World Development Indicators |
-| GDP growth | 1.2% | 2024 | World Development Indicators |
-| Inflation | 2.4% | 2024 | World Development Indicators |
-| Trade openness | 131.5% | 2024 | World Development Indicators |
+| GDP | $391 B | 2025 | World Development Indicators |
+| GDP per capita | $35,917 | 2025 | World Development Indicators |
+| GDP growth | 2.6% | 2025 | World Development Indicators |
+| Inflation | 2.5% | 2025 | World Development Indicators |
+| Trade openness | 128.0% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 11 m | 2024 | World Development Indicators |
+| Population | 11 m | 2025 | World Development Indicators |
 | Life expectancy | 80.0 yrs | 2024 | World Development Indicators |
-| Urban population | 72.8% | 2024 | World Development Indicators |
+| Urban population | 72.9% | 2025 | World Development Indicators |
 | Fertility rate | 1.4 | 2024 | World Development Indicators |
 
 ## Governance
@@ -94,7 +94,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 0.0% | 2021 | World Development Indicators |
 | Forest rents | 0.3% | 2021 | World Development Indicators |
-| Electricity access | 100.0% | 2023 | World Development Indicators |
+| Electricity access | 100.0% | 2024 | World Development Indicators |
 
 ## Military
 
@@ -112,12 +112,12 @@ History: "From Great Moravia and the crown of Saint Wenceslas to the heart of Eu
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Czechia — national dossier", terralore.co/country/CZE, retrieved <YYYY-MM-DD>.

@@ -3,7 +3,7 @@
 Life expectancy ranked across 179 nations, highest to lowest. Monaco highest at 86.5 yrs (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/life-expectancy
-Updated: 2026-07-29 (the society domain's last refresh)
+Updated: 2026-08-14 (the society domain's last refresh)
 
 Definition: Years a newborn would live if current mortality patterns held throughout its life.
 Unit: years. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -206,6 +206,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
 
 Citation template: Terralore, "Life expectancy by nation — world ranking", terralore.co/rankings/life-expectancy, retrieved <YYYY-MM-DD>.

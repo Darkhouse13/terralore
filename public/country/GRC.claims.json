@@ -3,128 +3,128 @@
  "name": "Greece",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/GRC",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:GRC:gdp:2024",
+   "id": "TL:GRC:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 256238371778.118,
-   "display": "$256 B",
+   "value": 280635521324.441,
+   "display": "$281 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-gdp-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-gdp-2024, claim TL:GRC:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-gdp-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-gdp-2025, claim TL:GRC:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:gdpPerCapita:2024",
+   "id": "TL:GRC:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 24626.1481858973,
-   "display": "$24,626",
+   "value": 26948.0070432791,
+   "display": "$26,948",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-gdpPerCapita-2024, claim TL:GRC:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-gdpPerCapita-2025, claim TL:GRC:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:gdpGrowth:2024",
+   "id": "TL:GRC:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.0865743380603,
+   "value": 2.07306882481713,
    "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-gdpGrowth-2024, claim TL:GRC:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-gdpGrowth-2025, claim TL:GRC:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:inflation:2024",
+   "id": "TL:GRC:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.74101875679477,
-   "display": "2.7%",
+   "value": 2.48209745378857,
+   "display": "2.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-inflation-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-inflation-2024, claim TL:GRC:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-inflation-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-inflation-2025, claim TL:GRC:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:tradePctGdp:2024",
+   "id": "TL:GRC:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 89.7765279446168,
-   "display": "89.8%",
+   "value": 83.4516228818392,
+   "display": "83.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-tradePctGdp-2024, claim TL:GRC:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-tradePctGdp-2025, claim TL:GRC:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:population:2024",
+   "id": "TL:GRC:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 10405134,
+   "value": 10413962,
    "display": "10 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-population-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-population-2024, claim TL:GRC:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-population-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-population-2025, claim TL:GRC:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GRC:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-lifeExpectancy-2024, claim TL:GRC:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:urbanPct:2024",
+   "id": "TL:GRC:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 78.9967856500534,
-   "display": "79.0%",
+   "value": 79.2246082848537,
+   "display": "79.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-urbanPct-2024",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-urbanPct-2024, claim TL:GRC:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-urbanPct-2025",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-urbanPct-2025, claim TL:GRC:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GRC:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-fertility-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-fertility-2024, claim TL:GRC:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-literacy-2009",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-literacy-2009, claim TL:GRC:literacy:2009, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-wgiVoice-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-wgiVoice-2024, claim TL:GRC:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-wgiStability-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-wgiStability-2024, claim TL:GRC:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-wgiEffectiveness-2024, claim TL:GRC:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-wgiRegQuality-2024, claim TL:GRC:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-wgiRuleOfLaw-2024, claim TL:GRC:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-wgiCorruption-2024, claim TL:GRC:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-healthSpendPctGdp-2023, claim TL:GRC:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-physicians-2022",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-physicians-2022, claim TL:GRC:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-underFiveMortality-2024, claim TL:GRC:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-measlesImmunisation-2024, claim TL:GRC:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-safeWater-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-safeWater-2024, claim TL:GRC:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-literacyRate-2009",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-literacyRate-2009, claim TL:GRC:literacyRate:2009, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-eduSpendPctGdp-2022, claim TL:GRC:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-primaryEnrolment-2023, claim TL:GRC:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-secondaryEnrolment-2023, claim TL:GRC:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-tertiaryEnrolment-2023, claim TL:GRC:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-rdSpending-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-rdSpending-2023, claim TL:GRC:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-researchers-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-researchers-2023, claim TL:GRC:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-internetUsers-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-internetUsers-2024, claim TL:GRC:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-mobileSubs-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-mobileSubs-2024, claim TL:GRC:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-highTechExports-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-highTechExports-2024, claim TL:GRC:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-landArea-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-landArea-2023, claim TL:GRC:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-forestPct-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-forestPct-2023, claim TL:GRC:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-agriPct-2023",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-agriPct-2023, claim TL:GRC:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-co2PerCapita-2024, claim TL:GRC:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-renewablePct-2021",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-renewablePct-2021, claim TL:GRC:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-resourceRents-2021",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-resourceRents-2021, claim TL:GRC:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-oilRents-2021",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-oilRents-2021, claim TL:GRC:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-mineralRents-2021",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-mineralRents-2021, claim TL:GRC:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-forestRents-2021",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-forestRents-2021, claim TL:GRC:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GRC:electricityAccess:2023",
+   "id": "TL:GRC:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GRC#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-electricityAccess-2023, claim TL:GRC:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GRC#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-electricityAccess-2024, claim TL:GRC:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GRC:prodBauxite:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-prodBauxite-2025",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-prodBauxite-2025, claim TL:GRC:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-milExpPctGdp-2024, claim TL:GRC:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-milExpUsd-2024",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-milExpUsd-2024, claim TL:GRC:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GRC#claim-armedForces-2020",
    "citation": "Terralore, \"Greece — national dossier\", terralore.co/country/GRC#claim-armedForces-2020, claim TL:GRC:armedForces:2020, retrieved <YYYY-MM-DD>."

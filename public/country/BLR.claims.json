@@ -3,128 +3,128 @@
  "name": "Belarus",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/BLR",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:BLR:gdp:2024",
+   "id": "TL:BLR:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 75961865471.9129,
-   "display": "$76 B",
+   "value": 93397215864.198,
+   "display": "$93 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-gdp-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdp-2024, claim TL:BLR:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-gdp-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdp-2025, claim TL:BLR:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:gdpPerCapita:2024",
+   "id": "TL:BLR:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 8317.63399913792,
-   "display": "$8,318",
+   "value": 10279.2547190723,
+   "display": "$10,279",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdpPerCapita-2024, claim TL:BLR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdpPerCapita-2025, claim TL:BLR:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:gdpGrowth:2024",
+   "id": "TL:BLR:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.00984852465452,
-   "display": "4.0%",
+   "value": 1.29999999999998,
+   "display": "1.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdpGrowth-2024, claim TL:BLR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-gdpGrowth-2025, claim TL:BLR:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:inflation:2024",
+   "id": "TL:BLR:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 5.78531910427998,
-   "display": "5.8%",
+   "value": 6.59877945951182,
+   "display": "6.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-inflation-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-inflation-2024, claim TL:BLR:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-inflation-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-inflation-2025, claim TL:BLR:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:tradePctGdp:2024",
+   "id": "TL:BLR:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 131.91792910245,
-   "display": "131.9%",
+   "value": 112.107625821378,
+   "display": "112.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-tradePctGdp-2024, claim TL:BLR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-tradePctGdp-2025, claim TL:BLR:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:population:2024",
+   "id": "TL:BLR:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 9132629,
+   "value": 9085991,
    "display": "9.1 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-population-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-population-2024, claim TL:BLR:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-population-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-population-2025, claim TL:BLR:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLR:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-lifeExpectancy-2024, claim TL:BLR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:urbanPct:2024",
+   "id": "TL:BLR:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 79.1551015210848,
-   "display": "79.2%",
+   "value": 79.4945820380127,
+   "display": "79.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-urbanPct-2024",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-urbanPct-2024, claim TL:BLR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-urbanPct-2025",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-urbanPct-2025, claim TL:BLR:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLR:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-fertility-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-fertility-2024, claim TL:BLR:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-literacy-2019",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-literacy-2019, claim TL:BLR:literacy:2019, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-wgiVoice-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiVoice-2024, claim TL:BLR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-wgiStability-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiStability-2024, claim TL:BLR:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiEffectiveness-2024, claim TL:BLR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiRegQuality-2024, claim TL:BLR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiRuleOfLaw-2024, claim TL:BLR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-wgiCorruption-2024, claim TL:BLR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-healthSpendPctGdp-2023, claim TL:BLR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-physicians-2023",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-physicians-2023, claim TL:BLR:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-underFiveMortality-2024, claim TL:BLR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-measlesImmunisation-2024, claim TL:BLR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-safeWater-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-safeWater-2024, claim TL:BLR:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-literacyRate-2019",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-literacyRate-2019, claim TL:BLR:literacyRate:2019, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-eduSpendPctGdp-2024, claim TL:BLR:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-primaryEnrolment-2024, claim TL:BLR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-secondaryEnrolment-2024, claim TL:BLR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-tertiaryEnrolment-2024, claim TL:BLR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-rdSpending-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-rdSpending-2024, claim TL:BLR:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-researchers-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-researchers-2024, claim TL:BLR:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-internetUsers-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-internetUsers-2024, claim TL:BLR:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-mobileSubs-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-mobileSubs-2024, claim TL:BLR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-highTechExports-2021",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-highTechExports-2021, claim TL:BLR:highTechExports:2021, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-landArea-2023",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-landArea-2023, claim TL:BLR:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-forestPct-2023",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-forestPct-2023, claim TL:BLR:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-agriPct-2023",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-agriPct-2023, claim TL:BLR:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-co2PerCapita-2024, claim TL:BLR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-renewablePct-2021",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-renewablePct-2021, claim TL:BLR:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-resourceRents-2021",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-resourceRents-2021, claim TL:BLR:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-oilRents-2021",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-oilRents-2021, claim TL:BLR:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-mineralRents-2021",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-mineralRents-2021, claim TL:BLR:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-forestRents-2021",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-forestRents-2021, claim TL:BLR:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLR:electricityAccess:2023",
+   "id": "TL:BLR:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLR#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-electricityAccess-2023, claim TL:BLR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLR#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-electricityAccess-2024, claim TL:BLR:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLR:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-milExpPctGdp-2024, claim TL:BLR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-milExpUsd-2024",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-milExpUsd-2024, claim TL:BLR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLR#claim-armedForces-2020",
    "citation": "Terralore, \"Belarus — national dossier\", terralore.co/country/BLR#claim-armedForces-2020, claim TL:BLR:armedForces:2020, retrieved <YYYY-MM-DD>."

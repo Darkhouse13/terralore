@@ -3,108 +3,108 @@
  "name": "Trinidad and Tobago",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/TTO",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:TTO:gdp:2024",
+   "id": "TL:TTO:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 25633544529.4849,
+   "value": 25942749718.4685,
    "display": "$26 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-gdp-2024",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-gdp-2024, claim TL:TTO:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-gdp-2025",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-gdp-2025, claim TL:TTO:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TTO:gdpPerCapita:2024",
+   "id": "TL:TTO:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 18733.4110406494,
-   "display": "$18,733",
+   "value": 18967.2704636681,
+   "display": "$18,967",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-gdpPerCapita-2024, claim TL:TTO:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-gdpPerCapita-2025, claim TL:TTO:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TTO:gdpGrowth:2024",
+   "id": "TL:TTO:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.50920813979569,
-   "display": "2.5%",
+   "value": -0.787768572727643,
+   "display": "-0.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-gdpGrowth-2024, claim TL:TTO:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-gdpGrowth-2025, claim TL:TTO:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TTO:inflation:2024",
+   "id": "TL:TTO:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.526884625776839,
-   "display": "0.5%",
+   "value": 0.994489987904821,
+   "display": "1.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-inflation-2024",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-inflation-2024, claim TL:TTO:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-inflation-2025",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-inflation-2025, claim TL:TTO:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TTO:population:2024",
+   "id": "TL:TTO:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1368333,
+   "value": 1367764,
    "display": "1.4 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-population-2024",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-population-2024, claim TL:TTO:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-population-2025",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-population-2025, claim TL:TTO:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TTO:lifeExpectancy:2024",
@@ -121,30 +121,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-lifeExpectancy-2024, claim TL:TTO:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TTO:urbanPct:2024",
+   "id": "TL:TTO:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 53.961056681951,
+   "value": 53.9696087417106,
    "display": "54.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-urbanPct-2024",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-urbanPct-2024, claim TL:TTO:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-urbanPct-2025",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-urbanPct-2025, claim TL:TTO:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TTO:fertility:2024",
@@ -161,7 +161,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-fertility-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-fertility-2024, claim TL:TTO:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-wgiVoice-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-wgiVoice-2024, claim TL:TTO:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-wgiStability-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-wgiStability-2024, claim TL:TTO:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-wgiEffectiveness-2024, claim TL:TTO:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-wgiRegQuality-2024, claim TL:TTO:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-wgiRuleOfLaw-2024, claim TL:TTO:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-wgiCorruption-2024, claim TL:TTO:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-healthSpendPctGdp-2023, claim TL:TTO:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-physicians-2021",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-physicians-2021, claim TL:TTO:physicians:2021, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-underFiveMortality-2024, claim TL:TTO:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-measlesImmunisation-2024, claim TL:TTO:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-safeWater-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-safeWater-2024, claim TL:TTO:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-eduSpendPctGdp-2023, claim TL:TTO:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-primaryEnrolment-2024, claim TL:TTO:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-secondaryEnrolment-2024, claim TL:TTO:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-tertiaryEnrolment-2024, claim TL:TTO:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-rdSpending-2022",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-rdSpending-2022, claim TL:TTO:rdSpending:2022, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-researchers-2022",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-researchers-2022, claim TL:TTO:researchers:2022, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-internetUsers-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-internetUsers-2024, claim TL:TTO:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-mobileSubs-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-mobileSubs-2024, claim TL:TTO:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-highTechExports-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-highTechExports-2024, claim TL:TTO:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-landArea-2023",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-landArea-2023, claim TL:TTO:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-forestPct-2023",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-forestPct-2023, claim TL:TTO:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-agriPct-2023",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-agriPct-2023, claim TL:TTO:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-co2PerCapita-2024, claim TL:TTO:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-renewablePct-2021",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-renewablePct-2021, claim TL:TTO:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-resourceRents-2021",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-resourceRents-2021, claim TL:TTO:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-oilRents-2021",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-oilRents-2021, claim TL:TTO:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-mineralRents-2021",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-mineralRents-2021, claim TL:TTO:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-forestRents-2021",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-forestRents-2021, claim TL:TTO:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:TTO:electricityAccess:2023",
+   "id": "TL:TTO:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 98.7,
-   "display": "98.7%",
+   "value": 100,
+   "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/TTO#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-electricityAccess-2023, claim TL:TTO:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/TTO#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-electricityAccess-2024, claim TL:TTO:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:TTO:milExpPctGdp:2024",
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-milExpPctGdp-2024, claim TL:TTO:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-milExpUsd-2024",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-milExpUsd-2024, claim TL:TTO:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/TTO#claim-armedForces-2020",
    "citation": "Terralore, \"Trinidad and Tobago — national dossier\", terralore.co/country/TTO#claim-armedForces-2020, claim TL:TTO:armedForces:2020, retrieved <YYYY-MM-DD>."

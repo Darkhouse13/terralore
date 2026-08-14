@@ -3,128 +3,128 @@
  "name": "India",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/IND",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:IND:gdp:2024",
+   "id": "TL:IND:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 3909891533858.08,
-   "display": "$3.91 T",
+   "value": 3956067115771.63,
+   "display": "$3.96 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-gdp-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdp-2024, claim TL:IND:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-gdp-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdp-2025, claim TL:IND:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:gdpPerCapita:2024",
+   "id": "TL:IND:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 2694.73780859961,
-   "display": "$2,695",
+   "value": 2702.47987141553,
+   "display": "$2,702",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdpPerCapita-2024, claim TL:IND:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdpPerCapita-2025, claim TL:IND:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:gdpGrowth:2024",
+   "id": "TL:IND:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 6.49476552383821,
-   "display": "6.5%",
+   "value": 7.56666179284244,
+   "display": "7.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdpGrowth-2024, claim TL:IND:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-gdpGrowth-2025, claim TL:IND:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:inflation:2024",
+   "id": "TL:IND:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 4.95303550973656,
-   "display": "5.0%",
+   "value": 2.39884954182294,
+   "display": "2.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-inflation-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-inflation-2024, claim TL:IND:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-inflation-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-inflation-2025, claim TL:IND:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:tradePctGdp:2024",
+   "id": "TL:IND:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 44.6492935069676,
-   "display": "44.6%",
+   "value": 46.2682006859907,
+   "display": "46.3%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-tradePctGdp-2024, claim TL:IND:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-tradePctGdp-2025, claim TL:IND:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:population:2024",
+   "id": "TL:IND:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1450935791,
-   "display": "1.45 bn",
+   "value": 1463865525,
+   "display": "1.46 bn",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-population-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-population-2024, claim TL:IND:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-population-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-population-2025, claim TL:IND:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IND:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-lifeExpectancy-2024, claim TL:IND:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:urbanPct:2024",
+   "id": "TL:IND:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 35.3788972368389,
-   "display": "35.4%",
+   "value": 35.689155772396,
+   "display": "35.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-urbanPct-2024",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-urbanPct-2024, claim TL:IND:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-urbanPct-2025",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-urbanPct-2025, claim TL:IND:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IND:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-fertility-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-fertility-2024, claim TL:IND:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-literacy-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-literacy-2024, claim TL:IND:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-wgiVoice-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiVoice-2024, claim TL:IND:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-wgiStability-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiStability-2024, claim TL:IND:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiEffectiveness-2024, claim TL:IND:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiRegQuality-2024, claim TL:IND:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiRuleOfLaw-2024, claim TL:IND:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-wgiCorruption-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-wgiCorruption-2024, claim TL:IND:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-healthSpendPctGdp-2023, claim TL:IND:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-physicians-2020",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-physicians-2020, claim TL:IND:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-underFiveMortality-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-underFiveMortality-2024, claim TL:IND:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-measlesImmunisation-2024, claim TL:IND:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-safeWater-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-safeWater-2024, claim TL:IND:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-literacyRate-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-literacyRate-2024, claim TL:IND:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-eduSpendPctGdp-2022, claim TL:IND:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-primaryEnrolment-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-primaryEnrolment-2025, claim TL:IND:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-secondaryEnrolment-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-secondaryEnrolment-2025, claim TL:IND:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-tertiaryEnrolment-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-tertiaryEnrolment-2025, claim TL:IND:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-rdSpending-2020",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-rdSpending-2020, claim TL:IND:rdSpending:2020, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-researchers-2020",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-researchers-2020, claim TL:IND:researchers:2020, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-internetUsers-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-internetUsers-2025, claim TL:IND:internetUsers:2025, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-mobileSubs-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-mobileSubs-2024, claim TL:IND:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-highTechExports-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-highTechExports-2024, claim TL:IND:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-landArea-2023",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-landArea-2023, claim TL:IND:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-forestPct-2023",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-forestPct-2023, claim TL:IND:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-agriPct-2023",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-agriPct-2023, claim TL:IND:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-co2PerCapita-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-co2PerCapita-2024, claim TL:IND:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-renewablePct-2021",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-renewablePct-2021, claim TL:IND:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-resourceRents-2021",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-resourceRents-2021, claim TL:IND:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-oilRents-2021",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-oilRents-2021, claim TL:IND:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-mineralRents-2021",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-mineralRents-2021, claim TL:IND:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-forestRents-2021",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-forestRents-2021, claim TL:IND:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IND:electricityAccess:2023",
+   "id": "TL:IND:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 99.5,
-   "display": "99.5%",
+   "value": 99.9,
+   "display": "99.9%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IND#claim-electricityAccess-2023",
-   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-electricityAccess-2023, claim TL:IND:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IND#claim-electricityAccess-2024",
+   "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-electricityAccess-2024, claim TL:IND:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IND:prodCopper:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-prodCopper-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodCopper-2025, claim TL:IND:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-prodIronOre-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodIronOre-2025, claim TL:IND:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-prodRareEarths-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodRareEarths-2025, claim TL:IND:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-prodBauxite-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodBauxite-2025, claim TL:IND:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-prodZinc-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodZinc-2025, claim TL:IND:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-prodPhosphate-2025",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-prodPhosphate-2025, claim TL:IND:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-milExpPctGdp-2024, claim TL:IND:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -981,7 +981,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-milExpUsd-2024",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-milExpUsd-2024, claim TL:IND:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -1001,7 +1001,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IND#claim-armedForces-2020",
    "citation": "Terralore, \"India — national dossier\", terralore.co/country/IND#claim-armedForces-2020, claim TL:IND:armedForces:2020, retrieved <YYYY-MM-DD>."

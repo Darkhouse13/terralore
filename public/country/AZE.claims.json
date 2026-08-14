@@ -3,128 +3,128 @@
  "name": "Azerbaijan",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/AZE",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:AZE:gdp:2024",
+   "id": "TL:AZE:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 74315882352.9412,
-   "display": "$74 B",
+   "value": 75937647058.8235,
+   "display": "$76 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-gdp-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-gdp-2024, claim TL:AZE:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-gdp-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-gdp-2025, claim TL:AZE:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:gdpPerCapita:2024",
+   "id": "TL:AZE:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 7283.8499076179,
-   "display": "$7,284",
+   "value": 7410.72281660142,
+   "display": "$7,411",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-gdpPerCapita-2024, claim TL:AZE:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-gdpPerCapita-2025, claim TL:AZE:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:gdpGrowth:2024",
+   "id": "TL:AZE:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.07140205008956,
-   "display": "4.1%",
+   "value": 1.44985591122698,
+   "display": "1.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-gdpGrowth-2024, claim TL:AZE:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-gdpGrowth-2025, claim TL:AZE:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:inflation:2024",
+   "id": "TL:AZE:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.21217188919901,
-   "display": "2.2%",
+   "value": 5.62208788068338,
+   "display": "5.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-inflation-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-inflation-2024, claim TL:AZE:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-inflation-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-inflation-2025, claim TL:AZE:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:tradePctGdp:2024",
+   "id": "TL:AZE:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 82.6898691594703,
-   "display": "82.7%",
+   "value": 79.8295815452306,
+   "display": "79.8%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-tradePctGdp-2024, claim TL:AZE:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-tradePctGdp-2025, claim TL:AZE:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:population:2024",
+   "id": "TL:AZE:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 10202830,
+   "value": 10246996,
    "display": "10 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-population-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-population-2024, claim TL:AZE:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-population-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-population-2025, claim TL:AZE:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AZE:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-lifeExpectancy-2024, claim TL:AZE:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:urbanPct:2024",
+   "id": "TL:AZE:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 58.573795837717,
+   "value": 58.6371024281175,
    "display": "58.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-urbanPct-2024",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-urbanPct-2024, claim TL:AZE:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-urbanPct-2025",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-urbanPct-2025, claim TL:AZE:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AZE:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-fertility-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-fertility-2024, claim TL:AZE:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-literacy-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-literacy-2023, claim TL:AZE:literacy:2023, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-wgiVoice-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-wgiVoice-2024, claim TL:AZE:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-wgiStability-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-wgiStability-2024, claim TL:AZE:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-wgiEffectiveness-2024, claim TL:AZE:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-wgiRegQuality-2024, claim TL:AZE:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-wgiRuleOfLaw-2024, claim TL:AZE:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-wgiCorruption-2024, claim TL:AZE:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-healthSpendPctGdp-2023, claim TL:AZE:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-physicians-2022",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-physicians-2022, claim TL:AZE:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-underFiveMortality-2024, claim TL:AZE:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-measlesImmunisation-2024, claim TL:AZE:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-safeWater-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-safeWater-2024, claim TL:AZE:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-literacyRate-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-literacyRate-2023, claim TL:AZE:literacyRate:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-eduSpendPctGdp-2023, claim TL:AZE:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-primaryEnrolment-2024, claim TL:AZE:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-secondaryEnrolment-2024, claim TL:AZE:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-tertiaryEnrolment-2024, claim TL:AZE:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-rdSpending-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-rdSpending-2024, claim TL:AZE:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-researchers-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-researchers-2024, claim TL:AZE:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-internetUsers-2025",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-internetUsers-2025, claim TL:AZE:internetUsers:2025, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-mobileSubs-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-mobileSubs-2024, claim TL:AZE:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-highTechExports-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-highTechExports-2024, claim TL:AZE:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-landArea-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-landArea-2023, claim TL:AZE:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-forestPct-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-forestPct-2023, claim TL:AZE:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-agriPct-2023",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-agriPct-2023, claim TL:AZE:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-co2PerCapita-2024, claim TL:AZE:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-renewablePct-2021",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-renewablePct-2021, claim TL:AZE:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-resourceRents-2021",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-resourceRents-2021, claim TL:AZE:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-oilRents-2021",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-oilRents-2021, claim TL:AZE:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-mineralRents-2021",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-mineralRents-2021, claim TL:AZE:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-forestRents-2021",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-forestRents-2021, claim TL:AZE:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:AZE:electricityAccess:2023",
+   "id": "TL:AZE:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/AZE#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-electricityAccess-2023, claim TL:AZE:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/AZE#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-electricityAccess-2024, claim TL:AZE:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:AZE:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-milExpPctGdp-2024, claim TL:AZE:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-milExpUsd-2024",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-milExpUsd-2024, claim TL:AZE:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/AZE#claim-armedForces-2020",
    "citation": "Terralore, \"Azerbaijan — national dossier\", terralore.co/country/AZE#claim-armedForces-2020, claim TL:AZE:armedForces:2020, retrieved <YYYY-MM-DD>."

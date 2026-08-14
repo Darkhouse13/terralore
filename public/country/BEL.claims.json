@@ -3,128 +3,128 @@
  "name": "Belgium",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/BEL",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:BEL:gdp:2024",
+   "id": "TL:BEL:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 671370081636.406,
-   "display": "$671 B",
+   "value": 725466462859.646,
+   "display": "$725 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-gdp-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-gdp-2024, claim TL:BEL:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-gdp-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-gdp-2025, claim TL:BEL:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:gdpPerCapita:2024",
+   "id": "TL:BEL:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 56614.5679499036,
-   "display": "$56,615",
+   "value": 60750.2735864647,
+   "display": "$60,750",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-gdpPerCapita-2024, claim TL:BEL:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-gdpPerCapita-2025, claim TL:BEL:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:gdpGrowth:2024",
+   "id": "TL:BEL:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.07045413019414,
-   "display": "1.1%",
+   "value": 0.983117967125935,
+   "display": "1.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-gdpGrowth-2024, claim TL:BEL:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-gdpGrowth-2025, claim TL:BEL:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:inflation:2024",
+   "id": "TL:BEL:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.14349136500041,
-   "display": "3.1%",
+   "value": 2.46705543774613,
+   "display": "2.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-inflation-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-inflation-2024, claim TL:BEL:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-inflation-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-inflation-2025, claim TL:BEL:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:tradePctGdp:2024",
+   "id": "TL:BEL:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 158.931826338067,
-   "display": "158.9%",
+   "value": 152.917788719365,
+   "display": "152.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-tradePctGdp-2024, claim TL:BEL:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-tradePctGdp-2025, claim TL:BEL:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:population:2024",
+   "id": "TL:BEL:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 11858610,
+   "value": 11941781,
    "display": "12 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-population-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-population-2024, claim TL:BEL:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-population-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-population-2025, claim TL:BEL:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BEL:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-lifeExpectancy-2024, claim TL:BEL:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:urbanPct:2024",
+   "id": "TL:BEL:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 87.6126557010527,
-   "display": "87.6%",
+   "value": 87.6726083114649,
+   "display": "87.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-urbanPct-2024",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-urbanPct-2024, claim TL:BEL:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-urbanPct-2025",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-urbanPct-2025, claim TL:BEL:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BEL:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-fertility-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-fertility-2024, claim TL:BEL:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-wgiVoice-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-wgiVoice-2024, claim TL:BEL:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-wgiStability-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-wgiStability-2024, claim TL:BEL:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-wgiEffectiveness-2024, claim TL:BEL:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-wgiRegQuality-2024, claim TL:BEL:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-wgiRuleOfLaw-2024, claim TL:BEL:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-wgiCorruption-2024, claim TL:BEL:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-healthSpendPctGdp-2023, claim TL:BEL:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-physicians-2022",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-physicians-2022, claim TL:BEL:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-underFiveMortality-2024, claim TL:BEL:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-measlesImmunisation-2024, claim TL:BEL:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-safeWater-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-safeWater-2024, claim TL:BEL:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-eduSpendPctGdp-2022, claim TL:BEL:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-primaryEnrolment-2023, claim TL:BEL:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-secondaryEnrolment-2023, claim TL:BEL:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-tertiaryEnrolment-2023, claim TL:BEL:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-rdSpending-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-rdSpending-2023, claim TL:BEL:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-researchers-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-researchers-2023, claim TL:BEL:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-internetUsers-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-internetUsers-2024, claim TL:BEL:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-mobileSubs-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-mobileSubs-2024, claim TL:BEL:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-highTechExports-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-highTechExports-2024, claim TL:BEL:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-landArea-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-landArea-2023, claim TL:BEL:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-forestPct-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-forestPct-2023, claim TL:BEL:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-agriPct-2023",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-agriPct-2023, claim TL:BEL:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-co2PerCapita-2024, claim TL:BEL:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-renewablePct-2021",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-renewablePct-2021, claim TL:BEL:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-resourceRents-2021",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-resourceRents-2021, claim TL:BEL:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-oilRents-2021",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-oilRents-2021, claim TL:BEL:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-mineralRents-2021",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-mineralRents-2021, claim TL:BEL:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-forestRents-2021",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-forestRents-2021, claim TL:BEL:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BEL:electricityAccess:2023",
+   "id": "TL:BEL:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BEL#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-electricityAccess-2023, claim TL:BEL:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BEL#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-electricityAccess-2024, claim TL:BEL:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BEL:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-milExpPctGdp-2024, claim TL:BEL:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-milExpUsd-2024",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-milExpUsd-2024, claim TL:BEL:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BEL#claim-armedForces-2020",
    "citation": "Terralore, \"Belgium — national dossier\", terralore.co/country/BEL#claim-armedForces-2020, claim TL:BEL:armedForces:2020, retrieved <YYYY-MM-DD>."

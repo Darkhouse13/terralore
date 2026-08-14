@@ -3,128 +3,128 @@
  "name": "Italy",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/ITA",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:ITA:gdp:2024",
+   "id": "TL:ITA:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 2380825077243.59,
-   "display": "$2.38 T",
+   "value": 2551556954100.35,
+   "display": "$2.55 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-gdp-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-gdp-2024, claim TL:ITA:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-gdp-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-gdp-2025, claim TL:ITA:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:gdpPerCapita:2024",
+   "id": "TL:ITA:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 40385.3413957669,
-   "display": "$40,385",
+   "value": 43308.6403060733,
+   "display": "$43,309",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-gdpPerCapita-2024, claim TL:ITA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-gdpPerCapita-2025, claim TL:ITA:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:gdpGrowth:2024",
+   "id": "TL:ITA:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 0.692676948440536,
-   "display": "0.7%",
+   "value": 0.539583636778445,
+   "display": "0.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-gdpGrowth-2024, claim TL:ITA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-gdpGrowth-2025, claim TL:ITA:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:inflation:2024",
+   "id": "TL:ITA:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.982373023061417,
-   "display": "1.0%",
+   "value": 1.5316682765282,
+   "display": "1.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-inflation-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-inflation-2024, claim TL:ITA:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-inflation-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-inflation-2025, claim TL:ITA:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:tradePctGdp:2024",
+   "id": "TL:ITA:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 62.8237685119526,
-   "display": "62.8%",
+   "value": 62.5232263591126,
+   "display": "62.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-tradePctGdp-2024, claim TL:ITA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-tradePctGdp-2025, claim TL:ITA:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:population:2024",
+   "id": "TL:ITA:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 58952704,
+   "value": 58915656,
    "display": "59 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-population-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-population-2024, claim TL:ITA:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-population-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-population-2025, claim TL:ITA:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ITA:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-lifeExpectancy-2024, claim TL:ITA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:urbanPct:2024",
+   "id": "TL:ITA:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 69.6047535143071,
-   "display": "69.6%",
+   "value": 69.680861801678,
+   "display": "69.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-urbanPct-2024",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-urbanPct-2024, claim TL:ITA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-urbanPct-2025",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-urbanPct-2025, claim TL:ITA:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ITA:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-fertility-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-fertility-2024, claim TL:ITA:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-literacy-2019",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-literacy-2019, claim TL:ITA:literacy:2019, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-wgiVoice-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-wgiVoice-2024, claim TL:ITA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-wgiStability-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-wgiStability-2024, claim TL:ITA:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-wgiEffectiveness-2024, claim TL:ITA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-wgiRegQuality-2024, claim TL:ITA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-wgiRuleOfLaw-2024, claim TL:ITA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-wgiCorruption-2024, claim TL:ITA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-healthSpendPctGdp-2024, claim TL:ITA:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-physicians-2022",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-physicians-2022, claim TL:ITA:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-underFiveMortality-2024, claim TL:ITA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-measlesImmunisation-2024, claim TL:ITA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-safeWater-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-safeWater-2024, claim TL:ITA:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-literacyRate-2019",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-literacyRate-2019, claim TL:ITA:literacyRate:2019, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-eduSpendPctGdp-2022, claim TL:ITA:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-primaryEnrolment-2023, claim TL:ITA:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-secondaryEnrolment-2023, claim TL:ITA:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-tertiaryEnrolment-2023, claim TL:ITA:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-rdSpending-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-rdSpending-2023, claim TL:ITA:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-researchers-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-researchers-2023, claim TL:ITA:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-internetUsers-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-internetUsers-2024, claim TL:ITA:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-mobileSubs-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-mobileSubs-2024, claim TL:ITA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-highTechExports-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-highTechExports-2024, claim TL:ITA:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-landArea-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-landArea-2023, claim TL:ITA:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-forestPct-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-forestPct-2023, claim TL:ITA:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-agriPct-2023",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-agriPct-2023, claim TL:ITA:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-co2PerCapita-2024, claim TL:ITA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-renewablePct-2021",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-renewablePct-2021, claim TL:ITA:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-resourceRents-2021",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-resourceRents-2021, claim TL:ITA:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-oilRents-2021",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-oilRents-2021, claim TL:ITA:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-mineralRents-2021",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-mineralRents-2021, claim TL:ITA:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-forestRents-2021",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-forestRents-2021, claim TL:ITA:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ITA:electricityAccess:2023",
+   "id": "TL:ITA:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ITA#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-electricityAccess-2023, claim TL:ITA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ITA#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-electricityAccess-2024, claim TL:ITA:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ITA:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-milExpPctGdp-2024, claim TL:ITA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-milExpUsd-2024",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-milExpUsd-2024, claim TL:ITA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ITA#claim-armedForces-2020",
    "citation": "Terralore, \"Italy — national dossier\", terralore.co/country/ITA#claim-armedForces-2020, claim TL:ITA:armedForces:2020, retrieved <YYYY-MM-DD>."

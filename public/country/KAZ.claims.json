@@ -3,88 +3,88 @@
  "name": "Kazakhstan",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/KAZ",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:KAZ:gdp:2024",
+   "id": "TL:KAZ:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 291480274648.826,
-   "display": "$291 B",
+   "value": 306239209650.024,
+   "display": "$306 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-gdp-2024",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-gdp-2024, claim TL:KAZ:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-gdp-2025",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-gdp-2025, claim TL:KAZ:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KAZ:gdpPerCapita:2024",
+   "id": "TL:KAZ:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 14154.6324958076,
-   "display": "$14,155",
+   "value": 14692.1331757237,
+   "display": "$14,692",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-gdpPerCapita-2024, claim TL:KAZ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-gdpPerCapita-2025, claim TL:KAZ:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KAZ:gdpGrowth:2024",
+   "id": "TL:KAZ:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 4.99999999996936,
-   "display": "5.0%",
+   "value": 6.5,
+   "display": "6.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-gdpGrowth-2024, claim TL:KAZ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-gdpGrowth-2025, claim TL:KAZ:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KAZ:inflation:2024",
+   "id": "TL:KAZ:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 8.69082156104494,
-   "display": "8.7%",
+   "value": 11.3879454675914,
+   "display": "11.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-inflation-2024",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-inflation-2024, claim TL:KAZ:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-inflation-2025",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-inflation-2025, claim TL:KAZ:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KAZ:tradePctGdp:2024",
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-tradePctGdp-2024, claim TL:KAZ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KAZ:population:2024",
+   "id": "TL:KAZ:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 20592571,
+   "value": 20843754,
    "display": "21 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-population-2024",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-population-2024, claim TL:KAZ:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-population-2025",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-population-2025, claim TL:KAZ:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KAZ:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-lifeExpectancy-2024, claim TL:KAZ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KAZ:urbanPct:2024",
+   "id": "TL:KAZ:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 62.072531584162,
-   "display": "62.1%",
+   "value": 62.3855569507987,
+   "display": "62.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-urbanPct-2024",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-urbanPct-2024, claim TL:KAZ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-urbanPct-2025",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-urbanPct-2025, claim TL:KAZ:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KAZ:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-fertility-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-fertility-2024, claim TL:KAZ:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-literacy-2009",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-literacy-2009, claim TL:KAZ:literacy:2009, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-wgiVoice-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-wgiVoice-2024, claim TL:KAZ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-wgiStability-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-wgiStability-2024, claim TL:KAZ:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-wgiEffectiveness-2024, claim TL:KAZ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-wgiRegQuality-2024, claim TL:KAZ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-wgiRuleOfLaw-2024, claim TL:KAZ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-wgiCorruption-2024, claim TL:KAZ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-healthSpendPctGdp-2023, claim TL:KAZ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-physicians-2023",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-physicians-2023, claim TL:KAZ:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-underFiveMortality-2024, claim TL:KAZ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-measlesImmunisation-2024, claim TL:KAZ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-safeWater-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-safeWater-2024, claim TL:KAZ:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-literacyRate-2009",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-literacyRate-2009, claim TL:KAZ:literacyRate:2009, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-eduSpendPctGdp-2023, claim TL:KAZ:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-primaryEnrolment-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-primaryEnrolment-2025, claim TL:KAZ:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-secondaryEnrolment-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-secondaryEnrolment-2025, claim TL:KAZ:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-tertiaryEnrolment-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-tertiaryEnrolment-2025, claim TL:KAZ:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-rdSpending-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-rdSpending-2024, claim TL:KAZ:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-researchers-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-researchers-2024, claim TL:KAZ:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-internetUsers-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-internetUsers-2024, claim TL:KAZ:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-mobileSubs-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-mobileSubs-2024, claim TL:KAZ:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-highTechExports-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-highTechExports-2024, claim TL:KAZ:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-landArea-2023",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-landArea-2023, claim TL:KAZ:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-forestPct-2023",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-forestPct-2023, claim TL:KAZ:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-agriPct-2023",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-agriPct-2023, claim TL:KAZ:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-co2PerCapita-2024, claim TL:KAZ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-renewablePct-2021",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-renewablePct-2021, claim TL:KAZ:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-resourceRents-2021",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-resourceRents-2021, claim TL:KAZ:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-oilRents-2021",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-oilRents-2021, claim TL:KAZ:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-mineralRents-2021",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-mineralRents-2021, claim TL:KAZ:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-forestRents-2021",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-forestRents-2021, claim TL:KAZ:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:KAZ:electricityAccess:2023",
+   "id": "TL:KAZ:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/KAZ#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-electricityAccess-2023, claim TL:KAZ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/KAZ#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-electricityAccess-2024, claim TL:KAZ:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:KAZ:prodCopper:2025",
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-prodCopper-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-prodCopper-2025, claim TL:KAZ:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-prodIronOre-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-prodIronOre-2025, claim TL:KAZ:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-prodGold-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-prodGold-2025, claim TL:KAZ:prodGold:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-prodBauxite-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-prodBauxite-2025, claim TL:KAZ:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-prodZinc-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-prodZinc-2025, claim TL:KAZ:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-prodPhosphate-2025, claim TL:KAZ:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-milExpPctGdp-2024, claim TL:KAZ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -981,7 +981,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-milExpUsd-2024",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-milExpUsd-2024, claim TL:KAZ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -1001,7 +1001,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/KAZ#claim-armedForces-2020",
    "citation": "Terralore, \"Kazakhstan — national dossier\", terralore.co/country/KAZ#claim-armedForces-2020, claim TL:KAZ:armedForces:2020, retrieved <YYYY-MM-DD>."

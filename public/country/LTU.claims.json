@@ -3,128 +3,128 @@
  "name": "Lithuania",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/LTU",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:LTU:gdp:2024",
+   "id": "TL:LTU:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 84869215513.3648,
-   "display": "$85 B",
+   "value": 95210150818.3512,
+   "display": "$95 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-gdp-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-gdp-2024, claim TL:LTU:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-gdp-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-gdp-2025, claim TL:LTU:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:gdpPerCapita:2024",
+   "id": "TL:LTU:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 29384.0189598663,
-   "display": "$29,384",
+   "value": 32958.6706396386,
+   "display": "$32,959",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-gdpPerCapita-2024, claim TL:LTU:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-gdpPerCapita-2025, claim TL:LTU:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:gdpGrowth:2024",
+   "id": "TL:LTU:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.77263124530285,
-   "display": "2.8%",
+   "value": 2.92007656461696,
+   "display": "2.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-gdpGrowth-2024, claim TL:LTU:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-gdpGrowth-2025, claim TL:LTU:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:inflation:2024",
+   "id": "TL:LTU:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.715735835228723,
-   "display": "0.7%",
+   "value": 3.79170510860467,
+   "display": "3.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-inflation-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-inflation-2024, claim TL:LTU:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-inflation-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-inflation-2025, claim TL:LTU:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:tradePctGdp:2024",
+   "id": "TL:LTU:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 143.04839086338,
-   "display": "143.0%",
+   "value": 142.106304695382,
+   "display": "142.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-tradePctGdp-2024, claim TL:LTU:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-tradePctGdp-2025, claim TL:LTU:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:population:2024",
+   "id": "TL:LTU:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 2888278,
+   "value": 2888774,
    "display": "2.9 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-population-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-population-2024, claim TL:LTU:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-population-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-population-2025, claim TL:LTU:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LTU:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-lifeExpectancy-2024, claim TL:LTU:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:urbanPct:2024",
+   "id": "TL:LTU:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 68.8285833315315,
-   "display": "68.8%",
+   "value": 69.0816381352764,
+   "display": "69.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-urbanPct-2024",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-urbanPct-2024, claim TL:LTU:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-urbanPct-2025",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-urbanPct-2025, claim TL:LTU:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LTU:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-fertility-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-fertility-2024, claim TL:LTU:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-literacy-2011",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-literacy-2011, claim TL:LTU:literacy:2011, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-wgiVoice-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-wgiVoice-2024, claim TL:LTU:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-wgiStability-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-wgiStability-2024, claim TL:LTU:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-wgiEffectiveness-2024, claim TL:LTU:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-wgiRegQuality-2024, claim TL:LTU:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-wgiRuleOfLaw-2024, claim TL:LTU:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-wgiCorruption-2024, claim TL:LTU:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-healthSpendPctGdp-2024, claim TL:LTU:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-physicians-2022",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-physicians-2022, claim TL:LTU:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-underFiveMortality-2024, claim TL:LTU:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-measlesImmunisation-2024, claim TL:LTU:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-safeWater-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-safeWater-2024, claim TL:LTU:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-literacyRate-2011",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-literacyRate-2011, claim TL:LTU:literacyRate:2011, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-eduSpendPctGdp-2022, claim TL:LTU:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-primaryEnrolment-2024, claim TL:LTU:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-secondaryEnrolment-2024, claim TL:LTU:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-tertiaryEnrolment-2024, claim TL:LTU:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-rdSpending-2023",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-rdSpending-2023, claim TL:LTU:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-researchers-2023",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-researchers-2023, claim TL:LTU:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-internetUsers-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-internetUsers-2024, claim TL:LTU:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-mobileSubs-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-mobileSubs-2024, claim TL:LTU:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-highTechExports-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-highTechExports-2024, claim TL:LTU:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-landArea-2023",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-landArea-2023, claim TL:LTU:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-forestPct-2023",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-forestPct-2023, claim TL:LTU:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-agriPct-2023",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-agriPct-2023, claim TL:LTU:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-co2PerCapita-2024, claim TL:LTU:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-renewablePct-2021",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-renewablePct-2021, claim TL:LTU:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-resourceRents-2021",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-resourceRents-2021, claim TL:LTU:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-oilRents-2021",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-oilRents-2021, claim TL:LTU:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-mineralRents-2021",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-mineralRents-2021, claim TL:LTU:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-forestRents-2021",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-forestRents-2021, claim TL:LTU:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:LTU:electricityAccess:2023",
+   "id": "TL:LTU:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/LTU#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-electricityAccess-2023, claim TL:LTU:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/LTU#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-electricityAccess-2024, claim TL:LTU:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:LTU:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-milExpPctGdp-2024, claim TL:LTU:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-milExpUsd-2024",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-milExpUsd-2024, claim TL:LTU:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/LTU#claim-armedForces-2020",
    "citation": "Terralore, \"Lithuania — national dossier\", terralore.co/country/LTU#claim-armedForces-2020, claim TL:LTU:armedForces:2020, retrieved <YYYY-MM-DD>."

@@ -3,68 +3,68 @@
  "name": "United States",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/USA",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:USA:gdp:2024",
+   "id": "TL:USA:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 28750956130731.2,
-   "display": "$28.75 T",
+   "value": 30769700000000,
+   "display": "$30.77 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/USA#claim-gdp-2024",
-   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdp-2024, claim TL:USA:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/USA#claim-gdp-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdp-2025, claim TL:USA:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:USA:gdpPerCapita:2024",
+   "id": "TL:USA:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 84534.0407841548,
-   "display": "$84,534",
+   "value": 90026.5163005744,
+   "display": "$90,027",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/USA#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdpPerCapita-2024, claim TL:USA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/USA#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdpPerCapita-2025, claim TL:USA:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:USA:gdpGrowth:2024",
+   "id": "TL:USA:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.79300127716779,
-   "display": "2.8%",
+   "value": 2.16138195623856,
+   "display": "2.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/USA#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdpGrowth-2024, claim TL:USA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/USA#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-gdpGrowth-2025, claim TL:USA:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:USA:inflation:2024",
@@ -81,7 +81,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-inflation-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-inflation-2024, claim TL:USA:inflation:2024, retrieved <YYYY-MM-DD>."
@@ -91,8 +91,8 @@
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 25.3786342507088,
-   "display": "25.4%",
+   "value": 25.0160172978284,
+   "display": "25.0%",
    "unit": "% of GDP",
    "observed": 2024,
    "source": {
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-tradePctGdp-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-tradePctGdp-2024, claim TL:USA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:USA:population:2024",
+   "id": "TL:USA:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 340110988,
-   "display": "340 m",
+   "value": 341784857,
+   "display": "342 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/USA#claim-population-2024",
-   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-population-2024, claim TL:USA:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/USA#claim-population-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-population-2025, claim TL:USA:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:USA:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-lifeExpectancy-2024, claim TL:USA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:USA:urbanPct:2024",
+   "id": "TL:USA:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 80.1247798047184,
-   "display": "80.1%",
+   "value": 80.1921733027869,
+   "display": "80.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/USA#claim-urbanPct-2024",
-   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-urbanPct-2024, claim TL:USA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/USA#claim-urbanPct-2025",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-urbanPct-2025, claim TL:USA:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:USA:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-fertility-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-fertility-2024, claim TL:USA:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-wgiVoice-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiVoice-2024, claim TL:USA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-wgiStability-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiStability-2024, claim TL:USA:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiEffectiveness-2024, claim TL:USA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiRegQuality-2024, claim TL:USA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiRuleOfLaw-2024, claim TL:USA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-wgiCorruption-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-wgiCorruption-2024, claim TL:USA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-healthSpendPctGdp-2023, claim TL:USA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-physicians-2022",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-physicians-2022, claim TL:USA:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-underFiveMortality-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-underFiveMortality-2024, claim TL:USA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-measlesImmunisation-2024, claim TL:USA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-safeWater-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-safeWater-2024, claim TL:USA:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-eduSpendPctGdp-2021",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-eduSpendPctGdp-2021, claim TL:USA:eduSpendPctGdp:2021, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-primaryEnrolment-2022",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-primaryEnrolment-2022, claim TL:USA:primaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-secondaryEnrolment-2022",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-secondaryEnrolment-2022, claim TL:USA:secondaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-tertiaryEnrolment-2022",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-tertiaryEnrolment-2022, claim TL:USA:tertiaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-rdSpending-2023",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-rdSpending-2023, claim TL:USA:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-researchers-2022",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-researchers-2022, claim TL:USA:researchers:2022, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-internetUsers-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-internetUsers-2024, claim TL:USA:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-mobileSubs-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-mobileSubs-2024, claim TL:USA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-highTechExports-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-highTechExports-2024, claim TL:USA:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-landArea-2023",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-landArea-2023, claim TL:USA:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-forestPct-2023",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-forestPct-2023, claim TL:USA:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-agriPct-2023",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-agriPct-2023, claim TL:USA:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -651,7 +651,7 @@
    "domain": "geography",
    "metric": "co2PerCapita",
    "label": "CO₂ per capita (t)",
-   "value": 13.6195685039144,
+   "value": 13.6238622652793,
    "display": "13.6",
    "unit": "ratio",
    "observed": 2024,
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-co2PerCapita-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-co2PerCapita-2024, claim TL:USA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-renewablePct-2021",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-renewablePct-2021, claim TL:USA:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-resourceRents-2021",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-resourceRents-2021, claim TL:USA:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-oilRents-2021",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-oilRents-2021, claim TL:USA:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-mineralRents-2021",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-mineralRents-2021, claim TL:USA:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-forestRents-2021",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-forestRents-2021, claim TL:USA:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:USA:electricityAccess:2023",
+   "id": "TL:USA:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/USA#claim-electricityAccess-2023",
-   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-electricityAccess-2023, claim TL:USA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/USA#claim-electricityAccess-2024",
+   "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-electricityAccess-2024, claim TL:USA:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:USA:prodCopper:2025",
@@ -801,7 +801,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodCopper-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodCopper-2025, claim TL:USA:prodCopper:2025, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodIronOre-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodIronOre-2025, claim TL:USA:prodIronOre:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodGold-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodGold-2025, claim TL:USA:prodGold:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodCobalt-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodCobalt-2025, claim TL:USA:prodCobalt:2025, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodNickel-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodNickel-2025, claim TL:USA:prodNickel:2025, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodRareEarths-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodRareEarths-2025, claim TL:USA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
@@ -921,7 +921,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodZinc-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodZinc-2025, claim TL:USA:prodZinc:2025, retrieved <YYYY-MM-DD>."
@@ -941,7 +941,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-prodPhosphate-2025",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-prodPhosphate-2025, claim TL:USA:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -961,7 +961,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-milExpPctGdp-2024, claim TL:USA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -981,7 +981,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-milExpUsd-2024",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-milExpUsd-2024, claim TL:USA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -1001,7 +1001,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/USA#claim-armedForces-2020",
    "citation": "Terralore, \"United States — national dossier\", terralore.co/country/USA#claim-armedForces-2020, claim TL:USA:armedForces:2020, retrieved <YYYY-MM-DD>."

@@ -3,7 +3,7 @@
 Tertiary enrolment ranked across 169 nations, highest to lowest. Greece highest at 165.1% (2023). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/tertiary-enrolment
-Updated: 2026-08-10 (the education domain's last refresh)
+Updated: 2026-08-14 (the education domain's last refresh)
 
 Definition: University and college enrolment as a share of the population in the five years after secondary school; mature students can push it above 100%.
 Unit: % gross. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
 
 Citation template: Terralore, "Tertiary enrolment by nation — world ranking", terralore.co/rankings/tertiary-enrolment, retrieved <YYYY-MM-DD>.

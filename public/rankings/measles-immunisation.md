@@ -3,7 +3,7 @@
 Measles immunisation ranked across 174 nations, highest to lowest. Brunei highest at 99.0% (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/measles-immunisation
-Updated: 2026-08-10 (the health domain's last refresh)
+Updated: 2026-08-14 (the health domain's last refresh)
 
 Definition: Share of children aged 12–23 months who have received a measles vaccination.
 Unit: %. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
 
 Citation template: Terralore, "Measles immunisation by nation — world ranking", terralore.co/rankings/measles-immunisation, retrieved <YYYY-MM-DD>.

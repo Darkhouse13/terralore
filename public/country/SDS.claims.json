@@ -3,7 +3,7 @@
  "name": "South Sudan",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SDS",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -21,7 +21,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-gdp-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-gdp-2015, claim TL:SDS:gdp:2015, retrieved <YYYY-MM-DD>."
@@ -41,7 +41,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-gdpPerCapita-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-gdpPerCapita-2015, claim TL:SDS:gdpPerCapita:2015, retrieved <YYYY-MM-DD>."
@@ -61,7 +61,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-gdpGrowth-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-gdpGrowth-2015, claim TL:SDS:gdpGrowth:2015, retrieved <YYYY-MM-DD>."
@@ -81,7 +81,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-inflation-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-inflation-2024, claim TL:SDS:inflation:2024, retrieved <YYYY-MM-DD>."
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-tradePctGdp-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-tradePctGdp-2015, claim TL:SDS:tradePctGdp:2015, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SDS:population:2024",
+   "id": "TL:SDS:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 11943408,
+   "value": 12188788,
    "display": "12 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SDS#claim-population-2024",
-   "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-population-2024, claim TL:SDS:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SDS#claim-population-2025",
+   "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-population-2025, claim TL:SDS:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SDS:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-lifeExpectancy-2024, claim TL:SDS:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SDS:urbanPct:2024",
+   "id": "TL:SDS:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 21.3768190444906,
-   "display": "21.4%",
+   "value": 21.6843599017401,
+   "display": "21.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SDS#claim-urbanPct-2024",
-   "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-urbanPct-2024, claim TL:SDS:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SDS#claim-urbanPct-2025",
+   "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-urbanPct-2025, claim TL:SDS:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SDS:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-fertility-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-fertility-2024, claim TL:SDS:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-literacy-2008",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-literacy-2008, claim TL:SDS:literacy:2008, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-wgiVoice-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-wgiVoice-2024, claim TL:SDS:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-wgiStability-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-wgiStability-2024, claim TL:SDS:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-wgiEffectiveness-2024, claim TL:SDS:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-wgiRegQuality-2024, claim TL:SDS:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-wgiRuleOfLaw-2024, claim TL:SDS:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-wgiCorruption-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-wgiCorruption-2024, claim TL:SDS:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-healthSpendPctGdp-2023, claim TL:SDS:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-physicians-2022",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-physicians-2022, claim TL:SDS:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-underFiveMortality-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-underFiveMortality-2024, claim TL:SDS:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-measlesImmunisation-2024, claim TL:SDS:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-literacyRate-2008",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-literacyRate-2008, claim TL:SDS:literacyRate:2008, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-eduSpendPctGdp-2016",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-eduSpendPctGdp-2016, claim TL:SDS:eduSpendPctGdp:2016, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-primaryEnrolment-2024, claim TL:SDS:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-secondaryEnrolment-2024, claim TL:SDS:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-internetUsers-2019",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-internetUsers-2019, claim TL:SDS:internetUsers:2019, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-mobileSubs-2023",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-mobileSubs-2023, claim TL:SDS:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-landArea-2023",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-landArea-2023, claim TL:SDS:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-forestPct-2023",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-forestPct-2023, claim TL:SDS:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-agriPct-2023",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-agriPct-2023, claim TL:SDS:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-renewablePct-2021",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-renewablePct-2021, claim TL:SDS:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-resourceRents-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-resourceRents-2015, claim TL:SDS:resourceRents:2015, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-oilRents-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-oilRents-2015, claim TL:SDS:oilRents:2015, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-mineralRents-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-mineralRents-2015, claim TL:SDS:mineralRents:2015, retrieved <YYYY-MM-DD>."
@@ -681,30 +681,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-forestRents-2015",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-forestRents-2015, claim TL:SDS:forestRents:2015, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SDS:electricityAccess:2023",
+   "id": "TL:SDS:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 5.4,
    "display": "5.4%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SDS#claim-electricityAccess-2023",
-   "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-electricityAccess-2023, claim TL:SDS:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SDS#claim-electricityAccess-2024",
+   "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-electricityAccess-2024, claim TL:SDS:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SDS:milExpPctGdp:2024",
@@ -721,7 +721,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-milExpPctGdp-2024, claim TL:SDS:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-milExpUsd-2024",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-milExpUsd-2024, claim TL:SDS:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SDS#claim-armedForces-2020",
    "citation": "Terralore, \"South Sudan — national dossier\", terralore.co/country/SDS#claim-armedForces-2020, claim TL:SDS:armedForces:2020, retrieved <YYYY-MM-DD>."

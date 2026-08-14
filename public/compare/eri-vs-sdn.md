@@ -3,7 +3,7 @@
 Eritrea and Sudan side by side: 38 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/eri-vs-sdn
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Eritrea | Observed | Sudan | Observed |
 |---|---|---|---|---|
-| GDP | $2.1 B | 2011 | $50 B | 2024 |
-| GDP per capita | $689 | 2011 | $985 | 2024 |
-| GDP growth | 8.7% | 2011 | -14.0% | 2024 |
-| Trade openness | 47.4% | 2011 | 2.0% | 2024 |
+| GDP | $2.1 B | 2011 | $60 B | 2025 |
+| GDP per capita | $689 | 2011 | $1,165 | 2025 |
+| GDP growth | 8.7% | 2011 | 3.1% | 2025 |
+| Trade openness | 47.4% | 2011 | 2.4% | 2025 |
 | Inflation | — | — | 138.8% | 2022 |
 
 ## Society
 
 | Metric | Eritrea | Observed | Sudan | Observed |
 |---|---|---|---|---|
-| Population | 3.5 m | 2024 | 50 m | 2024 |
+| Population | 3.6 m | 2025 | 52 m | 2025 |
 | Life expectancy | 68.9 yrs | 2024 | 66.5 yrs | 2024 |
-| Urban population | 34.5% | 2024 | 34.9% | 2024 |
+| Urban population | 34.5% | 2025 | 34.9% | 2025 |
 | Fertility rate | 3.7 | 2024 | 4.3 | 2024 |
 
 ## Governance
@@ -88,7 +88,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2011 | 3.3% | 2021 |
 | Mineral rents | 24.6% | 2011 | 6.6% | 2021 |
 | Forest rents | 2.3% | 2011 | 2.8% | 2021 |
-| Electricity access | 54.4% | 2023 | 66.0% | 2023 |
+| Electricity access | 55.3% | 2024 | 66.0% | 2024 |
 
 ## Military
 
@@ -106,13 +106,13 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/ERI/chronicle.md and https://terralore.co/country/SDN/chronicle.md.
 

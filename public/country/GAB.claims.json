@@ -3,128 +3,128 @@
  "name": "Gabon",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/GAB",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:GAB:gdp:2024",
+   "id": "TL:GAB:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 20895684425.6752,
+   "value": 21427119323.2764,
    "display": "$21 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-gdp-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-gdp-2024, claim TL:GAB:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-gdp-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-gdp-2025, claim TL:GAB:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:gdpPerCapita:2024",
+   "id": "TL:GAB:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 8230.04311451151,
-   "display": "$8,230",
+   "value": 8263.03321595,
+   "display": "$8,263",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-gdpPerCapita-2024, claim TL:GAB:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-gdpPerCapita-2025, claim TL:GAB:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:gdpGrowth:2024",
+   "id": "TL:GAB:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.39403899592401,
-   "display": "3.4%",
+   "value": 2.47287961498321,
+   "display": "2.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-gdpGrowth-2024, claim TL:GAB:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-gdpGrowth-2025, claim TL:GAB:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:inflation:2024",
+   "id": "TL:GAB:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.17311998381218,
-   "display": "1.2%",
+   "value": 1.76766609003481,
+   "display": "1.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-inflation-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-inflation-2024, claim TL:GAB:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-inflation-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-inflation-2025, claim TL:GAB:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:tradePctGdp:2024",
+   "id": "TL:GAB:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 92.0468055151256,
-   "display": "92.0%",
+   "value": 84.8918905135603,
+   "display": "84.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-tradePctGdp-2024, claim TL:GAB:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-tradePctGdp-2025, claim TL:GAB:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:population:2024",
+   "id": "TL:GAB:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 2538952,
-   "display": "2.5 m",
+   "value": 2593130,
+   "display": "2.6 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-population-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-population-2024, claim TL:GAB:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-population-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-population-2025, claim TL:GAB:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GAB:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-lifeExpectancy-2024, claim TL:GAB:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:urbanPct:2024",
+   "id": "TL:GAB:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 91.8632094677575,
-   "display": "91.9%",
+   "value": 92.0876666682068,
+   "display": "92.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-urbanPct-2024",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-urbanPct-2024, claim TL:GAB:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-urbanPct-2025",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-urbanPct-2025, claim TL:GAB:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GAB:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-fertility-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-fertility-2024, claim TL:GAB:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-literacy-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-literacy-2021, claim TL:GAB:literacy:2021, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-wgiVoice-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-wgiVoice-2024, claim TL:GAB:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-wgiStability-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-wgiStability-2024, claim TL:GAB:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-wgiEffectiveness-2024, claim TL:GAB:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-wgiRegQuality-2024, claim TL:GAB:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-wgiRuleOfLaw-2024, claim TL:GAB:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-wgiCorruption-2024, claim TL:GAB:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-healthSpendPctGdp-2023, claim TL:GAB:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-physicians-2022",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-physicians-2022, claim TL:GAB:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-underFiveMortality-2024, claim TL:GAB:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-measlesImmunisation-2024, claim TL:GAB:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-literacyRate-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-literacyRate-2021, claim TL:GAB:literacyRate:2021, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-eduSpendPctGdp-2023, claim TL:GAB:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-primaryEnrolment-2019",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-primaryEnrolment-2019, claim TL:GAB:primaryEnrolment:2019, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-secondaryEnrolment-2019",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-secondaryEnrolment-2019, claim TL:GAB:secondaryEnrolment:2019, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-tertiaryEnrolment-2003",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-tertiaryEnrolment-2003, claim TL:GAB:tertiaryEnrolment:2003, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-rdSpending-2009",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-rdSpending-2009, claim TL:GAB:rdSpending:2009, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-internetUsers-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-internetUsers-2024, claim TL:GAB:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-mobileSubs-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-mobileSubs-2024, claim TL:GAB:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-highTechExports-2023",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-highTechExports-2023, claim TL:GAB:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-landArea-2023",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-landArea-2023, claim TL:GAB:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-forestPct-2023",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-forestPct-2023, claim TL:GAB:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-agriPct-2023",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-agriPct-2023, claim TL:GAB:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-co2PerCapita-2024, claim TL:GAB:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-renewablePct-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-renewablePct-2021, claim TL:GAB:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-resourceRents-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-resourceRents-2021, claim TL:GAB:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-oilRents-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-oilRents-2021, claim TL:GAB:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-mineralRents-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-mineralRents-2021, claim TL:GAB:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-forestRents-2021",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-forestRents-2021, claim TL:GAB:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GAB:electricityAccess:2023",
+   "id": "TL:GAB:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 94.1,
-   "display": "94.1%",
+   "value": 95.1,
+   "display": "95.1%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GAB#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-electricityAccess-2023, claim TL:GAB:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GAB#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-electricityAccess-2024, claim TL:GAB:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GAB:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-milExpPctGdp-2024, claim TL:GAB:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-milExpUsd-2024",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-milExpUsd-2024, claim TL:GAB:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GAB#claim-armedForces-2020",
    "citation": "Terralore, \"Gabon — national dossier\", terralore.co/country/GAB#claim-armedForces-2020, claim TL:GAB:armedForces:2020, retrieved <YYYY-MM-DD>."

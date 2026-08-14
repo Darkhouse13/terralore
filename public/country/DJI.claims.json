@@ -3,128 +3,128 @@
  "name": "Djibouti",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/DJI",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:DJI:gdp:2024",
+   "id": "TL:DJI:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 4152145939.98458,
-   "display": "$4.2 B",
+   "value": 4624533092.31886,
+   "display": "$4.6 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-gdp-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdp-2024, claim TL:DJI:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-gdp-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdp-2025, claim TL:DJI:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:gdpPerCapita:2024",
+   "id": "TL:DJI:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 3552.72335079222,
-   "display": "$3,553",
+   "value": 3905.604954681,
+   "display": "$3,906",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdpPerCapita-2024, claim TL:DJI:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdpPerCapita-2025, claim TL:DJI:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:gdpGrowth:2024",
+   "id": "TL:DJI:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 6.98048467276334,
-   "display": "7.0%",
+   "value": 6.4954610524268,
+   "display": "6.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdpGrowth-2024, claim TL:DJI:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-gdpGrowth-2025, claim TL:DJI:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:inflation:2024",
+   "id": "TL:DJI:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.1120116728497,
-   "display": "2.1%",
+   "value": -0.313731799533481,
+   "display": "-0.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-inflation-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-inflation-2024, claim TL:DJI:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-inflation-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-inflation-2025, claim TL:DJI:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:tradePctGdp:2024",
+   "id": "TL:DJI:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 241.237463098287,
-   "display": "241.2%",
+   "value": 206.296043192215,
+   "display": "206.3%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-tradePctGdp-2024, claim TL:DJI:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-tradePctGdp-2025, claim TL:DJI:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:population:2024",
+   "id": "TL:DJI:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1168722,
+   "value": 1184076,
    "display": "1.2 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-population-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-population-2024, claim TL:DJI:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-population-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-population-2025, claim TL:DJI:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DJI:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-lifeExpectancy-2024, claim TL:DJI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:urbanPct:2024",
+   "id": "TL:DJI:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 72.9052635052978,
-   "display": "72.9%",
+   "value": 72.9758660686475,
+   "display": "73.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-urbanPct-2024",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-urbanPct-2024, claim TL:DJI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-urbanPct-2025",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-urbanPct-2025, claim TL:DJI:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DJI:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-fertility-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-fertility-2024, claim TL:DJI:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-wgiVoice-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiVoice-2024, claim TL:DJI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-wgiStability-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiStability-2024, claim TL:DJI:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiEffectiveness-2024, claim TL:DJI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiRegQuality-2024, claim TL:DJI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiRuleOfLaw-2024, claim TL:DJI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-wgiCorruption-2024, claim TL:DJI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-healthSpendPctGdp-2023, claim TL:DJI:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-physicians-2022",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-physicians-2022, claim TL:DJI:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-underFiveMortality-2024, claim TL:DJI:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-measlesImmunisation-2024, claim TL:DJI:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-eduSpendPctGdp-2018",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-eduSpendPctGdp-2018, claim TL:DJI:eduSpendPctGdp:2018, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-tertiaryEnrolment-2011",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-tertiaryEnrolment-2011, claim TL:DJI:tertiaryEnrolment:2011, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-internetUsers-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-internetUsers-2024, claim TL:DJI:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-mobileSubs-2023",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-mobileSubs-2023, claim TL:DJI:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-highTechExports-2023",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-highTechExports-2023, claim TL:DJI:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-landArea-2023",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-landArea-2023, claim TL:DJI:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-forestPct-2023",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-forestPct-2023, claim TL:DJI:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-agriPct-2023",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-agriPct-2023, claim TL:DJI:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-co2PerCapita-2024, claim TL:DJI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-renewablePct-2022",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-renewablePct-2022, claim TL:DJI:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-resourceRents-2021",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-resourceRents-2021, claim TL:DJI:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-oilRents-2021",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-oilRents-2021, claim TL:DJI:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-mineralRents-2021",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-mineralRents-2021, claim TL:DJI:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -661,30 +661,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-forestRents-2021",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-forestRents-2021, claim TL:DJI:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:DJI:electricityAccess:2023",
+   "id": "TL:DJI:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 65.2,
-   "display": "65.2%",
+   "value": 69.2,
+   "display": "69.2%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/DJI#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-electricityAccess-2023, claim TL:DJI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/DJI#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-electricityAccess-2024, claim TL:DJI:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:DJI:milExpPctGdp:2008",
@@ -701,7 +701,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-milExpPctGdp-2008",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-milExpPctGdp-2008, claim TL:DJI:milExpPctGdp:2008, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-milExpUsd-2008",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-milExpUsd-2008, claim TL:DJI:milExpUsd:2008, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/DJI#claim-armedForces-2020",
    "citation": "Terralore, \"Djibouti — national dossier\", terralore.co/country/DJI#claim-armedForces-2020, claim TL:DJI:armedForces:2020, retrieved <YYYY-MM-DD>."

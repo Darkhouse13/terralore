@@ -3,128 +3,128 @@
  "name": "Ecuador",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/ECU",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:ECU:gdp:2024",
+   "id": "TL:ECU:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 124676074700,
-   "display": "$125 B",
+   "value": 130320560400,
+   "display": "$130 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-gdp-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-gdp-2024, claim TL:ECU:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-gdp-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-gdp-2025, claim TL:ECU:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:gdpPerCapita:2024",
+   "id": "TL:ECU:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 6874.705739766,
-   "display": "$6,875",
+   "value": 7125.27618527738,
+   "display": "$7,125",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-gdpPerCapita-2024, claim TL:ECU:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-gdpPerCapita-2025, claim TL:ECU:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:gdpGrowth:2024",
+   "id": "TL:ECU:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -2.00125476341026,
-   "display": "-2.0%",
+   "value": 3.72594857272087,
+   "display": "3.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-gdpGrowth-2024, claim TL:ECU:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-gdpGrowth-2025, claim TL:ECU:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:inflation:2024",
+   "id": "TL:ECU:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.54732515615369,
-   "display": "1.5%",
+   "value": 0.710469324989076,
+   "display": "0.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-inflation-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-inflation-2024, claim TL:ECU:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-inflation-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-inflation-2025, claim TL:ECU:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:tradePctGdp:2024",
+   "id": "TL:ECU:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 57.2031395531255,
-   "display": "57.2%",
+   "value": 59.3567812036511,
+   "display": "59.4%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-tradePctGdp-2024, claim TL:ECU:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-tradePctGdp-2025, claim TL:ECU:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:population:2024",
+   "id": "TL:ECU:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 18135478,
+   "value": 18289896,
    "display": "18 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-population-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-population-2024, claim TL:ECU:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-population-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-population-2025, claim TL:ECU:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ECU:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-lifeExpectancy-2024, claim TL:ECU:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:urbanPct:2024",
+   "id": "TL:ECU:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 63.2376932397602,
-   "display": "63.2%",
+   "value": 63.3918189058262,
+   "display": "63.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-urbanPct-2024",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-urbanPct-2024, claim TL:ECU:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-urbanPct-2025",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-urbanPct-2025, claim TL:ECU:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ECU:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-fertility-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-fertility-2024, claim TL:ECU:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-literacy-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-literacy-2024, claim TL:ECU:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-wgiVoice-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-wgiVoice-2024, claim TL:ECU:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-wgiStability-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-wgiStability-2024, claim TL:ECU:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-wgiEffectiveness-2024, claim TL:ECU:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-wgiRegQuality-2024, claim TL:ECU:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-wgiRuleOfLaw-2024, claim TL:ECU:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-wgiCorruption-2024, claim TL:ECU:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-healthSpendPctGdp-2023, claim TL:ECU:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-physicians-2020",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-physicians-2020, claim TL:ECU:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-underFiveMortality-2024, claim TL:ECU:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-measlesImmunisation-2024, claim TL:ECU:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-safeWater-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-safeWater-2024, claim TL:ECU:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-literacyRate-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-literacyRate-2024, claim TL:ECU:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-eduSpendPctGdp-2024, claim TL:ECU:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-primaryEnrolment-2023, claim TL:ECU:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-secondaryEnrolment-2023, claim TL:ECU:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-tertiaryEnrolment-2023, claim TL:ECU:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-rdSpending-2014",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-rdSpending-2014, claim TL:ECU:rdSpending:2014, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-researchers-2014",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-researchers-2014, claim TL:ECU:researchers:2014, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-internetUsers-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-internetUsers-2024, claim TL:ECU:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-mobileSubs-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-mobileSubs-2024, claim TL:ECU:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-highTechExports-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-highTechExports-2024, claim TL:ECU:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-landArea-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-landArea-2023, claim TL:ECU:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-forestPct-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-forestPct-2023, claim TL:ECU:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-agriPct-2023",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-agriPct-2023, claim TL:ECU:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-co2PerCapita-2024, claim TL:ECU:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-renewablePct-2021",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-renewablePct-2021, claim TL:ECU:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-resourceRents-2021",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-resourceRents-2021, claim TL:ECU:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-oilRents-2021",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-oilRents-2021, claim TL:ECU:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-mineralRents-2021",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-mineralRents-2021, claim TL:ECU:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-forestRents-2021",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-forestRents-2021, claim TL:ECU:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ECU:electricityAccess:2023",
+   "id": "TL:ECU:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 98.7,
-   "display": "98.7%",
+   "value": 98.5,
+   "display": "98.5%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ECU#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-electricityAccess-2023, claim TL:ECU:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ECU#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-electricityAccess-2024, claim TL:ECU:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ECU:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-milExpPctGdp-2024, claim TL:ECU:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-milExpUsd-2024",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-milExpUsd-2024, claim TL:ECU:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ECU#claim-armedForces-2020",
    "citation": "Terralore, \"Ecuador — national dossier\", terralore.co/country/ECU#claim-armedForces-2020, claim TL:ECU:armedForces:2020, retrieved <YYYY-MM-DD>."

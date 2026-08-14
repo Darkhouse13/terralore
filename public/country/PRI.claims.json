@@ -3,108 +3,108 @@
  "name": "Puerto Rico",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/PRI",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:PRI:gdp:2024",
+   "id": "TL:PRI:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 126029527033.705,
-   "display": "$126 B",
+   "value": 129368484000,
+   "display": "$129 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-gdp-2024",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-gdp-2024, claim TL:PRI:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-gdp-2025",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-gdp-2025, claim TL:PRI:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRI:gdpPerCapita:2024",
+   "id": "TL:PRI:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 39343.7154660139,
-   "display": "$39,344",
+   "value": 40620.1526923687,
+   "display": "$40,620",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-gdpPerCapita-2024, claim TL:PRI:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-gdpPerCapita-2025, claim TL:PRI:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRI:gdpGrowth:2024",
+   "id": "TL:PRI:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.17707554784896,
-   "display": "3.2%",
+   "value": 0.317670046196895,
+   "display": "0.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-gdpGrowth-2024, claim TL:PRI:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-gdpGrowth-2025, claim TL:PRI:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRI:tradePctGdp:2024",
+   "id": "TL:PRI:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 94.6225085555605,
-   "display": "94.6%",
+   "value": 90.4580438617492,
+   "display": "90.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-tradePctGdp-2024, claim TL:PRI:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-tradePctGdp-2025, claim TL:PRI:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRI:population:2024",
+   "id": "TL:PRI:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 3203295,
+   "value": 3184835,
    "display": "3.2 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-population-2024",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-population-2024, claim TL:PRI:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-population-2025",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-population-2025, claim TL:PRI:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRI:lifeExpectancy:2024",
@@ -121,30 +121,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-lifeExpectancy-2024, claim TL:PRI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRI:urbanPct:2024",
+   "id": "TL:PRI:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 94.2539505199436,
+   "value": 94.3404836598892,
    "display": "94.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-urbanPct-2024",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-urbanPct-2024, claim TL:PRI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-urbanPct-2025",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-urbanPct-2025, claim TL:PRI:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRI:fertility:2024",
@@ -161,7 +161,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-fertility-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-fertility-2024, claim TL:PRI:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-literacy-2017",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-literacy-2017, claim TL:PRI:literacy:2017, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-wgiVoice-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-wgiVoice-2024, claim TL:PRI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-wgiStability-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-wgiStability-2024, claim TL:PRI:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-wgiEffectiveness-2024, claim TL:PRI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-wgiRegQuality-2024, claim TL:PRI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-wgiRuleOfLaw-2024, claim TL:PRI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-wgiCorruption-2024, claim TL:PRI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-safeWater-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-safeWater-2024, claim TL:PRI:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-literacyRate-2017",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-literacyRate-2017, claim TL:PRI:literacyRate:2017, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-eduSpendPctGdp-2024, claim TL:PRI:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-primaryEnrolment-2024, claim TL:PRI:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-secondaryEnrolment-2024, claim TL:PRI:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-tertiaryEnrolment-2023, claim TL:PRI:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-rdSpending-2015",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-rdSpending-2015, claim TL:PRI:rdSpending:2015, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-researchers-2015",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-researchers-2015, claim TL:PRI:researchers:2015, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-internetUsers-2022",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-internetUsers-2022, claim TL:PRI:internetUsers:2022, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-mobileSubs-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-mobileSubs-2024, claim TL:PRI:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-landArea-2023",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-landArea-2023, claim TL:PRI:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-forestPct-2023",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-forestPct-2023, claim TL:PRI:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-agriPct-2023",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-agriPct-2023, claim TL:PRI:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -571,7 +571,7 @@
    "domain": "geography",
    "metric": "co2PerCapita",
    "label": "CO₂ per capita (t)",
-   "value": 4.81694630060609,
+   "value": 4.81811048233563,
    "display": "4.8",
    "unit": "ratio",
    "observed": 2024,
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-co2PerCapita-2024, claim TL:PRI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-renewablePct-2022",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-renewablePct-2022, claim TL:PRI:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-resourceRents-2021",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-resourceRents-2021, claim TL:PRI:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-oilRents-2021",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-oilRents-2021, claim TL:PRI:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-mineralRents-2021",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-mineralRents-2021, claim TL:PRI:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -681,30 +681,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRI#claim-forestRents-2021",
    "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-forestRents-2021, claim TL:PRI:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRI:electricityAccess:2023",
+   "id": "TL:PRI:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRI#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-electricityAccess-2023, claim TL:PRI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRI#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Puerto Rico — national dossier\", terralore.co/country/PRI#claim-electricityAccess-2024, claim TL:PRI:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   }
  ]
 }

@@ -3,7 +3,7 @@
 World copper mine production: 23 Mt in the 2025 USGS estimate. Chile leads with 23%; the top three hold 49%. Every producer's sourced share.
 
 Canonical: https://terralore.co/commodities/copper
-Updated: 2026-08-11 (USGS Mineral Commodity Summaries edition)
+Updated: 2026-08-14 (USGS Mineral Commodity Summaries edition)
 
 What is measured: the MCS statistics row "Mine production" — mine production in tonnes, what left mines in each calendar year. Not reserves in the ground, and not refined or smelted output. 2025 is the USGS estimate; 2024 is the reported figure.
 
@@ -36,6 +36,6 @@ Machine-readable claims — every share and tonnage above as an addressable clai
 
 ## Sources
 
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-11 · https://www.usgs.gov/centers/national-minerals-information-center
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Citation template: Terralore, "Copper — who supplies the world", terralore.co/commodities/copper, retrieved <YYYY-MM-DD>.

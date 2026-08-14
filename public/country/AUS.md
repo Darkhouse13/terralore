@@ -3,7 +3,7 @@
 Australia — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 51 indicators, each…
 
 Canonical: https://terralore.co/country/AUS
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $1.76 T | 2024 | World Development Indicators |
-| GDP per capita | $64,604 | 2024 | World Development Indicators |
-| GDP growth | 1.4% | 2024 | World Development Indicators |
-| Inflation | 3.2% | 2024 | World Development Indicators |
-| Trade openness | 47.1% | 2024 | World Development Indicators |
+| GDP | $1.80 T | 2025 | World Development Indicators |
+| GDP per capita | $65,130 | 2025 | World Development Indicators |
+| GDP growth | 1.4% | 2025 | World Development Indicators |
+| Inflation | 2.9% | 2025 | World Development Indicators |
+| Trade openness | 45.9% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 27 m | 2024 | World Development Indicators |
+| Population | 28 m | 2025 | World Development Indicators |
 | Life expectancy | 83.1 yrs | 2024 | World Development Indicators |
-| Urban population | 87.6% | 2024 | World Development Indicators |
+| Urban population | 87.7% | 2025 | World Development Indicators |
 | Fertility rate | 1.5 | 2024 | World Development Indicators |
 
 ## Governance
@@ -93,7 +93,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.3% | 2021 | World Development Indicators |
 | Mineral rents | 10.5% | 2021 | World Development Indicators |
 | Forest rents | 0.1% | 2021 | World Development Indicators |
-| Electricity access | 100.0% | 2023 | World Development Indicators |
+| Electricity access | 100.0% | 2024 | World Development Indicators |
 | Copper (mined) | 730 kt | 2025 | Mineral Commodity Summaries 2026 |
 | Iron ore | 980 Mt | 2025 | Mineral Commodity Summaries 2026 |
 | Gold (mined) | 280 t | 2025 | Mineral Commodity Summaries 2026 |
@@ -121,13 +121,13 @@ History: "From the world's oldest continuous cultures and a British penal colony
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Australia — national dossier", terralore.co/country/AUS, retrieved <YYYY-MM-DD>.

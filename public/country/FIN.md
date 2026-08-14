@@ -3,7 +3,7 @@
 Finland — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 43 indicators, each with…
 
 Canonical: https://terralore.co/country/FIN
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $299 B | 2024 | World Development Indicators |
-| GDP per capita | $53,150 | 2024 | World Development Indicators |
-| GDP growth | 0.4% | 2024 | World Development Indicators |
-| Inflation | 1.6% | 2024 | World Development Indicators |
-| Trade openness | 83.5% | 2024 | World Development Indicators |
+| GDP | $317 B | 2025 | World Development Indicators |
+| GDP per capita | $56,149 | 2025 | World Development Indicators |
+| GDP growth | 0.2% | 2025 | World Development Indicators |
+| Inflation | 0.3% | 2025 | World Development Indicators |
+| Trade openness | 83.4% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 5.6 m | 2024 | World Development Indicators |
+| Population | 5.6 m | 2025 | World Development Indicators |
 | Life expectancy | 82.3 yrs | 2024 | World Development Indicators |
-| Urban population | 74.3% | 2024 | World Development Indicators |
+| Urban population | 74.5% | 2025 | World Development Indicators |
 | Fertility rate | 1.3 | 2024 | World Development Indicators |
 
 ## Governance
@@ -94,7 +94,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 0.1% | 2021 | World Development Indicators |
 | Forest rents | 0.3% | 2021 | World Development Indicators |
-| Electricity access | 100.0% | 2023 | World Development Indicators |
+| Electricity access | 100.0% | 2024 | World Development Indicators |
 | Phosphate rock | 980 kt | 2025 | Mineral Commodity Summaries 2026 |
 
 ## Military
@@ -113,13 +113,13 @@ History: "Six centuries with Sweden, a century with Russia, and a hard-won indep
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Finland — national dossier", terralore.co/country/FIN, retrieved <YYYY-MM-DD>.

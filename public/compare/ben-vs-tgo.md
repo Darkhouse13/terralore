@@ -3,7 +3,7 @@
 Benin and Togo side by side: 41 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/ben-vs-tgo
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Benin | Observed | Togo | Observed |
 |---|---|---|---|---|
-| GDP | $21 B | 2024 | $11 B | 2024 |
-| GDP per capita | $1,485 | 2024 | $1,119 | 2024 |
-| GDP growth | 7.5% | 2024 | 6.5% | 2024 |
-| Inflation | 1.2% | 2024 | 2.9% | 2024 |
-| Trade openness | 40.6% | 2024 | 61.6% | 2022 |
+| GDP | $25 B | 2025 | $12 B | 2025 |
+| GDP per capita | $1,658 | 2025 | $1,384 | 2025 |
+| GDP growth | 8.1% | 2025 | 6.3% | 2025 |
+| Inflation | 1.1% | 2025 | 0.4% | 2025 |
+| Trade openness | 37.1% | 2025 | 59.9% | 2023 |
 
 ## Society
 
 | Metric | Benin | Observed | Togo | Observed |
 |---|---|---|---|---|
-| Population | 14 m | 2024 | 9.5 m | 2024 |
+| Population | 15 m | 2025 | 8.6 m | 2025 |
 | Life expectancy | 61.0 yrs | 2024 | 62.9 yrs | 2024 |
-| Urban population | 52.5% | 2024 | 43.8% | 2024 |
+| Urban population | 53.4% | 2025 | 44.4% | 2025 |
 | Fertility rate | 4.5 | 2024 | 4.1 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.0% | 2021 |
 | Mineral rents | 0.0% | 2021 | 4.9% | 2021 |
 | Forest rents | 2.3% | 2021 | 3.0% | 2021 |
-| Electricity access | 57.0% | 2023 | 59.2% | 2023 |
+| Electricity access | 59.0% | 2024 | 61.1% | 2024 |
 | Phosphate rock | — | — | 1.6 Mt | 2025 |
 
 ## Military
@@ -111,14 +111,14 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/BEN/chronicle.md and https://terralore.co/country/TGO/chronicle.md.
 

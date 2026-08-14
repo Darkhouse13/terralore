@@ -3,128 +3,128 @@
  "name": "El Salvador",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SLV",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SLV:gdp:2024",
+   "id": "TL:SLV:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 35364960000,
-   "display": "$35 B",
+   "value": 36708110000,
+   "display": "$37 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-gdp-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdp-2024, claim TL:SLV:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-gdp-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdp-2025, claim TL:SLV:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:gdpPerCapita:2024",
+   "id": "TL:SLV:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 5579.65969165029,
-   "display": "$5,580",
+   "value": 5766.72574029107,
+   "display": "$5,767",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdpPerCapita-2024, claim TL:SLV:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdpPerCapita-2025, claim TL:SLV:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:gdpGrowth:2024",
+   "id": "TL:SLV:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.60202016121069,
-   "display": "2.6%",
+   "value": 3.90594189242583,
+   "display": "3.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdpGrowth-2024, claim TL:SLV:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-gdpGrowth-2025, claim TL:SLV:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:inflation:2024",
+   "id": "TL:SLV:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.853782292567288,
-   "display": "0.9%",
+   "value": 0.257570528307203,
+   "display": "0.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-inflation-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-inflation-2024, claim TL:SLV:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-inflation-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-inflation-2025, claim TL:SLV:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:tradePctGdp:2024",
+   "id": "TL:SLV:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 84.6596461582312,
-   "display": "84.7%",
+   "value": 88.1580664327311,
+   "display": "88.2%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-tradePctGdp-2024, claim TL:SLV:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-tradePctGdp-2025, claim TL:SLV:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:population:2024",
+   "id": "TL:SLV:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 6338193,
-   "display": "6.3 m",
+   "value": 6365503,
+   "display": "6.4 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-population-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-population-2024, claim TL:SLV:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-population-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-population-2025, claim TL:SLV:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SLV:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-lifeExpectancy-2024, claim TL:SLV:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:urbanPct:2024",
+   "id": "TL:SLV:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 75.0674905102199,
-   "display": "75.1%",
+   "value": 75.5237123209951,
+   "display": "75.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-urbanPct-2024",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-urbanPct-2024, claim TL:SLV:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-urbanPct-2025",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-urbanPct-2025, claim TL:SLV:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SLV:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-fertility-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-fertility-2024, claim TL:SLV:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-literacy-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-literacy-2024, claim TL:SLV:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-wgiVoice-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiVoice-2024, claim TL:SLV:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-wgiStability-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiStability-2024, claim TL:SLV:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiEffectiveness-2024, claim TL:SLV:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiRegQuality-2024, claim TL:SLV:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiRuleOfLaw-2024, claim TL:SLV:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-wgiCorruption-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-wgiCorruption-2024, claim TL:SLV:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-healthSpendPctGdp-2023, claim TL:SLV:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-physicians-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-physicians-2023, claim TL:SLV:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-underFiveMortality-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-underFiveMortality-2024, claim TL:SLV:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-measlesImmunisation-2024, claim TL:SLV:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-literacyRate-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-literacyRate-2024, claim TL:SLV:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-eduSpendPctGdp-2024, claim TL:SLV:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-primaryEnrolment-2024, claim TL:SLV:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-secondaryEnrolment-2024, claim TL:SLV:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-tertiaryEnrolment-2024, claim TL:SLV:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-rdSpending-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-rdSpending-2023, claim TL:SLV:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-researchers-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-researchers-2023, claim TL:SLV:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-internetUsers-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-internetUsers-2024, claim TL:SLV:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-mobileSubs-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-mobileSubs-2024, claim TL:SLV:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-highTechExports-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-highTechExports-2024, claim TL:SLV:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-landArea-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-landArea-2023, claim TL:SLV:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-forestPct-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-forestPct-2023, claim TL:SLV:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-agriPct-2023",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-agriPct-2023, claim TL:SLV:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-co2PerCapita-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-co2PerCapita-2024, claim TL:SLV:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-renewablePct-2021",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-renewablePct-2021, claim TL:SLV:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-resourceRents-2021",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-resourceRents-2021, claim TL:SLV:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-oilRents-2021",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-oilRents-2021, claim TL:SLV:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-mineralRents-2021",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-mineralRents-2021, claim TL:SLV:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-forestRents-2021",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-forestRents-2021, claim TL:SLV:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SLV:electricityAccess:2023",
+   "id": "TL:SLV:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 98.3,
-   "display": "98.3%",
+   "value": 98.7,
+   "display": "98.7%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SLV#claim-electricityAccess-2023",
-   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-electricityAccess-2023, claim TL:SLV:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SLV#claim-electricityAccess-2024",
+   "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-electricityAccess-2024, claim TL:SLV:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SLV:milExpPctGdp:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-milExpPctGdp-2024, claim TL:SLV:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-milExpUsd-2024",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-milExpUsd-2024, claim TL:SLV:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SLV#claim-armedForces-2020",
    "citation": "Terralore, \"El Salvador — national dossier\", terralore.co/country/SLV#claim-armedForces-2020, claim TL:SLV:armedForces:2020, retrieved <YYYY-MM-DD>."

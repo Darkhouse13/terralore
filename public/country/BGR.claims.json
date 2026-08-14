@@ -3,128 +3,128 @@
  "name": "Bulgaria",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/BGR",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:BGR:gdp:2024",
+   "id": "TL:BGR:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 113343355779.985,
-   "display": "$113 B",
+   "value": 130777235529.606,
+   "display": "$131 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-gdp-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-gdp-2024, claim TL:BGR:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-gdp-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-gdp-2025, claim TL:BGR:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:gdpPerCapita:2024",
+   "id": "TL:BGR:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 17596.0173663521,
-   "display": "$17,596",
+   "value": 20328.1667065538,
+   "display": "$20,328",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-gdpPerCapita-2024, claim TL:BGR:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-gdpPerCapita-2025, claim TL:BGR:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:gdpGrowth:2024",
+   "id": "TL:BGR:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.38709063847314,
-   "display": "3.4%",
+   "value": 3.0963663917961,
+   "display": "3.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-gdpGrowth-2024, claim TL:BGR:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-gdpGrowth-2025, claim TL:BGR:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:inflation:2024",
+   "id": "TL:BGR:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.44651943006078,
-   "display": "2.4%",
+   "value": 4.58084355235697,
+   "display": "4.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-inflation-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-inflation-2024, claim TL:BGR:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-inflation-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-inflation-2025, claim TL:BGR:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:tradePctGdp:2024",
+   "id": "TL:BGR:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 110.22631455921,
-   "display": "110.2%",
+   "value": 102.514263507931,
+   "display": "102.5%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-tradePctGdp-2024, claim TL:BGR:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-tradePctGdp-2025, claim TL:BGR:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:population:2024",
+   "id": "TL:BGR:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 6441421,
+   "value": 6433302,
    "display": "6.4 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-population-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-population-2024, claim TL:BGR:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-population-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-population-2025, claim TL:BGR:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BGR:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-lifeExpectancy-2024, claim TL:BGR:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:urbanPct:2024",
+   "id": "TL:BGR:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 73.9499356882481,
-   "display": "73.9%",
+   "value": 74.1727501848475,
+   "display": "74.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-urbanPct-2024",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-urbanPct-2024, claim TL:BGR:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-urbanPct-2025",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-urbanPct-2025, claim TL:BGR:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BGR:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-fertility-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-fertility-2024, claim TL:BGR:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-literacy-2011",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-literacy-2011, claim TL:BGR:literacy:2011, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-wgiVoice-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-wgiVoice-2024, claim TL:BGR:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-wgiStability-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-wgiStability-2024, claim TL:BGR:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-wgiEffectiveness-2024, claim TL:BGR:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-wgiRegQuality-2024, claim TL:BGR:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-wgiRuleOfLaw-2024, claim TL:BGR:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-wgiCorruption-2024, claim TL:BGR:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-healthSpendPctGdp-2023, claim TL:BGR:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-physicians-2022",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-physicians-2022, claim TL:BGR:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-underFiveMortality-2024, claim TL:BGR:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-measlesImmunisation-2024, claim TL:BGR:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-safeWater-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-safeWater-2024, claim TL:BGR:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-literacyRate-2011",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-literacyRate-2011, claim TL:BGR:literacyRate:2011, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-eduSpendPctGdp-2022, claim TL:BGR:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-primaryEnrolment-2024, claim TL:BGR:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-secondaryEnrolment-2024, claim TL:BGR:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-tertiaryEnrolment-2024, claim TL:BGR:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-rdSpending-2023",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-rdSpending-2023, claim TL:BGR:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-researchers-2023",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-researchers-2023, claim TL:BGR:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-internetUsers-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-internetUsers-2024, claim TL:BGR:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-mobileSubs-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-mobileSubs-2024, claim TL:BGR:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-highTechExports-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-highTechExports-2024, claim TL:BGR:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-landArea-2023",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-landArea-2023, claim TL:BGR:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-forestPct-2023",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-forestPct-2023, claim TL:BGR:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-agriPct-2023",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-agriPct-2023, claim TL:BGR:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-co2PerCapita-2024, claim TL:BGR:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-renewablePct-2021",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-renewablePct-2021, claim TL:BGR:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-resourceRents-2021",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-resourceRents-2021, claim TL:BGR:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-oilRents-2021",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-oilRents-2021, claim TL:BGR:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-mineralRents-2021",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-mineralRents-2021, claim TL:BGR:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-forestRents-2021",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-forestRents-2021, claim TL:BGR:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BGR:electricityAccess:2023",
+   "id": "TL:BGR:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BGR#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-electricityAccess-2023, claim TL:BGR:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BGR#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-electricityAccess-2024, claim TL:BGR:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BGR:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-milExpPctGdp-2024, claim TL:BGR:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-milExpUsd-2024",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-milExpUsd-2024, claim TL:BGR:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BGR#claim-armedForces-2020",
    "citation": "Terralore, \"Bulgaria — national dossier\", terralore.co/country/BGR#claim-armedForces-2020, claim TL:BGR:armedForces:2020, retrieved <YYYY-MM-DD>."

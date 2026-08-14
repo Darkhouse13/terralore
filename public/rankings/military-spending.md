@@ -3,7 +3,7 @@
 Defense spending ranked across 163 nations, highest to lowest. United States highest at $997 B (2024). Each figure carries its publisher and observation…
 
 Canonical: https://terralore.co/rankings/military-spending
-Updated: 2026-06-14 (the military domain's last refresh)
+Updated: 2026-08-14 (the military domain's last refresh)
 
 Definition: Total military expenditure at current prices.
 Unit: USD. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Defense spending by nation — world ranking", terralore.co/rankings/military-spending, retrieved <YYYY-MM-DD>.

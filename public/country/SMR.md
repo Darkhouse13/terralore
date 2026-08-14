@@ -3,7 +3,7 @@
 San Marino — economy, society, governance, health, education, technology, geography and resources in one sourced dossier: 35 indicators, each with its…
 
 Canonical: https://terralore.co/country/SMR
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -22,18 +22,18 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Metric | Value | Observed | Source |
 |---|---|---|---|
 | GDP | $2.0 B | 2023 | World Development Indicators |
-| GDP per capita | $59,880 | 2023 | World Development Indicators |
+| GDP per capita | $59,871 | 2023 | World Development Indicators |
 | GDP growth | 0.4% | 2023 | World Development Indicators |
-| Inflation | 1.2% | 2024 | World Development Indicators |
+| Inflation | 2.3% | 2025 | World Development Indicators |
 | Trade openness | 341.0% | 2023 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 34,000 | 2024 | World Development Indicators |
+| Population | 34,000 | 2025 | World Development Indicators |
 | Life expectancy | 85.8 yrs | 2024 | World Development Indicators |
-| Urban population | 97.2% | 2024 | World Development Indicators |
+| Urban population | 97.2% | 2025 | World Development Indicators |
 | Fertility rate | 1.2 | 2024 | World Development Indicators |
 | Literacy rate | 99.9% | 2022 | World Development Indicators |
 
@@ -90,7 +90,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Resource rents | 0.0% | 2020 | World Development Indicators |
 | Mineral rents | 0.0% | 2020 | World Development Indicators |
 | Forest rents | 0.0% | 2020 | World Development Indicators |
-| Electricity access | 100.0% | 2023 | World Development Indicators |
+| Electricity access | 100.0% | 2024 | World Development Indicators |
 
 Every metric above is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md).
 
@@ -100,11 +100,11 @@ History: "Liberty on a mountaintop: the world's oldest surviving republic, found
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
 
 Citation template: Terralore, "San Marino — national dossier", terralore.co/country/SMR, retrieved <YYYY-MM-DD>.

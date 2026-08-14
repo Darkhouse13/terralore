@@ -3,7 +3,7 @@
 Mineral rents ranked across 178 nations, highest to lowest. DR Congo highest at 28.8% (2021). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/mineral-rents
-Updated: 2026-08-10 (the resources domain's last refresh)
+Updated: 2026-08-14 (the resources domain's last refresh)
 
 Definition: Value of mineral production minus extraction cost, as a share of GDP.
 Unit: % of GDP. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
 
 Citation template: Terralore, "Mineral rents by nation — world ranking", terralore.co/rankings/mineral-rents, retrieved <YYYY-MM-DD>.

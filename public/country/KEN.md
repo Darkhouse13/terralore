@@ -3,7 +3,7 @@
 Kenya — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 43 indicators, each with…
 
 Canonical: https://terralore.co/country/KEN
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $120 B | 2024 | World Development Indicators |
-| GDP per capita | $2,132 | 2024 | World Development Indicators |
-| GDP growth | 4.7% | 2024 | World Development Indicators |
-| Inflation | 4.5% | 2024 | World Development Indicators |
-| Trade openness | 40.2% | 2024 | World Development Indicators |
+| GDP | $136 B | 2025 | World Development Indicators |
+| GDP per capita | $2,363 | 2025 | World Development Indicators |
+| GDP growth | 4.6% | 2025 | World Development Indicators |
+| Inflation | 4.1% | 2025 | World Development Indicators |
+| Trade openness | 37.5% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 56 m | 2024 | World Development Indicators |
+| Population | 58 m | 2025 | World Development Indicators |
 | Life expectancy | 63.8 yrs | 2024 | World Development Indicators |
-| Urban population | 31.9% | 2024 | World Development Indicators |
+| Urban population | 32.2% | 2025 | World Development Indicators |
 | Fertility rate | 3.2 | 2024 | World Development Indicators |
 | Literacy rate | 82.2% | 2000 | World Development Indicators |
 
@@ -95,7 +95,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 0.0% | 2021 | World Development Indicators |
 | Forest rents | 1.2% | 2021 | World Development Indicators |
-| Electricity access | 76.2% | 2023 | World Development Indicators |
+| Electricity access | 77.0% | 2024 | World Development Indicators |
 
 ## Military
 
@@ -113,12 +113,12 @@ History: "From the cradle of humankind on Lake Turkana to the Swahili coast and 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Kenya — national dossier", terralore.co/country/KEN, retrieved <YYYY-MM-DD>.

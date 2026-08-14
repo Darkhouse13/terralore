@@ -3,7 +3,7 @@
 Health spending ranked across 174 nations, highest to lowest. United States highest at 16.7% (2023). Each figure carries its publisher and observation…
 
 Canonical: https://terralore.co/rankings/health-spending
-Updated: 2026-08-10 (the health domain's last refresh)
+Updated: 2026-08-14 (the health domain's last refresh)
 
 Definition: Total health expenditure — public and private together — as a share of GDP.
 Unit: % of GDP. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
 
 Citation template: Terralore, "Health spending by nation — world ranking", terralore.co/rankings/health-spending, retrieved <YYYY-MM-DD>.

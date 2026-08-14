@@ -3,7 +3,7 @@
 Researchers (per million) ranked across 137 nations, highest to lowest. Liechtenstein highest at 18,130 (2023). Each figure carries its publisher and…
 
 Canonical: https://terralore.co/rankings/researchers
-Updated: 2026-06-15 (the technology domain's last refresh)
+Updated: 2026-08-14 (the technology domain's last refresh)
 
 Definition: Full-time-equivalent researchers per million people.
 Unit: per million. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
 
 Citation template: Terralore, "Researchers (per million) by nation — world ranking", terralore.co/rankings/researchers, retrieved <YYYY-MM-DD>.

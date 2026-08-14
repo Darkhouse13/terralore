@@ -3,128 +3,128 @@
  "name": "Slovakia",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SVK",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SVK:gdp:2024",
+   "id": "TL:SVK:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 140934076532.375,
-   "display": "$141 B",
+   "value": 154530066506.895,
+   "display": "$155 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-gdp-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-gdp-2024, claim TL:SVK:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-gdp-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-gdp-2025, claim TL:SVK:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:gdpPerCapita:2024",
+   "id": "TL:SVK:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 25992.6748502048,
-   "display": "$25,993",
+   "value": 28543.6653439813,
+   "display": "$28,544",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-gdpPerCapita-2024, claim TL:SVK:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-gdpPerCapita-2025, claim TL:SVK:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:gdpGrowth:2024",
+   "id": "TL:SVK:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.93867445549446,
-   "display": "1.9%",
+   "value": 0.807418690144758,
+   "display": "0.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-gdpGrowth-2024, claim TL:SVK:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-gdpGrowth-2025, claim TL:SVK:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:inflation:2024",
+   "id": "TL:SVK:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.75760909424272,
-   "display": "2.8%",
+   "value": 4.00042823495829,
+   "display": "4.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-inflation-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-inflation-2024, claim TL:SVK:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-inflation-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-inflation-2025, claim TL:SVK:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:tradePctGdp:2024",
+   "id": "TL:SVK:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 171.212800151635,
-   "display": "171.2%",
+   "value": 170.342496403331,
+   "display": "170.3%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-tradePctGdp-2024, claim TL:SVK:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-tradePctGdp-2025, claim TL:SVK:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:population:2024",
+   "id": "TL:SVK:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 5422069,
+   "value": 5413813,
    "display": "5.4 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-population-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-population-2024, claim TL:SVK:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-population-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-population-2025, claim TL:SVK:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SVK:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-lifeExpectancy-2024, claim TL:SVK:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:urbanPct:2024",
+   "id": "TL:SVK:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 53.1919702985684,
+   "value": 53.1940341971169,
    "display": "53.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-urbanPct-2024",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-urbanPct-2024, claim TL:SVK:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-urbanPct-2025",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-urbanPct-2025, claim TL:SVK:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SVK:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-fertility-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-fertility-2024, claim TL:SVK:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-wgiVoice-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-wgiVoice-2024, claim TL:SVK:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-wgiStability-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-wgiStability-2024, claim TL:SVK:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-wgiEffectiveness-2024, claim TL:SVK:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-wgiRegQuality-2024, claim TL:SVK:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-wgiRuleOfLaw-2024, claim TL:SVK:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-wgiCorruption-2024, claim TL:SVK:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-healthSpendPctGdp-2023, claim TL:SVK:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-physicians-2022",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-physicians-2022, claim TL:SVK:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-underFiveMortality-2024, claim TL:SVK:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-measlesImmunisation-2024, claim TL:SVK:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-safeWater-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-safeWater-2024, claim TL:SVK:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-eduSpendPctGdp-2022",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-eduSpendPctGdp-2022, claim TL:SVK:eduSpendPctGdp:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-primaryEnrolment-2024, claim TL:SVK:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-secondaryEnrolment-2024, claim TL:SVK:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-tertiaryEnrolment-2024, claim TL:SVK:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-rdSpending-2023",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-rdSpending-2023, claim TL:SVK:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-researchers-2023",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-researchers-2023, claim TL:SVK:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-internetUsers-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-internetUsers-2024, claim TL:SVK:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-mobileSubs-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-mobileSubs-2024, claim TL:SVK:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-highTechExports-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-highTechExports-2024, claim TL:SVK:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-landArea-2023",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-landArea-2023, claim TL:SVK:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-forestPct-2023",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-forestPct-2023, claim TL:SVK:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-agriPct-2023",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-agriPct-2023, claim TL:SVK:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-co2PerCapita-2024, claim TL:SVK:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-renewablePct-2021",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-renewablePct-2021, claim TL:SVK:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-resourceRents-2021",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-resourceRents-2021, claim TL:SVK:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-oilRents-2021",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-oilRents-2021, claim TL:SVK:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-mineralRents-2021",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-mineralRents-2021, claim TL:SVK:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-forestRents-2021",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-forestRents-2021, claim TL:SVK:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SVK:electricityAccess:2023",
+   "id": "TL:SVK:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SVK#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-electricityAccess-2023, claim TL:SVK:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SVK#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-electricityAccess-2024, claim TL:SVK:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SVK:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-milExpPctGdp-2024, claim TL:SVK:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-milExpUsd-2024",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-milExpUsd-2024, claim TL:SVK:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SVK#claim-armedForces-2020",
    "citation": "Terralore, \"Slovakia — national dossier\", terralore.co/country/SVK#claim-armedForces-2020, claim TL:SVK:armedForces:2020, retrieved <YYYY-MM-DD>."

@@ -3,96 +3,96 @@
  "name": "New Zealand",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/NZL",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:NZL:gdp:2024",
+   "id": "TL:NZL:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 260172385097.616,
-   "display": "$260 B",
+   "value": 264057413739.965,
+   "display": "$264 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-gdp-2024",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-gdp-2024, claim TL:NZL:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-gdp-2025",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-gdp-2025, claim TL:NZL:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NZL:gdpPerCapita:2024",
+   "id": "TL:NZL:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 49205.1792146792,
-   "display": "$49,205",
+   "value": 49591.0405731713,
+   "display": "$49,591",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-gdpPerCapita-2024, claim TL:NZL:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-gdpPerCapita-2025, claim TL:NZL:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NZL:gdpGrowth:2024",
+   "id": "TL:NZL:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.28862004711685,
-   "display": "1.3%",
+   "value": 0.462871830681081,
+   "display": "0.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-gdpGrowth-2024, claim TL:NZL:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-gdpGrowth-2025, claim TL:NZL:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NZL:inflation:2024",
+   "id": "TL:NZL:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.92279782301957,
-   "display": "2.9%",
+   "value": 2.8397963180572,
+   "display": "2.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-inflation-2024",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-inflation-2024, claim TL:NZL:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-inflation-2025",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-inflation-2025, claim TL:NZL:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NZL:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 51.224397222513,
-   "display": "51.2%",
+   "value": 50.6607664427853,
+   "display": "50.7%",
    "unit": "% of GDP",
    "observed": 2024,
    "source": {
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-tradePctGdp-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-tradePctGdp-2024, claim TL:NZL:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NZL:population:2024",
+   "id": "TL:NZL:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 5287500,
+   "value": 5324700,
    "display": "5.3 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-population-2024",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-population-2024, claim TL:NZL:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-population-2025",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-population-2025, claim TL:NZL:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NZL:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-lifeExpectancy-2024, claim TL:NZL:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NZL:urbanPct:2024",
+   "id": "TL:NZL:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 83.9370658833132,
-   "display": "83.9%",
+   "value": 83.9978515774731,
+   "display": "84.0%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-urbanPct-2024",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-urbanPct-2024, claim TL:NZL:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-urbanPct-2025",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-urbanPct-2025, claim TL:NZL:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NZL:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-fertility-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-fertility-2024, claim TL:NZL:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-wgiVoice-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-wgiVoice-2024, claim TL:NZL:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-wgiStability-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-wgiStability-2024, claim TL:NZL:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-wgiEffectiveness-2024, claim TL:NZL:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-wgiRegQuality-2024, claim TL:NZL:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-wgiRuleOfLaw-2024, claim TL:NZL:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-wgiCorruption-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-wgiCorruption-2024, claim TL:NZL:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-healthSpendPctGdp-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-healthSpendPctGdp-2024, claim TL:NZL:healthSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-physicians-2022",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-physicians-2022, claim TL:NZL:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-underFiveMortality-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-underFiveMortality-2024, claim TL:NZL:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-measlesImmunisation-2024, claim TL:NZL:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-safeWater-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-safeWater-2024, claim TL:NZL:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-eduSpendPctGdp-2023, claim TL:NZL:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-primaryEnrolment-2024, claim TL:NZL:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-secondaryEnrolment-2024, claim TL:NZL:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-tertiaryEnrolment-2024, claim TL:NZL:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-rdSpending-2023",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-rdSpending-2023, claim TL:NZL:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-researchers-2023",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-researchers-2023, claim TL:NZL:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-internetUsers-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-internetUsers-2024, claim TL:NZL:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-mobileSubs-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-mobileSubs-2024, claim TL:NZL:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-highTechExports-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-highTechExports-2024, claim TL:NZL:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-landArea-2023",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-landArea-2023, claim TL:NZL:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-forestPct-2023",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-forestPct-2023, claim TL:NZL:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-agriPct-2023",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-agriPct-2023, claim TL:NZL:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -651,7 +651,7 @@
    "domain": "geography",
    "metric": "co2PerCapita",
    "label": "CO₂ per capita (t)",
-   "value": 6.01694562647754,
+   "value": 6.01410207939509,
    "display": "6.0",
    "unit": "ratio",
    "observed": 2024,
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-co2PerCapita-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-co2PerCapita-2024, claim TL:NZL:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-renewablePct-2021",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-renewablePct-2021, claim TL:NZL:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-resourceRents-2021",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-resourceRents-2021, claim TL:NZL:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-oilRents-2021",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-oilRents-2021, claim TL:NZL:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-mineralRents-2021",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-mineralRents-2021, claim TL:NZL:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-forestRents-2021",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-forestRents-2021, claim TL:NZL:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:NZL:electricityAccess:2023",
+   "id": "TL:NZL:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/NZL#claim-electricityAccess-2023",
-   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-electricityAccess-2023, claim TL:NZL:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/NZL#claim-electricityAccess-2024",
+   "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-electricityAccess-2024, claim TL:NZL:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:NZL:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-milExpPctGdp-2024, claim TL:NZL:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-milExpUsd-2024",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-milExpUsd-2024, claim TL:NZL:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/NZL#claim-armedForces-2020",
    "citation": "Terralore, \"New Zealand — national dossier\", terralore.co/country/NZL#claim-armedForces-2020, claim TL:NZL:armedForces:2020, retrieved <YYYY-MM-DD>."

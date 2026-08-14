@@ -3,128 +3,128 @@
  "name": "Georgia",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/GEO",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:GEO:gdp:2024",
+   "id": "TL:GEO:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 34189423544.9955,
-   "display": "$34 B",
+   "value": 38143612855.1367,
+   "display": "$38 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-gdp-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-gdp-2024, claim TL:GEO:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-gdp-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-gdp-2025, claim TL:GEO:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:gdpPerCapita:2024",
+   "id": "TL:GEO:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 9241.49122313713,
-   "display": "$9,241",
+   "value": 9691.53472415196,
+   "display": "$9,692",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-gdpPerCapita-2024, claim TL:GEO:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-gdpPerCapita-2025, claim TL:GEO:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:gdpGrowth:2024",
+   "id": "TL:GEO:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 9.67979387500691,
-   "display": "9.7%",
+   "value": 7.46161504152039,
+   "display": "7.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-gdpGrowth-2024, claim TL:GEO:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-gdpGrowth-2025, claim TL:GEO:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:inflation:2024",
+   "id": "TL:GEO:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.10971758022096,
-   "display": "1.1%",
+   "value": 3.8692132193969,
+   "display": "3.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-inflation-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-inflation-2024, claim TL:GEO:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-inflation-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-inflation-2025, claim TL:GEO:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:tradePctGdp:2024",
+   "id": "TL:GEO:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 103.456471449056,
-   "display": "103.5%",
+   "value": 100.627997400937,
+   "display": "100.6%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-tradePctGdp-2024, claim TL:GEO:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-tradePctGdp-2025, claim TL:GEO:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:population:2024",
+   "id": "TL:GEO:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 3699557,
-   "display": "3.7 m",
+   "value": 3935766,
+   "display": "3.9 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-population-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-population-2024, claim TL:GEO:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-population-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-population-2025, claim TL:GEO:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GEO:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-lifeExpectancy-2024, claim TL:GEO:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:urbanPct:2024",
+   "id": "TL:GEO:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 61.0789605093733,
-   "display": "61.1%",
+   "value": 61.1781364090406,
+   "display": "61.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-urbanPct-2024",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-urbanPct-2024, claim TL:GEO:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-urbanPct-2025",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-urbanPct-2025, claim TL:GEO:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GEO:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-fertility-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-fertility-2024, claim TL:GEO:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-literacy-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-literacy-2024, claim TL:GEO:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-wgiVoice-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-wgiVoice-2024, claim TL:GEO:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-wgiStability-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-wgiStability-2024, claim TL:GEO:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-wgiEffectiveness-2024, claim TL:GEO:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-wgiRegQuality-2024, claim TL:GEO:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-wgiRuleOfLaw-2024, claim TL:GEO:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-wgiCorruption-2024, claim TL:GEO:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-healthSpendPctGdp-2023, claim TL:GEO:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-physicians-2023",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-physicians-2023, claim TL:GEO:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-underFiveMortality-2024, claim TL:GEO:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-measlesImmunisation-2024, claim TL:GEO:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-safeWater-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-safeWater-2024, claim TL:GEO:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-literacyRate-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-literacyRate-2024, claim TL:GEO:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-eduSpendPctGdp-2024, claim TL:GEO:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-primaryEnrolment-2024, claim TL:GEO:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-secondaryEnrolment-2024, claim TL:GEO:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-tertiaryEnrolment-2025",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-tertiaryEnrolment-2025, claim TL:GEO:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-rdSpending-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-rdSpending-2024, claim TL:GEO:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-researchers-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-researchers-2024, claim TL:GEO:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-internetUsers-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-internetUsers-2024, claim TL:GEO:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-mobileSubs-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-mobileSubs-2024, claim TL:GEO:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-highTechExports-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-highTechExports-2024, claim TL:GEO:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-landArea-2023",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-landArea-2023, claim TL:GEO:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-forestPct-2023",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-forestPct-2023, claim TL:GEO:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-agriPct-2023",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-agriPct-2023, claim TL:GEO:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -691,8 +691,8 @@
    "domain": "geography",
    "metric": "co2PerCapita",
    "label": "CO₂ per capita (t)",
-   "value": 3.6402736868225,
-   "display": "3.6",
+   "value": 3.53241610924853,
+   "display": "3.5",
    "unit": "ratio",
    "observed": 2024,
    "source": {
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-co2PerCapita-2024, claim TL:GEO:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-renewablePct-2021",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-renewablePct-2021, claim TL:GEO:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-resourceRents-2021",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-resourceRents-2021, claim TL:GEO:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-oilRents-2021",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-oilRents-2021, claim TL:GEO:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-mineralRents-2021",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-mineralRents-2021, claim TL:GEO:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-forestRents-2021",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-forestRents-2021, claim TL:GEO:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GEO:electricityAccess:2023",
+   "id": "TL:GEO:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GEO#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-electricityAccess-2023, claim TL:GEO:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GEO#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-electricityAccess-2024, claim TL:GEO:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GEO:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-milExpPctGdp-2024, claim TL:GEO:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-milExpUsd-2024",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-milExpUsd-2024, claim TL:GEO:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GEO#claim-armedForces-2020",
    "citation": "Terralore, \"Georgia — national dossier\", terralore.co/country/GEO#claim-armedForces-2020, claim TL:GEO:armedForces:2020, retrieved <YYYY-MM-DD>."

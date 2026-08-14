@@ -3,68 +3,68 @@
  "name": "Venezuela",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/VEN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:VEN:gdp:2024",
+   "id": "TL:VEN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 119802963257.783,
-   "display": "$120 B",
+   "value": 99661244155.6306,
+   "display": "$100 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-gdp-2024",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-gdp-2024, claim TL:VEN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-gdp-2025",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-gdp-2025, claim TL:VEN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VEN:gdpPerCapita:2024",
+   "id": "TL:VEN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 4217.59102643391,
-   "display": "$4,218",
+   "value": 3494.8138870244,
+   "display": "$3,495",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-gdpPerCapita-2024, claim TL:VEN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-gdpPerCapita-2025, claim TL:VEN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VEN:gdpGrowth:2024",
+   "id": "TL:VEN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 5.29999999999984,
-   "display": "5.3%",
+   "value": 1.57068062827224,
+   "display": "1.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-gdpGrowth-2024, claim TL:VEN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-gdpGrowth-2025, claim TL:VEN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:VEN:inflation:2016",
@@ -81,50 +81,50 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-inflation-2016",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-inflation-2016, claim TL:VEN:inflation:2016, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VEN:tradePctGdp:2024",
+   "id": "TL:VEN:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 26.0811657596499,
-   "display": "26.1%",
+   "value": 25.0115313779011,
+   "display": "25.0%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-tradePctGdp-2024, claim TL:VEN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-tradePctGdp-2025, claim TL:VEN:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VEN:population:2024",
+   "id": "TL:VEN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 28405543,
-   "display": "28 m",
+   "value": 28516896,
+   "display": "29 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-population-2024",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-population-2024, claim TL:VEN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-population-2025",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-population-2025, claim TL:VEN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:VEN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-lifeExpectancy-2024, claim TL:VEN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VEN:urbanPct:2024",
+   "id": "TL:VEN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 89.285859883201,
+   "value": 89.3219112298988,
    "display": "89.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-urbanPct-2024, claim TL:VEN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-urbanPct-2025, claim TL:VEN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:VEN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-fertility-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-fertility-2024, claim TL:VEN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-literacy-2017",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-literacy-2017, claim TL:VEN:literacy:2017, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-wgiVoice-2024, claim TL:VEN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-wgiStability-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-wgiStability-2024, claim TL:VEN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-wgiEffectiveness-2024, claim TL:VEN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-wgiRegQuality-2024, claim TL:VEN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-wgiRuleOfLaw-2024, claim TL:VEN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-wgiCorruption-2024, claim TL:VEN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-healthSpendPctGdp-2023, claim TL:VEN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-physicians-2017",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-physicians-2017, claim TL:VEN:physicians:2017, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-underFiveMortality-2024, claim TL:VEN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-measlesImmunisation-2024, claim TL:VEN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-literacyRate-2017",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-literacyRate-2017, claim TL:VEN:literacyRate:2017, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-eduSpendPctGdp-2009",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-eduSpendPctGdp-2009, claim TL:VEN:eduSpendPctGdp:2009, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-primaryEnrolment-2024, claim TL:VEN:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-secondaryEnrolment-2024, claim TL:VEN:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-tertiaryEnrolment-2009",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-tertiaryEnrolment-2009, claim TL:VEN:tertiaryEnrolment:2009, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-rdSpending-2014",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-rdSpending-2014, claim TL:VEN:rdSpending:2014, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-researchers-2023",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-researchers-2023, claim TL:VEN:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-internetUsers-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-internetUsers-2024, claim TL:VEN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-mobileSubs-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-mobileSubs-2024, claim TL:VEN:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-landArea-2023",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-landArea-2023, claim TL:VEN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-forestPct-2023",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-forestPct-2023, claim TL:VEN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-agriPct-2023",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-agriPct-2023, claim TL:VEN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-co2PerCapita-2024, claim TL:VEN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-renewablePct-2021",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-renewablePct-2021, claim TL:VEN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-resourceRents-2014",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-resourceRents-2014, claim TL:VEN:resourceRents:2014, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-oilRents-2014",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-oilRents-2014, claim TL:VEN:oilRents:2014, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-mineralRents-2014",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-mineralRents-2014, claim TL:VEN:mineralRents:2014, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-forestRents-2014",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-forestRents-2014, claim TL:VEN:forestRents:2014, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:VEN:electricityAccess:2023",
+   "id": "TL:VEN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/VEN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-electricityAccess-2023, claim TL:VEN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/VEN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-electricityAccess-2024, claim TL:VEN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:VEN:milExpPctGdp:2023",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-milExpPctGdp-2023",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-milExpPctGdp-2023, claim TL:VEN:milExpPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-milExpUsd-2024, claim TL:VEN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/VEN#claim-armedForces-2020",
    "citation": "Terralore, \"Venezuela — national dossier\", terralore.co/country/VEN#claim-armedForces-2020, claim TL:VEN:armedForces:2020, retrieved <YYYY-MM-DD>."

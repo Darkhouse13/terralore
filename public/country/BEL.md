@@ -3,7 +3,7 @@
 Belgium — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 42 indicators, each with…
 
 Canonical: https://terralore.co/country/BEL
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $671 B | 2024 | World Development Indicators |
-| GDP per capita | $56,615 | 2024 | World Development Indicators |
-| GDP growth | 1.1% | 2024 | World Development Indicators |
-| Inflation | 3.1% | 2024 | World Development Indicators |
-| Trade openness | 158.9% | 2024 | World Development Indicators |
+| GDP | $725 B | 2025 | World Development Indicators |
+| GDP per capita | $60,750 | 2025 | World Development Indicators |
+| GDP growth | 1.0% | 2025 | World Development Indicators |
+| Inflation | 2.5% | 2025 | World Development Indicators |
+| Trade openness | 152.9% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 12 m | 2024 | World Development Indicators |
+| Population | 12 m | 2025 | World Development Indicators |
 | Life expectancy | 82.3 yrs | 2024 | World Development Indicators |
-| Urban population | 87.6% | 2024 | World Development Indicators |
+| Urban population | 87.7% | 2025 | World Development Indicators |
 | Fertility rate | 1.4 | 2024 | World Development Indicators |
 
 ## Governance
@@ -94,7 +94,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 0.0% | 2021 | World Development Indicators |
 | Mineral rents | 0.0% | 2021 | World Development Indicators |
 | Forest rents | 0.0% | 2021 | World Development Indicators |
-| Electricity access | 100.0% | 2023 | World Development Indicators |
+| Electricity access | 100.0% | 2024 | World Development Indicators |
 
 ## Military
 
@@ -112,12 +112,12 @@ History: "From the cloth towns of Flanders to the heart of Europe, a young kingd
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Belgium — national dossier", terralore.co/country/BEL, retrieved <YYYY-MM-DD>.

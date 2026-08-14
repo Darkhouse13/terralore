@@ -3,128 +3,128 @@
  "name": "Bosnia and Herzegovina",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/BIH",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:BIH:gdp:2024",
+   "id": "TL:BIH:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 29613572022.8993,
-   "display": "$30 B",
+   "value": 32599982936.3931,
+   "display": "$33 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-gdp-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-gdp-2024, claim TL:BIH:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-gdp-2025",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-gdp-2025, claim TL:BIH:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:gdpPerCapita:2024",
+   "id": "TL:BIH:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 9358.78768951134,
-   "display": "$9,359",
+   "value": 10381.8460703874,
+   "display": "$10,382",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-gdpPerCapita-2024, claim TL:BIH:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-gdpPerCapita-2025, claim TL:BIH:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:gdpGrowth:2024",
+   "id": "TL:BIH:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.9715174617652,
-   "display": "3.0%",
+   "value": 2.12861913138053,
+   "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-gdpGrowth-2024, claim TL:BIH:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-gdpGrowth-2025, claim TL:BIH:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:inflation:2024",
+   "id": "TL:BIH:inflation:2023",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.69212733599723,
-   "display": "1.7%",
+   "value": 6.1059011284828,
+   "display": "6.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2023,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-inflation-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-inflation-2024, claim TL:BIH:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-inflation-2023",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-inflation-2023, claim TL:BIH:inflation:2023, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:tradePctGdp:2024",
+   "id": "TL:BIH:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 95.1562957108171,
-   "display": "95.2%",
+   "value": 95.1215717200063,
+   "display": "95.1%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-tradePctGdp-2024, claim TL:BIH:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-tradePctGdp-2025, claim TL:BIH:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:population:2024",
+   "id": "TL:BIH:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 3164253,
-   "display": "3.2 m",
+   "value": 3140095,
+   "display": "3.1 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-population-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-population-2024, claim TL:BIH:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-population-2025",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-population-2025, claim TL:BIH:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BIH:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-lifeExpectancy-2024, claim TL:BIH:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:urbanPct:2024",
+   "id": "TL:BIH:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 52.1224302754935,
-   "display": "52.1%",
+   "value": 52.6915440779561,
+   "display": "52.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-urbanPct-2024",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-urbanPct-2024, claim TL:BIH:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-urbanPct-2025",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-urbanPct-2025, claim TL:BIH:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BIH:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-fertility-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-fertility-2024, claim TL:BIH:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-literacy-2013",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-literacy-2013, claim TL:BIH:literacy:2013, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-wgiVoice-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-wgiVoice-2024, claim TL:BIH:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-wgiStability-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-wgiStability-2024, claim TL:BIH:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-wgiEffectiveness-2024, claim TL:BIH:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-wgiRegQuality-2024, claim TL:BIH:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-wgiRuleOfLaw-2024, claim TL:BIH:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-wgiCorruption-2024, claim TL:BIH:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-healthSpendPctGdp-2023, claim TL:BIH:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-physicians-2019",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-physicians-2019, claim TL:BIH:physicians:2019, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-underFiveMortality-2024, claim TL:BIH:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-measlesImmunisation-2024, claim TL:BIH:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-safeWater-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-safeWater-2024, claim TL:BIH:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-literacyRate-2013",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-literacyRate-2013, claim TL:BIH:literacyRate:2013, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-eduSpendPctGdp-2023, claim TL:BIH:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-primaryEnrolment-2023, claim TL:BIH:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-secondaryEnrolment-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-secondaryEnrolment-2023, claim TL:BIH:secondaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-tertiaryEnrolment-2023, claim TL:BIH:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-rdSpending-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-rdSpending-2024, claim TL:BIH:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-researchers-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-researchers-2024, claim TL:BIH:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-internetUsers-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-internetUsers-2024, claim TL:BIH:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-mobileSubs-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-mobileSubs-2024, claim TL:BIH:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-highTechExports-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-highTechExports-2024, claim TL:BIH:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-landArea-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-landArea-2023, claim TL:BIH:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-forestPct-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-forestPct-2023, claim TL:BIH:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-agriPct-2023",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-agriPct-2023, claim TL:BIH:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-co2PerCapita-2024, claim TL:BIH:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-renewablePct-2021",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-renewablePct-2021, claim TL:BIH:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-resourceRents-2021",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-resourceRents-2021, claim TL:BIH:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-oilRents-2021",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-oilRents-2021, claim TL:BIH:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-mineralRents-2021",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-mineralRents-2021, claim TL:BIH:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-forestRents-2021",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-forestRents-2021, claim TL:BIH:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BIH:electricityAccess:2023",
+   "id": "TL:BIH:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BIH#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-electricityAccess-2023, claim TL:BIH:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BIH#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-electricityAccess-2024, claim TL:BIH:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BIH:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-milExpPctGdp-2024, claim TL:BIH:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-milExpUsd-2024",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-milExpUsd-2024, claim TL:BIH:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BIH#claim-armedForces-2020",
    "citation": "Terralore, \"Bosnia and Herzegovina — national dossier\", terralore.co/country/BIH#claim-armedForces-2020, claim TL:BIH:armedForces:2020, retrieved <YYYY-MM-DD>."

@@ -3,7 +3,7 @@
 Burkina Faso and Niger side by side: 41 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bfa-vs-ner
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Burkina Faso | Observed | Niger | Observed |
 |---|---|---|---|---|
-| GDP | $23 B | 2024 | $20 B | 2024 |
-| GDP per capita | $982 | 2024 | $735 | 2024 |
-| GDP growth | 4.8% | 2024 | 10.3% | 2024 |
-| Inflation | 4.2% | 2024 | 9.1% | 2024 |
-| Trade openness | 60.5% | 2024 | 50.0% | 2024 |
+| GDP | $28 B | 2025 | $22 B | 2025 |
+| GDP per capita | $1,148 | 2025 | $775 | 2025 |
+| GDP growth | 5.3% | 2025 | 7.0% | 2025 |
+| Inflation | -0.6% | 2025 | -4.5% | 2025 |
+| Trade openness | 65.0% | 2025 | 33.9% | 2025 |
 
 ## Society
 
 | Metric | Burkina Faso | Observed | Niger | Observed |
 |---|---|---|---|---|
-| Population | 24 m | 2024 | 27 m | 2024 |
+| Population | 24 m | 2025 | 28 m | 2025 |
 | Life expectancy | 61.3 yrs | 2024 | 61.4 yrs | 2024 |
-| Urban population | 28.3% | 2024 | 18.0% | 2024 |
+| Urban population | 28.9% | 2025 | 18.4% | 2025 |
 | Fertility rate | 4.1 | 2024 | 5.9 | 2024 |
 
 ## Governance
@@ -89,7 +89,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 0.6% | 2021 |
 | Mineral rents | 15.5% | 2021 | 0.8% | 2021 |
 | Forest rents | 4.7% | 2021 | 4.9% | 2021 |
-| Electricity access | 21.7% | 2023 | 20.1% | 2023 |
+| Electricity access | 34.0% | 2024 | 21.3% | 2024 |
 
 ## Military
 
@@ -109,13 +109,13 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/BFA/chronicle.md and https://terralore.co/country/NER/chronicle.md.
 

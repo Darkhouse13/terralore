@@ -3,7 +3,7 @@
 Central African Republic and South Sudan side by side: 37 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/caf-vs-sds
-Updated: 2026-08-11 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Central African Republic | Observed | South Sudan | Observed |
 |---|---|---|---|---|
-| GDP | $2.8 B | 2024 | $12 B | 2015 |
-| GDP per capita | $516 | 2024 | $1,080 | 2015 |
-| GDP growth | 1.5% | 2024 | -10.8% | 2015 |
-| Inflation | 1.5% | 2024 | 91.4% | 2024 |
-| Trade openness | 46.4% | 2024 | 65.6% | 2015 |
+| GDP | $3.1 B | 2025 | $12 B | 2015 |
+| GDP per capita | $556 | 2025 | $1,080 | 2015 |
+| GDP growth | 4.5% | 2025 | -10.8% | 2015 |
+| Inflation | 1.0% | 2025 | 91.4% | 2024 |
+| Trade openness | 52.9% | 2025 | 65.6% | 2015 |
 
 ## Society
 
 | Metric | Central African Republic | Observed | South Sudan | Observed |
 |---|---|---|---|---|
-| Population | 5.3 m | 2024 | 12 m | 2024 |
+| Population | 5.5 m | 2025 | 12 m | 2025 |
 | Life expectancy | 57.7 yrs | 2024 | 57.7 yrs | 2024 |
-| Urban population | 44.1% | 2024 | 21.4% | 2024 |
+| Urban population | 44.6% | 2025 | 21.7% | 2025 |
 | Fertility rate | 6.0 | 2024 | 3.8 | 2024 |
 
 ## Governance
@@ -88,7 +88,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 10.4% | 2015 |
 | Mineral rents | 0.8% | 2021 | 0.0% | 2015 |
 | Forest rents | 9.5% | 2021 | 2.6% | 2015 |
-| Electricity access | 17.6% | 2023 | 5.4% | 2023 |
+| Electricity access | 18.2% | 2024 | 5.4% | 2024 |
 
 ## Military
 
@@ -106,13 +106,13 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/CAF/chronicle.md and https://terralore.co/country/SDS/chronicle.md.
 

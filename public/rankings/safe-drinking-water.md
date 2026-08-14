@@ -3,7 +3,7 @@
 Safe drinking water ranked across 130 nations, highest to lowest. Hungary highest at 100.0% (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/safe-drinking-water
-Updated: 2026-08-10 (the health domain's last refresh)
+Updated: 2026-08-14 (the health domain's last refresh)
 
 Definition: Share of the population using an improved water source on their premises, available when needed and free of contamination.
 Unit: %. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
 
 Citation template: Terralore, "Safe drinking water by nation — world ranking", terralore.co/rankings/safe-drinking-water, retrieved <YYYY-MM-DD>.

@@ -3,88 +3,88 @@
  "name": "Belize",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/BLZ",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:BLZ:gdp:2024",
+   "id": "TL:BLZ:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 3203631800,
-   "display": "$3.2 B",
+   "value": 3326500000,
+   "display": "$3.3 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-gdp-2024",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdp-2024, claim TL:BLZ:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-gdp-2025",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdp-2025, claim TL:BLZ:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLZ:gdpPerCapita:2024",
+   "id": "TL:BLZ:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 7681.24400583113,
-   "display": "$7,681",
+   "value": 7865.47937690933,
+   "display": "$7,865",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdpPerCapita-2024, claim TL:BLZ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdpPerCapita-2025, claim TL:BLZ:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLZ:gdpGrowth:2024",
+   "id": "TL:BLZ:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.50466435023895,
-   "display": "3.5%",
+   "value": 2.74831731763744,
+   "display": "2.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdpGrowth-2024, claim TL:BLZ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-gdpGrowth-2025, claim TL:BLZ:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLZ:inflation:2024",
+   "id": "TL:BLZ:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 3.28955985952768,
-   "display": "3.3%",
+   "value": 1.06281547952896,
+   "display": "1.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-inflation-2024",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-inflation-2024, claim TL:BLZ:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-inflation-2025",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-inflation-2025, claim TL:BLZ:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLZ:tradePctGdp:2024",
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-tradePctGdp-2024, claim TL:BLZ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLZ:population:2024",
+   "id": "TL:BLZ:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 417072,
-   "display": "417,000",
+   "value": 422924,
+   "display": "423,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-population-2024",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-population-2024, claim TL:BLZ:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-population-2025",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-population-2025, claim TL:BLZ:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLZ:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-lifeExpectancy-2024, claim TL:BLZ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLZ:urbanPct:2024",
+   "id": "TL:BLZ:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 41.7532107338224,
-   "display": "41.8%",
+   "value": 41.5621435428272,
+   "display": "41.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-urbanPct-2024",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-urbanPct-2024, claim TL:BLZ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-urbanPct-2025",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-urbanPct-2025, claim TL:BLZ:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLZ:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-fertility-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-fertility-2024, claim TL:BLZ:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-literacy-2022",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-literacy-2022, claim TL:BLZ:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-wgiVoice-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiVoice-2024, claim TL:BLZ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-wgiStability-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiStability-2024, claim TL:BLZ:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiEffectiveness-2024, claim TL:BLZ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiRegQuality-2024, claim TL:BLZ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiRuleOfLaw-2024, claim TL:BLZ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-wgiCorruption-2024, claim TL:BLZ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-healthSpendPctGdp-2023, claim TL:BLZ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-physicians-2018",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-physicians-2018, claim TL:BLZ:physicians:2018, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-underFiveMortality-2024, claim TL:BLZ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-measlesImmunisation-2024, claim TL:BLZ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-literacyRate-2022",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-literacyRate-2022, claim TL:BLZ:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-eduSpendPctGdp-2024, claim TL:BLZ:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-primaryEnrolment-2024, claim TL:BLZ:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-secondaryEnrolment-2024, claim TL:BLZ:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-tertiaryEnrolment-2024, claim TL:BLZ:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-internetUsers-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-internetUsers-2024, claim TL:BLZ:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-mobileSubs-2022",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-mobileSubs-2022, claim TL:BLZ:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-highTechExports-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-highTechExports-2024, claim TL:BLZ:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-landArea-2023",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-landArea-2023, claim TL:BLZ:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-forestPct-2023",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-forestPct-2023, claim TL:BLZ:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-agriPct-2023",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-agriPct-2023, claim TL:BLZ:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-co2PerCapita-2024, claim TL:BLZ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-renewablePct-2022",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-renewablePct-2022, claim TL:BLZ:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-resourceRents-2021",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-resourceRents-2021, claim TL:BLZ:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-oilRents-2021",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-oilRents-2021, claim TL:BLZ:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-mineralRents-2021",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-mineralRents-2021, claim TL:BLZ:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-forestRents-2021",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-forestRents-2021, claim TL:BLZ:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:BLZ:electricityAccess:2023",
+   "id": "TL:BLZ:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 99.6,
    "display": "99.6%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/BLZ#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-electricityAccess-2023, claim TL:BLZ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/BLZ#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-electricityAccess-2024, claim TL:BLZ:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:BLZ:milExpPctGdp:2024",
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-milExpPctGdp-2024, claim TL:BLZ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-milExpUsd-2024",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-milExpUsd-2024, claim TL:BLZ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/BLZ#claim-armedForces-2020",
    "citation": "Terralore, \"Belize — national dossier\", terralore.co/country/BLZ#claim-armedForces-2020, claim TL:BLZ:armedForces:2020, retrieved <YYYY-MM-DD>."

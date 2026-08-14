@@ -3,7 +3,7 @@
 Cobalt (mined) ranked across 12 producing nations, highest to lowest. DR Congo highest at 230 kt (2025). Each figure carries its publisher and…
 
 Canonical: https://terralore.co/rankings/cobalt-production
-Updated: 2026-08-10 (the resources domain's last refresh)
+Updated: 2026-08-14 (the resources domain's last refresh)
 
 Definition: Cobalt mined, by metal content — most of it a by-product of copper and nickel mining. The latest year is a USGS estimate.
 Unit: tonnes. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -29,6 +29,6 @@ Note: the USGS names only the producers it lists; a nation absent here is not re
 
 ## Sources
 
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Citation template: Terralore, "Cobalt (mined) by nation — world ranking", terralore.co/rankings/cobalt-production, retrieved <YYYY-MM-DD>.

@@ -3,7 +3,7 @@
 Renewable energy ranked across 176 nations, highest to lowest. DR Congo highest at 96.3% (2021). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/renewable-energy
-Updated: 2026-06-14 (the geography domain's last refresh)
+Updated: 2026-08-14 (the geography domain's last refresh)
 
 Definition: Share of total final energy consumption that comes from renewable sources.
 Unit: %. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
 
 Citation template: Terralore, "Renewable energy by nation — world ranking", terralore.co/rankings/renewable-energy, retrieved <YYYY-MM-DD>.

@@ -3,7 +3,7 @@
 Armed forces ranked across 166 nations, highest to lowest. India highest at 3.1 m (2020). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/armed-forces-personnel
-Updated: 2026-06-14 (the military domain's last refresh)
+Updated: 2026-08-14 (the military domain's last refresh)
 
 Definition: Total active armed-forces personnel.
 Unit: people. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Armed forces by nation — world ranking", terralore.co/rankings/armed-forces-personnel, retrieved <YYYY-MM-DD>.

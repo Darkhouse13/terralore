@@ -3,95 +3,95 @@
  "name": "Panama",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/PAN",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:PAN:gdp:2024",
+   "id": "TL:PAN:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 86523959131.7472,
-   "display": "$87 B",
+   "value": 90462600000,
+   "display": "$90 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-gdp-2024",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-gdp-2024, claim TL:PAN:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-gdp-2025",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-gdp-2025, claim TL:PAN:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PAN:gdpPerCapita:2024",
+   "id": "TL:PAN:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 19161.2188501596,
-   "display": "$19,161",
+   "value": 19789.7308555826,
+   "display": "$19,790",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-gdpPerCapita-2024, claim TL:PAN:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-gdpPerCapita-2025, claim TL:PAN:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PAN:gdpGrowth:2024",
+   "id": "TL:PAN:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.74788545546916,
-   "display": "2.7%",
+   "value": 4.35030460627731,
+   "display": "4.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-gdpGrowth-2024, claim TL:PAN:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-gdpGrowth-2025, claim TL:PAN:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PAN:inflation:2024",
+   "id": "TL:PAN:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 0.693225551004538,
-   "display": "0.7%",
+   "value": -0.189587880235675,
+   "display": "-0.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-inflation-2024",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-inflation-2024, claim TL:PAN:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-inflation-2025",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-inflation-2025, claim TL:PAN:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PAN:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 83.6737787798304,
+   "value": 83.6737788620216,
    "display": "83.7%",
    "unit": "% of GDP",
    "observed": 2024,
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-tradePctGdp-2024, claim TL:PAN:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PAN:population:2024",
+   "id": "TL:PAN:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 4515577,
-   "display": "4.5 m",
+   "value": 4571189,
+   "display": "4.6 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-population-2024",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-population-2024, claim TL:PAN:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-population-2025",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-population-2025, claim TL:PAN:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PAN:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-lifeExpectancy-2024, claim TL:PAN:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PAN:urbanPct:2024",
+   "id": "TL:PAN:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 65.9958447685488,
-   "display": "66.0%",
+   "value": 66.1500999418126,
+   "display": "66.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-urbanPct-2024",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-urbanPct-2024, claim TL:PAN:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-urbanPct-2025",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-urbanPct-2025, claim TL:PAN:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PAN:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-fertility-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-fertility-2024, claim TL:PAN:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-literacy-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-literacy-2024, claim TL:PAN:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-wgiVoice-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-wgiVoice-2024, claim TL:PAN:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-wgiStability-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-wgiStability-2024, claim TL:PAN:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-wgiEffectiveness-2024, claim TL:PAN:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-wgiRegQuality-2024, claim TL:PAN:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-wgiRuleOfLaw-2024, claim TL:PAN:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-wgiCorruption-2024, claim TL:PAN:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-healthSpendPctGdp-2023, claim TL:PAN:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-physicians-2022",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-physicians-2022, claim TL:PAN:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-underFiveMortality-2024, claim TL:PAN:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-measlesImmunisation-2024, claim TL:PAN:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-literacyRate-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-literacyRate-2024, claim TL:PAN:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-eduSpendPctGdp-2023, claim TL:PAN:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-primaryEnrolment-2024, claim TL:PAN:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-secondaryEnrolment-2017",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-secondaryEnrolment-2017, claim TL:PAN:secondaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-tertiaryEnrolment-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-tertiaryEnrolment-2023, claim TL:PAN:tertiaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-rdSpending-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-rdSpending-2024, claim TL:PAN:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-researchers-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-researchers-2024, claim TL:PAN:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-internetUsers-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-internetUsers-2024, claim TL:PAN:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-mobileSubs-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-mobileSubs-2023, claim TL:PAN:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-highTechExports-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-highTechExports-2024, claim TL:PAN:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-landArea-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-landArea-2023, claim TL:PAN:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-forestPct-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-forestPct-2023, claim TL:PAN:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-agriPct-2023",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-agriPct-2023, claim TL:PAN:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-co2PerCapita-2024, claim TL:PAN:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-renewablePct-2021",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-renewablePct-2021, claim TL:PAN:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-resourceRents-2021",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-resourceRents-2021, claim TL:PAN:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-oilRents-2021",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-oilRents-2021, claim TL:PAN:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-mineralRents-2021",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-mineralRents-2021, claim TL:PAN:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-forestRents-2021",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-forestRents-2021, claim TL:PAN:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PAN:electricityAccess:2023",
+   "id": "TL:PAN:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 97,
-   "display": "97.0%",
+   "value": 96,
+   "display": "96.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PAN#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-electricityAccess-2023, claim TL:PAN:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PAN#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-electricityAccess-2024, claim TL:PAN:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PAN:milExpUsd:2024",
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-milExpUsd-2024",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-milExpUsd-2024, claim TL:PAN:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PAN#claim-armedForces-2020",
    "citation": "Terralore, \"Panama — national dossier\", terralore.co/country/PAN#claim-armedForces-2020, claim TL:PAN:armedForces:2020, retrieved <YYYY-MM-DD>."

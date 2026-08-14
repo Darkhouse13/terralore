@@ -3,7 +3,7 @@
 Taiwan — economy and society in one sourced dossier: 5 indicators, each with its publisher and data vintage.
 
 Canonical: https://terralore.co/country/TWN
-Updated: 2026-07-29 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -40,6 +40,6 @@ History: "An Austronesian island colonised in turn by Dutch, Spanish, Ming-loyal
 
 ## Sources
 
-- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-07-29 · https://www.imf.org/en/Publications/WEO
+- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-08-14 · https://www.imf.org/en/Publications/WEO
 
 Citation template: Terralore, "Taiwan — national dossier", terralore.co/country/TWN, retrieved <YYYY-MM-DD>.

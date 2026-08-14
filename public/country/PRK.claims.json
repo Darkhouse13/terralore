@@ -3,28 +3,28 @@
  "name": "North Korea",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/PRK",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:PRK:population:2024",
+   "id": "TL:PRK:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 26498823,
-   "display": "26 m",
+   "value": 26571036,
+   "display": "27 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRK#claim-population-2024",
-   "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-population-2024, claim TL:PRK:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRK#claim-population-2025",
+   "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-population-2025, claim TL:PRK:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRK:lifeExpectancy:2024",
@@ -41,30 +41,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-lifeExpectancy-2024, claim TL:PRK:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRK:urbanPct:2024",
+   "id": "TL:PRK:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 63.8589748211522,
-   "display": "63.9%",
+   "value": 64.1897858311258,
+   "display": "64.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRK#claim-urbanPct-2024",
-   "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-urbanPct-2024, claim TL:PRK:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRK#claim-urbanPct-2025",
+   "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-urbanPct-2025, claim TL:PRK:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRK:fertility:2024",
@@ -81,7 +81,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-fertility-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-fertility-2024, claim TL:PRK:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -101,7 +101,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-literacy-2008",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-literacy-2008, claim TL:PRK:literacy:2008, retrieved <YYYY-MM-DD>."
@@ -121,7 +121,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-wgiVoice-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-wgiVoice-2024, claim TL:PRK:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -141,7 +141,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-wgiStability-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-wgiStability-2024, claim TL:PRK:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -161,7 +161,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-wgiEffectiveness-2024, claim TL:PRK:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-wgiRegQuality-2024, claim TL:PRK:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-wgiRuleOfLaw-2024, claim TL:PRK:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-wgiCorruption-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-wgiCorruption-2024, claim TL:PRK:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-physicians-2017",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-physicians-2017, claim TL:PRK:physicians:2017, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-underFiveMortality-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-underFiveMortality-2024, claim TL:PRK:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-measlesImmunisation-2024, claim TL:PRK:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-safeWater-2023",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-safeWater-2023, claim TL:PRK:safeWater:2023, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-literacyRate-2008",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-literacyRate-2008, claim TL:PRK:literacyRate:2008, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-primaryEnrolment-2018",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-primaryEnrolment-2018, claim TL:PRK:primaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-secondaryEnrolment-2015",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-secondaryEnrolment-2015, claim TL:PRK:secondaryEnrolment:2015, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-tertiaryEnrolment-2018",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-tertiaryEnrolment-2018, claim TL:PRK:tertiaryEnrolment:2018, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-internetUsers-2004",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-internetUsers-2004, claim TL:PRK:internetUsers:2004, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-mobileSubs-2022",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-mobileSubs-2022, claim TL:PRK:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-landArea-2023",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-landArea-2023, claim TL:PRK:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-forestPct-2023",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-forestPct-2023, claim TL:PRK:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-agriPct-2023",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-agriPct-2023, claim TL:PRK:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-co2PerCapita-2024",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-co2PerCapita-2024, claim TL:PRK:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -521,30 +521,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-renewablePct-2021",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-renewablePct-2021, claim TL:PRK:renewablePct:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:PRK:electricityAccess:2023",
+   "id": "TL:PRK:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 57.5,
-   "display": "57.5%",
+   "value": 61.4,
+   "display": "61.4%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/PRK#claim-electricityAccess-2023",
-   "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-electricityAccess-2023, claim TL:PRK:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/PRK#claim-electricityAccess-2024",
+   "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-electricityAccess-2024, claim TL:PRK:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:PRK:milExpUsd:2018",
@@ -561,7 +561,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-milExpUsd-2018",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-milExpUsd-2018, claim TL:PRK:milExpUsd:2018, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/PRK#claim-armedForces-2020",
    "citation": "Terralore, \"North Korea — national dossier\", terralore.co/country/PRK#claim-armedForces-2020, claim TL:PRK:armedForces:2020, retrieved <YYYY-MM-DD>."

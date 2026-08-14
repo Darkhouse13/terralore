@@ -3,96 +3,96 @@
  "name": "Iraq",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/IRQ",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:IRQ:gdp:2024",
+   "id": "TL:IRQ:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 279641257615.385,
-   "display": "$280 B",
+   "value": 254367293538.462,
+   "display": "$254 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-gdp-2024",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-gdp-2024, claim TL:IRQ:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-gdp-2025",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-gdp-2025, claim TL:IRQ:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IRQ:gdpPerCapita:2024",
+   "id": "TL:IRQ:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 6073.61032342708,
-   "display": "$6,074",
+   "value": 5409.67899716967,
+   "display": "$5,410",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-gdpPerCapita-2024, claim TL:IRQ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-gdpPerCapita-2025, claim TL:IRQ:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IRQ:gdpGrowth:2024",
+   "id": "TL:IRQ:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": -1.54525198318304,
-   "display": "-1.5%",
+   "value": -2.15574219066178,
+   "display": "-2.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-gdpGrowth-2024, claim TL:IRQ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-gdpGrowth-2025, claim TL:IRQ:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IRQ:inflation:2024",
+   "id": "TL:IRQ:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": -12.2969837587007,
-   "display": "-12.3%",
+   "value": 0.303454715219382,
+   "display": "0.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-inflation-2024",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-inflation-2024, claim TL:IRQ:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-inflation-2025",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-inflation-2025, claim TL:IRQ:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IRQ:tradePctGdp:2024",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 70.7087434748943,
-   "display": "70.7%",
+   "value": 77.1389393108395,
+   "display": "77.1%",
    "unit": "% of GDP",
    "observed": 2024,
    "source": {
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-tradePctGdp-2024, claim TL:IRQ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IRQ:population:2024",
+   "id": "TL:IRQ:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 46042015,
-   "display": "46 m",
+   "value": 47020774,
+   "display": "47 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-population-2024",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-population-2024, claim TL:IRQ:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-population-2025",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-population-2025, claim TL:IRQ:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IRQ:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-lifeExpectancy-2024, claim TL:IRQ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IRQ:urbanPct:2024",
+   "id": "TL:IRQ:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 69.8861494108913,
+   "value": 69.9396739468105,
    "display": "69.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-urbanPct-2024",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-urbanPct-2024, claim TL:IRQ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-urbanPct-2025",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-urbanPct-2025, claim TL:IRQ:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IRQ:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-fertility-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-fertility-2024, claim TL:IRQ:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-literacy-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-literacy-2021, claim TL:IRQ:literacy:2021, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-wgiVoice-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-wgiVoice-2024, claim TL:IRQ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-wgiStability-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-wgiStability-2024, claim TL:IRQ:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-wgiEffectiveness-2024, claim TL:IRQ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-wgiRegQuality-2024, claim TL:IRQ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-wgiRuleOfLaw-2024, claim TL:IRQ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-wgiCorruption-2024, claim TL:IRQ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-healthSpendPctGdp-2023, claim TL:IRQ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-physicians-2022",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-physicians-2022, claim TL:IRQ:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-underFiveMortality-2024, claim TL:IRQ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-measlesImmunisation-2024, claim TL:IRQ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-safeWater-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-safeWater-2024, claim TL:IRQ:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-literacyRate-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-literacyRate-2021, claim TL:IRQ:literacyRate:2021, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-primaryEnrolment-2007",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-primaryEnrolment-2007, claim TL:IRQ:primaryEnrolment:2007, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-secondaryEnrolment-2007",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-secondaryEnrolment-2007, claim TL:IRQ:secondaryEnrolment:2007, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-tertiaryEnrolment-2005",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-tertiaryEnrolment-2005, claim TL:IRQ:tertiaryEnrolment:2005, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-rdSpending-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-rdSpending-2021, claim TL:IRQ:rdSpending:2021, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-researchers-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-researchers-2021, claim TL:IRQ:researchers:2021, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-internetUsers-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-internetUsers-2024, claim TL:IRQ:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-mobileSubs-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-mobileSubs-2024, claim TL:IRQ:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-landArea-2023",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-landArea-2023, claim TL:IRQ:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-forestPct-2023",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-forestPct-2023, claim TL:IRQ:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-agriPct-2023",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-agriPct-2023, claim TL:IRQ:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-co2PerCapita-2024, claim TL:IRQ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-renewablePct-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-renewablePct-2021, claim TL:IRQ:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-resourceRents-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-resourceRents-2021, claim TL:IRQ:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-oilRents-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-oilRents-2021, claim TL:IRQ:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-mineralRents-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-mineralRents-2021, claim TL:IRQ:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-forestRents-2021",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-forestRents-2021, claim TL:IRQ:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:IRQ:electricityAccess:2023",
+   "id": "TL:IRQ:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/IRQ#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-electricityAccess-2023, claim TL:IRQ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/IRQ#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-electricityAccess-2024, claim TL:IRQ:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:IRQ:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-milExpPctGdp-2024, claim TL:IRQ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-milExpUsd-2024",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-milExpUsd-2024, claim TL:IRQ:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/IRQ#claim-armedForces-2020",
    "citation": "Terralore, \"Iraq — national dossier\", terralore.co/country/IRQ#claim-armedForces-2020, claim TL:IRQ:armedForces:2020, retrieved <YYYY-MM-DD>."

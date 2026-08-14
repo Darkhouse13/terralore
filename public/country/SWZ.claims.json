@@ -3,68 +3,68 @@
  "name": "Eswatini",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SWZ",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SWZ:gdp:2024",
+   "id": "TL:SWZ:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 4858885840.77236,
-   "display": "$4.9 B",
+   "value": 5160679612.81734,
+   "display": "$5.2 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWZ#claim-gdp-2024",
-   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-gdp-2024, claim TL:SWZ:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWZ#claim-gdp-2025",
+   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-gdp-2025, claim TL:SWZ:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWZ:gdpPerCapita:2024",
+   "id": "TL:SWZ:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 3909.55892378182,
-   "display": "$3,910",
+   "value": 4108.25221093363,
+   "display": "$4,108",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWZ#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-gdpPerCapita-2024, claim TL:SWZ:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWZ#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-gdpPerCapita-2025, claim TL:SWZ:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWZ:gdpGrowth:2024",
+   "id": "TL:SWZ:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.97391075973985,
-   "display": "3.0%",
+   "value": 4.1939175580556,
+   "display": "4.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWZ#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-gdpGrowth-2024, claim TL:SWZ:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWZ#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-gdpGrowth-2025, claim TL:SWZ:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWZ:inflation:2019",
@@ -81,7 +81,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-inflation-2019",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-inflation-2019, claim TL:SWZ:inflation:2019, retrieved <YYYY-MM-DD>."
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-tradePctGdp-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-tradePctGdp-2024, claim TL:SWZ:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWZ:population:2024",
+   "id": "TL:SWZ:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 1242822,
-   "display": "1.2 m",
+   "value": 1256174,
+   "display": "1.3 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWZ#claim-population-2024",
-   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-population-2024, claim TL:SWZ:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWZ#claim-population-2025",
+   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-population-2025, claim TL:SWZ:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWZ:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-lifeExpectancy-2024, claim TL:SWZ:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWZ:urbanPct:2024",
+   "id": "TL:SWZ:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 26.2498461258639,
-   "display": "26.2%",
+   "value": 26.7213709706525,
+   "display": "26.7%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWZ#claim-urbanPct-2024",
-   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-urbanPct-2024, claim TL:SWZ:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWZ#claim-urbanPct-2025",
+   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-urbanPct-2025, claim TL:SWZ:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWZ:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-fertility-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-fertility-2024, claim TL:SWZ:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-literacy-2022",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-literacy-2022, claim TL:SWZ:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-wgiVoice-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-wgiVoice-2024, claim TL:SWZ:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-wgiStability-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-wgiStability-2024, claim TL:SWZ:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-wgiEffectiveness-2024, claim TL:SWZ:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-wgiRegQuality-2024, claim TL:SWZ:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-wgiRuleOfLaw-2024, claim TL:SWZ:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-wgiCorruption-2024, claim TL:SWZ:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-healthSpendPctGdp-2023, claim TL:SWZ:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-physicians-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-physicians-2023, claim TL:SWZ:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-underFiveMortality-2024, claim TL:SWZ:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-measlesImmunisation-2024, claim TL:SWZ:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-safeWater-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-safeWater-2024, claim TL:SWZ:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-literacyRate-2022",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-literacyRate-2022, claim TL:SWZ:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-eduSpendPctGdp-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-eduSpendPctGdp-2024, claim TL:SWZ:eduSpendPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-primaryEnrolment-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-primaryEnrolment-2023, claim TL:SWZ:primaryEnrolment:2023, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-secondaryEnrolment-2016",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-secondaryEnrolment-2016, claim TL:SWZ:secondaryEnrolment:2016, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-tertiaryEnrolment-2013",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-tertiaryEnrolment-2013, claim TL:SWZ:tertiaryEnrolment:2013, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-rdSpending-2015",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-rdSpending-2015, claim TL:SWZ:rdSpending:2015, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-researchers-2015",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-researchers-2015, claim TL:SWZ:researchers:2015, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-internetUsers-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-internetUsers-2024, claim TL:SWZ:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-mobileSubs-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-mobileSubs-2024, claim TL:SWZ:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-highTechExports-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-highTechExports-2023, claim TL:SWZ:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-landArea-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-landArea-2023, claim TL:SWZ:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-forestPct-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-forestPct-2023, claim TL:SWZ:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-agriPct-2023",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-agriPct-2023, claim TL:SWZ:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-co2PerCapita-2024, claim TL:SWZ:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-renewablePct-2022",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-renewablePct-2022, claim TL:SWZ:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-resourceRents-2021",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-resourceRents-2021, claim TL:SWZ:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-oilRents-2021",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-oilRents-2021, claim TL:SWZ:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-mineralRents-2021",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-mineralRents-2021, claim TL:SWZ:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -801,30 +801,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-forestRents-2021",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-forestRents-2021, claim TL:SWZ:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SWZ:electricityAccess:2023",
+   "id": "TL:SWZ:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 86.4,
-   "display": "86.4%",
+   "value": 89.3,
+   "display": "89.3%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SWZ#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-electricityAccess-2023, claim TL:SWZ:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SWZ#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-electricityAccess-2024, claim TL:SWZ:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SWZ:milExpPctGdp:2024",
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-milExpPctGdp-2024, claim TL:SWZ:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SWZ#claim-milExpUsd-2024",
    "citation": "Terralore, \"Eswatini — national dossier\", terralore.co/country/SWZ#claim-milExpUsd-2024, claim TL:SWZ:milExpUsd:2024, retrieved <YYYY-MM-DD>."

@@ -3,88 +3,88 @@
  "name": "Guyana",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/GUY",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:GUY:gdp:2024",
+   "id": "TL:GUY:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 24662709832.1343,
-   "display": "$25 B",
+   "value": 27097477218.2254,
+   "display": "$27 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-gdp-2024",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-gdp-2024, claim TL:GUY:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-gdp-2025",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-gdp-2025, claim TL:GUY:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GUY:gdpPerCapita:2024",
+   "id": "TL:GUY:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 29675.2443873316,
-   "display": "$29,675",
+   "value": 32413.7930757518,
+   "display": "$32,414",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-gdpPerCapita-2024, claim TL:GUY:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-gdpPerCapita-2025, claim TL:GUY:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GUY:gdpGrowth:2024",
+   "id": "TL:GUY:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 43.8193108024355,
-   "display": "43.8%",
+   "value": 19.3360097091818,
+   "display": "19.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-gdpGrowth-2024, claim TL:GUY:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-gdpGrowth-2025, claim TL:GUY:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GUY:inflation:2024",
+   "id": "TL:GUY:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 2.90395226446373,
-   "display": "2.9%",
+   "value": 3.32982339132475,
+   "display": "3.3%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-inflation-2024",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-inflation-2024, claim TL:GUY:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-inflation-2025",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-inflation-2025, claim TL:GUY:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GUY:tradePctGdp:2005",
@@ -101,30 +101,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-tradePctGdp-2005",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-tradePctGdp-2005, claim TL:GUY:tradePctGdp:2005, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GUY:population:2024",
+   "id": "TL:GUY:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 831087,
-   "display": "831,000",
+   "value": 835986,
+   "display": "836,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-population-2024",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-population-2024, claim TL:GUY:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-population-2025",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-population-2025, claim TL:GUY:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GUY:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-lifeExpectancy-2024, claim TL:GUY:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GUY:urbanPct:2024",
+   "id": "TL:GUY:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 26.477717988557,
+   "value": 26.4913876548981,
    "display": "26.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-urbanPct-2024",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-urbanPct-2024, claim TL:GUY:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-urbanPct-2025",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-urbanPct-2025, claim TL:GUY:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GUY:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-fertility-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-fertility-2024, claim TL:GUY:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-literacy-2020",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-literacy-2020, claim TL:GUY:literacy:2020, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-wgiVoice-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-wgiVoice-2024, claim TL:GUY:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-wgiStability-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-wgiStability-2024, claim TL:GUY:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-wgiEffectiveness-2024, claim TL:GUY:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-wgiRegQuality-2024, claim TL:GUY:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-wgiRuleOfLaw-2024, claim TL:GUY:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-wgiCorruption-2024, claim TL:GUY:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-healthSpendPctGdp-2023, claim TL:GUY:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-physicians-2020",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-physicians-2020, claim TL:GUY:physicians:2020, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-underFiveMortality-2024, claim TL:GUY:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-measlesImmunisation-2024, claim TL:GUY:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-safeWater-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-safeWater-2024, claim TL:GUY:safeWater:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-literacyRate-2020",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-literacyRate-2020, claim TL:GUY:literacyRate:2020, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-eduSpendPctGdp-2018",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-eduSpendPctGdp-2018, claim TL:GUY:eduSpendPctGdp:2018, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-primaryEnrolment-2024, claim TL:GUY:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-secondaryEnrolment-2024, claim TL:GUY:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-tertiaryEnrolment-2024, claim TL:GUY:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-internetUsers-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-internetUsers-2024, claim TL:GUY:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-mobileSubs-2022",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-mobileSubs-2022, claim TL:GUY:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-highTechExports-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-highTechExports-2024, claim TL:GUY:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-landArea-2023",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-landArea-2023, claim TL:GUY:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-forestPct-2023",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-forestPct-2023, claim TL:GUY:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-agriPct-2023",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-agriPct-2023, claim TL:GUY:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-co2PerCapita-2024, claim TL:GUY:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-renewablePct-2022",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-renewablePct-2022, claim TL:GUY:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-resourceRents-2021",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-resourceRents-2021, claim TL:GUY:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-oilRents-2021",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-oilRents-2021, claim TL:GUY:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-mineralRents-2021",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-mineralRents-2021, claim TL:GUY:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,30 +761,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-forestRents-2021",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-forestRents-2021, claim TL:GUY:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:GUY:electricityAccess:2023",
+   "id": "TL:GUY:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 98.9,
-   "display": "98.9%",
+   "value": 93,
+   "display": "93.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/GUY#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-electricityAccess-2023, claim TL:GUY:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/GUY#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-electricityAccess-2024, claim TL:GUY:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:GUY:milExpPctGdp:2024",
@@ -801,7 +801,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-milExpPctGdp-2024, claim TL:GUY:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -821,7 +821,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-milExpUsd-2024",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-milExpUsd-2024, claim TL:GUY:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/GUY#claim-armedForces-2020",
    "citation": "Terralore, \"Guyana — national dossier\", terralore.co/country/GUY#claim-armedForces-2020, claim TL:GUY:armedForces:2020, retrieved <YYYY-MM-DD>."

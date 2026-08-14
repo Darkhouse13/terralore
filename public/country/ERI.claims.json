@@ -3,7 +3,7 @@
  "name": "Eritrea",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/ERI",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -21,7 +21,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-gdp-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-gdp-2011, claim TL:ERI:gdp:2011, retrieved <YYYY-MM-DD>."
@@ -41,7 +41,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-gdpPerCapita-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-gdpPerCapita-2011, claim TL:ERI:gdpPerCapita:2011, retrieved <YYYY-MM-DD>."
@@ -61,7 +61,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-gdpGrowth-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-gdpGrowth-2011, claim TL:ERI:gdpGrowth:2011, retrieved <YYYY-MM-DD>."
@@ -81,30 +81,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-tradePctGdp-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-tradePctGdp-2011, claim TL:ERI:tradePctGdp:2011, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ERI:population:2024",
+   "id": "TL:ERI:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 3535603,
-   "display": "3.5 m",
+   "value": 3607003,
+   "display": "3.6 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ERI#claim-population-2024",
-   "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-population-2024, claim TL:ERI:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ERI#claim-population-2025",
+   "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-population-2025, claim TL:ERI:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ERI:lifeExpectancy:2024",
@@ -121,30 +121,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-lifeExpectancy-2024, claim TL:ERI:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ERI:urbanPct:2024",
+   "id": "TL:ERI:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 34.5365524291992,
+   "value": 34.5404504255216,
    "display": "34.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ERI#claim-urbanPct-2024",
-   "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-urbanPct-2024, claim TL:ERI:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ERI#claim-urbanPct-2025",
+   "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-urbanPct-2025, claim TL:ERI:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ERI:fertility:2024",
@@ -161,7 +161,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-fertility-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-fertility-2024, claim TL:ERI:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-literacy-2008",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-literacy-2008, claim TL:ERI:literacy:2008, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-wgiVoice-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-wgiVoice-2024, claim TL:ERI:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-wgiStability-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-wgiStability-2024, claim TL:ERI:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-wgiEffectiveness-2024, claim TL:ERI:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-wgiRegQuality-2024, claim TL:ERI:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-wgiRuleOfLaw-2024, claim TL:ERI:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-wgiCorruption-2024, claim TL:ERI:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-healthSpendPctGdp-2023, claim TL:ERI:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-physicians-2022",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-physicians-2022, claim TL:ERI:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-underFiveMortality-2024, claim TL:ERI:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-measlesImmunisation-2024, claim TL:ERI:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-literacyRate-2008",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-literacyRate-2008, claim TL:ERI:literacyRate:2008, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-eduSpendPctGdp-2006",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-eduSpendPctGdp-2006, claim TL:ERI:eduSpendPctGdp:2006, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-primaryEnrolment-2022",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-primaryEnrolment-2022, claim TL:ERI:primaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-secondaryEnrolment-2022",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-secondaryEnrolment-2022, claim TL:ERI:secondaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-tertiaryEnrolment-2016",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-tertiaryEnrolment-2016, claim TL:ERI:tertiaryEnrolment:2016, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-internetUsers-2020",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-internetUsers-2020, claim TL:ERI:internetUsers:2020, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-mobileSubs-2022",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-mobileSubs-2022, claim TL:ERI:mobileSubs:2022, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-landArea-2023",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-landArea-2023, claim TL:ERI:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-forestPct-2023",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-forestPct-2023, claim TL:ERI:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-agriPct-2023",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-agriPct-2023, claim TL:ERI:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-co2PerCapita-2024, claim TL:ERI:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-renewablePct-2021",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-renewablePct-2021, claim TL:ERI:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-resourceRents-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-resourceRents-2011, claim TL:ERI:resourceRents:2011, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-oilRents-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-oilRents-2011, claim TL:ERI:oilRents:2011, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-mineralRents-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-mineralRents-2011, claim TL:ERI:mineralRents:2011, retrieved <YYYY-MM-DD>."
@@ -701,30 +701,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-forestRents-2011",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-forestRents-2011, claim TL:ERI:forestRents:2011, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:ERI:electricityAccess:2023",
+   "id": "TL:ERI:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 54.4,
-   "display": "54.4%",
+   "value": 55.3,
+   "display": "55.3%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/ERI#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-electricityAccess-2023, claim TL:ERI:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/ERI#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-electricityAccess-2024, claim TL:ERI:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:ERI:milExpPctGdp:2003",
@@ -741,7 +741,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-milExpPctGdp-2003",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-milExpPctGdp-2003, claim TL:ERI:milExpPctGdp:2003, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-milExpUsd-2003",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-milExpUsd-2003, claim TL:ERI:milExpUsd:2003, retrieved <YYYY-MM-DD>."
@@ -781,7 +781,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/ERI#claim-armedForces-2020",
    "citation": "Terralore, \"Eritrea — national dossier\", terralore.co/country/ERI#claim-armedForces-2020, claim TL:ERI:armedForces:2020, retrieved <YYYY-MM-DD>."

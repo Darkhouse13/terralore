@@ -3,7 +3,7 @@
 CO₂ per capita (t) ranked across 170 nations, highest to lowest. Qatar highest at 47.3 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/co2-per-capita
-Updated: 2026-06-14 (the geography domain's last refresh)
+Updated: 2026-08-14 (the geography domain's last refresh)
 
 Definition: Carbon-dioxide emissions per person, in metric tons per year.
 Unit: ratio. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -80,11 +80,11 @@ Unit: ratio. Ordered highest to lowest — a ranking of figures, not a grading o
 | 66 | Switzerland | 3.7 | 2024 |
 | 67 | Romania | 3.7 | 2024 |
 | 68 | Latvia | 3.6 | 2024 |
-| 69 | Georgia | 3.6 | 2024 |
-| 70 | Mexico | 3.6 | 2024 |
-| 71 | Bahamas | 3.6 | 2024 |
-| 72 | Sweden | 3.6 | 2024 |
-| 73 | Mauritius | 3.5 | 2024 |
+| 69 | Mexico | 3.6 | 2024 |
+| 70 | Bahamas | 3.6 | 2024 |
+| 71 | Sweden | 3.6 | 2024 |
+| 72 | Mauritius | 3.5 | 2024 |
+| 73 | Georgia | 3.5 | 2024 |
 | 74 | Moldova | 3.4 | 2024 |
 | 75 | Venezuela | 3.4 | 2024 |
 | 76 | Laos | 3.4 | 2024 |
@@ -158,12 +158,12 @@ Unit: ratio. Ordered highest to lowest — a ranking of figures, not a grading o
 | 144 | Kenya | 0.4 | 2024 |
 | 145 | Cameroon | 0.4 | 2024 |
 | 146 | Guinea | 0.4 | 2024 |
-| 147 | Tanzania | 0.3 | 2024 |
-| 148 | Mali | 0.3 | 2024 |
-| 149 | Haiti | 0.3 | 2024 |
-| 150 | Mozambique | 0.3 | 2024 |
-| 151 | Afghanistan | 0.3 | 2024 |
-| 152 | Togo | 0.3 | 2024 |
+| 147 | Togo | 0.3 | 2024 |
+| 148 | Tanzania | 0.3 | 2024 |
+| 149 | Mali | 0.3 | 2024 |
+| 150 | Haiti | 0.3 | 2024 |
+| 151 | Mozambique | 0.3 | 2024 |
+| 152 | Afghanistan | 0.3 | 2024 |
 | 153 | Burkina Faso | 0.3 | 2024 |
 | 154 | Yemen | 0.3 | 2024 |
 | 155 | Malawi | 0.2 | 2024 |
@@ -206,6 +206,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
 
 Citation template: Terralore, "CO₂ per capita (t) by nation — world ranking", terralore.co/rankings/co2-per-capita, retrieved <YYYY-MM-DD>.

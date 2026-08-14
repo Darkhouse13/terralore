@@ -3,7 +3,7 @@
 Under-5 mortality ranked across 175 nations, highest to lowest. Nigeria highest at 115.6 (2024). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/under-five-mortality
-Updated: 2026-08-10 (the health domain's last refresh)
+Updated: 2026-08-14 (the health domain's last refresh)
 
 Definition: Deaths before a child's fifth birthday, per 1,000 live births.
 Unit: per 1,000 births. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -206,6 +206,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
 
 Citation template: Terralore, "Under-5 mortality by nation — world ranking", terralore.co/rankings/under-five-mortality, retrieved <YYYY-MM-DD>.

@@ -3,128 +3,128 @@
  "name": "Thailand",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/THA",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:THA:gdp:2024",
+   "id": "TL:THA:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 526517658841.684,
-   "display": "$527 B",
+   "value": 577009981112.015,
+   "display": "$577 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-gdp-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdp-2024, claim TL:THA:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-gdp-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdp-2025, claim TL:THA:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:gdpPerCapita:2024",
+   "id": "TL:THA:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 7346.62022142185,
-   "display": "$7,347",
+   "value": 8056.56359761558,
+   "display": "$8,057",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdpPerCapita-2024, claim TL:THA:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdpPerCapita-2025, claim TL:THA:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:gdpGrowth:2024",
+   "id": "TL:THA:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 2.54182067735289,
-   "display": "2.5%",
+   "value": 2.44247444990198,
+   "display": "2.4%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdpGrowth-2024, claim TL:THA:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-gdpGrowth-2025, claim TL:THA:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:inflation:2024",
+   "id": "TL:THA:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.36580540798037,
-   "display": "1.4%",
+   "value": -0.133634356480207,
+   "display": "-0.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-inflation-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-inflation-2024, claim TL:THA:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-inflation-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-inflation-2025, claim TL:THA:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:tradePctGdp:2024",
+   "id": "TL:THA:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 136.747107022451,
-   "display": "136.7%",
+   "value": 138.413686011523,
+   "display": "138.4%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-tradePctGdp-2024, claim TL:THA:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-tradePctGdp-2025, claim TL:THA:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:population:2024",
+   "id": "TL:THA:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 71668011,
+   "value": 71619863,
    "display": "72 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-population-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-population-2024, claim TL:THA:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-population-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-population-2025, claim TL:THA:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:THA:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-lifeExpectancy-2024, claim TL:THA:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:urbanPct:2024",
+   "id": "TL:THA:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 61.8689338391321,
-   "display": "61.9%",
+   "value": 62.7993377136296,
+   "display": "62.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-urbanPct-2024",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-urbanPct-2024, claim TL:THA:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-urbanPct-2025",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-urbanPct-2025, claim TL:THA:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:THA:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-fertility-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-fertility-2024, claim TL:THA:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-literacy-2022",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-literacy-2022, claim TL:THA:literacy:2022, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-wgiVoice-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiVoice-2024, claim TL:THA:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-wgiStability-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiStability-2024, claim TL:THA:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiEffectiveness-2024, claim TL:THA:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiRegQuality-2024, claim TL:THA:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiRuleOfLaw-2024, claim TL:THA:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-wgiCorruption-2024, claim TL:THA:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-healthSpendPctGdp-2023, claim TL:THA:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-physicians-2021",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-physicians-2021, claim TL:THA:physicians:2021, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-underFiveMortality-2024, claim TL:THA:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-measlesImmunisation-2024, claim TL:THA:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-literacyRate-2022",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-literacyRate-2022, claim TL:THA:literacyRate:2022, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-eduSpendPctGdp-2023, claim TL:THA:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-primaryEnrolment-2025",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-primaryEnrolment-2025, claim TL:THA:primaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-secondaryEnrolment-2025",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-secondaryEnrolment-2025, claim TL:THA:secondaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-tertiaryEnrolment-2025",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-tertiaryEnrolment-2025, claim TL:THA:tertiaryEnrolment:2025, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-rdSpending-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-rdSpending-2023, claim TL:THA:rdSpending:2023, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-researchers-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-researchers-2023, claim TL:THA:researchers:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-internetUsers-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-internetUsers-2024, claim TL:THA:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-mobileSubs-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-mobileSubs-2024, claim TL:THA:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-highTechExports-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-highTechExports-2024, claim TL:THA:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-landArea-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-landArea-2023, claim TL:THA:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-forestPct-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-forestPct-2023, claim TL:THA:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-agriPct-2023",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-agriPct-2023, claim TL:THA:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-co2PerCapita-2024, claim TL:THA:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-renewablePct-2021",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-renewablePct-2021, claim TL:THA:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-resourceRents-2021",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-resourceRents-2021, claim TL:THA:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-oilRents-2021",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-oilRents-2021, claim TL:THA:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-mineralRents-2021",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-mineralRents-2021, claim TL:THA:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-forestRents-2021",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-forestRents-2021, claim TL:THA:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:THA:electricityAccess:2023",
+   "id": "TL:THA:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/THA#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-electricityAccess-2023, claim TL:THA:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/THA#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-electricityAccess-2024, claim TL:THA:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:THA:prodRareEarths:2025",
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-prodRareEarths-2025",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-prodRareEarths-2025, claim TL:THA:prodRareEarths:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-milExpPctGdp-2024, claim TL:THA:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-milExpUsd-2024",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-milExpUsd-2024, claim TL:THA:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/THA#claim-armedForces-2020",
    "citation": "Terralore, \"Thailand — national dossier\", terralore.co/country/THA#claim-armedForces-2020, claim TL:THA:armedForces:2020, retrieved <YYYY-MM-DD>."

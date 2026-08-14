@@ -1,198 +1,198 @@
 # GDP by nation — world ranking
 
-GDP ranked across 179 nations, highest to lowest. United States highest at $28.75 T (2024). Each figure carries its publisher and observation year.
+GDP ranked across 179 nations, highest to lowest. United States highest at $30.77 T (2025). Each figure carries its publisher and observation year.
 
 Canonical: https://terralore.co/rankings/gdp
-Updated: 2026-07-29 (the economy domain's last refresh)
+Updated: 2026-08-14 (the economy domain's last refresh)
 
 Definition: Gross Domestic Product — the total market value of all goods and services produced in a year, at current prices.
 Unit: USD. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
 
-Note: this table mixes vintages — each publisher carries a nation's latest available year, so observations run from 2011 to 2024. Every row shows its own.
+Note: this table mixes vintages — each publisher carries a nation's latest available year, so observations run from 2011 to 2025. Every row shows its own.
 
 ## Ranking (179 nations)
 
 | Rank | Nation | Value | Observed |
 |---|---|---|---|
-| 1 | United States | $28.75 T | 2024 |
-| 2 | China | $18.74 T | 2024 |
-| 3 | Germany | $4.69 T | 2024 |
-| 4 | Japan | $4.03 T | 2024 |
-| 5 | India | $3.91 T | 2024 |
-| 6 | United Kingdom | $3.69 T | 2024 |
-| 7 | France | $3.16 T | 2024 |
-| 8 | Italy | $2.38 T | 2024 |
-| 9 | Canada | $2.24 T | 2024 |
-| 10 | Brazil | $2.19 T | 2024 |
-| 11 | Russia | $2.17 T | 2024 |
-| 12 | South Korea | $1.88 T | 2024 |
-| 13 | Mexico | $1.86 T | 2024 |
-| 14 | Australia | $1.76 T | 2024 |
-| 15 | Spain | $1.73 T | 2024 |
-| 16 | Indonesia | $1.40 T | 2024 |
-| 17 | Türkiye | $1.36 T | 2024 |
-| 18 | Saudi Arabia | $1.24 T | 2024 |
-| 19 | Netherlands | $1.21 T | 2024 |
-| 20 | Switzerland | $937 B | 2024 |
-| 21 | Poland | $918 B | 2024 |
+| 1 | United States | $30.77 T | 2025 |
+| 2 | China | $19.50 T | 2025 |
+| 3 | Germany | $5.05 T | 2025 |
+| 4 | Japan | $4.44 T | 2025 |
+| 5 | United Kingdom | $4.00 T | 2025 |
+| 6 | India | $3.96 T | 2025 |
+| 7 | France | $3.37 T | 2025 |
+| 8 | Russia | $2.56 T | 2025 |
+| 9 | Italy | $2.55 T | 2025 |
+| 10 | Canada | $2.32 T | 2025 |
+| 11 | Brazil | $2.28 T | 2025 |
+| 12 | Spain | $1.91 T | 2025 |
+| 13 | South Korea | $1.87 T | 2025 |
+| 14 | Mexico | $1.83 T | 2025 |
+| 15 | Australia | $1.80 T | 2025 |
+| 16 | Türkiye | $1.60 T | 2025 |
+| 17 | Indonesia | $1.45 T | 2025 |
+| 18 | Netherlands | $1.33 T | 2025 |
+| 19 | Saudi Arabia | $1.28 T | 2025 |
+| 20 | Switzerland | $1.04 T | 2025 |
+| 21 | Poland | $1.04 T | 2025 |
 | 22 | Taiwan | $801 B | 2024 |
-| 23 | Belgium | $671 B | 2024 |
-| 24 | Argentina | $638 B | 2024 |
-| 25 | Ireland | $609 B | 2024 |
-| 26 | Sweden | $604 B | 2024 |
-| 27 | United Arab Emirates | $552 B | 2024 |
-| 28 | Austria | $535 B | 2024 |
-| 29 | Thailand | $527 B | 2024 |
-| 30 | Norway | $484 B | 2024 |
-| 31 | Vietnam | $476 B | 2024 |
-| 32 | Iran | $475 B | 2024 |
-| 33 | Philippines | $462 B | 2024 |
-| 34 | Bangladesh | $450 B | 2024 |
-| 35 | Denmark | $425 B | 2024 |
-| 36 | Malaysia | $422 B | 2024 |
-| 37 | Colombia | $419 B | 2024 |
-| 38 | South Africa | $401 B | 2024 |
-| 39 | Egypt | $389 B | 2024 |
-| 40 | Romania | $383 B | 2024 |
-| 41 | Pakistan | $372 B | 2024 |
-| 42 | Czechia | $347 B | 2024 |
-| 43 | Chile | $330 B | 2024 |
-| 44 | Portugal | $313 B | 2024 |
-| 45 | Finland | $299 B | 2024 |
-| 46 | Kazakhstan | $291 B | 2024 |
-| 47 | Peru | $289 B | 2024 |
-| 48 | Iraq | $280 B | 2024 |
-| 49 | Algeria | $269 B | 2024 |
-| 50 | New Zealand | $260 B | 2024 |
-| 51 | Greece | $256 B | 2024 |
-| 52 | Nigeria | $252 B | 2024 |
-| 53 | Hungary | $223 B | 2024 |
-| 54 | Qatar | $219 B | 2024 |
-| 55 | Ukraine | $191 B | 2024 |
-| 56 | Morocco | $161 B | 2024 |
-| 57 | Kuwait | $160 B | 2024 |
-| 58 | Ethiopia | $150 B | 2024 |
-| 59 | Slovakia | $141 B | 2024 |
-| 60 | Puerto Rico | $126 B | 2024 |
-| 61 | Ecuador | $125 B | 2024 |
-| 62 | Dominican Republic | $124 B | 2024 |
-| 63 | Kenya | $120 B | 2024 |
-| 64 | Venezuela | $120 B | 2024 |
-| 65 | Uzbekistan | $115 B | 2024 |
-| 66 | Bulgaria | $113 B | 2024 |
-| 67 | Guatemala | $113 B | 2024 |
-| 68 | Cuba | $107 B | 2020 |
-| 69 | Oman | $107 B | 2024 |
-| 70 | Angola | $101 B | 2024 |
-| 71 | Sri Lanka | $99 B | 2024 |
-| 72 | Costa Rica | $95 B | 2024 |
-| 73 | Luxembourg | $93 B | 2024 |
-| 74 | Croatia | $93 B | 2024 |
-| 75 | Serbia | $90 B | 2024 |
-| 76 | Ivory Coast | $87 B | 2024 |
-| 77 | Panama | $87 B | 2024 |
-| 78 | Lithuania | $85 B | 2024 |
-| 79 | Ghana | $82 B | 2024 |
-| 80 | Uruguay | $81 B | 2024 |
-| 81 | Tanzania | $79 B | 2024 |
-| 82 | Belarus | $76 B | 2024 |
-| 83 | Azerbaijan | $74 B | 2024 |
-| 84 | Myanmar | $74 B | 2024 |
-| 85 | Slovenia | $73 B | 2024 |
-| 86 | DR Congo | $71 B | 2024 |
-| 87 | Bolivia | $55 B | 2024 |
-| 88 | Uganda | $54 B | 2024 |
-| 89 | Jordan | $53 B | 2024 |
-| 90 | Cameroon | $53 B | 2024 |
-| 91 | Turkmenistan | $51 B | 2024 |
-| 92 | Tunisia | $51 B | 2024 |
-| 93 | Sudan | $50 B | 2024 |
-| 94 | Libya | $48 B | 2024 |
-| 95 | Cambodia | $46 B | 2024 |
-| 96 | Paraguay | $44 B | 2024 |
-| 97 | Latvia | $44 B | 2024 |
-| 98 | Estonia | $43 B | 2024 |
-| 99 | Nepal | $43 B | 2024 |
-| 100 | Zimbabwe | $42 B | 2024 |
-| 101 | Cyprus | $38 B | 2024 |
-| 102 | Honduras | $37 B | 2024 |
-| 103 | El Salvador | $35 B | 2024 |
-| 104 | Georgia | $34 B | 2024 |
-| 105 | Iceland | $33 B | 2024 |
-| 106 | Senegal | $33 B | 2024 |
-| 107 | Papua New Guinea | $32 B | 2024 |
-| 108 | Bosnia and Herzegovina | $30 B | 2024 |
-| 109 | Albania | $27 B | 2024 |
-| 110 | Mali | $27 B | 2024 |
-| 111 | Armenia | $26 B | 2024 |
-| 112 | Trinidad and Tobago | $26 B | 2024 |
-| 113 | Zambia | $25 B | 2024 |
-| 114 | Haiti | $25 B | 2024 |
-| 115 | Guinea | $25 B | 2024 |
-| 116 | Malta | $25 B | 2024 |
-| 117 | Guyana | $25 B | 2024 |
-| 118 | Mongolia | $24 B | 2024 |
-| 119 | Syria | $24 B | 2022 |
-| 120 | Burkina Faso | $23 B | 2024 |
-| 121 | Mozambique | $23 B | 2024 |
-| 122 | Jamaica | $22 B | 2024 |
-| 123 | Yemen | $22 B | 2018 |
-| 124 | Benin | $21 B | 2024 |
-| 125 | Gabon | $21 B | 2024 |
-| 126 | Lebanon | $20 B | 2023 |
-| 127 | Niger | $20 B | 2024 |
-| 128 | Nicaragua | $20 B | 2024 |
-| 129 | Chad | $20 B | 2024 |
-| 130 | Botswana | $19 B | 2024 |
-| 131 | Moldova | $18 B | 2024 |
-| 132 | Kyrgyzstan | $17 B | 2024 |
-| 133 | Madagascar | $17 B | 2024 |
-| 134 | Afghanistan | $17 B | 2023 |
-| 135 | North Macedonia | $17 B | 2024 |
-| 136 | Laos | $17 B | 2024 |
-| 137 | Bahamas | $16 B | 2024 |
-| 138 | Congo | $16 B | 2024 |
-| 139 | Brunei | $15 B | 2024 |
-| 140 | Mauritius | $15 B | 2024 |
-| 141 | Rwanda | $14 B | 2024 |
-| 142 | Tajikistan | $14 B | 2024 |
-| 143 | Palestine | $14 B | 2024 |
-| 144 | Namibia | $13 B | 2024 |
-| 145 | Equatorial Guinea | $13 B | 2024 |
-| 146 | South Sudan | $12 B | 2015 |
-| 147 | Somalia | $12 B | 2024 |
-| 148 | Malawi | $11 B | 2024 |
-| 149 | Kosovo | $11 B | 2024 |
-| 150 | Monaco | $11 B | 2024 |
-| 151 | Mauritania | $11 B | 2024 |
-| 152 | Togo | $11 B | 2024 |
-| 153 | New Caledonia | $8.5 B | 2024 |
-| 154 | Montenegro | $8.3 B | 2024 |
-| 155 | Liechtenstein | $8.2 B | 2023 |
-| 156 | Sierra Leone | $7.0 B | 2024 |
-| 157 | Fiji | $6.0 B | 2024 |
-| 158 | Eswatini | $4.9 B | 2024 |
-| 159 | Liberia | $4.8 B | 2024 |
-| 160 | Suriname | $4.4 B | 2024 |
-| 161 | Djibouti | $4.2 B | 2024 |
-| 162 | Andorra | $4.0 B | 2024 |
-| 163 | Greenland | $3.3 B | 2023 |
-| 164 | Belize | $3.2 B | 2024 |
-| 165 | Burundi | $3.1 B | 2024 |
-| 166 | Bhutan | $3.0 B | 2023 |
-| 167 | Central African Republic | $2.8 B | 2024 |
-| 168 | Cape Verde | $2.7 B | 2024 |
-| 169 | Gambia | $2.4 B | 2024 |
-| 170 | Lesotho | $2.3 B | 2024 |
-| 171 | Guinea-Bissau | $2.2 B | 2024 |
-| 172 | Seychelles | $2.2 B | 2024 |
+| 23 | Belgium | $725 B | 2025 |
+| 24 | Ireland | $722 B | 2025 |
+| 25 | Argentina | $683 B | 2025 |
+| 26 | Sweden | $669 B | 2025 |
+| 27 | Austria | $579 B | 2025 |
+| 28 | Thailand | $577 B | 2025 |
+| 29 | United Arab Emirates | $552 B | 2024 |
+| 30 | Norway | $531 B | 2025 |
+| 31 | Vietnam | $515 B | 2025 |
+| 32 | Philippines | $487 B | 2025 |
+| 33 | Malaysia | $472 B | 2025 |
+| 34 | Denmark | $463 B | 2025 |
+| 35 | Colombia | $457 B | 2025 |
+| 36 | Bangladesh | $456 B | 2025 |
+| 37 | Romania | $429 B | 2025 |
+| 38 | South Africa | $427 B | 2025 |
+| 39 | Pakistan | $407 B | 2025 |
+| 40 | Czechia | $391 B | 2025 |
+| 41 | Egypt | $365 B | 2025 |
+| 42 | Iran | $363 B | 2025 |
+| 43 | Chile | $357 B | 2025 |
+| 44 | Portugal | $347 B | 2025 |
+| 45 | Peru | $335 B | 2025 |
+| 46 | Finland | $317 B | 2025 |
+| 47 | Kazakhstan | $306 B | 2025 |
+| 48 | Nigeria | $291 B | 2025 |
+| 49 | Algeria | $287 B | 2025 |
+| 50 | Greece | $281 B | 2025 |
+| 51 | New Zealand | $264 B | 2025 |
+| 52 | Iraq | $254 B | 2025 |
+| 53 | Hungary | $246 B | 2025 |
+| 54 | Qatar | $216 B | 2025 |
+| 55 | Ukraine | $214 B | 2025 |
+| 56 | Morocco | $182 B | 2025 |
+| 57 | Kuwait | $157 B | 2025 |
+| 58 | Slovakia | $155 B | 2025 |
+| 59 | Uzbekistan | $147 B | 2025 |
+| 60 | Kenya | $136 B | 2025 |
+| 61 | Bulgaria | $131 B | 2025 |
+| 62 | Ecuador | $130 B | 2025 |
+| 63 | Puerto Rico | $129 B | 2025 |
+| 64 | Dominican Republic | $127 B | 2025 |
+| 65 | Ethiopia | $126 B | 2025 |
+| 66 | Guatemala | $123 B | 2025 |
+| 67 | Angola | $122 B | 2025 |
+| 68 | Ghana | $114 B | 2025 |
+| 69 | Oman | $110 B | 2025 |
+| 70 | Sri Lanka | $109 B | 2025 |
+| 71 | Cuba | $107 B | 2020 |
+| 72 | Croatia | $105 B | 2025 |
+| 73 | Costa Rica | $103 B | 2025 |
+| 74 | Luxembourg | $101 B | 2025 |
+| 75 | Serbia | $100 B | 2025 |
+| 76 | Ivory Coast | $100 B | 2025 |
+| 77 | Venezuela | $100 B | 2025 |
+| 78 | Lithuania | $95 B | 2025 |
+| 79 | Belarus | $93 B | 2025 |
+| 80 | DR Congo | $91 B | 2025 |
+| 81 | Panama | $90 B | 2025 |
+| 82 | Tanzania | $90 B | 2025 |
+| 83 | Uruguay | $85 B | 2025 |
+| 84 | Myanmar | $82 B | 2025 |
+| 85 | Slovenia | $80 B | 2025 |
+| 86 | Azerbaijan | $76 B | 2025 |
+| 87 | Bolivia | $65 B | 2025 |
+| 88 | Uganda | $62 B | 2025 |
+| 89 | Jordan | $62 B | 2025 |
+| 90 | Sudan | $60 B | 2025 |
+| 91 | Cameroon | $59 B | 2025 |
+| 92 | Tunisia | $58 B | 2025 |
+| 93 | Cambodia | $51 B | 2025 |
+| 94 | Zimbabwe | $51 B | 2025 |
+| 95 | Turkmenistan | $50 B | 2025 |
+| 96 | Paraguay | $49 B | 2025 |
+| 97 | Latvia | $49 B | 2025 |
+| 98 | Libya | $48 B | 2025 |
+| 99 | Estonia | $47 B | 2025 |
+| 100 | Nepal | $45 B | 2025 |
+| 101 | Cyprus | $41 B | 2025 |
+| 102 | Honduras | $40 B | 2025 |
+| 103 | Iceland | $39 B | 2025 |
+| 104 | Georgia | $38 B | 2025 |
+| 105 | Senegal | $37 B | 2025 |
+| 106 | El Salvador | $37 B | 2025 |
+| 107 | Bosnia and Herzegovina | $33 B | 2025 |
+| 108 | Papua New Guinea | $32 B | 2025 |
+| 109 | Haiti | $32 B | 2025 |
+| 110 | Albania | $31 B | 2025 |
+| 111 | Mali | $30 B | 2025 |
+| 112 | Armenia | $29 B | 2025 |
+| 113 | Zambia | $29 B | 2025 |
+| 114 | Guinea | $28 B | 2025 |
+| 115 | Malta | $28 B | 2025 |
+| 116 | Burkina Faso | $28 B | 2025 |
+| 117 | Guyana | $27 B | 2025 |
+| 118 | Lebanon | $26 B | 2024 |
+| 119 | Trinidad and Tobago | $26 B | 2025 |
+| 120 | Mongolia | $25 B | 2025 |
+| 121 | Benin | $25 B | 2025 |
+| 122 | Syria | $24 B | 2022 |
+| 123 | Jamaica | $23 B | 2025 |
+| 124 | Kyrgyzstan | $23 B | 2025 |
+| 125 | Mozambique | $22 B | 2025 |
+| 126 | Nicaragua | $22 B | 2025 |
+| 127 | Niger | $22 B | 2025 |
+| 128 | Yemen | $22 B | 2018 |
+| 129 | Chad | $21 B | 2025 |
+| 130 | Gabon | $21 B | 2025 |
+| 131 | Moldova | $20 B | 2025 |
+| 132 | Botswana | $20 B | 2025 |
+| 133 | Madagascar | $20 B | 2025 |
+| 134 | North Macedonia | $19 B | 2025 |
+| 135 | Laos | $18 B | 2025 |
+| 136 | Afghanistan | $18 B | 2024 |
+| 137 | Tajikistan | $18 B | 2025 |
+| 138 | Palestine | $17 B | 2025 |
+| 139 | Rwanda | $16 B | 2025 |
+| 140 | Congo | $16 B | 2025 |
+| 141 | Mauritius | $16 B | 2025 |
+| 142 | Bahamas | $16 B | 2024 |
+| 143 | Namibia | $15 B | 2025 |
+| 144 | Brunei | $15 B | 2025 |
+| 145 | Malawi | $15 B | 2025 |
+| 146 | Somalia | $13 B | 2025 |
+| 147 | Equatorial Guinea | $13 B | 2025 |
+| 148 | Kosovo | $12 B | 2025 |
+| 149 | South Sudan | $12 B | 2015 |
+| 150 | Togo | $12 B | 2025 |
+| 151 | Mauritania | $12 B | 2025 |
+| 152 | Monaco | $11 B | 2024 |
+| 153 | Montenegro | $9.2 B | 2025 |
+| 154 | Liechtenstein | $8.9 B | 2024 |
+| 155 | New Caledonia | $8.5 B | 2024 |
+| 156 | Sierra Leone | $7.5 B | 2025 |
+| 157 | Fiji | $6.2 B | 2025 |
+| 158 | Liberia | $5.2 B | 2025 |
+| 159 | Eswatini | $5.2 B | 2025 |
+| 160 | Djibouti | $4.6 B | 2025 |
+| 161 | Suriname | $4.5 B | 2025 |
+| 162 | Andorra | $4.5 B | 2025 |
+| 163 | Bhutan | $3.6 B | 2025 |
+| 164 | Burundi | $3.4 B | 2025 |
+| 165 | Greenland | $3.3 B | 2023 |
+| 166 | Belize | $3.3 B | 2025 |
+| 167 | Central African Republic | $3.1 B | 2025 |
+| 168 | Cape Verde | $3.1 B | 2025 |
+| 169 | Gambia | $2.6 B | 2025 |
+| 170 | Lesotho | $2.6 B | 2025 |
+| 171 | Guinea-Bissau | $2.5 B | 2025 |
+| 172 | Seychelles | $2.4 B | 2025 |
 | 173 | Eritrea | $2.1 B | 2011 |
 | 174 | San Marino | $2.0 B | 2023 |
-| 175 | Timor-Leste | $1.9 B | 2024 |
-| 176 | Solomon Islands | $1.6 B | 2024 |
-| 177 | Comoros | $1.4 B | 2024 |
-| 178 | Vanuatu | $1.1 B | 2024 |
-| 179 | São Tomé and Príncipe | $822 M | 2024 |
+| 175 | Timor-Leste | $1.9 B | 2025 |
+| 176 | Comoros | $1.8 B | 2025 |
+| 177 | Solomon Islands | $1.7 B | 2025 |
+| 178 | Vanuatu | $1.4 B | 2025 |
+| 179 | São Tomé and Príncipe | $981 M | 2025 |
 
 ## No data (7 nations)
 
@@ -208,7 +208,7 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-07-29 · https://www.imf.org/en/Publications/WEO
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- World Economic Outlook — International Monetary Fund · IMF Terms and Conditions · accessed 2026-08-14 · https://www.imf.org/en/Publications/WEO
 
 Citation template: Terralore, "GDP by nation — world ranking", terralore.co/rankings/gdp, retrieved <YYYY-MM-DD>.

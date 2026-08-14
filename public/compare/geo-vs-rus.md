@@ -3,7 +3,7 @@
 Georgia and Russia side by side: 43 shared sourced indicators across 9 domains, and the 6 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/geo-vs-rus
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | Georgia | Observed | Russia | Observed |
 |---|---|---|---|---|
-| GDP | $34 B | 2024 | $2.17 T | 2024 |
-| GDP per capita | $9,241 | 2024 | $14,889 | 2024 |
-| GDP growth | 9.7% | 2024 | 4.3% | 2024 |
-| Inflation | 1.1% | 2024 | 8.4% | 2024 |
-| Trade openness | 103.5% | 2024 | 39.5% | 2024 |
+| GDP | $38 B | 2025 | $2.56 T | 2025 |
+| GDP per capita | $9,692 | 2025 | $17,547 | 2025 |
+| GDP growth | 7.5% | 2025 | 1.0% | 2025 |
+| Inflation | 3.9% | 2025 | 8.7% | 2025 |
+| Trade openness | 100.6% | 2025 | 33.7% | 2025 |
 
 ## Society
 
 | Metric | Georgia | Observed | Russia | Observed |
 |---|---|---|---|---|
-| Population | 3.7 m | 2024 | 144 m | 2024 |
+| Population | 3.9 m | 2025 | 144 m | 2025 |
 | Life expectancy | 74.7 yrs | 2024 | 73.4 yrs | 2024 |
-| Urban population | 61.1% | 2024 | 75.1% | 2024 |
+| Urban population | 61.2% | 2025 | 75.3% | 2025 |
 | Fertility rate | 1.8 | 2024 | 1.4 | 2024 |
 
 ## Governance
@@ -79,7 +79,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Land area | 69,490 km² | 2023 | 16,376,870 km² | 2023 |
 | Forest area | 40.6% | 2023 | 49.8% | 2023 |
 | Agricultural land | 34.1% | 2023 | 13.2% | 2023 |
-| CO₂ per capita (t) | 3.6 | 2024 | 14.0 | 2024 |
+| CO₂ per capita (t) | 3.5 | 2024 | 14.0 | 2024 |
 | Renewable energy | 25.2% | 2021 | 3.5% | 2021 |
 
 ## Resources
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 9.7% | 2021 |
 | Mineral rents | 1.3% | 2021 | 2.1% | 2021 |
 | Forest rents | 0.1% | 2021 | 0.3% | 2021 |
-| Electricity access | 100.0% | 2023 | 100.0% | 2023 |
+| Electricity access | 100.0% | 2024 | 100.0% | 2024 |
 | Copper (mined) | — | — | 1.3 Mt | 2025 |
 | Iron ore | — | — | 86 Mt | 2025 |
 | Gold (mined) | — | — | 310 t | 2025 |
@@ -124,14 +124,14 @@ Events in which either nation's sourced chronicle names the other — including 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/GEO/chronicle.md and https://terralore.co/country/RUS/chronicle.md.
 

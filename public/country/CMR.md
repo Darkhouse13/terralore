@@ -3,7 +3,7 @@
 Cameroon — economy, society, governance, health, education, technology, geography, resources and military in one sourced dossier: 41 indicators, each…
 
 Canonical: https://terralore.co/country/CMR
-Updated: 2026-08-10 (latest domain refresh; each figure carries its own observation year)
+Updated: 2026-08-14 (latest domain refresh; each figure carries its own observation year)
 
 ## Overview
 
@@ -21,19 +21,19 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| GDP | $53 B | 2024 | World Development Indicators |
-| GDP per capita | $1,830 | 2024 | World Development Indicators |
-| GDP growth | 3.5% | 2024 | World Development Indicators |
-| Inflation | 4.5% | 2024 | World Development Indicators |
-| Trade openness | 34.4% | 2024 | World Development Indicators |
+| GDP | $59 B | 2025 | World Development Indicators |
+| GDP per capita | $1,972 | 2025 | World Development Indicators |
+| GDP growth | 3.2% | 2025 | World Development Indicators |
+| Inflation | 3.4% | 2025 | World Development Indicators |
+| Trade openness | 33.4% | 2025 | World Development Indicators |
 
 ## Society
 
 | Metric | Value | Observed | Source |
 |---|---|---|---|
-| Population | 29 m | 2024 | World Development Indicators |
+| Population | 30 m | 2025 | World Development Indicators |
 | Life expectancy | 64.0 yrs | 2024 | World Development Indicators |
-| Urban population | 55.4% | 2024 | World Development Indicators |
+| Urban population | 55.7% | 2025 | World Development Indicators |
 | Fertility rate | 4.3 | 2024 | World Development Indicators |
 | Literacy rate | 72.6% | 2018 | World Development Indicators |
 
@@ -93,7 +93,7 @@ A "—" is an absence in the source data, never a zero. Each figure shows the ye
 | Oil rents | 2.4% | 2021 | World Development Indicators |
 | Mineral rents | 0.0% | 2021 | World Development Indicators |
 | Forest rents | 2.6% | 2021 | World Development Indicators |
-| Electricity access | 72.0% | 2023 | World Development Indicators |
+| Electricity access | 72.0% | 2024 | World Development Indicators |
 
 ## Military
 
@@ -111,12 +111,12 @@ History: "From the Sao of Lake Chad and the Bantu cradle of the Grassfields to a
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- Education statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
 
 Citation template: Terralore, "Cameroon — national dossier", terralore.co/country/CMR, retrieved <YYYY-MM-DD>.

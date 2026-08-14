@@ -3,7 +3,7 @@
 South Korea and Mexico side by side: 43 shared sourced indicators across 9 domains, their chronicles record no events of each other.
 
 Canonical: https://terralore.co/compare/kor-vs-mex
-Updated: 2026-08-10 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -16,19 +16,19 @@ Two sourced records set beside each other — nothing on this page was written f
 
 | Metric | South Korea | Observed | Mexico | Observed |
 |---|---|---|---|---|
-| GDP | $1.88 T | 2024 | $1.86 T | 2024 |
-| GDP per capita | $36,239 | 2024 | $14,186 | 2024 |
-| GDP growth | 2.0% | 2024 | 1.4% | 2024 |
-| Inflation | 2.3% | 2024 | 4.7% | 2024 |
-| Trade openness | 84.6% | 2024 | 74.6% | 2024 |
+| GDP | $1.87 T | 2025 | $1.83 T | 2025 |
+| GDP per capita | $36,227 | 2025 | $13,889 | 2025 |
+| GDP growth | 1.0% | 2025 | 0.6% | 2025 |
+| Inflation | 2.1% | 2025 | 3.8% | 2025 |
+| Trade openness | 86.4% | 2025 | 79.9% | 2025 |
 
 ## Society
 
 | Metric | South Korea | Observed | Mexico | Observed |
 |---|---|---|---|---|
-| Population | 52 m | 2024 | 131 m | 2024 |
+| Population | 52 m | 2025 | 132 m | 2025 |
 | Life expectancy | 83.6 yrs | 2024 | 75.3 yrs | 2024 |
-| Urban population | 81.2% | 2024 | 79.8% | 2024 |
+| Urban population | 81.2% | 2025 | 80.0% | 2025 |
 | Fertility rate | 0.7 | 2024 | 1.9 | 2024 |
 
 ## Governance
@@ -90,7 +90,7 @@ Two sourced records set beside each other — nothing on this page was written f
 | Oil rents | 0.0% | 2021 | 2.1% | 2021 |
 | Mineral rents | 0.0% | 2021 | 1.4% | 2021 |
 | Forest rents | 0.0% | 2021 | 0.1% | 2021 |
-| Electricity access | 100.0% | 2023 | 99.7% | 2023 |
+| Electricity access | 100.0% | 2024 | 99.8% | 2024 |
 | Copper (mined) | — | — | 690 kt | 2025 |
 | Iron ore | — | — | 7.7 Mt | 2025 |
 | Gold (mined) | — | — | 140 t | 2025 |
@@ -113,14 +113,14 @@ Neither nation's sourced chronicle names the other — across both archives, no 
 
 ## Sources
 
-- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-06-14 · https://data.worldbank.org
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
-- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.who.int/data/gho
-- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://childmortality.org
-- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://uis.unesco.org
-- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-06-15 · https://www.itu.int/en/ITU-D/Statistics
-- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-06-14 · https://www.sipri.org/databases/milex
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-10 · https://www.usgs.gov/centers/national-minerals-information-center
+- World Development Indicators — World Bank · CC BY 4.0 · accessed 2026-08-14 · https://data.worldbank.org
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Global Health Observatory (WHO, via World Bank WDI) — WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.who.int/data/gho
+- Child mortality & immunisation estimates (UN IGME and WHO/UNICEF, via World Bank WDI) — UNICEF and WHO / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://childmortality.org
+- R&D statistics (UNESCO UIS, via World Bank WDI) — UNESCO Institute for Statistics / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://uis.unesco.org
+- ICT indicators (ITU, via World Bank WDI) — ITU / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.itu.int/en/ITU-D/Statistics
+- Military Expenditure Database (via World Development Indicators) — SIPRI / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.sipri.org/databases/milex
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Chronicle references are cited inline above and resolve in full at https://terralore.co/country/KOR/chronicle.md and https://terralore.co/country/MEX/chronicle.md.
 

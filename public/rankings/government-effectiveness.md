@@ -3,7 +3,7 @@
 Government effectiveness ranked across 178 nations, highest to lowest. Japan highest at 91.9 (2024). Each figure carries its publisher and observation…
 
 Canonical: https://terralore.co/rankings/government-effectiveness
-Updated: 2026-08-10 (the governance domain's last refresh)
+Updated: 2026-08-14 (the governance domain's last refresh)
 
 Definition: Perceived quality of public services, the civil service and policy implementation, scored 0–100 from survey and expert assessments.
 Unit: score. Ordered highest to lowest — a ranking of figures, not a grading of nations. Ties share a rank.
@@ -208,6 +208,6 @@ These nations publish no figure for this indicator in the sources below. Absence
 
 ## Sources
 
-- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-10 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
+- Worldwide Governance Indicators (via World Bank API) — Worldwide Governance Indicators / World Bank · CC BY 4.0 · accessed 2026-08-14 · https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 Citation template: Terralore, "Government effectiveness by nation — world ranking", terralore.co/rankings/government-effectiveness, retrieved <YYYY-MM-DD>.

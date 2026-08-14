@@ -3,128 +3,128 @@
  "name": "Comoros",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/COM",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:COM:gdp:2024",
+   "id": "TL:COM:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1440991455.45188,
-   "display": "$1.4 B",
+   "value": 1814920856.27026,
+   "display": "$1.8 B",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-gdp-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-gdp-2024, claim TL:COM:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-gdp-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-gdp-2025, claim TL:COM:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:gdpPerCapita:2024",
+   "id": "TL:COM:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 1662.75663312504,
-   "display": "$1,663",
+   "value": 2055.75921566281,
+   "display": "$2,056",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-gdpPerCapita-2024, claim TL:COM:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-gdpPerCapita-2025, claim TL:COM:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:gdpGrowth:2024",
+   "id": "TL:COM:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 3.3381010943571,
-   "display": "3.3%",
+   "value": 3.7544428489181,
+   "display": "3.8%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-gdpGrowth-2024, claim TL:COM:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-gdpGrowth-2025, claim TL:COM:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:inflation:2024",
+   "id": "TL:COM:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 5.05192609588218,
-   "display": "5.1%",
+   "value": 3.24909332306433,
+   "display": "3.2%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-inflation-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-inflation-2024, claim TL:COM:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-inflation-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-inflation-2025, claim TL:COM:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:tradePctGdp:2024",
+   "id": "TL:COM:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 44.3731767499027,
-   "display": "44.4%",
+   "value": 40.8852246183221,
+   "display": "40.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-tradePctGdp-2024, claim TL:COM:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-tradePctGdp-2025, claim TL:COM:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:population:2024",
+   "id": "TL:COM:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 866628,
-   "display": "867,000",
+   "value": 882847,
+   "display": "883,000",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-population-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-population-2024, claim TL:COM:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-population-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-population-2025, claim TL:COM:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:COM:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-lifeExpectancy-2024, claim TL:COM:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:urbanPct:2024",
+   "id": "TL:COM:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 33.5392215673301,
-   "display": "33.5%",
+   "value": 33.941547481361,
+   "display": "33.9%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-urbanPct-2024",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-urbanPct-2024, claim TL:COM:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-urbanPct-2025",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-urbanPct-2025, claim TL:COM:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:COM:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-fertility-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-fertility-2024, claim TL:COM:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-literacy-2021",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-literacy-2021, claim TL:COM:literacy:2021, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-wgiVoice-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-wgiVoice-2024, claim TL:COM:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-wgiStability-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-wgiStability-2024, claim TL:COM:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-wgiEffectiveness-2024, claim TL:COM:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-wgiRegQuality-2024, claim TL:COM:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-wgiRuleOfLaw-2024, claim TL:COM:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-wgiCorruption-2024, claim TL:COM:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-healthSpendPctGdp-2023, claim TL:COM:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-physicians-2022",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-physicians-2022, claim TL:COM:physicians:2022, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-underFiveMortality-2024, claim TL:COM:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-measlesImmunisation-2024, claim TL:COM:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-literacyRate-2021",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-literacyRate-2021, claim TL:COM:literacyRate:2021, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-eduSpendPctGdp-2023, claim TL:COM:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-primaryEnrolment-2024, claim TL:COM:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-secondaryEnrolment-2022",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-secondaryEnrolment-2022, claim TL:COM:secondaryEnrolment:2022, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-tertiaryEnrolment-2017",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-tertiaryEnrolment-2017, claim TL:COM:tertiaryEnrolment:2017, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-internetUsers-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-internetUsers-2024, claim TL:COM:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-mobileSubs-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-mobileSubs-2023, claim TL:COM:mobileSubs:2023, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-highTechExports-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-highTechExports-2023, claim TL:COM:highTechExports:2023, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-landArea-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-landArea-2023, claim TL:COM:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-forestPct-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-forestPct-2023, claim TL:COM:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-agriPct-2023",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-agriPct-2023, claim TL:COM:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-co2PerCapita-2024, claim TL:COM:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-renewablePct-2022",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-renewablePct-2022, claim TL:COM:renewablePct:2022, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-resourceRents-2021",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-resourceRents-2021, claim TL:COM:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-oilRents-2021",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-oilRents-2021, claim TL:COM:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-mineralRents-2021",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-mineralRents-2021, claim TL:COM:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,30 +741,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/COM#claim-forestRents-2021",
    "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-forestRents-2021, claim TL:COM:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COM:electricityAccess:2023",
+   "id": "TL:COM:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
-   "value": 89.8,
-   "display": "89.8%",
+   "value": 91.7,
+   "display": "91.7%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/COM#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-electricityAccess-2023, claim TL:COM:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COM#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Comoros — national dossier\", terralore.co/country/COM#claim-electricityAccess-2024, claim TL:COM:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   }
  ]
 }

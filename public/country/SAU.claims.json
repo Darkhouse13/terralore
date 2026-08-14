@@ -3,128 +3,128 @@
  "name": "Saudi Arabia",
  "kind": "dossier-observations",
  "canonical": "https://terralore.co/country/SAU",
- "updated": "2026-08-10",
+ "updated": "2026-08-14",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
-   "id": "TL:SAU:gdp:2024",
+   "id": "TL:SAU:gdp:2025",
    "domain": "economy",
    "metric": "gdp",
    "label": "GDP",
-   "value": 1239804533333.33,
-   "display": "$1.24 T",
+   "value": 1276942933333.33,
+   "display": "$1.28 T",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-gdp-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-gdp-2024, claim TL:SAU:gdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-gdp-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-gdp-2025, claim TL:SAU:gdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:gdpPerCapita:2024",
+   "id": "TL:SAU:gdpPerCapita:2025",
    "domain": "economy",
    "metric": "gdpPerCapita",
    "label": "GDP per capita",
-   "value": 35121.6628687742,
-   "display": "$35,122",
+   "value": 34536.6555456551,
+   "display": "$34,537",
    "unit": "USD",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-gdpPerCapita-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-gdpPerCapita-2024, claim TL:SAU:gdpPerCapita:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-gdpPerCapita-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-gdpPerCapita-2025, claim TL:SAU:gdpPerCapita:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:gdpGrowth:2024",
+   "id": "TL:SAU:gdpGrowth:2025",
    "domain": "economy",
    "metric": "gdpGrowth",
    "label": "GDP growth",
-   "value": 1.99650173436159,
-   "display": "2.0%",
+   "value": 4.50246560191663,
+   "display": "4.5%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-gdpGrowth-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-gdpGrowth-2024, claim TL:SAU:gdpGrowth:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-gdpGrowth-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-gdpGrowth-2025, claim TL:SAU:gdpGrowth:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:inflation:2024",
+   "id": "TL:SAU:inflation:2025",
    "domain": "economy",
    "metric": "inflation",
    "label": "Inflation",
-   "value": 1.68792112375809,
-   "display": "1.7%",
+   "value": 2.08420853585036,
+   "display": "2.1%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-inflation-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-inflation-2024, claim TL:SAU:inflation:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-inflation-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-inflation-2025, claim TL:SAU:inflation:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:tradePctGdp:2024",
+   "id": "TL:SAU:tradePctGdp:2025",
    "domain": "economy",
    "metric": "tradePctGdp",
    "label": "Trade openness",
-   "value": 54.6787052668733,
-   "display": "54.7%",
+   "value": 57.9182238579808,
+   "display": "57.9%",
    "unit": "% of GDP",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-tradePctGdp-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-tradePctGdp-2024, claim TL:SAU:tradePctGdp:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-tradePctGdp-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-tradePctGdp-2025, claim TL:SAU:tradePctGdp:2025, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:population:2024",
+   "id": "TL:SAU:population:2025",
    "domain": "society",
    "metric": "population",
    "label": "Population",
-   "value": 35300280,
-   "display": "35 m",
+   "value": 36973555,
+   "display": "37 m",
    "unit": "people",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-population-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-population-2024, claim TL:SAU:population:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-population-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-population-2025, claim TL:SAU:population:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SAU:lifeExpectancy:2024",
@@ -141,30 +141,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-lifeExpectancy-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-lifeExpectancy-2024, claim TL:SAU:lifeExpectancy:2024, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:urbanPct:2024",
+   "id": "TL:SAU:urbanPct:2025",
    "domain": "society",
    "metric": "urbanPct",
    "label": "Urban population",
-   "value": 84.4554020211443,
-   "display": "84.5%",
+   "value": 84.6123121062185,
+   "display": "84.6%",
    "unit": "%",
-   "observed": 2024,
+   "observed": 2025,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-urbanPct-2024",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-urbanPct-2024, claim TL:SAU:urbanPct:2024, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-urbanPct-2025",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-urbanPct-2025, claim TL:SAU:urbanPct:2025, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SAU:fertility:2024",
@@ -181,7 +181,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-fertility-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-fertility-2024, claim TL:SAU:fertility:2024, retrieved <YYYY-MM-DD>."
@@ -201,7 +201,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-literacy-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-literacy-2024, claim TL:SAU:literacy:2024, retrieved <YYYY-MM-DD>."
@@ -221,7 +221,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-wgiVoice-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-wgiVoice-2024, claim TL:SAU:wgiVoice:2024, retrieved <YYYY-MM-DD>."
@@ -241,7 +241,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-wgiStability-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-wgiStability-2024, claim TL:SAU:wgiStability:2024, retrieved <YYYY-MM-DD>."
@@ -261,7 +261,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-wgiEffectiveness-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-wgiEffectiveness-2024, claim TL:SAU:wgiEffectiveness:2024, retrieved <YYYY-MM-DD>."
@@ -281,7 +281,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-wgiRegQuality-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-wgiRegQuality-2024, claim TL:SAU:wgiRegQuality:2024, retrieved <YYYY-MM-DD>."
@@ -301,7 +301,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-wgiRuleOfLaw-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-wgiRuleOfLaw-2024, claim TL:SAU:wgiRuleOfLaw:2024, retrieved <YYYY-MM-DD>."
@@ -321,7 +321,7 @@
     "publisher": "Worldwide Governance Indicators / World Bank",
     "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-wgiCorruption-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-wgiCorruption-2024, claim TL:SAU:wgiCorruption:2024, retrieved <YYYY-MM-DD>."
@@ -341,7 +341,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-healthSpendPctGdp-2023",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-healthSpendPctGdp-2023, claim TL:SAU:healthSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -361,7 +361,7 @@
     "publisher": "WHO / World Bank",
     "url": "https://www.who.int/data/gho",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-physicians-2023",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-physicians-2023, claim TL:SAU:physicians:2023, retrieved <YYYY-MM-DD>."
@@ -381,7 +381,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-underFiveMortality-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-underFiveMortality-2024, claim TL:SAU:underFiveMortality:2024, retrieved <YYYY-MM-DD>."
@@ -401,7 +401,7 @@
     "publisher": "UNICEF and WHO / World Bank",
     "url": "https://childmortality.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-measlesImmunisation-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-measlesImmunisation-2024, claim TL:SAU:measlesImmunisation:2024, retrieved <YYYY-MM-DD>."
@@ -421,7 +421,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-literacyRate-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-literacyRate-2024, claim TL:SAU:literacyRate:2024, retrieved <YYYY-MM-DD>."
@@ -441,7 +441,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-eduSpendPctGdp-2023",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-eduSpendPctGdp-2023, claim TL:SAU:eduSpendPctGdp:2023, retrieved <YYYY-MM-DD>."
@@ -461,7 +461,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-primaryEnrolment-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-primaryEnrolment-2024, claim TL:SAU:primaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -481,7 +481,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-secondaryEnrolment-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-secondaryEnrolment-2024, claim TL:SAU:secondaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -501,7 +501,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-tertiaryEnrolment-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-tertiaryEnrolment-2024, claim TL:SAU:tertiaryEnrolment:2024, retrieved <YYYY-MM-DD>."
@@ -521,7 +521,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-rdSpending-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-rdSpending-2024, claim TL:SAU:rdSpending:2024, retrieved <YYYY-MM-DD>."
@@ -541,7 +541,7 @@
     "publisher": "UNESCO Institute for Statistics / World Bank",
     "url": "https://uis.unesco.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-researchers-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-researchers-2024, claim TL:SAU:researchers:2024, retrieved <YYYY-MM-DD>."
@@ -561,7 +561,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-internetUsers-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-internetUsers-2024, claim TL:SAU:internetUsers:2024, retrieved <YYYY-MM-DD>."
@@ -581,7 +581,7 @@
     "publisher": "ITU / World Bank",
     "url": "https://www.itu.int/en/ITU-D/Statistics",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-15"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-mobileSubs-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-mobileSubs-2024, claim TL:SAU:mobileSubs:2024, retrieved <YYYY-MM-DD>."
@@ -601,7 +601,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-highTechExports-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-highTechExports-2024, claim TL:SAU:highTechExports:2024, retrieved <YYYY-MM-DD>."
@@ -621,7 +621,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-landArea-2023",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-landArea-2023, claim TL:SAU:landArea:2023, retrieved <YYYY-MM-DD>."
@@ -641,7 +641,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-forestPct-2023",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-forestPct-2023, claim TL:SAU:forestPct:2023, retrieved <YYYY-MM-DD>."
@@ -661,7 +661,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-agriPct-2023",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-agriPct-2023, claim TL:SAU:agriPct:2023, retrieved <YYYY-MM-DD>."
@@ -681,7 +681,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-co2PerCapita-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-co2PerCapita-2024, claim TL:SAU:co2PerCapita:2024, retrieved <YYYY-MM-DD>."
@@ -701,7 +701,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-renewablePct-2021",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-renewablePct-2021, claim TL:SAU:renewablePct:2021, retrieved <YYYY-MM-DD>."
@@ -721,7 +721,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-resourceRents-2021",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-resourceRents-2021, claim TL:SAU:resourceRents:2021, retrieved <YYYY-MM-DD>."
@@ -741,7 +741,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-oilRents-2021",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-oilRents-2021, claim TL:SAU:oilRents:2021, retrieved <YYYY-MM-DD>."
@@ -761,7 +761,7 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-mineralRents-2021",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-mineralRents-2021, claim TL:SAU:mineralRents:2021, retrieved <YYYY-MM-DD>."
@@ -781,30 +781,30 @@
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-forestRents-2021",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-forestRents-2021, claim TL:SAU:forestRents:2021, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:SAU:electricityAccess:2023",
+   "id": "TL:SAU:electricityAccess:2024",
    "domain": "resources",
    "metric": "electricityAccess",
    "label": "Electricity access",
    "value": 100,
    "display": "100.0%",
    "unit": "%",
-   "observed": 2023,
+   "observed": 2024,
    "source": {
     "id": "wb-wdi",
     "label": "World Development Indicators",
     "publisher": "World Bank",
     "url": "https://data.worldbank.org",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
-   "url": "https://terralore.co/country/SAU#claim-electricityAccess-2023",
-   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-electricityAccess-2023, claim TL:SAU:electricityAccess:2023, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/SAU#claim-electricityAccess-2024",
+   "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-electricityAccess-2024, claim TL:SAU:electricityAccess:2024, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:SAU:prodBauxite:2025",
@@ -821,7 +821,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-prodBauxite-2025",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-prodBauxite-2025, claim TL:SAU:prodBauxite:2025, retrieved <YYYY-MM-DD>."
@@ -841,7 +841,7 @@
     "publisher": "U.S. Geological Survey",
     "url": "https://www.usgs.gov/centers/national-minerals-information-center",
     "license": "Public domain (U.S. Government work)",
-    "accessed": "2026-08-10"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-prodPhosphate-2025",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-prodPhosphate-2025, claim TL:SAU:prodPhosphate:2025, retrieved <YYYY-MM-DD>."
@@ -861,7 +861,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-milExpPctGdp-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-milExpPctGdp-2024, claim TL:SAU:milExpPctGdp:2024, retrieved <YYYY-MM-DD>."
@@ -881,7 +881,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-milExpUsd-2024",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-milExpUsd-2024, claim TL:SAU:milExpUsd:2024, retrieved <YYYY-MM-DD>."
@@ -901,7 +901,7 @@
     "publisher": "SIPRI / World Bank",
     "url": "https://www.sipri.org/databases/milex",
     "license": "CC BY 4.0",
-    "accessed": "2026-06-14"
+    "accessed": "2026-08-14"
    },
    "url": "https://terralore.co/country/SAU#claim-armedForces-2020",
    "citation": "Terralore, \"Saudi Arabia — national dossier\", terralore.co/country/SAU#claim-armedForces-2020, claim TL:SAU:armedForces:2020, retrieved <YYYY-MM-DD>."

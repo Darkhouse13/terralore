@@ -3,7 +3,7 @@
 World iron ore mine production: 2600 Mt in the 2025 USGS estimate. Australia leads with 38%; the top three hold 66%. Every producer's sourced share.
 
 Canonical: https://terralore.co/commodities/iron-ore
-Updated: 2026-08-11 (USGS Mineral Commodity Summaries edition)
+Updated: 2026-08-14 (USGS Mineral Commodity Summaries edition)
 
 What is measured: the MCS statistics row "Mine production: Usable ore" — mine production in tonnes, what left mines in each calendar year. Not reserves in the ground, and not refined or smelted output. 2025 is the USGS estimate; 2024 is the reported figure.
 
@@ -39,6 +39,6 @@ Machine-readable claims — every share and tonnage above as an addressable clai
 
 ## Sources
 
-- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-11 · https://www.usgs.gov/centers/national-minerals-information-center
+- Mineral Commodity Summaries 2026 — U.S. Geological Survey · Public domain (U.S. Government work) · accessed 2026-08-14 · https://www.usgs.gov/centers/national-minerals-information-center
 
 Citation template: Terralore, "Iron ore — who supplies the world", terralore.co/commodities/iron-ore, retrieved <YYYY-MM-DD>.
