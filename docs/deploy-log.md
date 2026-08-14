@@ -6,6 +6,47 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-14 — the bench build (7976100 → 607b578)
+
+One commit: the P4 desktop contract
+(`docs/design/p4-desktop-contract.html`, deviations E14) translated into
+the six surfaces at ≥1024px — the wide cut face + overture-at-width, the
+section cut's rules-as-columns, the nation BENCH (sticky core rail +
+specimen bench), the ranking WALL + READOUT LEDGE (inline vanilla
+island), the junction tray as the compare index's rail, and the pair
+page's DOSSIER DUEL. The phone ships untouched.
+
+- **09:32:05Z** pushed `main` (`607b578`); Coolify webhook fired.
+- **~09:34:35Z** deploy landed — live front door first served the new
+  masthead ("THE EARTH IN SECTION"), polled every 30 s from push.
+- **09:37–09:45Z** verification battery, all green:
+  - 16/16 live HTML checks: masthead + COMPARED nav (no junction vocab
+    outside the compare surfaces), ledge markup + wall rows with specimen
+    data on `/rankings/gdp`, parse-time `.js` class + tray heading on
+    `/compare`, duel heading + junction mark on `/compare/deu-vs-fra`,
+    core-rail + specimen-bench markup on `/country/FRA` (phone pull hint
+    still served), depth scale on `/atlas`
+  - live screenshots at **390 / 1024 / 1440 / 1920** (four surfaces,
+    `design-review/19-bench/live/`) — zero horizontal overflow at every
+    width; the wall runs 3 columns + side ledge at 1440, 2 columns with
+    the ledge beneath the header at 1024; the 1920 frame holds 1760px
+  - live ledge interaction: pressing rank 04 lands JAPAN on the ledge,
+    flipped (`data-flipped=true`) — the island runs in production
+- Pre-deploy gates (recorded in the commit): 390px **pixel-identity
+  proof** on all six surfaces (`design-review/19-bench/390-diff-proof.txt`
+  — zero differing pixels, content-visibility forced so placeholder
+  estimates cannot fake a pass); Lighthouse **mobile** landing 98 /
+  dossier 96 / ranking 97 / compare-hub 95 perf with a11y 96–100, and
+  **desktop** 100 / 98 / 100 / 100 perf with a11y 96–100 (floor ≥95 both
+  modes); idle 0 rAF and 0 running animations at 1024 and 1440;
+  reduced-motion collapses the ledge flip; keyboard drives the ledge
+  (row focus + Enter, aria-live announced) and the tray (dig,
+  ArrowDown, Enter).
+- No IndexNow: no canonical URL changed — same pages, recomposed at
+  width.
+
+---
+
 ## 2026-08-14 — The mounted core + the junction finder
 
 Three commits (`9f38674`, `8611cc9`, `b603346`): the desktop adaptation
