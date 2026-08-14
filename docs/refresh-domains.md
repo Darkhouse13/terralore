@@ -132,6 +132,34 @@ node -e "for (const d of ['economy','society','technology','geography','resource
 
 ---
 
+## Recorded refreshes — the Living Record
+
+Since 2026-08-14 a refresh is not just re-pulled data: it is a **recorded act**
+(docs/living-record.md). The ledger (`/ledger`) publishes what changed; the seal
+(`/integrity.json`) versions the corpus. The procedure:
+
+```bash
+npm run record-refresh          # = refresh-domains + a claim-level dry-run diff vs HEAD
+# read the dry-run counts; then publish the entry with authored prose:
+node scripts/record-refresh.mjs --write \
+  --title "…neutral title…" --summary "…" [--note "…"]…
+npm run build-geo               # the new entry's twin
+npm run build-integrity         # cut the new seal (entry + twins included)
+npm run validate && npx tsc --noEmit && <constrained next build>
+git add -A && git commit        # one commit for refresh + entry
+node scripts/indexnow.mjs --urls /ledger,/ledger/<n>,/integrity
+```
+
+Language law (validator-enforced): entry prose never grades — values are
+*published*, *revised*, *withdrawn*; bounded scales move in **points**. An
+upstream revision is never labelled as our correction, nor the reverse.
+
+**Detection cadence:** a monthly Coolify scheduled task on the social-runner
+service executes `scripts/recorder-dryrun-monthly.sh` — pull → diff →
+would-be entry to the Marsad status path
+(`/data/terralore-social/status/recorder/`), then discards everything.
+Detection is automated; recording stays deliberate.
+
 ## Future work
 
 USGS physical mineral production and reserves would substantially enrich the
