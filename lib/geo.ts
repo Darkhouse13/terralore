@@ -30,6 +30,7 @@ import { allHistories, getHistory } from "./histories";
 import { allRankings, type Ranking } from "./rankings";
 import { allComparePages, compareTitle, type ComparePage } from "./compare";
 import { allCommodities, commoditiesSource, commoditiesUpdated, type Commodity } from "./commodities";
+import { allEntries, type LedgerEntry } from "./ledger";
 import { NO_DATA_NOTES, TERRITORY_NOTES } from "./territory-notes";
 import {
   DOMAIN_META,
@@ -46,6 +47,7 @@ import {
   commodityDescription,
   compareDescription,
   dossierDescription,
+  ledgerEntryDescription,
   rankingDescription,
 } from "./seo";
 import { formatArea, formatMetric, formatPopulation, formatTonnes } from "./format";
@@ -60,7 +62,7 @@ export interface Twin {
   /** One-line description (the same line the HTML page's meta carries). */
   description: string;
   /** Which surface produced it — validators count per kind. */
-  kind: "dossier" | "chronicle" | "ranking" | "commodity" | "compare";
+  kind: "dossier" | "chronicle" | "ranking" | "commodity" | "compare" | "ledger";
   markdown: string;
 }
 
@@ -500,6 +502,70 @@ function compareTwin(page: ComparePage): Twin {
   return { path: `${canonicalPath}.md`, canonicalPath, title, description, kind: "compare", markdown: L.join("\n") };
 }
 
+/* ── ledger twins ─────────────────────────────────────────────────────────── */
+
+function ledgerTwin(e: LedgerEntry): Twin {
+  const canonicalPath = routes.ledgerEntry(e.slug);
+  const title = `Terralore Ledger — entry ${e.entry}, ${e.date}`;
+  const description = ledgerEntryDescription(e);
+
+  const L: string[] = [
+    `# ${title}`,
+    "",
+    description,
+    "",
+    `Canonical: ${SITE_URL}${canonicalPath}`,
+    `Updated: ${e.date} (the recorded refresh itself; ledger entries are append-only and do not change)`,
+    "",
+    `${e.title}${e.summary ? ` — ${e.summary}` : ""}`,
+    "",
+    `Corpus versions: ${e.corpus.before ? `${e.corpus.before.version} (root ${e.corpus.before.root.slice(0, 16)}…)` : "unsealed"} → ` +
+      `${e.corpus.after.version}. Both resolve to per-file hashes at ${SITE_URL}/integrity/<version>.json.`,
+    "",
+    `Counts: ${e.counts.new} new observations · ${e.counts.revised} upstream revisions · ` +
+      `${e.counts.retired} retired observations · ${e.counts.sourceChanges} source-record changes · ` +
+      `${e.counts.nations} nations touched.`,
+    "",
+    "| Domain | New | Revised | Retired |",
+    "|---|---|---|---|",
+  ];
+  for (const d of e.domains) {
+    const c = e.changes.filter((x) => x.domain === d);
+    L.push(
+      `| ${d} | ${c.filter((x) => x.kind === "new").length} | ${c.filter((x) => x.kind === "revised").length} | ${c.filter((x) => x.kind === "retired").length} |`,
+    );
+  }
+  L.push("");
+
+  const structural = Object.entries(e.structural);
+  if (structural.length > 0) {
+    L.push("Structural changes (a nation entering or leaving a domain's published set):", "");
+    for (const [d, s] of structural) {
+      const parts = [];
+      if (s.gained.length) parts.push(`now published for ${s.gained.join(", ")}`);
+      if (s.lost.length) parts.push(`no longer published for ${s.lost.join(", ")}`);
+      L.push(`- ${d}: ${parts.join("; ")}`);
+    }
+    L.push("");
+  }
+
+  if (e.notes.length > 0) {
+    L.push("Noted in the record:", "");
+    for (const note of e.notes) L.push(`- ${note}`);
+    L.push("");
+  }
+
+  L.push(
+    `The complete claim-by-claim change record (${e.changes.length.toLocaleString("en")} changes ` +
+      `with claim IDs, prior and new values, and origins): ${SITE_URL}/ledger/${e.slug}.json`,
+    "",
+    citation(title, canonicalPath),
+    "",
+  );
+
+  return { path: `${canonicalPath}.md`, canonicalPath, title, description, kind: "ledger", markdown: L.join("\n") };
+}
+
 /* ── the full set ─────────────────────────────────────────────────────────── */
 
 let twinsCache: Twin[] | null = null;
@@ -518,6 +584,7 @@ export function allTwins(): Twin[] {
   for (const r of allRankings()) out.push(rankingTwin(r));
   for (const c of allCommodities()) out.push(commodityTwin(c));
   for (const p of allComparePages()) out.push(compareTwin(p));
+  for (const e of allEntries()) out.push(ledgerTwin(e));
 
   twinsCache = out;
   return out;

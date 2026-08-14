@@ -27,6 +27,7 @@ export function GET(): Response {
   const rankings = twinsOf("ranking");
   const commodities = twinsOf("commodity");
   const compares = twinsOf("compare");
+  const ledger = twinsOf("ledger");
 
   const link = (t: { title: string; path: string; description: string }) =>
     `- [${t.title}](${abs(t.path)}): ${t.description}`;
@@ -94,6 +95,15 @@ export function GET(): Response {
     `compared, never graded.`,
     "",
     ...compares.map(link),
+    "",
+    `## The record`,
+    "",
+    `The corpus's own change history: one entry per recorded data refresh — new`,
+    `observations, upstream revisions, retired series — each change resolving to its`,
+    `claim ID. Corpus hashes per version: ${abs("/integrity.json")}.`,
+    "",
+    `- [The Ledger](${abs(routes.ledger())}): every recorded refresh`,
+    ...ledger.map(link),
     "",
     `## Chronicles`,
     "",

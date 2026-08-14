@@ -64,6 +64,7 @@ pruneDir("country", (f) => `/country/${f.replace(/\.md$/, "")}.md`);
 pruneDir("rankings", (f) => `/rankings/${f.replace(/\.md$/, "")}.md`);
 pruneDir("commodities", (f) => `/commodities/${f.replace(/\.md$/, "")}.md`);
 pruneDir("compare", (f) => `/compare/${f.replace(/\.md$/, "")}.md`);
+pruneDir("ledger", (f) => `/ledger/${f.replace(/\.md$/, "")}.md`); // .md only — entry .json files are the record itself
 // chronicle twins live one level deeper: public/country/<CODE>/chronicle.md
 const countryDir = join(root, "public", "country");
 if (existsSync(countryDir)) {

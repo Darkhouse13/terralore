@@ -61,6 +61,11 @@ export const routes = {
   // display copy says "Germany and France compared" — the "-vs-" is search
   // grammar in the URL, never language on the page (docs/compare-surface.md).
   comparePair: (slug: string) => `/compare/${slug}`,
+  ledger: () => "/ledger",
+  // Entry slugs are zero-padded record numbers ("0001") — permanent, ordinal,
+  // dated inside the record rather than in the URL.
+  ledgerEntry: (slug: string) => `/ledger/${slug}`,
+  integrity: () => "/integrity",
 };
 
 // ── Social cards ───────────────────────────────────────────────────────────
@@ -245,6 +250,31 @@ export function compareDescription(page: ComparePage): string {
   return clampText(
     `${page.a.name} and ${page.b.name} side by side: ${page.bothCount} shared sourced ` +
       `indicators across ${page.domains.length} domains, ${events}.`,
+  );
+}
+
+/** The ledger hub — the record of recorded refreshes, in one line with numbers. */
+export function ledgerDescription(entryCount: number, latestDate: string | null): string {
+  return clampText(
+    `The change record of the Terralore corpus: ${entryCount} recorded ` +
+      `refresh${entryCount === 1 ? "" : "es"}${latestDate ? `, latest ${latestDate}` : ""}. ` +
+      `Every new observation, upstream revision and retired series, published — never silent.`,
+  );
+}
+
+/**
+ * One ledger entry. Real counts, publication verbs only — the ledger records,
+ * it does not grade (validate-ledger enforces the same rule on the entry).
+ */
+export function ledgerEntryDescription(e: {
+  entry: number;
+  date: string;
+  counts: { new: number; revised: number; retired: number; nations: number };
+}): string {
+  return clampText(
+    `Ledger entry ${e.entry} (${e.date}): ${e.counts.new} new observations, ` +
+      `${e.counts.revised} upstream revisions, ${e.counts.retired} retired series ` +
+      `across ${e.counts.nations} nations — each change resolving to its claim ID.`,
   );
 }
 

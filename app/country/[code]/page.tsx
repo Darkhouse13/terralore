@@ -5,7 +5,9 @@ import { getDossier } from "@/lib/domains";
 import { DOMAIN_META, type DomainKey } from "@/lib/types";
 import { getHistory } from "@/lib/histories";
 import { annotationsFor } from "@/lib/annotations-server";
-import Dossier, { type EraBed } from "@/components/dossier/Dossier";
+import { changesForNation, describeChange } from "@/lib/ledger";
+import { claimFragment } from "@/lib/claim-id";
+import Dossier, { type EraBed, type RecordRow } from "@/components/dossier/Dossier";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbLd, dossierDescription, dossierLd, mdTwinTypes, routes, SITE_NAME } from "@/lib/seo";
 
@@ -82,6 +84,31 @@ export default async function CountryDossierPage({
     }))
     .reverse();
 
+  // THE RECORD (deviations E15): this nation's recent ledger changes, composed
+  // server-side (lib/ledger reads with fs) into serializable rows. Capped at
+  // eight — the full record lives on the entry and in its committed JSON.
+  const record = (() => {
+    const rows: RecordRow[] = [];
+    let total = 0;
+    for (const { entry, changes } of changesForNation(code)) {
+      total += changes.length;
+      for (const c of changes) {
+        if (rows.length >= 8) continue;
+        rows.push({
+          entry: entry.slug,
+          date: entry.date,
+          label: c.label,
+          text: describeChange(c),
+          fragment:
+            c.kind !== "retired" && c.after && c.domain !== "commodities"
+              ? claimFragment(c.metric, c.after.year)
+              : null,
+        });
+      }
+    }
+    return { rows, total };
+  })();
+
   return (
     <>
       <JsonLd
@@ -101,6 +128,7 @@ export default async function CountryDossierPage({
         eventsTotal={history ? history.eras.reduce((n, e) => n + e.events.length, 0) : 0}
         founding={history ? `${history.founding.label} · ${history.founding.yearLabel}` : null}
         annotations={annotationsFor(code)}
+        record={record}
       />
     </>
   );

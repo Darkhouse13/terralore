@@ -186,7 +186,22 @@ invariant — where the invariant wins by rule.
     basalt (2.9:1). Shipped phone rendering is the contract here; fix as
     its own pass with fresh phone baselines.
 
-## C. Invariant collisions
+- **E15 — The Living Record's surfaces (ledger, integrity, THE RECORD).**
+  The contract predates the corpus having a published memory; three
+  extensions carry it, all in existing grammar, no new pigments or
+  physics. `/ledger` and `/ledger/<n>` and `/integrity` are reading
+  surfaces and take the mounted core (E12) on bone, mono for every
+  number and hash, 2px rules, the standard breadcrumb and creed footer.
+  On the nation page, **THE RECORD** is a bed in the cut's footing
+  (above Sources & methodology): this nation's recent ledger changes as
+  rows — neutral publication language only (published / revised by the
+  publisher / withdrawn; points for bounded scales), each row linking
+  its claim's fragment on the same page ("→ THE SPECIMEN") and its
+  ledger entry. The bed renders only when the ledger holds changes for
+  the nation — an empty record is silence, not an empty box. Claim IDs
+  on proof reverses are the fine mono size (9px) in sand, `select-text`
+  against the surface's `select-none` (an ID you cannot copy is
+  decoration), and are never uppercased — metric-key case is identity.
 
 *(none yet — log here if a taboo ever collides with an editorial
 invariant; the invariant wins and the design routes around it.)*

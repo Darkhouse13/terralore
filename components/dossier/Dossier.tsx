@@ -53,6 +53,18 @@ export interface EraBed {
   headline: { yearLabel: string; title: string; refs: number }[];
 }
 
+/** One row of THE RECORD — this nation's recent ledger changes (deviations E15). */
+export interface RecordRow {
+  /** Ledger entry slug, e.g. "0001". */
+  entry: string;
+  date: string;
+  label: string;
+  /** The neutral change sentence (lib/ledger describeChange — server-composed). */
+  text: string;
+  /** The claim fragment on THIS page, when the claim still stands. */
+  fragment: string | null;
+}
+
 const ALL_DOMAINS = Object.keys(DOMAIN_META) as DomainKey[];
 
 // The bed walk, newest era downward. Ground + proven text pair per DESIGN.md §2.
@@ -81,6 +93,7 @@ export default function Dossier({
   eventsTotal,
   founding,
   annotations,
+  record = { rows: [], total: 0 },
 }: {
   meta: CountryMeta;
   dossier: CountryDossier | null;
@@ -89,6 +102,8 @@ export default function Dossier({
   founding: string | null;
   /** This nation's chronicle moments, for annotating metric series. */
   annotations: EventAnnotation[];
+  /** THE RECORD — recent ledger changes touching this nation (deviations E15). */
+  record?: { rows: RecordRow[]; total: number };
 }) {
   const available = useMemo(
     () => (dossier ? ALL_DOMAINS.filter((d) => dossier.sections[d]) : []),
@@ -653,6 +668,50 @@ export default function Dossier({
 
         {/* ── sources + the creed — the cut's own footing ── */}
         <div className={`${benchMainCol} lg:row-start-3 lg:min-w-0 xl:row-start-2`}>
+      {/* THE RECORD (deviations E15): what the ledger holds for this nation —
+          each change resolving to its claim on this page and to its entry.
+          Publication verbs only; the ledger records, it does not grade. */}
+      {record.rows.length > 0 && (
+        <section className="bed">
+          <div className="mx-auto max-w-5xl px-5 py-4 lg:mx-0 lg:max-w-none lg:px-9">
+            <div className="eyebrow text-umber">The record · what changed here</div>
+            <ul className="mt-3 max-w-3xl border-t-2 border-basalt">
+              {record.rows.map((r, i) => (
+                <li key={i} className="border-b-2 border-basalt py-2.5">
+                  <div className="font-sans text-[13.5px] leading-snug">
+                    <span className="font-medium">{r.label}</span> — {r.text}
+                    {r.fragment && (
+                      <>
+                        {" "}
+                        <a
+                          href={`#${r.fragment}`}
+                          className="font-mono text-[10px] tracking-[0.08em] text-oxide"
+                        >
+                          → THE SPECIMEN
+                        </a>
+                      </>
+                    )}
+                  </div>
+                  <div className="mt-1 font-mono text-[10px] text-umber">
+                    <Link href={`/ledger/${r.entry}`} prefetch={false} className="text-oxide">
+                      LEDGER № {r.entry}
+                    </Link>{" "}
+                    · {r.date}
+                  </div>
+                </li>
+              ))}
+            </ul>
+            {record.total > record.rows.length && (
+              <p className="mt-2.5 font-mono text-[10px] tracking-[0.08em] text-umber">
+                + {record.total - record.rows.length} MORE IN{" "}
+                <Link href="/ledger" prefetch={false} className="text-oxide">
+                  THE LEDGER
+                </Link>
+              </p>
+            )}
+          </div>
+        </section>
+      )}
       {Object.keys(sources).length > 0 && (
         <SourcesFooter sources={sources} updated={dossier?.updated ?? null} />
       )}

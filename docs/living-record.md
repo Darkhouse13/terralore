@@ -170,8 +170,11 @@ copies are the witnesses.
 
 ### 2.3 When the seal moves
 
-The seal is cut by `scripts/build-integrity.mjs`, chained at the end of
-`npm run build-domains` and runnable alone. `npm run ci` fails if the
+The seal is cut by `scripts/build-integrity.mjs` (`npm run
+build-integrity`) as a deliberate act at publish points — NOT chained
+into `build-domains`, because a recorded refresh rebuilds data before
+its ledger entry exists, and an auto-cut there would archive
+intermediate versions that never shipped. `npm run ci` fails if the
 committed manifest does not match the committed corpus — so any state
 that ships is sealed, while intermediate commits inside a mission need
 not each cut a version. One version per deployed corpus state, not per

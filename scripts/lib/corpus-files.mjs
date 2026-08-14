@@ -36,7 +36,9 @@ export function corpusFiles(root) {
     "data/compare-pairs.json",
     "data/compare-aliases.json",
     "data/ranking-slugs.json",
-    ...listDir("data/ledger", (f) => f.endsWith(".json")),
+    // ledger entries live in public/ (fetchable at /ledger/<slug>.json — the
+    // committed file IS the record) and are sealed like every derivation
+    ...listDir("public/ledger", (f) => f.endsWith(".json")),
     // (b) the published derivations — fetchable at the same path on the live
     // site without the public/ prefix
     ...listDir("public/country", (f) => f.endsWith(".claims.json") || f.endsWith(".md")),

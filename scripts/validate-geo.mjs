@@ -60,6 +60,7 @@ const { getHistory } = await import("../lib/histories/index.ts");
 const { allRankings } = await import("../lib/rankings.ts");
 const { allCommodities } = await import("../lib/commodities.ts");
 const { allComparePages } = await import("../lib/compare.ts");
+const { allEntries } = await import("../lib/ledger.ts");
 
 const real = allCountries().filter((c) => c.name && c.name !== "-99");
 const published = real.filter((c) => getHistory(c.code)?.status === "published");
@@ -72,6 +73,7 @@ const want = {
   ranking: allRankings().length,
   commodity: allCommodities().length,
   compare: allComparePages().length,
+  ledger: allEntries().length,
 };
 for (const [kind, n] of Object.entries(want)) {
   if ((counts[kind] ?? 0) !== n) err(`${kind} twins: ${counts[kind] ?? 0}, expected ${n}`);
@@ -97,6 +99,7 @@ scan("country", (f) => `/country/${f.replace(/\.md$/, "")}.md`);
 scan("rankings", (f) => `/rankings/${f.replace(/\.md$/, "")}.md`);
 scan("commodities", (f) => `/commodities/${f.replace(/\.md$/, "")}.md`);
 scan("compare", (f) => `/compare/${f.replace(/\.md$/, "")}.md`);
+scan("ledger", (f) => `/ledger/${f.replace(/\.md$/, "")}.md`);
 
 // ── llms-full.txt under its cap ───────────────────────────────────────────
 const fullBytes = Buffer.byteLength(llmsFullText(), "utf8");
@@ -114,8 +117,15 @@ if (fullBytes > LLMS_FULL_CAP) {
 // are stripped before the check, and the ban widens to winner-language,
 // which a comparison page must never speak in.
 for (const t of twins) {
-  if (t.kind !== "ranking" && t.kind !== "commodity" && t.kind !== "compare") continue;
-  const banned = t.kind === "compare" ? /\b(best|worst|winner|loser)\b/i : /\b(best|worst)\b/i;
+  if (t.kind !== "ranking" && t.kind !== "commodity" && t.kind !== "compare" && t.kind !== "ledger") continue;
+  // Ledger twins additionally ban valuation verbs outright: the record
+  // publishes and revises, it never grades a movement (living-record §3.1).
+  const banned =
+    t.kind === "compare"
+      ? /\b(best|worst|winner|loser)\b/i
+      : t.kind === "ledger"
+        ? /\b(best|worst|improved?|worsen(ed|ing)?|better|worse)\b/i
+        : /\b(best|worst)\b/i;
   const text = t.kind === "compare" ? t.markdown.replace(/^- .*$/gm, "") : t.markdown;
   const hit = text.match(banned);
   if (hit) err(`${t.path}: contains "${hit[0]}" — figures are compared or ordered, never graded`);
