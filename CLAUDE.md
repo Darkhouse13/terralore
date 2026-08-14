@@ -73,6 +73,30 @@ one beautiful, sourced view. See the `vision-nations-encyclopedia` memory.
   `hasDomainData`. Imports the committed `data/domains/*.json` and registers them in `FILES`.
 - `lib/format.ts` → JSON-free formatters (`formatMetric` dispatches by unit), client-safe.
 - `lib/histories/` → the registry (`index.ts`) + `france.ts` + `data/*.json`.
+- **The Living Record** (`docs/living-record.md`, DECISIONS D14) — three layers:
+  - **Claims** — every rendered observation is an addressable claim
+    (`TL:<subject>:<measure>:<vintage>`; identity excludes the value).
+    `lib/claim-id.ts` (pure, client-safe) + `lib/claims.ts` (bundle composer)
+    → committed `public/**/*.claims.json`; proof-flip reverses engrave the ID;
+    stable fragments per claim. `build-claims`/`validate-claims` (twin
+    pattern); `validate-claim-fragments.mjs` asserts every fragment against
+    prerendered HTML in `npm run ci`.
+  - **The Seal** — `scripts/build-integrity.mjs` hashes the whole corpus
+    (sources + claims + twins) into `public/integrity.json`, archived
+    append-only at `public/integrity/<version>.json`; `/integrity` explains it
+    (tamper-evidence, not tamper-proofing). Cut DELIBERATELY at publish points
+    (never chained into build-domains); `validate-integrity.mjs` gates
+    `npm run ci`. `lib/seo.ts` stamps `CORPUS_VERSION` into every Dataset node.
+  - **The Recorder** — `scripts/record-refresh.mjs` diffs two corpus states
+    claim-by-claim (snapshot via `scripts/lib/claims-snapshot.mjs`, works on
+    any git ref) into `/ledger` entries (`public/ledger/<NNNN>.json`,
+    append-only, fetchable, sealed): NEW / REVISED (upstream vs terralore,
+    never conflated) / RETIRED (absence recorded) / SOURCE. `lib/ledger.ts`
+    reads them; the nation page's RECORD bed (deviations E15) shows each
+    nation's changes with claim links. Language law validator-enforced
+    (`validate-ledger.mjs`): publication verbs only, points for bounded
+    scales. Refresh runbook: `docs/refresh-domains.md` §Recorded refreshes;
+    monthly detection dry-run runs on the social-runner (publishes nothing).
 - `scripts/build-social.mjs` + `scripts/lib/social/` → the daily social artifact
   (see `docs/social-surface.md`): renders cards + a per-day manifest into
   gitignored `social-out/`, deterministic per (date, `data/social-ledger.json`).
