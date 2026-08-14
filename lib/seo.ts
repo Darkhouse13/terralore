@@ -9,6 +9,15 @@ import type { Commodity } from "./commodities";
 import type { Ranking } from "./rankings";
 import type { ComparePage } from "./compare";
 import { formatMetric, formatTonnes } from "./format";
+import corpusVersion from "@/data/corpus-version.json";
+
+/**
+ * The sealed corpus version (cut by scripts/build-integrity.mjs — the Living
+ * Record's Layer 2). Real version info, not marketing: it changes exactly
+ * when the sealed corpus changes, and /integrity.json resolves it to
+ * per-file hashes. Stamped into every Dataset node below.
+ */
+export const CORPUS_VERSION: string = corpusVersion.version;
 
 export const SITE_URL = "https://terralore.co";
 export const SITE_NAME = "Terralore";
@@ -424,6 +433,7 @@ export function commodityLd(c: Commodity, source: DataSource, updated: string): 
     url,
     isAccessibleForFree: true,
     license: CONTENT_LICENSE,
+    version: CORPUS_VERSION,
     creator: publisher,
     dateModified: updated,
     temporalCoverage: `${c.years.reported}/${c.years.estimate}`,
@@ -465,6 +475,7 @@ export function rankingLd(r: Ranking): Json {
     url,
     isAccessibleForFree: true,
     license: CONTENT_LICENSE,
+    version: CORPUS_VERSION,
     creator: publisher,
     dateModified: r.updated,
     temporalCoverage: r.years ? `${r.years.min}/${r.years.max}` : undefined,
@@ -503,6 +514,7 @@ export function compareLd(page: ComparePage, metaA: CountryMeta, metaB: CountryM
     url,
     isAccessibleForFree: true,
     license: CONTENT_LICENSE,
+    version: CORPUS_VERSION,
     creator: publisher,
     dateModified: page.updated,
     about: [countryLd(metaA), countryLd(metaB)],
@@ -537,6 +549,7 @@ export function dossierLd(
     url,
     isAccessibleForFree: true,
     license: CONTENT_LICENSE,
+    version: CORPUS_VERSION,
     creator: publisher,
     dateModified: updated ?? undefined,
     about: countryLd(meta),

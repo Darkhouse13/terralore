@@ -7,6 +7,7 @@ import { allRankings, rankingsUpdated } from "@/lib/rankings";
 import { allComparePages, compareUpdated } from "@/lib/compare";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
+import { currentManifest } from "@/lib/integrity";
 
 /**
  * Canonical origin and route shapes both come from `lib/seo.ts`, so the sitemap
@@ -101,6 +102,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       }));
     }),
+    // The seal: /integrity changes exactly when the corpus is resealed, so the
+    // seal's own date is the honest lastmod.
+    {
+      url: abs("/integrity"),
+      lastModified: currentManifest().sealed.slice(0, 10),
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
     // The commodities read: the resources domain across nations. Their content
     // changes only when the USGS MCS table is rebuilt (annually), so the honest
     // lastmod is the commodities file's own build date — not the corpus date
