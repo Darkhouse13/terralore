@@ -50,7 +50,7 @@ const ALL_DOMAINS = Object.keys(DOMAIN_META) as DomainKey[];
 const BED_WALK = [
   { bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
   { bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-basalt)" },
-  { bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-bone)" },
   { bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { bg: "var(--color-basalt)", title: "var(--color-bone)", sub: "var(--color-clay)" },

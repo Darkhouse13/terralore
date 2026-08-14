@@ -79,6 +79,11 @@ invariant — where the invariant wins by rule.
   the production surfaces need. The tokens don't move; the usage does:
   micro-labels on clay are basalt, deep-umber-on-clay stays sanctioned at
   display sizes. Proven in `scripts/check-contrast-strata.mjs`.
+  *Extended 2026-08-14 to oxide:* sand-on-oxide measures 3.90:1 — the
+  same shortfall at micro sizes — so 10–11px mono sublabels on oxide
+  grounds (bed counts, era counts, REF marks, bed sublines) are **bone**
+  (4.68:1, clear AA); sand-on-oxide stays sanctioned for the ≥3:1 label
+  class the contrast script proves.
 
 - **E12 — The mounted core (desktop ≥1024px).** The contract is a
   390–430px artifact and E3 only said "extend the scale"; stretched to a

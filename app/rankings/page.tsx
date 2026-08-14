@@ -152,7 +152,11 @@ export default function RankingsPage() {
           {/* Domain jump links — 66 rankings should never be blind scroll. */}
           <nav aria-label="Domains" className="mt-5 flex flex-wrap gap-x-5 gap-y-1 font-mono text-[11px]">
             {groups.map(([domain]) => (
-              <a key={domain} href={`#d-${domain}`} className="text-oxide">
+              <a
+                key={domain}
+                href={`#d-${domain}`}
+                className="inline-block py-1.5 text-oxide"
+              >
                 {DOMAIN_META[domain].label.toUpperCase()} ↓
               </a>
             ))}

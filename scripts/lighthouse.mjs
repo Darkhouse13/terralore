@@ -54,6 +54,7 @@ const ALL_PAGES = [
   { name: "dossier", path: "/country/JPN" },
   { name: "ranking", path: "/rankings/gdp" },
   { name: "compare", path: "/compare/deu-vs-fra" },
+  { name: "compare-hub", path: "/compare" },
   { name: "chronicle", path: "/country/FRA/chronicle" },
 ];
 const ONLY = flag("only", null)?.split(",");

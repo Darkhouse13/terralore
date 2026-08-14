@@ -169,7 +169,7 @@ export default function Home() {
           title="Rankings"
           titleColor="var(--color-bone)"
           sub="EVERY INDICATOR, WORLD-WIDE"
-          subColor="var(--color-sand)"
+          subColor="var(--color-bone)"
           count={String(rankings)}
           delay={BED_DELAY[2]}
         />

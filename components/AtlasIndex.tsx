@@ -33,7 +33,7 @@ const BEDS: {
 }[] = [
   { name: "Africa", bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
   { name: "Asia", bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-basalt)" },
-  { name: "Europe", bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { name: "Europe", bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-bone)" },
   { name: "North America", bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { name: "South America", bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { name: "Oceania", bg: "var(--color-basalt)", title: "var(--color-bone)", sub: "var(--color-clay)" },
@@ -115,7 +115,11 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
           style={{ ["--settle-delay" as string]: "180ms" }}
         >
           {beds.map((b) => (
-            <a key={b.name} href={`#c-${slugOf(b.name)}`} className="text-oxide">
+            <a
+              key={b.name}
+              href={`#c-${slugOf(b.name)}`}
+              className="inline-block py-1.5 text-oxide"
+            >
               {b.name.toUpperCase()} ↓
             </a>
           ))}

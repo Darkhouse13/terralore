@@ -57,7 +57,7 @@ export function generateMetadata(): Metadata {
 const BEDS: { name: string; bg: string; title: string; sub: string }[] = [
   { name: "Africa", bg: "var(--color-sand)", title: "var(--color-basalt)", sub: "var(--color-umber)" },
   { name: "Asia", bg: "var(--color-clay)", title: "var(--color-basalt)", sub: "var(--color-basalt)" },
-  { name: "Europe", bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-sand)" },
+  { name: "Europe", bg: "var(--color-oxide)", title: "var(--color-bone)", sub: "var(--color-bone)" },
   { name: "North America", bg: "var(--color-umber)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { name: "South America", bg: "var(--color-umber-deep)", title: "var(--color-bone)", sub: "var(--color-sand)" },
   { name: "Oceania", bg: "var(--color-basalt)", title: "var(--color-bone)", sub: "var(--color-clay)" },
@@ -257,7 +257,11 @@ export default function CompareHubPage() {
             <div className="jview jview-nb">
               <nav aria-label="Neighbourhoods" className="mt-3 flex flex-wrap gap-x-5 gap-y-1 font-mono text-[11px]">
                 {neighbourhoods.map((bed) => (
-                  <a key={bed.name} href={`#j-${slugOf(bed.name)}`} className="text-oxide">
+                  <a
+                    key={bed.name}
+                    href={`#j-${slugOf(bed.name)}`}
+                    className="inline-block py-1.5 text-oxide"
+                  >
                     {bed.name.toUpperCase()} ↓
                   </a>
                 ))}
@@ -381,6 +385,7 @@ function PairRow({ p }: { p: ComparePage }) {
       data-pair-row
       data-n={`${p.a.name} ${p.b.name} ${p.a.code} ${p.b.code}`.toLowerCase()}
       className="border-b-2 border-basalt"
+      style={{ contentVisibility: "auto", containIntrinsicBlockSize: "64px" }}
     >
       <Link href={routes.comparePair(p.slug)} prefetch={false} className="pressable block py-2.5">
         <span className="block font-sans text-[14px] font-medium leading-snug text-basalt">
