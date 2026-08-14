@@ -6,6 +6,86 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-14 — the bench repair (607b578 → bbaa4b1)
+
+One commit (`bbaa4b1`): two shipped bench defects and two logged debts,
+one pass. The phone pixel freeze was LIFTED for this mission — the
+proof-flip's phone rendering changes deliberately; the captures in
+`design-review/20-bench-repair/` are the new reference.
+
+**A — the proof view.** Root cause: `.flip-face` was `position:absolute;
+inset:0` inside fixed-height cards (`height={54}` on the dossier,
+`h-[62px]`-family on the server surfaces), so a reverse longer than the
+card painted past its boundary; in PROOFS mode that rotated-forward
+overflow composited over the neighbors' fronts. The faces now
+GRID-STACK (`grid-area: 1/1`, `backface-visibility: hidden`, card
+`display:grid` + `preserve-3d`) so every row sizes to its taller face;
+all four flip surfaces (dossier, wall, duel, producers) moved from
+fixed heights to `min-h-*` row rhythm. Zero hydration kept — the
+CSS-only `.flip-press`/`.proof-toggle` pattern is untouched in behavior.
+Worst-case reverse found programmatically: **education/literacyRate**,
+72-char OBSERVED line (`OBSERVED <yr> · WB-UNESCO — UNESCO Institute
+for Statistics / World Bank`) + 206-char definition = **278 chars**;
+verified on /country/AFG at 390/1024/1440 — 0 face overflows, 0 row
+overlaps (was 12 overflows at every width).
+
+**B — the core rail.** Landing: root cause of the −28px miss at 1440
+was the `◄ FROM THE CORE` mark — removing it from a bed ABOVE the
+target rewrapped that bed's title while `scrollIntoView` was measuring.
+The notch state split from the click mark, the scroll now runs
+post-commit (rAF), and the bed anchors carry `scroll-mt-0` (the cut
+column's sticky stack is zero-height — the rail is sticky in its own
+column). Landing = 0px at 1024/1440/1920, keyboard and reduced-motion
+(instant) included. Labels: bands now lead with the era's YEARS
+(`period · title`), ellipsize (never mid-glyph), and carry full-label
+tooltips; **the band floor is 104px** — a plain year range at 9.5px
+mono/0.14em (~14 chars) always fits; proportionality expresses above
+the floor (PSE, the sparsest corpus rail, shows 143,104×5 at 768px
+viewport height with zero rail overflow). Notch: an
+IntersectionObserver watches each bed cross a line 6% below the
+viewport top and recomputes the active bed from six rects — no rAF, no
+scroll listeners; verified tracking mid-bed scroll both directions;
+idle stays 0 rAF / 0 running animations.
+
+**C — the cascade layer.** Element defaults (`html`, `body`, `a`,
+`:focus-visible`, `::selection`, scrollbars) moved into `@layer base`:
+unlayered author styles defeat ALL layered styles, so the unlayered
+`a { color: oxide }` beat every text-* utility — the active ranking
+sibling chip (`text-bone` on basalt) shipped **oxide-on-basalt 2.88:1**;
+it now computes bone-on-basalt **13.48:1** (+10.6). Four
+`focus:outline-none` utilities (atlas dig, junction tray dig/filter,
+metric-window search) were dead under the old cascade and would have
+gone LIVE and killed the oxide focus ring — removed. Proof: 23/23
+arithmetic pairs (`check-contrast-strata.mjs`) + the new
+computed-style sweep (`scripts/contrast-sweep.mjs` — every rendered
+text node vs its painted ground, WCAG threshold by rendered size, the
+strata label-class at ≥3:1) clean on 14 surfaces × 390/1440, local and
+live.
+
+**D — /themes un-orphaned.** BY THEME returns in the front-door dig
+cell at desktop (with a READ ACROSS NATIONS lead-in). BY PERIOD stays
+phone-only, defended: /timeline already holds two desktop entrances —
+the masthead nav's HISTORIES and the Histories bed — a third link to
+the same page from the same viewport is noise, while BY THEME was
+/themes' ONLY front-door entrance at any width ≥1024.
+
+- **10:29:08Z** pushed `main` (`bbaa4b1`); Coolify webhook fired.
+- **10:31:53Z** live front door served the new build (polled at 30 s).
+- **10:33–10:37Z** live battery, all green: shots driver (proofs 0/0/0
+  overflows at 390/1024/1440; rail landing 0px at 1024/1440/1920) +
+  11/11 targeted checks (notch sync both directions, keyboard landing,
+  tooltips, PSE floor, chip bone-on-basalt, BY THEME/BY PERIOD, idle
+  0/0, reduced-motion instant) + contrast sweep clean on all 14
+  surfaces × 2 widths — **both original defect reproductions now pass
+  against production**.
+- Pre-deploy gates: `npm run validate` 0 errors, `tsc` clean, seams
+  0/1628 prerendered pages; Lighthouse **mobile** dossier 96 / ranking
+  97 perf (a11y 100 both), **desktop** dossier 98 / ranking 100 perf
+  (a11y 100 both) — floor ≥95 holds in both modes.
+- No IndexNow: no canonical URL changed.
+
+---
+
 ## 2026-08-14 — the bench build (7976100 → 607b578)
 
 One commit: the P4 desktop contract
