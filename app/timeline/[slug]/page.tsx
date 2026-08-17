@@ -46,6 +46,8 @@ export function generateStaticParams() {
   return allPeriods().map((p) => ({ slug: p.slug }));
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {

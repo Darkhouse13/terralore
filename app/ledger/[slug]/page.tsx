@@ -28,6 +28,8 @@ export function generateStaticParams() {
   return allEntries().map((e) => ({ slug: e.slug }));
 }
 
+export const dynamicParams = false;
+
 const domainLabel = (d: string) =>
   d in DOMAIN_META ? DOMAIN_META[d as DomainKey].label : d.charAt(0).toUpperCase() + d.slice(1);
 

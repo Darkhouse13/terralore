@@ -11,6 +11,11 @@ export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
 }
 
+// The journey is a finite presentation of known country records. Unknown
+// codes should stop at the route boundary instead of becoming crawlable
+// parameter variants that can never be indexed.
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
@@ -38,15 +43,21 @@ export async function generateMetadata({
   // of one entity, and emitting `history.summary` on both made 184 pairs of
   // pages duplicates of each other in the index.
   const description = journeyDescription(meta, history);
+  // The journey is the interactive presentation; the server-rendered
+  // chronicle is the document intended for search and citation. Keep this
+  // route useful to people who arrive directly, but consolidate it away from
+  // the index so the two presentations do not compete with one another.
+  const canonical = routes.chronicle(code);
   return {
     title,
     description,
-    alternates: { canonical: path },
+    alternates: { canonical },
+    robots: { index: false, follow: true },
     openGraph: {
       type: "article",
       title: `${meta.name} — ${history.tagline}`,
       description,
-      url: path,
+      url: canonical,
       modifiedTime: history.updated,
       siteName: SITE_NAME,
       images: countryOgImages(code, meta.name),

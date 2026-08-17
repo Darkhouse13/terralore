@@ -215,23 +215,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     if (!published) continue;
 
-    // The chronicle carries the full sourced prose in the initial HTML, so it
-    // is the canonical readable document for a nation's history — it outranks
-    // the journey, which is the same material as an interactive experience.
-    // Both present the history alone, so the history's own date — not the
-    // dossier's — is the honest lastmod here.
+    // The chronicle carries the full sourced prose in the initial HTML and is
+    // the canonical readable document for a nation's history. The journey is
+    // an interactive presentation of the same record, explicitly noindexed;
+    // keeping it out of the sitemap prevents 184 duplicate, sitemap-only URLs
+    // from competing with the documents we want search engines to index.
     entries.push({
       url: abs(routes.chronicle(country.code)),
       lastModified: historyUpdated ?? CORPUS_AT,
       changeFrequency: "yearly",
       priority: 0.8,
-    });
-
-    entries.push({
-      url: abs(routes.journey(country.code)),
-      lastModified: historyUpdated ?? CORPUS_AT,
-      changeFrequency: "yearly",
-      priority: 0.6,
     });
   }
 

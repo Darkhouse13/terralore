@@ -15,6 +15,8 @@ export function generateStaticParams() {
   return allCodes().map((code) => ({ code }));
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {

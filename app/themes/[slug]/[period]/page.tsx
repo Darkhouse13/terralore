@@ -33,6 +33,8 @@ export function generateStaticParams() {
   );
 }
 
+export const dynamicParams = false;
+
 /**
  * What each tag collects, in the corpus's own terms (the category comments in
  * `lib/types.ts`). These are definitions of the classification, not statements

@@ -38,6 +38,8 @@ export function generateStaticParams() {
   return allRankings().map((r) => ({ slug: r.slug }));
 }
 
+export const dynamicParams = false;
+
 /**
  * How the unit reads in prose above the table. Units whose formatted values
  * are not self-describing (a bare "42.1") get the fuller phrase; `ratio` is

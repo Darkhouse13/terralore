@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { archivedSeals, currentManifest } from "@/lib/integrity";
-import { breadcrumbLd, routes, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { breadcrumbLd, clampText, routes, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 /**
  * The Seal, explained — the Living Record's Layer 2 (docs/living-record.md §2).
@@ -17,10 +17,11 @@ import { breadcrumbLd, routes, SITE_NAME, SITE_URL } from "@/lib/seo";
  * Server-rendered, no client JS, mounted-core grammar (a reading surface).
  */
 
-const DESCRIPTION =
+const DESCRIPTION = clampText(
   "Every Terralore corpus state is sealed: per-file SHA-256 hashes and a root hash, " +
-  "published at /integrity.json and archived append-only. Verify any claims file " +
-  "or twin against the seal with sha256sum alone.";
+    "published at /integrity.json and archived append-only. Verify any claims file " +
+    "or twin against the seal with sha256sum alone.",
+);
 
 export const metadata: Metadata = {
   title: "Integrity — the corpus seal",

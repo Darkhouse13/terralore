@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, clampText, routes, SITE_NAME } from "@/lib/seo";
 
 /**
  * Privacy — the honest account of what the site and the Ledger Letter store
@@ -12,10 +12,11 @@ import { breadcrumbLd, routes, SITE_NAME } from "@/lib/seo";
  * Server-rendered, no client JS, mounted-core grammar (a reading surface).
  */
 
-const DESCRIPTION =
+const DESCRIPTION = clampText(
   "What Terralore stores about a reader and what it does not: the site keeps no accounts; " +
-  "the Ledger letter keeps an email address on Terralore's own server, double opt-in, " +
-  "no tracking pixels, removed on unsubscribe.";
+    "the Ledger letter keeps an email address on Terralore's own server, double opt-in, " +
+    "no tracking pixels, removed on unsubscribe.",
+);
 
 export const metadata: Metadata = {
   title: "Privacy — what is stored, and what is not",

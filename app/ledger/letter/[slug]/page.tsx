@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import CaptureBed from "@/components/strata/CaptureBed";
 import { getEntry, letterBody, letterSlugs } from "@/lib/ledger";
-import { breadcrumbLd, ledgerEntryDescription, routes, SITE_NAME } from "@/lib/seo";
+import { breadcrumbLd, clampText, ledgerEntryDescription, routes, SITE_NAME } from "@/lib/seo";
 
 /**
  * The letter archive — each sent Ledger Letter as a linkable page under
@@ -20,6 +20,8 @@ export function generateStaticParams() {
   return letterSlugs().map((slug) => ({ slug }));
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
@@ -28,7 +30,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const e = getEntry(slug);
   if (!e) return { title: `Unknown letter — ${SITE_NAME}` };
-  const description = `The Ledger by letter, issue № ${e.slug}: ${ledgerEntryDescription(e)}`;
+  const description = clampText(`The Ledger by letter, issue № ${e.slug}: ${ledgerEntryDescription(e)}`);
   const path = routes.ledgerLetter(slug);
   return {
     title: `Letter № ${e.slug} — the Ledger digest`,

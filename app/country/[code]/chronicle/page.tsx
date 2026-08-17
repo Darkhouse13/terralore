@@ -34,6 +34,8 @@ export function generateStaticParams() {
     .map((code) => ({ code }));
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
