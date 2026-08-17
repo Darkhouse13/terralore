@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated design-preview runtime; it is not application source and is
+    // rebuilt outside this repository.
+    "docs/brand/Terralore brand mark exploration/support.js",
   ]),
 ]);
 
