@@ -3,7 +3,7 @@
 History of Afghanistan: Crossroads of empires, from Bactria and the Bamiyan Buddhas to the Durrani state and the wars of the modern age.. 6 eras and 24…
 
 Canonical: https://terralore.co/country/AFG/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Ahmad Shah Durrani founds the Durrani Empire — 1747. After the assassination of the Persian conqueror Nadir Shah in 1747, a council (jirga) of Afghan chiefs at Kandahar elected the young Abdali commander Ahmad Shah as their ruler. Crowned near Kandahar, where he struck coins in his own name and established his capital, he took the title Durr-i-Durran ('pearl of pearls'), giving his clan and empire the name Durrani. The realm he built stretched from the Amu Darya to the Indian Ocean and from Khorasan into Kashmir, the Punjab and Sindh, and is widely regarded as the origin of the modern Afghan state, with Ahmad Shah remembered as the founder of the nation.
 
@@ -118,7 +118,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:AFG
 - [britannica-sovietinvasion] Soviet invasion of Afghanistan — Summary & Facts — Encyclopaedia Britannica · https://www.britannica.com/event/Soviet-invasion-of-Afghanistan
 - [britannica-mullahomar] Mohammad Omar — Biography & Facts — Encyclopaedia Britannica · https://www.britannica.com/biography/Mohammad-Omar
 - [statedept-humanrights1996] Afghanistan — 1996 Human Rights Report — U.S. Department of State · https://1997-2001.state.gov/global/human_rights/1996_hrp_report/afghanis.html
-- [statedept-usafghanrelations] U.S. Relations With Afghanistan — U.S. Department of State · https://www.state.gov/u-s-relations-with-afghanistan/
+- [statedept-usafghanrelations] NATO and Afghanistan — North Atlantic Treaty Organization · https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan
 - [statedept-dohaagreement] Agreement for Bringing Peace to Afghanistan (Doha Agreement, 29 Feb 2020) — U.S. Department of State · https://www.state.gov/wp-content/uploads/2020/02/Agreement-For-Bringing-Peace-to-Afghanistan-02.29.20.pdf
 - [wikipedia-durrani] Durrani Empire — Wikipedia · https://en.wikipedia.org/wiki/Durrani_Empire
 - [statedept-afghanistan] A Guide to the United States' History of Recognition: Afghanistan — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/afghanistan

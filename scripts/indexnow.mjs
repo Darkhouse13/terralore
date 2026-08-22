@@ -19,6 +19,7 @@
 
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { collectSitemapPageUrls } from "./lib/sitemap.mjs";
 
 const SITE = (process.env.SITE_URL || "https://terralore.co").replace(/\/$/, "");
 const HOST = new URL(SITE).host;
@@ -47,10 +48,7 @@ function readKey() {
 }
 
 async function sitemapUrls() {
-  const res = await fetch(`${SITE}/sitemap.xml`, { signal: AbortSignal.timeout(30000) });
-  if (!res.ok) throw new Error(`sitemap.xml → HTTP ${res.status}`);
-  const xml = await res.text();
-  return [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/g)].map((m) => m[1].trim());
+  return collectSitemapPageUrls(`${SITE}/sitemap.xml`);
 }
 
 const { key, keyLocation } = readKey();

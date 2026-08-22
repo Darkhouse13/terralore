@@ -354,7 +354,7 @@ export const france: CountryHistory = {
   sources: [
     { id: "eb-france", label: "France", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/place/France", kind: "encyclopedia" },
     { id: "eb-marseille", label: "Marseille", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/place/Marseille", kind: "encyclopedia" },
-    { id: "eb-alesia", label: "Battle of Alesia", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/event/Battle-of-Alesia", kind: "encyclopedia" },
+    { id: "eb-alesia", label: "Vercingetorix and Alesia", publisher: "Musée d’Archéologie nationale", url: "https://musee-archeologienationale.fr/en/node/1592", kind: "museum" },
     { id: "eb-vercingetorix", label: "Vercingetorix", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Vercingetorix", kind: "encyclopedia" },
     { id: "eb-clovis", label: "Clovis I", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Clovis-I", kind: "encyclopedia" },
     { id: "eb-charlemagne", label: "Charlemagne", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Charlemagne", kind: "encyclopedia" },
@@ -368,10 +368,10 @@ export const france: CountryHistory = {
     { id: "eb-rights-of-man", label: "Declaration of the Rights of Man and of the Citizen", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/topic/Declaration-of-the-Rights-of-Man-and-of-the-Citizen", kind: "encyclopedia" },
     { id: "eb-napoleon", label: "Napoleon I", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Napoleon-I", kind: "encyclopedia" },
     { id: "eb-fifth-republic", label: "France — The Fifth Republic", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/place/France/The-Fifth-Republic", kind: "encyclopedia" },
-    { id: "eb-de-gaulle", label: "Charles de Gaulle", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Charles-de-Gaulle", kind: "encyclopedia" },
+    { id: "eb-de-gaulle", label: "Charles de Gaulle", publisher: "Presidency of the French Republic (Élysée)", url: "https://www.elysee.fr/en/charles-de-gaulle", kind: "gov" },
     { id: "wikipedia-verdun", label: "Treaty of Verdun", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Treaty_of_Verdun", kind: "reference" },
     { id: "nwe-france", label: "France", publisher: "New World Encyclopedia", url: "https://www.newworldencyclopedia.org/entry/France", kind: "encyclopedia" },
   ],
   status: "published",
-  updated: "2026-06-13",
+  updated: "2026-08-22",
 };

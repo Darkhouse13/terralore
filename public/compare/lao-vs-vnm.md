@@ -3,7 +3,7 @@
 Laos and Vietnam side by side: 43 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/lao-vs-vnm
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -109,7 +109,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 17 October 1887: **French Indochina established** — France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi. (from the Vietnam chronicle; sources: French Indochina / Conquest of Vietnam)
+- 17 October 1887: **French Indochina established** — France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi. (from the Vietnam chronicle; sources: Vietnam: A Country Study)
 - 1950 CE: **Founding of the Pathet Lao** — Prince Souphanouvong breaks with the Lao Issara to ally with the Viet Minh and proclaims the communist-oriented Pathet Lao ("Land of the Lao"), the future ruling movement. (from the Laos chronicle; sources: Souphanouvong; Pathet Lao)
 - 1962 CE: **Geneva agreement on Lao neutrality** — An international agreement declares Laos neutral and provides for a coalition government, but the country remains a contested corridor of the Vietnam War. (from the Laos chronicle; sources: Laos: History; Indochina wars)
 - 1986 CE: **New Economic Mechanism reforms** — Facing the failure of central planning, the ruling party launches market-oriented reforms, legalizing private enterprise and inviting foreign investment, echoing Vietnam's Doi Moi. (from the Laos chronicle; sources: Laos: History; Lao PDR Overview)

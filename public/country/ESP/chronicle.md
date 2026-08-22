@@ -3,7 +3,7 @@
 History of Spain: From the crossroads of Iberia to a modern European democracy.. 6 eras and 28 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/ESP/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Dynastic union of the Catholic Monarchs and the fall of Granada — 1492 CE. The marriage of Isabella I of Castile and Ferdinand II of Aragon in 1469 joined the two largest Iberian crowns, and their joint rule as the 'Catholic Monarchs' created the dynastic core of a unified Spain. On 2 January 1492 the last Muslim ruler of Granada, Muhammad XII (Boabdil), surrendered the city, completing the Reconquista and ending nearly eight centuries of Muslim rule in the peninsula. The same year saw Christopher Columbus's first transatlantic voyage and the Alhambra Decree expelling the Jews. These foundations rested on far older roots, including six centuries of Roman Hispania and the Visigothic kingdom of Toledo. The modern Spanish state took its present democratic form with the constitution ratified by referendum on 6 December 1978 and promulgated on 29 December 1978, establishing a parliamentary monarchy after the Franco dictatorship.
 
@@ -108,7 +108,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:ESP
 - [met-umayyad-spain] The Art of the Umayyad Period in Spain (711–1031) — The Metropolitan Museum of Art · https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-in-spain-711-1031
 - [alhambra-unesco] Alhambra, Generalife and Albayzín, Granada — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/314
 - [inquisition-britannica] Spanish Inquisition — Encyclopaedia Britannica · https://www.britannica.com/topic/Spanish-Inquisition
-- [alhambra-decree-loc] Alhambra Decree / Edict of Expulsion of the Jews (1492) — Encyclopaedia Britannica · https://www.britannica.com/event/Alhambra-Decree
+- [alhambra-decree-loc] Aniversario de los decretos de expulsión de los judíos de los reinos de Castilla y Aragón — Portal de Archivos de Andalucía, Junta de Andalucía · https://www.juntadeandalucia.es/cultura/archivos/web_es/contenido?id=e4769d33-759f-11ea-8ea7-000ae4865a5f&idArchivo=f10e7484-58a4-11dd-b44b-31450f5b9dd5&idContArch=bb556ff5-3893-11de-8026-000ae4865a5f&idProvincia=4b07b39e-3b6e-11dd-92fe-31450f5b9dd5&idTipo=02cd09d5-57e2-11dd-ba1f-31450f5b9dd5
 - [prado] Museo Nacional del Prado — Museo Nacional del Prado
 - [utrecht-britannica] Treaties of Utrecht — Encyclopaedia Britannica · https://www.britannica.com/topic/treaties-of-Utrecht
 - [cadiz-constitution-loc] Constitution of the Spanish Monarchy, enacted in Cádiz, 19 March 1812 — Library of Congress · https://www.loc.gov/item/2021667002/

@@ -3,7 +3,7 @@
 History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/GBR/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Acts of Union (Kingdom of Great Britain) — 1 May 1707. The state took its modern shape when the Acts of Union, passed by the English and Scottish parliaments, came into force on 1 May 1707, merging the two kingdoms into a single Kingdom of Great Britain governed by one Parliament at Westminster. A further union with Ireland, effective 1 January 1801, created the United Kingdom of Great Britain and Ireland (reduced to Great Britain and Northern Ireland after most of Ireland left in 1922). These unions rested on far older foundations: Roman Britannia from AD 43, the unification of England under the West Saxon kings by 927, the Norman Conquest of 1066, and centuries of constitutional development from Magna Carta in 1215 onward.
 
@@ -102,8 +102,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GBR
 ## References
 
 - [brit-roman-britain] Roman Britain — Encyclopaedia Britannica · https://www.britannica.com/place/United-Kingdom
-- [brit-alfred] Alfred the Great — Encyclopaedia Britannica · https://www.britannica.com/biography/Alfred-the-Great
-- [brit-athelstan] Athelstan, King of England — Encyclopaedia Britannica · https://www.britannica.com/biography/Athelstan-king-of-England
+- [brit-alfred] Alfred ‘The Great’ (r. 871–899) — The Royal Family · https://www.royal.uk/alfred-great-r-871-899
+- [brit-athelstan] Room 41: Sutton Hoo and Europe — Large Print Guide — The British Museum · https://www.britishmuseum.org/sites/default/files/2021-05/large_print_guide_room_41.pdf
 - [english-heritage] Story of England: 1066 and the Norman Conquest — English Heritage · https://www.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/
 - [bl-overview] The British Library: history and collections — The British Library · https://www.bl.uk/
 - [brit-norman-conquest] Norman Conquest — Encyclopaedia Britannica · https://www.britannica.com/event/Norman-Conquest
@@ -112,7 +112,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GBR
 - [brit-henry-viii] Henry VIII — Encyclopaedia Britannica · https://www.britannica.com/biography/Henry-VIII-king-of-England
 - [brit-reformation] The Reformation in England — Encyclopaedia Britannica · https://www.britannica.com/event/Reformation
 - [brit-elizabeth-i] Elizabeth I — Encyclopaedia Britannica · https://www.britannica.com/biography/Elizabeth-I
-- [brit-spanish-armada] Spanish Armada — Encyclopaedia Britannica · https://www.britannica.com/topic/Spanish-Armada
+- [brit-spanish-armada] God blew and they were scattered — The National Archives (UK) · https://www.nationalarchives.gov.uk/education/resources/god-blew-they-were-scattered/
 - [brit-east-india-company] East India Company — Encyclopaedia Britannica · https://www.britannica.com/topic/East-India-Company
 - [brit-english-civil-wars] English Civil Wars — Encyclopaedia Britannica · https://www.britannica.com/event/English-Civil-Wars
 - [brit-glorious-revolution] Glorious Revolution — Encyclopaedia Britannica · https://www.britannica.com/event/Glorious-Revolution

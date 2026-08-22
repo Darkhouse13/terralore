@@ -24,66 +24,68 @@ them, not a reason to drop them.
 **`gone` is the actionable class.** A 404 means the publisher moved or withdrew
 the page and the citation now points at nothing.
 
-_Last probe: 2026-07-29 · 3724 unique URLs across 542 hosts · 3885 citations in 184 histories._
+_Last probe: 2026-08-22 · 3759 unique URLs across 566 hosts · 3922 citations in 184 histories._
 
 ## Counts
 
 | Class | URLs | Share |
 |---|---:|---:|
-| `ok` | 3370 | 90.5% |
-| `redirect` | 104 | 2.8% |
-| `blocked` | 179 | 4.8% |
-| `gone` | 43 | 1.2% |
-| `error` | 28 | 0.8% |
-| **total** | **3724** | |
+| `ok` | 3440 | 91.5% |
+| `redirect` | 114 | 3.0% |
+| `blocked` | 174 | 4.6% |
+| `gone` | 0 | 0.0% |
+| `error` | 31 | 0.8% |
+| **total** | **3759** | |
 
 ## By host
 
 | Host | URLs | ok | redirect | blocked | gone | error |
 |---|---:|---:|---:|---:|---:|---:|
-| www.britannica.com | 1361 | 1330 | 7 | 5 | 19 | 0 |
+| www.britannica.com | 1342 | 1334 | 8 | 0 | 0 | 0 |
 | en.wikipedia.org | 687 | 687 | 0 | 0 | 0 | 0 |
-| whc.unesco.org | 205 | 202 | 0 | 1 | 2 | 0 |
+| whc.unesco.org | 209 | 208 | 0 | 1 | 0 | 0 |
 | history.state.gov | 164 | 164 | 0 | 0 | 0 | 0 |
-| www.worldhistory.org | 69 | 67 | 1 | 1 | 0 | 0 |
-| www.ebsco.com | 59 | 58 | 0 | 0 | 1 | 0 |
+| www.worldhistory.org | 70 | 68 | 1 | 1 | 0 | 0 |
+| www.ebsco.com | 57 | 57 | 0 | 0 | 0 | 0 |
 | www.newworldencyclopedia.org | 45 | 45 | 0 | 0 | 0 | 0 |
 | www.blackpast.org | 45 | 0 | 0 | 45 | 0 | 0 |
 | www.loc.gov | 33 | 0 | 0 | 33 | 0 | 0 |
 | www.sahistory.org.za | 22 | 0 | 22 | 0 | 0 | 0 |
 | encyclopedia.ushmm.org | 22 | 22 | 0 | 0 | 0 | 0 |
 | www.icj-cij.org | 18 | 18 | 0 | 0 | 0 | 0 |
-| www.un.org | 14 | 14 | 0 | 0 | 0 | 0 |
-| www.hrw.org | 14 | 14 | 0 | 0 | 0 | 0 |
-| guides.loc.gov | 12 | 12 | 0 | 0 | 0 | 0 |
+| www.un.org | 15 | 15 | 0 | 0 | 0 | 0 |
+| www.hrw.org | 15 | 15 | 0 | 0 | 0 | 0 |
+| www.bbc.com | 13 | 13 | 0 | 0 | 0 | 0 |
+| www.nato.int | 12 | 6 | 6 | 0 | 0 | 0 |
+| guides.loc.gov | 12 | 11 | 0 | 0 | 0 | 1 |
 | www.encyclopedia.com | 12 | 12 | 0 | 0 | 0 | 0 |
 | www.metmuseum.org | 12 | 0 | 0 | 12 | 0 | 0 |
 | www.globalsecurity.org | 12 | 12 | 0 | 0 | 0 | 0 |
-| www.nato.int | 11 | 5 | 6 | 0 | 0 | 0 |
 | teara.govt.nz | 11 | 0 | 0 | 11 | 0 | 0 |
 | european-union.europa.eu | 10 | 10 | 0 | 0 | 0 | 0 |
 | courses.lumenlearning.com | 9 | 9 | 0 | 0 | 0 | 0 |
 | www.habsburger.net | 9 | 9 | 0 | 0 | 0 | 0 |
+| digitallibrary.un.org | 9 | 9 | 0 | 0 | 0 | 0 |
 | www.aljazeera.com | 9 | 9 | 0 | 0 | 0 | 0 |
 | 2009-2017.state.gov | 8 | 8 | 0 | 0 | 0 | 0 |
 | www.congress.gov | 8 | 0 | 0 | 8 | 0 | 0 |
 | nzhistory.govt.nz | 8 | 0 | 0 | 8 | 0 | 0 |
 | www.unesco.org | 7 | 7 | 0 | 0 | 0 | 0 |
-| peacekeeping.un.org | 7 | 4 | 0 | 0 | 3 | 0 |
+| news.un.org | 7 | 7 | 0 | 0 | 0 | 0 |
 | www.thecanadianencyclopedia.ca | 7 | 0 | 7 | 0 | 0 | 0 |
 | www.worldbank.org | 7 | 1 | 6 | 0 | 0 | 0 |
 | www.history.com | 7 | 6 | 1 | 0 | 0 | 0 |
 | snl.no | 7 | 6 | 1 | 0 | 0 | 0 |
 | blackpast.org | 6 | 0 | 0 | 6 | 0 | 0 |
 | www.nma.gov.au | 6 | 6 | 0 | 0 | 0 | 0 |
-| news.un.org | 6 | 6 | 0 | 0 | 0 | 0 |
-| digitallibrary.un.org | 6 | 6 | 0 | 0 | 0 | 0 |
-| www.usip.org | 6 | 0 | 0 | 0 | 6 | 0 |
+| peacekeeping.un.org | 6 | 6 | 0 | 0 | 0 | 0 |
 | www.archives.gov | 6 | 6 | 0 | 0 | 0 | 0 |
+| unscr.com | 6 | 6 | 0 | 0 | 0 | 0 |
+| www.britishmuseum.org | 6 | 6 | 0 | 0 | 0 | 0 |
 | 1997-2001.state.gov | 5 | 5 | 0 | 0 | 0 | 0 |
-| www.state.gov | 5 | 4 | 0 | 0 | 1 | 0 |
 | aaregistry.org | 5 | 5 | 0 | 0 | 0 | 0 |
 | countrystudies.us | 5 | 5 | 0 | 0 | 0 | 0 |
+| www.cambridge.org | 5 | 4 | 1 | 0 | 0 | 0 |
 | www.nationalgeographic.com | 5 | 5 | 0 | 0 | 0 | 0 |
 | 2021-2025.state.gov | 5 | 5 | 0 | 0 | 0 | 0 |
 | encyclopaediaafricana.com | 5 | 5 | 0 | 0 | 0 | 0 |
@@ -93,14 +95,14 @@ _Last probe: 2026-07-29 · 3724 unique URLs across 542 hosts · 3885 citations i
 | www.cfr.org | 5 | 4 | 1 | 0 | 0 | 0 |
 | finland.fi | 5 | 4 | 1 | 0 | 0 | 0 |
 | www.nationalww2museum.org | 5 | 4 | 1 | 0 | 0 | 0 |
-| www.britishmuseum.org | 5 | 5 | 0 | 0 | 0 | 0 |
 | saudipedia.com | 5 | 0 | 5 | 0 | 0 | 0 |
+| www.state.gov | 4 | 4 | 0 | 0 | 0 | 0 |
 | enlargement.ec.europa.eu | 4 | 4 | 0 | 0 | 0 | 0 |
 | www.europarl.europa.eu | 4 | 4 | 0 | 0 | 0 | 0 |
+| www.naa.gov.au | 4 | 0 | 0 | 0 | 0 | 4 |
 | www.awm.gov.au | 4 | 4 | 0 | 0 | 0 | 0 |
 | education.nationalgeographic.org | 4 | 4 | 0 | 0 | 0 | 0 |
 | encyclopedia.1914-1918-online.net | 4 | 4 | 0 | 0 | 0 | 0 |
-| www.cambridge.org | 4 | 2 | 1 | 0 | 1 | 0 |
 | www.icty.org | 4 | 4 | 0 | 0 | 0 | 0 |
 | www.crisisgroup.org | 4 | 3 | 1 | 0 | 0 | 0 |
 | www.parliament.uk | 4 | 4 | 0 | 0 | 0 | 0 |
@@ -112,14 +114,13 @@ _Last probe: 2026-07-29 · 3724 unique URLs across 542 hosts · 3885 citations i
 | commonslibrary.parliament.uk | 4 | 4 | 0 | 0 | 0 | 0 |
 | press.un.org | 4 | 4 | 0 | 0 | 0 | 0 |
 | www.thingvellir.is | 4 | 4 | 0 | 0 | 0 | 0 |
-| minorityrights.org | 4 | 3 | 0 | 1 | 0 | 0 |
+| minorityrights.org | 4 | 4 | 0 | 0 | 0 | 0 |
 | en.gouv.mc | 4 | 0 | 0 | 0 | 0 | 4 |
 | www.ohchr.org | 4 | 4 | 0 | 0 | 0 | 0 |
-| unscr.com | 4 | 4 | 0 | 0 | 0 | 0 |
+| www.rnz.co.nz | 4 | 0 | 4 | 0 | 0 | 0 |
 | www.aboutswitzerland.eda.admin.ch | 4 | 4 | 0 | 0 | 0 | 0 |
 | www.ecb.europa.eu | 3 | 3 | 0 | 0 | 0 | 0 |
 | eur-lex.europa.eu | 3 | 3 | 0 | 0 | 0 | 0 |
-| www.naa.gov.au | 3 | 0 | 0 | 0 | 0 | 3 |
 | www.historytoday.com | 3 | 3 | 0 | 0 | 0 | 0 |
 | www.nps.gov | 3 | 3 | 0 | 0 | 0 | 0 |
 | en.banglapedia.org | 3 | 3 | 0 | 0 | 0 | 0 |
@@ -127,9 +128,10 @@ _Last probe: 2026-07-29 · 3724 unique URLs across 542 hosts · 3885 citations i
 | www.unhcr.org | 3 | 3 | 0 | 0 | 0 | 0 |
 | peacemaker.un.org | 3 | 3 | 0 | 0 | 0 | 0 |
 | asia.si.edu | 3 | 0 | 0 | 3 | 0 | 0 |
-| www.nationalarchives.gov.uk | 3 | 2 | 0 | 0 | 1 | 0 |
+| www.nationalarchives.gov.uk | 3 | 3 | 0 | 0 | 0 | 0 |
 | news.err.ee | 3 | 3 | 0 | 0 | 0 | 0 |
 | smarthistory.org | 3 | 0 | 0 | 3 | 0 | 0 |
+| www.idea.int | 3 | 3 | 0 | 0 | 0 | 0 |
 | www.iwm.org.uk | 3 | 1 | 2 | 0 | 0 | 0 |
 | www.eeas.europa.eu | 3 | 3 | 0 | 0 | 0 | 0 |
 | fanack.com | 3 | 3 | 0 | 0 | 0 | 0 |
@@ -141,91 +143,40 @@ _Last probe: 2026-07-29 · 3724 unique URLs across 542 hosts · 3885 citations i
 | www.ushmm.org | 3 | 3 | 0 | 0 | 0 | 0 |
 | www.sanmarinosite.com | 3 | 3 | 0 | 0 | 0 | 0 |
 | www.officeholidays.com | 3 | 3 | 0 | 0 | 0 | 0 |
+| tile.loc.gov | 3 | 3 | 0 | 0 | 0 | 0 |
 | historiska.se | 3 | 3 | 0 | 0 | 0 | 0 |
 | nationaltrust.tt | 3 | 3 | 0 | 0 | 0 | 0 |
 | www.nalis.gov.tt | 3 | 3 | 0 | 0 | 0 | 0 |
 | africanrockart.britishmuseum.org | 2 | 0 | 0 | 0 | 0 | 2 |
-| constitutionnet.org | 2 | 0 | 0 | 0 | 0 | 2 |
-| uca.edu | 2 | 0 | 0 | 0 | 2 | 0 |
 | anzacportal.dva.gov.au | 2 | 0 | 0 | 0 | 0 | 2 |
-| press-files.anu.edu.au | 2 | 0 | 0 | 0 | 0 | 2 |
+| www.sl.nsw.gov.au | 2 | 1 | 0 | 0 | 0 | 1 |
 | www.firstworldwar.com | 1 | 0 | 0 | 0 | 0 | 1 |
 | www.belizereferendum.gov.bz | 1 | 0 | 0 | 0 | 0 | 1 |
-| www.parlament.ba | 1 | 0 | 0 | 0 | 1 | 0 |
 | bnr.bg | 1 | 0 | 0 | 0 | 0 | 1 |
 | www.africanews.com | 1 | 0 | 0 | 0 | 0 | 1 |
 | www.parliament.gov.fj | 1 | 0 | 0 | 0 | 0 | 1 |
-| feeds.bbci.co.uk | 1 | 0 | 0 | 0 | 1 | 0 |
-| downsurvey.tchpc.tcd.ie | 1 | 0 | 0 | 0 | 1 | 0 |
 | asean.org | 1 | 0 | 0 | 0 | 0 | 1 |
-| digitalarchive.wilsoncenter.org | 1 | 0 | 0 | 0 | 1 | 0 |
 | globalvoices.org | 1 | 0 | 0 | 0 | 0 | 1 |
 | adf-magazine.com | 1 | 0 | 0 | 0 | 0 | 1 |
-| eresources.nlb.gov.sg | 1 | 0 | 0 | 0 | 1 | 0 |
 | us.diplomatie.ma | 1 | 0 | 0 | 0 | 0 | 1 |
-| historyrise.com | 1 | 0 | 0 | 0 | 1 | 0 |
-| www.ungeneva.org | 1 | 0 | 0 | 0 | 1 | 0 |
+| www.polishmuseumofamerica.org | 1 | 0 | 0 | 0 | 0 | 1 |
+| www.qdl.qa | 1 | 0 | 0 | 0 | 0 | 1 |
 | pksoi.armywarcollege.edu | 1 | 0 | 0 | 0 | 0 | 1 |
+| www.lamoncloa.gob.es | 1 | 0 | 0 | 0 | 0 | 1 |
 | www.archives.gov.lk | 1 | 0 | 0 | 0 | 0 | 1 |
 | www.npm.gov.tw | 1 | 0 | 0 | 0 | 0 | 1 |
 | www.mfa.tj | 1 | 0 | 0 | 0 | 0 | 1 |
+| openresearch-repository.anu.edu.au | 1 | 0 | 0 | 0 | 0 | 1 |
 
 _Hosts with fewer than three URLs are folded into the counts above unless they carry a `gone` or `error`._
 
 ## Dead URLs (`gone`)
 
-43 URL(s), cited 44 time(s).
-None of them supports a statehood claim, so all are published here for a future mission rather than repaired now.
-
-| URL | Status | Statehood? | Cited by |
-|---|---:|---|---|
-| https://digitalarchive.wilsoncenter.org/topics/united-states-non-recognition-policy | DNS | — | latvia.json:welles-state-continuity |
-| https://downsurvey.tchpc.tcd.ie/history.html | 404 | — | ireland.json:downsurvey-cromwell |
-| https://eresources.nlb.gov.sg/history/events/b29e03c8-9f7a-4ba7-a807-b570ca4cea16 | 404 | — | malaysia.json:nlb-fall-singapore |
-| https://feeds.bbci.co.uk/news/world-europe-17373216 | 404 | — | greece.json:bbc-greece-timeline |
-| https://historyrise.com/the-history-of-zambezia-and-its-role-in-mozambiques-colonial-economy/ | 404 | — | mozambique.json:historyrise-zambezia |
-| https://peacekeeping.un.org/en/mission/unficyp | 404 | — | cyprus.json:unficyp-peacekeeping, northerncyprus.json:un-unficyp-mandate |
-| https://peacekeeping.un.org/en/mission/untaet | 404 | — | timorleste.json:un-untaet-page |
-| https://peacekeeping.un.org/mission/past/untacbackgr1.html | 404 | — | cambodia.json:untac |
-| https://uca.edu/politicalscience/home/research-projects/dadm-project/sub-saharan-africa-region__trashed/congo-brazzaville-1960-present/ | 404 | — | congo.json:uca-congo-1960 |
-| https://uca.edu/politicalscience/home/research-projects/dadm-project/sub-saharan-africa-region/seychelles-1976-present/ | 404 | — | seychelles.json:uca-seychelles |
-| https://whc.unesco.org/en/list/291/ | 404 | — | argentina.json:unesco-jesuit-missions |
-| https://whc.unesco.org/en/list/790/ | 404 | — | panama.json:unesco-panama-viejo |
-| https://www.britannica.com/biography/Ahmad-ibn-Ibrahim-al-Ghazi | 404 | — | somalia.json:britannica-ahmad-gran |
-| https://www.britannica.com/biography/Alfred-the-Great | 404 | — | uk.json:brit-alfred |
-| https://www.britannica.com/biography/Athelstan-king-of-England | 404 | — | uk.json:brit-athelstan |
-| https://www.britannica.com/biography/Charles-de-Gaulle | 404 | — | france.ts:eb-de-gaulle |
-| https://www.britannica.com/biography/Murasaki-Shikibu | 404 | — | japan.json:murasaki |
-| https://www.britannica.com/biography/Otto-I-Holy-Roman-emperor | 404 | — | germany.json:otto-britannica |
-| https://www.britannica.com/biography/Pedro-I-emperor-of-Brazil | 404 | — | brazil.json:britannica-pedro-i |
-| https://www.britannica.com/biography/Pedro-II-emperor-of-Brazil | 404 | — | brazil.json:britannica-pedro-ii |
-| https://www.britannica.com/biography/Shotoku-Taishi | 404 | — | japan.json:shotoku |
-| https://www.britannica.com/event/Alhambra-Decree | 404 | — | spain.json:alhambra-decree-loc |
-| https://www.britannica.com/event/Battle-of-Alesia | 404 | — | france.ts:eb-alesia |
-| https://www.britannica.com/event/Herero-and-Nama-genocide | 404 | — | namibia.json:britannica-genocide |
-| https://www.britannica.com/money/doi-moi | 404 | — | vietnam.json:doi-moi |
-| https://www.britannica.com/place/French-Indochina | 404 | — | vietnam.json:french-indochina |
-| https://www.britannica.com/place/history-of-Arabia | 404 | — | saudiarabia.json:britannica-arabia |
-| https://www.britannica.com/place/Punt-ancient-region-Africa | 404 | — | somalia.json:britannica-punt |
-| https://www.britannica.com/place/Zanzibar-historical-region-Tanzania | 404 | — | kenya.json:britannica-zanzibar |
-| https://www.britannica.com/topic/Revolutionary-Armed-Forces-of-Colombia | 404 | — | colombia.json:britannica-farc |
-| https://www.britannica.com/topic/Spanish-Armada | 404 | — | uk.json:brit-spanish-armada |
-| https://www.cambridge.org/core/books/ouidah/ | 404 | — | benin.json:cambridge-ouidah |
-| https://www.ebsco.com/research-starters/history/mali-empire | 404 | — | guinea.json:ebsco-mali |
-| https://www.nationalarchives.gov.uk/first-world-war__trashed/a-global-view__trashed/asia/british-new-guinea-and-german-new-guinea/ | 404 | — | papuanewguinea.json:natarchives-uk-png |
-| https://www.parlament.ba/Content/Read/181?lang=en | 404 | — | bosnia.json:zavnobih-parliament-gov |
-| https://www.state.gov/u-s-relations-with-afghanistan/ | 404 | — | afghanistan.json:statedept-usafghanrelations |
-| https://www.ungeneva.org/en/news-media/news/2024/03/91946/rights-expert-finds-reasonable-grounds-genocide-being-committed-gaza | 404 | — | palestine.json:ohchr-albanese-report |
-| https://www.usip.org/programs/independence-south-sudan | 404 | — | sudan.json:usip-south-sudan |
-| https://www.usip.org/publications/1990/05/truth-commission-chile-90 | 404 | — | chile.json:rettig-report |
-| https://www.usip.org/publications/2003/09/commission-inquiry-chile-03 | 404 | — | chile.json:valech-report |
-| https://www.usip.org/publications/2024/04/senegal-just-saved-its-democracy-helps-all-west-africa | 404 | — | senegal.json:usip-senegal |
-| https://www.usip.org/publications/2024/04/sometimes-good-guys-win-guatemalas-shocking-2023-election | 404 | — | guatemala.json:usip-guatemala-2023 |
-| https://www.usip.org/publications/2024/12/what-ghanas-presidential-election-means-country-and-west-africa | 404 | — | ghana.json:usip-ghana-2024 |
+None. Every cited URL that could be fetched resolved.
 
 ## Moved pages (`redirect`)
 
-104 URL(s) now land somewhere else. A redirect is not yet a defect — it is
+114 URL(s) now land somewhere else. A redirect is not yet a defect — it is
 the publisher telling us where the page went before it stops telling us.
 
 | Cited URL | Lands on | Statehood? |
@@ -243,10 +194,11 @@ the publisher telling us where the page went before it stops telling us.
 | https://finland.fi/arts-culture/kalevala-the-finnish-national-epic/ | https://finland.fi/arts-culture/8-questions-on-the-kalevala-the-epic-that-shaped-finlands-identity/ | — |
 | https://glc.yale.edu/ | https://macmillan.yale.edu/glc | — |
 | https://knowindia.india.gov.in/republic-day-celebration/republic-of-india.php | https://www.india.gov.in/explore-india | — |
-| https://kreolmagazine.com/culture/history-and-culture/the-french-history-of-the-seychelles/ | https://kreolmagazine.com/the-french-history-of-the-seychelles/ | — |
 | https://learn.saylor.org/mod/page/view.php?id=70583 | https://learn.saylor.org/course/view.php?id=770 | — |
 | https://legal.un.org/ola/media/info_from_lc/POB%20Aalands%20Islands%20Exhibition%20opening.pdf | https://legal.un.org/ola/ | — |
 | https://nctr.ca/records/reports/ | https://nctr.ca/publications-and-reports/reports/ | — |
+| https://ntg.gov.gy/monument/1763-monument/ | https://ntg.gov.gy/ | — |
+| https://ntg.gov.gy/monument/kaieteur-falls/ | https://ntg.gov.gy/ | — |
 | https://nz.ambafrance.org/Agreement-on-New-Caledonia-signed-in-Noumea-on-5-May-1998 | https://nz.diplomatie.gouv.fr/fr | — |
 | https://saudipedia.com/en/article/1051/economy-and-business/energy-and-natural-resources/oil-discovery-in-saudi-arabia | https://saudipedia.com/en/oil-discovery-in-saudi-arabia | — |
 | https://saudipedia.com/en/article/4884/history/history-of-the-kingdom-of-saudi-arabia/when-was-the-unification-of-saudi-arabia-officially-announced | https://saudipedia.com/en/when-was-the-unification-of-saudi-arabia-officially-announced | — |
@@ -254,8 +206,9 @@ the publisher telling us where the page went before it stops telling us.
 | https://saudipedia.com/en/article/653/history/the-second-saudi-state/second-saudi-state | https://saudipedia.com/en/second-saudi-state | — |
 | https://saudipedia.com/en/article/738/history/landmarks-and-monuments/hegra-madain-salih | https://saudipedia.com/en/hegra | — |
 | https://snl.no/Harald_1_H%C3%A5rfagre | https://snl.no/Harald_H%C3%A5rfagre | **yes** |
-| https://totalenergies.com/news/press-releases/suriname-totalenergies-announces-final-investment-decision-granmorgu | https://www2.totalenergies.com/news/press-releases/suriname-totalenergies-announces-final-investment-decision-granmorgu | — |
+| https://totalenergies.com/news/press-releases/suriname-totalenergies-announces-final-investment-decision-granmorgu | https://totalenergies.com/newsroom/suriname-totalenergies-announces-final-investment-decision-granmorgu/?lang=eng | — |
 | https://unmik.unmissions.org/united-nations-resolution-1244 | https://unmik.unmissions.org/en/united-nations-resolution-1244 | — |
+| https://www.adck.nc/ | https://centretjibaou.nc/ | — |
 | https://www.afdb.org/ | https://www.afdb.org/en | — |
 | https://www.asil.org/insights/volume/14/issue/34/norway-and-russia-agree-maritime-boundary-barents-sea-and-arctic-ocean | https://asil.org/insights/volume-14-issue-34/ | — |
 | https://www.banrepcultural.org/museo-del-oro | https://www.banrepcultural.org/bogota/museo-del-oro | — |
@@ -265,6 +218,7 @@ the publisher telling us where the page went before it stops telling us.
 | https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine | https://www.britannica.com/event/Russia-Ukraine-War | — |
 | https://www.britannica.com/place/Papua-New-Guinea/History | https://www.britannica.com/place/Papua-New-Guinea | — |
 | https://www.britannica.com/sports/2022-FIFA-World-Cup | https://www.britannica.com/event/2022-FIFA-World-Cup | — |
+| https://www.britannica.com/topic/Black-September-political-organization-Palestine | https://www.britannica.com/topic/Black-September-Palestine | — |
 | https://www.britannica.com/topic/Islamic-State-in-Iraq-and-the-Levant | https://www.britannica.com/topic/Islamic-State-in-Iraq-and-Syria | — |
 | https://www.cambridge.org/core/books/from-slave-trade-to-legitimate-commerce/compatibility-of-the-slave-and-palm-oil-trades-in-dahomey-18181858/D86589B7B65B738303A2182654B8CC1E | https://www.cambridge.org/core/books/abs/from-slave-trade-to-legitimate-commerce/compatibility-of-the-slave-and-palm-oil-trades-in-dahomey-18181858/D86589B7B65B738303A2182654B8CC1E | — |
 | https://www.cfr.org/blog/ten-years-later-taking-stock-sudans-comprehensive-peace-agreement | https://www.cfr.org/articles/ten-years-later-taking-stock-sudans-comprehensive-peace-agreement | — |
@@ -276,13 +230,16 @@ the publisher telling us where the page went before it stops telling us.
 | https://www.cnn.com/2019/09/03/business/bahamas-tourism-impact-hurricane-dorian/index.html | https://edition.cnn.com/2019/09/03/business/bahamas-tourism-impact-hurricane-dorian/index.html | — |
 | https://www.cnn.com/2019/12/11/asia/bougainville-papua-new-guinea-intl-hnk/index.html | https://edition.cnn.com/2019/12/11/asia/bougainville-papua-new-guinea-intl-hnk/index.html | — |
 | https://www.crisisgroup.org/africa/ethiopia-somaliland/stakes-ethiopia-somaliland-deal | https://www.crisisgroup.org/qna/africa/ethiopia/stakes-ethiopia-somaliland-deal | — |
-| https://www.dailypost.vu/opinion/letters_to_editor/who-gave-our-former-name-the-new-hebrides-and-where-did-the-name-originate-from/article_e767fd3e-e58e-11ea-a440-3753fbdf2a27.html | https://www.dailypost.vu/_services/v1/client_captcha/challenge?request=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODUzNDk1OTYsImlhdCI6MTc4NTM0OTI5NiwicmVkaXJlY3QiOiIvb3Bpbmlvbi9sZXR0ZXJzX3RvX2VkaXRvci93aG8tZ2F2ZS1vdXItZm9ybWVyLW5hbWUtdGhlLW5ldy1oZWJyaWRlcy1hbmQtd2hlcmUtZGlkLXRoZS1uYW1lLW9yaWdpbmF0ZS1mcm9tL2FydGljbGVfZTc2N2ZkM2UtZTU4ZS0xMWVhLWE0NDAtMzc1M2ZiZGYyYTI3Lmh0bWwiLCJzZXJ2aWNlIjoiX2xiX3JhdGVfY21zYXBwX2ZvcmVpZ24iLCJzaXRlIjoid3d3LmRhaWx5cG9zdC52dSJ9.coZLA3MPkVM3dZ08kRv6wWtbiBvS9MHFhl_YPA1aAAs | — |
+| https://www.dailypost.vu/opinion/letters_to_editor/who-gave-our-former-name-the-new-hebrides-and-where-did-the-name-originate-from/article_e767fd3e-e58e-11ea-a440-3753fbdf2a27.html | https://www.dailypost.vu/_services/v1/client_captcha/challenge?request=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc0MTEzMjIsImlhdCI6MTc4NzQxMTAyMiwicmVkaXJlY3QiOiIvb3Bpbmlvbi9sZXR0ZXJzX3RvX2VkaXRvci93aG8tZ2F2ZS1vdXItZm9ybWVyLW5hbWUtdGhlLW5ldy1oZWJyaWRlcy1hbmQtd2hlcmUtZGlkLXRoZS1uYW1lLW9yaWdpbmF0ZS1mcm9tL2FydGljbGVfZTc2N2ZkM2UtZTU4ZS0xMWVhLWE0NDAtMzc1M2ZiZGYyYTI3Lmh0bWwiLCJzZXJ2aWNlIjoiX2xiX3JhdGVfY21zYXBwX2ZvcmVpZ24iLCJzaXRlIjoid3d3LmRhaWx5cG9zdC52dSJ9.OFvENX50TwlIoC9ERSC991ds7eRe1nra74gA05YI5qY | — |
 | https://www.defenceweb.co.za/joint/diplomacy-a-peace/project-developers-must-prioritise-human-security-as-gas-project-restarts-in-mozambique/ | https://defenceweb.co.za/joint/diplomacy-a-peace/project-developers-must-prioritise-human-security-as-gas-project-restarts-in-mozambique/ | — |
+| https://www.falklands-museum.com/ | https://falklands-museum.com/ | — |
 | https://www.gov.bg/en/About-Bulgaria/HISTORY | https://www.gov.bg/en/About-Bulgaria/HISTORY/tabsss1 | — |
-| https://www.history.com/this-day-in-history | https://www.history.com/this-day-in-history/july-29 | — |
+| https://www.history.com/this-day-in-history | https://www.history.com/this-day-in-history/august-22 | — |
+| https://www.isee.nc/population/recensement | https://isee.nc/recensement | — |
 | https://www.iwm.org.uk/history/cold-war/aden-emergency | https://www.iwm.org.uk/history/cold-war/end-of-empire/aden-emergency | — |
 | https://www.iwm.org.uk/history/the-end-of-the-british-empire-after-the-second-world-war | https://www.iwm.org.uk/history/cold-war/end-of-empire | — |
 | https://www.liechtensteincollections.at/en/presentation/exhibitions/1719-300-jahre-liechtenstein | https://www.liechtensteincollections.at/en | — |
+| https://www.nationalassembly.gov.bz/ | https://www.nationalassembly.gov.bz/cgi-sys/suspendedpage.cgi | — |
 | https://www.nationalww2museum.org/war/articles/battle-bulge | https://www.nationalww2museum.org/war/articles/battle-of-the-bulge | — |
 | https://www.nato.int/cps/en/natohq/news_144647.htm | https://www.nato.int/en/news-and-events/articles/news/2017/06/05/montenegro-joins-nato-as-29th-ally | — |
 | https://www.nato.int/cps/en/natohq/topics_52044.htm | https://www.nato.int/en/about-us/organization/nato-member-countries | — |
@@ -295,7 +252,10 @@ the publisher telling us where the page went before it stops telling us.
 | https://www.ohr.int/brcko-arbitration/ | https://www.ohr.int/brcko-arbitration-award-annex/ | — |
 | https://www.opendemocracy.net/en/oureconomy/war-mozambique-natural-gas-blessing-turned-curse/ | https://www.opendemocracy.net/en/war-mozambique-natural-gas-blessing-turned-curse/ | — |
 | https://www.peaceagreements.org/view/556/ | https://www.peaceagreements.org/agreements/556/ | — |
-| https://www.researchgate.net/publication/351091344_The_February_1953_Massacre_in_Sao_Tome | https://www.researchgate.net/publication/351091344_The_February_1953_Massacre_in_Sao_Tome_Crack_in_the_Salazarist_Image_of_Multiracial_Harmony_and_Impetus_for_Nationalist_Demands_for_Independence | — |
+| https://www.rnz.co.nz/international/pacific-news/560812/new-caledonia-riots-one-year-on-like-the-country-was-at-war | https://www.rnz.co.nz/news/pacific/560812/new-caledonia-riots-one-year-on-like-the-country-was-at-war | — |
+| https://www.rnz.co.nz/international/pacific-news/566745/new-caledonia-s-political-parties-commit-to-historic-deal-in-france | https://www.rnz.co.nz/news/pacific/566745/new-caledonia-s-political-parties-commit-to-historic-deal-in-france | — |
+| https://www.rnz.co.nz/international/pacific-news/579421/new-caledonia-s-pro-independence-split-widens-another-party-quits-flnks | https://www.rnz.co.nz/news/pacific/579421/new-caledonia-s-pro-independence-split-widens-another-party-quits-flnks | — |
+| https://www.rnz.co.nz/international/pacific-news/584662/pro-independence-flnks-unequivocally-reject-latest-agreement-for-new-caledonia | https://www.rnz.co.nz/news/pacific/584662/pro-independence-flnks-unequivocally-reject-latest-agreement-for-new-caledonia | — |
 | https://www.royal-house.nl/topics/history-of-the-kingdom-of-the-netherlands | https://www.royal-house.nl/topics/history/history-of-the-kingdom-of-the-netherlands | — |
 | https://www.royal-house.nl/topics/william-of-orange-1533-1584 | https://www.royal-house.nl/topics/history/william-of-orange-1533-1584 | — |
 | https://www.sahistory.org.za/ | https://sahistory.org.za/ | — |
@@ -333,6 +293,7 @@ the publisher telling us where the page went before it stops telling us.
 | https://www.worldbank.org/en/country/lao/overview | https://www.worldbank.org/ext/en/country/lao | — |
 | https://www.worldbank.org/en/country/mauritius/overview | https://www.worldbank.org/ext/en/country/mauritius | — |
 | https://www.worldbank.org/en/country/pacificislands/overview | https://www.worldbank.org/ext/en/region/eap/pacific-islands | — |
+| https://www.worldcourts.com/pca/eng/decisions/1914.06.25_Netherlands_v_Portugal.pdf | https://www.worldcourts.com/pca/eng/decisions/1914.06.25_Netherlands_v_Portugal.htm | — |
 | https://www.worldhistory.org/Athelstan/ | https://www.worldhistory.org/Aethelstan/ | **yes** |
 
 ## Network failures (`error`)
@@ -347,26 +308,29 @@ the publisher telling us where the page went before it stops telling us.
 | https://anzacportal.dva.gov.au/wars-and-missions/ww2/where/swpa/png/kokoda-1942 | — | curl exit 92 | — |
 | https://asean.org/member-states/lao-pdr/ | 307 |  | — |
 | https://bnr.bg/en/post/100437047/bnr-80-years-in-80-yeeks-treaty-of-craiova-and-return-of-south-dobruja | — | certificate not trusted | — |
-| https://constitutionnet.org/country/constitutional-history-brazil | 502 |  | — |
-| https://constitutionnet.org/vl/item/constitutional-reform-morocco-reform-times-revolution-abdellah-tourabi-2011 | 502 |  | — |
 | https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/An-ancient-history-Prehistory-and-Antiquity/A-port-during-Greek-then-Roman-antiquity | — | timed out | — |
 | https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/From-the-Renaissance-to-the-Age-of-Enlightenment/French-protection | — | timed out | — |
 | https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/The-beginnings-of-independence-Middle-Ages/Occupation-of-the-Rocher-by-Francois-Grimaldi | — | timed out | — |
 | https://en.gouv.mc/Government-Institutions/History-and-Heritage/Periods/Times-of-trouble-1793-1861/Secession-of-Menton-and-Roquebrune | — | timed out | — |
 | https://globalvoices.org/2017/04/09/in-madagascar-people-remember-one-of-the-deadliest-french-colonial-wars-in-history/ | — | curl exit 92 | — |
+| https://guides.loc.gov/chronicling-america-assassination-franz-ferdinand | 521 |  | — |
+| https://openresearch-repository.anu.edu.au/items/af4183bf-5419-4299-a705-addba6e86375 | 503 |  | — |
 | https://pksoi.armywarcollege.edu/index.php/amisom-background-of-conflict/ | — | certificate not trusted | — |
-| https://press-files.anu.edu.au/downloads/press/n2244/html/ch02.xhtml | — | curl exit 56 | — |
-| https://press-files.anu.edu.au/downloads/press/n2401/pdf/ch04.pdf | — | curl exit 56 | — |
 | https://us.diplomatie.ma/en/node/1909 | — | certificate not trusted | — |
 | https://www.africanews.com/2022/12/08/100-year-old-ethiopias-french-built-railway-remains-vital-for-residents/ | 406 |  | — |
 | https://www.archives.gov.lk/online-exhibits/path-to-freedom/ | — | certificate not trusted | — |
 | https://www.firstworldwar.com/source/london1839.htm | — | certificate not trusted | — |
+| https://www.lamoncloa.gob.es/lang/en/espana/paginas/constitution.aspx | — | timed out | — |
 | https://www.mfa.tj/en/main/view/2422/the-founder-of-peace-and-national-unity-leader-of-the-nation-president-of-the-republic-of-tajikistan | — | certificate not trusted | — |
 | https://www.naa.gov.au/explore-collection/immigration-and-citizenship/immigration-restriction-act-1901 | — | curl exit 92 | — |
 | https://www.naa.gov.au/help-your-research/fact-sheets/independence-papua-new-guinea | — | curl exit 92 | — |
+| https://www.naa.gov.au/help-your-research/fact-sheets/records-papua-new-guinea-1883-1942 | — | curl exit 92 | — |
 | https://www.naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/government-and-democracy/federation/federation-australia | — | curl exit 92 | — |
 | https://www.npm.gov.tw/en/ | — | certificate not trusted | — |
 | https://www.parliament.gov.fj/our-story/ | 307 |  | — |
+| https://www.polishmuseumofamerica.org/1000-years-of-the-polish-crown/ | — | timed out | — |
+| https://www.qdl.qa/en/archive/81055/vdc_100023626988.0x000002 | 525 |  | **yes** |
+| https://www.sl.nsw.gov.au/stories/spanish-quest-terra-australis | — | timed out | — |
 
 ## Sources with no URL
 

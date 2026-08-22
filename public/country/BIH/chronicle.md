@@ -3,7 +3,7 @@
 History of Bosnia and Herzegovina: A medieval kingdom turned Ottoman, Habsburg and Yugoslav crossroads, scarred by the 1990s war yet remade as a single…
 
 Canonical: https://terralore.co/country/BIH/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: The Banate and Kingdom of Bosnia — c. 1180 / 1377. A distinct Bosnian polity emerges into recorded history around 1180 with Ban Kulin, whose charter of 1189 granting trading rights to the merchants of Dubrovnik (Ragusa) is one of the oldest state documents of the South Slavs. The medieval Banate grew under the Kotromanić dynasty, and in 1377 Tvrtko I was crowned king, raising Bosnia to a kingdom that for a brief period in the late fourteenth century was the most powerful state in the western Balkans, reaching south to the Dalmatian coast. The kingdom fell to the Ottomans in 1463, opening more than four centuries of Ottoman and then Austro-Hungarian rule. The modern state traces its sovereignty to the independence referendum of 1992 and the Dayton settlement of 1995, which preserved Bosnia and Herzegovina as a single country.
 
@@ -113,7 +113,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:BIH
 - [visegrad-bridge-reference] Mehmed Paša Sokolović Bridge in Višegrad (inscribed 2007) — WorldAtlas · https://www.worldatlas.com/articles/unesco-world-heritage-sites-in-bosnia-and-herzegovina.html
 - [franz-ferdinand-reference] Archduke Franz Ferdinand — Lumen Learning, History of Western Civilization II · https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/archduke-franz-ferdinand/
 - [loc-franz-ferdinand-reference] Assassination of Archduke Franz Ferdinand (research guide) — Library of Congress · https://guides.loc.gov/chronicling-america-assassination-franz-ferdinand
-- [zavnobih-parliament-gov] World War II and the establishment of ZAVNOBiH — Parliamentary Assembly of Bosnia and Herzegovina · https://www.parlament.ba/Content/Read/181?lang=en
+- [zavnobih-parliament-gov] Parliamentary Assembly of Bosnia and Herzegovina — Parliamentary Assembly of Bosnia and Herzegovina · https://parlament.ba/data/dokumenti/pdf/Monografijaen.pdf
 - [statedept-yugoslavia-gov] The Breakup of Yugoslavia, 1990–1992 — U.S. Department of State, Office of the Historian · https://history.state.gov/milestones/1989-1992/breakup-yugoslavia
 - [icty-srebrenica-gov] Radislav Krstić: first ICTY conviction for genocide (Srebrenica) — International Criminal Tribunal for the former Yugoslavia (UN-IRMCT) · https://www.icty.org/en/press/radislav-krstic-becomes-first-person-be-convicted-genocide-icty-and-sentenced-46-years
 - [un-srebrenica-gov] About the 1995 Genocide in Srebrenica — United Nations · https://www.un.org/en/observances/srebrenica-genocide-commemoration-day/about

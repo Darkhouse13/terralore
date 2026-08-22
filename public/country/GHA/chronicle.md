@@ -3,7 +3,7 @@
 History of Ghana: From the gold-rich Akan forest states and the mighty Asante Empire to the brutal Atlantic trade, British conquest, and Africa's…
 
 Canonical: https://terralore.co/country/GHA/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from the United Kingdom — 6 March 1957. On 6 March 1957 the former British colony of the Gold Coast, joined with the Trusteeship Territory of British Togoland, became the independent state of Ghana — the first country in sub-Saharan Africa to win its independence from a European colonial power. Its first prime minister, and later president, was Kwame Nkrumah, a United States and Britain-educated activist and apostle of Pan-Africanism, who deliberately chose the name 'Ghana' to evoke a great African past, after the medieval Sahelian empire of that name, even though the ancient empire lay far to the northwest and had no territorial connection to the new state. The United States recognised Ghana the same day. Independence here was the headline of a far longer story: the gold-trading Akan states of the forest, the Asante Empire forged around the Golden Stool near Kumasi about 1701, four centuries of European forts along the coast, and the Atlantic slave trade that scarred the region. Ghana's independence reverberated across the continent, becoming a beacon and a model for the decolonisation movements that swept Africa over the following years.
 
@@ -108,6 +108,6 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GHA
 - [rawlings-1981-coup-wiki] 1981 Ghanaian coup d'état — Wikipedia · https://en.wikipedia.org/wiki/1981_Ghanaian_coup_d%27%C3%A9tat
 - [ebsco-rawlings] Rawlings Wins Reelection to Ghana's Presidency — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/rawlings-wins-reelection-ghanas-presidency
 - [kujenga-democracy] Consolidating Democracy in Ghana: An Overview — Kujenga Amani (Social Science Research Council) · https://kujenga-amani.ssrc.org/2017/01/12/consolidating-democracy-in-ghana-an-overview/
-- [usip-ghana-2024] What Ghana's Presidential Election Means for the Country and West Africa — United States Institute of Peace · https://www.usip.org/publications/2024/12/what-ghanas-presidential-election-means-country-and-west-africa
+- [usip-ghana-2024] Ghana — December 2024: Opposition secures decisive victory in presidential and parliamentary elections — International IDEA · https://www.idea.int/democracytracker/report/ghana/december-2024
 
 Citation template: Terralore, "The Chronicle of Ghana: From the gold-rich Akan forest states and the mighty Asante Empire to the brutal Atlantic trade, British conquest, and Africa's pioneering independence under Kwame Nkrumah.", terralore.co/country/GHA/chronicle, retrieved <YYYY-MM-DD>.

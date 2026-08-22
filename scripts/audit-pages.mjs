@@ -21,6 +21,7 @@
 // Exits non-zero on any error, so CI fails the pipeline.
 
 import { writeFileSync } from "node:fs";
+import { collectSitemapPageUrls } from "./lib/sitemap.mjs";
 
 const args = process.argv.slice(2);
 const flag = (name, fallback) => {
@@ -93,12 +94,9 @@ function hrefsOf(html) {
 
 // ── fetch the sitemap ───────────────────────────────────────────────────────
 async function sitemapUrls() {
-  const res = await fetch(`${BASE}/sitemap.xml`);
-  if (!res.ok) throw new Error(`sitemap.xml → HTTP ${res.status}`);
-  const xml = await res.text();
-  const urls = [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/g)].map((m) => m[1].trim());
-  if (!urls.length) throw new Error("sitemap.xml contained no <loc> entries");
-  return urls;
+  return collectSitemapPageUrls(`${BASE}/sitemap.xml`, {
+    fetchUrl: (url) => `${BASE}${new URL(url).pathname}`,
+  });
 }
 
 // ── audit one page ──────────────────────────────────────────────────────────

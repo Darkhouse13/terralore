@@ -3,7 +3,7 @@
 History of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence.. 6 eras and 27 sourced events…
 
 Canonical: https://terralore.co/country/GRC/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Greek War of Independence and recognition of an independent Greece — 1821 (uprising); recognized 1830 / 1832. The modern Greek state traces its political founding to the War of Independence, which broke out against Ottoman rule in 1821 (conventionally dated to 25 March 1821). After years of fighting and the intervention of Britain, France and Russia, the Great Powers recognized Greece as an independent state in the London Protocol of 3 February 1830, and the Ottoman sultan formally acknowledged Greek independence and the new kingdom's frontiers in the Treaty of Constantinople of July 1832. The roots of Greek civic identity run far deeper: the Athenian statesman Cleisthenes founded what is regarded as the world's first democracy around 508/507 BCE, an inheritance the founders of the modern nation consciously claimed.
 
@@ -129,7 +129,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GRC
 - [wiki-axis-occupation] Axis occupation of Greece — Wikipedia · https://en.wikipedia.org/wiki/Axis_occupation_of_Greece
 - [ww2museum-greek-civil-war] The Greek Civil War, 1944–1949 — The National WWII Museum, New Orleans · https://www.nationalww2museum.org/war/articles/greek-civil-war-1944-1949
 - [globalsecurity-greco-turkish] 1919–1922 Greco-Turkish War (Asia Minor Catastrophe) — GlobalSecurity.org · https://www.globalsecurity.org/military/world/war/greco-turkish-megali-katastrofi.htm
-- [bbc-greece-timeline] Greece profile – Timeline — BBC News · https://feeds.bbci.co.uk/news/world-europe-17373216
+- [bbc-greece-timeline] Greece profile – Timeline — BBC News · https://www.bbc.com/news/world-europe-17373216
 - [wikipedia-greek-war] Greek War of Independence — Wikipedia · https://en.wikipedia.org/wiki/Greek_War_of_Independence
 
 Citation template: Terralore, "The Chronicle of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence.", terralore.co/country/GRC/chronicle, retrieved <YYYY-MM-DD>.

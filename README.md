@@ -4,8 +4,8 @@ An interactive globe and sourced archive of how nations came to be. Spin the glo
 choose a nation, read its indicators, then follow the long path it took to become a
 country — every claim traceable to a named reference.
 
-**The corpus today:** 184 nations · 1,085 eras · 4,471 sourced events · 3,600
-references · ~630,000 words of authored prose, spanning the Laetoli footprints
+**The corpus today:** 184 nations · 1,085 eras · 4,564 sourced events · 3,922
+source records · ~630,000 words of authored prose, spanning the Laetoli footprints
 (c. 3.6 million years ago) to 2026. Every UN member state in the dataset is published.
 
 ---
@@ -130,9 +130,10 @@ JavaScript. That is a load-bearing constraint, not a nicety:
   list, `Dataset` for the dossier metrics, `Country`, `BreadcrumbList`. Citations name
   the *originating* publisher, so an answer engine can attribute the chain rather than
   flattening it to "a website".
-- `app/sitemap.ts` (1,054 URLs), `app/robots.ts` (which names answer-engine crawlers
-  as an explicit opt-in), and `/llms.txt` describing the corpus with canonical
-  per-nation chronicle URLs.
+- `app/sitemap.xml/route.ts` and `lib/sitemaps.ts` (1,445 URLs across eight child
+  sitemaps), `app/robots.ts` (which names answer-engine crawlers as an explicit
+  opt-in), and `/llms.txt` describing the corpus with canonical per-nation chronicle
+  URLs.
 - `lib/seo.ts` is the single definition of the origin, route shapes and JSON-LD
   builders — anything emitting a URL goes through it, so canonical tags, the sitemap
   and the structured data cannot drift apart.

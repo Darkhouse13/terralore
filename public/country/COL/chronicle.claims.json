@@ -3,7 +3,7 @@
  "name": "Colombia",
  "kind": "chronicle-events",
  "canonical": "https://terralore.co/country/COL/chronicle",
- "updated": "2026-06-15",
+ "updated": "2026-08-22",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -466,19 +466,19 @@
    "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1958-garcia-marquez-and-macondo, claim TL:COL:event:1958:garcia-marquez-and-macondo, retrieved <YYYY-MM-DD>."
   },
   {
-   "id": "TL:COL:event:1964:founding-of-the-farc",
-   "year": 1964,
-   "yearLabel": "1964 CE",
-   "title": "Founding of the FARC",
-   "summary": "Peasant self-defence groups consolidate into the Revolutionary Armed Forces of Colombia, the largest of the leftist guerrilla movements.",
+   "id": "TL:COL:event:1966:farc-formally-established",
+   "year": 1966,
+   "yearLabel": "1966 CE",
+   "title": "FARC formally established",
+   "summary": "The Southern Bloc guerrillas adopt the name Revolutionary Armed Forces of Colombia (FARC) at their second conference, formalising the organization that becomes the country's largest leftist insurgency.",
    "category": "war",
    "era": "conflict-and-peace",
    "sources": [
     {
      "id": "britannica-farc",
-     "label": "Revolutionary Armed Forces of Colombia (FARC)",
-     "publisher": "Encyclopaedia Britannica",
-     "url": "https://www.britannica.com/topic/Revolutionary-Armed-Forces-of-Colombia"
+     "label": "Operación Soberanía (en Marquetalia)",
+     "publisher": "Comisión de la Verdad (Colombia)",
+     "url": "https://www.comisiondelaverdad.co/operacion-soberania-en-marquetalia"
     },
     {
      "id": "britannica-colombia",
@@ -487,8 +487,8 @@
      "url": "https://www.britannica.com/topic/history-of-Colombia"
     }
    ],
-   "url": "https://terralore.co/country/COL/chronicle#ev-1964-founding-of-the-farc",
-   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1964-founding-of-the-farc, claim TL:COL:event:1964:founding-of-the-farc, retrieved <YYYY-MM-DD>."
+   "url": "https://terralore.co/country/COL/chronicle#ev-1966-farc-formally-established",
+   "citation": "Terralore, \"The Chronicle of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a modern nation that fought its way through partisan wars and a long armed conflict toward peace.\", terralore.co/country/COL/chronicle#ev-1966-farc-formally-established, claim TL:COL:event:1966:farc-formally-established, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:COL:event:1980:cartels-and-paramilitaries",

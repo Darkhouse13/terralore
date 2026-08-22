@@ -3,7 +3,7 @@
 Spain and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/esp-vs-gbr
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -106,7 +106,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 1588: **Defeat of the Spanish Armada** — England repelled the Spanish Armada sent by Philip II, a decisive check to Spanish ambitions that bolstered English naval confidence and national identity. (from the United Kingdom chronicle; sources: Spanish Armada)
+- 1588: **Defeat of the Spanish Armada** — England repelled the Spanish Armada sent by Philip II, a decisive check to Spanish ambitions that bolstered English naval confidence and national identity. (from the United Kingdom chronicle; sources: God blew and they were scattered)
 - 1814: **End of the Peninsular War** — Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution. (from the Spain chronicle; sources: Spain)
 
 ## Sources

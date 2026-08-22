@@ -3,7 +3,7 @@
 History of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and…
 
 Canonical: https://terralore.co/country/VNM/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Declaration of Independence of the Democratic Republic of Vietnam — 2 September 1945. On 2 September 1945, in Hanoi's Ba Dinh Square, Ho Chi Minh read the Declaration of Independence proclaiming the Democratic Republic of Vietnam, echoing the American and French declarations of rights. The act came after the long arc of Vietnamese statehood: the legendary kingdoms of Van Lang and Au Lac ruled by the Hung kings and An Duong Vuong, roughly a thousand years of Chinese rule from 111 BCE until Ngo Quyen's victory at Bach Dang in 938 CE, and centuries of independent dynasties. Independence in 1945 was not the end of the struggle; war with France and then the division of the country gave way only after 1975 to the reunified Socialist Republic of Vietnam, formally proclaimed on 2 July 1976.
 
@@ -110,7 +110,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:VNM
 - [le-loi] Le Loi — Encyclopaedia Britannica · https://www.britannica.com/biography/Le-Loi
 - [gia-long] Gia Long — Encyclopaedia Britannica · https://www.britannica.com/biography/Gia-Long
 - [nguyen-dynasty] Nguyen dynasty — Encyclopaedia Britannica · https://www.britannica.com/topic/Nguyen-dynasty
-- [french-indochina] French Indochina / Conquest of Vietnam — Encyclopaedia Britannica · https://www.britannica.com/place/French-Indochina
+- [french-indochina] Vietnam: A Country Study — U.S. Library of Congress, Federal Research Division · https://tile.loc.gov/storage-services/master/frd/frdcstdy/vi/vietnamcountryst00cima_0/vietnamcountryst00cima_0.pdf
 - [ho-chi-minh] Ho Chi Minh — Encyclopaedia Britannica · https://www.britannica.com/biography/Ho-Chi-Minh
 - [declaration-1945] Proclamation of Independence of the Democratic Republic of Vietnam (1945) — Columbia University, Asia for Educators · https://afe.easia.columbia.edu/ps/vietnam/independence.pdf
 - [first-indochina-war] First Indochina War — Encyclopaedia Britannica · https://www.britannica.com/event/First-Indochina-War
@@ -118,7 +118,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:VNM
 - [geneva-accords] Geneva Accords — Encyclopaedia Britannica · https://www.britannica.com/event/Geneva-Accords
 - [gulf-of-tonkin] Gulf of Tonkin Resolution (1964) — Encyclopaedia Britannica · https://www.britannica.com/event/Gulf-of-Tonkin-Resolution
 - [vietnam-war] Vietnam War — Encyclopaedia Britannica · https://www.britannica.com/event/Vietnam-War
-- [doi-moi] Doi Moi (Renovation) — Encyclopaedia Britannica · https://www.britannica.com/money/doi-moi
+- [doi-moi] Trade Policy Review: Viet Nam (WT/TPR/G/287) — World Trade Organization · https://www.wto.org/english/tratop_e/tpr_e/g287_e.pdf
 - [wikipedia-au-lac] Âu Lạc — Wikipedia · https://en.wikipedia.org/wiki/%C3%82u_L%E1%BA%A1c
 - [wikipedia-ngo-quyen] Ngô Quyền — Wikipedia · https://en.wikipedia.org/wiki/Ng%C3%B4_Quy%E1%BB%81n
 - [wikipedia-french-indochina] French Indochina — Wikipedia · https://en.wikipedia.org/wiki/French_Indochina

@@ -3,7 +3,7 @@
 History of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war.. 6 eras and 28 sourced events, every claim…
 
 Canonical: https://terralore.co/country/SDN/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence of the Republic of the Sudan — 1 January 1956. Sudan became a sovereign, independent republic on 1 January 1956, ending the Anglo-Egyptian Condominium under which Britain and Egypt had jointly governed the country since 1899. A self-government statute and elected parliament preceded the declaration, and the Sudanese parliament voted unanimously for independence rather than union with Egypt. Civil war between the largely Muslim and Arabic-speaking north and the African, Christian and animist south had already broken out months before independence, in 1955.
 
@@ -119,7 +119,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SDN
 - [wiki-darfur-war] War in Darfur — Wikipedia · https://en.wikipedia.org/wiki/War_in_Darfur
 - [icc-bashir] Al Bashir Case — International Criminal Court · https://www.icc-cpi.int/darfur/albashir
 - [ushmm-bashir] ICC Issues Arrest Warrant for Sudanese President Bashir — United States Holocaust Memorial Museum · https://www.ushmm.org/genocide-prevention/blog/icc-issues-arrest-warrant-for-sudanese-president-bashir
-- [usip-south-sudan] Independence of South Sudan — United States Institute of Peace · https://www.usip.org/programs/independence-south-sudan
+- [usip-south-sudan] Referendum in Southern Sudan / Independence of South Sudan — United Nations Mission in the Sudan (UNMIS) · https://peacekeeping.un.org/sites/default/files/past/unmis/referendum.shtml
 - [wiki-2019-coup] 2019 Sudanese coup d'état — Wikipedia · https://en.wikipedia.org/wiki/2019_Sudanese_coup_d%27%C3%A9tat
 - [hrw-bashir] Sudan: With al-Bashir Ouster, End Authoritarianism — Human Rights Watch · https://www.hrw.org/news/2019/04/11/sudan-al-bashir-ouster-end-authoritarianism
 - [statedept-sudan] A Guide to the United States' History of Recognition: Sudan — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/sudan

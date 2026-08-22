@@ -3,7 +3,7 @@
 History of Lebanon: From the Phoenician harbours of Tyre, Sidon and Byblos to the confessional republic of the cedars.. 6 eras and 24 sourced events…
 
 Canonical: https://terralore.co/country/LBN/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Independence from France — 22 November 1943. Modern Lebanon dates its sovereignty to the autumn of 1943. After elections, the new government of President Bechara El Khoury and Prime Minister Riad al-Solh amended the constitution to remove the articles enshrining the French Mandate. The French authorities responded on 11 November 1943 by arresting the president, prime minister and several ministers, but mass protests and British and international pressure forced their release on 22 November 1943—now celebrated as Independence Day. Power was shared under the National Pact, an unwritten understanding reached the same year by El Khoury, a Maronite, and al-Solh, a Sunni, which balanced the country's confessional communities. The United States formally recognised Lebanese independence on 8 September 1944, and the last French troops withdrew at the end of 1946.
 
@@ -106,7 +106,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:LBN
 - [britannica-civil-war] Lebanese Civil War — Encyclopaedia Britannica · https://www.britannica.com/event/Lebanese-Civil-War
 - [britannica-hariri] Rafiq al-Hariri — Encyclopaedia Britannica · https://www.britannica.com/biography/Rafiq-al-Hariri
 - [britannica-second-republic] Lebanon: Lebanon's Second Republic since 1990 — Encyclopaedia Britannica · https://www.britannica.com/place/Lebanon/Lebanons-Second-Republic-1990
-- [ebsco-hariri] Assassination of Rafik Hariri (2005) — EBSCO Research Starters · https://www.ebsco.com/research-starters/diplomacy-and-international-relations/assassination-rafik-hariri-2005
+- [ebsco-hariri] Iraq and World Order: A Lebanese Perspective — United Nations University Press · https://digitallibrary.un.org/record/586956/files/pdf9789280811285.pdf
 - [loc-lebanon-pact] Lebanon: The National Pact (Lebanon: A Country Study) — U.S. Library of Congress, Federal Research Division · https://countrystudies.us/lebanon/77.htm
 - [state-lebanon] A Guide to the United States' History of Recognition: Lebanon — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/lebanon
 - [cfr-lebanon] Lebanon: How Israel, Hezbollah, and Regional Powers Are Shaping Its Future — Council on Foreign Relations · https://www.cfr.org/backgrounders/lebanon-how-israel-hezbollah-and-regional-powers-are-shaping-its-future

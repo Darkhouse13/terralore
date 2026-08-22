@@ -3,7 +3,7 @@
 Lebanon and Syria side by side: 40 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/lbn-vs-syr
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -110,7 +110,7 @@ Events in which either nation's sourced chronicle names the other — including 
 - 1516: **Ottoman conquest of Syria** — The Ottomans defeat the Mamluks and take Syria and Lebanon, but leave Mount Lebanon largely to local emirs, allowing a semi-autonomous emirate to develop. (from the Lebanon chronicle; sources: History of Lebanon)
 - 1840: **Fall of Bashir Shihab II** — After siding with Egypt's Ibrahim Pasha, the long-ruling emir Bashir Shihab II is deposed and exiled when Egyptian rule in Syria collapses, ending the autonomous emirate. (from the Lebanon chronicle; sources: Bashir Shihab II; History of Lebanon)
 - 13 April 1975: **The Lebanese Civil War** — Fighting erupts in Beirut and escalates into a fifteen-year civil war that draws in Syria, Israel and many militias; deaths are estimated, very approximately, in the range of 120,000–150,000. (from the Lebanon chronicle; sources: Lebanese Civil War; Lebanon: The National Pact (Lebanon: A Country Study))
-- 14 February 2005: **Hariri assassination and the Cedar Revolution** — A car bomb kills former prime minister Rafic Hariri and others; mass protests known as the Cedar Revolution lead Syria to withdraw its forces after nearly thirty years. (from the Lebanon chronicle; sources: Rafiq al-Hariri; Assassination of Rafik Hariri (2005); Lebanon: Lebanon's Second Republic since 1990)
+- 14 February 2005: **Hariri assassination and the Cedar Revolution** — A car bomb kills former prime minister Rafic Hariri and others; mass protests known as the Cedar Revolution lead Syria to withdraw its forces after nearly thirty years. (from the Lebanon chronicle; sources: Rafiq al-Hariri; Iraq and World Order: A Lebanese Perspective; Lebanon: Lebanon's Second Republic since 1990)
 
 ## Sources
 

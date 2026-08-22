@@ -3,7 +3,7 @@
 Sudan and South Sudan side by side: 37 shared sourced indicators across 9 domains, and the 9 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/sdn-vs-sds
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -112,7 +112,7 @@ Events in which either nation's sourced chronicle names the other — including 
 - 1 Jan 1956: **Sudan's independence; the south sidelined** — Sudan becomes independent under a northern-dominated government, with southern demands for federalism largely unmet. (from the South Sudan chronicle; sources: History of South Sudan)
 - 27 Feb 1972: **Addis Ababa Agreement** — The Addis Ababa Agreement ends the seventeen-year first war, granting the south a single autonomous region and integrating Anyanya fighters into Sudan's forces. (from the South Sudan chronicle; sources: Sudan: The Addis Ababa Agreement; Addis Ababa Agreement (1972))
 - Jul 2005: **Death of John Garang** — Weeks after becoming Sudan's first vice-president, John Garang dies in a helicopter crash; Salva Kiir Mayardit succeeds him as SPLM leader and southern president. (from the South Sudan chronicle; sources: South Sudan: The 2005 Comprehensive Peace Agreement, Conflict, Independence; Ten Years Later: Taking Stock of Sudan's Comprehensive Peace Agreement)
-- 9 July 2011: **South Sudan secedes** — After a referendum, South Sudan becomes independent, taking most of the former Sudan's oil with it. (from the Sudan chronicle; sources: Sudan; Independence of South Sudan)
+- 9 July 2011: **South Sudan secedes** — After a referendum, South Sudan becomes independent, taking most of the former Sudan's oil with it. (from the Sudan chronicle; sources: Sudan; Referendum in Southern Sudan / Independence of South Sudan)
 
 ## Sources
 

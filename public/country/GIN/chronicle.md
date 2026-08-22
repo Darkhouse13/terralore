@@ -3,7 +3,7 @@
 History of Guinea: From the heartland of the Mande to the bauxite republic. 6 eras and 25 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/GIN/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from France — 2 October 1958. After Guinea alone among France's African colonies voted 'Non' in the referendum of 28 September 1958, rejecting membership of de Gaulle's French Community, France abruptly withdrew its aid and personnel and Guinea proclaimed itself a sovereign republic on 2 October 1958, with Ahmed Sékou Touré as its first president.
 
@@ -88,7 +88,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GIN
 
 - [britannica-guinea] Guinea — History — Encyclopaedia Britannica · https://www.britannica.com/place/Guinea
 - [britannica-conakry] Conakry — Encyclopaedia Britannica · https://www.britannica.com/place/Conakry
-- [ebsco-mali] Mali Empire — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/mali-empire
+- [ebsco-mali] Mansa Mūsā’s Pilgrimage to Mecca — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/mansa-musas-pilgrimage-mecca
 - [ebsco-songhai] Songhai Empire — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/songhai-empire
 - [worldhist-songhai] Songhai Empire — World History Encyclopedia · https://www.worldhistory.org/Songhai_Empire/
 - [wiki-futajallon] Imamate of Futa Jallon — Wikipedia · https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon

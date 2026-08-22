@@ -3,7 +3,7 @@
 History of Senegal: From Takrur to a poet's republic. 6 eras and 26 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/SEN/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from France — 1960. Senegal first gained independence on 4 April 1960 within the Mali Federation, a union with the Sudanese Republic. When the federation broke apart, Senegal proclaimed its separate independence on 20 August 1960, with Léopold Sédar Senghor as its first president.
 
@@ -101,7 +101,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SEN
 - [wiki-mali-fed] Mali Federation — Wikipedia · https://en.wikipedia.org/wiki/Mali_Federation
 - [asc-senghor] Léopold Sédar Senghor (web dossier) — African Studies Centre Leiden · https://www.ascleiden.nl/content/webdossiers/leopold-sedar-senghor
 - [britannica-senghor] Léopold Senghor — Encyclopaedia Britannica · https://www.britannica.com/biography/Leopold-Senghor
-- [usip-senegal] Senegal Just Saved Its Democracy — United States Institute of Peace · https://www.usip.org/publications/2024/04/senegal-just-saved-its-democracy-helps-all-west-africa
+- [usip-senegal] Senegal — The Global State of Democracy — International IDEA · https://www.idea.int/democracytracker/country/senegal
 - [wiki-mfdc] Movement of Democratic Forces of Casamance — Wikipedia · https://en.wikipedia.org/wiki/Movement_of_Democratic_Forces_of_Casamance
 - [newhumanitarian-casamance] Casamance: Between war and peace — The New Humanitarian · https://www.thenewhumanitarian.org/2015/08/03/between-war-and-peace
 - [cdsafrica-senegal] Senegal's Democratic Evolution: Elections, Governance, and Presidential Legacies — Centre for Democracy and Development Africa · https://www.cdsafrica.org/senegals-democratic-evolution-elections-governance-and-presidential-legacies/

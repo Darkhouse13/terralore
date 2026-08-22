@@ -3,7 +3,7 @@
 France and Vietnam side by side: 42 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fra-vs-vnm
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -109,9 +109,9 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 1858 CE: **French attack on Da Nang** — A French and Spanish naval force assaults Da Nang, beginning the military conquest that would bring Vietnam under colonial rule. (from the Vietnam chronicle; sources: French Indochina / Conquest of Vietnam; Vietnam)
-- 1862 CE: **France annexes Cochinchina** — Following the capture of Saigon, France secures the southern provinces of Cochinchina as a colony, its first permanent foothold in Vietnam. (from the Vietnam chronicle; sources: French Indochina / Conquest of Vietnam; Vietnam)
-- 17 October 1887: **French Indochina established** — France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi. (from the Vietnam chronicle; sources: French Indochina / Conquest of Vietnam)
+- 1858 CE: **French attack on Da Nang** — A French and Spanish naval force assaults Da Nang, beginning the military conquest that would bring Vietnam under colonial rule. (from the Vietnam chronicle; sources: Vietnam: A Country Study; Vietnam)
+- 1862 CE: **France annexes Cochinchina** — Following the capture of Saigon, France secures the southern provinces of Cochinchina as a colony, its first permanent foothold in Vietnam. (from the Vietnam chronicle; sources: Vietnam: A Country Study; Vietnam)
+- 17 October 1887: **French Indochina established** — France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi. (from the Vietnam chronicle; sources: Vietnam: A Country Study)
 - 1946-1954 CE: **First Indochina War** — War between France and the Viet Minh ends with the French defeat at Dien Bien Phu on 7 May 1954, terminating French colonial rule in Vietnam. (from the Vietnam chronicle; sources: First Indochina War; Dien Bien Phu and the Fall of French Indochina, 1954)
 
 ## Sources

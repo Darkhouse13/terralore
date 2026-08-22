@@ -3,7 +3,7 @@
 Germany and Italy side by side: 42 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/deu-vs-ita
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -106,7 +106,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 2 Feb 962: **Otto I crowned emperor** — Pope John XII crowned Otto I of East Francia emperor in Rome, uniting the German and Italian kingdoms and founding the Holy Roman Empire that would frame German political life for over 800 years. (from the Germany chronicle; sources: Otto I, Holy Roman Emperor)
+- 2 Feb 962: **Otto I crowned emperor** — Pope John XII crowned Otto I of East Francia emperor in Rome, uniting the German and Italian kingdoms and founding the Holy Roman Empire that would frame German political life for over 800 years. (from the Germany chronicle; sources: 962: The Establishment of the Holy Roman Empire)
 - 1938: **Fascist racial laws** — Mussolini's government enacted antisemitic racial laws that stripped Italian Jews of rights and citizenship, foreshadowing later deportations under German occupation. (from the Italy chronicle; sources: Italy (Fascism, racial laws and the Second World War))
 - 10 June 1940: **Italy enters the Second World War** — Italy declared war on Britain and France, entering the Second World War as Germany's Axis ally, a decision that brought defeat, occupation and devastation. (from the Italy chronicle; sources: Italy (Fascism, racial laws and the Second World War); Italy (country overview and history))
 - 8 September 1943: **Mussolini's fall and the armistice** — Mussolini was ousted in July 1943 and Italy signed an armistice with the Allies on 8 September; Germany then occupied the north, and a violent civil war and Resistance followed. (from the Italy chronicle; sources: Italy (Fascism, racial laws and the Second World War); Italy (country overview and history))

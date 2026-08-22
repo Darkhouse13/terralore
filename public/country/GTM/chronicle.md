@@ -3,7 +3,7 @@
 History of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.. 6 eras and 22 sourced…
 
 Canonical: https://terralore.co/country/GTM/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Independence from Spain — 15 Sept 1821. On 15 September 1821 a council of notables in Guatemala City signed the Act of Independence of Central America, severing the Captaincy General of Guatemala from Spanish rule after nearly three centuries. The former kingdom was briefly annexed to the Mexican empire of Agustin de Iturbide before joining the United Provinces of Central America, which in 1824 adopted the constitution of the Federal Republic of Central America, a federation of Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica. The federation dissolved amid civil war by 1840, leaving Guatemala a sovereign republic.
 
@@ -99,7 +99,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GTM
 - [britannica-rios-montt] Efrain Rios Montt — Encyclopaedia Britannica · https://www.britannica.com/biography/Jose-Efrain-Rios-Montt
 - [britannica-menchu] Rigoberta Menchu — Encyclopaedia Britannica · https://www.britannica.com/biography/Rigoberta-Menchu
 - [nobel-menchu] Rigoberta Menchu Tum - Facts — The Nobel Foundation (NobelPrize.org) · https://www.nobelprize.org/prizes/peace/1992/tum/facts/
-- [usip-guatemala-2023] Sometimes the Good Guys Win: Guatemala's Shocking 2023 Election — United States Institute of Peace · https://www.usip.org/publications/2024/04/sometimes-good-guys-win-guatemalas-shocking-2023-election
+- [usip-guatemala-2023] Ambassadorial Level Meeting on Peacebuilding in Guatemala — Concept Note — United Nations Peacebuilding Commission · https://www.un.org/peacebuilding/sites/www.un.org.peacebuilding/files/documents/2024-06-04_cn_on_pbc_meeting_on_guatemala.pdf
 - [wikipedia-act-independence-ca] Act of Independence of Central America — Wikipedia · https://en.wikipedia.org/wiki/Act_of_Independence_of_Central_America
 - [statedept-guatemala] A Guide to the United States' History of Recognition: Guatemala — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/guatemala
 

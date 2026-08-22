@@ -3,7 +3,7 @@
 Egypt and Sudan side by side: 41 shared sourced indicators across 9 domains, and the 11 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/egy-vs-sdn
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 

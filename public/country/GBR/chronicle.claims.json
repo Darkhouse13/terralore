@@ -3,7 +3,7 @@
  "name": "United Kingdom",
  "kind": "chronicle-events",
  "canonical": "https://terralore.co/country/GBR/chronicle",
- "updated": "2026-06-13",
+ "updated": "2026-08-22",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -61,9 +61,9 @@
    "sources": [
     {
      "id": "brit-alfred",
-     "label": "Alfred the Great",
-     "publisher": "Encyclopaedia Britannica",
-     "url": "https://www.britannica.com/biography/Alfred-the-Great"
+     "label": "Alfred ‘The Great’ (r. 871–899)",
+     "publisher": "The Royal Family",
+     "url": "https://www.royal.uk/alfred-great-r-871-899"
     },
     {
      "id": "bl-overview",
@@ -86,9 +86,9 @@
    "sources": [
     {
      "id": "brit-athelstan",
-     "label": "Athelstan, King of England",
-     "publisher": "Encyclopaedia Britannica",
-     "url": "https://www.britannica.com/biography/Athelstan-king-of-England"
+     "label": "Room 41: Sutton Hoo and Europe — Large Print Guide",
+     "publisher": "The British Museum",
+     "url": "https://www.britishmuseum.org/sites/default/files/2021-05/large_print_guide_room_41.pdf"
     },
     {
      "id": "english-heritage",
@@ -262,9 +262,9 @@
    "sources": [
     {
      "id": "brit-spanish-armada",
-     "label": "Spanish Armada",
-     "publisher": "Encyclopaedia Britannica",
-     "url": "https://www.britannica.com/topic/Spanish-Armada"
+     "label": "God blew and they were scattered",
+     "publisher": "The National Archives (UK)",
+     "url": "https://www.nationalarchives.gov.uk/education/resources/god-blew-they-were-scattered/"
     }
    ],
    "url": "https://terralore.co/country/GBR/chronicle#ev-1588-defeat-of-the-spanish-armada",

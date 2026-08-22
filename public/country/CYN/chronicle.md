@@ -3,7 +3,7 @@
 History of Northern Cyprus: A de facto Turkish-Cypriot state in the north of a divided island, proclaimed in 1983 and recognised only by Turkey, while…
 
 Canonical: https://terralore.co/country/CYN/chronicle
-Updated: 2026-08-11
+Updated: 2026-08-22
 
 Founding: Declaration of the Turkish Republic of Northern Cyprus — 15 November 1983. On 15 November 1983 the Turkish-Cypriot legislative assembly, under the leadership of Rauf Denktaş, issued a unilateral declaration of independence proclaiming the Turkish Republic of Northern Cyprus in the area held by Turkish forces since 1974. Turkish Cypriots presented the move as the assertion of their right to self-determination and security after years of intercommunal conflict and the failure of negotiations to restore a workable partnership. The United Nations Security Council responded three days later with Resolution 541 (1983), which considered the declaration legally invalid, called for its withdrawal, and called upon all states not to recognise any Cypriot state other than the Republic of Cyprus; Resolution 550 (1984) reaffirmed this position. To date only Turkey has recognised the TRNC, while the United Nations, the European Union, and the international community continue to regard the territory as part of the Republic of Cyprus that is, in their characterisation, under Turkish occupation.
 
@@ -86,7 +86,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:CYN
 - [un-digital-541] Resolution 541 (1983) — United Nations Digital Library · https://digitallibrary.un.org/record/58970
 - [unscr-550] Security Council Resolution 550 (1984) [Cyprus] — United Nations (UNSCR archive) · https://unscr.com/en/resolutions/550
 - [unscr-186] Security Council Resolution 186 (1964) [Cyprus] — United Nations (UNSCR archive) · https://unscr.com/en/resolutions/186
-- [un-unficyp-mandate] UNFICYP Mandate — United Nations Peacekeeping · https://peacekeeping.un.org/en/mission/unficyp
+- [un-unficyp-mandate] About UNFICYP — United Nations Peacekeeping Force in Cyprus · https://unficyp.unmissions.org/en/about-unficyp
 - [usoh-cyprus-coup-1974] Foreign Relations of the United States, 1969-1976, Vol. XXX, Cyprus - intelligence post-mortem on the 1974 coup — U.S. Department of State, Office of the Historian · https://history.state.gov/historicaldocuments/frus1969-76v30/d148
 - [loc-cyprus-study] Cyprus: A Country Study — U.S. Library of Congress (Federal Research Division) · https://www.loc.gov/item/91035573/
 - [loc-cyprus-breakdown] Cyprus - 1963 Constitutional Breakdown (Country Studies) — U.S. Library of Congress (Federal Research Division) · https://countrystudies.us/cyprus/53.htm

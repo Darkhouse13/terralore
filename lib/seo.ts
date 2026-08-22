@@ -69,6 +69,7 @@ export const routes = {
   // the ledger (letter archive = content surface).
   ledgerLetter: (slug: string) => `/ledger/letter/${slug}`,
   integrity: () => "/integrity",
+  chronicleEventsDataset: () => "/datasets/chronicle-events",
   privacy: () => "/privacy",
 };
 

@@ -25,6 +25,21 @@ export function corpusFiles(root) {
     }
     return out;
   }
+  function listTree(dir, filter) {
+    const abs = join(root, dir);
+    if (!existsSync(abs)) return [];
+    const out = [];
+    const visit = (current, relative) => {
+      for (const entry of readdirSync(current)) {
+        const full = join(current, entry);
+        const path = `${relative}/${entry}`;
+        if (statSync(full).isDirectory()) visit(full, path);
+        else if (filter(entry)) out.push(path);
+      }
+    };
+    visit(abs, dir);
+    return out;
+  }
 
   return [
     // (a) the source corpus — repo paths, verifiable in the public git history
@@ -50,5 +65,6 @@ export function corpusFiles(root) {
     ...listDir("public/commodities", (f) => f.endsWith(".claims.json") || f.endsWith(".md")),
     ...listDir("public/rankings", (f) => f.endsWith(".md")),
     ...listDir("public/compare", (f) => f.endsWith(".md")),
+    ...listTree("public/datasets/chronicle-events", () => true),
   ].sort();
 }

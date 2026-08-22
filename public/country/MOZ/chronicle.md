@@ -3,7 +3,7 @@
 History of Mozambique: From the gold ports of the Swahili coast to Portuguese conquest, a hard-won independence and a long road out of war.. 6 eras and…
 
 Canonical: https://terralore.co/country/MOZ/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from Portugal — 25 June 1975. Mozambique became an independent state on 25 June 1975, ending nearly five centuries of Portuguese presence on its coast and some eight decades of formal colonial rule over the interior. Independence followed the Carnation Revolution of April 1974 in Lisbon, which toppled the Estado Novo dictatorship, and the Lusaka Accord of 7 September 1974, by which Portugal agreed to transfer power to the liberation front FRELIMO. Samora Machel, FRELIMO's leader since the assassination of Eduardo Mondlane in 1969, became the first president of the People's Republic of Mozambique. The handover was accompanied by the departure of most of the territory's roughly 200,000–250,000 Portuguese settlers, taking with them much of the country's skilled workforce and capital.
 
@@ -53,7 +53,7 @@ Vast concessions to chartered companies, forced cultivation of cotton and the ch
 
 - 1891: **Mozambique Company chartered** — The Mozambique Company receives a vast concession with powers to tax, govern and recruit labour, one of several chartered companies to which Portugal subcontracts colonial rule. [britannica-moz, wiki-history-moz, historyrise-zambezia]
 - 1926: **Estado Novo and tightened control** — The authoritarian Estado Novo regime takes shape in Portugal, hardening colonial policy and entrenching forced labour and compulsory cultivation in Mozambique. [britannica-moz, wiki-chibalo]
-- 1930s onward: **Forced cotton cultivation and chibalo** — Compulsory cotton-growing for Portuguese industry and the chibalo forced-labour system compel Mozambicans to grow cash crops and build infrastructure, causing hardship and hunger. [wiki-chibalo, slafnet-moz, britannica-moz]
+- 1930s onward: **Forced cotton cultivation and chibalo** — Compulsory cotton-growing for Portuguese industry and the chibalo forced-labour system compel Mozambicans to grow cash crops and build infrastructure, reducing food production and worsening rural diets. [wiki-chibalo, slafnet-moz, britannica-moz]
 - 1951: **Colonies redesignated 'overseas provinces'** — Portugal renames its African colonies overseas provinces to resist decolonisation, while withholding citizenship and political rights from the African majority. [britannica-moz, wiki-history-moz]
 
 ## FRELIMO, Liberation War and Independence — 1962 – 1975
@@ -101,8 +101,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:MOZ
 - [blackpast-civil-war] The Mozambican Civil War (1977–1992) — BlackPast.org · https://www.blackpast.org/global-african-history/the-mozambican-civil-war-1977-1992/
 - [peaceagreements-moz] Mozambique Civil War (1976–1992) and RENAMO — PA-X / peaceagreements.org · https://www.peaceagreements.org/conflict/59/
 - [vatican-rome] Mozambique: 29 years after the peace accords that ended the civil war — Vatican News · https://www.vaticannews.va/en/africa/news/2021-10/mozambique-29-years-after-the-peace-accords-that-ended-the-civi.html
-- [slafnet-moz] Mozambique — forced labour and the slave trade — SLAFNET Project · https://slafnetproject.omeka.net/mozambique
-- [historyrise-zambezia] The History of Zambezia and Its Role in Mozambique's Colonial Economy — History Rise · https://historyrise.com/the-history-of-zambezia-and-its-role-in-mozambiques-colonial-economy/
+- [slafnet-moz] Mozambique: An Introductory Economic Survey (Report No. 5610-MOZ) — World Bank · https://documents1.worldbank.org/curated/en/657691468057312098/pdf/multi0page.pdf
+- [historyrise-zambezia] Colonial State Formation Without Integration: Tax Capacity and Labour Regimes in Portuguese Mozambique (1890s–1970s) — Cambridge University Press / International Review of Social History · https://www.cambridge.org/core/journals/international-review-of-social-history/article/colonial-state-formation-without-integration-tax-capacity-and-labour-regimes-in-portuguese-mozambique-1890s1970s/D10934ACA671BFEC0E15240A728A6401
 - [opendemocracy-gas] War in Mozambique: a natural gas blessing, turned curse — openDemocracy · https://www.opendemocracy.net/en/oureconomy/war-mozambique-natural-gas-blessing-turned-curse/
 - [theconversation-gas] Offshore gas finds offered major promise for Mozambique: what went wrong — The Conversation · https://theconversation.com/offshore-gas-finds-offered-major-promise-for-mozambique-what-went-wrong-158079
 - [defenceweb-cabo] Project developers must prioritise human security as gas project restarts in Mozambique — DefenceWeb · https://www.defenceweb.co.za/joint/diplomacy-a-peace/project-developers-must-prioritise-human-security-as-gas-project-restarts-in-mozambique/

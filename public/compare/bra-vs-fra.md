@@ -3,7 +3,7 @@
 Brazil and France side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bra-vs-fra
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -113,7 +113,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 1808-1821: **The court moves to Rio** — Fleeing Napoleon, the Portuguese royal court relocates to Rio de Janeiro, which becomes the seat of the empire and is opened to wider trade. (from the Brazil chronicle; sources: Brazil; Pedro I, Emperor of Brazil)
+- 1808-1821: **The court moves to Rio** — Fleeing Napoleon, the Portuguese royal court relocates to Rio de Janeiro, which becomes the seat of the empire and is opened to wider trade. (from the Brazil chronicle; sources: Brazil; Linha do Tempo da Independência)
 
 ## Sources
 

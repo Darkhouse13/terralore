@@ -105,6 +105,11 @@ export function GET(): Response {
     `- [The Ledger](${abs(routes.ledger())}): every recorded refresh`,
     ...ledger.map(link),
     "",
+    `## Downloadable dataset`,
+    "",
+    `- [Terralore Chronicle Events](${abs(routes.chronicleEventsDataset())}): ` +
+      `4,564 curated events, their stable claim IDs and source relations, available as CSV and NDJSON`,
+    "",
     `## Chronicles`,
     "",
     `The sourced event record of each nation's history — every event with its year and`,

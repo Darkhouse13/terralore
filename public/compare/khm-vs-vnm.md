@@ -3,7 +3,7 @@
 Cambodia and Vietnam side by side: 43 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/khm-vs-vnm
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -110,7 +110,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1863 CE: **French protectorate established** — King Norodom signs a treaty placing Cambodia under French protection to fend off Siamese and Vietnamese pressure; Siam acknowledges the protectorate by 1867. (from the Cambodia chronicle; sources: Norodom; Cambodia Gains Independence from France)
-- 17 October 1887: **French Indochina established** — France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi. (from the Vietnam chronicle; sources: French Indochina / Conquest of Vietnam)
+- 17 October 1887: **French Indochina established** — France unites Cochinchina, Annam, Tonkin, and Cambodia into the Indochinese Union; Laos is added in 1893, binding Vietnam into a colonial federation centered on Hanoi. (from the Vietnam chronicle; sources: Vietnam: A Country Study)
 - December 1978 - January 1979: **Vietnamese intervention ends the regime** — Vietnam invades Cambodia, captures Phnom Penh in January 1979, ousts the Khmer Rouge, and ends the genocide, beginning a decade-long occupation. (from the Cambodia chronicle; sources: Cambodia: Vietnamese intervention; Cambodian genocide)
 - 1979 CE: **Sino-Vietnamese War** — China invades northern Vietnam in response to Vietnam's ousting of the Khmer Rouge in Cambodia; the brief but bloody border war deepens Vietnam's isolation. (from the Vietnam chronicle; sources: Vietnam)
 

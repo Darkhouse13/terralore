@@ -230,8 +230,11 @@ export default function AtlasIndex({ entries }: { entries: IndexEntry[] }) {
       )}
 
       <div className="cut-rule" />
-      <footer className="mx-auto flex max-w-5xl justify-between px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber lg:max-w-none lg:px-10">
+      <footer className="mx-auto flex max-w-5xl flex-wrap justify-between gap-3 px-5 pt-[14px] pb-6 font-mono text-[10px] text-umber lg:max-w-none lg:px-10">
         <div>EVERY CLAIM SOURCED</div>
+        <Link href="/datasets/chronicle-events" prefetch={false} className="text-oxide underline underline-offset-2">
+          DOWNLOAD THE EVENT CORPUS
+        </Link>
         <div>ABSENCE ≠ ZERO</div>
         <div>NO SIDES</div>
       </footer>

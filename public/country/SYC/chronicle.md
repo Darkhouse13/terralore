@@ -3,7 +3,7 @@
 History of Seychelles: From empty islands to Creole republic. 6 eras and 19 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/SYC/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from the United Kingdom — 29 June 1976. The Republic of Seychelles became an independent state within the Commonwealth, with James Mancham as its first president and France-Albert René as prime minister.
 
@@ -92,7 +92,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SYC
 - [unesco-valleedemai] Vallée de Mai Nature Reserve — World Heritage List — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/261/
 - [sif-vdm] Welcome to the Vallée de Mai — Seychelles Islands Foundation · https://www.sif.sc/vdm
 - [sna-aldabra] Seychelles' Aldabra Atoll — decades as a UNESCO World Heritage Site — Seychelles News Agency · http://www.seychellesnewsagency.com/articles/19514/
-- [uca-seychelles] Seychelles (1976–present) — University of Central Arkansas, DADM Project · https://uca.edu/politicalscience/home/research-projects/dadm-project/sub-saharan-africa-region/seychelles-1976-present/
+- [uca-seychelles] Seychelles Voluntary National Review 2025 — Government of Seychelles, Ministry of Finance · https://www.finance.gov.sc/wp-content/uploads/2025/10/VNR_SEYCHELLES_2025-1.pdf
 - [ascleiden-mancham] James Mancham — African Studies Centre Leiden · https://www.ascleiden.nl/content/library-weekly/james-mancham
 - [wiki-1981coup] 1981 Seychelles coup attempt — Wikipedia · https://en.wikipedia.org/wiki/1981_Seychelles_coup_attempt
 - [wiki-economy] Economy of Seychelles — Wikipedia · https://en.wikipedia.org/wiki/Economy_of_Seychelles

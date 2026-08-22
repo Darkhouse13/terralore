@@ -3,7 +3,7 @@
 History of Somalia: From the incense ports of Punt and the medieval Adal Sultanate to independence in 1960, state collapse and the slow rebuilding of a…
 
 Canonical: https://terralore.co/country/SOM/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence and union forming the Somali Republic — 1 July 1960. Modern Somalia was born from the union of two former colonies. British Somaliland gained its independence from Britain on 26 June 1960; five days later, on 1 July 1960, it merged with the Trust Territory of Somaliland (the former Italian Somaliland, administered by Italy under United Nations trusteeship) to form the independent Somali Republic. The new state joined the two territories under a single flag bearing a white five-pointed star, each point evoking one of the five regions where Somalis lived—a pan-Somali aspiration that would shape the country's later foreign policy. Aden Abdullah Osman Daar became the first president and the union was widely celebrated as the fulfilment of Somali nationalism, though the rapid fusion of two different colonial administrative systems left tensions that resurfaced decades later when the north reasserted its separate identity.
 
@@ -93,11 +93,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SOM
 ## References
 
 - [britannica-somalia] Somalia (country and history) — Encyclopaedia Britannica · https://www.britannica.com/place/Somalia
-- [britannica-punt] Punt (ancient region, Africa) — Encyclopaedia Britannica · https://www.britannica.com/place/Punt-ancient-region-Africa
+- [britannica-punt] Middle Portico South (Portico of Punt) — Polish-Egyptian Archaeological and Conservation Expedition, University of Warsaw · https://www.templeofhatshepsut.uw.edu.pl/en/middle_portico_south_portico_of_punt.html
 - [worldhistory-punt] Punt — World History Encyclopedia · https://www.worldhistory.org/punt/
 - [wikipedia-somali-maritime] Somali maritime history — Wikipedia · https://en.wikipedia.org/wiki/Somali_maritime_history
 - [wikipedia-history-somalia] History of Somalia — Wikipedia · https://en.wikipedia.org/wiki/History_of_Somalia
-- [britannica-ahmad-gran] Ahmad ibn Ibrahim al-Ghazi — Encyclopaedia Britannica · https://www.britannica.com/biography/Ahmad-ibn-Ibrahim-al-Ghazi
+- [britannica-ahmad-gran] Somalia: A Country Study — U.S. Library of Congress, Federal Research Division · https://tile.loc.gov/storage-services/master/frd/frdcstdy/so/somaliacountryst00metz_0/somaliacountryst00metz_0.pdf
 - [wikipedia-adal] Adal Sultanate — Wikipedia · https://en.wikipedia.org/wiki/Adal_Sultanate
 - [wikipedia-ethiopian-adal-war] Ethiopian–Adal War — Wikipedia · https://en.wikipedia.org/wiki/Ethiopian%E2%80%93Adal_War
 - [lumen-sultanates] The Sultanates of Somalia — Lumen Learning, Early World Civilizations · https://courses.lumenlearning.com/atd-herkimer-worldcivilization/chapter/the-sultanates-of-somalia/

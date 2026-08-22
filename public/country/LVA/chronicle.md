@@ -3,7 +3,7 @@
 History of Latvia: From the Baltic tribes and the Northern Crusades to a republic twice declared free.. 5 eras and 24 sourced events, every claim…
 
 Canonical: https://terralore.co/country/LVA/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Proclamation of the Republic of Latvia — 18 November 1918. Modern Latvian statehood dates to 18 November 1918, when the People's Council of Latvia proclaimed an independent, democratic Republic of Latvia in Riga as the Russian and German empires collapsed at the end of the First World War. The new state had to fight a War of Independence against both Soviet and German forces before its sovereignty was secured; on 11 August 1920 Soviet Russia signed the Treaty of Riga, by which it renounced all sovereign rights over Latvia and its people. This first republic was destroyed by Soviet occupation and annexation in 1940, but Latvia's continuity as a state was never recognised as extinguished by much of the world, and independence was restored by declaration on 4 May 1990 and fully on 21 August 1991.
 
@@ -98,7 +98,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:LVA
 - [courland-tandf] The struggle for neutrality: an examination of the Duchy of Courland in the Baltic and Atlantic, 1642-1698 — Journal of Early Modern History (Taylor & Francis) · https://www.tandfonline.com/doi/full/10.1080/14788810.2021.1908083
 - [occupation-museum] About the Museum — Museum of the Occupation of Latvia · https://okupacijasmuzejs.lv/en/about-the-museum
 - [mrp-russias-periphery] Molotov-Ribbentrop Pact — Russia's Periphery, William & Mary · https://russiasperiphery.pages.wm.edu/baltic-states/general/molotov-ribbentrop-pact/
-- [welles-state-continuity] United States Non-Recognition Policy — Wilson Center Digital Archive · https://digitalarchive.wilsoncenter.org/topics/united-states-non-recognition-policy
+- [welles-state-continuity] U.S. non-recognition of Latvia’s occupation — Ministry of Foreign Affairs of Latvia · https://www.mfa.gov.lv/en/bilateral-relations-between-republic-latvia-and-united-states-america
 - [rumbula-ushmm] Riga — United States Holocaust Memorial Museum · https://encyclopedia.ushmm.org/content/en/article/riga
 - [baltic-way-baltdefcol] Restoration of Independence in the Baltics — Baltic Defence College · https://baltdefcol.org/news/restoration-of-independence-in-the-baltics
 - [latvia-may4-latvia-eu] May 4th: Latvia's Path to Independence — Latvia.eu (Latvian Institute) · https://www.latvia.eu/our-dna/identity-history/may-4th-the-way-to-independence/

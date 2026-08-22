@@ -3,7 +3,7 @@
 History of Panama: The isthmus that joined two oceans and two Americas, from Balboa's South Sea to the canal returned.. 6 eras and 19 sourced events…
 
 Canonical: https://terralore.co/country/PAN/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Separation from Colombia — 3 November 1903. Panama declared its independence from Colombia on 3 November 1903, with the tacit support of the United States and the presence of U.S. naval forces in nearby waters. Within weeks, on 18 November 1903, the Hay-Bunau-Varilla Treaty granted the United States rights to a Canal Zone across the isthmus and guaranteed the new republic's independence. The treaty, signed by U.S. Secretary of State John Hay and the French promoter Philippe Bunau-Varilla acting for Panama, would shape the nation's politics for the rest of the century.
 
@@ -87,7 +87,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:PAN
 - [britannica-balboa] Vasco Nunez de Balboa — Encyclopaedia Britannica · https://www.britannica.com/biography/Vasco-Nunez-de-Balboa
 - [britannica-panama] Panama — Encyclopaedia Britannica · https://www.britannica.com/place/Panama
 - [loc-panama] Panama: A Country Study — Library of Congress Country Studies · https://countrystudies.us/panama/
-- [unesco-panama-viejo] Archaeological Site of Panama Viejo and Historic District of Panama — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/790/
+- [unesco-panama-viejo] El Sitio Arqueológico de Panamá Viejo — Patronato Panamá Viejo · https://www.patronatopanamaviejo.org/sitio-arqueologico/
 - [unesco-portobelo] Fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/135/
 - [britannica-morgan] Sir Henry Morgan — Encyclopaedia Britannica · https://www.britannica.com/biography/Henry-Morgan-Welsh-buccaneer
 - [state-panama-canal] The Panama Canal and the Torrijos-Carter Treaties — U.S. Department of State, Office of the Historian · https://history.state.gov/milestones/1977-1980/panama-canal

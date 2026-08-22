@@ -3,7 +3,7 @@
 Brazil and Portugal side by side: 44 shared sourced indicators across 9 domains, and the 7 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bra-vs-prt
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -117,7 +117,7 @@ Events in which either nation's sourced chronicle names the other — including 
 - April 1500: **Cabral claims Brazil for Portugal** — Pedro Alvares Cabral makes landfall on the coast near present-day Porto Seguro and claims the land for the Portuguese crown. (from the Brazil chronicle; sources: Pedro Alvares Cabral; Brazil)
 - 22 Apr 1500: **Cabral reaches Brazil** — A fleet under Pedro Alvares Cabral, en route to India, made landfall on the coast of Brazil and claimed it for the Portuguese crown. (from the Portugal chronicle; sources: Pedro Alvares Cabral)
 - 27 Nov 1807: **Court flees to Brazil** — As a French army invaded, the prince regent and royal court sailed for Brazil under British escort, moving the seat of the Portuguese monarchy to Rio de Janeiro. (from the Portugal chronicle; sources: Peninsular War; John VI, king of Portugal)
-- 1808-1821: **The court moves to Rio** — Fleeing Napoleon, the Portuguese royal court relocates to Rio de Janeiro, which becomes the seat of the empire and is opened to wider trade. (from the Brazil chronicle; sources: Brazil; Pedro I, Emperor of Brazil)
+- 1808-1821: **The court moves to Rio** — Fleeing Napoleon, the Portuguese royal court relocates to Rio de Janeiro, which becomes the seat of the empire and is opened to wider trade. (from the Brazil chronicle; sources: Brazil; Linha do Tempo da Independência)
 - 7 Sep 1822: **Independence of Brazil** — Pedro, regent and son of John VI, declared Brazil independent and became its emperor, ending Portugal's rule over its largest and wealthiest colony. (from the Portugal chronicle; sources: Pedro I, emperor of Brazil; John VI, king of Portugal)
 - late 19th-early 20th c.: **Mass immigration** — Millions of immigrants, especially Italians, Portuguese, Spaniards, and Japanese, arrive to work coffee and settle the south, reshaping Brazilian society. (from the Brazil chronicle; sources: Brazil)
 

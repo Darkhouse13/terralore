@@ -1,5 +1,54 @@
 {
   "version": 1,
   "note": "The social usage ledger — which surfaces ran on which day, committed so the calendar's recency preferences (365 days per event, 14 per anchor nation, 30 per data surface, 90 per formation story) survive across machines and rebuilds. Written by scripts/build-social.mjs, keyed by date and therefore idempotent: regenerating a day rewrites the same entry, and a day's plan reads only entries dated strictly before it. Never edit by hand except to delete a day that was generated but never published.",
-  "days": {}
+  "days": {
+    "2026-08-15": {
+      "event": "BGD:1975:Assassination of Mujib and military rule",
+      "eventNation": "BGD",
+      "surface": "cm-zinc",
+      "carousel": "fm-BGD"
+    },
+    "2026-08-16": {
+      "event": "CYP:1960:Independence and the Treaty of Guarantee",
+      "eventNation": "CYP",
+      "surface": "cp-moz-vs-tza",
+      "carousel": "fm-CYP"
+    },
+    "2026-08-17": {
+      "event": "GAB:1960:Independence under Léon M'ba",
+      "eventNation": "GAB",
+      "surface": "rk-political-stability",
+      "carousel": "rk-political-stability"
+    },
+    "2026-08-18": {
+      "event": "MLI:2020:Coup ousts President Ibrahim Boubacar Keïta",
+      "eventNation": "MLI",
+      "surface": "cm-gold",
+      "carousel": "fm-MLI"
+    },
+    "2026-08-19": {
+      "event": "HUN:1989:The Pan-European Picnic and the opening of the border",
+      "eventNation": "HUN",
+      "surface": "cp-kor-vs-sau",
+      "carousel": "fm-HUN"
+    },
+    "2026-08-20": {
+      "event": "SEN:1960:Senegal proclaims separate independence",
+      "eventNation": "SEN",
+      "surface": "rk-copper-production",
+      "carousel": "rk-copper-production"
+    },
+    "2026-08-21": {
+      "event": "LVA:1991:Full restoration of independence",
+      "eventNation": "LVA",
+      "surface": "cm-rare-earths",
+      "carousel": "fm-LVA"
+    },
+    "2026-08-22": {
+      "event": "KHM:2023:Hun Manet succeeds his father",
+      "eventNation": "KHM",
+      "surface": "cp-hrv-vs-svn",
+      "carousel": "fm-KHM"
+    }
+  }
 }

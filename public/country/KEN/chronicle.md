@@ -3,7 +3,7 @@
 History of Kenya: From the cradle of humankind on Lake Turkana to the Swahili coast and a modern East African republic.. 6 eras and 30 sourced events…
 
 Canonical: https://terralore.co/country/KEN/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from the United Kingdom — 12 December 1963. Kenya became an independent state on 12 December 1963, ending nearly seven decades of British rule that had begun with the East Africa Protectorate in 1895. The independence settlement was negotiated through three Lancaster House conferences in London between 1960 and 1963, where the rival parties KANU and KADU contested whether the new state would be unitary or federal. Jomo Kenyatta, jailed during the Mau Mau emergency and freed in 1961, became the country's first prime minister at independence; a year later, on 12 December 1964, Kenya became a republic with Kenyatta as its first president. The date 12 December — Jamhuri Day — remains Kenya's central national holiday.
 
@@ -103,7 +103,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:KEN
 - [unesco-fortjesus] Fort Jesus, Mombasa — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1295
 - [nmk-fortjesus] Fort Jesus Museum — National Museums of Kenya · https://museums.or.ke/fort-jesus-museum/
 - [wiki-siege-mombasa] Siege of Mombasa (1696–1698) — Wikipedia · https://en.wikipedia.org/wiki/Siege_of_Mombasa_(1696%E2%80%931698)
-- [britannica-zanzibar] Zanzibar and the Omani sultanate — Encyclopaedia Britannica · https://www.britannica.com/place/Zanzibar-historical-region-Tanzania
+- [britannica-zanzibar] Muscat — Architectural Heritage — The National Museum, Sultanate of Oman · https://www.nm.gov.om/en/collection/gift/architectural-heritage
 - [statedept-kenya] U.S. Relations With Kenya / History — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/kenya
 - [wiki-uganda-railway] Uganda Railway — Wikipedia · https://en.wikipedia.org/wiki/Uganda_Railway
 - [britannica-kenyatta] Jomo Kenyatta — Encyclopaedia Britannica · https://www.britannica.com/biography/Jomo-Kenyatta

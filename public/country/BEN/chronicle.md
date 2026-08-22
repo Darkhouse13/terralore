@@ -3,7 +3,7 @@
 History of Benin: From the Aja kingdoms of Allada and Porto-Novo and the Fon Kingdom of Dahomey at Abomey, through conquest and the slave trade, to a…
 
 Canonical: https://terralore.co/country/BEN/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from France — 1 August 1960. The modern state became independent on 1 August 1960 as the Republic of Dahomey, when French colonial rule ended and Hubert Maga became its first president. The name 'Dahomey' was inherited from the precolonial Fon kingdom centred on Abomey; in 1975 the country was renamed the People's Republic of Benin, after the Bight of Benin, and in 1990 it became simply the Republic of Benin. That independence date sits atop a deep past: the Aja kingdoms of Allada and Porto-Novo took shape from the late sixteenth century, and the Fon Kingdom of Dahomey rose on the Abomey plateau from around the early seventeenth century, becoming a major power after King Agaja conquered Allada in 1724 and the slaving port of Ouidah in 1727. France conquered the kingdom in 1892–1894 and incorporated it into French West Africa.
 
@@ -103,7 +103,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:BEN
 - [britannica-behanzin] Behanzin — king of Dahomey — Encyclopaedia Britannica · https://www.britannica.com/biography/Behanzin
 - [unesco-abomey] Royal Palaces of Abomey — World Heritage List, no. 323 — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/323
 - [unesco-japan-abomey] The Royal Palaces of Abomey: Palace of King Behanzin, Benin — UNESCO / Permanent Delegation of Japan · https://www.unesco.emb-japan.go.jp/htm/abomey.htm
-- [cambridge-ouidah] Ouidah: The Social History of a West African Slaving Port 1727–1892 (Robin Law) — Cambridge University Press · https://www.cambridge.org/core/books/ouidah/
+- [cambridge-ouidah] Ouidah: The Social History of a West African Slaving Port 1727–1892 (Robin Law) — Boydell & Brewer via Cambridge Core · https://www.cambridge.org/core/books/ouidah/5FA208F6B2D8FF761B269C9A9B2E8500
 - [cambridge-palm-oil] The compatibility of the slave and palm oil trades in Dahomey, 1818–1858 — Cambridge University Press (From Slave Trade to 'Legitimate' Commerce) · https://www.cambridge.org/core/books/from-slave-trade-to-legitimate-commerce/compatibility-of-the-slave-and-palm-oil-trades-in-dahomey-18181858/D86589B7B65B738303A2182654B8CC1E
 - [slavevoyages] Trans-Atlantic Slave Trade Database (Bight of Benin / Ouidah) — SlaveVoyages · https://www.slavevoyages.org/
 - [blackpast-dahomey-women] The Dahomey Amazons — BlackPast.org / African American Registry · https://aaregistry.org/story/the-dahomey-amazons-a-brief-story/

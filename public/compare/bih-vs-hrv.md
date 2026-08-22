@@ -3,7 +3,7 @@
 Bosnia and Herzegovina and Croatia side by side: 43 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bih-vs-hrv
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -106,7 +106,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- Apr 1941: **Axis invasion and the NDH** — The Axis dismembered Yugoslavia and incorporated Bosnia into the Ustaša-led Independent State of Croatia, whose terror against Serbs, Jews and Roma helped ignite a brutal multi-sided civil war. (from the Bosnia and Herzegovina chronicle; sources: World War II and the establishment of ZAVNOBiH; Bosnia and Herzegovina: History)
+- Apr 1941: **Axis invasion and the NDH** — The Axis dismembered Yugoslavia and incorporated Bosnia into the Ustaša-led Independent State of Croatia, whose terror against Serbs, Jews and Roma helped ignite a brutal multi-sided civil war. (from the Bosnia and Herzegovina chronicle; sources: Parliamentary Assembly of Bosnia and Herzegovina; Bosnia and Herzegovina: History)
 - 1941: **The Independent State of Croatia (NDH)** — Following the Axis invasion, Germany and Italy set up the Independent State of Croatia, a puppet state run by the fascist Ustase under Ante Pavelic, embracing Croatia and Bosnia and Herzegovina. (from the Croatia chronicle; sources: Independent State of Croatia; Ustasa (Croatian fascist movement))
 
 ## Sources

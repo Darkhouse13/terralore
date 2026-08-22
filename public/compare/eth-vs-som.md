@@ -3,7 +3,7 @@
 Ethiopia and Somalia side by side: 36 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/eth-vs-som
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -106,7 +106,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 1529–1543: **Wars of Ahmad ibn Ibrahim al-Ghazi** — From the Adal Sultanate, Imam Ahmad 'Gurey' launches the Futuh al-Habasha campaigns against Christian Ethiopia, conquering much of the highlands before his defeat and death in 1543 with Portuguese intervention. (from the Somalia chronicle; sources: Ahmad ibn Ibrahim al-Ghazi; Adal Sultanate; Ethiopian–Adal War)
+- 1529–1543: **Wars of Ahmad ibn Ibrahim al-Ghazi** — From the Adal Sultanate, Imam Ahmad 'Gurey' launches the Futuh al-Habasha campaigns against Christian Ethiopia, conquering much of the highlands before his defeat and death in 1543 with Portuguese intervention. (from the Somalia chronicle; sources: Somalia: A Country Study; Adal Sultanate; Ethiopian–Adal War)
 - 1936: **Italian Somaliland joins Italian East Africa** — After Fascist Italy's conquest of Ethiopia, Italian Somaliland is merged into the new colony of Italian East Africa; Britain takes control of the region during the Second World War, holding both Somalilands by 1941. (from the Somalia chronicle; sources: Italian Somaliland; Somalia (country and history))
 - 1977–1978: **The Ogaden War** — Somalia invades Ethiopia to annex the Somali-inhabited Ogaden; initial gains are reversed in 1978 when the Soviet Union and Cuba back Ethiopia, inflicting a costly defeat on Somalia. (from the Somalia chronicle; sources: Mohamed Siad Barre; History of Somalia)
 

@@ -3,7 +3,7 @@
 History of Palestine: An ancient and contested land at the crossroads of three continents and three faiths, whose people declared an independent state in…
 
 Canonical: https://terralore.co/country/PSE/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Palestinian Declaration of Independence — 15 November 1988. On 15 November 1988, at a session of the Palestinian National Council in Algiers, PLO Chairman Yasser Arafat proclaimed the Declaration of Independence of the State of Palestine, with Jerusalem named as its capital, on the basis of the 1947 UN partition resolution and the Palestinian people's right to self-determination. The declaration rests on the land's deep historical roots, where settled life reaches back to ancient Canaan and the name 'Palestine' derives from the Philistines by way of Greek and Roman usage. On 29 November 2012 the UN General Assembly, in resolution 67/19, recognised the State of Palestine as a non-member observer state of the United Nations by 138 votes to 9 with 41 abstentions. The State of Palestine is today recognised by a large majority of UN member states, more than 140 of the 193 members.
 
@@ -119,7 +119,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:PSE
 - [icj-order-26jan2024] Summary of the Order of 26 January 2024 (South Africa v. Israel) — International Court of Justice · https://www.icj-cij.org/node/203454
 - [icj-case-192] Application of the Genocide Convention in the Gaza Strip (South Africa v. Israel) - case overview — International Court of Justice · https://www.icj-cij.org/case/192
 - [un-anatomy-genocide] Anatomy of a Genocide - Report of the Special Rapporteur (A/HRC/55/73) — United Nations (Question of Palestine) · https://www.un.org/unispal/document/anatomy-of-a-genocide-report-of-the-special-rapporteur-on-the-situation-of-human-rights-in-the-palestinian-territory-occupied-since-1967-to-human-rights-council-advance-unedited-version-a-hrc-55/
-- [ohchr-albanese-report] Rights expert finds 'reasonable grounds' genocide is being committed in Gaza — UN Office at Geneva / OHCHR · https://www.ungeneva.org/en/news-media/news/2024/03/91946/rights-expert-finds-reasonable-grounds-genocide-being-committed-gaza
+- [ohchr-albanese-report] Anatomy of a Genocide (A/HRC/55/73) — United Nations Human Rights Council · https://digitallibrary.un.org/record/4060409
 - [amnesty-genocide-report] Amnesty International concludes Israel is committing genocide against Palestinians in Gaza — Amnesty International · https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/
 - [hrw-genocide-water] Extermination and Acts of Genocide: Israel Deliberately Depriving Palestinians in Gaza of Water — Human Rights Watch · https://www.hrw.org/report/2024/12/19/extermination-and-acts-genocide/israel-deliberately-depriving-palestinians-gaza
 - [ohchr-coi-genocide] Israel has committed genocide in the Gaza Strip, UN Commission finds — United Nations (OHCHR) · https://www.ohchr.org/en/press-releases/2025/09/israel-has-committed-genocide-gaza-strip-un-commission-finds

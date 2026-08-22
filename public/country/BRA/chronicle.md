@@ -3,7 +3,7 @@
 History of Brazil: From the thousand nations of the forest and coast to a Portuguese colony built on sugar, gold, and the largest slave economy of the…
 
 Canonical: https://terralore.co/country/BRA/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from Portugal — 7 September 1822. On 7 September 1822, on the banks of the Ipiranga brook near Sao Paulo, the prince regent Dom Pedro proclaimed Brazil's independence from Portugal in the act remembered as the Cry of Ipiranga, with the words Independencia ou Morte (Independence or Death). He was acclaimed Emperor Pedro I, and Portugal recognised the new nation by the Treaty of Rio de Janeiro of 1825. European presence had begun more than three centuries earlier, when Pedro Alvares Cabral made landfall on the Brazilian coast in April 1500 and claimed the territory for the Portuguese crown. The monarchy itself ended on 15 November 1889, when a military coup deposed Emperor Pedro II and proclaimed the Republic.
 
@@ -47,7 +47,7 @@ Brazil won its independence in 1822 not as a republic but as a monarchy, the onl
 
 Figures:
 
-- Pedro I (1798-1834) — First Emperor of Brazil. Portuguese prince who proclaimed Brazilian independence in 1822 and reigned as the first emperor until his abdication in 1831, after which he returned to Europe to secure the Portuguese throne for his daughter.
+- Pedro I (1798-1834) — First Emperor of Brazil. Portuguese prince who proclaimed Brazilian independence in 1822 and became the country's first emperor.
 - Pedro II (1825-1891) — Second Emperor of Brazil. Reigning from 1831, under regency until 1840 and in his own right thereafter, he presided over decades of stability and growth. Respected as a learned and moderate ruler, he was deposed in the 1889 coup and died in exile.
 
 ## The Old Republic — 1889 - 1930
@@ -99,8 +99,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:BRA
 
 - [britannica-brazil] Brazil — Encyclopaedia Britannica · https://www.britannica.com/place/Brazil
 - [britannica-cabral] Pedro Alvares Cabral — Encyclopaedia Britannica · https://www.britannica.com/biography/Pedro-Alvares-Cabral
-- [britannica-pedro-i] Pedro I, Emperor of Brazil — Encyclopaedia Britannica · https://www.britannica.com/biography/Pedro-I-emperor-of-Brazil
-- [britannica-pedro-ii] Pedro II, Emperor of Brazil — Encyclopaedia Britannica · https://www.britannica.com/biography/Pedro-II-emperor-of-Brazil
+- [britannica-pedro-i] Linha do Tempo da Independência — Governo Federal do Brasil · https://www.gov.br/pt-br/campanhas/bicentenario./linha-do-tempo-da-independencia
+- [britannica-pedro-ii] Dom Pedro II, Imperador do Brasil — Fundação Alexandre de Gusmão, Brazilian Ministry of Foreign Affairs · https://funag.gov.br/biblioteca-nova/produto/1-211-dom_pedro_ii_imperador_do_brasil
 - [britannica-deodoro] Manuel Deodoro da Fonseca — Encyclopaedia Britannica · https://www.britannica.com/biography/Manuel-Deodoro-da-Fonseca
 - [britannica-vargas] Getulio Vargas — Encyclopaedia Britannica · https://www.britannica.com/biography/Getulio-Vargas
 - [britannica-estado-novo] Estado Novo (Brazilian history) — Encyclopaedia Britannica · https://www.britannica.com/topic/Estado-Novo-Brazilian-history

@@ -3,7 +3,7 @@
 History of Chile: From the Mapuche of the south and the moai-builders of Rapa Nui to the Spanish founding of Santiago in 1541, the independence sealed at…
 
 Canonical: https://terralore.co/country/CHL/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Independence sealed at the Battle of Maipu — 5 April 1818. Chile formally declared its independence from Spain on 12 February 1818, but the new state's survival was decided on the battlefield. On 5 April 1818, near Santiago, an army of Chilean patriots and Argentine troops commanded by Jose de San Martin, with Bernardo O'Higgins among its leaders, crushed the Spanish royalists at the Battle of Maipu. The six-hour fight left some 2,000 royalists dead and thousands captured and ended the struggle for Chilean independence on the mainland. The break had been prepared by the first national junta of 18 September 1810, formed after Napoleon's occupation of Spain shattered royal authority, and by San Martin's daring crossing of the Andes in 1817 and victory at Chacabuco. O'Higgins became Chile's first head of state as supreme director.
 
@@ -114,8 +114,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:CHL
 - [ofhistorian-allende] The Allende Years and the Pinochet Coup, 1969-1973 — U.S. Department of State, Office of the Historian · https://history.state.gov/milestones/1969-1976/allende
 - [britannica-coup-1973] 1973 Chilean coup d'etat — Encyclopaedia Britannica · https://www.britannica.com/event/1973-Chilean-coup-d-etat
 - [britannica-pinochet] Augusto Pinochet — Encyclopaedia Britannica · https://www.britannica.com/biography/Augusto-Pinochet
-- [rettig-report] Truth Commission: Chile (National Commission on Truth and Reconciliation, Rettig report) — United States Institute of Peace · https://www.usip.org/publications/1990/05/truth-commission-chile-90
-- [valech-report] Commission of Inquiry: Chile (National Commission on Political Imprisonment and Torture, Valech report) — United States Institute of Peace · https://www.usip.org/publications/2003/09/commission-inquiry-chile-03
+- [rettig-report] Informe Rettig — Memoria Chilena, Biblioteca Nacional de Chile · https://www.memoriachilena.gob.cl/602/w3-article-94640.html
+- [valech-report] Informe de la Comisión Nacional sobre Prisión Política y Tortura (Valech I) — Instituto Nacional de Derechos Humanos (Chile) · https://bibliotecadigital.indh.cl/items/77e102d5-e424-4c60-9ff9-70478e618d78/full
 - [britannica-boric] Gabriel Boric — Encyclopaedia Britannica · https://www.britannica.com/biography/Gabriel-Boric
 - [wikipedia-chilean-independence] Chilean Declaration of Independence — Wikipedia · https://en.wikipedia.org/wiki/Chilean_Declaration_of_Independence
 - [nwe-chile] Chile — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Chile

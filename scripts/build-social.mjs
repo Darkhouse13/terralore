@@ -30,7 +30,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { allTwins } from "@/lib/geo";
-import sitemap from "@/app/sitemap";
+import { allSitemapEntries } from "@/lib/sitemaps";
 import { SITE_URL, abs } from "@/lib/seo";
 import { planDay, ledgerEntry, parseDate, isoAddDays } from "./lib/social/calendar.mjs";
 import { altText } from "./lib/social/subjects.mjs";
@@ -87,7 +87,7 @@ if (args[0] === "--date" && args[1]) {
 /* ── the URL universe (same set the validator asserts against) ────────────── */
 
 const published = new Set();
-for (const e of sitemap()) published.add(e.url.replace(SITE_URL, "") || "/");
+for (const e of allSitemapEntries()) published.add(e.url.replace(SITE_URL, "") || "/");
 for (const t of allTwins()) {
   published.add(t.canonicalPath);
   published.add(t.path);

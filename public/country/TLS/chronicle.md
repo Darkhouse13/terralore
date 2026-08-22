@@ -3,7 +3,7 @@
 History of Timor-Leste: From the sandalwood kingdoms of the liurai through four centuries of Portuguese rule and a brutal occupation to Asia's youngest…
 
 Canonical: https://terralore.co/country/TLS/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Restoration of Independence of the Democratic Republic of Timor-Leste — 20 May 2002. At midnight on 20 May 2002 the United Nations transitional administration handed sovereignty to the new Democratic Republic of Timor-Leste, with UN Secretary-General Kofi Annan presiding over the ceremony in Dili and Xanana Gusmao sworn in as the country's first president. Timorese leaders deliberately call it the restoration of independence, dating their nationhood to the declaration of 28 November 1975 that was cut short within days by the Indonesian invasion. The 2002 restoration came after a UN-supervised popular consultation on 30 August 1999, in which 78.5 per cent of voters rejected continued integration with Indonesia, the wave of militia violence that followed, an international peacekeeping intervention, and more than two years of UN administration that built the institutions of the new state.
 
@@ -84,7 +84,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:TLS
 - [britannica-gusmao] Xanana Gusmao — Encyclopaedia Britannica · https://www.britannica.com/biography/Xanana-Gusmao
 - [history-state-timor] A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations: Timor-Leste — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/timor-leste
 - [un-untaet-background] UNTAET Background — United Nations Peacekeeping · https://peacekeeping.un.org/sites/default/files/past/etimor/UntaetB.htm
-- [un-untaet-page] UNTAET (United Nations Transitional Administration in East Timor) — United Nations Peacekeeping · https://peacekeeping.un.org/en/mission/untaet
+- [un-untaet-page] UNTAET (United Nations Transitional Administration in East Timor) — United Nations Peacekeeping · https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm
 - [un-sg-nobel-1996] Secretary-General welcomes award of 1996 Nobel Peace Prize to Bishop Belo and Jose Ramos-Horta — United Nations (SG/SM/6075) · https://press.un.org/en/1996/19961011.sgsm6075.html
 - [nobel-1996] The Nobel Peace Prize 1996: Carlos Filipe Ximenes Belo and Jose Ramos-Horta — The Nobel Foundation (NobelPrize.org) · https://www.nobelprize.org/prizes/peace/1996/summary/
 - [timorleste-gov-gusmao] Biography: Kay Rala Xanana Gusmao — Government of Timor-Leste · https://timor-leste.gov.tl/?p=3&lang=en

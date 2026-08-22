@@ -3,7 +3,7 @@
  "name": "Ireland",
  "kind": "chronicle-events",
  "canonical": "https://terralore.co/country/IRL/chronicle",
- "updated": "2026-06-13",
+ "updated": "2026-08-22",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -252,12 +252,6 @@
      "label": "Ireland Converts to Christianity",
      "publisher": "EBSCO Research Starters",
      "url": "https://www.ebsco.com/research-starters/history/ireland-converts-christianity"
-    },
-    {
-     "id": "downsurvey-cromwell",
-     "label": "The Cromwellian Conquest and Land Settlement of Ireland",
-     "publisher": "The Down Survey of Ireland, Trinity College Dublin",
-     "url": "https://downsurvey.tchpc.tcd.ie/history.html"
     }
    ],
    "url": "https://terralore.co/country/IRL/chronicle#ev-1609-flight-of-the-earls-and-the-plantation-of-ulster",
@@ -274,9 +268,9 @@
    "sources": [
     {
      "id": "downsurvey-cromwell",
-     "label": "The Cromwellian Conquest and Land Settlement of Ireland",
+     "label": "The Cromwellian Settlement and Down Survey",
      "publisher": "The Down Survey of Ireland, Trinity College Dublin",
-     "url": "https://downsurvey.tchpc.tcd.ie/history.html"
+     "url": "https://www.downsurvey.ie/about/"
     }
    ],
    "url": "https://terralore.co/country/IRL/chronicle#ev-1649-cromwellian-conquest",
@@ -291,12 +285,6 @@
    "category": "politics",
    "era": "anglo-norman-invasion-and-conquest",
    "sources": [
-    {
-     "id": "downsurvey-cromwell",
-     "label": "The Cromwellian Conquest and Land Settlement of Ireland",
-     "publisher": "The Down Survey of Ireland, Trinity College Dublin",
-     "url": "https://downsurvey.tchpc.tcd.ie/history.html"
-    },
     {
      "id": "burns-penal",
      "label": "The Penal Laws in Ireland",

@@ -3,7 +3,7 @@
 History of Colombia: From the goldsmiths of the Muisca and the legend of El Dorado to a Spanish viceroyalty, the cradle of Bolivar's republic, and a…
 
 Canonical: https://terralore.co/country/COL/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Independence from Spain — 20 July 1810. Colombia traces its birth as a nation to 20 July 1810, when the patriots of Santa Fe de Bogota deposed the Spanish authorities and formed a governing junta in the 'Cry of Independence' (Grito de Independencia), the date still marked as the national day. Full independence was secured by Simon Bolivar's decisive victory at the Battle of Boyaca on 7 August 1819, after which the liberated territory of New Granada joined Bolivar's union of Gran Colombia. When that union dissolved in 1830 the country continued as New Granada and, from the constitution of 1886, took the name it bears today, the Republic of Colombia.
 
@@ -75,7 +75,7 @@ Figures:
 
 From the 1960s Colombia was gripped by a long internal armed conflict among leftist guerrillas, right-wing paramilitaries, the state, and drug-trafficking organisations, a war the 2016 peace accord with the FARC sought to end even as violence and the legacies of the drug trade persisted.
 
-- 1964 CE: **Founding of the FARC** — Peasant self-defence groups consolidate into the Revolutionary Armed Forces of Colombia, the largest of the leftist guerrilla movements. [britannica-farc, britannica-colombia]
+- 1966 CE: **FARC formally established** — The Southern Bloc guerrillas adopt the name Revolutionary Armed Forces of Colombia (FARC) at their second conference, formalising the organization that becomes the country's largest leftist insurgency. [britannica-farc, britannica-colombia]
 - 1980s-1990s: **Cartels and paramilitaries** — Cocaine cartels and right-wing paramilitary forces intensify the conflict with assassinations, bombings, kidnappings, and massacres of civilians. [britannica-colombia]
 - 2016 CE: **Peace accord with the FARC** — After four years of talks in Havana, the Santos government and the FARC sign a peace agreement; Santos receives the Nobel Peace Prize. [nobel-santos, britannica-colombia]
 - 2022 CE: **Truth Commission report** — The official Truth Commission estimates about 450,000 killed in 1985-2018 and millions displaced, the great majority of the dead civilians. [truth-commission]
@@ -97,7 +97,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:COL
 - [britannica-gran-colombia] Gran Colombia — Encyclopaedia Britannica · https://www.britannica.com/place/Gran-Colombia
 - [britannica-thousand-days] The War of a Thousand Days — Encyclopaedia Britannica · https://www.britannica.com/event/The-War-of-a-Thousand-Days
 - [britannica-garcia-marquez] Gabriel Garcia Marquez — Encyclopaedia Britannica · https://www.britannica.com/biography/Gabriel-Garcia-Marquez
-- [britannica-farc] Revolutionary Armed Forces of Colombia (FARC) — Encyclopaedia Britannica · https://www.britannica.com/topic/Revolutionary-Armed-Forces-of-Colombia
+- [britannica-farc] Operación Soberanía (en Marquetalia) — Comisión de la Verdad (Colombia) · https://www.comisiondelaverdad.co/operacion-soberania-en-marquetalia
 - [history-state-panama] The Panama Canal and Panamanian Independence, 1903 — U.S. Department of State, Office of the Historian · https://history.state.gov/milestones/1899-1913/panama-canal
 - [loc-colombia] Colombia: A Country Study — U.S. Library of Congress, Federal Research Division · https://www.loc.gov/item/2010009203/
 - [unesco-san-agustin] San Agustin Archaeological Park — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/744

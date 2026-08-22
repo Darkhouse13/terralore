@@ -3,7 +3,7 @@
 History of Malaysia: From the Malacca Sultanate and the spice straits to a multiethnic federation of peninsula and Borneo.. 6 eras and 22 sourced events…
 
 Canonical: https://terralore.co/country/MYS/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Formation of Malaysia — 16 Sep 1963. Malaysia was created on 16 September 1963 when the independent Federation of Malaya joined with Singapore and the former British Borneo territories of North Borneo (renamed Sabah) and Sarawak under the Malaysia Agreement signed in London on 9 July 1963. The new federation grew directly out of the Federation of Malaya, which had achieved independence (Merdeka) on 31 August 1957 under Tunku Abdul Rahman. Singapore left the federation by mutual agreement in 1965, leaving the present union of eleven peninsular states and the two Borneo states of Sabah and Sarawak.
 
@@ -96,7 +96,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:MYS
 - [britannica-federation-malaya] Federation of Malaya — Encyclopaedia Britannica · https://www.britannica.com/place/Federation-of-Malaya
 - [britannica-tunku] Tunku Abdul Rahman Putra Alhaj — Encyclopaedia Britannica · https://www.britannica.com/biography/Tunku-Abdul-Rahman-Putra-Alhaj
 - [britannica-mahathir] Mahathir bin Mohamad — Encyclopaedia Britannica · https://www.britannica.com/biography/Mahathir-bin-Mohamad
-- [nlb-fall-singapore] Singapore falls to the Japanese, 1942 — National Library Board, Singapore · https://eresources.nlb.gov.sg/history/events/b29e03c8-9f7a-4ba7-a807-b570ca4cea16
+- [nlb-fall-singapore] 1942 and the Fall of Singapore — National Heritage Board, Singapore · https://www.roots.gov.sg/stories-landing/stories/1942-and-the-fall-of-singapore/story
 - [history-state-frus-malaysia] Foreign Relations of the United States, 1964–1968: Indonesia/Malaysia (Konfrontasi and separation) — U.S. Department of State, Office of the Historian · https://history.state.gov/historicaldocuments/frus1964-68v26/d270
 - [unesco-melaka-georgetown] Melaka and George Town, Historic Cities of the Straits of Malacca — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1223
 - [iseas-nep] Fifty Years of Malaysia's New Economic Policy — ISEAS – Yusof Ishak Institute · https://www.iseas.edu.sg/wp-content/uploads/2021/07/ISEAS_EWP_2021-7_Lee.pdf

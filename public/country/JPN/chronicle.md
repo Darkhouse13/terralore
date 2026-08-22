@@ -3,7 +3,7 @@
 History of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.. 6 eras and 26…
 
 Canonical: https://terralore.co/country/JPN/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Legendary founding of the imperial line — 660 BCE (traditional). Japanese tradition, recorded in the 8th-century chronicles Kojiki and Nihon shoki, dates the founding of the realm to the accession of the legendary Emperor Jimmu in 660 BCE, a descendant of the sun goddess Amaterasu. No historical evidence supports Jimmu's existence; modern scholarship treats him as a mythical figure and locates the real emergence of organised Japanese statehood in the Yamato polity of central Honshu around the 3rd to 4th centuries CE.
 
@@ -98,11 +98,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:JPN
 
 - [jimmu] Jimmu — Encyclopaedia Britannica · https://www.britannica.com/topic/Jimmu
 - [asuka-period] Asuka period — Encyclopaedia Britannica · https://www.britannica.com/event/Asuka-period
-- [shotoku] Shotoku, Taishi — Encyclopaedia Britannica · https://www.britannica.com/biography/Shotoku-Taishi
+- [shotoku] Creating the Seventeen-Article Constitution — National Institutes for Cultural Heritage (Japan) · https://edu-cpcp.nich.go.jp/eden/en/panel-5-6.html
 - [nara-period] Nara period — Encyclopaedia Britannica · https://www.britannica.com/event/Nara-period
 - [heian-period] Heian period — Encyclopaedia Britannica · https://www.britannica.com/event/Heian-period
 - [tale-of-genji] The Tale of Genji — Encyclopaedia Britannica · https://www.britannica.com/topic/The-Tale-of-Genji
-- [murasaki] Murasaki Shikibu — Encyclopaedia Britannica · https://www.britannica.com/biography/Murasaki-Shikibu
+- [murasaki] The Tale of Genji: A Japanese Classic Illuminated — The Metropolitan Museum of Art · https://resources.metmuseum.org/resources/metpublications/pdf/The_Tale_of_Genji_A_Japanese_Classic_Illuminated.pdf
 - [minamoto-yoritomo] Minamoto Yoritomo — Encyclopaedia Britannica · https://www.britannica.com/biography/Minamoto-Yoritomo
 - [kamakura-period] Kamakura period — Encyclopaedia Britannica · https://www.britannica.com/event/Kamakura-period
 - [muromachi-period] Muromachi period — Encyclopaedia Britannica · https://www.britannica.com/event/Muromachi-period

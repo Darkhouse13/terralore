@@ -81,3 +81,7 @@ design-review/16-social/samples/
 # The committed record is the ledger (data/social-ledger.json) and the week
 # proof sheets under design-review/16-social/week/ — never the assets.
 /social-out/
+
+# Unpublished dataset builds. A release moves to public/ only after its
+# citations, licence scope, version metadata, and checksums are approved.
+/release-drafts/

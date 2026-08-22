@@ -3,7 +3,7 @@
 History of Saudi Arabia: From the incense roads of ancient Arabia and the cradle of Islam to the oil-fueled kingdom of the Al Saud.. 6 eras and 27…
 
 Canonical: https://terralore.co/country/SAU/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Proclamation of the Kingdom of Saudi Arabia — 23 September 1932. On 23 September 1932 the regions of Najd and the Hejaz, conquered and consolidated over three decades by Abdulaziz ibn Saud (Ibn Saud), were merged and renamed the Kingdom of Saudi Arabia by royal decree. The kingdom's deeper origins lie in the birth of Islam in the Hejaz in the 7th century, when the Prophet Muhammad preached in Mecca and Medina, and in the First Saudi State founded in 1744 at Diriyah through the alliance between the Al Saud ruler Muhammad ibn Saud and the religious reformer Muhammad ibn Abd al-Wahhab.
 
@@ -43,7 +43,7 @@ Figures:
 After Muhammad's death the centers of Islamic power moved away from Arabia, and for more than a thousand years the Hejaz and its holy cities were governed by distant caliphs, local sharifs, and finally the Ottomans.
 
 - 632 - 661 CE: **Medina as capital of the early caliphate** — Under the first (Rashidun) caliphs, Medina served as the capital of an expanding Muslim empire before power shifted away from Arabia. [britannica-arabia, wiki-sharifate]
-- 661 - 750 CE: **Umayyad and Abbasid rule over the Hejaz** — The Umayyads from Damascus and the Abbasids from Baghdad governed the Hejaz through appointed governors, patronizing Mecca and Medina from afar. [britannica-arabia]
+- 661 - 750 CE: **Umayyad and Abbasid rule over the Hejaz** — The Umayyads shifted the empire's capital to Damascus and the Abbasids later ruled from Baghdad, leaving Arabia politically peripheral while Mecca and Medina remained its religious centre. [britannica-arabia]
 - 10th century CE: **The Sharifate of Mecca takes shape** — A line of sharifs descended from the Prophet came to administer Mecca and the Hejaz, holding local authority for nearly a thousand years under shifting overlords. [wiki-sharifate]
 - 1517 CE: **Ottoman suzerainty over the Hejaz** — After defeating the Mamluks, the Ottomans gained sovereignty over the holy cities; the Sharif of Mecca recognized the Ottoman sultan as caliph while retaining local power. [wiki-sharifate]
 
@@ -97,7 +97,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SAU
 - [britannica-saudi-kingdom] Saudi Arabia: The Kingdom of Saudi Arabia — Encyclopaedia Britannica · https://www.britannica.com/place/Saudi-Arabia
 - [britannica-ibn-saud] Ibn Saud: Biography, History, Children, and Facts — Encyclopaedia Britannica · https://www.britannica.com/biography/Ibn-Saud
 - [britannica-hijrah] Hijrah: History, Definition, and Importance — Encyclopaedia Britannica · https://www.britannica.com/event/Hijrah-Islam
-- [britannica-arabia] History of Arabia: The Umayyad and Abbasid periods — Encyclopaedia Britannica · https://www.britannica.com/place/history-of-Arabia
+- [britannica-arabia] Saudi Arabia: A Country Study — U.S. Library of Congress, Federal Research Division · https://tile.loc.gov/storage-services/master/frd/frdcstdy/sa/saudiarabiacount00metz_0/saudiarabiacount00metz_0.pdf
 - [britannica-jeddah] Treaty of Jeddah (United Kingdom-Saudi Arabia, 1927) — Encyclopaedia Britannica · https://www.britannica.com/topic/Treaty-of-Jeddah
 - [unesco-hegra] Hegra Archaeological Site (al-Hijr / Madain Salih) — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1293/
 - [unesco-diriyah] At-Turaif District in ad-Dariyah — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1329/

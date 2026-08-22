@@ -3,7 +3,7 @@
 History of Germany: From the forests beyond the Rhine to the heart of a united Europe.. 6 eras and 24 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/DEU/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Proclamation of the German Empire — 18 Jan 1871. King Wilhelm I of Prussia was proclaimed German Emperor in the Hall of Mirrors at the Palace of Versailles on 18 January 1871, uniting the German states into a single nation under Prussian leadership. The new empire drew on older notions of German statehood reaching back to East Francia, established by the Treaty of Verdun in 843, and the imperial coronation of Otto I in 962 that founded the Holy Roman Empire. After the catastrophe of two world wars and forty years of Cold War division, the modern German nation-state was made whole again through reunification on 3 October 1990, when the German Democratic Republic acceded to the Federal Republic of Germany.
 
@@ -100,7 +100,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:DEU
 - [teutoburg-britannica] Battle of the Teutoburg Forest — Encyclopaedia Britannica · https://www.britannica.com/event/Battle-of-the-Teutoburg-Forest
 - [charlemagne-britannica] Charlemagne — Encyclopaedia Britannica · https://www.britannica.com/biography/Charlemagne
 - [verdun-britannica] Treaty of Verdun — Encyclopaedia Britannica · https://www.britannica.com/event/Treaty-of-Verdun
-- [otto-britannica] Otto I, Holy Roman Emperor — Encyclopaedia Britannica · https://www.britannica.com/biography/Otto-I-Holy-Roman-emperor
+- [otto-britannica] 962: The Establishment of the Holy Roman Empire — Deutschlandmuseum · https://www.deutschlandmuseum.de/en/history/calendar/962-02-02-the-establishment-of-the-holy-roman-empire/
 - [theses-britannica] Ninety-five Theses — Encyclopaedia Britannica · https://www.britannica.com/event/Ninety-five-Theses
 - [augsburg-britannica] Peace of Augsburg — Encyclopaedia Britannica · https://www.britannica.com/event/Peace-of-Augsburg
 - [westphalia-britannica] Peace of Westphalia — Encyclopaedia Britannica · https://www.britannica.com/event/Peace-of-Westphalia

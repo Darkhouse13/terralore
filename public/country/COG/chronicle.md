@@ -3,7 +3,7 @@
 History of Congo: From the Bantu peoples and the coastal Kingdom of Loango, through the Atlantic slave trade, Brazza's founding of Brazzaville and the…
 
 Canonical: https://terralore.co/country/COG/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from France — 15 August 1960. The Republic of the Congo became an independent state on 15 August 1960, ending its status as the colony of Middle Congo within French Equatorial Africa. The Abbé Fulbert Youlou, a Catholic priest turned nationalist politician who had led the territory's government in the final colonial years, became the new republic's first president. Independence followed a long history: the Bantu settlement of the region; the Vili Kingdom of Loango and the inland Teke kingdom; the Atlantic slave trade through Loango's coast; Pierre Savorgnan de Brazza's treaty with the Teke ruler Makoko and his 1880 founding of Brazzaville; and the colonial era of forced labour and the Congo-Ocean Railway. Brazzaville, the colonial federal capital of French Equatorial Africa and wartime seat of Free France, became the capital of the new state. The country kept close ties to France but, within a few years of independence, would turn sharply toward the political left.
 
@@ -111,7 +111,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:COG
 - [brazzaville-conference-blackpast] The Brazzaville Conference, 1944 — BlackPast.org · https://blackpast.org/global-african-history/brazzaville-conference-1944/
 - [youlou-wiki] Fulbert Youlou — Wikipedia · https://en.wikipedia.org/wiki/Fulbert_Youlou
 - [aaregistry-congo-independence] The Republic of the Congo Gains Independence From France — African American Registry · https://aaregistry.org/story/republic-of-the-congo-gains-independence-from-france/
-- [uca-congo-1960] Republic of the Congo (1960–present) — University of Central Arkansas, DADM Project · https://uca.edu/politicalscience/home/research-projects/dadm-project/sub-saharan-africa-region__trashed/congo-brazzaville-1960-present/
+- [uca-congo-1960] Assessment of Development Results: Republic of Congo — United Nations Development Programme · https://digitallibrary.un.org/record/654997/files/CongoADR-English.pdf
 - [ngouabi-wiki] Marien Ngouabi — Wikipedia · https://en.wikipedia.org/wiki/Marien_Ngouabi
 - [sassou-wiki] Denis Sassou Nguesso — Wikipedia · https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso
 - [lissouba-wiki] Pascal Lissouba — Wikipedia · https://en.wikipedia.org/wiki/Pascal_Lissouba

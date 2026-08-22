@@ -3,7 +3,7 @@
 History of France: From the forests of Gaul to the Fifth Republic. 5 eras and 19 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/FRA/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Treaty of Verdun — 843 CE. The Treaty of Verdun split Charlemagne's empire among his grandsons; the western portion, West Francia, is the territorial and political ancestor of France. The realm was consolidated under Hugh Capet from 987.
 
@@ -83,7 +83,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:FRA
 
 - [eb-france] France — Encyclopædia Britannica · https://www.britannica.com/place/France
 - [eb-marseille] Marseille — Encyclopædia Britannica · https://www.britannica.com/place/Marseille
-- [eb-alesia] Battle of Alesia — Encyclopædia Britannica · https://www.britannica.com/event/Battle-of-Alesia
+- [eb-alesia] Vercingetorix and Alesia — Musée d’Archéologie nationale · https://musee-archeologienationale.fr/en/node/1592
 - [eb-vercingetorix] Vercingetorix — Encyclopædia Britannica · https://www.britannica.com/biography/Vercingetorix
 - [eb-clovis] Clovis I — Encyclopædia Britannica · https://www.britannica.com/biography/Clovis-I
 - [eb-charlemagne] Charlemagne — Encyclopædia Britannica · https://www.britannica.com/biography/Charlemagne
@@ -97,7 +97,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:FRA
 - [eb-rights-of-man] Declaration of the Rights of Man and of the Citizen — Encyclopædia Britannica · https://www.britannica.com/topic/Declaration-of-the-Rights-of-Man-and-of-the-Citizen
 - [eb-napoleon] Napoleon I — Encyclopædia Britannica · https://www.britannica.com/biography/Napoleon-I
 - [eb-fifth-republic] France — The Fifth Republic — Encyclopædia Britannica · https://www.britannica.com/place/France/The-Fifth-Republic
-- [eb-de-gaulle] Charles de Gaulle — Encyclopædia Britannica · https://www.britannica.com/biography/Charles-de-Gaulle
+- [eb-de-gaulle] Charles de Gaulle — Presidency of the French Republic (Élysée) · https://www.elysee.fr/en/charles-de-gaulle
 - [wikipedia-verdun] Treaty of Verdun — Wikipedia · https://en.wikipedia.org/wiki/Treaty_of_Verdun
 - [nwe-france] France — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/France
 

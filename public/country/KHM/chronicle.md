@@ -3,7 +3,7 @@
 History of Cambodia: Heir to Angkor and the Khmer Empire, scarred by genocide, reborn as a constitutional kingdom under the shadow of one family's long…
 
 Canonical: https://terralore.co/country/KHM/chronicle
-Updated: 2026-06-15
+Updated: 2026-08-22
 
 Founding: Independence of the Kingdom of Cambodia from France — 9 November 1953. On 9 November 1953 King Norodom Sihanouk formally declared the full independence of Cambodia, completing the transfer of sovereignty from France after his self-styled Royal Crusade for Independence. Cambodia had been a French protectorate since 1863 and part of French Indochina from 1887; over 1953 the French handed back control of the police and judiciary in August and command of the army in October, and on 9 November General de Langlade ceremonially surrendered authority before the Royal Palace in Phnom Penh. The date is celebrated as Cambodia's Independence Day. This modern founding moment stands at the end of a far longer arc of Khmer statehood reaching back through the French protectorate, the long decline after Angkor, and the Khmer Empire founded by Jayavarman II in 802.
 
@@ -114,7 +114,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:KHM
 - [cambodia-vietnamese-intervention] Cambodia: Vietnamese intervention — Encyclopaedia Britannica · https://www.britannica.com/place/Cambodia/Vietnamese-intervention
 - [pol-pot] Pol Pot — Encyclopaedia Britannica · https://www.britannica.com/biography/Pol-Pot
 - [paris-agreement] Agreement on a Comprehensive Political Settlement of the Cambodia Conflict (Paris Agreement, 1991) — United Nations Peacemaker · https://peacemaker.un.org/en/documents/agreement-comprehensive-political-settlement-cambodia-conflict-paris-agreement
-- [untac] United Nations Transitional Authority in Cambodia (UNTAC) — United Nations Peacekeeping · https://peacekeeping.un.org/mission/past/untacbackgr1.html
+- [untac] United Nations Transitional Authority in Cambodia (UNTAC) — Background — United Nations Peacekeeping · https://peacekeeping.un.org/sites/default/files/past/untacbackgr1.html
 - [norodom-sihanouk] Norodom Sihanouk — Encyclopaedia Britannica · https://www.britannica.com/biography/Norodom-Sihanouk
 - [hun-sen] Hun Sen — Encyclopaedia Britannica · https://www.britannica.com/biography/Hun-Sen
 - [hun-manet] Hun Manet — Encyclopaedia Britannica · https://www.britannica.com/biography/Hun-Manet

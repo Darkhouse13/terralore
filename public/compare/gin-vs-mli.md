@@ -3,7 +3,7 @@
 Guinea and Mali side by side: 40 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/gin-vs-mli
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -107,8 +107,8 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- c. 1235: **Foundation of the Mali Empire on the upper Niger** — Sundiata Keita unites the Malinké chiefdoms of the Manding heartland and founds the Mali Empire, with its capital at Niani on the upper Niger. (from the Guinea chronicle; sources: Guinea — History; Mali Empire; Songhai Empire)
-- 1324: **Mansa Musa's pilgrimage makes Mali's gold legendary** — Under Mansa Musa, the Mali Empire — embracing the Mande lands of the upper Niger — reaches its height and becomes renowned abroad for the wealth of its rulers. (from the Guinea chronicle; sources: Mali Empire; Guinea — History)
+- c. 1235: **Foundation of the Mali Empire on the upper Niger** — Sundiata Keita unites the Malinké chiefdoms of the Manding heartland and founds the Mali Empire, with its capital at Niani on the upper Niger. (from the Guinea chronicle; sources: Guinea — History; Mansa Mūsā’s Pilgrimage to Mecca; Songhai Empire)
+- 1324: **Mansa Musa's pilgrimage makes Mali's gold legendary** — Under Mansa Musa, the Mali Empire — embracing the Mande lands of the upper Niger — reaches its height and becomes renowned abroad for the wealth of its rulers. (from the Guinea chronicle; sources: Mansa Mūsā’s Pilgrimage to Mecca; Guinea — History)
 
 ## Sources
 

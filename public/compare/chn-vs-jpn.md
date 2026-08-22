@@ -3,7 +3,7 @@
 China and Japan side by side: 41 shared sourced indicators across 9 domains, and the 5 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/chn-vs-jpn
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -116,7 +116,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 604 CE: **Prince Shotoku's Seventeen-Article Constitution** — As regent, Prince Shotoku promulgates a set of Confucian and Buddhist moral precepts for government and intensifies the adoption of Chinese institutions. (from the Japan chronicle; sources: Shotoku, Taishi; Asuka period)
+- 604 CE: **Prince Shotoku's Seventeen-Article Constitution** — As regent, Prince Shotoku promulgates a set of Confucian and Buddhist moral precepts for government and intensifies the adoption of Chinese institutions. (from the Japan chronicle; sources: Creating the Seventeen-Article Constitution; Asuka period)
 - 645 CE: **The Taika Reform** — A court coup destroys Soga dominance and inaugurates reforms reorganizing land and administration along centralized Chinese lines, the basis of the ritsuryo state. (from the Japan chronicle; sources: Asuka period; Japan)
 - 710 CE: **Capital established at Nara** — The court founds Japan's first permanent capital, Heijo-kyo (Nara), modeled on the Tang Chinese capital, beginning the Nara period. (from the Japan chronicle; sources: Nara period; Japan)
 - 1937 CE: **Second Sino-Japanese War and the Nanjing Massacre** — Japan's full-scale invasion from July 1937 brings catastrophic violence, including the December 1937 Nanjing Massacre, in which Japanese forces murdered many tens of thousands of civilians and prisoners and committed mass rape. (from the China chronicle; sources: Second Sino-Japanese War; China)

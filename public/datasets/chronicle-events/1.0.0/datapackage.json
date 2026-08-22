@@ -1,0 +1,71 @@
+{
+  "profile": "data-package",
+  "name": "terralore-chronicle-events",
+  "title": "Terralore Chronicle Events",
+  "description": "A curated corpus of sourced historical events from Terralore country chronicles. It is not an exhaustive event census.",
+  "version": "1.0.0",
+  "created": "2026-08-22",
+  "homepage": "https://terralore.co/datasets/chronicle-events",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Terralore",
+      "role": "author"
+    },
+    {
+      "title": "Terralore",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Terralore country chronicles",
+      "path": "https://terralore.co/atlas"
+    }
+  ],
+  "terralore": {
+    "status": "final",
+    "historyUpdatedThrough": "2026-08-22",
+    "countries": 184,
+    "events": 4564,
+    "sourceRecords": 3922,
+    "eventSourceLinks": 8268,
+    "codeSystem": "Natural Earth ADM0_A3 (not always ISO 3166-1 alpha-3)"
+  },
+  "resources": [
+    {
+      "name": "events_csv",
+      "path": "events.csv",
+      "bytes": 1865736,
+      "hash": "sha256:160c5ea9e5e403dc1a8d3cfad72d5cb9ff9935585c4839584c2bfe1996585b92",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "event_sources_csv",
+      "path": "event-sources.csv",
+      "bytes": 595702,
+      "hash": "sha256:0f41c27f0bc5e9e22c888993b4b1abe1caab780490969de9c31b09a56c70fab8",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "sources_csv",
+      "path": "sources.csv",
+      "bytes": 689470,
+      "hash": "sha256:6ddcb558f8d5cc3a8e9b6e6977d2556d9c929e1e5d1ec642ffafe13317a1dd95",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "events_ndjson",
+      "path": "events.ndjson",
+      "bytes": 2911723,
+      "hash": "sha256:5754b036b68ede9e36bda1b72bc0d03d8ccade975a3684ae6440bf8816539343",
+      "mediatype": "application/x-ndjson"
+    }
+  ]
+}

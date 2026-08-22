@@ -3,7 +3,7 @@
 History of Argentina: From the Diaguita, Guarani and Mapuche worlds of the Rio de la Plata to a Spanish viceroyalty, the independence declared at Tucuman…
 
 Canonical: https://terralore.co/country/ARG/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Declaration of Independence at Tucuman — 9 July 1816. On 9 July 1816 the Congress meeting at San Miguel de Tucuman declared independence from Spain, proclaiming the United Provinces of South America (the United Provinces of the Rio de la Plata), the political nucleus of modern Argentina; twenty-nine delegates signed the declaration, with Francisco Narciso de Laprida presiding. The break had been prepared by the May Revolution of 25 May 1810 in Buenos Aires, which deposed the Spanish viceroy and installed the Primera Junta, the first self-governing body, after Napoleon's invasion of Spain shattered royal authority. National organisation came only decades later, when the Constitution of 1853, sanctioned at Santa Fe after the fall of Juan Manuel de Rosas, established a federal, representative and republican state and laid the legal foundation of the country.
 
@@ -119,7 +119,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:ARG
 - [britannica-falklands-war] Falkland Islands War — Encyclopaedia Britannica · https://www.britannica.com/event/Falkland-Islands-War
 - [britannica-alfonsin] Raul Alfonsin — Encyclopaedia Britannica · https://www.britannica.com/biography/Raul-Alfonsin
 - [conadep-nunca-mas] National Commission on the Disappearance of Persons (CONADEP), Nunca Mas — Wikipedia · https://en.wikipedia.org/wiki/National_Commission_on_the_Disappearance_of_Persons
-- [unesco-jesuit-missions] Jesuit Missions of the Guaranis — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/291/
+- [unesco-jesuit-missions] Jesuit Missions of the Guaranis — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/275/
 - [unesco-cueva-manos] Cueva de las Manos, Rio Pinturas — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/936/
 - [statedept-argentina] A Guide to the United States' History of Recognition: Argentina — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/argentina
 

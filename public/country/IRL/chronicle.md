@@ -3,7 +3,7 @@
 History of Ireland: From Gaelic kingdoms and a monastic golden age to partition, the Republic and a place at the heart of Europe.. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/IRL/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: The Anglo-Irish Treaty and the Irish Free State — 1921–1922. The modern Irish state traces its origin to the Anglo-Irish Treaty signed in London on 6 December 1921, which ended the War of Independence and established the Irish Free State as a self-governing dominion within the British Empire. The Treaty also confirmed the partition of the island: six counties in the north-east remained within the United Kingdom as Northern Ireland. The settlement split the independence movement and led to a civil war in 1922-1923 between pro- and anti-Treaty forces. The Free State adopted a new constitution in 1937 renaming the state Éire/Ireland, and the Republic of Ireland Act, which came into force on 18 April 1949, formally declared the twenty-six-county state a republic and removed the last role of the British Crown. The aspiration to a united Ireland endured until it was reconciled with the principle of consent in the 1998 Good Friday Agreement.
 
@@ -45,9 +45,9 @@ A Leinster king's appeal for help drew in the Anglo-Normans, beginning centuries
 
 - 1169: **Anglo-Norman landing in Ireland** — At the invitation of the exiled Leinster king Diarmait Mac Murchada, Anglo-Norman, Welsh and Flemish forces landed in Wexford in 1169, beginning centuries of English involvement in Ireland. [ebsco-normans, nwe-normans]
 - 1171: **Henry II and the Lordship of Ireland** — Henry II landed at Waterford in 1171, the first English king in Ireland, and established the Lordship of Ireland; in 1177 he made his son John 'Lord of Ireland'. [nwe-normans, ebsco-normans]
-- 1607–1609: **Flight of the Earls and the Plantation of Ulster** — After the Gaelic earls fled Ireland in 1607, King James I planted English and Scottish Protestant settlers across confiscated lands in Ulster from 1609, embedding a lasting religious and political division. [ebsco-christianity, downsurvey-cromwell]
+- 1607–1609: **Flight of the Earls and the Plantation of Ulster** — After the Gaelic earls fled Ireland in 1607, King James I planted English and Scottish Protestant settlers across confiscated lands in Ulster from 1609, embedding a lasting religious and political division. [ebsco-christianity]
 - 1649: **Cromwellian conquest** — Oliver Cromwell's parliamentary army stormed Drogheda and Wexford with notorious massacres; the conquest was followed by the 1652 Act for the Settlement of Ireland and the mass confiscation of Catholic land. [downsurvey-cromwell]
-- 1690–1691: **Williamite victory and the Penal era** — The Protestant William III defeated the Catholic James II at the Boyne in 1690 and Limerick in 1691, after which the Protestant Ascendancy entrenched its rule through the anti-Catholic Penal Laws. [downsurvey-cromwell, burns-penal]
+- 1690–1691: **Williamite victory and the Penal era** — The Protestant William III defeated the Catholic James II at the Boyne in 1690 and Limerick in 1691, after which the Protestant Ascendancy entrenched its rule through the anti-Catholic Penal Laws. [burns-penal]
 
 Figures:
 
@@ -108,7 +108,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:IRL
 - [thecollector-vikings] How the Vikings Shaped Ireland — TheCollector · https://www.thecollector.com/vikings-ireland/
 - [ebsco-normans] Normans Invade Ireland — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/normans-invade-ireland
 - [nwe-normans] Anglo-Norman invasion of Ireland — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Anglo-Norman_invasion_of_Ireland
-- [downsurvey-cromwell] The Cromwellian Conquest and Land Settlement of Ireland — The Down Survey of Ireland, Trinity College Dublin · https://downsurvey.tchpc.tcd.ie/history.html
+- [downsurvey-cromwell] The Cromwellian Settlement and Down Survey — The Down Survey of Ireland, Trinity College Dublin · https://www.downsurvey.ie/about/
 - [udel-parnell] Charles Stewart Parnell and the Home Rule Movement — University of Delaware Library (Easter Rising exhibition) · https://exhibitions.lib.udel.edu/easter1916/home/ireland-to-1900/parnell/
 - [history-famine] Irish Potato Famine: Date, Cause & Great Hunger — HISTORY · https://www.history.com/articles/irish-potato-famine
 - [irishmemorial-famine] The Great Hunger: The History of An Gorta Mór — The Irish Memorial, Philadelphia · https://irishmemorial.org/the-great-hunger/

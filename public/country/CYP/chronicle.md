@@ -3,7 +3,7 @@
 History of Cyprus: An island at the crossroads of three continents, Greek and Turkish, divided by a line drawn in green.. 6 eras and 30 sourced events…
 
 Canonical: https://terralore.co/country/CYP/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence under the Zürich-London Agreements — 16 Aug 1960. The Republic of Cyprus was born on 16 August 1960, when British colonial rule ended on the basis of compromise agreements reached at Zürich and London in 1959. The new state had an intricate constitution sharing power between the Greek Cypriot majority and the Turkish Cypriot minority, a Treaty of Guarantee binding Britain, Greece and Turkey to uphold its independence and territorial integrity, and a provision allowing the United Kingdom to retain sovereignty over two military bases at Akrotiri and Dhekelia. The settlement explicitly ruled out both énosis (union with Greece), the goal of the Greek Cypriot nationalist movement, and partition. The arrangement proved fragile: within three years the power-sharing machinery had broken down, and the island has been entangled in one of the world's longest-running international disputes ever since.
 
@@ -114,7 +114,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:CYP
 - [troodos-unesco] Painted Churches in the Troödos Region (World Heritage List, inscribed 1985) — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/351/
 - [treaty-guarantee-un] Treaty of Guarantee, signed at Nicosia, 16 August 1960 — United Nations Peacemaker · https://peacemaker.un.org/sites/default/files/document/files/2024/05/cy20gr20tr600816treaty20of20guarantee.pdf
 - [unficyp-establishment] Establishment of UNFICYP (Security Council Resolution 186, 4 March 1964) — United Nations (UNFICYP) · https://unficyp.unmissions.org/en/establishment-unficyp
-- [unficyp-peacekeeping] UNFICYP: United Nations Peacekeeping Force in Cyprus — United Nations Peacekeeping · https://peacekeeping.un.org/en/mission/unficyp
+- [unficyp-peacekeeping] About UNFICYP — United Nations Peacekeeping Force in Cyprus · https://unficyp.unmissions.org/en/about-unficyp
 - [cyprusun-unficyp] UNFICYP – United Nations Force in Cyprus — Permanent Mission of the Republic of Cyprus to the United Nations · https://www.cyprusun.org/?page_id=367
 - [statedept-cyprus] A Guide to the History of Recognition, Diplomatic and Consular Relations: Cyprus — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/cyprus
 - [cyprus-eu] Cyprus (EU country profile) — European Union (european-union.europa.eu) · https://european-union.europa.eu/principles-countries-history/eu-countries/cyprus_en

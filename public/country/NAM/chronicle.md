@@ -3,7 +3,7 @@
 History of Namibia: From the San and Khoekhoe of the Namib and the rock art of Twyfelfontein, through the German colonial genocide of the Herero and…
 
 Canonical: https://terralore.co/country/NAM/chronicle
-Updated: 2026-06-13
+Updated: 2026-08-22
 
 Founding: Independence from South Africa — 21 March 1990. Namibia became an independent republic on 21 March 1990, ending seventy-five years of South African rule and decades of struggle. South Africa had occupied the former German colony in 1915 and administered it under a League of Nations mandate, then in continued defiance of the United Nations, which revoked the mandate in 1966 and which the International Court of Justice in 1971 found South Africa was occupying illegally. After a UN-supervised transition under Security Council Resolution 435, elections in November 1989 produced a Constituent Assembly that adopted a democratic constitution, and at midnight on 21 March 1990 the new flag was raised in Windhoek. Sam Nujoma, the long-time leader of the liberation movement SWAPO, was sworn in as the first president of a free Namibia. The young nation completed its territory in 1994, when South Africa transferred the port enclave of Walvis Bay to Namibian sovereignty.
 
@@ -99,7 +99,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:NAM
 
 - [britannica-namibia] Namibia (country, history and government) — Encyclopaedia Britannica · https://www.britannica.com/place/Namibia
 - [britannica-twyfelfontein] Twyfelfontein — Encyclopaedia Britannica · https://www.britannica.com/place/Twyfelfontein
-- [britannica-genocide] Herero and Nama genocide — Encyclopaedia Britannica · https://www.britannica.com/event/Herero-and-Nama-genocide
+- [britannica-genocide] Commemorating the Genocide of the Herero and Nama — Federal Government of Germany · https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/gedenken-herero-und-nama-2350348
 - [unesco-twyfelfontein] Twyfelfontein or /Ui-//aes — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1255/
 - [icj-namibia] Legal Consequences for States of the Continued Presence of South Africa in Namibia (1971 Advisory Opinion) — International Court of Justice · https://www.icj-cij.org/case/53
 - [wiki-namibia] Namibia — Wikipedia · https://en.wikipedia.org/wiki/Namibia

@@ -19,7 +19,7 @@ import { join } from "node:path";
 import ledger from "@/data/social-ledger.json";
 import pool from "@/data/social-hashtags.json";
 import { allTwins } from "@/lib/geo";
-import sitemap from "@/app/sitemap";
+import { allSitemapEntries } from "@/lib/sitemaps";
 import { SITE_URL } from "@/lib/seo";
 import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
@@ -80,7 +80,7 @@ for (const type of ["on-this-day", "ranking", "commodity", "compare", "formation
 /* ── the URL universe ─────────────────────────────────────────────────────── */
 
 const published = new Set();
-for (const e of sitemap()) published.add(e.url.replace(SITE_URL, "") || "/");
+for (const e of allSitemapEntries()) published.add(e.url.replace(SITE_URL, "") || "/");
 for (const t of allTwins()) {
   published.add(t.canonicalPath);
   published.add(t.path);

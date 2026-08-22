@@ -3,7 +3,7 @@
 History of Papua New Guinea: From the world's first farmers and 800 languages to a young Pacific nation.. 6 eras and 28 sourced events, every claim…
 
 Canonical: https://terralore.co/country/PNG/chronicle
-Updated: 2026-08-11
+Updated: 2026-08-22
 
 Founding: Independence from Australia — 16 September 1975. Papua New Guinea became an independent state on 16 September 1975, when Australia transferred sovereignty over the combined Territory of Papua and New Guinea to a new Melanesian nation led by Chief Minister Michael Somare, who became its first prime minister. The country had moved to internal self-government on 1 December 1973, and the independence ceremony in Port Moresby was attended by Prince Charles representing Queen Elizabeth II — who remained head of state — and by Australian leaders. The United States recognised the new nation the same day. This founding rests on a human history tens of thousands of years deep: New Guinea was first settled around 50,000 years ago, and its highland peoples were among the world's earliest farmers.
 
@@ -93,7 +93,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:PNG
 - [anzac-kokoda] Australians in the Kokoda Track Campaign, 21 July to 16 November 1942 — Anzac Portal, Australian Department of Veterans' Affairs · https://anzacportal.dva.gov.au/wars-and-missions/ww2/where/swpa/png/kokoda-1942
 - [naa-png-independence] Independence of Papua New Guinea — National Archives of Australia · https://www.naa.gov.au/help-your-research/fact-sheets/independence-papua-new-guinea
 - [statedept-png] A Guide to the United States' History of Recognition: Papua New Guinea — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/papua-new-guinea
-- [natarchives-uk-png] British New Guinea and German New Guinea — The National Archives (UK) · https://www.nationalarchives.gov.uk/first-world-war__trashed/a-global-view__trashed/asia/british-new-guinea-and-german-new-guinea/
+- [natarchives-uk-png] Records of Papua New Guinea, 1883–1942 — National Archives of Australia · https://www.naa.gov.au/help-your-research/fact-sheets/records-papua-new-guinea-1883-1942
 - [peo-papua] Administration of Papua — Parliamentary Education Office (Australia) · https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/administration-of-papua
 - [slnsw-png] Papua New Guinea: forty years of independence — State Library of New South Wales · https://www.sl.nsw.gov.au/stories/papua-new-guinea-forty-years-independence
 - [concil-bougainville] Bougainville: the conflict in focus — Conciliation Resources · https://www.c-r.org/programme/pacific/bougainville-conflict-focus
