@@ -6,6 +6,37 @@ build and the checks below say so.
 
 ---
 
+## 2026-08-22 — crawl recovery and Chronicle Events 1.0.0 (cd7a19b)
+
+Search-recovery release following the Google Search Console impression
+investigation. It repairs 45 dead historical citations (fresh 3,759-URL audit:
+zero `gone`), splits the 1,446-URL sitemap into an eight-family index, teaches
+page auditing and IndexNow to recurse through that index, and adds a
+Googlebot access-log analyzer.
+
+- Full local gates passed: history/domain/geo/claims/release/ledger/letter/
+  sitemap/social validation, seal verification, TypeScript, lint with zero
+  errors (11 existing warnings), and a 2,406-page production build.
+- Published `/datasets/chronicle-events`: 4,564 events, 184 chronicles, 3,922
+  source records, 8,268 event-source links; deterministic CSV/NDJSON package,
+  Data Package metadata, checksums, CC BY 4.0 scope, and `Dataset`/
+  `DataDownload` structured data.
+- Seal `2026-08-22`, root `c225a16152bc9f8c…`, covers 1,520 files and directly
+  supersedes deployed seal `2026-08-14.4`.
+- Pushed at 15:44 UTC. The GitHub webhook could not queue the release because
+  `coolify.qalame.xyz` had no DNS record, so the identical Coolify application
+  queue was triggered locally; deployment `cv5wlffisf9e8l90z6kfdb2h`
+  finished at 15:50:06 UTC. Live page, dataset files, integrity root, sitemap
+  index, eight child maps, and the exact 1,446-URL recursive union all passed.
+- Traefik JSON access logging enabled at 15:51 UTC with only `User-Agent`
+  retained among headers, client IP retained for Google crawler verification,
+  and host-side daily/50 MB/14-rotation retention. Backup and procedure are in
+  `docs/googlebot-observability.md`.
+- GitHub Release `chronicle-events-v1.0.0` archives the exact package at commit
+  `cd7a19b`. Zenodo DOI remains pending credentials or repository integration.
+
+---
+
 ## 2026-08-14 — subscribe-flow repair: outbound 465 is blocked (712cba5)
 
 Live defect: submitting the capture form on `/ledger` froze for ~12s, then

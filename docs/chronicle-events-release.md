@@ -36,8 +36,10 @@ Release 1.0.0 was prepared on 2026-08-22. Its publication gates are:
 5. **Complete (2026-08-22):** release files are part of seal `2026-08-22`; the
    server-rendered `/datasets/chronicle-events` page exposes `Dataset` and
    `DataDownload` structured data.
-6. **In progress:** archive the exact bytes in a GitHub Release; obtain a
-   persistent DOI through Zenodo once repository integration is confirmed.
+6. **Partly complete (2026-08-22):** the exact bytes, Data Package metadata,
+   package checksums, and a deterministic archive are published in GitHub
+   Release `chronicle-events-v1.0.0`. A persistent DOI remains pending because
+   no Zenodo credential or confirmed GitHub–Zenodo integration is available.
 
 ## Method statement
 

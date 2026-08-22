@@ -1,19 +1,18 @@
 # Googlebot origin observability
 
-## Current state (2026-08-22)
+## Historical limit (2026-08-22)
 
 The Coolify Traefik proxy was not configured with access logging, and the
 Terralore Next.js container only records startup and application errors. There
 are no surviving proxy, nginx, Caddy, or prior-container access logs. Therefore
 the origin cannot reconstruct Googlebot requests from the August 2026
 impression decline. Search Console Crawl stats and URL Inspection are the only
-available historical crawl evidence.
+available historical crawl evidence. Logging enabled later that day cannot
+reconstruct requests made before that point.
 
-No production configuration was changed during this investigation.
+## Enabled Traefik JSON access log
 
-## Enable a privacy-minimal Traefik JSON access log
-
-Add these static arguments to the `coolify-proxy` service in
+The `coolify-proxy` service now has these static arguments in
 `/data/coolify/proxy/docker-compose.yml`:
 
 ```yaml
@@ -25,13 +24,22 @@ Add these static arguments to the `coolify-proxy` service in
 - --accesslog.fields.headers.names.User-Agent=keep
 ```
 
-The existing `/traefik` mount maps this to
+The change was applied at 2026-08-22 15:51 UTC after validating the composed
+configuration. The pre-change file is backed up as
+`/data/coolify/proxy/docker-compose.yml.bak-accesslog-20260822T155140Z`.
+
+The existing `/traefik` mount maps the log to
 `/data/coolify/proxy/access.log` on the host. Header logging stays off except
-for `User-Agent`; do not enable cookies, authorization, or other request
-headers. Add host-side log rotation before leaving the log enabled for more
-than a short diagnostic window. After restarting the proxy, confirm the exact
-field names from one JSON line because Traefik versions can name the retained
-user-agent field differently.
+for `User-Agent`; cookies, authorization, and other request headers are not
+recorded. Client IP is retained because Google recommends reverse- then
+forward-DNS verification of crawler IPs. The raw shared-proxy log stays on the
+server and is rotated daily, at 50 MB maximum size, with 14 rotations via
+`/etc/logrotate.d/coolify-traefik-access`.
+
+A live non-crawler probe confirmed the expected Traefik 3.6 field name is
+`request_User-Agent`, the Terralore host and path are present, and the request
+status is recorded. The proxy returned healthy immediately after recreation
+and `https://terralore.co/` continued to return HTTP 200.
 
 ## Analyze without copying raw logs off the server
 
