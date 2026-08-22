@@ -30,7 +30,8 @@ Googlebot access-log analyzer.
   index, eight child maps, and the exact 1,446-URL recursive union all passed.
 - Traefik JSON access logging enabled at 15:51 UTC with only `User-Agent`
   retained among headers, client IP retained for Google crawler verification,
-  and host-side daily/50 MB/14-rotation retention. Backup and procedure are in
+  and a dedicated hourly systemd rotation retaining 336 compressed rotations
+  (14 days) with a 50 MB early-rotation threshold. Backup and procedure are in
   `docs/googlebot-observability.md`.
 - GitHub Release `chronicle-events-v1.0.0` archives the exact package at commit
   `cd7a19b`. Zenodo DOI remains pending credentials or repository integration.

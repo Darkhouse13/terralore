@@ -33,8 +33,11 @@ The existing `/traefik` mount maps the log to
 for `User-Agent`; cookies, authorization, and other request headers are not
 recorded. Client IP is retained because Google recommends reverse- then
 forward-DNS verification of crawler IPs. The raw shared-proxy log stays on the
-server and is rotated daily, at 50 MB maximum size, with 14 rotations via
-`/etc/logrotate.d/coolify-traefik-access`.
+server. A dedicated systemd timer runs hourly and keeps 336 hourly rotations
+(14 days), compressed after the newest rotation, with an early-rotation
+threshold of 50 MB. Its configuration is
+`/etc/terralore/logrotate-traefik-access`; the units are
+`terralore-traefik-logrotate.service` and `.timer`.
 
 A live non-crawler probe confirmed the expected Traefik 3.6 field name is
 `request_User-Agent`, the Terralore host and path are present, and the request
