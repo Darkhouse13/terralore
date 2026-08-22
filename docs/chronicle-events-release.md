@@ -36,10 +36,11 @@ Release 1.0.0 was prepared on 2026-08-22. Its publication gates are:
 5. **Complete (2026-08-22):** release files are part of seal `2026-08-22`; the
    server-rendered `/datasets/chronicle-events` page exposes `Dataset` and
    `DataDownload` structured data.
-6. **Partly complete (2026-08-22):** the exact bytes, Data Package metadata,
-   package checksums, and a deterministic archive are published in GitHub
-   Release `chronicle-events-v1.0.0`. A persistent DOI remains pending because
-   no Zenodo credential or confirmed GitHub–Zenodo integration is available.
+6. **Complete (2026-08-22):** the exact bytes, Data Package metadata, package
+   checksums, and a deterministic archive are published in GitHub Release
+   `chronicle-events-v1.0.0` and Zenodo. The persistent version DOI is
+   `10.5281/zenodo.22059347`; all ten Zenodo files were checksum-matched to the
+   local release before publication.
 
 ## Method statement
 

@@ -90,6 +90,14 @@ Every `Metric` carries a `value`, a `year` (its vintage), a `unit`, and a `sourc
 that **must resolve** in the file's `sources` — the same trust rule the histories obey.
 Missing data renders as "—"; it is never imputed.
 
+### Chronicle Events dataset
+
+The 4,564-event chronicle layer is also published as deterministic CSV and
+NDJSON with 8,268 source relationships, Data Package metadata, checksums, and a
+persistent Zenodo DOI: [`10.5281/zenodo.22059347`](https://doi.org/10.5281/zenodo.22059347).
+The human and machine-readable landing page is
+[`/datasets/chronicle-events`](https://terralore.co/datasets/chronicle-events).
+
 ### Canonical country code
 
 Everything keys on **Natural Earth `ADM0_A3`** (`FRA`, `DEU`, `USA`). `ISO_A3` is `-99`
@@ -130,7 +138,7 @@ JavaScript. That is a load-bearing constraint, not a nicety:
   list, `Dataset` for the dossier metrics, `Country`, `BreadcrumbList`. Citations name
   the *originating* publisher, so an answer engine can attribute the chain rather than
   flattening it to "a website".
-- `app/sitemap.xml/route.ts` and `lib/sitemaps.ts` (1,445 URLs across eight child
+- `app/sitemap.xml/route.ts` and `lib/sitemaps.ts` (1,446 URLs across eight child
   sitemaps), `app/robots.ts` (which names answer-engine crawlers as an explicit
   opt-in), and `/llms.txt` describing the corpus with canonical per-nation chronicle
   URLs.

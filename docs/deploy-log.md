@@ -34,7 +34,8 @@ Googlebot access-log analyzer.
   (14 days) with a 50 MB early-rotation threshold. Backup and procedure are in
   `docs/googlebot-observability.md`.
 - GitHub Release `chronicle-events-v1.0.0` archives the exact package at commit
-  `cd7a19b`. Zenodo DOI remains pending credentials or repository integration.
+  `cd7a19b`. The same ten checksum-verified files are permanently archived by
+  Zenodo as version DOI `10.5281/zenodo.22059347`.
 - IndexNow accepted the full 1,446-URL union (HTTP 200). A production crawl then
   checked all 1,446 pages: every URL returned 200 with one H1, unique title and
   description, valid JSON-LD, a self-canonical, and no sitemap orphans.

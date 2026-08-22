@@ -14,6 +14,11 @@ import {
 
 const PATH = routes.chronicleEventsDataset();
 const VERSION_ROOT = `${PATH}/${dataPackage.version}`;
+const DOI = "10.5281/zenodo.22059347";
+const DOI_URL = `https://doi.org/${DOI}`;
+const ZENODO_RECORD = "https://zenodo.org/records/22059347";
+const GITHUB_RELEASE =
+  "https://github.com/Darkhouse13/terralore/releases/tag/chronicle-events-v1.0.0";
 const DESCRIPTION =
   "Download 4,564 curated historical events from 184 Terralore country chronicles, with stable claim IDs, canonical URLs and 8,268 source relationships.";
 
@@ -58,6 +63,8 @@ function datasetLd(): Record<string, unknown> {
     name: dataPackage.title,
     description: dataPackage.description,
     url: abs(PATH),
+    identifier: DOI_URL,
+    sameAs: [ZENODO_RECORD, GITHUB_RELEASE],
     version: dataPackage.version,
     datePublished: dataPackage.created,
     dateModified: dataPackage.terralore.historyUpdatedThrough,
@@ -141,6 +148,7 @@ export default function ChronicleEventsDatasetPage() {
               ))}
             </ul>
             <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 font-mono text-[10.5px] uppercase">
+              <a href={DOI_URL}>DOI {DOI}</a>
               <a href={`${VERSION_ROOT}/datapackage.json`}>Data Package metadata</a>
               <a href={`${VERSION_ROOT}/SHA256SUMS`}>SHA-256 checksums</a>
               <a href={`${VERSION_ROOT}/README.md`}>Package readme</a>
@@ -167,7 +175,8 @@ export default function ChronicleEventsDatasetPage() {
           <section className="mt-8 border-t-2 border-basalt pt-5">
             <h2 className="font-display text-[22px] font-extrabold tracking-tight uppercase">Citation and licence</h2>
             <p className="mt-3 border-2 border-basalt bg-sand px-4 py-3 font-mono text-[11.5px] leading-relaxed select-text">
-              Terralore (2026). <i>Terralore Chronicle Events</i> (Version {dataPackage.version}) [Data set]. {abs(PATH)}
+              Terralore (2026). <i>Terralore Chronicle Events</i> (Version {dataPackage.version}) [Data set]. Zenodo.{" "}
+              <a href={DOI_URL} className="underline underline-offset-2">{DOI_URL}</a>
             </p>
             <p className="mt-4 font-sans text-[14px] leading-relaxed">
               Terralore&rsquo;s event summaries and compilation structure are released under{" "}
