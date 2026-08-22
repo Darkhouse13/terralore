@@ -35,6 +35,13 @@ Googlebot access-log analyzer.
   `docs/googlebot-observability.md`.
 - GitHub Release `chronicle-events-v1.0.0` archives the exact package at commit
   `cd7a19b`. Zenodo DOI remains pending credentials or repository integration.
+- IndexNow accepted the full 1,446-URL union (HTTP 200). A production crawl then
+  checked all 1,446 pages: every URL returned 200 with one H1, unique title and
+  description, valid JSON-LD, a self-canonical, and no sitemap orphans.
+- Search Console accepted a fresh submission of the same root URL as a
+  **Sitemap index**. Minutes later the new origin log captured five Googlebot
+  requests (robots, root sitemap, and three child maps), all 2xx; both claimed
+  crawler IPs passed reverse- then forward-DNS verification.
 
 ---
 
