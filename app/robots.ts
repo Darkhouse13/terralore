@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { abs, SITE_URL } from "@/lib/seo";
+import { abs } from "@/lib/seo";
 
 /**
  * Answer-engine and AI crawlers, listed explicitly.
@@ -47,7 +47,9 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
+    // No `host` directive: it was a Yandex-only extension, deprecated by
+    // Yandex itself in 2018 — canonical-host signaling is done by the
+    // www→apex/http→https 301s and consistent canonical tags.
     sitemap: abs("/sitemap.xml"),
-    host: SITE_URL,
   };
 }

@@ -26,9 +26,17 @@ function isoDate(value: string | Date): string {
 }
 
 export function renderSitemapIndexXml(): string {
-  const sitemaps = SITEMAP_GROUP_IDS.map(
-    (group) => `  <sitemap><loc>${escapeXml(abs(sitemapGroupPath(group)))}</loc></sitemap>`,
-  ).join("\n");
+  // Each group's lastmod is the newest lastmod among its own entries, so a
+  // crawler can tell which sub-sitemaps changed without fetching all eight.
+  const sitemaps = SITEMAP_GROUP_IDS.map((group) => {
+    const newest = buildSitemapGroup(group)
+      .map((e) => (e.lastModified ? isoDate(e.lastModified) : ""))
+      .filter(Boolean)
+      .sort()
+      .at(-1);
+    const lastmod = newest ? `<lastmod>${escapeXml(newest)}</lastmod>` : "";
+    return `  <sitemap><loc>${escapeXml(abs(sitemapGroupPath(group)))}</loc>${lastmod}</sitemap>`;
+  }).join("\n");
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
