@@ -447,9 +447,12 @@ function PeriodSection({
       <ol className="mt-5 space-y-2.5">
         {preview.map((ev, i) => (
           <li key={`${ev.code}-${ev.year}-${i}`} className={ROW}>
+            {/* sr-only separator: the margin-spaced title/nation spans otherwise
+                jam in textContent extraction ("Revolution of 1930Brazil"). */}
             <YearStamp year={ev.year} label={ev.yearLabel} />
             <p className={ROW_BODY}>
               <span className={ROW_TITLE}>{ev.title}</span>
+              <span className="sr-only"> · </span>
               <span className={ROW_NATION}>
                 {ev.nation}
               </span>

@@ -20,9 +20,14 @@ import localFont from "next/font/local";
                           the late swap measured CLS 0.089 — worse than the
                           ~250ms of LCP the preload costs.
 
-     IBM Plex Mono        data: values, years, codes, eyebrows. NOT
-                          preloaded: it renders small labels where a swap is
-                          imperceptible.
+     IBM Plex Mono        data: values, years, codes, eyebrows. Preloaded
+                          since 2026-08-27: "small labels, imperceptible
+                          swap" was measured false — the chronicle masthead
+                          concentrates enough mono text (eyebrows, quick
+                          facts, the verification line) that the swap
+                          reflowed the header at CLS 0.309 on mobile,
+                          single-handedly dragging the route to Lighthouse
+                          81 against the ≥95 floor.
 
    `display: "swap"` throughout — text is readable immediately in the
    fallback, never blocked on a webfont. */
@@ -48,5 +53,4 @@ export const plexMono = localFont({
   ],
   variable: "--ff-mono",
   display: "swap",
-  preload: false,
 });
