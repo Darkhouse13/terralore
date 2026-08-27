@@ -3,7 +3,7 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { allThemes, corpusStats, formatYear } from "@/lib/chronology";
 import type { ThemeBucket, WorldEvent } from "@/lib/chronology";
-import { abs, breadcrumbLd, routes, SITE_NAME, siteOgImages } from "@/lib/seo";
+import { abs, breadcrumbLd, publisher, routes, SITE_NAME, SITE_URL, siteOgImages } from "@/lib/seo";
 
 /**
  * The thematic hub.
@@ -84,7 +84,8 @@ export default function ThemesHubPage() {
             inLanguage: "en",
             isAccessibleForFree: true,
             license: "https://creativecommons.org/licenses/by/4.0/",
-            isPartOf: { "@type": "WebSite", name: SITE_NAME, url: abs(routes.home()) },
+            isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website`, name: SITE_NAME, url: SITE_URL },
+            publisher,
             mainEntity: {
               "@type": "ItemList",
               name: "Thematic collections",
@@ -252,13 +253,17 @@ function ThemeCard({ theme, rank }: { theme: ThemeBucket; rank: number }) {
           {specimens.map(({ label, event }) => (
             <div key={label}>
               <dt className="eyebrow text-umber">{label}</dt>
+              {/* sr-only separators: the margin-spaced spans otherwise jam in
+                  textContent extraction ("2021Third referendum"). */}
               <dd className="mt-1">
                 <span className="font-mono text-[11px] tabular-nums text-oxide">
                   {event.yearLabel}
                 </span>
+                <span className="sr-only"> — </span>
                 <span className="ml-2 font-sans text-[14.5px] leading-[1.5]">
                   {event.title}
                 </span>
+                <span className="sr-only"> · </span>
                 <span className="ml-1.5 font-mono text-[10px] text-umber">
                   {event.nation}
                 </span>

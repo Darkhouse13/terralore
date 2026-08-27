@@ -3,7 +3,7 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { allPeriods, corpusStats, dominantCategory, formatYear, type PeriodBucket } from "@/lib/chronology";
 import { CATEGORY_META } from "@/lib/types";
-import { abs, breadcrumbLd, routes, SITE_NAME, siteOgImages } from "@/lib/seo";
+import { abs, breadcrumbLd, publisher, routes, SITE_NAME, SITE_URL, siteOgImages } from "@/lib/seo";
 
 /**
  * The Chronology — the corpus read along its other axis.
@@ -79,7 +79,8 @@ export default function ChronologyPage() {
             url: abs("/timeline"),
             inLanguage: "en",
             isAccessibleForFree: true,
-            isPartOf: { "@type": "WebSite", name: SITE_NAME, url: abs(routes.home()) },
+            isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website`, name: SITE_NAME, url: SITE_URL },
+            publisher,
             mainEntity: {
               "@type": "ItemList",
               itemListOrder: "https://schema.org/ItemListOrderAscending",

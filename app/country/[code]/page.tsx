@@ -9,6 +9,7 @@ import { changesForNation, describeChange } from "@/lib/ledger";
 import { claimFragment } from "@/lib/claim-id";
 import Dossier, { type EraBed, type RecordRow } from "@/components/dossier/Dossier";
 import JsonLd from "@/components/JsonLd";
+import { getRanking } from "@/lib/rankings";
 import { breadcrumbLd, dossierDescription, dossierLd, mdTwinTypes, routes, SITE_NAME } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -35,10 +36,27 @@ export async function generateMetadata({
   const metricCount = d
     ? Object.values(d.sections).reduce((n, sec) => n + (sec?.metrics.length ?? 0), 0)
     : 0;
-  const description = dossierDescription(meta, domainLabels, metricCount);
+  // The nation's headline world ranks, stated up front: "France GDP rank" is
+  // a real query class (macrotrends/countryeconomy own it) and this page holds
+  // the answer — so the title and the snippet's first sentence say it.
+  const headlineRanks = (["gdp", "population"] as const)
+    .map((slug) => {
+      const ranking = getRanking(slug);
+      const row = ranking?.rows.find((r) => r.code === code);
+      if (!row) return null;
+      // Acronym labels (GDP) keep their case; word labels read mid-sentence.
+      const label =
+        ranking!.label === ranking!.label.toUpperCase()
+          ? ranking!.label
+          : ranking!.label.toLowerCase();
+      return `#${row.rank} of ${ranking!.rows.length} in ${label}`;
+    })
+    .filter((clause): clause is string => clause !== null);
+  const rankClause = headlineRanks.length ? `ranked ${headlineRanks.join(", ")} worldwide` : undefined;
+  const description = dossierDescription(meta, domainLabels, metricCount, rankClause);
   const path = routes.dossier(code);
   return {
-    title: meta.name,
+    title: rankClause ? `${meta.name} — GDP rank, population & sourced data` : meta.name,
     description,
     alternates: { canonical: path, types: mdTwinTypes(path) },
     openGraph: {

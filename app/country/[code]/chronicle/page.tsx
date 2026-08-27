@@ -287,13 +287,18 @@ function Contents({ eras }: { eras: Era[] }) {
       <ol className="mt-3">
         {eras.map((era, i) => (
           <li key={era.id} className="border-b-2 border-basalt">
+            {/* sr-only separators between the flex fields: without them,
+                textContent extraction jams "01" + title + period into
+                "01Urartu…Kingdomc. 860 BCE". Layout-neutral. */}
             <a href={`#${era.id}`} className="pressable flex items-baseline gap-3.5 py-2.5">
               <span className="w-6 shrink-0 font-mono text-[11px] text-oxide">
                 {String(i + 1).padStart(2, "0")}
               </span>
+              <span className="sr-only"> — </span>
               <span className="flex-1 font-display text-[15px] font-extrabold uppercase leading-snug tracking-tight">
                 {era.title}
               </span>
+              <span className="sr-only"> — </span>
               <span className="flex-none font-mono text-[10px] text-umber">{era.period}</span>
             </a>
           </li>
@@ -537,14 +542,22 @@ function EventItem({
       id={anchor}
       className="grid scroll-mt-6 grid-cols-[4.6rem_1fr] gap-x-4 sm:grid-cols-[6rem_1fr] sm:gap-x-6"
     >
+      {/* The sr-only separators keep raw DOM-to-text extraction (AI crawlers,
+          screen readers) from jamming the stacked fields into one word —
+          "52 BCEWar & Rupture". Layout-neutral: sr-only is absolutely
+          positioned, so the visual column is untouched. */}
       <div className="pt-[3px]">
         <span className="block font-mono text-[13px] font-medium tabular-nums text-oxide">
           {event.yearLabel ?? formatYear(event.year)}
         </span>
+        <span className="sr-only"> — </span>
         {event.yearLabel && event.yearLabel !== String(event.year) && event.year > 0 && (
-          <span className="mt-0.5 block font-mono text-[9.5px] tabular-nums text-umber">
-            {formatYear(event.year)}
-          </span>
+          <>
+            <span className="mt-0.5 block font-mono text-[9.5px] tabular-nums text-umber">
+              {formatYear(event.year)}
+            </span>
+            <span className="sr-only"> — </span>
+          </>
         )}
         <span
           className="mt-1.5 block font-mono text-[9.5px] uppercase leading-tight tracking-[0.12em]"
@@ -552,6 +565,7 @@ function EventItem({
         >
           {cat?.label ?? event.category}
         </span>
+        <span className="sr-only">: </span>
       </div>
       <div className="border-l-2 border-basalt pl-4 sm:pl-6">
         <h4 className="font-sans text-[15.5px] font-bold leading-snug">{event.title}</h4>
@@ -804,6 +818,21 @@ function ChronicleFooter({
         The chronicle of {meta.name} · {SITE_NAME} · last verified{" "}
         <time dateTime={history.updated}>{formatDate(history.updated)}</time>. Terralore publishes a
         nation&rsquo;s chapters only once each claim can be traced to a reliable source.
+        {/* The trust apparatus, discoverable from every chronicle rather than
+            only from its own standalone pages. */}{" "}
+        Who verifies this and how:{" "}
+        <Link href={routes.about()} prefetch={false} className="text-umber-deep underline underline-offset-2">
+          about
+        </Link>
+        . Every corpus state is sealed —{" "}
+        <Link href={routes.integrity()} prefetch={false} className="text-umber-deep underline underline-offset-2">
+          the seal
+        </Link>{" "}
+        — and every revision is recorded in{" "}
+        <Link href={routes.ledger()} prefetch={false} className="text-umber-deep underline underline-offset-2">
+          the ledger
+        </Link>
+        ; nothing changes silently.
       </p>
     </footer>
   );

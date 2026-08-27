@@ -71,6 +71,7 @@ export const routes = {
   integrity: () => "/integrity",
   chronicleEventsDataset: () => "/datasets/chronicle-events",
   privacy: () => "/privacy",
+  about: () => "/about",
 };
 
 // ── Social cards ───────────────────────────────────────────────────────────
@@ -153,11 +154,18 @@ export function journeyDescription(meta: CountryMeta, history: CountryHistory): 
   );
 }
 
-/** The dossier — the indicators. */
+/**
+ * The dossier — the indicators. `rankClause` (e.g. "ranked #7 in GDP and #21
+ * in population worldwide") leads the description when present: the
+ * single-country rank lookup ("France GDP rank") is a real query class with
+ * no other page answering it, so the dossier's snippet states the answer in
+ * its first sentence.
+ */
 export function dossierDescription(
   meta: CountryMeta,
   domainLabels: string[],
   metricCount: number,
+  rankClause?: string,
 ): string {
   if (!domainLabels.length) {
     return clampText(
@@ -169,8 +177,12 @@ export function dossierDescription(
     domainLabels.length > 1
       ? `${domainLabels.slice(0, -1).join(", ")} and ${domainLabels.at(-1)}`
       : domainLabels[0];
+  const domains = list.toLowerCase();
+  const body = rankClause
+    ? `${rankClause}. ${domains.charAt(0).toUpperCase()}${domains.slice(1)}`
+    : domains;
   return clampText(
-    `${meta.name} — ${list.toLowerCase()} in one sourced dossier: ${metricCount} indicators, ` +
+    `${meta.name} — ${body} in one sourced dossier: ${metricCount} indicators, ` +
       `each with its publisher and data vintage.`,
   );
 }
@@ -291,6 +303,9 @@ type Json = Record<string, unknown>;
 
 export const publisher: Json = {
   "@type": "Organization",
+  // A stable @id so the thousands of pages inlining this node resolve to ONE
+  // entity in an engine's graph instead of being re-inferred per page.
+  "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: SITE_URL,
   // icon1.png: the ZENITH mark at 512 on its solid depth-6 ground, generated
@@ -311,6 +326,7 @@ export function websiteLd(): Json {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
     name: SITE_NAME,
     alternateName: `${SITE_NAME} — ${SITE_TAGLINE}`,
     url: SITE_URL,
@@ -366,7 +382,7 @@ export function collectionLd(opts: {
     description,
     url,
     inLanguage: "en",
-    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
+    isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website`, name: SITE_NAME, url: SITE_URL },
     publisher,
     mainEntity: {
       "@type": "ItemList",
@@ -381,11 +397,16 @@ export function collectionLd(opts: {
   };
 }
 
-/** The nation itself, as a schema.org Country. */
+/**
+ * The nation itself, as a schema.org Country. Always embedded (`about` on the
+ * chronicle, dossier and compare pages), so it carries no `@context` of its
+ * own — and a stable per-nation `@id`, so a chronicle's and a dossier's
+ * `about` resolve to the same node rather than two independent Country blobs.
+ */
 export function countryLd(meta: CountryMeta): Json {
   const node: Json = {
-    "@context": "https://schema.org",
     "@type": "Country",
+    "@id": `${abs(routes.dossier(meta.code))}#place`,
     name: meta.name,
     alternateName: meta.officialName || undefined,
     url: abs(routes.dossier(meta.code)),
@@ -436,8 +457,13 @@ export function chronicleLd(history: CountryHistory, meta: CountryMeta): Json {
     inLanguage: "en",
     dateModified: history.updated,
     datePublished: history.updated,
-    author: { "@type": "Organization", name: `${SITE_NAME} Editorial` },
+    // The named editor (see /about), not an anonymous org — the byline a
+    // quality rater or answer engine can actually resolve to a person.
+    author: { "@type": "Person", name: "Hamza Bentaieb", url: abs(routes.about()) },
     publisher,
+    // Google's Article guidance lists `image` as a key recommended field; the
+    // per-nation OG card (1200×630) already exists.
+    image: [abs(`${routes.dossier(meta.code)}/opengraph-image`)],
     about: countryLd(meta),
     citation: history.sources.map(sourceLd),
     articleSection: history.eras.map((e) => e.title),
