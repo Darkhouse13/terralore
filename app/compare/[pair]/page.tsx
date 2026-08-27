@@ -6,6 +6,7 @@ import StrataPattern from "@/components/brand/StrataPattern";
 import {
   allComparePages,
   canonicalCompareSlug,
+  compareIndexable,
   compareTitle,
   getComparePage,
   type ComparePage,
@@ -58,19 +59,25 @@ export async function generateMetadata({
   const page = getComparePage(pair);
   if (!page) return { title: `Unknown comparison — ${SITE_NAME}` };
 
-  const title = compareTitle(page);
+  // The bare "A vs B" query is semantically unstable (sports, news, rivalry
+  // verticals own it for many pairs); the qualified stat-comparison form is
+  // the query this page actually answers, so the title names the subjects.
+  const title = `${page.a.name} vs ${page.b.name}: economy, society & shared history`;
   const description = compareDescription(page);
   const path = routes.comparePair(page.slug);
   return {
     title,
     description,
     keywords: [
-      `${page.a.name} ${page.b.name} comparison`,
+      `${page.a.name} vs ${page.b.name} economy`,
+      `${page.a.name} vs ${page.b.name} gdp`,
       `${page.a.name} compared to ${page.b.name}`,
       `${page.a.name} and ${page.b.name} history`,
       "sourced country comparison",
     ],
     alternates: { canonical: path, types: mdTwinTypes(path) },
+    // See compareIndexable — template-fill pairs stay live but out of the index.
+    ...(compareIndexable(page) ? {} : { robots: { index: false, follow: true } }),
     openGraph: { type: "website", title, description, url: path, siteName: SITE_NAME },
     twitter: { card: "summary_large_image", title, description },
   };
@@ -134,9 +141,12 @@ export default async function ComparePairPage({
               <span className="block lg:text-right lg:text-[54px] lg:leading-none">
                 {page.a.name}
               </span>
+              {/* The junction is ornament: hidden from the accessible name so
+                  the heading reads "A and B", not the mark's caption. */}
               <span className="my-2 block font-mono text-[13px] leading-none font-normal tracking-[0.16em] text-oxide lg:my-0 lg:text-center">
-                <span className="lg:hidden">AND</span>
-                <span className="hidden lg:block">
+                <span className="sr-only">and</span>
+                <span aria-hidden="true" className="lg:hidden">AND</span>
+                <span aria-hidden="true" className="hidden lg:block">
                   <span className="block font-mono text-[26px] leading-none text-oxide">
                     ⤬
                   </span>

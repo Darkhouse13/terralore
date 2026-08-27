@@ -246,6 +246,20 @@ export function getTheme(slug: string): ThemeBucket | undefined {
   return allThemes().find((t) => t.slug === slug);
 }
 
+/**
+ * Whether a (theme, period) slice earns a place in the search index. A slice
+ * holding one or two events is a fragment, not a document — it stays live and
+ * reachable from its theme's index, but is noindexed and kept out of the
+ * sitemap. Three events is the floor at which the slice's generated standfirst
+ * ("N events across M nations…") describes a shape rather than restating a
+ * single record.
+ */
+export const THEME_SLICE_INDEX_FLOOR = 3;
+
+export function themeSliceIndexable(eventCount: number): boolean {
+  return eventCount >= THEME_SLICE_INDEX_FLOOR;
+}
+
 /** Corpus-wide totals, for the hub pages' standfirsts. */
 export function corpusStats() {
   const events = allWorldEvents();

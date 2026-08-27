@@ -15,7 +15,7 @@ const fail = (message) => {
 };
 
 const familyPatterns = {
-  core: /^\/(?:$|atlas$|privacy$|integrity$|datasets\/chronicle-events$|ledger(?:\/.*)?$)/,
+  core: /^\/(?:$|atlas$|about$|privacy$|integrity$|datasets\/chronicle-events$|ledger(?:\/.*)?$)/,
   "country-dossiers": /^\/country\/[A-Z]{3}$/,
   "country-chronicles": /^\/country\/[A-Z]{3}\/chronicle$/,
   timelines: /^\/timeline(?:\/[^/]+)?$/,

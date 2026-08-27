@@ -4,9 +4,9 @@ import { allHistories, getHistory } from "@/lib/histories";
 import { getDossier } from "@/lib/domains";
 import { allCommodities, commoditiesUpdated } from "@/lib/commodities";
 import { allRankings, rankingsUpdated } from "@/lib/rankings";
-import { allComparePages, compareUpdated } from "@/lib/compare";
+import { allComparePages, compareIndexable, compareUpdated } from "@/lib/compare";
 import { abs, routes, SITE_URL } from "@/lib/seo";
-import { allPeriods, allThemes, periodFor } from "@/lib/chronology";
+import { allPeriods, allThemes, periodFor, themeSliceIndexable } from "@/lib/chronology";
 import { currentManifest } from "@/lib/integrity";
 import { allEntries, letterSlugs } from "@/lib/ledger";
 
@@ -58,50 +58,38 @@ function coreEntries(): MetadataRoute.Sitemap {
     {
       url: abs(routes.home()),
       lastModified: HOME_AT,
-      changeFrequency: "daily",
-      priority: 1,
     },
     {
       url: abs(routes.atlas()),
       lastModified: CORPUS_AT,
-      changeFrequency: "weekly",
-      priority: 0.9,
     },
     {
       url: abs(routes.privacy()),
       lastModified: "2026-08-14",
-      changeFrequency: "yearly",
-      priority: 0.3,
+    },
+    {
+      url: abs(routes.about()),
+      lastModified: "2026-08-27",
     },
     {
       url: abs("/integrity"),
       lastModified: currentManifest().sealed.slice(0, 10),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
       url: abs(routes.ledger()),
       lastModified: allEntries()[0]?.date ?? currentManifest().sealed.slice(0, 10),
-      changeFrequency: "monthly",
-      priority: 0.6,
     },
     {
       url: abs(routes.chronicleEventsDataset()),
       lastModified: "2026-08-22",
-      changeFrequency: "yearly",
-      priority: 0.8,
     },
     ...allEntries().map((entry) => ({
       url: abs(routes.ledgerEntry(entry.slug)),
       lastModified: entry.date,
-      changeFrequency: "never" as const,
-      priority: 0.5,
     })),
     ...letterSlugs().map((slug) => ({
       url: abs(routes.ledgerLetter(slug)),
       lastModified: allEntries().find((entry) => entry.slug === slug)?.date ?? CORPUS_AT,
-      changeFrequency: "never" as const,
-      priority: 0.4,
     })),
   ];
 }
@@ -124,8 +112,6 @@ function countryEntries(kind: "dossier" | "chronicle"): MetadataRoute.Sitemap {
       entries.push({
         url: abs(routes.dossier(country.code)),
         lastModified: dossierLastMod,
-        changeFrequency: "monthly",
-        priority: published ? 0.8 : 0.5,
       });
       continue;
     }
@@ -134,8 +120,6 @@ function countryEntries(kind: "dossier" | "chronicle"): MetadataRoute.Sitemap {
     entries.push({
       url: abs(routes.chronicle(country.code)),
       lastModified: historyUpdated ?? CORPUS_AT,
-      changeFrequency: "yearly",
-      priority: 0.8,
     });
   }
 
@@ -147,14 +131,10 @@ function timelineEntries(): MetadataRoute.Sitemap {
     {
       url: abs("/timeline"),
       lastModified: CORPUS_AT,
-      changeFrequency: "weekly",
-      priority: 0.9,
     },
     ...allPeriods().map((period) => ({
       url: abs(`/timeline/${period.slug}`),
       lastModified: CORPUS_AT,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
     })),
   ];
 }
@@ -164,23 +144,25 @@ function themeEntries(): MetadataRoute.Sitemap {
     {
       url: abs("/themes"),
       lastModified: CORPUS_AT,
-      changeFrequency: "weekly",
-      priority: 0.9,
     },
     ...allThemes().map((theme) => ({
       url: abs(`/themes/${theme.slug}`),
       lastModified: CORPUS_AT,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
     })),
     ...allThemes().flatMap((theme) => {
-      const periods = new Set(theme.events.map((event) => periodFor(event.year).slug));
-      return [...periods].map((period) => ({
-        url: abs(`/themes/${theme.slug}/${period}`),
-        lastModified: CORPUS_AT,
-        changeFrequency: "monthly" as const,
-        priority: 0.6,
-      }));
+      // Noindexed slices (below the event floor) are excluded — a sitemap
+      // must only carry URLs meant for the index.
+      const byPeriod = new Map<string, number>();
+      for (const event of theme.events) {
+        const slug = periodFor(event.year).slug;
+        byPeriod.set(slug, (byPeriod.get(slug) ?? 0) + 1);
+      }
+      return [...byPeriod.entries()]
+        .filter(([, count]) => themeSliceIndexable(count))
+        .map(([period]) => ({
+          url: abs(`/themes/${theme.slug}/${period}`),
+          lastModified: CORPUS_AT,
+        }));
     }),
   ];
 }
@@ -190,15 +172,15 @@ function comparisonEntries(): MetadataRoute.Sitemap {
     {
       url: abs(routes.compare()),
       lastModified: compareUpdated(),
-      changeFrequency: "monthly",
-      priority: 0.7,
     },
-    ...allComparePages().map((page) => ({
-      url: abs(routes.comparePair(page.slug)),
-      lastModified: page.updated,
-      changeFrequency: "yearly" as const,
-      priority: 0.6,
-    })),
+    // Noindexed pairs (see compareIndexable) are excluded — a sitemap must
+    // only carry URLs meant for the index.
+    ...allComparePages()
+      .filter(compareIndexable)
+      .map((page) => ({
+        url: abs(routes.comparePair(page.slug)),
+        lastModified: page.updated,
+      })),
   ];
 }
 
@@ -207,14 +189,10 @@ function rankingEntries(): MetadataRoute.Sitemap {
     {
       url: abs(routes.rankings()),
       lastModified: rankingsUpdated(),
-      changeFrequency: "monthly",
-      priority: 0.8,
     },
     ...allRankings().map((ranking) => ({
       url: abs(routes.ranking(ranking.slug)),
       lastModified: ranking.updated,
-      changeFrequency: "yearly" as const,
-      priority: 0.7,
     })),
   ];
 }
@@ -224,14 +202,10 @@ function commodityEntries(): MetadataRoute.Sitemap {
     {
       url: abs(routes.commodities()),
       lastModified: commoditiesUpdated(),
-      changeFrequency: "yearly",
-      priority: 0.8,
     },
     ...allCommodities().map((commodity) => ({
       url: abs(routes.commodity(commodity.slug)),
       lastModified: commoditiesUpdated(),
-      changeFrequency: "yearly" as const,
-      priority: 0.7,
     })),
   ];
 }

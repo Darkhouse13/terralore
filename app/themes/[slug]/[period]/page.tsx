@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
-import { allThemes, formatYear, getTheme, periodFor } from "@/lib/chronology";
+import { allThemes, formatYear, getTheme, periodFor, themeSliceIndexable } from "@/lib/chronology";
 import type { Period, ThemeBucket, WorldEvent } from "@/lib/chronology";
 import { SITE_NAME, abs, breadcrumbLd, clampText, routes, siteOgImages } from "@/lib/seo";
 import type { EventCategory, Source } from "@/lib/types";
@@ -141,6 +141,9 @@ export async function generateMetadata({
       "sourced world history",
     ],
     alternates: { canonical: path },
+    // See themeSliceIndexable — one- and two-event slices stay live and
+    // reachable from the theme index, but out of the search index.
+    ...(themeSliceIndexable(slice.events.length) ? {} : { robots: { index: false, follow: true } }),
     openGraph: {
       type: "website",
       title: `${title} — ${num(slice.events.length)} sourced events`,
@@ -355,13 +358,19 @@ function Masthead({ slice, title }: { slice: Slice; title: string }) {
 function EventItem({ event }: { event: WorldEvent }) {
   return (
     <li className="grid grid-cols-[4.6rem_1fr] gap-x-4 sm:grid-cols-[6rem_1fr] sm:gap-x-6">
+      {/* sr-only separators: without them, textContent extraction jams the
+          stacked stamp fields into "1505Africa". Layout-neutral. */}
       <div className="pt-[3px]">
         <YearStamp year={event.year} label={event.yearLabel} />
         {event.continent && (
-          <span className="mt-1.5 block font-mono text-[9.5px] uppercase leading-tight tracking-[0.12em] text-umber">
-            {event.continent}
-          </span>
+          <>
+            <span className="sr-only"> — </span>
+            <span className="mt-1.5 block font-mono text-[9.5px] uppercase leading-tight tracking-[0.12em] text-umber">
+              {event.continent}
+            </span>
+          </>
         )}
+        <span className="sr-only">: </span>
       </div>
 
       <div className="border-l-2 border-basalt pl-4 sm:pl-6">

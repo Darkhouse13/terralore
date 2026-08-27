@@ -283,6 +283,18 @@ export function compareTitle(page: ComparePage): string {
 }
 
 /**
+ * Whether a pair page earns a place in the search index. A tier-1 border pair
+ * whose two archives record nothing of each other is pure template-fill of the
+ * two dossiers — it stays live and linked, but is noindexed and kept out of
+ * the sitemap so the crawlable surface is dominated by pages with something of
+ * their own. Tier 2 (G20) and tier 3 (curated) pairs carry their own demand
+ * and stay regardless.
+ */
+export function compareIndexable(page: ComparePage): boolean {
+  return page.tier >= 2 || page.sharedEvents.length > 0;
+}
+
+/**
  * The canonical slug for two codes in either order, when that pair is
  * published — used by the route to 308 the reversed URL onto the canonical.
  */
