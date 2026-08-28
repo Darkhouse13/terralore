@@ -54,6 +54,11 @@ tsconfig.tsbuildinfo
 !public/icon-512.png
 # The Ledger Letter's hosted stamp (emails reference it absolutely).
 !public/brand/letter-stamp.png
+# The day's two Pinterest pins. Pinterest's bulk upload fetches the Media URL
+# off terralore.co, so these must be tracked and deployed or every row in the
+# CSV imports a 404. scripts/build-pinterest-csv.mjs copies them here; the rest
+# of social-out stays ignored.
+!public/social/**/*.png
 
 # Claude Design handoff bundle + local screenshot artifacts (reference only)
 /design/
