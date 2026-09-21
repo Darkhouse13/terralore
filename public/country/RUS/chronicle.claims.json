@@ -3,7 +3,7 @@
  "name": "Russia",
  "kind": "chronicle-events",
  "canonical": "https://terralore.co/country/RUS/chronicle",
- "updated": "2026-06-13",
+ "updated": "2026-09-07",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -325,6 +325,37 @@
    ],
    "url": "https://terralore.co/country/RUS/chronicle#ev-1861-emancipation-of-the-serfs",
    "citation": "Terralore, \"The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.\", terralore.co/country/RUS/chronicle#ev-1861-emancipation-of-the-serfs, claim TL:RUS:event:1861:emancipation-of-the-serfs, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:RUS:event:1867:russia-sells-alaska-to-the-united-states",
+   "year": 1867,
+   "yearLabel": "30 March 1867",
+   "title": "Russia sells Alaska to the United States",
+   "summary": "Lacking the money to settle or defend its North American colony, and with its interest in the region reduced by defeat in the Crimean War, Russia sold Russian America to the United States for $7.2 million. Its minister in Washington, Eduard de Stoeckl, proposed the sale to Secretary of State William H. Seward and the treaty was signed on 30 March 1867; Alexander II ratified it on 20 June and the territory was handed over at Sitka on 18 October. The United States paid with a Treasury warrant for seven million two hundred thousand dollars on 1 August 1868.",
+   "category": "politics",
+   "era": "the-russian-empire",
+   "sources": [
+    {
+     "id": "state-alaska-purchase",
+     "label": "Purchase of Alaska, 1867",
+     "publisher": "Office of the Historian, U.S. Department of State",
+     "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase"
+    },
+    {
+     "id": "nara-alaska-ratification",
+     "label": "Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867",
+     "publisher": "U.S. National Archives Catalog",
+     "url": "https://catalog.archives.gov/id/299810"
+    },
+    {
+     "id": "nara-alaska-check",
+     "label": "Check for the Purchase of Alaska (1868)",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska"
+    }
+   ],
+   "url": "https://terralore.co/country/RUS/chronicle#ev-1867-russia-sells-alaska-to-the-united-states",
+   "citation": "Terralore, \"The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.\", terralore.co/country/RUS/chronicle#ev-1867-russia-sells-alaska-to-the-united-states, claim TL:RUS:event:1867:russia-sells-alaska-to-the-united-states, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:RUS:event:1905:the-revolution-of-1905",

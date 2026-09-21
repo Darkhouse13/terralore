@@ -1,6 +1,6 @@
 # The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.
 
-History of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.. 6 eras and 25 sourced…
+History of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/HTI/chronicle
 Updated: 2026-08-11
@@ -43,7 +43,9 @@ Figures:
 After Dessalines's death the young nation split between Christophe's northern kingdom and a southern republic, while a crippling 1825 indemnity demanded by France and chronic instability shaped the nineteenth century.
 
 - 1811 CE: **Christophe crowned King Henry I** — Henry Christophe proclaims a kingdom in northern Haiti and builds the Citadelle Laferriere; the south remains a republic under Petion. [britannica-christophe, unesco-national-history-park]
-- 1825 CE: **The French indemnity** — France recognises Haitian independence only in exchange for an indemnity of 150 million francs, burdening Haiti with crippling debt. [britannica-history-haiti]
+- 1825 CE: **The French indemnity** — France recognises Haitian independence only in exchange for an indemnity of 150 million francs, burdening Haiti with crippling debt. [britannica-history-haiti, bnf-dette-independance, elysee-haiti-2025]
+- 1838 CE: **The indemnity reduced to 90 million** — A new treaty with France recognises Haitian independence without conditions and cuts the indemnity to 90 million francs, spread over thirty annual payments. [bnf-dette-independance]
+- 1878-1922: **The independence debt paid off** — Haiti settles the indemnity in 1878 with a loan placed in France in 1875; the last repayments on the loans raised to pay it end in 1921-22. [bnf-dette-independance]
 - 1821 CE: **Boyer unifies Hispaniola** — After Santo Domingo declares independence, Haitian forces move east and govern the whole island — a republic of former slaves administering the oldest European colony in the Americas. [bbc-haiti]
 - 1844 CE: **Dominican Republic secedes** — The eastern, Spanish-speaking part of Hispaniola breaks from Haitian rule to form the independent Dominican Republic. [britannica-hispaniola]
 - 1849-1859: **The Second Empire of Faustin Soulouque** — General Soulouque makes himself emperor and spends his reign in repeated attempts to reconquer the east. [bbc-haiti]
@@ -105,5 +107,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:HTI
 - [loc-country-study] Dominican Republic and Haiti: Country Studies — Library of Congress, Federal Research Division · https://www.loc.gov/item/2001023524
 - [statedept-haiti] A Guide to the United States' History of Recognition: Haiti — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/haiti
 - [bbc-haiti] Haiti country profile — BBC News · https://www.bbc.com/news/world-latin-america-19548810
+- [bnf-dette-independance] La dette de l'indépendance d'Haïti. L'esclave comme unité de compte (1794-1922), by Gusti-Klara Gaillard-Pourchet — Bibliothèque nationale de France, Patrimoines partagés France-Amériques · https://heritage.bnf.fr/france-ameriques/dette-lindependance-dhaiti-lesclave-comme-unite-compte-1794-1922
+- [elysee-haiti-2025] Déclaration du Président de la République sur la relation entre la France et Haïti (17 April 2025) — Présidence de la République française · https://www.elysee.fr/emmanuel-macron/2025/04/17/declaration-du-president-de-la-republique-sur-la-relation-entre-la-france-et-haiti
 
 Citation template: Terralore, "The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.", terralore.co/country/HTI/chronicle, retrieved <YYYY-MM-DD>.

@@ -15,14 +15,19 @@
       "yearLabel": "882",
       "label": "Oleg takes Kiev and Kievan Rus' becomes a single state",
       "detail": "Belarus, Russia and Ukraine all claim Kievan Rus' as their ancestor, and the corpus records the shared claim for each rather than adjudicating between them.",
-      "sources": ["wikipedia-kievan-rus", "whe-kievan-rus"]
+      "sources": [
+        "wikipedia-kievan-rus",
+        "whe-kievan-rus"
+      ]
     },
     "interruptions": [
       {
         "start": 1238,
         "end": 1480,
         "label": "Mongol conquest and the tribute of the Golden Horde",
-        "sources": ["wikipedia-mongol-invasion-rus"]
+        "sources": [
+          "wikipedia-mongol-invasion-rus"
+        ]
       }
     ]
   },
@@ -304,6 +309,18 @@
           ]
         },
         {
+          "year": 1867,
+          "yearLabel": "30 March 1867",
+          "title": "Russia sells Alaska to the United States",
+          "summary": "Lacking the money to settle or defend its North American colony, and with its interest in the region reduced by defeat in the Crimean War, Russia sold Russian America to the United States for $7.2 million. Its minister in Washington, Eduard de Stoeckl, proposed the sale to Secretary of State William H. Seward and the treaty was signed on 30 March 1867; Alexander II ratified it on 20 June and the territory was handed over at Sitka on 18 October. The United States paid with a Treasury warrant for seven million two hundred thousand dollars on 1 August 1868.",
+          "category": "politics",
+          "sources": [
+            "state-alaska-purchase",
+            "nara-alaska-ratification",
+            "nara-alaska-check"
+          ]
+        },
+        {
           "year": 1905,
           "yearLabel": "1905",
           "title": "The Revolution of 1905",
@@ -346,7 +363,10 @@
         "britannica-peter",
         "britannica-catherine",
         "britannica-emancipation",
-        "britannica-russian-revolution"
+        "britannica-russian-revolution",
+        "state-alaska-purchase",
+        "nara-alaska-ratification",
+        "nara-alaska-check"
       ]
     },
     {
@@ -817,16 +837,49 @@
       "url": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
       "kind": "encyclopedia"
     },
-    { "id": "wikipedia-kievan-rus", "label": "Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27", "kind": "reference" },
-    { "id": "wikipedia-mongol-invasion-rus", "label": "Mongol invasion of Kievan Rus'", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus%27", "kind": "reference" },
+    {
+      "id": "wikipedia-kievan-rus",
+      "label": "Kievan Rus'",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27",
+      "kind": "reference"
+    },
+    {
+      "id": "wikipedia-mongol-invasion-rus",
+      "label": "Mongol invasion of Kievan Rus'",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus%27",
+      "kind": "reference"
+    },
     {
       "id": "whe-kievan-rus",
       "label": "Kievan Rus",
       "publisher": "World History Encyclopedia",
       "url": "https://www.worldhistory.org/Kievan_Rus/",
       "kind": "encyclopedia"
+    },
+    {
+      "id": "state-alaska-purchase",
+      "label": "Purchase of Alaska, 1867",
+      "publisher": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+      "kind": "gov"
+    },
+    {
+      "id": "nara-alaska-ratification",
+      "label": "Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867",
+      "publisher": "U.S. National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/299810",
+      "kind": "primary"
+    },
+    {
+      "id": "nara-alaska-check",
+      "label": "Check for the Purchase of Alaska (1868)",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska",
+      "kind": "gov"
     }
   ],
   "status": "published",
-  "updated": "2026-06-13"
+  "updated": "2026-09-07"
 }

@@ -53,7 +53,7 @@ Figures:
 
 The British North America Act created the Dominion of Canada in 1867, a federation that swiftly expanded to the Pacific — bound together by a transcontinental railway and built on the dispossession of Indigenous nations.
 
-- 1 July 1867: **Confederation — the Dominion of Canada** — The British North America Act united Ontario, Quebec, Nova Scotia, and New Brunswick into the self-governing Dominion of Canada, with Sir John A. Macdonald as first prime minister. [brit-bna-act, cdn-enc-confederation, cmh-bna-act]
+- 1 July 1867: **Confederation — the Dominion of Canada** — The British North America Act united Ontario, Quebec, Nova Scotia, and New Brunswick into the self-governing Dominion of Canada, with Sir John A. Macdonald as first prime minister. [brit-bna-act, cdn-enc-confederation, cmh-bna-act, ukleg-bna-1867]
 - 1869–1870: **Red River Resistance and Manitoba** — Métis led by Louis Riel resisted the transfer of Rupert's Land to Canada, securing rights that shaped the creation of the province of Manitoba in 1870. [brit-canada, cdn-enc-confederation]
 - 1876: **The Indian Act** — The Indian Act consolidated federal control over the lives, lands, and governance of First Nations peoples, becoming a central instrument of assimilation and dispossession that remains in force in amended form. [cdn-enc-indigenous, nctr-reports]
 - 7 November 1885: **Canadian Pacific Railway completed** — The driving of the last spike at Craigellachie completed the transcontinental Canadian Pacific Railway, binding the new nation together and fulfilling a promise made to British Columbia at Confederation. [brit-canada, cdn-enc-confederation]
@@ -83,7 +83,7 @@ Post-war Canada built a welfare state, embraced official bilingualism and multic
 
 - 1965: **A new national flag and a maturing identity** — Canada adopted the red-and-white maple leaf flag in 1965, a symbol of a distinct national identity as the post-war country built a welfare state and universal health care. [brit-canada]
 - 8 October 1971: **Official multiculturalism policy** — Canada became the first country to adopt multiculturalism as official government policy, within a bilingual framework, recognising the contributions of diverse cultural communities. [pier21-multiculturalism, cdn-enc-multiculturalism]
-- 17 April 1982: **Patriation of the Constitution** — The Constitution Act, 1982, patriated Canada's constitution, entrenched the Charter of Rights and Freedoms, recognised Aboriginal rights, and ended the need for British legislation — completing Canada's path to full sovereignty. [cdn-enc-constitution-1982, brit-canada]
+- 17 April 1982: **Patriation of the Constitution** — The Constitution Act, 1982, patriated Canada's constitution, entrenched the Charter of Rights and Freedoms, recognised Aboriginal rights, and ended the need for British legislation — completing Canada's path to full sovereignty. Until then, because the original constitution was an act of the British Parliament, major changes to it could only be made by the United Kingdom Parliament. At Canada's request, Westminster passed the Canada Act 1982 (royal assent 29 March 1982), the last British statute to extend to Canada, and on 17 April 1982 Queen Elizabeth II signed the proclamation of the Constitution Act, 1982, in Ottawa. [cdn-enc-constitution-1982, brit-canada, justice-charter-history, justice-canada-system, ukleg-canada-act-1982]
 - 30 October 1995: **Quebec sovereignty referendum** — Quebec voters narrowly rejected sovereignty in the 1995 referendum, the closest of two votes on independence, underlining the enduring tension over the place of Quebec within Canada. [brit-canada]
 - 2015: **Truth and Reconciliation Commission reports** — After years of survivor testimony, the Truth and Reconciliation Commission documented the harms of the residential school system, described it as cultural genocide, and issued 94 Calls to Action for reconciliation. [nctr-reports, cmhr-residential-schools]
 
@@ -114,5 +114,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:CAN
 - [nctr-reports] Truth and Reconciliation Commission reports — National Centre for Truth and Reconciliation · https://nctr.ca/records/reports/
 - [cmhr-residential-schools] Canada's Indian residential schools: Childhood denied — Canadian Museum for Human Rights · https://humanrights.ca/story/canadas-indian-residential-schools-childhood-denied
 - [statedept-canada] A Guide to the United States' History of Recognition: Canada — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/canada
+- [ukleg-bna-1867] British North America Act 1867 (as enacted) — The National Archives (UK), legislation.gov.uk · https://www.legislation.gov.uk/ukpga/Vict/30-31/3/enacted
+- [ukleg-canada-act-1982] Canada Act 1982 (as enacted) — The National Archives (UK), legislation.gov.uk · https://www.legislation.gov.uk/ukpga/1982/11/enacted
+- [justice-charter-history] Learn about the Charter — History of the Charter — Department of Justice Canada · https://canada.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/learn-apprend.html
+- [justice-canada-system] Canada's System of Justice — The Constitution — Department of Justice Canada · https://www.justice.gc.ca/eng/csj-sjc/just/05.html
 
 Citation template: Terralore, "The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.", terralore.co/country/CAN/chronicle, retrieved <YYYY-MM-DD>.

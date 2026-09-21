@@ -1,6 +1,6 @@
 # Norway and Sweden compared
 
-Norway and Sweden side by side: 42 shared sourced indicators across 9 domains, and the 10 events their chronicles record of each other.
+Norway and Sweden side by side: 42 shared sourced indicators across 9 domains, and the 11 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/nor-vs-swe
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -103,7 +103,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/NOR.md and https://terralore.co/country/SWE.md.
 
-## Entangled histories (10 events)
+## Entangled histories (11 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -117,6 +117,7 @@ Events in which either nation's sourced chronicle names the other — including 
 - 1884: **Parliamentarism and the consular dispute** — The introduction of parliamentary government strengthened the Storting, while the conflict with Sweden over Norway's right to its own consular service drove the two countries apart. (from the Norway chronicle; sources: Norway: The union conflict, 1859–1905)
 - 7 Jun 1905: **Dissolution of the union with Sweden** — The Storting declared the union with Sweden dissolved; confirmed by referendum and settled peacefully at Karlstad, it made Norway a fully sovereign state for the first time in centuries. (from the Norway chronicle; sources: Norway: The union conflict, 1859–1905; Haakon VII)
 - 1905: **Peaceful dissolution of the union with Norway** — After Norway's parliament declared the union dissolved, Sweden agreed at Karlstad to a peaceful separation, recognising Norwegian independence without war in a settlement held up as a diplomatic model. (from the Sweden chronicle; sources: Norway: The union conflict, 1859–1905)
+- 13 Aug 1905: **Referendum on the dissolution of the union** — Held because Sweden made a referendum one of its conditions for accepting the dissolution, the vote confirmed the Storting's decision of 7 June by 368,208 votes to 184. (from the Norway chronicle; sources: Norges historie fra 1815 til 1905)
 
 ## Sources
 

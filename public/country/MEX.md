@@ -115,7 +115,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:MEX:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/MEX.claims.json
 
-History: "From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution." — the sourced chronicle is at https://terralore.co/country/MEX/chronicle.md (6 eras, 20 events).
+History: "From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution." — the sourced chronicle is at https://terralore.co/country/MEX/chronicle.md (6 eras, 26 events).
 
 ## Sources
 

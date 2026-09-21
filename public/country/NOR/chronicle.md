@@ -1,6 +1,6 @@
 # The Chronicle of Norway: From the Viking kingdoms and a saint-king to North Sea oil, Arctic sovereignty and a prosperous modern realm.
 
-History of Norway: From the Viking kingdoms and a saint-king to North Sea oil, Arctic sovereignty and a prosperous modern realm.. 6 eras and 26 sourced…
+History of Norway: From the Viking kingdoms and a saint-king to North Sea oil, Arctic sovereignty and a prosperous modern realm.. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/NOR/chronicle
 Updated: 2026-06-13
@@ -72,7 +72,9 @@ Figures:
 Norway dissolved its union with Sweden peacefully and chose a king, won international recognition of its Arctic and Antarctic claims, and then endured five years of German occupation.
 
 - 7 Jun 1905: **Dissolution of the union with Sweden** — The Storting declared the union with Sweden dissolved; confirmed by referendum and settled peacefully at Karlstad, it made Norway a fully sovereign state for the first time in centuries. [norway-union-britannica, haakon-britannica]
-- 18 Nov 1905: **Election of King Haakon VII** — After a plebiscite to retain a monarchy, the Storting elected Prince Carl of Denmark as king; he took the name Haakon VII, founding the modern Norwegian royal house. [haakon-britannica]
+- 13 Aug 1905: **Referendum on the dissolution of the union** — Held because Sweden made a referendum one of its conditions for accepting the dissolution, the vote confirmed the Storting's decision of 7 June by 368,208 votes to 184. [norway-1815-1905-snl]
+- 12–13 Nov 1905: **Plebiscite on offering the throne to Prince Carl** — Prince Carl of Denmark had insisted on a plebiscite so as not to come to Norway as a party king; after Fridtjof Nansen persuaded him to drop the demand, the government held one anyway. On a turnout of 75.3 per cent, 78.9 per cent, almost 260,000 voters against just over 69,000, approved offering him the throne. [kongevalget-snl, monarki-1905-norgeshistorie]
+- 18 Nov 1905: **Election of King Haakon VII** — After the plebiscite, the Storting unanimously elected Prince Carl of Denmark as king; he took the name Haakon VII, renamed his son Alexander Olav, took the motto 'All for Norway' and arrived with his family on 25 November, founding the modern Norwegian royal house. [haakon-britannica, kongevalget-snl]
 - 9 Feb 1920: **The Svalbard (Spitsbergen) Treaty** — Signed in Paris, the treaty recognised Norwegian sovereignty over Svalbard while granting all signatories equal rights to economic activity and barring warlike use; Norway took over administration in 1925. [svalbard-storting, svalbard-snl]
 - 5 Apr 1933: **Eastern Greenland case** — The Permanent Court of International Justice ruled against Norway's claim to part of eastern Greenland, upholding Danish sovereignty over the whole island; Norway abandoned its claim. [greenland-pcij]
 - 9 Apr 1940: **German invasion and the Quisling regime** — Germany invaded on 9 April 1940; the king and government went into exile while Vidkun Quisling proclaimed a government, beginning five years of occupation and collaboration. [quisling-regjeringen, norway-ww2-britannica]
@@ -111,6 +113,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:NOR
 - [norway-kiel-britannica] Norway: The Treaty of Kiel — Encyclopaedia Britannica · https://www.britannica.com/place/Norway/The-Treaty-of-Kiel
 - [kiel-event-britannica] Treaty of Kiel — Encyclopaedia Britannica · https://www.britannica.com/event/Treaty-of-Kiel
 - [norway-union-britannica] Norway: The union conflict, 1859–1905 — Encyclopaedia Britannica · https://www.britannica.com/place/Norway/The-union-conflict-1859-1905
+- [norway-1815-1905-snl] Norges historie fra 1815 til 1905 — Store norske leksikon · https://snl.no/Norges_historie_fra_1815_til_1905
+- [kongevalget-snl] Kongevalget i 1905 — Store norske leksikon · https://snl.no/kongevalget_i_1905
+- [monarki-1905-norgeshistorie] Folkeavstemningen om monarki i 1905 — Norgeshistorie, University of Oslo · https://www.norgeshistorie.no/industrialisering-og-demokrati/1520-folkeavstemningen-om-monarki-i-1905.html
 - [haakon-britannica] Haakon VII — Encyclopaedia Britannica · https://www.britannica.com/biography/Haakon-VII
 - [norway-ww2-britannica] Norway: World War II — Encyclopaedia Britannica · https://www.britannica.com/place/Norway/World-War-II
 - [eidsvoll-1814] The story of 1814 in 1-2-3 — Eidsvoll 1814 (Norwegian national museum) · https://eidsvoll1814.no/en/the-story-of-1814-in-123

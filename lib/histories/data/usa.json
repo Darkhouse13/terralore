@@ -15,16 +15,37 @@
       "yearLabel": "4 July 1776",
       "label": "The Second Continental Congress adopts the Declaration of Independence",
       "detail": "The Declaration dissolved the political bands connecting the thirteen colonies to Britain. The nations of the continent before it were not predecessors of the United States in the sense this field records.",
-      "sources": ["wikipedia-us-declaration", "nara-declaration"]
+      "sources": [
+        "wikipedia-us-declaration",
+        "nara-declaration"
+      ]
     }
   },
   "quickFacts": [
-    { "label": "Founding document", "value": "Declaration of Independence, adopted 4 July 1776" },
-    { "label": "Constitution", "value": "Signed 1787; ratified 1788; government began 1789" },
-    { "label": "Original states", "value": "Thirteen former British colonies" },
-    { "label": "Slavery abolished", "value": "Thirteenth Amendment, ratified 6 December 1865" },
-    { "label": "Civil War", "value": "1861–1865, the deadliest conflict in U.S. history" },
-    { "label": "Government", "value": "Federal constitutional republic" }
+    {
+      "label": "Founding document",
+      "value": "Declaration of Independence, adopted 4 July 1776"
+    },
+    {
+      "label": "Constitution",
+      "value": "Signed 1787; ratified 1788; government began 1789"
+    },
+    {
+      "label": "Original states",
+      "value": "Thirteen former British colonies"
+    },
+    {
+      "label": "Slavery abolished",
+      "value": "Thirteenth Amendment, ratified 6 December 1865"
+    },
+    {
+      "label": "Civil War",
+      "value": "1861–1865, the deadliest conflict in U.S. history"
+    },
+    {
+      "label": "Government",
+      "value": "Federal constitutional republic"
+    }
   ],
   "eras": [
     {
@@ -40,11 +61,41 @@
         "These were not static or empty lands but densely woven human worlds, with trade networks, oral histories, and systems of law and diplomacy. The arrival of Europeans after 1492 would bring catastrophic epidemics and dispossession, but the continent's Indigenous nations long predated, and would long survive, that encounter."
       ],
       "events": [
-        { "year": -13000, "yearLabel": "c. 13,000 BCE", "title": "Peopling of the Americas", "summary": "Humans were established across the Americas by at least 13,000–15,000 years ago, having entered via the Beringian land bridge and Pacific coast from Asia during the last Ice Age.", "category": "migration", "sources": ["loc-overview"] },
-        { "year": 1100, "yearLabel": "c. 1100 CE", "title": "Cahokia at its height", "summary": "The Mississippian city of Cahokia, near present-day St. Louis, reached its peak as one of the largest urban centres north of Mexico, anchored by monumental earthen mounds.", "category": "culture", "sources": ["loc-overview"] },
-        { "year": 1492, "yearLabel": "1492 CE", "title": "Columbus reaches the Caribbean", "summary": "Christopher Columbus's landfall opened sustained contact between Europe and the Americas, beginning an era of conquest, colonisation, and devastating disease for Indigenous peoples.", "category": "colonization", "sources": ["brit-jamestown"] }
+        {
+          "year": -13000,
+          "yearLabel": "c. 13,000 BCE",
+          "title": "Peopling of the Americas",
+          "summary": "Humans were established across the Americas by at least 13,000–15,000 years ago, having entered via the Beringian land bridge and Pacific coast from Asia during the last Ice Age.",
+          "category": "migration",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1100,
+          "yearLabel": "c. 1100 CE",
+          "title": "Cahokia at its height",
+          "summary": "The Mississippian city of Cahokia, near present-day St. Louis, reached its peak as one of the largest urban centres north of Mexico, anchored by monumental earthen mounds.",
+          "category": "culture",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1492,
+          "yearLabel": "1492 CE",
+          "title": "Columbus reaches the Caribbean",
+          "summary": "Christopher Columbus's landfall opened sustained contact between Europe and the Americas, beginning an era of conquest, colonisation, and devastating disease for Indigenous peoples.",
+          "category": "colonization",
+          "sources": [
+            "brit-jamestown"
+          ]
+        }
       ],
-      "sources": ["loc-overview", "brit-jamestown"]
+      "sources": [
+        "loc-overview",
+        "brit-jamestown"
+      ]
     },
     {
       "id": "colonisation-thirteen-colonies",
@@ -59,15 +110,67 @@
         "Colonisation came at the expense of Indigenous nations, who lost land through warfare, treaty, and the demographic collapse caused by introduced diseases. By the mid-eighteenth century the British colonies were populous, prosperous, and accustomed to a large measure of self-government through their own assemblies—an autonomy that imperial authorities in London would soon try to curb."
       ],
       "events": [
-        { "year": 1607, "yearLabel": "1607", "title": "Founding of Jamestown", "summary": "English settlers established Jamestown in Virginia, the first permanent English settlement in North America, financed by the Virginia Company of London.", "category": "colonization", "sources": ["brit-jamestown"] },
-        { "year": 1619, "yearLabel": "August 1619", "title": "First Africans landed in Virginia", "summary": "An English ship brought roughly twenty enslaved Africans to Point Comfort, Virginia, marking the beginning of African slavery in the English mainland colonies.", "category": "migration", "sources": ["nps-1619"] },
-        { "year": 1620, "yearLabel": "1620", "title": "Pilgrims found Plymouth", "summary": "Separatist Pilgrims aboard the Mayflower established Plymouth Colony, the first enduring European settlement in New England.", "category": "religion", "sources": ["brit-plymouth", "brit-mayflower"] },
-        { "year": 1754, "yearLabel": "1754–1763", "endYear": 1763, "title": "French and Indian War", "summary": "Britain's victory in the North American theatre of the Seven Years' War expelled France from the continent but left Britain heavily indebted, prompting new colonial taxes.", "category": "war", "sources": ["loc-overview"] }
+        {
+          "year": 1607,
+          "yearLabel": "1607",
+          "title": "Founding of Jamestown",
+          "summary": "English settlers established Jamestown in Virginia, the first permanent English settlement in North America, financed by the Virginia Company of London.",
+          "category": "colonization",
+          "sources": [
+            "brit-jamestown"
+          ]
+        },
+        {
+          "year": 1619,
+          "yearLabel": "August 1619",
+          "title": "First Africans landed in Virginia",
+          "summary": "An English ship brought roughly twenty enslaved Africans to Point Comfort, Virginia, marking the beginning of African slavery in the English mainland colonies.",
+          "category": "migration",
+          "sources": [
+            "nps-1619"
+          ]
+        },
+        {
+          "year": 1620,
+          "yearLabel": "1620",
+          "title": "Pilgrims found Plymouth",
+          "summary": "Separatist Pilgrims aboard the Mayflower established Plymouth Colony, the first enduring European settlement in New England.",
+          "category": "religion",
+          "sources": [
+            "brit-plymouth",
+            "brit-mayflower"
+          ]
+        },
+        {
+          "year": 1754,
+          "yearLabel": "1754–1763",
+          "endYear": 1763,
+          "title": "French and Indian War",
+          "summary": "Britain's victory in the North American theatre of the Seven Years' War expelled France from the continent but left Britain heavily indebted, prompting new colonial taxes.",
+          "category": "war",
+          "sources": [
+            "loc-overview"
+          ]
+        }
       ],
       "figures": [
-        { "name": "Powhatan (Wahunsenacawh)", "role": "Paramount chief of the Powhatan confederacy", "life": "d. 1618", "blurb": "Leader of the alliance of Algonquian-speaking peoples whose lands surrounded Jamestown, navigating trade, diplomacy, and conflict with the early English colonists.", "sources": ["brit-jamestown"] }
+        {
+          "name": "Powhatan (Wahunsenacawh)",
+          "role": "Paramount chief of the Powhatan confederacy",
+          "life": "d. 1618",
+          "blurb": "Leader of the alliance of Algonquian-speaking peoples whose lands surrounded Jamestown, navigating trade, diplomacy, and conflict with the early English colonists.",
+          "sources": [
+            "brit-jamestown"
+          ]
+        }
       ],
-      "sources": ["brit-jamestown", "nps-1619", "brit-plymouth", "brit-mayflower", "loc-overview"]
+      "sources": [
+        "brit-jamestown",
+        "nps-1619",
+        "brit-plymouth",
+        "brit-mayflower",
+        "loc-overview"
+      ]
     },
     {
       "id": "revolution-and-republic",
@@ -82,17 +185,78 @@
         "The young republic established national institutions, asserted federal authority, and pursued continental expansion. The Louisiana Purchase of 1803 doubled the nation's territory by acquiring vast French claims west of the Mississippi, and the Lewis and Clark expedition (1804–1806) explored the new lands—accelerating a westward drive that would intensify pressure on Indigenous nations. The War of 1812 against Britain confirmed American independence and fostered a sense of national identity."
       ],
       "events": [
-        { "year": 1776, "yearLabel": "4 July 1776", "title": "Declaration of Independence", "summary": "The Second Continental Congress adopted the Declaration of Independence, formally announcing the separation of the thirteen colonies from Great Britain.", "category": "independence", "sources": ["nara-declaration"] },
-        { "year": 1783, "yearLabel": "1783", "title": "Treaty of Paris", "summary": "Great Britain recognised the independence of the United States, ending the Revolutionary War and ceding territory east of the Mississippi.", "category": "war", "sources": ["loc-overview"] },
-        { "year": 1788, "yearLabel": "21 June 1788", "endYear": 1789, "title": "Constitution ratified", "summary": "With New Hampshire's ratification the Constitution took effect; the federal government began operating on 4 March 1789 and Washington was inaugurated that April.", "category": "founding", "sources": ["nara-declaration"] },
-        { "year": 1803, "yearLabel": "1803", "title": "Louisiana Purchase", "summary": "The United States bought France's Louisiana territory for $15 million, roughly doubling the nation's size and opening the trans-Mississippi West.", "category": "politics", "sources": ["brit-lewis-clark"] }
+        {
+          "year": 1776,
+          "yearLabel": "4 July 1776",
+          "title": "Declaration of Independence",
+          "summary": "The Second Continental Congress adopted the Declaration of Independence, formally announcing the separation of the thirteen colonies from Great Britain.",
+          "category": "independence",
+          "sources": [
+            "nara-declaration"
+          ]
+        },
+        {
+          "year": 1783,
+          "yearLabel": "1783",
+          "title": "Treaty of Paris",
+          "summary": "Great Britain recognised the independence of the United States, ending the Revolutionary War and ceding territory east of the Mississippi.",
+          "category": "war",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1788,
+          "yearLabel": "21 June 1788",
+          "endYear": 1789,
+          "title": "Constitution ratified",
+          "summary": "With New Hampshire's ratification the Constitution took effect; the federal government began operating on 4 March 1789 and Washington was inaugurated that April.",
+          "category": "founding",
+          "sources": [
+            "nara-declaration"
+          ]
+        },
+        {
+          "year": 1803,
+          "yearLabel": "1803",
+          "title": "Louisiana Purchase",
+          "summary": "The United States bought France's Louisiana territory for $15 million, roughly doubling the nation's size and opening the trans-Mississippi West.",
+          "category": "politics",
+          "sources": [
+            "brit-lewis-clark"
+          ]
+        }
       ],
       "figures": [
-        { "name": "George Washington", "role": "Commander-in-chief and first U.S. president", "life": "1732–1799", "blurb": "Led the Continental Army to victory in the Revolution and, as the nation's first president (1789–1797), set enduring precedents for the office before relinquishing power voluntarily.", "sources": ["nara-declaration"] },
-        { "name": "Thomas Jefferson", "role": "Principal author of the Declaration; third president", "life": "1743–1826", "blurb": "Drafted the Declaration of Independence and, as president, completed the Louisiana Purchase. A champion of liberty who nonetheless held people in slavery, he embodied the new republic's central contradiction.", "sources": ["nara-declaration", "brit-lewis-clark"] }
+        {
+          "name": "George Washington",
+          "role": "Commander-in-chief and first U.S. president",
+          "life": "1732–1799",
+          "blurb": "Led the Continental Army to victory in the Revolution and, as the nation's first president (1789–1797), set enduring precedents for the office before relinquishing power voluntarily.",
+          "sources": [
+            "nara-declaration"
+          ]
+        },
+        {
+          "name": "Thomas Jefferson",
+          "role": "Principal author of the Declaration; third president",
+          "life": "1743–1826",
+          "blurb": "Drafted the Declaration of Independence and, as president, completed the Louisiana Purchase. A champion of liberty who nonetheless held people in slavery, he embodied the new republic's central contradiction.",
+          "sources": [
+            "nara-declaration",
+            "brit-lewis-clark"
+          ]
+        }
       ],
-      "pullquote": { "text": "We hold these truths to be self-evident, that all men are created equal.", "attribution": "Declaration of Independence, 1776" },
-      "sources": ["nara-declaration", "brit-lewis-clark", "loc-overview"]
+      "pullquote": {
+        "text": "We hold these truths to be self-evident, that all men are created equal.",
+        "attribution": "Declaration of Independence, 1776"
+      },
+      "sources": [
+        "nara-declaration",
+        "brit-lewis-clark",
+        "loc-overview"
+      ]
     },
     {
       "id": "expansion-slavery-civil-war",
@@ -107,17 +271,79 @@
         "The Civil War (1861–1865) began when Confederate forces fired on Fort Sumter in April 1861 and became a total war that killed an estimated 750,000 or more soldiers. Lincoln's Emancipation Proclamation of 1 January 1863 declared enslaved people in the rebelling states free and turned the war into a struggle for abolition. The Union victory, sealed by Robert E. Lee's surrender at Appomattox in April 1865, preserved the nation and led to the Thirteenth Amendment, ratified on 6 December 1865, which abolished slavery throughout the United States."
       ],
       "events": [
-        { "year": 1838, "yearLabel": "1838", "title": "Trail of Tears", "summary": "Under the Indian Removal Act, the United States forcibly marched the Cherokee and other southeastern nations west of the Mississippi; thousands died en route.", "category": "migration", "sources": ["loc-overview"] },
-        { "year": 1861, "yearLabel": "1861–1865", "endYear": 1865, "title": "American Civil War", "summary": "War between the Union and the secessionist Confederacy, ignited at Fort Sumter, became the deadliest conflict in U.S. history and decided the fate of slavery.", "category": "war", "sources": ["brit-civil-war"] },
-        { "year": 1863, "yearLabel": "1 January 1863", "title": "Emancipation Proclamation", "summary": "President Lincoln declared enslaved people in the rebelling states 'forever free,' redefining the war's purpose and clearing the way for Black enlistment in the Union army.", "category": "politics", "sources": ["nara-emancipation"] },
-        { "year": 1865, "yearLabel": "6 December 1865", "title": "Thirteenth Amendment abolishes slavery", "summary": "Ratified after the Union victory, the Thirteenth Amendment abolished slavery and involuntary servitude throughout the United States.", "category": "politics", "sources": ["nara-13th"] }
+        {
+          "year": 1838,
+          "yearLabel": "1838",
+          "title": "Trail of Tears",
+          "summary": "Under the Indian Removal Act, the United States forcibly marched the Cherokee and other southeastern nations west of the Mississippi; thousands died en route.",
+          "category": "migration",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1861,
+          "yearLabel": "1861–1865",
+          "endYear": 1865,
+          "title": "American Civil War",
+          "summary": "War between the Union and the secessionist Confederacy, ignited at Fort Sumter, became the deadliest conflict in U.S. history and decided the fate of slavery.",
+          "category": "war",
+          "sources": [
+            "brit-civil-war"
+          ]
+        },
+        {
+          "year": 1863,
+          "yearLabel": "1 January 1863",
+          "title": "Emancipation Proclamation",
+          "summary": "President Lincoln declared enslaved people in the rebelling states 'forever free,' redefining the war's purpose and clearing the way for Black enlistment in the Union army.",
+          "category": "politics",
+          "sources": [
+            "nara-emancipation"
+          ]
+        },
+        {
+          "year": 1865,
+          "yearLabel": "6 December 1865",
+          "title": "Thirteenth Amendment abolishes slavery",
+          "summary": "Ratified after the Union victory, the Thirteenth Amendment abolished slavery and involuntary servitude throughout the United States.",
+          "category": "politics",
+          "sources": [
+            "nara-13th"
+          ]
+        }
       ],
       "figures": [
-        { "name": "Abraham Lincoln", "role": "16th president of the United States", "life": "1809–1865", "blurb": "Led the Union through the Civil War, issued the Emancipation Proclamation, and championed the Thirteenth Amendment before his assassination in April 1865.", "sources": ["nara-emancipation", "brit-civil-war"] },
-        { "name": "Frederick Douglass", "role": "Abolitionist, orator, and statesman", "life": "c. 1818–1895", "blurb": "Escaped from slavery to become the era's foremost Black abolitionist, advancing emancipation and equal citizenship through his writing, speeches, and counsel to Lincoln.", "sources": ["loc-overview"] }
+        {
+          "name": "Abraham Lincoln",
+          "role": "16th president of the United States",
+          "life": "1809–1865",
+          "blurb": "Led the Union through the Civil War, issued the Emancipation Proclamation, and championed the Thirteenth Amendment before his assassination in April 1865.",
+          "sources": [
+            "nara-emancipation",
+            "brit-civil-war"
+          ]
+        },
+        {
+          "name": "Frederick Douglass",
+          "role": "Abolitionist, orator, and statesman",
+          "life": "c. 1818–1895",
+          "blurb": "Escaped from slavery to become the era's foremost Black abolitionist, advancing emancipation and equal citizenship through his writing, speeches, and counsel to Lincoln.",
+          "sources": [
+            "loc-overview"
+          ]
+        }
       ],
-      "pullquote": { "text": "All persons held as slaves... shall be then, thenceforward, and forever free.", "attribution": "Emancipation Proclamation, 1863" },
-      "sources": ["brit-civil-war", "nara-emancipation", "nara-13th", "loc-overview"]
+      "pullquote": {
+        "text": "All persons held as slaves... shall be then, thenceforward, and forever free.",
+        "attribution": "Emancipation Proclamation, 1863"
+      },
+      "sources": [
+        "brit-civil-war",
+        "nara-emancipation",
+        "nara-13th",
+        "loc-overview"
+      ]
     },
     {
       "id": "reconstruction-industry-world-wars",
@@ -132,15 +358,80 @@
         "In the twentieth century the United States stepped onto the world stage. It entered the First World War in 1917, helping to decide the conflict. The prosperity of the 1920s collapsed into the Great Depression after the 1929 stock market crash, prompting Franklin D. Roosevelt's New Deal, which dramatically enlarged the federal government's role in economic life. The Japanese attack on Pearl Harbor on 7 December 1941 brought the United States into the Second World War, which it helped win in 1945, emerging as the world's preeminent economic and military power and entering the nuclear age."
       ],
       "events": [
-        { "year": 1868, "yearLabel": "1868", "title": "Fourteenth Amendment", "summary": "Ratified during Reconstruction, it granted citizenship to all persons born in the United States and guaranteed equal protection of the laws.", "category": "politics", "sources": ["loc-overview"] },
-        { "year": 1869, "yearLabel": "1869", "title": "Transcontinental railroad completed", "summary": "The joining of the rails at Promontory, Utah, linked the Atlantic and Pacific coasts, accelerating settlement, commerce, and industrial growth.", "category": "economy", "sources": ["loc-overview"] },
-        { "year": 1929, "yearLabel": "1929", "endYear": 1939, "title": "Great Depression", "summary": "The stock market crash of 1929 triggered a decade-long economic collapse, answered by Roosevelt's New Deal programmes of relief, recovery, and reform.", "category": "economy", "sources": ["loc-overview"] },
-        { "year": 1941, "yearLabel": "7 December 1941", "title": "Attack on Pearl Harbor", "summary": "Japan's surprise attack on the U.S. naval base in Hawaii brought the United States into the Second World War.", "category": "war", "sources": ["nara-pearl-harbor"] }
+        {
+          "year": 1867,
+          "yearLabel": "30 March 1867",
+          "title": "The Alaska Purchase",
+          "summary": "Secretary of State William H. Seward agreed to buy Russian America — the colony Russia had run from Sitka through the Russian-American Company since 1799 — for $7.2 million, proposed by the Russian minister in Washington, Eduard de Stoeckl: less than two cents an acre for nearly 600,000 square miles. Russia lacked the money to settle or defend the territory and its defeat in the Crimean War had further reduced its interest. The Senate approved the treaty on 9 April, Tsar Alexander II ratified it on 20 June, and Alaska was formally transferred at Sitka on 18 October 1867. Skeptics dubbed the purchase 'Seward's Folly' or 'Seward's Icebox'; the Treasury warrant for seven million two hundred thousand dollars was issued on 1 August 1868.",
+          "category": "politics",
+          "sources": [
+            "state-alaska-purchase",
+            "nara-alaska-check",
+            "nara-alaska-ratification",
+            "brit-alaska"
+          ]
+        },
+        {
+          "year": 1868,
+          "yearLabel": "1868",
+          "title": "Fourteenth Amendment",
+          "summary": "Ratified during Reconstruction, it granted citizenship to all persons born in the United States and guaranteed equal protection of the laws.",
+          "category": "politics",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1869,
+          "yearLabel": "1869",
+          "title": "Transcontinental railroad completed",
+          "summary": "The joining of the rails at Promontory, Utah, linked the Atlantic and Pacific coasts, accelerating settlement, commerce, and industrial growth.",
+          "category": "economy",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1929,
+          "yearLabel": "1929",
+          "endYear": 1939,
+          "title": "Great Depression",
+          "summary": "The stock market crash of 1929 triggered a decade-long economic collapse, answered by Roosevelt's New Deal programmes of relief, recovery, and reform.",
+          "category": "economy",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1941,
+          "yearLabel": "7 December 1941",
+          "title": "Attack on Pearl Harbor",
+          "summary": "Japan's surprise attack on the U.S. naval base in Hawaii brought the United States into the Second World War.",
+          "category": "war",
+          "sources": [
+            "nara-pearl-harbor"
+          ]
+        }
       ],
       "figures": [
-        { "name": "Franklin D. Roosevelt", "role": "32nd president of the United States", "life": "1882–1945", "blurb": "Led the nation through the Great Depression with the New Deal and through most of the Second World War, the only president elected to four terms.", "sources": ["loc-overview"] }
+        {
+          "name": "Franklin D. Roosevelt",
+          "role": "32nd president of the United States",
+          "life": "1882–1945",
+          "blurb": "Led the nation through the Great Depression with the New Deal and through most of the Second World War, the only president elected to four terms.",
+          "sources": [
+            "loc-overview"
+          ]
+        }
       ],
-      "sources": ["loc-overview", "nara-pearl-harbor"]
+      "sources": [
+        "loc-overview",
+        "nara-pearl-harbor",
+        "state-alaska-purchase",
+        "nara-alaska-check",
+        "nara-alaska-ratification",
+        "brit-alaska"
+      ]
     },
     {
       "id": "superpower-civil-rights-modern",
@@ -155,39 +446,259 @@
         "The Cold War ended with the dissolution of the Soviet Union in 1991, leaving the United States the world's sole superpower. The decades since have been marked by globalisation, a digital and information revolution, the shock of the 11 September 2001 terrorist attacks and ensuing wars, and intense debate over immigration, inequality, and national identity. The United States remains a nation continually contesting the meaning of the ideals proclaimed at its founding."
       ],
       "events": [
-        { "year": 1954, "yearLabel": "1954", "title": "Brown v. Board of Education", "summary": "The Supreme Court ruled that racial segregation in public schools was unconstitutional, a landmark in the legal assault on Jim Crow.", "category": "politics", "sources": ["loc-overview"] },
-        { "year": 1964, "yearLabel": "2 July 1964", "title": "Civil Rights Act", "summary": "Signed by President Johnson, the Act outlawed discrimination based on race, colour, religion, sex, or national origin in employment and public accommodations.", "category": "politics", "sources": ["brit-civil-rights-act"] },
-        { "year": 1965, "yearLabel": "6 August 1965", "title": "Voting Rights Act", "summary": "The Act banned racial discrimination in voting and authorised federal oversight of elections, dramatically expanding Black political participation.", "category": "politics", "sources": ["brit-civil-rights-act"] },
-        { "year": 1969, "yearLabel": "1969", "title": "Apollo 11 Moon landing", "summary": "American astronauts became the first humans to walk on the Moon, a defining achievement of the Cold War space race.", "category": "culture", "sources": ["loc-overview"] },
-        { "year": 1991, "yearLabel": "1991", "title": "End of the Cold War", "summary": "The dissolution of the Soviet Union left the United States as the world's sole superpower and reshaped the international order.", "category": "politics", "sources": ["loc-overview"] }
+        {
+          "year": 1954,
+          "yearLabel": "1954",
+          "title": "Brown v. Board of Education",
+          "summary": "The Supreme Court ruled that racial segregation in public schools was unconstitutional, a landmark in the legal assault on Jim Crow.",
+          "category": "politics",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1959,
+          "yearLabel": "3 January 1959",
+          "title": "Alaska becomes the 49th state",
+          "summary": "Ninety-two years after the purchase mocked as 'Seward's Folly', Alaska entered the Union as the 49th state. Gold had already transformed the territory — it was the gateway to the Klondike fields after 1896, and a rush followed the 1898 discovery at Nome — and in 1968 the discovery at Prudhoe Bay of the largest oil field in North America, carried south from 1977 by the Trans-Alaska Pipeline, remade its economy again.",
+          "category": "politics",
+          "sources": [
+            "state-alaska-purchase",
+            "brit-nome",
+            "brit-prudhoe-bay",
+            "brit-alaska"
+          ]
+        },
+        {
+          "year": 1964,
+          "yearLabel": "2 July 1964",
+          "title": "Civil Rights Act",
+          "summary": "Signed by President Johnson, the Act outlawed discrimination based on race, colour, religion, sex, or national origin in employment and public accommodations.",
+          "category": "politics",
+          "sources": [
+            "brit-civil-rights-act"
+          ]
+        },
+        {
+          "year": 1965,
+          "yearLabel": "6 August 1965",
+          "title": "Voting Rights Act",
+          "summary": "The Act banned racial discrimination in voting and authorised federal oversight of elections, dramatically expanding Black political participation.",
+          "category": "politics",
+          "sources": [
+            "brit-civil-rights-act"
+          ]
+        },
+        {
+          "year": 1969,
+          "yearLabel": "1969",
+          "title": "Apollo 11 Moon landing",
+          "summary": "American astronauts became the first humans to walk on the Moon, a defining achievement of the Cold War space race.",
+          "category": "culture",
+          "sources": [
+            "loc-overview"
+          ]
+        },
+        {
+          "year": 1991,
+          "yearLabel": "1991",
+          "title": "End of the Cold War",
+          "summary": "The dissolution of the Soviet Union left the United States as the world's sole superpower and reshaped the international order.",
+          "category": "politics",
+          "sources": [
+            "loc-overview"
+          ]
+        }
       ],
       "figures": [
-        { "name": "Martin Luther King Jr.", "role": "Civil rights leader", "life": "1929–1968", "blurb": "The most prominent leader of the nonviolent civil rights movement, whose campaigns helped secure the Civil Rights and Voting Rights Acts before his assassination in 1968.", "sources": ["brit-civil-rights-act"] }
+        {
+          "name": "Martin Luther King Jr.",
+          "role": "Civil rights leader",
+          "life": "1929–1968",
+          "blurb": "The most prominent leader of the nonviolent civil rights movement, whose campaigns helped secure the Civil Rights and Voting Rights Acts before his assassination in 1968.",
+          "sources": [
+            "brit-civil-rights-act"
+          ]
+        }
       ],
-      "pullquote": { "text": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.", "attribution": "Martin Luther King Jr., 1963" },
-      "sources": ["brit-civil-rights-act", "loc-overview"]
+      "pullquote": {
+        "text": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.",
+        "attribution": "Martin Luther King Jr., 1963"
+      },
+      "sources": [
+        "brit-civil-rights-act",
+        "loc-overview",
+        "state-alaska-purchase",
+        "brit-nome",
+        "brit-prudhoe-bay",
+        "brit-alaska"
+      ]
     }
   ],
   "figures": [
-    { "name": "George Washington", "role": "First president of the United States", "life": "1732–1799", "blurb": "Commander of the Continental Army and the first president, he anchored the new republic's institutions and set the precedent of peaceful transfer of power.", "sources": ["nara-declaration"] },
-    { "name": "Abraham Lincoln", "role": "16th president; emancipator", "life": "1809–1865", "blurb": "Preserved the Union through the Civil War and moved the nation toward the abolition of slavery before his assassination.", "sources": ["nara-emancipation"] },
-    { "name": "Martin Luther King Jr.", "role": "Civil rights leader", "life": "1929–1968", "blurb": "Led the nonviolent movement that ended legal segregation and reshaped American democracy.", "sources": ["brit-civil-rights-act"] }
+    {
+      "name": "George Washington",
+      "role": "First president of the United States",
+      "life": "1732–1799",
+      "blurb": "Commander of the Continental Army and the first president, he anchored the new republic's institutions and set the precedent of peaceful transfer of power.",
+      "sources": [
+        "nara-declaration"
+      ]
+    },
+    {
+      "name": "Abraham Lincoln",
+      "role": "16th president; emancipator",
+      "life": "1809–1865",
+      "blurb": "Preserved the Union through the Civil War and moved the nation toward the abolition of slavery before his assassination.",
+      "sources": [
+        "nara-emancipation"
+      ]
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "role": "Civil rights leader",
+      "life": "1929–1968",
+      "blurb": "Led the nonviolent movement that ended legal segregation and reshaped American democracy.",
+      "sources": [
+        "brit-civil-rights-act"
+      ]
+    }
   ],
   "sources": [
-    { "id": "nara-declaration", "label": "The Declaration of Independence", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/founding-docs/declaration", "kind": "gov" },
-    { "id": "nara-13th", "label": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/milestone-documents/13th-amendment", "kind": "gov" },
-    { "id": "nara-emancipation", "label": "The Emancipation Proclamation", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation", "kind": "gov" },
-    { "id": "nara-pearl-harbor", "label": "Joint Address to Congress Leading to a Declaration of War Against Japan (1941)", "publisher": "U.S. National Archives", "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan", "kind": "gov" },
-    { "id": "brit-jamestown", "label": "Jamestown Colony", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Jamestown-Colony", "kind": "encyclopedia" },
-    { "id": "brit-plymouth", "label": "Plymouth, Massachusetts", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Plymouth-Massachusetts", "kind": "encyclopedia" },
-    { "id": "brit-mayflower", "label": "Mayflower", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Mayflower-ship", "kind": "encyclopedia" },
-    { "id": "brit-civil-war", "label": "American Civil War", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/American-Civil-War", "kind": "encyclopedia" },
-    { "id": "brit-lewis-clark", "label": "Lewis and Clark Expedition", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Lewis-and-Clark-Expedition", "kind": "encyclopedia" },
-    { "id": "brit-civil-rights-act", "label": "Civil Rights Act (United States, 1964)", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/event/Civil-Rights-Act-United-States-1964", "kind": "encyclopedia" },
-    { "id": "nps-1619", "label": "Arrival of the First Africans in 1619", "publisher": "U.S. National Park Service", "url": "https://www.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm", "kind": "gov" },
-    { "id": "loc-overview", "label": "Abraham Lincoln and Emancipation; U.S. History Collections", "publisher": "Library of Congress", "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/", "kind": "gov" },
-    { "id": "wikipedia-us-declaration", "label": "United States Declaration of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence", "kind": "reference" }
+    {
+      "id": "nara-declaration",
+      "label": "The Declaration of Independence",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration",
+      "kind": "gov"
+    },
+    {
+      "id": "nara-13th",
+      "label": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+      "kind": "gov"
+    },
+    {
+      "id": "nara-emancipation",
+      "label": "The Emancipation Proclamation",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation",
+      "kind": "gov"
+    },
+    {
+      "id": "nara-pearl-harbor",
+      "label": "Joint Address to Congress Leading to a Declaration of War Against Japan (1941)",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan",
+      "kind": "gov"
+    },
+    {
+      "id": "brit-jamestown",
+      "label": "Jamestown Colony",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Jamestown-Colony",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-plymouth",
+      "label": "Plymouth, Massachusetts",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Plymouth-Massachusetts",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-mayflower",
+      "label": "Mayflower",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Mayflower-ship",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-civil-war",
+      "label": "American Civil War",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/American-Civil-War",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-lewis-clark",
+      "label": "Lewis and Clark Expedition",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Lewis-and-Clark-Expedition",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-civil-rights-act",
+      "label": "Civil Rights Act (United States, 1964)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Civil-Rights-Act-United-States-1964",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "nps-1619",
+      "label": "Arrival of the First Africans in 1619",
+      "publisher": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm",
+      "kind": "gov"
+    },
+    {
+      "id": "loc-overview",
+      "label": "Abraham Lincoln and Emancipation; U.S. History Collections",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/",
+      "kind": "gov"
+    },
+    {
+      "id": "wikipedia-us-declaration",
+      "label": "United States Declaration of Independence",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+      "kind": "reference"
+    },
+    {
+      "id": "state-alaska-purchase",
+      "label": "Purchase of Alaska, 1867",
+      "publisher": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+      "kind": "gov"
+    },
+    {
+      "id": "nara-alaska-check",
+      "label": "Check for the Purchase of Alaska (1868)",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska",
+      "kind": "gov"
+    },
+    {
+      "id": "nara-alaska-ratification",
+      "label": "Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867",
+      "publisher": "U.S. National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/299810",
+      "kind": "primary"
+    },
+    {
+      "id": "brit-alaska",
+      "label": "Alaska",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Alaska-state",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-nome",
+      "label": "Nome",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Nome-Alaska",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "brit-prudhoe-bay",
+      "label": "Prudhoe Bay",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Prudhoe-Bay",
+      "kind": "encyclopedia"
+    }
   ],
   "status": "published",
-  "updated": "2026-06-13"
+  "updated": "2026-09-07"
 }

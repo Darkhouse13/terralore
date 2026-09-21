@@ -1,6 +1,6 @@
 # The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.
 
-History of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.. 6 eras and 23 sourced events, every claim…
+History of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.. 6 eras and 25 sourced events, every claim…
 
 Canonical: https://terralore.co/country/THA/chronicle
 Updated: 2026-06-15
@@ -54,6 +54,8 @@ As European empires swallowed its neighbours, Siam alone preserved its independe
 - 1868–1910: **Reforms of Chulalongkorn (Rama V)** — Chulalongkorn abolishes slavery, reorganises the administration, and modernises law, finance, education, and infrastructure, building a centralised modern state. [eb-chulalongkorn, eb-thailand]
 - 1893: **Franco-Siamese crisis and loss of Laos** — After French gunboats threaten Bangkok, Siam cedes the Lao territories east of the Mekong to French Indochina, the heaviest of its frontier concessions. [eb-thailand]
 - 15 January 1896: **Anglo-French guarantee of Siam's independence** — Britain and France declare their mutual respect for the independence of Siam's core territory, fixing the kingdom as a buffer state between their empires. [siam-society-1896, eb-thailand]
+- 1907: **Battambang and Siem Reap ceded to France** — Under continued French pressure, Chulalongkorn surrenders the Cambodian provinces of Battambang and Siem Reap to French-ruled Cambodia. [loc-thailand-study]
+- 1909: **Northern Malay states ceded to Britain** — Siam relinquishes its claims to the Malay states of Kelantan, Trengganu, Kedah, and Perlis to Britain, in exchange for legal jurisdiction over British subjects on its soil and a large loan for railway construction. Much diminished, Siam remains independent as a buffer between British and French territory. [loc-thailand-study]
 
 Figures:
 
@@ -107,5 +109,6 @@ Machine-readable claims — every event above as an addressable claim ID (TL:THA
 - [siam-society-1896] The Anglo-French Declaration of January 1896 and the Independence of Siam — The Siam Society (Journal of the Siam Society) · https://thesiamsociety.org/wp-content/uploads/1970/03/JSS_058_2h_Jeshurun_AngloFrenchDeclarationJanuary1896.pdf
 - [wikipedia-sukhothai] Sukhothai Kingdom — Wikipedia · https://en.wikipedia.org/wiki/Sukhothai_Kingdom
 - [statedept-thailand] A Guide to the United States' History of Recognition: Thailand — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/thailand
+- [loc-thailand-study] Thailand: A Country Study — Library of Congress, Federal Research Division · https://www.loc.gov/item/88600485/
 
 Citation template: Terralore, "The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.", terralore.co/country/THA/chronicle, retrieved <YYYY-MM-DD>.

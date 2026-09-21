@@ -1,6 +1,6 @@
 # Cambodia and Thailand compared
 
-Cambodia and Thailand side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Cambodia and Thailand side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/khm-vs-tha
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -103,11 +103,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/KHM.md and https://terralore.co/country/THA.md.
 
-## Entangled histories (1 event)
+## Entangled histories (2 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1863 CE: **French protectorate established** — King Norodom signs a treaty placing Cambodia under French protection to fend off Siamese and Vietnamese pressure; Siam acknowledges the protectorate by 1867. (from the Cambodia chronicle; sources: Norodom; Cambodia Gains Independence from France)
+- 1907: **Battambang and Siem Reap ceded to France** — Under continued French pressure, Chulalongkorn surrenders the Cambodian provinces of Battambang and Siem Reap to French-ruled Cambodia. (from the Thailand chronicle; sources: Thailand: A Country Study)
 
 ## Sources
 

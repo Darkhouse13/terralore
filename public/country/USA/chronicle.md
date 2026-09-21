@@ -1,9 +1,9 @@
 # The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.
 
-History of United States: From Indigenous homelands to a continental republic and global superpower.. 6 eras and 24 sourced events, every claim traceable…
+History of United States: From Indigenous homelands to a continental republic and global superpower.. 6 eras and 26 sourced events, every claim traceable…
 
 Canonical: https://terralore.co/country/USA/chronicle
-Updated: 2026-06-13
+Updated: 2026-09-07
 
 Founding: Declaration of Independence — 4 July 1776. On 4 July 1776 the Second Continental Congress adopted the Declaration of Independence, announcing the separation of thirteen British colonies from Great Britain. A durable framework of government followed: the Constitution was signed on 17 September 1787 and, after New Hampshire became the ninth state to ratify on 21 June 1788, took effect when the new federal government convened on 4 March 1789, with George Washington inaugurated as first president on 30 April 1789.
 
@@ -64,6 +64,7 @@ Figures:
 
 Emancipation gave way to a contested Reconstruction, an industrial transformation fed by mass immigration, and two world wars that propelled the nation to global power.
 
+- 30 March 1867: **The Alaska Purchase** — Secretary of State William H. Seward agreed to buy Russian America — the colony Russia had run from Sitka through the Russian-American Company since 1799 — for $7.2 million, proposed by the Russian minister in Washington, Eduard de Stoeckl: less than two cents an acre for nearly 600,000 square miles. Russia lacked the money to settle or defend the territory and its defeat in the Crimean War had further reduced its interest. The Senate approved the treaty on 9 April, Tsar Alexander II ratified it on 20 June, and Alaska was formally transferred at Sitka on 18 October 1867. Skeptics dubbed the purchase 'Seward's Folly' or 'Seward's Icebox'; the Treasury warrant for seven million two hundred thousand dollars was issued on 1 August 1868. [state-alaska-purchase, nara-alaska-check, nara-alaska-ratification, brit-alaska]
 - 1868: **Fourteenth Amendment** — Ratified during Reconstruction, it granted citizenship to all persons born in the United States and guaranteed equal protection of the laws. [loc-overview]
 - 1869: **Transcontinental railroad completed** — The joining of the rails at Promontory, Utah, linked the Atlantic and Pacific coasts, accelerating settlement, commerce, and industrial growth. [loc-overview]
 - 1929: **Great Depression** — The stock market crash of 1929 triggered a decade-long economic collapse, answered by Roosevelt's New Deal programmes of relief, recovery, and reform. [loc-overview]
@@ -78,6 +79,7 @@ Figures:
 A Cold War superpower wrestled with its unfinished promise of equality, reshaping itself through the civil rights movement and decades of social and technological change.
 
 - 1954: **Brown v. Board of Education** — The Supreme Court ruled that racial segregation in public schools was unconstitutional, a landmark in the legal assault on Jim Crow. [loc-overview]
+- 3 January 1959: **Alaska becomes the 49th state** — Ninety-two years after the purchase mocked as 'Seward's Folly', Alaska entered the Union as the 49th state. Gold had already transformed the territory — it was the gateway to the Klondike fields after 1896, and a rush followed the 1898 discovery at Nome — and in 1968 the discovery at Prudhoe Bay of the largest oil field in North America, carried south from 1977 by the Trans-Alaska Pipeline, remade its economy again. [state-alaska-purchase, brit-nome, brit-prudhoe-bay, brit-alaska]
 - 2 July 1964: **Civil Rights Act** — Signed by President Johnson, the Act outlawed discrimination based on race, colour, religion, sex, or national origin in employment and public accommodations. [brit-civil-rights-act]
 - 6 August 1965: **Voting Rights Act** — The Act banned racial discrimination in voting and authorised federal oversight of elections, dramatically expanding Black political participation. [brit-civil-rights-act]
 - 1969: **Apollo 11 Moon landing** — American astronauts became the first humans to walk on the Moon, a defining achievement of the Cold War space race. [loc-overview]
@@ -104,5 +106,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:USA
 - [nps-1619] Arrival of the First Africans in 1619 — U.S. National Park Service · https://www.nps.gov/articles/000/arrival-of-the-first-africans-in-1619.htm
 - [loc-overview] Abraham Lincoln and Emancipation; U.S. History Collections — Library of Congress · https://www.loc.gov/collections/abraham-lincoln-papers/articles-and-essays/abraham-lincoln-and-emancipation/
 - [wikipedia-us-declaration] United States Declaration of Independence — Wikipedia · https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+- [state-alaska-purchase] Purchase of Alaska, 1867 — Office of the Historian, U.S. Department of State · https://history.state.gov/milestones/1866-1898/alaska-purchase
+- [nara-alaska-check] Check for the Purchase of Alaska (1868) — U.S. National Archives · https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska
+- [nara-alaska-ratification] Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867 — U.S. National Archives Catalog · https://catalog.archives.gov/id/299810
+- [brit-alaska] Alaska — Encyclopaedia Britannica · https://www.britannica.com/place/Alaska-state
+- [brit-nome] Nome — Encyclopaedia Britannica · https://www.britannica.com/place/Nome-Alaska
+- [brit-prudhoe-bay] Prudhoe Bay — Encyclopaedia Britannica · https://www.britannica.com/place/Prudhoe-Bay
 
 Citation template: Terralore, "The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.", terralore.co/country/USA/chronicle, retrieved <YYYY-MM-DD>.

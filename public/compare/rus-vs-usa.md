@@ -1,9 +1,9 @@
 # Russia and United States compared
 
-Russia and United States side by side: 50 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Russia and United States side by side: 50 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/rus-vs-usa
-Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -111,10 +111,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/RUS.md and https://terralore.co/country/USA.md.
 
-## Entangled histories (1 event)
+## Entangled histories (3 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
+- 30 March 1867: **Russia sells Alaska to the United States** — Lacking the money to settle or defend its North American colony, and with its interest in the region reduced by defeat in the Crimean War, Russia sold Russian America to the United States for $7.2 million. Its minister in Washington, Eduard de Stoeckl, proposed the sale to Secretary of State William H. Seward and the treaty was signed on 30 March 1867; Alexander II ratified it on 20 June and the territory was handed over at Sitka on 18 October. The United States paid with a Treasury warrant for seven million two hundred thousand dollars on 1 August 1868. (from the Russia chronicle; sources: Purchase of Alaska, 1867; Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867; Check for the Purchase of Alaska (1868))
+- 30 March 1867: **The Alaska Purchase** — Secretary of State William H. Seward agreed to buy Russian America — the colony Russia had run from Sitka through the Russian-American Company since 1799 — for $7.2 million, proposed by the Russian minister in Washington, Eduard de Stoeckl: less than two cents an acre for nearly 600,000 square miles. Russia lacked the money to settle or defend the territory and its defeat in the Crimean War had further reduced its interest. The Senate approved the treaty on 9 April, Tsar Alexander II ratified it on 20 June, and Alaska was formally transferred at Sitka on 18 October 1867. Skeptics dubbed the purchase 'Seward's Folly' or 'Seward's Icebox'; the Treasury warrant for seven million two hundred thousand dollars was issued on 1 August 1868. (from the United States chronicle; sources: Purchase of Alaska, 1867; Check for the Purchase of Alaska (1868); Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867; Alaska)
 - 1991: **End of the Cold War** — The dissolution of the Soviet Union left the United States as the world's sole superpower and reshaped the international order. (from the United States chronicle; sources: Abraham Lincoln and Emancipation; U.S. History Collections)
 
 ## Sources

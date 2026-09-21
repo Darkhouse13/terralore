@@ -40,6 +40,7 @@ Figures:
 Brazil won its independence in 1822 not as a republic but as a monarchy, the only enduring empire in the Americas, ruled by the House of Braganza until slavery's abolition and a military coup brought the throne down.
 
 - 7 Sept 1822: **Independence and the Empire** — Dom Pedro proclaims independence at the Cry of Ipiranga and is acclaimed Emperor Pedro I, founding the Empire of Brazil. [britannica-pedro-i, britannica-brazil]
+- 1823 CE: **A capital inland, and a name** — In the Constituent Assembly of the Empire, Jose Bonifacio de Andrada e Silva proposes moving the capital from the coast to the interior and suggests a name for the new city: Brasilia. [senado-brasilia-50]
 - 1840 CE: **Reign of Pedro II begins** — Pedro II assumes personal rule, beginning a long reign that brings political stability and the rise of the coffee economy. [britannica-pedro-ii, britannica-brazil]
 - 1864-1870: **War of the Triple Alliance** — Brazil, Argentina, and Uruguay defeat Paraguay in the deadliest war in South American history, at enormous human and financial cost. [britannica-brazil]
 - 13 May 1888: **Abolition of slavery** — Princess Isabel signs the Lei Aurea, abolishing slavery without compensation; Brazil is the last country in the Americas to do so. [britannica-brazil]
@@ -54,7 +55,8 @@ Figures:
 
 The first decades of the Republic were dominated by coffee, oligarchy, and the alternation of power between Brazil's wealthiest states, a system whose contradictions ended in the revolution of 1930.
 
-- 1891 CE: **First republican constitution** — The Constitution of 1891 establishes a federal republic with strong states, modelled in part on the United States. [britannica-brazil]
+- 1891 CE: **First republican constitution** — The Constitution of 1891 establishes a federal republic with strong states, modelled in part on the United States. Its Article 3 reserves to the Union a zone of 14,400 square kilometres on the central plateau for a future federal capital; until then Rio de Janeiro remains the capital. [britannica-brazil, planalto-constituicao-1891]
+- 1892-1894: **The Cruls Commission marks out a capital** — President Floriano Peixoto sends a commission of scientists, led by the Belgian-born astronomer Louis Cruls, to explore the central plateau; it demarcates the 14,400-square-kilometre site for the future capital, known as the Cruls Quadrilateral. [senado-brasilia-50]
 - 1896-1897: **War of Canudos** — The army crushes a large millenarian community in the Bahian backlands, exposing the gulf between the republican coast and the impoverished interior. [britannica-brazil]
 - late 19th-early 20th c.: **Mass immigration** — Millions of immigrants, especially Italians, Portuguese, Spaniards, and Japanese, arrive to work coffee and settle the south, reshaping Brazilian society. [britannica-brazil]
 - 1930 CE: **Revolution of 1930** — A disputed election amid the Depression brings down the Old Republic, and Getulio Vargas takes power, beginning a new era. [britannica-vargas, britannica-brazil]
@@ -68,13 +70,15 @@ Figures:
 Half a century shaped by two authoritarian experiences: the rule of Getulio Vargas, including the Estado Novo dictatorship, and the military regime of 1964 to 1985, a period of forced development, censorship, and state repression.
 
 - 1937-1945: **The Estado Novo** — Vargas imposes a centralised dictatorship, ruling by decree, banning parties, and censoring the press until his ouster in 1945. [britannica-vargas, britannica-estado-novo]
-- 21 Apr 1960: **Inauguration of Brasilia** — The purpose-built modernist capital, designed by Lucio Costa and Oscar Niemeyer, is inaugurated in the interior, shifting Brazil's centre of gravity inland. [unesco-brasilia]
+- 19 Sep 1956: **A site and a builder for the new capital** — Law 2,874, sanctioned by President Juscelino Kubitschek, fixes the boundary of the future Federal District on the central plateau and creates Novacap, the state company that will build the city. In 1957 Lucio Costa's Pilot Plan is chosen, and a law of 1 October 1957 sets the transfer of the capital for 21 April 1960. [planalto-lei-2874, planalto-lei-3273, senado-brasilia-50]
+- 21 Apr 1960: **Inauguration of Brasilia** — The purpose-built modernist capital, created from nothing and designed by Lucio Costa and Oscar Niemeyer, is inaugurated in the interior by President Kubitschek after about forty-two months of construction, and the capital moves from Rio de Janeiro, shifting Brazil's centre of gravity inland. UNESCO inscribed the city as a World Heritage Site in 1987; it remains the seat of all three branches of government. [unesco-brasilia, planalto-lei-3273, senado-brasilia-50, cpdoc-jk-rumos]
 - 1 Apr 1964: **Military coup** — The armed forces overthrow President Joao Goulart and seize power, beginning twenty-one years of military dictatorship. [britannica-brazil]
 - 13 Dec 1968: **Institutional Act Number Five** — AI-5 suspends habeas corpus and civil liberties, opening the regime's most repressive phase of censorship, torture, and disappearances. [britannica-brazil]
 - 1985 CE: **Return to civilian rule** — After a gradual political opening, the military hands power back to civilians, ending the dictatorship. [britannica-brazil]
 
 Figures:
 
+- Juscelino Kubitschek (1902-1976) — President of Brazil, 1956-1961. Elected on the promise of fifty years of progress in five, he sanctioned the 1956 law that fixed the site of the new capital and inaugurated Brasilia on 21 April 1960, moving the seat of government from Rio de Janeiro to the central plateau.
 - Getulio Vargas (1882-1954) — President and dictator. The dominant figure of twentieth-century Brazilian politics. He led the 1930 revolution, ruled as dictator under the Estado Novo, championed labour rights and industry, returned by election in 1951, and took his own life in office in 1954.
 - Oscar Niemeyer (1907-2012) — Architect of Brasilia. The master of Brazilian modernist architecture who designed the principal public buildings of the new capital, Brasilia, giving form to a national project of the mid-twentieth century.
 
@@ -108,6 +112,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:BRA
 - [slavevoyages] Trans-Atlantic Slave Trade Database — SlaveVoyages, Emory University · https://www.slavevoyages.org/
 - [unesco-ouro-preto] Historic Town of Ouro Preto — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/124/
 - [unesco-brasilia] Brasilia — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/445/
+- [planalto-constituicao-1891] Constituicao da Republica dos Estados Unidos do Brasil (24 de fevereiro de 1891) — Presidencia da Republica, Casa Civil (Planalto) · https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm
+- [planalto-lei-2874] Lei n. 2.874, de 19 de setembro de 1956 (mudanca da Capital Federal) — Presidencia da Republica, Casa Civil (Planalto) · https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l2874.htm
+- [planalto-lei-3273] Lei n. 3.273, de 1 de outubro de 1957 (fixa a data da mudanca da Capital Federal) — Presidencia da Republica, Casa Civil (Planalto) · https://www.planalto.gov.br/ccivil_03/leis/l3273.htm
+- [senado-brasilia-50] Do quadrilatero Cruls ao patrimonio historico e cultural da humanidade (50 anos de Brasilia) — Senado Federal do Brasil · https://www.senado.gov.br/noticias/especiais/brasilia50anos/not02.asp
+- [cpdoc-jk-rumos] O homem que fez o Brasil crescer 50 anos em 5 (Rumos) — FGV CPDOC archive · https://cpdoc.fgv.br/sites/default/files/brasilia/revistas/A_revista_rumos.pdf
 - [constitutionnet-brazil] Constitutional history of Brazil — ConstitutionNet, International IDEA · https://constitutionnet.org/country/constitutional-history-brazil
 - [ibge-indigenous] Indigenous Peoples (Indigenas) — IBGE, Brazilian Institute of Geography and Statistics · https://www.ibge.gov.br/en/
 - [wikipedia-independence-brazil] Independence of Brazil — Wikipedia · https://en.wikipedia.org/wiki/Independence_of_Brazil

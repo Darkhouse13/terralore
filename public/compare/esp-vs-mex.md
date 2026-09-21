@@ -1,6 +1,6 @@
 # Spain and Mexico compared
 
-Spain and Mexico side by side: 43 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
+Spain and Mexico side by side: 43 shared sourced indicators across 9 domains, and the 6 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/esp-vs-mex
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -107,14 +107,16 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ESP.md and https://terralore.co/country/MEX.md.
 
-## Entangled histories (4 events)
+## Entangled histories (6 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1502 CE: **Reign of Moctezuma II** — Moctezuma II ascends as huey tlatoani, ruling the empire at its territorial peak until the Spanish arrival. (from the Mexico chronicle; sources: Aztec)
 - 1535 CE: **Viceroyalty of New Spain established** — Spain formalises colonial government under a viceroy, with Mexico City as the capital of a vast realm. (from the Mexico chronicle; sources: Hernan Cortes)
 - 16 Sept 1810: **Grito de Dolores** — Miguel Hidalgo calls for rebellion against Spanish rule, beginning the Mexican War of Independence. (from the Mexico chronicle; sources: Grito de Dolores)
+- 28 Sept 1821: **Act of Independence of the Mexican Empire** — The day after the Army of the Three Guarantees enters the capital, the Supreme Junta of the Empire declares Mexico a sovereign nation independent of Spain; Agustin de Iturbide's signature heads the act. (from the Mexico chronicle; sources: Acta de Independencia del Imperio Mexicano, 28 de septiembre de 1821 (text))
 - 27 Sept 1821: **Independence consummated** — The Army of the Three Guarantees enters Mexico City following the Treaty of Cordoba, ending Spanish rule. (from the Mexico chronicle; sources: Winning Independence; Grito de Dolores)
+- 24 Aug 1821: **Treaty of Cordoba** — At the town of Cordoba, Veracruz, Juan O'Donoju, the Spanish political chief of New Spain, and Agustin de Iturbide, commander of the Army of the Three Guarantees, sign treaties that ratify the principles of the Plan of Iguala. (from the Mexico chronicle; sources: Los tratados de Córdoba y la consumación de la independencia; Mexico: A Country Study (Iturbide and the Plan of Iguala; Empire and Early Republic))
 
 ## Sources
 

@@ -1,9 +1,9 @@
 # The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.
 
-History of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.. 6 eras and 30 sourced events, every claim…
+History of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.. 6 eras and 31 sourced events, every claim…
 
 Canonical: https://terralore.co/country/RUS/chronicle
-Updated: 2026-06-13
+Updated: 2026-09-07
 
 Founding: Oleg's seizure of Kiev and the founding of Kievan Rus' — 882 CE. Russia's conventional founding is dated to 882, when, according to the Russian Primary Chronicle, the Varangian prince Oleg captured Kiev and made it the capital of a unified realm along the Dnieper-Volkhov river route, the state known as Kievan Rus'. Later constitutional milestones mark the evolution of the Russian state: the Tsardom of Russia under Ivan IV (the Terrible), who was crowned the first tsar in 1547; the Russian Empire, proclaimed by Peter I (the Great) in 1721 after victory in the Great Northern War; and the modern Russian Federation, which emerged as the successor to the Soviet Union when the USSR dissolved on 25-26 December 1991.
 
@@ -48,6 +48,7 @@ Two sovereigns called 'the Great' forged a European empire of palaces and serfs 
 - 1762-1796: **The reign of Catherine the Great** — Catherine II expands the empire to the Black Sea and through the three Partitions of Poland, patronizes the arts and Enlightenment ideas, and founds the Hermitage collection, while serfdom reaches its most oppressive extent. [britannica-russia, britannica-catherine]
 - 1812: **Napoleon's invasion and retreat from Moscow** — Napoleon's Grande Armee invades Russia and reaches a burning Moscow, but is destroyed by attrition, scorched earth, and the Russian winter; the catastrophe makes Russia a leading power of post-Napoleonic Europe. [britannica-russia]
 - 3 March 1861: **Emancipation of the serfs** — Tsar Alexander II issues the Emancipation Manifesto, freeing more than twenty million serfs of the Russian Empire; the landmark reform grants legal freedom but leaves peasants burdened by redemption payments and land hunger. [britannica-russia, britannica-emancipation]
+- 30 March 1867: **Russia sells Alaska to the United States** — Lacking the money to settle or defend its North American colony, and with its interest in the region reduced by defeat in the Crimean War, Russia sold Russian America to the United States for $7.2 million. Its minister in Washington, Eduard de Stoeckl, proposed the sale to Secretary of State William H. Seward and the treaty was signed on 30 March 1867; Alexander II ratified it on 20 June and the territory was handed over at Sitka on 18 October. The United States paid with a Treasury warrant for seven million two hundred thousand dollars on 1 August 1868. [state-alaska-purchase, nara-alaska-ratification, nara-alaska-check]
 - 1905: **The Revolution of 1905** — Defeat by Japan and the 'Bloody Sunday' shooting of demonstrators spark strikes, mutinies, and unrest across the empire, forcing Nicholas II to grant a parliament (Duma) and limited civil liberties in the October Manifesto. [britannica-russia, britannica-russian-revolution]
 
 Figures:
@@ -125,5 +126,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:RUS
 - [wikipedia-kievan-rus] Kievan Rus' — Wikipedia · https://en.wikipedia.org/wiki/Kievan_Rus%27
 - [wikipedia-mongol-invasion-rus] Mongol invasion of Kievan Rus' — Wikipedia · https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus%27
 - [whe-kievan-rus] Kievan Rus — World History Encyclopedia · https://www.worldhistory.org/Kievan_Rus/
+- [state-alaska-purchase] Purchase of Alaska, 1867 — Office of the Historian, U.S. Department of State · https://history.state.gov/milestones/1866-1898/alaska-purchase
+- [nara-alaska-ratification] Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867 — U.S. National Archives Catalog · https://catalog.archives.gov/id/299810
+- [nara-alaska-check] Check for the Purchase of Alaska (1868) — U.S. National Archives · https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska
 
 Citation template: Terralore, "The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.", terralore.co/country/RUS/chronicle, retrieved <YYYY-MM-DD>.

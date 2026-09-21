@@ -1,6 +1,6 @@
 # The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.
 
-History of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.. 6 eras and 20…
+History of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.. 6 eras and 26…
 
 Canonical: https://terralore.co/country/MEX/chronicle
 Updated: 2026-06-13
@@ -48,7 +48,13 @@ Figures:
 A rebellion begun by a parish priest in 1810 became a war of independence, consummated in 1821, that gave way to a turbulent young republic beset by political instability and the loss of half its territory.
 
 - 16 Sept 1810: **Grito de Dolores** — Miguel Hidalgo calls for rebellion against Spanish rule, beginning the Mexican War of Independence. [britannica-grito]
+- Dec 1820: **Iturbide sent against Guerrero** — Viceroy Juan Ruiz de Apodaca sends the royalist criollo officer Agustin de Iturbide, known for his campaigns against the insurgents of Hidalgo and Morelos, to defeat the rebel forces of Vicente Guerrero in the south. [loc-mexico-study]
+- 24 Feb 1821: **Plan of Iguala** — At Iguala, Iturbide proclaims three guarantees (independence, the Roman Catholic religion, and equal rights for criollos and peninsulares) and wins the cooperation of the insurgent Vicente Guerrero. [loc-mexico-study, lumen-independence]
+- 24 Aug 1821: **Treaty of Cordoba** — At the town of Cordoba, Veracruz, Juan O'Donoju, the Spanish political chief of New Spain, and Agustin de Iturbide, commander of the Army of the Three Guarantees, sign treaties that ratify the principles of the Plan of Iguala. [cultura-tratados-cordoba, loc-mexico-study]
 - 27 Sept 1821: **Independence consummated** — The Army of the Three Guarantees enters Mexico City following the Treaty of Cordoba, ending Spanish rule. [lumen-independence, britannica-grito]
+- 28 Sept 1821: **Act of Independence of the Mexican Empire** — The day after the Army of the Three Guarantees enters the capital, the Supreme Junta of the Empire declares Mexico a sovereign nation independent of Spain; Agustin de Iturbide's signature heads the act. [ojn-acta-1821]
+- 19 May 1822: **Iturbide made emperor** — The day after his troops march through Mexico City in his support, congress names Iturbide constitutional emperor of Mexico, as Agustin I. [loc-mexico-study]
+- 1823 CE: **Iturbide abdicates** — Faced with the revolt of Santa Anna and other generals under the Plan of Casa Mata, Iturbide abdicates the throne. [loc-mexico-study]
 - 1824 CE: **First federal republic** — The Constitution of 1824 founds the United Mexican States as a federal republic, with Guadalupe Victoria as first president. [lumen-independence]
 - 1846-1848: **Mexican-American War** — Defeat by the United States costs Mexico roughly half its territory under the Treaty of Guadalupe Hidalgo. [britannica-juarez]
 
@@ -103,6 +109,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:MEX
 - [britannica-mexican-revolution] Mexican Revolution — Encyclopaedia Britannica · https://www.britannica.com/event/Mexican-Revolution
 - [britannica-vicente-fox] Vicente Fox — Encyclopaedia Britannica · https://www.britannica.com/biography/Vicente-Fox
 - [britannica-zapatista] Zapatista National Liberation Army (EZLN) — Encyclopaedia Britannica · https://www.britannica.com/topic/Zapatista-National-Liberation-Army
+- [loc-mexico-study] Mexico: A Country Study (Iturbide and the Plan of Iguala; Empire and Early Republic) — Library of Congress, Federal Research Division · https://www.loc.gov/resource/frdcstdy.mexicocountrystu00merr_0/
+- [ojn-acta-1821] Acta de Independencia del Imperio Mexicano, 28 de septiembre de 1821 (text) — Orden Juridico Nacional, Secretaria de Gobernacion (Mexico) · https://www.ordenjuridico.gob.mx/Constitucion/1821C.pdf
+- [cultura-tratados-cordoba] Los tratados de Córdoba y la consumación de la independencia — Secretaría de Cultura, Gobierno de México · https://contigoenladistancia.cultura.gob.mx/detalle/los-tratados-de-cordoba-y-la-consumacion-de-la-independencia
 - [wikipedia-mexican-independence] Mexican War of Independence — Wikipedia · https://en.wikipedia.org/wiki/Mexican_War_of_Independence
 - [nwe-mexico] Mexico — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Mexico
 

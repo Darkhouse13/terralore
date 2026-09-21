@@ -1,6 +1,6 @@
 # Bolivia and Chile compared
 
-Bolivia and Chile side by side: 41 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
+Bolivia and Chile side by side: 41 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bol-vs-chl
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -106,13 +106,14 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/BOL.md and https://terralore.co/country/CHL.md.
 
-## Entangled histories (3 events)
+## Entangled histories (4 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1879-1883: **The War of the Pacific** — A dispute over nitrate taxes leads Chile to war with Peru and Bolivia; Chilean victories win the nitrate-rich Atacama and leave Bolivia landlocked. (from the Chile chronicle; sources: War of the Pacific; History of Chile)
 - 1879-1883: **War of the Pacific** — Chile defeats Bolivia and its ally Peru and annexes Bolivia's coast; Bolivia loses its Pacific province of Antofagasta and becomes landlocked. (from the Bolivia chronicle; sources: War of the Pacific; Bolivia: A Country Study)
 - 1904 CE: **Treaty confirms the loss of the coast** — A treaty between Bolivia and Chile formally cedes the Pacific coast to Chile, fixing Bolivia's landlocked status and a lasting national grievance. (from the Bolivia chronicle; sources: War of the Pacific; Bolivia; Bolivia: A Country Study)
+- 1 Oct 2018: **World Court rejects the maritime claim** — Bolivia's case to compel Chile to negotiate sovereign access to the Pacific, filed in 2013, fails: the International Court of Justice finds Chile under no obligation to negotiate, while the 2009 constitution keeps the claim to the sea and a navy for the country's lakes and rivers. (from the Bolivia chronicle; sources: Obligation to Negotiate Access to the Pacific Ocean (Bolivia v. Chile), Judgment of 1 October 2018; Bolivia (Plurinational State of) Constitution of 2009, Articles 243, 267 and 268; Bolivia)
 
 ## Sources
 

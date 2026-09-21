@@ -30,8 +30,8 @@ DROP=/data/terralore-social/status/reels/$DATE
 [ -f "$VIDEO" ] || { echo "no such video: $VIDEO" >&2; exit 2; }
 [ -s "$CAPTION" ] || { echo "caption file missing or empty: $CAPTION" >&2; exit 2; }
 
-read -r CODEC W H < <(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height \
-  -of csv=p=0:s=' ' "$VIDEO")
+IFS=, read -r CODEC W H < <(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height \
+  -of csv=p=0 "$VIDEO")
 DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$VIDEO")
 [ "$CODEC" = h264 ] && [ "$W" = 1080 ] && [ "$H" = 1920 ] || {
   echo "expected 1080x1920 h264, got ${W}x${H} $CODEC" >&2; exit 1; }

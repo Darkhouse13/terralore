@@ -76,6 +76,7 @@ Restored democracy weathered hyperinflation and unrest before the rise of Evo Mo
 - 1985 CE: **Hyperinflation and stabilisation** — Amid catastrophic hyperinflation, a returning Paz Estenssoro imposes a drastic stabilisation programme that ends the crisis but brings severe austerity. [britannica-paz-estenssoro, loc-bolivia-study]
 - Jan 2006: **Evo Morales takes office** — Evo Morales, leader of the MAS, becomes Bolivia's first indigenous president, beginning an era of indigenous-majority politics and hydrocarbon nationalisation. [britannica-morales, statedept-bolivia]
 - 2009 CE: **Plurinational constitution** — A new constitution refounds Bolivia as a plurinational state recognising its indigenous nations and expanding their rights. [britannica-morales]
+- 1 Oct 2018: **World Court rejects the maritime claim** — Bolivia's case to compel Chile to negotiate sovereign access to the Pacific, filed in 2013, fails: the International Court of Justice finds Chile under no obligation to negotiate, while the 2009 constitution keeps the claim to the sea and a navy for the country's lakes and rivers. [icj-bolivia-chile, constitution-bolivia-2009, britannica-bolivia]
 - Nov 2019: **Disputed election and Morales's resignation** — After a contested October vote that an OAS audit found marred by irregularities, weeks of protest and the loss of military and police support lead Morales to resign and go into exile. [britannica-morales, britannica-arce]
 - 2020 CE: **Return of the MAS under Arce** — Luis Arce wins the presidency for the MAS, returning the party to power a year after Morales's fall. [britannica-arce]
 - Oct 2025: **Turn to the centre-right** — Amid economic crisis and a split between Arce and Morales, the centrist Rodrigo Paz wins the presidency, ending nearly twenty years of MAS rule. [britannica-arce]
@@ -102,6 +103,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:BOL
 - [britannica-paz-estenssoro] Victor Paz Estenssoro — Encyclopaedia Britannica · https://www.britannica.com/biography/Victor-Paz-Estenssoro
 - [britannica-morales] Evo Morales — Encyclopaedia Britannica · https://www.britannica.com/biography/Evo-Morales
 - [britannica-arce] Luis Arce — Encyclopaedia Britannica · https://www.britannica.com/biography/Luis-Arce
+- [icj-bolivia-chile] Obligation to Negotiate Access to the Pacific Ocean (Bolivia v. Chile), Judgment of 1 October 2018 — International Court of Justice · https://www.icj-cij.org/case/153
+- [constitution-bolivia-2009] Bolivia (Plurinational State of) Constitution of 2009, Articles 243, 267 and 268 — Constitute Project · https://www.constituteproject.org/constitution/Bolivia_2009
 - [statedept-bolivia] A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations, by Country: Bolivia — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/bolivia
 
 Citation template: Terralore, "The Chronicle of Bolivia: From Tiwanaku on the shores of Lake Titicaca and the Inca highlands to the silver mountain of Potosi that bankrolled an empire, the revolt of Tupac Katari, independence in 1825 named for Simon Bolivar, the loss of the sea to Chile, the National Revolution of 1952, and the indigenous-majority politics of the Morales era and after.", terralore.co/country/BOL/chronicle, retrieved <YYYY-MM-DD>.

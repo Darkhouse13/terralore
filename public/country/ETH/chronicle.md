@@ -73,7 +73,8 @@ Figures:
 As Europe partitioned Africa, Menelik II expanded and modernised Ethiopia and shattered an invading Italian army at Adwa in 1896, preserving the country's independence.
 
 - 1886: **Founding of Addis Ababa** — Menelik II and Empress Taytu establish a new capital, Addis Ababa ('New Flower'), which becomes the permanent seat of the empire and later a diplomatic hub of Africa. [britannica-ethiopia]
-- 1889: **Treaty of Wuchale signed** — Menelik signs a treaty with Italy whose divergent Amharic and Italian texts spark a dispute over whether Ethiopia had become an Italian protectorate—setting the stage for war. [britannica-adwa, ebsco-adwa]
+- 2 May 1889: **Treaty of Wuchale signed** — Menelik, under his imperial seal, and the Italian envoy Count Pietro Antonelli sign a treaty whose Article 19 declares its Amharic and Italian texts in perfect agreement. They are not: in Article 17 the Italian text says the emperor 'consente'—binds himself—to conduct his dealings with other powers through Italy, while the Amharic text leaves this as an option. Italy's premier Francesco Crispi notifies the powers that Ethiopia is an Italian protectorate, a claim Ethiopia rejects—setting the stage for war. [melli-1899-uccialli, giglio-jah-1965, ebsco-adwa, saho-adwa, britannica-adwa]
+- 1893: **Menelik denounces the Treaty of Wuchale** — After failing to settle the discrepancy between the two texts by diplomacy, Menelik formally denounces the Treaty of Wuchale; Empress Taytu is among those at court refusing to cede sovereignty. [saho-adwa, ebsco-adwa]
 - 1 March 1896: **Battle of Adwa** — Ethiopian forces under Menelik II decisively defeat an invading Italian army at Adwa, the first major victory of an African state over a European colonial power and a guarantee of Ethiopian independence. [britannica-adwa, ebsco-adwa, blackpast-adwa]
 - October 1896: **Treaty of Addis Ababa** — Italy recognises the full sovereignty and independence of Ethiopia, abrogating the Treaty of Wuchale, though it retains the separate coastal colony of Eritrea. [britannica-adwa]
 
@@ -128,5 +129,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:ETH
 - [wikipedia-aksum] Kingdom of Aksum — Wikipedia · https://en.wikipedia.org/wiki/Kingdom_of_Aksum
 - [wikipedia-italian-east-africa] Italian East Africa — Wikipedia · https://en.wikipedia.org/wiki/Italian_East_Africa
 - [statedept-ethiopia] A Guide to the United States' History of Recognition: Ethiopia — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/ethiopia
+- [melli-1899-uccialli] Trattato d'Uccialli, 2 May 1889 (full Italian text, Arts. XVII and XIX), in B. Melli, La Colonia Eritrea (1899) — Wikisource (proofread transcription of the 1899 edition) · https://it.wikisource.org/wiki/La_Colonia_Eritrea/Appendice_IV._Documenti/Trattato_d%27Uccialli
+- [giglio-jah-1965] Article 17 of the Treaty of Uccialli (Carlo Giglio, vol. 6, no. 2, 1965) — The Journal of African History, Cambridge University Press · https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/article-17-of-the-treaty-of-uccialli1/F34A68F76FC6DE222D07C7054F6F89C0
+- [saho-adwa] Remembering the Battle of Adwa — South African History Online · https://sahistory.org.za/article/remembering-battle-adwa
 
 Citation template: Terralore, "The Chronicle of Ethiopia: A cradle of humankind and one of the world's oldest states, never colonised, from Aksum to the modern federal republic.", terralore.co/country/ETH/chronicle, retrieved <YYYY-MM-DD>.

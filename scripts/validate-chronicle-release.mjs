@@ -72,21 +72,34 @@ if (!finalPackage.contributors?.some((entry) => entry.role === "publisher")) {
   fail("published release has no publisher metadata");
 }
 
+// A published version is FROZEN (decided 2026-09-22): its bytes are archived on Zenodo under a
+// DOI, so it is checked against its own SHA256SUMS — never against the live corpus, which keeps
+// growing and is validated above as the next draft. New corpus content reaches a release only
+// when the next version is cut deliberately (docs/chronicle-events-release.md §Versioning).
 const publishedDir = join(root, "public", "datasets", "chronicle-events", FINAL_VERSION);
 if (!existsSync(publishedDir)) {
   fail(`published release directory is missing: ${publishedDir}`);
 } else {
-  const actualNames = readdirSync(publishedDir).sort();
-  const expectedNames = [...final.files.keys()].sort();
-  if (JSON.stringify(actualNames) !== JSON.stringify(expectedNames)) {
-    fail("published release file set differs from the deterministic final package");
-  }
-  for (const [name, content] of final.files) {
-    const path = join(publishedDir, name);
-    if (!existsSync(path) || readFileSync(path, "utf8") !== content) {
-      fail(`stale published release file ${name}`);
+  const sumsPath = join(publishedDir, "SHA256SUMS");
+  const sums = existsSync(sumsPath) ? readFileSync(sumsPath, "utf8").trim().split("\n") : [];
+  if (sums.length === 0) fail(`published release ${FINAL_VERSION} has no SHA256SUMS`);
+  const listed = new Set();
+  for (const line of sums) {
+    const match = line.match(/^([a-f0-9]{64})  (.+)$/);
+    if (!match) {
+      fail(`published ${FINAL_VERSION}: malformed checksum line: ${line}`);
+      continue;
+    }
+    listed.add(match[2]);
+    const path = join(publishedDir, match[2]);
+    if (!existsSync(path)) {
+      fail(`published ${FINAL_VERSION}: checksum names missing file ${match[2]}`);
+    } else if (createHash("sha256").update(readFileSync(path)).digest("hex") !== match[1]) {
+      fail(`published ${FINAL_VERSION}: ${match[2]} no longer matches its archived checksum`);
     }
   }
+  const unlisted = readdirSync(publishedDir).filter((name) => name !== "SHA256SUMS" && !listed.has(name));
+  if (unlisted.length) fail(`published ${FINAL_VERSION}: files outside SHA256SUMS: ${unlisted.join(", ")}`);
 }
 
 if (errors) {

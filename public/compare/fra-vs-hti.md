@@ -1,6 +1,6 @@
 # France and Haiti compared
 
-France and Haiti side by side: 36 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
+France and Haiti side by side: 36 shared sourced indicators across 9 domains, and the 6 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fra-vs-hti
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,14 +102,16 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/FRA.md and https://terralore.co/country/HTI.md.
 
-## Entangled histories (4 events)
+## Entangled histories (6 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1697 CE: **France gains Saint-Domingue** — The Treaty of Rijswijk transfers the western third of Hispaniola from Spain to France, creating the colony of Saint-Domingue. (from the Haiti chronicle; sources: Treaty of Rijswijk; Saint-Domingue)
 - by 1789: **World's richest colony** — Saint-Domingue, with roughly half a million enslaved Africans, has become the leading producer of sugar and coffee and France's most valuable colony. (from the Haiti chronicle; sources: Saint-Domingue; Haitian Revolution)
 - 1802 CE: **Napoleon's expedition; Toussaint deported** — Napoleon sends an army to restore slavery; Toussaint Louverture is seized and deported to France, where he dies in 1803. (from the Haiti chronicle; sources: Toussaint Louverture; Haitian Revolution)
-- 1825 CE: **The French indemnity** — France recognises Haitian independence only in exchange for an indemnity of 150 million francs, burdening Haiti with crippling debt. (from the Haiti chronicle; sources: History of Haiti)
+- 1825 CE: **The French indemnity** — France recognises Haitian independence only in exchange for an indemnity of 150 million francs, burdening Haiti with crippling debt. (from the Haiti chronicle; sources: History of Haiti; La dette de l'indépendance d'Haïti. L'esclave comme unité de compte (1794-1922), by Gusti-Klara Gaillard-Pourchet; Déclaration du Président de la République sur la relation entre la France et Haïti (17 April 2025))
+- 1838 CE: **The indemnity reduced to 90 million** — A new treaty with France recognises Haitian independence without conditions and cuts the indemnity to 90 million francs, spread over thirty annual payments. (from the Haiti chronicle; sources: La dette de l'indépendance d'Haïti. L'esclave comme unité de compte (1794-1922), by Gusti-Klara Gaillard-Pourchet)
+- 1878-1922: **The independence debt paid off** — Haiti settles the indemnity in 1878 with a loan placed in France in 1875; the last repayments on the loans raised to pay it end in 1921-22. (from the Haiti chronicle; sources: La dette de l'indépendance d'Haïti. L'esclave comme unité de compte (1794-1922), by Gusti-Klara Gaillard-Pourchet)
 
 ## Sources
 

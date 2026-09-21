@@ -1,6 +1,6 @@
 # The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.
 
-History of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.. 6 eras and 25…
+History of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.. 6 eras and 27…
 
 Canonical: https://terralore.co/country/CRI/chronicle
 Updated: 2026-08-11
@@ -63,6 +63,8 @@ Figures:
 
 A two-month civil war led by Jose Figueres Ferrer ended in a new constitution that, in 1949, abolished the standing army, a defining choice that set the course of modern Costa Rica.
 
+- 1 Dec 1948: **The army abolished at the Bellavista barracks** — At the Bellavista barracks in San Jose, Figueres strikes a battlement with a sledgehammer in the symbolic abolition of the army; the building is handed to the National Museum, and the abolition takes full effect in 1949. [museo-fuerzas-armadas, museo-abolicion]
+- 7 Nov 1949: **Article 12 proscribes the army** — Article 12 of the new constitution proscribes the army as a permanent institution and provides the necessary police forces for public order; military forces may be raised only by continental agreement or for national defence, subordinate to civilian power. [constitution-1949, museo-fuerzas-armadas]
 - 1948 CE: **Figueres leads the civil war** — Jose Figueres Ferrer leads an armed uprising in support of president-elect Ulate; the two-month war kills about 2,000 people before the government surrenders. [britannica-figueres]
 - 1949 CE: **Constitution abolishes the army** — Figueres's junta promulgates a new constitution that bans a standing army, grants women the vote, and nationalises the banks, then hands power to Ulate. [britannica-figueres, britannica-ulate]
 
@@ -109,5 +111,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:CRI
 - [wikipedia-act-independence-ca] Act of Independence of Central America — Wikipedia · https://en.wikipedia.org/wiki/Act_of_Independence_of_Central_America
 - [statedept-costarica] A Guide to the United States' History of Recognition: Costa Rica — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/costa-rica
 - [bbc-costarica] Costa Rica country profile — BBC News · https://www.bbc.com/news/world-latin-america-19414068
+- [museo-fuerzas-armadas] Las Fuerzas Armadas en Costa Rica — Museo Nacional de Costa Rica · https://www.museocostarica.go.cr/museo/cuartel-bellavista/fuerzas-armadas-en-costa-rica/
+- [museo-abolicion] Abolicion del ejercito — Museo Nacional de Costa Rica · https://www.museocostarica.go.cr/los-secretos-del-jardin-abolicion/abolicion-del-ejercito/
+- [constitution-1949] Costa Rica's Constitution of 1949 with Amendments through 2020 — Constitute Project · https://www.constituteproject.org/constitution/Costa_Rica_2020
 
 Citation template: Terralore, "The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.", terralore.co/country/CRI/chronicle, retrieved <YYYY-MM-DD>.

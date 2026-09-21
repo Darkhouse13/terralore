@@ -37,6 +37,7 @@ Figures:
 On 26 July 1847 the settlers proclaimed Africa's first modern republic — but power rested with the Americo-Liberian minority and the True Whig Party, while a 99-year concession in 1926 handed Firestone vast plantations.
 
 - 26 July 1847: **The Republic of Liberia is proclaimed** — Delegates issued the Liberian Declaration of Independence and proclaimed the Republic of Liberia under a U.S.-modelled constitution, making it the first modern republic in Africa. [liberia-declaration-wiki, ebsco-liberia-independence, history-liberia-independence]
+- 24 August 1847: **The national flag is adopted** — The new republic adopted a flag modelled on that of the United States — red and white stripes with a single white star on a blue square — its eleven stripes standing for the eleven signers of the Declaration of Independence. It replaced the colony's flag of 1827, which had copied the U.S. flag with a white cross in place of the stars. [flag-liberia-wiki, liberia-declaration-wiki]
 - 1848: **Joseph Jenkins Roberts inaugurated** — Joseph Jenkins Roberts, a free man of colour born in Virginia, was inaugurated as the first president of the Republic of Liberia. [britannica-liberia-history, history-liberia-independence]
 - 1862: **United States recognises Liberia** — Having delayed during the era of slavery, the United States formally recognised the Republic of Liberia in 1862 and concluded a treaty of commerce and navigation with it. [statedept-liberia]
 - 1878: **True Whig Party dominance begins** — From 1878 the True Whig Party, the party of the Americo-Liberian elite, held power virtually without interruption for more than a century, marginalising the indigenous majority. [true-whig-wiki, britannica-liberia-history]
@@ -107,6 +108,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:LBR
 - [liberia-declaration-wiki] Liberian Declaration of Independence — Wikipedia · https://en.wikipedia.org/wiki/Liberian_Declaration_of_Independence
 - [ebsco-liberia-independence] Liberia Proclaims Its Independence — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/liberia-proclaims-its-independence
 - [history-liberia-independence] Liberian independence proclaimed, 26 July 1847 — HISTORY (A&E Television Networks) · https://www.history.com/this-day-in-history/july-26/liberian-independence-proclaimed
+- [flag-liberia-wiki] Flag of Liberia — Wikipedia · https://en.wikipedia.org/wiki/Flag_of_Liberia
 - [true-whig-wiki] True Whig Party — Wikipedia · https://en.wikipedia.org/wiki/True_Whig_Party
 - [firestone-statement] The Liberian Civil War (1989–2003) and Firestone — Business & Human Rights Resource Centre · https://media.business-humanrights.org/media/documents/files/media/bhr/files/Firestone-statement-Liberia-civil-war-Jul-2008.pdf
 - [britannica-tubman] William V. S. Tubman — Encyclopaedia Britannica · https://www.britannica.com/biography/William-V-S-Tubman

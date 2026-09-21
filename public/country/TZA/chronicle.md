@@ -1,6 +1,6 @@
 # The Chronicle of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic.
 
-History of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic.. 6 eras and 27 sourced…
+History of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic.. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/TZA/chronicle
 Updated: 2026-06-13
@@ -68,7 +68,8 @@ Nyerere and TANU led Tanganyika to independence; the Zanzibar Revolution and a u
 - 1954: **Founding of TANU** — Julius Nyerere builds the Tanganyika African National Union, which campaigns for independence by constitutional means and comes to dominate the territory's politics. [britannica-nyerere, wiki-tanganyika-1961]
 - 9 December 1961: **Tanganyika gains independence** — Mainland Tanganyika becomes independent from Britain under Nyerere and TANU; it becomes a republic with Nyerere as president on 9 December 1962. [britannica-nyerere, wiki-tanganyika-1961]
 - 12 January 1964: **Zanzibar Revolution** — The African majority overthrows the Arab-led sultanate of Zanzibar in a bloody uprising, establishing a republic under Abeid Karume. [blackpast-zanzibar-revolution, britannica-tanzania-independence]
-- 26 April 1964: **Union of Tanganyika and Zanzibar** — Tanganyika and Zanzibar unite to form the United Republic of Tanzania, with Nyerere as president and Karume as vice-president; Zanzibar keeps its own government. [wiki-articles-of-union, britannica-tanzania-independence]
+- 26 April 1964: **Union of Tanganyika and Zanzibar** — Tanganyika and Zanzibar unite to form the United Republic of Tanganyika and Zanzibar, with Nyerere as president and Karume as vice-president; Zanzibar keeps its own government. [wiki-articles-of-union, britannica-tanzania-independence, sahistory-tanzania-renamed]
+- 29 October 1964: **The union is named Tanzania** — The United Republic of Tanganyika and Zanzibar is renamed the United Republic of Tanzania, a name formed by combining Tanganyika and Zanzibar. [sahistory-tanzania-renamed, msu-exploring-africa-tanzania]
 - 5 February 1967: **The Arusha Declaration** — Nyerere proclaims Ujamaa, committing Tanzania to socialism and self-reliance, nationalising key sectors and launching the policy of collective villages. [britannica-arusha-declaration, wiki-arusha-declaration, blackpast-arusha-declaration]
 
 Figures:
@@ -126,5 +127,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:TZA
 - [wiki-samia-suluhu] Samia Suluhu Hassan — Wikipedia · https://en.wikipedia.org/wiki/Samia_Suluhu_Hassan
 - [wikipedia-tanzania] Tanzania — Wikipedia · https://en.wikipedia.org/wiki/Tanzania
 - [statedept-tanzania] A Guide to the United States' History of Recognition: Tanzania — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/tanzania
+- [sahistory-tanzania-renamed] The United Republic of Tanganyika and Zanzibar is renamed United Republic of Tanzania — South African History Online · https://sahistory.org.za/dated-event/united-republic-tanganyika-and-zanzibar-renamed-united-republic-tanzania
+- [msu-exploring-africa-tanzania] Exploring Africa, Module 26: Tanzania — African Studies Center, Michigan State University · http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-six/module-twenty-six-activity-one-2/
 
 Citation template: Terralore, "The Chronicle of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic.", terralore.co/country/TZA/chronicle, retrieved <YYYY-MM-DD>.

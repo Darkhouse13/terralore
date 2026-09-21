@@ -3,7 +3,7 @@
 Brazil and United States side by side: 47 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bra-vs-usa
-Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
+Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
 
 Two sourced records set beside each other — nothing on this page was written for the pair. Every figure is the same observation, with the same source, as on the two national dossiers; every event is the same record, with the same sources, as on its own chronicle. Figures are compared, never graded. A "—" is an absence in the source data, never a zero; each value shows its own observation year — vintages differ by indicator and nation.
 
@@ -116,7 +116,7 @@ Each metric is also ranked across all nations: https://terralore.co/rankings (ma
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
-- 1891 CE: **First republican constitution** — The Constitution of 1891 establishes a federal republic with strong states, modelled in part on the United States. (from the Brazil chronicle; sources: Brazil)
+- 1891 CE: **First republican constitution** — The Constitution of 1891 establishes a federal republic with strong states, modelled in part on the United States. Its Article 3 reserves to the Union a zone of 14,400 square kilometres on the central plateau for a future federal capital; until then Rio de Janeiro remains the capital. (from the Brazil chronicle; sources: Brazil; Constituicao da Republica dos Estados Unidos do Brasil (24 de fevereiro de 1891))
 
 ## Sources
 

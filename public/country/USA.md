@@ -116,7 +116,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:USA:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/USA.claims.json
 
-History: "From Indigenous homelands to a continental republic and global superpower." — the sourced chronicle is at https://terralore.co/country/USA/chronicle.md (6 eras, 24 events).
+History: "From Indigenous homelands to a continental republic and global superpower." — the sourced chronicle is at https://terralore.co/country/USA/chronicle.md (6 eras, 26 events).
 
 ## Sources
 

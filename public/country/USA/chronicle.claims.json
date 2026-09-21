@@ -3,7 +3,7 @@
  "name": "United States",
  "kind": "chronicle-events",
  "canonical": "https://terralore.co/country/USA/chronicle",
- "updated": "2026-06-13",
+ "updated": "2026-09-07",
  "note": "Each claim is one rendered observation on the canonical page. IDs are TL:<subject>:<measure>:<vintage> and stable across builds: a changed value under the same ID is an upstream revision (recorded in the ledger at /ledger); a new observed year is a new claim. A null or absent figure mints no claim — absence is never zero. Scheme: https://terralore.co/integrity",
  "claims": [
   {
@@ -298,6 +298,43 @@
    "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1865-thirteenth-amendment-abolishes-slavery, claim TL:USA:event:1865:thirteenth-amendment-abolishes-slavery, retrieved <YYYY-MM-DD>."
   },
   {
+   "id": "TL:USA:event:1867:the-alaska-purchase",
+   "year": 1867,
+   "yearLabel": "30 March 1867",
+   "title": "The Alaska Purchase",
+   "summary": "Secretary of State William H. Seward agreed to buy Russian America — the colony Russia had run from Sitka through the Russian-American Company since 1799 — for $7.2 million, proposed by the Russian minister in Washington, Eduard de Stoeckl: less than two cents an acre for nearly 600,000 square miles. Russia lacked the money to settle or defend the territory and its defeat in the Crimean War had further reduced its interest. The Senate approved the treaty on 9 April, Tsar Alexander II ratified it on 20 June, and Alaska was formally transferred at Sitka on 18 October 1867. Skeptics dubbed the purchase 'Seward's Folly' or 'Seward's Icebox'; the Treasury warrant for seven million two hundred thousand dollars was issued on 1 August 1868.",
+   "category": "politics",
+   "era": "reconstruction-industry-world-wars",
+   "sources": [
+    {
+     "id": "state-alaska-purchase",
+     "label": "Purchase of Alaska, 1867",
+     "publisher": "Office of the Historian, U.S. Department of State",
+     "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase"
+    },
+    {
+     "id": "nara-alaska-check",
+     "label": "Check for the Purchase of Alaska (1868)",
+     "publisher": "U.S. National Archives",
+     "url": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska"
+    },
+    {
+     "id": "nara-alaska-ratification",
+     "label": "Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867",
+     "publisher": "U.S. National Archives Catalog",
+     "url": "https://catalog.archives.gov/id/299810"
+    },
+    {
+     "id": "brit-alaska",
+     "label": "Alaska",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Alaska-state"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1867-the-alaska-purchase",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1867-the-alaska-purchase, claim TL:USA:event:1867:the-alaska-purchase, retrieved <YYYY-MM-DD>."
+  },
+  {
    "id": "TL:USA:event:1868:fourteenth-amendment",
    "year": 1868,
    "yearLabel": "1868",
@@ -391,6 +428,43 @@
    ],
    "url": "https://terralore.co/country/USA/chronicle#ev-1954-brown-v-board-of-education",
    "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1954-brown-v-board-of-education, claim TL:USA:event:1954:brown-v-board-of-education, retrieved <YYYY-MM-DD>."
+  },
+  {
+   "id": "TL:USA:event:1959:alaska-becomes-the-49th-state",
+   "year": 1959,
+   "yearLabel": "3 January 1959",
+   "title": "Alaska becomes the 49th state",
+   "summary": "Ninety-two years after the purchase mocked as 'Seward's Folly', Alaska entered the Union as the 49th state. Gold had already transformed the territory — it was the gateway to the Klondike fields after 1896, and a rush followed the 1898 discovery at Nome — and in 1968 the discovery at Prudhoe Bay of the largest oil field in North America, carried south from 1977 by the Trans-Alaska Pipeline, remade its economy again.",
+   "category": "politics",
+   "era": "superpower-civil-rights-modern",
+   "sources": [
+    {
+     "id": "state-alaska-purchase",
+     "label": "Purchase of Alaska, 1867",
+     "publisher": "Office of the Historian, U.S. Department of State",
+     "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase"
+    },
+    {
+     "id": "brit-nome",
+     "label": "Nome",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Nome-Alaska"
+    },
+    {
+     "id": "brit-prudhoe-bay",
+     "label": "Prudhoe Bay",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Prudhoe-Bay"
+    },
+    {
+     "id": "brit-alaska",
+     "label": "Alaska",
+     "publisher": "Encyclopaedia Britannica",
+     "url": "https://www.britannica.com/place/Alaska-state"
+    }
+   ],
+   "url": "https://terralore.co/country/USA/chronicle#ev-1959-alaska-becomes-the-49th-state",
+   "citation": "Terralore, \"The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.\", terralore.co/country/USA/chronicle#ev-1959-alaska-becomes-the-49th-state, claim TL:USA:event:1959:alaska-becomes-the-49th-state, retrieved <YYYY-MM-DD>."
   },
   {
    "id": "TL:USA:event:1964:civil-rights-act",

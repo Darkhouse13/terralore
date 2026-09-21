@@ -49,3 +49,15 @@ events. Counts do not measure historical activity, severity, or importance.
 Dates may be approximate, BCE years use negative integers, categories are
 editorial, and country codes follow Natural Earth ADM0_A3 rather than always
 matching ISO 3166-1 alpha-3.
+
+## Versioning after publication
+
+Decided 2026-09-22, when the first corpus additions after 1.0.0 arrived (facts added to twelve
+chronicles so the September reels stay traceable). **A published version is frozen.**
+`validate-chronicle-release` checks `public/datasets/chronicle-events/<FINAL_VERSION>/` against
+its own `SHA256SUMS`, the bytes archived on Zenodo, and never against the live corpus. The
+live corpus is still composed and validated in memory every run as the next draft. Corpus
+edits go live on the site immediately, and they reach a release only when the next version
+(1.1.0, …) is cut deliberately. Cutting a version means: build it into
+`public/datasets/chronicle-events/<new>/`, bump `FINAL_VERSION` and the `/datasets` page
+import, seal, then publish the GitHub Release and the new Zenodo version.

@@ -69,7 +69,7 @@ A daring raid on Riyadh in 1902 launched Abdulaziz ibn Saud on a thirty-year cam
 - January 1902: **Abdulaziz captures Riyadh** — Returning from exile, Abdulaziz ibn Saud and a small force seized the Masmak fortress in Riyadh from the Al Rashid, launching the campaign to rebuild the Saudi state. [wiki-battle-riyadh, britannica-ibn-saud]
 - 1925: **Conquest of the Hejaz and the holy cities** — Abdulaziz's forces took Mecca and Medina, ending Hashemite rule in the Hejaz and bringing the holy cities under Saudi control. [wiki-unification, britannica-saudi-kingdom]
 - 20 May 1927: **The Treaty of Jeddah** — Britain formally recognized the independence and sovereignty of Ibn Saud's Kingdom of the Hejaz and Nejd, securing its international standing. [britannica-jeddah, wiki-jeddah-treaty]
-- 23 September 1932: **Proclamation of the Kingdom of Saudi Arabia** — By royal decree the regions of Najd and the Hejaz were unified and renamed the Kingdom of Saudi Arabia, with Abdulaziz ibn Saud as its first king. [wiki-proclamation, britannica-saudi-kingdom, saudipedia-unification]
+- 23 September 1932: **Proclamation of the Kingdom of Saudi Arabia** — By royal decree the regions of Najd and the Hejaz were unified and renamed the Kingdom of Saudi Arabia, after the ruling Al Saud family, with Abdulaziz ibn Saud as its first king. [wiki-proclamation, britannica-saudi-kingdom, saudipedia-unification, france24-dynasty-name]
 
 Figures:
 
@@ -125,5 +125,6 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SAU
 - [vision2030-gov] Saudi Vision 2030 - Overview — Government of Saudi Arabia · https://www.vision2030.gov.sa/en/overview
 - [pif-vision2030] Vision 2030 reform plan announced — Public Investment Fund (Saudi Arabia) · https://www.pif.gov.sa/en/news-and-insights/press-releases/2016/vision-2030-reform-plan-announced/
 - [nwe-saudi-arabia] Saudi Arabia — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Saudi_Arabia
+- [france24-dynasty-name] Ruling dynasty gave its name to Saudi Arabia (AFP) — France 24 · https://www.france24.com/en/20170621-ruling-dynasty-gave-its-name-saudi-arabia
 
 Citation template: Terralore, "The Chronicle of Saudi Arabia: From the incense roads of ancient Arabia and the cradle of Islam to the oil-fueled kingdom of the Al Saud.", terralore.co/country/SAU/chronicle, retrieved <YYYY-MM-DD>.
