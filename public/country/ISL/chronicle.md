@@ -85,7 +85,7 @@ Figures:
 
 A small, unarmed state defeated the Royal Navy at sea, won control of its fishing grounds and helped write the 200-mile EEZ into international law, then weathered the largest banking collapse in history.
 
-- 1958: **First Cod War (12 nautical miles)** — Iceland extended its fishery limit from four to twelve nautical miles in 1958; after confrontations at sea Britain acknowledged the twelve-mile limit, the first of Iceland's victories over the Royal Navy. [ebsco-codwars, iceland-britannica]
+- 1958: **First Cod War (12 nautical miles)** — Iceland extended its fishery limit from four to twelve nautical miles in 1958; after confrontations at sea Britain accepted the twelve-mile zone in an exchange of notes of 11 March 1961, keeping access to its outer six miles for three years — the first of Iceland's victories over the Royal Navy. [ebsco-codwars, iceland-britannica, unts-5710]
 - 1972–1973: **Second Cod War (50 nautical miles)** — Iceland extended its limit to fifty miles from September 1972; its coast guard cut dozens of British trawl nets before a NATO-mediated interim agreement was reached in November 1973. [ebsco-codwars]
 - 1975–1976: **Third Cod War (200 nautical miles)** — Iceland claimed a 200-mile zone in 1975; after clashes and a threat to close the Keflavík NATO base, Britain recognised the 200-mile limit in an agreement of 2 June 1976. [ebsco-codwars, statedept-nato]
 - 1976: **The 200-mile limit and the EEZ** — Iceland's successful assertion of a 200-mile fishing zone helped establish the Exclusive Economic Zone in international law, later codified in the UN Convention on the Law of the Sea. [ebsco-codwars]
@@ -117,6 +117,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:ISL
 - [ebsco-republic] Iceland Becomes a Republic — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/iceland-becomes-republic
 - [sveinn-britannica] Sveinn Björnsson — Encyclopaedia Britannica · https://www.britannica.com/biography/Sveinn-Bjornsson
 - [statedept-nato] Foreign Relations of the United States, 1949, Vol. IV (Iceland and the North Atlantic Treaty) — U.S. Department of State, Office of the Historian · https://history.state.gov/historicaldocuments/frus1949v04/d393
+- [unts-5710] Exchange of Notes constituting an agreement between Iceland and the United Kingdom settling the fisheries dispute, 11 March 1961 (No. 5710) — United Nations Treaty Series, vol. 397 · https://treaties.un.org/doc/Publication/UNTS/Volume%20397/volume-397-I-5710-English.pdf
 - [ebsco-codwars] Cod Wars — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/cod-wars
 - [thingvellir-tectonics] Tectonic Movements at Þingvellir — Þingvellir National Park (official) · https://www.thingvellir.is/en/education/nature/tectonic-movements/
 - [wikipedia-icelandic-commonwealth] Icelandic Commonwealth — Wikipedia · https://en.wikipedia.org/wiki/Icelandic_Commonwealth

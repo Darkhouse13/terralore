@@ -65,7 +65,7 @@ A two-month civil war led by Jose Figueres Ferrer ended in a new constitution th
 
 - 1 Dec 1948: **The army abolished at the Bellavista barracks** — At the Bellavista barracks in San Jose, Figueres strikes a battlement with a sledgehammer in the symbolic abolition of the army; the building is handed to the National Museum, and the abolition takes full effect in 1949. [museo-fuerzas-armadas, museo-abolicion]
 - 7 Nov 1949: **Article 12 proscribes the army** — Article 12 of the new constitution proscribes the army as a permanent institution and provides the necessary police forces for public order; military forces may be raised only by continental agreement or for national defence, subordinate to civilian power. [constitution-1949, museo-fuerzas-armadas]
-- 1948 CE: **Figueres leads the civil war** — Jose Figueres Ferrer leads an armed uprising in support of president-elect Ulate; the two-month war kills about 2,000 people before the government surrenders. [britannica-figueres]
+- 1948 CE: **Figueres leads the civil war** — Jose Figueres Ferrer leads an armed uprising in support of president-elect Ulate; the six-week war, from 12 March to 24 April 1948, ends with the government's surrender. Estimates of the dead vary: the National Museum counts more than 500, while Britannica gives about 2,000. [britannica-figueres, museo-fuerzas-armadas]
 - 1949 CE: **Constitution abolishes the army** — Figueres's junta promulgates a new constitution that bans a standing army, grants women the vote, and nationalises the banks, then hands power to Ulate. [britannica-figueres, britannica-ulate]
 
 Figures:
