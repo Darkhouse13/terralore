@@ -3,6 +3,7 @@ import {
   allSitemapEntries,
   buildSitemapGroup,
   sitemapGroupPath,
+  SITEMAP_GROUP_LAST_MODIFIED,
   SITEMAP_GROUP_IDS,
 } from "@/lib/sitemaps";
 import { renderSitemapIndexXml, renderUrlSetXml } from "@/lib/sitemap-xml";
@@ -29,6 +30,9 @@ const union = [];
 for (const group of SITEMAP_GROUP_IDS) {
   const entries = buildSitemapGroup(group);
   if (!entries.length) fail(`${group} is empty`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(SITEMAP_GROUP_LAST_MODIFIED[group])) {
+    fail(`${group} has an invalid sitemap-document lastmod`);
+  }
 
   const xml = renderUrlSetXml(entries);
   const xmlLocs = [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/g)];
@@ -76,6 +80,13 @@ const indexLocs = [...indexXml.matchAll(/<loc>([\s\S]*?)<\/loc>/g)].map((match) 
 const expectedIndexLocs = SITEMAP_GROUP_IDS.map((group) => `${SITE_URL}${sitemapGroupPath(group)}`);
 if (JSON.stringify(indexLocs) !== JSON.stringify(expectedIndexLocs)) {
   fail("sitemap index does not contain every family exactly once in registry order");
+}
+
+for (const group of SITEMAP_GROUP_IDS) {
+  const expected = `<loc>${SITE_URL}${sitemapGroupPath(group)}</loc><lastmod>${SITEMAP_GROUP_LAST_MODIFIED[group]}</lastmod>`;
+  if (!indexXml.includes(expected)) {
+    fail(`${group} sitemap-index lastmod does not match its document-change registry`);
+  }
 }
 
 if (errors) {

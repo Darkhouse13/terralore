@@ -28,6 +28,21 @@ export type SitemapGroupId = (typeof SITEMAP_GROUP_IDS)[number];
 const MAX_URLS_PER_SITEMAP = 50_000;
 const SITE_SHELL_AT = "2026-08-14";
 
+// This is the modification date of each *sitemap document*, not of the
+// newest URL it happens to contain. Update a group's value whenever its URL
+// membership or serialized sitemap data changes. In particular, removals need
+// to advance this signal even when the surviving URLs have older lastmods.
+export const SITEMAP_GROUP_LAST_MODIFIED: Record<SitemapGroupId, string> = {
+  core: "2026-08-27",
+  "country-dossiers": "2026-08-22",
+  "country-chronicles": "2026-08-22",
+  timelines: "2026-08-22",
+  themes: "2026-08-27",
+  comparisons: "2026-08-27",
+  rankings: "2026-08-14",
+  commodities: "2026-08-14",
+};
+
 const CORPUS_AT =
   allHistories()
     .map((history) => history.updated)

@@ -3,6 +3,7 @@ import { abs } from "@/lib/seo";
 import {
   buildSitemapGroup,
   sitemapGroupPath,
+  SITEMAP_GROUP_LAST_MODIFIED,
   SITEMAP_GROUP_IDS,
   type SitemapGroupId,
 } from "@/lib/sitemaps";
@@ -26,15 +27,11 @@ function isoDate(value: string | Date): string {
 }
 
 export function renderSitemapIndexXml(): string {
-  // Each group's lastmod is the newest lastmod among its own entries, so a
-  // crawler can tell which sub-sitemaps changed without fetching all eight.
+  // Sitemap-index lastmod is the child sitemap document's modification date.
+  // It intentionally differs from the newest URL lastmod: URL removals must
+  // advance the child's signal even if every surviving URL is older.
   const sitemaps = SITEMAP_GROUP_IDS.map((group) => {
-    const newest = buildSitemapGroup(group)
-      .map((e) => (e.lastModified ? isoDate(e.lastModified) : ""))
-      .filter(Boolean)
-      .sort()
-      .at(-1);
-    const lastmod = newest ? `<lastmod>${escapeXml(newest)}</lastmod>` : "";
+    const lastmod = `<lastmod>${escapeXml(SITEMAP_GROUP_LAST_MODIFIED[group])}</lastmod>`;
     return `  <sitemap><loc>${escapeXml(abs(sitemapGroupPath(group)))}</loc>${lastmod}</sitemap>`;
   }).join("\n");
 
