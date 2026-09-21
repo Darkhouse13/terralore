@@ -70,6 +70,32 @@ and the board from `POSTIZ_PINTEREST_BOARD`; Instagram `post_type: post`;
 TikTok the full required settings block with `privacy_level: SELF_ONLY`
 until the audit passes (setup doc §3).
 
+## 2a. Reels, Facebook, and the JPEG rule (2026-09-22)
+
+- **Reels come from a drop, not the manifest.** They are cut by hand, so
+  nothing in the repo can build them. `scripts/social-queue-reel.sh <date>
+  reel-N <mp4> <caption.txt> [--now]` checks the video (1080×1920 H.264,
+  ≥60 s) and copies it with its caption to
+  `/data/terralore-social/status/reels/<date>/` on the box. That is inside
+  the runner's one bind mount, `/status`, so no volume change was needed.
+  The publisher turns each `reel-N.mp4` + `reel-N.json` (`{ caption,
+  platforms? }`, default Instagram + Facebook) into one post per platform
+  at the `reel-N` slot, with dedupe key `<date>:<platform>:reel-N`. A reel
+  dropped after that day's 04:00 run needs `--now`, which runs the
+  publisher for the date on the spot (idempotent). Postiz posts a single
+  mp4 as an Instagram **Reel** and as a Page video on Facebook.
+- **Facebook** is a manifest platform (`facebook` → Postiz provider
+  `facebook`) carrying the same three stills as Instagram, 10 minutes
+  later.
+- **JPEG.** Instagram's content API rejects PNG, so the publisher
+  re-encodes stills with sharp (q92, 4:4:4) when uploading for Instagram
+  and Facebook. Pinterest still gets the PNG.
+- **`__type`.** Postiz v2.10 validates post settings through a
+  discriminator on `__type` (the provider identifier). Without it the
+  provider's own fields are dropped, for example the Pinterest board. The
+  publisher now always sends it. This was never exercised before
+  2026-09-22 because no channel had ever been connected.
+
 ## 3. Idempotency — three layers, and why not tags
 
 The manifest contract says: post each `dedupeKey` at most once, ever, and

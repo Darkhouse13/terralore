@@ -77,6 +77,61 @@ house PRNG seeded by the date and by each surface's own identity).
   founding > independence > politics > colonization > war, earliest on
   ties — deterministic, no seed).
 
+## 2a. What a day ships, since the daily reel (2026-08-23)
+
+One reel per day is the norm (`docs/reel-cadence.md`), and the reel takes
+the day's anchor as its subject. That makes two of the original five posts
+a duplicate of the day's strongest asset, so the batch was cut back to what
+the reel cannot do:
+
+| Asset | Status | Why |
+| --- | --- | --- |
+| `pin-anchor.png` | ships | Pinterest is a search surface, not a feed — it does not compete with the reel |
+| `pin-data.png` | ships | same |
+| `vertical-anchor.png` | **retired** | the reel is the vertical anchor; a still of the same story in the same feed on the same day competes with it |
+| ranking carousel | ships | ten nations with vintages is the one shape a 45-second reel cannot hold |
+| formation carousel | **retired** | a nation's formation story in motion IS the reel |
+
+So a day is 4 posts on ranking days (2 pins + IG/TikTok carousel) and 2 on
+the other two days of the rotation, plus the reel. Dedupe keys are
+unchanged for the posts that remain; `date:instagram:anchor` simply no
+longer appears. Restoring either asset is a revert of the `shipCarousel`
+branch in `build-social.mjs` — nothing else knows about the change.
+
+## 2b. The five-a-day feed (from 2026-09-22)
+
+Posting went from one reel a day to **five posts a day on Instagram and on
+the Facebook Page: 2 reels + 3 stills** (the monetising reference account
+posts six). Days from `FEED_V2_FROM` (`calendar.mjs`) plan like this; days
+before it plan exactly as they did.
+
+| Slot | IG / FB time | What ships |
+| --- | --- | --- |
+| `anchor` or `extra` | 08:30 / 08:40 | a **curated** anniversary as the vertical on-this-day card, or, on any other day, an extra data card of the next rotation type |
+| `reel-1` | 12:30 / 12:40 | reel from the drop (`docs/social-publishing.md` §2a) |
+| `data` | 16:00 / 16:10 | the day's data card; a ranking ships as its 4-slide carousel |
+| `reel-2` | 19:30 / 19:40 | reel from the drop |
+| `story` | 21:30 / 21:40 | the formation carousel ("how a nation came to be") |
+
+Pinterest keeps its two pins; TikTok keeps the ranking carousel on ranking
+days. Times are first guesses in `data/social-publish.json`.
+
+**Which anniversaries earn a post.** Most calendar days have a
+day-precision record, but few of them are stories anyone outside that
+nation would stop scrolling for. `npm run social-anniversaries -- --from
+<date> --to <date>` ranks each day's candidates by a visible score
+(anniversary roundness, event kind, the nation's population, cross-nation
+records of the same event, age). The score only proposes.
+`data/social-anniversaries.json`, keyed by exact publication date with a
+`why` per entry, decides. A listed date forces the anchor to that event.
+An unlisted date posts no anniversary, and the slot takes a second data
+card. `validate-social` asserts every listed event is a day-precision
+record of that very day. Curated so far: 22 Sep → 31 Oct 2026 (18 of 40
+days). Extend it a month ahead.
+
+The ledger entry gains an optional `extra` surface key, which counts
+toward the same 30-day no-repeat window as `surface`.
+
 ## 3. The calendar (`calendar.mjs`)
 
 `planDay(iso, ledger)` is pure: no clock, no writes. The day's shape:
@@ -101,7 +156,10 @@ house PRNG seeded by the date and by each surface's own identity).
   a 3-day cadence), it falls back to least-recently-used.
 - **The carousel** — on ranking days, the same ranking (one story, three
   formats); otherwise the anchor nation's formation story, skipping
-  nations told in the trailing 90 days.
+  nations told in the trailing 90 days. **Only the ranking carousel ships**
+  (see §2a): the formation story is still planned and still recorded in the
+  ledger, so the plan stays deterministic and the 90-day window intact, but
+  it is not rendered.
 
 Preference windows (365 days per event, 14 per anchor nation, 30 per data
 surface, 90 per formation story) **soften rather than fabricate**: a small
@@ -191,8 +249,10 @@ Rules for the publisher:
   present inside the caption as the citation path for platforms that do
   not.
 - Treat an unknown `schemaVersion` as fatal, not as best-effort.
-- The five posts per day are independent; partial publishing is fine and
-  the dedupe store is what makes retries safe.
+- The day's posts are independent; partial publishing is fine and the
+  dedupe store is what makes retries safe. **The number of posts per day is
+  not fixed** — it is 4 on ranking days and 2 otherwise (§2a), and a
+  publisher must read the `posts` array rather than assume five.
 
 **How S3 video will slot in:** a future `format: "video"` post will carry
 `assets: [{ "url": "https://…s3…/YYYY-MM-DD/….mp4", "width", "height",

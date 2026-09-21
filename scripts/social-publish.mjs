@@ -23,6 +23,16 @@
 //      the public API only ATTACHES tags that already exist in the org —
 //      it cannot create them, so a fresh key's tag would silently drop.)
 //
+// REELS are not in the manifest (they are cut by hand, not built from the
+// repo): they come from the reel drop, SOCIAL_REELS_DIR/<date>/reel-N.mp4 +
+// reel-N.json ({ "caption": "…" }), dropped there ahead of time by
+// scripts/social-queue-reel.sh. Each reel becomes one post per platform in
+// its `platforms` list (default Instagram + Facebook) at the `reel-N` slot,
+// deduped exactly like manifest posts (key <date>:<platform>:reel-N).
+//
+// Instagram's content API accepts JPEG only, so PNG stills are re-encoded
+// (sharp, q92, 4:4:4) at upload for Instagram and Facebook.
+//
 // Platforms not connected in Postiz are skipped with a logged reason — the
 // day still publishes on whatever is connected. After ≥1 successful schedule
 // the day's ledger entry is committed and pushed (the determinism contract
@@ -32,7 +42,9 @@
 // Env: POSTIZ_API_KEY (required unless --dry-run), POSTIZ_API_URL
 // (default https://postiz.terralore.co/api), POSTIZ_PINTEREST_BOARD
 // (overrides platformSettings.pinterest.board), SOCIAL_STATUS_DIR
-// (default social-out/.status — gitignored with the rest of social-out).
+// (default social-out/.status — gitignored with the rest of social-out),
+// SOCIAL_REELS_DIR (default SOCIAL_STATUS_DIR/reels — on the runner that is
+// the host's /data/terralore-social/status/reels, the one bind mount).
 //
 // Exit: 0 = every post scheduled or deliberately skipped; 1 = any post
 // failed, the ledger push failed, or the pipeline itself broke. A per-run
@@ -40,7 +52,7 @@
 // and mirrored to SOCIAL_STATUS_DIR/last-run.json (the Marsad surface —
 // docs/social-publishing.md §6).
 
-import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync, appendFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
@@ -59,6 +71,7 @@ const PROVIDERS = {
   pinterest: ["pinterest"],
   instagram: ["instagram", "instagram-standalone"],
   tiktok: ["tiktok"],
+  facebook: ["facebook"],
 };
 
 /* ── arguments ────────────────────────────────────────────────────────────── */
@@ -77,6 +90,7 @@ const TZ = config.timezone;
 const STATUS_DIR = process.env.SOCIAL_STATUS_DIR || join(OUT_ROOT, ".status");
 const API_URL = (process.env.POSTIZ_API_URL || "https://postiz.terralore.co/api").replace(/\/$/, "");
 const API_KEY = process.env.POSTIZ_API_KEY || "";
+const REELS_DIR = process.env.SOCIAL_REELS_DIR || join(STATUS_DIR, "reels");
 
 /* ── time: wall-clock in the configured zone → UTC instant ────────────────── */
 
@@ -137,9 +151,19 @@ async function api(path, init = {}) {
   return res.json();
 }
 
-async function uploadAsset(absPath, filename) {
+const JPEG_PLATFORMS = new Set(["instagram", "facebook"]);
+
+async function uploadAsset(absPath, filename, platform) {
+  let body = readFileSync(absPath);
+  let type = absPath.endsWith(".mp4") ? "video/mp4" : "image/png";
+  if (type === "image/png" && JPEG_PLATFORMS.has(platform)) {
+    const { default: sharp } = await import("sharp");
+    body = await sharp(body).jpeg({ quality: 92, chromaSubsampling: "4:4:4" }).toBuffer();
+    type = "image/jpeg";
+    filename = filename.replace(/\.png$/, ".jpg");
+  }
   const form = new FormData();
-  form.append("file", new Blob([readFileSync(absPath)], { type: "image/png" }), filename);
+  form.append("file", new Blob([body], { type }), filename);
   return api("/upload", { method: "POST", body: form });
 }
 
@@ -172,8 +196,36 @@ if (manifest.schemaVersion !== MANIFEST_SCHEMA_VERSION) {
   );
 }
 
-// The would-be schedule: every manifest post gets its configured slot.
-const schedule = manifest.posts.map((post) => {
+// The day's reels, from the drop (see the module note). Each is shaped like a
+// manifest post so the scheduling loop below treats both identically; the
+// asset path is absolute because the drop is not the manifest's directory.
+const reelPosts = [];
+const reelDir = join(REELS_DIR, date);
+if (existsSync(reelDir)) {
+  for (const name of readdirSync(reelDir).filter((f) => /^reel-\d+\.mp4$/.test(f)).sort()) {
+    const slot = name.replace(/\.mp4$/, "");
+    const metaPath = join(reelDir, `${slot}.json`);
+    if (!existsSync(metaPath)) throw new Error(`reel drop ${date}/${name} has no ${slot}.json caption file`);
+    const meta = JSON.parse(readFileSync(metaPath, "utf8"));
+    if (typeof meta.caption !== "string" || !meta.caption.trim()) {
+      throw new Error(`reel drop ${date}/${slot}.json: caption missing`);
+    }
+    for (const platform of meta.platforms || ["instagram", "facebook"]) {
+      reelPosts.push({
+        dedupeKey: `${date}:${platform}:${slot}`,
+        platform,
+        slot,
+        type: "reel",
+        format: "video",
+        assets: [{ path: join(reelDir, name) }],
+        caption: meta.caption.trim(),
+      });
+    }
+  }
+}
+
+// The would-be schedule: every post gets its configured slot.
+const schedule = [...manifest.posts, ...reelPosts].map((post) => {
   const slotKey = `${post.platform}:${post.slot}`;
   const hhmm = config.slots[slotKey];
   if (!hhmm) throw new Error(`no slot time configured for ${slotKey} in data/social-publish.json`);
@@ -219,7 +271,13 @@ const integrationFor = (platform) => {
 const pinterestBoard =
   process.env.POSTIZ_PINTEREST_BOARD || config.platformSettings?.pinterest?.board || null;
 
-function settingsFor(post) {
+function settingsFor(post, integration) {
+  // Postiz validates settings through a discriminator on __type (the
+  // provider identifier); without it the provider's own fields are dropped.
+  return { __type: integration.identifier, ...platformSettings(post) };
+}
+
+function platformSettings(post) {
   if (post.platform === "pinterest") {
     return {
       title: post.caption.split("\n")[0].slice(0, 100),
@@ -277,7 +335,8 @@ for (const item of schedule) {
     try {
       const media = [];
       for (const asset of post.assets) {
-        const up = await uploadAsset(join(dir, asset.path), asset.path.replace(/\//g, "-"));
+        const abs = asset.path.startsWith("/") ? asset.path : join(dir, asset.path);
+        const up = await uploadAsset(abs, `${date}-${asset.path.split("/").slice(-2).join("-")}`, post.platform);
         media.push({ id: up.id, path: up.path, alt: asset.alt });
       }
       const created = await api("/posts", {
@@ -292,7 +351,7 @@ for (const item of schedule) {
             {
               integration: { id: integration.id },
               value: [{ id: postId, content: post.caption, image: media }],
-              settings: settingsFor(post),
+              settings: settingsFor(post, integration),
             },
           ],
         }),

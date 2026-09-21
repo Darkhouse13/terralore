@@ -18,6 +18,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import ledger from "@/data/social-ledger.json";
 import pool from "@/data/social-hashtags.json";
+import anniversaries from "@/data/social-anniversaries.json";
 import { allTwins } from "@/lib/geo";
 import { allSitemapEntries } from "@/lib/sitemaps";
 import { SITE_URL } from "@/lib/seo";
@@ -25,7 +26,7 @@ import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
 import { allComparePages } from "@/lib/compare";
 import { allHistories } from "@/lib/histories";
-import { planDay, ledgerEntry, parseDate, isoAddDays } from "./lib/social/calendar.mjs";
+import { planDay, ledgerEntry, parseDate, isoAddDays, FEED_V2_FROM } from "./lib/social/calendar.mjs";
 import {
   dateIndex,
   onThisDaySubject,
@@ -77,6 +78,25 @@ for (const type of ["on-this-day", "ranking", "commodity", "compare", "formation
   if (tags.length === 0 || tags.length > 5) fail(`hashtagsFor(${type}) yields ${tags.length} tags`);
 }
 
+// The curated anniversaries: every listed date must resolve to a
+// day-precision record of that very calendar day (planDay throws otherwise),
+// and must sit on or after the five-a-day cutover — earlier days never read
+// the file, so a listing there would be dead copy.
+if (anniversaries.version !== 1) fail(`anniversaries version ${anniversaries.version} — expected 1`);
+for (const [iso, entry] of Object.entries(anniversaries.days ?? {})) {
+  if (iso < FEED_V2_FROM) fail(`anniversary ${iso} predates the feed cutover ${FEED_V2_FROM}`);
+  if (typeof entry.event !== "string" || typeof entry.why !== "string" || !entry.why.trim()) {
+    fail(`anniversary ${iso} needs an "event" key and a "why"`);
+    continue;
+  }
+  try {
+    const plan = planDay(iso, { version: 1, days: {} });
+    if (!plan.worthy || plan.anchor.kind !== "day") fail(`anniversary ${iso} did not force a day-tier anchor`);
+  } catch (err) {
+    fail(`anniversary ${iso}: ${err.message}`);
+  }
+}
+
 /* ── the URL universe ─────────────────────────────────────────────────────── */
 
 const published = new Set();
@@ -102,10 +122,12 @@ outer: for (let m = 1; m <= 12; m++) {
   }
 }
 
-const probes = ["2026-08-12", "2026-08-13", "2026-08-14"];
+// Three pre-cutover days (the full rotation), then three five-a-day ones:
+// the full rotation again, so every extra-card type is exercised.
+const probes = ["2026-08-12", "2026-08-13", "2026-08-14", "2026-09-22", "2026-09-23", "2026-09-24"];
 if (sparseIso) probes.push(sparseIso);
 
-const PLATFORMS = ["pinterest", "instagram", "tiktok"];
+const PLATFORMS = ["pinterest", "instagram", "tiktok", "facebook"];
 
 function checkCaption(text, platform, label) {
   if (text.length > LIMITS[platform].margin) {
@@ -140,7 +162,14 @@ function checkSubjectCaptions(subject, label) {
 }
 
 function checkPlan(plan, label) {
-  const subjects = [plan.anchor, plan.dataCard, plan.carousel.subject];
+  const subjects = [plan.anchor, plan.dataCard, plan.carousel.subject, ...(plan.extraCard ? [plan.extraCard] : [])];
+  if (plan.feed === 2) {
+    if (plan.carousel.kind !== "formation") fail(`${label}: five-a-day carousel must be the formation story`);
+    if (plan.worthy === Boolean(plan.extraCard)) fail(`${label}: exactly one of anniversary / extra card per day`);
+    if (plan.extraCard && plan.extraCard.type === plan.dataCard.type) {
+      fail(`${label}: extra card repeats the data card's type (${plan.dataCard.type})`);
+    }
+  }
   for (const subject of subjects) {
     if (!published.has(subject.targetPath)) {
       fail(`${label}: target ${subject.targetPath} is not in the sitemap or twins`);

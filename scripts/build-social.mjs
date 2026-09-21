@@ -159,7 +159,7 @@ function dataCardFor(subject, format) {
 async function buildDay(iso, ledger) {
   const plan = planDay(iso, ledger);
   const dir = join(OUT_ROOT, iso);
-  mkdirSync(join(dir, "carousel"), { recursive: true });
+  for (const sub of ["carousel", "data", "story"]) mkdirSync(join(dir, sub), { recursive: true });
 
   // Render the day's assets.
   const files = [];
@@ -172,20 +172,18 @@ async function buildDay(iso, ledger) {
 
   await put("pin-anchor.png", onThisDayCard(plan.anchor, FORMATS.pin), FORMATS.pin);
   await put("pin-data.png", dataCardFor(plan.dataCard, FORMATS.pin), FORMATS.pin);
-  await put("vertical-anchor.png", onThisDayCard(plan.anchor, FORMATS.vertical), FORMATS.vertical);
 
-  const slides =
-    plan.carousel.kind === "ranking" ? rankingCarousel(plan.carousel.subject) : formationCarousel(plan.carousel.subject);
-  const slideRels = [];
-  for (let i = 0; i < slides.length; i++) {
-    const rel = `carousel/${String(i).padStart(2, "0")}${i === 0 ? "-cover" : ""}.png`;
-    await put(rel, slides[i], FORMATS.vertical);
-    slideRels.push(rel);
-  }
-  const slideAlts = carouselAlts(plan.carousel);
-  if (slideAlts.length !== slideRels.length) {
-    throw new Error(`${iso}: ${slideRels.length} carousel slides but ${slideAlts.length} alt texts`);
-  }
+  // A multi-slide set into its own folder; returns the manifest assets.
+  const putSlides = async (folder, slides, alts) => {
+    if (alts.length !== slides.length) {
+      throw new Error(`${iso}: ${slides.length} ${folder} slides but ${alts.length} alt texts`);
+    }
+    const rels = [];
+    for (let i = 0; i < slides.length; i++) {
+      rels.push(await put(`${folder}/${String(i).padStart(2, "0")}${i === 0 ? "-cover" : ""}.png`, slides[i], FORMATS.vertical));
+    }
+    return rels.map((rel, i) => asset(rel, alts[i]));
+  };
 
   // Assemble the manifest.
   const asset = (rel, alt) => {
@@ -212,14 +210,46 @@ async function buildDay(iso, ledger) {
     };
   };
 
-  const carouselAssets = slideRels.map((rel, i) => asset(rel, slideAlts[i]));
   const posts = [
     post("pinterest", "anchor", plan.anchor, [asset("pin-anchor.png", altText(plan.anchor))]),
     post("pinterest", "data", plan.dataCard, [asset("pin-data.png", altText(plan.dataCard))]),
-    post("instagram", "anchor", plan.anchor, [asset("vertical-anchor.png", altText(plan.anchor))]),
-    post("instagram", "carousel", plan.carousel.subject, carouselAssets),
-    post("tiktok", "carousel", plan.carousel.subject, carouselAssets),
   ];
+
+  if (plan.feed === 2) {
+    // The five-a-day feed (docs/social-surface.md §2b): three stills per day on
+    // Instagram and the Facebook Page — the two reels come from the reel drop,
+    // not from this build. Slot 1 is the curated anniversary or an extra data
+    // card; slot 2 the data card (a ranking ships as its carousel); slot 3 the
+    // formation story.
+    const first = plan.worthy
+      ? { slot: "anchor", subject: plan.anchor, rel: await put("vertical-anchor.png", onThisDayCard(plan.anchor, FORMATS.vertical), FORMATS.vertical) }
+      : { slot: "extra", subject: plan.extraCard, rel: await put("vertical-extra.png", dataCardFor(plan.extraCard, FORMATS.vertical), FORMATS.vertical) };
+    const firstAssets = [asset(first.rel, altText(first.subject))];
+    const dataAssets =
+      plan.dataCard.type === "ranking"
+        ? await putSlides("data", rankingCarousel(plan.dataCard), carouselAlts({ kind: "ranking", subject: plan.dataCard }))
+        : [asset(await put("vertical-data.png", dataCardFor(plan.dataCard, FORMATS.vertical), FORMATS.vertical), altText(plan.dataCard))];
+    const storyAssets = await putSlides("story", formationCarousel(plan.carousel.subject), carouselAlts(plan.carousel));
+    for (const platform of ["instagram", "facebook"]) {
+      posts.push(
+        post(platform, first.slot, first.subject, firstAssets),
+        post(platform, "data", plan.dataCard, dataAssets),
+        post(platform, "story", plan.carousel.subject, storyAssets),
+      );
+    }
+    if (plan.dataCard.type === "ranking") posts.push(post("tiktok", "carousel", plan.dataCard, dataAssets));
+  } else {
+    // Pre-cutover days (the one-reel era, 2026-08-23 → 09-21): the reel
+    // carried the anchor and the formation story, so the batch shipped only
+    // the ranking carousel beside the pins.
+    if (plan.carousel.kind === "ranking") {
+      const carouselAssets = await putSlides("carousel", rankingCarousel(plan.carousel.subject), carouselAlts(plan.carousel));
+      posts.push(
+        post("instagram", "carousel", plan.carousel.subject, carouselAssets),
+        post("tiktok", "carousel", plan.carousel.subject, carouselAssets),
+      );
+    }
+  }
 
   const keys = new Set(posts.map((p) => p.dedupeKey));
   if (keys.size !== posts.length) throw new Error(`${iso}: duplicate dedupe keys`);
@@ -228,8 +258,11 @@ async function buildDay(iso, ledger) {
     schemaVersion: MANIFEST_SCHEMA_VERSION,
     date: iso,
     plan: {
+      feed: plan.feed,
+      worthy: plan.worthy,
       anchor: { kind: plan.anchor.kind, event: ledgerEntry(plan).event },
       dataCard: plan.dataCard.surfaceKey,
+      ...(plan.extraCard ? { extraCard: plan.extraCard.surfaceKey } : {}),
       carousel: ledgerEntry(plan).carousel,
     },
     posts,

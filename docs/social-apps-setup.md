@@ -43,10 +43,12 @@ URIs point at this hostname.
 
 ---
 
-## 1. Meta app — Instagram publishing via the linked Page
+## 1. Meta app — Instagram and the Facebook Page
 
-What this unlocks: the two Instagram posts per day (`instagram:anchor`,
-`instagram:carousel`). Postiz drives Instagram through the **Facebook Graph
+What this unlocks: the five-a-day feed on BOTH Meta surfaces (since
+2026-09-22 — 2 reels + 3 stills each on Instagram and on the Facebook
+Page; `docs/social-surface.md` §2b). One Meta app carries both channels.
+Postiz drives Instagram through the **Facebook Graph
 API**, so the Instagram account must be a *Professional* account linked to
 a Facebook Page, and the OAuth dance is Facebook's.
 
@@ -59,9 +61,14 @@ admin (Meta Business Suite → Settings → Linked accounts).
    - Name: `Terralore Publisher`. Contact email: your address.
 2. In the app dashboard → **Add Product** → **Facebook Login** → *Set Up*
    (the plain web flow; no code steps needed).
-3. **Facebook Login → Settings** → *Valid OAuth Redirect URIs*, add exactly:
+   (If the dashboard no longer offers *Other → Business*, pick the use
+   cases **"Manage everything on your Page"** and **"Manage messaging &
+   content on Instagram"** — they grant the same permissions.)
+3. **Facebook Login → Settings** → *Valid OAuth Redirect URIs*, add both,
+   exactly:
    ```
    https://postiz.terralore.co/integrations/social/instagram
+   https://postiz.terralore.co/integrations/social/facebook
    ```
 4. **App settings → Basic**: copy *App ID* and *App Secret* into the postiz
    service env (Coolify, see header):
@@ -78,6 +85,10 @@ admin (Meta Business Suite → Settings → Linked accounts).
    pages_read_engagement, business_management, instagram_content_publish,
    instagram_manage_comments, instagram_manage_insights`), pick the
    Terralore account.
+7. Postiz → *Add channel* → **Facebook** → same dialog (Postiz requests:
+   `pages_show_list, business_management, pages_manage_posts,
+   pages_manage_engagement, pages_read_engagement, read_insights`), pick the
+   Terralore Page. Reels post to the Page as videos; stills as photo posts.
 
 **Dev mode is enough.** An app in Development mode has full API access for
 users who hold a role on the app — that's exactly our situation (own

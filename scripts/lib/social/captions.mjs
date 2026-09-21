@@ -12,7 +12,7 @@
 // Rules the validator enforces on every assembled caption
 // (scripts/validate-social.mjs):
 //   · length within the platform budget WITH MARGIN — Pinterest 460 of 500,
-//     Instagram and TikTok 2000 of 2200;
+//     Instagram, TikTok and Facebook 2000 of 2200;
 //   · authored blocks free of grading/contest/CTA language (BANNED below);
 //   · every character inside the committed font charset — which also bans
 //     emoji from captions, by construction;
@@ -34,6 +34,9 @@ export const LIMITS = {
   pinterest: { platform: 500, margin: 460 },
   instagram: { platform: 2200, margin: 2000 },
   tiktok: { platform: 2200, margin: 2000 },
+  // A Page post allows ~63k; held to Instagram's margin because the same
+  // stills cross-post there with the same caption.
+  facebook: { platform: 63206, margin: 2000 },
 };
 
 /** ≤5 tags: the type's own, then core fill — deterministic per type. */

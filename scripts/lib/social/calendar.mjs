@@ -29,11 +29,25 @@
 //   · the CAROUSEL — on ranking days, the same ranking as the carousel
 //     (one story, three formats); otherwise the anchor nation's formation
 //     story, skipping nations told in the trailing 90 days, LRU fallback.
+//
+// The five-a-day feed (from FEED_V2_FROM — docs/social-surface.md §2b):
+// Instagram and Facebook carry 2 reels + 3 stills a day, and only CURATED
+// anniversaries (data/social-anniversaries.json) earn a feed post. So:
+//   · a listed date FORCES its anchor to the curated event (still a
+//     day-precision record of that day — the tier is never faked) and the
+//     plan is `worthy`;
+//   · an unlisted date gets an EXTRA data card of the next rotation type in
+//     the anniversary slot (ranking day → commodity, commodity → compare,
+//     compare → ranking), under the same 30-day surface window;
+//   · the carousel is ALWAYS the formation story — the ranking, on ranking
+//     days, ships as the data slot's own carousel instead.
+// Days before the cutover plan exactly as they always did.
 
 import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
 import { allComparePages } from "@/lib/compare";
 import { mulberry32, seedFrom } from "@/components/brand/strata";
+import anniversaries from "@/data/social-anniversaries.json";
 import {
   dateIndex,
   eventKey,
@@ -43,6 +57,15 @@ import {
   compareSubject,
   formationSubject,
 } from "./subjects.mjs";
+
+/** First day of the five-a-day feed (see the module note). */
+export const FEED_V2_FROM = "2026-09-22";
+export const isFeedV2 = (iso) => iso >= FEED_V2_FROM;
+
+/** The curated anniversary for a date, or null (v2 days only). */
+export function curatedAnniversary(iso) {
+  return isFeedV2(iso) ? (anniversaries.days?.[iso] ?? null) : null;
+}
 
 /* ── dates ────────────────────────────────────────────────────────────────── */
 
@@ -82,6 +105,7 @@ function recency(ledger, before) {
     touch(lastEvent, entry.event);
     touch(lastNation, entry.eventNation);
     touch(lastSurface, entry.surface);
+    touch(lastSurface, entry.extra);
     if (entry.carousel?.startsWith("fm-")) touch(lastFormation, entry.carousel.slice(3));
   }
   return { lastEvent, lastNation, lastSurface, lastFormation };
@@ -112,9 +136,20 @@ function drawPreferring(list, seed, ...prefs) {
 const YEAR_DAYS = 365;
 const NATION_DAYS = 14;
 
-function pickAnchor(date, rec) {
+function pickAnchor(date, rec, forcedKey = null) {
   const idx = dateIndex();
   const seed = `otd-${date.iso}`;
+  if (forcedKey) {
+    const hit = (idx.byDay.get(`${date.month}-${date.day}`) ?? []).find(
+      (e) => e.year < date.year && eventKey(e) === forcedKey,
+    );
+    if (!hit) {
+      throw new Error(
+        `${date.iso}: curated anniversary "${forcedKey}" is not a day-precision record of this calendar day`,
+      );
+    }
+    return onThisDaySubject(hit, "day", date);
+  }
   const unused = (e) => {
     const at = rec.lastEvent.get(eventKey(e));
     return at == null || date.epochDay - at > YEAR_DAYS;
@@ -167,9 +202,9 @@ function pickSurface(list, keyOf, date, rec, seed) {
   )[0];
 }
 
-function pickDataCard(date, rec) {
-  const type = ROTATION[((date.epochDay % 3) + 3) % 3];
-  const seed = `data-${date.iso}`;
+function pickDataCard(date, rec, { offset = 0, seedPrefix = "data" } = {}) {
+  const type = ROTATION[(((date.epochDay + offset) % 3) + 3) % 3];
+  const seed = `${seedPrefix}-${date.iso}`;
   if (type === "ranking") {
     return rankingSubject(pickSurface(allRankings(), (r) => `rk-${r.slug}`, date, rec, seed));
   }
@@ -188,8 +223,8 @@ function pickDataCard(date, rec) {
 
 const FORMATION_DAYS = 90;
 
-function pickCarousel(date, rec, anchor, dataCard) {
-  if (dataCard.type === "ranking") {
+function pickCarousel(date, rec, anchor, dataCard, v2 = false) {
+  if (dataCard.type === "ranking" && !v2) {
     return { kind: "ranking", subject: dataCard };
   }
   // The anchor nation's formation story ties the day together — unless that
@@ -220,10 +255,13 @@ function pickCarousel(date, rec, anchor, dataCard) {
 export function planDay(iso, ledger) {
   const date = parseDate(iso);
   const rec = recency(ledger, date);
-  const anchor = pickAnchor(date, rec);
+  const v2 = isFeedV2(iso);
+  const curated = curatedAnniversary(iso);
+  const anchor = pickAnchor(date, rec, curated?.event ?? null);
   const dataCard = pickDataCard(date, rec);
-  const carousel = pickCarousel(date, rec, anchor, dataCard);
-  return { date, anchor, dataCard, carousel };
+  const extraCard = v2 && !curated ? pickDataCard(date, rec, { offset: 1, seedPrefix: "extra" }) : null;
+  const carousel = pickCarousel(date, rec, anchor, dataCard, v2);
+  return { date, feed: v2 ? 2 : 1, worthy: Boolean(curated), anchor, dataCard, extraCard, carousel };
 }
 
 /** The ledger entry a plan writes for its day — keyed by date, idempotent. */
@@ -235,5 +273,6 @@ export function ledgerEntry(plan) {
     // Formation seeds are "fm-<code>", ranking seeds "rk-<slug>" — the seed
     // is already the namespaced identity.
     carousel: plan.carousel.subject.seed,
+    ...(plan.extraCard ? { extra: plan.extraCard.surfaceKey } : {}),
   };
 }
