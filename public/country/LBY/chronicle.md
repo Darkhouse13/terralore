@@ -1,6 +1,6 @@
 # The Chronicle of Libya: From Greek Cyrene and Roman Leptis Magna to the first state born of the United Nations.
 
-History of Libya: From Greek Cyrene and Roman Leptis Magna to the first state born of the United Nations.. 6 eras and 26 sourced events, every claim…
+History of Libya: From Greek Cyrene and Roman Leptis Magna to the first state born of the United Nations. 6 eras and 26 sourced events, every claim…
 
 Canonical: https://terralore.co/country/LBY/chronicle
 Updated: 2026-06-13

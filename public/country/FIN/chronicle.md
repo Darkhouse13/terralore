@@ -1,6 +1,6 @@
 # The Chronicle of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers.
 
-History of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers.. 6 eras and 28 sourced…
+History of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers. 6 eras and 28 sourced events…
 
 Canonical: https://terralore.co/country/FIN/chronicle
 Updated: 2026-06-13

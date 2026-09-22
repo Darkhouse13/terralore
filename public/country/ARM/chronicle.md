@@ -1,6 +1,6 @@
 # The Chronicle of Armenia: From the kingdom of Urartu and the world's first Christian state through Ani and the genocide to a republic reborn in 1991.
 
-History of Armenia: From the kingdom of Urartu and the world's first Christian state through Ani and the genocide to a republic reborn in 1991.. 6 eras…
+History of Armenia: From the kingdom of Urartu and the world's first Christian state through Ani and the genocide to a republic reborn in 1991. 6 eras…
 
 Canonical: https://terralore.co/country/ARM/chronicle
 Updated: 2026-06-15

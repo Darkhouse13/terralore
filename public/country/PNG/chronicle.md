@@ -1,6 +1,6 @@
 # The Chronicle of Papua New Guinea: From the world's first farmers and 800 languages to a young Pacific nation.
 
-History of Papua New Guinea: From the world's first farmers and 800 languages to a young Pacific nation.. 6 eras and 28 sourced events, every claim…
+History of Papua New Guinea: From the world's first farmers and 800 languages to a young Pacific nation. 6 eras and 28 sourced events, every claim…
 
 Canonical: https://terralore.co/country/PNG/chronicle
 Updated: 2026-08-22

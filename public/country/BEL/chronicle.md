@@ -1,6 +1,6 @@
 # The Chronicle of Belgium: From the cloth towns of Flanders to the heart of Europe, a young kingdom carved from the old Low Countries.
 
-History of Belgium: From the cloth towns of Flanders to the heart of Europe, a young kingdom carved from the old Low Countries.. 6 eras and 29 sourced…
+History of Belgium: From the cloth towns of Flanders to the heart of Europe, a young kingdom carved from the old Low Countries. 6 eras and 29 sourced…
 
 Canonical: https://terralore.co/country/BEL/chronicle
 Updated: 2026-06-13

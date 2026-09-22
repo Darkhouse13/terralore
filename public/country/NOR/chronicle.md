@@ -1,6 +1,6 @@
 # The Chronicle of Norway: From the Viking kingdoms and a saint-king to North Sea oil, Arctic sovereignty and a prosperous modern realm.
 
-History of Norway: From the Viking kingdoms and a saint-king to North Sea oil, Arctic sovereignty and a prosperous modern realm.. 6 eras and 28 sourced…
+History of Norway: From the Viking kingdoms and a saint-king to North Sea oil, Arctic sovereignty and a prosperous modern realm. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/NOR/chronicle
 Updated: 2026-06-13

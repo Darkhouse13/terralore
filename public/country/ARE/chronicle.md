@@ -1,6 +1,6 @@
 # The Chronicle of United Arab Emirates: From the Bronze Age oases and pearling dhows of the lower Gulf to the oil-fueled federation of seven emirates.
 
-History of United Arab Emirates: From the Bronze Age oases and pearling dhows of the lower Gulf to the oil-fueled federation of seven emirates.. 5 eras…
+History of United Arab Emirates: From the Bronze Age oases and pearling dhows of the lower Gulf to the oil-fueled federation of seven emirates. 5 eras…
 
 Canonical: https://terralore.co/country/ARE/chronicle
 Updated: 2026-06-15

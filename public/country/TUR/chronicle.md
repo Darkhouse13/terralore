@@ -1,6 +1,6 @@
 # The Chronicle of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic.
 
-History of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic.. 6 eras and 29 sourced events…
+History of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic. 6 eras and 29 sourced events…
 
 Canonical: https://terralore.co/country/TUR/chronicle
 Updated: 2026-06-13

@@ -1,6 +1,6 @@
 # The Chronicle of Montenegro: A mountain stronghold that defied an empire, lost its crown to a union, and won back its statehood by a single percentage point.
 
-History of Montenegro: A mountain stronghold that defied an empire, lost its crown to a union, and won back its statehood by a single percentage point..…
+History of Montenegro: A mountain stronghold that defied an empire, lost its crown to a union, and won back its statehood by a single percentage point. 6…
 
 Canonical: https://terralore.co/country/MNE/chronicle
 Updated: 2026-06-13

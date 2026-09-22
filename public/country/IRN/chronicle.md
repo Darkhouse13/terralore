@@ -1,6 +1,6 @@
 # The Chronicle of Iran: From Cyrus the Great's first world empire to the Islamic Republic.
 
-History of Iran: From Cyrus the Great's first world empire to the Islamic Republic.. 6 eras and 27 sourced events, every claim traceable to a named…
+History of Iran: From Cyrus the Great's first world empire to the Islamic Republic. 6 eras and 27 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/IRN/chronicle
 Updated: 2026-06-13

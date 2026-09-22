@@ -1,6 +1,6 @@
 # The Chronicle of Afghanistan: Crossroads of empires, from Bactria and the Bamiyan Buddhas to the Durrani state and the wars of the modern age.
 
-History of Afghanistan: Crossroads of empires, from Bactria and the Bamiyan Buddhas to the Durrani state and the wars of the modern age.. 6 eras and 24…
+History of Afghanistan: Crossroads of empires, from Bactria and the Bamiyan Buddhas to the Durrani state and the wars of the modern age. 6 eras and 24…
 
 Canonical: https://terralore.co/country/AFG/chronicle
 Updated: 2026-08-22

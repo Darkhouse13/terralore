@@ -1,6 +1,6 @@
 # The Chronicle of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war.
 
-History of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war.. 6 eras and 28 sourced events, every claim…
+History of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war. 6 eras and 28 sourced events, every claim…
 
 Canonical: https://terralore.co/country/SDN/chronicle
 Updated: 2026-08-22

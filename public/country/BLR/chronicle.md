@@ -1,6 +1,6 @@
 # The Chronicle of Belarus: A borderland of Europe, from the Principality of Polotsk and the Grand Duchy of Lithuania to a sovereign republic in Russia's orbit.
 
-History of Belarus: A borderland of Europe, from the Principality of Polotsk and the Grand Duchy of Lithuania to a sovereign republic in Russia's orbit..…
+History of Belarus: A borderland of Europe, from the Principality of Polotsk and the Grand Duchy of Lithuania to a sovereign republic in Russia's orbit.…
 
 Canonical: https://terralore.co/country/BLR/chronicle
 Updated: 2026-06-13

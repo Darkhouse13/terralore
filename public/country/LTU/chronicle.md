@@ -1,6 +1,6 @@
 # The Chronicle of Lithuania: From the last pagan kingdom of Europe to a Baltic republic restored from Soviet rule.
 
-History of Lithuania: From the last pagan kingdom of Europe to a Baltic republic restored from Soviet rule.. 6 eras and 25 sourced events, every claim…
+History of Lithuania: From the last pagan kingdom of Europe to a Baltic republic restored from Soviet rule. 6 eras and 25 sourced events, every claim…
 
 Canonical: https://terralore.co/country/LTU/chronicle
 Updated: 2026-06-13

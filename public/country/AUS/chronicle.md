@@ -1,6 +1,6 @@
 # The Chronicle of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.
 
-History of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy.. 6 eras and 21…
+History of Australia: From the world's oldest continuous cultures and a British penal colony to a federated, multicultural democracy. 6 eras and 21…
 
 Canonical: https://terralore.co/country/AUS/chronicle
 Updated: 2026-06-13

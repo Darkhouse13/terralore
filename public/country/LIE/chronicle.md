@@ -1,6 +1,6 @@
 # The Chronicle of Liechtenstein: A principality bought into being, the last survivor of the Holy Roman Empire, ruled from afar before it found itself.
 
-History of Liechtenstein: A principality bought into being, the last survivor of the Holy Roman Empire, ruled from afar before it found itself.. 5 eras…
+History of Liechtenstein: A principality bought into being, the last survivor of the Holy Roman Empire, ruled from afar before it found itself. 5 eras…
 
 Canonical: https://terralore.co/country/LIE/chronicle
 Updated: 2026-06-13

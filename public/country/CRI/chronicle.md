@@ -1,6 +1,6 @@
 # The Chronicle of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.
 
-History of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest.. 6 eras and 27…
+History of Costa Rica: From the chiefdoms and stone spheres of the Diquis to a disarmed democracy of coffee, peace, and rainforest. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/CRI/chronicle
 Updated: 2026-08-11

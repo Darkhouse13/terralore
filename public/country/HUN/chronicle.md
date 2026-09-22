@@ -1,6 +1,6 @@
 # The Chronicle of Hungary: From the Magyar conquest of the Carpathian Basin to a European republic, by way of Mohács and Trianon.
 
-History of Hungary: From the Magyar conquest of the Carpathian Basin to a European republic, by way of Mohács and Trianon.. 6 eras and 28 sourced events…
+History of Hungary: From the Magyar conquest of the Carpathian Basin to a European republic, by way of Mohács and Trianon. 6 eras and 28 sourced events…
 
 Canonical: https://terralore.co/country/HUN/chronicle
 Updated: 2026-06-13

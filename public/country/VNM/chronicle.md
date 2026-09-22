@@ -1,6 +1,6 @@
 # The Chronicle of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.
 
-History of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and…
+History of Vietnam: A thousand years under Chinese rule, a thousand more of fiercely defended independence, and a modern nation forged in war and reform.…
 
 Canonical: https://terralore.co/country/VNM/chronicle
 Updated: 2026-08-22

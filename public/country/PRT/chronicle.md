@@ -1,6 +1,6 @@
 # The Chronicle of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders.
 
-History of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders.. 5 eras and 24 sourced…
+History of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders. 5 eras and 24 sourced…
 
 Canonical: https://terralore.co/country/PRT/chronicle
 Updated: 2026-06-13

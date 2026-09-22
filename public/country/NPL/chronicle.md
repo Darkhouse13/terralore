@@ -1,6 +1,6 @@
 # The Chronicle of Nepal: From the Buddha's birthplace and the valley of art to a Himalayan federal republic.
 
-History of Nepal: From the Buddha's birthplace and the valley of art to a Himalayan federal republic.. 6 eras and 20 sourced events, every claim…
+History of Nepal: From the Buddha's birthplace and the valley of art to a Himalayan federal republic. 6 eras and 20 sourced events, every claim traceable…
 
 Canonical: https://terralore.co/country/NPL/chronicle
 Updated: 2026-06-15

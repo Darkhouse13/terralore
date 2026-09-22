@@ -1,6 +1,6 @@
 # The Chronicle of Romania: From Roman Dacia to the European Union — a Latin island in a Slavic and Magyar sea, unified, dismembered and remade.
 
-History of Romania: From Roman Dacia to the European Union — a Latin island in a Slavic and Magyar sea, unified, dismembered and remade.. 6 eras and 29…
+History of Romania: From Roman Dacia to the European Union — a Latin island in a Slavic and Magyar sea, unified, dismembered and remade. 6 eras and 29…
 
 Canonical: https://terralore.co/country/ROU/chronicle
 Updated: 2026-06-13

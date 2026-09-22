@@ -1,6 +1,6 @@
 # The Chronicle of Malaysia: From the Malacca Sultanate and the spice straits to a multiethnic federation of peninsula and Borneo.
 
-History of Malaysia: From the Malacca Sultanate and the spice straits to a multiethnic federation of peninsula and Borneo.. 6 eras and 22 sourced events…
+History of Malaysia: From the Malacca Sultanate and the spice straits to a multiethnic federation of peninsula and Borneo. 6 eras and 22 sourced events…
 
 Canonical: https://terralore.co/country/MYS/chronicle
 Updated: 2026-08-22

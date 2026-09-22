@@ -1,6 +1,6 @@
 # The Chronicle of Spain: From the crossroads of Iberia to a modern European democracy.
 
-History of Spain: From the crossroads of Iberia to a modern European democracy.. 6 eras and 28 sourced events, every claim traceable to a named reference.
+History of Spain: From the crossroads of Iberia to a modern European democracy. 6 eras and 28 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/ESP/chronicle
 Updated: 2026-08-22

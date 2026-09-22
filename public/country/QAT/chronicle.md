@@ -1,6 +1,6 @@
 # The Chronicle of Qatar: From pearling shores and Bedouin tribes to a gas-rich peninsula state and global stage.
 
-History of Qatar: From pearling shores and Bedouin tribes to a gas-rich peninsula state and global stage.. 6 eras and 21 sourced events, every claim…
+History of Qatar: From pearling shores and Bedouin tribes to a gas-rich peninsula state and global stage. 6 eras and 21 sourced events, every claim…
 
 Canonical: https://terralore.co/country/QAT/chronicle
 Updated: 2026-06-15

@@ -1,6 +1,6 @@
 # The Chronicle of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.
 
-History of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution.. 6 eras and 26…
+History of Mexico: From the Olmec mother-culture and the lake-city of the Mexica to a republic forged in conquest, reform, and revolution. 6 eras and 26…
 
 Canonical: https://terralore.co/country/MEX/chronicle
 Updated: 2026-06-13

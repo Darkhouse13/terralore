@@ -1,6 +1,6 @@
 # The Chronicle of Italy: From the legend of Rome to a modern republic forged in the Risorgimento.
 
-History of Italy: From the legend of Rome to a modern republic forged in the Risorgimento.. 6 eras and 26 sourced events, every claim traceable to a…
+History of Italy: From the legend of Rome to a modern republic forged in the Risorgimento. 6 eras and 26 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/ITA/chronicle
 Updated: 2026-06-13

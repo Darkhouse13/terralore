@@ -1,6 +1,6 @@
 # The Chronicle of Ireland: From Gaelic kingdoms and a monastic golden age to partition, the Republic and a place at the heart of Europe.
 
-History of Ireland: From Gaelic kingdoms and a monastic golden age to partition, the Republic and a place at the heart of Europe.. 6 eras and 27 sourced…
+History of Ireland: From Gaelic kingdoms and a monastic golden age to partition, the Republic and a place at the heart of Europe. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/IRL/chronicle
 Updated: 2026-08-22

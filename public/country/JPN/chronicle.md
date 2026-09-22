@@ -1,6 +1,6 @@
 # The Chronicle of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.
 
-History of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state.. 6 eras and 26…
+History of Japan: Imperial myth, borrowed continental learning, and centuries of warrior rule braided into a singular modern state. 6 eras and 26 sourced…
 
 Canonical: https://terralore.co/country/JPN/chronicle
 Updated: 2026-08-22

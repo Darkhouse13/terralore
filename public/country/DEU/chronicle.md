@@ -1,6 +1,6 @@
 # The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.
 
-History of Germany: From the forests beyond the Rhine to the heart of a united Europe.. 6 eras and 24 sourced events, every claim traceable to a named…
+History of Germany: From the forests beyond the Rhine to the heart of a united Europe. 6 eras and 24 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/DEU/chronicle
 Updated: 2026-08-22

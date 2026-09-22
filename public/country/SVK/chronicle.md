@@ -1,6 +1,6 @@
 # The Chronicle of Slovakia: From Great Moravia to the heart of Europe, a nation that waited a thousand years for its own state.
 
-History of Slovakia: From Great Moravia to the heart of Europe, a nation that waited a thousand years for its own state.. 6 eras and 24 sourced events…
+History of Slovakia: From Great Moravia to the heart of Europe, a nation that waited a thousand years for its own state. 6 eras and 24 sourced events…
 
 Canonical: https://terralore.co/country/SVK/chronicle
 Updated: 2026-06-13

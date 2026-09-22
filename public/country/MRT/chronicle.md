@@ -1,6 +1,6 @@
 # The Chronicle of Mauritania: From the Sanhaja desert and the Almoravid jihad to the caravan ksour and the modern Islamic Republic.
 
-History of Mauritania: From the Sanhaja desert and the Almoravid jihad to the caravan ksour and the modern Islamic Republic.. 6 eras and 25 sourced…
+History of Mauritania: From the Sanhaja desert and the Almoravid jihad to the caravan ksour and the modern Islamic Republic. 6 eras and 25 sourced…
 
 Canonical: https://terralore.co/country/MRT/chronicle
 Updated: 2026-06-13

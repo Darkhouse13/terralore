@@ -1,6 +1,6 @@
 # The Chronicle of Austria: From the Eastern March to the heart of an empire, and from collapse to a small neutral republic.
 
-History of Austria: From the Eastern March to the heart of an empire, and from collapse to a small neutral republic.. 6 eras and 25 sourced events, every…
+History of Austria: From the Eastern March to the heart of an empire, and from collapse to a small neutral republic. 6 eras and 25 sourced events, every…
 
 Canonical: https://terralore.co/country/AUT/chronicle
 Updated: 2026-06-13

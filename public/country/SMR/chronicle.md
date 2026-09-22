@@ -1,6 +1,6 @@
 # The Chronicle of San Marino: Liberty on a mountaintop: the world's oldest surviving republic, founded by a stonemason in 301.
 
-History of San Marino: Liberty on a mountaintop: the world's oldest surviving republic, founded by a stonemason in 301.. 6 eras and 26 sourced events…
+History of San Marino: Liberty on a mountaintop: the world's oldest surviving republic, founded by a stonemason in 301. 6 eras and 26 sourced events…
 
 Canonical: https://terralore.co/country/SMR/chronicle
 Updated: 2026-06-13

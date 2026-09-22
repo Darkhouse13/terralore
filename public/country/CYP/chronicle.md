@@ -1,6 +1,6 @@
 # The Chronicle of Cyprus: An island at the crossroads of three continents, Greek and Turkish, divided by a line drawn in green.
 
-History of Cyprus: An island at the crossroads of three continents, Greek and Turkish, divided by a line drawn in green.. 6 eras and 30 sourced events…
+History of Cyprus: An island at the crossroads of three continents, Greek and Turkish, divided by a line drawn in green. 6 eras and 30 sourced events…
 
 Canonical: https://terralore.co/country/CYP/chronicle
 Updated: 2026-08-22

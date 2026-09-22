@@ -1,6 +1,6 @@
 # The Chronicle of Lebanon: From the Phoenician harbours of Tyre, Sidon and Byblos to the confessional republic of the cedars.
 
-History of Lebanon: From the Phoenician harbours of Tyre, Sidon and Byblos to the confessional republic of the cedars.. 6 eras and 24 sourced events…
+History of Lebanon: From the Phoenician harbours of Tyre, Sidon and Byblos to the confessional republic of the cedars. 6 eras and 24 sourced events…
 
 Canonical: https://terralore.co/country/LBN/chronicle
 Updated: 2026-08-22

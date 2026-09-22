@@ -1,6 +1,6 @@
 # The Chronicle of Croatia: From Roman Dalmatia to the Adriatic republic, a nation forged between empires, partitioned and reborn through war.
 
-History of Croatia: From Roman Dalmatia to the Adriatic republic, a nation forged between empires, partitioned and reborn through war.. 6 eras and 29…
+History of Croatia: From Roman Dalmatia to the Adriatic republic, a nation forged between empires, partitioned and reborn through war. 6 eras and 29…
 
 Canonical: https://terralore.co/country/HRV/chronicle
 Updated: 2026-06-13

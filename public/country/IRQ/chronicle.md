@@ -1,6 +1,6 @@
 # The Chronicle of Iraq: From the first cities of Sumer to the modern republic on the Tigris and Euphrates.
 
-History of Iraq: From the first cities of Sumer to the modern republic on the Tigris and Euphrates.. 6 eras and 25 sourced events, every claim traceable…
+History of Iraq: From the first cities of Sumer to the modern republic on the Tigris and Euphrates. 6 eras and 25 sourced events, every claim traceable…
 
 Canonical: https://terralore.co/country/IRQ/chronicle
 Updated: 2026-06-15

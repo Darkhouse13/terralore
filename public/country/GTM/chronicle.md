@@ -1,6 +1,6 @@
 # The Chronicle of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.
 
-History of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace.. 6 eras and 22 sourced…
+History of Guatemala: From the heartland of Classic Maya civilisation through Spanish conquest and a long, painful path to peace. 6 eras and 22 sourced…
 
 Canonical: https://terralore.co/country/GTM/chronicle
 Updated: 2026-08-22

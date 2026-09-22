@@ -1,6 +1,6 @@
 # The Chronicle of Sweden: From Viking traders on the eastern rivers to a Baltic empire, a long neutrality, and at last into NATO.
 
-History of Sweden: From Viking traders on the eastern rivers to a Baltic empire, a long neutrality, and at last into NATO.. 6 eras and 28 sourced events…
+History of Sweden: From Viking traders on the eastern rivers to a Baltic empire, a long neutrality, and at last into NATO. 6 eras and 28 sourced events…
 
 Canonical: https://terralore.co/country/SWE/chronicle
 Updated: 2026-06-13

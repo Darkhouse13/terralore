@@ -1,6 +1,6 @@
 # The Chronicle of Jordan: From the Iron Age kingdoms east of the Jordan and the rose-red city of Petra to the Hashemite kingdom of Amman.
 
-History of Jordan: From the Iron Age kingdoms east of the Jordan and the rose-red city of Petra to the Hashemite kingdom of Amman.. 6 eras and 27 sourced…
+History of Jordan: From the Iron Age kingdoms east of the Jordan and the rose-red city of Petra to the Hashemite kingdom of Amman. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/JOR/chronicle
 Updated: 2026-06-15

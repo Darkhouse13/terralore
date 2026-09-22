@@ -1,6 +1,6 @@
 # The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.
 
-History of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.. 6 eras and 31 sourced events, every claim…
+History of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones. 6 eras and 31 sourced events, every claim…
 
 Canonical: https://terralore.co/country/RUS/chronicle
 Updated: 2026-09-07

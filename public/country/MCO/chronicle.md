@@ -1,6 +1,6 @@
 # The Chronicle of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.
 
-History of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe.. 5 eras and 23 sourced events…
+History of Monaco: A rock above the sea held for seven centuries by one family, the longest-reigning dynasty in Europe. 5 eras and 23 sourced events…
 
 Canonical: https://terralore.co/country/MCO/chronicle
 Updated: 2026-06-13

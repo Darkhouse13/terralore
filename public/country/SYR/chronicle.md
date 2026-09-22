@@ -1,6 +1,6 @@
 # The Chronicle of Syria: From Ebla and Ugarit's first alphabet to the Umayyad caliphate and a republic remade in 2024.
 
-History of Syria: From Ebla and Ugarit's first alphabet to the Umayyad caliphate and a republic remade in 2024.. 6 eras and 22 sourced events, every…
+History of Syria: From Ebla and Ugarit's first alphabet to the Umayyad caliphate and a republic remade in 2024. 6 eras and 22 sourced events, every claim…
 
 Canonical: https://terralore.co/country/SYR/chronicle
 Updated: 2026-06-15

@@ -1,6 +1,6 @@
 # The Chronicle of Malta: Crossroads of the Mediterranean, from the world's oldest temples to a modern European republic.
 
-History of Malta: Crossroads of the Mediterranean, from the world's oldest temples to a modern European republic.. 6 eras and 25 sourced events, every…
+History of Malta: Crossroads of the Mediterranean, from the world's oldest temples to a modern European republic. 6 eras and 25 sourced events, every…
 
 Canonical: https://terralore.co/country/MLT/chronicle
 Updated: 2026-06-13

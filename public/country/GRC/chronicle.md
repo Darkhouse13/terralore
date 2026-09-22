@@ -1,6 +1,6 @@
 # The Chronicle of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence.
 
-History of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence.. 6 eras and 27 sourced events…
+History of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence. 6 eras and 27 sourced events, every…
 
 Canonical: https://terralore.co/country/GRC/chronicle
 Updated: 2026-08-22

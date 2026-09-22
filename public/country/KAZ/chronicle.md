@@ -1,6 +1,6 @@
 # The Chronicle of Kazakhstan: From the Saka horsemen of the Great Steppe to the world's largest landlocked nation.
 
-History of Kazakhstan: From the Saka horsemen of the Great Steppe to the world's largest landlocked nation.. 6 eras and 21 sourced events, every claim…
+History of Kazakhstan: From the Saka horsemen of the Great Steppe to the world's largest landlocked nation. 6 eras and 21 sourced events, every claim…
 
 Canonical: https://terralore.co/country/KAZ/chronicle
 Updated: 2026-06-15

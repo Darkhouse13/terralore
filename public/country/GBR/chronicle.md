@@ -1,6 +1,6 @@
 # The Chronicle of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.
 
-History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.. 6 eras and 28 sourced…
+History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/GBR/chronicle
 Updated: 2026-08-22

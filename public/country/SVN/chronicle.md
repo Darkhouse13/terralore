@@ -1,6 +1,6 @@
 # The Chronicle of Slovenia: From the Slavic principality of Carantania to a European republic on the sunny side of the Alps.
 
-History of Slovenia: From the Slavic principality of Carantania to a European republic on the sunny side of the Alps.. 6 eras and 27 sourced events…
+History of Slovenia: From the Slavic principality of Carantania to a European republic on the sunny side of the Alps. 6 eras and 27 sourced events, every…
 
 Canonical: https://terralore.co/country/SVN/chronicle
 Updated: 2026-06-13

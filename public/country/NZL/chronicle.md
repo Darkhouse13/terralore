@@ -1,6 +1,6 @@
 # The Chronicle of New Zealand: From the last great Polynesian voyages to a bicultural Pacific democracy founded on a contested treaty.
 
-History of New Zealand: From the last great Polynesian voyages to a bicultural Pacific democracy founded on a contested treaty.. 6 eras and 20 sourced…
+History of New Zealand: From the last great Polynesian voyages to a bicultural Pacific democracy founded on a contested treaty. 6 eras and 20 sourced…
 
 Canonical: https://terralore.co/country/NZL/chronicle
 Updated: 2026-06-15

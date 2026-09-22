@@ -1,6 +1,6 @@
 # The Chronicle of Georgia: From the land of the Golden Fleece to a Caucasian crossroads facing west.
 
-History of Georgia: From the land of the Golden Fleece to a Caucasian crossroads facing west.. 6 eras and 21 sourced events, every claim traceable to a…
+History of Georgia: From the land of the Golden Fleece to a Caucasian crossroads facing west. 6 eras and 21 sourced events, every claim traceable to a…
 
 Canonical: https://terralore.co/country/GEO/chronicle
 Updated: 2026-06-15

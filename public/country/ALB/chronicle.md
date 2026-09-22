@@ -1,6 +1,6 @@
 # The Chronicle of Albania: From Illyrian tribes and Skanderbeg's mountain resistance to a small Balkan state forged on the edge of empires.
 
-History of Albania: From Illyrian tribes and Skanderbeg's mountain resistance to a small Balkan state forged on the edge of empires.. 6 eras and 28…
+History of Albania: From Illyrian tribes and Skanderbeg's mountain resistance to a small Balkan state forged on the edge of empires. 6 eras and 28…
 
 Canonical: https://terralore.co/country/ALB/chronicle
 Updated: 2026-06-13

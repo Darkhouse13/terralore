@@ -1,6 +1,6 @@
 # The Chronicle of Morocco: From Berber Mauretania and the Idrisids to the Alaouite kingdom of the far Maghreb.
 
-History of Morocco: From Berber Mauretania and the Idrisids to the Alaouite kingdom of the far Maghreb.. 6 eras and 24 sourced events, every claim…
+History of Morocco: From Berber Mauretania and the Idrisids to the Alaouite kingdom of the far Maghreb. 6 eras and 24 sourced events, every claim…
 
 Canonical: https://terralore.co/country/MAR/chronicle
 Updated: 2026-06-13

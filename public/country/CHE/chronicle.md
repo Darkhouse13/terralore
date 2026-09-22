@@ -1,6 +1,6 @@
 # The Chronicle of Switzerland: From a forest-valley oath against the Habsburgs to the armed neutrality at the heart of Europe.
 
-History of Switzerland: From a forest-valley oath against the Habsburgs to the armed neutrality at the heart of Europe.. 5 eras and 23 sourced events…
+History of Switzerland: From a forest-valley oath against the Habsburgs to the armed neutrality at the heart of Europe. 5 eras and 23 sourced events…
 
 Canonical: https://terralore.co/country/CHE/chronicle
 Updated: 2026-06-13

@@ -37,8 +37,8 @@ export const SITEMAP_GROUP_LAST_MODIFIED: Record<SitemapGroupId, string> = {
   "country-dossiers": "2026-08-22",
   "country-chronicles": "2026-08-22",
   timelines: "2026-08-22",
-  themes: "2026-08-27",
-  comparisons: "2026-08-27",
+  themes: "2026-09-22",
+  comparisons: "2026-09-22",
   rankings: "2026-08-14",
   commodities: "2026-08-14",
 };

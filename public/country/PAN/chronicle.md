@@ -1,6 +1,6 @@
 # The Chronicle of Panama: The isthmus that joined two oceans and two Americas, from Balboa's South Sea to the canal returned.
 
-History of Panama: The isthmus that joined two oceans and two Americas, from Balboa's South Sea to the canal returned.. 6 eras and 19 sourced events…
+History of Panama: The isthmus that joined two oceans and two Americas, from Balboa's South Sea to the canal returned. 6 eras and 19 sourced events…
 
 Canonical: https://terralore.co/country/PAN/chronicle
 Updated: 2026-08-22

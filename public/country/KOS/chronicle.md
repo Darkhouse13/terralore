@@ -1,6 +1,6 @@
 # The Chronicle of Kosovo: From ancient Dardania to a contested independence at the crossroads of the Balkans.
 
-History of Kosovo: From ancient Dardania to a contested independence at the crossroads of the Balkans.. 6 eras and 27 sourced events, every claim…
+History of Kosovo: From ancient Dardania to a contested independence at the crossroads of the Balkans. 6 eras and 27 sourced events, every claim…
 
 Canonical: https://terralore.co/country/KOS/chronicle
 Updated: 2026-06-13

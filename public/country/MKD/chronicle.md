@@ -1,6 +1,6 @@
 # The Chronicle of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.
 
-History of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name.. 6 eras and 28…
+History of North Macedonia: From the heart of ancient Macedon to a young Balkan republic that had to win the right to its own name. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/MKD/chronicle
 Updated: 2026-06-13

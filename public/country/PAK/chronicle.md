@@ -1,6 +1,6 @@
 # The Chronicle of Pakistan: From the planned cities of the Indus to a nuclear-armed republic.
 
-History of Pakistan: From the planned cities of the Indus to a nuclear-armed republic.. 6 eras and 22 sourced events, every claim traceable to a named…
+History of Pakistan: From the planned cities of the Indus to a nuclear-armed republic. 6 eras and 22 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/PAK/chronicle
 Updated: 2026-06-15

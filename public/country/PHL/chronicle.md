@@ -1,6 +1,6 @@
 # The Chronicle of Philippines: From barangays and spice-trade sultanates to Asia's first republic and the home of People Power.
 
-History of Philippines: From barangays and spice-trade sultanates to Asia's first republic and the home of People Power.. 6 eras and 19 sourced events…
+History of Philippines: From barangays and spice-trade sultanates to Asia's first republic and the home of People Power. 6 eras and 19 sourced events…
 
 Canonical: https://terralore.co/country/PHL/chronicle
 Updated: 2026-06-15

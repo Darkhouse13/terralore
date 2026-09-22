@@ -1,6 +1,6 @@
 # The Chronicle of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic.
 
-History of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic.. 6 eras and 28 sourced…
+History of Tanzania: From the footprints of Laetoli and the gold of Kilwa to Nyerere's union and a modern East African republic. 6 eras and 28 sourced…
 
 Canonical: https://terralore.co/country/TZA/chronicle
 Updated: 2026-06-13

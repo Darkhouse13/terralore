@@ -1,6 +1,6 @@
 # The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.
 
-History of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.. 6 eras and 25 sourced events, every…
+History of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe. 6 eras and 25 sourced events, every…
 
 Canonical: https://terralore.co/country/MDA/chronicle
 Updated: 2026-06-13

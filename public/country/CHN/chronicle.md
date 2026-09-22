@@ -1,6 +1,6 @@
 # The Chronicle of China: Four thousand years of civilization, from oracle-bone kings to the world's second-largest economy.
 
-History of China: Four thousand years of civilization, from oracle-bone kings to the world's second-largest economy.. 6 eras and 29 sourced events, every…
+History of China: Four thousand years of civilization, from oracle-bone kings to the world's second-largest economy. 6 eras and 29 sourced events, every…
 
 Canonical: https://terralore.co/country/CHN/chronicle
 Updated: 2026-06-13

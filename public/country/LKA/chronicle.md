@@ -1,6 +1,6 @@
 # The Chronicle of Sri Lanka: From the hydraulic kingdoms of Anuradhapura to an island republic.
 
-History of Sri Lanka: From the hydraulic kingdoms of Anuradhapura to an island republic.. 5 eras and 27 sourced events, every claim traceable to a named…
+History of Sri Lanka: From the hydraulic kingdoms of Anuradhapura to an island republic. 5 eras and 27 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/LKA/chronicle
 Updated: 2026-08-10

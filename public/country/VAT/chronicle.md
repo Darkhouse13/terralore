@@ -1,6 +1,6 @@
 # The Chronicle of Vatican City: From the tomb of an apostle to the world's smallest state: the long story of the popes' temporal power.
 
-History of Vatican City: From the tomb of an apostle to the world's smallest state: the long story of the popes' temporal power.. 6 eras and 24 sourced…
+History of Vatican City: From the tomb of an apostle to the world's smallest state: the long story of the popes' temporal power. 6 eras and 24 sourced…
 
 Canonical: https://terralore.co/country/VAT/chronicle
 Updated: 2026-06-13

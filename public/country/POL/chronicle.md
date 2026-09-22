@@ -1,6 +1,6 @@
 # The Chronicle of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.
 
-History of Poland: A thousand years between the great powers, surviving partition and conquest to rise again.. 6 eras and 25 sourced events, every claim…
+History of Poland: A thousand years between the great powers, surviving partition and conquest to rise again. 6 eras and 25 sourced events, every claim…
 
 Canonical: https://terralore.co/country/POL/chronicle
 Updated: 2026-06-13

@@ -1,6 +1,6 @@
 # The Chronicle of Kenya: From the cradle of humankind on Lake Turkana to the Swahili coast and a modern East African republic.
 
-History of Kenya: From the cradle of humankind on Lake Turkana to the Swahili coast and a modern East African republic.. 6 eras and 30 sourced events…
+History of Kenya: From the cradle of humankind on Lake Turkana to the Swahili coast and a modern East African republic. 6 eras and 30 sourced events…
 
 Canonical: https://terralore.co/country/KEN/chronicle
 Updated: 2026-08-22

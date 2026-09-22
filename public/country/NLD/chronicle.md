@@ -1,6 +1,6 @@
 # The Chronicle of Netherlands: A nation reclaimed from the sea, born of revolt against an empire.
 
-History of Netherlands: A nation reclaimed from the sea, born of revolt against an empire.. 6 eras and 28 sourced events, every claim traceable to a…
+History of Netherlands: A nation reclaimed from the sea, born of revolt against an empire. 6 eras and 28 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/NLD/chronicle
 Updated: 2026-06-13

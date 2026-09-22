@@ -1,6 +1,6 @@
 # The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.
 
-History of United States: From Indigenous homelands to a continental republic and global superpower.. 6 eras and 26 sourced events, every claim traceable…
+History of United States: From Indigenous homelands to a continental republic and global superpower. 6 eras and 26 sourced events, every claim traceable…
 
 Canonical: https://terralore.co/country/USA/chronicle
 Updated: 2026-09-07

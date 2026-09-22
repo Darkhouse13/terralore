@@ -1,6 +1,6 @@
 # The Chronicle of Latvia: From the Baltic tribes and the Northern Crusades to a republic twice declared free.
 
-History of Latvia: From the Baltic tribes and the Northern Crusades to a republic twice declared free.. 5 eras and 24 sourced events, every claim…
+History of Latvia: From the Baltic tribes and the Northern Crusades to a republic twice declared free. 5 eras and 24 sourced events, every claim…
 
 Canonical: https://terralore.co/country/LVA/chronicle
 Updated: 2026-08-22

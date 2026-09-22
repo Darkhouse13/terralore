@@ -1,6 +1,6 @@
 # The Chronicle of Bangladesh: From Buddhist Bengal and the wealth of the Mughals to the nation born in 1971.
 
-History of Bangladesh: From Buddhist Bengal and the wealth of the Mughals to the nation born in 1971.. 6 eras and 20 sourced events, every claim…
+History of Bangladesh: From Buddhist Bengal and the wealth of the Mughals to the nation born in 1971. 6 eras and 20 sourced events, every claim traceable…
 
 Canonical: https://terralore.co/country/BGD/chronicle
 Updated: 2026-06-15

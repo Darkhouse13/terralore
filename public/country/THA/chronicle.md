@@ -1,6 +1,6 @@
 # The Chronicle of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.
 
-History of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break.. 6 eras and 25 sourced events, every claim…
+History of Thailand: The only Southeast Asian land never colonised — a kingdom that bent so as not to break. 6 eras and 25 sourced events, every claim…
 
 Canonical: https://terralore.co/country/THA/chronicle
 Updated: 2026-06-15

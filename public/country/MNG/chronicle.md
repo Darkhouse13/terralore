@@ -1,6 +1,6 @@
 # The Chronicle of Mongolia: From steppe horse-archers to the largest land empire in history, and the long road back to an independent democracy.
 
-History of Mongolia: From steppe horse-archers to the largest land empire in history, and the long road back to an independent democracy.. 6 eras and 19…
+History of Mongolia: From steppe horse-archers to the largest land empire in history, and the long road back to an independent democracy. 6 eras and 19…
 
 Canonical: https://terralore.co/country/MNG/chronicle
 Updated: 2026-06-15

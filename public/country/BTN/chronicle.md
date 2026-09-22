@@ -1,6 +1,6 @@
 # The Chronicle of Bhutan: The Land of the Thunder Dragon — from Guru Rinpoche's blessing to the world's first kingdom of Gross National Happiness.
 
-History of Bhutan: The Land of the Thunder Dragon — from Guru Rinpoche's blessing to the world's first kingdom of Gross National Happiness.. 6 eras and…
+History of Bhutan: The Land of the Thunder Dragon — from Guru Rinpoche's blessing to the world's first kingdom of Gross National Happiness. 6 eras and 27…
 
 Canonical: https://terralore.co/country/BTN/chronicle
 Updated: 2026-08-11

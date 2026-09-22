@@ -1,6 +1,6 @@
 # The Chronicle of Algeria: From Numidian kings and Roman Hippo to the war of independence and the Hirak.
 
-History of Algeria: From Numidian kings and Roman Hippo to the war of independence and the Hirak.. 6 eras and 28 sourced events, every claim traceable to…
+History of Algeria: From Numidian kings and Roman Hippo to the war of independence and the Hirak. 6 eras and 28 sourced events, every claim traceable to…
 
 Canonical: https://terralore.co/country/DZA/chronicle
 Updated: 2026-06-13

@@ -247,17 +247,18 @@ export function getTheme(slug: string): ThemeBucket | undefined {
 }
 
 /**
- * Whether a (theme, period) slice earns a place in the search index. A slice
- * holding one or two events is a fragment, not a document — it stays live and
- * reachable from its theme's index, but is noindexed and kept out of the
- * sitemap. Three events is the floor at which the slice's generated standfirst
- * ("N events across M nations…") describes a shape rather than restating a
- * single record.
+ * Whether a (theme, period) slice earns a place in the search index. None do,
+ * for now — the same consolidation as compareIndexable: a slice re-lists
+ * records whose home is a chronicle, and the young domain's crawlable surface
+ * should be the chronicles, not ~290 re-cuts of them. Slices stay live and
+ * reachable from their theme's index. When restoring, the old floor was
+ * three events (THEME_SLICE_INDEX_FLOOR).
  */
 export const THEME_SLICE_INDEX_FLOOR = 3;
 
-export function themeSliceIndexable(eventCount: number): boolean {
-  return eventCount >= THEME_SLICE_INDEX_FLOOR;
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function themeSliceIndexable(_eventCount: number): boolean {
+  return false;
 }
 
 /** Corpus-wide totals, for the hub pages' standfirsts. */

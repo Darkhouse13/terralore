@@ -1,6 +1,6 @@
 # The Chronicle of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.
 
-History of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic.. 6 eras and 27 sourced…
+History of Haiti: From the Taino island of Quisqueya and the slave colony of Saint-Domingue to the world's first Black republic. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/HTI/chronicle
 Updated: 2026-08-11

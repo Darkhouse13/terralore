@@ -1,6 +1,6 @@
 # The Chronicle of Indonesia: From the spice islands and the temples of Java to Southeast Asia's largest democracy.
 
-History of Indonesia: From the spice islands and the temples of Java to Southeast Asia's largest democracy.. 6 eras and 24 sourced events, every claim…
+History of Indonesia: From the spice islands and the temples of Java to Southeast Asia's largest democracy. 6 eras and 24 sourced events, every claim…
 
 Canonical: https://terralore.co/country/IDN/chronicle
 Updated: 2026-06-13

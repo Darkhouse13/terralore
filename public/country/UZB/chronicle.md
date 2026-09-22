@@ -1,6 +1,6 @@
 # The Chronicle of Uzbekistan: Heart of the Silk Road — Samarkand, Bukhara and the empire of Timur.
 
-History of Uzbekistan: Heart of the Silk Road — Samarkand, Bukhara and the empire of Timur.. 6 eras and 24 sourced events, every claim traceable to a…
+History of Uzbekistan: Heart of the Silk Road — Samarkand, Bukhara and the empire of Timur. 6 eras and 24 sourced events, every claim traceable to a…
 
 Canonical: https://terralore.co/country/UZB/chronicle
 Updated: 2026-06-15

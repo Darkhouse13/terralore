@@ -1,6 +1,6 @@
 # The Chronicle of Oman: From the copper of Magan and the frankincense roads to a seafaring empire that reached Zanzibar, reborn as a modern sultanate.
 
-History of Oman: From the copper of Magan and the frankincense roads to a seafaring empire that reached Zanzibar, reborn as a modern sultanate.. 6 eras…
+History of Oman: From the copper of Magan and the frankincense roads to a seafaring empire that reached Zanzibar, reborn as a modern sultanate. 6 eras…
 
 Canonical: https://terralore.co/country/OMN/chronicle
 Updated: 2026-06-15

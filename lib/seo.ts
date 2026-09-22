@@ -140,7 +140,7 @@ function historyShape(history: CountryHistory) {
 export function chronicleDescription(meta: CountryMeta, history: CountryHistory): string {
   const s = historyShape(history);
   return clampText(
-    `History of ${meta.name}: ${history.tagline}. ${s.eras} eras and ${s.events} sourced events, ` +
+    `History of ${meta.name}: ${history.tagline.replace(/[.!?]+$/, "")}. ${s.eras} eras and ${s.events} sourced events, ` +
       `every claim traceable to a named reference.`,
   );
 }

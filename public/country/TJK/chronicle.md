@@ -1,6 +1,6 @@
 # The Chronicle of Tajikistan: Heir to Sogdiana and the Samanid golden age, reborn as a Persian-speaking republic in the mountains.
 
-History of Tajikistan: Heir to Sogdiana and the Samanid golden age, reborn as a Persian-speaking republic in the mountains.. 6 eras and 20 sourced…
+History of Tajikistan: Heir to Sogdiana and the Samanid golden age, reborn as a Persian-speaking republic in the mountains. 6 eras and 20 sourced events…
 
 Canonical: https://terralore.co/country/TJK/chronicle
 Updated: 2026-06-15

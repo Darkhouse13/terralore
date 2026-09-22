@@ -1,6 +1,6 @@
 # The Chronicle of Eritrea: From the Red Sea ports of Aksum to Africa's longest war of independence and one of its most closed states.
 
-History of Eritrea: From the Red Sea ports of Aksum to Africa's longest war of independence and one of its most closed states.. 6 eras and 29 sourced…
+History of Eritrea: From the Red Sea ports of Aksum to Africa's longest war of independence and one of its most closed states. 6 eras and 29 sourced…
 
 Canonical: https://terralore.co/country/ERI/chronicle
 Updated: 2026-06-13

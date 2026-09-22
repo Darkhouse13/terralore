@@ -1,6 +1,6 @@
 # The Chronicle of India: From the planned cities of the Indus to the world's largest democracy.
 
-History of India: From the planned cities of the Indus to the world's largest democracy.. 6 eras and 19 sourced events, every claim traceable to a named…
+History of India: From the planned cities of the Indus to the world's largest democracy. 6 eras and 19 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/IND/chronicle
 Updated: 2026-06-13

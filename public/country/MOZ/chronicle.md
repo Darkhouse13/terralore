@@ -1,6 +1,6 @@
 # The Chronicle of Mozambique: From the gold ports of the Swahili coast to Portuguese conquest, a hard-won independence and a long road out of war.
 
-History of Mozambique: From the gold ports of the Swahili coast to Portuguese conquest, a hard-won independence and a long road out of war.. 6 eras and…
+History of Mozambique: From the gold ports of the Swahili coast to Portuguese conquest, a hard-won independence and a long road out of war. 6 eras and 28…
 
 Canonical: https://terralore.co/country/MOZ/chronicle
 Updated: 2026-08-22

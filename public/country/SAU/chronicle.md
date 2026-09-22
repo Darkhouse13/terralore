@@ -1,6 +1,6 @@
 # The Chronicle of Saudi Arabia: From the incense roads of ancient Arabia and the cradle of Islam to the oil-fueled kingdom of the Al Saud.
 
-History of Saudi Arabia: From the incense roads of ancient Arabia and the cradle of Islam to the oil-fueled kingdom of the Al Saud.. 6 eras and 27…
+History of Saudi Arabia: From the incense roads of ancient Arabia and the cradle of Islam to the oil-fueled kingdom of the Al Saud. 6 eras and 27 sourced…
 
 Canonical: https://terralore.co/country/SAU/chronicle
 Updated: 2026-08-22

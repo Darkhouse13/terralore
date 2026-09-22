@@ -1,6 +1,6 @@
 # The Chronicle of Ethiopia: A cradle of humankind and one of the world's oldest states, never colonised, from Aksum to the modern federal republic.
 
-History of Ethiopia: A cradle of humankind and one of the world's oldest states, never colonised, from Aksum to the modern federal republic.. 6 eras and…
+History of Ethiopia: A cradle of humankind and one of the world's oldest states, never colonised, from Aksum to the modern federal republic. 6 eras and…
 
 Canonical: https://terralore.co/country/ETH/chronicle
 Updated: 2026-06-13

@@ -1,6 +1,6 @@
 # The Chronicle of Ukraine: From the cradle of Kievan Rus' to a sovereign nation defending its borders against invasion.
 
-History of Ukraine: From the cradle of Kievan Rus' to a sovereign nation defending its borders against invasion.. 6 eras and 29 sourced events, every…
+History of Ukraine: From the cradle of Kievan Rus' to a sovereign nation defending its borders against invasion. 6 eras and 29 sourced events, every…
 
 Canonical: https://terralore.co/country/UKR/chronicle
 Updated: 2026-06-13

@@ -1,6 +1,6 @@
 # The Chronicle of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic.
 
-History of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic.. 6 eras and 27 sourced events…
+History of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic. 6 eras and 27 sourced events, every…
 
 Canonical: https://terralore.co/country/EGY/chronicle
 Updated: 2026-06-13

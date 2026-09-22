@@ -1,6 +1,6 @@
 # The Chronicle of Uganda: From the great lakeside kingdoms of the Buganda kabakas to a turbulent modern republic.
 
-History of Uganda: From the great lakeside kingdoms of the Buganda kabakas to a turbulent modern republic.. 6 eras and 29 sourced events, every claim…
+History of Uganda: From the great lakeside kingdoms of the Buganda kabakas to a turbulent modern republic. 6 eras and 29 sourced events, every claim…
 
 Canonical: https://terralore.co/country/UGA/chronicle
 Updated: 2026-06-13

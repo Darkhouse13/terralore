@@ -1,6 +1,6 @@
 # The Chronicle of Iceland: From the Landnám and the world's oldest parliament to a volcanic republic that won its seas.
 
-History of Iceland: From the Landnám and the world's oldest parliament to a volcanic republic that won its seas.. 6 eras and 25 sourced events, every…
+History of Iceland: From the Landnám and the world's oldest parliament to a volcanic republic that won its seas. 6 eras and 25 sourced events, every…
 
 Canonical: https://terralore.co/country/ISL/chronicle
 Updated: 2026-06-13

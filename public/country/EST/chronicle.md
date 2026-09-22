@@ -1,6 +1,6 @@
 # The Chronicle of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.
 
-History of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased.. 6 eras and 27 sourced events, every claim…
+History of Estonia: From the last pagans of Europe to a reborn Baltic republic that refused to be erased. 6 eras and 27 sourced events, every claim…
 
 Canonical: https://terralore.co/country/EST/chronicle
 Updated: 2026-06-13

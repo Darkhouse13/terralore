@@ -1,6 +1,6 @@
 # The Chronicle of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.
 
-History of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation.. 6 eras and 25…
+History of Canada: From Indigenous homelands and New France to a confederated dominion that grew into an autonomous, multicultural nation. 6 eras and 25…
 
 Canonical: https://terralore.co/country/CAN/chronicle
 Updated: 2026-06-13

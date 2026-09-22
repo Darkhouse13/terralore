@@ -1,6 +1,6 @@
 # The Chronicle of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.
 
-History of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world.. 6 eras and…
+History of Jamaica: From the Taino land of Xaymaca to a sovereign Caribbean nation whose reggae and runners carry its name across the world. 6 eras and…
 
 Canonical: https://terralore.co/country/JAM/chronicle
 Updated: 2026-06-15

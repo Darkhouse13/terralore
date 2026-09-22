@@ -1,6 +1,6 @@
 # The Chronicle of Rwanda: From the kingdom of the mwami to genocide, reckoning and rebuilding.
 
-History of Rwanda: From the kingdom of the mwami to genocide, reckoning and rebuilding.. 6 eras and 24 sourced events, every claim traceable to a named…
+History of Rwanda: From the kingdom of the mwami to genocide, reckoning and rebuilding. 6 eras and 24 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/RWA/chronicle
 Updated: 2026-06-13

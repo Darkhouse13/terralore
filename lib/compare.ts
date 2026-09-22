@@ -283,15 +283,18 @@ export function compareTitle(page: ComparePage): string {
 }
 
 /**
- * Whether a pair page earns a place in the search index. A tier-1 border pair
- * whose two archives record nothing of each other is pure template-fill of the
- * two dossiers — it stays live and linked, but is noindexed and kept out of
- * the sitemap so the crawlable surface is dominated by pages with something of
- * their own. Tier 2 (G20) and tier 3 (curated) pairs carry their own demand
- * and stay regardless.
+ * Whether a pair page earns a place in the search index. None do, for now.
+ * A pair page is a derived view of two dossiers plus the events the two
+ * chronicles share — every sentence on it is indexed (or indexable) on its
+ * source page. On a young domain Google weighs the whole site by its
+ * crawlable surface, and in Sept 2026 it had crawled and declined ~90% of the
+ * 1,208-URL sitemap, the chronicles included. Pairs stay live, linked and
+ * followable; they return to the index only once the chronicles are indexed.
+ * The earlier floor (tier ≥ 2 or a shared event) is the one to restore.
  */
-export function compareIndexable(page: ComparePage): boolean {
-  return page.tier >= 2 || page.sharedEvents.length > 0;
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function compareIndexable(_page: ComparePage): boolean {
+  return false;
 }
 
 /**
