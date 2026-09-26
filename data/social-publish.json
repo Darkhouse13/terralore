@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Publisher schedule config, consumed by scripts/social-publish.mjs. Slot times are FIRST-GUESS defaults (no analytics existed when they were chosen) — revise against real per-platform analytics; this file is the only place the times live. Since 2026-09-22 (the five-a-day feed, docs/social-surface.md §2b) Instagram and the Facebook Page each carry five posts a day, alternating still and reel so no two reels run back to back: morning still, lunch reel, afternoon data post, evening reel, late story carousel. Facebook runs 10 minutes behind Instagram so the two platforms' media fetches never collide. instagram:carousel is the pre-cutover slot (one-reel era manifests); tiktok:carousel still carries the ranking carousel on ranking days.",
+  "note": "Publisher schedule config, consumed by scripts/social-publish.mjs. Slot times are FIRST-GUESS defaults (no analytics existed when they were chosen) — revise against real per-platform analytics; this file is the only place the times live. Since 2026-09-22 (the five-a-day feed, docs/social-surface.md §2b) Instagram and the Facebook Page each carry five posts a day, alternating still and reel so no two reels run back to back: morning still, lunch reel, afternoon data post, evening reel, late story carousel. Facebook runs 10 minutes behind Instagram so the two platforms' media fetches never collide. Since 2026-09-27 (the two-carousel week, docs/social-surface.md §2c) the stills are gone: the two daily reels, plus a carousel on Tuesday (ranking) and Friday (formation story) in the instagram:carousel / facebook:carousel slot, between the two reels. tiktok:carousel carries the Tuesday ranking carousel.",
   "timezone": "Africa/Casablanca",
   "slots": {
     "pinterest:anchor": "07:30",
@@ -17,7 +17,8 @@
     "facebook:data": "16:10",
     "facebook:reel-2": "19:40",
     "facebook:story": "21:40",
-    "instagram:carousel": "19:00",
+    "instagram:carousel": "16:00",
+    "facebook:carousel": "16:10",
     "tiktok:carousel": "19:30"
   },
   "platformSettings": {

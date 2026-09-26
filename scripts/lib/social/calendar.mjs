@@ -42,12 +42,29 @@
 //   · the carousel is ALWAYS the formation story — the ranking, on ranking
 //     days, ships as the data slot's own carousel instead.
 // Days before the cutover plan exactly as they always did.
+//
+// The two-carousel week (from FEED_V3_FROM — docs/social-surface.md §2c):
+// the first week of analytics showed the three daily stills reaching 0–10
+// accounts each while the reels reached 1–3k, so Instagram and Facebook drop
+// to the two reels a day plus TWO carousels a week, and the spots go to the
+// strongest material:
+//   · TUESDAY — a ranking carousel (the data identity), any ranking not run
+//     as a carousel in the trailing 90 days, LRU fallback;
+//   · FRIDAY — a formation story, drawn from the most populous nations not
+//     told in the trailing 365 days (reach is the only interest signal the
+//     corpus carries; the Liechtenstein / Guinea-Bissau stories reached 0).
+//   · every other day: no carousel, and none is recorded, so no story is
+//     spent on a day that never posted it.
+// The anchor and data card still plan every day — Pinterest keeps its pins —
+// and a curated anniversary still forces the anchor (the pins, and the reel
+// it may inspire — docs/reel-cadence.md), but it no longer earns a feed still.
 
 import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
 import { allComparePages } from "@/lib/compare";
 import { mulberry32, seedFrom } from "@/components/brand/strata";
 import anniversaries from "@/data/social-anniversaries.json";
+import society from "@/data/domains/society.json";
 import {
   dateIndex,
   eventKey,
@@ -61,6 +78,14 @@ import {
 /** First day of the five-a-day feed (see the module note). */
 export const FEED_V2_FROM = "2026-09-22";
 export const isFeedV2 = (iso) => iso >= FEED_V2_FROM;
+
+/** First day of the two-carousel week (see the module note). */
+export const FEED_V3_FROM = "2026-09-27";
+export const isFeedV3 = (iso) => iso >= FEED_V3_FROM;
+
+/** Day of week, 0 = Sunday (epoch day 0 was a Thursday). */
+export const weekday = (date) => (((date.epochDay + 4) % 7) + 7) % 7;
+export const CAROUSEL_DAYS = { 2: "ranking", 5: "formation" };
 
 /** The curated anniversary for a date, or null (v2 days only). */
 export function curatedAnniversary(iso) {
@@ -96,6 +121,7 @@ function recency(ledger, before) {
   const lastNation = new Map();
   const lastSurface = new Map();
   const lastFormation = new Map();
+  const lastRankingCarousel = new Map();
   for (const [iso, entry] of Object.entries(ledger.days ?? {})) {
     const d = parseDate(iso);
     if (d.epochDay >= before.epochDay) continue;
@@ -107,8 +133,9 @@ function recency(ledger, before) {
     touch(lastSurface, entry.surface);
     touch(lastSurface, entry.extra);
     if (entry.carousel?.startsWith("fm-")) touch(lastFormation, entry.carousel.slice(3));
+    if (entry.carousel?.startsWith("rk-")) touch(lastRankingCarousel, entry.carousel);
   }
-  return { lastEvent, lastNation, lastSurface, lastFormation };
+  return { lastEvent, lastNation, lastSurface, lastFormation, lastRankingCarousel };
 }
 
 /** Seeded draw from a list — deterministic for (seed, list order). */
@@ -246,6 +273,44 @@ function pickCarousel(date, rec, anchor, dataCard, v2 = false) {
   return { kind: "formation", subject };
 }
 
+/* ── the two-carousel week ───────────────────────────────────────────────── */
+
+const RANKING_CAROUSEL_DAYS = 90;
+const FORMATION_V3_DAYS = 365;
+const FORMATION_TOP = 12;
+
+const population = (code) =>
+  society.data?.[code]?.metrics?.find((m) => m.key === "population")?.value ?? 0;
+
+function pickWeeklyCarousel(date, rec) {
+  const kind = CAROUSEL_DAYS[weekday(date)];
+  if (!kind) return null;
+  const fresh = (map, key, days) => {
+    const at = map.get(key);
+    return at == null || date.epochDay - at > days;
+  };
+  if (kind === "ranking") {
+    const all = allRankings();
+    const pool = all.filter((r) => fresh(rec.lastRankingCarousel, `rk-${r.slug}`, RANKING_CAROUSEL_DAYS));
+    const pick = pool.length
+      ? draw(pool, `wk-rk-${date.iso}`)
+      : [...all].sort(
+          (a, b) =>
+            (rec.lastRankingCarousel.get(`rk-${a.slug}`) ?? -1) - (rec.lastRankingCarousel.get(`rk-${b.slug}`) ?? -1),
+        )[0];
+    return { kind, subject: rankingSubject(pick) };
+  }
+  // Formation: the most populous nations not told lately; LRU if none.
+  const nations = [...new Set(dateIndex().all.map((e) => e.code))]
+    .filter((c) => formationSubject(c))
+    .sort((a, b) => population(b) - population(a) || a.localeCompare(b));
+  const pool = nations.filter((c) => fresh(rec.lastFormation, c, FORMATION_V3_DAYS)).slice(0, FORMATION_TOP);
+  const code = pool.length
+    ? draw(pool, `wk-fm-${date.iso}`)
+    : [...nations].sort((a, b) => (rec.lastFormation.get(a) ?? -1) - (rec.lastFormation.get(b) ?? -1))[0];
+  return { kind, subject: formationSubject(code) };
+}
+
 /* ── the plan ─────────────────────────────────────────────────────────────── */
 
 /**
@@ -256,12 +321,13 @@ export function planDay(iso, ledger) {
   const date = parseDate(iso);
   const rec = recency(ledger, date);
   const v2 = isFeedV2(iso);
+  const v3 = isFeedV3(iso);
   const curated = curatedAnniversary(iso);
   const anchor = pickAnchor(date, rec, curated?.event ?? null);
   const dataCard = pickDataCard(date, rec);
-  const extraCard = v2 && !curated ? pickDataCard(date, rec, { offset: 1, seedPrefix: "extra" }) : null;
-  const carousel = pickCarousel(date, rec, anchor, dataCard, v2);
-  return { date, feed: v2 ? 2 : 1, worthy: Boolean(curated), anchor, dataCard, extraCard, carousel };
+  const extraCard = v2 && !v3 && !curated ? pickDataCard(date, rec, { offset: 1, seedPrefix: "extra" }) : null;
+  const carousel = v3 ? pickWeeklyCarousel(date, rec) : pickCarousel(date, rec, anchor, dataCard, v2);
+  return { date, feed: v3 ? 3 : v2 ? 2 : 1, worthy: Boolean(curated), anchor, dataCard, extraCard, carousel };
 }
 
 /** The ledger entry a plan writes for its day — keyed by date, idempotent. */
@@ -271,8 +337,8 @@ export function ledgerEntry(plan) {
     eventNation: plan.anchor.event.code,
     surface: plan.dataCard.surfaceKey,
     // Formation seeds are "fm-<code>", ranking seeds "rk-<slug>" — the seed
-    // is already the namespaced identity.
-    carousel: plan.carousel.subject.seed,
+    // is already the namespaced identity. Carousel-free days (v3) record none.
+    ...(plan.carousel ? { carousel: plan.carousel.subject.seed } : {}),
     ...(plan.extraCard ? { extra: plan.extraCard.surfaceKey } : {}),
   };
 }

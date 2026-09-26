@@ -24,14 +24,15 @@ says it).
 
 **The contract above is superseded for days from 2026-09-22.** The feed is now
 five posts a day on Instagram and the Facebook Page, of which **two are reels**
-(`reel-1` at 12:30, `reel-2` at 19:30 Casablanca). The other three are stills
-(`docs/social-surface.md` §2b). A reel no longer follows the day's ledger anchor
+(`reel-1` at 12:30, `reel-2` at 19:30 Casablanca). The other three were stills
+(`docs/social-surface.md` §2b). Since 2026-09-27 the stills are gone and only two
+carousels a week remain (§2c), so the reels are the whole feed. A reel no longer follows the day's ledger anchor
 by default:
 
 - **On a curated anniversary date** (`data/social-anniversaries.json`), one of
   the two reels may tell that anniversary. It is the strongest hook the day has.
-  The still in the 08:30 slot carries the same event, which is fine: a card and
-  a film are different formats.
+  (Until 2026-09-26 the 08:30 still carried the same event. Since §2c there is
+  no anniversary still, so the reel is the only feed post the date gets.)
 - **Every other reel is a date-free explainer** (the Alaska / Panama / Bolivia
   form). These are evergreen, so they can be cut in batches ahead of time and
   dropped for any day.

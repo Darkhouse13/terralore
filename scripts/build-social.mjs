@@ -215,7 +215,22 @@ async function buildDay(iso, ledger) {
     post("pinterest", "data", plan.dataCard, [asset("pin-data.png", altText(plan.dataCard))]),
   ];
 
-  if (plan.feed === 2) {
+  if (plan.feed === 3) {
+    // The two-carousel week (docs/social-surface.md §2c): Instagram and the
+    // Facebook Page carry only the reels, plus a ranking carousel on Tuesday
+    // and a formation story on Friday. TikTok keeps the ranking carousel.
+    if (plan.carousel) {
+      const slides =
+        plan.carousel.kind === "ranking"
+          ? rankingCarousel(plan.carousel.subject)
+          : formationCarousel(plan.carousel.subject);
+      const assets = await putSlides("carousel", slides, carouselAlts(plan.carousel));
+      for (const platform of ["instagram", "facebook"]) {
+        posts.push(post(platform, "carousel", plan.carousel.subject, assets));
+      }
+      if (plan.carousel.kind === "ranking") posts.push(post("tiktok", "carousel", plan.carousel.subject, assets));
+    }
+  } else if (plan.feed === 2) {
     // The five-a-day feed (docs/social-surface.md §2b): three stills per day on
     // Instagram and the Facebook Page — the two reels come from the reel drop,
     // not from this build. Slot 1 is the curated anniversary or an extra data
@@ -263,7 +278,7 @@ async function buildDay(iso, ledger) {
       anchor: { kind: plan.anchor.kind, event: ledgerEntry(plan).event },
       dataCard: plan.dataCard.surfaceKey,
       ...(plan.extraCard ? { extraCard: plan.extraCard.surfaceKey } : {}),
-      carousel: ledgerEntry(plan).carousel,
+      carousel: ledgerEntry(plan).carousel ?? null,
     },
     posts,
   };
@@ -294,7 +309,7 @@ async function composeSheet(iso, plan, files) {
   const cellH = Math.round(cellW * 1.5);
   const width = cols * cellW + (cols + 1) * gap;
   const height = 92 + rows * (cellH + 30 + gap);
-  const title = `${iso} · anchor ${plan.anchor.kind} (${plan.anchor.event.code}) · data ${plan.dataCard.surfaceKey} · carousel ${plan.carousel.kind}`;
+  const title = `${iso} · anchor ${plan.anchor.kind} (${plan.anchor.event.code}) · data ${plan.dataCard.surfaceKey} · carousel ${plan.carousel?.kind ?? "none"}`;
   const tree = h(
     "div",
     { style: { width: "100%", height: "100%", display: "flex", flexDirection: "column", background: "#0a1d26", padding: gap } },
@@ -332,7 +347,7 @@ for (const iso of dates) {
   ledger.days[iso] = ledgerEntry(plan);
   console.log(
     `${iso}  anchor=${plan.anchor.kind}:${plan.anchor.event.code}  data=${plan.dataCard.surfaceKey}  ` +
-      `carousel=${ledger.days[iso].carousel}  posts=${manifest.posts.length}`,
+      `carousel=${ledger.days[iso].carousel ?? "none"}  posts=${manifest.posts.length}`,
   );
 }
 

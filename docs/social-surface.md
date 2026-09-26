@@ -132,6 +132,35 @@ days). Extend it a month ahead.
 The ledger entry gains an optional `extra` surface key, which counts
 toward the same 30-day no-repeat window as `surface`.
 
+## 2c. The two-carousel week (from 2026-09-27)
+
+**§2b's three daily stills are retired on Instagram and Facebook.** The first
+week of Graph API numbers (pulled 2026-09-26) showed 13 automated stills
+reaching about 40 views between them (0–10 each). The five automated reels
+past their first day each reached 1,150–2,560 accounts. The stills cluttered
+the grid and earned nothing. Days from `FEED_V3_FROM` (`calendar.mjs`) carry:
+
+| Day | IG / FB 16:00 / 16:10 | What ships |
+| --- | --- | --- |
+| Tuesday | `carousel` | a **ranking** carousel (4 slides); any ranking not run as a carousel in the trailing 90 days, LRU fallback. TikTok gets it too |
+| Friday | `carousel` | a **formation story**, drawn from the 12 most populous nations not told in the trailing 365 days |
+| other days | — | no still |
+
+The two daily reels (`reel-1` 12:30, `reel-2` 19:30) are unchanged. So is
+Pinterest: the anchor and the data card still plan every day. A curated
+anniversary still forces the day's anchor, which feeds the pins and the reel
+choice (`docs/reel-cadence.md`), but it no longer earns a feed still.
+
+Why population for the formation pick? It is the only interest signal the
+corpus carries. The small-nation stories (Liechtenstein, Guinea-Bissau,
+Slovakia) reached 0–5 accounts. Re-check against the next stats pull. If a
+specific story deserves the Friday slot, that is the place to add a curated
+override (the `social-anniversaries.json` pattern).
+
+Ledger: a v3 day records `carousel` only when it posted one, so an empty day
+spends no story. Ranking carousels count in their own 90-day window
+(`rk-` carousel keys), separate from the 30-day data-surface window.
+
 ## 3. The calendar (`calendar.mjs`)
 
 `planDay(iso, ledger)` is pure: no clock, no writes. The day's shape:

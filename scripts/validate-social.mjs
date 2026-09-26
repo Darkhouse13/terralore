@@ -26,7 +26,16 @@ import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
 import { allComparePages } from "@/lib/compare";
 import { allHistories } from "@/lib/histories";
-import { planDay, ledgerEntry, parseDate, isoAddDays, FEED_V2_FROM } from "./lib/social/calendar.mjs";
+import {
+  planDay,
+  ledgerEntry,
+  parseDate,
+  isoAddDays,
+  weekday,
+  FEED_V2_FROM,
+  FEED_V3_FROM,
+  CAROUSEL_DAYS,
+} from "./lib/social/calendar.mjs";
 import {
   dateIndex,
   onThisDaySubject,
@@ -61,7 +70,12 @@ for (const [iso, entry] of Object.entries(ledger.days ?? {})) {
   } catch {
     fail(`ledger day "${iso}" is not a valid date key`);
   }
-  for (const field of ["event", "eventNation", "surface", "carousel"]) {
+  // Two-carousel-week days record a carousel only on the days that post one.
+  const fields = iso >= FEED_V3_FROM ? ["event", "eventNation", "surface"] : ["event", "eventNation", "surface", "carousel"];
+  if (iso >= FEED_V3_FROM && "carousel" in entry && typeof entry.carousel !== "string") {
+    fail(`ledger ${iso}.carousel present but not a string`);
+  }
+  for (const field of fields) {
     if (typeof entry[field] !== "string" || !entry[field]) {
       fail(`ledger ${iso}.${field} missing or not a string`);
     }
@@ -123,8 +137,10 @@ outer: for (let m = 1; m <= 12; m++) {
 }
 
 // Three pre-cutover days (the full rotation), then three five-a-day ones:
-// the full rotation again, so every extra-card type is exercised.
+// the full rotation again, so every extra-card type is exercised; then one
+// full two-carousel week, so both carousel days and the empty days are.
 const probes = ["2026-08-12", "2026-08-13", "2026-08-14", "2026-09-22", "2026-09-23", "2026-09-24"];
+for (let i = 0; i < 7; i++) probes.push(isoAddDays("2026-09-27", i));
 if (sparseIso) probes.push(sparseIso);
 
 const PLATFORMS = ["pinterest", "instagram", "tiktok", "facebook"];
@@ -162,7 +178,22 @@ function checkSubjectCaptions(subject, label) {
 }
 
 function checkPlan(plan, label) {
-  const subjects = [plan.anchor, plan.dataCard, plan.carousel.subject, ...(plan.extraCard ? [plan.extraCard] : [])];
+  const subjects = [
+    plan.anchor,
+    plan.dataCard,
+    ...(plan.carousel ? [plan.carousel.subject] : []),
+    ...(plan.extraCard ? [plan.extraCard] : []),
+  ];
+  if (plan.feed === 3) {
+    const want = CAROUSEL_DAYS[weekday(plan.date)] ?? null;
+    if ((plan.carousel?.kind ?? null) !== want) {
+      fail(`${label}: two-carousel week wants ${want ?? "no"} carousel, planned ${plan.carousel?.kind ?? "none"}`);
+    }
+    if (plan.carousel && !plan.carousel.subject) fail(`${label}: carousel planned with no subject`);
+    if (plan.extraCard) fail(`${label}: the two-carousel week has no extra card`);
+  } else if (!plan.carousel) {
+    fail(`${label}: pre-v3 days always plan a carousel`);
+  }
   if (plan.feed === 2) {
     if (plan.carousel.kind !== "formation") fail(`${label}: five-a-day carousel must be the formation story`);
     if (plan.worthy === Boolean(plan.extraCard)) fail(`${label}: exactly one of anniversary / extra card per day`);
