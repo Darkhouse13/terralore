@@ -11,9 +11,10 @@
 # immediately (idempotent — already-scheduled posts are skipped by key), for a
 # reel dropped after that day's run.
 #
-# Gates, before anything leaves the laptop: 1080×1920 H.264, at least 60 s
-# (the one-minute floor, docs/reel-cadence.md), a non-empty caption. The
-# caption file is the post text exactly as it should appear.
+# Gates, before anything leaves the laptop: 1080×1920 H.264, at least 50 s
+# (the map-reel floor, docs/reel-cadence.md — the approved Cyprus cut runs
+# 57.5 s), a non-empty caption. The caption file is the post text exactly as
+# it should appear.
 set -euo pipefail
 
 if [ $# -lt 4 ]; then
@@ -35,7 +36,7 @@ IFS=, read -r CODEC W H < <(ffprobe -v error -select_streams v:0 -show_entries s
 DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$VIDEO")
 [ "$CODEC" = h264 ] && [ "$W" = 1080 ] && [ "$H" = 1920 ] || {
   echo "expected 1080x1920 h264, got ${W}x${H} $CODEC" >&2; exit 1; }
-awk -v d="$DUR" 'BEGIN { exit !(d >= 60) }' || { echo "reel runs ${DUR}s; the floor is 60s" >&2; exit 1; }
+awk -v d="$DUR" 'BEGIN { exit !(d >= 50) }' || { echo "reel runs ${DUR}s; the floor is 50s" >&2; exit 1; }
 
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT

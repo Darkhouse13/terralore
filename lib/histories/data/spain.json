@@ -117,6 +117,8 @@
       "events": [
         { "year": 1700, "yearLabel": "1700", "title": "Death of Charles II and end of the Spanish Habsburgs", "summary": "The childless death of Charles II ended Habsburg rule in Spain. His will bequeathed the throne to the Bourbon Philip of Anjou, triggering a European war of succession.", "category": "politics", "sources": ["spain-britannica", "utrecht-britannica"] },
         { "year": 1701, "yearLabel": "1701–1714", "endYear": 1714, "title": "War of the Spanish Succession", "summary": "A European war over the Spanish throne ended with the Bourbon Philip V confirmed as king by the Treaty of Utrecht (1713), which stripped Spain of its European territories and Gibraltar.", "category": "war", "sources": ["utrecht-britannica"] },
+        { "year": 1704, "yearLabel": "1704", "title": "Anglo-Dutch capture of Gibraltar", "summary": "During the War of the Spanish Succession an Anglo-Dutch force took Gibraltar; by the Treaty of Utrecht in 1713 Spain ceded it to Britain in perpetuity, and Spain continues to seek its return.", "category": "war", "sources": ["gibraltar-gov-closure-booklet", "un-c24-gibraltar-2023"] },
+        { "year": 1779, "yearLabel": "1779–1783", "endYear": 1783, "title": "The Great Siege of Gibraltar", "summary": "During the American Revolutionary War, Spain and France besieged British Gibraltar from June 1779 to February 1783 in an unsuccessful attempt to capture it.", "category": "war", "sources": ["wikipedia-great-siege-gibraltar"] },
         { "year": 1808, "yearLabel": "2 May 1808", "title": "Dos de Mayo uprising", "summary": "The people of Madrid rose against the occupying French army; the brutal repression that followed ignited the Peninsular War, Spain's war of independence against Napoleon.", "category": "war", "sources": ["spain-britannica"] },
         { "year": 1812, "yearLabel": "19 Mar 1812", "title": "Constitution of Cádiz", "summary": "Liberal deputies meeting in besieged Cádiz promulgated Spain's first constitution, asserting national sovereignty and a separation of powers, though it was abolished by Ferdinand VII in 1814.", "category": "politics", "sources": ["cadiz-constitution-loc"] },
         { "year": 1814, "yearLabel": "1814", "title": "End of the Peninsular War", "summary": "Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution.", "category": "war", "sources": ["spain-britannica"] }
@@ -125,7 +127,7 @@
         { "name": "Philip V", "role": "First Bourbon king of Spain", "life": "1683 – 1746", "blurb": "Grandson of Louis XIV, Philip V won the War of the Spanish Succession and founded the Bourbon dynasty that, with interruptions, still reigns. His centralising reforms reshaped Spanish government.", "sources": ["utrecht-britannica"] },
         { "name": "Francisco de Goya", "role": "Painter", "life": "1746 – 1828", "blurb": "Court painter turned unflinching witness, Goya recorded the violence of the Napoleonic war in works such as The Third of May 1808, bridging the old masters and modern art.", "sources": ["prado"] }
       ],
-      "sources": ["spain-britannica", "utrecht-britannica", "cadiz-constitution-loc", "prado"]
+      "sources": ["spain-britannica", "utrecht-britannica", "cadiz-constitution-loc", "prado", "gibraltar-gov-closure-booklet", "un-c24-gibraltar-2023", "wikipedia-great-siege-gibraltar"]
     },
     {
       "id": "loss-of-empire-republic-and-civil-war",
@@ -166,6 +168,7 @@
       ],
       "events": [
         { "year": 1939, "yearLabel": "1939–1975", "endYear": 1975, "title": "The Franco dictatorship", "summary": "Franco ruled Spain as an authoritarian dictator for nearly four decades, repressing opponents and regional identities, before later decades brought economic growth and cautious opening to the West.", "category": "politics", "sources": ["ushmm-spanish-civil-war", "spain-britannica"] },
+        { "year": 1969, "yearLabel": "8 Jun 1969", "title": "Franco closes the Gibraltar frontier", "summary": "After Gibraltarians voted in 1967 to keep their link with Britain and a new Gibraltar constitution followed in May 1969, Franco's government closed the land frontier; it partly reopened to pedestrians on 15 December 1982 and fully on 5 February 1985.", "category": "politics", "sources": ["gibraltar-gov-closure-booklet", "wikipedia-gibraltar-spain-border"] },
         { "year": 1975, "yearLabel": "20 Nov 1975", "title": "Death of Franco and accession of Juan Carlos I", "summary": "Franco's death brought King Juan Carlos I to the throne; rather than continue the dictatorship, the king became a key figure in steering Spain toward democracy.", "category": "politics", "sources": ["spain-britannica"] },
         { "year": 1977, "yearLabel": "15 Jun 1977", "title": "First free elections since the Civil War", "summary": "Spain held its first democratic elections in over four decades, producing a parliament that would draft a new constitution under Prime Minister Adolfo Suárez.", "category": "politics", "sources": ["spain-britannica", "spain-constitution-gov"] },
         { "year": 1978, "yearLabel": "6 Dec 1978", "title": "Spanish Constitution of 1978", "summary": "Ratified by referendum on 6 December and promulgated on 29 December 1978, the constitution established a parliamentary monarchy, fundamental rights and a state of autonomous communities.", "category": "politics", "sources": ["spain-constitution-gov"] },
@@ -176,7 +179,7 @@
         { "name": "Adolfo Suárez", "role": "Prime minister of the democratic transition", "life": "1932 – 2014", "blurb": "As Spain's first democratically elected prime minister of the post-Franco era, Suárez dismantled the institutions of the dictatorship, legalised political parties and guided the country to the 1978 constitution.", "sources": ["spain-britannica"] }
       ],
       "pullquote": { "text": "The Crown symbolises the unity and permanence of the State.", "attribution": "Spanish Constitution of 1978, Title II" },
-      "sources": ["ushmm-spanish-civil-war", "spain-britannica", "spain-constitution-gov"]
+      "sources": ["ushmm-spanish-civil-war", "spain-britannica", "spain-constitution-gov", "gibraltar-gov-closure-booklet", "wikipedia-gibraltar-spain-border"]
     }
   ],
   "figures": [
@@ -193,6 +196,10 @@
     { "id": "inquisition-britannica", "label": "Spanish Inquisition", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Spanish-Inquisition", "kind": "encyclopedia" },
     { "id": "alhambra-decree-loc", "label": "Aniversario de los decretos de expulsión de los judíos de los reinos de Castilla y Aragón", "publisher": "Portal de Archivos de Andalucía, Junta de Andalucía", "url": "https://www.juntadeandalucia.es/cultura/archivos/web_es/contenido?id=e4769d33-759f-11ea-8ea7-000ae4865a5f&idArchivo=f10e7484-58a4-11dd-b44b-31450f5b9dd5&idContArch=bb556ff5-3893-11de-8026-000ae4865a5f&idProvincia=4b07b39e-3b6e-11dd-92fe-31450f5b9dd5&idTipo=02cd09d5-57e2-11dd-ba1f-31450f5b9dd5", "kind": "gov" },
     { "id": "prado", "label": "Museo Nacional del Prado", "publisher": "Museo Nacional del Prado", "kind": "museum" },
+    { "id": "gibraltar-gov-closure-booklet", "label": "The Closure of the Border, 1969–2019", "publisher": "HM Government of Gibraltar", "url": "https://www.gibraltar.gov.gi/uploads/Closure%20Booklet1.pdf", "kind": "gov" },
+    { "id": "un-c24-gibraltar-2023", "label": "Gibraltar: working paper prepared by the Secretariat (A/AC.109/2023/8)", "publisher": "United Nations, Special Committee on Decolonization", "url": "https://documents.un.org/api/symbol/access?s=A/AC.109/2023/8&l=en&t=pdf", "kind": "primary" },
+    { "id": "wikipedia-great-siege-gibraltar", "label": "Great Siege of Gibraltar", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Siege_of_Gibraltar", "kind": "reference" },
+    { "id": "wikipedia-gibraltar-spain-border", "label": "Gibraltar–Spain border", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gibraltar%E2%80%93Spain_border", "kind": "reference" },
     { "id": "utrecht-britannica", "label": "Treaties of Utrecht", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/treaties-of-Utrecht", "kind": "encyclopedia" },
     { "id": "cadiz-constitution-loc", "label": "Constitution of the Spanish Monarchy, enacted in Cádiz, 19 March 1812", "publisher": "Library of Congress", "url": "https://www.loc.gov/item/2021667002/", "kind": "gov" },
     { "id": "loc-1898", "label": "The World of 1898: The Spanish-American War", "publisher": "Library of Congress", "url": "https://guides.loc.gov/world-of-1898", "kind": "gov" },

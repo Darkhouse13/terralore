@@ -64,6 +64,7 @@
       ],
       "events": [
         { "year": 962, "yearLabel": "2 Feb 962", "title": "Otto I crowned emperor", "summary": "Pope John XII crowned Otto I of East Francia emperor in Rome, uniting the German and Italian kingdoms and founding the Holy Roman Empire that would frame German political life for over 800 years.", "category": "founding", "sources": ["otto-britannica"] },
+        { "year": 1255, "yearLabel": "1255", "title": "Teutonic Knights found Königsberg", "summary": "During the Northern Crusades the Teutonic Knights founded Königsberg on the site of the Old Prussian settlement of Twangste; it later became the coronation city of the Prussian monarchy.", "category": "founding", "sources": ["wikipedia-kaliningrad"] },
         { "year": 1517, "yearLabel": "31 Oct 1517", "title": "Luther's Ninety-five Theses", "summary": "Martin Luther issued his Ninety-five Theses against the sale of indulgences, sparking the Protestant Reformation that split Western Christianity and reshaped German society and language.", "category": "religion", "sources": ["theses-britannica"] },
         { "year": 1555, "yearLabel": "25 Sep 1555", "title": "Peace of Augsburg", "summary": "The imperial diet established the first lasting legal coexistence of Lutheranism and Catholicism, letting each prince set his territory's religion under the principle cuius regio, eius religio.", "category": "religion", "sources": ["augsburg-britannica"] },
         { "year": 1618, "yearLabel": "1618–1648", "endYear": 1648, "title": "The Thirty Years' War and the Peace of Westphalia", "summary": "A devastating European war fought largely in Germany ended with the Peace of Westphalia in 1648, which confirmed the autonomy of the empire's states and entrenched German fragmentation.", "category": "war", "sources": ["westphalia-britannica"] }
@@ -73,7 +74,7 @@
         { "name": "Martin Luther", "role": "Theologian and reformer", "life": "1483 – 1546", "blurb": "Luther's challenge to papal authority and his German Bible transformed religion, politics and language across the empire. Excommunicated and outlawed, he survived under princely protection, and Lutheranism became a defining force in German history.", "sources": ["theses-britannica"] }
       ],
       "pullquote": { "text": "Here I stand; I can do no other.", "attribution": "Words traditionally attributed to Martin Luther at the Diet of Worms, 1521" },
-      "sources": ["otto-britannica", "theses-britannica", "augsburg-britannica", "westphalia-britannica"]
+      "sources": ["otto-britannica", "theses-britannica", "augsburg-britannica", "westphalia-britannica", "wikipedia-kaliningrad"]
     },
     {
       "id": "prussia-and-the-road-to-unity",
@@ -193,6 +194,7 @@
     { "id": "weimar-bundestag", "label": "The Weimar Republic (1918–1933)", "publisher": "German Bundestag", "url": "https://www.bundestag.de/en/parliament/history", "kind": "gov" },
     { "id": "ushmm-keydates", "label": "The Holocaust and World War II: Key Dates", "publisher": "United States Holocaust Memorial Museum", "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates", "kind": "museum" },
     { "id": "unity-deutschland", "label": "Day of German Unity: Facts and History", "publisher": "Federal Foreign Office (deutschland.de)", "url": "https://www.deutschland.de/en", "kind": "gov" },
+    { "id": "wikipedia-kaliningrad", "label": "Kaliningrad", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kaliningrad", "kind": "reference" },
     { "id": "wikipedia-unification-germany", "label": "Unification of Germany", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Unification_of_Germany", "kind": "reference" }
   ],
   "status": "published",

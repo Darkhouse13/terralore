@@ -1,8 +1,40 @@
-# The daily reel — cadence, grammar, queue
+# The reel — cadence, grammar, queue
 
 Written 2026-08-22, when one reel/day became the norm alongside the card
 batch. Read with `docs/social-surface.md` (the batch this pairs with) and
 `docs/social-publishing.md`.
+
+## The map reel (since 2026-09-27) — supersedes every section below
+
+Reels 04–31 (evidence collage, live edits, phone grammar) plateaued at ≈1K
+views. On 2026-09-27 the user approved a new form without a single note:
+**"How Cyprus got sliced in half"** — an animated map explainer where every
+sentence is an action on the map, one continuous camera, a conversational
+script, and an ElevenLabs narrator ("Chris"). "This is our new direction,
+our new narrator, our new tone."
+
+- **Rules of the form:** `.claude/skills/terralore-reels/SKILL.md`.
+- **Engine and recipe:** `social-out/reel-lab/map/README.md` (gitignored lab):
+  `voice.py` → `music.py` → `geo.mjs` → `sfx.py` → `src/reels/<name>.tsx` →
+  `map/render.sh` (preview, then final with loudness QA).
+- **Cadence: 3–4 reels a week**, not two a day. Each reel is a
+  hand-choreographed animation, so fewer and better. Drop them in the
+  evening slot (`reel-2`, 19:30 Casablanca) on Mon / Wed / Fri / Sun. `reel-1`
+  stays empty; an empty slot simply doesn't publish, so the calendar needs no
+  change. The Tuesday and Friday carousels (`docs/social-surface.md` §2c) are
+  unchanged.
+- **Topics:** "Why is X like that?" about places people already know — not
+  anniversaries. Every claim is still traceable to the corpus, and disputes
+  are worded neutrally.
+- **Length:** ≈150 words, 55–65 s. The queue floor
+  (`scripts/social-queue-reel.sh`) is now 50 s; the 60 s floor below belonged
+  to the collage form.
+- **The switch (2026-09-28):** the three old-form reels still waiting in the drop (28 Sep ×2 Canada/Nigeria,
+  29 Sep Czechoslovakia) were moved to `/data/terralore-social/status/reels-retired/` on the box (not deleted)
+  and the map reels took over: Cyprus 28 Sep, Chile 30 Sep, Lesotho 2 Oct, Greenland 4 Oct, Gibraltar 5 Oct,
+  Kaliningrad 7 Oct — all `reel-2` (19:30).
+- **Keys:** the fal key lives in `~/.config/terralore/fal.env` (outside the
+  repo, mode 600). The pipeline scripts read it from there.
 
 ## The contract
 
@@ -150,6 +182,12 @@ Ryan) so the two suspects can be separated by the numbers.
 | 2026-09-06 (evening) | reel-29-bolivia — "A navy without a sea." (`src/bolivia-live.tsx`, fourth live edit; 9 shots, 161 words, 55.8 s voice + 3 s end card) | BOL — date-free explainer chosen over the SWZ anchor (already reel 16); the 2018 ICJ ruling and the 2009 constitution (arts. 243/267/268) were added to `bolivia.json` first so every line stays corpus-traceable |
 | 2026-09-07 (evening) | reel-30-alaska — "Seward’s Folly." (`src/alaska.tsx`, the first **phone-grammar** cut: 19 shots / 128 words / 44 s voice + 3 s end card — one full-frame image per cut, one short sentence per cut (~2.3 s), one stamp at most, caption card in the phone's middle band; delivered in two voices, Andrew (`ala`) and Ryan (`alar`), same picture, as an A/B) | USA + RUS — date-free explainer; the 1867 purchase and 1959 statehood were added to `usa.json` / `russia.json` first (State Dept Office of the Historian + NARA) |
 | 2026-09-09 | reel-31-panama — "Built it. Gave it away." (`src/panama.tsx`, second phone-grammar cut: 20 shots / 131 words / 49.6 s voice + 3 s end card; Andrew (`pan`) and Ryan (`panr`) again, same picture) | PAN + USA — date-free explainer, the mirror of Alaska (bought a land / built and returned a canal); every line traces to `panama.json` (1880 French attempt, 3 and 18 Nov 1903, 15 Aug 1914, 9 Jan 1964, 7 Sep 1977, 31 Dec 1999). Commons has no French-era excavation photograph and no 31 Dec 1999 image: the FMIB Tabernilla excavator plate and the 14 Dec 1999 Miraflores ceremony carry those beats, labelled with their own dates |
+| 2026-09-27 | **map-01-cyprus — "How Cyprus got sliced in half"** (`social-out/cyprus-v2-sliced-in-half.mp4`, 57.5 s, `src/reels/cyprus.tsx`) — the first map reel; approved as the new form | CYP + CYN — date-free explainer; every line traces to `cyprus.json` / `northerncyprus.json` (1571, 1878, 1960, 1963, 1964, 1974 coup and intervention, two-way displacement) |
+| 2026-09-27 | **map-02-chile — "Why Chile is shaped like a noodle"** (`social-out/why-chile-is-a-noodle.mp4`, 65.9 s, `src/reels/chile.tsx`) — the first reel built on the engine; true-size Chile laid over Europe (Lisbon → past Moscow, `transplant()` in geo-lib) | CHL + BOL — every line traces to `chile.json` (LOC country study on the shape, added 2026-09-27; 1541; Mapuche frontier; 1818; War of the Pacific; Araucanía; the 23 July 1881 treaty, added from UN RIAA vol. IX) and `bolivia.json` (landlocked; 2018 ICJ) |
+| 2026-09-28 | **map-03-lesotho — "A country inside a country"** (`social-out/a-country-inside-a-country.mp4`, 53.5 s, `src/reels/lesotho.tsx`) — queued for 2 Oct | LSO — `lesotho.json` end to end (Thaba Bosiu, lowlands lost, 1868, kept out of the 1910 Union, 1966, water for royalties) |
+| 2026-09-28 | **map-04-greenland — "Why does Denmark own Greenland?"** (`social-out/why-denmark-owns-greenland.mp4`, 59.2 s, `src/reels/greenland.tsx`) — true-size Denmark on Greenland; queued for 4 Oct | GRL — `greenland.json` (985, 1261, 1408 Hvalsey, Egede 1721 — Dano-Norwegian, 1933 PCIJ, 1941, Pituffik, 2009, 2025) |
+| 2026-09-28 | **map-05-gibraltar — "Why is this rock British?"** (`social-out/why-is-gibraltar-british.mp4`, 58.3 s, `src/reels/gibraltar.tsx`) — vote bars 12,138–44 and 17,900–187; queued for 5 Oct | ESP + GBR — added to `spain.json` (1704, Great Siege 1779–83, 1969–1985 frontier) and `uk.json` (1967, 2002) from the Gibraltar Government booklet, the UN C-24 working paper and Wikipedia |
+| 2026-09-28 | **map-06-kaliningrad — "A piece of Russia, cut off"** (`social-out/kaliningrad-cut-off.mp4`, 55.7 s, `src/reels/kaliningrad.tsx`) — queued for 7 Oct | RUS + DEU — added to `germany.json` (1255) and `russia.json` (1945 capture + Potsdam, 1946 rename/expulsion, 1991 exclave, Baltic Fleet) from the Potsdam protocol (Avalon) and Wikipedia |
 
 Reels 06–11 were built together in `social-out/reel-week/`: **one shared
 Remotion project with six compositions**, so the physics (plate, document, map,
