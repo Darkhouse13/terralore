@@ -163,6 +163,7 @@
       ],
       "events": [
         { "year": 1949, "yearLabel": "23 May 1949", "title": "Founding of the two German states", "summary": "The Basic Law established the Federal Republic of Germany in the west on 23 May 1949; the German Democratic Republic was founded in the Soviet zone on 7 October 1949, formalising the country's division.", "category": "politics", "sources": ["germany-britannica"] },
+        { "year": 1948, "yearLabel": "24 Jun 1948 – 12 May 1949", "endYear": 1949, "title": "The Berlin Blockade and Airlift", "summary": "Berlin, divided into four sectors but located far inside the Soviet zone, was cut off when Soviet forces blockaded rail, road and water access to its western sectors; the United States and Britain flew in food and fuel, at the height one plane landing every 45 seconds at Tempelhof, until the blockade was lifted on 12 May 1949. West Berlin remained an enclave entirely surrounded by East Germany until 1990.", "category": "politics", "sources": ["ofhistorian-berlin-airlift", "wikipedia-west-berlin"] },
         { "year": 1961, "yearLabel": "13 Aug 1961", "title": "Construction of the Berlin Wall", "summary": "East Germany began building the Berlin Wall to stop its citizens fleeing west, creating the most potent symbol of the Cold War division of Europe.", "category": "politics", "sources": ["germany-britannica"] },
         { "year": 1989, "yearLabel": "9 Nov 1989", "title": "Fall of the Berlin Wall", "summary": "Amid mass protests and the collapse of communist rule across Eastern Europe, the Berlin Wall was opened, ending the division of Berlin and clearing the path to reunification.", "category": "politics", "sources": ["germany-britannica", "unity-deutschland"] },
         { "year": 1990, "yearLabel": "3 Oct 1990", "title": "German reunification", "summary": "The German Democratic Republic acceded to the Federal Republic, reuniting Germany as a single democratic state, now commemorated annually as the Day of German Unity.", "category": "politics", "sources": ["unity-deutschland", "germany-britannica"] }
@@ -172,7 +173,7 @@
         { "name": "Helmut Kohl", "role": "Chancellor of reunification", "life": "1930 – 2017", "blurb": "Chancellor from 1982 to 1998, Kohl seized the opening created by the fall of the Wall to drive German reunification in 1990 and championed deeper European integration, including the creation of the euro.", "sources": ["unity-deutschland"] }
       ],
       "pullquote": { "text": "On 3 October 1990 Germany was peacefully reunited.", "attribution": "On the Day of German Unity" },
-      "sources": ["germany-britannica", "unity-deutschland"]
+      "sources": ["germany-britannica", "unity-deutschland", "ofhistorian-berlin-airlift", "wikipedia-west-berlin"]
     }
   ],
   "figures": [
@@ -194,6 +195,8 @@
     { "id": "weimar-bundestag", "label": "The Weimar Republic (1918–1933)", "publisher": "German Bundestag", "url": "https://www.bundestag.de/en/parliament/history", "kind": "gov" },
     { "id": "ushmm-keydates", "label": "The Holocaust and World War II: Key Dates", "publisher": "United States Holocaust Memorial Museum", "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates", "kind": "museum" },
     { "id": "unity-deutschland", "label": "Day of German Unity: Facts and History", "publisher": "Federal Foreign Office (deutschland.de)", "url": "https://www.deutschland.de/en", "kind": "gov" },
+    { "id": "ofhistorian-berlin-airlift", "label": "The Berlin Airlift, 1948–1949", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/milestones/1945-1952/berlin-airlift", "kind": "gov" },
+    { "id": "wikipedia-west-berlin", "label": "West Berlin", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/West_Berlin", "kind": "reference" },
     { "id": "wikipedia-kaliningrad", "label": "Kaliningrad", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kaliningrad", "kind": "reference" },
     { "id": "wikipedia-unification-germany", "label": "Unification of Germany", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Unification_of_Germany", "kind": "reference" }
   ],

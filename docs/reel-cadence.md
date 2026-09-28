@@ -17,12 +17,13 @@ our new narrator, our new tone."
 - **Engine and recipe:** `social-out/reel-lab/map/README.md` (gitignored lab):
   `voice.py` → `music.py` → `geo.mjs` → `sfx.py` → `src/reels/<name>.tsx` →
   `map/render.sh` (preview, then final with loudness QA).
-- **Cadence: 3–4 reels a week**, not two a day. Each reel is a
-  hand-choreographed animation, so fewer and better. Drop them in the
-  evening slot (`reel-2`, 19:30 Casablanca) on Mon / Wed / Fri / Sun. `reel-1`
-  stays empty; an empty slot simply doesn't publish, so the calendar needs no
-  change. The Tuesday and Friday carousels (`docs/social-surface.md` §2c) are
+- **Cadence: 2 reels a day** (user directive, 2026-09-28 — the 3–4/week pace was never agreed): `reel-1` at
+  12:30 and `reel-2` at 19:30 Casablanca, every day. Production must stay ahead of the drop: build in batches of
+  ~8 (four days) and keep at least two days queued. The Tue/Fri carousels (`docs/social-surface.md` §2c) are
   unchanged.
+- **Before choosing topics, pull the stats** (Graph v21 with the Postiz integration tokens, from the box) and
+  never repeat a published subject (e.g. Panama has had two reels). The names-and-paradoxes reels (Tanzania's
+  name 3.2k reach, Siam 2.1k, Saudi Arabia's name 1.9k) beat the anniversary ones.
 - **Topics:** "Why is X like that?" about places people already know — not
   anniversaries. Every claim is still traceable to the corpus, and disputes
   are worded neutrally.
@@ -188,6 +189,7 @@ Ryan) so the two suspects can be separated by the numbers.
 | 2026-09-28 | **map-04-greenland — "Why does Denmark own Greenland?"** (`social-out/why-denmark-owns-greenland.mp4`, 59.2 s, `src/reels/greenland.tsx`) — true-size Denmark on Greenland; queued for 4 Oct | GRL — `greenland.json` (985, 1261, 1408 Hvalsey, Egede 1721 — Dano-Norwegian, 1933 PCIJ, 1941, Pituffik, 2009, 2025) |
 | 2026-09-28 | **map-05-gibraltar — "Why is this rock British?"** (`social-out/why-is-gibraltar-british.mp4`, 58.3 s, `src/reels/gibraltar.tsx`) — vote bars 12,138–44 and 17,900–187; queued for 5 Oct | ESP + GBR — added to `spain.json` (1704, Great Siege 1779–83, 1969–1985 frontier) and `uk.json` (1967, 2002) from the Gibraltar Government booklet, the UN C-24 working paper and Wikipedia |
 | 2026-09-28 | **map-06-kaliningrad — "A piece of Russia, cut off"** (`social-out/kaliningrad-cut-off.mp4`, 55.7 s, `src/reels/kaliningrad.tsx`) — queued for 7 Oct | RUS + DEU — added to `germany.json` (1255) and `russia.json` (1945 capture + Potsdam, 1946 rename/expulsion, 1991 exclave, Baltic Fleet) from the Potsdam protocol (Avalon) and Wikipedia |
+| 2026-09-28 | **Batch 1 at 2/day** — Andorra "two princes", Bangladesh "one country, two halves", Suriname "traded New York", Czechoslovakia "split without a shot", West Berlin, "two countries called Congo" (`src/reels/{andorra,bangladesh,suriname,czechoslovakia,berlin,congos}.tsx`, 54–61 s each) — queued 1–3 Oct, both slots | Corpus as-is except `germany.json` + the 1948–49 blockade and airlift (US Office of the Historian). A renames reel (`reels/names/`) is scripted but unvoiced: fal locked (TOP_UP) mid-batch; Berlin and Congo reuse the Kaliningrad and Lesotho music beds |
 
 Reels 06–11 were built together in `social-out/reel-week/`: **one shared
 Remotion project with six compositions**, so the physics (plate, document, map,
