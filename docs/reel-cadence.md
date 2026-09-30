@@ -19,8 +19,9 @@ our new narrator, our new tone."
   `map/render.sh` (preview, then final with loudness QA).
 - **Cadence: 2 reels a day** (user directive, 2026-09-28 — the 3–4/week pace was never agreed): `reel-1` at
   12:30 and `reel-2` at 19:30 Casablanca, every day. Production must stay ahead of the drop: build in batches of
-  ~8 (four days) and keep at least two days queued. The Tue/Fri carousels (`docs/social-surface.md` §2c) are
-  unchanged.
+  ~8 (four days) and keep at least two days queued. The Tue/Fri carousels were retired on 2026-10-01
+  (`docs/social-surface.md` §2d): Instagram and Facebook are reels only.
+- **Topic choice runs through the growth loop** (`docs/growth-loop.md`): `npm run scorecard`, then `npm run radar`. The paragraph below is the manual version it replaced.
 - **Before choosing topics, pull the stats** (Graph v21 with the Postiz integration tokens, from the box) and
   never repeat a published subject (e.g. Panama has had two reels). The names-and-paradoxes reels (Tanzania's
   name 3.2k reach, Siam 2.1k, Saudi Arabia's name 1.9k) beat the anniversary ones.

@@ -23,6 +23,8 @@
     "build-social": "node --import ./scripts/lib/ts-alias-loader.mjs scripts/build-social.mjs",
     "social-anniversaries": "node --import ./scripts/lib/ts-alias-loader.mjs scripts/social-anniversaries.mjs",
     "social-publish": "node scripts/social-publish.mjs",
+    "scorecard": "node scripts/reel-scorecard.mjs --fetch",
+    "radar": "node scripts/topic-radar.mjs",
     "audit:pages": "node scripts/audit-pages.mjs",
     "audit:links": "node scripts/audit-links.mjs",
     "audit:googlebot": "node scripts/analyze-googlebot-log.mjs",
