@@ -48,6 +48,18 @@ scp -q "$VIDEO" "$HOST:$DROP/$SLOT.mp4"
 scp -q "$TMP/$SLOT.json" "$HOST:$DROP/$SLOT.json"
 echo "queued $DATE $SLOT ($(printf '%.1f' "$DUR")s, $(du -h "$VIDEO" | cut -f1)) → $HOST:$DROP"
 
+# Shelf bookkeeping (social-out/reels/README.md): a reel queued from the ready shelf moves, with its
+# caption, to the scheduled shelf, named <date>_<HHMM>_<slug> so the shelf sorts in publishing order.
+case "$(realpath "$VIDEO")" in
+  */social-out/reels/1-ready/*)
+    HHMM=$(node -e 'const c=require(process.argv[2]);process.stdout.write((c.slots["instagram:"+process.argv[1]]||"0000").replace(":",""))' "$SLOT" "$(cd "$(dirname "$0")/.." && pwd)/data/social-publish.json")
+    SHELF=$(dirname "$(realpath "$VIDEO")")/../2-scheduled
+    SLUG=$(basename "$VIDEO" .mp4)
+    mv "$VIDEO" "$SHELF/${DATE}_${HHMM}_${SLUG}.mp4"
+    case "$(realpath "$CAPTION")" in */social-out/reels/1-ready/*) mv "$CAPTION" "$SHELF/${DATE}_${HHMM}_${SLUG}-caption.txt";; esac
+    echo "shelved → social-out/reels/2-scheduled/${DATE}_${HHMM}_${SLUG}.mp4";;
+esac
+
 if [ "$NOW" = "--now" ]; then
   ssh "$HOST" "docker exec $RUNNER sh -c 'cd /work/repo && node scripts/social-publish.mjs --date $DATE'"
 fi

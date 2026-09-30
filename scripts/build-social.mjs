@@ -7,7 +7,7 @@
 //   … either may add --review-sheet   (also compose a contact sheet of the
 //                                      day into design-review/16-social/week/)
 //
-// Output: social-out/YYYY-MM-DD/ — the rendered PNGs and manifest.json, the
+// Output: social-out/daily/YYYY-MM-DD/ — the rendered PNGs and manifest.json, the
 // machine-readable contract a downstream publisher consumes (see
 // docs/social-surface.md for the consumption rules; the short form: posts
 // are idempotent by dedupeKey, assets are referenced relative to the
@@ -158,7 +158,7 @@ function dataCardFor(subject, format) {
 
 async function buildDay(iso, ledger) {
   const plan = planDay(iso, ledger);
-  const dir = join(OUT_ROOT, iso);
+  const dir = join(OUT_ROOT, "daily", iso);
   for (const sub of ["carousel", "data", "story"]) mkdirSync(join(dir, sub), { recursive: true });
 
   // Render the day's assets.

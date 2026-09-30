@@ -6,6 +6,13 @@ batch. Read with `docs/social-surface.md` (the batch this pairs with) and
 
 ## The map reel (since 2026-09-27) — supersedes every section below
 
+**Where reels live (since 2026-09-30):** `social-out/reels/`, one shelf per stage, each video beside its
+caption. The stages are `1-ready`, then `2-scheduled` (named `<date>_<HHMM>_<slug>`), then `3-published`. There are
+also `4-old-format`, `5-retired` and `6-tests-and-alternates`. `render.sh` writes finals into `1-ready`, and
+`social-queue-reel.sh` moves a queued reel to `2-scheduled`. `python3 scripts/reels-index.py` rebuilds the index,
+`social-out/reels/README.md`. The daily card batches moved to `social-out/daily/<date>/`, and old work folders to
+`social-out/work/`. Older paths in the log below are pre-reorganisation.
+
 Reels 04–31 (evidence collage, live edits, phone grammar) plateaued at ≈1K
 views. On 2026-09-27 the user approved a new form without a single note:
 **"How Cyprus got sliced in half"** — an animated map explainer where every

@@ -11,7 +11,7 @@ constrained build.
 
 **What this is:** `npm run build-social -- --date YYYY-MM-DD` renders one
 day's social assets and a machine-readable manifest into
-`social-out/YYYY-MM-DD/`. Nothing posts anything — the deliverable is the
+`social-out/daily/YYYY-MM-DD/`. Nothing posts anything — the deliverable is the
 artifact; a downstream publisher consumes the manifest under the contract in
 §6. `--range START END` backfills batches (cap 62 days);
 `--review-sheet` additionally drops a contact sheet of the day into
@@ -252,7 +252,7 @@ as producing none") travels with the surfaces that need it.
 
 ## 6. The manifest — the publisher's contract
 
-`social-out/YYYY-MM-DD/manifest.json`, `schemaVersion: 1`:
+`social-out/daily/YYYY-MM-DD/manifest.json`, `schemaVersion: 1`:
 
 ```jsonc
 {

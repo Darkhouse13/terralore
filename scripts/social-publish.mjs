@@ -7,7 +7,7 @@
 //   … either may add --dry-run     (full pipeline, zero Postiz writes,
 //                                   zero git writes — prints the schedule)
 //
-// Consumes social-out/<date>/manifest.json under the contract in
+// Consumes social-out/daily/<date>/manifest.json under the contract in
 // docs/social-surface.md §6 (schemaVersion 1 only — anything else is fatal),
 // generating it first via build-social if absent. Slot times come from
 // data/social-publish.json (first-guess defaults, one place to revise).
@@ -178,7 +178,7 @@ async function uploadAsset(absPath, filename, platform) {
 
 const startedAt = Date.now();
 const date = dateArg || todayIn(TZ);
-const dir = join(OUT_ROOT, date);
+const dir = join(OUT_ROOT, "daily", date);
 const manifestPath = join(dir, "manifest.json");
 
 // Ensure the day exists: manifest on disk AND its entry in the ledger (a
