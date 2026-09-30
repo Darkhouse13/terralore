@@ -27,8 +27,15 @@
 // repo): they come from the reel drop, SOCIAL_REELS_DIR/<date>/reel-N.mp4 +
 // reel-N.json ({ "caption": "…" }), dropped there ahead of time by
 // scripts/social-queue-reel.sh. Each reel becomes one post per platform in
-// its `platforms` list (default Instagram + Facebook) at the `reel-N` slot,
+// its `platforms` list (default Instagram + Facebook, plus YouTube Shorts once
+// platformSettings.youtube.autoPublish is true) at the `reel-N` slot,
 // deduped exactly like manifest posts (key <date>:<platform>:reel-N).
+//
+// YouTube (since 2026-09-30): the Short's title is the caption's first line
+// (the hook, ≤100 chars); the full caption becomes the description; its
+// hashtags become tags. Uploads from an unaudited Google API project are
+// locked to private, so autoPublish stays false until the YouTube API
+// Services audit passes — until then Shorts are uploaded by hand.
 //
 // Instagram's content API accepts JPEG only, so PNG stills are re-encoded
 // (sharp, q92, 4:4:4) at upload for Instagram and Facebook.
@@ -199,6 +206,7 @@ if (manifest.schemaVersion !== MANIFEST_SCHEMA_VERSION) {
 // The day's reels, from the drop (see the module note). Each is shaped like a
 // manifest post so the scheduling loop below treats both identically; the
 // asset path is absolute because the drop is not the manifest's directory.
+const REEL_PLATFORMS = ["instagram", "facebook", ...(config.platformSettings?.youtube?.autoPublish ? ["youtube"] : [])];
 const reelPosts = [];
 const reelDir = join(REELS_DIR, date);
 if (existsSync(reelDir)) {
@@ -210,7 +218,7 @@ if (existsSync(reelDir)) {
     if (typeof meta.caption !== "string" || !meta.caption.trim()) {
       throw new Error(`reel drop ${date}/${slot}.json: caption missing`);
     }
-    for (const platform of meta.platforms || ["instagram", "facebook"]) {
+    for (const platform of meta.platforms || REEL_PLATFORMS) {
       reelPosts.push({
         dedupeKey: `${date}:${platform}:${slot}`,
         platform,
@@ -288,11 +296,25 @@ function platformSettings(post) {
   if (post.platform === "instagram") {
     return { post_type: config.platformSettings?.instagram?.post_type || "post" };
   }
+  if (post.platform === "youtube") {
+    const { note, autoPublish, ...settings } = config.platformSettings?.youtube || {};
+    return { ...youtubeSettings(post.caption), ...settings };
+  }
   if (post.platform === "tiktok") {
     const { note, ...settings } = config.platformSettings?.tiktok || {};
     return settings;
   }
   return {};
+}
+
+/** Title (the hook line, ≤100 chars at a word boundary) and tags from a reel caption. */
+function youtubeSettings(caption) {
+  const hook = caption.split("\n")[0].trim();
+  const title = hook.length <= 100 ? hook : `${hook.slice(0, 99).replace(/\s+\S*$/, "")}…`;
+  const tags = [...new Set([...caption.matchAll(/#([\p{L}\p{N}_]+)/gu)].map((m) => m[1]))]
+    .slice(0, 10)
+    .map((t) => ({ value: t, label: t }));
+  return { title, type: "public", selfDeclaredMadeForKids: "no", tags };
 }
 
 /* ── decide + act per post ────────────────────────────────────────────────── */

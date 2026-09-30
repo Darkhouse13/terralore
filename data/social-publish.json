@@ -19,7 +19,9 @@
     "facebook:story": "21:40",
     "instagram:carousel": "16:00",
     "facebook:carousel": "16:10",
-    "tiktok:carousel": "19:30"
+    "tiktok:carousel": "19:30",
+    "youtube:reel-1": "12:50",
+    "youtube:reel-2": "19:50"
   },
   "platformSettings": {
     "pinterest": {
@@ -40,6 +42,11 @@
       "brand_organic_toggle": false,
       "content_posting_method": "DIRECT_POST"
     },
-    "facebook": {}
+    "facebook": {},
+    "youtube": {
+      "note": "autoPublish adds YouTube Shorts to every reel's default platforms. Keep it false until the YouTube API Services audit passes: uploads from an unaudited API project are locked to private. Title = the caption's hook line; type is the privacy status (public/private/unlisted).",
+      "autoPublish": false,
+      "type": "public"
+    }
   }
 }
