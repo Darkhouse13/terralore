@@ -112,3 +112,14 @@ const proof = h(
 );
 writeFileSync(join(out, "youtube-banner-proof.png"), await renderPng(proof, { width: W, height: H }));
 console.log(`banner → ${out}/youtube-banner.png (${(png.length / 1024).toFixed(0)} KB)`);
+
+// ── The avatar: 800×800, shown as a circle ──────────────────────────────────
+// The site icon's composition (public/icon-512.png): basalt mark, oxide dot,
+// on bone. The mark stays inside the inscribed circle with clearspace.
+const avatar = h(
+  "div",
+  { style: { width: 800, height: 800, display: "flex", alignItems: "center", justifyContent: "center", background: BONE } },
+  zenithMark(520),
+);
+writeFileSync(join(out, "avatar.png"), await renderPng(avatar, { width: 800, height: 800 }));
+console.log(`avatar → ${out}/avatar.png`);
