@@ -2,6 +2,7 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import Mark from "@/components/brand/Mark";
 import CaptureBed from "@/components/strata/CaptureBed";
+import SiteLinks from "@/components/strata/SiteLinks";
 import { organizationLd, websiteLd } from "@/lib/seo";
 import { corpusStats } from "@/lib/chronology";
 import { allCountries } from "@/lib/countries";
@@ -334,10 +335,13 @@ export default function Home() {
                   moment — no new bed, no new motion timing. */}
               <CaptureBed variant="row" />
             </div>
-            <div className="hidden justify-between font-mono text-[10px] text-umber lg:flex">
-              <div>EVERY CLAIM SOURCED</div>
-              <div>ABSENCE ≠ ZERO</div>
-              <div>NO SIDES</div>
+            <div className="hidden lg:block">
+              <div className="flex justify-between font-mono text-[10px] text-umber">
+                <div>EVERY CLAIM SOURCED</div>
+                <div>ABSENCE ≠ ZERO</div>
+                <div>NO SIDES</div>
+              </div>
+              <SiteLinks className="mt-3 justify-end" />
             </div>
           </div>
         </div>
@@ -350,6 +354,7 @@ export default function Home() {
             <div>ABSENCE ≠ ZERO</div>
             <div>NO SIDES</div>
           </div>
+          <SiteLinks className="mt-3" />
         </footer>
       </div>
     </main>

@@ -80,7 +80,11 @@ function coreEntries(): MetadataRoute.Sitemap {
     },
     {
       url: abs(routes.privacy()),
-      lastModified: "2026-08-14",
+      lastModified: "2026-09-30",
+    },
+    {
+      url: abs(routes.terms()),
+      lastModified: "2026-09-30",
     },
     {
       url: abs(routes.about()),

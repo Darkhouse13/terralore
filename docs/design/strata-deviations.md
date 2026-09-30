@@ -230,6 +230,18 @@ invariant — where the invariant wins by rule.
   reality — tables, hex pigments, system faces — the strata voice
   surviving Outlook rather than fighting it).
 
+- **E18 — The front door's small print and `/terms` (2026-09-30).** The
+  YouTube API Services audit requires the home page to show where the
+  privacy policy lives and the YouTube mark, and requires terms that bind
+  the audience to the YouTube Terms of Service. The front door's closing
+  row gains one mono fine-print line under the creed (`SiteLinks`:
+  PRIVACY · TERMS · YOUTUBE · INSTAGRAM), on the phone and on the bench.
+  This is an addition to the pixel-frozen phone rendering, made knowingly:
+  no bed, no motion timing, the creed's own voice and size. The YouTube
+  mark is drawn in one colour (basalt, bone play glyph), which YouTube's
+  brand rules allow; the palette gains no red. `/terms` joins `/privacy`
+  as a reading surface on the mounted core.
+
 *(none yet — log here if a taboo ever collides with an editorial
 invariant; the invariant wins and the design routes around it.)*
 

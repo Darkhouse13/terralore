@@ -22,6 +22,12 @@ export const CORPUS_VERSION: string = corpusVersion.version;
 export const SITE_URL = "https://terralore.co";
 export const SITE_NAME = "Terralore";
 export const SITE_TAGLINE = "An Atlas of How Nations Came to Be";
+
+/** The channels Terralore publishes to — linked from the front door and named in the Organization node. */
+export const SOCIAL = {
+  youtube: "https://www.youtube.com/@terraloreco",
+  instagram: "https://www.instagram.com/terralore.co/",
+} as const;
 export const SITE_DESCRIPTION =
   "The reference work of nations, laid down in layers. Explore any nation and trace the long path it took to become a country — every claim sourced.";
 
@@ -71,6 +77,7 @@ export const routes = {
   integrity: () => "/integrity",
   chronicleEventsDataset: () => "/datasets/chronicle-events",
   privacy: () => "/privacy",
+  terms: () => "/terms",
   about: () => "/about",
 };
 
@@ -319,6 +326,7 @@ export const publisher: Json = {
     height: 512,
   },
   description: SITE_DESCRIPTION,
+  sameAs: Object.values(SOCIAL),
 };
 
 /** The site node — emitted once, on the home page. */
