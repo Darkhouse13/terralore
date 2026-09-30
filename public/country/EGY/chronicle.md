@@ -1,6 +1,6 @@
 # The Chronicle of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic.
 
-History of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic. 6 eras and 27 sourced events, every…
+History of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic. 6 eras and 29 sourced events, every…
 
 Canonical: https://terralore.co/country/EGY/chronicle
 Updated: 2026-06-13
@@ -73,6 +73,8 @@ An Ottoman province reshaped by Muhammad Ali's reforms, Egypt fell under British
 - 1805: **Muhammad Ali takes power** — Recognised as Ottoman governor, Muhammad Ali founds a reforming dynasty and modernises Egypt's army, economy and administration. [britannica-ottoman-egypt]
 - 1869: **Opening of the Suez Canal** — The Suez Canal links the Mediterranean and Red seas, transforming global trade but deepening Egypt's debts to European powers. [britannica-suez-crisis]
 - 1882: **British occupation begins** — Britain defeats the Urabi revolt and occupies Egypt, taking effective control of the country while leaving the khedive nominally in place. [britannica-ottoman-egypt]
+- 19 January 1899: **Anglo-Egyptian agreement fixes the 22nd parallel as the Sudan limit** — Britain and Egypt agree on the joint administration of the Sudan, defining it as all territories south of the 22nd parallel of latitude. Egypt still cites this line as its international boundary with Sudan. [ws-sudan-convention-1899, statedept-ibs18, un-egypt-2017-may]
+- 4 November 1902: **Administrative line drawn for nomadic tribes on the Sudan border** — The Egyptian Minister of the Interior activates an administrative boundary east of the Nile that departs from the 22nd parallel so as to keep tribal areas together: the Ababda under Egyptian administration, the Bisharin under Sudanese. Egypt describes such arrangements as provisional; the 22nd parallel remained the international boundary. [statedept-ibs18, un-egypt-2017-may]
 - 28 February 1922: **Declaration of Egyptian independence** — After the 1919 revolution led by Saad Zaghloul and the Wafd, Britain unilaterally declares Egypt independent; Fuad I becomes king of the new Kingdom of Egypt. [wikipedia-1919-revolution]
 
 Figures:
@@ -116,5 +118,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:EGY
 - [wikipedia-fatimid] Fatimid Caliphate — Wikipedia · https://en.wikipedia.org/wiki/Fatimid_Caliphate
 - [wikipedia-egypt-eyalet] Egypt Eyalet — Wikipedia · https://en.wikipedia.org/wiki/Egypt_Eyalet
 - [wikipedia-muhammad-ali-dynasty] Muhammad Ali dynasty — Wikipedia · https://en.wikipedia.org/wiki/Muhammad_Ali_dynasty
+- [statedept-ibs18] International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962) — U.S. Department of State, Office of the Geographer (via FSU College of Law) · https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs018.pdf
+- [un-egypt-2017-may] Egypt: Declaration to the UN Secretary-General (4 May 2017) — UN Division for Ocean Affairs and the Law of the Sea · https://www.un.org/depts/los/LEGISLATIONANDTREATIES/PDFFILES/EGY_SDN_2017_en.pdf
+- [ws-sudan-convention-1899] Sudan Convention (1899) — Wikisource · https://en.wikisource.org/wiki/Sudan_Convention_(1899)
 
 Citation template: Terralore, "The Chronicle of Egypt: Five millennia of civilisation along the Nile, from the first pharaohs to the modern Arab republic.", terralore.co/country/EGY/chronicle, retrieved <YYYY-MM-DD>.

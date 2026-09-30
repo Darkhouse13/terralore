@@ -1,6 +1,6 @@
 # China and Russia compared
 
-China and Russia side by side: 51 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+China and Russia side by side: 51 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/chn-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -112,9 +112,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/CHN.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (0 events)
+## Entangled histories (1 event)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- August 1689: **Treaty of Nerchinsk fixes the Russian-Qing border** — Envoys of the Russian tsars, led by Fyodor Golovin, and of the Qing Kangxi Emperor, led by Songgotu, agree the first Sino-Russian border treaty near Nerchinsk. The Russian fort of Albazin on the Amur is to be destroyed and the border follows the Argun and Gorbitsa rivers and the Stanovoy range toward the Sea of Okhotsk; the Latin text is the authoritative version. Sources give 27 August (Old Style) and 29 August for the signing. (from the Russia chronicle; sources: Treaty of Nerchinsk Draws Russian-Chinese Border; Pactum Nertschiae (Treaty of Nerchinsk, Latin text))
 
 ## Sources
 

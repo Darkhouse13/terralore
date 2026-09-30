@@ -37,7 +37,7 @@
       "body": [
         "The Falkland Islands (Islas Malvinas) had no indigenous population. The first widely recorded sighting is attributed to the English navigator John Davis in 1592, and Captain John Strong made an early landing in 1690, naming Falkland Sound after Viscount Falkland; the Spanish-language name Malvinas derives from the French Malouines, after sailors from Saint-Malo. For more than a century the remote, treeless archipelago in the cold South Atlantic remained essentially unoccupied, visited by sealers and whalers but settled by no power.",
         "Settlement came in the 1760s, and with it the rival claims that still divide the islands. In 1764 the French navigator Louis-Antoine de Bougainville founded the first settlement, Port Louis, on East Falkland. In 1765 a British expedition under Commodore John Byron claimed West Falkland, and in 1766 the British established Port Egmont on Saunders Island. Spain, asserting prior rights under earlier treaties, bought out the French settlement in about 1767 and administered the islands from Buenos Aires, then part of the Spanish Empire.",
-        "Tensions between Britain and Spain nearly brought war: a Spanish force expelled the British from Port Egmont in 1770, but the outpost was restored in 1771 after a diplomatic settlement. Britain withdrew its garrison in 1774 for reasons of economy, leaving a plaque asserting its continuing claim, while Spain maintained a presence into the early 19th century. By about 1811, amid the upheavals that would dissolve Spanish rule in the Americas, the last Spanish garrison had departed, again leaving the islands without a settled administration — and with claims unresolved."
+        "Tensions between Britain and Spain nearly brought war: a Spanish force expelled the British from Port Egmont in 1770, but the outpost was restored in 1771 after a diplomatic settlement. Britain withdrew its garrison in 1774, leaving a lead plate that Britain treats as asserting its continuing claim, while Spain maintained a presence into the early 19th century. By about 1811, amid the upheavals that would dissolve Spanish rule in the Americas, the last Spanish garrison had departed, again leaving the islands without a settled administration — and with claims unresolved."
       ],
       "events": [
         {
@@ -68,13 +68,28 @@
           "summary": "Spain purchased the French settlement around 1767 and governed the islands from Buenos Aires; in 1770 it expelled the British from Port Egmont, restored after a 1771 settlement.",
           "category": "colonization",
           "sources": ["britannica-falklands"]
+        },
+        {
+          "year": 1774,
+          "yearLabel": "May 1774",
+          "title": "Britain withdraws from Port Egmont, leaving a lead plate",
+          "summary": "The British government decided to abandon Port Egmont; on 21 May 1774 Commander Samuel Clayton fixed a lead plate to the fort door asserting George III's right to the island and fort, and sailed for England the same day. Britain treats the plate as a continuing claim; Argentina holds that the withdrawal ended it.",
+          "category": "colonization",
+          "sources": ["falklandsbiographies-clayton"]
+        },
+        {
+          "year": 1811,
+          "title": "All garrisons withdrawn",
+          "summary": "The British, French and Spanish had periodically kept garrisons on the islands until 1811, when all were withdrawn.",
+          "category": "colonization",
+          "sources": ["govfk-history"]
         }
       ],
       "pullquote": {
         "text": "The Islands were entirely unoccupied until 1765, when they were first claimed by the British who established a garrison at Port Egmont.",
         "attribution": "Falkland Islands Government, official history"
       },
-      "sources": ["britannica-falklands", "britannica-bougainville", "govfk-history"]
+      "sources": ["britannica-falklands", "britannica-bougainville", "govfk-history", "falklandsbiographies-clayton"]
     },
     {
       "id": "argentine-presence-and-1833",
@@ -85,7 +100,7 @@
       "standfirst": "After Buenos Aires declared independence it asserted sovereignty and planted a settlement at Port Louis; a U.S. raid and then a British return in 1833 reset control — the founding of the islands' continuous administration, and the start of Argentina's enduring claim.",
       "body": [
         "Buenos Aires declared independence from Spain in 1816 and, as heir to the Spanish viceroyalty, proclaimed its sovereignty over the Falkland Islands (Islas Malvinas) in 1820. In the late 1820s the merchant Luis Vernet established a settlement at Port Louis and was given authority by Buenos Aires; he sought to regulate sealing and fishing in the surrounding waters. This is the Argentine presence on which Buenos Aires would later rest much of its case — a presence Britain regarded as inconsistent with its own claim dating from the 1760s.",
-        "The settlement was disrupted from an unexpected quarter. In 1831 the U.S. warship USS Lexington raided Port Louis in reprisal for Vernet's seizure of American sealing vessels, damaging the colony and effectively ending Vernet's enterprise. Into the resulting disorder, and asserting its long-standing claim, Britain dispatched a naval force. On 2 January 1833 it required the small Argentine garrison to depart — without bloodshed by the British and islander account — and re-established British control over the islands.",
+        "The settlement was disrupted from an unexpected quarter. In 1831 the U.S. warship USS Lexington raided Port Louis in reprisal for Vernet's seizure of American sealing vessels, arresting his deputy and carrying many of the colonists away, which effectively ended Vernet's enterprise. Into the resulting disorder, and asserting its long-standing claim, Britain dispatched a naval force. On 2 January 1833 it required the small Argentine garrison to depart — without bloodshed by the British and islander account — and re-established British control over the islands.",
         "From this point a permanent British administration took shape: settlers were invited to remain, and in 1841/1842 Britain appointed a civil lieutenant governor. The United Kingdom treats 1833 as the foundation of its modern, continuous administration and bases its position on that continuity and on the wishes of the inhabitants. Argentina, by contrast, regards the events of 1833 as the unlawful expulsion of its authorities from territory it had inherited from Spain, and from that grievance dates the sovereignty claim it has pressed ever since. Both positions are set out here without endorsement."
       ],
       "events": [
@@ -97,11 +112,20 @@
           "sources": ["britannica-falklands", "statedept-southatlantic"]
         },
         {
+          "year": 1829,
+          "yearLabel": "10 June 1829",
+          "title": "Vernet appointed political and military commander",
+          "summary": "A decree of the Buenos Aires government under Martín Rodríguez created the office of Political and Military Commander of the Malvinas and named Luis Vernet to it, with authority over fishing on the coasts.",
+          "category": "politics",
+          "sources": ["wikisource-comandancia-1829"]
+        },
+        {
           "year": 1831,
+          "yearLabel": "December 1831",
           "title": "USS Lexington raid on Port Louis",
-          "summary": "The U.S. warship Lexington destroyed the Argentine settlement on East Falkland in reprisal for the seizure of American sealing ships, ending Vernet's colony.",
+          "summary": "Reacting to the seizure of American sealing ships, the U.S. warship Lexington under Commander Silas Duncan arrived at Port Louis, arrested Vernet's deputy Matthew Brisbane and six others, and took 38 members of the colony to Montevideo and Buenos Aires at their request.",
           "category": "war",
-          "sources": ["britannica-falklands"]
+          "sources": ["falklandsbiographies-duncan", "britannica-falklands"]
         },
         {
           "year": 1833,
@@ -109,7 +133,7 @@
           "title": "Britain re-establishes control (founding of continuous administration)",
           "summary": "A British force required the small Argentine garrison to leave Port Louis and re-asserted British control — the start of continuous British administration, which Argentina contests as illegitimate occupation.",
           "category": "founding",
-          "sources": ["britannica-falklands", "govfk-history", "statedept-southatlantic"]
+          "sources": ["britannica-falklands", "govfk-history", "statedept-southatlantic", "cancilleria-188"]
         },
         {
           "year": 1841,
@@ -129,7 +153,7 @@
           "sources": ["britannica-falklands"]
         }
       ],
-      "sources": ["britannica-falklands", "govfk-history", "statedept-southatlantic"]
+      "sources": ["britannica-falklands", "govfk-history", "statedept-southatlantic", "cancilleria-188", "wikisource-comandancia-1829", "falklandsbiographies-duncan"]
     },
     {
       "id": "pastoral-colony",
@@ -261,7 +285,7 @@
           "title": "Argentine surrender at Stanley",
           "summary": "Argentine forces surrendered at Stanley after a 74-day campaign; about 255 British and 649 Argentine personnel and three islanders died in the war.",
           "category": "war",
-          "sources": ["statedept-southatlantic", "britannica-war"]
+          "sources": ["statedept-southatlantic", "britannica-war", "nam-falklands"]
         },
         {
           "year": 1982,
@@ -449,6 +473,11 @@
       "url": "https://rockhopperexploration.co.uk/operations/falkland-islands/north-falkland-basin/sea-lion/",
       "kind": "reference"
     },
+    { "id": "falklandsbiographies-clayton", "label": "Clayton, Samuel Wittewrong", "publisher": "Dictionary of Falklands Biography", "url": "https://www.falklandsbiographies.org/biographies/clayton_samuel", "kind": "reference" },
+    { "id": "falklandsbiographies-duncan", "label": "Duncan, Silas", "publisher": "Dictionary of Falklands Biography", "url": "https://www.falklandsbiographies.org/biographies/duncan_silas", "kind": "reference" },
+    { "id": "cancilleria-188", "label": "188 years of illegal occupation of the Malvinas Islands", "publisher": "Ministerio de Relaciones Exteriores, Comercio Internacional y Culto, Argentina", "url": "https://cancilleria.gob.ar/en/announcements/news/188-years-illegal-occupation-malvinas-islands", "kind": "gov" },
+    { "id": "wikisource-comandancia-1829", "label": "Creación de la Comandancia de Malvinas en 1829 (decree of 10 June 1829)", "publisher": "Wikisource (transcription of the Buenos Aires decree)", "url": "https://es.wikisource.org/wiki/Creaci%C3%B3n_de_la_Comandancia_de_Malvinas_en_1829", "kind": "primary" },
+    { "id": "nam-falklands", "label": "The British Army and the Falklands War", "publisher": "National Army Museum", "url": "https://www.nam.ac.uk/explore/british-army-and-falklands-war", "kind": "museum" },
     { "id": "unscr-502", "label": "Security Council Resolution 502 (1982)", "publisher": "United Nations (UNSCR archive)", "url": "https://unscr.com/en/resolutions/502", "kind": "primary" },
     { "id": "hansard-1982", "label": "Falkland Islands, HC Deb 3 April 1982 vol 21 cc633-68", "publisher": "UK Parliament (Hansard)", "url": "https://api.parliament.uk/historic-hansard/commons/1982/apr/03/falkland-islands", "kind": "primary" },
     { "id": "cancilleria-malvinas", "label": "Cuestion Islas Malvinas", "publisher": "Ministerio de Relaciones Exteriores, Comercio Internacional y Culto, Argentina", "url": "https://cancilleria.gob.ar/es/politica-exterior/cuestion-malvinas", "kind": "gov" },

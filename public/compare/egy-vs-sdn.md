@@ -1,6 +1,6 @@
 # Egypt and Sudan compared
 
-Egypt and Sudan side by side: 41 shared sourced indicators across 9 domains, and the 11 events their chronicles record of each other.
+Egypt and Sudan side by side: 41 shared sourced indicators across 9 domains, and the 16 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/egy-vs-sdn
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -103,7 +103,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/EGY.md and https://terralore.co/country/SDN.md.
 
-## Entangled histories (11 events)
+## Entangled histories (16 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -116,8 +116,13 @@ Events in which either nation's sourced chronicle names the other — including 
 - 1820–1821: **Turco-Egyptian conquest; Khartoum founded** — Muhammad Ali's armies conquer the Sudan; Khartoum is founded c. 1821 at the junction of the Blue and White Niles as the seat of Egyptian rule. (from the Sudan chronicle; sources: History of Sudan — Egyptian-Ottoman rule over the Sudan; Khartoum, Sudan (1821– ))
 - 1881: **Muhammad Ahmad proclaims himself the Mahdi** — A religious teacher declares himself the awaited redeemer and launches a holy war against Turco-Egyptian rule. (from the Sudan chronicle; sources: Mahdist State; Battle of Omdurman)
 - 2 September 1898: **Battle of Omdurman** — Kitchener's Anglo-Egyptian army destroys the Khalifa's forces with overwhelming firepower, ending the Mahdist state. (from the Sudan chronicle; sources: Battle of Omdurman; Mahdist State)
+- 19 January 1899: **Anglo-Egyptian agreement fixes the 22nd parallel as the Sudan limit** — Britain and Egypt agree on the joint administration of the Sudan, defining it as all territories south of the 22nd parallel of latitude. Egypt still cites this line as its international boundary with Sudan. (from the Egypt chronicle; sources: Sudan Convention (1899); International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962); Egypt: Declaration to the UN Secretary-General (4 May 2017))
 - 1899: **Anglo-Egyptian Condominium established** — Sudan is placed under joint British and Egyptian rule by the Condominium agreements of January and July 1899. (from the Sudan chronicle; sources: Anglo-Egyptian Condominium; Anglo-Egyptian Sudan)
+- 19 January 1899: **The 22nd parallel fixed as the limit of the Sudan** — Article I of the Anglo-Egyptian agreement on the administration of the Sudan defines the Sudan as all the territories south of the 22nd parallel of latitude, initially the boundary with Egypt. Egypt continues to cite the parallel as the international boundary. (from the Sudan chronicle; sources: Sudan Convention (1899); International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962); Egypt: Declaration to the UN Secretary-General (4 May 2017))
+- 4 November 1902: **Administrative line drawn for nomadic tribes on the Sudan border** — The Egyptian Minister of the Interior activates an administrative boundary east of the Nile that departs from the 22nd parallel so as to keep tribal areas together: the Ababda under Egyptian administration, the Bisharin under Sudanese. Egypt describes such arrangements as provisional; the 22nd parallel remained the international boundary. (from the Egypt chronicle; sources: International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962); Egypt: Declaration to the UN Secretary-General (4 May 2017))
+- 4 November 1902: **An administrative line departs from the 22nd parallel** — A decree of the Egyptian Minister of the Interior, following an arrete of 25 July 1902, sets an administrative boundary in the east to facilitate the administration of nomadic tribes: the Bisharin under Sudanese administration and the Ababda under Egyptian administration. It leaves an area north of the parallel by the Red Sea administered by Sudan and an area south of it administered by Egypt; the international boundary remains the 22nd parallel. The difference between the two lines leaves the Halaib area, about 20,580 square kilometres on the Red Sea coast, and the landlocked Bir Tawil, about 2,060 square kilometres, which in practice neither state claims. (from the Sudan chronicle; sources: International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962); Egypt: Declaration to the UN Secretary-General (4 May 2017); The Egypt-Sudan Border Dispute; Creating the Kingdom of North Sudan (11 May 2015))
 - 1 January 1956: **Independence of the Sudan** — Sudan becomes a sovereign republic, ending Anglo-Egyptian rule; its parliament chooses independence over union with Egypt. (from the Sudan chronicle; sources: Anglo-Egyptian Condominium; Sudan)
+- 1 February 1958: **Egypt asks for the territory north of the 22nd parallel** — After a Sudanese election order covers areas north of the 22nd parallel that Sudan had administered since 1902, Egypt sends a note requesting their return, offering in exchange to hand over the Egyptian-administered area south of the parallel. Sudan replies that Egypt had not objected to two earlier elections there. Sudan states that it has written to the UN Security Council about the area every year since 1958. (from the Sudan chronicle; sources: International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962); Sudan: Statement of the Ministry of Foreign Affairs (3 March 2017); Egypt: Declaration to the UN Secretary-General (4 May 2017))
 
 ## Sources
 

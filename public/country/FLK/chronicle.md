@@ -19,14 +19,17 @@ Uninhabited when Europeans first recorded them, the islands drew rival 18th-cent
 - 1764: **French Port Louis founded** — Louis-Antoine de Bougainville established the first settlement, Port Louis, on East Falkland, and named the islands the Malouines — origin of the Spanish Malvinas. [britannica-falklands, britannica-bougainville]
 - 1765–1766: **British Port Egmont established** — A British expedition under Commodore John Byron claimed West Falkland in 1765, and Britain founded Port Egmont on Saunders Island the following year. [britannica-falklands, govfk-history]
 - 1767: **Spain buys out the French and administers from Buenos Aires** — Spain purchased the French settlement around 1767 and governed the islands from Buenos Aires; in 1770 it expelled the British from Port Egmont, restored after a 1771 settlement. [britannica-falklands]
+- May 1774: **Britain withdraws from Port Egmont, leaving a lead plate** — The British government decided to abandon Port Egmont; on 21 May 1774 Commander Samuel Clayton fixed a lead plate to the fort door asserting George III's right to the island and fort, and sailed for England the same day. Britain treats the plate as a continuing claim; Argentina holds that the withdrawal ended it. [falklandsbiographies-clayton]
+- 1811: **All garrisons withdrawn** — The British, French and Spanish had periodically kept garrisons on the islands until 1811, when all were withdrawn. [govfk-history]
 
 ## Buenos Aires, Vernet, and 1833 — 1816 – 1840
 
 After Buenos Aires declared independence it asserted sovereignty and planted a settlement at Port Louis; a U.S. raid and then a British return in 1833 reset control — the founding of the islands' continuous administration, and the start of Argentina's enduring claim.
 
 - 1820: **Buenos Aires proclaims sovereignty** — Having declared independence from Spain in 1816, the Buenos Aires government proclaimed its sovereignty over the islands, the basis of Argentina's later claim. [britannica-falklands, statedept-southatlantic]
-- 1831: **USS Lexington raid on Port Louis** — The U.S. warship Lexington destroyed the Argentine settlement on East Falkland in reprisal for the seizure of American sealing ships, ending Vernet's colony. [britannica-falklands]
-- 2 January 1833: **Britain re-establishes control (founding of continuous administration)** — A British force required the small Argentine garrison to leave Port Louis and re-asserted British control — the start of continuous British administration, which Argentina contests as illegitimate occupation. [britannica-falklands, govfk-history, statedept-southatlantic]
+- 10 June 1829: **Vernet appointed political and military commander** — A decree of the Buenos Aires government under Martín Rodríguez created the office of Political and Military Commander of the Malvinas and named Luis Vernet to it, with authority over fishing on the coasts. [wikisource-comandancia-1829]
+- December 1831: **USS Lexington raid on Port Louis** — Reacting to the seizure of American sealing ships, the U.S. warship Lexington under Commander Silas Duncan arrived at Port Louis, arrested Vernet's deputy Matthew Brisbane and six others, and took 38 members of the colony to Montevideo and Buenos Aires at their request. [falklandsbiographies-duncan, britannica-falklands]
+- 2 January 1833: **Britain re-establishes control (founding of continuous administration)** — A British force required the small Argentine garrison to leave Port Louis and re-asserted British control — the start of continuous British administration, which Argentina contests as illegitimate occupation. [britannica-falklands, govfk-history, statedept-southatlantic, cancilleria-188]
 - 1841/1842: **First British lieutenant governor** — Britain appointed a civilian lieutenant governor for the Falklands, formalising the colonial administration begun in 1833. [britannica-falklands]
 
 Figures:
@@ -57,7 +60,7 @@ On 2 April 1982 Argentine forces invaded; Britain dispatched a task force across
 - 2 April 1982: **Argentine invasion** — Argentine forces landed and seized the islands, overwhelming the small British garrison; Argentina described it as recovering the Malvinas, Britain as an invasion of its territory. [statedept-southatlantic, britannica-war]
 - 2–4 May 1982: **Belgrano and Sheffield sunk** — A British submarine sank the Argentine cruiser General Belgrano on 2 May; on 4 May an Argentine Exocet missile sank the destroyer HMS Sheffield. [britannica-war]
 - 21 May 1982: **British landings at San Carlos** — British forces landed at San Carlos on East Falkland and advanced overland, capturing Darwin and Goose Green before closing on Stanley. [britannica-war]
-- 14 June 1982: **Argentine surrender at Stanley** — Argentine forces surrendered at Stanley after a 74-day campaign; about 255 British and 649 Argentine personnel and three islanders died in the war. [statedept-southatlantic, britannica-war]
+- 14 June 1982: **Argentine surrender at Stanley** — Argentine forces surrendered at Stanley after a 74-day campaign; about 255 British and 649 Argentine personnel and three islanders died in the war. [statedept-southatlantic, britannica-war, nam-falklands]
 - 3 April 1982: **Security Council Resolution 502** — The Council determines that a breach of the peace exists, calls for an immediate cessation of hostilities, demands the prompt withdrawal of all Argentine forces, and urges both governments to seek a diplomatic settlement under the Charter. Adopted 10 in favour, 1 against, 4 abstentions. [unscr-502]
 - 3 April 1982: **The Commons sits on a Saturday** — Parliament meets on a Saturday for the first time in a generation. Margaret Thatcher opens by telling the House that, for the first time in many years, British sovereign territory has been invaded by a foreign power. [hansard-1982]
 
@@ -89,6 +92,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:FLK
 - [congress-hres170] H.Res.170 (113th Congress) — Recognizing the Falkland Islands referendum in favor of retaining their status as a British Overseas Territory — Library of Congress, Congress.gov · https://www.congress.gov/bill/113th-congress/house-resolution/170
 - [govfk-history] Our History — Falkland Islands Government · https://www.falklands.gov.fk/our-history
 - [sealion-rockhopper] Sea Lion — North Falkland Basin (project overview) — Rockhopper Exploration plc · https://rockhopperexploration.co.uk/operations/falkland-islands/north-falkland-basin/sea-lion/
+- [falklandsbiographies-clayton] Clayton, Samuel Wittewrong — Dictionary of Falklands Biography · https://www.falklandsbiographies.org/biographies/clayton_samuel
+- [falklandsbiographies-duncan] Duncan, Silas — Dictionary of Falklands Biography · https://www.falklandsbiographies.org/biographies/duncan_silas
+- [cancilleria-188] 188 years of illegal occupation of the Malvinas Islands — Ministerio de Relaciones Exteriores, Comercio Internacional y Culto, Argentina · https://cancilleria.gob.ar/en/announcements/news/188-years-illegal-occupation-malvinas-islands
+- [wikisource-comandancia-1829] Creación de la Comandancia de Malvinas en 1829 (decree of 10 June 1829) — Wikisource (transcription of the Buenos Aires decree) · https://es.wikisource.org/wiki/Creaci%C3%B3n_de_la_Comandancia_de_Malvinas_en_1829
+- [nam-falklands] The British Army and the Falklands War — National Army Museum · https://www.nam.ac.uk/explore/british-army-and-falklands-war
 - [unscr-502] Security Council Resolution 502 (1982) — United Nations (UNSCR archive) · https://unscr.com/en/resolutions/502
 - [hansard-1982] Falkland Islands, HC Deb 3 April 1982 vol 21 cc633-68 — UK Parliament (Hansard) · https://api.parliament.uk/historic-hansard/commons/1982/apr/03/falkland-islands
 - [cancilleria-malvinas] Cuestion Islas Malvinas — Ministerio de Relaciones Exteriores, Comercio Internacional y Culto, Argentina · https://cancilleria.gob.ar/es/politica-exterior/cuestion-malvinas

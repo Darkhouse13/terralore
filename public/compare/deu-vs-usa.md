@@ -1,6 +1,6 @@
 # Germany and United States compared
 
-Germany and United States side by side: 42 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+Germany and United States side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/deu-vs-usa
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -109,9 +109,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/DEU.md and https://terralore.co/country/USA.md.
 
-## Entangled histories (0 events)
+## Entangled histories (1 event)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- 24 Jun 1948 – 12 May 1949: **The Berlin Blockade and Airlift** — Berlin, divided into four sectors but located far inside the Soviet zone, was cut off when Soviet forces blockaded rail, road and water access to its western sectors; the United States and Britain flew in food and fuel, at the height one plane landing every 45 seconds at Tempelhof, until the blockade was lifted on 12 May 1949. West Berlin remained an enclave entirely surrounded by East Germany until 1990. (from the Germany chronicle; sources: The Berlin Airlift, 1948–1949; West Berlin)
 
 ## Sources
 

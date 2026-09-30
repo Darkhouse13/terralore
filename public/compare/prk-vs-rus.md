@@ -1,6 +1,6 @@
 # North Korea and Russia compared
 
-North Korea and Russia side by side: 28 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
+North Korea and Russia side by side: 28 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/prk-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -111,11 +111,13 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/PRK.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (2 events)
+## Entangled histories (4 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 15 August 1945: **Liberation and division at the 38th parallel** — Japan's surrender frees Korea but the peninsula is split along the 38th parallel into Soviet and American occupation zones, setting the stage for two rival states. (from the North Korea chronicle; sources: The Korean War and Japan's Recovery; US Enters the Korean Conflict)
+- Night of 10-11 August 1945: **Rusk and Bonesteel propose the 38th parallel** — During an overnight meeting in John McCloy's Pentagon office, US Army officers Dean Rusk and Charles Bonesteel are asked to retire to an adjoining room and propose where US forces should accept Japan's surrender in Korea. They recommend the 38th parallel to include Seoul in the American area, though it lay further north than US forces could reach if the Soviet Union disagreed (Rusk's own later account, 1950). (from the North Korea chronicle; sources: Foreign Relations of the United States, 1945, Vol. VI, Doc. 771: Draft memorandum on Korea, with Dean Rusk's memorandum of 12 July 1950 on the 38th parallel; Foreign Relations of the United States, 1945, Vol. VI, Doc. 437: General Order No. 1 for the surrender of Japan (JCS memorandum, 14 August 1945))
+- 16 August 1945: **Stalin does not object to General Order No. 1** — General Order No. 1, which assigns the Japanese surrender in Korea north of 38 degrees north latitude to Soviet forces and south of it to US forces, is approved by President Truman on 17 August. In his 16 August reply Stalin writes that he has no objection in principle to the order, asking only for changes concerning the Kuril Islands and northern Hokkaido; Rusk later recalled being surprised that the Soviet Union accepted the parallel. (from the North Korea chronicle; sources: Foreign Relations of the United States, 1945, Vol. VI, Doc. 450: Stalin to Truman on General Order No. 1, 16 August 1945; Foreign Relations of the United States, 1945, Vol. VI, Doc. 437: General Order No. 1 for the surrender of Japan (JCS memorandum, 14 August 1945); Foreign Relations of the United States, 1945, Vol. VI, Doc. 771: Draft memorandum on Korea, with Dean Rusk's memorandum of 12 July 1950 on the 38th parallel)
 - 1994-1999: **The Arduous March famine** — A famine driven by the loss of Soviet support, reduced Chinese aid and flooding kills an estimated several hundred thousand or more North Koreans, a defining national trauma. (from the North Korea chronicle; sources: History of North Korea; North Korea: A Country Study)
 
 ## Sources

@@ -1,6 +1,6 @@
 # The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.
 
-History of Germany: From the forests beyond the Rhine to the heart of a united Europe. 6 eras and 24 sourced events, every claim traceable to a named…
+History of Germany: From the forests beyond the Rhine to the heart of a united Europe. 6 eras and 26 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/DEU/chronicle
 Updated: 2026-08-22
@@ -29,6 +29,7 @@ Figures:
 A sprawling, decentralised empire of princes, free cities and bishoprics gave the German lands their political form, until religious schism plunged them into a generation of war.
 
 - 2 Feb 962: **Otto I crowned emperor** — Pope John XII crowned Otto I of East Francia emperor in Rome, uniting the German and Italian kingdoms and founding the Holy Roman Empire that would frame German political life for over 800 years. [otto-britannica]
+- 1255: **Teutonic Knights found Königsberg** — During the Northern Crusades the Teutonic Knights founded Königsberg on the site of the Old Prussian settlement of Twangste; it later became the coronation city of the Prussian monarchy. [wikipedia-kaliningrad]
 - 31 Oct 1517: **Luther's Ninety-five Theses** — Martin Luther issued his Ninety-five Theses against the sale of indulgences, sparking the Protestant Reformation that split Western Christianity and reshaped German society and language. [theses-britannica]
 - 25 Sep 1555: **Peace of Augsburg** — The imperial diet established the first lasting legal coexistence of Lutheranism and Catholicism, letting each prince set his territory's religion under the principle cuius regio, eius religio. [augsburg-britannica]
 - 1618–1648: **The Thirty Years' War and the Peace of Westphalia** — A devastating European war fought largely in Germany ended with the Peace of Westphalia in 1648, which confirmed the autonomy of the empire's states and entrenched German fragmentation. [westphalia-britannica]
@@ -83,6 +84,7 @@ Figures:
 Occupied and divided after 1945, Germany was split into a democratic west and a communist east before peaceful reunification in 1990 restored a single democratic state.
 
 - 23 May 1949: **Founding of the two German states** — The Basic Law established the Federal Republic of Germany in the west on 23 May 1949; the German Democratic Republic was founded in the Soviet zone on 7 October 1949, formalising the country's division. [germany-britannica]
+- 24 Jun 1948 – 12 May 1949: **The Berlin Blockade and Airlift** — Berlin, divided into four sectors but located far inside the Soviet zone, was cut off when Soviet forces blockaded rail, road and water access to its western sectors; the United States and Britain flew in food and fuel, at the height one plane landing every 45 seconds at Tempelhof, until the blockade was lifted on 12 May 1949. West Berlin remained an enclave entirely surrounded by East Germany until 1990. [ofhistorian-berlin-airlift, wikipedia-west-berlin]
 - 13 Aug 1961: **Construction of the Berlin Wall** — East Germany began building the Berlin Wall to stop its citizens fleeing west, creating the most potent symbol of the Cold War division of Europe. [germany-britannica]
 - 9 Nov 1989: **Fall of the Berlin Wall** — Amid mass protests and the collapse of communist rule across Eastern Europe, the Berlin Wall was opened, ending the division of Berlin and clearing the path to reunification. [germany-britannica, unity-deutschland]
 - 3 Oct 1990: **German reunification** — The German Democratic Republic acceded to the Federal Republic, reuniting Germany as a single democratic state, now commemorated annually as the Day of German Unity. [unity-deutschland, germany-britannica]
@@ -109,6 +111,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:DEU
 - [weimar-bundestag] The Weimar Republic (1918–1933) — German Bundestag · https://www.bundestag.de/en/parliament/history
 - [ushmm-keydates] The Holocaust and World War II: Key Dates — United States Holocaust Memorial Museum · https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates
 - [unity-deutschland] Day of German Unity: Facts and History — Federal Foreign Office (deutschland.de) · https://www.deutschland.de/en
+- [ofhistorian-berlin-airlift] The Berlin Airlift, 1948–1949 — U.S. Department of State, Office of the Historian · https://history.state.gov/milestones/1945-1952/berlin-airlift
+- [wikipedia-west-berlin] West Berlin — Wikipedia · https://en.wikipedia.org/wiki/West_Berlin
+- [wikipedia-kaliningrad] Kaliningrad — Wikipedia · https://en.wikipedia.org/wiki/Kaliningrad
 - [wikipedia-unification-germany] Unification of Germany — Wikipedia · https://en.wikipedia.org/wiki/Unification_of_Germany
 
 Citation template: Terralore, "The Chronicle of Germany: From the forests beyond the Rhine to the heart of a united Europe.", terralore.co/country/DEU/chronicle, retrieved <YYYY-MM-DD>.

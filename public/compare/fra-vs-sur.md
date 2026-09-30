@@ -1,6 +1,6 @@
 # France and Suriname compared
 
-France and Suriname side by side: 38 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+France and Suriname side by side: 38 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fra-vs-sur
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,9 +102,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/FRA.md and https://terralore.co/country/SUR.md.
 
-## Entangled histories (0 events)
+## Entangled histories (1 event)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- 25 May 1891: **Russian arbitration on the Maroni frontier** — Emperor Alexander III of Russia, as arbitrator, rules that the Awa is the border river between French Guiana and Suriname; land upstream of its confluence with the Tapanahoni goes to the Netherlands. The award does not settle every question on the Suriname frontier. (from the France chronicle; sources: Award on the France/Netherlands boundary in Guiana, 25 May 1891)
 
 ## Sources
 

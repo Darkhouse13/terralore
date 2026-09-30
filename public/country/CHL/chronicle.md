@@ -58,6 +58,7 @@ Victory in the War of the Pacific gave Chile the nitrate-rich deserts of the nor
 
 - 1879-1883: **The War of the Pacific** — A dispute over nitrate taxes leads Chile to war with Peru and Bolivia; Chilean victories win the nitrate-rich Atacama and leave Bolivia landlocked. [britannica-war-of-the-pacific, britannica-history-chile]
 - 1880-1883: **Pacification of Araucania** — After three centuries of independence, the Chilean state subdues the Mapuche south of the Biobio by military campaign and opens their territory to settlement. [britannica-history-chile, britannica-araucanian-wars]
+- 23 July 1881: **Boundary treaty with Argentina** — Chile and Argentina fix their common border along the Cordillera of the Andes, running 'along the highest peaks of said Cordillera dividing the waters'; disputes over how to trace the line were settled by British arbitration in 1902. [un-riaa-andes-boundary]
 - 1971 CE: **Neruda wins the Nobel Prize** — Pablo Neruda, poet, diplomat and senator, is awarded the Nobel Prize for Literature, crowning Chile's golden age of letters. [britannica-neruda]
 - 1970 CE: **Election of Salvador Allende** — The Marxist Salvador Allende of the Popular Unity coalition wins a narrow plurality and is confirmed by Congress, the first freely elected Marxist head of state in the Americas. [britannica-allende, ofhistorian-allende]
 
@@ -112,6 +113,8 @@ Machine-readable claims — every event above as an addressable claim ID (TL:CHL
 - [britannica-neruda] Pablo Neruda — Encyclopaedia Britannica · https://www.britannica.com/biography/Pablo-Neruda
 - [britannica-allende] Salvador Allende — Encyclopaedia Britannica · https://www.britannica.com/biography/Salvador-Allende
 - [ofhistorian-allende] The Allende Years and the Pinochet Coup, 1969-1973 — U.S. Department of State, Office of the Historian · https://history.state.gov/milestones/1969-1976/allende
+- [un-riaa-andes-boundary] The Cordillera of the Andes Boundary Case (Argentina, Chile), Award of 20 November 1902, with the Treaty of 23 July 1881 — United Nations, Reports of International Arbitral Awards, vol. IX · https://legal.un.org/riaa/cases/vol_IX/29-49.pdf
+- [loc-chile-geography] Chile: A Country Study — Geography — U.S. Library of Congress, Federal Research Division · https://countrystudies.us/chile/36.htm
 - [britannica-coup-1973] 1973 Chilean coup d'etat — Encyclopaedia Britannica · https://www.britannica.com/event/1973-Chilean-coup-d-etat
 - [britannica-pinochet] Augusto Pinochet — Encyclopaedia Britannica · https://www.britannica.com/biography/Augusto-Pinochet
 - [rettig-report] Informe Rettig — Memoria Chilena, Biblioteca Nacional de Chile · https://www.memoriachilena.gob.cl/602/w3-article-94640.html

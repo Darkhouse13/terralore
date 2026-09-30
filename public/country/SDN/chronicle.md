@@ -1,6 +1,6 @@
 # The Chronicle of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war.
 
-History of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war. 6 eras and 28 sourced events, every claim…
+History of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war. 6 eras and 31 sourced events, every claim…
 
 Canonical: https://terralore.co/country/SDN/chronicle
 Updated: 2026-08-22
@@ -57,6 +57,7 @@ An Egyptian conquest founded Khartoum and bound the Sudan to Cairo — until a m
 - 26 January 1885: **Fall of Khartoum; death of Gordon** — Mahdist forces storm Khartoum after a long siege and kill General Charles Gordon; the Mahdi dies months later. [wiki-mahdist, eb-siege-khartoum]
 - 2 September 1898: **Battle of Omdurman** — Kitchener's Anglo-Egyptian army destroys the Khalifa's forces with overwhelming firepower, ending the Mahdist state. [eb-omdurman, wiki-mahdist]
 - 1899: **Anglo-Egyptian Condominium established** — Sudan is placed under joint British and Egyptian rule by the Condominium agreements of January and July 1899. [eb-condominium, wiki-anglo-egyptian]
+- 19 January 1899: **The 22nd parallel fixed as the limit of the Sudan** — Article I of the Anglo-Egyptian agreement on the administration of the Sudan defines the Sudan as all the territories south of the 22nd parallel of latitude, initially the boundary with Egypt. Egypt continues to cite the parallel as the international boundary. [ws-sudan-convention-1899, statedept-ibs18, un-egypt-2017-may]
 
 Figures:
 
@@ -67,7 +68,9 @@ Figures:
 
 Independence in 1956 inaugurated a state at war with itself, as two generation-long conflicts between north and south consumed millions of lives.
 
+- 4 November 1902: **An administrative line departs from the 22nd parallel** — A decree of the Egyptian Minister of the Interior, following an arrete of 25 July 1902, sets an administrative boundary in the east to facilitate the administration of nomadic tribes: the Bisharin under Sudanese administration and the Ababda under Egyptian administration. It leaves an area north of the parallel by the Red Sea administered by Sudan and an area south of it administered by Egypt; the international boundary remains the 22nd parallel. The difference between the two lines leaves the Halaib area, about 20,580 square kilometres on the Red Sea coast, and the landlocked Bir Tawil, about 2,060 square kilometres, which in practice neither state claims. [statedept-ibs18, un-egypt-2017-may, worldatlas-egypt-sudan-border, aljazeera-north-sudan-2015]
 - 1 January 1956: **Independence of the Sudan** — Sudan becomes a sovereign republic, ending Anglo-Egyptian rule; its parliament chooses independence over union with Egypt. [eb-condominium, wiki-sudan]
+- 1 February 1958: **Egypt asks for the territory north of the 22nd parallel** — After a Sudanese election order covers areas north of the 22nd parallel that Sudan had administered since 1902, Egypt sends a note requesting their return, offering in exchange to hand over the Egyptian-administered area south of the parallel. Sudan replies that Egypt had not objected to two earlier elections there. Sudan states that it has written to the UN Security Council about the area every year since 1958. [statedept-ibs18, un-sudan-2017-mar, un-egypt-2017-may]
 - 1955–1972: **First civil war** — Rebellion in the south, begun in 1955, grows into a 17-year war ended by the Addis Ababa Agreement of 27 February 1972, which grants southern autonomy. [wiki-first-civil-war, wiki-addis-ababa]
 - 1983–2005: **Second civil war begins** — Nimeiri scraps southern autonomy and imposes sharia; the SPLM/A under John Garang launches a war that kills an estimated two million people. [encyclopedia-civil-wars, wiki-sudan]
 - 1989: **Bashir seizes power** — Omar al-Bashir takes power in an Islamist-backed military coup, beginning a three-decade rule. [wiki-sudan]
@@ -123,5 +126,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:SDN
 - [wiki-2019-coup] 2019 Sudanese coup d'état — Wikipedia · https://en.wikipedia.org/wiki/2019_Sudanese_coup_d%27%C3%A9tat
 - [hrw-bashir] Sudan: With al-Bashir Ouster, End Authoritarianism — Human Rights Watch · https://www.hrw.org/news/2019/04/11/sudan-al-bashir-ouster-end-authoritarianism
 - [statedept-sudan] A Guide to the United States' History of Recognition: Sudan — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/sudan
+- [worldatlas-egypt-sudan-border] The Egypt-Sudan Border Dispute — WorldAtlas · https://www.worldatlas.com/geography/the-egypt-sudan-border-dispute.html
+- [aljazeera-north-sudan-2015] Creating the Kingdom of North Sudan (11 May 2015) — Al Jazeera · https://www.aljazeera.com/features/2015/5/11/creating-the-kingdom-of-north-sudan
+- [statedept-ibs18] International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962) — U.S. Department of State, Office of the Geographer (via FSU College of Law) · https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs018.pdf
+- [un-egypt-2017-may] Egypt: Declaration to the UN Secretary-General (4 May 2017) — UN Division for Ocean Affairs and the Law of the Sea · https://www.un.org/depts/los/LEGISLATIONANDTREATIES/PDFFILES/EGY_SDN_2017_en.pdf
+- [un-sudan-2017-mar] Sudan: Statement of the Ministry of Foreign Affairs (3 March 2017) — UN Division for Ocean Affairs and the Law of the Sea · https://www.un.org/Depts/los/LEGISLATIONANDTREATIES/PDFFILES/SDN_2017_Decree_148_en.pdf
+- [ws-sudan-convention-1899] Sudan Convention (1899) — Wikisource · https://en.wikisource.org/wiki/Sudan_Convention_(1899)
 
 Citation template: Terralore, "The Chronicle of Sudan: Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war.", terralore.co/country/SDN/chronicle, retrieved <YYYY-MM-DD>.

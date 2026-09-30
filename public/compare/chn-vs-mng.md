@@ -1,6 +1,6 @@
 # China and Mongolia compared
 
-China and Mongolia side by side: 42 shared sourced indicators across 9 domains, and the 8 events their chronicles record of each other.
+China and Mongolia side by side: 42 shared sourced indicators across 9 domains, and the 13 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/chn-vs-mng
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -112,18 +112,23 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/CHN.md and https://terralore.co/country/MNG.md.
 
-## Entangled histories (8 events)
+## Entangled histories (13 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - c. 209 BCE: **The Xiongnu confederation reaches its height** — At the close of the third century BCE the Xiongnu unite the eastern steppe under a supreme chanyu, forming a nomadic empire that rivals the Qin and Han dynasties of China for centuries. (from the Mongolia chronicle; sources: Xiongnu; History of Mongolia)
 - c. 48 CE: **Break-up of the Xiongnu empire** — After prolonged war with China and internal division, the Xiongnu confederation fractures; some tribes are absorbed into China while others scatter, ending the first great steppe empire centred on Mongolia. (from the Mongolia chronicle; sources: Xiongnu)
+- 1211: **Mongol invasion of the Jin dynasty** — Chinggis Khan attacks the Jurchen Jin dynasty of northern China and the plain of the Yellow River, after earlier attacks recorded from 1205 and 1209; the conquest is completed under his successor in 1234. (from the Mongolia chronicle; sources: Genghis Khan; Ögedei Khan)
 - 1227: **Death of Chinggis Khan** — Chinggis Khan dies in August 1227 during a campaign against the Tangut Xixia kingdom, leaving an empire reaching from northern China to the Caspian Sea and a realm divided among his four sons. (from the Mongolia chronicle; sources: Genghis Khan)
 - 1271 CE: **Kublai Khan founds the Mongol Yuan dynasty** — Kublai Khan declares the Yuan dynasty in 1271 and completes the conquest of the Song by 1279, ruling China from Dadu (Beijing) as the first foreign-led dynasty to govern all of China. (from the China chronicle; sources: Yuan dynasty; Yuan Dynasty)
 - 1271: **Kublai Khan founds the Yuan dynasty** — Chinggis Khan's grandson Kublai proclaims the Yuan dynasty in 1271 and completes the conquest of China by 1279, ruling all of China from Khanbaliq (Beijing) as its first non-Chinese sovereign. (from the Mongolia chronicle; sources: Kublai Khan; Mongol empire)
+- 1273: **Xiangyang falls after Muslim engineers build counterweight trebuchets** — After a siege of almost five years from 1268, Xiangyang and Fancheng fall to the Mongols in early 1273. Kublai's nephew Abaqa, the Ilkhan of Persia, had sent two engineers, Isma'il of Hilla and Ala al-Din of Mosul, who built the first counterweight trebuchets in China. (from the Mongolia chronicle; sources: The Mongol Siege of Xiangyang and Fan-ch'eng and the Song military)
+- 1279: **The Song are defeated at Yaishan** — A naval battle at Yaishan near modern Macao on 19 March 1279 completes the Mongol conquest of China. Guinness World Records puts the area of the Mongol Empire at about 24 million km2 around this date, the largest contiguous land empire in history. (from the Mongolia chronicle; sources: Kublai Khan; Largest contiguous empire)
 - 1368: **Fall of the Yuan and retreat to the steppe** — The Chinese rebel Zhu Yuanzhang overthrows the Yuan and founds the Ming dynasty; the last Mongol emperor flees north into the steppes, ending Mongol rule over China. (from the Mongolia chronicle; sources: Kublai Khan; Mongol empire)
+- 1691-1911: **Inner and Outer Mongolia governed apart** — Under the Qing, Inner Mongolia is divided into six leagues of 49 banners, while Outer Mongolia, the Khalkha north of four aimags, is administered separately and, being further from Beijing, enjoys a higher degree of autonomy. By the 1780s Han Chinese farm tens of thousands of hectares in Inner Mongolia. (from the Mongolia chronicle; sources: Mongolia under Qing rule)
 - 1691: **Khalkha Mongols submit to the Qing** — The Khalkha Mongols of the north accept Manchu overlordship, bringing Mongolia under the Qing dynasty; the Manchus govern through the Mongol nobility and impose religious controls to secure their rule. (from the Mongolia chronicle; sources: History of Mongolia: The ascendancy of the Manchu; History of Mongolia)
-- 1911: **Independence declared under the Bogd Khan** — As the Qing collapses, Mongolia expels the Manchu official and proclaims the Javzandamba as Bogd Khan, head of an independent theocratic monarchy, though only autonomy under Chinese suzerainty is recognized abroad. (from the Mongolia chronicle; sources: Mongolia: Independence and revolution; Bogd Gegeen Khan)
+- 1911: **Independence declared under the Bogd Khan** — As the Qing collapses, Mongolia expels the Manchu official, proclaims independence on 1 December 1911 on the basis that its allegiance had been to the Manchus, not to China, and proclaims the Javzandamba as Bogd Khan, head of an independent theocratic monarchy, though only autonomy under Chinese suzerainty is recognized abroad. (from the Mongolia chronicle; sources: Mongolia: Independence and revolution; Bogd Gegeen Khan; Mongolia: A Country Study)
+- October 1945: **Plebiscite affirms independence** — Mongolians affirm their independence in a plebiscite in October 1945. Inner Mongolia remains part of China. (from the Mongolia chronicle; sources: A Guide to the United States' History of Recognition, Diplomatic, and Consular Relations: Mongolia; Outer Mongolia)
 
 ## Sources
 

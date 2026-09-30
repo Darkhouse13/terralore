@@ -1,6 +1,6 @@
 # The Chronicle of Iran: From Cyrus the Great's first world empire to the Islamic Republic.
 
-History of Iran: From Cyrus the Great's first world empire to the Islamic Republic. 6 eras and 27 sourced events, every claim traceable to a named…
+History of Iran: From Cyrus the Great's first world empire to the Islamic Republic. 6 eras and 32 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/IRN/chronicle
 Updated: 2026-06-13
@@ -17,8 +17,10 @@ From the ancient kingdom of Elam to Cyrus the Great's first world empire, the Ir
 
 - c. 3200 BCE: **The kingdom of Elam and the city of Susa** — Elam, one of the earliest civilisations of the region, flourishes around its capital Susa in south-western Iran, trading and warring with Mesopotamia until Susa is sacked by the Assyrians around 647 BCE. [britannica-elam, worldhistory-susa]
 - c. 550 BCE: **Cyrus the Great founds the Achaemenid Empire** — Cyrus II overthrows the Median king Astyages and unites the Medes and Persians, founding the Achaemenid (Persian) Empire — the first Persian world empire. [worldhistory-cyrus, britannica-cyrus]
+- 6th century BCE: **Pasargadae, the first Achaemenid capital, is founded in Fars** — Cyrus the Great founds Pasargadae as the earliest capital of the Achaemenid Empire, in the heartland of the Persians, today the province of Fars in south-western Iran. UNESCO lists it as a World Heritage Site. [unesco-pasargadae, worldhistory-cyrus]
 - 539 BCE: **Conquest of Babylon and the Cyrus Cylinder** — Cyrus captures Babylon and issues the Cyrus Cylinder, a Babylonian cuneiform document recording his restoration of temples and return of deported peoples, often hailed as an early charter of tolerance. [britishmuseum-cyruscylinder, worldhistory-cyrus]
 - c. 518 BCE: **Darius I builds Persepolis** — Darius the Great organises the empire into satrapies, builds the Royal Road and standardised coinage, and begins the magnificent ceremonial capital of Persepolis, today a UNESCO World Heritage Site. [unesco-persepolis, worldhistory-cyrus]
+- c. 490 BCE: **Darius I calls himself 'a Persian, an Aryan' at Naqsh-e Rostam** — The inscription on Darius I's tomb at Naqsh-e Rostam (DNa) styles him in Livius.org's translation as 'a Persian, son of a Persian, an Aryan, having Aryan lineage'. It gives two self-descriptions: Persian, after the homeland of Pārsa in Fars, and Aryan, the old word for the Iranians. [livius-dna]
 - 330 BCE: **Alexander conquers Persia and burns Persepolis** — After defeating Darius III at Gaugamela (331 BCE), Alexander the Great enters and burns Persepolis and the last Achaemenid king is killed, ending the empire in 330 BCE. [worldhistory-persepolis-burning, britannica-cyrus]
 
 Figures:
@@ -32,6 +34,7 @@ After Alexander, Persia revived under the Parthians and reached new heights of c
 
 - 247 BCE: **The Parthian (Arsacid) Empire** — Arsaces I founds the Parthian Empire in north-eastern Iran, reviving Persian traditions and becoming Rome's chief rival in the East for nearly five centuries. [britannica-parthia, worldhistory-sasanian]
 - 224 CE: **Ardashir I founds the Sasanian Empire** — Ardashir I overthrows the last Parthian king and establishes the Sasanian Empire, the last great pre-Islamic Persian state, with its capital at Ctesiphon. [worldhistory-sasanian, britannica-sasanian]
+- 3rd century CE: **Sasanian kings style themselves rulers of Ērān, the Iranians** — Sasanian royal inscriptions of the 3rd century CE name their kings as king of kings of the Ērān, the Iranians: at Naqsh-e Rajab in Fars, Shapur I is 'the king of kings in Iran and abroad' in Livius.org's translation. Encyclopaedia Iranica's entry, as cited by Wikipedia, dates the first attestation of the word to Ardashir I's relief at Naqsh-e Rostam and reads the later term Ērānšahr, 'realm of the Iranians', as the empire's own name for itself. [livius-shapur-naqsh-e-rajab, wikipedia-iran-word]
 - 3rd century CE: **Zoroastrianism as state religion** — The Sasanian kings establish Zoroastrianism, the faith attributed to the prophet Zoroaster, as the official religion of Iran, supported by a powerful priesthood and network of fire temples. [worldhistory-zoroastrianism, britannica-sasanian]
 - 602–628 CE: **Exhausting wars with Byzantium** — The last great Byzantine–Sasanian war drains both empires militarily and economically, leaving Persia dangerously weakened on the eve of the Arab conquest. [worldhistory-sasanian]
 - 642 CE: **Battle of Nahavand — the 'Victory of Victories'** — Arab Muslim forces crush the Sasanian army at Nahavand, breaking organised Persian resistance; the empire finally collapses with the death of Yazdegerd III in 651 CE. [britannica-nahavand, worldhistory-sasanian]
@@ -76,11 +79,13 @@ Under the Qajars Iran lost ground to Russia and Britain, won a pioneering consti
 - 1906 CE: **Persian Constitutional Revolution** — After mass protests, Mozaffar al-Din Shah grants a constitution and the first Majles (parliament), a pioneering experiment in constitutional government in the Middle East. [wikipedia-constitutionalrev, britannica-iran]
 - 1908 CE: **Discovery of oil** — Oil is struck in south-western Iran, making the country a strategic prize and tying its economy to foreign-controlled concessions for decades to come. [britannica-iran]
 - 1925 CE: **Reza Khan founds the Pahlavi dynasty** — Having seized power in a 1921 coup, Reza Khan deposes the last Qajar shah and is crowned Reza Shah Pahlavi, launching an authoritarian drive to modernise and centralise Iran. [wikipedia-pahlavi, britannica-iran]
+- 21 Mar 1935: **Iran asks the world to say 'Iran', not 'Persia'** — On 25 December 1934 the Persian Foreign Ministry circulated a memorandum to the diplomatic missions in Tehran asking that 'Iran' and 'Iranian' be used in official correspondence and conversation from 21 March 1935 instead of 'Persia' and 'Persian'. Britain's Foreign Secretary told the Commons that its minister had been instructed to accede; US State Department records note that the name 'Iran' came into official use on 22 March 1935. [hansard-1935-persia, frus-1935-iran]
 - 1953 CE: **The CIA-backed coup against Mosaddegh** — Prime Minister Mohammad Mosaddegh, who had nationalised the oil industry, is overthrown in August 1953 in a coup organised by the CIA and British intelligence, restoring the shah's power. [britannica-1953coup, wikipedia-1953coup]
+- 1959 CE: **A committee proposes undoing the 1935 name request** — In the summer of 1959 a committee of statesmen and scholars reported to the government proposing that the change of name be reversed. According to the scholar Ehsan Yarshater, a Foreign Ministry circular then made the use of either name, Persia or Iran, optional. [yarshater-persia-or-iran]
 
 Figures:
 
-- Reza Shah Pahlavi (reigned 1925–1941) — Founder of the Pahlavi dynasty. A Cossack officer who rose through a 1921 coup to found the Pahlavi monarchy. He modernised Iran's infrastructure, army and law along secular, centralising lines, and in 1935 had the country called Iran internationally.
+- Reza Shah Pahlavi (reigned 1925–1941) — Founder of the Pahlavi dynasty. A Cossack officer who rose through a 1921 coup to found the Pahlavi monarchy. He modernised Iran's infrastructure, army and law along secular, centralising lines, and in 1935 asked foreign governments to call the country Iran rather than Persia.
 - Mohammad Mosaddegh (1882–1967) — Prime minister of Iran. A nationalist statesman who nationalised the British-controlled oil industry in 1951, becoming a symbol of Iranian sovereignty. His overthrow in the 1953 coup deepened resentment of foreign interference that fed the 1979 revolution.
 
 ## The Islamic Republic — 1979 – present
@@ -130,6 +135,13 @@ Machine-readable claims — every event above as an addressable claim ID (TL:IRN
 - [wikipedia-republicreferendum] 1979 Iranian Islamic Republic referendum — Wikipedia · https://en.wikipedia.org/wiki/1979_Iranian_Islamic_Republic_referendum
 - [britannica-iraniraqwar] Iran–Iraq War — Encyclopaedia Britannica · https://www.britannica.com/event/Iran-Iraq-War
 - [wikipedia-unscr598] United Nations Security Council Resolution 598 — Wikipedia · https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598
+- [unesco-pasargadae] Pasargadae — UNESCO World Heritage List — UNESCO World Heritage Centre · https://whc.unesco.org/en/list/1106/
+- [livius-dna] DNa: the tomb inscription of Darius I at Naqsh-e Rostam — Livius.org · https://www.livius.org/sources/content/achaemenid-royal-inscriptions/dna/
+- [livius-shapur-naqsh-e-rajab] Naqsh-e Rajab, equestrian relief of Shapur I — Livius.org · https://www.livius.org/articles/place/naqs-e-rajab/naqs-e-rajab-equestrian-relief-of-shapur-i/
+- [wikipedia-iran-word] Iran (word) — Wikipedia · https://en.wikipedia.org/wiki/Iran_(word)
+- [hansard-1935-persia] Persia (Official Name), HC Deb 20 February 1935 vol 298 cc350-1 — UK Parliament, Hansard · https://api.parliament.uk/historic-hansard/commons/1935/feb/20/persia-official-name
+- [frus-1935-iran] Foreign Relations of the United States, 1935, vol. I, doc. 338 (footnote on the name Iran) — US Department of State, Office of the Historian · https://history.state.gov/historicaldocuments/frus1935v01/d338
+- [yarshater-persia-or-iran] Communication: Iran or Persia? (Iranian Studies 22:1, 1989) — Ehsan Yarshater, Iranian Studies · https://derbentonline.com/?p=85
 - [wikipedia-achaemenid] Achaemenid Empire — Wikipedia · https://en.wikipedia.org/wiki/Achaemenid_Empire
 - [wikipedia-parthian] Parthian Empire — Wikipedia · https://en.wikipedia.org/wiki/Parthian_Empire
 - [wikipedia-muslim-conquest-persia] Muslim conquest of Persia — Wikipedia · https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia

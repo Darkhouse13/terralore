@@ -1,6 +1,6 @@
 # Spain and United Kingdom compared
 
-Spain and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
+Spain and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 7 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/esp-vs-gbr
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,12 +102,17 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ESP.md and https://terralore.co/country/GBR.md.
 
-## Entangled histories (2 events)
+## Entangled histories (7 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1588: **Defeat of the Spanish Armada** — England repelled the Spanish Armada sent by Philip II, a decisive check to Spanish ambitions that bolstered English naval confidence and national identity. (from the United Kingdom chronicle; sources: God blew and they were scattered)
+- 1704: **Anglo-Dutch capture of Gibraltar** — During the War of the Spanish Succession an Anglo-Dutch force took Gibraltar; by the Treaty of Utrecht in 1713 Spain ceded it to Britain in perpetuity, and Spain continues to seek its return. (from the Spain chronicle; sources: The Closure of the Border, 1969–2019; Gibraltar: working paper prepared by the Secretariat (A/AC.109/2023/8))
+- 1779–1783: **The Great Siege of Gibraltar** — During the American Revolutionary War, Spain and France besieged British Gibraltar from June 1779 to February 1783 in an unsuccessful attempt to capture it. (from the Spain chronicle; sources: Great Siege of Gibraltar)
 - 1814: **End of the Peninsular War** — Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution. (from the Spain chronicle; sources: Spain)
+- 10 Sep 1967: **Gibraltar votes to stay British** — In a sovereignty referendum Gibraltarians chose to keep their link with Britain rather than pass under Spanish sovereignty, by 12,138 votes to 44; Spain responded by closing the land frontier in 1969. (from the United Kingdom chronicle; sources: 1967 Gibraltar sovereignty referendum; The Closure of the Border, 1969–2019)
+- 8 Jun 1969: **Franco closes the Gibraltar frontier** — After Gibraltarians voted in 1967 to keep their link with Britain and a new Gibraltar constitution followed in May 1969, Franco's government closed the land frontier; it partly reopened to pedestrians on 15 December 1982 and fully on 5 February 1985. (from the Spain chronicle; sources: The Closure of the Border, 1969–2019; Gibraltar–Spain border)
+- 7 Nov 2002: **Gibraltar rejects shared sovereignty** — In a referendum called by the Gibraltar Government, voters rejected a proposal for British–Spanish joint sovereignty by 17,900 votes to 187. (from the United Kingdom chronicle; sources: 2002 Gibraltar sovereignty referendum)
 
 ## Sources
 

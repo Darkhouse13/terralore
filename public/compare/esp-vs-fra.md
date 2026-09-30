@@ -1,6 +1,6 @@
 # Spain and France compared
 
-Spain and France side by side: 42 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
+Spain and France side by side: 42 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/esp-vs-fra
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,10 +102,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ESP.md and https://terralore.co/country/FRA.md.
 
-## Entangled histories (3 events)
+## Entangled histories (4 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
+- 1779–1783: **The Great Siege of Gibraltar** — During the American Revolutionary War, Spain and France besieged British Gibraltar from June 1779 to February 1783 in an unsuccessful attempt to capture it. (from the Spain chronicle; sources: Great Siege of Gibraltar)
 - 2 May 1808: **Dos de Mayo uprising** — The people of Madrid rose against the occupying French army; the brutal repression that followed ignited the Peninsular War, Spain's war of independence against Napoleon. (from the Spain chronicle; sources: Spain)
 - 1810s–1820s: **Loss of the American mainland empire** — Independence movements across Spanish America broke away during and after the Napoleonic crisis, ending Spain's three-century rule over most of the Americas. (from the Spain chronicle; sources: Spain)
 - 1814: **End of the Peninsular War** — Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution. (from the Spain chronicle; sources: Spain)

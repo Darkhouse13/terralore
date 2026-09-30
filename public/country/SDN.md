@@ -108,7 +108,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:SDN:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/SDN.claims.json
 
-History: "Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war." — the sourced chronicle is at https://terralore.co/country/SDN/chronicle.md (6 eras, 28 events).
+History: "Land of Kush and the confluence of the Niles, from the Black Pharaohs to a republic at war." — the sourced chronicle is at https://terralore.co/country/SDN/chronicle.md (6 eras, 31 events).
 
 ## Sources
 

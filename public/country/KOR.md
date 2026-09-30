@@ -110,7 +110,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:KOR:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/KOR.claims.json
 
-History: "A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse." — the sourced chronicle is at https://terralore.co/country/KOR/chronicle.md (6 eras, 30 events).
+History: "A peninsula of ancient kingdoms, half a century of colonization and fratricidal war, and a startling rise from ruin to global cultural powerhouse." — the sourced chronicle is at https://terralore.co/country/KOR/chronicle.md (6 eras, 38 events).
 
 ## Sources
 

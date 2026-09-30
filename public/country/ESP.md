@@ -110,7 +110,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:ESP:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/ESP.claims.json
 
-History: "From the crossroads of Iberia to a modern European democracy." — the sourced chronicle is at https://terralore.co/country/ESP/chronicle.md (6 eras, 28 events).
+History: "From the crossroads of Iberia to a modern European democracy." — the sourced chronicle is at https://terralore.co/country/ESP/chronicle.md (6 eras, 31 events).
 
 ## Sources
 

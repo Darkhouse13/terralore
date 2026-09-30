@@ -1,6 +1,6 @@
 # Egypt and United Kingdom compared
 
-Egypt and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
+Egypt and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/egy-vs-gbr
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -103,11 +103,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/EGY.md and https://terralore.co/country/GBR.md.
 
-## Entangled histories (3 events)
+## Entangled histories (4 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1882: **British occupation begins** — Britain defeats the Urabi revolt and occupies Egypt, taking effective control of the country while leaving the khedive nominally in place. (from the Egypt chronicle; sources: Egypt: Ottoman administration)
+- 19 January 1899: **Anglo-Egyptian agreement fixes the 22nd parallel as the Sudan limit** — Britain and Egypt agree on the joint administration of the Sudan, defining it as all territories south of the 22nd parallel of latitude. Egypt still cites this line as its international boundary with Sudan. (from the Egypt chronicle; sources: Sudan Convention (1899); International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962); Egypt: Declaration to the UN Secretary-General (4 May 2017))
 - 28 February 1922: **Declaration of Egyptian independence** — After the 1919 revolution led by Saad Zaghloul and the Wafd, Britain unilaterally declares Egypt independent; Fuad I becomes king of the new Kingdom of Egypt. (from the Egypt chronicle; sources: Egyptian revolution of 1919)
 - 1956: **Suez Crisis** — Nasser nationalises the Suez Canal; an invasion by Britain, France and Israel is forced into withdrawal, confirming Egypt's sovereignty and Nasser's standing. (from the Egypt chronicle; sources: Suez Crisis; Gamal Abdel Nasser)
 

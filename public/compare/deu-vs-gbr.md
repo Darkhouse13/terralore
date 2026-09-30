@@ -1,6 +1,6 @@
 # Germany and United Kingdom compared
 
-Germany and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Germany and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/deu-vs-gbr
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -101,11 +101,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/DEU.md and https://terralore.co/country/GBR.md.
 
-## Entangled histories (1 event)
+## Entangled histories (2 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1939–1945: **The Second World War** — Britain fought Nazi Germany and the Axis, endured the Blitz, and emerged victorious but economically drained; the wartime Bengal famine of 1943 killed millions in British India. (from the United Kingdom chronicle; sources: The end of the British Empire after the Second World War; Bengal famine of 1943)
+- 24 Jun 1948 – 12 May 1949: **The Berlin Blockade and Airlift** — Berlin, divided into four sectors but located far inside the Soviet zone, was cut off when Soviet forces blockaded rail, road and water access to its western sectors; the United States and Britain flew in food and fuel, at the height one plane landing every 45 seconds at Tempelhof, until the blockade was lifted on 12 May 1949. West Berlin remained an enclave entirely surrounded by East Germany until 1990. (from the Germany chronicle; sources: The Berlin Airlift, 1948–1949; West Berlin)
 
 ## Sources
 

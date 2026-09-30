@@ -1,6 +1,6 @@
 # The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.
 
-History of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones. 6 eras and 31 sourced events, every claim…
+History of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones. 6 eras and 38 sourced events, every claim…
 
 Canonical: https://terralore.co/country/RUS/chronicle
 Updated: 2026-09-07
@@ -19,7 +19,7 @@ Viking princes built a river-borne realm on the Dnieper, embraced Byzantine Chri
 - c. 988 CE: **Vladimir the Great adopts Orthodox Christianity** — Vladimir of Kiev is baptized and orders the mass baptism of his people in the Dnieper, adopting Byzantine Orthodox Christianity as the state religion and binding the Rus' to Constantinople's faith and culture. [britannica-russia, wiki-christianization-rus]
 - 1019-1054: **Yaroslav the Wise and the Russkaya Pravda** — Under Yaroslav the Wise, Kievan Rus' reaches a cultural peak; he issues the Russkaya Pravda, the earliest East Slavic written law code, and patronizes churches and learning in Kiev. [britannica-russia, britannica-kyivan-rus]
 - 1237-1240: **Mongol invasion and the fall of Kiev** — Batu Khan's Mongol army sacks the Rus' principalities, destroying Ryazan and Vladimir and storming Kiev in December 1240; the Russian lands become tributaries of the Golden Horde. [britannica-russia, wiki-batu-khan]
-- 1480: **The Great Stand on the Ugra ends the Mongol yoke** — Ivan III, having stopped paying tribute, faces down the Great Horde at the Ugra River; the bloodless standoff is traditionally regarded as the end of Mongol overlordship and the rise of a sovereign Muscovite state. [britannica-russia]
+- 1480: **The Great Stand on the Ugra ends the Mongol yoke** — Ivan III, having stopped paying tribute, faces down the Great Horde at the Ugra River; the bloodless standoff is traditionally regarded as the end of Mongol overlordship and the rise of a sovereign Muscovite state. [britannica-russia, encyclopedia-ugra-river]
 
 Figures:
 
@@ -31,10 +31,14 @@ Figures:
 Moscow's grand princes became tsars, weathered a near-fatal Time of Troubles, and pushed Russian power across Siberia to the Pacific.
 
 - 16 January 1547: **Ivan IV crowned first Tsar of All Russia** — Ivan IV is crowned 'Tsar of All Russia' in the Cathedral of the Dormition in the Moscow Kremlin, becoming the first Russian ruler to hold the imperial title and converting the Grand Principality of Moscow into the Tsardom of Russia. [britannica-russia, britannica-ivan-iv]
-- 1552: **Conquest of the Khanate of Kazan** — Ivan IV captures Kazan, and in 1556 Astrakhan, destroying the successor states of the Golden Horde on the Volga and opening the river and the route to Siberia to Russian colonization. [britannica-russia, britannica-ivan-iv]
+- 1552: **Conquest of the Khanate of Kazan** — Ivan IV captures Kazan, and in 1556 Astrakhan, destroying the successor states of the Golden Horde on the Volga and opening the river and the route to Siberia to Russian colonization. [britannica-russia, britannica-ivan-iv, ebsco-astrakhan]
+- 1556: **Astrakhan is annexed, and the whole Volga is Russian** — The annexation of the Khanate of Astrakhan, following the fall of Kazan in 1552, gives Muscovy control of the entire course of the Volga and opens trade via the Caspian Sea with Persia and Central Asia. [ebsco-astrakhan]
+- 1581-1582: **Yermak's Cossacks, hired by the Stroganovs, seize the capital of the Khanate of Sibir** — The Stroganov merchant family hires the Cossack ataman Yermak Timofeyevich, who sets out in 1581 with about 540 men armed with firearms. In 1582 his force takes Kashlyk (Isker), the capital of the Tatar khan Kuchum, beginning Russian rule in western Siberia; Kuchum himself is not captured until 1598. [ebsco-cossacks-seize-sibir, ebsco-battle-tobol-river]
 - 1598-1613: **The Time of Troubles** — After the Rurikid line dies out, Russia descends into the Time of Troubles, a period of famine, civil war, pretenders, and Polish occupation of Moscow that nearly destroys the Russian state. [britannica-russia]
+- 17th century: **Fur and yasak pull the Russians across Siberia** — Cossacks, traders and trappers rush east in search of furs, above all sable, and the indigenous peoples of Siberia are made to pay yasak, a tribute in furs. [ebsco-russian-explorations-17c]
 - 1613: **Michael Romanov elected tsar** — A national assembly (Zemsky Sobor) elects sixteen-year-old Michael Romanov as tsar, ending the Time of Troubles and founding the Romanov dynasty that will rule Russia for three centuries. [britannica-russia]
-- by 1640s: **Russian explorers reach the Pacific** — Cossacks and fur traders crossing Siberia reach the Pacific coast, extending the Russian state across northern Asia and giving it a vast Eurasian dominion within a single century of expansion. [britannica-russia]
+- by 1640s: **Russian explorers reach the Pacific** — Cossacks and fur traders crossing Siberia reach the Pacific coast, extending the Russian state across northern Asia and giving it a vast Eurasian dominion within a single century of expansion. In 1639 Ivan Moskvitin, with about thirty Cossacks, leaves Yakutsk and by the end of the year reaches the Sea of Okhotsk by way of the Ulya River; the port of Okhotsk is founded in 1647. [britannica-russia, ebsco-russian-explorations-17c, wikipedia-ivan-moskvitin]
+- August 1689: **Treaty of Nerchinsk fixes the Russian-Qing border** — Envoys of the Russian tsars, led by Fyodor Golovin, and of the Qing Kangxi Emperor, led by Songgotu, agree the first Sino-Russian border treaty near Nerchinsk. The Russian fort of Albazin on the Amur is to be destroyed and the border follows the Argun and Gorbitsa rivers and the Stanovoy range toward the Sea of Okhotsk; the Latin text is the authoritative version. Sources give 27 August (Old Style) and 29 August for the signing. [ebsco-treaty-nerchinsk, wikisource-nerchinsk-latin]
 
 Figures:
 
@@ -78,6 +82,8 @@ A communist superpower industrialized at terrible human cost, broke Nazi Germany
 - 1932-1933: **The Holodomor and the Soviet famine** — Forced collectivization and ruthless grain requisitioning produce a man-made famine across the USSR; in Ukraine the Holodomor kills an estimated 3.5 to 5 million people and is recognized by many countries as a genocide. [britannica-holodomor, britannica-soviet-union]
 - 1937-1938: **The Great Terror** — Stalin's secret police carry out mass arrests, deportations, and executions; at least 750,000 people are shot in two years and millions more sent to the gulag, as old revolutionaries, officers, and ordinary citizens perish in the purges. [britannica-great-purge, britannica-soviet-union]
 - 1941-1945: **The Great Patriotic War** — Nazi Germany's invasion of 22 June 1941 begins the war's deadliest theater; after the siege of Leningrad and the decisive victory at Stalingrad, Soviet forces reach Berlin in 1945 at a cost of roughly 27 million Soviet dead. [britannica-stalingrad, ushmm-eastern-front, wiki-soviet-casualties]
+- 9 April – 2 August 1945: **Königsberg taken and assigned to the USSR** — The Red Army captured the East Prussian capital Königsberg on 9 April 1945, and at Potsdam the Allies agreed in principle to the ultimate transfer of the city and the area adjacent to it to the Soviet Union. [avalon-potsdam, wikipedia-battle-konigsberg]
+- 1946: **Königsberg becomes Kaliningrad** — The city was renamed Kaliningrad in honour of the Bolshevik leader Mikhail Kalinin; its German population was expelled and Soviet settlers repopulated the ruined city. [wikipedia-kaliningrad]
 - 12 April 1961: **Yuri Gagarin becomes the first human in space** — Cosmonaut Yuri Gagarin orbits the Earth aboard Vostok 1, a triumph of the Soviet space program that followed the launch of Sputnik in 1957 and symbolized Soviet scientific power in the Cold War. [britannica-soviet-union, britannica-russia]
 - 25 December 1991: **Dissolution of the Soviet Union** — Weakened by economic stagnation, nationalist movements, and a failed August coup, the USSR is dissolved; Mikhail Gorbachev resigns on 25 December 1991 and the Soviet flag is lowered over the Kremlin for the last time. [britannica-collapse-ussr, britannica-soviet-union]
 
@@ -91,6 +97,7 @@ Figures:
 A wrenching decade of collapse and oligarchy gave way to a centralized, energy-fueled state increasingly at odds with its neighbors and the West.
 
 - December 1991: **Birth of the Russian Federation** — As the USSR dissolves, the Russian Federation becomes its principal successor state, inheriting the Soviet UN Security Council seat and nuclear arsenal, with Boris Yeltsin as its first president. [britannica-russia, britannica-collapse-ussr]
+- 1991: **Kaliningrad becomes an exclave** — With Lithuania independent and the Soviet Union dissolved, the Kaliningrad region was left as an exclave of Russia between Lithuania and Poland, cut off by land from the rest of the country; the city remains the headquarters of Russia's Baltic Fleet. [wikipedia-kaliningrad]
 - October 1993: **Constitutional crisis and new constitution** — A standoff between President Yeltsin and parliament ends with the army shelling the legislature; a referendum in December 1993 adopts a new constitution that concentrates power in a strong presidency. [britannica-russia]
 - 2000: **Vladimir Putin becomes president** — After Yeltsin's resignation, Vladimir Putin wins the presidency and, aided by rising oil and gas revenues, stabilizes the economy while progressively centralizing political power and curbing independent media. [britannica-russia]
 - March 2014: **Annexation of Crimea** — Following the fall of Ukraine's pro-Russian president, Russian forces seize Crimea and Moscow annexes the peninsula, an action recognized by almost no other state, while Russia backs separatists in eastern Ukraine. [britannica-russia, wiki-annexation-crimea]
@@ -128,6 +135,17 @@ Machine-readable claims — every event above as an addressable claim ID (TL:RUS
 - [whe-kievan-rus] Kievan Rus — World History Encyclopedia · https://www.worldhistory.org/Kievan_Rus/
 - [state-alaska-purchase] Purchase of Alaska, 1867 — Office of the Historian, U.S. Department of State · https://history.state.gov/milestones/1866-1898/alaska-purchase
 - [nara-alaska-ratification] Czar's Ratification of the Alaska Purchase Treaty, 20 June 1867 — U.S. National Archives Catalog · https://catalog.archives.gov/id/299810
+- [avalon-potsdam] Protocol of the Proceedings of the Berlin (Potsdam) Conference, 1 August 1945 — The Avalon Project, Yale Law School · https://avalon.law.yale.edu/20th_century/decade17.asp
+- [wikipedia-battle-konigsberg] Battle of Königsberg — Wikipedia · https://en.wikipedia.org/wiki/Battle_of_K%C3%B6nigsberg
+- [wikipedia-kaliningrad] Kaliningrad — Wikipedia · https://en.wikipedia.org/wiki/Kaliningrad
 - [nara-alaska-check] Check for the Purchase of Alaska (1868) — U.S. National Archives · https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska
+- [encyclopedia-ugra-river] Ugra River, Battle of — Encyclopedia.com · https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ugra-river-battle
+- [ebsco-astrakhan] Ivan the Terrible Annexes Astrakhan — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/ivan-terrible-annexes-astrakhan
+- [ebsco-cossacks-seize-sibir] Cossacks Seize Sibir — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/cossacks-seize-sibir
+- [ebsco-battle-tobol-river] Battle of the Tobol River — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/battle-tobol-river
+- [ebsco-russian-explorations-17c] Russian Explorations in the 17th Century — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/russian-explorations-17th-century
+- [wikipedia-ivan-moskvitin] Ivan Moskvitin — Wikipedia · https://en.wikipedia.org/wiki/Ivan_Moskvitin
+- [ebsco-treaty-nerchinsk] Treaty of Nerchinsk Draws Russian-Chinese Border — EBSCO Research Starters · https://www.ebsco.com/research-starters/history/treaty-nerchinsk-draws-russian-chinese-border
+- [wikisource-nerchinsk-latin] Pactum Nertschiae (Treaty of Nerchinsk, Latin text) — Wikisource · https://la.wikisource.org/wiki/Pactum_Nertschiae
 
 Citation template: Terralore, "The Chronicle of Russia: From the Viking princes of Kiev to a continental empire spanning eleven time zones.", terralore.co/country/RUS/chronicle, retrieved <YYYY-MM-DD>.

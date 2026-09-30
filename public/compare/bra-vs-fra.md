@@ -1,6 +1,6 @@
 # Brazil and France compared
 
-Brazil and France side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Brazil and France side by side: 42 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/bra-vs-fra
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -109,11 +109,14 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/BRA.md and https://terralore.co/country/FRA.md.
 
-## Entangled histories (1 event)
+## Entangled histories (4 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
+- 11 April 1713: **Treaty of Utrecht names the “Japoc or Vincent Pinson”** — Article 8 fixes the France–Portugal frontier in Guiana on a river of that name. Brazil later argued it was the Oyapock and France that it was the Araguari, a disagreement settled by arbitration in 1900. (from the France chronicle; sources: Arbitral award on the Brazil/French Guiana boundary, 1 December 1900)
 - 1808-1821: **The court moves to Rio** — Fleeing Napoleon, the Portuguese royal court relocates to Rio de Janeiro, which becomes the seat of the empire and is opened to wider trade. (from the Brazil chronicle; sources: Brazil; Linha do Tempo da Independência)
+- 1 December 1900: **Swiss arbitration fixes the Brazil–French Guiana border** — The Swiss Federal Council rules at Bern that the “Japoc or Vincent Pinson” of the Treaty of Utrecht is the Oyapock, as Brazil had argued, not the Araguari as France had. The border follows the Oyapock and, inland, the Tumuc-Humac watershed. (from the France chronicle; sources: Arbitral award on the Brazil/French Guiana boundary, 1 December 1900; Coopération transfrontalière franco-brésilienne (rapport r22-846))
+- 2017: **Oyapock bridge opens** — The bridge across the Oyapock between Saint-Georges-de-l’Oyapock and Oiapoque, finished in 2011, opens in 2017. France and Brazil share a border of more than 730 km, which the Sénat describes as France’s longest land border. (from the France chronicle; sources: Coopération transfrontalière franco-brésilienne (rapport r22-846))
 
 ## Sources
 

@@ -125,7 +125,8 @@
           "summary": "Ivan III, having stopped paying tribute, faces down the Great Horde at the Ugra River; the bloodless standoff is traditionally regarded as the end of Mongol overlordship and the rise of a sovereign Muscovite state.",
           "category": "independence",
           "sources": [
-            "britannica-russia"
+            "britannica-russia",
+            "encyclopedia-ugra-river"
           ]
         }
       ],
@@ -158,7 +159,8 @@
         "britannica-russia",
         "britannica-kyivan-rus",
         "wiki-christianization-rus",
-        "wiki-batu-khan"
+        "wiki-batu-khan",
+        "encyclopedia-ugra-river"
       ]
     },
     {
@@ -194,7 +196,30 @@
           "category": "war",
           "sources": [
             "britannica-russia",
-            "britannica-ivan-iv"
+            "britannica-ivan-iv",
+            "ebsco-astrakhan"
+          ]
+        },
+        {
+          "year": 1556,
+          "yearLabel": "1556",
+          "title": "Astrakhan is annexed, and the whole Volga is Russian",
+          "summary": "The annexation of the Khanate of Astrakhan, following the fall of Kazan in 1552, gives Muscovy control of the entire course of the Volga and opens trade via the Caspian Sea with Persia and Central Asia.",
+          "category": "colonization",
+          "sources": [
+            "ebsco-astrakhan"
+          ]
+        },
+        {
+          "year": 1582,
+          "yearLabel": "1581-1582",
+          "endYear": 1582,
+          "title": "Yermak's Cossacks, hired by the Stroganovs, seize the capital of the Khanate of Sibir",
+          "summary": "The Stroganov merchant family hires the Cossack ataman Yermak Timofeyevich, who sets out in 1581 with about 540 men armed with firearms. In 1582 his force takes Kashlyk (Isker), the capital of the Tatar khan Kuchum, beginning Russian rule in western Siberia; Kuchum himself is not captured until 1598.",
+          "category": "war",
+          "sources": [
+            "ebsco-cossacks-seize-sibir",
+            "ebsco-battle-tobol-river"
           ]
         },
         {
@@ -206,6 +231,16 @@
           "category": "war",
           "sources": [
             "britannica-russia"
+          ]
+        },
+        {
+          "year": 1600,
+          "yearLabel": "17th century",
+          "title": "Fur and yasak pull the Russians across Siberia",
+          "summary": "Cossacks, traders and trappers rush east in search of furs, above all sable, and the indigenous peoples of Siberia are made to pay yasak, a tribute in furs.",
+          "category": "colonization",
+          "sources": [
+            "ebsco-russian-explorations-17c"
           ]
         },
         {
@@ -222,10 +257,23 @@
           "year": 1639,
           "yearLabel": "by 1640s",
           "title": "Russian explorers reach the Pacific",
-          "summary": "Cossacks and fur traders crossing Siberia reach the Pacific coast, extending the Russian state across northern Asia and giving it a vast Eurasian dominion within a single century of expansion.",
+          "summary": "Cossacks and fur traders crossing Siberia reach the Pacific coast, extending the Russian state across northern Asia and giving it a vast Eurasian dominion within a single century of expansion. In 1639 Ivan Moskvitin, with about thirty Cossacks, leaves Yakutsk and by the end of the year reaches the Sea of Okhotsk by way of the Ulya River; the port of Okhotsk is founded in 1647.",
           "category": "colonization",
           "sources": [
-            "britannica-russia"
+            "britannica-russia",
+            "ebsco-russian-explorations-17c",
+            "wikipedia-ivan-moskvitin"
+          ]
+        },
+        {
+          "year": 1689,
+          "yearLabel": "August 1689",
+          "title": "Treaty of Nerchinsk fixes the Russian-Qing border",
+          "summary": "Envoys of the Russian tsars, led by Fyodor Golovin, and of the Qing Kangxi Emperor, led by Songgotu, agree the first Sino-Russian border treaty near Nerchinsk. The Russian fort of Albazin on the Amur is to be destroyed and the border follows the Argun and Gorbitsa rivers and the Stanovoy range toward the Sea of Okhotsk; the Latin text is the authoritative version. Sources give 27 August (Old Style) and 29 August for the signing.",
+          "category": "politics",
+          "sources": [
+            "ebsco-treaty-nerchinsk",
+            "wikisource-nerchinsk-latin"
           ]
         }
       ],
@@ -247,7 +295,14 @@
       },
       "sources": [
         "britannica-russia",
-        "britannica-ivan-iv"
+        "britannica-ivan-iv",
+        "ebsco-astrakhan",
+        "ebsco-cossacks-seize-sibir",
+        "ebsco-battle-tobol-river",
+        "ebsco-russian-explorations-17c",
+        "wikipedia-ivan-moskvitin",
+        "ebsco-treaty-nerchinsk",
+        "wikisource-nerchinsk-latin"
       ]
     },
     {
@@ -934,6 +989,62 @@
       "publisher": "U.S. National Archives",
       "url": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska",
       "kind": "gov"
+    },
+    {
+      "id": "encyclopedia-ugra-river",
+      "label": "Ugra River, Battle of",
+      "publisher": "Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ugra-river-battle",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "ebsco-astrakhan",
+      "label": "Ivan the Terrible Annexes Astrakhan",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/ivan-terrible-annexes-astrakhan",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "ebsco-cossacks-seize-sibir",
+      "label": "Cossacks Seize Sibir",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/cossacks-seize-sibir",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "ebsco-battle-tobol-river",
+      "label": "Battle of the Tobol River",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/battle-tobol-river",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "ebsco-russian-explorations-17c",
+      "label": "Russian Explorations in the 17th Century",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/russian-explorations-17th-century",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-ivan-moskvitin",
+      "label": "Ivan Moskvitin",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ivan_Moskvitin",
+      "kind": "reference"
+    },
+    {
+      "id": "ebsco-treaty-nerchinsk",
+      "label": "Treaty of Nerchinsk Draws Russian-Chinese Border",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/treaty-nerchinsk-draws-russian-chinese-border",
+      "kind": "encyclopedia"
+    },
+    {
+      "id": "wikisource-nerchinsk-latin",
+      "label": "Pactum Nertschiae (Treaty of Nerchinsk, Latin text)",
+      "publisher": "Wikisource",
+      "url": "https://la.wikisource.org/wiki/Pactum_Nertschiae",
+      "kind": "primary"
     }
   ],
   "status": "published",

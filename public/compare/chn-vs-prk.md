@@ -1,6 +1,6 @@
 # China and North Korea compared
 
-China and North Korea side by side: 27 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
+China and North Korea side by side: 27 shared sourced indicators across 9 domains, and the 5 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/chn-vs-prk
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -112,12 +112,14 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/CHN.md and https://terralore.co/country/PRK.md.
 
-## Entangled histories (3 events)
+## Entangled histories (5 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 668 CE: **Silla unifies the peninsula** — Allied with Tang China, Silla conquers Baekje in 660 and Goguryeo in 668, then expels the Tang, achieving the first unification of Korea under native rule. (from the North Korea chronicle; sources: Korea (history); Three Kingdoms period)
 - Late 1950: **China enters the war** — After UN forces push deep into the north, the People's Republic of China intervenes and drives the front back toward the 38th parallel, producing a stalemate. (from the North Korea chronicle; sources: The Korean War and Japan's Recovery; NSC-68 and the Korean War)
+- 21 November 1950: **US troops reach the Yalu** — Troops of the US 7th Division's 17th Infantry reach the Yalu River at Hyesanjin, as Chinese armies mass along the river in Manchuria and an unknown number have already entered Korea. (from the North Korea chronicle; sources: Policy and Direction: The First Year, Chapter XIV, The Threshold of Victory)
+- 27 July 1953: **The Demilitarized Zone is defined** — The armistice, signed at Panmunjom by Lt. Gen. William K. Harrison Jr. for the UN Command and Gen. Nam Il for the Korean People's Army and the Chinese People's Volunteers, fixes a military demarcation line and has both sides withdraw two kilometres from it, making a buffer zone about four kilometres wide. The line follows the positions held at the end of the fighting, not the 38th parallel; the coast-to-coast length is given as 238 kilometres by National Geographic. (from the North Korea chronicle; sources: Armistice Agreement for the Restoration of the South Korean State (1953); Why the Korean DMZ is not the 38th parallel)
 - 1994-1999: **The Arduous March famine** — A famine driven by the loss of Soviet support, reduced Chinese aid and flooding kills an estimated several hundred thousand or more North Koreans, a defining national trauma. (from the North Korea chronicle; sources: History of North Korea; North Korea: A Country Study)
 
 ## Sources

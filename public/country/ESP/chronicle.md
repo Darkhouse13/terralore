@@ -1,6 +1,6 @@
 # The Chronicle of Spain: From the crossroads of Iberia to a modern European democracy.
 
-History of Spain: From the crossroads of Iberia to a modern European democracy. 6 eras and 28 sourced events, every claim traceable to a named reference.
+History of Spain: From the crossroads of Iberia to a modern European democracy. 6 eras and 31 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/ESP/chronicle
 Updated: 2026-08-22
@@ -60,6 +60,8 @@ Imperial overreach and dynastic failure ended Habsburg rule, the War of the Span
 
 - 1700: **Death of Charles II and end of the Spanish Habsburgs** — The childless death of Charles II ended Habsburg rule in Spain. His will bequeathed the throne to the Bourbon Philip of Anjou, triggering a European war of succession. [spain-britannica, utrecht-britannica]
 - 1701–1714: **War of the Spanish Succession** — A European war over the Spanish throne ended with the Bourbon Philip V confirmed as king by the Treaty of Utrecht (1713), which stripped Spain of its European territories and Gibraltar. [utrecht-britannica]
+- 1704: **Anglo-Dutch capture of Gibraltar** — During the War of the Spanish Succession an Anglo-Dutch force took Gibraltar; by the Treaty of Utrecht in 1713 Spain ceded it to Britain in perpetuity, and Spain continues to seek its return. [gibraltar-gov-closure-booklet, un-c24-gibraltar-2023]
+- 1779–1783: **The Great Siege of Gibraltar** — During the American Revolutionary War, Spain and France besieged British Gibraltar from June 1779 to February 1783 in an unsuccessful attempt to capture it. [wikipedia-great-siege-gibraltar]
 - 2 May 1808: **Dos de Mayo uprising** — The people of Madrid rose against the occupying French army; the brutal repression that followed ignited the Peninsular War, Spain's war of independence against Napoleon. [spain-britannica]
 - 19 Mar 1812: **Constitution of Cádiz** — Liberal deputies meeting in besieged Cádiz promulgated Spain's first constitution, asserting national sovereignty and a separation of powers, though it was abolished by Ferdinand VII in 1814. [cadiz-constitution-loc]
 - 1814: **End of the Peninsular War** — Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution. [spain-britannica]
@@ -88,6 +90,7 @@ Figures:
 Franco ruled Spain as an authoritarian dictator for nearly four decades; after his death in 1975 the country undertook a peaceful transition to democracy, adopting the 1978 constitution and joining Europe.
 
 - 1939–1975: **The Franco dictatorship** — Franco ruled Spain as an authoritarian dictator for nearly four decades, repressing opponents and regional identities, before later decades brought economic growth and cautious opening to the West. [ushmm-spanish-civil-war, spain-britannica]
+- 8 Jun 1969: **Franco closes the Gibraltar frontier** — After Gibraltarians voted in 1967 to keep their link with Britain and a new Gibraltar constitution followed in May 1969, Franco's government closed the land frontier; it partly reopened to pedestrians on 15 December 1982 and fully on 5 February 1985. [gibraltar-gov-closure-booklet, wikipedia-gibraltar-spain-border]
 - 20 Nov 1975: **Death of Franco and accession of Juan Carlos I** — Franco's death brought King Juan Carlos I to the throne; rather than continue the dictatorship, the king became a key figure in steering Spain toward democracy. [spain-britannica]
 - 15 Jun 1977: **First free elections since the Civil War** — Spain held its first democratic elections in over four decades, producing a parliament that would draft a new constitution under Prime Minister Adolfo Suárez. [spain-britannica, spain-constitution-gov]
 - 6 Dec 1978: **Spanish Constitution of 1978** — Ratified by referendum on 6 December and promulgated on 29 December 1978, the constitution established a parliamentary monarchy, fundamental rights and a state of autonomous communities. [spain-constitution-gov]
@@ -110,6 +113,10 @@ Machine-readable claims — every event above as an addressable claim ID (TL:ESP
 - [inquisition-britannica] Spanish Inquisition — Encyclopaedia Britannica · https://www.britannica.com/topic/Spanish-Inquisition
 - [alhambra-decree-loc] Aniversario de los decretos de expulsión de los judíos de los reinos de Castilla y Aragón — Portal de Archivos de Andalucía, Junta de Andalucía · https://www.juntadeandalucia.es/cultura/archivos/web_es/contenido?id=e4769d33-759f-11ea-8ea7-000ae4865a5f&idArchivo=f10e7484-58a4-11dd-b44b-31450f5b9dd5&idContArch=bb556ff5-3893-11de-8026-000ae4865a5f&idProvincia=4b07b39e-3b6e-11dd-92fe-31450f5b9dd5&idTipo=02cd09d5-57e2-11dd-ba1f-31450f5b9dd5
 - [prado] Museo Nacional del Prado — Museo Nacional del Prado
+- [gibraltar-gov-closure-booklet] The Closure of the Border, 1969–2019 — HM Government of Gibraltar · https://www.gibraltar.gov.gi/uploads/Closure%20Booklet1.pdf
+- [un-c24-gibraltar-2023] Gibraltar: working paper prepared by the Secretariat (A/AC.109/2023/8) — United Nations, Special Committee on Decolonization · https://documents.un.org/api/symbol/access?s=A/AC.109/2023/8&l=en&t=pdf
+- [wikipedia-great-siege-gibraltar] Great Siege of Gibraltar — Wikipedia · https://en.wikipedia.org/wiki/Great_Siege_of_Gibraltar
+- [wikipedia-gibraltar-spain-border] Gibraltar–Spain border — Wikipedia · https://en.wikipedia.org/wiki/Gibraltar%E2%80%93Spain_border
 - [utrecht-britannica] Treaties of Utrecht — Encyclopaedia Britannica · https://www.britannica.com/topic/treaties-of-Utrecht
 - [cadiz-constitution-loc] Constitution of the Spanish Monarchy, enacted in Cádiz, 19 March 1812 — Library of Congress · https://www.loc.gov/item/2021667002/
 - [loc-1898] The World of 1898: The Spanish-American War — Library of Congress · https://guides.loc.gov/world-of-1898

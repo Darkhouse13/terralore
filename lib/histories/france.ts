@@ -204,6 +204,32 @@ export const france: CountryHistory = {
           category: "politics",
           sources: ["eb-louis-xiv"],
         },
+        {
+          year: 1643,
+          title: "Cayenne settled",
+          summary:
+            "A Rouen company's expedition under Charles Poncet de Brétigny buys the hill at the mouth of the Cayenne river from a local leader, Cépérou, and builds a fort. Dutch and English forces take the town several times before France regains it for good in 1664.",
+          category: "colonization",
+          sources: ["outremers360-cayenne"],
+        },
+        {
+          year: 1713,
+          yearLabel: "11 April 1713",
+          title: "Treaty of Utrecht names the “Japoc or Vincent Pinson”",
+          summary:
+            "Article 8 fixes the France–Portugal frontier in Guiana on a river of that name. Brazil later argued it was the Oyapock and France that it was the Araguari, a disagreement settled by arbitration in 1900.",
+          category: "politics",
+          sources: ["riaa-1900"],
+        },
+        {
+          year: 1763,
+          yearLabel: "1763–1765",
+          title: "The Kourou expedition",
+          summary:
+            "After the Treaty of Paris, France sends thousands of settlers to the Kourou coast in French Guiana with little prepared for them. Disease kills a large share of them within about two years; sources differ on the totals.",
+          category: "disaster",
+          sources: ["acad-outremer-kourou", "mariners-kourou"],
+        },
       ],
       figures: [
         {
@@ -223,7 +249,7 @@ export const france: CountryHistory = {
           sources: ["eb-louis-xiv"],
         },
       ],
-      sources: ["eb-hundred-years", "eb-joan", "eb-nantes", "eb-louis-xiv"],
+      sources: ["eb-hundred-years", "eb-joan", "eb-nantes", "eb-louis-xiv", "outremers360-cayenne", "riaa-1900", "acad-outremer-kourou", "mariners-kourou"],
     },
     {
       id: "revolution",
@@ -273,6 +299,15 @@ export const france: CountryHistory = {
           category: "war",
           sources: ["eb-napoleon"],
         },
+        {
+          year: 1852,
+          yearLabel: "1852–1953",
+          title: "Penal colonies in French Guiana",
+          summary:
+            "From 1852 France sends convicts to penal camps in French Guiana, including the Îles du Salut. A decree of 1938 ends transportation; the last return convoy leaves in 1953. The Archives nationales d’outre-mer database covers nearly 100,000 convicts sent to French Guiana or New Caledonia between 1852 and 1953.",
+          category: "politics",
+          sources: ["anom-bagnards", "guyane-transportation"],
+        },
       ],
       figures: [
         {
@@ -288,7 +323,7 @@ export const france: CountryHistory = {
         text: "Men are born and remain free and equal in rights.",
         attribution: "Declaration of the Rights of Man and of the Citizen, 1789",
       },
-      sources: ["eb-revolution", "eb-rights-of-man", "eb-napoleon"],
+      sources: ["eb-revolution", "eb-rights-of-man", "eb-napoleon", "anom-bagnards", "guyane-transportation"],
     },
     {
       id: "republic",
@@ -304,6 +339,33 @@ export const france: CountryHistory = {
         "Amid the crisis of the Algerian War, Charles de Gaulle returned to found the Fifth Republic in 1958, whose strong presidency endures today. France was a founding member of the European Communities (Treaty of Rome, 1957) and adopted the euro, in circulation from 2002.",
       ],
       events: [
+        {
+          year: 1891,
+          yearLabel: "25 May 1891",
+          title: "Russian arbitration on the Maroni frontier",
+          summary:
+            "Emperor Alexander III of Russia, as arbitrator, rules that the Awa is the border river between French Guiana and Suriname; land upstream of its confluence with the Tapanahoni goes to the Netherlands. The award does not settle every question on the Suriname frontier.",
+          category: "politics",
+          sources: ["riaa-1891"],
+        },
+        {
+          year: 1895,
+          yearLabel: "1895–1899",
+          title: "Dreyfus held on Devil’s Island",
+          summary:
+            "Captain Alfred Dreyfus, convicted of treason in 1894, is transferred in April 1895 to Devil’s Island off French Guiana to serve his sentence. He leaves the island in 1899; the Court of Cassation declares him innocent in 1906.",
+          category: "politics",
+          sources: ["lehavre-dreyfus"],
+        },
+        {
+          year: 1900,
+          yearLabel: "1 December 1900",
+          title: "Swiss arbitration fixes the Brazil–French Guiana border",
+          summary:
+            "The Swiss Federal Council rules at Bern that the “Japoc or Vincent Pinson” of the Treaty of Utrecht is the Oyapock, as Brazil had argued, not the Araguari as France had. The border follows the Oyapock and, inland, the Tumuc-Humac watershed.",
+          category: "politics",
+          sources: ["riaa-1900", "senat-brazil-border"],
+        },
         {
           year: 1905,
           title: "Separation of Church and State",
@@ -322,6 +384,15 @@ export const france: CountryHistory = {
           sources: ["eb-france"],
         },
         {
+          year: 1946,
+          yearLabel: "19 March 1946",
+          title: "French Guiana becomes a département",
+          summary:
+            "A law of 19 March 1946, championed by deputies including Aimé Césaire and French Guiana’s Gaston Monnerville, makes Martinique, Guadeloupe, Réunion and French Guiana départements of France.",
+          category: "politics",
+          sources: ["elysee-1946"],
+        },
+        {
           year: 1958,
           title: "Fifth Republic founded",
           summary:
@@ -337,6 +408,40 @@ export const france: CountryHistory = {
           category: "economy",
           sources: ["eb-france"],
         },
+        {
+          year: 1964,
+          yearLabel: "1964–1968",
+          title: "Guiana Space Centre",
+          summary:
+            "On 14 April 1964 Prime Minister Georges Pompidou announces French Guiana as the site of France’s new space centre, chosen from fourteen sites studied; a Véronique sounding rocket launched on 9 April 1968 makes it operational. The first Ariane flies from it in 1979.",
+          category: "culture",
+          sources: ["esa-csg50"],
+        },
+        {
+          year: 2002,
+          title: "The euro in French Guiana",
+          summary:
+            "French Guiana, a département of France, uses the euro; the Banque de France’s subsidiary IEDOM acts as its central-bank delegate in overseas territories whose currency is the euro.",
+          category: "economy",
+          sources: ["iedom"],
+        },
+        {
+          year: 2009,
+          yearLabel: "Article 349 TFEU",
+          title: "French Guiana an EU outermost region",
+          summary:
+            "Article 349 of the Treaty on the Functioning of the European Union names French Guiana among the outermost regions, whose remoteness justifies specific measures in the application of EU law there. It is one of nine such regions.",
+          category: "politics",
+          sources: ["eur-lex-349", "eu-outermost"],
+        },
+        {
+          year: 2017,
+          title: "Oyapock bridge opens",
+          summary:
+            "The bridge across the Oyapock between Saint-Georges-de-l’Oyapock and Oiapoque, finished in 2011, opens in 2017. France and Brazil share a border of more than 730 km, which the Sénat describes as France’s longest land border.",
+          category: "economy",
+          sources: ["senat-brazil-border"],
+        },
       ],
       figures: [
         {
@@ -348,7 +453,7 @@ export const france: CountryHistory = {
           sources: ["eb-de-gaulle"],
         },
       ],
-      sources: ["eb-france", "eb-fifth-republic", "eb-de-gaulle"],
+      sources: ["eb-france", "eb-fifth-republic", "eb-de-gaulle", "riaa-1891", "lehavre-dreyfus", "riaa-1900", "senat-brazil-border", "elysee-1946", "esa-csg50", "iedom", "eur-lex-349", "eu-outermost"],
     },
   ],
   sources: [
@@ -369,6 +474,20 @@ export const france: CountryHistory = {
     { id: "eb-napoleon", label: "Napoleon I", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/biography/Napoleon-I", kind: "encyclopedia" },
     { id: "eb-fifth-republic", label: "France — The Fifth Republic", publisher: "Encyclopædia Britannica", url: "https://www.britannica.com/place/France/The-Fifth-Republic", kind: "encyclopedia" },
     { id: "eb-de-gaulle", label: "Charles de Gaulle", publisher: "Presidency of the French Republic (Élysée)", url: "https://www.elysee.fr/en/charles-de-gaulle", kind: "gov" },
+    { id: "outremers360-cayenne", label: "Histoire des chefs-lieux d’Outre-mer: Cayenne", publisher: "Outremers 360", url: "https://outremers360.com/bassin-atlantique-appli/serie-histoire-des-chefs-lieux-doutre-mer-cayenne-symbole-des-multiples-identites-guyanaises", kind: "reference" },
+    { id: "acad-outremer-kourou", label: "Kourou, 1763: le dernier rêve de l’Amérique française (review)", publisher: "Académie des sciences d’outre-mer", url: "https://www.academieoutremer.fr/images/files/Kourou-1763-%2857_963%29%281%29.pdf", kind: "academic" },
+    { id: "mariners-kourou", label: "Welcome to Kourou, Colony of Death", publisher: "The Mariners’ Museum", url: "https://www.marinersmuseum.org/2023/03/welcome-to-kourou-colony-of-death/", kind: "museum" },
+    { id: "anom-bagnards", label: "Base des bagnards (Archives nationales d’outre-mer), announcement", publisher: "RFgenealogie", url: "https://www.rfgenealogie.com/infos/anom-une-nouvelle-version-de-la-base-des-bagnards", kind: "reference" },
+    { id: "guyane-transportation", label: "Chronologie sommaire de la transportation", publisher: "Académie de la Guyane (Éducation nationale)", url: "https://hist-geographie.dis.ac-guyane.fr/IMG/pdf/chronologiesommaire_transportation.pdf", kind: "gov" },
+    { id: "riaa-1891", label: "Award on the France/Netherlands boundary in Guiana, 25 May 1891", publisher: "United Nations, Reports of International Arbitral Awards vol. XXVIII", url: "https://legal.un.org/riaa/cases/vol_XXVIII/249-254.pdf", kind: "primary" },
+    { id: "riaa-1900", label: "Arbitral award on the Brazil/French Guiana boundary, 1 December 1900", publisher: "United Nations, Reports of International Arbitral Awards vol. XXVIII", url: "https://legal.un.org/riaa/cases/vol_XXVIII/349-378.pdf", kind: "primary" },
+    { id: "lehavre-dreyfus", label: "Chronologie indicative de l’Affaire Dreyfus (1894–1906)", publisher: "Archives municipales du Havre", url: "https://archives.lehavre.fr/sites/default/files/2022-03/chronologie%20affaire%20dreyfus_0.pdf", kind: "archive" },
+    { id: "senat-brazil-border", label: "Coopération transfrontalière franco-brésilienne (rapport r22-846)", publisher: "Sénat", url: "https://www.senat.fr/rap/r22-846/r22-84621.html", kind: "gov" },
+    { id: "elysee-1946", label: "80 ans de la loi du 19 mars 1946", publisher: "Présidence de la République (Élysée)", url: "https://www.elysee.fr/emmanuel-macron/2026/03/19/commemoration-des-80-ans-de-la-loi-du-19-mars-1946-tendant-au-classement-comme-departements-francais-de-la-guadeloupe-de-la-martinique-de-la-reunion-et-de-la-guyane-francaise-1", kind: "gov" },
+    { id: "esa-csg50", label: "CSG at 50: half a century of Europe’s Spaceport", publisher: "European Space Agency", url: "https://www.esa.int/About_Us/50_years_of_ESA/CSG_at_50_half_a_century_of_Europe_s_Spaceport", kind: "gov" },
+    { id: "iedom", label: "Institut d’émission des départements d’outre-mer", publisher: "IEDOM (Banque de France)", url: "https://www.iedom.fr/", kind: "gov" },
+    { id: "eur-lex-349", label: "Treaty on the Functioning of the European Union, Article 349", publisher: "EUR-Lex", url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/art_349/oj/eng", kind: "primary" },
+    { id: "eu-outermost", label: "Outermost regions", publisher: "European Commission, Regional and Urban Policy", url: "https://regions-and-cities.ec.europa.eu/policy/themes/outermost-regions_en", kind: "gov" },
     { id: "wikipedia-verdun", label: "Treaty of Verdun", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Treaty_of_Verdun", kind: "reference" },
     { id: "nwe-france", label: "France", publisher: "New World Encyclopedia", url: "https://www.newworldencyclopedia.org/entry/France", kind: "encyclopedia" },
   ],

@@ -1,6 +1,6 @@
 # The Chronicle of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.
 
-History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 28 sourced…
+History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 30 sourced…
 
 Canonical: https://terralore.co/country/GBR/chronicle
 Updated: 2026-08-22
@@ -90,6 +90,8 @@ Two world wars, the loss of empire, and the building of a welfare state remade B
 - 1939–1945: **The Second World War** — Britain fought Nazi Germany and the Axis, endured the Blitz, and emerged victorious but economically drained; the wartime Bengal famine of 1943 killed millions in British India. [iwm-decolonisation, brit-bengal-famine]
 - 5 July 1948: **Founding of the National Health Service** — The post-war Labour government launched the NHS, providing healthcare free at the point of use and forming the centrepiece of Britain's new welfare state. [natarchives-nhs]
 - 1947: **Independence of India and the start of decolonisation** — India and Pakistan became independent, beginning the rapid dismantling of the British Empire as dozens of colonies gained independence over the following decades. [iwm-decolonisation]
+- 10 Sep 1967: **Gibraltar votes to stay British** — In a sovereignty referendum Gibraltarians chose to keep their link with Britain rather than pass under Spanish sovereignty, by 12,138 votes to 44; Spain responded by closing the land frontier in 1969. [wikipedia-gibraltar-1967, gibraltar-gov-closure-booklet]
+- 7 Nov 2002: **Gibraltar rejects shared sovereignty** — In a referendum called by the Gibraltar Government, voters rejected a proposal for British–Spanish joint sovereignty by 17,900 votes to 187. [wikipedia-gibraltar-2002]
 - 31 January 2020: **The United Kingdom leaves the European Union** — Following the 2016 referendum, the UK formally withdrew from the European Union, ending nearly half a century of membership in the European project. [brit-brexit]
 
 Figures:
@@ -101,6 +103,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GBR
 
 ## References
 
+- [gibraltar-gov-closure-booklet] The Closure of the Border, 1969–2019 — HM Government of Gibraltar · https://www.gibraltar.gov.gi/uploads/Closure%20Booklet1.pdf
+- [wikipedia-gibraltar-1967] 1967 Gibraltar sovereignty referendum — Wikipedia · https://en.wikipedia.org/wiki/1967_Gibraltar_sovereignty_referendum
+- [wikipedia-gibraltar-2002] 2002 Gibraltar sovereignty referendum — Wikipedia · https://en.wikipedia.org/wiki/2002_Gibraltar_sovereignty_referendum
 - [brit-roman-britain] Roman Britain — Encyclopaedia Britannica · https://www.britannica.com/place/United-Kingdom
 - [brit-alfred] Alfred ‘The Great’ (r. 871–899) — The Royal Family · https://www.royal.uk/alfred-great-r-871-899
 - [brit-athelstan] Room 41: Sutton Hoo and Europe — Large Print Guide — The British Museum · https://www.britishmuseum.org/sites/default/files/2021-05/large_print_guide_room_41.pdf

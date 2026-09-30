@@ -120,7 +120,8 @@
         { "year": 1881, "title": "Muhammad Ahmad proclaims himself the Mahdi", "summary": "A religious teacher declares himself the awaited redeemer and launches a holy war against Turco-Egyptian rule.", "category": "religion", "sources": ["wiki-mahdist", "eb-omdurman"] },
         { "year": 1885, "yearLabel": "26 January 1885", "title": "Fall of Khartoum; death of Gordon", "summary": "Mahdist forces storm Khartoum after a long siege and kill General Charles Gordon; the Mahdi dies months later.", "category": "war", "sources": ["wiki-mahdist", "eb-siege-khartoum"] },
         { "year": 1898, "yearLabel": "2 September 1898", "title": "Battle of Omdurman", "summary": "Kitchener's Anglo-Egyptian army destroys the Khalifa's forces with overwhelming firepower, ending the Mahdist state.", "category": "war", "sources": ["eb-omdurman", "wiki-mahdist"] },
-        { "year": 1899, "title": "Anglo-Egyptian Condominium established", "summary": "Sudan is placed under joint British and Egyptian rule by the Condominium agreements of January and July 1899.", "category": "colonization", "sources": ["eb-condominium", "wiki-anglo-egyptian"] }
+        { "year": 1899, "title": "Anglo-Egyptian Condominium established", "summary": "Sudan is placed under joint British and Egyptian rule by the Condominium agreements of January and July 1899.", "category": "colonization", "sources": ["eb-condominium", "wiki-anglo-egyptian"] },
+        { "year": 1899, "yearLabel": "19 January 1899", "title": "The 22nd parallel fixed as the limit of the Sudan", "summary": "Article I of the Anglo-Egyptian agreement on the administration of the Sudan defines the Sudan as all the territories south of the 22nd parallel of latitude, initially the boundary with Egypt. Egypt continues to cite the parallel as the international boundary.", "category": "colonization", "sources": ["ws-sudan-convention-1899", "statedept-ibs18", "un-egypt-2017-may"] }
       ],
       "figures": [
         { "name": "Muhammad Ahmad (the Mahdi)", "role": "Religious leader, founder of the Mahdist state", "life": "1844–1885", "blurb": "Sufi teacher who in 1881 declared himself the Mahdi and led the revolt that overthrew Turco-Egyptian rule and captured Khartoum in 1885.", "sources": ["wiki-mahdist", "eb-omdurman"] },
@@ -130,7 +131,7 @@
         "text": "By midday the Battle of Omdurman was over; the Mahdists were decisively defeated with heavy losses, and the Khalifa fled.",
         "attribution": "Encyclopædia Britannica, \"Battle of Omdurman\""
       },
-      "sources": ["eb-sudan-turco", "blackpast-khartoum", "wiki-mahdist", "eb-siege-khartoum", "eb-omdurman", "eb-condominium", "wiki-anglo-egyptian"]
+      "sources": ["eb-sudan-turco", "blackpast-khartoum", "wiki-mahdist", "eb-siege-khartoum", "eb-omdurman", "eb-condominium", "wiki-anglo-egyptian", "ws-sudan-convention-1899", "statedept-ibs18", "un-egypt-2017-may"]
     },
     {
       "id": "independence-and-civil-wars",
@@ -145,7 +146,9 @@
         "After years of negotiation the war finally ended with the Comprehensive Peace Agreement, signed in Kenya in January 2005. It granted the south autonomy and the promise of a referendum on independence within six years, and brought the SPLM into a power-sharing government. Garang, who became national vice-president, died in a helicopter crash months later, but the path to a separate southern state had been set."
       ],
       "events": [
+        { "year": 1902, "yearLabel": "4 November 1902", "title": "An administrative line departs from the 22nd parallel", "summary": "A decree of the Egyptian Minister of the Interior, following an arrete of 25 July 1902, sets an administrative boundary in the east to facilitate the administration of nomadic tribes: the Bisharin under Sudanese administration and the Ababda under Egyptian administration. It leaves an area north of the parallel by the Red Sea administered by Sudan and an area south of it administered by Egypt; the international boundary remains the 22nd parallel. The difference between the two lines leaves the Halaib area, about 20,580 square kilometres on the Red Sea coast, and the landlocked Bir Tawil, about 2,060 square kilometres, which in practice neither state claims.", "category": "colonization", "sources": ["statedept-ibs18", "un-egypt-2017-may", "worldatlas-egypt-sudan-border", "aljazeera-north-sudan-2015"] },
         { "year": 1956, "yearLabel": "1 January 1956", "title": "Independence of the Sudan", "summary": "Sudan becomes a sovereign republic, ending Anglo-Egyptian rule; its parliament chooses independence over union with Egypt.", "category": "independence", "sources": ["eb-condominium", "wiki-sudan"] },
+        { "year": 1958, "yearLabel": "1 February 1958", "title": "Egypt asks for the territory north of the 22nd parallel", "summary": "After a Sudanese election order covers areas north of the 22nd parallel that Sudan had administered since 1902, Egypt sends a note requesting their return, offering in exchange to hand over the Egyptian-administered area south of the parallel. Sudan replies that Egypt had not objected to two earlier elections there. Sudan states that it has written to the UN Security Council about the area every year since 1958.", "category": "politics", "sources": ["statedept-ibs18", "un-sudan-2017-mar", "un-egypt-2017-may"] },
         { "year": 1955, "yearLabel": "1955–1972", "title": "First civil war", "summary": "Rebellion in the south, begun in 1955, grows into a 17-year war ended by the Addis Ababa Agreement of 27 February 1972, which grants southern autonomy.", "category": "war", "sources": ["wiki-first-civil-war", "wiki-addis-ababa"] },
         { "year": 1983, "yearLabel": "1983–2005", "title": "Second civil war begins", "summary": "Nimeiri scraps southern autonomy and imposes sharia; the SPLM/A under John Garang launches a war that kills an estimated two million people.", "category": "war", "sources": ["encyclopedia-civil-wars", "wiki-sudan"] },
         { "year": 1989, "title": "Bashir seizes power", "summary": "Omar al-Bashir takes power in an Islamist-backed military coup, beginning a three-decade rule.", "category": "politics", "sources": ["wiki-sudan"] },
@@ -158,7 +161,7 @@
         "text": "On 1 January 1956 Sudan was declared an independent republic with an elected representative parliament.",
         "attribution": "On Sudanese independence"
       },
-      "sources": ["eb-condominium", "wiki-anglo-egyptian", "wiki-sudan", "wiki-first-civil-war", "wiki-addis-ababa", "encyclopedia-civil-wars"]
+      "sources": ["eb-condominium", "wiki-anglo-egyptian", "wiki-sudan", "wiki-first-civil-war", "wiki-addis-ababa", "encyclopedia-civil-wars", "statedept-ibs18", "un-sudan-2017-mar", "un-egypt-2017-may", "worldatlas-egypt-sudan-border", "aljazeera-north-sudan-2015"]
     },
     {
       "id": "darfur-secession-and-war",
@@ -222,7 +225,13 @@
     { "id": "usip-south-sudan", "label": "Referendum in Southern Sudan / Independence of South Sudan", "publisher": "United Nations Mission in the Sudan (UNMIS)", "url": "https://peacekeeping.un.org/sites/default/files/past/unmis/referendum.shtml", "kind": "gov" },
     { "id": "wiki-2019-coup", "label": "2019 Sudanese coup d'état", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2019_Sudanese_coup_d%27%C3%A9tat", "kind": "reference" },
     { "id": "hrw-bashir", "label": "Sudan: With al-Bashir Ouster, End Authoritarianism", "publisher": "Human Rights Watch", "url": "https://www.hrw.org/news/2019/04/11/sudan-al-bashir-ouster-end-authoritarianism", "kind": "reference" },
-    { "id": "statedept-sudan", "label": "A Guide to the United States' History of Recognition: Sudan", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/sudan", "kind": "gov" }
+    { "id": "statedept-sudan", "label": "A Guide to the United States' History of Recognition: Sudan", "publisher": "U.S. Department of State, Office of the Historian", "url": "https://history.state.gov/countries/sudan", "kind": "gov" },
+    { "id": "worldatlas-egypt-sudan-border", "label": "The Egypt-Sudan Border Dispute", "publisher": "WorldAtlas", "url": "https://www.worldatlas.com/geography/the-egypt-sudan-border-dispute.html", "kind": "reference" },
+    { "id": "aljazeera-north-sudan-2015", "label": "Creating the Kingdom of North Sudan (11 May 2015)", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/features/2015/5/11/creating-the-kingdom-of-north-sudan", "kind": "reference" },
+    { "id": "statedept-ibs18", "label": "International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962)", "publisher": "U.S. Department of State, Office of the Geographer (via FSU College of Law)", "url": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs018.pdf", "kind": "gov" },
+    { "id": "un-egypt-2017-may", "label": "Egypt: Declaration to the UN Secretary-General (4 May 2017)", "publisher": "UN Division for Ocean Affairs and the Law of the Sea", "url": "https://www.un.org/depts/los/LEGISLATIONANDTREATIES/PDFFILES/EGY_SDN_2017_en.pdf", "kind": "gov" },
+    { "id": "un-sudan-2017-mar", "label": "Sudan: Statement of the Ministry of Foreign Affairs (3 March 2017)", "publisher": "UN Division for Ocean Affairs and the Law of the Sea", "url": "https://www.un.org/Depts/los/LEGISLATIONANDTREATIES/PDFFILES/SDN_2017_Decree_148_en.pdf", "kind": "gov" },
+    { "id": "ws-sudan-convention-1899", "label": "Sudan Convention (1899)", "publisher": "Wikisource", "url": "https://en.wikisource.org/wiki/Sudan_Convention_(1899)", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-08-22"

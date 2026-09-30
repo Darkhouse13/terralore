@@ -1,6 +1,6 @@
 # Poland and Russia compared
 
-Poland and Russia side by side: 43 shared sourced indicators across 9 domains, and the 11 events their chronicles record of each other.
+Poland and Russia side by side: 43 shared sourced indicators across 9 domains, and the 12 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/pol-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -111,7 +111,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/POL.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (11 events)
+## Entangled histories (12 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -126,6 +126,7 @@ Events in which either nation's sourced chronicle names the other — including 
 - 1947: **Establishment of communist rule** — Backed by the Soviet Union and rigged elections, a communist government consolidated power, founding the Polish People's Republic within the Soviet bloc. (from the Poland chronicle; sources: Lech Walesa; Solidarity (Polish trade union))
 - Aug 1980: **Birth of Solidarity** — Strikes at the Gdansk shipyard led by Lech Walesa produced Solidarity, the first independent trade union in the Soviet bloc, which rapidly grew to about ten million members. (from the Poland chronicle; sources: Solidarity (Polish trade union); Lech Walesa)
 - 4 Jun 1989: **Semi-free elections and the fall of communism** — Round Table talks produced partly free elections that Solidarity won overwhelmingly, ending communist rule in Poland and helping trigger the collapse of the Soviet bloc. (from the Poland chronicle; sources: Solidarity (Polish trade union); Lech Walesa)
+- 1991: **Kaliningrad becomes an exclave** — With Lithuania independent and the Soviet Union dissolved, the Kaliningrad region was left as an exclave of Russia between Lithuania and Poland, cut off by land from the rest of the country; the city remains the headquarters of Russia's Baltic Fleet. (from the Russia chronicle; sources: Kaliningrad)
 
 ## Sources
 

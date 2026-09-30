@@ -73,6 +73,14 @@
           "sources": ["worldhistory-cyrus", "britannica-cyrus"]
         },
         {
+          "year": -550,
+          "yearLabel": "6th century BCE",
+          "title": "Pasargadae, the first Achaemenid capital, is founded in Fars",
+          "summary": "Cyrus the Great founds Pasargadae as the earliest capital of the Achaemenid Empire, in the heartland of the Persians, today the province of Fars in south-western Iran. UNESCO lists it as a World Heritage Site.",
+          "category": "founding",
+          "sources": ["unesco-pasargadae", "worldhistory-cyrus"]
+        },
+        {
           "year": -539,
           "yearLabel": "539 BCE",
           "title": "Conquest of Babylon and the Cyrus Cylinder",
@@ -87,6 +95,14 @@
           "summary": "Darius the Great organises the empire into satrapies, builds the Royal Road and standardised coinage, and begins the magnificent ceremonial capital of Persepolis, today a UNESCO World Heritage Site.",
           "category": "culture",
           "sources": ["unesco-persepolis", "worldhistory-cyrus"]
+        },
+        {
+          "year": -490,
+          "yearLabel": "c. 490 BCE",
+          "title": "Darius I calls himself 'a Persian, an Aryan' at Naqsh-e Rostam",
+          "summary": "The inscription on Darius I's tomb at Naqsh-e Rostam (DNa) styles him in Livius.org's translation as 'a Persian, son of a Persian, an Aryan, having Aryan lineage'. It gives two self-descriptions: Persian, after the homeland of Pārsa in Fars, and Aryan, the old word for the Iranians.",
+          "category": "culture",
+          "sources": ["livius-dna"]
         },
         {
           "year": -330,
@@ -117,7 +133,7 @@
         "text": "I am Cyrus, king of the world, great king, mighty king, king of Babylon.",
         "attribution": "The Cyrus Cylinder, c. 539 BCE"
       },
-      "sources": ["britannica-elam", "worldhistory-susa", "worldhistory-cyrus", "britannica-cyrus", "britishmuseum-cyruscylinder", "unesco-persepolis", "worldhistory-persepolis-burning"]
+      "sources": ["britannica-elam", "worldhistory-susa", "worldhistory-cyrus", "britannica-cyrus", "britishmuseum-cyruscylinder", "unesco-persepolis", "unesco-pasargadae", "livius-dna", "worldhistory-persepolis-burning"]
     },
     {
       "id": "hellenistic-parthian-and-sasanian-persia",
@@ -148,6 +164,14 @@
           "summary": "Ardashir I overthrows the last Parthian king and establishes the Sasanian Empire, the last great pre-Islamic Persian state, with its capital at Ctesiphon.",
           "category": "founding",
           "sources": ["worldhistory-sasanian", "britannica-sasanian"]
+        },
+        {
+          "year": 224,
+          "yearLabel": "3rd century CE",
+          "title": "Sasanian kings style themselves rulers of Ērān, the Iranians",
+          "summary": "Sasanian royal inscriptions of the 3rd century CE name their kings as king of kings of the Ērān, the Iranians: at Naqsh-e Rajab in Fars, Shapur I is 'the king of kings in Iran and abroad' in Livius.org's translation. Encyclopaedia Iranica's entry, as cited by Wikipedia, dates the first attestation of the word to Ardashir I's relief at Naqsh-e Rostam and reads the later term Ērānšahr, 'realm of the Iranians', as the empire's own name for itself.",
+          "category": "culture",
+          "sources": ["livius-shapur-naqsh-e-rajab", "wikipedia-iran-word"]
         },
         {
           "year": 224,
@@ -184,7 +208,7 @@
           "sources": ["worldhistory-sasanian", "britannica-sasanian"]
         }
       ],
-      "sources": ["britannica-parthia", "worldhistory-sasanian", "britannica-sasanian", "worldhistory-zoroastrianism", "britannica-nahavand"]
+      "sources": ["britannica-parthia", "worldhistory-sasanian", "britannica-sasanian", "worldhistory-zoroastrianism", "livius-shapur-naqsh-e-rajab", "wikipedia-iran-word", "britannica-nahavand"]
     },
     {
       "id": "arab-conquest-and-islamic-persia",
@@ -336,7 +360,7 @@
       "body": [
         "From the late eighteenth century the Qajar dynasty ruled Iran, but its long nineteenth century was marked by weakness before the European powers. Wars with Russia cost Iran the Caucasus, and Britain and Russia carved out spheres of influence, securing lucrative concessions over tobacco, oil and finance. Resentment at this foreign penetration and at royal misrule fuelled demands for reform.",
         "In 1905–1906 a broad coalition of merchants, clerics and intellectuals forced Mozaffar al-Din Shah to grant a constitution and a national parliament, the Majles. This Constitutional Revolution, the first of its kind in the Middle East, was a landmark in Iranian political history, though the constitution was soon suspended and the movement crushed with Russian help by 1911. The discovery of oil in 1908 made Iran a strategic prize and bound its economy ever more tightly to foreign companies.",
-        "In 1921 the army officer Reza Khan seized power in a coup, and in 1925 the Majles deposed the last Qajar shah and made him Reza Shah Pahlavi. He drove a programme of authoritarian modernisation — building railways, schools, a centralised state and a secular legal system — and in 1935 had the country known internationally as Iran. After Allied forces deposed him in 1941, his son Mohammad Reza Pahlavi took the throne.",
+        "In 1921 the army officer Reza Khan seized power in a coup, and in 1925 the Majles deposed the last Qajar shah and made him Reza Shah Pahlavi. He drove a programme of authoritarian modernisation — building railways, schools, a centralised state and a secular legal system — and in 1935 asked foreign governments to call the country Iran rather than Persia. After Allied forces deposed him in 1941, his son Mohammad Reza Pahlavi took the throne.",
         "In 1951 the popular prime minister Mohammad Mosaddegh nationalised the British-controlled oil industry, but in August 1953 he was overthrown in a coup organised by the American CIA and British intelligence. The restored shah ruled increasingly autocratically, pursuing rapid Westernising reform while suppressing dissent, until mounting opposition exploded into the revolution of 1978–79."
       ],
       "events": [
@@ -365,12 +389,28 @@
           "sources": ["wikipedia-pahlavi", "britannica-iran"]
         },
         {
+          "year": 1935,
+          "yearLabel": "21 Mar 1935",
+          "title": "Iran asks the world to say 'Iran', not 'Persia'",
+          "summary": "On 25 December 1934 the Persian Foreign Ministry circulated a memorandum to the diplomatic missions in Tehran asking that 'Iran' and 'Iranian' be used in official correspondence and conversation from 21 March 1935 instead of 'Persia' and 'Persian'. Britain's Foreign Secretary told the Commons that its minister had been instructed to accede; US State Department records note that the name 'Iran' came into official use on 22 March 1935.",
+          "category": "politics",
+          "sources": ["hansard-1935-persia", "frus-1935-iran"]
+        },
+        {
           "year": 1953,
           "yearLabel": "1953 CE",
           "title": "The CIA-backed coup against Mosaddegh",
           "summary": "Prime Minister Mohammad Mosaddegh, who had nationalised the oil industry, is overthrown in August 1953 in a coup organised by the CIA and British intelligence, restoring the shah's power.",
           "category": "politics",
           "sources": ["britannica-1953coup", "wikipedia-1953coup"]
+        },
+        {
+          "year": 1959,
+          "yearLabel": "1959 CE",
+          "title": "A committee proposes undoing the 1935 name request",
+          "summary": "In the summer of 1959 a committee of statesmen and scholars reported to the government proposing that the change of name be reversed. According to the scholar Ehsan Yarshater, a Foreign Ministry circular then made the use of either name, Persia or Iran, optional.",
+          "category": "politics",
+          "sources": ["yarshater-persia-or-iran"]
         }
       ],
       "figures": [
@@ -378,7 +418,7 @@
           "name": "Reza Shah Pahlavi",
           "role": "Founder of the Pahlavi dynasty",
           "life": "reigned 1925–1941",
-          "blurb": "A Cossack officer who rose through a 1921 coup to found the Pahlavi monarchy. He modernised Iran's infrastructure, army and law along secular, centralising lines, and in 1935 had the country called Iran internationally.",
+          "blurb": "A Cossack officer who rose through a 1921 coup to found the Pahlavi monarchy. He modernised Iran's infrastructure, army and law along secular, centralising lines, and in 1935 asked foreign governments to call the country Iran rather than Persia.",
           "sources": ["wikipedia-pahlavi"]
         },
         {
@@ -389,7 +429,7 @@
           "sources": ["britannica-1953coup"]
         }
       ],
-      "sources": ["wikipedia-constitutionalrev", "britannica-iran", "wikipedia-pahlavi", "britannica-1953coup", "wikipedia-1953coup"]
+      "sources": ["wikipedia-constitutionalrev", "britannica-iran", "wikipedia-pahlavi", "britannica-1953coup", "wikipedia-1953coup", "hansard-1935-persia", "frus-1935-iran", "yarshater-persia-or-iran"]
     },
     {
       "id": "the-islamic-republic",
@@ -665,6 +705,13 @@
       "url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_598",
       "kind": "reference"
     },
+    { "id": "unesco-pasargadae", "label": "Pasargadae — UNESCO World Heritage List", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1106/", "kind": "gov" },
+    { "id": "livius-dna", "label": "DNa: the tomb inscription of Darius I at Naqsh-e Rostam", "publisher": "Livius.org", "url": "https://www.livius.org/sources/content/achaemenid-royal-inscriptions/dna/", "kind": "primary" },
+    { "id": "livius-shapur-naqsh-e-rajab", "label": "Naqsh-e Rajab, equestrian relief of Shapur I", "publisher": "Livius.org", "url": "https://www.livius.org/articles/place/naqs-e-rajab/naqs-e-rajab-equestrian-relief-of-shapur-i/", "kind": "reference" },
+    { "id": "wikipedia-iran-word", "label": "Iran (word)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Iran_(word)", "kind": "reference" },
+    { "id": "hansard-1935-persia", "label": "Persia (Official Name), HC Deb 20 February 1935 vol 298 cc350-1", "publisher": "UK Parliament, Hansard", "url": "https://api.parliament.uk/historic-hansard/commons/1935/feb/20/persia-official-name", "kind": "gov" },
+    { "id": "frus-1935-iran", "label": "Foreign Relations of the United States, 1935, vol. I, doc. 338 (footnote on the name Iran)", "publisher": "US Department of State, Office of the Historian", "url": "https://history.state.gov/historicaldocuments/frus1935v01/d338", "kind": "gov" },
+    { "id": "yarshater-persia-or-iran", "label": "Communication: Iran or Persia? (Iranian Studies 22:1, 1989)", "publisher": "Ehsan Yarshater, Iranian Studies", "url": "https://derbentonline.com/?p=85", "kind": "academic" },
     { "id": "wikipedia-achaemenid", "label": "Achaemenid Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Achaemenid_Empire", "kind": "reference" },
     { "id": "wikipedia-parthian", "label": "Parthian Empire", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Parthian_Empire", "kind": "reference" },
     { "id": "wikipedia-muslim-conquest-persia", "label": "Muslim conquest of Persia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia", "kind": "reference" },

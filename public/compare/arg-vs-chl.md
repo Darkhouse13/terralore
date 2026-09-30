@@ -1,6 +1,6 @@
 # Argentina and Chile compared
 
-Argentina and Chile side by side: 43 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Argentina and Chile side by side: 43 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/arg-vs-chl
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -105,11 +105,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ARG.md and https://terralore.co/country/CHL.md.
 
-## Entangled histories (1 event)
+## Entangled histories (2 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - Jan-Feb 1817: **San Martin crosses the Andes** — San Martin leads the Army of the Andes over the cordillera and defeats royalist forces at Chacabuco, opening the liberation of Chile. (from the Argentina chronicle; sources: Jose de San Martin; Argentina)
+- 23 July 1881: **Boundary treaty with Argentina** — Chile and Argentina fix their common border along the Cordillera of the Andes, running 'along the highest peaks of said Cordillera dividing the waters'; disputes over how to trace the line were settled by British arbitration in 1902. (from the Chile chronicle; sources: The Cordillera of the Andes Boundary Case (Argentina, Chile), Award of 20 November 1902, with the Treaty of 23 July 1881)
 
 ## Sources
 

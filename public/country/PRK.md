@@ -90,7 +90,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:PRK:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/PRK.claims.json
 
-History: "An ancient Korean heritage severed by colonization and Cold War division, forged into a self-isolating state under three generations of a single ruling family." — the sourced chronicle is at https://terralore.co/country/PRK/chronicle.md (6 eras, 22 events).
+History: "An ancient Korean heritage severed by colonization and Cold War division, forged into a self-isolating state under three generations of a single ruling family." — the sourced chronicle is at https://terralore.co/country/PRK/chronicle.md (6 eras, 29 events).
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Lithuania and Russia compared
 
-Lithuania and Russia side by side: 43 shared sourced indicators across 9 domains, and the 9 events their chronicles record of each other.
+Lithuania and Russia side by side: 43 shared sourced indicators across 9 domains, and the 10 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/ltu-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -111,7 +111,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/LTU.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (9 events)
+## Entangled histories (10 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -122,6 +122,7 @@ Events in which either nation's sourced chronicle names the other — including 
 - 1944–c. 1953: **The Forest Brothers' partisan war** — Thousands of Lithuanians fought a guerrilla war against the returning Soviet forces; the partisan movement controlled much of the countryside before being crushed by the early 1950s. (from the Lithuania chronicle; sources: Genocide and Resistance Research Centre of Lithuania; History of Lithuania)
 - 1988: **The rise of Sajudis** — The reform movement Sajudis emerged as Soviet controls loosened, mobilising mass support for Lithuanian sovereignty and winning a majority in the 1990 elections to the republic's parliament. (from the Lithuania chronicle; sources: March the 11th: path to the restoration of the independent State of Lithuania; History of Lithuania)
 - 11 Mar 1990: **Restoration of independence** — The Supreme Council adopted the Act on the Re-establishment of the State of Lithuania, making Lithuania the first Soviet republic to declare the restoration of its independence. (from the Lithuania chronicle; sources: March the 11th: path to the restoration of the independent State of Lithuania; History of Lithuania)
+- 1991: **Kaliningrad becomes an exclave** — With Lithuania independent and the Soviet Union dissolved, the Kaliningrad region was left as an exclave of Russia between Lithuania and Poland, cut off by land from the rest of the country; the city remains the headquarters of Russia's Baltic Fleet. (from the Russia chronicle; sources: Kaliningrad)
 - 13 Jan 1991: **The January events in Vilnius** — Soviet forces stormed the Vilnius television tower and broadcasting centre, killing fourteen unarmed civilians; the defenders held parliament and the crackdown discredited Moscow. (from the Lithuania chronicle; sources: January 13, 1991: the night when Soviets stormed LRT; March the 11th: path to the restoration of the independent State of Lithuania)
 - 29 Mar 2004: **Accession to NATO** — Lithuania formally joined NATO on 29 March 2004, anchoring its security in the Atlantic alliance a little over a decade after the withdrawal of Soviet forces. (from the Lithuania chronicle; sources: Chronology of Events: Lithuania and NATO)
 

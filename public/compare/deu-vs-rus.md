@@ -1,6 +1,6 @@
 # Germany and Russia compared
 
-Germany and Russia side by side: 42 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
+Germany and Russia side by side: 42 shared sourced indicators across 9 domains, and the 6 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/deu-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -111,12 +111,15 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/DEU.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (3 events)
+## Entangled histories (6 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1941-1945: **The Great Patriotic War** — Nazi Germany's invasion of 22 June 1941 begins the war's deadliest theater; after the siege of Leningrad and the decisive victory at Stalingrad, Soviet forces reach Berlin in 1945 at a cost of roughly 27 million Soviet dead. (from the Russia chronicle; sources: Battle of Stalingrad; The Eastern Front: The German War against the Soviet Union; World War II casualties of the Soviet Union)
 - 1941–1945: **The Holocaust** — Nazi Germany carried out the systematic, state-organised murder of some six million European Jews, alongside the killing of Roma, disabled people, Soviet prisoners and other victims. (from the Germany chronicle; sources: The Holocaust and World War II: Key Dates)
+- 9 April – 2 August 1945: **Königsberg taken and assigned to the USSR** — The Red Army captured the East Prussian capital Königsberg on 9 April 1945, and at Potsdam the Allies agreed in principle to the ultimate transfer of the city and the area adjacent to it to the Soviet Union. (from the Russia chronicle; sources: Protocol of the Proceedings of the Berlin (Potsdam) Conference, 1 August 1945; Battle of Königsberg)
+- 1946: **Königsberg becomes Kaliningrad** — The city was renamed Kaliningrad in honour of the Bolshevik leader Mikhail Kalinin; its German population was expelled and Soviet settlers repopulated the ruined city. (from the Russia chronicle; sources: Kaliningrad)
+- 24 Jun 1948 – 12 May 1949: **The Berlin Blockade and Airlift** — Berlin, divided into four sectors but located far inside the Soviet zone, was cut off when Soviet forces blockaded rail, road and water access to its western sectors; the United States and Britain flew in food and fuel, at the height one plane landing every 45 seconds at Tempelhof, until the blockade was lifted on 12 May 1949. West Berlin remained an enclave entirely surrounded by East Germany until 1990. (from the Germany chronicle; sources: The Berlin Airlift, 1948–1949; West Berlin)
 - 23 May 1949: **Founding of the two German states** — The Basic Law established the Federal Republic of Germany in the west on 23 May 1949; the German Democratic Republic was founded in the Soviet zone on 7 October 1949, formalising the country's division. (from the Germany chronicle; sources: Germany)
 
 ## Sources

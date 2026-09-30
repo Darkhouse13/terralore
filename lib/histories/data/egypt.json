@@ -162,6 +162,8 @@
         { "year": 1805, "yearLabel": "1805", "title": "Muhammad Ali takes power", "summary": "Recognised as Ottoman governor, Muhammad Ali founds a reforming dynasty and modernises Egypt's army, economy and administration.", "category": "politics", "sources": ["britannica-ottoman-egypt"] },
         { "year": 1869, "yearLabel": "1869", "title": "Opening of the Suez Canal", "summary": "The Suez Canal links the Mediterranean and Red seas, transforming global trade but deepening Egypt's debts to European powers.", "category": "economy", "sources": ["britannica-suez-crisis"] },
         { "year": 1882, "yearLabel": "1882", "title": "British occupation begins", "summary": "Britain defeats the Urabi revolt and occupies Egypt, taking effective control of the country while leaving the khedive nominally in place.", "category": "colonization", "sources": ["britannica-ottoman-egypt"] },
+        { "year": 1899, "yearLabel": "19 January 1899", "title": "Anglo-Egyptian agreement fixes the 22nd parallel as the Sudan limit", "summary": "Britain and Egypt agree on the joint administration of the Sudan, defining it as all territories south of the 22nd parallel of latitude. Egypt still cites this line as its international boundary with Sudan.", "category": "colonization", "sources": ["ws-sudan-convention-1899", "statedept-ibs18", "un-egypt-2017-may"] },
+        { "year": 1902, "yearLabel": "4 November 1902", "title": "Administrative line drawn for nomadic tribes on the Sudan border", "summary": "The Egyptian Minister of the Interior activates an administrative boundary east of the Nile that departs from the 22nd parallel so as to keep tribal areas together: the Ababda under Egyptian administration, the Bisharin under Sudanese. Egypt describes such arrangements as provisional; the 22nd parallel remained the international boundary.", "category": "colonization", "sources": ["statedept-ibs18", "un-egypt-2017-may"] },
         { "year": 1922, "yearLabel": "28 February 1922", "title": "Declaration of Egyptian independence", "summary": "After the 1919 revolution led by Saad Zaghloul and the Wafd, Britain unilaterally declares Egypt independent; Fuad I becomes king of the new Kingdom of Egypt.", "category": "independence", "sources": ["wikipedia-1919-revolution"] }
       ],
       "figures": [
@@ -169,7 +171,7 @@
         { "name": "Saad Zaghloul", "role": "Nationalist leader of the Wafd", "life": "1859–1927", "blurb": "Figurehead of the 1919 revolution and founder of the Wafd party, whose campaign for self-rule forced Britain's 1922 declaration of Egyptian independence.", "sources": ["wikipedia-1919-revolution"] }
       ],
       "pullquote": { "text": "The 1919 revolution united Muslims and Copts, students and peasants, in a national demand for independence.", "attribution": "On the rise of Egyptian nationalism" },
-      "sources": ["britannica-ottoman-egypt", "britannica-suez-crisis", "wikipedia-1919-revolution"]
+      "sources": ["britannica-ottoman-egypt", "britannica-suez-crisis", "wikipedia-1919-revolution", "ws-sudan-convention-1899", "statedept-ibs18", "un-egypt-2017-may"]
     },
     {
       "id": "modern-republic",
@@ -219,7 +221,10 @@
     { "id": "wikipedia-narmer", "label": "Narmer", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Narmer", "kind": "reference" },
     { "id": "wikipedia-fatimid", "label": "Fatimid Caliphate", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fatimid_Caliphate", "kind": "reference" },
     { "id": "wikipedia-egypt-eyalet", "label": "Egypt Eyalet", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Egypt_Eyalet", "kind": "reference" },
-    { "id": "wikipedia-muhammad-ali-dynasty", "label": "Muhammad Ali dynasty", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_dynasty", "kind": "reference" }
+    { "id": "wikipedia-muhammad-ali-dynasty", "label": "Muhammad Ali dynasty", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_dynasty", "kind": "reference" },
+    { "id": "statedept-ibs18", "label": "International Boundary Study No. 18: Egypt (United Arab Republic) – Sudan Boundary (1962)", "publisher": "U.S. Department of State, Office of the Geographer (via FSU College of Law)", "url": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs018.pdf", "kind": "gov" },
+    { "id": "un-egypt-2017-may", "label": "Egypt: Declaration to the UN Secretary-General (4 May 2017)", "publisher": "UN Division for Ocean Affairs and the Law of the Sea", "url": "https://www.un.org/depts/los/LEGISLATIONANDTREATIES/PDFFILES/EGY_SDN_2017_en.pdf", "kind": "gov" },
+    { "id": "ws-sudan-convention-1899", "label": "Sudan Convention (1899)", "publisher": "Wikisource", "url": "https://en.wikisource.org/wiki/Sudan_Convention_(1899)", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-06-13"

@@ -1,6 +1,6 @@
 # Japan and South Korea compared
 
-Japan and South Korea side by side: 42 shared sourced indicators across 9 domains, and the 7 events their chronicles record of each other.
+Japan and South Korea side by side: 42 shared sourced indicators across 9 domains, and the 9 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/jpn-vs-kor
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,7 +102,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/JPN.md and https://terralore.co/country/KOR.md.
 
-## Entangled histories (7 events)
+## Entangled histories (9 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -113,6 +113,8 @@ Events in which either nation's sourced chronicle names the other — including 
 - April 1919: **Korean Provisional Government formed** — Korean nationalists establish a Provisional Government in exile in Shanghai to coordinate the independence struggle against Japanese rule. (from the South Korea chronicle; sources: Korea Under Japanese Rule; Korea (history))
 - c. 1939-1945 CE: **Forced labor and wartime mobilization** — As the Pacific War expands, Japan conscripts hundreds of thousands of Koreans for forced labor and military service and coerces women into sexual slavery. (from the South Korea chronicle; sources: Korea Under Japanese Rule)
 - 15 August 1945: **Liberation from Japan** — Japan's surrender ends 35 years of colonial rule; Koreans celebrate Gwangbokjeol, the Restoration of Light, even as foreign occupation and division loom. (from the South Korea chronicle; sources: Korea Under Japanese Rule; The Korean War and Japan's Recovery)
+- Night of 10-11 August 1945: **Rusk and Bonesteel propose the 38th parallel** — During an overnight meeting in John McCloy's Pentagon office, US Army officers Dean Rusk and Charles Bonesteel are asked to retire to an adjoining room and propose where US forces should accept Japan's surrender in Korea. They recommend the 38th parallel to include Seoul in the American area, though it lay further north than US forces could reach if the Soviet Union disagreed (Rusk's own later account, 1950). (from the South Korea chronicle; sources: Foreign Relations of the United States, 1945, Vol. VI, Doc. 771: Draft memorandum on Korea, with Dean Rusk's memorandum of 12 July 1950 on the 38th parallel; Foreign Relations of the United States, 1945, Vol. VI, Doc. 437: General Order No. 1 for the surrender of Japan (JCS memorandum, 14 August 1945))
+- 16 August 1945: **Stalin does not object to General Order No. 1** — General Order No. 1, which assigns the Japanese surrender in Korea north of 38 degrees north latitude to Soviet forces and south of it to US forces, is approved by President Truman on 17 August. In his 16 August reply Stalin writes that he has no objection in principle to the order, asking only for changes concerning the Kuril Islands and northern Hokkaido; Rusk later recalled being surprised that the Soviet Union accepted the parallel. (from the South Korea chronicle; sources: Foreign Relations of the United States, 1945, Vol. VI, Doc. 450: Stalin to Truman on General Order No. 1, 16 August 1945; Foreign Relations of the United States, 1945, Vol. VI, Doc. 437: General Order No. 1 for the surrender of Japan (JCS memorandum, 14 August 1945); Foreign Relations of the United States, 1945, Vol. VI, Doc. 771: Draft memorandum on Korea, with Dean Rusk's memorandum of 12 July 1950 on the 38th parallel)
 
 ## Sources
 
