@@ -122,6 +122,61 @@ export default function PrivacyPage() {
             </ul>
           </section>
 
+          <section className="mt-8 border-t-2 border-basalt pt-5">
+            <h2 className="font-display text-[22px] font-extrabold tracking-tight uppercase">
+              Our videos and the YouTube API
+            </h2>
+            <p className="mt-3 max-w-2xl font-sans text-[15px] leading-relaxed">
+              Terralore publishes its own short videos to its own YouTube channel,
+              @terraloreco, through a scheduling tool we host on our own server. That tool
+              uses YouTube API Services, and only to upload our videos and to identify our
+              channel. By watching our videos on YouTube you are also bound by the{" "}
+              <a
+                href="https://www.youtube.com/t/terms"
+                className="text-oxide underline underline-offset-2"
+                rel="noopener"
+              >
+                YouTube Terms of Service
+              </a>
+              , and Google handles your data under the{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                className="text-oxide underline underline-offset-2"
+                rel="noopener"
+              >
+                Google Privacy Policy
+              </a>
+              .
+            </p>
+            <ul className="mt-4 max-w-2xl space-y-2 font-sans text-[14.5px] leading-relaxed">
+              <li>
+                <span className="font-mono text-[11px] text-umber uppercase">What is accessed — </span>
+                the authorisation of our own channel, to upload to it, and that
+                channel&rsquo;s name and id. No viewer&rsquo;s data is ever requested.
+              </li>
+              <li>
+                <span className="font-mono text-[11px] text-umber uppercase">What is stored — </span>
+                the channel&rsquo;s access token and the id of each video we upload, on our
+                own server. Nothing is sold, shared, or used for anything but publishing
+                our videos.
+              </li>
+              <li>
+                <span className="font-mono text-[11px] text-umber uppercase">Revoking — </span>
+                the tool has no users besides Terralore. Any Google account can revoke an
+                app&rsquo;s access at any time from{" "}
+                <a
+                  href="https://myaccount.google.com/permissions"
+                  className="text-oxide underline underline-offset-2"
+                  rel="noopener"
+                >
+                  Google&rsquo;s security settings
+                </a>
+                ; a revoked token stops working at once, and we delete it from our server
+                on request: ledger@terralore.co.
+              </li>
+            </ul>
+          </section>
+
           <footer className="mt-10 flex justify-between font-mono text-[10px] text-umber">
             <div>EVERY CLAIM SOURCED</div>
             <div>ABSENCE ≠ ZERO</div>
