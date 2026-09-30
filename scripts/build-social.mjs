@@ -215,7 +215,10 @@ async function buildDay(iso, ledger) {
     post("pinterest", "data", plan.dataCard, [asset("pin-data.png", altText(plan.dataCard))]),
   ];
 
-  if (plan.feed === 3) {
+  if (plan.feed === 4) {
+    // Reels only (docs/social-surface.md §2d): Instagram and the Facebook Page
+    // carry just the two reels from the reel drop; this build ships the pins.
+  } else if (plan.feed === 3) {
     // The two-carousel week (docs/social-surface.md §2c): Instagram and the
     // Facebook Page carry only the reels, plus a ranking carousel on Tuesday
     // and a formation story on Friday. TikTok keeps the ranking carousel.

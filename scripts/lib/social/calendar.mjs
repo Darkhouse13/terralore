@@ -58,6 +58,12 @@
 // The anchor and data card still plan every day — Pinterest keeps its pins —
 // and a curated anniversary still forces the anchor (the pins, and the reel
 // it may inspire — docs/reel-cadence.md), but it no longer earns a feed still.
+//
+// Reels only (from FEED_V4_FROM — docs/social-surface.md §2d): the 26–29 Sep
+// numbers showed the carousels still reaching 0–5 accounts on Instagram and
+// Facebook while the reels reached 1–4k, so the two weekly carousels go too.
+// No carousel is planned or recorded; the anchor and data card still plan
+// every day for Pinterest.
 
 import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource, commoditiesUpdated } from "@/lib/commodities";
@@ -82,6 +88,10 @@ export const isFeedV2 = (iso) => iso >= FEED_V2_FROM;
 /** First day of the two-carousel week (see the module note). */
 export const FEED_V3_FROM = "2026-09-27";
 export const isFeedV3 = (iso) => iso >= FEED_V3_FROM;
+
+/** First reels-only day on Instagram and Facebook (see the module note). */
+export const FEED_V4_FROM = "2026-10-01";
+export const isFeedV4 = (iso) => iso >= FEED_V4_FROM;
 
 /** Day of week, 0 = Sunday (epoch day 0 was a Thursday). */
 export const weekday = (date) => (((date.epochDay + 4) % 7) + 7) % 7;
@@ -322,12 +332,13 @@ export function planDay(iso, ledger) {
   const rec = recency(ledger, date);
   const v2 = isFeedV2(iso);
   const v3 = isFeedV3(iso);
+  const v4 = isFeedV4(iso);
   const curated = curatedAnniversary(iso);
   const anchor = pickAnchor(date, rec, curated?.event ?? null);
   const dataCard = pickDataCard(date, rec);
   const extraCard = v2 && !v3 && !curated ? pickDataCard(date, rec, { offset: 1, seedPrefix: "extra" }) : null;
-  const carousel = v3 ? pickWeeklyCarousel(date, rec) : pickCarousel(date, rec, anchor, dataCard, v2);
-  return { date, feed: v3 ? 3 : v2 ? 2 : 1, worthy: Boolean(curated), anchor, dataCard, extraCard, carousel };
+  const carousel = v4 ? null : v3 ? pickWeeklyCarousel(date, rec) : pickCarousel(date, rec, anchor, dataCard, v2);
+  return { date, feed: v4 ? 4 : v3 ? 3 : v2 ? 2 : 1, worthy: Boolean(curated), anchor, dataCard, extraCard, carousel };
 }
 
 /** The ledger entry a plan writes for its day — keyed by date, idempotent. */
@@ -337,7 +348,7 @@ export function ledgerEntry(plan) {
     eventNation: plan.anchor.event.code,
     surface: plan.dataCard.surfaceKey,
     // Formation seeds are "fm-<code>", ranking seeds "rk-<slug>" — the seed
-    // is already the namespaced identity. Carousel-free days (v3) record none.
+    // is already the namespaced identity. Carousel-free days (v3, v4) record none.
     ...(plan.carousel ? { carousel: plan.carousel.subject.seed } : {}),
     ...(plan.extraCard ? { extra: plan.extraCard.surfaceKey } : {}),
   };

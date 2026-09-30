@@ -161,6 +161,18 @@ Ledger: a v3 day records `carousel` only when it posted one, so an empty day
 spends no story. Ranking carousels count in their own 90-day window
 (`rk-` carousel keys), separate from the 30-day data-surface window.
 
+## 2d. Reels only (from 2026-10-01)
+
+**The two weekly carousels are retired on Instagram and Facebook too.** The
+30 Sep pull showed every carousel and still since 22 Sep at 0–10 views on
+both platforms (the 29 Sep forest-area carousel: 0), while the reels reached
+1–4k on Instagram and up to 8.2k on Facebook (Cyprus). Days from
+`FEED_V4_FROM` (`calendar.mjs`) plan no carousel and record none. Instagram
+and the Facebook Page carry only the two daily reels (`reel-1` 12:30,
+`reel-2` 19:30) from the reel drop. Pinterest is unchanged: the anchor and
+the data card still plan and ship every day. Site traffic is Pinterest's
+job; IG/FB are measured on watch-through, shares and follows.
+
 ## 3. The calendar (`calendar.mjs`)
 
 `planDay(iso, ledger)` is pure: no clock, no writes. The day's shape:

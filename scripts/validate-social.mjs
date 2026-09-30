@@ -184,7 +184,10 @@ function checkPlan(plan, label) {
     ...(plan.carousel ? [plan.carousel.subject] : []),
     ...(plan.extraCard ? [plan.extraCard] : []),
   ];
-  if (plan.feed === 3) {
+  if (plan.feed === 4) {
+    if (plan.carousel) fail(`${label}: reels-only days plan no carousel`);
+    if (plan.extraCard) fail(`${label}: reels-only days have no extra card`);
+  } else if (plan.feed === 3) {
     const want = CAROUSEL_DAYS[weekday(plan.date)] ?? null;
     if ((plan.carousel?.kind ?? null) !== want) {
       fail(`${label}: two-carousel week wants ${want ?? "no"} carousel, planned ${plan.carousel?.kind ?? "none"}`);
