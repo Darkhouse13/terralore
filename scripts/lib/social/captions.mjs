@@ -20,7 +20,10 @@
 //   · the citation line is the GEO template's shape (lib/geo.ts): the same
 //     `Terralore, "<title>", terralore.co<path>.` an answer engine is asked
 //     to use. The retrieval-date placeholder belongs to quoting agents and
-//     has no meaning in a caption, so the line ends at the path.
+//     has no meaning in a caption, so the line ends at the path. It is
+//     assembled into PINTEREST captions only: since 2026-10-03 Instagram,
+//     Facebook and TikTok captions carry no website link (Meta demotes posts
+//     that send people off-platform); the spec still carries it, checked.
 //
 // Figures always carry their years. Facts, never adjectives: authored copy
 // may say "highest" (arithmetic) and never "best" (judgment); disputes are
@@ -68,7 +71,8 @@ const c = (text) => ({ kind: "corpus", text });
 export function assembleCaption({ blocks, citation, type }, platform) {
   const margin = LIMITS[platform].margin;
   const tags = hashtagsFor(type).join(" ");
-  const parts = () => [...blocks.map((b) => b.text), citation, tags].filter((t) => t.length > 0);
+  const link = platform === "pinterest" ? citation : "";
+  const parts = () => [...blocks.map((b) => b.text), link, tags].filter((t) => t.length > 0);
   let over = parts().join("\n\n").length - margin;
   while (over > 0) {
     const corpus = blocks.filter((b) => b.kind === "corpus" && b.text.length > 0);

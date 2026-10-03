@@ -13,8 +13,11 @@
 #
 # Gates, before anything leaves the laptop: 1080×1920 H.264, at least 50 s
 # (the map-reel floor, docs/reel-cadence.md — the approved Cyprus cut runs
-# 57.5 s), a non-empty caption. The caption file is the post text exactly as
-# it should appear.
+# 57.5 s), a non-empty caption of at most 2,000 characters (Instagram rejects
+# over 2,200 — at publish time, hours after queueing; 2,000 is the margin the
+# still captions keep, scripts/lib/social/captions.mjs). The caption file is
+# the post text exactly as it should appear — and it carries no terralore.co
+# link (Meta demotes posts that send people off-platform; since 2026-10-03).
 set -euo pipefail
 
 if [ $# -lt 4 ]; then
@@ -30,6 +33,9 @@ DROP=/data/terralore-social/status/reels/$DATE
 [[ $SLOT =~ ^reel-[0-9]+$ ]] || { echo "slot must be reel-N" >&2; exit 2; }
 [ -f "$VIDEO" ] || { echo "no such video: $VIDEO" >&2; exit 2; }
 [ -s "$CAPTION" ] || { echo "caption file missing or empty: $CAPTION" >&2; exit 2; }
+CAPLEN=$(node -e 'process.stdout.write(String(require("fs").readFileSync(process.argv[1],"utf8").trim().length))' "$CAPTION")
+[ "$CAPLEN" -le 2000 ] || { echo "caption is $CAPLEN chars; the margin is 2000 (Instagram's limit 2200)" >&2; exit 1; }
+! grep -qi 'terralore\.co' "$CAPTION" || { echo "caption links to terralore.co; reel captions carry no website link" >&2; exit 1; }
 
 IFS=, read -r CODEC W H < <(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height \
   -of csv=p=0 "$VIDEO")

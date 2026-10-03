@@ -207,6 +207,17 @@ if (manifest.schemaVersion !== MANIFEST_SCHEMA_VERSION) {
 // manifest post so the scheduling loop below treats both identically; the
 // asset path is absolute because the drop is not the manifest's directory.
 const REEL_PLATFORMS = ["instagram", "facebook", ...(config.platformSettings?.youtube?.autoPublish ? ["youtube"] : [])];
+// Hard caption ceilings the platforms enforce only at PUBLISH time: Postiz
+// accepts an over-long caption and the post fails hours later (2026-10-02,
+// the Ireland reel: 2,477 > Instagram's 2,200, published on Facebook only).
+// Manifest captions are held under these by captions.mjs; reel captions are
+// hand-written, so they are checked here, per platform, before any upload.
+// (YouTube's 5,000 is the description; the title is cut to 100 below.)
+const CAPTION_LIMITS = { instagram: 2200, facebook: 63206, youtube: 5000 };
+// No website link in Instagram/Facebook captions (2026-10-03): Meta demotes
+// posts that send people off-platform. Pinterest keeps its link — a pin IS one.
+const NO_LINK_PLATFORMS = new Set(["instagram", "facebook"]);
+const SITE_LINK_RE = /terralore\.co\b/i;
 const reelPosts = [];
 const reelDir = join(REELS_DIR, date);
 if (existsSync(reelDir)) {
@@ -332,6 +343,15 @@ for (const item of schedule) {
 
   const skip = (reason) => results.push({ ...base, action: "skipped", reason });
 
+  const limit = CAPTION_LIMITS[post.platform];
+  if (post.type === "reel" && limit && post.caption.length > limit) {
+    results.push({ ...base, action: "failed", reason: `caption is ${post.caption.length} chars; ${post.platform} allows ${limit}` });
+    continue;
+  }
+  if (NO_LINK_PLATFORMS.has(post.platform) && SITE_LINK_RE.test(post.caption)) {
+    results.push({ ...base, action: "failed", reason: `caption links to terralore.co; ${post.platform} captions carry no website link` });
+    continue;
+  }
   if (postedStore[post.dedupeKey]) {
     skip(`already published (local posted-keys store, ${postedStore[post.dedupeKey].at})`);
     continue;
