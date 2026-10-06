@@ -1,6 +1,6 @@
 # United Arab Emirates and Oman compared
 
-United Arab Emirates and Oman side by side: 43 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+United Arab Emirates and Oman side by side: 43 shared sourced indicators across 9 domains, and the 6 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/are-vs-omn
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,9 +102,16 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ARE.md and https://terralore.co/country/OMN.md.
 
-## Entangled histories (0 events)
+## Entangled histories (6 events)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- late 1930s or early 1940s: **Madha's elders choose Muscat; Nahwa stays with Sharjah** — According to local oral history, the leaders of the neighbouring ruling families asked the elders of the mountain village of Madha which ruler it wished to follow. Madha chose Oman, reportedly for its perceived wealth, stronger government and the protection of its water, while the nearby village of Nahwa stayed with the Qawasim of Sharjah. The choice left Madha an Omani exclave inside the Trucial Coast with a Sharjah village inside it. The date and the wording of the question are recorded only in oral accounts. (from the United Arab Emirates chronicle; sources: Madha village's pledge of allegiance changed the map forever; A hidden piece of the Emirates)
+- 1969: **The Madha and Nahwa boundary is fixed** — After British surveyors consulted local tribes and rulers, the boundary between Madha and Nahwa was settled in 1969, two years before the federation, making Madha an exclave of Oman and Nahwa a counter-enclave of Sharjah. The line was inherited by the United Arab Emirates in 1971. (from the United Arab Emirates chronicle; sources: Madha; British diplomat who mapped the borders of the Emirates dies aged 89)
+- 1969: **The Madha and Nahwa boundary is fixed** — After British surveyors consulted local tribes and rulers, the boundary between Madha and Nahwa was settled in 1969, two years before the federation, making Madha an exclave of Oman and Nahwa a counter-enclave of Sharjah. The line was inherited by the United Arab Emirates in 1971. (from the Oman chronicle; sources: Madha; British diplomat who mapped the borders of the Emirates dies aged 89)
+- 22 June 2002: **Oman and the UAE sign their border agreement** — Oman and the United Arab Emirates signed in Abu Dhabi the Border Agreement on the borders from Eastern Uqaidat to Darah. Oman ratified it by Royal Decree 10/2003 on 27 January 2003, and the two states exchanged the instruments of ratification on 11 October 2003. (from the United Arab Emirates chronicle; sources: Royal Decree 10/2003 ratifying the Oman-UAE border agreement; Oman, UAE ratify border agreement)
+- 22 June 2002: **Oman and the UAE sign their border agreement** — Oman and the United Arab Emirates signed in Abu Dhabi the Border Agreement on the borders from Eastern Uqaidat to Darah. Oman ratified it by Royal Decree 10/2003 on 27 January 2003, and the two states exchanged the instruments of ratification on 11 October 2003. (from the Oman chronicle; sources: Royal Decree 10/2003 ratifying the Oman-UAE border agreement; Oman, UAE ratify border agreement)
+- 21 July 2008: **Final border maps include Madha and Nahwa** — Oman and the UAE signed the final coordinates and maps of their border: 51 maps and three lists of coordinates for the border posts in three sectors, one of them from Madha to Al Nahwa, closing the technical demarcation begun by the 2002 agreement. (from the United Arab Emirates chronicle; sources: Key border agreement to be signed with Oman)
 
 ## Sources
 

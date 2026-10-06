@@ -1,6 +1,6 @@
 # The Chronicle of Iran: From Cyrus the Great's first world empire to the Islamic Republic.
 
-History of Iran: From Cyrus the Great's first world empire to the Islamic Republic. 6 eras and 32 sourced events, every claim traceable to a named…
+History of Iran: From Cyrus the Great's first world empire to the Islamic Republic. 6 eras and 35 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/IRN/chronicle
 Updated: 2026-06-13
@@ -82,6 +82,7 @@ Under the Qajars Iran lost ground to Russia and Britain, won a pioneering consti
 - 21 Mar 1935: **Iran asks the world to say 'Iran', not 'Persia'** — On 25 December 1934 the Persian Foreign Ministry circulated a memorandum to the diplomatic missions in Tehran asking that 'Iran' and 'Iranian' be used in official correspondence and conversation from 21 March 1935 instead of 'Persia' and 'Persian'. Britain's Foreign Secretary told the Commons that its minister had been instructed to accede; US State Department records note that the name 'Iran' came into official use on 22 March 1935. [hansard-1935-persia, frus-1935-iran]
 - 1953 CE: **The CIA-backed coup against Mosaddegh** — Prime Minister Mohammad Mosaddegh, who had nationalised the oil industry, is overthrown in August 1953 in a coup organised by the CIA and British intelligence, restoring the shah's power. [britannica-1953coup, wikipedia-1953coup]
 - 1959 CE: **A committee proposes undoing the 1935 name request** — In the summer of 1959 a committee of statesmen and scholars reported to the government proposing that the change of name be reversed. According to the scholar Ehsan Yarshater, a Foreign Ministry circular then made the use of either name, Persia or Iran, optional. [yarshater-persia-or-iran]
+- 30 November 1971: **Iranian forces land on Abu Musa and the Tunbs a day before the federation is born** — As British forces left the Gulf, Iranian forces landed on Abu Musa, where a memorandum with Sharjah left sovereignty unsettled, and on the Greater and Lesser Tunbs, claimed by Ras al-Khaimah. The islands are administered by Iran and claimed by the UAE, which was founded on 2 December; Iran says it has never renounced them. [washingtoninstitute-threeislands, gulfnews-gargash-2019]
 
 Figures:
 
@@ -96,6 +97,8 @@ The 1979 revolution swept away the monarchy and created the Islamic Republic of 
 - 1 Apr 1979: **Proclamation of the Islamic Republic** — After a referendum on 30–31 March approves the change by an overwhelming majority, Khomeini proclaims the Islamic Republic of Iran on 1 April 1979. [wikipedia-republicreferendum, britannica-iranianrevolution]
 - Nov 1979: **US embassy seized and hostage crisis** — Militant students storm the US embassy in Tehran, holding 52 Americans for 444 days and setting the new republic on a long course of confrontation with the West. [britannica-iranianrevolution]
 - 1980–1988: **The Iran–Iraq War** — Iraq invades in September 1980, igniting a devastating eight-year war; Iran accepts UN Security Council Resolution 598 and a ceasefire takes effect on 20 August 1988. [britannica-iraniraqwar, wikipedia-unscr598]
+- 3 July 1988: **Iran Air Flight 655 is shot down over the Strait of Hormuz** — The USS Vincennes fired two missiles at an Iran Air Airbus A300 flying from Bandar Abbas to Dubai, killing all 290 aboard. The United States said the crew mistook it for a fighter; Iran called it a deliberate act. Iran took the case to the International Court of Justice in 1989 and it was discontinued in 1996 after a settlement. [icj-case-79]
+- 2 March 2026: **Shipping through the Strait of Hormuz collapses** — After strikes on Iran on 28 February, the Revolutionary Guards announced restrictions on the strait. According to Al Jazeera's shipping analysis, daily transits fell from over a hundred vessels to about five. [aljazeera-hormuz-2026]
 
 Figures:
 
@@ -146,5 +149,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:IRN
 - [wikipedia-parthian] Parthian Empire — Wikipedia · https://en.wikipedia.org/wiki/Parthian_Empire
 - [wikipedia-muslim-conquest-persia] Muslim conquest of Persia — Wikipedia · https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia
 - [wikipedia-buyid] Buyid dynasty — Wikipedia · https://en.wikipedia.org/wiki/Buyid_dynasty
+- [washingtoninstitute-threeislands] Analysis of the three-island dispute (Abu Musa, Greater and Lesser Tunb) — The Washington Institute for Near East Policy · https://www.washingtoninstitute.org/policy-analysis/persian-gulfs-occupied-territory-three-island-dispute
+- [gulfnews-gargash-2019] UAE statement on the islands of Abu Musa and the Greater and Lesser Tunb — Gulf News · https://gulfnews.com/uae/government/uae-slams-irans-occupation-of-its-islands-1.62447727
+- [icj-case-79] Aerial Incident of 3 July 1988 (Islamic Republic of Iran v. United States of America) — International Court of Justice · https://icj-cij.org/case/79
+- [aljazeera-hormuz-2026] How a 95 percent drop in Hormuz traffic changed global shipping — Al Jazeera · https://www.aljazeera.com/news/2026/8/27/how-a-95-percent-drop-in-hormuz-traffic-changed-global-shipping
 
 Citation template: Terralore, "The Chronicle of Iran: From Cyrus the Great's first world empire to the Islamic Republic.", terralore.co/country/IRN/chronicle, retrieved <YYYY-MM-DD>.

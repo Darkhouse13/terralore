@@ -125,6 +125,15 @@ export const france: CountryHistory = {
           sources: ["eb-verdun"],
         },
         {
+          year: 911,
+          yearLabel: "c. 911",
+          title: "Rollo and the Viking grant of Normandy",
+          summary:
+            "Around 911 the West Frankish king Charles the Simple granted the Viking leader Rollo lands around Rouen in return for baptism and the defence of the Seine, the beginning of the duchy whose rulers conquered England in 1066.",
+          category: "founding",
+          sources: ["wiki-saint-clair"],
+        },
+        {
           year: 987,
           title: "Hugh Capet elected king",
           summary:
@@ -489,6 +498,7 @@ export const france: CountryHistory = {
     { id: "eur-lex-349", label: "Treaty on the Functioning of the European Union, Article 349", publisher: "EUR-Lex", url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/art_349/oj/eng", kind: "primary" },
     { id: "eu-outermost", label: "Outermost regions", publisher: "European Commission, Regional and Urban Policy", url: "https://regions-and-cities.ec.europa.eu/policy/themes/outermost-regions_en", kind: "gov" },
     { id: "wikipedia-verdun", label: "Treaty of Verdun", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Treaty_of_Verdun", kind: "reference" },
+    { id: "wiki-saint-clair", label: "Treaty of Saint-Clair-sur-Epte", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Treaty_of_Saint-Clair-sur-Epte", kind: "reference" },
     { id: "nwe-france", label: "France", publisher: "New World Encyclopedia", url: "https://www.newworldencyclopedia.org/entry/France", kind: "encyclopedia" },
   ],
   status: "published",

@@ -1,6 +1,6 @@
 # France and United Kingdom compared
 
-France and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
+France and United Kingdom side by side: 42 shared sourced indicators across 9 domains, and the 6 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fra-vs-gbr
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -101,11 +101,14 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/FRA.md and https://terralore.co/country/GBR.md.
 
-## Entangled histories (3 events)
+## Entangled histories (6 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
+- c. 911: **Rollo and the Viking grant of Normandy** — Around 911 the West Frankish king Charles the Simple granted the Viking leader Rollo lands around Rouen in return for baptism and the defence of the Seine, the beginning of the duchy whose rulers conquered England in 1066. (from the France chronicle; sources: Treaty of Saint-Clair-sur-Epte)
+- 1204: **Normandy lost; the Channel Islands stay with the Crown** — Philip II of France conquered mainland Normandy from King John in 1204, but the Channel Islands remained loyal to the English Crown, which still holds them as Crown Dependencies. (from the United Kingdom chronicle; sources: Explained: why do we say 'La Reine, notre Duc'?; Channel Islands)
 - 1337: **Hundred Years' War begins** — A dynastic struggle with England that would last until 1453 and forge French identity. (from the France chronicle; sources: Hundred Years' War)
+- 1362: **Pleading in English Act** — Parliament ruled that all pleas in the courts be pleaded and judged in English, because French was too little known among ordinary people, ending nearly three centuries of French as the language of court proceedings (records stayed in Latin). (from the United Kingdom chronicle; sources: Pleading in English Act 1362; Law French: when law and language collide)
 - 1429: **Joan of Arc at Orléans** — Joan lifts the siege of Orléans, reversing English fortunes; she is executed in 1431. (from the France chronicle; sources: St. Joan of Arc)
 - 1643: **Cayenne settled** — A Rouen company's expedition under Charles Poncet de Brétigny buys the hill at the mouth of the Cayenne river from a local leader, Cépérou, and builds a fort. Dutch and English forces take the town several times before France regains it for good in 1664. (from the France chronicle; sources: Histoire des chefs-lieux d’Outre-mer: Cayenne)
 

@@ -65,10 +65,14 @@
         "The later Middle Ages were scarred by catastrophe and conflict. The Black Death, which reached England in 1348, killed a large share of the population within a few years and reshaped the economy and the bonds of serfdom. The Hundred Years' War with France (1337–1453) and the dynastic Wars of the Roses (1455–1487) drained the realm, until Henry Tudor's victory at Bosworth in 1485 ended the Plantagenet line and opened a new chapter."
       ],
       "events": [
+        { "year": 1066, "yearLabel": "25 September 1066", "title": "Harold defeats Harald Hardrada at Stamford Bridge", "summary": "Harold Godwinson beat the Norwegian king Harald Hardrada and his own brother Tostig at Stamford Bridge near York, days before William of Normandy landed in Sussex on 28 September.", "category": "war", "sources": ["wiki-stamford-bridge"] },
         { "year": 1066, "yearLabel": "14 October 1066", "title": "Battle of Hastings and the Norman Conquest", "summary": "William of Normandy defeated and killed King Harold II at Hastings and was crowned king on Christmas Day, beginning Norman rule and transforming England's language, law, and aristocracy.", "category": "war", "sources": ["brit-norman-conquest", "english-heritage"] },
         { "year": 1086, "yearLabel": "1086", "title": "Domesday Book compiled", "summary": "William the Conqueror ordered a comprehensive survey of landholding in England, producing Domesday Book, an unparalleled record of the kingdom's wealth and the new Norman order.", "category": "politics", "sources": ["bl-overview"] },
+        { "year": 1204, "yearLabel": "1204", "title": "Normandy lost; the Channel Islands stay with the Crown", "summary": "Philip II of France conquered mainland Normandy from King John in 1204, but the Channel Islands remained loyal to the English Crown, which still holds them as Crown Dependencies.", "category": "war", "sources": ["bailiwick-express", "wiki-channel-islands"] },
         { "year": 1215, "yearLabel": "15 June 1215", "title": "Magna Carta sealed at Runnymede", "summary": "Rebel barons compelled King John to seal Magna Carta, asserting that the monarch was bound by law; though soon annulled, it became a lasting symbol of limits on royal power.", "category": "politics", "sources": ["bl-overview", "brit-magna-carta"] },
         { "year": 1348, "yearLabel": "1348–1349", "endYear": 1349, "title": "The Black Death reaches England", "summary": "The plague pandemic killed a large proportion of England's population within a few years, devastating communities and accelerating long-term changes in labour and society.", "category": "disaster", "sources": ["bl-overview"] },
+        { "year": 1362, "yearLabel": "1362", "title": "Pleading in English Act", "summary": "Parliament ruled that all pleas in the courts be pleaded and judged in English, because French was too little known among ordinary people, ending nearly three centuries of French as the language of court proceedings (records stayed in Latin).", "category": "politics", "sources": ["wiki-pleading", "bodleian-law-french"] },
+        { "year": 1399, "yearLabel": "13 October 1399", "title": "Henry IV claims the crown in English", "summary": "At his coronation Henry IV reportedly addressed the assembly in English, the first such royal address in English recorded since the Norman Conquest.", "category": "politics", "sources": ["wiki-henry-iv"] },
         { "year": 1485, "yearLabel": "22 August 1485", "title": "Battle of Bosworth ends the Wars of the Roses", "summary": "Henry Tudor defeated Richard III at Bosworth Field, ending the Plantagenet dynasty and the Wars of the Roses and founding the Tudor line as Henry VII.", "category": "war", "sources": ["brit-tudors"] }
       ],
       "figures": [
@@ -252,7 +256,13 @@
       "publisher": "World History Encyclopedia",
       "url": "https://www.worldhistory.org/Athelstan/",
       "kind": "encyclopedia"
-    }
+    },
+    { "id": "wiki-stamford-bridge", "label": "Battle of Stamford Bridge", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge", "kind": "reference" },
+    { "id": "bailiwick-express", "label": "Explained: why do we say 'La Reine, notre Duc'?", "publisher": "Bailiwick Express", "url": "https://www.bailiwickexpress.com/news/explained-why-do-we-say-la-reine-notre-duc/", "kind": "reference" },
+    { "id": "wiki-channel-islands", "label": "Channel Islands", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Channel_Islands", "kind": "reference" },
+    { "id": "wiki-pleading", "label": "Pleading in English Act 1362", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pleading_in_English_Act_1362", "kind": "reference" },
+    { "id": "bodleian-law-french", "label": "Law French: when law and language collide", "publisher": "Bodleian Law Library blog", "url": "https://blogs.bodleian.ox.ac.uk/lawbod/2018/05/31/law-french-when-law-and-language-collide/", "kind": "reference" },
+    { "id": "wiki-henry-iv", "label": "Henry IV of England", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Henry_IV_of_England", "kind": "reference" }
   ],
   "status": "published",
   "updated": "2026-08-22"

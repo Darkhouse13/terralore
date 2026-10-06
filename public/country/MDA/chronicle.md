@@ -1,6 +1,6 @@
 # The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.
 
-History of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe. 6 eras and 25 sourced events, every…
+History of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe. 6 eras and 26 sourced events, every…
 
 Canonical: https://terralore.co/country/MDA/chronicle
 Updated: 2026-06-13
@@ -90,6 +90,7 @@ Independence in 1991 brought war in Transnistria and a frozen separatist conflic
 - 1994: **Autonomy for Gagauzia** — A Moldovan law granted broad self-government to the Turkic-speaking Gagauz of the south, creating the autonomous territorial unit of Gagauzia and peacefully resolving their bid for separation. [osce-gagauzia]
 - 22 Jun 2018: **UN resolution on foreign forces** — The UN General Assembly adopted resolution 72/282 by 64 votes to 15, urging Russia to complete the unconditional withdrawal of its Operational Group of Forces from Moldova, in line with the 1999 OSCE Istanbul commitments. [un-resolution-72-282, transnistria-jamestown]
 - 23 Jun 2022: **EU candidate status** — After applying for membership on 3 March 2022, Moldova was granted European Union candidate status by the European Council on 23 June 2022, opening accession negotiations in 2024. [eu-candidate-ec, eu-candidate-ep]
+- 1 Jan 2025: **Gas to Transnistria stops** — After the Russian-Ukrainian transit deal expired, Gazprom halted gas supplies to Moldova, citing a debt of 709 million dollars that Chisinau disputed. The Tiraspol-administered left bank lost heating and had rolling power cuts for weeks, while the rest of Moldova relied on other supplies. [meduza-2025-gas, intellinews-2025-gas]
 
 Figures:
 
@@ -119,5 +120,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:MDA
 - [eu-candidate-ep] Statement on the decision of the European Council of 23 June 2022 on granting EU candidate status to Moldova — European Parliament · https://www.europarl.europa.eu/delegations/en/statement-on-the-decision-of-the-europea/product-details/20220623DPU33297
 - [language-loc] Moldova: New Law Establishes Romanian as the State Language of the Country — Library of Congress, Global Legal Monitor · https://www.loc.gov/item/global-legal-monitor/2023-04-23/moldova-new-law-establishes-romanian-as-the-state-language-of-the-country/
 - [statedept-moldova] A Guide to the United States' History of Recognition: Moldova — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/moldova
+- [meduza-2025-gas] Russian gas cutoff leaves thousands without heat and power in Moldova's Transnistria region — Meduza · https://meduza.io/en/feature/2025/01/07/russian-gas-cutoff-leaves-thousands-without-heat-and-power-in-moldova-s-breakaway-transnistria-region
+- [intellinews-2025-gas] Moldova's Transnistria region hit by blackouts and industrial shutdowns after gas cut-off — bne IntelliNews · https://www.intellinews.com/moldova-s-separatist-transnistria-region-hit-by-blackouts-and-industrial-shutdowns-after-gas-cut-off-359751
 
 Citation template: Terralore, "The Chronicle of Moldova: From the principality of Stephen the Great to a partitioned borderland on the road to Europe.", terralore.co/country/MDA/chronicle, retrieved <YYYY-MM-DD>.

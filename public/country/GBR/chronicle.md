@@ -1,6 +1,6 @@
 # The Chronicle of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.
 
-History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 40 sourced…
+History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 44 sourced…
 
 Canonical: https://terralore.co/country/GBR/chronicle
 Updated: 2026-08-22
@@ -29,10 +29,14 @@ Figures:
 
 William of Normandy's victory in 1066 imposed a new French-speaking ruling class, tied England to continental Europe, and began the long medieval struggle over the limits of royal power.
 
+- 25 September 1066: **Harold defeats Harald Hardrada at Stamford Bridge** — Harold Godwinson beat the Norwegian king Harald Hardrada and his own brother Tostig at Stamford Bridge near York, days before William of Normandy landed in Sussex on 28 September. [wiki-stamford-bridge]
 - 14 October 1066: **Battle of Hastings and the Norman Conquest** — William of Normandy defeated and killed King Harold II at Hastings and was crowned king on Christmas Day, beginning Norman rule and transforming England's language, law, and aristocracy. [brit-norman-conquest, english-heritage]
 - 1086: **Domesday Book compiled** — William the Conqueror ordered a comprehensive survey of landholding in England, producing Domesday Book, an unparalleled record of the kingdom's wealth and the new Norman order. [bl-overview]
+- 1204: **Normandy lost; the Channel Islands stay with the Crown** — Philip II of France conquered mainland Normandy from King John in 1204, but the Channel Islands remained loyal to the English Crown, which still holds them as Crown Dependencies. [bailiwick-express, wiki-channel-islands]
 - 15 June 1215: **Magna Carta sealed at Runnymede** — Rebel barons compelled King John to seal Magna Carta, asserting that the monarch was bound by law; though soon annulled, it became a lasting symbol of limits on royal power. [bl-overview, brit-magna-carta]
 - 1348–1349: **The Black Death reaches England** — The plague pandemic killed a large proportion of England's population within a few years, devastating communities and accelerating long-term changes in labour and society. [bl-overview]
+- 1362: **Pleading in English Act** — Parliament ruled that all pleas in the courts be pleaded and judged in English, because French was too little known among ordinary people, ending nearly three centuries of French as the language of court proceedings (records stayed in Latin). [wiki-pleading, bodleian-law-french]
+- 13 October 1399: **Henry IV claims the crown in English** — At his coronation Henry IV reportedly addressed the assembly in English, the first such royal address in English recorded since the Norman Conquest. [wiki-henry-iv]
 - 22 August 1485: **Battle of Bosworth ends the Wars of the Roses** — Henry Tudor defeated Richard III at Bosworth Field, ending the Plantagenet dynasty and the Wars of the Roses and founding the Tudor line as Henry VII. [brit-tudors]
 
 Figures:
@@ -162,5 +166,11 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GBR
 - [wikipedia-laws-in-wales] Laws in Wales Acts 1535 and 1542 — Wikipedia · https://en.wikipedia.org/wiki/Laws_in_Wales_Acts_1535_and_1542
 - [legislation-titles-act-1927] Royal and Parliamentary Titles Act 1927 — legislation.gov.uk (The National Archives) · https://www.legislation.gov.uk/ukpga/Geo5/17-18/4/enacted
 - [whe-aethelstan] Aethelstan — World History Encyclopedia · https://www.worldhistory.org/Athelstan/
+- [wiki-stamford-bridge] Battle of Stamford Bridge — Wikipedia · https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge
+- [bailiwick-express] Explained: why do we say 'La Reine, notre Duc'? — Bailiwick Express · https://www.bailiwickexpress.com/news/explained-why-do-we-say-la-reine-notre-duc/
+- [wiki-channel-islands] Channel Islands — Wikipedia · https://en.wikipedia.org/wiki/Channel_Islands
+- [wiki-pleading] Pleading in English Act 1362 — Wikipedia · https://en.wikipedia.org/wiki/Pleading_in_English_Act_1362
+- [bodleian-law-french] Law French: when law and language collide — Bodleian Law Library blog · https://blogs.bodleian.ox.ac.uk/lawbod/2018/05/31/law-french-when-law-and-language-collide/
+- [wiki-henry-iv] Henry IV of England — Wikipedia · https://en.wikipedia.org/wiki/Henry_IV_of_England
 
 Citation template: Terralore, "The Chronicle of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.", terralore.co/country/GBR/chronicle, retrieved <YYYY-MM-DD>.

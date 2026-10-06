@@ -1,6 +1,6 @@
 # The Chronicle of France: From the forests of Gaul to the Fifth Republic
 
-History of France: From the forests of Gaul to the Fifth Republic. 5 eras and 31 sourced events, every claim traceable to a named reference.
+History of France: From the forests of Gaul to the Fifth Republic. 5 eras and 32 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/FRA/chronicle
 Updated: 2026-08-22
@@ -30,6 +30,7 @@ A Germanic people, the Franks, built a Christian kingdom that grew into Charlema
 - c. 496–508: **Baptism of Clovis I** — The first Frankish king to adopt Catholic Christianity, aligning crown and Church. [eb-clovis]
 - 800: **Charlemagne crowned Emperor** — Pope Leo III crowns Charlemagne in Rome, reviving the Western imperial title. [eb-charlemagne]
 - 843: **Treaty of Verdun** — Charlemagne's empire is split; West Francia becomes the seed of France. [eb-verdun]
+- c. 911: **Rollo and the Viking grant of Normandy** — Around 911 the West Frankish king Charles the Simple granted the Viking leader Rollo lands around Rouen in return for baptism and the defence of the Seine, the beginning of the duchy whose rulers conquered England in 1066. [wiki-saint-clair]
 - 987: **Hugh Capet elected king** — Beginning of the Capetian dynasty and the long consolidation of the French crown. [eb-hugh-capet]
 
 Figures:
@@ -125,6 +126,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:FRA
 - [eur-lex-349] Treaty on the Functioning of the European Union, Article 349 — EUR-Lex · https://eur-lex.europa.eu/eli/treaty/tfeu_2012/art_349/oj/eng
 - [eu-outermost] Outermost regions — European Commission, Regional and Urban Policy · https://regions-and-cities.ec.europa.eu/policy/themes/outermost-regions_en
 - [wikipedia-verdun] Treaty of Verdun — Wikipedia · https://en.wikipedia.org/wiki/Treaty_of_Verdun
+- [wiki-saint-clair] Treaty of Saint-Clair-sur-Epte — Wikipedia · https://en.wikipedia.org/wiki/Treaty_of_Saint-Clair-sur-Epte
 - [nwe-france] France — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/France
 
 Citation template: Terralore, "The Chronicle of France: From the forests of Gaul to the Fifth Republic", terralore.co/country/FRA/chronicle, retrieved <YYYY-MM-DD>.

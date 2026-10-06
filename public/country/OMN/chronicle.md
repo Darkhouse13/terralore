@@ -59,6 +59,8 @@ Shorn of Zanzibar and dependent on Britain, Oman turned inward; under Said bin T
 - 1932: **Accession of Sultan Said bin Taimur** — Said bin Taimur came to the throne and ruled an increasingly isolated and undeveloped Oman, leaning on British support to hold the country together. [britannica-said-taimur, britannica-oman]
 - 1965: **Outbreak of the Dhofar rebellion** — An uprising began in the neglected southern province of Dhofar against Said bin Taimur's rule, growing into a Marxist-led insurgency that would dominate Omani affairs for a decade. [britannica-oman, loc-ancient-oman]
 - 1967: **Oil exports begin** — Oman began exporting oil in commercial quantities, the start of the revenue that would later finance the country's modern transformation. [britannica-restoration, britannica-oman]
+- late 1930s or early 1940s: **Madha's elders choose Muscat; Nahwa stays with Sharjah** — According to local oral history, the leaders of the neighbouring ruling families asked the elders of the mountain village of Madha which ruler it wished to follow. Madha chose Oman, reportedly for its perceived wealth, stronger government and the protection of its water, while the nearby village of Nahwa stayed with the Qawasim of Sharjah. The choice left Madha an Omani exclave inside the Trucial Coast with a Sharjah village inside it. The date and the wording of the question are recorded only in oral accounts. [national-madha-pledge, national-hidden-piece]
+- 1969: **The Madha and Nahwa boundary is fixed** — After British surveyors consulted local tribes and rulers, the boundary between Madha and Nahwa was settled in 1969, two years before the federation, making Madha an exclave of Oman and Nahwa a counter-enclave of Sharjah. The line was inherited by the United Arab Emirates in 1971. [wikipedia-madha, national-walker-obituary]
 
 Figures:
 
@@ -71,8 +73,11 @@ The 1970 accession of Sultan Qaboos ended Oman's isolation and launched a fifty-
 - 23 July 1970: **Qaboos accedes in a palace coup** — Qaboos bin Said deposed his father Said bin Taimur and became sultan, ending Oman's isolation and beginning the modernization drive known as the Renaissance. [britannica-qaboos, britannica-restoration]
 - 1975: **Defeat of the Dhofar rebellion** — With British and Iranian support and a policy of amnesty and development, Qaboos's forces overcame the Dhofar insurgency, securing the unity of the country. [britannica-oman, britannica-restoration]
 - 1996: **Promulgation of the Basic Law** — Sultan Qaboos issued the Basic Law, Oman's first written constitution, defining the organs and guiding principles of the state. [britannica-qaboos, britannica-restoration]
+- 22 June 2002: **Oman and the UAE sign their border agreement** — Oman and the United Arab Emirates signed in Abu Dhabi the Border Agreement on the borders from Eastern Uqaidat to Darah. Oman ratified it by Royal Decree 10/2003 on 27 January 2003, and the two states exchanged the instruments of ratification on 11 October 2003. [oman-rd-10-2003, khaleej-ratify-2003]
+- 21 July 2008: **Final border maps include Madha and Nahwa** — Oman and the UAE signed the final coordinates and maps of their border: 51 maps and three lists of coordinates for the border posts in three sectors, one of them from Madha to Al Nahwa, closing the technical demarcation begun by the 2002 agreement. [emirates247-2008-border]
 - 10-11 January 2020: **Death of Qaboos and accession of Haitham** — Sultan Qaboos died after nearly fifty years on the throne, and his cousin Haitham bin Tariq was sworn in as sultan the following day in a smooth succession. [britannica-haitham, britannica-qaboos]
 - 11-12 January 2021: **New Basic Statute and Vision 2040** — Sultan Haitham issued a new Basic Statute establishing a formal crown prince and primogeniture succession, advancing Oman Vision 2040 and economic diversification. [britannica-haitham, oman-fm-history]
+- 24 June 2026: **Oman opens temporary corridors in the Strait of Hormuz** — Oman declared the existing traffic separation scheme in the strait unsafe, opened two temporary corridors either side of it, and said no tolls would be charged. [thestandard-oman-corridors]
 
 Figures:
 
@@ -101,5 +106,13 @@ Machine-readable claims — every event above as an addressable claim ID (TL:OMN
 - [oman-fm-history] About Oman: The State - History — Ministry of Foreign Affairs, Sultanate of Oman · https://www.fm.gov.om/en/about-oman/state/history/
 - [wikipedia-sultanate-oman] Sultanate of Oman — Wikipedia · https://en.wikipedia.org/wiki/Sultanate_of_Oman
 - [nwe-oman] Oman — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Oman
+- [national-madha-pledge] Madha village's pledge of allegiance changed the map forever — The National · https://www.thenationalnews.com/lifestyle/madha-village-s-pledge-of-allegiance-changed-the-map-forever-1.353384
+- [national-hidden-piece] A hidden piece of the Emirates — The National · https://www.thenationalnews.com/uae/a-hidden-piece-of-the-emirates-1.490500
+- [national-walker-obituary] British diplomat who mapped the borders of the Emirates dies aged 89 — The National · https://www.thenationalnews.com/uae/british-diplomat-who-mapped-the-borders-of-the-emirates-dies-aged-89-1.753231
+- [wikipedia-madha] Madha — Wikipedia · https://en.wikipedia.org/wiki/Madha
+- [oman-rd-10-2003] Royal Decree 10/2003 ratifying the Oman-UAE border agreement — Oman Royal Decrees · https://decree.om/2003/rd20030010/
+- [khaleej-ratify-2003] Oman, UAE ratify border agreement — Khaleej Times · https://www.khaleejtimes.com/uae/oman-uae-ratify-border-agreement
+- [emirates247-2008-border] Key border agreement to be signed with Oman — Emirates24|7 (WAM) · https://www.emirates247.com/eb247/news/national/key-border-agreement-to-be-signed-with-oman-2008-07-21-1.222949
+- [thestandard-oman-corridors] Oman opens temporary Strait of Hormuz shipping routes, says no tolls will be charged — The Standard (Hong Kong) · https://www.thestandard.com.hk/world/article/335501/Oman-opens-temporary-Strait-of-Hormuz-shipping-routes-says-no-tolls-will-be-charged
 
 Citation template: Terralore, "The Chronicle of Oman: From the copper of Magan and the frankincense roads to a seafaring empire that reached Zanzibar, reborn as a modern sultanate.", terralore.co/country/OMN/chronicle, retrieved <YYYY-MM-DD>.
