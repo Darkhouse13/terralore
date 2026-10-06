@@ -1,6 +1,6 @@
 # Greece and Türkiye compared
 
-Greece and Türkiye side by side: 43 shared sourced indicators across 9 domains, and the 8 events their chronicles record of each other.
+Greece and Türkiye side by side: 43 shared sourced indicators across 9 domains, and the 13 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/grc-vs-tur
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -106,7 +106,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/GRC.md and https://terralore.co/country/TUR.md.
 
-## Entangled histories (8 events)
+## Entangled histories (13 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -115,9 +115,14 @@ Events in which either nation's sourced chronicle names the other — including 
 - 25 March 1821 (traditional): **Outbreak of the Greek War of Independence** — Revolution against Ottoman rule erupted across the Peloponnese and beyond, beginning the war that would create an independent Greek state and inspiring philhellenes across Europe. (from the Greece chronicle; sources: War of Greek Independence; Greek Independence from the Ottoman Empire)
 - 20 October 1827: **Battle of Navarino** — A combined British, French and Russian fleet destroyed the Ottoman-Egyptian navy at Navarino, a decisive intervention by the Great Powers that turned the war in Greece's favour. (from the Greece chronicle; sources: War of Greek Independence; Greek Independence from the Ottoman Empire)
 - July 1832: **Treaty of Constantinople and the Kingdom of Greece** — The Ottoman sultan recognized Greek independence and the new state's frontiers in the Treaty of Constantinople; the Bavarian prince Otto was chosen as the first king of Greece. (from the Greece chronicle; sources: War of Greek Independence; Otto, king of Greece)
+- 13 February 1914: **The Great Powers award the eastern Aegean islands to Greece** — The Conference of London decided that Lemnos, Samothrace, Mytilene, Chios, Samos and Ikaria would be Greek and that Imbros and Tenedos would stay with the Ottoman Empire, on conditions that the islands not be fortified; Lausanne (1923) confirmed it in Article 12. (from the Greece chronicle; sources: Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16); The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position))
 - 1919–1922: **Turkish War of Independence** — Mustafa Kemal led a national resistance and a new Grand National Assembly in Ankara, defeating Greek, Armenian and French forces and ending the Allied occupation of Anatolia. (from the Türkiye chronicle; sources: Kemal Atatürk)
 - 10 August 1920: **Treaty of Sèvres** — The Allied treaty with the defeated Ottoman government proposed partitioning Anatolia among Greece, Armenia, Italy, France and others; rejected by the nationalists, it triggered the War of Independence. (from the Türkiye chronicle; sources: Kemal Atatürk; Ottoman Empire)
 - 1919–1922: **Asia Minor Catastrophe** — The Greco-Turkish War ended in the rout of Greek forces and the destruction of Smyrna in 1922; the 1923 Treaty of Lausanne mandated a population exchange that brought over a million refugees into Greece. (from the Greece chronicle; sources: Greece (country overview and history); 1919–1922 Greco-Turkish War (Asia Minor Catastrophe))
+- 24 July 1923: **Lausanne draws the Aegean: Articles 12 to 16** — The treaty confirmed Greek sovereignty over Lemnos, Samothrace, Mytilene, Chios, Samos and Nikaria (with restrictions on fortification), kept Imbros and Tenedos Turkish, renounced the Dodecanese and Castellorizzo to Italy, and placed islands within three miles of the Anatolian coast under Turkish sovereignty. (from the Türkiye chronicle; sources: Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16); The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position))
+- 30 January 1923: **The Convention on the Exchange of Greek and Turkish Populations** — Signed at Lausanne: a compulsory exchange from 1 May 1923 of Greek Orthodox Turkish nationals and Muslim Greek nationals, exempting Istanbul, Western Thrace, Imbros and Tenedos. About 1.2 million Orthodox had left Anatolia and Eastern Thrace in total, most before the convention took effect; about 355,000 Muslims left Greece. (from the Greece chronicle; sources: Immigration and Asylum: from 1900 to the Present (exchange figures, citing Ladas 1932 and Eddy 1931); Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16))
+- 8 June 1995: **Turkey's parliament authorises force if Greece extends its Aegean waters** — Weeks after Greece ratified UNCLOS reserving a right to a 12 nautical mile territorial sea, the Grand National Assembly authorised the Turkish government to take any measure, including military, should Greece extend its waters beyond six nautical miles in the Aegean. Greece calls it a violation of the UN Charter; Turkey says an extension would upset the Aegean balance. (from the Greece chronicle; sources: Issues of Greek-Turkish relations (Greek position); The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position))
+- 25 December 1995-31 January 1996: **The Kardak/Imia crisis** — A Turkish cargo ship ran aground on two rocks between Kalymnos and the Bodrum peninsula; Turkey and Greece each claimed sovereignty, ships and special forces were deployed, and three Greek officers died in a helicopter crash on 31 January before US mediation restored the earlier situation. (from the Türkiye chronicle; sources: Issues of Greek-Turkish relations (Greek position); The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position))
 
 ## Sources
 

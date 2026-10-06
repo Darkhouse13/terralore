@@ -1,6 +1,6 @@
 # Spain and Portugal compared
 
-Spain and Portugal side by side: 43 shared sourced indicators across 9 domains, and the 8 events their chronicles record of each other.
+Spain and Portugal side by side: 43 shared sourced indicators across 9 domains, and the 12 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/esp-vs-prt
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -103,16 +103,20 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ESP.md and https://terralore.co/country/PRT.md.
 
-## Entangled histories (8 events)
+## Entangled histories (12 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1578: **Disaster at Alcacer Quibir** — King Sebastian was killed leading a crusade into Morocco, triggering the succession crisis that opened the way to Spanish rule. (from the Portugal chronicle; sources: History of Portugal: Union of Spain and Portugal, 1580-1640)
 - 1580-1581: **Iberian Union under Philip II** — Philip II of Spain occupied Portugal and was accepted as king by the Cortes at Tomar in 1581, uniting the two crowns for sixty years. (from the Portugal chronicle; sources: History of Portugal: Union of Spain and Portugal, 1580-1640)
+- Apr 1581: **Oath of Tomar** — Philip II of Spain was acclaimed Philip I of Portugal at the Cortes of Tomar, promising to keep Portugal's laws, offices and institutions and creating a Council of Portugal: a union of crowns, not an annexation. (from the Portugal chronicle; sources: O Juramento de Tomar; History of Portugal: Union of Spain and Portugal, 1580-1640)
 - 1668: **Spain recognises independence** — By the Treaty of Lisbon, Spain at last acknowledged Portuguese sovereignty, ending the war of Restoration begun in 1640. (from the Portugal chronicle; sources: History of Portugal: Union of Spain and Portugal, 1580-1640; History of Portugal)
 - 1801 / 1815: **The Olivenca dispute** — Spain occupied Olivenca in 1801 and acquired it by the Treaty of Badajoz; the Congress of Vienna recommended its return to Portugal in 1815, but the sovereignty remains contested. (from the Portugal chronicle; sources: Written question on the Olivenca issue (Portugal/Spain) and the Ajuda Bridge, E-1298/2003; Treaty of Alcanices (1297))
+- 6 Jun 1801: **Treaty of Badajoz: Olivenza passes to Spain** — After the War of the Oranges Portugal ceded Olivenza to Spain. Spain holds the treaty valid and never revoked; Portugal holds that it was voided by Spain's 1807 invasion and Article 105 of the Congress of Vienna. (from the Spain chronicle; sources: Olivenza)
 - 1808-1814: **The Peninsular War** — British, Portuguese and Spanish forces fought the French in the Iberian Peninsula, eventually expelling Napoleon's armies from Portugal and Spain. (from the Portugal chronicle; sources: Peninsular War)
 - 1814: **End of the Peninsular War** — Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution. (from the Spain chronicle; sources: Spain)
+- 29 Sep 1864: **Treaty of Lisbon ends the Couto Misto** — The three-village semi-independent Couto Misto on the Galician border was divided: Spain took the three villages and Portugal received Soutelinho da Raia, Cambedo and Lama de Arcos. (from the Spain chronicle; sources: The forgotten country that existed between Spain and Portugal)
+- 29 Sep 1864: **Treaty of Lisbon ends the Couto Misto** — The three-village semi-independent Couto Misto on the Galician border was divided: Spain took the three villages and Portugal received Soutelinho da Raia, Cambedo and Lama de Arcos. (from the Portugal chronicle; sources: The forgotten country that existed between Spain and Portugal)
 - 1 Jan 1986: **Accession to the European Communities** — Portugal joined the European Communities on 1 January 1986, together with Spain, anchoring its democracy in European integration. (from the Portugal chronicle; sources: Portugal (EU member country profile))
 - 2013: **The Savage Islands maritime dispute** — Spain disputed the exclusive economic zone Portugal claims around the Savage Islands, contending that the islets are rocks under the law of the sea, an issue examined in US State Department maritime studies. (from the Portugal chronicle; sources: Limits in the Seas No. 155, Portugal: Maritime Claims and Boundaries)
 

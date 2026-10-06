@@ -1,6 +1,6 @@
 # United Kingdom and Portugal compared
 
-United Kingdom and Portugal side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
+United Kingdom and Portugal side by side: 42 shared sourced indicators across 9 domains, and the 4 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/gbr-vs-prt
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -103,10 +103,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/GBR.md and https://terralore.co/country/PRT.md.
 
-## Entangled histories (2 events)
+## Entangled histories (4 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
+- 14 Aug 1385: **Battle of Aljubarrota** — After the death of Ferdinand I in 1383 left a daughter married to John I of Castile, the Cortes of Coimbra acclaimed John of Avis (6 April 1385). At Aljubarrota a smaller Portuguese army with English archers defeated Castile's much larger force and secured the crown. (from the Portugal chronicle; sources: Portugal-UK 650: The Anglo-Portuguese Alliance)
+- 9 May 1386: **Treaty of Windsor** — England and Portugal confirmed a 'perpetual league, friendship and confederation', later described by both governments as the oldest alliance still in force. (from the Portugal chronicle; sources: Portugal-UK 650: The Anglo-Portuguese Alliance)
 - 27 Nov 1807: **Court flees to Brazil** — As a French army invaded, the prince regent and royal court sailed for Brazil under British escort, moving the seat of the Portuguese monarchy to Rio de Janeiro. (from the Portugal chronicle; sources: Peninsular War; John VI, king of Portugal)
 - 1808-1814: **The Peninsular War** — British, Portuguese and Spanish forces fought the French in the Iberian Peninsula, eventually expelling Napoleon's armies from Portugal and Spain. (from the Portugal chronicle; sources: Peninsular War)
 

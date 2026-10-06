@@ -1,6 +1,6 @@
 # The Chronicle of Spain: From the crossroads of Iberia to a modern European democracy.
 
-History of Spain: From the crossroads of Iberia to a modern European democracy. 6 eras and 31 sourced events, every claim traceable to a named reference.
+History of Spain: From the crossroads of Iberia to a modern European democracy. 6 eras and 33 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/ESP/chronicle
 Updated: 2026-08-22
@@ -62,6 +62,7 @@ Imperial overreach and dynastic failure ended Habsburg rule, the War of the Span
 - 1701–1714: **War of the Spanish Succession** — A European war over the Spanish throne ended with the Bourbon Philip V confirmed as king by the Treaty of Utrecht (1713), which stripped Spain of its European territories and Gibraltar. [utrecht-britannica]
 - 1704: **Anglo-Dutch capture of Gibraltar** — During the War of the Spanish Succession an Anglo-Dutch force took Gibraltar; by the Treaty of Utrecht in 1713 Spain ceded it to Britain in perpetuity, and Spain continues to seek its return. [gibraltar-gov-closure-booklet, un-c24-gibraltar-2023]
 - 1779–1783: **The Great Siege of Gibraltar** — During the American Revolutionary War, Spain and France besieged British Gibraltar from June 1779 to February 1783 in an unsuccessful attempt to capture it. [wikipedia-great-siege-gibraltar]
+- 6 Jun 1801: **Treaty of Badajoz: Olivenza passes to Spain** — After the War of the Oranges Portugal ceded Olivenza to Spain. Spain holds the treaty valid and never revoked; Portugal holds that it was voided by Spain's 1807 invasion and Article 105 of the Congress of Vienna. [olivenca-wiki]
 - 2 May 1808: **Dos de Mayo uprising** — The people of Madrid rose against the occupying French army; the brutal repression that followed ignited the Peninsular War, Spain's war of independence against Napoleon. [spain-britannica]
 - 19 Mar 1812: **Constitution of Cádiz** — Liberal deputies meeting in besieged Cádiz promulgated Spain's first constitution, asserting national sovereignty and a separation of powers, though it was abolished by Ferdinand VII in 1814. [cadiz-constitution-loc]
 - 1814: **End of the Peninsular War** — Allied Spanish, British and Portuguese forces expelled the French and restored Spanish independence, but the returning Ferdinand VII reimposed absolute monarchy and revoked the 1812 constitution. [spain-britannica]
@@ -76,6 +77,7 @@ Figures:
 The nineteenth century brought the loss of the American empire and chronic instability, culminating in the disaster of 1898, a short-lived republic and the catastrophe of the Spanish Civil War.
 
 - 1810s–1820s: **Loss of the American mainland empire** — Independence movements across Spanish America broke away during and after the Napoleonic crisis, ending Spain's three-century rule over most of the Americas. [spain-britannica]
+- 29 Sep 1864: **Treaty of Lisbon ends the Couto Misto** — The three-village semi-independent Couto Misto on the Galician border was divided: Spain took the three villages and Portugal received Soutelinho da Raia, Cambedo and Lama de Arcos. [couto-misto-local]
 - 1898: **The Disaster of 1898** — Defeat in the Spanish-American War ended Spain's overseas empire; under the Treaty of Paris it lost Cuba, Puerto Rico, the Philippines and Guam, a trauma that shaped a generation. [loc-1898]
 - 1931: **Proclamation of the Second Republic** — After King Alfonso XIII left Spain, republicans proclaimed the Second Spanish Republic, which pursued reform amid intense political and social polarisation. [spain-britannica]
 - 1936–1939: **Spanish Civil War** — A military coup against the Republic led by Franco failed to seize power outright and triggered a devastating civil war, fuelled by foreign intervention and marked by mass atrocities; the Nationalists won in 1939. [ushmm-spanish-civil-war]
@@ -124,5 +126,7 @@ Machine-readable claims — every event above as an addressable claim ID (TL:ESP
 - [spain-constitution-gov] The Spanish Constitution of 1978 — Government of Spain (La Moncloa) · https://www.lamoncloa.gob.es/lang/en/espana/paginas/constitution.aspx
 - [wikipedia-catholic-monarchs] Catholic Monarchs — Wikipedia · https://en.wikipedia.org/wiki/Catholic_Monarchs
 - [nwe-reconquista] Reconquista — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Reconquista
+- [olivenca-wiki] Olivenza — Wikipedia · https://en.wikipedia.org/wiki/Olivenza
+- [couto-misto-local] The forgotten country that existed between Spain and Portugal — The Local Spain · https://www.thelocal.es/20240430/the-forgotten-country-that-existed-between-spain-and-portugal
 
 Citation template: Terralore, "The Chronicle of Spain: From the crossroads of Iberia to a modern European democracy.", terralore.co/country/ESP/chronicle, retrieved <YYYY-MM-DD>.

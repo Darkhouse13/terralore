@@ -1,6 +1,6 @@
 # The Chronicle of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence.
 
-History of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence. 6 eras and 27 sourced events, every…
+History of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence. 6 eras and 33 sourced events, every…
 
 Canonical: https://terralore.co/country/GRC/chronicle
 Updated: 2026-08-22
@@ -85,11 +85,17 @@ Figures:
 
 From a small kingdom the modern nation expanded, endured catastrophe in Asia Minor, occupation and civil war, then became a stable democracy at the heart of Europe.
 
+- October 1912-March 1913: **The Greek fleet takes the north-east Aegean islands** — In the First Balkan War the Greek navy took Lemnos (18-21 October 1912), then Samothrace, Thasos, Imbros and Tenedos, then Lesbos, Chios and Ikaria; Samos, a tributary principality since 1834, declared union on 11 November 1912. Final status was left to the Great Powers by the Treaty of London (30 May 1913). [aeg-lausanne-1923]
 - 1919–1922: **Asia Minor Catastrophe** — The Greco-Turkish War ended in the rout of Greek forces and the destruction of Smyrna in 1922; the 1923 Treaty of Lausanne mandated a population exchange that brought over a million refugees into Greece. [britannica-greece, globalsecurity-greco-turkish]
 - 1941–1944: **Axis occupation of Greece** — After resisting Italy in 1940, Greece was occupied by Germany, Italy and Bulgaria from 1941 to 1944, enduring a devastating famine and the deaths of hundreds of thousands of civilians. [wiki-axis-occupation, britannica-greece]
 - 1946–1949: **Greek Civil War** — Following liberation, a civil war between communist and government forces tore the country apart until 1949, an early conflict of the Cold War that left lasting political divisions. [ww2museum-greek-civil-war, britannica-greece]
 - 8 December 1974: **Fall of the junta and the Third Hellenic Republic** — After the collapse of the 1967–1974 military dictatorship, a referendum abolished the monarchy and established the current Greek parliamentary republic. [britannica-greece, bbc-greece-timeline]
 - 1981: **Greece joins the European Communities** — Greece became a member of the European Communities (later the European Union), anchoring its post-war democracy in European integration; it adopted the euro in 2001. [britannica-greece, bbc-greece-timeline]
+- 13 February 1914: **The Great Powers award the eastern Aegean islands to Greece** — The Conference of London decided that Lemnos, Samothrace, Mytilene, Chios, Samos and Ikaria would be Greek and that Imbros and Tenedos would stay with the Ottoman Empire, on conditions that the islands not be fortified; Lausanne (1923) confirmed it in Article 12. [aeg-lausanne-1923, aeg-mfa-tr]
+- 30 January 1923: **The Convention on the Exchange of Greek and Turkish Populations** — Signed at Lausanne: a compulsory exchange from 1 May 1923 of Greek Orthodox Turkish nationals and Muslim Greek nationals, exempting Istanbul, Western Thrace, Imbros and Tenedos. About 1.2 million Orthodox had left Anatolia and Eastern Thrace in total, most before the convention took effect; about 355,000 Muslims left Greece. [aeg-exchange-gibney, aeg-lausanne-1923]
+- 10 February 1947 (in force 15 September 1947): **The Dodecanese pass to Greece under the Paris Peace Treaty** — Article 14 of the treaty with Italy ceded the Dodecanese, including Kastellorizo, to Greece in full sovereignty and provided that the islands be demilitarised. They were formally united with Greece on 7 March 1948. [aeg-mfa-gr, aeg-mfa-tr]
+- 8 June 1995: **Turkey's parliament authorises force if Greece extends its Aegean waters** — Weeks after Greece ratified UNCLOS reserving a right to a 12 nautical mile territorial sea, the Grand National Assembly authorised the Turkish government to take any measure, including military, should Greece extend its waters beyond six nautical miles in the Aegean. Greece calls it a violation of the UN Charter; Turkey says an extension would upset the Aegean balance. [aeg-mfa-gr, aeg-mfa-tr]
+- 7 December 2023: **The Athens Declaration on Friendly Relations and Good-Neighbourliness** — Erdoğan and Mitsotakis signed a non-binding declaration committing both governments to a positive agenda, confidence-building measures and calm in the Aegean, without prejudice to each other's legal positions. [aeg-athens-decl]
 
 Figures:
 
@@ -131,5 +137,10 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GRC
 - [globalsecurity-greco-turkish] 1919–1922 Greco-Turkish War (Asia Minor Catastrophe) — GlobalSecurity.org · https://www.globalsecurity.org/military/world/war/greco-turkish-megali-katastrofi.htm
 - [bbc-greece-timeline] Greece profile – Timeline — BBC News · https://www.bbc.com/news/world-europe-17373216
 - [wikipedia-greek-war] Greek War of Independence — Wikipedia · https://en.wikipedia.org/wiki/Greek_War_of_Independence
+- [aeg-lausanne-1923] Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16) — BYU WWI Document Archive · https://wwi.lib.byu.edu/index.php/Treaty_of_Lausanne
+- [aeg-mfa-gr] Issues of Greek-Turkish relations (Greek position) — Hellenic Ministry of Foreign Affairs · https://www.mfa.gr/en/foreign-policy/foreign-policy-issues/issues-of-greek-turkish-relations/
+- [aeg-mfa-tr] The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position) — Republic of Türkiye Ministry of Foreign Affairs · https://mfa.gov.tr/maritime-issues---aegean-sea---the-outstanding-aegean-issues.en.mfa
+- [aeg-athens-decl] Athens Declaration on Friendly Relations and Good-Neighbourliness, 7 December 2023 — Hellenic Republic / Republic of Türkiye · https://www.tovima.com/politics/greece-turkey-commit-to-friendly-relations-the-athens-declaration-on-friendly-relations-and-good-neighbourliness/
+- [aeg-exchange-gibney] Immigration and Asylum: from 1900 to the Present (exchange figures, citing Ladas 1932 and Eddy 1931) — ABC-CLIO · https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey
 
 Citation template: Terralore, "The Chronicle of Greece: Birthplace of democracy and philosophy, reborn as a modern nation through the War of Independence.", terralore.co/country/GRC/chronicle, retrieved <YYYY-MM-DD>.

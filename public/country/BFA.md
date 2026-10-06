@@ -109,7 +109,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:BFA:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/BFA.claims.json
 
-History: "From the Mossi kingdoms to the land of upright people" — the sourced chronicle is at https://terralore.co/country/BFA/chronicle.md (6 eras, 23 events).
+History: "From the Mossi kingdoms to the land of upright people" — the sourced chronicle is at https://terralore.co/country/BFA/chronicle.md (6 eras, 29 events).
 
 ## Sources
 

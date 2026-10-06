@@ -108,7 +108,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:IRL:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/IRL.claims.json
 
-History: "From Gaelic kingdoms and a monastic golden age to partition, the Republic and a place at the heart of Europe." — the sourced chronicle is at https://terralore.co/country/IRL/chronicle.md (6 eras, 27 events).
+History: "From Gaelic kingdoms and a monastic golden age to partition, the Republic and a place at the heart of Europe." — the sourced chronicle is at https://terralore.co/country/IRL/chronicle.md (6 eras, 43 events).
 
 ## Sources
 

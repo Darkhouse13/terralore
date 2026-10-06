@@ -4,6 +4,24 @@ Written 2026-08-22, when one reel/day became the norm alongside the card
 batch. Read with `docs/social-surface.md` (the batch this pairs with) and
 `docs/social-publishing.md`.
 
+## One reel, one platform (since 2026-10-05) — read this first
+
+Instagram and Facebook no longer get the same reel. The same video goes viral on one and not the other:
+- **Instagram rewards curiosity.** Chile, Ireland, Lesotho and Tanzania's name each did 5–60× better there.
+- **Facebook rewards identity.** Cyprus got 28× more (123k plays), and 34% of all page follows are Cypriot, Greek or Turkish.
+
+The evidence is in `social-out/radar/viral-slate-2026-10-05.md`. Each reel is now picked, written and made
+for one lead platform, and published only there:
+
+- `scripts/social-queue-reel.sh <date> <reel-N> <mp4> <caption> --platform instagram|facebook`. The flag is
+  required, and it writes `platforms` into the drop's `reel-N.json`, which `social-publish.mjs` already honours.
+- The shelf names carry the platform: `2-scheduled/<date>_<HHMM>_<slug>_<platform>.mp4`.
+- A day is one IG reel plus one FB reel. Use any `reel-N` slot; the time comes from `data/social-publish.json`
+  (`instagram:reel-1` 12:30, `facebook:reel-2` 19:40, …).
+- Score each reel on its own platform only.
+
+Reels queued before 2026-10-05 still go to both platforms; their drop JSON has no `platforms` field.
+
 ## The map reel (since 2026-09-27) — supersedes every section below
 
 **Where reels live (since 2026-09-30):** `social-out/reels/`, one shelf per stage, each video beside its
@@ -33,11 +51,13 @@ our new narrator, our new tone."
   never repeat a published subject (e.g. Panama has had two reels). The names-and-paradoxes reels (Tanzania's
   name 3.2k reach, Siam 2.1k, Saudi Arabia's name 1.9k) beat the anniversary ones.
 - **Topics:** "Why is X like that?" about places people already know — not
-  anniversaries. Every claim is still traceable to the corpus, and disputes
+  anniversaries. Every claim is traceable to a source (and lands in the corpus), and disputes
   are worded neutrally.
-- **Length:** ≈150 words, 55–65 s. The queue floor
-  (`scripts/social-queue-reel.sh`) is now 50 s; the 60 s floor below belonged
-  to the collage form.
+- **Length:** about 150 words / 60 s is a good default, not a cap (user, 2026-10-01). When there is
+  more story than fits, go over the minute. The queue floor (`scripts/social-queue-reel.sh`) is 50 s;
+  the 60 s floor below belonged to the collage form.
+- **Research (user, 2026-10-01):** every reel is researched deeply beyond the corpus, and the new sourced facts are added
+  to the corpus. See the `terralore-reels` skill.
 - **The switch (2026-09-28):** the three old-form reels still waiting in the drop (28 Sep ×2 Canada/Nigeria,
   29 Sep Czechoslovakia) were moved to `/data/terralore-social/status/reels-retired/` on the box (not deleted)
   and the map reels took over: Cyprus 28 Sep, Chile 30 Sep, Lesotho 2 Oct, Greenland 4 Oct, Gibraltar 5 Oct,
@@ -199,6 +219,7 @@ Ryan) so the two suspects can be separated by the numbers.
 | 2026-09-28 | **map-06-kaliningrad — "A piece of Russia, cut off"** (`social-out/kaliningrad-cut-off.mp4`, 55.7 s, `src/reels/kaliningrad.tsx`) — queued for 7 Oct | RUS + DEU — added to `germany.json` (1255) and `russia.json` (1945 capture + Potsdam, 1946 rename/expulsion, 1991 exclave, Baltic Fleet) from the Potsdam protocol (Avalon) and Wikipedia |
 | 2026-09-28 | **Batch 1 at 2/day** — Andorra "two princes", Bangladesh "one country, two halves", Suriname "traded New York", Czechoslovakia "split without a shot", West Berlin, "two countries called Congo" (`src/reels/{andorra,bangladesh,suriname,czechoslovakia,berlin,congos}.tsx`, 54–61 s each) — queued 1–3 Oct, both slots | Corpus as-is except `germany.json` + the 1948–49 blockade and airlift (US Office of the Historian). A renames reel (`reels/names/`) is scripted but unvoiced: fal locked (TOP_UP) mid-batch; Berlin and Congo reuse the Kaliningrad and Lesotho music beds |
 | 2026-10-01 → 10-07 | **Schedule set 2026-09-30** (12:30 / 19:30): 1 Iran-or-Persia (Iran in the news) / Czechoslovakia (Czechia pageviews ×1.6); 2 Andorra / Falklands; 3 Korea (National Foundation Day) / West Berlin (German Unity Day); 4 Mongol Empire / France-borders-Brazil (Brazil's election day); 5 Bir Tawil / Bangladesh; 6 Russia / Suriname; 7 Mongolia / the two Congos. Reels in `social-out/reels/2-scheduled/`. |
+| 2026-10-01 | **map reel — "One island, two countries"** (Ireland and Northern Ireland, `src/reels/ireland.tsx`, 103.6 s, the first reel past the minute under the 2026-10-01 rules: deep outside research, a new prop set). **Re-slotted:** 2 Oct is now Falklands 12:30 / Ireland 19:30, and Andorra moves to 8 Oct 12:30. | IRL + GBR: 24 events added to `ireland.json` / `uk.json` (Covenant, 1920 six-county Act, Boundary Commission, Sutton death split, Bloody Sunday/Saville, Bloody Friday, GFA, 2021 census, …) |
 
 Reels 06–11 were built together in `social-out/reel-week/`: **one shared
 Remotion project with six compositions**, so the physics (plate, document, map,
@@ -224,3 +245,8 @@ settled at 52–55 s voice + 3 s end card for 13 shots / ~140 words — trim to 
 words before synthesis. Batch build order: `search.py` → `peek.py` → `assets.py` →
 `fetch.py` → `maps.py` → `build_shots.py` → `audio.py` → `sync_treat.py` →
 `stills.py` → `render.sh` → `qa.py` → `captions.py`.
+| 2026-10-05 | **map reel: "Holland or the Netherlands?"** (`src/reels/holland.tsx`, 70.6 s, Instagram only, the first reel on the relief engine: NASA Blue Marble relief, parchment rewind, flag fills, the Copernicus below-sea-level flood layer). Approved by the user ("good content, green lighted"). Queued for **8 Oct reel-2 19:30, `--platform instagram`**. | NLD: 4 events + the 2010 Antilles dissolution added to `netherlands.json` (de Vaan, Blok, government.nl, DutchReview). PBL 26% below NAP. |
+| 2026-10-05 | **map reel: "Why is this Greek island 2 km from Turkey?"** (`src/reels/aegean.tsx`, 102.6 s, **Facebook only**, an identity reel: both war names, a two-counter exchange, the Lausanne articles verbatim, Kastellorizo from OSM). Banner/seal/label fixes after the user's review, then approved ("much better now"). Queued for **9 Oct reel-2 19:40, `--platform facebook`**. | GRC/TUR: 9 events added (1912 Ouchy and the Balkan War islands, 1914 decision, 1923 convention + Lausanne Arts 12–16, 1947 Paris, 1995, 1996 Kardak/Imia, 2023 Athens Declaration). |
+| 2026-10-05 | **map reels: "Why isn't Portugal part of Spain?"** (IG, 75.8 s) and **"Why do three countries hold Kashmir?"** (FB, 90.6 s; neutral hatches, dashed administered lines, both 1947 framings side by side). Both approved by the user. Queued for **9 Oct reel-1 12:30 `--platform instagram`** and **10 Oct reel-2 19:40 `--platform facebook`**. Engine changes along the way: exact Wikimedia Commons flag SVGs for 34 nations (`public/flags/`, `REAL_FLAGS`), FlagFill centres the emblem, and voice.py refuses multi-word respellings of words (the "Afonso" twice bug). | PRT/KAS corpus additions are still to do (research.md §9 in each). |
+| 2026-10-06 | **map reels: "England, Britain, the UK"** (IG, 70.0 s, the "name is a receipt" structure) and **"Why did this country delete its own name?"** (Burkina Faso / Sankara, FB, 82.8 s, a two-column ledger of documented achievements and abuses). Both approved. Queued for **10 Oct reel-1 12:30 `--platform instagram`** and **15 Oct reel-2 19:40 `--platform facebook`** (the anniversary of Sankara's death). | GBR/BFA corpus additions are still to do (research.md §11 / §9). |
+| 2026-10-06 | **Batch of four, one platform each:** "Why beef not cow?" (IG, 65 s; the Ivanhoe twist) for **14 Oct reel-2** (Hastings' 960th); "The UAE inside Oman inside the UAE" (IG, 71 s; OSM outlines) for **11 Oct reel-2**; "Why Hormuz moves oil prices" (FB, 85 s; "the Gulf" only, 2026 limited to the Al Jazeera traffic fact) for **11 Oct reel-1**; "The country that doesn't exist" (Transnistria, FB, 77 s; the NE10 disputed strip, dashed) for **12 Oct reel-2**. All approved by the user. The agents built their own geometry and relief (the brief's addendum); 9 more Commons flags were added (44 in all). | Corpus additions from nrm/mdh/trn/hrm are still to do (research.md §9 in each). |

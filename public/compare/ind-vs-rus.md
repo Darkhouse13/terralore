@@ -1,6 +1,6 @@
 # India and Russia compared
 
-India and Russia side by side: 49 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+India and Russia side by side: 49 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/ind-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -111,9 +111,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/IND.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (0 events)
+## Entangled histories (1 event)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- 21 Apr 1948: **UN Security Council Resolution 47** — The Council recommended that Pakistan secure the withdrawal of tribesmen and non-resident Pakistani nationals, that India reduce its forces to the minimum needed for order, and that a UN Plebiscite Administrator be appointed. It was adopted paragraph by paragraph, with no objection and with the Soviet Union and the Ukrainian SSR abstaining. No plebiscite was held: India says Pakistan never took the first step of withdrawal, while Pakistan says India refused each demilitarisation scheme. (from the India chronicle; sources: UN Security Council Resolution 47 (1948))
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # The Chronicle of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.
 
-History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 30 sourced…
+History of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy. 6 eras and 40 sourced…
 
 Canonical: https://terralore.co/country/GBR/chronicle
 Updated: 2026-08-22
@@ -44,6 +44,7 @@ Figures:
 Under the Tudors, England broke with Rome, forged a national Church, defied Spanish sea power, and made its first ventures into overseas trade and colonisation.
 
 - 1534: **Act of Supremacy and the break with Rome** — Parliament declared Henry VIII Supreme Head of the Church of England, ending papal authority in England and launching the English Reformation and the dissolution of the monasteries. [brit-henry-viii, brit-reformation]
+- 1535–1542: **The Laws in Wales Acts incorporate Wales into England** — Two Acts of Henry VIII's Parliament (27 Hen. 8 c. 26, cited as 1535, and 34 & 35 Hen. 8 c. 26 of 1542) declared Wales incorporated with England, extended English law and administration to it, and divided it into twelve shires. The 1535 Act was repealed on 21 December 1993. [legislation-laws-in-wales-1535, wikipedia-laws-in-wales]
 - 1559: **The Elizabethan Religious Settlement** — Elizabeth I's settlement re-established royal headship of the Church and a Protestant order, ending decades of religious upheaval and shaping the Church of England for centuries. [brit-elizabeth-i]
 - 1588: **Defeat of the Spanish Armada** — England repelled the Spanish Armada sent by Philip II, a decisive check to Spanish ambitions that bolstered English naval confidence and national identity. [brit-spanish-armada]
 - 31 December 1600: **Founding of the East India Company** — A royal charter created the East India Company for trade with Asia; over the following centuries it grew into an instrument of conquest that brought much of India under British control. [brit-east-india-company]
@@ -87,12 +88,21 @@ Figures:
 Two world wars, the loss of empire, and the building of a welfare state remade Britain into a smaller but still influential democracy, negotiating its identity from the partition of Ireland to its departure from the European Union.
 
 - 1914–1918: **The First World War** — Britain and its empire fought in the First World War at enormous human cost; the war accelerated social and political change, including votes for women, and led to the partition of Ireland and the Irish Free State in 1922. [iwm-decolonisation, brit-act-of-union-1801]
+- 22 June 1921: **Northern Ireland's Parliament opens** — Under the Government of Ireland Act 1920, which defined Northern Ireland as the six counties of Antrim, Armagh, Down, Fermanagh, Londonderry and Tyrone, George V opened the Parliament of Northern Ireland in Belfast City Hall; unionists had won 40 of its 52 seats. [legislation-goi-1920, historyireland-ni-1921]
+- 12 April 1927: **The Royal and Parliamentary Titles Act renames the state** — The Act changed the style of Parliament to 'of the United Kingdom of Great Britain and Northern Ireland' and let the Crown alter its royal style; the proclamation followed on 13 May 1927. [legislation-titles-act-1927]
 - 1939–1945: **The Second World War** — Britain fought Nazi Germany and the Axis, endured the Blitz, and emerged victorious but economically drained; the wartime Bengal famine of 1943 killed millions in British India. [iwm-decolonisation, brit-bengal-famine]
 - 5 July 1948: **Founding of the National Health Service** — The post-war Labour government launched the NHS, providing healthcare free at the point of use and forming the centrepiece of Britain's new welfare state. [natarchives-nhs]
 - 1947: **Independence of India and the start of decolonisation** — India and Pakistan became independent, beginning the rapid dismantling of the British Empire as dozens of colonies gained independence over the following decades. [iwm-decolonisation]
+- 2 June 1949: **Ireland Act affirms Northern Ireland's status** — Recognising that Éire had ceased to be part of His Majesty's dominions on 18 April 1949, the Ireland Act affirmed that Northern Ireland would not cease to be part of the United Kingdom without the consent of the Parliament of Northern Ireland. [legislation-ireland-act-1949]
 - 10 Sep 1967: **Gibraltar votes to stay British** — In a sovereignty referendum Gibraltarians chose to keep their link with Britain rather than pass under Spanish sovereignty, by 12,138 votes to 44; Spain responded by closing the land frontier in 1969. [wikipedia-gibraltar-1967, gibraltar-gov-closure-booklet]
+- 1969–1998: **The Troubles in Northern Ireland** — Three decades of conflict over Northern Ireland's constitutional status followed the civil rights protests of 1968. The Sutton Index records 3,532 deaths between July 1969 and 2001: 58 per cent caused by republican paramilitaries, 29 per cent by loyalist paramilitaries and 10 per cent by the British security forces. [cain-sutton, cain-sutton-intro]
+- 9 August 1971: **Internment without trial** — Internment was introduced in Northern Ireland and used at first only against republicans; of 1,981 people detained before it ended in December 1975, 1,874 were Catholic or republican and 107 Protestant or loyalist. In Ballymurphy over the following days ten civilians were shot dead, nine of them by the Army, whom a 2021 inquest found 'entirely innocent'. [cain-internment, thejournal-ballymurphy]
+- 30 March 1972: **Direct rule from Westminster** — Edward Heath's government prorogued the Stormont Parliament and imposed direct rule on Northern Ireland from Westminster. [cain-chron-1972]
+- 10 April 1998: **The Belfast (Good Friday) Agreement** — The British and Irish governments and Northern Ireland parties agreed power-sharing and the principle of consent, given effect by the Northern Ireland Act 1998: Northern Ireland remains in the UK unless a majority of its people vote otherwise in a poll. Referendums on 22 May 1998 approved it by 71.1 per cent in Northern Ireland and 94.4 per cent in the Republic of Ireland. [legislation-nia-1998, ark-ref-1998]
 - 7 Nov 2002: **Gibraltar rejects shared sovereignty** — In a referendum called by the Gibraltar Government, voters rejected a proposal for British–Spanish joint sovereignty by 17,900 votes to 187. [wikipedia-gibraltar-2002]
+- 12 December 2012: **De Silva review of the Finucane murder** — A government-commissioned review of the 1989 killing of the Belfast solicitor Pat Finucane by the loyalist UDA found 'frankly shocking levels of state collusion' though no 'over-arching State conspiracy'; the Prime Minister apologised to his family. [govuk-finucane]
 - 31 January 2020: **The United Kingdom leaves the European Union** — Following the 2016 referendum, the UK formally withdrew from the European Union, ending nearly half a century of membership in the European project. [brit-brexit]
+- 27 February 2023: **The Windsor Framework** — Northern Ireland, which voted 55.8 per cent to remain in the 2016 referendum, was kept aligned with EU goods rules after Brexit; the UK and EU's Windsor Framework added a 'green lane' for goods staying in the UK and a 'Stormont brake' requiring 30 Assembly members from at least two parties. [govuk-windsor, ark-eu-2016]
 
 Figures:
 
@@ -134,7 +144,23 @@ Machine-readable claims — every event above as an addressable claim ID (TL:GBR
 - [brit-bengal-famine] Bengal famine of 1943 — Encyclopaedia Britannica · https://www.britannica.com/topic/Bengal-famine-of-1943
 - [natarchives-nhs] The foundation of the NHS — The National Archives · https://www.nationalarchives.gov.uk/
 - [brit-brexit] Brexit — Encyclopaedia Britannica · https://www.britannica.com/topic/Brexit
+- [legislation-goi-1920] Government of Ireland Act 1920 (as enacted) — legislation.gov.uk (The National Archives) · https://www.legislation.gov.uk/ukpga/1920/67/enacted
+- [historyireland-ni-1921] 'Who is for the Empire and who is for the Republic?': the 1921 elections to the Northern Ireland parliament — History Ireland · https://historyireland.com/who-is-for-the-empire-and-who-is-for-the-republic-the-1921-elections-to-the-northern-ireland-parliament/
+- [legislation-ireland-act-1949] Ireland Act 1949 (as enacted) — legislation.gov.uk (The National Archives) · https://www.legislation.gov.uk/ukpga/Geo6/12-13-14/41/section/1/enacted
+- [cain-sutton] Sutton Index of Deaths: summary by organisation responsible — CAIN, Ulster University · https://cain.ulster.ac.uk/sutton/tables/Organisation_Summary.html
+- [cain-sutton-intro] Malcolm Sutton: An Index of Deaths from the Conflict in Ireland — CAIN, Ulster University · https://cain.ulster.ac.uk/sutton/
+- [cain-internment] Internment: Summary of Main Events — CAIN, Ulster University · https://cain.ulster.ac.uk/events/intern/sum.htm
+- [thejournal-ballymurphy] Ballymurphy inquest findings — TheJournal.ie · https://www.thejournal.ie/ballymurphy-massacre-3-5433960-May2021/
+- [cain-chron-1972] A Chronology of the Conflict, 1972 — CAIN, Ulster University · https://cain.ulster.ac.uk/othelem/chron/ch72.htm
+- [legislation-nia-1998] Northern Ireland Act 1998, section 1 — legislation.gov.uk (The National Archives) · https://www.legislation.gov.uk/ukpga/1998/47/section/1
+- [ark-ref-1998] The 1998 Referendums — ARK, Queen's University Belfast and Ulster University · https://www.ark.ac.uk/elections/fref98.htm
+- [govuk-finucane] Prime Minister David Cameron statement on Patrick Finucane — GOV.UK (Prime Minister's Office) · https://www.gov.uk/government/speeches/prime-minister-david-cameron-statement-on-patrick-finucane
+- [govuk-windsor] Windsor Framework unveiled to fix problems of the Northern Ireland Protocol — GOV.UK · https://www.gov.uk/government/news/windsor-framework-unveiled-to-fix-problems-of-the-northern-ireland-protocol
+- [ark-eu-2016] EU Referendum 2016 (Northern Ireland) — ARK, Queen's University Belfast and Ulster University · https://www.ark.ac.uk/elections/fr16.htm
 - [wikipedia-kingdom-england] Kingdom of England — Wikipedia · https://en.wikipedia.org/wiki/Kingdom_of_England
+- [legislation-laws-in-wales-1535] Laws in Wales Act 1535 — legislation.gov.uk (The National Archives) · https://www.legislation.gov.uk/aep/Hen8/27/26/contents
+- [wikipedia-laws-in-wales] Laws in Wales Acts 1535 and 1542 — Wikipedia · https://en.wikipedia.org/wiki/Laws_in_Wales_Acts_1535_and_1542
+- [legislation-titles-act-1927] Royal and Parliamentary Titles Act 1927 — legislation.gov.uk (The National Archives) · https://www.legislation.gov.uk/ukpga/Geo5/17-18/4/enacted
 - [whe-aethelstan] Aethelstan — World History Encyclopedia · https://www.worldhistory.org/Athelstan/
 
 Citation template: Terralore, "The Chronicle of United Kingdom: From Roman province and warring kingdoms to a united realm, a global empire, and a modern democracy.", terralore.co/country/GBR/chronicle, retrieved <YYYY-MM-DD>.

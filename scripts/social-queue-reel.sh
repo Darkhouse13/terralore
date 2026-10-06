@@ -2,7 +2,13 @@
 # ── Queue a finished reel for the daily publisher ──────────────────────────
 # Usage:
 #
-#   scripts/social-queue-reel.sh <YYYY-MM-DD> <reel-1|reel-2> <video.mp4> <caption.txt> [--now]
+#   scripts/social-queue-reel.sh <YYYY-MM-DD> <reel-1|reel-2> <video.mp4> <caption.txt> --platform <instagram|facebook> [--now]
+#
+# --platform is required: since 2026-10-05 each reel is made for ONE platform and
+# published only there (Instagram rewards curiosity, Facebook identity —
+# .claude/skills/terralore-reels/SKILL.md). It lands in the drop's reel-N.json as
+# "platforms", which social-publish.mjs honours. A comma list is accepted for the
+# rare deliberate exception.
 #
 # Copies the reel and its caption into the reel drop on the box
 # (/data/terralore-social/status/reels/<date>/, which the runner sees as
@@ -24,7 +30,19 @@ if [ $# -lt 4 ]; then
   sed -n 3,6p "$0"
   exit 2
 fi
-DATE=$1 SLOT=$2 VIDEO=$3 CAPTION=$4 NOW=${5:-}
+DATE=$1 SLOT=$2 VIDEO=$3 CAPTION=$4
+shift 4
+NOW= PLATFORM=
+while [ $# -gt 0 ]; do
+  case $1 in
+    --now) NOW=--now ;;
+    --platform) PLATFORM=${2:-}; shift ;;
+    *) echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+  shift
+done
+[[ $PLATFORM =~ ^(instagram|facebook|youtube)(,(instagram|facebook|youtube))*$ ]] || {
+  echo "--platform instagram|facebook is required (one reel, one platform — since 2026-10-05)" >&2; exit 2; }
 HOST=${SOCIAL_HOST:-hetzner}
 RUNNER=runner-v113yzpn4rzcv32nqam70td2
 DROP=/data/terralore-social/status/reels/$DATE
@@ -46,21 +64,22 @@ awk -v d="$DUR" 'BEGIN { exit !(d >= 50) }' || { echo "reel runs ${DUR}s; the fl
 
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
-node -e 'const fs=require("fs");fs.writeFileSync(process.argv[2],JSON.stringify({caption:fs.readFileSync(process.argv[1],"utf8").trim()},null,2)+"\n")' \
-  "$CAPTION" "$TMP/$SLOT.json"
+node -e 'const fs=require("fs");fs.writeFileSync(process.argv[2],JSON.stringify({caption:fs.readFileSync(process.argv[1],"utf8").trim(),platforms:process.argv[3].split(",")},null,2)+"\n")' \
+  "$CAPTION" "$TMP/$SLOT.json" "$PLATFORM"
 
 ssh "$HOST" "mkdir -p '$DROP'"
 scp -q "$VIDEO" "$HOST:$DROP/$SLOT.mp4"
 scp -q "$TMP/$SLOT.json" "$HOST:$DROP/$SLOT.json"
-echo "queued $DATE $SLOT ($(printf '%.1f' "$DUR")s, $(du -h "$VIDEO" | cut -f1)) → $HOST:$DROP"
+echo "queued $DATE $SLOT for $PLATFORM ($(printf '%.1f' "$DUR")s, $(du -h "$VIDEO" | cut -f1)) → $HOST:$DROP"
 
 # Shelf bookkeeping (social-out/reels/README.md): a reel queued from the ready shelf moves, with its
 # caption, to the scheduled shelf, named <date>_<HHMM>_<slug> so the shelf sorts in publishing order.
 case "$(realpath "$VIDEO")" in
   */social-out/reels/1-ready/*)
-    HHMM=$(node -e 'const c=require(process.argv[2]);process.stdout.write((c.slots["instagram:"+process.argv[1]]||"0000").replace(":",""))' "$SLOT" "$(cd "$(dirname "$0")/.." && pwd)/data/social-publish.json")
+    HHMM=$(node -e 'const c=require(process.argv[2]);process.stdout.write((c.slots[process.argv[3].split(",")[0]+":"+process.argv[1]]||"0000").replace(":",""))' "$SLOT" "$(cd "$(dirname "$0")/.." && pwd)/data/social-publish.json" "$PLATFORM")
     SHELF=$(dirname "$(realpath "$VIDEO")")/../2-scheduled
     SLUG=$(basename "$VIDEO" .mp4)
+    SLUG="${SLUG}_${PLATFORM//,/+}"
     mv "$VIDEO" "$SHELF/${DATE}_${HHMM}_${SLUG}.mp4"
     case "$(realpath "$CAPTION")" in */social-out/reels/1-ready/*) mv "$CAPTION" "$SHELF/${DATE}_${HHMM}_${SLUG}-caption.txt";; esac
     echo "shelved → social-out/reels/2-scheduled/${DATE}_${HHMM}_${SLUG}.mp4";;

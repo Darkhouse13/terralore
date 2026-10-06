@@ -1,6 +1,6 @@
 # United Kingdom and India compared
 
-United Kingdom and India side by side: 42 shared sourced indicators across 9 domains, and the 7 events their chronicles record of each other.
+United Kingdom and India side by side: 42 shared sourced indicators across 9 domains, and the 8 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/gbr-vs-ind
 Updated: 2026-08-22 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -108,12 +108,13 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/GBR.md and https://terralore.co/country/IND.md.
 
-## Entangled histories (7 events)
+## Entangled histories (8 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 31 December 1600: **Founding of the East India Company** — A royal charter created the East India Company for trade with Asia; over the following centuries it grew into an instrument of conquest that brought much of India under British control. (from the United Kingdom chronicle; sources: East India Company)
 - 23 Jun 1757: **Battle of Plassey** — Robert Clive's East India Company forces defeat the Nawab of Bengal, marking the beginning of British political and military dominance in India. (from the India chronicle; sources: Battle of Plassey; British raj)
+- 16 Mar 1846: **Treaty of Amritsar creates the Dogra state** — After the First Anglo-Sikh War the British transferred the hill country between the Indus and the Ravi to Gulab Singh of Jammu for 75 lakh rupees, creating the princely state later known as Jammu and Kashmir. The treaty text speaks of a transfer 'for ever in independent possession'; many Kashmiris later described it as a sale. (from the India chronicle; sources: Treaty of Amritsar, 16 March 1846)
 - 1858: **British Crown rule begins** — After the suppression of the 1857 rebellion, the Crown abolishes East India Company rule and assumes direct governance of India, beginning the British Raj. (from the India chronicle; sources: British raj)
 - 12 Mar 1930: **The Salt March** — Gandhi leads a 24-day march to the sea to make salt in defiance of the British salt monopoly, galvanising mass non-violent resistance against colonial rule. (from the India chronicle; sources: Salt March (1930))
 - 1939–1945: **The Second World War** — Britain fought Nazi Germany and the Axis, endured the Blitz, and emerged victorious but economically drained; the wartime Bengal famine of 1943 killed millions in British India. (from the United Kingdom chronicle; sources: The end of the British Empire after the Second World War; Bengal famine of 1943)

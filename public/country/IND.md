@@ -116,7 +116,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:IND:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/IND.claims.json
 
-History: "From the planned cities of the Indus to the world's largest democracy." — the sourced chronicle is at https://terralore.co/country/IND/chronicle.md (6 eras, 19 events).
+History: "From the planned cities of the Indus to the world's largest democracy." — the sourced chronicle is at https://terralore.co/country/IND/chronicle.md (6 eras, 23 events).
 
 ## Sources
 

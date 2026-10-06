@@ -1,6 +1,6 @@
 # Italy and Türkiye compared
 
-Italy and Türkiye side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Italy and Türkiye side by side: 42 shared sourced indicators across 9 domains, and the 3 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/ita-vs-tur
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -106,11 +106,13 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/ITA.md and https://terralore.co/country/TUR.md.
 
-## Entangled histories (1 event)
+## Entangled histories (3 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
+- 18 October 1912: **Treaty of Ouchy ends the Italo-Turkish War** — Ottoman Libya went to Italy; the treaty provided for the evacuation of the Aegean islands Italy had occupied (including Rhodes), but its vagueness, the Balkan Wars and the First World War let Italy stay. Turkey renounced the islands to Italy at Lausanne (Article 15). (from the Türkiye chronicle; sources: Treaty of Ouchy (Lausanne), 18 October 1912; Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16))
 - 10 August 1920: **Treaty of Sèvres** — The Allied treaty with the defeated Ottoman government proposed partitioning Anatolia among Greece, Armenia, Italy, France and others; rejected by the nationalists, it triggered the War of Independence. (from the Türkiye chronicle; sources: Kemal Atatürk; Ottoman Empire)
+- 24 July 1923: **Lausanne draws the Aegean: Articles 12 to 16** — The treaty confirmed Greek sovereignty over Lemnos, Samothrace, Mytilene, Chios, Samos and Nikaria (with restrictions on fortification), kept Imbros and Tenedos Turkish, renounced the Dodecanese and Castellorizzo to Italy, and placed islands within three miles of the Anatolian coast under Turkish sovereignty. (from the Türkiye chronicle; sources: Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16); The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position))
 
 ## Sources
 

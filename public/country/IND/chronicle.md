@@ -1,6 +1,6 @@
 # The Chronicle of India: From the planned cities of the Indus to the world's largest democracy.
 
-History of India: From the planned cities of the Indus to the world's largest democracy. 6 eras and 19 sourced events, every claim traceable to a named…
+History of India: From the planned cities of the Indus to the world's largest democracy. 6 eras and 23 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/IND/chronicle
 Updated: 2026-06-13
@@ -61,6 +61,7 @@ Figures:
 A trading company became the master of a subcontinent, and after the rebellion of 1857 the British Crown ruled India directly until the rising tide of nationalism forced its withdrawal.
 
 - 23 Jun 1757: **Battle of Plassey** — Robert Clive's East India Company forces defeat the Nawab of Bengal, marking the beginning of British political and military dominance in India. [britannica-plassey, britannica-raj]
+- 16 Mar 1846: **Treaty of Amritsar creates the Dogra state** — After the First Anglo-Sikh War the British transferred the hill country between the Indus and the Ravi to Gulab Singh of Jammu for 75 lakh rupees, creating the princely state later known as Jammu and Kashmir. The treaty text speaks of a transfer 'for ever in independent possession'; many Kashmiris later described it as a sale. [treaty-amritsar-1846]
 - 1858: **British Crown rule begins** — After the suppression of the 1857 rebellion, the Crown abolishes East India Company rule and assumes direct governance of India, beginning the British Raj. [britannica-raj]
 - 12 Mar 1930: **The Salt March** — Gandhi leads a 24-day march to the sea to make salt in defiance of the British salt monopoly, galvanising mass non-violent resistance against colonial rule. [britannica-saltmarch]
 - 1943: **Bengal famine** — An estimated two to three million people die in Bengal in a man-made famine driven by wartime inflation, export priorities and colonial policy rather than any major shortfall in food production. [britannica-bengalfamine, wikipedia-bengalfamine]
@@ -75,7 +76,10 @@ Freedom in 1947 came with the agony of Partition; three years later India became
 
 - 15 Aug 1947: **Independence and Partition** — India becomes independent from Britain under Prime Minister Nehru as the subcontinent is partitioned into India and Pakistan, unleashing mass migration and communal violence. [wikipedia-partition, britannica-republicday]
 - 1947–1948: **Partition violence and mass migration** — Up to 12–20 million people are uprooted and an estimated one to two million die in massacres and forced migration along the new India–Pakistan border. [wikipedia-partition]
+- 26 Oct 1947: **Instrument of Accession of Jammu and Kashmir** — Maharaja Hari Singh signed an Instrument of Accession to India, effective on Governor-General Mountbatten's acceptance on 27 October. Mountbatten added that the question should be settled by a reference to the people once order was restored. India says the accession was lawful, complete and final. Pakistan says it was obtained under duress and in breach of the Standstill Agreement, and has not accepted it. [instrument-accession-jk]
+- 21 Apr 1948: **UN Security Council Resolution 47** — The Council recommended that Pakistan secure the withdrawal of tribesmen and non-resident Pakistani nationals, that India reduce its forces to the minimum needed for order, and that a UN Plebiscite Administrator be appointed. It was adopted paragraph by paragraph, with no objection and with the Soviet Union and the Ukrainian SSR abstaining. No plebiscite was held: India says Pakistan never took the first step of withdrawal, while Pakistan says India refused each demilitarisation scheme. [unsc-res-47]
 - 26 Jan 1950: **Constitution and the Republic** — The Constitution of India comes into force, making India a sovereign democratic republic with universal suffrage and fundamental rights; the day is celebrated as Republic Day. [britannica-republicday, knowindia-republic]
+- 2 Jul 1972: **Simla Agreement and the Line of Control** — Indira Gandhi and Zulfikar Ali Bhutto agreed that in Jammu and Kashmir the line of control resulting from the ceasefire of 17 December 1971 'shall be respected by both sides without prejudice to the recognized position of either side'. Each government maintains its own claim to the whole of the former princely state, whose parts are administered by India, Pakistan and China. [simla-agreement-1972]
 
 Figures:
 
@@ -111,5 +115,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:IND
 - [wikipedia-british-raj] British Raj — Wikipedia · https://en.wikipedia.org/wiki/British_Raj
 - [statedept-india] A Guide to the United States' History of Recognition: India — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/india
 - [whe-mauryan-empire] Mauryan Empire — World History Encyclopedia · https://www.worldhistory.org/Mauryan_Empire/
+- [treaty-amritsar-1846] Treaty of Amritsar, 16 March 1846 — Wikipedia (treaty text) · https://en.wikipedia.org/wiki/Treaty_of_Amritsar_(1846)
+- [instrument-accession-jk] Instrument of Accession (Jammu and Kashmir) — Wikipedia · https://en.wikipedia.org/wiki/Instrument_of_Accession_(Jammu_and_Kashmir)
+- [unsc-res-47] UN Security Council Resolution 47 (1948) — United Nations · https://docs.un.org/en/S/RES/47(1948)
+- [simla-agreement-1972] Simla Agreement, 2 July 1972 — Wikipedia (agreement text) · https://en.wikipedia.org/wiki/Simla_Agreement
 
 Citation template: Terralore, "The Chronicle of India: From the planned cities of the Indus to the world's largest democracy.", terralore.co/country/IND/chronicle, retrieved <YYYY-MM-DD>.

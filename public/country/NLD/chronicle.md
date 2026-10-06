@@ -1,6 +1,6 @@
 # The Chronicle of Netherlands: A nation reclaimed from the sea, born of revolt against an empire.
 
-History of Netherlands: A nation reclaimed from the sea, born of revolt against an empire. 6 eras and 28 sourced events, every claim traceable to a named…
+History of Netherlands: A nation reclaimed from the sea, born of revolt against an empire. 6 eras and 33 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/NLD/chronicle
 Updated: 2026-06-13
@@ -19,6 +19,7 @@ On the wet delta of the Rhine, Meuse and Scheldt, Rome fixed its northern fronti
 - 69–70 CE: **The Batavian Revolt** — Julius Civilis leads the Batavians and allied tribes in a revolt against Rome during the chaos after Nero's death; it is suppressed after roughly a year. [britannica-netherlands, rmo-roman]
 - c. 690: **Christianisation of the Frisians** — Missionaries such as Willibrord begin converting the Frisians, tying the delta into the Christian, Frankish world of western Europe. [britannica-netherlands]
 - 1287: **St. Lucia's flood** — A catastrophic North Sea storm surge drowns tens of thousands and reshapes the coastline, helping form the Zuiderzee and underlining the delta's perpetual struggle with water. [britannica-netherlands]
+- 1063: **"Holdland" appears as the name of a county** — Sources name the county of 'Holdland' in 1063, a Count Floris 'of Holdland' in 1061; the name is Old Dutch holtlant, 'wood-land', first seen as Holtlant between 918 and 948, not 'hollow land'. [devaan-holland]
 
 Figures:
 
@@ -60,6 +61,7 @@ The young Republic became a world power in trade, finance and art, an achievemen
 - 1621: **Founding of the Dutch West India Company** — The WIC is chartered for trade and conquest in the Americas and West Africa, becoming central to Dutch participation in the transatlantic slave trade. [britannica-netherlands, rijksmuseum-slavery]
 - 1642: **Rembrandt paints The Night Watch** — Rembrandt completes his monumental militia portrait, an emblem of the artistic achievement of the Dutch Golden Age, now in the Rijksmuseum. [rijksmuseum]
 - 1672: **The Rampjaar (Disaster Year)** — France, England and allied bishops invade the Republic; the Dutch open the dikes to flood the land and halt the advance, and William III rises to power. [britannica-netherlands]
+- 1612: **Holland's share of the Republic's bills fixed above half** — The 1612 quota for the Generality's expenses set Holland at 57.1 per cent, ahead of Friesland (11.4), Zeeland (11), Utrecht and Groningen (5.5 each) and Overijssel (3.5); each province still had one vote in the States-General. [blok-system-government]
 
 Figures:
 
@@ -75,6 +77,7 @@ The Republic slid into decline, was swept away by Revolutionary France, and re-e
 - 1830: **Belgian Revolution** — The southern provinces rebel and declare independence as Belgium, dividing the United Kingdom of the Netherlands; separation is recognised in 1839. [britannica-netherlands]
 - 1848: **Liberal constitution of Thorbecke** — A new constitution drafted by Johan Rudolf Thorbecke establishes ministerial responsibility and parliamentary government, founding modern Dutch democracy. [britannica-netherlands]
 - 1 Jul 1863: **Abolition of slavery** — The Netherlands abolishes slavery in Suriname and the Caribbean, freeing enslaved people, though most are forced into ten more years of supervised plantation labour. [rijksmuseum-slavery, britannica-netherlands]
+- 1806–1810: **The Kingdom of Holland under Louis Bonaparte** — Napoleon replaces the Batavian Republic with a monarchy under his brother Louis, who learns Dutch and uses the name Lodewijk. The kingdom, the only time 'Holland' was an official national name, ends when Louis abdicates on 1 July 1810 and France absorbs it. [britannica-batavian-republic]
 
 Figures:
 
@@ -90,6 +93,8 @@ Neutral in the First World War, the Netherlands endured brutal Nazi occupation a
 - 27 Dec 1949: **Indonesian independence** — After a violent four-year war, the Netherlands transfers sovereignty over the Dutch East Indies to the Republic of Indonesia. [britannica-netherlands, niod-indonesia]
 - 31 Jan – 1 Feb 1953: **North Sea flood and the Delta Works** — A storm surge floods the southwest, killing more than 1,800 people in the Netherlands and prompting the construction of the Delta Works flood defences. [britannica-north-sea-flood]
 - 25 Nov 1975: **Suriname becomes independent** — Suriname leaves the Kingdom of the Netherlands to become a sovereign state, while several Caribbean islands remain within the Kingdom. In 2022–2023 the Dutch government and King Willem-Alexander formally apologised for the Netherlands' role in slavery. [britannica-netherlands, rijksmuseum-slavery]
+- 10 Oct 2010: **The Netherlands Antilles dissolved** — Curaçao and Sint Maarten become autonomous countries within the Kingdom of the Netherlands, as Aruba had been since 1 January 1986; Bonaire, Sint Eustatius and Saba become special municipalities of the Netherlands itself. [gov-nl-caribbean]
+- 1 Jan 2020: **The Netherlands drops 'Holland' from its international branding** — Following a 2019 decision, the Dutch government and the Netherlands Board of Tourism and Conventions present the country abroad as 'the Netherlands', not 'Holland', which names only two of its twelve provinces; the new mark is an NL tulip. [dutchreview-rebrand]
 
 Figures:
 
@@ -119,5 +124,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:NLD
 - [niod-indonesia] Independence, Decolonization, Violence and War in Indonesia, 1945–1950 — NIOD Institute for War, Holocaust and Genocide Studies · https://www.niod.nl/en/projects/independence-decolonization-violence-and-war-indonesia-1945-1950
 - [wikipedia-act-abjuration] Act of Abjuration — Wikipedia · https://en.wikipedia.org/wiki/Act_of_Abjuration
 - [nwe-eighty-years-war] Eighty Years' War — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Eighty_Years%27_War
+- [gov-nl-caribbean] Caribbean parts of the Kingdom — Government of the Netherlands · https://www.government.nl/topics/caribbean-parts-of-the-kingdom
+- [devaan-holland] Etymologie van Holland — Neerlandistiek (Michiel de Vaan) · https://neerlandistiek.nl/2015/11/etymologie-holland
+- [blok-system-government] The system of government (Blok, History of the People of the Netherlands) — Historion · https://www.historion.iovan.net/history-holland/chapter-vii-system-government
+- [dutchreview-rebrand] Rebranding the Netherlands: goodbye Holland — DutchReview · https://dutchreview.com/culture/dutchness/rebranding-the-netherlands-goodbye-holland/
 
 Citation template: Terralore, "The Chronicle of Netherlands: A nation reclaimed from the sea, born of revolt against an empire.", terralore.co/country/NLD/chronicle, retrieved <YYYY-MM-DD>.

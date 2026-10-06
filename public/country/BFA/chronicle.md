@@ -1,6 +1,6 @@
 # The Chronicle of Burkina Faso: From the Mossi kingdoms to the land of upright people
 
-History of Burkina Faso: From the Mossi kingdoms to the land of upright people. 6 eras and 23 sourced events, every claim traceable to a named reference.
+History of Burkina Faso: From the Mossi kingdoms to the land of upright people. 6 eras and 29 sourced events, every claim traceable to a named reference.
 
 Canonical: https://terralore.co/country/BFA/chronicle
 Updated: 2026-06-13
@@ -44,14 +44,19 @@ Upper Volta wins independence in 1960, then settles into two decades of fragile 
 - January 1966: **Fall of Yaméogo; Lamizana takes power** — A popular revolt against austerity forces President Yaméogo to resign; Lieutenant Colonel Sangoulé Lamizana leads the army into government. [wiki-yameogo, state-bgn-burkina, ebsco-upper-volta-coup]
 - 25 November 1980: **Coup brings Saye Zerbo to power** — Colonel Saye Zerbo overthrows Lamizana, continuing the pattern of military seizures of power. [wiki-heads-of-state, state-bgn-burkina]
 - November 1982: **Jean-Baptiste Ouédraogo takes over** — A further coup ousts Zerbo and installs Major Jean-Baptiste Ouédraogo, in whose government radical young officers, including Thomas Sankara, gain influence. [wiki-heads-of-state, wiki-sankara]
+- January – May 1983: **Sankara becomes prime minister, then is arrested** — Captain Thomas Sankara is named prime minister in January 1983. In mid-May President Jean-Baptiste Ouédraogo purges the radicals from his government and has Sankara arrested, the immediate prelude to the August coup. [conversation-zeilig-2021, wiki-sankara]
 
 ## Sankara's Revolution and the Birth of Burkina Faso — 1983–1987
 
 A young captain seizes power, renames the nation 'land of upright people', and drives a radical programme of self-reliance — until his assassination.
 
 - 4 August 1983: **Sankara seizes power** — Captain Thomas Sankara comes to power in a coup, beginning a radical revolution oriented toward self-reliance and the rural poor. [wiki-sankara, britannica-history-burkina]
+- 12 June 1984: **Seven officers executed after a coup attempt** — Seven men, mostly army officers, are shot after a military court convicts them of a coup attempt on 28 May 1984 against Sankara's government. [csm-1984-executions]
 - 4 August 1984: **Upper Volta renamed Burkina Faso** — On the first anniversary of the revolution, the country is renamed Burkina Faso — 'land of upright (honest) people' — with a new flag and anthem. [wiki-sankara, britannica-history-burkina]
+- 25 November – 10 December 1984: **The 'vaccination commando' campaign** — A national campaign immunises children against measles, meningitis and yellow fever in about two weeks. Contemporary reports record over a million children vaccinated and coverage rising from under a fifth to 77 percent; the village mobilisation is run through the Committees for the Defence of the Revolution. [pubmed-bassole-1986, pubmed-salubritas-1985, daramola-vcp]
 - December 1985: **Agacher Strip war with Mali** — A brief border conflict, the 'Christmas War', is fought with Mali over the mineral-rich Agacher Strip before regional mediation ends it. [wiki-sankara]
+- 30 May – 2 July 1987: **Union leaders detained** — According to the US State Department, about 30 members of the CSB union confederation are detained without charge from 30 May 1987, and the teachers' union secretary is arrested on 2 July. [state-dept-1987-bf]
+- 29 July 1987: **Sankara's debt speech at the OAU** — At the Organisation of African Unity summit in Addis Ababa, Sankara argues that Africa's debt cannot be repaid and warns that if Burkina Faso alone refuses, he will not be there for the next conference. [sankara-oau-1987]
 - 15 October 1987: **Assassination of Thomas Sankara** — Sankara and twelve others are killed in a coup led by his comrade Blaise Compaoré, who takes the presidency. [wiki-sankara, wiki-1987-coup, britannica-compaore]
 
 Figures:
@@ -66,6 +71,7 @@ A 27-year presidency ends in a popular revolt, after which jihadist violence eng
 - 30–31 October 2014: **Popular uprising ousts Compaoré** — Protests against Compaoré's bid to extend his rule culminate in the storming of the National Assembly; he resigns after 27 years and flees to Côte d'Ivoire. [wiki-2014-uprising, wiki-compaore]
 - August 2015 onward: **Jihadist insurgency spreads to Burkina Faso** — Sahelian jihadist groups linked to al-Qaeda and the Islamic State, alongside the homegrown Ansarul Islam, escalate attacks, killing thousands and displacing more than a million people. [wiki-islamist-insurgency-bf, africacenter-sahel]
 - January 2022: **Coup ousts President Kaboré** — Citing the government's failure to halt the insurgency, the military under Lieutenant Colonel Paul-Henri Damiba removes elected president Roch Marc Christian Kaboré. [wiki-islamist-insurgency-bf, oecd-sahel-coups]
+- 6 April 2022: **Verdict in the Sankara trial** — A military tribunal in Ouagadougou sentences Blaise Compaoré (in absentia), Gilbert Diendéré and Hyacinthe Kafando to life imprisonment for the 1987 killing. Fourteen are tried; eight receive three to twenty years; three are acquitted. [aljazeera-sankara-verdict]
 - 30 September 2022: **Second 2022 coup brings Ibrahim Traoré to power** — Captain Ibrahim Traoré overthrows Damiba in a second coup, becoming transitional leader as jihadist violence continues to spread. [wiki-islamist-insurgency-bf, oecd-sahel-coups]
 
 Figures:
@@ -100,5 +106,13 @@ Machine-readable claims — every event above as an addressable claim ID (TL:BFA
 - [wiki-islamist-insurgency-bf] Islamist insurgency in Burkina Faso — Wikipedia · https://en.wikipedia.org/wiki/Islamist_insurgency_in_Burkina_Faso
 - [africacenter-sahel] The Shifting Front of Militant Islamist Violence in the Sahel — Africa Center for Strategic Studies · https://africacenter.org/spotlight/militant-islamist-violence-sahel/
 - [oecd-sahel-coups] Military Coups, Jihadism and Insecurity in the Central Sahel — OECD / Sahel and West Africa Club · https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/05/military-coups-jihadism-and-insecurity-in-the-central-sahel_4f7f928f/522f69f1-en.pdf
+- [pubmed-bassole-1986] Bassolé, 'In Burkina Faso: general mobilization in favor of the "vaccination commando"' — Hygie 1986 (PubMed) · https://pubmed.ncbi.nlm.nih.gov/3699829/
+- [pubmed-salubritas-1985] 'Vaccination commando: Burkina Faso' — Salubritas 1985 (PubMed) · https://pubmed.ncbi.nlm.nih.gov/12340574/
+- [daramola-vcp] Daramola et al., The National Vaccination Commando Program in Burkina Faso — AEA conference working paper, 2022 · https://www.aeaweb.org/conference/2023/program/paper/KDEke9Dh
+- [state-dept-1987-bf] Country Report on Human Rights Practices for 1987: Burkina Faso — US Department of State · https://www.ecoi.net/en/document/1101029.html
+- [csm-1984-executions] News in Brief: seven executed in Upper Volta — Christian Science Monitor, 13 June 1984 · https://www.csmonitor.com/1984/0613/061328.html
+- [sankara-oau-1987] A united front against debt (OAU speech, 29 July 1987) — Marxists Internet Archive (translation) · https://www.marxists.org/archive/sankara/1987/july/29.htm
+- [aljazeera-sankara-verdict] Life sentence for Burkinabe ex-leader Compaoré for Sankara murder — Al Jazeera, 6 April 2022 · https://www.aljazeera.com/news/2022/4/6/hold-burkina-faso-sankara-trial
+- [conversation-zeilig-2021] Zeilig, Now there's a chance of justice for Thomas Sankara — The Conversation, 2021 · https://theconversation.com/now-theres-a-chance-of-justice-for-thomas-sankara-its-useful-to-review-what-got-him-killed-159749
 
 Citation template: Terralore, "The Chronicle of Burkina Faso: From the Mossi kingdoms to the land of upright people", terralore.co/country/BFA/chronicle, retrieved <YYYY-MM-DD>.

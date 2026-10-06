@@ -1,6 +1,6 @@
 # The Chronicle of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic.
 
-History of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic. 6 eras and 29 sourced events…
+History of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic. 6 eras and 32 sourced events…
 
 Canonical: https://terralore.co/country/TUR/chronicle
 Updated: 2026-06-13
@@ -62,6 +62,7 @@ Under Süleyman the Magnificent the empire reached its zenith, before centuries 
 - 1699: **Treaty of Karlowitz** — After the failed 1683 siege of Vienna, the Treaty of Karlowitz ceded Hungary and other lands to the Habsburgs, the first major Ottoman territorial retreat in Europe. [britannica-ottoman]
 - 1839–1876: **The Tanzimat reforms** — A wave of modernising reforms reorganised Ottoman law, taxation, education and the military in an effort to halt the empire's decline and integrate its diverse subjects. [britannica-ottoman]
 - 1908: **Young Turk Revolution** — The Young Turk movement forced Sultan Abdülhamid II to restore the constitution, ushering in a turbulent constitutional era dominated by the Committee of Union and Progress. [britannica-ottoman, britannica-ataturk]
+- 18 October 1912: **Treaty of Ouchy ends the Italo-Turkish War** — Ottoman Libya went to Italy; the treaty provided for the evacuation of the Aegean islands Italy had occupied (including Rhodes), but its vagueness, the Balkan Wars and the First World War let Italy stay. Turkey renounced the islands to Italy at Lausanne (Article 15). [aeg-ouchy-1912, aeg-lausanne-1923]
 
 Figures:
 
@@ -77,6 +78,7 @@ The empire's entry into the First World War brought the Armenian Genocide, defea
 - 10 August 1920: **Treaty of Sèvres** — The Allied treaty with the defeated Ottoman government proposed partitioning Anatolia among Greece, Armenia, Italy, France and others; rejected by the nationalists, it triggered the War of Independence. [britannica-ataturk, britannica-ottoman]
 - 1919–1922: **Turkish War of Independence** — Mustafa Kemal led a national resistance and a new Grand National Assembly in Ankara, defeating Greek, Armenian and French forces and ending the Allied occupation of Anatolia. [britannica-ataturk]
 - 24 July 1923: **Treaty of Lausanne** — Replacing the Treaty of Sèvres, the Lausanne treaty secured international recognition of Turkey's sovereignty and borders, the legal foundation of the modern state. [britannica-ataturk, britannica-ottoman]
+- 24 July 1923: **Lausanne draws the Aegean: Articles 12 to 16** — The treaty confirmed Greek sovereignty over Lemnos, Samothrace, Mytilene, Chios, Samos and Nikaria (with restrictions on fortification), kept Imbros and Tenedos Turkish, renounced the Dodecanese and Castellorizzo to Italy, and placed islands within three miles of the Anatolian coast under Turkish sovereignty. [aeg-lausanne-1923, aeg-mfa-tr]
 
 Figures:
 
@@ -91,6 +93,7 @@ Atatürk's secular republic modernised radically, moved to multiparty democracy,
 - 1950: **First multiparty election** — The Democrat Party won a landslide in the 1950 election, ending nearly three decades of one-party rule and marking Turkey's first peaceful transfer of power. [britannica-democrat-party]
 - 1952: **Turkey joins NATO** — Turkey became a member of NATO in 1952, cementing its strategic alignment with the West throughout the Cold War. [britannica-ataturk]
 - June 2022: **Registered at the UN as 'Türkiye'** — At the government's request, the United Nations registered the country's official name as 'Türkiye' in June 2022, replacing 'Turkey' in international usage. [un-turkiye, britannica-turkey]
+- 25 December 1995-31 January 1996: **The Kardak/Imia crisis** — A Turkish cargo ship ran aground on two rocks between Kalymnos and the Bodrum peninsula; Turkey and Greece each claimed sovereignty, ships and special forces were deployed, and three Greek officers died in a helicopter crash on 31 January before US mediation restored the earlier situation. [aeg-mfa-gr, aeg-mfa-tr]
 
 Figures:
 
@@ -121,5 +124,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:TUR
 - [un-turkiye] Türkiye — Member States — United Nations · https://www.un.org/en/about-us/member-states/turkiye
 - [whe-ottoman-empire] Ottoman Empire — World History Encyclopedia · https://www.worldhistory.org/Ottoman_Empire/
 - [nwe-osman-i] Osman I — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Osman_I
+- [aeg-ouchy-1912] Treaty of Ouchy (Lausanne), 18 October 1912 — Wikipedia (pointer; replace with treaty text) · https://en.wikipedia.org/wiki/Treaty_of_Lausanne_(1912)
+- [aeg-lausanne-1923] Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16) — BYU WWI Document Archive · https://wwi.lib.byu.edu/index.php/Treaty_of_Lausanne
+- [aeg-mfa-gr] Issues of Greek-Turkish relations (Greek position) — Hellenic Ministry of Foreign Affairs · https://www.mfa.gr/en/foreign-policy/foreign-policy-issues/issues-of-greek-turkish-relations/
+- [aeg-mfa-tr] The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position) — Republic of Türkiye Ministry of Foreign Affairs · https://mfa.gov.tr/maritime-issues---aegean-sea---the-outstanding-aegean-issues.en.mfa
 
 Citation template: Terralore, "The Chronicle of Türkiye: From Neolithic Çatalhöyük and the Hittites through Byzantium and the Ottomans to Atatürk's republic.", terralore.co/country/TUR/chronicle, retrieved <YYYY-MM-DD>.

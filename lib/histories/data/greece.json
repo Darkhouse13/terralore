@@ -388,6 +388,15 @@
       ],
       "events": [
         {
+          "year": 1912,
+          "yearLabel": "October 1912-March 1913",
+          "endYear": 1913,
+          "title": "The Greek fleet takes the north-east Aegean islands",
+          "summary": "In the First Balkan War the Greek navy took Lemnos (18-21 October 1912), then Samothrace, Thasos, Imbros and Tenedos, then Lesbos, Chios and Ikaria; Samos, a tributary principality since 1834, declared union on 11 November 1912. Final status was left to the Great Powers by the Treaty of London (30 May 1913).",
+          "category": "war",
+          "sources": ["aeg-lausanne-1923"]
+        },
+        {
           "year": 1922,
           "yearLabel": "1919–1922",
           "endYear": 1922,
@@ -429,6 +438,46 @@
           "summary": "Greece became a member of the European Communities (later the European Union), anchoring its post-war democracy in European integration; it adopted the euro in 2001.",
           "category": "politics",
           "sources": ["britannica-greece", "bbc-greece-timeline"]
+        },
+        {
+          "year": 1914,
+          "yearLabel": "13 February 1914",
+          "title": "The Great Powers award the eastern Aegean islands to Greece",
+          "summary": "The Conference of London decided that Lemnos, Samothrace, Mytilene, Chios, Samos and Ikaria would be Greek and that Imbros and Tenedos would stay with the Ottoman Empire, on conditions that the islands not be fortified; Lausanne (1923) confirmed it in Article 12.",
+          "category": "politics",
+          "sources": ["aeg-lausanne-1923", "aeg-mfa-tr"]
+        },
+        {
+          "year": 1923,
+          "yearLabel": "30 January 1923",
+          "title": "The Convention on the Exchange of Greek and Turkish Populations",
+          "summary": "Signed at Lausanne: a compulsory exchange from 1 May 1923 of Greek Orthodox Turkish nationals and Muslim Greek nationals, exempting Istanbul, Western Thrace, Imbros and Tenedos. About 1.2 million Orthodox had left Anatolia and Eastern Thrace in total, most before the convention took effect; about 355,000 Muslims left Greece.",
+          "category": "migration",
+          "sources": ["aeg-exchange-gibney", "aeg-lausanne-1923"]
+        },
+        {
+          "year": 1947,
+          "yearLabel": "10 February 1947 (in force 15 September 1947)",
+          "title": "The Dodecanese pass to Greece under the Paris Peace Treaty",
+          "summary": "Article 14 of the treaty with Italy ceded the Dodecanese, including Kastellorizo, to Greece in full sovereignty and provided that the islands be demilitarised. They were formally united with Greece on 7 March 1948.",
+          "category": "politics",
+          "sources": ["aeg-mfa-gr", "aeg-mfa-tr"]
+        },
+        {
+          "year": 1995,
+          "yearLabel": "8 June 1995",
+          "title": "Turkey's parliament authorises force if Greece extends its Aegean waters",
+          "summary": "Weeks after Greece ratified UNCLOS reserving a right to a 12 nautical mile territorial sea, the Grand National Assembly authorised the Turkish government to take any measure, including military, should Greece extend its waters beyond six nautical miles in the Aegean. Greece calls it a violation of the UN Charter; Turkey says an extension would upset the Aegean balance.",
+          "category": "politics",
+          "sources": ["aeg-mfa-gr", "aeg-mfa-tr"]
+        },
+        {
+          "year": 2023,
+          "yearLabel": "7 December 2023",
+          "title": "The Athens Declaration on Friendly Relations and Good-Neighbourliness",
+          "summary": "Erdoğan and Mitsotakis signed a non-binding declaration committing both governments to a positive agenda, confidence-building measures and calm in the Aegean, without prejudice to each other's legal positions.",
+          "category": "politics",
+          "sources": ["aeg-athens-decl"]
         }
       ],
       "figures": [
@@ -681,7 +730,12 @@
       "url": "https://www.bbc.com/news/world-europe-17373216",
       "kind": "reference"
     },
-    { "id": "wikipedia-greek-war", "label": "Greek War of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Greek_War_of_Independence", "kind": "reference" }
+    { "id": "wikipedia-greek-war", "label": "Greek War of Independence", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Greek_War_of_Independence", "kind": "reference" },
+    { "id": "aeg-lausanne-1923", "label": "Treaty of Lausanne, Part I Political Clauses (Arts. 6, 12-16)", "publisher": "BYU WWI Document Archive", "url": "https://wwi.lib.byu.edu/index.php/Treaty_of_Lausanne", "kind": "primary" },
+    { "id": "aeg-mfa-gr", "label": "Issues of Greek-Turkish relations (Greek position)", "publisher": "Hellenic Ministry of Foreign Affairs", "url": "https://www.mfa.gr/en/foreign-policy/foreign-policy-issues/issues-of-greek-turkish-relations/", "kind": "gov" },
+    { "id": "aeg-mfa-tr", "label": "The Outstanding Aegean Issues; Background Note on Aegean Dispute (Turkish position)", "publisher": "Republic of Türkiye Ministry of Foreign Affairs", "url": "https://mfa.gov.tr/maritime-issues---aegean-sea---the-outstanding-aegean-issues.en.mfa", "kind": "gov" },
+    { "id": "aeg-athens-decl", "label": "Athens Declaration on Friendly Relations and Good-Neighbourliness, 7 December 2023", "publisher": "Hellenic Republic / Republic of Türkiye", "url": "https://www.tovima.com/politics/greece-turkey-commit-to-friendly-relations-the-athens-declaration-on-friendly-relations-and-good-neighbourliness/", "kind": "primary" },
+    { "id": "aeg-exchange-gibney", "label": "Immigration and Asylum: from 1900 to the Present (exchange figures, citing Ladas 1932 and Eddy 1931)", "publisher": "ABC-CLIO", "url": "https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey", "kind": "book" }
   ],
   "status": "published",
   "updated": "2026-08-22"

@@ -1,6 +1,6 @@
 # China and Pakistan compared
 
-China and Pakistan side by side: 42 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+China and Pakistan side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/chn-vs-pak
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -112,9 +112,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/CHN.md and https://terralore.co/country/PAK.md.
 
-## Entangled histories (0 events)
+## Entangled histories (1 event)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- 2 Jul 1972: **Simla Agreement and the Line of Control** — Indira Gandhi and Zulfikar Ali Bhutto agreed that in Jammu and Kashmir the line of control resulting from the ceasefire of 17 December 1971 'shall be respected by both sides without prejudice to the recognized position of either side'. Each government maintains its own claim to the whole of the former princely state, whose parts are administered by India, Pakistan and China. (from the Pakistan chronicle; sources: Simla Agreement, 2 July 1972)
 
 ## Sources
 

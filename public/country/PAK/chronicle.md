@@ -1,6 +1,6 @@
 # The Chronicle of Pakistan: From the planned cities of the Indus to a nuclear-armed republic.
 
-History of Pakistan: From the planned cities of the Indus to a nuclear-armed republic. 6 eras and 22 sourced events, every claim traceable to a named…
+History of Pakistan: From the planned cities of the Indus to a nuclear-armed republic. 6 eras and 26 sourced events, every claim traceable to a named…
 
 Canonical: https://terralore.co/country/PAK/chronicle
 Updated: 2026-06-15
@@ -63,6 +63,9 @@ Freedom on 14 August 1947 came with the agony of Partition; a fractured early de
 
 - 14 Aug 1947: **Independence of Pakistan** — Pakistan becomes independent under the Indian Independence Act, with Jinnah as Governor-General and Liaquat Ali Khan as prime minister, comprising West and East Pakistan. [britannica-jinnah, britannica-independenceact]
 - 1947–1948: **Partition migration and violence** — The Radcliffe Line divides Punjab and Bengal, and millions are uprooted across the new borders amid massacres and mass migration, with deaths estimated from the hundreds of thousands into the millions. [britannica-radcliffe, britannica-independenceact]
+- 24 Oct 1947: **Poonch revolt and the Azad Kashmir government** — Unrest in the Poonch district over taxes and disarmament became an armed revolt from late August 1947, and a Provisional Azad Kashmir government was proclaimed on 24 October. Christopher Snedden holds that the revolt was largely local, with unofficial Pakistani help at first; other accounts say Pakistani Muslim League figures organised or assisted it. Indian accounts date the start of the conflict to the tribal entry of 22 October; Pakistani accounts describe a local rising. [snedden-poonch-2013]
+- 26 Oct 1947: **Instrument of Accession of Jammu and Kashmir** — Maharaja Hari Singh signed an Instrument of Accession to India, effective on Governor-General Mountbatten's acceptance on 27 October. Mountbatten added that the question should be settled by a reference to the people once order was restored. India says the accession was lawful, complete and final. Pakistan says it was obtained under duress and in breach of the Standstill Agreement, and has not accepted it. [instrument-accession-jk]
+- 21 Apr 1948: **UN Security Council Resolution 47** — The Council recommended that Pakistan secure the withdrawal of tribesmen and non-resident Pakistani nationals, that India reduce its forces to the minimum needed for order, and that a UN Plebiscite Administrator be appointed. It was adopted paragraph by paragraph, with no objection and with the Soviet Union and the Ukrainian SSR abstaining. No plebiscite was held: India says Pakistan never took the first step of withdrawal, while Pakistan says India refused each demilitarisation scheme. [unsc-res-47]
 - 16 Oct 1951: **Assassination of Liaquat Ali Khan** — Pakistan's first prime minister is assassinated at a rally in Rawalpindi, deepening the political instability of the new state's early years. [britannica-liaquat]
 - 1958: **Ayub Khan's military coup** — General Ayub Khan seizes power in Pakistan's first military takeover, beginning a decade of presidential rule and a recurring pattern of army intervention in politics. [loc-pakistan, britannica-zia]
 
@@ -75,6 +78,7 @@ Figures:
 The loss of East Pakistan in 1971 remade the country, which has since cycled between civilian and military rule, become a nuclear power, and grown into a vast, youthful nation.
 
 - 16 Dec 1971: **Loss of East Pakistan and birth of Bangladesh** — After a brutal war and Indian intervention, Pakistani forces surrender at Dhaka and East Pakistan becomes the independent state of Bangladesh, dismembering the country. [britannica-bangladesh, britannica-1971war]
+- 2 Jul 1972: **Simla Agreement and the Line of Control** — Indira Gandhi and Zulfikar Ali Bhutto agreed that in Jammu and Kashmir the line of control resulting from the ceasefire of 17 December 1971 'shall be respected by both sides without prejudice to the recognized position of either side'. Each government maintains its own claim to the whole of the former princely state, whose parts are administered by India, Pakistan and China. [simla-agreement-1972]
 - 4 Apr 1979: **Execution of Zulfikar Ali Bhutto** — Deposed in General Zia-ul-Haq's 1977 coup, former prime minister Zulfikar Ali Bhutto is tried and hanged, ushering in a decade of military rule and Islamisation. [britannica-bhutto, britannica-zia]
 - 28 May 1998: **Pakistan conducts nuclear tests** — Following India's tests, Pakistan detonates nuclear devices in Balochistan, openly joining the ranks of nuclear-armed states. [loc-pakistan]
 - 27 Dec 2007: **Assassination of Benazir Bhutto** — Former prime minister Benazir Bhutto is assassinated at a rally weeks before national elections, after which civilian democratic rule is restored in 2008. [britannica-bhutto]
@@ -107,5 +111,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:PAK
 - [britannica-bhutto] Zulfikar Ali Bhutto — Encyclopædia Britannica · https://www.britannica.com/biography/Zulfikar-Ali-Bhutto
 - [statedept-pakistan] A Guide to the United States' History of Recognition: Pakistan — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/pakistan
 - [wikipedia-pakistan] Pakistan — Wikipedia · https://en.wikipedia.org/wiki/Pakistan
+- [snedden-poonch-2013] The forgotten Poonch uprising of 1947 — Seminar 643 (Christopher Snedden) · https://www.india-seminar.com/2013/643/643_christopher_snedden.htm
+- [instrument-accession-jk] Instrument of Accession (Jammu and Kashmir) — Wikipedia · https://en.wikipedia.org/wiki/Instrument_of_Accession_(Jammu_and_Kashmir)
+- [unsc-res-47] UN Security Council Resolution 47 (1948) — United Nations · https://docs.un.org/en/S/RES/47(1948)
+- [simla-agreement-1972] Simla Agreement, 2 July 1972 — Wikipedia (agreement text) · https://en.wikipedia.org/wiki/Simla_Agreement
 
 Citation template: Terralore, "The Chronicle of Pakistan: From the planned cities of the Indus to a nuclear-armed republic.", terralore.co/country/PAK/chronicle, retrieved <YYYY-MM-DD>.

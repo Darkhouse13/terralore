@@ -1,6 +1,6 @@
 # The Chronicle of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders.
 
-History of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders. 5 eras and 24 sourced…
+History of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders. 5 eras and 31 sourced…
 
 Canonical: https://terralore.co/country/PRT/chronicle
 Updated: 2026-06-13
@@ -15,10 +15,13 @@ This file carries the chronicle's sourced event record — every event with its 
 
 A frontier county of Leon became an independent kingdom under Afonso Henriques, drove the Reconquista to the Algarve, and fixed a border with Castile that endures to this day.
 
+- 1128: **Battle of Sao Mamede** — Afonso Henriques defeated his mother Theresa of Leon and her ally Fernando Perez de Traba near Guimaraes and became sole ruler of the County of Portugal. [afonso-britannica]
 - 25 Jul 1139: **Battle of Ourique** — By tradition, Afonso Henriques took the title of king of Portugal after defeating a Muslim army at Ourique, asserting the county's break from the kingdom of Leon. [afonso-britannica, portugal-reconquista-britannica]
 - 1143: **Recognition of autonomy at Zamora** — Alfonso VII of Leon and Castile accepted the autonomy of Afonso Henriques, an early step toward the recognised independence of Portugal. [afonso-britannica, portugal-history-britannica]
 - 1147: **Capture of Lisbon** — Afonso Henriques took Santarem and then Lisbon from the Muslims, the latter with the help of crusaders sailing to the Holy Land, advancing the Reconquista to the Tagus. [afonso-britannica]
 - 23 May 1179: **Papal recognition in Manifestis Probatum** — Pope Alexander III confirmed Afonso Henriques as king and recognised Portugal as an independent kingdom under the protection of the Holy See, the founding act of Portuguese sovereignty. [afonso-britannica, portugal-reconquista-britannica]
+- Mar 1249: **Capture of Faro completes the Portuguese Reconquista** — Afonso III took Faro, the last Muslim stronghold in the Algarve, after the Order of Santiago's campaign of 1242-1249. [barlavento-1267]
+- 16 Feb 1267: **Treaty of Badajoz: Castile gives up the Algarve** — Alfonso X of Castile renounced his claim to the Algarve in a treaty of friendship and mutual aid with Afonso III, fixing the south-western frontier. [barlavento-1267]
 - 1297: **Treaty of Alcanices** — King Dinis and Ferdinand IV of Castile confirmed Portuguese possession of the Algarve and fixed the frontier, creating one of the oldest stable borders in Europe. [alcanices-britannica, dinis-britannica]
 
 Figures:
@@ -30,6 +33,8 @@ Figures:
 
 From the capture of Ceuta and the school of Henry the Navigator, a small Atlantic kingdom opened the sea routes to Africa, India and Brazil and divided the unexplored world with Castile.
 
+- 14 Aug 1385: **Battle of Aljubarrota** — After the death of Ferdinand I in 1383 left a daughter married to John I of Castile, the Cortes of Coimbra acclaimed John of Avis (6 April 1385). At Aljubarrota a smaller Portuguese army with English archers defeated Castile's much larger force and secured the crown. [windsor-uk650]
+- 9 May 1386: **Treaty of Windsor** — England and Portugal confirmed a 'perpetual league, friendship and confederation', later described by both governments as the oldest alliance still in force. [windsor-uk650]
 - 1415: **Capture of Ceuta** — Portuguese forces took the North African port of Ceuta, the starting point of overseas expansion and of Prince Henry's interest in exploring the African coast. [henry-britannica]
 - 1488: **Dias rounds the Cape of Good Hope** — Bartolomeu Dias led the first European expedition to round the southern tip of Africa, showing that the Atlantic and Indian oceans were connected and opening the route to Asia. [dias-britannica]
 - 7 Jun 1494: **Treaty of Tordesillas** — Portugal and Castile divided the unexplored world along a meridian 370 leagues west of the Cape Verde Islands, an agreement that underpinned Portugal's claim to Brazil. [tordesillas-britannica]
@@ -47,6 +52,7 @@ A succession crisis bound Portugal to the Spanish crown for sixty years; a natio
 
 - 1578: **Disaster at Alcacer Quibir** — King Sebastian was killed leading a crusade into Morocco, triggering the succession crisis that opened the way to Spanish rule. [iberian-union-britannica]
 - 1580-1581: **Iberian Union under Philip II** — Philip II of Spain occupied Portugal and was accepted as king by the Cortes at Tomar in 1581, uniting the two crowns for sixty years. [iberian-union-britannica]
+- Apr 1581: **Oath of Tomar** — Philip II of Spain was acclaimed Philip I of Portugal at the Cortes of Tomar, promising to keep Portugal's laws, offices and institutions and creating a Council of Portugal: a union of crowns, not an annexation. [tomar-uc, iberian-union-britannica]
 - 1 Dec 1640: **Restoration and the House of Braganza** — A nationalist revolution proclaimed the duke of Braganza as King John IV, restoring Portuguese independence and founding the Braganza dynasty. [iberian-union-britannica]
 - 1668: **Spain recognises independence** — By the Treaty of Lisbon, Spain at last acknowledged Portuguese sovereignty, ending the war of Restoration begun in 1640. [iberian-union-britannica, portugal-history-britannica]
 
@@ -63,6 +69,7 @@ A catastrophic earthquake, the reforms of Pombal, the flight of the royal court 
 - 27 Nov 1807: **Court flees to Brazil** — As a French army invaded, the prince regent and royal court sailed for Brazil under British escort, moving the seat of the Portuguese monarchy to Rio de Janeiro. [peninsular-britannica, john-vi-britannica]
 - 1808-1814: **The Peninsular War** — British, Portuguese and Spanish forces fought the French in the Iberian Peninsula, eventually expelling Napoleon's armies from Portugal and Spain. [peninsular-britannica]
 - 7 Sep 1822: **Independence of Brazil** — Pedro, regent and son of John VI, declared Brazil independent and became its emperor, ending Portugal's rule over its largest and wealthiest colony. [pedro-i-britannica, john-vi-britannica]
+- 29 Sep 1864: **Treaty of Lisbon ends the Couto Misto** — The three-village semi-independent Couto Misto on the Galician border was divided: Spain took the three villages and Portugal received Soutelinho da Raia, Cambedo and Lama de Arcos. [couto-misto-local]
 
 Figures:
 
@@ -115,5 +122,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:PRT
 - [wikipedia-kingdom-portugal] Kingdom of Portugal — Wikipedia · https://en.wikipedia.org/wiki/Kingdom_of_Portugal
 - [wikipedia-iberian-union] Iberian Union — Wikipedia · https://en.wikipedia.org/wiki/Iberian_Union
 - [nwe-portugal] Portugal — New World Encyclopedia · https://www.newworldencyclopedia.org/entry/Portugal
+- [barlavento-1267] O Reino do Algarve de pleno direito faz hoje 750 anos — Barlavento (Algarve newspaper) · https://www.barlavento.pt/o-reino-do-algarve-de-pleno-direito-faz-hoje-750-anos/
+- [windsor-uk650] Portugal-UK 650: The Anglo-Portuguese Alliance — Portugal-UK 650 anniversary programme · https://portugal-uk650.com/en/alliance/
+- [tomar-uc] O Juramento de Tomar — Universidade de Coimbra · https://dl.uc.pt/bitstream/10316.2/46220/1/o_juramento_de_tomar.pdf
+- [couto-misto-local] The forgotten country that existed between Spain and Portugal — The Local Spain · https://www.thelocal.es/20240430/the-forgotten-country-that-existed-between-spain-and-portugal
 
 Citation template: Terralore, "The Chronicle of Portugal: From a frontier county of the Reconquista to a seaborne empire, holding one of Europe's oldest borders.", terralore.co/country/PRT/chronicle, retrieved <YYYY-MM-DD>.

@@ -1,6 +1,6 @@
 # China and India compared
 
-China and India side by side: 48 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+China and India side by side: 48 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/chn-vs-ind
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -112,11 +112,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/CHN.md and https://terralore.co/country/IND.md.
 
-## Entangled histories (1 event)
+## Entangled histories (2 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - c. 138 BCE: **Silk Road trade routes open under Emperor Wu** — Emperor Wu's campaigns against the Xiongnu and missions into Central Asia open the overland Silk Road, linking China to India, Persia, and the Mediterranean in exchange of goods and ideas. (from the China chronicle; sources: Han dynasty (206 BCE-220 CE), Teaching China with the Smithsonian; Han Dynasty (206 B.C.-220 A.D.))
+- 2 Jul 1972: **Simla Agreement and the Line of Control** — Indira Gandhi and Zulfikar Ali Bhutto agreed that in Jammu and Kashmir the line of control resulting from the ceasefire of 17 December 1971 'shall be respected by both sides without prejudice to the recognized position of either side'. Each government maintains its own claim to the whole of the former princely state, whose parts are administered by India, Pakistan and China. (from the India chronicle; sources: Simla Agreement, 2 July 1972)
 
 ## Sources
 

@@ -108,7 +108,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:NLD:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/NLD.claims.json
 
-History: "A nation reclaimed from the sea, born of revolt against an empire." — the sourced chronicle is at https://terralore.co/country/NLD/chronicle.md (6 eras, 28 events).
+History: "A nation reclaimed from the sea, born of revolt against an empire." — the sourced chronicle is at https://terralore.co/country/NLD/chronicle.md (6 eras, 33 events).
 
 ## Sources
 
