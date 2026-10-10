@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Publisher schedule config, consumed by scripts/social-publish.mjs. Slot times are FIRST-GUESS defaults (no analytics existed when they were chosen) — revise against real per-platform analytics; this file is the only place the times live. Since 2026-09-22 (the five-a-day feed, docs/social-surface.md §2b) Instagram and the Facebook Page each carry five posts a day, alternating still and reel so no two reels run back to back: morning still, lunch reel, afternoon data post, evening reel, late story carousel. Facebook runs 10 minutes behind Instagram so the two platforms' media fetches never collide. Since 2026-09-27 (the two-carousel week, docs/social-surface.md §2c) the stills are gone: the two daily reels, plus a carousel on Tuesday (ranking) and Friday (formation story) in the instagram:carousel / facebook:carousel slot, between the two reels. tiktok:carousel carries the Tuesday ranking carousel. Since 2026-10-01 (reels only, docs/social-surface.md §2d) the carousels are gone too: Instagram and Facebook carry only reel-1 and reel-2; the still and carousel slots remain for past days.",
+  "note": "Publisher schedule config, consumed by scripts/social-publish.mjs. Slot times are FIRST-GUESS defaults (no analytics existed when they were chosen) — revise against real per-platform analytics; this file is the only place the times live. Since 2026-09-22 (the five-a-day feed, docs/social-surface.md §2b) Instagram and the Facebook Page each carry five posts a day, alternating still and reel so no two reels run back to back: morning still, lunch reel, afternoon data post, evening reel, late story carousel. Facebook runs 10 minutes behind Instagram so the two platforms' media fetches never collide. Since 2026-09-27 (the two-carousel week, docs/social-surface.md §2c) the stills are gone: the two daily reels, plus a carousel on Tuesday (ranking) and Friday (formation story) in the instagram:carousel / facebook:carousel slot, between the two reels. tiktok:carousel carries the Tuesday ranking carousel. Since 2026-10-01 (reels only, docs/social-surface.md §2d) the carousels are gone too: Instagram and Facebook carry only reel-1 and reel-2; the still and carousel slots remain for past days. Since 2026-10-12 a third reel slot, reel-3 (16:00 / 16:10), carries the cross-posts that end the one-platform split (docs/reel-cadence.md).",
   "timezone": "Africa/Casablanca",
   "slots": {
     "pinterest:anchor": "07:30",
@@ -8,12 +8,14 @@
     "instagram:anchor": "08:30",
     "instagram:extra": "08:30",
     "instagram:reel-1": "12:30",
+    "instagram:reel-3": "16:00",
     "instagram:data": "16:00",
     "instagram:reel-2": "19:30",
     "instagram:story": "21:30",
     "facebook:anchor": "08:40",
     "facebook:extra": "08:40",
     "facebook:reel-1": "12:40",
+    "facebook:reel-3": "16:10",
     "facebook:data": "16:10",
     "facebook:reel-2": "19:40",
     "facebook:story": "21:40",

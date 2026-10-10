@@ -4,7 +4,17 @@ Written 2026-08-22, when one reel/day became the norm alongside the card
 batch. Read with `docs/social-surface.md` (the batch this pairs with) and
 `docs/social-publishing.md`.
 
-## One reel, one platform (since 2026-10-05) — read this first
+## Both platforms again, two or more a day (since 2026-10-10) — read this first
+
+The one-platform split below was a test (5–10 Oct) and it did not hold: Instagram still has no breakout
+under it, and it halved the reels each platform gets. The user ended it on 2026-10-10. Every reel now goes to
+**both** Instagram and Facebook (`--platform instagram,facebook`), with **at least two reels a day** on each.
+- Reels published on only one platform during the test get cross-posted to the other, in the new third slot
+  `reel-3` (16:00 IG / 16:10 FB, `data/social-publish.json`), so a day can carry two fresh reels plus a cross-post.
+- 11–16 Oct were re-planned on 2026-10-10: the queued one-platform drops were switched to both platforms, and
+  Kastellorizo, Kashmir (to IG) and Holland, Portugal, England/Britain/UK (to FB) were cross-posted.
+
+## One reel, one platform (5–10 Oct 2026, SUPERSEDED — kept for the record)
 
 Instagram and Facebook no longer get the same reel. The same video goes viral on one and not the other:
 - **Instagram rewards curiosity.** Chile, Ireland, Lesotho and Tanzania's name each did 5–60× better there.
