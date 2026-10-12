@@ -22,9 +22,14 @@
     "instagram:carousel": "16:00",
     "facebook:carousel": "16:10",
     "tiktok:carousel": "19:30",
+    "youtube:reel-4": "09:00",
+    "youtube:reel-5": "11:00",
     "youtube:reel-1": "12:50",
+    "youtube:reel-6": "14:30",
     "youtube:reel-3": "16:20",
-    "youtube:reel-2": "19:50"
+    "youtube:reel-7": "17:30",
+    "youtube:reel-2": "19:50",
+    "youtube:reel-8": "21:30"
   },
   "platformSettings": {
     "pinterest": {
@@ -47,7 +52,7 @@
     },
     "facebook": {},
     "youtube": {
-      "note": "YouTube Shorts are opt-in per reel: scripts/social-queue-reel.sh --youtube <sheet.txt> adds a search-phrased title, a linked description and tags (docs/seo/keywords.md). Google's YouTube API team confirmed on 2026-10-09 that API uploads are not locked to private. autoPublish stays false so that no Short goes out without a sheet. type is the privacy status (public/private/unlisted).",
+      "note": "YouTube Shorts are opt-in per reel: scripts/social-queue-reel.sh --youtube <sheet.txt> adds a search-phrased title, a linked description and tags (docs/seo/keywords.md). Google's YouTube API team confirmed on 2026-10-09 that API uploads are not locked to private. autoPublish stays false so that no Short goes out without a sheet. type is the privacy status (public/private/unlisted). reel-4..reel-8 are YouTube-only slots for reels already published on Meta (the back catalogue). Keep the day at 6 uploads or fewer: the default API quota is 10,000 units, and an upload can cost 1,600.",
       "autoPublish": false,
       "type": "public"
     }

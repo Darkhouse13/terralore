@@ -68,8 +68,11 @@ DROP=/data/terralore-social/status/reels/$DATE
 [ -f "$VIDEO" ] || { echo "no such video: $VIDEO" >&2; exit 2; }
 [ -s "$CAPTION" ] || { echo "caption file missing or empty: $CAPTION" >&2; exit 2; }
 CAPLEN=$(node -e 'process.stdout.write(String(require("fs").readFileSync(process.argv[1],"utf8").trim().length))' "$CAPTION")
-[ "$CAPLEN" -le 2000 ] || { echo "caption is $CAPLEN chars; the margin is 2000 (Instagram's limit 2200)" >&2; exit 1; }
-! grep -qi 'terralore\.co' "$CAPTION" || { echo "caption links to terralore.co; reel captions carry no website link" >&2; exit 1; }
+# The caption gates are Meta's: a YouTube-only queue posts the sheet, not the caption.
+if [[ ,$PLATFORM, =~ ,(instagram|facebook), ]]; then
+  [ "$CAPLEN" -le 2000 ] || { echo "caption is $CAPLEN chars; the margin is 2000 (Instagram's limit 2200)" >&2; exit 1; }
+  ! grep -qi 'terralore\.co' "$CAPTION" || { echo "caption links to terralore.co; reel captions carry no website link" >&2; exit 1; }
+fi
 
 IFS=, read -r CODEC W H < <(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height \
   -of csv=p=0 "$VIDEO")
