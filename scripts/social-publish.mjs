@@ -31,11 +31,14 @@
 // platformSettings.youtube.autoPublish is true) at the `reel-N` slot,
 // deduped exactly like manifest posts (key <date>:<platform>:reel-N).
 //
-// YouTube (since 2026-09-30): the Short's title is the caption's first line
-// (the hook, ≤100 chars); the full caption becomes the description; its
-// hashtags become tags. Uploads from an unaudited Google API project are
-// locked to private, so autoPublish stays false until the YouTube API
-// Services audit passes — until then Shorts are uploaded by hand.
+// YouTube (since 2026-09-30): a Short is found by search, not by feed, so a
+// reel opts in with its own upload sheet (scripts/social-queue-reel.sh
+// --youtube): the drop's `youtube` block carries a query-phrased title, a
+// description that answers first and links the page, and tags
+// (docs/seo/keywords.md). Without a block, a youtube post falls back to the
+// caption's hook line as title and the caption as description. Google's API
+// team confirmed on 2026-10-09 that API uploads are NOT locked to private;
+// autoPublish stays false only so that no Short goes out without a sheet.
 //
 // Instagram's content API accepts JPEG only, so PNG stills are re-encoded
 // (sharp, q92, 4:4:4) at upload for Instagram and Facebook.
@@ -229,7 +232,12 @@ if (existsSync(reelDir)) {
     if (typeof meta.caption !== "string" || !meta.caption.trim()) {
       throw new Error(`reel drop ${date}/${slot}.json: caption missing`);
     }
+    const yt = meta.youtube;
+    if (yt && (typeof yt.title !== "string" || !yt.title.trim() || typeof yt.description !== "string" || !yt.description.trim())) {
+      throw new Error(`reel drop ${date}/${slot}.json: youtube block needs a title and a description`);
+    }
     for (const platform of meta.platforms || REEL_PLATFORMS) {
+      const sheet = platform === "youtube" ? yt : undefined;
       reelPosts.push({
         dedupeKey: `${date}:${platform}:${slot}`,
         platform,
@@ -237,7 +245,8 @@ if (existsSync(reelDir)) {
         type: "reel",
         format: "video",
         assets: [{ path: join(reelDir, name) }],
-        caption: meta.caption.trim(),
+        caption: (sheet ? sheet.description : meta.caption).trim(),
+        ...(sheet ? { youtubeSheet: sheet } : {}),
       });
     }
   }
@@ -309,7 +318,7 @@ function platformSettings(post) {
   }
   if (post.platform === "youtube") {
     const { note, autoPublish, ...settings } = config.platformSettings?.youtube || {};
-    return { ...youtubeSettings(post.caption), ...settings };
+    return { ...youtubeSettings(post.caption, post.youtubeSheet), ...settings };
   }
   if (post.platform === "tiktok") {
     const { note, ...settings } = config.platformSettings?.tiktok || {};
@@ -318,13 +327,18 @@ function platformSettings(post) {
   return {};
 }
 
-/** Title (the hook line, ≤100 chars at a word boundary) and tags from a reel caption. */
-function youtubeSettings(caption) {
-  const hook = caption.split("\n")[0].trim();
+/**
+ * Title and tags for a Short. With an upload sheet: the sheet's title and tags.
+ * Without one: the caption's hook line (≤100 chars at a word boundary) and its
+ * hashtags.
+ */
+function youtubeSettings(caption, sheet) {
+  const hook = (sheet?.title ?? caption.split("\n")[0]).trim();
   const title = hook.length <= 100 ? hook : `${hook.slice(0, 99).replace(/\s+\S*$/, "")}…`;
-  const tags = [...new Set([...caption.matchAll(/#([\p{L}\p{N}_]+)/gu)].map((m) => m[1]))]
-    .slice(0, 10)
-    .map((t) => ({ value: t, label: t }));
+  const words = sheet?.tags?.length
+    ? sheet.tags
+    : [...caption.matchAll(/#([\p{L}\p{N}_]+)/gu)].map((m) => m[1]);
+  const tags = [...new Set(words)].slice(0, 15).map((t) => ({ value: t, label: t }));
   return { title, type: "public", selfDeclaredMadeForKids: "no", tags };
 }
 

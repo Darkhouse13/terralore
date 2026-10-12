@@ -2,13 +2,22 @@
 # ── Queue a finished reel for the daily publisher ──────────────────────────
 # Usage:
 #
-#   scripts/social-queue-reel.sh <YYYY-MM-DD> <reel-1|reel-2> <video.mp4> <caption.txt> --platform <instagram|facebook> [--now]
+#   scripts/social-queue-reel.sh <YYYY-MM-DD> <reel-1|reel-2> <video.mp4> <caption.txt> --platform <instagram|facebook> [--youtube <sheet.txt>] [--now]
 #
 # --platform is required: since 2026-10-05 each reel is made for ONE platform and
 # published only there (Instagram rewards curiosity, Facebook identity —
 # .claude/skills/terralore-reels/SKILL.md). It lands in the drop's reel-N.json as
 # "platforms", which social-publish.mjs honours. A comma list is accepted for the
 # rare deliberate exception.
+#
+# --youtube <sheet.txt> also publishes the reel as a YouTube Short, from the same
+# upload sheet used for hand uploads (TITLE / DESCRIPTION / TAGS sections, as in
+# social-out/reels/*-youtube.txt). A Short is found by search, so the sheet's
+# title is the query ("Why Does Denmark Own Greenland?") and its description
+# answers first and links the page (docs/seo/keywords.md). Unlike the Meta
+# caption, the description MUST carry a terralore.co link. "youtube" is added to
+# the platforms; --platform youtube alone (with --youtube) queues a Short only,
+# for reels already published on Meta.
 #
 # Copies the reel and its caption into the reel drop on the box
 # (/data/terralore-social/status/reels/<date>/, which the runner sees as
@@ -32,17 +41,24 @@ if [ $# -lt 4 ]; then
 fi
 DATE=$1 SLOT=$2 VIDEO=$3 CAPTION=$4
 shift 4
-NOW= PLATFORM=
+NOW= PLATFORM= SHEET=
 while [ $# -gt 0 ]; do
   case $1 in
     --now) NOW=--now ;;
     --platform) PLATFORM=${2:-}; shift ;;
+    --youtube) SHEET=${2:-}; shift ;;
     *) echo "unknown option: $1" >&2; exit 2 ;;
   esac
   shift
 done
 [[ $PLATFORM =~ ^(instagram|facebook|youtube)(,(instagram|facebook|youtube))*$ ]] || {
   echo "--platform instagram|facebook is required (one reel, one platform — since 2026-10-05)" >&2; exit 2; }
+if [ -n "$SHEET" ]; then
+  [ -s "$SHEET" ] || { echo "youtube sheet missing or empty: $SHEET" >&2; exit 2; }
+  [[ ,$PLATFORM, == *,youtube,* ]] || PLATFORM=$PLATFORM,youtube
+elif [[ ,$PLATFORM, == *,youtube,* ]]; then
+  echo "--platform youtube needs --youtube <sheet.txt>: no Short goes out without a search title" >&2; exit 2
+fi
 HOST=${SOCIAL_HOST:-hetzner}
 RUNNER=runner-v113yzpn4rzcv32nqam70td2
 DROP=/data/terralore-social/status/reels/$DATE
@@ -64,8 +80,33 @@ awk -v d="$DUR" 'BEGIN { exit !(d >= 50) }' || { echo "reel runs ${DUR}s; the fl
 
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
-node -e 'const fs=require("fs");fs.writeFileSync(process.argv[2],JSON.stringify({caption:fs.readFileSync(process.argv[1],"utf8").trim(),platforms:process.argv[3].split(",")},null,2)+"\n")' \
-  "$CAPTION" "$TMP/$SLOT.json" "$PLATFORM"
+# The YouTube sheet, parsed and gated: title ≤ 100 chars, description ≤ 5,000
+# with a terralore.co link, tags ≤ 500 chars in all (YouTube's own limits).
+node -e '
+const fs = require("fs");
+const [captionPath, outPath, platforms, sheetPath] = process.argv.slice(1);
+const out = { caption: fs.readFileSync(captionPath, "utf8").trim(), platforms: platforms.split(",") };
+if (sheetPath) {
+  const sections = {};
+  let key = null;
+  for (const line of fs.readFileSync(sheetPath, "utf8").split("\n")) {
+    const head = line.match(/^(TITLE|DESCRIPTION|TAGS|SETTINGS)\b/);
+    if (head) { key = head[1]; sections[key] = []; continue; }
+    if (key) sections[key].push(line);
+  }
+  const text = (k) => (sections[k] || []).join("\n").trim();
+  const title = text("TITLE").split("\n")[0].trim();
+  const description = text("DESCRIPTION");
+  const tags = text("TAGS").split(",").map((t) => t.trim()).filter(Boolean);
+  const fail = (m) => { console.error("youtube sheet: " + m); process.exit(1); };
+  if (!title || title.length > 100) fail(`title must be 1-100 chars (got ${title.length})`);
+  if (!description || description.length > 5000) fail(`description must be 1-5000 chars (got ${description.length})`);
+  if (!/terralore\.co/i.test(description)) fail("description must link terralore.co: the Short exists to send searchers to the page");
+  if (tags.join(",").length > 500) fail("tags exceed 500 chars");
+  out.youtube = { title, description, tags };
+}
+fs.writeFileSync(outPath, JSON.stringify(out, null, 2) + "\n");
+' "$CAPTION" "$TMP/$SLOT.json" "$PLATFORM" "$SHEET"
 
 ssh "$HOST" "mkdir -p '$DROP'"
 scp -q "$VIDEO" "$HOST:$DROP/$SLOT.mp4"

@@ -23,6 +23,7 @@
     "facebook:carousel": "16:10",
     "tiktok:carousel": "19:30",
     "youtube:reel-1": "12:50",
+    "youtube:reel-3": "16:20",
     "youtube:reel-2": "19:50"
   },
   "platformSettings": {
@@ -46,7 +47,7 @@
     },
     "facebook": {},
     "youtube": {
-      "note": "autoPublish adds YouTube Shorts to every reel's default platforms. Keep it false until the YouTube API Services audit passes: uploads from an unaudited API project are locked to private. Title = the caption's hook line; type is the privacy status (public/private/unlisted).",
+      "note": "YouTube Shorts are opt-in per reel: scripts/social-queue-reel.sh --youtube <sheet.txt> adds a search-phrased title, a linked description and tags (docs/seo/keywords.md). Google's YouTube API team confirmed on 2026-10-09 that API uploads are not locked to private. autoPublish stays false so that no Short goes out without a sheet. type is the privacy status (public/private/unlisted).",
       "autoPublish": false,
       "type": "public"
     }
