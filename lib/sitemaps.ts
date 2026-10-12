@@ -3,7 +3,7 @@ import { allCountries } from "@/lib/countries";
 import { allHistories, getHistory } from "@/lib/histories";
 import { getDossier } from "@/lib/domains";
 import { allCommodities, commoditiesUpdated } from "@/lib/commodities";
-import { allRankings, rankingsUpdated } from "@/lib/rankings";
+import { allRankings, rankingIndexable, rankingsUpdated } from "@/lib/rankings";
 import { allComparePages, compareIndexable, compareUpdated } from "@/lib/compare";
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor, themeSliceIndexable } from "@/lib/chronology";
@@ -209,7 +209,9 @@ function rankingEntries(): MetadataRoute.Sitemap {
       url: abs(routes.rankings()),
       lastModified: rankingsUpdated(),
     },
-    ...allRankings().map((ranking) => ({
+    // Noindexed rankings (see rankingIndexable) are excluded — a sitemap must
+    // only carry URLs meant for the index.
+    ...allRankings().filter(rankingIndexable).map((ranking) => ({
       url: abs(routes.ranking(ranking.slug)),
       lastModified: ranking.updated,
     })),

@@ -242,6 +242,28 @@ invariant — where the invariant wins by rule.
   brand rules allow; the palette gains no red. `/terms` joins `/privacy`
   as a reading surface on the mounted core.
 
+- **E19 — The query in the heading, and nations linked in the prose
+  (2026-10-12).** The SEO playbook adoption (`docs/seo/`) asks for two
+  things the frozen phone rendering did not have, and the owner approved
+  both against the freeze:
+  1. **H1 kickers.** The chronicle, timeline-period and commodity H1s carry
+     the reader's query inside the heading: an eyebrow-voice kicker
+     ("HISTORY OF", "WHAT HAPPENED IN") above the nation's or period's name,
+     and a mono line under a commodity's name ("PRODUCTION BY COUNTRY · WHO
+     SUPPLIES THE WORLD"), which absorbs half of the old observation line. The
+     name keeps the full mass. The kicker is the existing eyebrow, set in
+     umber on bone (a declared pair).
+  2. **In-prose nation links.** In each chronicle bed, the first mention of
+     another nation in the prose and the turning-point summaries links to that
+     nation's chronicle (`lib/nation-links.tsx`). The commodity page's
+     "three largest producers" sentence links each producer to its nation
+     page. These are oxide links with an underline, the same as the
+     bed-source links; oxide on bone is the declared link pair, and the
+     underline means colour is not the only cue. The rule is precision
+     over recall: names whose neighbours say river, gulf, colony or empire
+     are skipped, and the bare words "Congo" and "Guinea" and the name
+     Palestine are never linked.
+
 *(none yet — log here if a taboo ever collides with an editorial
 invariant; the invariant wins and the design routes around it.)*
 

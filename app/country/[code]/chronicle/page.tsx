@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCountry, allCodes } from "@/lib/countries";
@@ -10,6 +11,7 @@ import { metricLinkFor } from "@/lib/annotations";
 import type { CountryHistory, Era, Figure, Source, TimelineEvent } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
 import { assignEventKeys, type EventKey } from "@/lib/claim-id";
+import { nationLinker } from "@/lib/nation-links";
 
 /**
  * The Chronicle — the reading depth.
@@ -47,9 +49,10 @@ export async function generateMetadata({
   if (!meta || !history) return { title: `Unknown territory — ${SITE_NAME}` };
 
   const path = routes.chronicle(code);
-  // Short title for the tab + SERP (the layout template appends the site name);
-  // the fuller headline goes to OG, where the long form reads better.
-  const title = `The Chronicle of ${meta.name}`;
+  // Short title for the tab + SERP (the layout template appends the site name),
+  // led by the query readers type — "history of X" (docs/seo/keywords.md); the
+  // fuller headline goes to OG, where the long form reads better.
+  const title = `History of ${meta.name}: a sourced timeline`;
   const ogTitle = `${meta.name} — ${history.tagline}`;
   const description = chronicleDescription(meta, history);
 
@@ -227,7 +230,10 @@ function Masthead({
         {meta.subregion ?? meta.region} · {meta.continent}
       </p>
 
+      {/* The kicker puts the reader's query inside the heading itself
+          ("History of Montenegro") while the nation's name keeps the mass (E19). */}
       <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
+        <span className="eyebrow mb-2 block font-medium text-umber">History of</span>{" "}
         {meta.name}
       </h1>
 
@@ -323,12 +329,17 @@ function EraSection({
   code: string;
   eventKeys: EventKey[];
 }) {
-  const body = era.body ?? [];
+  // First mention of another nation in this bed links to its chronicle
+  // (lib/nation-links). One linker per bed, called in render order: the prose,
+  // then the turning points as displayed.
+  const link = nationLinker(code);
+  const body = (era.body ?? []).map(link);
   // Keys are assigned in authored order (identity), display sorts by year —
   // pair before sorting so each event keeps its own anchor.
   const events = era.events
     .map((ev, i) => ({ ev, anchor: eventKeys[i]?.fragment }))
-    .sort((a, b) => a.ev.year - b.ev.year);
+    .sort((a, b) => a.ev.year - b.ev.year)
+    .map((e) => ({ ...e, summary: link(e.ev.summary) }));
 
   // The era's dominant category — the pigment its stratum band is laid down in,
   // exactly as the journey's timeline rail computes it. Same corpus, same rule,
@@ -405,10 +416,11 @@ function EraSection({
         <div className="mt-9">
           <h3 className="eyebrow text-umber">Turning points</h3>
           <ol className="mt-4 space-y-6">
-            {events.map(({ ev, anchor }, i) => (
+            {events.map(({ ev, anchor, summary }, i) => (
               <EventItem
                 key={`${ev.year}-${i}`}
                 event={ev}
+                summary={summary}
                 anchor={anchor}
                 sourceIndex={sourceIndex}
                 code={code}
@@ -521,11 +533,14 @@ function MeanwhileElsewhere({
 
 function EventItem({
   event,
+  summary,
   anchor,
   sourceIndex,
   code,
 }: {
   event: TimelineEvent;
+  /** The summary with its nation links already set (see EraSection). */
+  summary: ReactNode;
   /** The event's claim fragment (living-record §1.3) — its stable anchor. */
   anchor?: string;
   sourceIndex: Map<string, number>;
@@ -569,7 +584,7 @@ function EventItem({
       </div>
       <div className="border-l-2 border-basalt pl-4 sm:pl-6">
         <h4 className="font-sans text-[15.5px] font-bold leading-snug">{event.title}</h4>
-        <p className="mt-1.5 font-sans text-[14.5px] leading-[1.62]">{event.summary}</p>
+        <p className="mt-1.5 font-sans text-[14.5px] leading-[1.62]">{summary}</p>
         {dataLink && (
           <Link
             href={dataLink.href}

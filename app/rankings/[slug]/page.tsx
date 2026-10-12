@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
-import { allRankings, getRanking, type Ranking } from "@/lib/rankings";
+import { allRankings, getRanking, rankingIndexable, type Ranking } from "@/lib/rankings";
 import { claimId } from "@/lib/claim-id";
 import { DOMAIN_META } from "@/lib/types";
 import { formatMetric } from "@/lib/format";
@@ -100,6 +100,8 @@ export async function generateMetadata({
       ...r.sources.map((s) => s.publisher),
     ],
     alternates: { canonical: path, types: mdTwinTypes(path) },
+    // See rankingIndexable — production rankings yield the query to /commodities.
+    ...(rankingIndexable(r) ? {} : { robots: { index: false, follow: true } }),
     // The social card comes from this segment's own opengraph-image.tsx.
     openGraph: {
       type: "website",

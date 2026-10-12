@@ -65,7 +65,9 @@ export async function generateMetadata({
   );
 
   return {
-    title: period.label,
+    // Led by the query readers type — "what happened in the 1920s"
+    // (docs/seo/keywords.md); the layout template appends the site name.
+    title: `What happened in ${lowerLabel(period.label)} — the world, year by year`,
     description,
     keywords: [
       `${stripArticle(period.label)} timeline`,
@@ -195,7 +197,9 @@ export default async function PeriodPage({ params }: { params: Promise<{ slug: s
             </span>
             <p className="eyebrow text-umber">A world chronology · {spanLabel(period)}</p>
 
+            {/* The kicker carries the reader's query into the heading (E19). */}
             <h1 className="mt-3 font-display text-[42px] font-extrabold uppercase leading-none tracking-tight md:text-[64px]">
+              <span className="eyebrow mb-2 block font-medium text-umber">What happened in</span>{" "}
               {period.label}
             </h1>
 

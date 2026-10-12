@@ -10,6 +10,7 @@ import {
   type Commodity,
   type ProducerShare,
 } from "@/lib/commodities";
+import { getCountry } from "@/lib/countries";
 import { formatTonnes } from "@/lib/format";
 import { METRIC_DEFS } from "@/lib/metric-defs";
 import { producerFragment, shareClaimId } from "@/lib/claim-id";
@@ -58,7 +59,9 @@ export async function generateMetadata({
   const description = commodityDescription(c);
   const lower = c.name.toLowerCase();
   return {
-    title: `${c.name} — who supplies the world`,
+    // Led by the query readers type — "<mineral> production by country"
+    // (docs/seo/keywords.md); the layout template appends the site name.
+    title: `${c.name} production by country (${c.years.estimate}): who supplies the world`,
     description,
     keywords: [
       `${lower} production by country`,
@@ -170,12 +173,16 @@ export default async function CommodityPage({
               OBSERVED {yr} · {ye} EST
             </span>
           </span>
+          {/* The heading reads as the reader's query, "<mineral> production by
+              country", with the name keeping the mass (E19). */}
           <h1 className="max-w-[16ch] font-display text-[42px] leading-none font-extrabold tracking-tight uppercase md:text-[64px]">
-            {c.name}
+            {c.name}{" "}
+            <span className="mt-3 block font-mono text-[11px] leading-snug font-normal tracking-normal text-oxide">
+              Production by country · who supplies the world
+            </span>
           </h1>
-          <p className="mt-3 font-mono text-[11px] text-oxide uppercase">
-            Who supplies the world · tonnes of mine production · observed {yr} · {ye}{" "}
-            est.
+          <p className="mt-1.5 font-mono text-[11px] text-oxide uppercase">
+            Tonnes of mine production · observed {yr} · {ye} est.
           </p>
           <p className="mt-2 max-w-2xl font-sans text-[14px] leading-relaxed text-umber">
             {METRIC_DEFS[c.key]}
@@ -203,8 +210,8 @@ export default async function CommodityPage({
 
           {top3.length === 3 && (
             <p className="mt-5 max-w-2xl font-sans text-[13.5px] leading-relaxed text-umber">
-              The three largest producers — {top3[0].name}, {top3[1].name} and{" "}
-              {top3[2].name} — account for {pct(c.topThreeShare)} of the {ye} world
+              The three largest producers — <ProducerLink p={top3[0]} />,{" "}
+              <ProducerLink p={top3[1]} /> and <ProducerLink p={top3[2]} /> — account for {pct(c.topThreeShare)} of the {ye} world
               estimate of {formatTonnes(c.world.estimate)}.
             </p>
           )}
@@ -309,6 +316,16 @@ export default async function CommodityPage({
 }
 
 /* ── pieces ───────────────────────────────────────────────────────────────── */
+
+/** A producer named in prose, linked to its nation page when it has one. */
+function ProducerLink({ p }: { p: ProducerShare }) {
+  if (!getCountry(p.code)) return <>{p.name}</>;
+  return (
+    <Link href={routes.dossier(p.code)} prefetch={false} className="text-oxide underline underline-offset-2">
+      {p.name}
+    </Link>
+  );
+}
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (

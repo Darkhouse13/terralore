@@ -240,6 +240,20 @@ export function allRankings(): Ranking[] {
 const bySlug = () => new Map(allRankings().map((r) => [r.slug, r]));
 let slugCache: Map<string, Ranking> | null = null;
 
+/**
+ * Whether a ranking page is meant for the search index. The ten USGS
+ * production rankings are not: each one competes with its /commodities page
+ * for the same query ("<mineral> production by country", measured 2026-10-12
+ * in docs/seo/keywords.md), and the commodity page is the fuller one (both
+ * years, the world total, the rest-of-world residual). The ranking stays
+ * live and linked from the hub and the dossier's metric window; it just
+ * leaves the index and the sitemap, so the commodity page holds the query.
+ * To restore it, return true.
+ */
+export function rankingIndexable(r: Ranking): boolean {
+  return r.commoditySlug === null;
+}
+
 export function getRanking(slug: string): Ranking | undefined {
   slugCache ??= bySlug();
   return slugCache.get(slug);
