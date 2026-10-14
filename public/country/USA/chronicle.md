@@ -1,6 +1,6 @@
 # The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.
 
-History of United States: From Indigenous homelands to a continental republic and global superpower. 6 eras and 26 sourced events, every claim traceable…
+History of United States: From Indigenous homelands to a continental republic and global superpower. 6 eras and 37 sourced events, every claim traceable…
 
 Canonical: https://terralore.co/country/USA/chronicle
 Updated: 2026-09-07
@@ -52,6 +52,7 @@ Continental expansion, the displacement of Native nations, and an irrepressible 
 
 - 1838: **Trail of Tears** — Under the Indian Removal Act, the United States forcibly marched the Cherokee and other southeastern nations west of the Mississippi; thousands died en route. [loc-overview]
 - 1861–1865: **American Civil War** — War between the Union and the secessionist Confederacy, ignited at Fort Sumter, became the deadliest conflict in U.S. history and decided the fate of slavery. [brit-civil-war]
+- 20 May 1862: **Homestead Act** — The Homestead Act granted adult heads of families 160 acres of surveyed public land, on condition of five years of continuous residence on it. Of some 500 million acres dispersed by the General Land Office between 1862 and 1904, about 80 million acres went to homesteaders. [nara-homestead]
 - 1 January 1863: **Emancipation Proclamation** — President Lincoln declared enslaved people in the rebelling states 'forever free,' redefining the war's purpose and clearing the way for Black enlistment in the Union army. [nara-emancipation]
 - 6 December 1865: **Thirteenth Amendment abolishes slavery** — Ratified after the Union victory, the Thirteenth Amendment abolished slavery and involuntary servitude throughout the United States. [nara-13th]
 
@@ -67,7 +68,12 @@ Emancipation gave way to a contested Reconstruction, an industrial transformatio
 - 30 March 1867: **The Alaska Purchase** — Secretary of State William H. Seward agreed to buy Russian America — the colony Russia had run from Sitka through the Russian-American Company since 1799 — for $7.2 million, proposed by the Russian minister in Washington, Eduard de Stoeckl: less than two cents an acre for nearly 600,000 square miles. Russia lacked the money to settle or defend the territory and its defeat in the Crimean War had further reduced its interest. The Senate approved the treaty on 9 April, Tsar Alexander II ratified it on 20 June, and Alaska was formally transferred at Sitka on 18 October 1867. Skeptics dubbed the purchase 'Seward's Folly' or 'Seward's Icebox'; the Treasury warrant for seven million two hundred thousand dollars was issued on 1 August 1868. [state-alaska-purchase, nara-alaska-check, nara-alaska-ratification, brit-alaska]
 - 1868: **Fourteenth Amendment** — Ratified during Reconstruction, it granted citizenship to all persons born in the United States and guaranteed equal protection of the laws. [loc-overview]
 - 1869: **Transcontinental railroad completed** — The joining of the rails at Promontory, Utah, linked the Atlantic and Pacific coasts, accelerating settlement, commerce, and industrial growth. [loc-overview]
+- 1878–1879: **Powell's report on the arid region** — John Wesley Powell's Report on the Lands of the Arid Region, sent to Congress in April 1878 with two draft bills for irrigation and pasturage districts, described the eastern boundary of the arid region as, in a general way, the 100th meridian, and set the limit of agriculture without irrigation at 20 inches of annual rainfall. He proposed that pasturage farms be of at least 2,560 acres. [powell-1879]
+- 1919: **The Army's first transcontinental motor convoy** — In the summer of 1919 a convoy of 79 vehicles and 297 personnel travelled 3,200 miles from Washington, D.C., to San Francisco along the Lincoln Highway. Lt. Col. Dwight D. Eisenhower was detailed as an observer and wrote the report, calling a western section of the road so poor that it warranted thorough investigation. [fhwa-convoy-1919, army-ike-interstate]
+- September 1925: **The US Route numbering grid is set** — A joint board of state and federal officials finalised a numbering plan for the national highways: north-south roads were numbered odd, east-west roads even, with US 1 along the East Coast and US 2 along the Canadian border, chosen to avoid a US 0. [fhwa-names-numbers]
 - 1929: **Great Depression** — The stock market crash of 1929 triggered a decade-long economic collapse, answered by Roosevelt's New Deal programmes of relief, recovery, and reform. [loc-overview]
+- 14 April 1935: **Black Sunday dust storm** — On Sunday, April 14, 1935, a massive front with winds of 60 miles per hour moved across the Great Plains from the northwest during the drought of the 1930s. The day became known as Black Sunday. [kshs-dustbowl]
+- 30 September 1935: **Hoover Dam dedicated** — President Franklin D. Roosevelt dedicated Hoover Dam on September 30, 1935. The dam, authorised by the Boulder Canyon Project Act, had begun impounding water in Lake Mead on February 1 of that year. [usbr-hoover]
 - 7 December 1941: **Attack on Pearl Harbor** — Japan's surprise attack on the U.S. naval base in Hawaii brought the United States into the Second World War. [nara-pearl-harbor]
 
 Figures:
@@ -79,11 +85,16 @@ Figures:
 A Cold War superpower wrestled with its unfinished promise of equality, reshaping itself through the civil rights movement and decades of social and technological change.
 
 - 1954: **Brown v. Board of Education** — The Supreme Court ruled that racial segregation in public schools was unconstitutional, a landmark in the legal assault on Jim Crow. [loc-overview]
+- June 29, 1956: **Federal-Aid Highway Act of 1956** — President Eisenhower signed the Federal-Aid Highway Act on June 29, 1956; it authorized 41,000 miles of interstate highways. Eisenhower later wrote of the German autobahn network he had seen during the Second World War. [fhwa-interstate-history, army-ike-interstate]
+- September 1957: **The Interstate numbering plan** — The American Association of State Highway Officials and the U.S. Bureau of Public Roads approved a numbering plan for the Interstate System that the Federal Highway Administration describes as a mirror image of the U.S. route plan: even east-west numbers rise from south to north (I-10 to I-90) and odd north-south numbers rise from west to east (I-5 to I-95). [fhwa-i76-numbering]
 - 3 January 1959: **Alaska becomes the 49th state** — Ninety-two years after the purchase mocked as 'Seward's Folly', Alaska entered the Union as the 49th state. Gold had already transformed the territory — it was the gateway to the Klondike fields after 1896, and a rush followed the 1898 discovery at Nome — and in 1968 the discovery at Prudhoe Bay of the largest oil field in North America, carried south from 1977 by the Trans-Alaska Pipeline, remade its economy again. [state-alaska-purchase, brit-nome, brit-prudhoe-bay, brit-alaska]
 - 2 July 1964: **Civil Rights Act** — Signed by President Johnson, the Act outlawed discrimination based on race, colour, religion, sex, or national origin in employment and public accommodations. [brit-civil-rights-act]
 - 6 August 1965: **Voting Rights Act** — The Act banned racial discrimination in voting and authorised federal oversight of elections, dramatically expanding Black political participation. [brit-civil-rights-act]
 - 1969: **Apollo 11 Moon landing** — American astronauts became the first humans to walk on the Moon, a defining achievement of the Cold War space race. [loc-overview]
 - 1991: **End of the Cold War** — The dissolution of the Soviet Union left the United States as the world's sole superpower and reshaped the international order. [loc-overview]
+- 28 November 1995: **Interstate Route I-99 designated by statute** — Section 332 of the National Highway System Designation Act of 1995, approved November 28, 1995, designated a route described in the Act as Interstate Route I-99, as a future part of the Interstate System once segments meet Interstate design standards. [plaw-104-59]
+- 2018: **Study of the 100th meridian as an arid-humid divide** — A study in Earth Interactions reexamined Powell's idea and found a stark east-west gradient in aridity roughly at the 100th meridian, with farms fewer but larger to its west. It concluded the meridian is a real arid-humid divide in climate and landscape that has influenced settlement and agriculture. [seager-2018]
+- 2020: **Mean centre of U.S. population reaches Missouri** — The Census Bureau placed the 2020 mean centre of population at 37.415725 N, 92.346525 W, calling it the most western and southern mean centre of population in the nation's history. The nearest incorporated municipality is Hartville, Missouri. [census-centers]
 
 Figures:
 
@@ -112,5 +123,17 @@ Machine-readable claims — every event above as an addressable claim ID (TL:USA
 - [brit-alaska] Alaska — Encyclopaedia Britannica · https://www.britannica.com/place/Alaska-state
 - [brit-nome] Nome — Encyclopaedia Britannica · https://www.britannica.com/place/Nome-Alaska
 - [brit-prudhoe-bay] Prudhoe Bay — Encyclopaedia Britannica · https://www.britannica.com/place/Prudhoe-Bay
+- [nara-homestead] Homestead Act (1862) — U.S. National Archives · https://www.archives.gov/milestone-documents/homestead-act
+- [powell-1879] Report on the Lands of the Arid Region of the United States (2nd ed., 1879) — J. W. Powell, U.S. Government Printing Office (via Project Gutenberg) · https://www.gutenberg.org/ebooks/69995
+- [seager-2018] Whither the 100th Meridian? Part I: The Story So Far — Earth Interactions 22(5), American Meteorological Society · https://doi.org/10.1175/EI-D-17-0011.1
+- [kshs-dustbowl] Dust Bowl — Kansas Historical Society (Kansapedia) · https://www.kansashistory.gov/p/dust-bowl/12040
+- [usbr-hoover] Hoover Dam chronology — U.S. Bureau of Reclamation · https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html
+- [census-centers] Centers of Population — U.S. Census Bureau · https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html
+- [fhwa-names-numbers] From Names to Numbers: The Origins of the U.S. Numbered Highway System — Federal Highway Administration · https://www.fhwa.dot.gov/infrastructure/numbers.cfm
+- [fhwa-convoy-1919] Report of the First Transcontinental Motor Convoy, 1919 — Federal Highway Administration · https://www.fhwa.dot.gov/infrastructure/convoy.cfm
+- [army-ike-interstate] Dwight D. Eisenhower and the birth of the Interstate Highway System — U.S. Army · https://www.army.mil/article/198095
+- [fhwa-interstate-history] History of the Eisenhower Interstate System — Federal Highway Administration · https://www.fhwa.dot.gov/interstate-70th/history_eisenhower_interstate_system.cfm
+- [fhwa-i76-numbering] Ask the Rambler: Was I-76 Numbered to Honor Philadelphia? — Federal Highway Administration · https://www.fhwa.dot.gov/infrastructure/i76.cfm
+- [plaw-104-59] National Highway System Designation Act of 1995 (Public Law 104-59) — U.S. Government Publishing Office · https://www.govinfo.gov/content/pkg/PLAW-104publ59/html/PLAW-104publ59.htm
 
 Citation template: Terralore, "The Chronicle of United States: From Indigenous homelands to a continental republic and global superpower.", terralore.co/country/USA/chronicle, retrieved <YYYY-MM-DD>.

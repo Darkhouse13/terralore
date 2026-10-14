@@ -1,6 +1,6 @@
 # Finland and Russia compared
 
-Finland and Russia side by side: 43 shared sourced indicators across 9 domains, and the 11 events their chronicles record of each other.
+Finland and Russia side by side: 43 shared sourced indicators across 9 domains, and the 13 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fin-vs-rus
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -111,15 +111,17 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/FIN.md and https://terralore.co/country/RUS.md.
 
-## Entangled histories (11 events)
+## Entangled histories (13 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 1323: **Treaty of Noteborg** — The peace of Noteborg fixed an approximate frontier between the Swedish and Russian spheres in Karelia, assigning Finland to Sweden's orbit and splitting the Karelians between Catholic west and Orthodox east. (from the Finland chronicle; sources: Main outlines of Finnish history; Finland: Finland under Swedish rule)
 - 1808–1809: **The Finnish War and the end of Swedish rule** — Russia conquered Finland from Sweden in the war of 1808-09, ending some six centuries during which Finland had formed the eastern half of the Kingdom of Sweden. (from the Finland chronicle; sources: Finland: Finland under Swedish rule; History of Finland)
 - 1809: **Finland becomes an autonomous Grand Duchy** — By the Treaty of Fredrikshamn Sweden ceded Finland to Russia; it became the autonomous Grand Duchy of Finland, joined to the empire through the tsar, who reigned as Grand Duke, and kept its own laws and religion. (from the Finland chronicle; sources: History of Finland; History of Finland)
+- 1 Jan 1812: **Old Finland reunited with the Grand Duchy** — By a decree of Emperor Alexander I, announced in December 1811, the Viborg province ('Old Finland'), which Russia had taken from Sweden in 1721 and 1743, was joined to the Grand Duchy of Finland from the start of 1812, restoring the earlier Karelian losses to Finland. (from the Finland chronicle; sources: Kuinka Suomi-neidon muotoinen kartta-Suomi syntyi?; A Precis of the Public Law of Finland)
 - 6 Dec 1917: **Declaration of independence** — The Parliament of Finland approved a declaration of independence amid the turmoil of the Russian Revolution, ending more than a century as an autonomous Grand Duchy of the Russian Empire. (from the Finland chronicle; sources: History of Finland; Main outlines of Finnish history)
 - 31 Dec 1917: **Soviet Russia recognises Finland** — Lenin's Bolshevik government formally recognised Finnish independence on the last day of 1917, calculating that it could not retain the periphery of the former empire. (from the Finland chronicle; sources: History of Finland; History of Finland)
+- 14 Oct 1920: **Treaty of Tartu: Petsamo and the Arctic coast** — In the Treaty of Tartu, Soviet Russia ceded the Petsamo (Pechenga) province to Finland, giving it a coastline on the Arctic Ocean. The province was returned to the Soviet Union under the 1944 armistice, confirmed by the 1947 Paris treaty. (from the Finland chronicle; sources: Kuinka Suomi-neidon muotoinen kartta-Suomi syntyi?; Treaty of Peace with Finland, Paris, 1947 (UK Treaty Series 53/1948); Petsamo: bringing modernity to Finland's Arctic Ocean shore 1920-1939)
 - 30 Nov 1939: **The Winter War begins** — The Soviet Union invaded Finland on 30 November 1939 after Finland refused to cede territory near Leningrad; the outnumbered Finns mounted a celebrated defence through the winter of 1939-40. (from the Finland chronicle; sources: Russo-Finnish War (Winter War); History of Finland)
 - 1941–1944: **The Continuation War** — Allied with Germany after its 1941 invasion of the USSR, Finland fought the Continuation War to recover Karelia, but a Soviet offensive in 1944 forced it to seek an armistice. (from the Finland chronicle; sources: Finland during World War II; Russo-Finnish War (Winter War))
 - 19 Sep 1944: **Moscow Armistice and cession of Petsamo** — The Moscow Armistice ended the Continuation War, restoring the 1940 border, returning Petsamo to the Soviet Union, leasing Porkkala as a naval base, and imposing reparations. (from the Finland chronicle; sources: Finland during World War II; Draft Peace Treaty with Finland (Paris Peace Treaty terms))

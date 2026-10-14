@@ -1,6 +1,6 @@
 # Finland and Sweden compared
 
-Finland and Sweden side by side: 42 shared sourced indicators across 9 domains, and the 10 events their chronicles record of each other.
+Finland and Sweden side by side: 42 shared sourced indicators across 9 domains, and the 12 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fin-vs-swe
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -104,7 +104,7 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/FIN.md and https://terralore.co/country/SWE.md.
 
-## Entangled histories (10 events)
+## Entangled histories (12 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
@@ -113,7 +113,9 @@ Events in which either nation's sourced chronicle names the other — including 
 - 30 Aug 1721: **Treaty of Nystad ends the empire** — The peace ending the Great Northern War ceded Sweden's Baltic provinces — Estonia, Livonia, Ingria and part of Karelia — to Russia, ending the age of greatness, though Finland was restored to Sweden. (from the Sweden chronicle; sources: Treaty of Nystad (1721); Battle of Poltava)
 - 1808–1809: **The Finnish War and the end of Swedish rule** — Russia conquered Finland from Sweden in the war of 1808-09, ending some six centuries during which Finland had formed the eastern half of the Kingdom of Sweden. (from the Finland chronicle; sources: Finland: Finland under Swedish rule; History of Finland)
 - 1809: **Finland becomes an autonomous Grand Duchy** — By the Treaty of Fredrikshamn Sweden ceded Finland to Russia; it became the autonomous Grand Duchy of Finland, joined to the empire through the tsar, who reigned as Grand Duke, and kept its own laws and religion. (from the Finland chronicle; sources: History of Finland; History of Finland)
+- 1809: **The Tornio–Muonio line and the northern border** — Finland had no western border under Swedish rule; the Treaty of Hamina defined one along the Tornio and Muonio rivers. The northern border became the Swedish–Norwegian line agreed in 1751, still the Norway–Finland border, and between the two lines lies the north-western lobe known in Finnish as the Kasivarsi, the 'Arm'. (from the Finland chronicle; sources: Kuinka Suomi-neidon muotoinen kartta-Suomi syntyi?; History of Finland)
 - 17 Sep 1809: **Treaty of Fredrikshamn: the loss of Finland** — Ending the Finnish War, the Treaty of Fredrikshamn (Hamina) ceded the whole of Finland and the Åland Islands to Russia, stripping Sweden of about a third of its territory and people. (from the Sweden chronicle; sources: Treaty of Hamina (Fredrikshamn, 1809); Sweden: History)
+- 1 Jan 1812: **Old Finland reunited with the Grand Duchy** — By a decree of Emperor Alexander I, announced in December 1811, the Viborg province ('Old Finland'), which Russia had taken from Sweden in 1721 and 1743, was joined to the Grand Duchy of Finland from the start of 1812, restoring the earlier Karelian losses to Finland. (from the Finland chronicle; sources: Kuinka Suomi-neidon muotoinen kartta-Suomi syntyi?; A Precis of the Public Law of Finland)
 - 1920: **Aland Autonomy Act** — Finland granted the Swedish-speaking Aland Islands wide-ranging cultural and political autonomy, anticipating the conditions the League of Nations would attach to its sovereignty the following year. (from the Finland chronicle; sources: The special status of the Aland Islands; The Aland example: Autonomy protects a minority)
 - 24 Jun 1921: **League of Nations awards Aland to Finland** — The Council of the League of Nations awarded sovereignty over the Aland Islands to Finland, while obliging it to guarantee the islanders' Swedish language, culture and self-government, a landmark of peaceful conflict resolution. (from the Finland chronicle; sources: The special status of the Aland Islands; The Aland example: Autonomy protects a minority; The Aland Islands Solution: a precedent for successful international disputes settlement)
 - 1 Jan 1995: **Finland joins the European Union** — After a 1994 referendum in which about 57 per cent voted yes, Finland joined the European Union on 1 January 1995 with Sweden and Austria, and later adopted the euro. (from the Finland chronicle; sources: Main outlines of Finnish history; History of Finland)

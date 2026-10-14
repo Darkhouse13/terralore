@@ -1,6 +1,6 @@
 # Finland and Norway compared
 
-Finland and Norway side by side: 42 shared sourced indicators across 9 domains, their chronicles record no events of each other.
+Finland and Norway side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/fin-vs-nor
 Updated: 2026-08-14 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -102,9 +102,11 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/FIN.md and https://terralore.co/country/NOR.md.
 
-## Entangled histories (0 events)
+## Entangled histories (1 event)
 
-Neither nation's sourced chronicle names the other — across both archives, no recorded event crosses between them. That is a fact about the two records as they stand, not a gap filled here.
+Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
+
+- 1809: **The Tornio–Muonio line and the northern border** — Finland had no western border under Swedish rule; the Treaty of Hamina defined one along the Tornio and Muonio rivers. The northern border became the Swedish–Norwegian line agreed in 1751, still the Norway–Finland border, and between the two lines lies the north-western lobe known in Finnish as the Kasivarsi, the 'Arm'. (from the Finland chronicle; sources: Kuinka Suomi-neidon muotoinen kartta-Suomi syntyi?; History of Finland)
 
 ## Sources
 

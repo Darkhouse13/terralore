@@ -1,6 +1,6 @@
 # The Chronicle of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers.
 
-History of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers. 6 eras and 28 sourced events…
+History of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers. 6 eras and 31 sourced events…
 
 Canonical: https://terralore.co/country/FIN/chronicle
 Updated: 2026-06-13
@@ -31,7 +31,9 @@ Figures:
 Joined to Russia as an autonomous Grand Duchy under the tsar, Finland kept its own laws, gained Helsinki as its capital, found a national voice in the Kalevala, and was hardened by late-century Russification.
 
 - 1809: **Finland becomes an autonomous Grand Duchy** — By the Treaty of Fredrikshamn Sweden ceded Finland to Russia; it became the autonomous Grand Duchy of Finland, joined to the empire through the tsar, who reigned as Grand Duke, and kept its own laws and religion. [history-of-finland-britannica, infofinland-history]
+- 1809: **The Tornio–Muonio line and the northern border** — Finland had no western border under Swedish rule; the Treaty of Hamina defined one along the Tornio and Muonio rivers. The northern border became the Swedish–Norwegian line agreed in 1751, still the Norway–Finland border, and between the two lines lies the north-western lobe known in Finnish as the Kasivarsi, the 'Arm'. [tommila-suomineito-2009, history-of-finland-britannica]
 - 1812: **Helsinki made the capital** — The capital was moved from Turku to Helsinki, nearer to Saint Petersburg, and the town was rebuilt as a neoclassical capital of the Grand Duchy. [infofinland-history, mainoutlines-finland]
+- 1 Jan 1812: **Old Finland reunited with the Grand Duchy** — By a decree of Emperor Alexander I, announced in December 1811, the Viborg province ('Old Finland'), which Russia had taken from Sweden in 1721 and 1743, was joined to the Grand Duchy of Finland from the start of 1812, restoring the earlier Karelian losses to Finland. [tommila-suomineito-2009, precis-law-finland]
 - 1835: **Elias Lonnrot publishes the Kalevala** — Lonnrot published the Kalevala, a national epic assembled from oral folk poetry collected in Karelia; it strengthened the Finnish language and fed the national awakening that would culminate in independence. [lonnrot-britannica, kalevala-finland]
 - 1899: **Russification and Finlandia** — Nicholas II's February Manifesto curtailed Finnish autonomy, beginning a campaign of Russification; resistance found voice in Jean Sibelius's tone poem Finlandia, composed that same year. [history-of-finland-britannica, finlandia-finland]
 - 1906: **A modern parliament and votes for women** — Finland adopted a unicameral parliament elected by universal suffrage, becoming the first country in Europe to grant women the right to vote and to stand for election. [history-of-finland-britannica]
@@ -62,6 +64,7 @@ The young republic's first great test of its borders was settled not by war but 
 - 1920: **Aland Autonomy Act** — Finland granted the Swedish-speaking Aland Islands wide-ranging cultural and political autonomy, anticipating the conditions the League of Nations would attach to its sovereignty the following year. [aland-um, aland-finland]
 - 24 Jun 1921: **League of Nations awards Aland to Finland** — The Council of the League of Nations awarded sovereignty over the Aland Islands to Finland, while obliging it to guarantee the islanders' Swedish language, culture and self-government, a landmark of peaceful conflict resolution. [aland-um, aland-finland, aland-un-legal]
 - Oct 1921: **Convention on the demilitarisation of Aland** — An international convention confirmed the demilitarisation of Aland dating from the 1856 Treaty of Paris and added its neutralisation, keeping the islands outside any theatre of war. [aland-nordics, aland-um]
+- 14 Oct 1920: **Treaty of Tartu: Petsamo and the Arctic coast** — In the Treaty of Tartu, Soviet Russia ceded the Petsamo (Pechenga) province to Finland, giving it a coastline on the Arctic Ocean. The province was returned to the Soviet Union under the 1944 armistice, confirmed by the 1947 Paris treaty. [tommila-suomineito-2009, ukts-1948-53, petsamo-acta-borealia]
 - 1932: **The far-right coup attempt fails** — An attempted uprising by the extreme-right Lapua movement collapsed within days when the majority of Finns rejected it, and the parliamentary republic held firm through the interwar years. [civilwar-finland]
 
 Figures:
@@ -121,5 +124,9 @@ Machine-readable claims — every event above as an addressable claim ID (TL:FIN
 - [frus-finland-treaty] Draft Peace Treaty with Finland (Paris Peace Treaty terms) — U.S. Department of State, Office of the Historian (FRUS) · https://history.state.gov/historicaldocuments/frus1946v04/d5
 - [nato-finland] Finland joins NATO as 31st Ally — North Atlantic Treaty Organization (NATO) · https://www.nato.int/en/news-and-events/articles/news/2023/04/04/finland-joins-nato-as-31st-ally
 - [statedept-finland] A Guide to the United States' History of Recognition: Finland — U.S. Department of State, Office of the Historian · https://history.state.gov/countries/finland
+- [tommila-suomineito-2009] Kuinka Suomi-neidon muotoinen kartta-Suomi syntyi? — P. Tommila, Maankaytto 1/2009 (Finnish land surveyors' journal) · https://www.maankaytto.fi/arkisto/mk109/mk109_1225_tommila.pdf
+- [precis-law-finland] A Precis of the Public Law of Finland — Project Runeberg (historical legal handbook) · https://runeberg.org/precisfi/0029.html
+- [ukts-1948-53] Treaty of Peace with Finland, Paris, 1947 (UK Treaty Series 53/1948) — UK Foreign, Commonwealth and Development Office · https://treaties.fcdo.gov.uk/data/Library2/pdf/1948-TS0053.pdf
+- [petsamo-acta-borealia] Petsamo: bringing modernity to Finland's Arctic Ocean shore 1920-1939 — Acta Borealia (Taylor & Francis) · https://www.tandfonline.com/doi/full/10.1080/08003831.2016.1238177
 
 Citation template: Terralore, "The Chronicle of Finland: Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers.", terralore.co/country/FIN/chronicle, retrieved <YYYY-MM-DD>.

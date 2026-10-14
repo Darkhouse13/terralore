@@ -109,7 +109,7 @@ Every metric above is also ranked across all nations: https://terralore.co/ranki
 
 Machine-readable claims — every figure above as an addressable claim ID (TL:FIN:<metric>:<year>) with value, source, license and a ready citation string: https://terralore.co/country/FIN.claims.json
 
-History: "Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers." — the sourced chronicle is at https://terralore.co/country/FIN/chronicle.md (6 eras, 28 events).
+History: "Six centuries with Sweden, a century with Russia, and a hard-won independence between two great powers." — the sourced chronicle is at https://terralore.co/country/FIN/chronicle.md (6 eras, 31 events).
 
 ## Sources
 

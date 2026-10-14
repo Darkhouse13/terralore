@@ -1,6 +1,6 @@
 # Germany and United States compared
 
-Germany and United States side by side: 42 shared sourced indicators across 9 domains, and the 1 events their chronicles record of each other.
+Germany and United States side by side: 42 shared sourced indicators across 9 domains, and the 2 events their chronicles record of each other.
 
 Canonical: https://terralore.co/compare/deu-vs-usa
 Updated: 2026-09-07 (latest of the two dossiers' refreshes and the two chronicles' verification dates)
@@ -109,11 +109,12 @@ Two sourced records set beside each other — nothing on this page was written f
 
 Each metric is also ranked across all nations: https://terralore.co/rankings (markdown twins at /rankings/<metric>.md). Full dossiers: https://terralore.co/country/DEU.md and https://terralore.co/country/USA.md.
 
-## Entangled histories (1 event)
+## Entangled histories (2 events)
 
 Events in which either nation's sourced chronicle names the other — including under earlier names of the same state. Each is the record exactly as its own chronicle carries it, with that chronicle's sources.
 
 - 24 Jun 1948 – 12 May 1949: **The Berlin Blockade and Airlift** — Berlin, divided into four sectors but located far inside the Soviet zone, was cut off when Soviet forces blockaded rail, road and water access to its western sectors; the United States and Britain flew in food and fuel, at the height one plane landing every 45 seconds at Tempelhof, until the blockade was lifted on 12 May 1949. West Berlin remained an enclave entirely surrounded by East Germany until 1990. (from the Germany chronicle; sources: The Berlin Airlift, 1948–1949; West Berlin)
+- June 29, 1956: **Federal-Aid Highway Act of 1956** — President Eisenhower signed the Federal-Aid Highway Act on June 29, 1956; it authorized 41,000 miles of interstate highways. Eisenhower later wrote of the German autobahn network he had seen during the Second World War. (from the United States chronicle; sources: History of the Eisenhower Interstate System; Dwight D. Eisenhower and the birth of the Interstate Highway System)
 
 ## Sources
 
