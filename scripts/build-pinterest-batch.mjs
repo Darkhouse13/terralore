@@ -1,8 +1,14 @@
 #!/usr/bin/env node
-// ── The Pinterest batch, v2: search-shaped, map-first, built to be clicked ──
+// ── The Pinterest batch: search-shaped, history-first, built to be clicked ──
 //
 //   node --import ./scripts/lib/ts-alias-loader.mjs scripts/build-pinterest-batch.mjs \
-//        --from 2026-09-29 [--days 30] [--out pinterest-<from>_<to>.csv] [--only <slug>]
+//        --from 2026-10-22 --days 90 [--chunk 14] [--out-dir .] [--shard i/n] [--csv-only]
+//   … --sample USA:3,DEU:1 [--sample-dir DIR]   (render era + quote pins for review)
+//
+// v3 (2026-10-20, see "the v3 plan" below): five a day — nation timelines,
+// single-era pins, quote pins — written as one CSV per fortnight. The
+// schedule depends on --days, so always regenerate with the SAME --from and
+// --days as the published run, or the CSVs will not match the PNGs.
 //
 // Why this exists (2026-09-27 review): batch 1 (the daily anchor + data card,
 // scripts/build-pinterest-csv.mjs) earned 1,511 impressions and ONE outbound
@@ -27,6 +33,7 @@
 // and the bulk-upload CSV in Pinterest's column order.
 
 import { mkdirSync, writeFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 import { allRankings } from "@/lib/rankings";
 import { allCommodities, commoditiesSource } from "@/lib/commodities";
@@ -49,10 +56,10 @@ const BOARDS = {
   ranking: "World Maps & Country Rankings",
   timeline: "History Timelines by Country",
   mineral: "Mineral & Resource Maps",
+  quote: "Quotes from History",
 };
 
-// Three slots a day, UTC: morning, midday, evening.
-const TIMES = ["08:00:00", "14:00:00", "20:00:00"];
+
 
 const OUTSIDE = "#e7dfcf";
 const OUTSIDE_STROKE = "#d2c6ae";
@@ -604,6 +611,199 @@ function timelineText(p) {
   return { title, desc: clamp(desc, 500), keywords };
 }
 
+/* ── shared: the nation locator ──────────────────────────────────────────── */
+
+function locator(code, width = 300, height = 250, bg = SEA) {
+  const meta = getCountry(code);
+  const win = WINDOWS[meta?.continent] ? meta.continent : "World";
+  const map = buildMap({
+    window: win,
+    width,
+    height,
+    fills: new Map([[code, CARD.copper]]),
+    outside: OUTSIDE,
+    stroke: "#f4eee3",
+    strokeWidth: 0.6,
+  });
+  return h("div", { style: { display: "flex", width, height, background: bg } }, map.svg);
+}
+
+const THE = /^(United |Netherlands|Philippines|Bahamas|Gambia|Czech|Central African|Democratic Republic|Republic of|Dominican|Maldives|Solomon|Marshall|Comoros|Seychelles|Falkland|Vatican|Ivory Coast|Northern Cyprus)/;
+const theName = (name) => (THE.test(name) ? `the ${name}` : name);
+
+const eraLink = (hist, era) => `/country/${hist.code}/chronicle#${era.id}`;
+const eraSourceCount = (era) => new Set([...(era.sources ?? []), ...era.events.flatMap((e) => e.sources ?? [])]).size;
+
+/* ── ERA (one bed of a nation's chronicle, its dated events) ─────────────── */
+//
+// Deliberately incomplete: event titles and years only — the summaries,
+// figures' stories and the sources live on the chronicle, one tap away.
+
+function eraPlan(hist, era) {
+  return { kind: "era", slug: `${hist.code.toLowerCase()}-era-${era.id}`.slice(0, 90), hist, era, path: eraLink(hist, era) };
+}
+
+function eraPin(p) {
+  const { hist, era } = p;
+  const [main, rest] = splitTitle(era.title);
+  const evs = [...era.events].sort((a, b) => b.year - a.year); // newest on top: depth is time
+  const shown = evs.slice(0, 5);
+  const more = evs.length - shown.length;
+  const bedsFor = BEDS.slice(BEDS.length - shown.length);
+  const size = main.length > 40 ? 52 : main.length > 26 ? 62 : main.length > 16 ? 74 : 88;
+  const figures = (era.figures ?? []).map((f) => f.name);
+  // Fewer events → taller beds → bigger type, so a three-event era fills its beds.
+  const evSize = shown.length <= 3 ? 46 : shown.length === 4 ? 39 : 32;
+  const yrSize = shown.length <= 3 ? 30 : 24;
+
+  const beds = shown.map((ev, i) => {
+    const bg = bedsFor[i];
+    const dark = [BRAND.basalt, UMBER_DEEP, BRAND.umber, "#8f6043"].includes(bg);
+    return h(
+      "div",
+      {
+        style: {
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          gap: 6,
+          flexGrow: 1,
+          minHeight: 112,
+          padding: `16px ${PAD}px`,
+          background: bg,
+          borderTop: `2px solid ${BRAND.basalt}`,
+        },
+      },
+      h("div", { style: { display: "flex", fontFamily: "mono", fontSize: yrSize, color: dark ? "#e6d6bf" : UMBER_DEEP } }, ev.yearLabel),
+      h(
+        "div",
+        { style: { display: "flex", fontFamily: "Bricolage", fontWeight: 800, fontSize: ev.title.length > 60 ? evSize - 4 : evSize, lineHeight: 1.1, color: dark ? BRAND.bone : BRAND.basalt } },
+        clamp(ev.title, 92),
+      ),
+    );
+  });
+
+  return frame([
+    h(
+      "div",
+      { style: { display: "flex", justifyContent: "space-between", padding: `48px ${PAD}px 0` } },
+      h(
+        "div",
+        { style: { display: "flex", flexDirection: "column", gap: 14, width: 600 } },
+        eyebrow(`${hist.name} · ${era.period}`, { size: 21 }),
+        headline(main, size),
+        rest ? h("div", { style: { display: "flex", fontFamily: "Schibsted", fontWeight: 700, fontSize: 30, color: CARD.chalkHi } }, clamp(rest, 70)) : null,
+      ),
+      h("div", { style: { display: "flex", marginRight: -24 } }, locator(hist.code, 260, 220)),
+    ),
+    h(
+      "div",
+      { style: { display: "flex", padding: `22px ${PAD}px 24px`, fontSize: 27, lineHeight: 1.4, color: CARD.chalk2 } },
+      clamp(era.standfirst || "", 210),
+    ),
+    h(
+      "div",
+      { style: { display: "flex", justifyContent: "space-between", padding: `0 ${PAD}px 8px`, fontFamily: "mono", fontSize: 18, color: CARD.chalk3 } },
+      h("span", {}, `KEY EVENTS · ${evs.length}`),
+      h("span", {}, "READ DOWN: OLDER"),
+    ),
+    h("div", { style: { display: "flex", flexDirection: "column", flexGrow: 1 } }, ...beds),
+    figures.length
+      ? h(
+          "div",
+          { style: { display: "flex", gap: 14, alignItems: "baseline", padding: `18px ${PAD}px`, background: SEA, borderTop: `2px solid ${BRAND.basalt}` } },
+          h("span", { style: { fontFamily: "mono", fontSize: 18, color: CARD.chalk3 } }, "KEY FIGURES"),
+          h("span", { style: { fontFamily: "Schibsted", fontWeight: 700, fontSize: 26, color: CARD.chalkHi } }, clamp(figures.join(" · "), 56)),
+        )
+      : null,
+    h("div", { style: { display: "flex", height: 6, background: CARD.copper } }),
+    teaser(more > 0 ? `${more} more events and the full story` : "The full story, every event sourced", `/country/${hist.code}/chronicle`),
+    footer(`${eraSourceCount(era)} cited sources · ${hist.name} chronicle`, p.slug),
+  ]);
+}
+
+function eraText(p) {
+  const { hist, era } = p;
+  const [main] = splitTitle(era.title);
+  const name = hist.name;
+  const n = era.events.length;
+  const t1 = `${main} Timeline: ${n} Key Events in the History of ${theName(name)} (${era.period})`;
+  const t2 = `${main}: ${name} History Timeline (${era.period})`;
+  const t3 = `${main}: ${name} History Timeline`;
+  const title = [t1, t2, t3].find((t) => t.length <= 100) ?? clamp(t3, 100);
+  const evs = [...era.events].sort((a, b) => a.year - b.year).map((e) => `${e.yearLabel}: ${e.title}`);
+  const tail = `Read the full era, with every event traced to its source, in the ${name} chronicle on Terralore.`;
+  let desc = `${era.standfirst} Key events: ${evs.join("; ")}. ${tail}`;
+  if (desc.length > 500) desc = `${era.standfirst} ${tail}`;
+  const lower = name.toLowerCase();
+  const keywords = [main.replace(/^The\s+/i, "").toLowerCase(), `${lower} history`, `${lower} history timeline`, "history timeline", "world history", "history facts"].join(", ");
+  return { title, desc: clamp(desc, 500), keywords };
+}
+
+/* ── QUOTE (an era's pull-quote, attributed exactly as the corpus has it) ── */
+
+function quotePlan(hist, era) {
+  return { kind: "quote", slug: `${hist.code.toLowerCase()}-quote-${era.id}`.slice(0, 90), hist, era, path: eraLink(hist, era) };
+}
+
+function quotePin(p) {
+  const { hist, era } = p;
+  const q = era.pullquote;
+  const [main] = splitTitle(era.title);
+  const len = q.text.length;
+  const size = len <= 70 ? 72 : len <= 120 ? 62 : len <= 170 ? 54 : len <= 230 ? 47 : 41;
+  return frame([
+    h(
+      "div",
+      { style: { display: "flex", flexDirection: "column", flexGrow: 1, background: BRAND.basalt, padding: `56px ${PAD}px 40px` } },
+      eyebrow(`In their own words · ${hist.name}`, { size: 21, color: "#e0a47f" }),
+      h(
+        "div",
+        { style: { display: "flex", flexDirection: "column", flexGrow: 1, justifyContent: "center" } },
+        h("div", { style: { display: "flex", fontFamily: "Bricolage", fontWeight: 800, fontSize: 200, lineHeight: 1, height: 120, color: CARD.copper } }, "“"),
+        h("div", { style: { display: "flex", fontFamily: "Schibsted", fontWeight: 400, fontSize: size, lineHeight: 1.28, color: BRAND.bone } }, q.text),
+      ),
+      h("div", { style: { display: "flex", width: 120, height: 6, background: CARD.copper, marginTop: 36 } }),
+      h("div", { style: { display: "flex", marginTop: 22, fontFamily: "Schibsted", fontWeight: 700, fontSize: 31, lineHeight: 1.3, color: BRAND.bone } }, clamp(q.attribution, 110)),
+    ),
+    h(
+      "div",
+      { style: { display: "flex", alignItems: "center", justifyContent: "space-between", padding: `26px ${PAD}px`, gap: 24 } },
+      h(
+        "div",
+        { style: { display: "flex", flexDirection: "column", gap: 8, width: 620 } },
+        h("span", { style: { fontFamily: "mono", fontSize: 19, color: CARD.chalk3 } }, `FROM THE ERA · ${era.period}`),
+        h("span", { style: { fontFamily: "Bricolage", fontWeight: 800, fontSize: main.length > 40 ? 30 : 36, lineHeight: 1.1, color: CARD.chalkHi } }, clamp(main, 70)),
+      ),
+      locator(hist.code, 200, 160),
+    ),
+    teaser("The story behind the words", `/country/${hist.code}/chronicle`),
+    footer(`${eraSourceCount(era)} cited sources · ${hist.name} chronicle`, p.slug),
+  ]);
+}
+
+/** "Ashoka, Kalinga rock edict (paraphrase)" → "Ashoka" */
+const speaker = (attr) => attr.split(/[,;(]/)[0].trim();
+
+function quoteText(p) {
+  const { hist, era } = p;
+  const q = era.pullquote;
+  const who = p.who ?? speaker(q.attribution);
+  const name = hist.name;
+  const [main] = splitTitle(era.title);
+  const cut = (n) => {
+    if (q.text.length <= n) return q.text.replace(/[.,;:]$/, "");
+    const s = q.text.slice(0, n);
+    return `${s.slice(0, s.lastIndexOf(" ")).replace(/[.,;:]$/, "")}…`;
+  };
+  const cands = [`“${cut(52)}” — ${who} | ${name} History Quotes`, `“${cut(44)}” — ${who}`, `“${cut(40)}” — ${clamp(who, 40)}`];
+  const title = cands.find((t) => t.length <= 100) ?? clamp(cands[2], 100);
+  const desc = `“${q.text}” — ${q.attribution}. From ${main} (${era.period}), one of the eras in the history of ${theName(name)}. Read the story behind the words, with every claim traced to its source, in the ${name} chronicle on Terralore.`;
+  const lower = name.toLowerCase();
+  const keywords = ["history quotes", "famous quotes from history", who.length <= 40 ? `${who.toLowerCase()} quotes` : null, `${lower} history`, "historical quotes", "world history"].filter(Boolean).join(", ");
+  return { title, desc: clamp(desc, 500), keywords };
+}
+
 /* ── the batch ───────────────────────────────────────────────────────────── */
 
 const argv = process.argv.slice(2);
@@ -616,37 +816,145 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(from ?? "")) throw new Error("usage: --from YYYY
 const days = Number(arg("--days", "30"));
 const only = arg("--only", null);
 const csvOnly = argv.includes("--csv-only");
+// --shard i/n renders every n-th pin (run n processes, one per core); the CSVs are identical across shards.
+const [shardI, shardN] = (arg("--shard", "0/1")).split("/").map(Number);
 
 const rankings = new Map(allRankings().map((r) => [r.key, r]));
 const histories = new Map(allHistories().map((x) => [x.code, x]));
 const timelineCodes = TIMELINE_ORDER.filter((c) => histories.has(c));
 const commodities = allCommodities();
 
-const regionPlans = REGION_PINS.map(([t, reg]) => rankingPlan(t, reg, rankings));
-const worldPlans = WORLD_PINS.map((t) => rankingPlan(t, "World", rankings));
-const mineralPlans = commodities.map(mineralPlan);
-const timelinePlans = timelineCodes.map((c) => timelinePlan(histories.get(c)));
+// --sample CODE:eraIndex[,…] --sample-dir DIR → render era + quote pins for review, no CSV.
+const sample = arg("--sample", null);
+if (sample) {
+  const dir = arg("--sample-dir", join(ROOT, "social-out", "pin-samples"));
+  mkdirSync(dir, { recursive: true });
+  for (const spec of sample.split(",")) {
+    const [code, idx] = spec.split(":");
+    const hist = histories.get(code);
+    const era = hist.eras[Number(idx)];
+    for (const [plan, pin, text] of [[eraPlan, eraPin, eraText], [quotePlan, quotePin, quoteText]]) {
+      if (plan === quotePlan && !era.pullquote) continue;
+      const p = plan(hist, era);
+      writeFileSync(join(dir, `${p.slug}.png`), await renderPng(pin(p), { width: W, height: H }));
+      console.log(JSON.stringify(text(p)));
+    }
+  }
+  process.exit(0);
+}
 
-// Day d: slot 0 a timeline, slot 1 a regional map, slot 2 rotates
-// world map → mineral map → regional map.
-const schedule = [];
-const q = { region: [...regionPlans], world: [...worldPlans], mineral: [...mineralPlans], timeline: [...timelinePlans] };
-const take = (k, ...fallbacks) => {
-  for (const key of [k, ...fallbacks]) if (q[key].length) return q[key].shift();
-  throw new Error("ran out of pins");
+/* ── the v3 plan (2026-10-20): five a day, history-first ─────────────────── */
+//
+// Batch 2's read (2026-10-20): the History Timelines board earned 938
+// impressions and 25 pin clicks; the 50 ranking maps earned 141 and 2. So v3
+// is all history: one nation timeline, three or four single-era pins and,
+// every other day or so, a quote pin. Rankings and mineral maps stay in this
+// file (their builders are intact) but are not scheduled.
+
+// Timelines already published by batch 2 (2026-09-29 → 10-28).
+const PUBLISHED_TIMELINES = new Set(TIMELINE_ORDER.slice(0, 30));
+
+// Era pins: nations in the order their eras are dealt out. Front-loaded with
+// the histories Pinterest's (mostly US / European) audience searches for.
+const ERA_NATIONS = [
+  "USA", "GBR", "ITA", "FRA", "DEU", "GRC", "EGY", "JPN", "CHN", "ESP", "MEX", "IND", "RUS", "IRL", "CAN",
+  "NLD", "TUR", "IRN", "KOR", "POL", "SWE", "NOR", "AUS", "PRT", "AUT", "BRA", "PER", "IRQ", "DNK", "ISL",
+  "HUN", "CZE", "BEL", "CHE", "FIN", "VNM", "THA", "MNG", "ARG", "CUB", "NZL", "KHM", "ETH", "MAR", "ZAF",
+  "PHL", "HRV", "ROU", "UKR", "JOR", "SAU", "PAK", "IDN", "NGA", "GHA", "MLI", "KEN", "TZA", "COL", "CHL",
+  "BOL", "GTM", "JAM", "HTI", "SRB", "BGR", "LTU", "LVA", "EST", "SVK", "SVN", "LUX", "MLT", "CYP", "GEO",
+  "ARM", "UZB", "KAZ", "AFG", "NPL", "LKA", "MMR", "MYS", "SGP", "LBN", "SYR", "TUN", "DZA", "LBY", "SEN",
+];
+
+// Quote pins: only voices from history — a person or a primary document —
+// hand-picked 2026-10-20 from the 958 pull-quotes (most are editorial lines,
+// Britannica, or descriptions, and cannot be presented as "their words").
+// Copyrighted modern text (Márquez, King, Marley) is left out, as are
+// polarising present-day leaders. Value = the speaker as a title names them.
+const QUOTES = {
+  DEU1: "Martin Luther", USA2: "Declaration of Independence", GBR1: "Magna Carta", ITA1: "Ancient saying about Augustus",
+  IND5: "Jawaharlal Nehru", MEX4: "Benito Juarez", TUN0: "Cato the Elder", RUS1: "Philotheus of Pskov",
+  GRC3: "Horace", IRN0: "The Cyrus Cylinder", NLD0: "Traditional Dutch saying", BTN4: "King Jigme Singye Wangchuck",
+  ESP1: "Boabdil", DEU2: "Otto von Bismarck", USA3: "Emancipation Proclamation", SMR3: "Abraham Lincoln",
+  CHN0: "The Book of Documents", RUS2: "Tsar Alexander II", GIN4: "Ahmed Sekou Toure", IRN2: "Ferdowsi",
+  NLD2: "William of Orange", JAM3: "Marcus Garvey", TZA1: "Ibn Battuta", ESP2: "Miguel de Cervantes",
+  IND2: "Ashoka", DNK0: "The Jelling Stone", BRA2: "Dom Pedro", MLT5: "King George VI",
+  JAM2: "Samuel Sharpe", RUS3: "Bolshevik slogan, 1917", SMR0: "Saint Marinus", MEX3: "Miguel Hidalgo",
+  AUS5: "Kevin Rudd", MLI0: "Ibn Hawqal", MDG2: "King Andrianampoinimerina", COD0: "King Afonso I of Kongo",
+  BRA4: "Getulio Vargas", MLT1: "Acts of the Apostles", ROU2: "Alexandru Ioan Cuza", VNM3: "Ho Chi Minh",
+  ARG2: "Argentina's Declaration of Independence", IDN4: "Indonesia's Proclamation of Independence",
+  MYS3: "Tunku Abdul Rahman", NCL2: "Chief Atai", JAM4: "Jamaica's national motto", BHS1: "The Bahamas' colonial motto",
+  CAN3: "British North America Act",
 };
+
+// Five slots a day, UTC: Europe's lunch, US morning, Europe's evening,
+// US afternoon, US evening (01:00 UTC is the previous evening in the US).
+const SLOTS = ["01:00:00", "12:00:00", "15:00:00", "18:00:00", "21:00:00"];
+
 const addDays = (iso, n) => {
   const d = new Date(`${iso}T00:00:00Z`);
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
 };
+
+// Timelines: every unpublished nation, largest economies first.
+const gdp = new Map((rankings.get("gdp")?.rows ?? []).map((r) => [r.code, r.value]));
+const timelineQ = [...histories.values()]
+  .filter((x) => !PUBLISHED_TIMELINES.has(x.code))
+  .sort((a, b) => (gdp.get(b.code) ?? 0) - (gdp.get(a.code) ?? 0))
+  .map(timelinePlan);
+
+// Eras: dealt in rounds — round r takes one era from every nation, rotating
+// which era by the nation's position, so a nation's eras arrive weeks apart.
+const eraNations = ERA_NATIONS.filter((c) => histories.has(c));
+const eligible = new Map(eraNations.map((c) => [c, histories.get(c).eras.filter((e) => e.events.length >= 3)]));
+const eraQ = [];
+for (let r = 0; r < 8; r += 1) {
+  eraNations.forEach((c, k) => {
+    const eras = eligible.get(c);
+    if (r < eras.length) eraQ.push(eraPlan(histories.get(c), eras[(r + k) % eras.length]));
+  });
+}
+
+const quoteQ = Object.entries(QUOTES).map(([key, who]) => {
+  const hist = histories.get(key.slice(0, 3));
+  const era = hist.eras[Number(key.slice(3))];
+  if (!era?.pullquote?.attribution) throw new Error(`quote ${key} has no attributed pull-quote`);
+  return { ...quotePlan(hist, era), who };
+});
+
+// Deal the days. No nation appears twice in a day.
+const schedule = [];
+const takeFrom = (queue, used) => {
+  const i = queue.findIndex((p) => !used.has(p.hist.code));
+  if (i < 0) throw new Error("ran out of pins");
+  const [p] = queue.splice(i, 1);
+  used.add(p.hist.code);
+  return p;
+};
 for (let d = 0; d < days; d += 1) {
   const date = addDays(from, d);
-  const third = ["world", "mineral", "region"][d % 3];
-  const picks = [take("timeline", "region"), take("region", "world"), take(third, "region", "world", "mineral")];
-  picks.forEach((p, s) => schedule.push({ ...p, at: `${date}T${TIMES[s]}` }));
+  const used = new Set();
+  // A quote on ~every other day while they last, spread over the whole run.
+  const quoteToday = quoteQ.length && Math.floor(((d + 1) * Object.keys(QUOTES).length) / days) > Math.floor((d * Object.keys(QUOTES).length) / days);
+  const kinds = ["era", "era", "timeline", "era", quoteToday ? "quote" : "era"];
+  kinds.forEach((k, s) => {
+    const queue = k === "timeline" ? timelineQ : k === "quote" ? quoteQ : eraQ;
+    schedule.push({ ...takeFrom(queue, used), at: `${date}T${SLOTS[s]}` });
+  });
 }
 const to = addDays(from, days - 1);
+
+/* ── render + write ──────────────────────────────────────────────────────── */
+
+// 256-colour palette PNG: indistinguishable on these flat-colour pins, a
+// third of the bytes (they are committed and deployed — Pinterest fetches
+// them). sharp runs in a plain child node: the ts-alias loader this script
+// needs breaks sharp's own package.json require.
+const SQUEEZE = `const sharp = require("sharp"), fs = require("fs");
+(async () => { for (const f of process.argv.slice(1)) {
+  const b = await sharp(fs.readFileSync(f)).png({ palette: true, quality: 95, effort: 10 }).toBuffer();
+  fs.writeFileSync(f, b); } })();`;
+const rendered = [];
 
 mkdirSync(PIN_DIR, { recursive: true });
 const seen = new Set();
@@ -655,25 +963,38 @@ for (const p of schedule) {
   if (seen.has(p.slug)) throw new Error(`duplicate pin slug ${p.slug}`);
   seen.add(p.slug);
   const [el, text, board] =
-    p.kind === "ranking"
-      ? [rankingPin(p), rankingText(p), BOARDS.ranking]
-      : p.kind === "mineral"
-        ? [mineralPin(p), mineralText(p), BOARDS.mineral]
+    p.kind === "era"
+      ? [eraPin(p), eraText(p), BOARDS.timeline]
+      : p.kind === "quote"
+        ? [quotePin(p), quoteText(p), BOARDS.quote]
         : [timelinePin(p), timelineText(p), BOARDS.timeline];
-  if (!csvOnly && (!only || only.split(",").includes(p.slug))) {
+  if (!csvOnly && (!only || only.split(",").includes(p.slug)) && rows.length % shardN === shardI) {
     const png = await renderPng(el, { width: W, height: H });
     writeFileSync(join(PIN_DIR, `${p.slug}.png`), png);
+    rendered.push(join(PIN_DIR, `${p.slug}.png`));
     process.stdout.write(`  ${p.at}  ${p.slug}  (${Math.round(png.length / 1024)} KB)\n`);
   }
   if (text.title.length > 100 || text.desc.length > 500) throw new Error(`${p.slug}: text over Pinterest limits`);
   rows.push([text.title, `${ORIGIN}/social/pins/${p.slug}.png`, board, "", text.desc, `${ORIGIN}${p.path}`, p.at, text.keywords]);
 }
 
+if (rendered.length) execFileSync(process.execPath, ["-e", SQUEEZE, ...rendered], { stdio: "inherit" });
+
 const titles = new Set(rows.map((r) => r[0]));
 if (titles.size !== rows.length) throw new Error("duplicate titles — Pinterest rejects them");
 
+// One CSV per --chunk days (default 14): Pinterest takes ≤200 rows a file,
+// and a fortnight keeps every publish date close to its upload.
 const csvField = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
 const HEADERS = ["Title", "Media URL", "Pinterest board", "Thumbnail", "Description", "Link", "Publish date", "Keywords"];
-const out = arg("--out", join(ROOT, `pinterest-${from}_${to}.csv`));
-writeFileSync(out, [HEADERS, ...rows].map((r) => r.map(csvField).join(",")).join("\n") + "\n");
-console.log(`\n${rows.length} pins, ${from} → ${to} → ${out}`);
+const chunk = Number(arg("--chunk", "14"));
+const outDir = arg("--out-dir", ROOT);
+for (let c = 0; c < days; c += chunk) {
+  const lo = addDays(from, c);
+  const hi = addDays(from, Math.min(c + chunk, days) - 1);
+  const part = rows.filter((r) => r[6].slice(0, 10) >= lo && r[6].slice(0, 10) <= hi);
+  const out = join(outDir, `pinterest-${lo}_${hi}.csv`);
+  writeFileSync(out, [HEADERS, ...part].map((r) => r.map(csvField).join(",")).join("\n") + "\n");
+  console.log(`${part.length} pins, ${lo} → ${hi} → ${out}`);
+}
+console.log(`\n${rows.length} pins, ${from} → ${to}`);
