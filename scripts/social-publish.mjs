@@ -40,6 +40,9 @@
 // team confirmed on 2026-10-09 that API uploads are NOT locked to private;
 // autoPublish stays false only so that no Short goes out without a sheet.
 //
+// ALBUMS (since 2026-10-22) come from the album drop, below the reels' — see the albumPosts note; slides are
+// already JPEG and upload untouched.
+//
 // Instagram's content API accepts JPEG only, so PNG stills are re-encoded
 // (sharp, q92, 4:4:4) at upload for Instagram and Facebook.
 //
@@ -101,6 +104,7 @@ const STATUS_DIR = process.env.SOCIAL_STATUS_DIR || join(OUT_ROOT, ".status");
 const API_URL = (process.env.POSTIZ_API_URL || "https://postiz.terralore.co/api").replace(/\/$/, "");
 const API_KEY = process.env.POSTIZ_API_KEY || "";
 const REELS_DIR = process.env.SOCIAL_REELS_DIR || join(STATUS_DIR, "reels");
+const ALBUMS_DIR = process.env.SOCIAL_ALBUMS_DIR || join(STATUS_DIR, "albums");
 
 /* ── time: wall-clock in the configured zone → UTC instant ────────────────── */
 
@@ -165,7 +169,7 @@ const JPEG_PLATFORMS = new Set(["instagram", "facebook"]);
 
 async function uploadAsset(absPath, filename, platform) {
   let body = readFileSync(absPath);
-  let type = absPath.endsWith(".mp4") ? "video/mp4" : "image/png";
+  let type = absPath.endsWith(".mp4") ? "video/mp4" : /\.jpe?g$/i.test(absPath) ? "image/jpeg" : "image/png";
   if (type === "image/png" && JPEG_PLATFORMS.has(platform)) {
     const { default: sharp } = await import("sharp");
     body = await sharp(body).jpeg({ quality: 92, chromaSubsampling: "4:4:4" }).toBuffer();
@@ -252,8 +256,40 @@ if (existsSync(reelDir)) {
   }
 }
 
+// The day's ALBUMS (2026-10-22 cadence: one map album a day beside the reel), from the album drop
+// SOCIAL_ALBUMS_DIR/<date>/album-N.json + the JPEG slides it names, dropped by scripts/social-queue-album.sh:
+//   { "caption": "…", "platforms": ["instagram","facebook"], "slides": ["album-1-1.jpg", …], "alts": ["…", …]? }
+// One post per platform with ALL slides in one `image` array — Postiz turns that into an Instagram carousel and a
+// Facebook multi-photo post. No drop directory, no change in behaviour. Key: <date>:<platform>:album-N.
+const albumPosts = [];
+const albumDir = join(ALBUMS_DIR, date);
+if (existsSync(albumDir)) {
+  for (const name of readdirSync(albumDir).filter((f) => /^album-\d+\.json$/.test(f)).sort()) {
+    const slot = name.replace(/\.json$/, "");
+    const meta = JSON.parse(readFileSync(join(albumDir, name), "utf8"));
+    if (typeof meta.caption !== "string" || !meta.caption.trim()) throw new Error(`album drop ${date}/${name}: caption missing`);
+    if (!Array.isArray(meta.slides) || meta.slides.length < 2 || meta.slides.length > 10) {
+      throw new Error(`album drop ${date}/${name}: needs 2-10 slides (Instagram carousel limit is 10)`);
+    }
+    for (const f of meta.slides) {
+      if (!/^[\w.-]+\.jpe?g$/i.test(f) || !existsSync(join(albumDir, f))) throw new Error(`album drop ${date}/${name}: slide ${f} missing or not a .jpg`);
+    }
+    for (const platform of meta.platforms || ["instagram", "facebook"]) {
+      albumPosts.push({
+        dedupeKey: `${date}:${platform}:${slot}`,
+        platform,
+        slot,
+        type: "album",
+        format: "carousel",
+        assets: meta.slides.map((f, i) => ({ path: join(albumDir, f), alt: meta.alts?.[i] })),
+        caption: meta.caption.trim(),
+      });
+    }
+  }
+}
+
 // The would-be schedule: every post gets its configured slot.
-const schedule = [...manifest.posts, ...reelPosts].map((post) => {
+const schedule = [...manifest.posts, ...reelPosts, ...albumPosts].map((post) => {
   const slotKey = `${post.platform}:${post.slot}`;
   const hhmm = config.slots[slotKey];
   if (!hhmm) throw new Error(`no slot time configured for ${slotKey} in data/social-publish.json`);
@@ -358,7 +394,7 @@ for (const item of schedule) {
   const skip = (reason) => results.push({ ...base, action: "skipped", reason });
 
   const limit = CAPTION_LIMITS[post.platform];
-  if (post.type === "reel" && limit && post.caption.length > limit) {
+  if ((post.type === "reel" || post.type === "album") && limit && post.caption.length > limit) {
     results.push({ ...base, action: "failed", reason: `caption is ${post.caption.length} chars; ${post.platform} allows ${limit}` });
     continue;
   }
