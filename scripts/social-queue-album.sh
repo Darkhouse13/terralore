@@ -24,6 +24,9 @@
 # off-platform links, since 2026-10-03), no emoji anywhere, and none of the engagement-bait phrasings Meta
 # demotes ("comment 1", "share if", "tag a friend", "like if", "type yes" ...). The caption file is the post
 # text exactly as it should appear.
+#
+# PHOTO posts (2026-11-04: 1 album + 2 single stills a day) use the same script with slot photo-N and exactly
+# ONE 1080x1350 JPEG: photo-1 posts at 10:00 / 10:10, photo-2 at 22:00 / 22:10 Casablanca.
 set -euo pipefail
 
 if [ $# -lt 5 ]; then
@@ -50,11 +53,15 @@ RUNNER=runner-v113yzpn4rzcv32nqam70td2
 DROP=/data/terralore-social/status/albums/$DATE
 
 [[ $DATE =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "date must be YYYY-MM-DD" >&2; exit 2; }
-[[ $SLOT =~ ^album-[0-9]+$ ]] || { echo "slot must be album-N" >&2; exit 2; }
+[[ $SLOT =~ ^(album|photo)-[0-9]+$ ]] || { echo "slot must be album-N or photo-N" >&2; exit 2; }
 [[ $PLATFORM =~ ^(instagram|facebook)(,(instagram|facebook))*$ ]] || { echo "--platform must be instagram, facebook or both" >&2; exit 2; }
 [ -s "$CAPTION" ] || { echo "caption file missing or empty: $CAPTION" >&2; exit 2; }
 N=${#SLIDES[@]}
-[ "$N" -ge 3 ] && [ "$N" -le 10 ] || { echo "an album needs 3-10 slides (got $N)" >&2; exit 1; }
+if [[ $SLOT == photo-* ]]; then
+  [ "$N" -eq 1 ] || { echo "a photo post carries exactly 1 image (got $N)" >&2; exit 1; }
+else
+  [ "$N" -ge 3 ] && [ "$N" -le 10 ] || { echo "an album needs 3-10 slides (got $N)" >&2; exit 1; }
+fi
 if [ "${#ALTS[@]}" -gt 0 ] && [ "${#ALTS[@]}" -ne "$N" ]; then echo "--alt must be given once per slide ($N), got ${#ALTS[@]}" >&2; exit 2; fi
 
 for f in "${SLIDES[@]}"; do

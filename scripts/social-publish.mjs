@@ -261,15 +261,18 @@ if (existsSync(reelDir)) {
 //   { "caption": "…", "platforms": ["instagram","facebook"], "slides": ["album-1-1.jpg", …], "alts": ["…", …]? }
 // One post per platform with ALL slides in one `image` array — Postiz turns that into an Instagram carousel and a
 // Facebook multi-photo post. No drop directory, no change in behaviour. Key: <date>:<platform>:album-N.
+// PHOTO posts (2026-11-04 cadence: 1 album + 2 single stills a day) share the drop: photo-N.json, same shape, exactly
+// one slide, posted as a single image in the photo-N slot. Key: <date>:<platform>:photo-N.
 const albumPosts = [];
 const albumDir = join(ALBUMS_DIR, date);
 if (existsSync(albumDir)) {
-  for (const name of readdirSync(albumDir).filter((f) => /^album-\d+\.json$/.test(f)).sort()) {
+  for (const name of readdirSync(albumDir).filter((f) => /^(album|photo)-\d+\.json$/.test(f)).sort()) {
     const slot = name.replace(/\.json$/, "");
+    const photo = slot.startsWith("photo-");
     const meta = JSON.parse(readFileSync(join(albumDir, name), "utf8"));
     if (typeof meta.caption !== "string" || !meta.caption.trim()) throw new Error(`album drop ${date}/${name}: caption missing`);
-    if (!Array.isArray(meta.slides) || meta.slides.length < 2 || meta.slides.length > 10) {
-      throw new Error(`album drop ${date}/${name}: needs 2-10 slides (Instagram carousel limit is 10)`);
+    if (photo ? meta.slides?.length !== 1 : !Array.isArray(meta.slides) || meta.slides.length < 2 || meta.slides.length > 10) {
+      throw new Error(`album drop ${date}/${name}: ${photo ? "a photo post carries exactly 1 image" : "needs 2-10 slides (Instagram carousel limit is 10)"}`);
     }
     for (const f of meta.slides) {
       if (!/^[\w.-]+\.jpe?g$/i.test(f) || !existsSync(join(albumDir, f))) throw new Error(`album drop ${date}/${name}: slide ${f} missing or not a .jpg`);
@@ -280,7 +283,7 @@ if (existsSync(albumDir)) {
         platform,
         slot,
         type: "album",
-        format: "carousel",
+        format: photo ? "image" : "carousel",
         assets: meta.slides.map((f, i) => ({ path: join(albumDir, f), alt: meta.alts?.[i] })),
         caption: meta.caption.trim(),
       });
