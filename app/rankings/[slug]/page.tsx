@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NOINDEX } from "@/lib/indexing";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
@@ -101,7 +102,7 @@ export async function generateMetadata({
     ],
     alternates: { canonical: path, types: mdTwinTypes(path) },
     // See rankingIndexable — production rankings yield the query to /commodities.
-    ...(rankingIndexable(r) ? {} : { robots: { index: false, follow: true } }),
+    ...(rankingIndexable(r) ? {} : NOINDEX),
     // The social card comes from this segment's own opengraph-image.tsx.
     openGraph: {
       type: "website",

@@ -28,10 +28,18 @@ reads this file, does the single highest-leverage next action, logs it here.
   Kept: core 10, 70 chronicles, 11 commodities, hubs. Empty sitemap families now
   drop out of the sitemap index (validator updated).
 
+- 2026-11-09 — Deployed; GSC sitemap resubmitted (204); IndexNow 95 URLs (200).
+- 2026-11-09 — **Bing API wired** (key in `~/.config/terralore/bing.env`, never commit).
+  Sitemap submitted to Bing (was missing). Bing 6-month: 3 clicks / 206 impressions,
+  rising — and its impressions come from rankings, timeline periods and non-target
+  chronicles at positions 4–7. So the cut is now **Google-only**: `NOINDEX` emits
+  `robots: index,follow` + `googlebot: noindex,follow`. Bing keeps everything.
+
 ## Pending (ranked)
 
 1. Deploy the cut → resubmit sitemap in GSC → IndexNow ping for the 95 URLs.
-2. Bing Webmaster Tools: is the site verified? coverage? (Bing feeds ChatGPT search.)
+2. IndexNow the Google-noindexed URLs so Bing recrawls with the new tags; then track Bing
+   query stats each iteration (GetQueryStats/GetPageStats) — Bing is the live channel.
 3. Visible editorial signals on the 70 kept chronicles (editor/reviewed line,
    "how this was made") — only claim review that is actually done.
 4. Off-site links: drafts for the user (Show HN retry, IG/FB bio link, history

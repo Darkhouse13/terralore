@@ -29,7 +29,15 @@ const CHRONICLE_EXTRAS = new Set([
   "IRN",
 ]);
 
-export const NOINDEX = { robots: { index: false, follow: true } } as const;
+/**
+ * Google-only. Bing still ranks these pages (positions 4-7 on rankings,
+ * timeline periods and non-target chronicles, Bing Webmaster 2026-11-09), and
+ * Bing feeds ChatGPT and Copilot search, so the generic robots tag stays
+ * index,follow and only `googlebot` gets noindex.
+ */
+export const NOINDEX = {
+  robots: { index: true, follow: true, googleBot: { index: false, follow: true } },
+} as const;
 
 export function chronicleIndexable(code: string): boolean {
   if (CHRONICLE_EXTRAS.has(code)) return true;
