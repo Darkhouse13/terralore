@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NOINDEX, chronicleIndexable } from "@/lib/indexing";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -65,6 +66,7 @@ export async function generateMetadata({
       `how ${meta.name} became a country`,
       ...history.eras.map((e) => e.title),
     ],
+    ...(chronicleIndexable(code) ? {} : NOINDEX),
     alternates: { canonical: path, types: mdTwinTypes(path) },
     openGraph: {
       type: "article",

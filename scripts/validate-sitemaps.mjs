@@ -27,9 +27,11 @@ const familyPatterns = {
 };
 
 const union = [];
+// Empty families are allowed but must be absent from the sitemap index.
+const listed = new Set(SITEMAP_GROUP_IDS);
 for (const group of SITEMAP_GROUP_IDS) {
   const entries = buildSitemapGroup(group);
-  if (!entries.length) fail(`${group} is empty`);
+  if (!entries.length) listed.delete(group);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(SITEMAP_GROUP_LAST_MODIFIED[group])) {
     fail(`${group} has an invalid sitemap-document lastmod`);
   }
@@ -77,12 +79,13 @@ if (unique.size !== union.length) fail(`${union.length - unique.size} duplicate 
 
 const indexXml = renderSitemapIndexXml();
 const indexLocs = [...indexXml.matchAll(/<loc>([\s\S]*?)<\/loc>/g)].map((match) => match[1]);
-const expectedIndexLocs = SITEMAP_GROUP_IDS.map((group) => `${SITE_URL}${sitemapGroupPath(group)}`);
+const expectedIndexLocs = SITEMAP_GROUP_IDS.filter((group) => listed.has(group)).map((group) => `${SITE_URL}${sitemapGroupPath(group)}`);
 if (JSON.stringify(indexLocs) !== JSON.stringify(expectedIndexLocs)) {
-  fail("sitemap index does not contain every family exactly once in registry order");
+  fail("sitemap index does not contain every non-empty family exactly once in registry order");
 }
 
 for (const group of SITEMAP_GROUP_IDS) {
+  if (!listed.has(group)) continue;
   const expected = `<loc>${SITE_URL}${sitemapGroupPath(group)}</loc><lastmod>${SITEMAP_GROUP_LAST_MODIFIED[group]}</lastmod>`;
   if (!indexXml.includes(expected)) {
     fail(`${group} sitemap-index lastmod does not match its document-change registry`);

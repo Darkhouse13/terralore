@@ -30,7 +30,10 @@ export function renderSitemapIndexXml(): string {
   // Sitemap-index lastmod is the child sitemap document's modification date.
   // It intentionally differs from the newest URL lastmod: URL removals must
   // advance the child's signal even if every surviving URL is older.
-  const sitemaps = SITEMAP_GROUP_IDS.map((group) => {
+  // A family with nothing meant for the index (every dossier is noindexed
+  // since 2026-11-09, lib/indexing.ts) leaves the index document; its route
+  // still serves a valid, empty URL set for anything that cached the path.
+  const sitemaps = SITEMAP_GROUP_IDS.filter((group) => buildSitemapGroup(group).length > 0).map((group) => {
     const lastmod = `<lastmod>${escapeXml(SITEMAP_GROUP_LAST_MODIFIED[group])}</lastmod>`;
     return `  <sitemap><loc>${escapeXml(abs(sitemapGroupPath(group)))}</loc>${lastmod}</sitemap>`;
   }).join("\n");

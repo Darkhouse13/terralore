@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NOINDEX, themeIndexable } from "@/lib/indexing";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
@@ -124,6 +125,7 @@ export async function generateMetadata({
       `${theme.category} timeline`,
       "sourced world history",
     ],
+    ...(themeIndexable(theme.slug) ? {} : NOINDEX),
     alternates: { canonical: path },
     openGraph: {
       type: "website",

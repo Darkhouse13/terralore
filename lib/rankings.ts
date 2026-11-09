@@ -250,8 +250,12 @@ let slugCache: Map<string, Ranking> | null = null;
  * leaves the index and the sitemap, so the commodity page holds the query.
  * To restore it, return true.
  */
-export function rankingIndexable(r: Ranking): boolean {
-  return r.commoditySlug === null;
+export function rankingIndexable(_r: Ranking): boolean {
+  // 2026-11-09: every ranking leaves the index — templated from public series,
+  // the pattern the August 2026 spam update targets (lib/indexing.ts). The
+  // production rule above still applies if this is ever widened again:
+  // return r.commoditySlug === null;
+  return false;
 }
 
 export function getRanking(slug: string): Ranking | undefined {

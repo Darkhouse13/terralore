@@ -8,6 +8,7 @@ import { allComparePages, compareIndexable, compareUpdated } from "@/lib/compare
 import { abs, routes, SITE_URL } from "@/lib/seo";
 import { allPeriods, allThemes, periodFor, themeSliceIndexable } from "@/lib/chronology";
 import { currentManifest } from "@/lib/integrity";
+import { chronicleIndexable, dossierIndexable, themeIndexable, timelinePeriodIndexable } from "@/lib/indexing";
 import { allEntries, letterSlugs } from "@/lib/ledger";
 
 export const BASE_URL = SITE_URL;
@@ -34,12 +35,12 @@ const SITE_SHELL_AT = "2026-08-14";
 // to advance this signal even when the surviving URLs have older lastmods.
 export const SITEMAP_GROUP_LAST_MODIFIED: Record<SitemapGroupId, string> = {
   core: "2026-08-27",
-  "country-dossiers": "2026-08-22",
-  "country-chronicles": "2026-08-22",
-  timelines: "2026-08-22",
-  themes: "2026-09-22",
+  "country-dossiers": "2026-11-09",
+  "country-chronicles": "2026-11-09",
+  timelines: "2026-11-09",
+  themes: "2026-11-09",
   comparisons: "2026-09-22",
-  rankings: "2026-08-14",
+  rankings: "2026-11-09",
   commodities: "2026-08-14",
 };
 
@@ -124,6 +125,7 @@ function countryEntries(kind: "dossier" | "chronicle"): MetadataRoute.Sitemap {
     const historyUpdated = (published && history.updated) || undefined;
 
     if (kind === "dossier") {
+      if (!dossierIndexable(country.code)) continue;
       const dossierUpdated = getDossier(country.code)?.updated || undefined;
       const dossierLastMod =
         [historyUpdated, dossierUpdated].filter(Boolean).sort().at(-1) ?? CORPUS_AT;
@@ -135,7 +137,7 @@ function countryEntries(kind: "dossier" | "chronicle"): MetadataRoute.Sitemap {
       continue;
     }
 
-    if (!published) continue;
+    if (!published || !chronicleIndexable(country.code)) continue;
     entries.push({
       url: abs(routes.chronicle(country.code)),
       lastModified: historyUpdated ?? CORPUS_AT,
@@ -151,7 +153,7 @@ function timelineEntries(): MetadataRoute.Sitemap {
       url: abs("/timeline"),
       lastModified: CORPUS_AT,
     },
-    ...allPeriods().map((period) => ({
+    ...allPeriods().filter((period) => timelinePeriodIndexable(period.slug)).map((period) => ({
       url: abs(`/timeline/${period.slug}`),
       lastModified: CORPUS_AT,
     })),
@@ -164,7 +166,7 @@ function themeEntries(): MetadataRoute.Sitemap {
       url: abs("/themes"),
       lastModified: CORPUS_AT,
     },
-    ...allThemes().map((theme) => ({
+    ...allThemes().filter((theme) => themeIndexable(theme.slug)).map((theme) => ({
       url: abs(`/themes/${theme.slug}`),
       lastModified: CORPUS_AT,
     })),

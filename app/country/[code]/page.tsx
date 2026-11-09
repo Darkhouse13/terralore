@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NOINDEX, dossierIndexable } from "@/lib/indexing";
 import { notFound } from "next/navigation";
 import { getCountry, allCodes } from "@/lib/countries";
 import { getDossier } from "@/lib/domains";
@@ -58,6 +59,7 @@ export async function generateMetadata({
   return {
     title: rankClause ? `${meta.name} — GDP rank, population & sourced data` : meta.name,
     description,
+    ...(dossierIndexable(code) ? {} : NOINDEX),
     alternates: { canonical: path, types: mdTwinTypes(path) },
     openGraph: {
       type: "profile",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NOINDEX, timelinePeriodIndexable } from "@/lib/indexing";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
@@ -75,6 +76,7 @@ export async function generateMetadata({
       `what happened in ${lowerLabel(period.label)}`,
       "global chronology",
     ],
+    ...(timelinePeriodIndexable(period.slug) ? {} : NOINDEX),
     alternates: { canonical: path },
     openGraph: {
       type: "website",
