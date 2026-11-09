@@ -45,7 +45,7 @@ reads this file, does the single highest-leverage next action, logs it here.
 
 1. Each iteration: Bing query/page stats (GetQueryStats/GetPageStats) + GSC 28d — Bing is
    the live channel. (Google-only noindex live 2026-11-09; 423 URLs re-pinged via IndexNow.)
-4. Off-site links: user chose ONLY the IG/FB bio link (2026-11-09) — drafted, user posts.
+4. Off-site links: the IG/FB bio link to terralore.co has been there for a long time (user, 2026-11-09) — not a lever.
    Show HN / subreddits / teachers declined for now; don't re-propose before ~2026-12.
 5. "Why" pages per reel (docs/seo/keywords.md Pattern 1: weakest SERPs, ~40 reels
    with real demand) — hold until the index starts recovering, so the site
