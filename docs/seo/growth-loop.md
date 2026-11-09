@@ -39,6 +39,8 @@ reads this file, does the single highest-leverage next action, logs it here.
   (user-approved wording: AI-assisted draft, edited by Hamza Bentaieb, sources enforced
   by the build, corrections to ledger@terralore.co).
 
+## Next check: 2026-11-12 (Bing + GSC stats; until then idle ticks are no-ops)
+
 ## Pending (ranked)
 
 1. Each iteration: Bing query/page stats (GetQueryStats/GetPageStats) + GSC 28d — Bing is
