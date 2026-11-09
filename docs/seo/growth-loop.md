@@ -37,9 +37,8 @@ reads this file, does the single highest-leverage next action, logs it here.
 
 ## Pending (ranked)
 
-1. Deploy the cut → resubmit sitemap in GSC → IndexNow ping for the 95 URLs.
-2. IndexNow the Google-noindexed URLs so Bing recrawls with the new tags; then track Bing
-   query stats each iteration (GetQueryStats/GetPageStats) — Bing is the live channel.
+1. Each iteration: Bing query/page stats (GetQueryStats/GetPageStats) + GSC 28d — Bing is
+   the live channel. (Google-only noindex live 2026-11-09; 423 URLs re-pinged via IndexNow.)
 3. Visible editorial signals on the 70 kept chronicles (editor/reviewed line,
    "how this was made") — only claim review that is actually done.
 4. Off-site links: drafts for the user (Show HN retry, IG/FB bio link, history
