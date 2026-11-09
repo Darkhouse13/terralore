@@ -35,14 +35,16 @@ reads this file, does the single highest-leverage next action, logs it here.
   chronicles at positions 4–7. So the cut is now **Google-only**: `NOINDEX` emits
   `robots: index,follow` + `googlebot: noindex,follow`. Bing keeps everything.
 
+- 2026-11-09 — **"How this chronicle was made"** line on every chronicle footer
+  (user-approved wording: AI-assisted draft, edited by Hamza Bentaieb, sources enforced
+  by the build, corrections to ledger@terralore.co).
+
 ## Pending (ranked)
 
 1. Each iteration: Bing query/page stats (GetQueryStats/GetPageStats) + GSC 28d — Bing is
    the live channel. (Google-only noindex live 2026-11-09; 423 URLs re-pinged via IndexNow.)
-3. Visible editorial signals on the 70 kept chronicles (editor/reviewed line,
-   "how this was made") — only claim review that is actually done.
-4. Off-site links: drafts for the user (Show HN retry, IG/FB bio link, history
-   subreddits/teachers). Never post publicly myself.
+4. Off-site links: user chose ONLY the IG/FB bio link (2026-11-09) — drafted, user posts.
+   Show HN / subreddits / teachers declined for now; don't re-propose before ~2026-12.
 5. "Why" pages per reel (docs/seo/keywords.md Pattern 1: weakest SERPs, ~40 reels
    with real demand) — hold until the index starts recovering, so the site
    isn't growing while Google re-evaluates it.

@@ -831,7 +831,18 @@ function ChronicleFooter({
         </nav>
       )}
 
-      <p className="mt-10 font-mono text-[10px] leading-relaxed text-umber">
+      {/* How it was made — Google asks AI-assisted pages to say so
+          (docs/seo/growth-loop.md, wording approved 2026-11-09). */}
+      <p className="mt-10 font-sans text-[13px] leading-relaxed text-basalt">
+        <span className="font-semibold">How this chronicle was made.</span> Researched and drafted
+        with AI assistance, edited by Hamza Bentaieb. Every event cites its source; the build
+        rejects any claim whose source does not resolve. Found an error?{" "}
+        <a href="mailto:ledger@terralore.co" className="text-umber-deep underline underline-offset-2">
+          ledger@terralore.co
+        </a>
+      </p>
+
+      <p className="mt-4 font-mono text-[10px] leading-relaxed text-umber">
         The chronicle of {meta.name} · {SITE_NAME} · last verified{" "}
         <time dateTime={history.updated}>{formatDate(history.updated)}</time>. Terralore publishes a
         nation&rsquo;s chapters only once each claim can be traced to a reliable source.
